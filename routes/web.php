@@ -57,3 +57,7 @@ Route::get('/internet-banking','App\Http\Controllers\InternetBankingController@i
 Route::get('/debit-card','App\Http\Controllers\DebitCardController@index');
 
 Route::get('/credit-card','App\Http\Controllers\CreditCardController@index');
+
+Route::get('/ecommerce','App\Http\Controllers\EcommerceController@index');
+
+Route::get('/sms-alert','App\Http\Controllers\SMSAlertController@index');
