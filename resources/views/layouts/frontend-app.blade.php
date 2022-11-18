@@ -26,6 +26,7 @@
             font-family: 'Sora', sans-serif;
             background-color: #ffffff;
             font-size: 14px;
+            color: #2e2e2e !important;
         }
         .menu > .nav-item {            
             text-transform: uppercase !important;
@@ -52,6 +53,9 @@
 
         .space-20 {
             height: 20px;
+        }
+        .space-29 {
+            height: 29px;
         }
         .space-30 {
             height: 30px;

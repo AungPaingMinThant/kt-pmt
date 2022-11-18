@@ -20,4 +20,15 @@
 		</div>
 	</div>
 @endif
+
+@if($page == 'prepaid')
+	<div class="row">
+		<div class="col-md-4 tag_line">
+			<p style="font-size: 19px;">Enjoy Hassle-free payment with AYA VISA reloadable Prepaid Card</p>
+		</div>
+		<div class="col-md-8 tag_desc">
+			<p>You do not have bank account with AYA but want to use the card to enjoy Hassle-free payment? Get AYA VISA reloadable Prepaid Card that widely accepted at merchants worldwide.</p>
+		</div>
+	</div>
+@endif
 <div class="space-40"></div>
