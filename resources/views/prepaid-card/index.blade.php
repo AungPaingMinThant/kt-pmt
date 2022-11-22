@@ -102,13 +102,13 @@
 	.statment_enquiry {
 		background-image: url('./images/prepaid/statement_inquiry.png');
 		background-size: cover;
-		background-position: center;
+		background-position: left center;
 		border-radius: 0px 0px 25px 25px;
 	}
 	.card_block_termination {
 		background-image: url('./images/prepaid/card_block_termination.png');
 		background-size: cover;
-		background-position: center;
+		background-position: left center;
 		border-radius: 0px 0px 25px 25px;
 	}
 	@media (min-width: 768px){
@@ -151,9 +151,11 @@
 		    padding: 40px 50px 20px 50px !important;
 		}
 		.statment_enquiry {
+			background-position: center;
 			border: 2px solid #4b4c4c;
 		}
 		.card_block_termination {
+			background-position: center;
 			border: 2px solid #a02225;
 		}
 	}
@@ -230,64 +232,74 @@
 						<div class="col-md-12">
 							<div class="row">
 								<div class="col-md-6 fee_charge_inner_div">
-									<p class="fee_title">Card Validity</p>
-									<p class="fee_desc">5 years</p>
+									<p class="fee_title">Annual Fee</p>
+									<p class="fee_desc">Free</p>
 								</div>
 								<div class="col-md-6 fee_charge_inner_div">
-									<p class="fee_title">Currency</p>
-									<p class="fee_desc">MMK, USD, EURO, SGD</p>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-6 fee_charge_inner_div">
-									<p class="fee_title">Card Activation</p>
-									<p class="fee_desc">AYA Bank Branches</p>
-								</div>
-								<div class="col-md-6 fee_charge_inner_div">
-									<p class="fee_title">POS Amount Limit</p>
-									<p class="fee_desc">Up To Avaliable Amount</p>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-6 fee_charge_inner_div">
-									<p class="fee_title">Minimum Reload Amount</p>
+									<p class="fee_title">Card Fees</p>
 									<p class="fee_desc">10,000 MMK</p>
-									<p class="fee_desc">100 USD</p>
-									<p class="fee_desc">100 EURO</p>
-									<p class="fee_desc">100 SGD</p>
-								</div>
-								<div class="col-md-6 fee_charge_inner_div">
-									<p class="fee_title">Maximum Card Balance</p>
-									<p class="fee_desc">15,000,000 MMK</p>
-									<p class="fee_desc">10,000 USD</p>
-									<p class="fee_desc">8,500 EURO</p>
-									<p class="fee_desc">12,000 SGD</p>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-md-6 fee_charge_inner_div">
-									<p class="fee_title">Minimum Card Balance</p>
-									<p class="fee_desc">1,000 MMK</p>
-									<p class="fee_desc">1 USD</p>
-									<p class="fee_desc">1EURO</p>
-									<p class="fee_desc">1 SGD</p>
+									<p class="fee_title">Card Lost/Damage/Reissue Fees</p>
+									<p class="fee_desc">10,000 MMK</p>
 								</div>
 								<div class="col-md-6 fee_charge_inner_div">
-									<p class="fee_title">ATM Withdrawal Limit (Oversea Transaction)</p>
-									<p class="fee_desc">2,000,000 MMK</p>
-									<p class="fee_desc">1,050 USD</p>
-									<p class="fee_desc">850 EURO</p>
-									<p class="fee_desc">1,400 SGD</p>
-									<p class="fee_desc">Other - Amount equivalent to 2,000,000 MMK per day</p>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-6 fee_charge_inner_div">
-									<p class="fee_title">Transaction Limit</p>
+									<p class="fee_title">Card Early Termination / Cancellation Fee</p>
 									<p class="fee_desc">NIL</p>
 								</div>
+							</div>
+							<div class="row">
 								<div class="col-md-6 fee_charge_inner_div">
-									
+									<p class="fee_title">Top up Fees/ Reload Fees :</p>
+									<p class="fee_desc">&nbsp;</p>
+								</div>
+								<div class="col-md-6 fee_charge_inner_div">
+									<p class="fee_title">Cash Top up and Account Transfer ( MMK )</p>
+									<p class="fee_desc">2,000 MMK</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6 fee_charge_inner_div">
+									<p class="fee_title">Cash Top up Fees - Non-MMK<br>( USD ,SGD ,EURO )</p>
+									<p class="fee_desc">0.80%</p>
+								</div>
+								<div class="col-md-6 fee_charge_inner_div">
+									<p class="fee_title">Account Transfer/Cheque Top up Fees - Non-MMK<br>( USD ,SGD ,EURO )</p>
+									<p class="fee_desc">USD 2</p>
+									<p class="fee_desc">SGD 2</p>
+									<p class="fee_desc">EURO 2</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6 fee_charge_inner_div">
+									<p class="fee_title">PIN Reissue Fees</p>
+									<p class="fee_desc">1,000 MMK</p>
+								</div>
+								<div class="col-md-6 fee_charge_inner_div">
+									<p class="fee_title">POS Transactions Fees</p>
+									<p class="fee_desc">Free</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6 fee_charge_inner_div">
+									<p class="fee_title">Online Transaction Fees</p>
+									<p class="fee_desc">Free</p>
+								</div>
+								<div class="col-md-6 fee_charge_inner_div">
+									<p class="fee_title">ATM Withdrawal Fees</p>
+									<p class="fee_desc">Overseas bank charges (per transaction)</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6 fee_charge_inner_div">
+									<p class="fee_title">Balance Inquiry</p>
+									<p class="fee_desc">Free</p>
+								</div>
+								<div class="col-md-6 fee_charge_inner_div">
+									<p class="fee_title">Statement Request fee</p>
+									<p class="fee_desc">Free</p>
 								</div>
 							</div>
 						</div>
@@ -335,10 +347,10 @@
 					<div class="row statment_enquiry">
 						<div class="col-md-3"></div>
 						<div class="col-md-9">
-							<div class="space-40"></div>
+							<div class="space-30"></div>
 							<p style="font-weight: 700;">Statement Enquiry</p>
 							<p>Visit Nearest branches or Email to <a href="mailto:support.card@ayabank.com">support.card@ayabank.com</a> with cardholder’s name, NRC, and card number.</p>
-							<div class="space-40"></div>
+							<div class="space-29"></div>
 						</div>
 					</div>
 
@@ -366,7 +378,7 @@
 				<div class="col-12 text-center">
 					<h4 style="font-weight: 500;color: #000;">Forgot your card PIN?</h4>
 					<p>You can reset / change your PIN easily via online.</p>
-					<a target="_blank" href="{{ url('/file/cardservices/Reset Pin for Card.docx') }}">
+					<a target="_blank" href="#">
 						<button class="btn" style="background-color: #ae071d;color: #fff;font-weight: 500;padding: 15px 25px;border: #ae071d;margin-bottom: 2rem;">
 							Reset PIN
 						</button>
@@ -394,7 +406,7 @@
 							</h2>
 							<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
 								<div class="accordion-body">
-									<p>A prepaid card allows you to purchase items in-store and online in both domestic or in overseas without cash, credit card, or a bank account, and use the money you load in advance. It can be loaded or refilled at any of AYA Branches and via m-banking , i-banking, AYA Pay appls applications or AYA Pay agents.</p>
+									<p>A prepaid card allows you to purchase items in-store and online in both domestic or overseas without cash, credit card, or a bank account, and use the money you load in advance. It can be loaded or refilled at any of AYA Branches and via m-banking , i-banking, AYA Pay applications or AYA Pay agents.</p>
 								</div>
 							</div>
 						</div>
@@ -407,10 +419,10 @@
 							<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
 								<div class="accordion-body">
 									<p>
-										If you are 18 years old or above, you can apply at nearest branches with your NRC. Visa Prepaid card can be used up to four currency currencies: MMK, USD, EURO, SGD.
+										If you are 18 years old or above, you can apply at nearest branches with your NRC. Visa Prepaid card can be used up to four currencies: MMK, USD, EURO, SGD.
 									</p>
 									<p>
-										It can also be applied online at link <a href="https://prepaidcard.ayabank.com/" target="_blank">https://prepaidcard.ayabank.com/</a> and select the branch to collect the card. Card fees can be charged at MMK 10,000 Kyats.
+										It can also be applied online at link <a href="https://prepaidcard.ayabank.com/" target="_blank">https://prepaidcard.ayabank.com/</a> and select the branch to collect the card. Card fees can be charged at MMK 10,000.
 									</p>
 								</div>
 							</div>
