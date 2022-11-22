@@ -1,11 +1,7 @@
 @extends('layouts.frontend-app')
 
 @section('title', 'mBanking – AYA Bank')
-<style>
-	p {
-		font-weight: 200;
-	}
-</style>
+
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">

@@ -2,7 +2,7 @@
 @if($page == 'mobilebanking')
 	<div class="row">
 		<div class="col-md-4 tag_line">
-			<p style="font-size: 20px;font-weight: 400;">Bank from your mobile anytime, anywhere</p>
+			<p style="font-size: 20px;">Bank from your mobile anytime, anywhere</p>
 		</div>
 		<div class="col-md-8 tag_desc">
 			<p>AYA Mobile Banking will allow you manage your money easily and securely at your convenient time and place. You can manage your accounts and credit cards, transfer money and pay bills at ease with a few simple steps. Discover how banking can be made quick and safe!</p>

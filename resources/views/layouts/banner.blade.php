@@ -93,9 +93,9 @@
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
-					<span style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;position: absolute;top: 156px;right: 0;">Designed to make banking</span>
-					<span style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;color: #a02226;position: absolute;top: 193px;right: 0;">simple, faster and</span>
-					<span style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;color: #a02226;position: absolute;top: 230px;right: 0;">more secure</span>
+					<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;position: absolute;top: 156px;right: 0;">Designed to make banking</p>
+					<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;color: #a02226;position: absolute;top: 193px;right: 0;">simple, faster and</p>
+					<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;color: #a02226;position: absolute;top: 230px;right: 0;">more secure</p>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
 					<p></p>
@@ -104,9 +104,9 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;">
-						<span style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;">Designed to make banking</span>
-						<span style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;color: #a02226;">simple, faster and</span>
-						<span style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;color: #a02226;">more secure</span>
+						<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;">Designed to make banking</p>
+						<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;color: #a02226;">simple, faster and</p>
+						<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;color: #a02226;">more secure</p>
 					</div>
 					
 				</div>
@@ -116,7 +116,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text" style="margin: 1.5rem 0;font-weight: 400">HOME&nbsp;
+			<p class="bread_crumb_text" style="margin: 1.5rem 0;">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ONLINE PAYMENT SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
