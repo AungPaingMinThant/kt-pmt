@@ -167,7 +167,7 @@
 
 				<div class="row">
 					<div class="col-md-12">
-						<h3 style="font-weight: 500;color: #000;margin-bottom: 10px;">Fess and Charges</h3>
+						<h3 style="font-weight: 500;color: #000;margin-bottom: 10px;">Fees and Charges</h3>
 						<p style="color: #1d1d1f;margin-bottom: 30px;"><a class="credit_fee_charge" style="color: #1d1d1f;text-decoration: underline;cursor: pointer;">Click here</a><i class="menu-icon tf-icons bx bx-chevron-down annual_fee_chevron"></i></p>
 					</div>
 					<div class="row fees_charge_div" style="display: none;">

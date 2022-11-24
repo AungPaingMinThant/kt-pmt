@@ -229,7 +229,7 @@
 				<div class="space-20"></div>
 				<div class="row">
 					<div class="col-md-12 text-center">
-						<h3 style="color: #343434;font-weight: 600;">FAQs</h3>
+						<h3 style="color: #343434;font-weight: 600;">Frequently Asked Questions</h3>
 					</div>
 				</div>
 				<div class="space-20"></div>

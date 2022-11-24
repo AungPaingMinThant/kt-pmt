@@ -450,7 +450,11 @@
 				<div class="col-12 text-center">
 					<h4 style="font-weight: 500;color: #000;">Forgot your card PIN?</h4>
 					<p>You can reset / change your PIN easily via online.</p>
+<<<<<<< Updated upstream
 					<a target="_blank" href="{{ url('/reset-pin') }}">
+=======
+					<a target="_blank" href="#">
+>>>>>>> Stashed changes
 						<button class="btn" style="background-color: #ae071d;color: #fff;font-weight: 500;padding: 15px 25px;border: #ae071d;margin-bottom: 2rem;">
 							Reset PIN
 						</button>
@@ -476,7 +480,7 @@
 
 								<div class="space-40"></div>
 								
-								<a target="_blank" href="{{ url('/file/cardservices/Debit Card E-commerce Registration Form.png') }}">
+								<a target="_blank" href="#">
 									<button class="btn" style="background-color: #ae071d;color: #fff;font-weight: 500;padding: 15px 25px;border: #ae071d;margin-bottom: 2rem;">
 										Register Now
 									</button>
@@ -500,7 +504,7 @@
 				<div class="space-20"></div>
 				<div class="row">
 					<div class="col-md-12 text-center">
-						<h3 style="color: #343434;font-weight: 600;">FAQs</h3>
+						<h3 style="color: #343434;font-weight: 600;">Frequently Asked Questions</h3>
 					</div>
 				</div>
 				<div class="space-20"></div>
