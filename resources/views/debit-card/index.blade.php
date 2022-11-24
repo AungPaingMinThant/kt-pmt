@@ -450,11 +450,7 @@
 				<div class="col-12 text-center">
 					<h4 style="font-weight: 500;color: #000;">Forgot your card PIN?</h4>
 					<p>You can reset / change your PIN easily via online.</p>
-<<<<<<< Updated upstream
 					<a target="_blank" href="{{ url('/reset-pin') }}">
-=======
-					<a target="_blank" href="#">
->>>>>>> Stashed changes
 						<button class="btn" style="background-color: #ae071d;color: #fff;font-weight: 500;padding: 15px 25px;border: #ae071d;margin-bottom: 2rem;">
 							Reset PIN
 						</button>
