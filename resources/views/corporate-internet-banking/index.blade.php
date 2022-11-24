@@ -279,9 +279,14 @@
 									</ul>
 								</li>
 							</ul>
-							<ul style="list-style: square;">
-								<li><p style="font-weight: 500;">Customized Authorization matrix</p></li>
-								<li><p style="font-weight: 500;">Allow Unlimited users</p></li>
+							<ul style="list-style: square;margin-top: -10px;">
+								<li><p style="font-weight: 500;">Dual Control</p></li>
+								<li><p style="font-weight: 500;">Allow<span style="margin-left: 30px;">2 Makers</span></p></li>
+							</ul>
+							<ul style="list-style: none;margin-top: -30px;">
+								<li><p style="font-weight: 500;"><span style="color: transparent;user-select: none;">Allow</span><span style="margin-left: 30px;">1 Checker</span></p></li>
+							</ul>
+							<ul style="list-style: square;margin-top: -10px;">
 								<li><p style="font-weight: 500;">Registration Fees: FOC</p></li>
 								<li><p style="font-weight: 500;">Monthly Fees: FOC</p></li>
 								<li><p style="font-weight: 500;">Token Fees: <br>20,000 MMK (Per Token)</p></li>
@@ -310,14 +315,9 @@
 									</ul>
 								</li>
 							</ul>
-							<ul style="list-style: square;margin-top: -10px;">
-								<li><p style="font-weight: 500;">Dual Control</p></li>
-								<li><p style="font-weight: 500;">Allow<span style="margin-left: 30px;">2 Makers</span></p></li>
-							</ul>
-							<ul style="list-style: none;margin-top: -30px;">
-								<li><p style="font-weight: 500;"><span style="color: transparent;user-select: none;">Allow</span><span style="margin-left: 30px;">1 Checker</span></p></li>
-							</ul>
-							<ul style="list-style: square;margin-top: -10px;">
+							<ul style="list-style: square;">
+								<li><p style="font-weight: 500;">Customized Authorization matrix</p></li>
+								<li><p style="font-weight: 500;">Allow Unlimited users</p></li>
 								<li><p style="font-weight: 500;">Registration Fees: FOC</p></li>
 								<li><p style="font-weight: 500;">Monthly Fees: FOC</p></li>
 								<li><p style="font-weight: 500;">Token Fees: <br>20,000 MMK (Per Token)</p></li>
