@@ -77,9 +77,35 @@
 	.ecommerce_registration_bg {
 		background-image: url('./images/MPU_ecommerce_registration.jpg');
 		background-size: cover;
+		background-position: center;
 	}
 	.ecommerce_registration_container {
 		padding: 40px 0px 40px 100px !important;
+	}
+	.fee_charge_inner_div {
+		margin-bottom: 20px;
+	}
+	.fee_title {
+		color: #000;
+		margin-bottom: 0px;
+		font-weight: 500;
+	}
+	.fee_desc {
+		color: #5c5c5c;
+		margin-bottom: 0px;
+	}
+	.fees_charge_div, .annual_fee_div, .card_feature_div, .how_to_apply_div, .secured_fee_charge_div {
+		background-color: #fff;
+		border: 2px solid #cccccc;
+		border-radius: 10px;
+		padding: 40px 30px;
+		margin-left: 0px !important;
+		margin-bottom: 30px;
+	}
+	@media (max-width: 1400px) and (min-width: 577px) {
+		.ecommerce_registration_bg {
+			background-position: 30% center;
+		}
 	}
 	@media (min-width: 768px){
 		.col-md-3 {
@@ -209,13 +235,154 @@
 
 				<div class="row">
 					<div class="col-md-12">
-						<h4 style="font-weight: 500;color: #000;margin-bottom: 10px;">Fess and Charges</h4>
-						<p><a href="{{ url('/file/cardservices/Debit Card Fees and Charges and Card features.xlsx') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Click here for fees and charges</a> <i class="menu-icon tf-icons bx bx-chevron-down"></i></p>
+						<div class="row">
+							<h4 style="font-weight: 500;color: #000;margin-bottom: 10px;">Fees and Charges</h4>
+							<p><a class="credit_fee_charge" style="color: #1d1d1f;text-decoration: underline;cursor: pointer;">Click here for fees and charges</a> <i class="menu-icon tf-icons bx bx-chevron-down"></i></p>
+
+							<div class="row fees_charge_div" style="display: none;">
+								<div class="col-md-12">
+									<table class="table table-border">
+										<thead>
+											<tr>
+												<th></th>
+												<th>UPI Debit Card</th>
+												<th>JCB Debit Card</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Annual Fees</td>
+												<td>Free</td>
+												<td>Free</td>
+											</tr>
+											<tr>
+												<td>Card Fees</td>
+												<td>3,000 MMK</td>
+												<td>3,000 MMK</td>
+											</tr>
+											<tr>
+												<td>Initial Deposit</td>
+												<td>1,000 MMK</td>
+												<td>1,000 MMK</td>
+											</tr>
+											<tr>
+												<td>Minimum Balance</td>
+												<td>1,000 MMK</td>
+												<td>1,000 MMK</td>
+											</tr>
+											<tr>
+												<td>Card Lost /Damage / Reissue Fees</td>
+												<td>3,000 MMK</td>
+												<td>3,000 MMK</td>
+											</tr>
+											<tr>
+												<td>Card Early Termination / Cancellation Fee</td>
+												<td>Free</td>
+												<td>Free</td>
+											</tr>
+											<tr>
+												<th colspan="3" style="font-weight: bold;">Cash Withdraw Transactions Fees :</th>
+											</tr>
+											<tr>
+												<td>Cash Withdraw Transactions Fees<br>(Domestic - AYA ATM)</td>
+												<td>Free</td>
+												<td>Free</td>
+											</tr>
+											<tr>
+												<td>Cash Withdraw Transactions Fees<br>(Domestic - Other Bank ATM)</td>
+												<td>Other Bank Charges</td>
+												<td>Other Bank Charges</td>
+											</tr>
+											<tr>
+												<td>Cash Withdraw Transactions Fees<br>(International)</td>
+												<td>Oversea Bank Charges<br>(Per Transaction)</td>
+												<td>Oversea Bank Charges<br>(Per Transaction)</td>
+											</tr>
+											<tr>
+												<td>PIN Reissue Fee</td>
+												<td>1,000 MMK</td>
+												<td>1,000 MMK</td>
+											</tr>
+											<tr>
+												<td>Card FeesPOS Transactions Fees</td>
+												<td>Free</td>
+												<td>Free</td>
+											</tr>
+											<tr>
+												<td>Card FeesOnline Transaction Fees</td>
+												<td>Free</td>
+												<td>Free</td>
+											</tr>
+											<tr>
+												<td>Balance Inquiry</td>
+												<td>Free</td>
+												<td>Free</td>
+											</tr>
+											<tr>
+												<td>Fund Transfer Fee</td>
+												<td>300 MMK Per Transaction</td>
+												<td>300 MMK Per Transaction</td>
+											</tr>
+										</tbody>
+									</table>
+									<p style="color: #a0222c;font-size:12px;font-style: italic;">Note: Cross currency mark-up fees will be applied for foreign transactions</p>
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="space-20"></div>
 					<div class="col-md-12">
-						<h4 style="font-weight: 500;color: #000;margin-bottom: 10px;">Card Features</h4>
-						<p><a href="{{ url('/file/cardservices/Debit Card Fees and Charges and Card features.xlsx') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Learn our Debit Card features here</a> <i class="menu-icon tf-icons bx bx-chevron-down"></i></p>
+						<div class="row">
+							<h4 style="font-weight: 500;color: #000;margin-bottom: 10px;">Card Features</h4>
+							<p><a class="card_feature" style="color: #1d1d1f;text-decoration: underline;cursor: pointer;">Learn our Debit Card features here</a> <i class="menu-icon tf-icons bx bx-chevron-down credit_fee_charge_chevron card_feature_chevron"></i></p>
+
+							<div class="row card_feature_div" style="display: none;">
+								<div class="col-md-12">
+									<div class="row">
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">Card Validity</p>
+											<p class="fee_desc">5 Years</p>
+										</div>
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">Currency</p>
+											<p class="fee_desc">MMK</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">Cash deposit</p>
+											<p class="fee_desc">AYA Bank Branches</p>
+										</div>
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">Late Card Activation</p>
+											<p class="fee_desc">AYA Bank Branches</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">ATM Withdrawal Limit</p>
+											<p class="fee_desc">Domestic Transaction - 1,000,000 MMK Per day</p>
+											<p class="fee_desc">International Transaction - Amount Equivalent to 1,000,000 MMK Per day</p>
+										</div>
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">Fund Transfer</p>
+											<p class="fee_desc">Domestic Transaction - 1,000,000 MMK Per day</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">POS Withdrawal Limit</p>
+											<p class="fee_desc">Domestic Transaction - 5,000,000 MMK Per day</p>
+											<p class="fee_desc">International Transaction - Up To Avaliable Amount</p>
+										</div>
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">Transaction Limit</p>
+											<p class="fee_desc">Not Applicable</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -283,7 +450,7 @@
 				<div class="col-12 text-center">
 					<h4 style="font-weight: 500;color: #000;">Forgot your card PIN?</h4>
 					<p>You can reset / change your PIN easily via online.</p>
-					<a target="_blank" href="{{ url('/file/cardservices/Reset Pin for Card.docx') }}">
+					<a target="_blank" href="{{ url('/reset-pin') }}">
 						<button class="btn" style="background-color: #ae071d;color: #fff;font-weight: 500;padding: 15px 25px;border: #ae071d;margin-bottom: 2rem;">
 							Reset PIN
 						</button>
@@ -432,45 +599,25 @@
 @include('layouts.footer', ['page'=>'mobilebanking'])
 
 <script type="text/javascript">
-	$(".simple_login_div").click(function() {
-		$("#simple_login_mockup").show(500);
-		$("#quick_mockup").hide(500);
-		$("#manage_credit_mockup").hide(500);
-		$("#prepaid_card_mockup").hide(500);
+	$(".credit_fee_charge").click(function(){
+		$(".fees_charge_div").slideToggle();
+		if ($(".credit_fee_charge_chevron").hasClass('bx-chevron-up')) {
+			$(".credit_fee_charge_chevron").removeClass('bx-chevron-up');
+			$(".credit_fee_charge_chevron").addClass('bx-chevron-down');
+		} else {
+			$(".credit_fee_charge_chevron").addClass('bx-chevron-up');
+			$(".credit_fee_charge_chevron").removeClass('bx-chevron-down');
+		}
 	});
-	$(".quick_div").click(function() {
-		$("#simple_login_mockup").hide(500);
-		$("#quick_mockup").show(500);
-		$("#manage_credit_mockup").hide(500);
-		$("#prepaid_card_mockup").hide(500);
-	});
-	$(".manage_credit_div").click(function() {
-		$("#simple_login_mockup").hide(500);
-		$("#quick_mockup").hide(500);
-		$("#manage_credit_mockup").show(500);
-		$("#prepaid_card_mockup").hide(500);
-	});
-	$(".prepaid_card_div").click(function() {
-		$("#simple_login_mockup").hide(500);
-		$("#quick_mockup").hide(500);
-		$("#manage_credit_mockup").hide(500);
-		$("#prepaid_card_mockup").show(500);
-	});
-
-	$(".secure_transaction_div").click(function() {
-		$("#secure_transaction_mockup").show(500);
-		$("#easy_transfer_payment_mockup").hide(500);
-		$("#ATM_withdrawal_mockup").hide(500);
-	});
-	$(".easy_transfer_payment_div").click(function() {
-		$("#secure_transaction_mockup").hide(500);
-		$("#easy_transfer_payment_mockup").show(500);
-		$("#ATM_withdrawal_mockup").hide(500);
-	});
-	$(".ATM_withdrawal_div").click(function() {
-		$("#secure_transaction_mockup").hide(500);
-		$("#easy_transfer_payment_mockup").hide(500);
-		$("#ATM_withdrawal_mockup").show(500);
+	$(".card_feature").click(function(){
+		$(".card_feature_div").slideToggle();
+		if ($(".card_feature_chevron").hasClass('bx-chevron-up')) {
+			$(".card_feature_chevron").removeClass('bx-chevron-up');
+			$(".card_feature_chevron").addClass('bx-chevron-down');
+		} else {
+			$(".card_feature_chevron").addClass('bx-chevron-up');
+			$(".card_feature_chevron").removeClass('bx-chevron-down');
+		}
 	});
 </script>
 

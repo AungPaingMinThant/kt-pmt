@@ -9,7 +9,7 @@
 		text-align: left !important;
 	}
 	.carousel-indicators{
-		left: 87% !important;
+		left: 85% !important;
 		bottom: 50% !important;
 		margin-right: 0 !important;
 		margin-left: 0 !important;
@@ -25,7 +25,7 @@
 		margin-left: 0 !important;
 		width: 100% !important;
 		padding: 15px 0px 15px 0px !important;
-		margin-bottom: -9%;
+		margin-bottom: -7.5%;
 		background-color: #e4e4e4 !important;
 		opacity: 1 !important;
 	}
@@ -64,6 +64,11 @@
 	}
 	.aya_ibanking_fact {
 		padding: 20px 20px;
+	}
+	@media (max-width: 1400px) and (min-width: 577px) {
+		.carousel-indicators{
+			left: 85% !important;
+		}
 	}
 	@media only screen and (max-width: 576px){
 		.need_more_support_section {

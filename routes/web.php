@@ -65,3 +65,7 @@ Route::get('/sms-alert','App\Http\Controllers\SMSAlertController@index');
 Route::get('/prepaid-card','App\Http\Controllers\PrepaidCardController@index');
 
 Route::get('/simple-pay','App\Http\Controllers\SimplePayController@index');
+
+Route::get('/reset-pin','App\Http\Controllers\ResetPinController@index');
+
+Route::get('/corporate-internet-banking','App\Http\Controllers\CorporateInternetBankingController@index');

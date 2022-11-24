@@ -42,4 +42,16 @@
 		</div>
 	</div>
 @endif
+
+@if($page == 'corporate_internet_banking')
+	<div class="row">
+		<div class="col-md-4 tag_line">
+			<p style="font-size: 19px;padding-right: 40px;">Cohesive service channel to manage all your accounts and transactions</p>
+		</div>
+		<div class="col-md-8 tag_desc">
+			<p>AYA Bank’s Corporate Internet Banking (CIB) allows users to conduct wide variety of financial transaction via internet securely from anywhere at any time.</p>
+			<p>Experience the new Corporate Internet Banking facility with fast, simple, and reliable system for a better day; avoiding the ques and delays of traditional ways.</p>
+		</div>
+	</div>
+@endif
 <div class="space-40"></div>

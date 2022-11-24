@@ -77,7 +77,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-xs-12" style="padding-bottom: 20px;padding-top: -10px;">
+            <div class="col-md-3 col-xs-12" style="padding-bottom: 20px;padding-top: -10px;padding-right: 0px;">
                 <h3 class="footer_like_title">Newsletter</h3>
                 <p class="footer_first_link_p">Get special offers & promotion.</p>
                 

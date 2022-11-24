@@ -49,6 +49,7 @@
             -webkit-box-shadow: 10px 8px 10px 6px rgba(0,0,0,0.09);
             -moz-box-shadow: 10px 8px 10px 6px rgba(0,0,0,0.09);
             box-shadow: 10px 8px 10px 6px rgba(0,0,0,0.09);
+            border: 1px solid #fff;
         }
 
         .space-20 {

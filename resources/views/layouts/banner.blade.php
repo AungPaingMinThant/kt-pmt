@@ -47,11 +47,28 @@
 		height: 400px;
 		background-position: center right;
 	}
+	.cib_banner{
+		background-image:url('./images/corporate_internet_banking/KV.jpg');
+		background-size: cover;
+		height: 400px;
+		background-position: center right;
+	}
 	.bread_crumb_text {
 		font-size: 11px;
 		color: #666 !important;
 	}
-	@media  only screen and (max-width: 576px) {
+	@media (max-width: 1400px) and (min-width: 577px) {
+		.creditcard_banner{
+			background-position: 60% center;
+		}
+		.creditcard_banner > .container {
+			max-width: 1160px !important;
+		}
+		.cib_banner{
+			background-position: 80% center;
+		}
+	}
+	@media only screen and (max-width: 576px) {
 		.mbanking_banner {
 			background-image:url('./images/MobileBanking_KV_mobile.jpg');
 		}
@@ -83,6 +100,10 @@
 			background-image:url('./images/simplepay/mobile_KV.jpg');
 			background-position: 60% center;
 		}
+		.cib_banner{
+			background-image:url('./images/corporate_internet_banking/mobile_KV.jpg');
+			background-position: 60% center;
+		}
 		.bread_crumb_text {
 			font-size: 10px;
 		}
@@ -93,9 +114,11 @@
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
-					<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;position: absolute;top: 156px;right: 0;">Designed to make banking</p>
-					<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;color: #a02226;position: absolute;top: 193px;right: 0;">simple, faster and</p>
-					<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;color: #a02226;position: absolute;top: 230px;right: 0;">more secure</p>
+					<div style="position: absolute;top: 156px;right: 0;">
+						<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;">Designed to make banking</p>
+						<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;color: #a02226;">simple, faster and</p>
+						<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;color: #a02226;">more secure</p>
+					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
 					<p></p>
@@ -250,7 +273,7 @@
 	<div class="ecommerce_banner" style="">
 		<div class="container">
 			<div class="row d-none d-sm-block">
-				<div class="col-md-6 text-right" style="position: relative;">
+				<div class="col-md-7 text-right" style="position: relative;">
 					<div class="" style="position: absolute;top: 100px;left: 0;">
 						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 30px;">We will provide</p>
 						<p style="font-size: 70px;font-weight: 400;margin-bottom: 0;line-height: 72px;color: #a02226;">
@@ -263,7 +286,7 @@
 					</div>
 					
 				</div>
-				<div class="col-md-6" style="text-align: right;">
+				<div class="col-md-5" style="text-align: right;">
 					<p></p>
 				</div>
 			</div>
@@ -390,10 +413,8 @@
 		<div class="row d-none d-sm-block">
 			<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 				<div style="position: absolute;top: 156px;right: 75px;">
-					<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;color: #a02226;">Buy big, pay by bits</p>
-					<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;color: #a02226;">
-						
-					</p>
+					<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;"><span style="color: #a02226;">Buy big,</span> pay by bits</p>
+					<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;"></p>
 					<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
 						
 					</p>
@@ -406,7 +427,7 @@
 		<div class="row d-block d-sm-none">
 			<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 				<div style="position: absolute;top: 45px;left: 25px;">
-					<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;color: #a02226;">Buy big, pay by bits</p>
+					<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;color: #a02226"><span style="color: #a02226;">Buy big, </span>pay by bits</p>
 					<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;color: #a02226;"></p>
 					<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"></p>
 				</div>
@@ -422,6 +443,59 @@
 			<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
 			<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 			<span style="color: #a02226;">SIMPLE PAY</span>
+		</p>
+	</div>
+</div>
+@endif
+
+@if($page == 'reset')
+<div style="background-color: #f5f5f7;">
+	<div class="container">
+		<p class="bread_crumb_text" style="margin: 1.5rem 0;">HOME&nbsp;
+			<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
+			<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
+			<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+			<span style="color: #a02226;">RESET PIN</span>
+		</p>
+	</div>
+</div>
+@endif
+
+@if($page == 'corporate_internet_banking')
+<div class="cib_banner" style="">
+	<div class="container">
+		<div class="row d-none d-sm-block">
+			<div class="col-md-6 text-right" style="text-align: left;position: relative;">
+				<div style="position: absolute;top: 156px;right: 130px;">
+					<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Your business's financial transactions <span style="color: #a02226;">at your finger tips</span></p>
+					<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;"></p>
+					<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
+						
+					</p>
+				</div>
+			</div>
+			<div class="col-md-6" style="text-align: right;">
+				<p></p>
+			</div>
+		</div>
+		<div class="row d-block d-sm-none">
+			<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+				<div style="position: absolute;top: 45px;left: 25px;right: 55px;">
+					<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;">Your business's financial transactions <span style="color: #a02226;">at your finger tips</span></p>
+					<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"></p>
+					<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div style="background-color: #f5f5f7;">
+	<div class="container">
+		<p class="bread_crumb_text" style="margin: 1.5rem 0;">HOME&nbsp;
+			<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
+			<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+			<span style="color: #a02226;">CORPORATE INTERNET BANKING</span>
 		</p>
 	</div>
 </div>

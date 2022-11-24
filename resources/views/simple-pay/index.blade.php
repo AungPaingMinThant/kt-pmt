@@ -2,33 +2,6 @@
 
 @section('title', 'Simple Pay – AYA Bank')
 <style type="text/css">
-    .nav-align-top .nav-tabs .nav-item:first-child .nav-link {
-    	border-top:  none;
-    	border-left: none;
-    	border-right: none;
-    	box-shadow: none;
-    }
-    .tab_title > span {
-    	padding: 20px 0px;
-    }
-    .nav-align-top .nav-tabs .tab_title.active span {
-    	border-bottom: 5px solid #a02226;
-    }
-    .nav-pills .tab_title.active, .nav-pills .tab_title.active:hover, .nav-pills .tab_title.active:focus {
-    	background-color: transparent !important;
-	    color: #000 !important;
-	    box-shadow: none !important;
-	    border-bottom: 5px solid #ae002c;
-	    border-radius: 0;
-	    font-weight: 500;
-    }
-    .nav .tab_title:hover, .nav .tab_title:focus {
-    	color: #000 !important;
-    }
-    .nav-pills .tab_title {
-    	font-weight: 400;
-    	font-size: 16px;
-    }
     .benefit_icon_1 {
 		width: 40% !important;
 		margin-bottom: 30px;
@@ -52,31 +25,6 @@
 		color: #000;
 		margin-bottom: 5px;
 	}
-	.mpu_jbc_tab {
-		background-image: url('./images/MPU_JCB_card.png');
-		background-size: cover;
-		background-repeat: no-repeat;
-		height: 520px;
-		background-position: center left;
-	}
-	.mpu_upi_tab {
-		background-image: url('./images/JBC_UPI_card.png');
-		background-size: cover;
-		background-repeat: no-repeat;
-		height: 520px;
-		background-position: center left;
-	}
-	.tab_data_row {
-		width: 100%;
-	}
-	.tab_h2, .tab_upi_h2 {
-		font-weight: 800;
-		position: absolute;
-		top: 230px;
-	}
-	.how_to_apply_icon {
-		width: 80%;
-	}
 	.how_to_apply_outer_section {
 		background-image: url('./images/simplepay/how_to_apply_bg.jpg');
 		background-size: cover;
@@ -84,38 +32,6 @@
 	}
 	.prepaid_how_to_apply_section {
 		padding: 40px 50px 60px 110px !important;
-	}
-	.fee_charge_inner_div {
-		margin-bottom: 20px;
-	}
-	.fee_title {
-		color: #000;
-		margin-bottom: 0px;
-		font-weight: 500;
-	}
-	.fee_desc {
-		color: #5c5c5c;
-		margin-bottom: 0px;
-	}
-	.fees_charge_div{
-		background-color: #fff;
-		border: 2px solid #cccccc;
-		border-radius: 10px;
-		padding: 40px 30px;
-		margin-left: 0px !important;
-		margin-bottom: 30px;
-	}
-	.statment_enquiry {
-		background-image: url('./images/prepaid/statement_inquiry.png');
-		background-size: cover;
-		background-position: left center;
-		border-radius: 0px 0px 25px 25px;
-	}
-	.card_block_termination {
-		background-image: url('./images/prepaid/card_block_termination.png');
-		background-size: cover;
-		background-position: left center;
-		border-radius: 0px 0px 25px 25px;
 	}
 	@media (min-width: 768px){
 		.col-md-6 {
@@ -127,27 +43,8 @@
 		    flex: 0 0 auto;
 		    width: 100% !important;
 		}
-		.tab-pane {
-			background-position: -80px -70px;
-		}
-		.tab_data_row {
-			/*width: auto;*/
-		}
-		.tab_h2{
-			top: 380px;
-		}
-		.tab_upi_h2{
-			top: 380px;
-			left: 15%;
-		}
 		.outer_benefit_box {
 			margin-bottom: 10px;
-		}
-		.how_to_apply_icon {
-			width: 100%;
-		}
-		.debit_how_to_apply_section {
-		    padding: 40px 30px 60px 30px !important;
 		}
 		.how_to_apply_outer_section {
 			background-image: none;
@@ -155,14 +52,6 @@
 		}
 		.prepaid_how_to_apply_section {
 		    padding: 40px 50px 20px 50px !important;
-		}
-		.statment_enquiry {
-			background-position: center;
-			border: 2px solid #4b4c4c;
-		}
-		.card_block_termination {
-			background-position: center;
-			border: 2px solid #a02225;
 		}
 		.outer_benefit_box {
 			margin-top: 0px;
@@ -186,13 +75,13 @@
 				<div class="row" >
 					<div class="col-md-7">
 						<div class="row" style="column-gap: 20px;">
-							<div class="col-md-6 outer_benefit_box">
+							<div class="col-md-6 outer_benefit_box why_use_AYA">
 								<div class="row benefit_box">
 									<img src="{{ url('/images/simplepay/simple_pay_icon_1.png') }}" class="img-fluid benefit_icon_1">
 									<p class="solution_text solution_desc">Shop with AYA Credit card at our partner merchants and spreading your payments with SimplePay for low-interest monthly instalment plans that extends up to 12 months.</p>
 								</div>
 							</div>
-							<div class="col-md-6 outer_benefit_box">
+							<div class="col-md-6 outer_benefit_box why_use_AYA">
 								<div class="row benefit_box" >
 									<img src="{{ url('/images/simplepay/simple_pay_icon_2.png') }}" class="img-fluid benefit_icon_2">
 									<p class="solution_text solution_desc">Enjoy greater spending power (150,000 kyats and above) as it will help you for being financially comfortable. </p>
@@ -263,18 +152,5 @@
 </div>
 <div class="space-60"></div>
 @include('layouts.footer', ['page'=>'mobilebanking'])
-
-<script type="text/javascript">
-	$(".credit_fee_charge").click(function(){
-		$(".fees_charge_div").slideToggle();
-		if ($(".credit_fee_charge_chevron").hasClass('bx-chevron-up')) {
-			$(".credit_fee_charge_chevron").removeClass('bx-chevron-up');
-			$(".credit_fee_charge_chevron").addClass('bx-chevron-down');
-		} else {
-			$(".credit_fee_charge_chevron").addClass('bx-chevron-up');
-			$(".credit_fee_charge_chevron").removeClass('bx-chevron-down');
-		}
-	});
-</script>
 
 @endsection('content')

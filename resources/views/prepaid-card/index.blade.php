@@ -2,33 +2,6 @@
 
 @section('title', 'Prepaid Card – AYA Bank')
 <style type="text/css">
-    .nav-align-top .nav-tabs .nav-item:first-child .nav-link {
-    	border-top:  none;
-    	border-left: none;
-    	border-right: none;
-    	box-shadow: none;
-    }
-    .tab_title > span {
-    	padding: 20px 0px;
-    }
-    .nav-align-top .nav-tabs .tab_title.active span {
-    	border-bottom: 5px solid #a02226;
-    }
-    .nav-pills .tab_title.active, .nav-pills .tab_title.active:hover, .nav-pills .tab_title.active:focus {
-    	background-color: transparent !important;
-	    color: #000 !important;
-	    box-shadow: none !important;
-	    border-bottom: 5px solid #ae002c;
-	    border-radius: 0;
-	    font-weight: 500;
-    }
-    .nav .tab_title:hover, .nav .tab_title:focus {
-    	color: #000 !important;
-    }
-    .nav-pills .tab_title {
-    	font-weight: 400;
-    	font-size: 16px;
-    }
     .benefit_icon {
 		width: 30% !important;
 	}
@@ -45,31 +18,6 @@
 	.solution_text {
 		color: #000;
 		margin-bottom: 5px;
-	}
-	.mpu_jbc_tab {
-		background-image: url('./images/MPU_JCB_card.png');
-		background-size: cover;
-		background-repeat: no-repeat;
-		height: 520px;
-		background-position: center left;
-	}
-	.mpu_upi_tab {
-		background-image: url('./images/JBC_UPI_card.png');
-		background-size: cover;
-		background-repeat: no-repeat;
-		height: 520px;
-		background-position: center left;
-	}
-	.tab_data_row {
-		width: 100%;
-	}
-	.tab_h2, .tab_upi_h2 {
-		font-weight: 800;
-		position: absolute;
-		top: 230px;
-	}
-	.how_to_apply_icon {
-		width: 80%;
 	}
 	.how_to_apply_outer_section {
 		background-image: url('./images/prepaid/how_to_apply_bg.jpg');
@@ -137,12 +85,6 @@
 		.outer_benefit_box {
 			margin-bottom: 10px;
 		}
-		.how_to_apply_icon {
-			width: 100%;
-		}
-		.debit_how_to_apply_section {
-		    padding: 40px 30px 60px 30px !important;
-		}
 		.how_to_apply_outer_section {
 			background-image: none;
 			background-color: #f5f5f5;
@@ -184,35 +126,35 @@
 				<div class="space-20"></div>
 				
 				<div class="row" style="column-gap: 20px;">
-					<div class="col-md-4 outer_benefit_box">
+					<div class="col-md-4 outer_benefit_box why_use_AYA">
 						<div class="row benefit_box">
 							<img src="{{ url('/images/prepaid/one_four_currency.png') }}" class="img-fluid benefit_icon">
 							<p style="font-weight: 600;margin-top: 1rem;">One Card – Four Currencies</p>
 							<p class="solution_text solution_desc">AYA World Travel Card offers currency options (MMK, USD, SGD, EURO) to preload onto the card and the default currency is Myanmar Kyats (MMK) and refill at nearest branches and m/i banking and AYA Pay.</p>
 						</div>
 					</div>
-					<div class="col-md-4 outer_benefit_box">
+					<div class="col-md-4 outer_benefit_box why_use_AYA">
 						<div class="row benefit_box">
 							<img src="{{ url('/images/prepaid/manage_your_funds.png') }}" class="img-fluid benefit_icon">
 							<p style="font-weight: 600;margin-top: 1rem;">Manage your funds</p>
 							<p class="solution_text solution_desc">Check balance via i/m banking and AYA Pay or withdraw cash at any ATMs and get local currency. (Charges may apply for each cash withdrawal).</p>
 						</div>
 					</div>
-					<div class="col-md-4 outer_benefit_box">
+					<div class="col-md-4 outer_benefit_box why_use_AYA">
 						<div class="row benefit_box">
 							<img src="{{ url('/images/prepaid/tab_pay_visa_paywave.png') }}" class="img-fluid benefit_icon">
 							<p style="font-weight: 600;margin-top: 1rem;">Tap and Pay with Visa PayWave</p>
 							<p class="solution_text solution_desc">Simply Tap and Go with Visa PayWave, the latest in secure, contactless technology, spend less time at sales counter.</p>
 						</div>
 					</div>
-					<div class="col-md-4 outer_benefit_box">
+					<div class="col-md-4 outer_benefit_box why_use_AYA">
 						<div class="row benefit_box">
 							<img src="{{ url('/images/prepaid/who_can_apply.png') }}" class="img-fluid benefit_icon">
 							<p style="font-weight: 600;margin-top: 1rem;">Who can apply</p>
 							<p class="solution_text solution_desc">Any Citizens and PR, 18 years and above.</p>
 						</div>
 					</div>
-					<div class="col-md-4 outer_benefit_box">
+					<div class="col-md-4 outer_benefit_box why_use_AYA">
 						<div class="row benefit_box">
 							<img src="{{ url('/images/prepaid/security_protection.png') }}" class="img-fluid benefit_icon">
 							<p style="font-weight: 600;margin-top: 1rem;">Security Protection</p>

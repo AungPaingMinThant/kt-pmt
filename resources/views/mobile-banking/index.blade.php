@@ -1,7 +1,25 @@
 @extends('layouts.frontend-app')
 
 @section('title', 'mBanking – AYA Bank')
-
+<style type="text/css">
+	.outer_benefit_box {
+		/*padding: 0px 20px 0px 20px !important;
+		margin-bottom: 20px;*/
+		padding: 20px !important;
+		border: 1px solid #dedede;
+		border-radius: 10px;
+		margin-bottom: 20px;
+		margin-top: 40px;
+	}
+	.why_use_AYA_outer > .col-md-6 {
+		width: 48%;
+	}
+	@media only screen and (max-width: 576px){
+		.why_use_AYA_outer > .col-md-6 {
+			width: 100%;
+		}
+	}
+</style>
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
@@ -21,33 +39,33 @@
 				<div class="space-40"></div>
 				<div class="row">
 					<div class="col-md-7">
-						<div class="row">
-							<div class="col-md-6" style="padding: 20px;">
-								<div class="row why_use_AYA simple_login_div">
+						<div class="row why_use_AYA_outer" style="column-gap: 20px;">
+							<div class="col-md-6 outer_benefit_box why_use_AYA">
+								<div class="row  simple_login_div">
 									<img src="{{ url('/images/simple_login.png') }}" class="img-fluid" style="width: 91px;">
 									<p style="font-weight: 600;margin-top: 1rem;">Simple Login</p>
-									<p style="color: #4e4e4e;">AYA mobile banking app offers you to login using password or Face ID or Touch ID.<Br>&nbsp;</p>
+									<p style="color: #4e4e4e;">AYA mobile banking app offers you to login using password or Face ID or Touch ID.</p>
 								</div>
 							</div>
-							<div class="col-md-6" style="padding: 20px;">
-								<div class="row why_use_AYA quick_div">
+							<div class="col-md-6 outer_benefit_box why_use_AYA">
+								<div class="row quick_div">
 									<img src="{{ url('/images/quick_check_balance.png') }}" class="img-fluid" style="width: 91px;">
 									<p style="font-weight: 600;margin-top: 1rem;">Quickly Check Your Balance</p>
 									<p style="color: #4e4e4e;">You can check your account balances and transaction history on your mobile device with just a finger tap.</p>
 								</div>
 							</div>
-							<div class="col-md-6" style="padding: 20px;">
-								<div class="row why_use_AYA manage_credit_div">
+							<div class="col-md-6 outer_benefit_box why_use_AYA">
+								<div class="row manage_credit_div">
 									<img src="{{ url('/images/manage_credit.png') }}" class="img-fluid" style="width: 91px;">
 									<p style="font-weight: 600;margin-top: 1rem;">Manage Credit</p>
 									<p style="color: #4e4e4e;">Easily check your credit card’s transaction history, balance, limit and make repayments. Mobile app provides convenient card controls to disable your credit card if you've lost/stolen and enable it once you find it.</p>
 								</div>
 							</div>
-							<div class="col-md-6" style="padding: 20px;">
-								<div class="row why_use_AYA prepaid_card_div">
+							<div class="col-md-6 outer_benefit_box why_use_AYA">
+								<div class="row prepaid_card_div">
 									<img src="{{ url('/images/prepaid_cards.png') }}" class="img-fluid" style="width: 91px;">
 									<p style="font-weight: 600;margin-top: 1rem;">Prepaid Cards</p>
-									<p style="color: #4e4e4e;">Simple loading of AYA Visa Prepaid card on mobile app. You can top-up card and make balance enquiry from your mobile banking.<br>&nbsp;<br>&nbsp;<br>&nbsp;</p>
+									<p style="color: #4e4e4e;">Simple loading of AYA Visa Prepaid card on mobile app. You can top-up card and make balance enquiry from your mobile banking.</p>
 								</div>
 							</div>
 						</div>
@@ -67,23 +85,23 @@
 						<img src="{{ url('/images/simple_login_mockup.png') }}" class="img-fluid" id="ATM_withdrawal_mockup" style="width: 75%;display: none;">
 					</div>
 					<div class="col-md-7">
-						<div class="row">
-							<div class="col-md-6" style="padding: 20px;">
-								<div class="row why_use_AYA secure_transaction_div">
+						<div class="row why_use_AYA_outer" style="column-gap: 20px;">
+							<div class="col-md-6 outer_benefit_box why_use_AYA">
+								<div class="row secure_transaction_div">
 									<img src="{{ url('/images/secure_transaction.png') }}" class="img-fluid" style="width: 91px;">
 									<p style="font-weight: 600;margin-top: 1rem;">Secure Transactions</p>
-									<p style="color: #4e4e4e;">Keep your transactions secure with additional authentication via “OTP token” or “SMS OTP” and <a href="#" style="text-decoration: underline;">get notified</a> when money goes in or out of your account.<br>&nbsp;</p>
+									<p style="color: #4e4e4e;">Keep your transactions secure with additional authentication via “OTP token” or “SMS OTP” and <a href="{{ url('/sms-alert') }}" style="text-decoration: underline;">get notified</a> when money goes in or out of your account.</p>
 								</div>
 							</div>
-							<div class="col-md-6" style="padding: 20px;">
-								<div class="row why_use_AYA easy_transfer_payment_div">
+							<div class="col-md-6 outer_benefit_box why_use_AYA">
+								<div class="row easy_transfer_payment_div">
 									<img src="{{ url('/images/easy_transfer_payment.png') }}" class="img-fluid" style="width: 91px;">
 									<p style="font-weight: 600;margin-top: 1rem;">Easy Transfer and Payments</p>
 									<p style="color: #4e4e4e;">Move money between your AYA Bank accounts, send money to friends, family and others, foreign exchange transfer, make payments for bills, tax, AYA credit cards, top-up mobiles and QR payments.</p>
 								</div>
 							</div>
-							<div class="col-md-6" style="padding: 20px;">
-								<div class="row why_use_AYA ATM_withdrawal_div">
+							<div class="col-md-6 outer_benefit_box why_use_AYA">
+								<div class="row ATM_withdrawal_div">
 									<img src="{{ url('/images/ATM_withdrawal.png') }}" class="img-fluid" style="width: 91px;">
 									<p style="font-weight: 600;margin-top: 1rem;">ATM Withdrawal</p>
 									<p style="color: #4e4e4e;">You can withdraw money at any AYA ATM without your bank card by initiating ATM cardless withdrawal straight. </p>

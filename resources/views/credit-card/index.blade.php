@@ -35,13 +35,18 @@
 		width: 60% !important;
 	}
 	.outer_benefit_box {
-		padding: 0px 20px 0px 20px !important;
+		/*padding: 0px 20px 0px 20px !important;
+		margin-bottom: 20px;*/
+		padding: 20px !important;
+		border: 1px solid #dedede;
+		border-radius: 10px;
 		margin-bottom: 20px;
+		margin-top: 40px;
 	}
 	.benefit_box{
-		border: 1px solid #dedede;
+		/*border: 1px solid #dedede;
 	    border-radius: 10px;
-	    padding: 20px 0px 0px 5px !important;
+	    padding: 20px 0px 0px 5px !important;*/
 	}
 	.solution_text {
 		color: #000;
@@ -196,6 +201,17 @@
 	.simple_pay_div {
 		padding: 0px 208px 40px 208px;
 	}
+	.jbc_visa_manage_card > .col-md-6, .secured_manage_card > .col-md-6 {
+		width: 48% !important;
+	}
+	@media (max-width: 1400px) and (min-width: 577px) {
+		.visa_credit_tab, .secure_credit_tab {
+			background-position: 60% center;
+		}
+		.jbc_visa_manage_card > .col-md-6, .secured_manage_card > .col-md-6 {
+			width: 47% !important;
+		}
+	}
 	@media (min-width: 768px){
 		.col-md-3 {
 		    width: 23% !important;
@@ -205,6 +221,9 @@
 		}
 	}
 	@media only screen and (max-width: 576px){
+		.jbc_visa_manage_card > .col-md-6, .secured_manage_card > .col-md-6 {
+			width: 100% !important;
+		}
 		.jcb_credit_tab{
 			background-position: 75% center;
 		}
@@ -428,29 +447,29 @@
 								<img src="{{ url('/images/manage_card_image.png') }}" class="img-fluid" style="margin-top: 12%;">
 							</div>
 							<div class="col-md-6">
-								<div class="row jbc_visa_manage_card">
-									<div class="col-md-6 outer_benefit_box">
+								<div class="row jbc_visa_manage_card" style="column-gap: 20px;">
+									<div class="col-md-6 outer_benefit_box why_use_AYA">
 										<div class="row benefit_box">
 											<img src="{{ url('/images/credit_limit_icon.png') }}" class="img-fluid manage_your_card_icon">
 											<p style="font-weight: 600;margin-top: 1rem;">Credit Limits</p>
 											<p style="color: #4e4e4e;">The credit limit on your credit card is the maximum amount that can be borrowed on a credit card. It is determined based on various factors including your income. </p>
 										</div>
 									</div>
-									<div class="col-md-6 outer_benefit_box">
+									<div class="col-md-6 outer_benefit_box why_use_AYA">
 										<div class="row benefit_box">
 											<img src="{{ url('/images/bill_payments.png') }}" class="img-fluid manage_your_card_icon">
 											<p style="font-weight: 600;margin-top: 1rem;">Bill Payment</p>
 											<p style="color: #4e4e4e;">Register for <a href="https://ibankapp.ayabank.com/" style="color: #4e4e4e;text-decoration: underline;">AYA internet Banking</a> & <a href="https://ibankapp.ayabank.com/" style="color: #4e4e4e;text-decoration: underline;">mobile Banking</a> services to settle your credit card bills from your AYA Bank accounts easily and securely, 24/7.</p>
 										</div>
 									</div>
-									<div class="col-md-6 outer_benefit_box">
+									<div class="col-md-6 outer_benefit_box why_use_AYA">
 										<div class="row benefit_box">
 											<img src="{{ url('/images/estatements.png') }}" class="img-fluid manage_your_card_icon">
 											<p style="font-weight: 600;margin-top: 1rem;">E-statements</p>
 											<p style="color: #4e4e4e;">Receive monthly statements via designated email in the most convenient, secure, and eco-friendly way at the end of the month.</p>
 										</div>
 									</div>
-									<div class="col-md-6 outer_benefit_box">
+									<div class="col-md-6 outer_benefit_box why_use_AYA">
 										<div class="row benefit_box">
 											<img src="{{ url('/images/cash_payment.png') }}" class="img-fluid manage_your_card_icon">
 											<p style="font-weight: 600;margin-top: 1rem;">Cash Payment</p>
@@ -458,22 +477,22 @@
 										</div>
 									</div>
 								</div>
-								<div class="row secured_manage_card d-none">
-									<div class="col-md-6 outer_benefit_box">
+								<div class="row secured_manage_card d-none" style="column-gap: 20px;">
+									<div class="col-md-6 outer_benefit_box why_use_AYA">
 										<div class="row benefit_box">
 											<img src="{{ url('/images/credit_limit_icon.png') }}" class="img-fluid manage_your_card_icon">
 											<p style="font-weight: 600;margin-top: 1rem;">Credit Limit</p>
 											<p style="color: #4e4e4e;">The credit limit of a credit card is the maximum limit (2 Fix Deposit account can be combined) that can be borrowed. It can be up to 80% of your Fixed Deposit Amount.</p>
 										</div>
 									</div>
-									<div class="col-md-6 outer_benefit_box">
+									<div class="col-md-6 outer_benefit_box why_use_AYA">
 										<div class="row benefit_box">
 											<img src="{{ url('/images/50day_interest_rate_icon.png') }}" class="img-fluid manage_your_card_icon">
 											<p style="font-weight: 600;margin-top: 1rem;">50 Days Interest free</p>
 											<p style="color: #4e4e4e;">Enjoy <b>up to</b> a maximum of 50 days interest-free repayment period of AYA Credit Card.</p>
 										</div>
 									</div>
-									<div class="col-md-6 outer_benefit_box">
+									<div class="col-md-6 outer_benefit_box why_use_AYA">
 										<div class="row benefit_box">
 											<img src="{{ url('/images/low_interest_rate_icon.png') }}" class="img-fluid manage_your_card_icon">
 											<p style="font-weight: 600;margin-top: 1rem;">Low Interest Rate</p>
@@ -1046,7 +1065,7 @@
 				<div class="col-12 text-center">
 					<h4 style="font-weight: 500;color: #000;">Forgot your card PIN?</h4>
 					<p>You can reset / change your PIN easily via online.</p>
-					<a target="_blank" href="{{ url('/file/cardservices/Reset Pin for Card.docx') }}">
+					<a target="_blank" href="{{ url('/reset-pin') }}">
 						<button class="btn" style="background-color: #ae071d;color: #fff;font-weight: 500;padding: 15px 30px;border: #ae071d;">
 							Reset PIN
 						</button>
@@ -1060,16 +1079,15 @@
 			<div class="simple_pay_div">
 				<div class="container d-none d-sm-block" style="padding: 0px 100px 50px 70px;background-image: url('./images/simple_pay_installment.png');background-size: contain;background-repeat: no-repeat;background-position: center;">
 					<div class="row">
-						<div class="col-md-12 col-xs-12" style="padding-top: 120px;">
+						<div class="col-md-8 col-xs-12" style="padding-top: 120px;">
 							<p style="font-size: 22px;margin-bottom: 15px;">Are you also interested in <br><span style="font-weight: 500;color: #a02225;">SimplePay Installment</span> with AYA Credit Cards?</p>
 							<a href="{{ url('/simple-pay') }}">
 								<button class="btn" style="background-color: #ae071d;color: #fff;font-weight: 500;padding: 15px 30px;border: #ae071d;margin-bottom: 2rem;border-radius: 0px;">
 									More Details
 								</button>
 							</a>
-							<!-- <div style="height: 70px;"></div> -->
 						</div>
-						<div class="col-md-7"></div>
+						<div class="col-md-4"></div>
 					</div>
 				</div>
 
@@ -1115,7 +1133,7 @@
 						<div class="accordion-item">
 							<h2 class="accordion-header" id="headingTwo">
 								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-									What are the interest rate for AYA Bank secured Credit Card နဲ့ and Unsecured Credit Card?
+									What are AYA Bank secured Credit Card and Unsecured Credit Card?
 								</button>
 							</h2>
 							<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -1286,6 +1304,17 @@
 		} else {
 			$(".how_to_apply_chevron").addClass('bx-chevron-up');
 			$(".how_to_apply_chevron").removeClass('bx-chevron-down');
+		}
+	});
+
+	$(".secured_fee_charge").click(function(){
+		$(".secured_fee_charge_div").slideToggle();
+		if ($(".secured_fee_charge_chevron").hasClass('bx-chevron-up')) {
+			$(".secured_fee_charge_chevron").removeClass('bx-chevron-up');
+			$(".secured_fee_charge_chevron").addClass('bx-chevron-down');
+		} else {
+			$(".secured_fee_charge_chevron").addClass('bx-chevron-up');
+			$(".secured_fee_charge_chevron").removeClass('bx-chevron-down');
 		}
 	});
 </script>
