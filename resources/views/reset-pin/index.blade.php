@@ -170,7 +170,7 @@
 
 						<div class="space-10"></div>
 
-						<p style="font-weight: 500;font-size: 16px;">Important Notes: The data in the application form must be in consistent with the data when you applied for the card.</p>
+						<p style="font-weight: 500;font-size: 16px;">Important Notes: The data in the application form must be consistent with the data when you applied for the card.</p>
 					</div>
 				</div>
 

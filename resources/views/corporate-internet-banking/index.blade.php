@@ -76,6 +76,7 @@
 		height:850px;
 		padding: 60px 20px 0px 20px;
 		border-radius: 200px;
+		margin-bottom: 20px;
 	}
 	.offers_tag {
 		background-color: #4b4c4c;
@@ -101,6 +102,12 @@
 	@media only screen and (max-width: 576px){
 		.need_more_support_section {
 		    padding: 0px 30px !important;
+		}
+		.packages_div > .col-md-5 {
+			width: 100%;		
+		}
+		.packages_div > .col-md-1 {
+			width: 100%;
 		}
 	}
 </style>
@@ -248,7 +255,7 @@
 						<h2 style="font-weight: 800;color: #000;">AYA Bank offers 2 packages</h2>
 					</div>
 				</div>
-				<div class="row packages_div" style="column-gap: 50px;width: 100%;">
+				<div class="row packages_div" style="column-gap: 50px;">
 					<div class="col-md-1"></div>
 					<div class="col-md-5 offers_bg">
 						<div class="row text-center offers_tag">
@@ -319,25 +326,39 @@
 					</div>
 					<div class="col-md-1"></div>
 				</div>
+				<div class="space-40"></div>
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-9" style="padding-left: 30px;">
+						<p style="font-weight: 600;font-size: 20px;">Other Features</p>
+						<ul style="list-style:square;">
+							<li>Download account statement in csv format / pdf format / MT940 format</li>
+							<li>Registration of beneficiaries through bulk</li>
+							<li>Transaction can be saved as template for future use</li>
+							<li>Transact at one click by using previous transaction</li>
+						</ul>
+					</div>
+					<div class="col-md-1"></div>
+				</div>
 			</div>
 
 			<div class="space-40"></div>
 			<div class="need_more_support_section">
-				<div class="container d-none d-sm-block" style="padding: 40px 100px 30px 100px;background-image: url('./images/get_start_bg.jpg');background-size: cover;border-radius: 6px;">
+				<div class="container d-none d-sm-block" style="padding: 40px 60px 30px 60px;background-image: url('./images/get_start_bg.jpg');background-size: cover;border-radius: 6px;">
 					<div class="row">
 						<div class="col-md-12 col-xs-12 text-center">
-							<h2 style="font-weight: 800;color: #000;">Get started Banking Online!</h2>
+							<h2 style="font-weight: 800;color: #000;">Get started Corporate Internet Banking!</h2>
 							<div class="space-20"></div>
 						</div>
 						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;border-right: 1px solid #1d1d1f;padding-right: 0px;">
-							<p style="color: #000;font-weight: 400;font-size: 20px;">Not yet an AYA i-Banking user?</p>
+							<p style="color: #000;font-weight: 400;font-size: 20px;">Not yet a Corporate Internet Banking user?</p>
 							<a href="https://www.ayaibanking.com/ibLogin.aspx" target="_blank">
-								<button class="btn get_start_btn">REGISTER</button>
+								<button class="btn get_start_btn">VISIT US TO FIND OUT MORE</button>
 							</a>
 							<div style="height: 40px;"></div>
 						</div>
 						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;padding-left: 0px;">
-							<p style="color: #000;font-weight: 400;font-size: 20px;">Already an AYA i-Banking user?</p>
+							<p style="color: #000;font-weight: 400;font-size: 20px;">Already a Corporate Internet Banking user?</p>
 							<a href="https://www.ayaibanking.com/ibLogin.aspx" target="_blank">
 								<button class="btn get_start_btn">LOGIN</button>
 							</a>
@@ -345,29 +366,29 @@
 						</div>
 						<div class="col-md-12 col-xs-12 text-center">
 							<div class="space-20"></div>
-							<p style="color: #000;"><a href="{{ url('/file/iBanking/AYA iBanking User Guide P v1.2.pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities to help you manage your finance online</p>
+							<p style="color: #000;"><a href="{{ url('/file/iBanking/AYA iBanking User Guide P v1.2.pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities to help you manage your finance online.</p>
 						</div>
 					</div>
 				</div>
 				<div class="container d-block d-sm-none" style="padding: 30px;background-image: url('./images/get_start_bg.jpg');background-size: cover;border-radius: 6px;">
 					<div class="row">
 						<div class="col-md-12 col-xs-12 text-center">
-							<h2 style="font-weight: 800;color: #000;">Get started Banking Online!</h2>
+							<h2 style="font-weight: 800;color: #000;">Get started Corporate Internet Banking!</h2>
 							<div class="space-20"></div>
 						</div>
 						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;border-bottom: 1px solid #1d1d1f;padding-bottom: 0px;">
-							<p style="color: #000;font-weight: 400;font-size: 20px;">Not yet an AYA i-Banking user?</p>
-							<button class="btn get_start_btn">REGISTER</button>
+							<p style="color: #000;font-weight: 400;font-size: 20px;">Not yet a Corporate Internet Banking user?</p>
+							<button class="btn get_start_btn">VISIT US TO FIND OUT MORE</button>
 							<div style="height: 40px;"></div>
 						</div>
 						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 20px;">
-							<p style="color: #000;font-weight: 400;font-size: 20px;">Already an AYA i-Banking user?</p>
+							<p style="color: #000;font-weight: 400;font-size: 20px;">Already a Corporate Internet Banking user?</p>
 							<button class="btn get_start_btn">LOGIN</button>
 							<div style="height: 40px;"></div>
 						</div>
 						<div class="col-md-12 col-xs-12 text-center">
 							<!-- <div class="space-20"></div> -->
-							<p style="color: #000;"><a href="{{ url('/file/iBanking/AYA iBanking User Guide P v1.2.pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities to help you manage your finance online</p>
+							<p style="color: #000;"><a href="{{ url('/file/iBanking/AYA iBanking User Guide P v1.2.pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities to help you manage your finance online.</p>
 						</div>
 					</div>
 				</div>
