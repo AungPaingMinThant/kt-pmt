@@ -46,7 +46,7 @@
 		width: 60%;
 	}
 	.solution_text {
-		color: #000;
+		color: #2e2e2e;
 		margin-bottom: 5px;
 	}
 	.get_start_btn {
@@ -64,6 +64,9 @@
 	}
 	.aya_ibanking_fact {
 		padding: 20px 20px;
+	}
+	.need_more_support_section {
+	    padding: 40px 208px 0px 208px !important;
 	}
 	@media (max-width: 1400px) and (min-width: 577px) {
 		.carousel-indicators{
@@ -102,7 +105,8 @@
 						<div class="carousel-item active">
 							<img class="d-block w-100" src="{{ url('/images/ayaiBankingslider1.jpg') }}" alt="First slide">
 							<div class="carousel-caption carousel_title d-none d-md-block">
-								<h2 style="font-weight: 800;color: #000;">What you can do with AYA iBanking?</h2>
+								<!-- <h2 style="font-weight: 800;color: #000;">What you can do with AYA iBanking?</h2> -->
+								<h3 style="color: #1d1d1f;padding: 0px 60px;">What you can do with AYA iBanking?</h3>
 							</div>
 							<div class="carousel-caption carousel_desc text-left d-none d-md-block" style="width: 17%;top: 35%;left: 13%;">
 								<p class="carousel_desc_title">Transfer Funds</p>
@@ -110,9 +114,10 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img class="d-block w-100" src="{{ url('/images/ayaiBankingslider2.jpg') }}" alt="Second slide">
+							<img class="d-block w-100" src="{{ url('/images/ayaiBankingslider3.jpg') }}" alt="Second slide">
 							<div class="carousel-caption carousel_title d-none d-md-block">
-								<h2 style="font-weight: 800;color: #000;">What you can do with AYA iBanking?</h2>
+								<!-- <h2 style="font-weight: 800;color: #000;">What you can do with AYA iBanking?</h2> -->
+								<h3 style="color: #1d1d1f;padding: 0px 60px;">What you can do with AYA iBanking?</h3>
 							</div>
 							<div class="carousel-caption carousel_desc text-left d-none d-md-block" style="width: 17%;top: 35%;left: 13%;">
 								<p class="carousel_desc_title">Get Your Statement</p>
@@ -122,7 +127,8 @@
 						<div class="carousel-item">
 							<img class="d-block w-100" src="{{ url('/images/ayaiBankingslider3.jpg') }}" alt="Third slide">
 							<div class="carousel-caption carousel_title d-none d-md-block">
-								<h2 style="font-weight: 800;color: #000;">What you can do with AYA iBanking?</h2>
+								<!-- <h2 style="font-weight: 800;color: #000;">What you can do with AYA iBanking?</h2> -->
+								<h3 style="color: #1d1d1f;padding: 0px 60px;">What you can do with AYA iBanking?</h3>
 							</div>
 							<div class="carousel-caption carousel_desc text-left d-none d-md-block" style="width: 17%;top: 35%;left: 13%;">
 								<p class="carousel_desc_title">Bill Payments</p>
@@ -130,9 +136,10 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img class="d-block w-100" src="{{ url('/images/ayaiBankingslider4.jpg') }}" alt="Fourth slide">
+							<img class="d-block w-100" src="{{ url('/images/ayaiBankingslider3.jpg') }}" alt="Fourth slide">
 							<div class="carousel-caption carousel_title d-none d-md-block">
-								<h2 style="font-weight: 800;color: #000;">What you can do with AYA iBanking?</h2>
+								<!-- <h2 style="font-weight: 800;color: #000;">What you can do with AYA iBanking?</h2> -->
+								<h3 style="color: #1d1d1f;padding: 0px 60px;">What you can do with AYA iBanking?</h3>
 							</div>
 							<div class="carousel-caption carousel_desc text-left d-none d-md-block" style="width: 17%;top: 35%;left: 13%;">
 								<p class="carousel_desc_title">Mobile Top-up</p>
@@ -140,9 +147,10 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img class="d-block w-100" src="{{ url('/images/ayaiBankingslider5.jpg') }}" alt="Fifth slide">
+							<img class="d-block w-100" src="{{ url('/images/ayaiBankingslider3.jpg') }}" alt="Fifth slide">
 							<div class="carousel-caption carousel_title d-none d-md-block">
-								<h2 style="font-weight: 800;color: #000;">What you can do with AYA iBanking?</h2>
+								<!-- <h2 style="font-weight: 800;color: #000;">What you can do with AYA iBanking?</h2> -->
+								<h3 style="color: #1d1d1f;padding: 0px 60px;">What you can do with AYA iBanking?</h3>
 							</div>
 							<div class="carousel-caption carousel_desc text-left d-none d-md-block" style="width: 17%;top: 35%;left: 13%;">
 								<p class="carousel_desc_title">SMS Services</p>
@@ -155,7 +163,8 @@
 			<div class="d-block d-sm-none">
 				<div class="aya_ibanking_fact">
 					<div class="col-12 text-center">
-						<h2 style="font-weight: 800;color: #000;padding: 0px 60px;">What you can do with AYA iBanking?</h2>
+						<!-- <h2 style="font-weight: 800;color: #000;padding: 0px 60px;">What you can do with AYA iBanking?</h2> -->
+						<h3 style="color: #1d1d1f;padding: 0px 60px;">What you can do with AYA iBanking?</h3>
 					</div>
 					<div class="col-12">
 						<p class="carousel_desc_title">Transfer Funds</p>
@@ -217,28 +226,29 @@
 				<div class="space-60"></div>
 				<div class="row">
 					<div class="col-md-12 text-center">
-						<h2 style="font-weight: 800;color: #000;">The right solution for managing your funds because, it is</h2>
+						<!-- <h2 style="font-weight: 800;color: #000;">The right solution for managing your funds because, it is</h2> -->
+						<h3 style="color: #1d1d1f;padding: 0px 60px;">The right solution for managing your funds because, it is</h3>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-3">
 						<img src="{{ url('/images/QuickIcon.jpg') }}" class="img-fluid solution_icon">
-						<h4 class="solution_text">Quick</h4>
+						<p class="solution_text" style="font-weight: 600">Quick</p>
 						<p class="solution_text solution_desc">Transactions are done in real-time.</p>
 					</div>
 					<div class="col-md-3">
 						<img src="{{ url('/images/SafeIcon.jpg') }}" class="img-fluid solution_icon">
-						<h4 class="solution_text">Safe</h4>
+						<p class="solution_text" style="font-weight: 600">Safe</p>
 						<p class="solution_text solution_desc">Secured channels are used so that your transaction and data are fully protected.</p>
 					</div>
 					<div class="col-md-3">
 						<img src="{{ url('/images/SafeTimeCostIcon.jpg') }}" class="img-fluid solution_icon">
-						<h4 class="solution_text">Save Time and Cost</h4>
+						<p class="solution_text" style="font-weight: 600">Save Time and Cost</p>
 						<p class="solution_text solution_desc">Customers do not need to go to the bank’s premise to conduct transactions, saving time and money.</p>
 					</div>
 					<div class="col-md-3">
 						<img src="{{ url('/images/ConvenientIcon.jpg') }}" class="img-fluid solution_icon">
-						<h4 class="solution_text">Convenient</h4>
+						<p class="solution_text" style="font-weight: 600">Convenient</p>
 						<p class="solution_text solution_desc">Access your accounts, check balance or conduct transactions at any time and place of convenience.</p>
 					</div>
 				</div>
@@ -249,18 +259,19 @@
 				<div class="container d-none d-sm-block" style="padding: 40px 100px 30px 100px;background-image: url('./images/get_start_bg.jpg');background-size: cover;border-radius: 6px;">
 					<div class="row">
 						<div class="col-md-12 col-xs-12 text-center">
-							<h2 style="font-weight: 800;color: #000;">Get started Banking Online!</h2>
+							<!-- <h2 style="font-weight: 800;color: #000;">Get started Banking Online!</h2> -->
+							<h3 style="color: #1d1d1f;padding: 0px 60px;">Get started Banking Online!</h3>
 							<div class="space-20"></div>
 						</div>
 						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;border-right: 1px solid #1d1d1f;padding-right: 0px;">
-							<p style="color: #000;font-weight: 400;font-size: 20px;">Not yet an AYA i-Banking user?</p>
+							<p style="color: #000;font-weight: 400;font-size: 17px;">Not yet an AYA i-Banking user?</p>
 							<a href="https://www.ayaibanking.com/ibLogin.aspx" target="_blank">
 								<button class="btn get_start_btn">REGISTER</button>
 							</a>
 							<div style="height: 40px;"></div>
 						</div>
 						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;padding-left: 0px;">
-							<p style="color: #000;font-weight: 400;font-size: 20px;">Already an AYA i-Banking user?</p>
+							<p style="color: #000;font-weight: 400;font-size: 17px;">Already an AYA i-Banking user?</p>
 							<a href="https://www.ayaibanking.com/ibLogin.aspx" target="_blank">
 								<button class="btn get_start_btn">LOGIN</button>
 							</a>
@@ -275,16 +286,17 @@
 				<div class="container d-block d-sm-none" style="padding: 30px;background-image: url('./images/get_start_bg.jpg');background-size: cover;border-radius: 6px;">
 					<div class="row">
 						<div class="col-md-12 col-xs-12 text-center">
-							<h2 style="font-weight: 800;color: #000;">Get started Banking Online!</h2>
+							<!-- <h2 style="font-weight: 800;color: #000;">Get started Banking Online!</h2> -->
+							<h3 style="color: #1d1d1f;padding: 0px 60px;">Get started Banking Online!</h3>
 							<div class="space-20"></div>
 						</div>
 						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;border-bottom: 1px solid #1d1d1f;padding-bottom: 0px;">
-							<p style="color: #000;font-weight: 400;font-size: 20px;">Not yet an AYA i-Banking user?</p>
+							<p style="color: #000;font-weight: 400;font-size: 17px;">Not yet an AYA i-Banking user?</p>
 							<button class="btn get_start_btn">REGISTER</button>
 							<div style="height: 40px;"></div>
 						</div>
 						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 20px;">
-							<p style="color: #000;font-weight: 400;font-size: 20px;">Already an AYA i-Banking user?</p>
+							<p style="color: #000;font-weight: 400;font-size: 17px;">Already an AYA i-Banking user?</p>
 							<button class="btn get_start_btn">LOGIN</button>
 							<div style="height: 40px;"></div>
 						</div>

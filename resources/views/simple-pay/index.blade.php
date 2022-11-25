@@ -10,10 +10,6 @@
 		width: 34% !important;
 		margin-bottom: 30px;
 	}
-	.col-md-4 {
-	    flex: 0 0 auto;
-	    width: 30.333333% !important;
-	}
 	.outer_benefit_box {
 		padding: 20px !important;
 		border: 1px solid #dedede;
@@ -33,13 +29,28 @@
 	.prepaid_how_to_apply_section {
 		padding: 40px 50px 60px 110px !important;
 	}
+	.need_more_support_section {
+	    padding: 40px 208px 0px 208px !important;
+	}
+	.apply_now_btn {
+		background-color: #ae071d !important;
+		color: #fff !important;
+		font-weight: 500;
+		padding: 15px 25px !important;
+		border: 1px solid #ae071d !important;
+		margin-bottom: 2rem;
+	}
+	.apply_now_btn:hover {
+		background-color: #fff !important;
+		color: #ae071d !important;
+	}
 	@media (min-width: 768px){
 		.col-md-6 {
 		    width: 45% !important;
 		}
 	}
 	@media only screen and (max-width: 576px){
-		.col-md-6, .col-md-4 {
+		.col-md-6 {
 		    flex: 0 0 auto;
 		    width: 100% !important;
 		}
@@ -55,6 +66,9 @@
 		}
 		.outer_benefit_box {
 			margin-top: 0px;
+		}
+		.need_more_support_section {
+		    padding: 0px 50px !important;
 		}
 	}
 </style>
@@ -111,11 +125,11 @@
 						<div class="col-md-6 how_to_apply_desc">
 							<h3 style="font-weight: 600;color: #000;margin-bottom: 30px;">Apply now to maximize your benefits.</h3>
 							<a target="_blank" href="#">
-								<button class="btn" style="background-color: #ae071d;color: #fff;font-weight: 500;padding: 15px 25px;border: #ae071d;margin-bottom: 2rem;">
+								<button class="btn apply_now_btn">
 									Apply Online
 								</button>
 							</a>
-							<p>Alternately, call us at <a href="tel:+95 9 458588953">+95 9 458588953</a>, <a href="tel:+95 9 450215345">+95 9 450215345</a> <br>(Monday to Friday, 9 am to 5 pm). </p>
+							<p>Alternately, call us at <a href="tel:+95 9 458588953" style="color: #a02226">+95 9 458588953</a>, <a href="tel:+95 9 450215345" style="color: #a02226">+95 9 450215345</a> <br>(Monday to Friday, 9 am to 5 pm). </p>
 						</div>
 						<div class="col-md-6"></div>
 					</div>
@@ -129,18 +143,18 @@
 					<div class="row">
 						<div class="col-md-12 col-xs-12 text-center" style="padding-top: 80px;">
 							<p style="color: #000;font-weight: 500;font-size: 20px;margin-bottom: 25px;">Connect with us for more information?<br>We are ready to assist you.</p>
-							<button class="btn" style="background-color: #ae071d;color: #fff;font-weight: 500;padding: 15px 25px;border: #ae071d;margin-bottom: 2rem;">
+							<button class="btn apply_now_btn" >
 								Contact Center
 							</button>
 						</div>
 					</div>
 				</div>
 
-				<div class="container d-block d-sm-none" style="padding: 40px 50px 60px 50px;background-color: #f5f5f5;border-radius: 10px;margin-bottom: 50px;">
-					<div class="row">
-						<div class="col-xs-12 text-center" style="padding-top: 20px;">
-							<p style="color: #000;font-weight: 500;font-size: 20px;margin-bottom: 5px;">Connect with us for more information?<br>We are ready to assist you.</p>
-							<button class="btn" style="background-color: #ae071d;color: #fff;font-weight: 500;padding: 15px 25px;border: #ae071d;margin-bottom: 2rem;">
+				<div class="container d-block d-sm-none">
+					<div class="row" style="padding: 0px">
+						<div class="col-xs-12 " style="padding: 0px;">
+							<p style="color: #000;font-weight: 500;font-size: 20px;margin-bottom: 25px;">Connect with us for more information?<br>We are ready to assist you.</p>
+							<button class="btn" style="background-color: #ae071d;color: #fff;font-weight: 500;padding: 15px 25px;border: #ae071d;">
 								Contact Center
 							</button>
 						</div>

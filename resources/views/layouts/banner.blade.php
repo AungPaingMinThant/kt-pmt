@@ -56,8 +56,9 @@
 	.bread_crumb_text {
 		font-size: 11px;
 		color: #666 !important;
+		margin: 25px 0 !important;
 	}
-	@media (max-width: 1400px) and (min-width: 577px) {
+	@media (max-width: 1550px) and (min-width: 577px) {
 		.creditcard_banner{
 			background-position: 60% center;
 		}
@@ -89,7 +90,7 @@
 			background-position: 90% center;
 		}
 		.smsalert_banner{
-			background-image:url('./images/sms/mobile_KV.jpg');
+			background-image:url('./images/sms/mobileKV.jpg');
 			background-position: 90% center;
 		}
 		.prepaid_banner{
@@ -106,6 +107,7 @@
 		}
 		.bread_crumb_text {
 			font-size: 10px;
+			margin: 15px 0 !important;
 		}
 	}
 </style>
@@ -139,7 +141,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text" style="margin: 1.5rem 0;">HOME&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ONLINE PAYMENT SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -176,7 +178,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text" style="margin: 1.5rem 0;">HOME&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ONLINE PAYMENT SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -218,7 +220,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text" style="margin: 1.5rem 0;">HOME&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -259,7 +261,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text" style="margin: 1.5rem 0;">HOME&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -273,34 +275,22 @@
 	<div class="ecommerce_banner" style="">
 		<div class="container">
 			<div class="row d-none d-sm-block">
-				<div class="col-md-7 text-right" style="position: relative;">
-					<div class="" style="position: absolute;top: 100px;left: 0;">
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 30px;">We will provide</p>
-						<p style="font-size: 70px;font-weight: 400;margin-bottom: 0;line-height: 72px;color: #a02226;">
-							the best formulas</span>
+				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
+					<div style="position: absolute;top: 150px;right: 0;">
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">We will provide <span style="color: #a02226;">the best formulas </span>to solve it.</p>
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
+							Change your issues into opportunity <br>with AYA E-commerce.
 						</p>
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 30px;text-align: right;">
-							to solve it.
-						</p>
-						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 22px;margin-top: 30px;">Change your issues into opportunity with AYA E-commerce.</p>
 					</div>
-					
 				</div>
-				<div class="col-md-5" style="text-align: right;">
+				<div class="col-md-6" style="text-align: right;">
 					<p></p>
 				</div>
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 30px;left: 25px;">
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 30px;">We will provide</p>
-						<p style="font-size: 40px;font-weight: 400;margin-bottom: 0;line-height: 42px;color: #a02226;">
-							the best formulas</span>
-						</p>
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 30px;">
-							to solve it.
-						</p>
-						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 22px;width: 50%;margin-top: 30px;">Change your issues into opportunity with AYA E-commerce.</p>
+					<div style="position: absolute;top: 45px;left: 25px;">
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">We will provide <span style="color: #a02226;">the best formulas </span>to solve it. Change your issues into opportunity <br>with AYA E-commerce.</p>
 					</div>
 				</div>
 			</div>
@@ -309,7 +299,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text" style="margin: 1.5rem 0;">HOME&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;MERCHANT SERVICES&nbsp;
@@ -353,7 +343,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text" style="margin: 1.5rem 0;">HOME&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;GUIDLINES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;SECURITY ADVICE FOR DIGITAL SERVICES&nbsp;
@@ -397,7 +387,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text" style="margin: 1.5rem 0;">HOME&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -427,7 +417,7 @@
 		<div class="row d-block d-sm-none">
 			<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 				<div style="position: absolute;top: 45px;left: 25px;">
-					<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;color: #a02226"><span style="color: #a02226;">Buy big, </span>pay by bits</p>
+					<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span style="color: #a02226;">Buy big, </span>pay by bits</p>
 					<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;color: #a02226;"></p>
 					<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"></p>
 				</div>
@@ -438,7 +428,7 @@
 
 <div style="background-color: #f5f5f7;">
 	<div class="container">
-		<p class="bread_crumb_text" style="margin: 1.5rem 0;">HOME&nbsp;
+		<p class="bread_crumb_text">HOME&nbsp;
 			<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 			<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
 			<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -451,7 +441,7 @@
 @if($page == 'reset')
 <div style="background-color: #f5f5f7;">
 	<div class="container">
-		<p class="bread_crumb_text" style="margin: 1.5rem 0;">HOME&nbsp;
+		<p class="bread_crumb_text">HOME&nbsp;
 			<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 			<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
 			<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -492,7 +482,7 @@
 
 <div style="background-color: #f5f5f7;">
 	<div class="container">
-		<p class="bread_crumb_text" style="margin: 1.5rem 0;">HOME&nbsp;
+		<p class="bread_crumb_text">HOME&nbsp;
 			<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 			<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 			<span style="color: #a02226;">CORPORATE INTERNET BANKING</span>

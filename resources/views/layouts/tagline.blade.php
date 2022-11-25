@@ -16,7 +16,7 @@
 			<p style="font-size: 20px;">Simplify your day-to-day banking with AYA i-Banking!</p>
 		</div>
 		<div class="col-md-8 tag_desc">
-			<p>AYA iBanking will allow you real time banking transactions via PCs, Laptops, Smartphone or other devices with access to the internet. Make payments, go paperless, view and download statements and more from the comfort of your home. Simplify your day-to-day banking with AYA i-Banking!</p>
+			<p>AYA iBanking will allow you real time banking transactions via PCs, Laptops, Smartphone or other devices with access to the internet. Make payments, go paperless, view and download statements and more from the comfort of your home.</p>
 		</div>
 	</div>
 @endif

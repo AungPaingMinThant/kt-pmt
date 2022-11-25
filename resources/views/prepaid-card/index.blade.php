@@ -5,7 +5,7 @@
     .benefit_icon {
 		width: 30% !important;
 	}
-	.col-md-4 {
+	.outer_benefit_box_row > .col-md-4 {
 	    flex: 0 0 auto;
 	    width: 30.333333% !important;
 	}
@@ -65,7 +65,7 @@
 		}
 	}
 	@media only screen and (max-width: 576px){
-		.col-md-4 {
+		.outer_benefit_box_row > .col-md-4 {
 		    flex: 0 0 auto;
 		    width: 100% !important;
 		}
@@ -94,11 +94,11 @@
 		}
 		.statment_enquiry {
 			background-position: center;
-			border: 2px solid #4b4c4c;
+			border: 1px solid #4b4c4c;
 		}
 		.card_block_termination {
 			background-position: center;
-			border: 2px solid #a02225;
+			border: 1px solid #a02225;
 		}
 	}
 </style>
@@ -125,7 +125,7 @@
 				
 				<div class="space-20"></div>
 				
-				<div class="row" style="column-gap: 20px;">
+				<div class="row outer_benefit_box_row" style="column-gap: 20px;">
 					<div class="col-md-4 outer_benefit_box why_use_AYA">
 						<div class="row benefit_box">
 							<img src="{{ url('/images/prepaid/one_four_currency.png') }}" class="img-fluid benefit_icon">

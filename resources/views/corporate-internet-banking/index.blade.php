@@ -137,7 +137,8 @@
 						<div class="carousel-item active">
 							<img class="d-block w-100" src="{{ url('/images/corporate_internet_banking/account_service.jpg') }}" alt="First slide">
 							<div class="carousel-caption carousel_title d-none d-md-block">
-								<h2 style="font-weight: 800;color: #000;">Key features of AYA Corporate Internet Banking</h2>
+								<h3 style="color: #1d1d1f;">Key features of AYA Corporate Internet Banking</h3>
+								<!-- <h2 style="font-weight: 800;color: #000;"></h2> -->
 							</div>
 							<div class="carousel-caption carousel_desc text-left d-none d-md-block" style="width: 17%;top: 35%;left: 13%;">
 								<p class="carousel_desc_title">Account Services</p>
@@ -147,7 +148,8 @@
 						<div class="carousel-item">
 							<img class="d-block w-100" src="{{ url('/images/corporate_internet_banking/payment_services.jpg') }}" alt="Second slide">
 							<div class="carousel-caption carousel_title d-none d-md-block">
-								<h2 style="font-weight: 800;color: #000;">Key features of AYA Corporate Internet Banking</h2>
+								<h3 style="color: #1d1d1f;">Key features of AYA Corporate Internet Banking</h3>
+								<!-- <h2 style="font-weight: 800;color: #000;"></h2> -->
 							</div>
 							<div class="carousel-caption carousel_desc text-left d-none d-md-block" style="width: 17%;top: 35%;left: 13%;">
 								<p class="carousel_desc_title">Payment Services</p>
@@ -155,9 +157,10 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img class="d-block w-100" src="{{ url('/images/corporate_internet_banking/administration.jpg') }}" alt="Third slide">
+							<img class="d-block w-100" src="{{ url('/images/corporate_internet_banking/payment_services.jpg') }}" alt="Third slide">
 							<div class="carousel-caption carousel_title d-none d-md-block">
-								<h2 style="font-weight: 800;color: #000;">Key features of AYA Corporate Internet Banking</h2>
+								<h3 style="color: #1d1d1f;">Key features of AYA Corporate Internet Banking</h3>
+								<!-- <h2 style="font-weight: 800;color: #000;"></h2> -->
 							</div>
 							<div class="carousel-caption carousel_desc text-left d-none d-md-block" style="width: 17%;top: 35%;left: 13%;">
 								<p class="carousel_desc_title">Administration</p>
@@ -165,9 +168,10 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img class="d-block w-100" src="{{ url('/images/corporate_internet_banking/authorization.jpg') }}" alt="Fourth slide">
+							<img class="d-block w-100" src="{{ url('/images/corporate_internet_banking/payment_services.jpg') }}" alt="Fourth slide">
 							<div class="carousel-caption carousel_title d-none d-md-block">
-								<h2 style="font-weight: 800;color: #000;">Key features of AYA Corporate Internet Banking</h2>
+								<h3 style="color: #1d1d1f;">Key features of AYA Corporate Internet Banking</h3>
+								<!-- <h2 style="font-weight: 800;color: #000;"></h2> -->
 							</div>
 							<div class="carousel-caption carousel_desc text-left d-none d-md-block" style="width: 17%;top: 35%;left: 13%;">
 								<p class="carousel_desc_title">Authorization</p>
@@ -175,9 +179,10 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img class="d-block w-100" src="{{ url('/images/corporate_internet_banking/dual_control.jpg') }}" alt="Fifth slide">
+							<img class="d-block w-100" src="{{ url('/images/corporate_internet_banking/payment_services.jpg') }}" alt="Fifth slide">
 							<div class="carousel-caption carousel_title d-none d-md-block">
-								<h2 style="font-weight: 800;color: #000;">Key features of AYA Corporate Internet Banking</h2>
+								<h3 style="color: #1d1d1f;">Key features of AYA Corporate Internet Banking</h3>
+								<!-- <h2 style="font-weight: 800;color: #000;"></h2> -->
 							</div>
 							<div class="carousel-caption carousel_desc text-left d-none d-md-block" style="width: 17%;top: 35%;left: 13%;">
 								<p class="carousel_desc_title">Dual Control</p>
@@ -190,7 +195,8 @@
 			<div class="d-block d-sm-none">
 				<div class="aya_ibanking_fact">
 					<div class="col-12 text-center">
-						<h2 style="font-weight: 800;color: #000;padding: 0px 60px;">Key features of AYA Corporate Internet Banking</h2>
+						<h3 style="color: #1d1d1f;padding: 0px 60px;">Key features of AYA Corporate Internet Banking</h3>
+						<!-- <h2 style="font-weight: 800;color: #000;padding: 0px 60px;">Key features of AYA Corporate Internet Banking</h2> -->
 					</div>
 					<div class="col-12">
 						<p class="carousel_desc_title">Account Services</p>
@@ -252,7 +258,8 @@
 				<div class="space-60"></div>
 				<div class="row">
 					<div class="col-md-12 text-center">
-						<h2 style="font-weight: 800;color: #000;">AYA Bank offers 2 packages</h2>
+						<!-- <h2 style="font-weight: 800;color: #000;"></h2> -->
+						<h3 style="color: #1d1d1f;">AYA Bank offers 2 packages</h3>
 					</div>
 				</div>
 				<div class="row packages_div" style="column-gap: 50px;">
@@ -347,18 +354,18 @@
 				<div class="container d-none d-sm-block" style="padding: 40px 60px 30px 60px;background-image: url('./images/get_start_bg.jpg');background-size: cover;border-radius: 6px;">
 					<div class="row">
 						<div class="col-md-12 col-xs-12 text-center">
-							<h2 style="font-weight: 800;color: #000;">Get started Corporate Internet Banking!</h2>
+							<h3 style="color: #1d1d1f;">Get started Corporate Internet Banking!</h3>
 							<div class="space-20"></div>
 						</div>
 						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;border-right: 1px solid #1d1d1f;padding-right: 0px;">
-							<p style="color: #000;font-weight: 400;font-size: 20px;">Not yet a Corporate Internet Banking user?</p>
+							<p style="color: #000;font-weight: 400;font-size: 17px;">Not yet a Corporate Internet Banking user?</p>
 							<a href="#" target="_blank">
 								<button class="btn get_start_btn">VISIT US TO FIND OUT MORE</button>
 							</a>
 							<div style="height: 40px;"></div>
 						</div>
 						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;padding-left: 0px;">
-							<p style="color: #000;font-weight: 400;font-size: 20px;">Already a Corporate Internet Banking user?</p>
+							<p style="color: #000;font-weight: 400;font-size: 17px;">Already a Corporate Internet Banking user?</p>
 							<a href="https://corporate.ayaibanking.com/customer/portal" target="_blank">
 								<button class="btn get_start_btn">LOGIN</button>
 							</a>
@@ -377,14 +384,65 @@
 							<div class="space-20"></div>
 						</div>
 						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;border-bottom: 1px solid #1d1d1f;padding-bottom: 0px;">
-							<p style="color: #000;font-weight: 400;font-size: 20px;">Not yet a Corporate Internet Banking user?</p>
+							<p style="color: #000;font-weight: 400;font-size: 17px;">Not yet a Corporate Internet Banking user?</p>
 							<a href="#" target="_blank">
 								<button class="btn get_start_btn">VISIT US TO FIND OUT MORE</button>
 							</a>
 							<div style="height: 40px;"></div>
 						</div>
 						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 20px;">
-							<p style="color: #000;font-weight: 400;font-size: 20px;">Already a Corporate Internet Banking user?</p>
+							<p style="color: #000;font-weight: 400;font-size: 17px;">Already a Corporate Internet Banking user?</p>
+							<a href="https://corporate.ayaibanking.com/customer/portal" target="_blank">
+								<button class="btn get_start_btn">LOGIN</button>
+							</a>
+							<div style="height: 40px;"></div>
+						</div>
+						<div class="col-md-12 col-xs-12 text-center">
+							<!-- <div class="space-20"></div> -->
+							<p style="color: #000;"><a href="#" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities to help you manage your finance online.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="need_more_support_section d-none">
+				<div class="container d-none d-sm-block" style="padding: 40px 60px 30px 60px;background-color: #f5f5f7;border-radius: 6px;">
+					<div class="row">
+						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;border-right: 1px solid #1d1d1f;padding-right: 0px;">
+							<p style="color: #000;font-weight: 400;font-size: 17px;">Not yet a Corporate Internet Banking user?</p>
+							<a href="#" target="_blank">
+								<button class="btn get_start_btn">VISIT US TO FIND OUT MORE</button>
+							</a>
+							<div style="height: 40px;"></div>
+						</div>
+						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;padding-left: 0px;">
+							<p style="color: #000;font-weight: 400;font-size: 17px;">Already a Corporate Internet Banking user?</p>
+							<a href="https://corporate.ayaibanking.com/customer/portal" target="_blank">
+								<button class="btn get_start_btn">LOGIN</button>
+							</a>
+							<div style="height: 40px;"></div>
+						</div>
+						<div class="col-md-12 col-xs-12 text-center">
+							<div class="space-20"></div>
+							<p style="color: #000;"><a href="#" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities to help you manage your finance online.</p>
+						</div>
+					</div>
+				</div>
+				<div class="container d-block d-sm-none" style="padding: 30px;background-image: url('./images/get_start_bg.jpg');background-size: cover;border-radius: 6px;">
+					<div class="row">
+						<div class="col-md-12 col-xs-12 text-center">
+							<h2 style="font-weight: 800;color: #000;">Get started Corporate Internet Banking!</h2>
+							<div class="space-20"></div>
+						</div>
+						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;border-bottom: 1px solid #1d1d1f;padding-bottom: 0px;">
+							<p style="color: #000;font-weight: 400;font-size: 17px;">Not yet a Corporate Internet Banking user?</p>
+							<a href="#" target="_blank">
+								<button class="btn get_start_btn">VISIT US TO FIND OUT MORE</button>
+							</a>
+							<div style="height: 40px;"></div>
+						</div>
+						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 20px;">
+							<p style="color: #000;font-weight: 400;font-size: 17px;">Already a Corporate Internet Banking user?</p>
 							<a href="https://corporate.ayaibanking.com/customer/portal" target="_blank">
 								<button class="btn get_start_btn">LOGIN</button>
 							</a>

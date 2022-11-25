@@ -37,6 +37,13 @@
 		border: 1px solid #dedede;
 		border-radius: 10px;
 	}
+	.outer_benefit_box:hover{
+		cursor: pointer;
+        -webkit-box-shadow: 10px 8px 10px 6px rgba(0,0,0,0.09);
+        -moz-box-shadow: 10px 8px 10px 6px rgba(0,0,0,0.09);
+        box-shadow: 10px 8px 10px 6px rgba(0,0,0,0.09);
+        border: 1px solid #fff;
+    }
 	.solution_text {
 		color: #000;
 		margin-bottom: 5px;
@@ -58,13 +65,13 @@
 	.tab_data_row {
 		width: 100%;
 	}
-	.tab_h2, .tab_upi_h2 {
-		font-weight: 800;
+	.tab_h3, .tab_upi_h3 {
 		position: absolute;
 		top: 230px;
 	}
 	.how_to_apply_icon {
 		width: 80%;
+		float: right;
 	}
 	.how_to_apply_outer_section {
 		background-image: url('./images/how_to_apply_bg.jpg');
@@ -96,11 +103,27 @@
 	}
 	.fees_charge_div, .annual_fee_div, .card_feature_div, .how_to_apply_div, .secured_fee_charge_div {
 		background-color: #fff;
-		border: 2px solid #cccccc;
+		border: 1px solid #cccccc;
 		border-radius: 10px;
 		padding: 40px 30px;
 		margin-left: 0px !important;
 		margin-bottom: 30px;
+	}
+	.reset_pin_btn {
+		background-color: #ae071d !important;
+		border: 1px solid #ae071d !important;
+		color: #fff !important;
+		font-weight: 500;
+		padding: 15px 25px !important;
+		margin-bottom: 2rem !important;
+	}
+	.reset_pin_btn:hover {
+		border: 1px solid #ae071d !important;
+		color: #ae071d !important;
+		background-color: #fff !important;
+	}
+	.how_to_apply_title_row {
+		padding-left: 45px;
 	}
 	@media (max-width: 1400px) and (min-width: 577px) {
 		.ecommerce_registration_bg {
@@ -119,10 +142,10 @@
 		.tab_data_row {
 			/*width: auto;*/
 		}
-		.tab_h2{
+		.tab_h3{
 			top: 380px;
 		}
-		.tab_upi_h2{
+		.tab_upi_h3{
 			top: 380px;
 			left: 15%;
 		}
@@ -131,6 +154,9 @@
 		}
 		.how_to_apply_icon {
 			width: 100%;
+		}
+		.how_to_apply_title_row {
+			padding-left: 0px;
 		}
 		.debit_how_to_apply_section {
 		    padding: 40px 30px 60px 30px !important;
@@ -146,6 +172,9 @@
 		.ecommerce_registration_container {
 			padding: 40px 0px 40px 40px !important;
 		}
+		.fees_charge_table {
+			zoom: 75%;
+		}
 	}
 </style>
 @section('content')
@@ -158,7 +187,7 @@
 			@include('layouts.banner', ['page'=>'debitcard'])
 
 			<div>
-				<div class="space-80"></div>
+				<div class="space-40"></div>
 				<div class="nav-align-top mb-4">
 					<ul class="nav nav-pills " role="tablist" style="justify-content: center;">
 						<li class="nav-item">
@@ -177,7 +206,7 @@
 							<div class="row tab_data_row" >
 								<div class="col-md-6"></div>
 								<div class="col-md-6 text-center" style="position: relative;">
-									<h2 class="tab_h2"><span style="color: #000;">It is easy, accessible and convenience with </span><span style="color: #a02226"><Br>AYA Universal Debit Card</span></h2>
+									<h3 class="tab_h3"><span style="color: #1d1d1f;">It is easy, accessible and convenience with </span><span style="color: #a02226"><Br>AYA Universal Debit Card</span></h3>
 								</div>
 							</div>
 						</div>
@@ -185,8 +214,7 @@
 							<div class="row tab_data_row" >
 								<div class="col-md-6"></div>
 								<div class="col-md-6 text-center" style="position: relative;">
-									<!-- style="font-weight: 800;position: absolute;top: 230px;" -->
-									<h2 class="tab_upi_h2"><span style="color: #000;">Buy what you eyed with </span><span style="color: #a02226"><Br>AYA Universal Debit Card</span></h2>
+									<h3 class="tab_upi_h3"><span style="color: #1d1d1f;">Buy what you eyed with </span><span style="color: #a02226"><Br>AYA Universal Debit Card</span></h3>
 								</div>
 							</div>
 						</div>
@@ -198,7 +226,7 @@
 				<div class="space-40"></div>
 				<div class="row">
 					<div class="col-md-12">
-						<h3 style="font-weight: 600;color: #000;">Benefits</h3>
+						<h3 style="font-weight: 600;color: #2e2e2e;">Benefits</h3>
 					</div>
 				</div>
 				
@@ -241,7 +269,7 @@
 
 							<div class="row fees_charge_div" style="display: none;">
 								<div class="col-md-12">
-									<table class="table table-border">
+									<table class="table table-border fees_charge_table">
 										<thead>
 											<tr>
 												<th></th>
@@ -395,11 +423,12 @@
 			</div>
 			<div class="how_to_apply_outer_section">
 				<div class="container debit_how_to_apply_section" style="">
-					<div class="space-40"></div>
+					<!-- <div class="space-40"></div> -->
 					<div class="row">
 						<div class="col-md-6 how_to_apply_desc" style="">
-							<div class="row">
-								<p style="color: #1d1d1f;font-weight: 600;font-size: 30px;margin-bottom: 1.5rem;">How to Apply</p>
+							<div class="row how_to_apply_title_row">
+								<h3 style="font-weight: 600;color: #2e2e2e;margin-bottom: 1.5rem;">How to Apply</h3>
+								<!-- <p style="color: #1d1d1f;font-weight: 600;font-size: 30px;"></p> -->
 							</div>
 
 							<div class="row">
@@ -451,7 +480,7 @@
 					<h4 style="font-weight: 500;color: #000;">Forgot your card PIN?</h4>
 					<p>You can reset / change your PIN easily via online.</p>
 					<a target="_blank" href="{{ url('/reset-pin') }}">
-						<button class="btn" style="background-color: #ae071d;color: #fff;font-weight: 500;padding: 15px 25px;border: #ae071d;margin-bottom: 2rem;">
+						<button class="btn reset_pin_btn">
 							Reset PIN
 						</button>
 					</a>
@@ -477,7 +506,7 @@
 								<div class="space-40"></div>
 								
 								<a target="_blank" href="#">
-									<button class="btn" style="background-color: #ae071d;color: #fff;font-weight: 500;padding: 15px 25px;border: #ae071d;margin-bottom: 2rem;">
+									<button class="btn reset_pin_btn">
 										Register Now
 									</button>
 								</a>
@@ -500,7 +529,7 @@
 				<div class="space-20"></div>
 				<div class="row">
 					<div class="col-md-12 text-center">
-						<h3 style="color: #343434;font-weight: 600;">Frequently Asked Questions</h3>
+						<h3 style="color: #343434;font-weight: 600;">FAQs</h3>
 					</div>
 				</div>
 				<div class="space-20"></div>

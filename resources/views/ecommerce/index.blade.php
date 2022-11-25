@@ -41,20 +41,6 @@
 		color: #000;
 		margin-bottom: 5px;
 	}
-	/*.feature_benefit {
-		background-image: url('./images/MPU_JCB_card.png');
-		background-size: cover;
-		background-repeat: no-repeat;
-		height: 520px;
-		background-position: center left;
-	}*/
-	/*.eligibility {
-		background-image: url('./images/JBC_UPI_card.png');
-		background-size: cover;
-		background-repeat: no-repeat;
-		height: 520px;
-		background-position: center left;
-	}*/
 	.tab_data_row {
 		width: 100%;
 	}
@@ -90,17 +76,23 @@
 	.why_use_AYA {
 		display: table-cell !important;
 	}
+	.tab_section_1 {
+	    padding: 0px 100px !important;
+	}
 	@media (min-width: 768px){
 		.col-md-3 {
 		    width: 23% !important;
 		}
 	}
 	@media only screen and (max-width: 576px){
+		.tab_section_1 {
+		    padding: 0px 30px !important;
+		}
 		.tab-pane {
 			background-position: -80px -70px;
 		}
 		.tab_data_row {
-			/*width: auto;*/
+			width: auto;
 		}
 		.tab_h2{
 			top: 380px;
@@ -141,7 +133,7 @@
 			@include('layouts.banner', ['page'=>'ecommerce'])
 
 			<div style="">
-				<div class="space-80"></div>
+				<div class="space-40"></div>
 				<div class="nav-align-top mb-4">
 					<ul class="nav nav-pills " role="tablist" style="justify-content: center;">
 						<li class="nav-item">
@@ -162,7 +154,7 @@
 					</ul>
 					<div class="tab-content" style="background-color: transparent;padding: 20px 0px 0px 0px;">
 						<div class="tab-pane fade feature_benefit show active" id="navs-pills-top-feature_benefit" role="tabpanel" style="background: rgb(243,243,243);background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(249,249,249,1) 50%, rgba(255,255,255,1) 100%);padding-bottom: 30px;">
-							<div class="container section_1">
+							<div class="container tab_section_1">
 								<div class="row tab_data_row" >
 									<div class="col-md-4 benefit_feature_box" style="padding: 20px;">
 										<div class="row why_use_AYA simple_login_div">
@@ -198,10 +190,10 @@
 							</div>
 						</div>
 						<div class="tab-pane eligibility fade" id="navs-pills-top-eligibility" role="tabpanel">
-							<div class="container section_1">
+							<div class="container tab_section_1">
 								<div class="row tab_data_row" >
 									<div class="col-md-12 benefit_feature_box" style="padding: 20px;">
-										<div class="row why_use_AYA simple_login_div">
+										<div class="row">
 											<p style="color: #4e4e4e;margin-top: 20px;">All Business entity incorporated in Myanmar. Business licenses from Yangon city Development Committee or Company license from DICA and Copy of owner’s NRC is needed to provide. Applicant must have any accounts at AYA.</p>
 										</div>
 									</div>
@@ -209,10 +201,10 @@
 							</div>
 						</div>
 						<div class="tab-pane apply fade" id="navs-pills-top-apply" role="tabpanel">
-							<div class="container section_1">
+							<div class="container tab_section_1">
 								<div class="row tab_data_row" >
 									<div class="col-md-12 benefit_feature_box" style="padding: 20px;">
-										<div class="row why_use_AYA simple_login_div">
+										<div class="row">
 											<p style="color: #4e4e4e;margin-top: 20px;">How to Apply: <br>Call us at Merchant Operations: <a href="tel:+959258889973" style="color: #a02226">+95) 9 25 888 9973</a>, <a href="tel:+95925888993" style="color: #a02226">+95) 9 25 888 9937</a> or <Br>Email us at <a href="mailto:mchecommerce@ayabank.com" style="color: #a02226">mchecommerce@ayabank.com</a></p>
 										</div>
 									</div>
@@ -229,7 +221,7 @@
 				<div class="space-20"></div>
 				<div class="row">
 					<div class="col-md-12 text-center">
-						<h3 style="color: #343434;font-weight: 600;">Frequently Asked Questions</h3>
+						<h3 style="color: #343434;font-weight: 600;">FAQs</h3>
 					</div>
 				</div>
 				<div class="space-20"></div>

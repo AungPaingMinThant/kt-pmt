@@ -14,6 +14,18 @@
 	.why_use_AYA_outer > .col-md-6 {
 		width: 48%;
 	}
+	.apply_now_btn {
+		background-color: #ae071d !important;
+		color: #fff !important;
+		padding: 15px 25px !important;
+		border-color: #ae071d !important;
+		margin-bottom: 2rem !important;
+	}
+	.apply_now_btn:hover{
+		background-color: #fff !important;
+		border-color: #ae071d !important;
+		color: #ae071d !important;
+	}
 	@media only screen and (max-width: 576px){
 		.why_use_AYA_outer > .col-md-6 {
 			width: 100%;
@@ -71,18 +83,74 @@
 						</div>
 					</div>
 					<div class="col-md-5 text-center d-none d-sm-block" style="padding-top: 20px;">
-						<img src="{{ url('/images/simple_login_mockup.png') }}" class="img-fluid" id="simple_login_mockup" style="width: 75%;">
+						<div id="why_use_AYA_first_section" class="carousel carousel-dark slide carousel-fade" data-bs-interval="false">
+							<ol class="carousel-indicators d-none">
+								<li data-bs-target="#why_use_AYA_first_section" id="slide_1" data-bs-slide-to="0" class="active"></li>
+								<li data-bs-target="#why_use_AYA_first_section" id="slide_2" data-bs-slide-to="1"></li>
+								<li data-bs-target="#why_use_AYA_first_section" id="slide_3" data-bs-slide-to="2"></li>
+								<li data-bs-target="#why_use_AYA_first_section" id="slide_4" data-bs-slide-to="3"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="{{ url('/images/simple_login_mockup.png') }}" class="d-block  img-fluid" id="simple_login_mockup" alt="First slide" style="width: 75%;">
+								</div>
+								<div class="carousel-item">
+									<img src="{{ url('/images/quick_check_balance_mockup.png') }}" class="d-block  img-fluid" id="quick_mockup" alt="Second slide" style="width: 75%;">
+								</div>
+								<div class="carousel-item">
+									<img src="{{ url('/images/simple_login_mockup.png') }}" class="d-block  img-fluid" id="manage_credit_mockup" alt="Third slide" style="width: 75%;">
+								</div>
+								<div class="carousel-item">
+									<img src="{{ url('/images/simple_login_mockup.png') }}" class="d-block  img-fluid" id="prepaid_card_mockup" alt="Fourth slide" style="width: 75%;">
+								</div>
+							</div>
+							<a class="carousel-control-prev d-none" href="#why_use_AYA_first_section" role="button" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</a>
+							<a class="carousel-control-next d-none" href="#why_use_AYA_first_section" role="button" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</a>
+						</div>
+						<!-- <img src="{{ url('/images/simple_login_mockup.png') }}" class="img-fluid" id="simple_login_mockup" style="width: 75%;">
 						<img src="{{ url('/images/quick_check_balance_mockup.png') }}" class="img-fluid" id="quick_mockup" style="width: 75%;display: none;">
 						<img src="{{ url('/images/simple_login_mockup.png') }}" class="img-fluid" id="manage_credit_mockup" style="width: 75%;display: none;">
-						<img src="{{ url('/images/simple_login_mockup.png') }}" class="img-fluid" id="prepaid_card_mockup" style="width: 75%;display: none;">
+						<img src="{{ url('/images/simple_login_mockup.png') }}" class="img-fluid" id="prepaid_card_mockup" style="width: 75%;display: none;"> -->
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="col-md-5 text-center d-none d-sm-block" style="padding-top: 20px;">
-						<img src="{{ url('/images/secure_transaction_mockup.png') }}" class="img-fluid" id="secure_transaction_mockup" style="width: 75%;">
+						<div id="why_use_AYA_second_section" class="carousel carousel-dark slide carousel-fade" data-bs-interval="false">
+							<ol class="carousel-indicators d-none">
+								<li data-bs-target="#why_use_AYA_second_section" id="slide2_1" data-bs-slide-to="0" class="active"></li>
+								<li data-bs-target="#why_use_AYA_second_section" id="slide2_2" data-bs-slide-to="1"></li>
+								<li data-bs-target="#why_use_AYA_second_section" id="slide2_3" data-bs-slide-to="2"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="{{ url('/images/secure_transaction_mockup.png') }}" class="d-block  img-fluid" id="secure_transaction_mockup" alt="First slide" style="width: 75%;">
+								</div>
+								<div class="carousel-item">
+									<img src="{{ url('/images/easy_transfer_payment_mockup.png') }}" class="d-block  img-fluid" id="easy_transfer_payment_mockup" alt="Second slide" style="width: 75%;">
+								</div>
+								<div class="carousel-item">
+									<img src="{{ url('/images/simple_login_mockup.png') }}" class="d-block  img-fluid" id="ATM_withdrawal_mockup" alt="Third slide" style="width: 75%;">
+								</div>
+							</div>
+							<a class="carousel-control-prev d-none" href="#why_use_AYA_second_section" role="button" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</a>
+							<a class="carousel-control-next d-none" href="#why_use_AYA_second_section" role="button" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</a>
+						</div>
+						<!-- <img src="{{ url('/images/secure_transaction_mockup.png') }}" class="img-fluid" id="secure_transaction_mockup" style="width: 75%;">
 						<img src="{{ url('/images/easy_transfer_payment_mockup.png') }}" class="img-fluid" id="easy_transfer_payment_mockup" style="width: 75%;display: none;">
-						<img src="{{ url('/images/simple_login_mockup.png') }}" class="img-fluid" id="ATM_withdrawal_mockup" style="width: 75%;display: none;">
+						<img src="{{ url('/images/simple_login_mockup.png') }}" class="img-fluid" id="ATM_withdrawal_mockup" style="width: 75%;display: none;"> -->
 					</div>
 					<div class="col-md-7">
 						<div class="row why_use_AYA_outer" style="column-gap: 20px;">
@@ -121,12 +189,16 @@
 				<div class="container how_to_apply_section" style="">
 					<div class="row">
 						<div class="col-md-6 how_to_apply_desc" style="">
-							<p style="color: #1d1d1f;font-weight: 600;font-size: 30px;margin-bottom: 1.5rem;">How to Apply</p>
+							<h3 style="color: #1d1d1f;margin-bottom: 1.5rem;">How to Apply</h3>
+							<!-- <p style="color: #1d1d1f;font-weight: 600;font-size: 30px;margin-bottom: 1.5rem;">How to Apply</p> -->
 							<p style="margin-bottom: 1.5rem;">You can easily register AYA Mobile Banking Service at any AYA Branches. Alternatively, you can apply online here. Our application is available to personal and business banking customers. You will need iOS or Android devices.</p>
 
-							<a href="https://ibankapp.ayabank.com" style=""><button class="btn" style="background-color: #ae071d;color: #fff;padding: 15px 25px;border: #ae071d;margin-bottom: 2rem;">Apply Now</button></a>
+							<a href="https://ibankapp.ayabank.com" style="">
+								<button class="btn apply_now_btn">Apply Now</button>
+							</a>
 
-							<p style="color: #a02225;font-weight: 500;font-size: 25px;margin-bottom: 5px;">Download the APP Now</p>
+							<h3 style="color: #a02225;margin-bottom: 5px;">Download the APP Now</h3>
+							<!-- <p style="color: #a02225;font-weight: 500;font-size: 25px;margin-bottom: 5px;">Download the APP Now</p> -->
 
 							<p style="color: #666;font-weight: 400;">On your mobile or tablet, download AYA Mobile Bankng here.</p>
 
@@ -152,7 +224,7 @@
 					</div>
 				</div>
 
-				<div class="container d-block d-sm-none" style="padding: 40px 50px 60px 50px;background-color: #f5f5f5;border-radius: 10px;margin-bottom: 50px;">
+				<div class="container d-block d-sm-none" style="padding: 20px 50px 30px 50px;background-color: #f5f5f5;border-radius: 10px;margin-bottom: 50px;">
 					<div class="row">
 						<div class="col-xs-12 text-center" style="padding-top: 20px;">
 							<p style="color: #a02225;font-weight: 500;font-size: 20px;margin-bottom: 5px;">Need more support?</p>
@@ -252,44 +324,51 @@
 
 <script type="text/javascript">
 	$(".simple_login_div").click(function() {
-		$("#simple_login_mockup").show(500);
-		$("#quick_mockup").hide(500);
-		$("#manage_credit_mockup").hide(500);
-		$("#prepaid_card_mockup").hide(500);
+		$("#slide_1").click();
+		// $("#simple_login_mockup").show(500);
+		// $("#quick_mockup").hide(500);
+		// $("#manage_credit_mockup").hide(500);
+		// $("#prepaid_card_mockup").hide(500);
 	});
 	$(".quick_div").click(function() {
-		$("#simple_login_mockup").hide(500);
-		$("#quick_mockup").show(500);
-		$("#manage_credit_mockup").hide(500);
-		$("#prepaid_card_mockup").hide(500);
+		$("#slide_2").click();
+		// $("#simple_login_mockup").hide(500);
+		// $("#quick_mockup").show(500);
+		// $("#manage_credit_mockup").hide(500);
+		// $("#prepaid_card_mockup").hide(500);
 	});
 	$(".manage_credit_div").click(function() {
-		$("#simple_login_mockup").hide(500);
-		$("#quick_mockup").hide(500);
-		$("#manage_credit_mockup").show(500);
-		$("#prepaid_card_mockup").hide(500);
+		$("#slide_3").click();
+		// $("#simple_login_mockup").hide(500);
+		// $("#quick_mockup").hide(500);
+		// $("#manage_credit_mockup").show(500);
+		// $("#prepaid_card_mockup").hide(500);
 	});
 	$(".prepaid_card_div").click(function() {
-		$("#simple_login_mockup").hide(500);
-		$("#quick_mockup").hide(500);
-		$("#manage_credit_mockup").hide(500);
-		$("#prepaid_card_mockup").show(500);
+		$("#slide_4").click();
+		// $("#simple_login_mockup").hide(500);
+		// $("#quick_mockup").hide(500);
+		// $("#manage_credit_mockup").hide(500);
+		// $("#prepaid_card_mockup").show(500);
 	});
 
 	$(".secure_transaction_div").click(function() {
-		$("#secure_transaction_mockup").show(500);
-		$("#easy_transfer_payment_mockup").hide(500);
-		$("#ATM_withdrawal_mockup").hide(500);
+		$("#slide2_1").click();
+		// $("#secure_transaction_mockup").show(500);
+		// $("#easy_transfer_payment_mockup").hide(500);
+		// $("#ATM_withdrawal_mockup").hide(500);
 	});
 	$(".easy_transfer_payment_div").click(function() {
-		$("#secure_transaction_mockup").hide(500);
-		$("#easy_transfer_payment_mockup").show(500);
-		$("#ATM_withdrawal_mockup").hide(500);
+		$("#slide2_2").click();
+		// $("#secure_transaction_mockup").hide(500);
+		// $("#easy_transfer_payment_mockup").show(500);
+		// $("#ATM_withdrawal_mockup").hide(500);
 	});
 	$(".ATM_withdrawal_div").click(function() {
-		$("#secure_transaction_mockup").hide(500);
-		$("#easy_transfer_payment_mockup").hide(500);
-		$("#ATM_withdrawal_mockup").show(500);
+		$("#slide2_3").click();
+		// $("#secure_transaction_mockup").hide(500);
+		// $("#easy_transfer_payment_mockup").hide(500);
+		// $("#ATM_withdrawal_mockup").show(500);
 	});
 </script>
 

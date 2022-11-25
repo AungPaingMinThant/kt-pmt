@@ -26,7 +26,7 @@
             font-family: 'Sora', sans-serif;
             background-color: #ffffff;
             font-size: 14px;
-	    color: #2e2e2e !important;
+	       color: #2e2e2e !important;
         }
         .menu > .nav-item {            
             text-transform: uppercase !important;
@@ -45,7 +45,8 @@
             padding: 20px 20px;
             cursor: pointer;
         }
-        .why_use_AYA:hover{            
+        .why_use_AYA:hover{
+            cursor: pointer;  
             -webkit-box-shadow: 10px 8px 10px 6px rgba(0,0,0,0.09);
             -moz-box-shadow: 10px 8px 10px 6px rgba(0,0,0,0.09);
             box-shadow: 10px 8px 10px 6px rgba(0,0,0,0.09);
@@ -54,8 +55,8 @@
 
         .space-20 {
             height: 20px;
-        }
-	.space-29 {
+        }  
+        .space-29 {
             height: 29px;
         }
         .space-30 {

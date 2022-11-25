@@ -43,11 +43,6 @@
 		margin-bottom: 20px;
 		margin-top: 40px;
 	}
-	.benefit_box{
-		/*border: 1px solid #dedede;
-	    border-radius: 10px;
-	    padding: 20px 0px 0px 5px !important;*/
-	}
 	.solution_text {
 		color: #000;
 		margin-bottom: 5px;
@@ -80,12 +75,10 @@
 		height: 520px;
 		background-position: center left;
 	}
-
 	.tab_data_row {
 		margin-right: 0px !important;
 	}
 	.tab_h2 {
-		font-weight: 800;
 		position: absolute;
 		top: 230px;
 		left: 30%;
@@ -204,6 +197,19 @@
 	.jbc_visa_manage_card > .col-md-6, .secured_manage_card > .col-md-6 {
 		width: 48% !important;
 	}
+	.reset_pin_btn {
+		background-color: #ae071d !important;
+		border: 1px solid #ae071d !important;
+		color: #fff !important;
+		font-weight: 500;
+		padding: 15px 25px !important;
+		margin-bottom: 2rem !important;
+	}
+	.reset_pin_btn:hover {
+		border: 1px solid #ae071d !important;
+		color: #ae071d !important;
+		background-color: #fff !important;
+	}
 	@media (max-width: 1400px) and (min-width: 577px) {
 		.visa_credit_tab, .secure_credit_tab {
 			background-position: 60% center;
@@ -273,7 +279,7 @@
 			padding: 40px 20px;
 		}
 		.simple_pay_div {
-			padding: 20px 20px 40px 20px;
+			padding: 0px;
 		}
 	}
 </style>
@@ -316,7 +322,8 @@
 						<div class="tab-pane jcb_credit_tab fade show active" id="navs-pills-top-home" role="tabpanel">
 							<div class="row tab_data_row" >
 								<div class="col-md-6 text-center" style="position: relative;">
-									<h2 class="tab_h2"><span style="color: #000;">We connect your financial life to </span><span style="color: #a02226">everyday life</span></h2>
+									<!-- <h3 class="tab_h3"><span style="color: #1d1d1f;">It is easy, accessible and convenience with </span><span style="color: #a02226"><Br>AYA Universal Debit Card</span></h3> -->
+									<h3 class="tab_h2"><span style="color: #1d1d1f;">We connect your financial life to </span><span style="color: #a02226">everyday life</span></h3>
 								</div>
 								<div class="col-md-6"></div>
 							</div>
@@ -324,7 +331,7 @@
 						<div class="tab-pane visa_credit_tab fade" id="navs-pills-top-profile" role="tabpanel">
 							<div class="row tab_data_row" >
 								<div class="col-md-6 text-center" style="position: relative;">
-									<h2 class="tab_h2"><span style="color: #000;">Its Everywhere </span><span style="color: #a02226">You Want to Be</span></h2>
+									<h3 class="tab_h2"><span style="color: #1d1d1f;">Its Everywhere </span><span style="color: #a02226">You Want to Be</span></h3>
 								</div>
 								<div class="col-md-6"></div>
 							</div>
@@ -333,7 +340,7 @@
 							<div class="row tab_data_row" >
 								<div class="col-md-6 secure_credit_data">
 									<div class="space-60"></div>
-									<h3 class="" style="margin-bottom: 25px;font-weight: 800;left: 30%;color: #000;">Smile with your Secured Credit Card.</h3>
+									<h3 class="" style="margin-bottom: 25px;left: 30%;color: #000;">Smile with your Secured Credit Card.</h3>
 									<p style="font-weight: 600;color: #4e4e4e;margin-bottom: 25px;">Interested in a new Secured Credit Card?</p>
 									<p>AYA's innovation product, the "Secured Credit Card" is designed to help customers who wants or needs a credit card withour having to go through complex paperwork process. As opposed to applying a normal credit card, where proof of income or a guarantor is a prerequisite.</p>
 
@@ -514,10 +521,10 @@
 						<div class="col-md-12 how_to_apply_desc">
 							<div class="row">
 								<p style="color: #1d1d1f;font-weight: 600;font-size: 30px;margin-bottom: 0px;">Fees and Charges</p>
-								<p style="color: #1d1d1f;margin-bottom: 30px;">Enjoy free issuing card fees for both Principal and Supplementary Card holder. <a class="credit_fee_charge" style="color: #1d1d1f;text-decoration: underline;cursor: pointer;">Click here to learn other fees and charges</a><i class="menu-icon tf-icons bx bx-chevron-up credit_fee_charge_chevron"></i></p>
+								<p style="color: #1d1d1f;margin-bottom: 30px;">Enjoy free issuing card fees for both Principal and Supplementary Card holder. <a class="credit_fee_charge" style="color: #1d1d1f;text-decoration: underline;cursor: pointer;">Click here to learn other fees and charges</a><i class="menu-icon tf-icons bx bx-chevron-down credit_fee_charge_chevron"></i></p>
 							</div>
 
-							<div class="row fees_charge_div">
+							<div class="row fees_charge_div" style="display: none;">
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-md-6 fee_charge_inner_div">
@@ -1082,7 +1089,7 @@
 						<div class="col-md-8 col-xs-12" style="padding-top: 120px;">
 							<p style="font-size: 22px;margin-bottom: 15px;">Are you also interested in <br><span style="font-weight: 500;color: #a02225;">SimplePay Installment</span> with AYA Credit Cards?</p>
 							<a href="{{ url('/simple-pay') }}">
-								<button class="btn" style="background-color: #ae071d;color: #fff;font-weight: 500;padding: 15px 30px;border: #ae071d;margin-bottom: 2rem;border-radius: 0px;">
+								<button class="btn reset_pin_btn" >
 									More Details
 								</button>
 							</a>
@@ -1091,12 +1098,12 @@
 					</div>
 				</div>
 
-				<div class="container d-block d-sm-none" style="padding: 30px;background-color: #f5f5f5;border-radius: 10px;margin-bottom: 0px;">
+				<div class="container d-block d-sm-none" style="padding: 30px;background-color: #f5f5f5;margin-bottom: 0px;">
 					<div class="row">
 						<div class="col-md-12 col-xs-12">
 							<p style="font-size: 22px;margin-bottom: 15px;">Are you also interested in <br><span style="font-weight: 500;color: #a02225;">SimplePay Installment</span> with AYA Credit Cards?</p>
 							<a href="{{ url('/simple-pay') }}">
-								<button class="btn" style="background-color: #ae071d;color: #fff;font-weight: 500;padding: 15px 30px;border: #ae071d;margin-bottom: 2rem;border-radius: 0px;">
+								<button class="btn reset_pin_btn" >
 									More Details
 								</button>
 							</a>
@@ -1112,7 +1119,7 @@
 				<div class="space-20"></div>
 				<div class="row">
 					<div class="col-md-12 text-center">
-						<h3 style="color: #343434;font-weight: 600;">Frequently Asked Questions</h3>
+						<h3 style="color: #343434;font-weight: 600;">FAQs</h3>
 					</div>
 				</div>
 				<div class="space-20"></div>

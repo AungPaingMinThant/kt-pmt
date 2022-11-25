@@ -28,6 +28,27 @@
     .footer_section {
         padding: 0px 100px !important;
     }
+    .social_icon {
+        font-size: 15.5px;
+        background-color: #989ba1;
+        border-radius: 50%;
+        text-align: center;
+        padding: .5em;
+        cursor: pointer;
+        display: inline-block;
+        line-height: 1;
+        border: 1px solid #989ba1 !important;
+    }
+    .social_icon > span {
+        color: #484848 !important;
+    }
+    .social_icon:hover {
+        background-color: #484848;
+        border: 1px solid #989ba1 !important;
+    }
+    .social_icon:hover > span {
+        color: #989ba1 !important;
+    }
     @media  only screen and (max-width: 576px) {
         #first_footer_height{
             height: auto;
@@ -98,14 +119,14 @@
                 Terms & Condition&nbsp;&nbsp;|&nbsp;&nbsp;Privacy Policy</p>
             </div>
             <div class="col-4 d-none d-sm-block text-center" style="padding-top: 4px">
-                <a href="#" target="_blank" style="font-size: var(17px,25px);background-color: #989ba1;border-radius: 50%;text-align: center;padding: .5em;cursor: pointer;display: inline-block;line-height: 1;">
-                    <span class="tf-icons bx bxl-facebook" style="color: #484848"></span>
+                <a href="https://www.facebook.com/ayabank/" target="_blank" class="social_icon">
+                    <span class="tf-icons bx bxl-facebook"></span>
                 </a>
-                <a href="#" target="_blank" style="font-size: 15.5px;background-color: #989ba1;border-radius: 50%;text-align: center;padding: .5em;cursor: pointer;display: inline-block;line-height: 1;">
-                    <span class="tf-icons bx bxl-twitter" style="color: #484848"></span>
+                <a href="https://twitter.com/aya_bank" target="_blank" class="social_icon">
+                    <span class="tf-icons bx bxl-twitter"></span>
                 </a>
-                <a href="#" target="_blank" style="font-size: var(17px,25px);background-color: #989ba1;border-radius: 50%;text-align: center;padding: .5em;cursor: pointer;display: inline-block;line-height: 1;">
-                    <span class="tf-icons bx bxl-linkedin" style="color: #484848"></span>
+                <a href="https://www.linkedin.com/company/ayabank/" target="_blank" class="social_icon">
+                    <span class="tf-icons bx bxl-linkedin"></span>
                 </a>
             </div>
             <div class="col-4 d-none d-sm-block text-right" style="">
@@ -117,14 +138,14 @@
                 <p class="footer_first_link_p" style="font-size: 12px;">Terms & Condition&nbsp;&nbsp;|&nbsp;&nbsp;Privacy Policy</p>
             </div>
             <div class="col-12 text-center">
-                <a href="#" target="_blank" style="font-size: var(17px,25px);background-color: #989ba1;border-radius: 50%;text-align: center;padding: .5em;cursor: pointer;display: inline-block;line-height: 1;">
-                    <span class="tf-icons bx bxl-facebook" style="color: #484848"></span>
+                <a href="https://www.facebook.com/ayabank/" class="social_icon" target="_blank">
+                    <span class="tf-icons bx bxl-facebook"></span>
                 </a>
-                <a href="#" target="_blank" style="font-size: 15.5px;background-color: #989ba1;border-radius: 50%;text-align: center;padding: .5em;cursor: pointer;display: inline-block;line-height: 1;">
-                    <span class="tf-icons bx bxl-twitter" style="color: #484848"></span>
+                <a href="https://twitter.com/aya_bank" class="social_icon" target="_blank">
+                    <span class="tf-icons bx bxl-twitter"></span>
                 </a>
-                <a href="#" target="_blank" style="font-size: var(17px,25px);background-color: #989ba1;border-radius: 50%;text-align: center;padding: .5em;cursor: pointer;display: inline-block;line-height: 1;">
-                    <span class="tf-icons bx bxl-linkedin" style="color: #484848"></span>
+                <a href="https://www.linkedin.com/company/ayabank/" class="social_icon" target="_blank">
+                    <span class="tf-icons bx bxl-linkedin"></span>
                 </a>
             </div>
             <div class="col-12 text-center">

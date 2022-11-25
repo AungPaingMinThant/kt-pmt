@@ -162,7 +162,7 @@
 								<div class="row tab_data_row" >
 									<div class="col-md-6 benefit_feature_box" style="padding: 20px;">
 										<div class="row">
-											<p style="color: #4e4e4e;margin-top: 40px;">Text alerts help to give you more control over your money. AYA SMS alert is more than a tool to help you identify fraudulent activity on your account, debit and credit card with real time push notifications sent to your device. It will tell you when you go into an unarranged overdraft or payment rejected.  It allows you manage the costs more efficiently.</p>
+											<p style="color: #4e4e4e;">Text alerts help to give you more control over your money. AYA SMS alert is more than a tool to help you identify fraudulent activity on your account, debit and credit card with real time push notifications sent to your device. It will tell you when you go into an unarranged overdraft or payment rejected.  It allows you manage the costs more efficiently.</p>
 											<p style="color: #4e4e4e;font-weight: 600;margin-top: 20px;">Keep up to date with what's happening on your account!</p>
 										</div>
 									</div>
@@ -177,7 +177,7 @@
 								<div class="row tab_data_row" >
 									<div class="col-md-6 benefit_feature_box" style="padding: 20px;">
 										<div class="row">
-											<p style="color: #4e4e4e;margin-top: 40px;">Simply sign up and apply for SMS alert service at your nearest branch and allows you to link all your saving accounts to a specific mobile number.</p>
+											<p style="color: #4e4e4e;">Simply sign up and apply for SMS alert service at your nearest branch and allows you to link all your saving accounts to a specific mobile number.</p>
 
 											<p style="color: #4e4e4e;margin-bottom: 10px;margin-top: 20px;">Requirements for existing customer</p>
 											<ul style="margin-left: 16px;color: #4e4e4e;">
@@ -194,7 +194,7 @@
 										</div>
 									</div>
 									<div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
-										<img src="{{ url('/images/sms/at_a_glance.png') }}" class="img-fluid" style="width: 80%">
+										<img src="{{ url('/images/sms/placeholder.jpg') }}" class="img-fluid" style="width: 80%">
 									</div>
 								</div>
 							</div>
@@ -204,11 +204,11 @@
 								<div class="row tab_data_row" >
 									<div class="col-md-6 benefit_feature_box" style="padding: 20px;">
 										<div class="row">
-											<p style="color: #4e4e4e;margin-top: 40px;">Getting an instant SMS notification immediately after any transaction above MMK 20,000 for transactions such as ATM Withdraw, POS Transactions in shops, mBanking/ iBanking bill payment transactions, and money transfer. </p>
+											<p style="color: #4e4e4e;">Getting an instant SMS notification immediately after any transaction above MMK 20,000 for transactions such as ATM Withdraw, POS Transactions in shops, mBanking/ iBanking bill payment transactions, and money transfer. </p>
 										</div>
 									</div>
 									<div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
-										<img src="{{ url('/images/sms/at_a_glance.png') }}" class="img-fluid" style="width: 80%">
+										<img src="{{ url('/images/sms/placeholder.jpg') }}" class="img-fluid" style="width: 80%">
 									</div>
 								</div>
 							</div>
@@ -218,11 +218,11 @@
 								<div class="row tab_data_row" >
 									<div class="col-md-6 benefit_feature_box" style="padding: 20px;">
 										<div class="row">
-											<p style="color: #4e4e4e;margin-top: 40px;">Anyone who has any AYA Saving and Current Accounts can sign up and apply AYA SMS Alert Service.</p>
+											<p style="color: #4e4e4e;">Anyone who has any AYA Saving and Current Accounts can sign up and apply AYA SMS Alert Service.</p>
 										</div>
 									</div>
 									<div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
-										<img src="{{ url('/images/sms/at_a_glance.png') }}" class="img-fluid" style="width: 80%">
+										<img src="{{ url('/images/sms/placeholder.jpg') }}" class="img-fluid" style="width: 80%">
 									</div>
 								</div>
 							</div>
@@ -232,14 +232,14 @@
 								<div class="row tab_data_row" >
 									<div class="col-md-6 benefit_feature_box" style="padding: 20px;">
 										<div class="row">
-											<p style="color: #4e4e4e;margin-top: 40px;">You will be debited for each given account every month by our postpaid model.</p>
+											<p style="color: #4e4e4e;">You will be debited for each given account every month by our postpaid model.</p>
 											<p style="color: #4e4e4e;"><b>Initial Fees:</b> No application fees or processing fees.</p>
 											<p style="color: #4e4e4e;"><b>Monthly Fees:</b> MMK 1,500 per personal account, MMK 3,000 Ks per corporate account</p>
 											<p style="color: #4e4e4e;"><b>Cancellation Fee:</b> No cancellation fees. Just one month notice of service termination must be given to the bank.</p>
 										</div>
 									</div>
 									<div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
-										<img src="{{ url('/images/sms/at_a_glance.png') }}" class="img-fluid" style="width: 80%">
+										<img src="{{ url('/images/sms/placeholder.jpg') }}" class="img-fluid" style="width: 80%">
 									</div>
 								</div>
 							</div>
@@ -254,7 +254,7 @@
 				<div class="space-20"></div>
 				<div class="row">
 					<div class="col-md-12 text-center">
-						<h3 style="color: #343434;font-weight: 600;">Frequently Asked Questions</h3>
+						<h3 style="color: #343434;font-weight: 600;">FAQs</h3>
 					</div>
 				</div>
 				<div class="space-20"></div>
