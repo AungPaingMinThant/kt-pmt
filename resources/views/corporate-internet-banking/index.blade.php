@@ -94,6 +94,20 @@
 		margin: 0 auto !important;
 		align-content: center !important;
 	}
+	.read_more_btn {
+		background-color: #484848 !important;
+		color: #fff !important;
+		border-radius: 5px !important;
+		border: 1px solid #484848 !important;
+	}
+	.read_more_btn:hover{
+		background-color: #fff !important;
+		color: #484848 !important;
+		border: 1px solid #484848 !important;
+	}
+	.need_more_support_section {
+	    padding: 40px 208px 0px 208px !important;
+	}
 	@media (max-width: 1400px) and (min-width: 577px) {
 		.carousel-indicators{
 			left: 85% !important;
@@ -405,52 +419,30 @@
 				</div>
 			</div>
 
-			<div class="need_more_support_section d-none">
-				<div class="container d-none d-sm-block" style="padding: 40px 60px 30px 60px;background-color: #f5f5f7;border-radius: 6px;">
+			<div class="space-20"></div>
+
+			<div class="need_more_support_section">
+				<div class="container d-none d-sm-block" style="padding: 40px 60px 40px 60px;background-color: #f5f5f7;border-radius: 6px;">
 					<div class="row">
-						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;border-right: 1px solid #1d1d1f;padding-right: 0px;">
-							<p style="color: #000;font-weight: 400;font-size: 17px;">Not yet a Corporate Internet Banking user?</p>
+						<div class="col-md-9 col-xs-12" style="padding-top: 15px;">
+							<p style="color: #000;font-weight: 400;font-size: 17px;margin-bottom: 0px;">Frequently Asked Question about Corporate Internet Banking</p>
+						</div>
+						<div class="col-md-3 col-xs-12 text-right" style="padding-top: 10px;padding-left: 0px;text-align: right;">
 							<a href="#" target="_blank">
-								<button class="btn get_start_btn">VISIT US TO FIND OUT MORE</button>
+								<button class="btn read_more_btn">Read More</button>
 							</a>
-							<div style="height: 40px;"></div>
-						</div>
-						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;padding-left: 0px;">
-							<p style="color: #000;font-weight: 400;font-size: 17px;">Already a Corporate Internet Banking user?</p>
-							<a href="https://corporate.ayaibanking.com/customer/portal" target="_blank">
-								<button class="btn get_start_btn">LOGIN</button>
-							</a>
-							<div style="height: 40px;"></div>
-						</div>
-						<div class="col-md-12 col-xs-12 text-center">
-							<div class="space-20"></div>
-							<p style="color: #000;"><a href="#" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities to help you manage your finance online.</p>
 						</div>
 					</div>
 				</div>
-				<div class="container d-block d-sm-none" style="padding: 30px;background-image: url('./images/get_start_bg.jpg');background-size: cover;border-radius: 6px;">
+				<div class="container d-block d-sm-none" style="padding: 30px;background-color: #f5f5f7;border-radius: 6px;">
 					<div class="row">
-						<div class="col-md-12 col-xs-12 text-center">
-							<h2 style="font-weight: 800;color: #000;">Get started Corporate Internet Banking!</h2>
-							<div class="space-20"></div>
+						<div class="col-xs-12 text-center" style="padding-top: 15px;">
+							<p style="color: #000;font-weight: 400;font-size: 17px;margin-bottom: 0px;">Frequently Asked Question about Corporate Internet Banking</p>
 						</div>
-						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;border-bottom: 1px solid #1d1d1f;padding-bottom: 0px;">
-							<p style="color: #000;font-weight: 400;font-size: 17px;">Not yet a Corporate Internet Banking user?</p>
+						<div class="col-xs-12 text-center" style="padding-top: 10px;padding-left: 0px;text-align: right;">
 							<a href="#" target="_blank">
-								<button class="btn get_start_btn">VISIT US TO FIND OUT MORE</button>
+								<button class="btn read_more_btn">Read More</button>
 							</a>
-							<div style="height: 40px;"></div>
-						</div>
-						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 20px;">
-							<p style="color: #000;font-weight: 400;font-size: 17px;">Already a Corporate Internet Banking user?</p>
-							<a href="https://corporate.ayaibanking.com/customer/portal" target="_blank">
-								<button class="btn get_start_btn">LOGIN</button>
-							</a>
-							<div style="height: 40px;"></div>
-						</div>
-						<div class="col-md-12 col-xs-12 text-center">
-							<!-- <div class="space-20"></div> -->
-							<p style="color: #000;"><a href="#" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities to help you manage your finance online.</p>
 						</div>
 					</div>
 				</div>
