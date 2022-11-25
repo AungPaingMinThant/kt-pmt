@@ -352,21 +352,21 @@
 						</div>
 						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;border-right: 1px solid #1d1d1f;padding-right: 0px;">
 							<p style="color: #000;font-weight: 400;font-size: 20px;">Not yet a Corporate Internet Banking user?</p>
-							<a href="https://www.ayaibanking.com/ibLogin.aspx" target="_blank">
+							<a href="#" target="_blank">
 								<button class="btn get_start_btn">VISIT US TO FIND OUT MORE</button>
 							</a>
 							<div style="height: 40px;"></div>
 						</div>
 						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;padding-left: 0px;">
 							<p style="color: #000;font-weight: 400;font-size: 20px;">Already a Corporate Internet Banking user?</p>
-							<a href="https://www.ayaibanking.com/ibLogin.aspx" target="_blank">
+							<a href="https://corporate.ayaibanking.com/customer/portal" target="_blank">
 								<button class="btn get_start_btn">LOGIN</button>
 							</a>
 							<div style="height: 40px;"></div>
 						</div>
 						<div class="col-md-12 col-xs-12 text-center">
 							<div class="space-20"></div>
-							<p style="color: #000;"><a href="{{ url('/file/iBanking/AYA iBanking User Guide P v1.2.pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities to help you manage your finance online.</p>
+							<p style="color: #000;"><a href="#" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities to help you manage your finance online.</p>
 						</div>
 					</div>
 				</div>
@@ -378,17 +378,21 @@
 						</div>
 						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;border-bottom: 1px solid #1d1d1f;padding-bottom: 0px;">
 							<p style="color: #000;font-weight: 400;font-size: 20px;">Not yet a Corporate Internet Banking user?</p>
-							<button class="btn get_start_btn">VISIT US TO FIND OUT MORE</button>
+							<a href="#" target="_blank">
+								<button class="btn get_start_btn">VISIT US TO FIND OUT MORE</button>
+							</a>
 							<div style="height: 40px;"></div>
 						</div>
 						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 20px;">
 							<p style="color: #000;font-weight: 400;font-size: 20px;">Already a Corporate Internet Banking user?</p>
-							<button class="btn get_start_btn">LOGIN</button>
+							<a href="https://corporate.ayaibanking.com/customer/portal" target="_blank">
+								<button class="btn get_start_btn">LOGIN</button>
+							</a>
 							<div style="height: 40px;"></div>
 						</div>
 						<div class="col-md-12 col-xs-12 text-center">
 							<!-- <div class="space-20"></div> -->
-							<p style="color: #000;"><a href="{{ url('/file/iBanking/AYA iBanking User Guide P v1.2.pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities to help you manage your finance online.</p>
+							<p style="color: #000;"><a href="#" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities to help you manage your finance online.</p>
 						</div>
 					</div>
 				</div>
