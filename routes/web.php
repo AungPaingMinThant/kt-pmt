@@ -71,3 +71,8 @@ Route::get('/reset-pin','App\Http\Controllers\ResetPinController@index');
 
 Route::get('/corporate-internet-banking','App\Http\Controllers\CorporateInternetBankingController@index');
 
+Route::get('/digital-secure','App\Http\Controllers\DigitalSecureController@index');
+
+Route::get('/frequently-used-digital','App\Http\Controllers\FrequentlyUsedDigitalController@index');
+
+Route::get('/pos','App\Http\Controllers\POSController@index');

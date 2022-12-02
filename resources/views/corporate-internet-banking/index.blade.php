@@ -108,7 +108,35 @@
 	.need_more_support_section {
 	    padding: 40px 208px 0px 208px !important;
 	}
-	@media (max-width: 1400px) and (min-width: 577px) {
+	@media (max-width: 1300px) and (min-width: 1000px) {
+		.carousel-indicators {
+			top: 25%;
+			left: 78% !important;
+		}
+		.carousel-indicators [data-bs-target] {
+			padding: 10px 0px 10px 0px !important;
+		}
+		.carousel_desc {
+			width: 25% !important;
+			top: 25% !important;
+			left: 10% !important;
+		}
+		.offers_tag, .offers_tag_plus {
+		    width: 220px;
+		    height: 220px;
+		}
+		.offers_bg {
+		    padding: 30px 20px 0px 20px;
+		    height: 930px;
+		}
+		.packages_div > .col-md-5 {
+		    width: 35.666667%;
+		}
+		.need_more_support_section {
+		    padding: 40px 100px 0px 100px !important;
+		}
+	}
+	@media (max-width: 1400px) and (min-width: 1301px) {
 		.carousel-indicators{
 			left: 85% !important;
 		}

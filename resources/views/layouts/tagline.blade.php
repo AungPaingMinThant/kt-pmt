@@ -54,4 +54,15 @@
 		</div>
 	</div>
 @endif
+
+@if($page == 'digital_secure')
+	<div class="row">
+		<div class="col-md-4 tag_line">
+			<p style="font-size: 19px;padding-right: 40px;">Top priority is customers’ safety when using AYA Bank’s digital services</p>
+		</div>
+		<div class="col-md-8 tag_desc">
+			<p>Our top priority is customers’ safety when using AYA Bank’s digital services. Since security breach and fraud prevention is to be achieved with collective effort, we would like to remind our customers to take precautionary measures.</p>
+		</div>
+	</div>
+@endif
 <div class="space-40"></div>

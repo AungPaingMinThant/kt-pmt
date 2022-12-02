@@ -8,6 +8,11 @@
 	.carousel-caption.carousel_desc {
 		text-align: left !important;
 	}
+	.carousel_desc {
+		width: 17% !important;
+		top: 35% !important;
+		left: 13% !important;		
+	}
 	.carousel-indicators{
 		left: 85% !important;
 		bottom: 50% !important;
@@ -68,9 +73,35 @@
 	.need_more_support_section {
 	    padding: 40px 208px 0px 208px !important;
 	}
-	@media (max-width: 1400px) and (min-width: 577px) {
+	.need_more_support_section_container {
+		padding: 40px 100px 30px 100px;
+		background-image: url('./images/get_start_bg.jpg');
+		background-size: cover;
+		border-radius: 6px;
+	}
+	@media (max-width: 1400px) and (min-width: 1301px) {
 		.carousel-indicators{
 			left: 85% !important;
+		}
+	}
+	@media (max-width: 1300px) and (min-width: 1000px) {
+		.carousel-indicators {
+			top: 15%;
+			left: 78% !important;
+		}
+		.carousel-indicators [data-bs-target] {
+			padding: 10px 0px 10px 0px !important;
+		}
+		.carousel_desc {
+			width: 25% !important;
+			top: 25% !important;
+			left: 10% !important;
+		}
+		.need_more_support_section {
+		    padding: 40px 150px 0px 150px !important;
+		}
+		.need_more_support_section_container {
+			padding: 40px 70px 30px 70px;
 		}
 	}
 	@media only screen and (max-width: 576px){
@@ -105,10 +136,9 @@
 						<div class="carousel-item active">
 							<img class="d-block w-100" src="{{ url('/images/ayaiBankingslider1.jpg') }}" alt="First slide">
 							<div class="carousel-caption carousel_title d-none d-md-block">
-								<!-- <h2 style="font-weight: 800;color: #000;">What you can do with AYA iBanking?</h2> -->
 								<h3 style="color: #1d1d1f;padding: 0px 60px;">What you can do with AYA iBanking?</h3>
 							</div>
-							<div class="carousel-caption carousel_desc text-left d-none d-md-block" style="width: 17%;top: 35%;left: 13%;">
+							<div class="carousel-caption carousel_desc text-left d-none d-md-block">
 								<p class="carousel_desc_title">Transfer Funds</p>
 								<p class="carousel_desc_detail">It could be between AYA Bank accounts or transfer to other bank’s account or to your credit card. Move money now or schedule it for future, whatever you need.</p>
 							</div>
@@ -116,10 +146,9 @@
 						<div class="carousel-item">
 							<img class="d-block w-100" src="{{ url('/images/ayaiBankingslider3.jpg') }}" alt="Second slide">
 							<div class="carousel-caption carousel_title d-none d-md-block">
-								<!-- <h2 style="font-weight: 800;color: #000;">What you can do with AYA iBanking?</h2> -->
 								<h3 style="color: #1d1d1f;padding: 0px 60px;">What you can do with AYA iBanking?</h3>
 							</div>
-							<div class="carousel-caption carousel_desc text-left d-none d-md-block" style="width: 17%;top: 35%;left: 13%;">
+							<div class="carousel-caption carousel_desc text-left d-none d-md-block">
 								<p class="carousel_desc_title">Get Your Statement</p>
 								<p class="carousel_desc_detail">Paperless statement is available to view, download and print 24/7. Go online and monitor your transactions.</p>
 							</div>
@@ -127,10 +156,9 @@
 						<div class="carousel-item">
 							<img class="d-block w-100" src="{{ url('/images/ayaiBankingslider3.jpg') }}" alt="Third slide">
 							<div class="carousel-caption carousel_title d-none d-md-block">
-								<!-- <h2 style="font-weight: 800;color: #000;">What you can do with AYA iBanking?</h2> -->
 								<h3 style="color: #1d1d1f;padding: 0px 60px;">What you can do with AYA iBanking?</h3>
 							</div>
-							<div class="carousel-caption carousel_desc text-left d-none d-md-block" style="width: 17%;top: 35%;left: 13%;">
+							<div class="carousel-caption carousel_desc text-left d-none d-md-block">
 								<p class="carousel_desc_title">Bill Payments</p>
 								<p class="carousel_desc_detail">Take advantage of online banking services to manage bill payments securely.</p>
 							</div>
@@ -138,10 +166,9 @@
 						<div class="carousel-item">
 							<img class="d-block w-100" src="{{ url('/images/ayaiBankingslider3.jpg') }}" alt="Fourth slide">
 							<div class="carousel-caption carousel_title d-none d-md-block">
-								<!-- <h2 style="font-weight: 800;color: #000;">What you can do with AYA iBanking?</h2> -->
 								<h3 style="color: #1d1d1f;padding: 0px 60px;">What you can do with AYA iBanking?</h3>
 							</div>
-							<div class="carousel-caption carousel_desc text-left d-none d-md-block" style="width: 17%;top: 35%;left: 13%;">
+							<div class="carousel-caption carousel_desc text-left d-none d-md-block">
 								<p class="carousel_desc_title">Mobile Top-up</p>
 								<p class="carousel_desc_detail">Top-up anyone’s mobile fast, easy and secure from your iBanking account.</p>
 							</div>
@@ -149,10 +176,9 @@
 						<div class="carousel-item">
 							<img class="d-block w-100" src="{{ url('/images/ayaiBankingslider3.jpg') }}" alt="Fifth slide">
 							<div class="carousel-caption carousel_title d-none d-md-block">
-								<!-- <h2 style="font-weight: 800;color: #000;">What you can do with AYA iBanking?</h2> -->
 								<h3 style="color: #1d1d1f;padding: 0px 60px;">What you can do with AYA iBanking?</h3>
 							</div>
-							<div class="carousel-caption carousel_desc text-left d-none d-md-block" style="width: 17%;top: 35%;left: 13%;">
+							<div class="carousel-caption carousel_desc text-left d-none d-md-block">
 								<p class="carousel_desc_title">SMS Services</p>
 								<p class="carousel_desc_detail">It sends alerts to keep you on track, giving you more control over your money. You'll receive text message without internet connection.</p>
 							</div>
@@ -256,7 +282,7 @@
 
 			<div class="space-40"></div>
 			<div class="need_more_support_section">
-				<div class="container d-none d-sm-block" style="padding: 40px 100px 30px 100px;background-image: url('./images/get_start_bg.jpg');background-size: cover;border-radius: 6px;">
+				<div class="container d-none d-sm-block need_more_support_section_container">
 					<div class="row">
 						<div class="col-md-12 col-xs-12 text-center">
 							<!-- <h2 style="font-weight: 800;color: #000;">Get started Banking Online!</h2> -->

@@ -125,7 +125,16 @@
 	.how_to_apply_title_row {
 		padding-left: 45px;
 	}
-	@media (max-width: 1400px) and (min-width: 577px) {
+	@media (max-width: 1300px) and (min-width: 1000px) {
+		.how_to_apply_outer_section {
+			background-position: 80% center;
+		}
+		.ecommerce_registration_bg {
+			background-image: url('./images/MPU_ecommerce_registration_2.jpg');
+			background-position: 25% center;
+		}
+	}
+	@media (max-width: 1400px) and (min-width: 1301px) {
 		.ecommerce_registration_bg {
 			background-position: 30% center;
 		}

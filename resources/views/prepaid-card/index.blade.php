@@ -41,7 +41,7 @@
 	}
 	.fees_charge_div{
 		background-color: #fff;
-		border: 2px solid #cccccc;
+		border: 1px solid #cccccc;
 		border-radius: 10px;
 		padding: 40px 30px;
 		margin-left: 0px !important;
@@ -58,6 +58,14 @@
 		background-size: cover;
 		background-position: left center;
 		border-radius: 0px 0px 25px 25px;
+	}
+	.pad_left_mid {
+		padding-left: auto;
+	}
+	@media (max-width: 1300px) and (min-width: 1000px) {
+		.pad_left_mid {
+			padding-left: 40px !important;
+		}
 	}
 	@media (min-width: 768px){
 		.col-md-3 {
@@ -288,7 +296,7 @@
 					</div>
 					<div class="row statment_enquiry">
 						<div class="col-md-3"></div>
-						<div class="col-md-9">
+						<div class="col-md-9 pad_left_mid">
 							<div class="space-30"></div>
 							<p style="font-weight: 700;">Statement Enquiry</p>
 							<p>Visit Nearest branches or Email to <a href="mailto:support.card@ayabank.com">support.card@ayabank.com</a> with cardholder’s name, NRC, and card number.</p>
@@ -303,7 +311,7 @@
 					</div>
 					<div class="row card_block_termination">
 						<div class="col-md-3"></div>
-						<div class="col-md-9">
+						<div class="col-md-9 pad_left_mid">
 							<div class="space-30"></div>
 							<p style="font-weight: 700;">Card Block and Termination</p>
 							<p>In case your card is missing, call to our Customer Services at <a href="tel:+9512317777">+95 1 2317777</a> or visit nearest visit branches for temporary card block and termination.</p>

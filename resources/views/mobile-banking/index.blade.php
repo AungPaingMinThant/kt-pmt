@@ -26,6 +26,31 @@
 		border-color: #ae071d !important;
 		color: #ae071d !important;
 	}
+	.how_to_apply_bg {
+		background-image: url('./images/how_to_apply.jpg');
+		background-size: cover;
+	}
+	.need_more_support_section_inner {
+		padding: 40px 100px 60px 100px;
+		background-image: url('./images/more_support.png');
+		background-size: cover;
+		border-radius: 6px;
+	}
+	@media (max-width: 1300px) and (min-width: 577px) {
+		.why_use_AYA_outer > .col-md-6 {
+			width: 47%;
+		}
+		.how_to_apply_bg {
+			background-position: 30% center;
+		}
+		.need_more_support_section {
+		    padding: 40px 130px !important;
+		}
+		.need_more_support_section_inner {
+			padding: 40px 60px 60px 60px;
+			background-position: 60% center;
+		}
+	}
 	@media only screen and (max-width: 576px){
 		.why_use_AYA_outer > .col-md-6 {
 			width: 100%;
@@ -185,7 +210,7 @@
 			<div class="d-block d-sm-none">
 				<img src="{{ url('/images/how_to_apply_mobile.jpg') }}" class="img-fluid">
 			</div>
-			<div style="background-image: url('./images/how_to_apply.jpg');background-size: cover;">
+			<div class="how_to_apply_bg">
 				<div class="container how_to_apply_section" style="">
 					<div class="row">
 						<div class="col-md-6 how_to_apply_desc" style="">
@@ -213,7 +238,7 @@
 			</div>
 			<div class="space-40"></div>
 			<div class="need_more_support_section">
-				<div class="container d-none d-sm-block" style="padding: 40px 100px 60px 100px;background-image: url('./images/more_support.png');background-size: cover;border-radius: 6px;">
+				<div class="container d-none d-sm-block need_more_support_section_inner">
 					<div class="row">
 						<div class="col-md-5 col-xs-12 text-center" style="padding-top: 80px;">
 							<p style="color: #a02225;font-weight: 500;font-size: 20px;margin-bottom: 5px;">Need more support?</p>

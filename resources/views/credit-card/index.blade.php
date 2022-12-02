@@ -169,7 +169,7 @@
 	}
 	.fees_charge_div, .annual_fee_div, .card_feature_div, .how_to_apply_div, .secured_fee_charge_div {
 		background-color: #fff;
-		border: 2px solid #cccccc;
+		border: 1px solid #cccccc;
 		border-radius: 10px;
 		padding: 40px 30px;
 		margin-left: 0px !important;
@@ -194,6 +194,17 @@
 	.simple_pay_div {
 		padding: 0px 208px 40px 208px;
 	}
+	.simple_pay_div > .container {
+		padding: 0px 100px 50px 70px;
+		background-image: url('./images/simple_pay_installment.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.simple_pay_text {
+		font-size: 22px;
+		margin-bottom: 15px;
+	}
 	.jbc_visa_manage_card > .col-md-6, .secured_manage_card > .col-md-6 {
 		width: 48% !important;
 	}
@@ -210,7 +221,24 @@
 		color: #ae071d !important;
 		background-color: #fff !important;
 	}
-	@media (max-width: 1400px) and (min-width: 577px) {
+	@media (max-width: 1300px) and (min-width: 1000px) {
+		.jcb_credit_tab{
+			background-position: center;
+		}
+		.visa_credit_tab, .secure_credit_tab {
+			background-position: 80% center;
+		}
+		.jbc_visa_manage_card > .col-md-6, .secured_manage_card > .col-md-6 {
+			width: 47% !important;
+		}
+		.simple_pay_div {
+		    padding: 0px 120px 0px 120px;
+		}
+		.simple_pay_text {
+			font-size: 18px;
+		}
+	}
+	@media (max-width: 1400px) and (min-width: 1301px) {
 		.visa_credit_tab, .secure_credit_tab {
 			background-position: 60% center;
 		}
@@ -1084,10 +1112,10 @@
 				<img src="{{ url('/images/credit_simple_pay.jpg') }}" class="img-fluid">
 			</div>
 			<div class="simple_pay_div">
-				<div class="container d-none d-sm-block" style="padding: 0px 100px 50px 70px;background-image: url('./images/simple_pay_installment.png');background-size: contain;background-repeat: no-repeat;background-position: center;">
+				<div class="container d-none d-sm-block">
 					<div class="row">
 						<div class="col-md-8 col-xs-12" style="padding-top: 120px;">
-							<p style="font-size: 22px;margin-bottom: 15px;">Are you also interested in <br><span style="font-weight: 500;color: #a02225;">SimplePay Installment</span> with AYA Credit Cards?</p>
+							<p class="simple_pay_text">Are you also interested in <br><span style="font-weight: 500;color: #a02225;">SimplePay Installment</span> with AYA Credit Cards?</p>
 							<a href="{{ url('/simple-pay') }}">
 								<button class="btn reset_pin_btn" >
 									More Details

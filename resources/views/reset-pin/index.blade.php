@@ -164,9 +164,11 @@
 						<p style="margin-bottom:5px;">Forgot your card PIN?  You can reset / change your PIN easily via online.</p>
 						<p style="margin-bottom: 40px;">It’s free and fast to process your application. Save your time queuing at branch.</p>
 
-						<button class="btn" style="background-color: #ae071d;color: #fff;font-weight: 500;padding: 15px 25px;border: #ae071d;margin-bottom: 2rem;">
-							Apply Now for Pin Re-issue
-						</button>
+						<a href="https://cardpin.ayabank.com/" target="_blank">
+							<button class="btn" style="background-color: #ae071d;color: #fff;font-weight: 500;padding: 15px 25px;border: #ae071d;margin-bottom: 2rem;">
+								Apply Now for Pin Re-issue
+							</button>
+						</a>
 
 						<div class="space-10"></div>
 

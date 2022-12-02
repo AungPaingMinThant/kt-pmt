@@ -5,7 +5,21 @@
     .mobile_menu {
         display: none;
     }
+    .mobile_logo {
+    	width: 60% !important;
+    	margin-left: 10px;
+    }
+    @media (max-width: 1300px) and (min-width: 577px) {
+    	.mobile_logo {
+	    	width: 30% !important;
+	    	margin-left: 10px;
+	    }
+    }
 	@media  only screen and (max-width: 1024px) {
+		.mobile_logo {
+	    	width: 60%;
+	    	margin-left: 10px;
+	    }
 		#slide-navbar-collapse {
             position: fixed;
             top: 0;
@@ -109,13 +123,13 @@
 	</div>
 </div>
 
-<nav class="navbar navbar-default mobile_menu d-block d-sm-none" >
+<nav class="navbar navbar-default mobile_menu" >
     <div class="container-fluid">
         <div class="navbar-header" style="padding: 10px 0px;">
             <button type="button" class="navbar-toggle collapsed" data-toggle="slide-collapse" data-target="#slide-navbar-collapse" aria-expanded="false" style="margin-right: 30px;background-color: transparent;border: 1px solid #fff;border-radius: 5px;color: #fff;">
                 <span class="tf-icons bx bx-menu" style="font-size: 30px;color: #c1c1c1;"></span>
             </button>
-            <a href="#" target="_blank"><img alt="AYA BANK" src="{{ url('/images/logo_wo_tagline_2.png') }}" class="img-fluid" style="width: 60%;margin-left: 10px;"></a>
+            <a href="#" target="_blank"><img alt="AYA BANK" src="{{ url('/images/logo_wo_tagline_2.png') }}" class="img-fluid mobile_logo"></a>
         </div>
 
         <div class="collapse navbar-collapse" id="slide-navbar-collapse" style="">

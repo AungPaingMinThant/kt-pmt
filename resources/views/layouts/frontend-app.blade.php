@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="{{ url('/css/theme-default.css') }}" />
     <link rel="stylesheet" href="{{ url('/css/design.css') }}" />
     <link rel="stylesheet" href="{{ url('/css/perfect-scrollbar.css') }}" />
-    <!-- <link rel="stylesheet" href="{{ url('/css/bootstrap.min.css') }}" /> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -82,5 +81,7 @@
     <script src="{{ url('/js/util.js') }}"></script>
     <script src="{{ url('/js/moment.js') }}"></script>
     <script src="{{ url('/js/function.js') }}"></script>
+    <script src="{{ url('/js/config.js') }}"></script>
+    <script src="{{ url('/js/helpers.js') }}"></script>
 </body>
 </html>

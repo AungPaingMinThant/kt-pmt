@@ -53,10 +53,36 @@
 		height: 400px;
 		background-position: center right;
 	}
+	.digital_secure_banner {
+		background-image:url('./images/digital_secure/KV.jpg');
+		background-size: cover;
+		height: 400px;
+		background-position: center right;
+	}
+	.frequently_digital_banner {
+		background-image:url('./images/frequently/KV.jpg');
+		background-size: cover;
+		height: 400px;
+		background-position: center right;
+	}
+	.pos_banner {
+		background-image:url('./images/POS/KV.jpg');
+		background-size: cover;
+		height: 400px;
+		background-position: center right;
+	}
 	.bread_crumb_text {
 		font-size: 11px;
 		color: #666 !important;
 		margin: 25px 0 !important;
+	}
+	.tag_line_div {
+		position: absolute;
+		top: 156px;
+		right: 0;
+	}
+	.debit_banner_tag_mid, .credit_banner_tag_mid, .ecommerce_banner_tag_mid, .prepaid_banner_tag_mid, .frequently_tag_mid, .pos_tag_mid {
+		display: none;
 	}
 	@media (max-width: 1550px) and (min-width: 577px) {
 		.creditcard_banner{
@@ -67,6 +93,32 @@
 		}
 		.cib_banner{
 			background-position: 80% center;
+		}
+	}
+	@media (max-width: 1300px) and (min-width: 1000px) {
+		.tag_line_div {
+			position: absolute;
+			top: 60px;
+			right: 0;
+		}
+		.debitcard_banner{
+			background-image:url('./images/debit_KV2.jpg');
+			background-position: 90% center;
+		}
+		.ecommerce_banner {
+		    background-position: 65% center;
+		}
+		.smsalert_banner, .prepaid_banner {
+		    background-position: 70% center;
+		}
+		.debit_banner_tag, .credit_banner_tag, .ecommerce_banner_tag, .prepaid_banner_tag, .frequently_tag, .pos_tag {
+			display: none;
+		}
+		.debit_banner_tag_mid, .credit_banner_tag_mid, .ecommerce_banner_tag_mid, .prepaid_banner_tag_mid, .frequently_tag_mid, .pos_tag_mid {
+			display: block;
+		}
+		.frequently_digital_banner {
+		    background-position: center;
 		}
 	}
 	@media only screen and (max-width: 576px) {
@@ -105,6 +157,18 @@
 			background-image:url('./images/corporate_internet_banking/mobile_KV.jpg');
 			background-position: 60% center;
 		}
+		.digital_secure_banner {
+			background-image:url('./images/digital_secure/mobile_KV.jpg');
+			background-position: 90% center;
+		}
+		.frequently_digital_banner {
+			background-image:url('./images/frequently/mobile_KV.jpg');
+			background-position: 50% center;
+		}
+		.pos_banner {
+			background-image:url('./images/POS/mobile_KV.jpg');
+			background-position: 90% center;
+		}
 		.bread_crumb_text {
 			font-size: 10px;
 			margin: 15px 0 !important;
@@ -116,7 +180,7 @@
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
-					<div style="position: absolute;top: 156px;right: 0;">
+					<div class="tag_line_div" style="">
 						<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;">Designed to make banking</p>
 						<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;color: #a02226;">simple, faster and</p>
 						<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;color: #a02226;">more secure</p>
@@ -156,9 +220,11 @@
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
-					<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;position: absolute;top: 156px;right: 0;color: #a02226;">Stay safe and bank</p>
-					<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;position: absolute;top: 193px;right: 0;">from the comfort of your home</p>
-					<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;position: absolute;top: 230px;right: 0;"></p>
+					<div class="tag_line_div" style="">
+						<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;color: #a02226;">Stay safe and bank</p>
+						<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;">from the comfort of your home</p>
+						<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;"></p>
+					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
 					<p></p>
@@ -188,19 +254,29 @@
 	</div>
 @endif
 
-
 @if($page == 'debitcard')
 	<div class="debitcard_banner" style="">
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
-					<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;position: absolute;top: 156px;right: 0;color: #a02226;">The journey starts from here.</p>
-					<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;position: absolute;top: 193px;right: 0;">
-						Make every transaction meaningful with
-					</p>
-					<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;position: absolute;top: 230px;right: 0;">
-						AYA Debit Cards that brings <span style="color: #a02226;">Power</span>
-					</p>
+					<div class="debit_banner_tag" style="position: absolute;top: 156px;right: 0;">
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;">The journey starts from here.</p>
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 30px;">
+							Make every transaction meaningful with
+						</p>
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 30px;">
+							AYA Debit Cards that brings <span style="color: #a02226;">Power</span>
+						</p>
+					</div>
+					<div class="debit_banner_tag_mid" style="position: absolute;top: 156px;right: 0;">
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;color: #a02226;">The journey starts from here.</p>
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
+							Make every transaction meaningful with AYA Debit Cards  
+						</p>
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
+							that brings <span style="color: #a02226;">Power</span>
+						</p>
+					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
 					<p></p>
@@ -235,13 +311,18 @@
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
-					<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;position: absolute;top: 156px;right: 0;"><span style="color: #a02226;">Make your priorities</span> with AYA Credit Cards.</p>
-					<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;position: absolute;top: 193px;right: 0;">
-						A Step that changes your <span style="color: #a02226;">lifestyle.</span>
-					</p>
-					<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;position: absolute;top: 230px;right: 0;">
-						
-					</p>
+					<div class="credit_banner_tag" style="position: absolute;top: 156px;right: 0;">
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;"><span style="color: #a02226;">Make your priorities</span> with AYA Credit Cards.</p>
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
+							A Step that changes your <span style="color: #a02226;">lifestyle.</span>
+						</p>
+					</div>
+					<div class="credit_banner_tag_mid" style="position: absolute;top: 80px;right: 0;">
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;"><span style="color: #a02226;">Make your priorities</span> with AYA Credit Cards. A Step that changes your <span style="color: #a02226;">lifestyle.</span></p>
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
+							
+						</p>
+					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
 					<p></p>
@@ -275,16 +356,31 @@
 	<div class="ecommerce_banner" style="">
 		<div class="container">
 			<div class="row d-none d-sm-block">
-				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
-					<div style="position: absolute;top: 150px;right: 0;">
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">We will provide <span style="color: #a02226;">the best formulas </span>to solve it.</p>
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
-							Change your issues into opportunity <br>with AYA E-commerce.
-						</p>
+				<div class="ecommerce_banner_tag">
+					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
+						<div style="position: absolute;top: 150px;right: 0;">
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">We will provide <span style="color: #a02226;">the best formulas </span>to solve it.</p>
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
+								Change your issues into opportunity <br>with AYA E-commerce.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-6" style="text-align: right;">
+						<p></p>
 					</div>
 				</div>
-				<div class="col-md-6" style="text-align: right;">
-					<p></p>
+				<div class="ecommerce_banner_tag_mid">
+					<div class="col-md-8 text-right" style="text-align: right;position: relative;">
+						<div style="position: absolute;top: 150px;right: 0;">
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">We will provide <span style="color: #a02226;">the best formulas </span>to solve it.</p>
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
+								Change your issues into opportunity <br>with AYA E-commerce.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4" style="text-align: right;">
+						<p></p>
+					</div>
 				</div>
 			</div>
 			<div class="row d-block d-sm-none">
@@ -358,19 +454,37 @@
 	<div class="prepaid_banner" style="">
 		<div class="container">
 			<div class="row d-none d-sm-block">
-				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
-					<div style="position: absolute;top: 156px;right: 0;">
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Pick AYA World Travel Card, <span style="color: #a02226;">explore the</span></p>
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;color: #a02226;">
-							world and make life more fun!
-						</p>
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
-							
-						</p>
+				<div class="prepaid_banner_tag">
+					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
+						<div style="position: absolute;top: 156px;right: 0;">
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Pick AYA World Travel Card, <span style="color: #a02226;">explore the</span></p>
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;color: #a02226;">
+								world and make life more fun!
+							</p>
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
+								
+							</p>
+						</div>
+					</div>
+					<div class="col-md-6" style="text-align: right;">
+						<p></p>
 					</div>
 				</div>
-				<div class="col-md-6" style="text-align: right;">
-					<p></p>
+				<div class="prepaid_banner_tag_mid">
+					<div class="col-md-7 text-right" style="text-align: right;position: relative;">
+						<div style="position: absolute;top: 156px;right: 0;">
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Pick AYA World Travel Card, <span style="color: #a02226;">explore the</span></p>
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;color: #a02226;">
+								world and make life more fun!
+							</p>
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
+								
+							</p>
+						</div>
+					</div>
+					<div class="col-md-5" style="text-align: right;">
+						<p></p>
+					</div>
 				</div>
 			</div>
 			<div class="row d-block d-sm-none">
@@ -398,95 +512,239 @@
 @endif
 
 @if($page == 'simplepay')
-<div class="simplepay_banner" style="">
-	<div class="container">
-		<div class="row d-none d-sm-block">
-			<div class="col-md-6 text-right" style="text-align: right;position: relative;">
-				<div style="position: absolute;top: 156px;right: 75px;">
-					<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;"><span style="color: #a02226;">Buy big,</span> pay by bits</p>
-					<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;"></p>
-					<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
-						
-					</p>
+	<div class="simplepay_banner" style="">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
+					<div style="position: absolute;top: 156px;right: 75px;">
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;"><span style="color: #a02226;">Buy big,</span> pay by bits</p>
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;"></p>
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
+							
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6" style="text-align: right;">
+					<p></p>
 				</div>
 			</div>
-			<div class="col-md-6" style="text-align: right;">
-				<p></p>
-			</div>
-		</div>
-		<div class="row d-block d-sm-none">
-			<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-				<div style="position: absolute;top: 45px;left: 25px;">
-					<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span style="color: #a02226;">Buy big, </span>pay by bits</p>
-					<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;color: #a02226;"></p>
-					<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"></p>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 45px;left: 25px;">
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span style="color: #a02226;">Buy big, </span>pay by bits</p>
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;color: #a02226;"></p>
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"></p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
-<div style="background-color: #f5f5f7;">
-	<div class="container">
-		<p class="bread_crumb_text">HOME&nbsp;
-			<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
-			<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
-			<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-			<span style="color: #a02226;">SIMPLE PAY</span>
-		</p>
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">SIMPLE PAY</span>
+			</p>
+		</div>
 	</div>
-</div>
 @endif
 
 @if($page == 'reset')
-<div style="background-color: #f5f5f7;">
-	<div class="container">
-		<p class="bread_crumb_text">HOME&nbsp;
-			<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
-			<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
-			<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-			<span style="color: #a02226;">RESET PIN</span>
-		</p>
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">RESET PIN</span>
+			</p>
+		</div>
 	</div>
-</div>
 @endif
 
 @if($page == 'corporate_internet_banking')
-<div class="cib_banner" style="">
-	<div class="container">
-		<div class="row d-none d-sm-block">
-			<div class="col-md-6 text-right" style="text-align: left;position: relative;">
-				<div style="position: absolute;top: 156px;right: 130px;">
-					<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Your business's financial transactions <span style="color: #a02226;">at your finger tips</span></p>
-					<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;"></p>
-					<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
-						
-					</p>
+	<div class="cib_banner" style="">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-6 text-right" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 156px;right: 130px;">
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Your business's financial transactions <span style="color: #a02226;">at your finger tips</span></p>
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;"></p>
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
+							
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6" style="text-align: right;">
+					<p></p>
 				</div>
 			</div>
-			<div class="col-md-6" style="text-align: right;">
-				<p></p>
-			</div>
-		</div>
-		<div class="row d-block d-sm-none">
-			<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-				<div style="position: absolute;top: 45px;left: 25px;right: 55px;">
-					<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;">Your business's financial transactions <span style="color: #a02226;">at your finger tips</span></p>
-					<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"></p>
-					<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"></p>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 45px;left: 25px;right: 55px;">
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;">Your business's financial transactions <span style="color: #a02226;">at your finger tips</span></p>
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"></p>
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"></p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
-<div style="background-color: #f5f5f7;">
-	<div class="container">
-		<p class="bread_crumb_text">HOME&nbsp;
-			<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
-			<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-			<span style="color: #a02226;">CORPORATE INTERNET BANKING</span>
-		</p>
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">CORPORATE INTERNET BANKING</span>
+			</p>
+		</div>
 	</div>
-</div>
+@endif
+
+@if($page == 'digital_secure')
+	<div class="digital_secure_banner" style="">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-6 text-right" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 156px;right: 130px;">
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Digital security, <span style="color: #a02226;">our utmost priority</span></p>
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;"></p>
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
+							
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6" style="text-align: right;">
+					<p></p>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 45px;left: 25px;right: 55px;">
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;">Digital security,</p>
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span style="color: #a02226;">our utmost priority</span></p>
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;GUIDELINES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">SECURITY ADVICE FOR DIGITAL SERVICES</span>
+			</p>
+		</div>
+	</div>
+@endif
+
+@if($page == 'frequently-used-digital')
+	<div class="frequently_digital_banner" style="">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="frequently_tag">
+					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
+						<div style="position: absolute;top: 156px;right: 130px;">
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Frequently Used </p>
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;"><span style="color: #a02226;">Digital Services</span> in Daily life</p>
+						</div>
+					</div>
+					<div class="col-md-6" style="text-align: right;">
+						<p></p>
+					</div>
+				</div>
+				<div class="frequently_tag_mid">
+					<div class="col-md-7 text-right" style="text-align: right;position: relative;">
+						<div style="position: absolute;top: 156px;right: 130px;">
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Frequently Used </p>
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;"><span style="color: #a02226;">Digital Services</span> in Daily life</p>
+						</div>
+					</div>
+					<div class="col-md-5" style="text-align: right;">
+						<p></p>
+					</div>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 45px;left: 25px;right: 55px;">
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;">Frequently Used</p>
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;"><span style="color: #a02226;">Digital Services</span></p>
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;">in Daily life</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;GUIDELINES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">FREQUENTLY USED DIGITAL SERVICES IN DAILY LIFE</span>
+			</p>
+		</div>
+	</div>
+@endif
+
+@if($page == 'pos')
+	<div class="pos_banner" style="">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="pos_tag">
+					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
+						<div style="position: absolute;top: 156px;right: 130px;">
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Frequently Used </p>
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;"><span style="color: #a02226;">Digital Services</span> in Daily life</p>
+						</div>
+					</div>
+					<div class="col-md-6" style="text-align: right;">
+						<p></p>
+					</div>
+				</div>
+				<div class="pos_tag_mid">
+					<div class="col-md-7 text-right" style="text-align: right;position: relative;">
+						<div style="position: absolute;top: 156px;right: 130px;">
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Frequently Used </p>
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;"><span style="color: #a02226;">Digital Services</span> in Daily life</p>
+						</div>
+					</div>
+					<div class="col-md-5" style="text-align: right;">
+						<p></p>
+					</div>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 45px;left: 25px;right: 55px;">
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;">Frequently Used</p>
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;"><span style="color: #a02226;">Digital Services</span></p>
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;">in Daily life</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;MERCHANT SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">POS</span>
+			</p>
+		</div>
+	</div>
 @endif
