@@ -71,6 +71,12 @@
 		height: 400px;
 		background-position: center right;
 	}
+	.ayapay_banner {
+		background-image:url('./images/ayapay/KV.jpg');
+		background-size: cover;
+		height: 400px;
+		background-position: center right;
+	}
 	.bread_crumb_text {
 		font-size: 11px;
 		color: #666 !important;
@@ -81,7 +87,7 @@
 		top: 156px;
 		right: 0;
 	}
-	.debit_banner_tag_mid, .credit_banner_tag_mid, .ecommerce_banner_tag_mid, .prepaid_banner_tag_mid, .frequently_tag_mid, .pos_tag_mid {
+	.debit_banner_tag_mid, .credit_banner_tag_mid, .ecommerce_banner_tag_mid, .prepaid_banner_tag_mid, .frequently_tag_mid, .pos_tag_mid, .ayapay_tag_mid {
 		display: none;
 	}
 	@media (max-width: 1550px) and (min-width: 577px) {
@@ -111,14 +117,17 @@
 		.smsalert_banner, .prepaid_banner {
 		    background-position: 70% center;
 		}
-		.debit_banner_tag, .credit_banner_tag, .ecommerce_banner_tag, .prepaid_banner_tag, .frequently_tag, .pos_tag {
+		.debit_banner_tag, .credit_banner_tag, .ecommerce_banner_tag, .prepaid_banner_tag, .frequently_tag, .pos_tag, .ayapay_tag {
 			display: none;
 		}
-		.debit_banner_tag_mid, .credit_banner_tag_mid, .ecommerce_banner_tag_mid, .prepaid_banner_tag_mid, .frequently_tag_mid, .pos_tag_mid {
+		.debit_banner_tag_mid, .credit_banner_tag_mid, .ecommerce_banner_tag_mid, .prepaid_banner_tag_mid, .frequently_tag_mid, .pos_tag_mid, .ayapay_tag_mid {
 			display: block;
 		}
 		.frequently_digital_banner {
 		    background-position: center;
+		}
+		.ayapay_banner {
+		    background-position: 90% center;
 		}
 	}
 	@media only screen and (max-width: 576px) {
@@ -168,6 +177,10 @@
 		.pos_banner {
 			background-image:url('./images/POS/mobile_KV.jpg');
 			background-position: 90% center;
+		}
+		.ayapay_banner {
+			background-image:url('./images/ayapay/mobile_KV.jpg');
+			background-position: 85% center;
 		}
 		.bread_crumb_text {
 			font-size: 10px;
@@ -471,18 +484,18 @@
 					</div>
 				</div>
 				<div class="prepaid_banner_tag_mid">
-					<div class="col-md-7 text-right" style="text-align: right;position: relative;">
-						<div style="position: absolute;top: 156px;right: 0;">
-							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Pick AYA World Travel Card, <span style="color: #a02226;">explore the</span></p>
+					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
+						<div style="position: absolute;top: 150px;right: 0;">
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Pick AYA World Travel Card,</p>
 							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;color: #a02226;">
-								world and make life more fun!
+								explore the world and
 							</p>
-							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
-								
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;color: #a02226;">
+								make life more fun!
 							</p>
 						</div>
 					</div>
-					<div class="col-md-5" style="text-align: right;">
+					<div class="col-md-6" style="text-align: right;">
 						<p></p>
 					</div>
 				</div>
@@ -744,6 +757,53 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;MERCHANT SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">POS</span>
+			</p>
+		</div>
+	</div>
+@endif
+
+@if($page == 'ayapay')
+	<div class="ayapay_banner" style="">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="ayapay_tag">
+					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
+						<div style="position: absolute;top: 170px;right: 130px;">
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Make Your Transactions</p>
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;color: #a02226;">Easy with AYA Pay</p>
+						</div>
+					</div>
+					<div class="col-md-6" style="text-align: right;"></div>
+				</div>
+				<div class="ayapay_tag_mid">
+					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
+						<div style="position: absolute;top: 170px;right: 130px;">
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Make Your Transactions</p>
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;color: #a02226;">Easy with AYA Pay</p>
+						</div>
+					</div>
+					<div class="col-md-6" style="text-align: right;"></div>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 45px;left: 25px;right: 55px;">
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;">Make Your Transactions</p>
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;color: #a02226;">Easy with AYA Pay</p>
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;WALLET SOLUTION&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">AYA PAY</span>
 			</p>
 		</div>
 	</div>

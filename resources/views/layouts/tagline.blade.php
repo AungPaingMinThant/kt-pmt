@@ -65,4 +65,19 @@
 		</div>
 	</div>
 @endif
+
+@if($page == 'ayapay')
+	<div class="row">
+		<div class="col-md-4 tag_line">
+			<p style="font-size: 19px;padding-right: 40px;">What is AYA Pay?</p>
+		</div>
+		<div class="col-md-8 tag_desc">
+			<p>AYA PAY is a mobile first, digital wallet app backed and empowered by AYA Bank, to provide a seamless and interoperable payment experience straight from your fingertips.</p>
+		</div>
+		<div class="col-md-3 text-left" style="padding-left: 0px;margin-top: -30px;">
+			<img src="{{ url('/images/ayapay/ayapay_mascot.png') }}" class="img-fluid" style="width: 60%;">
+		</div>
+		<div class="col-md-9"></div>
+	</div>
+@endif
 <div class="space-40"></div>
