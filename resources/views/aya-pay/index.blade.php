@@ -34,7 +34,7 @@
 		width: 49%;
 	}
 	.need_more_support_section {
-	    padding: 40px 208px 0px 208px !important;
+	    padding: 40px 208px 0px 208px;
 	}
 	.reset_pin_btn {
 		background-color: #ae071d !important;
@@ -68,6 +68,9 @@
 		.merchant_agent_div > .col-md-6 {
 			width: 100%;
 		}
+		/*.need_more_support_section {
+		    padding: 0px 38px !important;
+		}*/
 	}
 </style>
 @section('content')
@@ -257,17 +260,17 @@
 			<div class="space-40"></div>
 			<div class="need_more_support_section">
 				<div class="container">
-					<div class="row merchant_agent_div" style="column-gap: 20px;">
+					<div class="row merchant_agent_div" style="column-gap: 20px;width: 100%;">
 						<div class="col-md-6" style="background-color: #f9f9fb;border-radius: 10px;padding-top: 10px;padding-bottom: 10px;margin-bottom: 20px;">
 							<div class="row">
 								<div class="col-4" style="background-image: url('./images/ayapay/merchant.png');background-size: contain;background-position: left center;background-repeat: no-repeat;"></div>
 								<div class="col-8">
-									<div class="space-40 d-none d-sm-block"></div>
-									<div class="space-20 d-block d-sm-none"></div>
+									<div class="row space-40 d-none d-sm-block"></div>
+									<div class="row space-20 d-block d-sm-none"></div>
 									<p style="font-size: 18px;font-weight: 600;margin-bottom: 0px;">Merchant</p>
 									<p>Scan and pay for goods and services at any of our AYA Pay Merchant shops</p>
-									<div class="space-40 d-none d-sm-block"></div>
-									<div class="space-20 d-block d-sm-none"></div>
+									<div class="row space-40 d-none d-sm-block"></div>
+									<div class="row space-20 d-block d-sm-none"></div>
 								</div>
 							</div>
 						</div>
@@ -275,12 +278,12 @@
 							<div class="row">
 								<div class="col-4" style="background-image: url('./images/ayapay/agent.png');background-size: contain;background-position: left center;background-repeat: no-repeat;"></div>
 								<div class="col-8">
-									<div class="space-40 d-none d-sm-block"></div>
-									<div class="space-10 d-block d-sm-none"></div>
+									<div class="row space-20 d-none d-sm-block"></div>
+									<div class="row space-10 d-block d-sm-none"></div>
 									<p style="font-size: 18px;font-weight: 600;margin-bottom: 0px;">Agent</p>
 									<p>Take advantage of our extensive agent network to perform any of our in-app services such as Cash In/Out, Remittance, Bill Payment, etc.</p>
-									<div class="space-40 d-none d-sm-block"></div>
-									<div class="space-10 d-block d-sm-none"></div>
+									<div class="row space-20 d-none d-sm-block"></div>
+									<div class="row space-10 d-block d-sm-none"></div>
 								</div>
 							</div>
 						</div>
@@ -328,50 +331,15 @@
 <script type="text/javascript">
 	$(".simple_login_div").click(function() {
 		$("#slide_1").click();
-		// $("#simple_login_mockup").show(500);
-		// $("#quick_mockup").hide(500);
-		// $("#manage_credit_mockup").hide(500);
-		// $("#prepaid_card_mockup").hide(500);
 	});
 	$(".quick_div").click(function() {
 		$("#slide_2").click();
-		// $("#simple_login_mockup").hide(500);
-		// $("#quick_mockup").show(500);
-		// $("#manage_credit_mockup").hide(500);
-		// $("#prepaid_card_mockup").hide(500);
 	});
 	$(".manage_credit_div").click(function() {
 		$("#slide_3").click();
-		// $("#simple_login_mockup").hide(500);
-		// $("#quick_mockup").hide(500);
-		// $("#manage_credit_mockup").show(500);
-		// $("#prepaid_card_mockup").hide(500);
 	});
 	$(".prepaid_card_div").click(function() {
 		$("#slide_4").click();
-		// $("#simple_login_mockup").hide(500);
-		// $("#quick_mockup").hide(500);
-		// $("#manage_credit_mockup").hide(500);
-		// $("#prepaid_card_mockup").show(500);
-	});
-
-	$(".secure_transaction_div").click(function() {
-		$("#slide2_1").click();
-		// $("#secure_transaction_mockup").show(500);
-		// $("#easy_transfer_payment_mockup").hide(500);
-		// $("#ATM_withdrawal_mockup").hide(500);
-	});
-	$(".easy_transfer_payment_div").click(function() {
-		$("#slide2_2").click();
-		// $("#secure_transaction_mockup").hide(500);
-		// $("#easy_transfer_payment_mockup").show(500);
-		// $("#ATM_withdrawal_mockup").hide(500);
-	});
-	$(".ATM_withdrawal_div").click(function() {
-		$("#slide2_3").click();
-		// $("#secure_transaction_mockup").hide(500);
-		// $("#easy_transfer_payment_mockup").hide(500);
-		// $("#ATM_withdrawal_mockup").show(500);
 	});
 </script>
 
