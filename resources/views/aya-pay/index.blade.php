@@ -30,6 +30,10 @@
 		background-size: cover;
 		border-radius: 6px;
 	}
+	.merchant_agent_div {
+		column-gap: 20px;
+		width: 100%;
+	}
 	.merchant_agent_div > .col-md-6 {
 		width: 49%;
 	}
@@ -49,6 +53,7 @@
 		color: #ae071d !important;
 		background-color: #fff !important;
 	}
+
 	@media (max-width: 1300px) and (min-width: 577px) {
 		.why_use_AYA_outer > .col-md-6 {
 			width: 47%;
@@ -68,9 +73,12 @@
 		.merchant_agent_div > .col-md-6 {
 			width: 100%;
 		}
-		/*.need_more_support_section {
-		    padding: 0px 38px !important;
-		}*/
+		.tag_line_mascot {
+			text-align: center;
+		}
+		.merchant_agent_div {
+			width: auto;
+		}
 	}
 </style>
 @section('content')
@@ -260,7 +268,7 @@
 			<div class="space-40"></div>
 			<div class="need_more_support_section">
 				<div class="container">
-					<div class="row merchant_agent_div" style="column-gap: 20px;width: 100%;">
+					<div class="row merchant_agent_div">
 						<div class="col-md-6" style="background-color: #f9f9fb;border-radius: 10px;padding-top: 10px;padding-bottom: 10px;margin-bottom: 20px;">
 							<div class="row">
 								<div class="col-4" style="background-image: url('./images/ayapay/merchant.png');background-size: contain;background-position: left center;background-repeat: no-repeat;"></div>
