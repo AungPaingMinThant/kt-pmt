@@ -65,6 +65,9 @@
 			padding: 40px 60px 60px 60px;
 			background-position: 60% center;
 		}
+		.merchant_agent_div > .col-md-6 {
+			width: 48%;
+		}
 	}
 	@media only screen and (max-width: 576px){
 		.why_use_AYA_outer > .col-md-6 {
