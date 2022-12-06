@@ -73,7 +73,7 @@
 	}
 	.offers_bg {
 		background-color: #f5f5f7;
-		height:950px;
+		height:850px;
 		padding: 60px 20px 0px 20px;
 		border-radius: 200px;
 		margin-bottom: 20px;
@@ -150,6 +150,10 @@
 		}
 		.packages_div > .col-md-1 {
 			width: 100%;
+		}
+		.offers_bg {
+			padding: 30px 20px 0px 20px;
+			height:950px;
 		}
 	}
 </style>
