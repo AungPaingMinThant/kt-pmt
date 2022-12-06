@@ -25,10 +25,29 @@
 		color: #ae071d !important;
 	}
 	.need_more_support_section_inner {
-		padding: 40px 100px 60px 100px;
-		background-image: url('./images/more_support.png');
+		padding: 10px 100px 10px 100px;
+		background-image: url('./images/ayapay/explore_bg.png');
 		background-size: cover;
 		border-radius: 6px;
+	}
+	.merchant_agent_div > .col-md-6 {
+		width: 49%;
+	}
+	.need_more_support_section {
+	    padding: 40px 208px 0px 208px !important;
+	}
+	.reset_pin_btn {
+		background-color: #ae071d !important;
+		border: 1px solid #ae071d !important;
+		color: #fff !important;
+		font-weight: 500;
+		padding: 15px 25px !important;
+		margin-bottom: 2rem !important;
+	}
+	.reset_pin_btn:hover {
+		border: 1px solid #ae071d !important;
+		color: #ae071d !important;
+		background-color: #fff !important;
 	}
 	@media (max-width: 1300px) and (min-width: 577px) {
 		.why_use_AYA_outer > .col-md-6 {
@@ -46,6 +65,9 @@
 		.why_use_AYA_outer > .col-md-6 {
 			width: 100%;
 		}
+		.merchant_agent_div > .col-md-6 {
+			width: 100%;
+		}
 	}
 </style>
 @section('content')
@@ -57,9 +79,9 @@
 
 			@include('layouts.banner', ['page'=>'ayapay'])
 
-			<div class="container section_1" >
+			<div class="container section_1">
 				@include('layouts.tagline', ['page'=>'ayapay'])
-				<div class="row">
+				<div class="row" style="margin-top: -40px;">
 					<div class="col-md-12 text-center">
 						<h3 style="color: #1d1d1f;">What are the benefits?</h3>
 					</div>
@@ -129,10 +151,6 @@
 								<span class="visually-hidden">Next</span>
 							</a>
 						</div>
-						<!-- <img src="{{ url('/images/simple_login_mockup.png') }}" class="img-fluid" id="simple_login_mockup" style="width: 75%;">
-						<img src="{{ url('/images/quick_check_balance_mockup.png') }}" class="img-fluid" id="quick_mockup" style="width: 75%;display: none;">
-						<img src="{{ url('/images/simple_login_mockup.png') }}" class="img-fluid" id="manage_credit_mockup" style="width: 75%;display: none;">
-						<img src="{{ url('/images/simple_login_mockup.png') }}" class="img-fluid" id="prepaid_card_mockup" style="width: 75%;display: none;"> -->
 					</div>
 				</div>
 			</div>
@@ -140,117 +158,163 @@
 			<div class="how_to_apply_bg">
 				<div class="container" style="">
 					<div class="row">
-						<div class="col-md-12 text-center">
+						<div class="col-md-12 text-center d-none d-sm-block">
 							<img src="{{ url('/images/ayapay/ayapay_registration_title.png') }}" class="img-fluid" style="width: 50%">
-							<!-- <img src="{{ url('/images/ayapay/AYAPay_Registration_Guide.png') }}" class="img-fluid" style="width: 80%"> -->
+							<div class="space-60"></div>
 						</div>
-						<div class="col-md-12">
-							
-						</div>						
+						<div class="col-md-12 text-center d-block d-sm-none">
+							<img src="{{ url('/images/ayapay/ayapay_registration_title.png') }}" class="img-fluid " >
+							<div class="space-40"></div>
+						</div>					
+					</div>
+					<div class="d-none d-sm-block">
+						<div class="row">
+							<div class="col text-center">
+								<img src="{{ url('/images/ayapay/reg_phone_1.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<p style="padding: 0px 10px;">1. Input mobile number you want to open <b style="color: #c22236;">AYA Pay</b> account and click '<b style="color: #c22236;">Next</b>'.</p>
+							</div>
+							<div class="col text-center">
+								<img src="{{ url('/images/ayapay/reg_phone_2.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<p style="padding: 0px 10px;">2. Key in <b style="color: #c22236;">4-digits OTP</b> received as <b style="color: #c22236;">SMS</b> in your mobile.</p>
+							</div>
+							<div class="col text-center">
+								<img src="{{ url('/images/ayapay/reg_phone_3.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<p>3. Input your data and click '<b style="color: #c22236;">Register</b>'.</p>
+							</div>
+							<div class="col text-center">
+								<img src="{{ url('/images/ayapay/reg_phone_4.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<p>4. Key in <b style="color: #c22236;">6-digits</b> PIN as your password.</p>
+							</div>
+							<div class="col text-center">
+								<img src="{{ url('/images/ayapay/reg_phone_5.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<p style="padding: 0px 20px;">5. You will get new <b style="color: #c22236;">AYA Pay</b> account and select '<b style="color: #c22236;">Upgrade Full KYC</b>'.</p>
+							</div>
+						</div>
+						<div class="space-20"></div>
+						<div class="row">
+							<div class="col"></div>
+							<div class="col text-center">
+								<img src="{{ url('/images/ayapay/reg_phone_6.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<p>6. Input your data and click '<b style="color: #c22236;">Upgrade</b>'.</p>
+							</div>
+							<div class="col text-center">
+								<img src="{{ url('/images/ayapay/reg_phone_7.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<p>7. Key in <b style="color: #c22236;">4-digits OTP</b> received as SMS in your mobile.</p>
+							</div>
+							<div class="col text-center">
+								<img src="{{ url('/images/ayapay/reg_phone_8.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<p style="padding: 0px 10px;">8. <b style="color: #c22236;">AYA Pay</b> will do <b style="color: #c22236;">KYC</b> check and confirm in 24-hours.</p>
+							</div>
+							<div class="col text-center">
+								<img src="{{ url('/images/ayapay/reg_phone_9.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<p style="padding: 0px 10px;">9. You can get started with <b style="color: #c22236;">AYA Pay</b>.</p>
+							</div>
+							<div class="col"></div>
+						</div>
+					</div>
+					<div class="d-block d-sm-none">
+						<div class="row">
+							<div class="col-sm-12 text-center">
+								<img src="{{ url('/images/ayapay/reg_phone_1.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<p style="padding: 0px 10px;">1. Input mobile number you want to open <b style="color: #c22236;">AYA Pay</b> account and click '<b style="color: #c22236;">Next</b>'.</p>
+							</div>
+							<div class="col-sm-12 text-center">
+								<img src="{{ url('/images/ayapay/reg_phone_2.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<p style="padding: 0px 10px;">2. Key in <b style="color: #c22236;">4-digits OTP</b> received as <b style="color: #c22236;">SMS</b> in your mobile.</p>
+							</div>
+							<div class="col-sm-12 text-center">
+								<img src="{{ url('/images/ayapay/reg_phone_3.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<p>3. Input your data and click '<b style="color: #c22236;">Register</b>'.</p>
+							</div>
+							<div class="col-sm-12 text-center">
+								<img src="{{ url('/images/ayapay/reg_phone_4.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<p>4. Key in <b style="color: #c22236;">6-digits</b> PIN as your password.</p>
+							</div>
+							<div class="col-sm-12 text-center">
+								<img src="{{ url('/images/ayapay/reg_phone_5.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<p style="padding: 0px 20px;">5. You will get new <b style="color: #c22236;">AYA Pay</b> account and select '<b style="color: #c22236;">Upgrade Full KYC</b>'.</p>
+							</div>
+							<div class="col-sm-12 text-center">
+								<img src="{{ url('/images/ayapay/reg_phone_6.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<p>6. Input your data and click '<b style="color: #c22236;">Upgrade</b>'.</p>
+							</div>
+							<div class="col-sm-12 text-center">
+								<img src="{{ url('/images/ayapay/reg_phone_7.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<p>7. Key in <b style="color: #c22236;">4-digits OTP</b> received as SMS in your mobile.</p>
+							</div>
+							<div class="col-sm-12 text-center">
+								<img src="{{ url('/images/ayapay/reg_phone_8.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<p style="padding: 0px 10px;">8. <b style="color: #c22236;">AYA Pay</b> will do <b style="color: #c22236;">KYC</b> check and confirm in 24-hours.</p>
+							</div>
+							<div class="col-sm-12 text-center">
+								<img src="{{ url('/images/ayapay/reg_phone_9.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<p style="padding: 0px 10px;">9. You can get started with <b style="color: #c22236;">AYA Pay</b>.</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 			<div class="space-40"></div>
 			<div class="need_more_support_section">
-				<div class="container d-none d-sm-block need_more_support_section_inner">
-					<div class="row">
-						<div class="col-md-5 col-xs-12 text-center" style="padding-top: 80px;">
-							<p style="color: #a02225;font-weight: 500;font-size: 20px;margin-bottom: 5px;">Need more support?</p>
-							<p style="font-weight:400;color: #4e4e4e;">Read our <a href="{{ url('/file/mBanking/mBanking version 2.2.5 User Guide (01 28042022) .pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">AYA Mobile banking 2.0 user guide</a></p>
-							<div style="height: 70px;"></div>
+				<div class="container">
+					<div class="row merchant_agent_div" style="column-gap: 20px;">
+						<div class="col-md-6" style="background-color: #f9f9fb;border-radius: 10px;padding-top: 10px;padding-bottom: 10px;margin-bottom: 20px;">
+							<div class="row">
+								<div class="col-4" style="background-image: url('./images/ayapay/merchant.png');background-size: contain;background-position: left center;background-repeat: no-repeat;"></div>
+								<div class="col-8">
+									<div class="space-40 d-none d-sm-block"></div>
+									<div class="space-20 d-block d-sm-none"></div>
+									<p style="font-size: 18px;font-weight: 600;margin-bottom: 0px;">Merchant</p>
+									<p>Scan and pay for goods and services at any of our AYA Pay Merchant shops</p>
+									<div class="space-40 d-none d-sm-block"></div>
+									<div class="space-20 d-block d-sm-none"></div>
+								</div>
+							</div>
 						</div>
-						<div class="col-md-7"></div>
-					</div>
-				</div>
-
-				<div class="container d-block d-sm-none" style="padding: 20px 50px 30px 50px;background-color: #f5f5f5;border-radius: 10px;margin-bottom: 50px;">
-					<div class="row">
-						<div class="col-xs-12 text-center" style="padding-top: 20px;">
-							<p style="color: #a02225;font-weight: 500;font-size: 20px;margin-bottom: 5px;">Need more support?</p>
-							<p style="font-weight:400;color: #4e4e4e;">Read our <a href="{{ url('/file/mBanking/mBanking version 2.2.5 User Guide (01 28042022) .pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">AYA Mobile banking 2.0 user guide</a></p>
+						<div class="col-md-6" style="background-color: #f9f9fb;border-radius: 10px;padding-top: 10px;padding-bottom: 10px;margin-bottom: 20px;">
+							<div class="row">
+								<div class="col-4" style="background-image: url('./images/ayapay/agent.png');background-size: contain;background-position: left center;background-repeat: no-repeat;"></div>
+								<div class="col-8">
+									<div class="space-40 d-none d-sm-block"></div>
+									<div class="space-10 d-block d-sm-none"></div>
+									<p style="font-size: 18px;font-weight: 600;margin-bottom: 0px;">Agent</p>
+									<p>Take advantage of our extensive agent network to perform any of our in-app services such as Cash In/Out, Remittance, Bill Payment, etc.</p>
+									<div class="space-40 d-none d-sm-block"></div>
+									<div class="space-10 d-block d-sm-none"></div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="container faq_section" style="">
-				<div class="space-20"></div>
-				<div class="row">
-					<div class="col-md-12 text-center">
-						<h3 style="color: #343434;font-weight: 600;">FAQs</h3>
+			<div class="need_more_support_section">
+				<div class="container d-none d-sm-block need_more_support_section_inner">
+					<div class="row">
+						<div class="col-md-7 col-xs-12" style="padding-top: 80px;padding-left: 50px;">
+							<p style="font-weight: 500;font-size: 20px;margin-bottom: 5px;">Explore more on <span style="color: #a02225;">AYA Pay</span></p>
+							<a href="https://www.ayapay.com/" target="_blank">
+								<button class="btn reset_pin_btn">
+									Visit Website
+								</button>
+							</a>
+						</div>
+						<div class="col-md-5">
+							<img src="{{ url('/images/ayapay/explore_laptop.png') }}" class="img-fluid">
+						</div>
 					</div>
 				</div>
-				<div class="space-20"></div>
-				<div class="row">
-					<div class="accordion" id="accordionExample">
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="headingOne">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-									How to apply AYA i-Banking / m-Banking ?
+
+				<div class="container d-block d-sm-none" style="padding: 0px 20px 0px 20px;background-color: #f5f5f5;border-radius: 10px;">
+					<div class="row">
+						<div class="col-xs-12 text-center" style="padding-top: 20px;">
+							<img src="{{ url('/images/ayapay/explore_laptop.png') }}" class="img-fluid" style="margin-bottom: 10px">
+
+							<p style="font-weight: 500;font-size: 20px;margin-bottom: 5px;">Explore more on <span style="color: #a02225;">AYA Pay</span></p>
+							<a href="https://www.ayapay.com/" target="_blank">
+								<button class="btn reset_pin_btn">
+									Visit Website
 								</button>
-							</h2>
-							<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-								<div class="accordion-body">
-									<p>To get i-Banking / m-Banking service that can be linked to your AYA Bank Account/Card Account, you can apply at nearest branch by filling AYA i-Banking / m-Banking Application form. You will need to bring only your saving book and NRC Card. Altnernatively, you can apply online at https://ibankapp.ayabank.com/ with your details without having to visit the branch. </p>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="headingTwo">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-									Where can I download m-Banking application?
-								</button>
-							</h2>
-							<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-								<div class="accordion-body">
-									<p>
-										On your mobile or tablet, you can download 'AYA m-Banking 2.0 Version' application at 'Play Store' for Android and 'Apple Store' for iOS.
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="headingThree">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-									What is the limit on i-Banking / m-Banking transfer?
-								</button>
-							</h2>
-							<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-								<div class="accordion-body">
-									<p>
-										With AYA i-Banking, the maximum transaction limit for one transaction is MMK 50 million and a user can transfer up to MMK 150 million per day.
-										<Br>
-										With AYA m-Banking, the maximum transaction limit for one transaction is MMK 20 million and a user can transfer up to MMK 100 million per day.
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="headingFour">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-									What should I do if I forgot my i-Banking / m-Banking password?
-								</button>
-							</h2>
-							<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-								<div class="accordion-body">
-									<p>
-										In the event of forgetting your i-Banking / m-Banking password, you can either apply new password at nearest branch by bringing NRC Card and saving book (or) reset password yourself at m-Banking 2.0.
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="headingFive">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-									How do I change password in m-Banking? 
-								</button>
-							</h2>
-							<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-								<div class="accordion-body">
-									<p>
-										You can change your m-Banking password by logging to AYA m-Banking application and accessing 'Change password' option under 'AYA m-Banking Settings' menu on the upper left corner of main page. New m-Banking password shall include capital letter, small letter, special letter (for example - @!#), and numbers (or) characters.
-									</p>
-								</div>
-							</div>
+							</a>
 						</div>
 					</div>
 				</div>

@@ -188,10 +188,11 @@
 						<div class="tab-pane wide-range-payment-option fade" id="navs-pills-top-wide-range-payment-option" role="tabpanel" style="background: rgb(243,243,243);background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(249,249,249,1) 50%, rgba(255,255,255,1) 100%);padding-bottom: 30px;">
 							<div class="container section_1">
 								<div class="row tab_data_row" >
-									<div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
+									<!-- <div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
 										<img src="{{ url('/images/sms/placeholder.jpg') }}" class="img-fluid" style="width: 80%">
-									</div>
-									<div class="col-md-6 benefit_feature_box" style="padding: 20px;">
+									</div> -->
+									<div class="col-md-12 benefit_feature_box" style="padding: 20px;">
+										<div class="space-20"></div>
 										<div class="row">
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
@@ -200,6 +201,7 @@
 												<p>Online services are offered with most debits and credits cards including Myanmar Payment Union (MPU), UPI, JCB debit cards, Visa, MasterCard on a real-time basis.</p>
 											</div>
 										</div>
+										<div class="space-40"></div>
 									</div>
 								</div>
 							</div>
@@ -207,10 +209,11 @@
 						<div class="tab-pane all-inclusive-services fade" id="navs-pills-top-all-inclusive-services" role="tabpanel" style="background: rgb(243,243,243);background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(249,249,249,1) 50%, rgba(255,255,255,1) 100%);padding-bottom: 30px;">
 							<div class="container section_1">
 								<div class="row tab_data_row" >
-									<div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
+									<!-- <div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
 										<img src="{{ url('/images/sms/placeholder.jpg') }}" class="img-fluid" style="width: 80%">
-									</div>
-									<div class="col-md-6 benefit_feature_box" style="padding: 20px;">
+									</div> -->
+									<div class="col-md-12 benefit_feature_box" style="padding: 20px;">
+										<div class="space-20"></div>
 										<div class="row">
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
@@ -227,6 +230,7 @@
 												<p>Payment integration can be made to your existing POS system.</p>
 											</div>
 										</div>
+										<div class="space-40"></div>
 									</div>
 								</div>
 							</div>
@@ -234,10 +238,11 @@
 						<div class="tab-pane eligibility fade" id="navs-pills-top-eligibility" role="tabpanel" style="background: rgb(243,243,243);background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(249,249,249,1) 50%, rgba(255,255,255,1) 100%);padding-bottom: 30px;">
 							<div class="container section_1">
 								<div class="row tab_data_row" >
-									<div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
+									<!-- <div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
 										<img src="{{ url('/images/sms/placeholder.jpg') }}" class="img-fluid" style="width: 80%">
-									</div>
-									<div class="col-md-6 benefit_feature_box" style="padding: 20px;">
+									</div> -->
+									<div class="col-md-12 benefit_feature_box" style="padding: 20px;">
+										<div class="space-20"></div>
 										<div class="row">
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
@@ -254,6 +259,7 @@
 												<p>You may also email us at <a href="mailto:mchsupport.card@ayabank.com" style="color: #a02226">mchsupport.card@ayabank.com</a> and arrange our Relationship Manager to call you.</p>
 											</div>
 										</div>
+										<div class="space-40"></div>
 									</div>
 								</div>
 							</div>

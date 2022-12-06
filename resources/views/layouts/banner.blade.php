@@ -180,7 +180,7 @@
 		}
 		.ayapay_banner {
 			background-image:url('./images/ayapay/mobile_KV.jpg');
-			background-position: 85% center;
+			background-position: 80% center;
 		}
 		.bread_crumb_text {
 			font-size: 10px;

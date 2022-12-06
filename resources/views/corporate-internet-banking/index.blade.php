@@ -73,7 +73,7 @@
 	}
 	.offers_bg {
 		background-color: #f5f5f7;
-		height:850px;
+		height:900px;
 		padding: 60px 20px 0px 20px;
 		border-radius: 200px;
 		margin-bottom: 20px;
@@ -456,7 +456,7 @@
 							<p style="color: #000;font-weight: 400;font-size: 17px;margin-bottom: 0px;">Frequently Asked Question about Corporate Internet Banking</p>
 						</div>
 						<div class="col-md-3 col-xs-12 text-right" style="padding-top: 10px;padding-left: 0px;text-align: right;">
-							<a href="#" target="_blank">
+							<a href="{{ url('/file/cib/FAQ - Corporate Internet Banking (CIB).pdf') }}" target="_blank">
 								<button class="btn read_more_btn">Read More</button>
 							</a>
 						</div>
@@ -468,7 +468,7 @@
 							<p style="color: #000;font-weight: 400;font-size: 17px;margin-bottom: 0px;">Frequently Asked Question about Corporate Internet Banking</p>
 						</div>
 						<div class="col-xs-12 text-center" style="padding-top: 10px;padding-left: 0px;text-align: right;">
-							<a href="#" target="_blank">
+							<a href="{{ url('/file/cib/FAQ - Corporate Internet Banking (CIB).pdf') }}" target="_blank">
 								<button class="btn read_more_btn">Read More</button>
 							</a>
 						</div>
