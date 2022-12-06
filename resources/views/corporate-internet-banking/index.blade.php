@@ -73,7 +73,7 @@
 	}
 	.offers_bg {
 		background-color: #f5f5f7;
-		height:900px;
+		height:950px;
 		padding: 60px 20px 0px 20px;
 		border-radius: 200px;
 		margin-bottom: 20px;
