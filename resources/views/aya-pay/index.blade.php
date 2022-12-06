@@ -79,6 +79,9 @@
 		.merchant_agent_div {
 			width: auto;
 		}
+		.need_more_support_section {
+		    padding: 0px 20px !important;
+		}
 	}
 </style>
 @section('content')
