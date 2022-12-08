@@ -68,6 +68,9 @@
 		.merchant_agent_div > .col-md-6 {
 			width: 48%;
 		}
+		.tag_line_mascot {
+			margin-top: -50px;
+		}
 	}
 	@media only screen and (max-width: 576px){
 		.why_use_AYA_outer > .col-md-6 {

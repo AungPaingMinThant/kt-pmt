@@ -78,3 +78,5 @@ Route::get('/frequently-used-digital','App\Http\Controllers\FrequentlyUsedDigita
 Route::get('/pos','App\Http\Controllers\POSController@index');
 
 Route::get('/aya-pay','App\Http\Controllers\AyaPayController@index');
+
+Route::get('/atm','App\Http\Controllers\ATMController@index');

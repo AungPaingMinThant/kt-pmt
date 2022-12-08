@@ -77,6 +77,12 @@
 		height: 400px;
 		background-position: center right;
 	}
+	.atm_banner {
+		background-image:url('./images/atm/KV.jpg');
+		background-size: cover;
+		height: 400px;
+		background-position: center right;
+	}
 	.bread_crumb_text {
 		font-size: 11px;
 		color: #666 !important;
@@ -127,6 +133,9 @@
 		    background-position: center;
 		}
 		.ayapay_banner {
+		    background-position: 90% center;
+		}
+		.atm_banner {
 		    background-position: 90% center;
 		}
 	}
@@ -180,6 +189,10 @@
 		}
 		.ayapay_banner {
 			background-image:url('./images/ayapay/mobile_KV.jpg');
+			background-position: 80% center;
+		}
+		.atm_banner {
+			background-image:url('./images/atm/mobile_KV.jpg');
 			background-position: 80% center;
 		}
 		.bread_crumb_text {
@@ -804,6 +817,48 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;WALLET SOLUTION&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">AYA PAY</span>
+			</p>
+		</div>
+	</div>
+@endif
+
+@if($page == 'atm')
+	<div class="atm_banner" style="">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="ayapay_tag">
+					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
+						<div style="position: absolute;top: 200px;right: 130px;">
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;color: #a02226;">Your 24/7 Teller</p>
+						</div>
+					</div>
+					<div class="col-md-6" style="text-align: right;"></div>
+				</div>
+				<div class="ayapay_tag_mid">
+					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
+						<div style="position: absolute;top: 200px;right: 130px;">
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;color: #a02226;">Your 24/7 Teller</p>
+						</div>
+					</div>
+					<div class="col-md-6" style="text-align: right;"></div>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 45px;left: 25px;right: 55px;">
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;color: #a02226;">Your 24/7 Teller</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">ATM</span>
 			</p>
 		</div>
 	</div>

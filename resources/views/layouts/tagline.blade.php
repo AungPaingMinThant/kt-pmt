@@ -80,4 +80,15 @@
 		<div class="col-md-9"></div>
 	</div>
 @endif
+
+@if($page == 'atm')
+	<div class="row">
+		<div class="col-md-4 tag_line">
+			<p style="font-size: 19px;padding-right: 40px;">Explore Our ATM Services!</p>
+		</div>
+		<div class="col-md-8 tag_desc">
+			<p>AYA Bank ATM Services are available at your reach to access your banking needs without visiting Bank branches and to carry out specified financial transactions including cash withdrawal.</p>
+		</div>
+	</div>
+@endif
 <div class="space-40"></div>
