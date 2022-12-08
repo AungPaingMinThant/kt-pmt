@@ -127,7 +127,7 @@
 		margin-bottom: 0px;
 	}
 	.services_overview_div{
-		padding-left: 120px;
+		padding-left: 120px !important;
 	}
 	@media (max-width: 1300px) and (min-width: 577px) {
 		.why_use_AYA_outer > .col-md-6 {
@@ -147,7 +147,7 @@
 			margin-top: -50px;
 		}
 		.services_overview_div{
-			padding-left: 85px;
+			padding-left: 85px !important;
 		}
 	}
 	@media only screen and (max-width: 576px){
@@ -170,7 +170,7 @@
 		    height: 90%;
 		}
 		.services_overview_div{
-			padding-left: 15px;
+			padding-left: 15px !important;
 		}
 	}
 </style>
