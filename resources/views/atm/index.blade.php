@@ -126,6 +126,9 @@
 		font-size: 13px;
 		margin-bottom: 0px;
 	}
+	.services_overview_div{
+		padding-left: 120px;
+	}
 	@media (max-width: 1300px) and (min-width: 577px) {
 		.why_use_AYA_outer > .col-md-6 {
 			width: 47%;
@@ -142,6 +145,9 @@
 		}
 		.tag_line_mascot {
 			margin-top: -50px;
+		}
+		.services_overview_div{
+			padding-left: 85px;
 		}
 	}
 	@media only screen and (max-width: 576px){
@@ -162,6 +168,9 @@
 		}
 		.swiper-wrapper {
 		    height: 90%;
+		}
+		.services_overview_div{
+			padding-left: 15px;
 		}
 	}
 </style>
@@ -225,7 +234,7 @@
 				<div class="space-60"></div>
 				<div class="section_1">
 					<div class="row">
-						<div class="col-md-12" style="padding-left: 120px;">
+						<div class="col-md-12 services_overview_div">
 							<h3 style="color: #1d1d1f;">Service Overview</h3>
 						</div>
 						<div class="space-20"></div>
