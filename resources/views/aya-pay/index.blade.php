@@ -53,7 +53,14 @@
 		color: #ae071d !important;
 		background-color: #fff !important;
 	}
-
+	.need_more_support_section_merchant {
+	    padding: 40px 153px 40px 196px !important;
+	}
+	@media (max-width: 1400px) and (min-width: 1301px) {
+		.merchant_agent_div > .col-md-6 {
+			width: 48%;
+		}
+	}
 	@media (max-width: 1300px) and (min-width: 577px) {
 		.why_use_AYA_outer > .col-md-6 {
 			width: 47%;
@@ -85,7 +92,7 @@
 		.merchant_agent_div {
 			width: auto;
 		}
-		.need_more_support_section {
+		.need_more_support_section, .need_more_support_section_merchant {
 		    padding: 0px 20px !important;
 		}
 	}
@@ -275,7 +282,7 @@
 				</div>
 			</div>
 			<div class="space-40"></div>
-			<div class="need_more_support_section">
+			<div class="need_more_support_section_merchant">
 				<div class="container">
 					<div class="row merchant_agent_div">
 						<div class="col-md-6" style="background-color: #f9f9fb;border-radius: 10px;padding-top: 10px;padding-bottom: 10px;margin-bottom: 20px;">
