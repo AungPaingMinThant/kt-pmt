@@ -1089,7 +1089,7 @@
 				<div class="col-12 text-center">
 					<h4 style="font-weight: 500;color: #000;">Is it time to renew your credit card?</h4>
 					<p>Just click here to apply Credit card renewal application.</p>
-					<a target="_blank" href="#">
+					<a target="_blank" href="https://creditcard.ayabank.com/">
 						<button class="btn" style="background-color: #ae071d;color: #fff;font-weight: 500;padding: 15px 30px;border: #ae071d;">
 							Renew
 						</button>

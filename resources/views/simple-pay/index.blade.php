@@ -124,7 +124,7 @@
 					<div class="row">
 						<div class="col-md-6 how_to_apply_desc">
 							<h3 style="font-weight: 600;color: #000;margin-bottom: 30px;">Apply now to maximize your benefits.</h3>
-							<a target="_blank" href="#">
+							<a target="_blank" href="https://simplepay.ayabank.com/">
 								<button class="btn apply_now_btn">
 									Apply Online
 								</button>

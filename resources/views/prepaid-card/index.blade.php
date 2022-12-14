@@ -270,7 +270,7 @@
 						<div class="col-md-6 how_to_apply_desc">
 							<h3 style="font-weight: 600;color: #000;">How to Apply</h3>
 							<p>Apply at nearest AYA Branch with your NRC card or via online.</p>
-							<a target="_blank" href="#">
+							<a target="_blank" href="https://prepaidcard.ayabank.com/">
 								<button class="btn" style="background-color: #ae071d;color: #fff;font-weight: 500;padding: 15px 25px;border: #ae071d;margin-bottom: 2rem;">
 									Apply Now
 								</button>

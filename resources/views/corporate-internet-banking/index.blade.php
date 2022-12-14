@@ -418,8 +418,8 @@
 							<div style="height: 40px;"></div>
 						</div>
 						<div class="col-md-12 col-xs-12 text-center">
-							<div class="space-20"></div>
-							<p style="color: #000;"><a href="#" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities to help you manage your finance online.</p>
+							<div class="space-60"></div>
+							<p style="color: #000;font-size: 16px;"><a href="{{ url('/file/cib/CIB_Enquiry Form.pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities to help you manage your finance online.</p>
 						</div>
 					</div>
 				</div>
@@ -445,7 +445,7 @@
 						</div>
 						<div class="col-md-12 col-xs-12 text-center">
 							<!-- <div class="space-20"></div> -->
-							<p style="color: #000;"><a href="#" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities to help you manage your finance online.</p>
+							<p style="color: #000;"><a href="{{ url('/file/cib/CIB_Enquiry Form.pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities to help you manage your finance online.</p>
 						</div>
 					</div>
 				</div>
@@ -460,7 +460,7 @@
 							<p style="color: #000;font-weight: 400;font-size: 17px;margin-bottom: 0px;">Frequently Asked Question about Corporate Internet Banking</p>
 						</div>
 						<div class="col-md-3 col-xs-12 text-right" style="padding-top: 10px;padding-left: 0px;text-align: right;">
-							<a href="{{ url('/file/cib/FAQ - Corporate Internet Banking (CIB).pdf') }}" target="_blank">
+							<a href="{{ url('/file/cib/FAQ - Corporate Internet Banking(CIB).pdf') }}" target="_blank">
 								<button class="btn read_more_btn">Read More</button>
 							</a>
 						</div>
@@ -472,7 +472,7 @@
 							<p style="color: #000;font-weight: 400;font-size: 17px;margin-bottom: 0px;">Frequently Asked Question about Corporate Internet Banking</p>
 						</div>
 						<div class="col-xs-12 text-center" style="padding-top: 10px;padding-left: 0px;text-align: right;">
-							<a href="{{ url('/file/cib/FAQ - Corporate Internet Banking (CIB).pdf') }}" target="_blank">
+							<a href="{{ url('/file/cib/FAQ - Corporate Internet Banking(CIB).pdf') }}" target="_blank">
 								<button class="btn read_more_btn">Read More</button>
 							</a>
 						</div>
