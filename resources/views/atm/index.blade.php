@@ -327,7 +327,7 @@
 							                        		<p style="margin-bottom: 0px">AYA Account</p>
 							                        		<p class="name" style="font-size: 18px;color: #a02226;">AYA Visa Prepaid Card</p>
 							                        	</div>
-							                        	<div class="space-20"></div>
+							                        	<div class="space-10"></div>
 							                            <div class="row">
 							                            	<div class="col-md-6">
 							                            		<p class="fee_title">Balance enquiry</p>
@@ -340,16 +340,10 @@
 																<hr>
 							                            	</div>
 							                            </div>
-							                            <div class="space-20"></div>
-							                        </div>
-							                    </div>
-							                    <div class="card swiper-slide">
-							                        <div class="card-content">
-							                        	<div class="row text-center">
-							                        		<p style="margin-bottom: 0px">AYA Account</p>
+							                            <div class="space-10"></div>
+							                            <div class="row text-center">
 							                        		<p class="name" style="font-size: 18px;color: #a02226;">AYA m-banking</p>
 							                        	</div>
-							                        	<div class="space-20"></div>
 							                            <div class="row">
 							                            	<div class="col-md-12">
 							                            		<p class="fee_title">Cardless Withdrawal</p>
@@ -357,24 +351,17 @@
 																<hr>
 							                            	</div>
 							                            </div>
-							                            <div class="space-20"></div>
-							                        </div>
-							                    </div>
-							                    <div class="card swiper-slide">
-							                        <div class="card-content">
-							                        	<div class="row text-center">
-							                        		<p style="margin-bottom: 0px">AYA Account</p>
+							                            <div class="space-10"></div>
+							                            <div class="row text-center">
 							                        		<p class="name" style="font-size: 18px;color: #a02226;">AYA Pay</p>
 							                        	</div>
-							                        	<div class="space-20"></div>
+							                        	<div class="space-10"></div>
 							                            <div class="row">
 							                            	<div class="col-md-12">
 							                            		<p class="fee_title">Cardless Withdrawal</p>
 																<p class="fee_desc">Free</p>
-																<hr>
 							                            	</div>
 							                            </div>
-							                            <div class="space-20"></div>
 							                        </div>
 							                    </div>
 							                    <div class="card swiper-slide">
@@ -528,7 +515,7 @@
 							                        		<p style="margin-bottom: 0px">AYA Account</p>
 							                        		<p class="name" style="font-size: 18px;color: #a02226;">AYA Visa Prepaid Card</p>
 							                        	</div>
-							                        	<div class="space-20"></div>
+							                        	<div class="space-10"></div>
 							                            <div class="row">
 							                            	<div class="col-md-6">
 							                            		<p class="fee_title">Balance enquiry</p>
@@ -541,16 +528,10 @@
 																<hr>
 							                            	</div>
 							                            </div>
-							                            <div class="space-20"></div>
-							                        </div>
-							                    </div>
-							                    <div class="card swiper-slide">
-							                        <div class="card-content">
-							                        	<div class="row text-center">
-							                        		<p style="margin-bottom: 0px">AYA Account</p>
+							                            <div class="space-10"></div>
+							                            <div class="row text-center">
 							                        		<p class="name" style="font-size: 18px;color: #a02226;">AYA m-banking</p>
 							                        	</div>
-							                        	<div class="space-20"></div>
 							                            <div class="row">
 							                            	<div class="col-md-12">
 							                            		<p class="fee_title">Cardless Withdrawal</p>
@@ -558,24 +539,17 @@
 																<hr>
 							                            	</div>
 							                            </div>
-							                            <div class="space-20"></div>
-							                        </div>
-							                    </div>
-							                    <div class="card swiper-slide">
-							                        <div class="card-content">
-							                        	<div class="row text-center">
-							                        		<p style="margin-bottom: 0px">AYA Account</p>
+							                            <div class="space-10"></div>
+							                            <div class="row text-center">
 							                        		<p class="name" style="font-size: 18px;color: #a02226;">AYA Pay</p>
 							                        	</div>
-							                        	<div class="space-20"></div>
+							                        	<div class="space-10"></div>
 							                            <div class="row">
 							                            	<div class="col-md-12">
 							                            		<p class="fee_title">Cardless Withdrawal</p>
 																<p class="fee_desc">Free</p>
-																<hr>
 							                            	</div>
 							                            </div>
-							                            <div class="space-20"></div>
 							                        </div>
 							                    </div>
 							                    <div class="card swiper-slide">

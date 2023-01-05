@@ -123,10 +123,10 @@
 									<img src="{{ url('/images/quick_check_balance_mockup.png') }}" class="d-block  img-fluid" id="quick_mockup" alt="Second slide" style="width: 75%;">
 								</div>
 								<div class="carousel-item">
-									<img src="{{ url('/images/simple_login_mockup.png') }}" class="d-block  img-fluid" id="manage_credit_mockup" alt="Third slide" style="width: 75%;">
+									<img src="{{ url('/images/manage_credit_mockup.png') }}" class="d-block  img-fluid" id="manage_credit_mockup" alt="Third slide" style="width: 75%;">
 								</div>
 								<div class="carousel-item">
-									<img src="{{ url('/images/simple_login_mockup.png') }}" class="d-block  img-fluid" id="prepaid_card_mockup" alt="Fourth slide" style="width: 75%;">
+									<img src="{{ url('/images/prepaid_card_mockup.png') }}" class="d-block  img-fluid" id="prepaid_card_mockup" alt="Fourth slide" style="width: 75%;">
 								</div>
 							</div>
 							<a class="carousel-control-prev d-none" href="#why_use_AYA_first_section" role="button" data-bs-slide="prev">
@@ -138,10 +138,6 @@
 								<span class="visually-hidden">Next</span>
 							</a>
 						</div>
-						<!-- <img src="{{ url('/images/simple_login_mockup.png') }}" class="img-fluid" id="simple_login_mockup" style="width: 75%;">
-						<img src="{{ url('/images/quick_check_balance_mockup.png') }}" class="img-fluid" id="quick_mockup" style="width: 75%;display: none;">
-						<img src="{{ url('/images/simple_login_mockup.png') }}" class="img-fluid" id="manage_credit_mockup" style="width: 75%;display: none;">
-						<img src="{{ url('/images/simple_login_mockup.png') }}" class="img-fluid" id="prepaid_card_mockup" style="width: 75%;display: none;"> -->
 					</div>
 				</div>
 
@@ -158,10 +154,10 @@
 									<img src="{{ url('/images/secure_transaction_mockup.png') }}" class="d-block  img-fluid" id="secure_transaction_mockup" alt="First slide" style="width: 75%;">
 								</div>
 								<div class="carousel-item">
-									<img src="{{ url('/images/easy_transfer_payment_mockup.png') }}" class="d-block  img-fluid" id="easy_transfer_payment_mockup" alt="Second slide" style="width: 75%;">
+									<img src="{{ url('/images/easytransfer_paymentmockup.png') }}" class="d-block  img-fluid" id="easy_transfer_payment_mockup" alt="Second slide" style="width: 75%;">
 								</div>
 								<div class="carousel-item">
-									<img src="{{ url('/images/simple_login_mockup.png') }}" class="d-block  img-fluid" id="ATM_withdrawal_mockup" alt="Third slide" style="width: 75%;">
+									<img src="{{ url('/images/ATM_withdrawalmockup.png') }}" class="d-block  img-fluid" id="ATM_withdrawal_mockup" alt="Third slide" style="width: 75%;">
 								</div>
 							</div>
 							<a class="carousel-control-prev d-none" href="#why_use_AYA_second_section" role="button" data-bs-slide="prev">
@@ -173,9 +169,6 @@
 								<span class="visually-hidden">Next</span>
 							</a>
 						</div>
-						<!-- <img src="{{ url('/images/secure_transaction_mockup.png') }}" class="img-fluid" id="secure_transaction_mockup" style="width: 75%;">
-						<img src="{{ url('/images/easy_transfer_payment_mockup.png') }}" class="img-fluid" id="easy_transfer_payment_mockup" style="width: 75%;display: none;">
-						<img src="{{ url('/images/simple_login_mockup.png') }}" class="img-fluid" id="ATM_withdrawal_mockup" style="width: 75%;display: none;"> -->
 					</div>
 					<div class="col-md-7">
 						<div class="row why_use_AYA_outer" style="column-gap: 20px;">
@@ -196,7 +189,7 @@
 							<div class="col-md-6 outer_benefit_box why_use_AYA">
 								<div class="row ATM_withdrawal_div">
 									<img src="{{ url('/images/ATM_withdrawal.png') }}" class="img-fluid" style="width: 91px;">
-									<p style="font-weight: 600;margin-top: 1rem;">ATM Withdrawal</p>
+									<p style="font-weight: 600;margin-top: 1rem;">Cardless withdrawal</p>
 									<p style="color: #4e4e4e;">You can withdraw money at any AYA ATM without your bank card by initiating ATM cardless withdrawal straight. </p>
 								</div>
 							</div>
@@ -242,7 +235,7 @@
 					<div class="row">
 						<div class="col-md-5 col-xs-12 text-center" style="padding-top: 80px;">
 							<p style="color: #a02225;font-weight: 500;font-size: 20px;margin-bottom: 5px;">Need more support?</p>
-							<p style="font-weight:400;color: #4e4e4e;">Read our <a href="{{ url('/file/mBanking/mBanking version 2.2.5 User Guide (01 28042022) .pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">AYA Mobile banking 2.0 user guide</a></p>
+							<p style="font-weight:400;color: #4e4e4e;">Read our <a href="{{ url('/file/mBanking/mBanking version 2.2.5 User Guide.pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">AYA Mobile banking 2.0 user guide</a></p>
 							<div style="height: 70px;"></div>
 						</div>
 						<div class="col-md-7"></div>
@@ -253,7 +246,7 @@
 					<div class="row">
 						<div class="col-xs-12 text-center" style="padding-top: 20px;">
 							<p style="color: #a02225;font-weight: 500;font-size: 20px;margin-bottom: 5px;">Need more support?</p>
-							<p style="font-weight:400;color: #4e4e4e;">Read our <a href="{{ url('/file/mBanking/mBanking version 2.2.5 User Guide (01 28042022) .pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">AYA Mobile banking 2.0 user guide</a></p>
+							<p style="font-weight:400;color: #4e4e4e;">Read our <a href="{{ url('/file/mBanking/mBanking version 2.2.5 User Guide.pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">AYA Mobile banking 2.0 user guide</a></p>
 						</div>
 					</div>
 				</div>

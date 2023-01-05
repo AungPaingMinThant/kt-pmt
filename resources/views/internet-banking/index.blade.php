@@ -305,7 +305,7 @@
 						</div>
 						<div class="col-md-12 col-xs-12 text-center">
 							<div class="space-20"></div>
-							<p style="color: #000;"><a href="{{ url('/file/iBanking/AYA iBanking User Guide P v1.2.pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities to help you manage your finance online</p>
+							<p style="color: #000;"><a href="{{ url('/file/iBanking/iBanking User Guide Update.pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities.</p>
 						</div>
 					</div>
 				</div>
@@ -328,7 +328,8 @@
 						</div>
 						<div class="col-md-12 col-xs-12 text-center">
 							<!-- <div class="space-20"></div> -->
-							<p style="color: #000;"><a href="{{ url('/file/iBanking/AYA iBanking User Guide P v1.2.pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities to help you manage your finance online</p>
+							<!-- <p style="color: #000;"><a href="{{ url('/file/iBanking/iBanking User Guide Update.pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities to help you manage your finance online</p> -->
+							<p style="color: #000;"><a href="{{ url('/file/iBanking/iBanking User Guide Update.pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities.</p>
 						</div>
 					</div>
 				</div>

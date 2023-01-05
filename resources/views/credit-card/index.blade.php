@@ -324,7 +324,7 @@
 				<div class="space-40"></div>
 				<div class="container">
 					<div class="col-md-12 text-center">
-						<p class="credit_tag_line">Already have a AYA Credit Card? Select your card below to review the features and benefits available to you.</p>
+						<p class="credit_tag_line">Already have a AYA Credit Card? Select your card below to review the features and benefits available for you.</p>
 					</div>
 				</div>
 				<div class="space-40"></div>
@@ -351,7 +351,7 @@
 							<div class="row tab_data_row" >
 								<div class="col-md-6 text-center" style="position: relative;">
 									<!-- <h3 class="tab_h3"><span style="color: #1d1d1f;">It is easy, accessible and convenience with </span><span style="color: #a02226"><Br>AYA Universal Debit Card</span></h3> -->
-									<h3 class="tab_h2"><span style="color: #1d1d1f;">We connect your financial life to </span><span style="color: #a02226">everyday life</span></h3>
+									<h3 class="tab_h2"><span style="color: #1d1d1f;">We connect your financial life to </span><span style="color: #a02226">your daily life</span></h3>
 								</div>
 								<div class="col-md-6"></div>
 							</div>
@@ -378,7 +378,7 @@
 											<img src="{{ url('/images/check_icon.png') }}" class="img-fluid">
 										</div>
 										<div class="col-md-11 col-10 secure_credit_fact">
-											<p>Secured credit card will make a great use of your deposit balance in your fixed deposit account.</p>
+											<p>Make great use of your deposit balance in your fixed deposit account by applying secured credit card.</p>
 										</div>
 									</div>
 									<div class="row">
@@ -386,7 +386,7 @@
 											<img src="{{ url('/images/check_icon.png') }}" class="img-fluid">
 										</div>
 										<div class="col-md-11 col-10 secure_credit_fact">
-											<p>Card life and validity is 4 years.</p>
+											<p>Validity is 4 years.</p>
 										</div>
 									</div>
 									<div class="row">
