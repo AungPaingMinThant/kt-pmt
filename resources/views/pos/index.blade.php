@@ -181,6 +181,38 @@
 												<p>It will reduce your operational risk and cost of handling cash and enhance secure payment. </p>
 											</div>
 										</div>
+										<div class="row">
+											<div class="col-md-1 col-2" style="padding-top: 5px;">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-md-11 col-10 secure_credit_fact">
+												<p>More payment option is available and enhanced secure payment</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-1 col-2" style="padding-top: 5px;">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-md-11 col-10 secure_credit_fact">
+												<p>Enhanced mobility and make sales anywhere</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-1 col-2" style="padding-top: 5px;">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-md-11 col-10 secure_credit_fact">
+												<p>Shorter queue and speed up at the Checkout</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-1 col-2" style="padding-top: 5px;">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-md-11 col-10 secure_credit_fact">
+												<p>Contactless payment mode is available for better customer experience</p>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -199,6 +231,22 @@
 											</div>
 											<div class="col-md-11 col-10 secure_credit_fact">
 												<p>Online services are offered with most debits and credits cards including Myanmar Payment Union (MPU), UPI, JCB debit cards, Visa, MasterCard on a real-time basis.</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-1 col-2" style="padding-top: 5px;">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-md-11 col-10 secure_credit_fact">
+												<p>We accept all debit and credit cards (MPU, JCB, UPI, VISA, MASTER CARD)</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-1 col-2" style="padding-top: 5px;">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-md-11 col-10 secure_credit_fact">
+												<p>POS Terminal is integrated with AYA Pay wallet</p>
 											</div>
 										</div>
 										<div class="space-40"></div>
@@ -230,6 +278,30 @@
 												<p>Payment integration can be made to your existing POS system.</p>
 											</div>
 										</div>
+										<div class="row">
+											<div class="col-md-1 col-2" style="padding-top: 5px;">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-md-11 col-10 secure_credit_fact">
+												<p>Free of charge for installation, training and operating user manual and onsite support</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-1 col-2" style="padding-top: 5px;">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-md-11 col-10 secure_credit_fact">
+												<p>24/7 hotline support is available for any technical error</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-1 col-2" style="padding-top: 5px;">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-md-11 col-10 secure_credit_fact">
+												<p>Payment Integration is possible (Integration between merchant’s existing Point of Sales System and AYA POS)</p>
+											</div>
+										</div>
 										<div class="space-40"></div>
 									</div>
 								</div>
@@ -248,7 +320,7 @@
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-md-11 col-10 secure_credit_fact">
-												<p>Call us at <a href="tel:+95925888997" style="color: #a02226">+(95) 9 25 888 997</a>, <a href="tel:+959258889937" style="color: #a02226">+(95) 9 25 888 9937</a> or visit any of our Branches for more details.</p>
+												<p>Call us at <a href="tel:+959258889973" style="color: #a02226">+(95) 9 25 888 9973</a>, <a href="tel:+959258889937" style="color: #a02226">+(95) 9 25 888 9937</a> or visit any of our Branches for more details.</p>
 											</div>
 										</div>
 										<div class="row">

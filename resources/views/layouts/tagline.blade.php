@@ -16,7 +16,19 @@
 			<p style="font-size: 20px;">Simplify your day-to-day banking with AYA i-Banking!</p>
 		</div>
 		<div class="col-md-8 tag_desc">
-			<p>AYA iBanking will allow you real time banking transactions via PCs, Laptops, Smartphone or other devices with access to the internet. Make payments, go paperless, view and download statements and more from the comfort of your home.</p>
+			<!-- <p>AYA iBanking will allow you real time banking transactions via PCs, Laptops, Smartphone or other devices with access to the internet. Make payments, go paperless, view and download statements and more from the comfort of your home.</p> -->
+			<p>AYA i-Banking will allow you real time banking transactions via all electronic devices with internet access. Go paperless, make payments, view and download digitally.</p>
+		</div>
+	</div>
+@endif
+
+@if($page == 'debitcard')
+	<div class="row">
+		<div class="col-md-4 tag_line">
+			<p style="font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+		</div>
+		<div class="col-md-8 tag_desc">
+			<p>AYA i-Banking will allow you real time banking transactions via all electronic devices with internet access. Go paperless, make payments, view and download digitally.</p>
 		</div>
 	</div>
 @endif
@@ -27,7 +39,7 @@
 			<p style="font-size: 19px;">Enjoy Hassle-free payment with AYA VISA reloadable Prepaid Card</p>
 		</div>
 		<div class="col-md-8 tag_desc">
-			<p>You do not have bank account with AYA but want to use the card to enjoy Hassle-free payment? Get AYA VISA reloadable Prepaid Card that widely accepted at merchants worldwide.</p>
+			<p>You do not have bank account with AYA but want to use the card to enjoy Hassle-free payment?<br><br>Get AYA VISA reloadable Prepaid Card that widely accepted at merchants worldwide.</p>
 		</div>
 	</div>
 @endif
@@ -49,8 +61,8 @@
 			<p style="font-size: 19px;padding-right: 40px;">Cohesive service channel to manage all your accounts and transactions</p>
 		</div>
 		<div class="col-md-8 tag_desc">
-			<p>AYA Bank’s Corporate Internet Banking (CIB) allows users to conduct wide variety of financial transaction via internet securely from anywhere at any time.</p>
-			<p>Experience the new Corporate Internet Banking facility with fast, simple, and reliable system for a better day; avoiding the ques and delays of traditional ways.</p>
+			<p>Our Corporate Internet Banking (CIB) allows users to conduct a wide variety of financial transactions online over the internet connection effectively and securely from anywhere at any time.</p>
+			<p>Our significantly high-quality CIB system can enhance the productivity of your work, and consistently place profound values on your business.</p>
 		</div>
 	</div>
 @endif
@@ -88,6 +100,17 @@
 		</div>
 		<div class="col-md-8 tag_desc">
 			<p>AYA Bank ATM Services are available at your reach to access your banking needs without visiting Bank branches and to carry out specified financial transactions including cash withdrawal.</p>
+		</div>
+	</div>
+@endif
+
+@if($page == 'ecommerce')
+	<div class="row">
+		<div class="col-md-4 tag_line">
+			<p style="font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+		</div>
+		<div class="col-md-8 tag_desc">
+			<p>Change your issues into opportunity with AYA E-Commerce. We will provide the best formulas to solve it. Grow your business by joining our wide variety of E-Commerce services.</p>
 		</div>
 	</div>
 @endif

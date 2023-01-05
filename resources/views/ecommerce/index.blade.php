@@ -79,6 +79,12 @@
 	.tab_section_1 {
 	    padding: 0px 100px !important;
 	}
+	.secure_req_application_icon {
+		background-color: #a02226;
+		color: #fff;
+		border-radius: 50%;
+		font-size: 20px;
+	}
 	@media (min-width: 768px){
 		.col-md-3 {
 		    width: 23% !important;
@@ -131,6 +137,10 @@
         	<div class="menu-overlay"></div>
 
 			@include('layouts.banner', ['page'=>'ecommerce'])
+
+			<div class="container section_1" >
+				@include('layouts.tagline', ['page'=>'ecommerce'])
+			</div>
 
 			<div style="">
 				<div class="space-40"></div>
@@ -193,8 +203,32 @@
 							<div class="container tab_section_1">
 								<div class="row tab_data_row" >
 									<div class="col-md-12 benefit_feature_box" style="padding: 20px;">
-										<div class="row">
+										<!-- <div class="row">
 											<p style="color: #4e4e4e;margin-top: 20px;">All Business entity incorporated in Myanmar. Business licenses from Yangon city Development Committee or Company license from DICA and Copy of owner’s NRC is needed to provide. Applicant must have any accounts at AYA.</p>
+										</div> -->
+										<div class="row">
+											<div class="col-md-1 col-2" style="padding-top: 5px;">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-md-11 col-10 secure_credit_fact">
+												<p>All Business entity must be incorporated in Myanmar. </p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-1 col-2" style="padding-top: 5px;">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-md-11 col-10 secure_credit_fact">
+												<p>Need to provide Business License from Yangon city Development Committee (or) Company license from DICA and Copy of owner’s NRC.</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-1 col-2" style="padding-top: 5px;">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-md-11 col-10 secure_credit_fact">
+												<p>Applicant must have any accounts at AYA.</p>
+											</div>
 										</div>
 									</div>
 								</div>

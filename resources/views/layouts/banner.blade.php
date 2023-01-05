@@ -207,9 +207,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 					<div class="tag_line_div" style="">
-						<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;">Designed to make banking</p>
-						<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;color: #a02226;">simple, faster and</p>
-						<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;color: #a02226;">more secure</p>
+						<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;">Banking within the <span style="color: #a02226;">palm of your hand</span></p>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -219,9 +217,8 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;">
-						<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;">Designed to make banking</p>
-						<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;color: #a02226;">simple, faster and</p>
-						<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;color: #a02226;">more secure</p>
+						<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;">Banking within the</p>
+						<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;color: #a02226;"><span style="color: #a02226;">palm of your hand</span></p>
 					</div>
 					
 				</div>
@@ -247,9 +244,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 					<div class="tag_line_div" style="">
-						<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;color: #a02226;">Stay safe and bank</p>
-						<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;">from the comfort of your home</p>
-						<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;"></p>
+						<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;">Banking with AYA is <span style="color: #a02226;">easier</span> than <span style="color: #a02226;">"ABC..."</span></p>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -259,9 +254,8 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;">
-						<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;color: #a02226;">Stay safe and bank</p>
-						<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;">from the comfort</p>
-						<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;">of your home</p>
+						<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;">Banking with AYA is</p>
+						<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;"><span style="color: #a02226;">easier</span> than <span style="color: #a02226;">"ABC..."</span></p>
 					</div>
 				</div>
 			</div>
@@ -286,22 +280,11 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 					<div class="debit_banner_tag" style="position: absolute;top: 156px;right: 0;">
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;">The journey starts from here.</p>
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 30px;">
-							Make every transaction meaningful with
-						</p>
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 30px;">
-							AYA Debit Cards that brings <span style="color: #a02226;">Power</span>
-						</p>
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 30px;">Nothing can be more simpler than</p>
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;">a cashless payment</p>
 					</div>
 					<div class="debit_banner_tag_mid" style="position: absolute;top: 156px;right: 0;">
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;color: #a02226;">The journey starts from here.</p>
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
-							Make every transaction meaningful with AYA Debit Cards  
-						</p>
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
-							that brings <span style="color: #a02226;">Power</span>
-						</p>
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;color: #a02226;">Nothing can be more simpler than a cashless payment</p>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -338,15 +321,12 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 					<div class="credit_banner_tag" style="position: absolute;top: 156px;right: 0;">
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;"><span style="color: #a02226;">Make your priorities</span> with AYA Credit Cards.</p>
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
-							A Step that changes your <span style="color: #a02226;">lifestyle.</span>
-						</p>
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">Define your life style with <span style="color: #a02226;">AYA Credit Cards</span></p>
 					</div>
 					<div class="credit_banner_tag_mid" style="position: absolute;top: 80px;right: 0;">
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;"><span style="color: #a02226;">Make your priorities</span> with AYA Credit Cards. A Step that changes your <span style="color: #a02226;">lifestyle.</span></p>
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">Define your life style with</p>
 						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
-							
+							<span style="color: #a02226;">AYA Credit Cards</span>
 						</p>
 					</div>
 				</div>
@@ -357,8 +337,8 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;">
-						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span style="color: #a02226;">Make your priorities</span> with AYA Credit Cards.</p>
-						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">A Step that changes your <span style="color: #a02226;">lifestyle.</span></p>
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Define your life style with</p>
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span style="color: #a02226;">AYA Credit Cards</span></p>
 						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"></p>
 					</div>
 				</div>
@@ -385,10 +365,7 @@
 				<div class="ecommerce_banner_tag">
 					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 						<div style="position: absolute;top: 150px;right: 0;">
-							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">We will provide <span style="color: #a02226;">the best formulas </span>to solve it.</p>
-							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
-								Change your issues into opportunity <br>with AYA E-commerce.
-							</p>
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">Register <span style="color: #a02226;">E-commerce Business</span> with Us</p>
 						</div>
 					</div>
 					<div class="col-md-6" style="text-align: right;">
@@ -398,10 +375,7 @@
 				<div class="ecommerce_banner_tag_mid">
 					<div class="col-md-8 text-right" style="text-align: right;position: relative;">
 						<div style="position: absolute;top: 150px;right: 0;">
-							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">We will provide <span style="color: #a02226;">the best formulas </span>to solve it.</p>
-							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
-								Change your issues into opportunity <br>with AYA E-commerce.
-							</p>
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">Register <span style="color: #a02226;">E-commerce Business</span> with Us</p>
 						</div>
 					</div>
 					<div class="col-md-4" style="text-align: right;">
@@ -412,7 +386,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;">
-						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">We will provide <span style="color: #a02226;">the best formulas </span>to solve it. Change your issues into opportunity <br>with AYA E-commerce.</p>
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Register <span style="color: #a02226;">E-commerce Business</span> with Us</p>
 					</div>
 				</div>
 			</div>
@@ -597,7 +571,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 156px;right: 130px;">
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Your business's financial transactions <span style="color: #a02226;">at your finger tips</span></p>
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Your business's financial transactions <span style="color: #a02226;">at your fingertips</span></p>
 						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;"></p>
 						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
 							
@@ -611,7 +585,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;right: 55px;">
-						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;">Your business's financial transactions <span style="color: #a02226;">at your finger tips</span></p>
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;">Your business's financial transactions <span style="color: #a02226;">at your fingertips</span></p>
 						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"></p>
 						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"></p>
 					</div>
@@ -730,8 +704,8 @@
 				<div class="pos_tag">
 					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 						<div style="position: absolute;top: 156px;right: 130px;">
-							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Frequently Used </p>
-							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;"><span style="color: #a02226;">Digital Services</span> in Daily life</p>
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;"><span style="color: #a02226;">Hassel free</span> transactions</p>
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">for your <span style="color: #a02226;">Business</span></p>
 						</div>
 					</div>
 					<div class="col-md-6" style="text-align: right;">
@@ -741,8 +715,8 @@
 				<div class="pos_tag_mid">
 					<div class="col-md-7 text-right" style="text-align: right;position: relative;">
 						<div style="position: absolute;top: 156px;right: 130px;">
-							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Frequently Used </p>
-							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;"><span style="color: #a02226;">Digital Services</span> in Daily life</p>
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;"><span style="color: #a02226;">Hassel free</span> transactions</p>
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">for your <span style="color: #a02226;">Business</span></p>
 						</div>
 					</div>
 					<div class="col-md-5" style="text-align: right;">
@@ -753,9 +727,8 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;right: 55px;">
-						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;">Frequently Used</p>
-						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;"><span style="color: #a02226;">Digital Services</span></p>
-						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;">in Daily life</p>
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;"><span style="color: #a02226;">Hassel free</span> transactions</p>
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;">for your <span style="color: #a02226;">Business</span></p>
 					</div>
 				</div>
 			</div>

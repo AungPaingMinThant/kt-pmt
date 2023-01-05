@@ -49,14 +49,14 @@
 		margin-bottom: 5px;
 	}
 	.mpu_jbc_tab {
-		background-image: url('./images/MPU_JCB_card.png');
+		background-image: url('./images/MPU_JCB_card_2.png');
 		background-size: cover;
 		background-repeat: no-repeat;
 		height: 520px;
 		background-position: center left;
 	}
 	.mpu_upi_tab {
-		background-image: url('./images/JBC_UPI_card.png');
+		background-image: url('./images/JBC_UPI_card_2.png');
 		background-size: cover;
 		background-repeat: no-repeat;
 		height: 520px;
@@ -184,6 +184,12 @@
 		.fees_charge_table {
 			zoom: 75%;
 		}
+		.mpu_jbc_tab {
+			background-image: url(./images/MPU_JCB_card.png);
+		}
+		.mpu_upi_tab {
+			background-image: url('./images/JBC_UPI_card.png');
+		}
 	}
 </style>
 @section('content')
@@ -195,8 +201,11 @@
 
 			@include('layouts.banner', ['page'=>'debitcard'])
 
+			<div class="container section_1" >
+				@include('layouts.tagline', ['page'=>'debitcard'])
+			</div>
+
 			<div>
-				<div class="space-40"></div>
 				<div class="nav-align-top mb-4">
 					<ul class="nav nav-pills " role="tablist" style="justify-content: center;">
 						<li class="nav-item">
@@ -213,16 +222,16 @@
 					<div class="tab-content" style="padding:0;background-image: url('./images/card_bg.jpg');background-size: cover;background-repeat: no-repeat;">
 						<div class="tab-pane fade mpu_jbc_tab show active" id="navs-pills-top-home" role="tabpanel">
 							<div class="row tab_data_row" >
-								<div class="col-md-6"></div>
-								<div class="col-md-6 text-center" style="position: relative;">
-									<h3 class="tab_h3"><span style="color: #1d1d1f;">It is easy, accessible and convenience with </span><span style="color: #a02226"><Br>AYA Universal Debit Card</span></h3>
+								<div class="col-md-7"></div>
+								<div class="col-md-5 text-center" style="position: relative;">
+									<h3 class="tab_h3"><span style="color: #1d1d1f;">It is easy, accessible and convenient with </span><span style="color: #a02226"><Br>AYA Universal Debit Card</span></h3>
 								</div>
 							</div>
 						</div>
 						<div class="tab-pane mpu_upi_tab fade" id="navs-pills-top-profile" role="tabpanel">
 							<div class="row tab_data_row" >
-								<div class="col-md-6"></div>
-								<div class="col-md-6 text-center" style="position: relative;">
+								<div class="col-md-7"></div>
+								<div class="col-md-5 text-center" style="position: relative;">
 									<h3 class="tab_upi_h3"><span style="color: #1d1d1f;">Buy what you eyed with </span><span style="color: #a02226"><Br>AYA Universal Debit Card</span></h3>
 								</div>
 							</div>
@@ -257,7 +266,7 @@
 					<div class="col-md-3 outer_benefit_box">
 						<div class="row benefit_box">
 							<img src="{{ url('/images/use_debit_card.png') }}" class="img-fluid benefit_icon">
-							<p class="solution_text solution_desc">Use your debit card and get an instant cash at nearest ATM.</p>
+							<p class="solution_text solution_desc">Use your debit card and get an instant cash at nearest ATM globally.</p>
 						</div>
 					</div>
 					<div class="col-md-3 outer_benefit_box">
@@ -520,9 +529,9 @@
 									</button>
 								</a>
 
-								<div class="space-40"></div>
+								<div class="space-30"></div>
 								
-								<p style="font-size: 12;color: #4e4e4e;margin-bottom: 0px;">Kindly note that registration will not be successful if your current mobile number is not registered with AYA Bank or updated in the system. Please visit the nearest AYA Branch with any proof of identity to register your phone number.</p>
+								<p style="color: #4e4e4e;margin-bottom: 0px;">Kindly note that registration will not be successful if your current mobile number is not registered with AYA Bank or updated in the system. Please visit the nearest AYA Branch with any proof of identity to register your phone number.</p>
 							</div>
 						</div>
 						<div class="col-md-6">

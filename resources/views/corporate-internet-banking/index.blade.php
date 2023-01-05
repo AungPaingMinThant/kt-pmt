@@ -108,6 +108,12 @@
 	.need_more_support_section {
 	    padding: 40px 208px 0px 208px !important;
 	}
+	.secure_req_application_icon {
+		background-color: #a02226;
+		color: #fff;
+		border-radius: 50%;
+		font-size: 20px;
+	}
 	@media (max-width: 1300px) and (min-width: 1000px) {
 		.carousel-indicators {
 			top: 25%;
@@ -170,85 +176,286 @@
 				@include('layouts.tagline', ['page'=>'corporate_internet_banking'])
 			</div>
 
+			<style>
+				.image {
+				  	display: block;
+				  	width: 100%;
+				  	height: auto;
+				}
+				.overlay {
+					z-index: 9999;
+				  	position: absolute;
+				    bottom: 0;
+				    height: 50%;
+				    width: 28%;
+				 	opacity: 0;
+				  	transition: .3s ease;
+				  	background: #6b56565e;
+				  	transform: translate(133%, -53%);
+				  	-ms-transform: translate(133%, -53%);
+				}
+				.overlay_mobile {
+					z-index: 999;
+				  	position: absolute;
+				    bottom: 0;
+				    height: 19%;
+				    width: 48%;
+				 	opacity: 0;
+				  	transition: .3s ease;
+				  	background: #6b56565e;
+				  	transform: translate(50%, -70%);
+				  	-ms-transform: translate(50%, 580%);
+				}
+				.acc_service:hover .overlay {
+				  	opacity: 1;
+				}
+				.payment_service:hover .overlay {
+				  	opacity: 1;
+				}
+				.administration:hover .overlay {
+				  	opacity: 1;
+				}
+				.complex_approval:hover .overlay {
+					opacity: 1;
+				}
+
+				.key_feature_acc_service:hover .edit {
+					display: block;
+				}
+				.acc_service_hover_img {
+					display: none;
+				}
+				.key_feature_acc_service:hover .acc_service_img {
+					display: none;
+				}
+				.key_feature_acc_service:hover .acc_service_hover_img {
+					display: block;
+				}
+
+				.key_feature_payment_service:hover .edit {
+					display: block;
+				}
+				.payment_service_hover_img {
+					display: none;
+				}
+				.key_feature_payment_service:hover .payment_service_img {
+					display: none;
+				}
+				.key_feature_payment_service:hover .payment_service_hover_img {
+					display: block;
+				}
+
+				.key_feature_administration:hover .edit {
+					display: block;
+				}
+				.administration_hover_img {
+					display: none;
+				}
+				.key_feature_administration:hover .administration_img {
+					display: none;
+				}
+				.key_feature_administration:hover .administration_hover_img {
+					display: block;
+				}
+
+				.key_feature_complex_approval:hover .edit {
+					display: block;
+				}
+				.complex_approval_hover_img {
+					display: none;
+				}
+				.key_feature_complex_approval:hover .complex_approval_img {
+					display: none;
+				}
+				.key_feature_complex_approval:hover .complex_approval_hover_img {
+					display: block;
+				}
+				
+				.edit {
+					position: absolute;
+					right: 40%;
+					top: 40%;
+					display: none;
+				}
+				.icon {
+				  	color: white;
+				  	font-size: 100px;
+				  	position: absolute;
+				  	top: 50%;
+				  	left: 50%;
+				  	transform: translate(-50%, -50%);
+				  	-ms-transform: translate(-50%, -50%);
+				 	text-align: center;
+				}
+			</style>
+
 			<div class="d-none d-sm-block">
 				<div id="carouselExample-cf" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
 					<ol class="carousel-indicators">
 						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="0" class="active"><span style="padding-left: 20px;">1. Account Services</span></li>
 						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="1"><span style="padding-left: 20px;">2. Payment Services</span></li>
 						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="2"><span style="padding-left: 20px;">3. Administration</span></li>
-						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="3"><span style="padding-left: 20px;">4. Authorization</span></li>
-						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="4"><span style="padding-left: 20px;">5. Dual Control</span></li>
+						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="3"><span style="padding-left: 20px;">4. Complex Approval Matrix</span></li>
 					</ol>
 					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img class="d-block w-100" src="{{ url('/images/corporate_internet_banking/account_service.jpg') }}" alt="First slide">
+						<div class="carousel-item active acc_service" data-toggle="modal" data-target="#acc_service_modal"  style="cursor: pointer;">
+							<img class="d-block w-100 image" src="{{ url('/images/corporate_internet_banking/account_service.jpg') }}" alt="First slide">
+							<div class="overlay acc_service_overlay" style="cursor: pointer;">
+								<a class="icon" title="User Profile" >
+							    	<i class="menu-icon tf-icons bx bx-zoom-in" style="color: #000;font-size: 30px;"></i>
+							  	</a>
+							</div>
 							<div class="carousel-caption carousel_title d-none d-md-block">
 								<h3 style="color: #1d1d1f;">Key features of AYA Corporate Internet Banking</h3>
-								<!-- <h2 style="font-weight: 800;color: #000;"></h2> -->
 							</div>
 							<div class="carousel-caption carousel_desc text-left d-none d-md-block" style="width: 17%;top: 35%;left: 13%;">
 								<p class="carousel_desc_title">Account Services</p>
-								<p class="carousel_desc_detail">Users can access to enquire and review transaction records, account activities and summary in real time basis.</p>
+								<p class="carousel_desc_detail">Users can easily enquire and review transaction records, account activities and a summary in real-time basis.</p>
 							</div>
 						</div>
-						<div class="carousel-item">
-							<img class="d-block w-100" src="{{ url('/images/corporate_internet_banking/payment_services.jpg') }}" alt="Second slide">
+						<div class="carousel-item payment_service">
+							<img class="d-block w-100" src="{{ url('/images/corporate_internet_banking/paymentservices.jpg') }}" alt="Second slide">
+							<div class="overlay payment_service_overlay" style="cursor: pointer;">
+								<a class="icon" title="User Profile" >
+							    	<i class="menu-icon tf-icons bx bx-zoom-in" style="color: #000;font-size: 30px;"></i>
+							  	</a>
+							</div>
 							<div class="carousel-caption carousel_title d-none d-md-block">
 								<h3 style="color: #1d1d1f;">Key features of AYA Corporate Internet Banking</h3>
-								<!-- <h2 style="font-weight: 800;color: #000;"></h2> -->
 							</div>
 							<div class="carousel-caption carousel_desc text-left d-none d-md-block" style="width: 17%;top: 35%;left: 13%;">
 								<p class="carousel_desc_title">Payment Services</p>
 								<p class="carousel_desc_detail">Users can initiate transactions for AYA account transfer, own account transfer, payroll (bulk payments), pay bills, cheque book request and cheque cancellation.</p>
 							</div>
 						</div>
-						<div class="carousel-item">
-							<img class="d-block w-100" src="{{ url('/images/corporate_internet_banking/payment_services.jpg') }}" alt="Third slide">
+						<div class="carousel-item administration">
+							<img class="d-block w-100" src="{{ url('/images/corporate_internet_banking/CIB_administration.jpg') }}" alt="Third slide">
+							<div class="overlay administration_overlay" style="cursor: pointer;">
+								<a class="icon" title="User Profile" >
+							    	<i class="menu-icon tf-icons bx bx-zoom-in" style="color: #000;font-size: 30px;"></i>
+							  	</a>
+							</div>
 							<div class="carousel-caption carousel_title d-none d-md-block">
 								<h3 style="color: #1d1d1f;">Key features of AYA Corporate Internet Banking</h3>
-								<!-- <h2 style="font-weight: 800;color: #000;"></h2> -->
 							</div>
 							<div class="carousel-caption carousel_desc text-left d-none d-md-block" style="width: 17%;top: 35%;left: 13%;">
 								<p class="carousel_desc_title">Administration</p>
-								<p class="carousel_desc_detail">Users can change profile, create beneficiary for frequent transaction and create various transaction alerts.</p>
+								<p class="carousel_desc_detail">Users can change profiles, create beneficiaries for the most frequent transactions, and generate a wide range of transaction alerts.</p>
 							</div>
 						</div>
-						<div class="carousel-item">
-							<img class="d-block w-100" src="{{ url('/images/corporate_internet_banking/payment_services.jpg') }}" alt="Fourth slide">
+						<div class="carousel-item complex_approval">
+							<img class="d-block w-100" src="{{ url('/images/corporate_internet_banking/Complex_Approval_Matrix.jpg') }}" alt="Fourth slide">
+							<div class="overlay complex_overlay" style="cursor: pointer;">
+								<a class="icon" title="User Profile" >
+							    	<i class="menu-icon tf-icons bx bx-zoom-in" style="color: #000;font-size: 30px;"></i>
+							  	</a>
+							</div>
 							<div class="carousel-caption carousel_title d-none d-md-block">
 								<h3 style="color: #1d1d1f;">Key features of AYA Corporate Internet Banking</h3>
-								<!-- <h2 style="font-weight: 800;color: #000;"></h2> -->
 							</div>
 							<div class="carousel-caption carousel_desc text-left d-none d-md-block" style="width: 17%;top: 35%;left: 13%;">
-								<p class="carousel_desc_title">Authorization</p>
-								<p class="carousel_desc_detail">Authorization Matrix allows user access control by amount limits and different control group.</p>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<img class="d-block w-100" src="{{ url('/images/corporate_internet_banking/payment_services.jpg') }}" alt="Fifth slide">
-							<div class="carousel-caption carousel_title d-none d-md-block">
-								<h3 style="color: #1d1d1f;">Key features of AYA Corporate Internet Banking</h3>
-								<!-- <h2 style="font-weight: 800;color: #000;"></h2> -->
-							</div>
-							<div class="carousel-caption carousel_desc text-left d-none d-md-block" style="width: 17%;top: 35%;left: 13%;">
-								<p class="carousel_desc_title">Dual Control</p>
-								<p class="carousel_desc_detail">One level can create transactions and to complete it, another authorized level user need to approve the transactions. Two separate people authorize and complete a transaction or payment.</p>
+								<p class="carousel_desc_title">Complex Approval Matrix</p>
+								<p class="carousel_desc_detail">The Authorization Matrix allows ‘user access control’ by amount limits and different control groups. </p>
 							</div>
 						</div>
 					</div>
                 </div>
 			</div>
+
+			<div class="modal fade" id="acc_service_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-xl" role="document" >
+					<div class="modal-content">
+						<div class="modal-body ">
+							<span class="acc_service_close" aria-hidden="true" style="float: right;border-radius: 50%;border: 1px solid #999;padding: 4px 10px;cursor: pointer;">&times;</span>
+							<img class="img-fluid text-center" src="{{ url('/images/corporate_internet_banking/CIB_Account_Services.png') }}" style="margin-left: 50px;">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="payment_service_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-xl" role="document" style="max-width: 1450px;">
+					<div class="modal-content">
+						<div class="modal-body">
+					        <span class="payment_service_close" aria-hidden="true" style="float: right;border-radius: 50%;border: 1px solid #999;padding: 4px 10px;cursor: pointer;">&times;</span>
+							<img class="img-fluid text-center" src="{{ url('/images/corporate_internet_banking/CIB_Payment_Services.png') }}">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="administration_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-xl" role="document" style="max-width: 1450px;">
+					<div class="modal-content">
+						<div class="modal-body">
+					        <span class="administration_close" aria-hidden="true" style="float: right;border-radius: 50%;border: 1px solid #999;padding: 4px 10px;cursor: pointer;">&times;</span>
+							<img class="img-fluid text-center" src="{{ url('/images/corporate_internet_banking/CIB - Administration.png') }}">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="complex_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-xl" role="document" style="max-width: 1450px;">
+					<div class="modal-content">
+						<div class="modal-body">
+					        <span class="complex_close" aria-hidden="true" style="float: right;border-radius: 50%;border: 1px solid #999;padding: 4px 10px;cursor: pointer;">&times;</span>
+							<img class="img-fluid text-center" src="{{ url('/images/corporate_internet_banking/CIB_Complex_Approval_Matrix.jpg') }}">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="acc_service_modal_mobile" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-xl" role="document" >
+					<div class="modal-content">
+						<div class="modal-body ">
+							<span class="acc_service_mobile_close" aria-hidden="true" style="float: right;border-radius: 50%;border: 1px solid #999;padding: 4px 10px;cursor: pointer;">&times;</span>
+							<img class="img-fluid text-center" src="{{ url('/images/corporate_internet_banking/CIB_Account_Services.png') }}">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="payment_service_modal_mobile" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-xl" role="document" style="max-width: 1450px;">
+					<div class="modal-content">
+						<div class="modal-body">
+					        <span class="payment_service_mobile_close" aria-hidden="true" style="float: right;border-radius: 50%;border: 1px solid #999;padding: 4px 10px;cursor: pointer;">&times;</span>
+							<img class="img-fluid text-center" src="{{ url('/images/corporate_internet_banking/CIB_Payment_Services.png') }}">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="administration_modal_mobile" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-xl" role="document" style="max-width: 1450px;">
+					<div class="modal-content">
+						<div class="modal-body">
+					        <span class="administration_mobile_close" aria-hidden="true" style="float: right;border-radius: 50%;border: 1px solid #999;padding: 4px 10px;cursor: pointer;">&times;</span>
+							<img class="img-fluid text-center" src="{{ url('/images/corporate_internet_banking/CIB - Administration.png') }}">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="complex_modal_mobile" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-xl" role="document" style="max-width: 1450px;">
+					<div class="modal-content">
+						<div class="modal-body">
+					        <span class="complex_mobile_close" aria-hidden="true" style="float: right;border-radius: 50%;border: 1px solid #999;padding: 4px 10px;cursor: pointer;">&times;</span>
+							<img class="img-fluid text-center" src="{{ url('/images/corporate_internet_banking/CIB_Complex_Approval_Matrix.jpg') }}">
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<div class="d-block d-sm-none">
 				<div class="aya_ibanking_fact">
 					<div class="col-12 text-center">
 						<h3 style="color: #1d1d1f;padding: 0px 60px;">Key features of AYA Corporate Internet Banking</h3>
-						<!-- <h2 style="font-weight: 800;color: #000;padding: 0px 60px;">Key features of AYA Corporate Internet Banking</h2> -->
 					</div>
 					<div class="col-12">
 						<p class="carousel_desc_title">Account Services</p>
 					</div>
-					<div class="col-12">
-						<img src="{{ url('/images/corporate_internet_banking/account_service_mobile.jpg') }}" class="img-fluid" style="margin-bottom: 20px;">
+					<div class="col-12 key_feature_acc_service " style="position: relative;display: inline-block;">
+						<img src="{{ url('/images/corporate_internet_banking/account_service_mobile.jpg') }}" class="img-fluid acc_service_img" style="margin-bottom: 20px;">
+						<img src="{{ url('/images/corporate_internet_banking/account_service_mobile_hover.jpg') }}" class="img-fluid acc_service_hover_img" style="margin-bottom: 20px;">
+						<div class="edit acc_service_mobile"><i class="menu-icon tf-icons bx bx-zoom-in" style="color: #000;font-size: 30px;"></i></div>
 					</div>
 					<div class="col-12">
 						<p class="carousel_desc_detail">Users can access to enquire and review transaction records, account activities and summary in real time basis.</p>
@@ -258,8 +465,10 @@
 					<div class="col-12">
 						<p class="carousel_desc_title">Payment Services</p>
 					</div>
-					<div class="col-12">
-						<img src="{{ url('/images/corporate_internet_banking/payment_services_mobile.jpg') }}" class="img-fluid" style="margin-bottom: 20px;">
+					<div class="col-12 key_feature_payment_service" style="position: relative;display: inline-block;">
+						<img src="{{ url('/images/corporate_internet_banking/payment_services_mobile.jpg') }}" class="img-fluid payment_service_img" style="margin-bottom: 20px;">
+						<img src="{{ url('/images/corporate_internet_banking/payment_services_mobile_hover.jpg') }}" class="img-fluid payment_service_hover_img" style="margin-bottom: 20px;">
+						<div class="edit payment_service_mobile"><i class="menu-icon tf-icons bx bx-zoom-in" style="color: #000;font-size: 30px;"></i></div>
 					</div>
 					<div class="col-12">
 						<p class="carousel_desc_detail">Users can initiate transactions for AYA account transfer, own account transfer, payroll (bulk payments), pay bills, cheque book request and cheque cancellation.</p>
@@ -269,8 +478,10 @@
 					<div class="col-12">
 						<p class="carousel_desc_title">Administration</p>
 					</div>
-					<div class="col-12">
-						<img src="{{ url('/images/corporate_internet_banking/administration_mobile.jpg') }}" class="img-fluid" style="margin-bottom: 20px;">
+					<div class="col-12 key_feature_administration" style="position: relative;display: inline-block;">
+						<img src="{{ url('/images/corporate_internet_banking/administration_mobile.jpg') }}" class="img-fluid administration_img" style="margin-bottom: 20px;">
+						<img src="{{ url('/images/corporate_internet_banking/administration_mobile_hover.jpg') }}" class="img-fluid administration_hover_img" style="margin-bottom: 20px;">
+						<div class="edit administration_mobile"><i class="menu-icon tf-icons bx bx-zoom-in" style="color: #000;font-size: 30px;"></i></div>
 					</div>
 					<div class="col-12">
 						<p class="carousel_desc_detail">Users can change profile, create beneficiary for frequent transaction and create various transaction alerts.</p>
@@ -278,51 +489,79 @@
 				</div>
 				<div class="aya_ibanking_fact">
 					<div class="col-12">
-						<p class="carousel_desc_title">Authorization</p>
+						<p class="carousel_desc_title">Complex Approval Matrix</p>
+					</div>
+					<div class="col-12 key_feature_complex_approval" style="position: relative;display: inline-block;">
+						<img src="{{ url('/images/corporate_internet_banking/Complex_Approval_Matrix_mobile.jpg') }}" class="img-fluid complex_approval_img" style="margin-bottom: 20px;">
+						<img src="{{ url('/images/corporate_internet_banking/Complex_Approval_Matrix_mobile_hover.jpg') }}" class="img-fluid complex_approval_hover_img" style="margin-bottom: 20px;">
+						<div class="edit complex_approval_mobile"><i class="menu-icon tf-icons bx bx-zoom-in" style="color: #000;font-size: 30px;"></i></div>
 					</div>
 					<div class="col-12">
-						<img src="{{ url('/images/corporate_internet_banking/authorization_mobile.jpg') }}" class="img-fluid" style="margin-bottom: 20px;">
-					</div>
-					<div class="col-12">
-						<p class="carousel_desc_detail">Authorization Matrix allows user access control by amount limits and different control group.</p>
-					</div>
-				</div>
-				<div class="aya_ibanking_fact">
-					<div class="col-12">
-						<p class="carousel_desc_title">Dual Control</p>
-					</div>
-					<div class="col-12">
-						<img src="{{ url('/images/corporate_internet_banking/dual_control_mobile.jpg') }}" class="img-fluid" style="margin-bottom: 20px;">
-					</div>
-					<div class="col-12">
-						<p class="carousel_desc_detail">One level can create transactions and to complete it, another authorized level user need to approve the transactions. Two separate people authorize and complete a transaction or payment.</p>
+						<p class="carousel_desc_detail">The Authorization Matrix allows ‘user access control’ by amount limits and different control groups.</p>
 					</div>
 				</div>
 			</div>
-
-			<div class="container section_1">
+			<div style="background-color: #f5f5f7;">
 				<div class="space-60"></div>
-				<div class="row">
+				<div class="container section_1" style="max-width: 1500px;">
+					<div class="row">
+						<div class="col-md-9" style="padding-left: 30px;">
+							<p style="font-weight: 600;font-size: 20px;">Other Features</p>
+							<ul style="list-style:square;">
+								<li>Download account statement in csv format / pdf format / MT940 format</li>
+								<li>Registration of beneficiaries through bulk</li>
+								<li>Transactions can be saved as a template for future use.</li>
+								<li>Transact at one click by using a previous transaction.</li>
+							</ul>
+						</div>
+						<div class="col-md-1"></div>
+					</div>
+					<div class="space-20"></div>
 					<div class="col-md-12 text-center">
-						<!-- <h2 style="font-weight: 800;color: #000;"></h2> -->
-						<h3 style="color: #1d1d1f;">AYA Bank offers 2 packages</h3>
+						<h3 style="color: #1d1d1f;">Two packages: Basic and Basic<sup>+</sup></h3>
 					</div>
-				</div>
-				<div class="row packages_div" style="column-gap: 50px;">
-					<div class="col-md-1"></div>
-					<div class="col-md-5 offers_bg">
-						<div class="row text-center offers_tag">
-							<p style="color: #fff;font-size: 40px;margin-bottom: 0px;font-weight: 600;">Basic</h3>
-							<p style="color: #fff;">Standard features with two makers and one checker</p>
+					<div class="space-20"></div>
+					<div class="row" style="padding: 40px 20px;background-color: #fff;border-radius: 6px;">
+						<div class="col-md-3">
+							<p style="font-size: 40px;margin-bottom: 0px;font-weight: 600;">Basic</h3>
+							<p>Standard features with two makers and one checker</p>
 						</div>
-						<div class="space-20"></div>
-						<div class="row" style="padding: 20px 50px;">
-							<ul style="list-style: square;margin-bottom: 0px;">
-								<li><p style="font-weight: 500;">Account Service</p></li>
-								<li><p style="font-weight: 500;">Payment Service</p></li>
-							</ul>
-							<ul style="list-style: none;margin-top: -10px;">
-								<li>
+						<div class="col-md-9">
+							<div class="row">
+								<div class="col-md-3">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Account Service
+									</p>
+									<hr style="width: 100%">
+								</div>
+								<div class="col-md-3">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Dual Control
+									</p>
+									<hr style="width: 100%">
+								</div>
+								<div class="col-md-3">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Registration Fees: FOC
+									</p>
+									<hr style="width: 100%">
+								</div>
+								<div class="col-md-3">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Token Fees: <br>20,000 MMK (Per Token)
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Payment Service
+									</p>
 									<ul style="list-style:none;">
 										<li style="margin-bottom: 5px;">Own Accout Transfer</li>
 										<li style="margin-bottom: 5px;">Third Party Transfer</li>
@@ -330,35 +569,70 @@
 										<li style="margin-bottom: 5px;">Cheque Book Request</li>
 										<li style="margin-bottom: 5px;">Stop Cheque Book</li>
 									</ul>
-								</li>
-							</ul>
-							<ul style="list-style: square;margin-top: -10px;">
-								<li><p style="font-weight: 500;">Dual Control</p></li>
-								<li><p style="font-weight: 500;">Allow<span style="margin-left: 30px;">2 Makers</span></p></li>
-							</ul>
-							<ul style="list-style: none;margin-top: -30px;">
-								<li><p style="font-weight: 500;"><span style="color: transparent;user-select: none;">Allow</span><span style="margin-left: 30px;">1 Checker</span></p></li>
-							</ul>
-							<ul style="list-style: square;margin-top: -10px;">
-								<li><p style="font-weight: 500;">Registration Fees: FOC</p></li>
-								<li><p style="font-weight: 500;">Monthly Fees: FOC</p></li>
-								<li><p style="font-weight: 500;">Token Fees: <br>20,000 MMK (Per Token)</p></li>
-							</ul>
+								</div>
+								<div class="col-md-3">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Allow
+									</p>
+									<ul style="list-style:none;">
+										<li style="margin-bottom: 5px;">2&nbsp;&nbsp;Makers</li>
+										<li style="margin-bottom: 5px;">1&nbsp;&nbsp;Checker</li>
+									</ul>
+								</div>
+								<div class="col-md-3">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Monthly Fees: 10,000MMK
+									</p>
+								</div>
+								<div class="col-md-3">
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="col-md-5 offers_bg">
-						<div class="row text-center offers_tag_plus">
-							<p style="color: #fff;font-size: 40px;margin-bottom: 0px;font-weight: 600;">Basic<sup>+</sup></h3>
-							<p style="color: #fff;">standard features with unlimited users</p>
+					<div class="space-20"></div>
+					<div class="row" style="padding: 40px 20px;background-color: #fff;border-radius: 6px;">
+						<div class="col-md-3">
+							<p style="font-size: 40px;margin-bottom: 0px;font-weight: 600;">Basic<sup>+</sup></h3>
+							<p>Standard features with unlimited users</p>
 						</div>
-						<div class="space-20"></div>
-						<div class="row" style="padding: 20px 50px;">
-							<ul style="list-style: square;margin-bottom: 0px;">
-								<li><p style="font-weight: 500;">Account Service</p></li>
-								<li><p style="font-weight: 500;">Payment Service</p></li>
-							</ul>
-							<ul style="list-style: none;margin-top: -10px;">
-								<li>
+						<div class="col-md-9">
+							<div class="row">
+								<div class="col-md-3">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Account Service
+									</p>
+									<hr style="width: 100%">
+								</div>
+								<div class="col-md-3">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Allow Unlimited users
+									</p>
+									<hr style="width: 100%">
+								</div>
+								<div class="col-md-3">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Registration Fees: FOC
+									</p>
+									<hr style="width: 100%">
+								</div>
+								<div class="col-md-3">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Token Fees: <br>20,000 MMK (Per Token)
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Payment Service
+									</p>
 									<ul style="list-style:none;">
 										<li style="margin-bottom: 5px;">Own Accout Transfer</li>
 										<li style="margin-bottom: 5px;">Third Party Transfer</li>
@@ -366,33 +640,26 @@
 										<li style="margin-bottom: 5px;">Cheque Book Request</li>
 										<li style="margin-bottom: 5px;">Stop Cheque Book</li>
 									</ul>
-								</li>
-							</ul>
-							<ul style="list-style: square;">
-								<li><p style="font-weight: 500;">Customized Authorization matrix</p></li>
-								<li><p style="font-weight: 500;">Allow Unlimited users</p></li>
-								<li><p style="font-weight: 500;">Registration Fees: FOC</p></li>
-								<li><p style="font-weight: 500;">Monthly Fees: FOC</p></li>
-								<li><p style="font-weight: 500;">Token Fees: <br>20,000 MMK (Per Token)</p></li>
-							</ul>
+								</div>
+								<div class="col-md-3">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Customized Authorization matrix
+									</p>
+								</div>
+								<div class="col-md-3">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Monthly Fees: 10,000MMK
+									</p>
+								</div>
+								<div class="col-md-3">
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="col-md-1"></div>
 				</div>
-				<div class="space-40"></div>
-				<div class="row">
-					<div class="col-md-2"></div>
-					<div class="col-md-9" style="padding-left: 30px;">
-						<p style="font-weight: 600;font-size: 20px;">Other Features</p>
-						<ul style="list-style:square;">
-							<li>Download account statement in csv format / pdf format / MT940 format</li>
-							<li>Registration of beneficiaries through bulk</li>
-							<li>Transaction can be saved as template for future use</li>
-							<li>Transact at one click by using previous transaction</li>
-						</ul>
-					</div>
-					<div class="col-md-1"></div>
-				</div>
+				<div class="space-60"></div>
 			</div>
 
 			<div class="space-40"></div>
@@ -486,8 +753,6 @@
 @include('layouts.footer', ['page'=>'mobilebanking'])
 
 <script type="text/javascript">
-	// $('.carousel').carousel();
-
 	$(".simple_login_div").click(function() {
 		$("#simple_login_mockup").show(500);
 		$("#quick_mockup").hide(500);
@@ -528,6 +793,65 @@
 		$("#easy_transfer_payment_mockup").hide(500);
 		$("#ATM_withdrawal_mockup").show(500);
 	});
+
+	$(".acc_service_overlay").click(function(){
+		$("#acc_service_modal").modal('show');
+	});
+	$(".acc_service_close").click(function(){
+		$("#acc_service_modal").modal('hide');
+	});
+
+	$(".acc_service_mobile").click(function(){
+		$("#acc_service_modal_mobile").modal('show');
+	});
+	$(".acc_service_mobile_close").click(function(){
+		$("#acc_service_modal_mobile").modal('hide');
+	});
+
+	$(".payment_service_overlay").click(function(){
+		$("#payment_service_modal").modal('show');
+	});
+	$(".payment_service_close").click(function(){
+		$("#payment_service_modal").modal('hide');
+	});
+
+	$(".payment_service_mobile").click(function(){
+		$("#payment_service_modal_mobile").modal('show');
+	});
+	$(".payment_service_mobile_close").click(function(){
+		$("#payment_service_modal_mobile").modal('hide');
+	});
+
+	$(".administration_overlay").click(function(){
+		$("#administration_modal").modal('show');
+	});
+	$(".administration_close").click(function(){
+		$("#administration_modal").modal('hide');
+	});
+	$(".administration_mobile").click(function(){
+		$("#administration_modal_mobile").modal('show');
+	});
+	$(".administration_mobile_close").click(function(){
+		$("#administration_modal_mobile").modal('hide');
+	});
+
+	$(".complex_overlay").click(function(){
+		$("#complex_modal").modal('show');
+	});
+	$(".complex_close").click(function(){
+		$("#complex_modal").modal('hide');
+	});
+	$(".complex_approval_mobile").click(function(){
+		$("#complex_modal_mobile").modal('show');
+	});
+	$(".complex_mobile_close").click(function(){
+		$("#complex_modal_mobile").modal('hide');
+	});
+
+
+
+	
+
 </script>
 
 @endsection('content')

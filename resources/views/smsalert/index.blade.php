@@ -172,7 +172,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="tab-pane set-text-alert fade" id="navs-pills-top-set-text-alert" role="tabpanel">
+						<div class="tab-pane set-text-alert fade" id="navs-pills-top-set-text-alert" role="tabpanel" style="background: rgb(243,243,243);background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(249,249,249,1) 50%, rgba(255,255,255,1) 100%);padding-bottom: 30px;">
 							<div class="container section_1">
 								<div class="row tab_data_row" >
 									<div class="col-md-6 benefit_feature_box" style="padding: 20px;">
@@ -194,12 +194,12 @@
 										</div>
 									</div>
 									<div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
-										<img src="{{ url('/images/sms/placeholder.jpg') }}" class="img-fluid" style="width: 80%">
+										<img src="{{ url('/images/sms/setting_up_text_alert.jpg') }}" class="img-fluid" style="width: 80%">
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="tab-pane how-work fade" id="navs-pills-top-how-work" role="tabpanel">
+						<div class="tab-pane how-work fade" id="navs-pills-top-how-work" role="tabpanel" style="background: rgb(243,243,243);background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(249,249,249,1) 50%, rgba(255,255,255,1) 100%);padding-bottom: 30px;">
 							<div class="container section_1">
 								<div class="row tab_data_row" >
 									<div class="col-md-6 benefit_feature_box" style="padding: 20px;">
@@ -208,12 +208,12 @@
 										</div>
 									</div>
 									<div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
-										<img src="{{ url('/images/sms/placeholder.jpg') }}" class="img-fluid" style="width: 80%">
+										<img src="{{ url('/images/sms/how_it_work.jpg') }}" class="img-fluid" style="width: 80%">
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="tab-pane eligibility fade" id="navs-pills-top-eligibility" role="tabpanel">
+						<div class="tab-pane eligibility fade" id="navs-pills-top-eligibility" role="tabpanel" style="background: rgb(243,243,243);background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(249,249,249,1) 50%, rgba(255,255,255,1) 100%);padding-bottom: 30px;">
 							<div class="container section_1">
 								<div class="row tab_data_row" >
 									<div class="col-md-6 benefit_feature_box" style="padding: 20px;">
@@ -222,15 +222,16 @@
 										</div>
 									</div>
 									<div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
-										<img src="{{ url('/images/sms/placeholder.jpg') }}" class="img-fluid" style="width: 80%">
+										<img src="{{ url('/images/sms/eligibility.jpg') }}" class="img-fluid" style="width: 80%">
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="tab-pane fee-charge fade" id="navs-pills-top-fee-charge" role="tabpanel">
+						<div class="tab-pane fee-charge fade" id="navs-pills-top-fee-charge" role="tabpanel" style="background: rgb(243,243,243);background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(249,249,249,1) 50%, rgba(255,255,255,1) 100%);padding-bottom: 30px;">
 							<div class="container section_1">
 								<div class="row tab_data_row" >
-									<div class="col-md-6 benefit_feature_box" style="padding: 20px;">
+									<div class="col-md-2"></div>
+									<div class="col-md-8 benefit_feature_box" style="padding: 20px;">
 										<div class="row">
 											<p style="color: #4e4e4e;">You will be debited for each given account every month by our postpaid model.</p>
 											<p style="color: #4e4e4e;"><b>Initial Fees:</b> No application fees or processing fees.</p>
@@ -238,9 +239,9 @@
 											<p style="color: #4e4e4e;"><b>Cancellation Fee:</b> No cancellation fees. Just one month notice of service termination must be given to the bank.</p>
 										</div>
 									</div>
-									<div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
+									<!-- <div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
 										<img src="{{ url('/images/sms/placeholder.jpg') }}" class="img-fluid" style="width: 80%">
-									</div>
+									</div> -->
 								</div>
 							</div>
 						</div>
