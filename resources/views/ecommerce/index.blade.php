@@ -85,6 +85,10 @@
 		border-radius: 50%;
 		font-size: 20px;
 	}
+	.credit_tag_line {
+		font-size: 20px;
+		padding: 0px 150px;
+	}
 	@media (min-width: 768px){
 		.col-md-3 {
 		    width: 23% !important;
@@ -127,6 +131,9 @@
 		.ecommerce_registration_container {
 			padding: 40px 0px 40px 40px !important;
 		}
+		.credit_tag_line {
+			padding: 0px 0px;
+		}
 	}
 </style>
 @section('content')
@@ -138,11 +145,13 @@
 
 			@include('layouts.banner', ['page'=>'ecommerce'])
 
-			<div class="container section_1" >
-				@include('layouts.tagline', ['page'=>'ecommerce'])
-			</div>
-
 			<div style="">
+				<div class="space-40"></div>
+				<div class="container">
+					<div class="col-md-12 text-center">
+						<p class="credit_tag_line">Change your issues into opportunity with AYA E-Commerce. We will provide the best formulas to solve it. Grow your business by joining our wide variety of E-Commerce services.</p>
+					</div>
+				</div>
 				<div class="space-40"></div>
 				<div class="nav-align-top mb-4">
 					<ul class="nav nav-pills " role="tablist" style="justify-content: center;">

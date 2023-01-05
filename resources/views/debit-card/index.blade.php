@@ -125,6 +125,10 @@
 	.how_to_apply_title_row {
 		padding-left: 45px;
 	}
+	.credit_tag_line {
+		font-size: 20px;
+		padding: 0px 270px;
+	}
 	@media (max-width: 1300px) and (min-width: 1000px) {
 		.how_to_apply_outer_section {
 			background-position: 80% center;
@@ -190,6 +194,9 @@
 		.mpu_upi_tab {
 			background-image: url('./images/JBC_UPI_card.png');
 		}
+		.credit_tag_line {
+			padding: 0px 0px;
+		}
 	}
 </style>
 @section('content')
@@ -201,11 +208,14 @@
 
 			@include('layouts.banner', ['page'=>'debitcard'])
 
-			<div class="container section_1" >
-				@include('layouts.tagline', ['page'=>'debitcard'])
-			</div>
-
 			<div>
+				<div class="space-40"></div>
+				<div class="container">
+					<div class="col-md-12 text-center">
+						<p class="credit_tag_line">The journey starts from here. Make every transaction seamlessly with AYA Debit Cards that brings out Real You.</p>
+					</div>
+				</div>
+				<div class="space-40"></div>
 				<div class="nav-align-top mb-4">
 					<ul class="nav nav-pills " role="tablist" style="justify-content: center;">
 						<li class="nav-item">
