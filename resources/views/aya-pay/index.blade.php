@@ -56,6 +56,163 @@
 	.need_more_support_section_merchant {
 	    padding: 40px 153px 40px 196px !important;
 	}
+	.secure_req_application_icon {
+		background-color: #a02226;
+		color: #fff;
+		border-radius: 50%;
+		font-size: 20px;
+	}
+	.timeline {
+	    list-style: none;
+	    padding: 0px;
+	    position: relative;
+	}
+
+    .timeline:before {
+        top: 20px;
+        bottom: 10px;
+        position: absolute;
+        content: " ";
+        width: 5px;
+        background-color: #eeeeee;
+        margin-left: -1.5px;
+    }
+
+    .timeline > li {
+        position: relative;
+    }
+
+    .timeline > li:before,
+    .timeline > li:after {
+        content: " ";
+        display: table;
+    }
+
+    .timeline > li:after {
+        clear: both;
+    }
+
+    .timeline > li:before,
+    .timeline > li:after {
+        content: " ";
+        display: table;
+    }
+
+    .timeline > li:after {
+        clear: both;
+    }
+
+    .timeline > li > .timeline-panel {
+        float: left;
+        padding-top: 20px;
+        position: relative;
+    }
+
+    .timeline > li > .timeline-panel:after {
+        position: absolute;
+        top: 27px;
+        right: -14px;
+        display: inline-block;
+        border-top: 14px solid transparent;
+        border-left: 14px solid #fff;
+        border-right: 0 solid #fff;
+        border-bottom: 14px solid transparent;
+        content: " ";
+    }
+
+    .timeline > li > .timeline-badge {
+        color: #4e4e4e;
+        width: 30px;
+        height: 30px;
+        line-height: 28px;
+        font-size: 14px;
+        text-align: center;
+        position: absolute;
+        top: 16px;
+        left: 1.5%;
+        margin-left: -25px;
+        background-color: #fff;
+        border: 2px solid #a02226;
+        z-index: 100;
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+        cursor: pointer;
+    }
+
+    .timeline > li > .timeline-badge.active {
+    	background-color: #a02226;
+    	color: #fff;
+    }
+
+    .timeline > li.timeline-inverted > .timeline-panel {
+		left: 5%;
+    }
+
+    .timeline > li.timeline-inverted > .timeline-panel:before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto;
+    }
+
+    .timeline > li.timeline-inverted > .timeline-panel:after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto;
+    }
+
+	.timeline-title {
+	    margin-top: 0;
+	    color: inherit;
+	}
+
+	.timeline-body > p,
+	.timeline-body > ul {
+	    margin-bottom: 0;
+	}
+
+    .timeline-body > p + p {
+        margin-top: 5px;
+    }
+
+	@media (max-width: 767px) {
+	    ul.timeline:before {
+	        left: 40px;
+	    }
+
+	    ul.timeline > li > .timeline-panel {
+	        width: calc(100% - 90px);
+	        width: -moz-calc(100% - 90px);
+	        width: -webkit-calc(100% - 90px);
+	    }
+
+	    ul.timeline > li > .timeline-badge {
+	        left: 15px;
+	        margin-left: 0;
+	        top: 16px;
+	    }
+
+	    ul.timeline > li > .timeline-panel {
+	        float: right;
+	    }
+
+        ul.timeline > li > .timeline-panel:before {
+            border-left-width: 0;
+            border-right-width: 15px;
+            left: -15px;
+            right: auto;
+        }
+
+        ul.timeline > li > .timeline-panel:after {
+            border-left-width: 0;
+            border-right-width: 14px;
+            left: -14px;
+            right: auto;
+        }
+	}
 	@media (max-width: 1400px) and (min-width: 1301px) {
 		.merchant_agent_div > .col-md-6 {
 			width: 48%;
@@ -194,7 +351,98 @@
 							<div class="space-40"></div>
 						</div>					
 					</div>
-					<div class="d-none d-sm-block">
+
+					<div class="row" style="padding: 0px 50px;">
+						<div class="col-md-4 text-right">
+							<img src="{{ url('/images/ayapay/reg_phone_1.png') }}" class="img-fluid reg_phone reg_phone_1" style="margin-bottom: 20px;margin-left:90px;">
+							<img src="{{ url('/images/ayapay/reg_phone_2.png') }}" class="img-fluid reg_phone d-none reg_phone_2" style="margin-bottom: 20px;margin-left:90px;">
+							<img src="{{ url('/images/ayapay/reg_phone_3.png') }}" class="img-fluid reg_phone d-none reg_phone_3" style="margin-bottom: 20px;margin-left:90px;">
+							<img src="{{ url('/images/ayapay/reg_phone_4.png') }}" class="img-fluid reg_phone d-none reg_phone_4" style="margin-bottom: 20px;margin-left:90px;">
+							<img src="{{ url('/images/ayapay/reg_phone_5.png') }}" class="img-fluid reg_phone d-none reg_phone_5" style="margin-bottom: 20px;margin-left:90px;">
+							<img src="{{ url('/images/ayapay/reg_phone_6.png') }}" class="img-fluid reg_phone d-none reg_phone_6" style="margin-bottom: 20px;margin-left:90px;">
+							<img src="{{ url('/images/ayapay/reg_phone_7.png') }}" class="img-fluid reg_phone d-none reg_phone_7" style="margin-bottom: 20px;margin-left:90px;">
+							<img src="{{ url('/images/ayapay/reg_phone_8.png') }}" class="img-fluid reg_phone d-none reg_phone_8" style="margin-bottom: 20px;margin-left:90px;">
+							<img src="{{ url('/images/ayapay/reg_phone_9.png') }}" class="img-fluid reg_phone d-none reg_phone_9" style="margin-bottom: 20px;margin-left:90px;">
+						</div>
+						<div class="col-md-8" style="padding-top: 0px;">
+							<ul class="timeline">
+								<li class="timeline-inverted">
+									<div class="timeline-badge timeline-badge-1 active">1</div>
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<p class="timeline-title">Input mobile number you want to open <b style="color: #c22236;">AYA Pay</b> account and click '<b style="color: #c22236;">Next</b>'.</p>
+										</div>
+									</div>
+								</li>
+								<li class="timeline-inverted">
+									<div class="timeline-badge timeline-badge-2">2</div>
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<p class="timeline-title">Key in <b style="color: #c22236;">4-digits OTP</b> received as <b style="color: #c22236;">SMS</b> in your mobile.</p>
+										</div>
+									</div>
+								</li>
+								<li class="timeline-inverted">
+									<div class="timeline-badge timeline-badge-3">3</div>
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<p class="timeline-title">Input your data and click '<b style="color: #c22236;">Register</b>'.</p>
+										</div>
+									</div>
+								</li>
+								<li class="timeline-inverted">
+									<div class="timeline-badge timeline-badge-4">4</div>
+										<div class="timeline-panel">
+										<div class="timeline-heading">
+											<p class="timeline-title">Key in <b style="color: #c22236;">6-digits</b> PIN as your password.</p>
+										</div>
+									</div>
+								</li>
+						        <li class="timeline-inverted">
+						        	<div class="timeline-badge timeline-badge-5">5</div>
+						          	<div class="timeline-panel">
+						            	<div class="timeline-heading">
+						              		<p class="timeline-title">You will get new <b style="color: #c22236;">AYA Pay</b> account and select '<b style="color: #c22236;">Upgrade Full KYC</b>'.</p>
+						            	</div>
+						          	</div>
+						        </li>
+						        <li class="timeline-inverted">
+						        	<div class="timeline-badge timeline-badge-6">6</div>
+						          	<div class="timeline-panel">
+						            	<div class="timeline-heading">
+						              		<p class="timeline-title">Input your data and click '<b style="color: #c22236;">Upgrade</b>'.</p>
+						            	</div>
+						          	</div>
+						        </li>
+						        <li class="timeline-inverted">
+						        	<div class="timeline-badge timeline-badge-7">7</div>
+						          	<div class="timeline-panel">
+						            	<div class="timeline-heading">
+						              		<p class="timeline-title">Key in <b style="color: #c22236;">4-digits OTP</b> received as SMS in your mobile.</p>
+						            	</div>
+						          	</div>
+						        </li>
+						        <li class="timeline-inverted">
+						        	<div class="timeline-badge timeline-badge-8">8</div>
+						          	<div class="timeline-panel">
+						            	<div class="timeline-heading">
+						              		<p class="timeline-title"><b style="color: #c22236;">AYA Pay</b> will do <b style="color: #c22236;">KYC</b> check and confirm in 24-hours.</p>
+						            	</div>
+						          	</div>
+						        </li>
+						        <li class="timeline-inverted">
+						        	<div class="timeline-badge timeline-badge-9">9</div>
+						          	<div class="timeline-panel">
+						            	<div class="timeline-heading">
+						              		<p class="timeline-title">You can get started with <b style="color: #c22236;">AYA Pay</b>.</p>
+						            	</div>
+						          	</div>
+						        </li>
+						    </ul>
+						</div>
+					</div>
+
+					<!-- <div class="d-none d-sm-block">
 						<div class="row">
 							<div class="col text-center">
 								<img src="{{ url('/images/ayapay/reg_phone_1.png') }}" class="img-fluid" style="margin-bottom: 20px;">
@@ -238,43 +486,43 @@
 							</div>
 							<div class="col"></div>
 						</div>
-					</div>
+					</div> -->
 					<div class="d-block d-sm-none">
 						<div class="row">
 							<div class="col-sm-12 text-center">
-								<img src="{{ url('/images/ayapay/reg_phone_1.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<img src="{{ url('/images/ayapay/reg_phone_1_old.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 								<p style="padding: 0px 10px;">1. Input mobile number you want to open <b style="color: #c22236;">AYA Pay</b> account and click '<b style="color: #c22236;">Next</b>'.</p>
 							</div>
 							<div class="col-sm-12 text-center">
-								<img src="{{ url('/images/ayapay/reg_phone_2.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<img src="{{ url('/images/ayapay/reg_phone_2_old.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 								<p style="padding: 0px 10px;">2. Key in <b style="color: #c22236;">4-digits OTP</b> received as <b style="color: #c22236;">SMS</b> in your mobile.</p>
 							</div>
 							<div class="col-sm-12 text-center">
-								<img src="{{ url('/images/ayapay/reg_phone_3.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<img src="{{ url('/images/ayapay/reg_phone_3_old.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 								<p>3. Input your data and click '<b style="color: #c22236;">Register</b>'.</p>
 							</div>
 							<div class="col-sm-12 text-center">
-								<img src="{{ url('/images/ayapay/reg_phone_4.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<img src="{{ url('/images/ayapay/reg_phone_4_old.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 								<p>4. Key in <b style="color: #c22236;">6-digits</b> PIN as your password.</p>
 							</div>
 							<div class="col-sm-12 text-center">
-								<img src="{{ url('/images/ayapay/reg_phone_5.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<img src="{{ url('/images/ayapay/reg_phone_5_old.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 								<p style="padding: 0px 20px;">5. You will get new <b style="color: #c22236;">AYA Pay</b> account and select '<b style="color: #c22236;">Upgrade Full KYC</b>'.</p>
 							</div>
 							<div class="col-sm-12 text-center">
-								<img src="{{ url('/images/ayapay/reg_phone_6.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<img src="{{ url('/images/ayapay/reg_phone_6_old.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 								<p>6. Input your data and click '<b style="color: #c22236;">Upgrade</b>'.</p>
 							</div>
 							<div class="col-sm-12 text-center">
-								<img src="{{ url('/images/ayapay/reg_phone_7.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<img src="{{ url('/images/ayapay/reg_phone_7_old.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 								<p>7. Key in <b style="color: #c22236;">4-digits OTP</b> received as SMS in your mobile.</p>
 							</div>
 							<div class="col-sm-12 text-center">
-								<img src="{{ url('/images/ayapay/reg_phone_8.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<img src="{{ url('/images/ayapay/reg_phone_8_old.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 								<p style="padding: 0px 10px;">8. <b style="color: #c22236;">AYA Pay</b> will do <b style="color: #c22236;">KYC</b> check and confirm in 24-hours.</p>
 							</div>
 							<div class="col-sm-12 text-center">
-								<img src="{{ url('/images/ayapay/reg_phone_9.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+								<img src="{{ url('/images/ayapay/reg_phone_9_old.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 								<p style="padding: 0px 10px;">9. You can get started with <b style="color: #c22236;">AYA Pay</b>.</p>
 							</div>
 						</div>
@@ -364,6 +612,61 @@
 	});
 	$(".prepaid_card_div").click(function() {
 		$("#slide_4").click();
+	});
+
+	$(".timeline-badge-1").click(function() {
+		$(".timeline-badge").removeClass('active');
+		$(".timeline-badge-1").addClass('active');
+		$(".reg_phone").addClass('d-none');
+		$(".reg_phone_1").removeClass('d-none');
+	});
+	$(".timeline-badge-2").click(function() {
+		$(".timeline-badge").removeClass('active');
+		$(".timeline-badge-2").addClass('active');
+		$(".reg_phone").addClass('d-none');
+		$(".reg_phone_2").removeClass('d-none');
+	});
+	$(".timeline-badge-3").click(function() {
+		$(".timeline-badge").removeClass('active');
+		$(".timeline-badge-3").addClass('active');
+		$(".reg_phone").addClass('d-none');
+		$(".reg_phone_3").removeClass('d-none');
+	});
+	$(".timeline-badge-4").click(function() {
+		$(".timeline-badge").removeClass('active');
+		$(".timeline-badge-4").addClass('active');
+		$(".reg_phone").addClass('d-none');
+		$(".reg_phone_4").removeClass('d-none');
+	});
+	$(".timeline-badge-5").click(function() {
+		$(".timeline-badge").removeClass('active');
+		$(".timeline-badge-5").addClass('active');
+		$(".reg_phone").addClass('d-none');
+		$(".reg_phone_5").removeClass('d-none');
+	});
+	$(".timeline-badge-6").click(function() {
+		$(".timeline-badge").removeClass('active');
+		$(".timeline-badge-6").addClass('active');
+		$(".reg_phone").addClass('d-none');
+		$(".reg_phone_6").removeClass('d-none');
+	});
+	$(".timeline-badge-7").click(function() {
+		$(".timeline-badge").removeClass('active');
+		$(".timeline-badge-7").addClass('active');
+		$(".reg_phone").addClass('d-none');
+		$(".reg_phone_7").removeClass('d-none');
+	});
+	$(".timeline-badge-8").click(function() {
+		$(".timeline-badge").removeClass('active');
+		$(".timeline-badge-8").addClass('active');
+		$(".reg_phone").addClass('d-none');
+		$(".reg_phone_8").removeClass('d-none');
+	});
+	$(".timeline-badge-9").click(function() {
+		$(".timeline-badge").removeClass('active');
+		$(".timeline-badge-9").addClass('active');
+		$(".reg_phone").addClass('d-none');
+		$(".reg_phone_9").removeClass('d-none');
 	});
 </script>
 
