@@ -167,7 +167,7 @@
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
 		<div class="layout-page">
-			@include('layouts.header', ['page'=>'corporate_internet_banking'])
+			@include('layouts.header', ['page'=>'digital_services'])
         	<div class="menu-overlay"></div>
 
 			@include('layouts.banner', ['page'=>'corporate_internet_banking'])

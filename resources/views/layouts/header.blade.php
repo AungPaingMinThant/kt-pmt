@@ -94,13 +94,17 @@
 							<li class="nav-item">
 								<a class="nav-link active" aria-current="page" href="#">Home</a>
 							</li>
-							<li class="nav-item">
+							@if($page == 'personal_banking')
+								<li class="nav-item active">
+							@else
+								<li class="nav-item">
+							@endif
 								<a class="nav-link" href="#">Personal Banking</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#">Business Banking</a>
 							</li>
-							@if($page == 'mobilebanking' || $page == 'internetbanking')
+							@if($page == 'digital_services')
 								<li class="nav-item active">
 							@else
 								<li class="nav-item">
@@ -143,7 +147,13 @@
                     <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;padding: 10px 15px 10px 15px;font-size: 14px;font-weight: 500;text-transform: uppercase;line-height: 24px;letter-spacing: 0px;">HOME</a>
                 </li>
                 <li style="padding: 10px 0px;">
-                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;padding: 10px 15px 10px 15px;font-size: 14px;font-weight: 500;text-transform: uppercase;line-height: 24px;letter-spacing: 0px;">PERSONAL BANKING</a>
+                	@if($page == 'personal_banking')
+                    	<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #a02226;padding: 10px 15px 10px 15px;font-size: 14px;font-weight: 500;text-transform: uppercase;line-height: 24px;letter-spacing: 0px;">
+                    @else
+                    	<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;padding: 10px 15px 10px 15px;font-size: 14px;font-weight: 500;text-transform: uppercase;line-height: 24px;letter-spacing: 0px;">
+                    @endif
+                    	PERSONAL BANKING
+                    </a>
                 </li>
                 <li style="padding: 10px 0px;">
                     <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;padding: 10px 15px 10px 15px;font-size: 14px;font-weight: 500;text-transform: uppercase;line-height: 24px;letter-spacing: 0px;">BUSINESS BANKING</a>

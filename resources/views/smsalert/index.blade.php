@@ -121,7 +121,7 @@
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
 		<div class="layout-page">
-			@include('layouts.header', ['page'=>'smsalert'])
+			@include('layouts.header', ['page'=>'digital_services'])
         	<div class="menu-overlay"></div>
 
 			@include('layouts.banner', ['page'=>'smsalert'])
@@ -488,47 +488,5 @@
 <div class="space-60"></div>
 @include('layouts.footer', ['page'=>'mobilebanking'])
 
-<script type="text/javascript">
-	$(".simple_login_div").click(function() {
-		$("#simple_login_mockup").show(500);
-		$("#quick_mockup").hide(500);
-		$("#manage_credit_mockup").hide(500);
-		$("#prepaid_card_mockup").hide(500);
-	});
-	$(".quick_div").click(function() {
-		$("#simple_login_mockup").hide(500);
-		$("#quick_mockup").show(500);
-		$("#manage_credit_mockup").hide(500);
-		$("#prepaid_card_mockup").hide(500);
-	});
-	$(".manage_credit_div").click(function() {
-		$("#simple_login_mockup").hide(500);
-		$("#quick_mockup").hide(500);
-		$("#manage_credit_mockup").show(500);
-		$("#prepaid_card_mockup").hide(500);
-	});
-	$(".prepaid_card_div").click(function() {
-		$("#simple_login_mockup").hide(500);
-		$("#quick_mockup").hide(500);
-		$("#manage_credit_mockup").hide(500);
-		$("#prepaid_card_mockup").show(500);
-	});
-
-	$(".secure_transaction_div").click(function() {
-		$("#secure_transaction_mockup").show(500);
-		$("#easy_transfer_payment_mockup").hide(500);
-		$("#ATM_withdrawal_mockup").hide(500);
-	});
-	$(".easy_transfer_payment_div").click(function() {
-		$("#secure_transaction_mockup").hide(500);
-		$("#easy_transfer_payment_mockup").show(500);
-		$("#ATM_withdrawal_mockup").hide(500);
-	});
-	$(".ATM_withdrawal_div").click(function() {
-		$("#secure_transaction_mockup").hide(500);
-		$("#easy_transfer_payment_mockup").hide(500);
-		$("#ATM_withdrawal_mockup").show(500);
-	});
-</script>
 
 @endsection('content')
