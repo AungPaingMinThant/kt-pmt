@@ -178,7 +178,7 @@
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
 		<div class="layout-page">
-			@include('layouts.header', ['page'=>'atm'])
+			@include('layouts.header', ['page'=>'digital_services'])
         	<div class="menu-overlay"></div>
 
 			@include('layouts.banner', ['page'=>'atm'])
