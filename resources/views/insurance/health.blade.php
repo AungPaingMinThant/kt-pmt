@@ -41,7 +41,7 @@
 		border-top-right-radius: 10px;
 		border-bottom-right-radius: 10px;
 		background-color: transparent;
-		margin-bottom: 0;
+		margin-bottom: 0px !important;
 	}
 	.benefit_table_div {
 		background: linear-gradient(90deg, transparent 50%, #ebebeb 50%);
@@ -319,8 +319,8 @@
 											<ul  style="margin-left: 16px;color: #4e4e4e;">
 												<li>MediCare Classic</li>
 												<li>MediCare Classic<sup>+</sup> (incl. additional coverage)</li>
-												<li>MediCare Premium (incl. additional coverage)</li>
-												<li>MediCare Premium<sup>+</sup></li>
+												<li>MediCare Premium</li>
+												<li>MediCare Premium<sup>+</sup> (incl. additional coverage)</li>
 											</ul>
 										</div>
 									</div>
@@ -373,7 +373,7 @@
 														<tr style="text-align: center;background-color: #fff;">
 															<td class="first" style="border-width: 1px;font-weight: 600;padding-top: 20px;padding-bottom: 20px;box-shadow: -12px 13px 17px 0px rgb(149 149 149 / 15%);">MediCare Premium</td>
 															<td style="border-width: 1px;">100,000</td>
-															<td style="border-width: 1px;">10,000,000,000</td>
+															<td style="border-width: 1px;">10,000,000</td>
 															<td style="border-width: 1px;">UP to 100,000</td>
 															<td style="border-width: 1px;">500,000</td>
 															<td style="border-width: 1px;">300,000</td>
@@ -382,7 +382,7 @@
 														<tr style="text-align: center;background-color: #fff;border-bottom-right-radius: 10px;box-shadow: -12px 13px 17px 0px rgb(149 149 149 / 15%), 12px 13px 17px 0px rgb(149 149 149 / 15%);">
 															<td class="first" style="border-width: 1px;font-weight: 600;padding-top: 20px;padding-bottom: 20px;">MediCare Premium<sup>+</sup></td>
 															<td style="border-width: 1px;">100,000</td>
-															<td style="border-width: 1px;">10,000,000,000</td>
+															<td style="border-width: 1px;">10,000,000</td>
 															<td style="border-width: 1px;">UP to 100,000</td>
 															<td style="border-width: 1px;">500,000</td>
 															<td style="border-width: 1px;">300,000</td>
@@ -395,10 +395,7 @@
 										<div class="space-60"></div>
 										<div class="row">
 											<p style="padding-left: 0px;"><span style="font-weight: 600;">Collective Insurance</span> <span style="color: #a02226;">(Values Shown in Myanmar Currency)</span></p>
-											
-											<!-- style="background: linear-gradient(90deg, transparent 50%, #ebebeb 50%);padding: 0px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;" -->
 											<div class="benefit_table_div">
-												<!-- style="padding: 0px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;background-color: transparent;margin-bottom: 0;" -->
 												<table class="benefit_table table table-bordered">
 													<tbody>
 														<tr class="table_title" valign="middle" style="border-top: none;text-align: center;">
@@ -431,7 +428,7 @@
 														<tr style="text-align: center;background-color: #fff;">
 															<td class="first" style="border-width: 1px;font-weight: 600;padding-top: 20px;padding-bottom: 20px;box-shadow: -12px 13px 17px 0px rgb(149 149 149 / 15%);">MediCare Premium</td>
 															<td style="border-width: 1px;">100,000</td>
-															<td style="border-width: 1px;">10,000,000,000</td>
+															<td style="border-width: 1px;">10,000,000</td>
 															<td style="border-width: 1px;">UP to 100,000</td>
 															<td style="border-width: 1px;">500,000</td>
 															<td style="border-width: 1px;">300,000</td>
@@ -440,7 +437,7 @@
 														<tr style="text-align: center;background-color: #fff;border-bottom-right-radius: 10px;box-shadow: -12px 13px 17px 0px rgb(149 149 149 / 15%), 12px 13px 17px 0px rgb(149 149 149 / 15%);">
 															<td class="first" style="border-width: 1px;font-weight: 600;padding-top: 20px;padding-bottom: 20px;">MediCare Premium<sup>+</sup></td>
 															<td style="border-width: 1px;">100,000</td>
-															<td style="border-width: 1px;">10,000,000,000</td>
+															<td style="border-width: 1px;">10,000,000</td>
 															<td style="border-width: 1px;">UP to 100,000</td>
 															<td style="border-width: 1px;">500,000</td>
 															<td style="border-width: 1px;">300,000</td>
@@ -450,8 +447,8 @@
 												</table>
 											</div>
 										</div>
-										<div class="space-40"></div>
-										<div class="row">
+										<!-- <div class="space-40"></div> -->
+										<!-- <div class="row">
 											<div class="col-md-12">
 												<p style="font-size: 18px;color: #000;font-weight: 600;margin-bottom: 10px;">Access to Insurance</p>
 												<ul style="margin-left: 16px;color: #4e4e4e;">
@@ -459,7 +456,7 @@
 													<li>If purchased over a unit (maximum benefit = Myanmar $4,000,000), or if the insurer is over 50 years of age, a health checkup is needed.</li>
 												</ul>
 											</div>
-										</div>
+										</div> -->
 									</div>
 								</div>
 							</div>
