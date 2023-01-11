@@ -442,7 +442,7 @@
 					</div>
 					<div class="col-md-3 col-xs-12 text-right d-none d-sm-block" style="padding-top: 10px;padding-left: 0px;text-align: right;">
 						<a href="#" target="_blank">
-							<button class="btn read_more_btn">Visit Us</button>
+							<button class="btn read_more_btn">More Details</button>
 						</a>
 					</div>
 
@@ -452,7 +452,7 @@
 					</div>
 					<div class="col-md-3 col-xs-12 text-center d-block d-sm-none" style="padding-top: 20px;padding-left: 0px;text-align: right;">
 						<a href="#" target="_blank">
-							<button class="btn read_more_btn">Visit Us</button>
+							<button class="btn read_more_btn">More Details</button>
 						</a>
 					</div>
 				</div>
