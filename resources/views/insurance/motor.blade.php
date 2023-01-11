@@ -27,14 +27,14 @@
 	}
 	.read_more_btn {
 		background-color: transparent !important;
-		color: #999999 !important;
+		color: #2e2e2e !important;
 		border-radius: 5px !important;
-		border: 1px solid #999999 !important;
+		border: 1px solid #2e2e2e !important;
 	}
 	.read_more_btn:hover{
 		background-color: #fff !important;
-		color: #999999 !important;
-		border: 1px solid #999999 !important;
+		color: #2e2e2e !important;
+		border: 1px solid #2e2e2e !important;
 	}
 	.benefit_table {
 		padding: 0px !important;
