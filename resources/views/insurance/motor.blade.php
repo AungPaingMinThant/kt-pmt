@@ -1,6 +1,6 @@
 @extends('layouts.frontend-app')
 
-@section('title', 'Health Insurance – AYA Bank')
+@section('title', 'Motor Insurance – AYA Bank')
 <style type="text/css">
     .nav-align-top .nav-tabs .nav-item:first-child .nav-link {
     	border-top:  none;
@@ -16,8 +16,8 @@
 		box-shadow: 0 0 16px 8px rgb(0 0 0 / 9%);
 		border-radius: 10px;
 	}
-	.tab_data_row > .col-md-4 {
-		width: 30%;
+	.tab_data_row > .col-md-6 {
+		width: 48%;
 	}
 	.secure_req_application_icon {
 		background-color: #a02226;
@@ -144,9 +144,9 @@
 	}
 	/* tab */
 
-	@media (max-width: 1300px) and (min-width: 1000px) {
+	@media (min-width: 768px){
 		.tab_data_row > .col-md-4 {
-			width: 48%;
+/*		    width: 23% !important;*/
 		}
 	}
 	@media only screen and (max-width: 576px){
@@ -205,7 +205,7 @@
 			@include('layouts.header', ['page'=>'personal_banking'])
         	<div class="menu-overlay"></div>
 
-			@include('layouts.banner', ['page'=>'health_insurance'])
+			@include('layouts.banner', ['page'=>'motor_insurance'])
 
 			<div style="">
 				<div class="d-none d-sm-block space-60"></div>
@@ -245,36 +245,47 @@
 						<div class="tab-pane fade show active" id="navs-pills-top-coverage" role="tabpanel" style="background: transparent;padding-bottom: 30px;">
 							<div class="container section_1">
 								<div class="row tab_data_row" style="column-gap: 20px;">
-									<div class="col-md-4 benefit_feature_box" style="padding: 20px;margin-bottom: 20px;">
+									<div class="col-md-6 benefit_feature_box" style="padding: 20px;margin-bottom: 20px;">
 										<div class="row">
-											<div class="col-md-3">
-												<img src="{{ url('/images/insurance/health/icon_1.png') }}" class="img-fluid">
+											<div class="col-md-2 text-center">
+												<img src="{{ url('/images/insurance/motor/loss_damage_vehicle.png') }}" class="img-fluid">
 											</div>
-											<div class="col-md-9">
-												<p style="font-weight: 600;">Coverage for Hospitalization and Death</p>
-												<p style="color: #4e4e4e;">Hospitalization costs and death protection</p>
+											<div class="col-md-10">
+												<p style="font-weight: 600;">Loss/Damage to vehicle</p>
+												<p style="color: #4e4e4e;">Protecting your own vehicle for damage caused by accidents, fires and thunderstorms (available to the maximum value of the vehicle guaranteed)</p>
 											</div>
 										</div>
 									</div>
-									<div class="col-md-4 benefit_feature_box" style="padding: 20px;margin-bottom: 20px;">
+									<div class="col-md-6 benefit_feature_box" style="padding: 20px;margin-bottom: 20px;">
 										<div class="row">
-											<div class="col-md-3">
-												<img src="{{ url('/images/insurance/health/icon_2.png') }}" class="img-fluid">
+											<div class="col-md-2 text-center">
+												<img src="{{ url('/images/insurance/motor/coverage_to_death_injury.png') }}" class="img-fluid">
 											</div>
-											<div class="col-md-9">
-												<p style="font-weight: 600;">Surgical Procedure and Miscarriage</p>
-												<p style="color: #4e4e4e;">Coverage for surgical expenses and miscarriage</p>
+											<div class="col-md-10">
+												<p style="font-weight: 600;">Coverage for Death and Injury</p>
+												<p style="color: #4e4e4e;">Compensation for death and injury is available for up to MMK one million, depending on the extent to which it is affected</p>
 											</div>
 										</div>
 									</div>
-									<div class="col-md-4 benefit_feature_box" style="padding: 20px;margin-bottom: 20px;">
+									<div class="col-md-6 benefit_feature_box" style="padding: 20px;margin-bottom: 20px;">
 										<div class="row">
-											<div class="col-md-3">
-												<img src="{{ url('/images/insurance/health/icon_3.png') }}" class="img-fluid">
+											<div class="col-md-2 text-center">
+												<img src="{{ url('/images/insurance/motor/windshield_protection.png') }}" class="img-fluid">
 											</div>
-											<div class="col-md-9">
-												<p style="font-weight: 600;">Outpatient Benefit</p>
-												<p style="color: #4e4e4e;">Coverage for Outpatient Treatments at clinics or hospitals which do not require admission of patient</p>
+											<div class="col-md-10">
+												<p style="font-weight: 600;">Windshield Protection</p>
+												<p style="color: #4e4e4e;">Up to MMK three million benefits for damage depending on the value of the windshield</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6 benefit_feature_box" style="padding: 20px;margin-bottom: 20px;">
+										<div class="row">
+											<div class="col-md-2 text-center">
+												<img src="{{ url('/images/insurance/motor/harm_to_others.png') }}" class="img-fluid">
+											</div>
+											<div class="col-md-10">
+												<p style="font-weight: 600;">Harm to Others</p>
+												<p style="color: #4e4e4e;">Compensation for the deaths of others, injuries, and the damage to other property up to MMK five million.</p>
 											</div>
 										</div>
 									</div>

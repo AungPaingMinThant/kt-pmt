@@ -82,3 +82,5 @@ Route::get('/aya-pay','App\Http\Controllers\AyaPayController@index');
 Route::get('/atm','App\Http\Controllers\ATMController@index');
 
 Route::get('/insurance/health','App\Http\Controllers\HealthInsuranceController@index');
+
+Route::get('/insurance/motor','App\Http\Controllers\MotorInsuranceController@index');

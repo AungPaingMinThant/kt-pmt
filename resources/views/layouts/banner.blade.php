@@ -102,6 +102,22 @@
 		height: 440px;
 		background-position: center right;
 	}
+	.family_img_div {
+		padding-top: 50px;
+	}
+	.tagline_div {
+		padding-top: 80px;
+		padding-left: 30px;
+	}
+	.tagline_desc {
+		font-size: 16px;
+	}
+	.motor_ins_banner {
+		background-image:url('../images/insurance/motor/KV_bg.png');
+		background-size: cover;
+		height: 440px;
+		background-position: center right;
+	}
 	@media (max-width: 1550px) and (min-width: 577px) {
 		.creditcard_banner{
 			background-position: 60% center;
@@ -143,6 +159,20 @@
 		}
 		.atm_banner {
 		    background-position: 90% center;
+		}
+		.health_ins_banner {
+			height: 310px;
+		}
+		.family_img_div {
+			padding-top: 20px;
+		}
+		.tagline_div {
+			padding-top: 20px;
+			padding-left: 10px;
+		}
+		.tagline_desc {
+			font-size: 16px;
+			margin-bottom: 7px;
 		}
 	}
 	@media only screen and (max-width: 576px) {
@@ -202,6 +232,10 @@
 			background-position: 80% center;
 		}
 		.health_ins_banner {
+			height: 620px;
+			background-position: 80% center;
+		}
+		.motor_ins_banner {
 			height: 620px;
 			background-position: 80% center;
 		}
@@ -862,12 +896,32 @@
 		<div class="container">
 			<div class="d-none d-sm-block">
 				<div class="row">
-					<div class="col-md-6" style="padding-top: 50px;">
+					<div class="col-md-6 family_img_div">
 						<img src="{{ url('/images/insurance/health/family_img.png') }}" class="img-fluid">
 					</div>
-					<div class="col-md-5" style="padding-top: 100px;padding-left: 30px;">
-						<p style="font-size: 18px;font-weight: 600;margin-bottom: 0px;color: #000;">Health<br>Insurance</p>
+					<div class="col-md-6 tagline_div">
+						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Health<br>Insurance</p>
 						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
+						<p class="tagline_desc" style="font-weight: 400;">
+							Health is wealth.
+						</p>
+						<p class="tagline_desc" style="font-weight: 400;">
+							Guard your hard-earned savings from emergency healthcare and illness expenditures.
+						</p>
+						<p class="tagline_desc" style="font-weight: 400;">
+							A flexible health insurance product that provides essential healthcare expense and medical coverage is all you need.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="d-block d-sm-none">
+				<div class="row">
+					<div class="col-md-6" style="padding-top: 20px;">
+						<img src="{{ url('/images/insurance/health/family_img.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
+						<p style="font-size: 20x;font-weight: 600;margin-bottom: 0px;color: #000;">Health Insurance</p>
+						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
 						<p style="font-size: 16px;font-weight: 400;">
 							Health is wealth.
 						</p>
@@ -880,22 +934,53 @@
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
+@endif
+
+@if($page == 'motor_insurance')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">MOTOR INSURANCE</span>
+			</p>
+		</div>
+	</div>
+	<div class="motor_ins_banner">
+		<div class="container">
+			<div class="d-none d-sm-block">
+				<div class="row">
+					<div class="col-md-6" style="padding-top: 50px;">
+						<img src="{{ url('/images/insurance/motor/family.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-5" style="padding-top: 80px;padding-left: 30px;">
+						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Motor<br>Insurance</p>
+						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
+						<p style="font-size: 16px;font-weight: 400;">
+							Uncertainties are nature of our life and even the road trips can be stressful for you.
+						</p>
+						<p style="font-size: 16px;font-weight: 400;">
+							Protect yourself and those that matter to you from losses resulting from unforeseen accidents. A motor insurance with a full range of protection features that keep up with your needs is all you need.
+						</p>
+					</div>
+				</div>
+			</div>
 			<div class="d-block d-sm-none">
 				<div class="row">
 					<div class="col-md-6" style="padding-top: 20px;">
-						<img src="{{ url('/images/insurance/health/family_img.png') }}" class="img-fluid">
+						<img src="{{ url('/images/insurance/motor/family.png') }}" class="img-fluid">
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
-						<p style="font-size: 18px;font-weight: 600;margin-bottom: 0px;color: #000;">Health Insurance</p>
+						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Health Insurance</p>
 						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
 						<p style="font-size: 16px;font-weight: 400;">
-							Health is wealth.
+							Uncertainties are nature of our life and even the road trips can be stressful for you.
 						</p>
 						<p style="font-size: 16px;font-weight: 400;">
-							Guard your hard-earned savings from emergency healthcare and illness expenditures.
-						</p>
-						<p style="font-size: 16px;font-weight: 400;">
-							A flexible health insurance product that provides essential healthcare expense and medical coverage is all you need.
+							Protect yourself and those that matter to you from losses resulting from unforeseen accidents. A motor insurance with a full range of protection features that keep up with your needs is all you need.
 						</p>
 					</div>
 				</div>
