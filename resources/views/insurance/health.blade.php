@@ -245,7 +245,7 @@
 						<div class="tab-pane fade show active" id="navs-pills-top-coverage" role="tabpanel" style="background: transparent;padding-bottom: 30px;">
 							<div class="container section_1">
 								<div class="row tab_data_row" style="column-gap: 20px;">
-									<div class="col-md-4 benefit_feature_box" style="padding: 20px;margin-bottom: 20px;">
+									<div class="col-md-4 benefit_feature_box" style="padding: 20px 20px 0px 20px;margin-bottom: 20px;">
 										<div class="row">
 											<div class="col-md-3">
 												<img src="{{ url('/images/insurance/health/icon_1.png') }}" class="img-fluid">
@@ -256,7 +256,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-4 benefit_feature_box" style="padding: 20px;margin-bottom: 20px;">
+									<div class="col-md-4 benefit_feature_box" style="padding: 20px 20px 0px 20px;margin-bottom: 20px;">
 										<div class="row">
 											<div class="col-md-3">
 												<img src="{{ url('/images/insurance/health/icon_2.png') }}" class="img-fluid">
@@ -267,7 +267,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-4 benefit_feature_box" style="padding: 20px;margin-bottom: 20px;">
+									<div class="col-md-4 benefit_feature_box" style="padding: 20px 20px 0px 20px;margin-bottom: 20px;">
 										<div class="row">
 											<div class="col-md-3">
 												<img src="{{ url('/images/insurance/health/icon_3.png') }}" class="img-fluid">
