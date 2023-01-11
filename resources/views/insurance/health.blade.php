@@ -373,7 +373,7 @@
 														<tr style="text-align: center;background-color: #fff;">
 															<td class="first" style="border-width: 1px;font-weight: 600;padding-top: 20px;padding-bottom: 20px;box-shadow: -12px 13px 17px 0px rgb(149 149 149 / 15%);">MediCare Premium</td>
 															<td style="border-width: 1px;">100,000</td>
-															<td style="border-width: 1px;">10,000,000</td>
+															<td style="border-width: 1px;">10,000,000,000</td>
 															<td style="border-width: 1px;">UP to 100,000</td>
 															<td style="border-width: 1px;">500,000</td>
 															<td style="border-width: 1px;">300,000</td>
@@ -382,7 +382,7 @@
 														<tr style="text-align: center;background-color: #fff;border-bottom-right-radius: 10px;box-shadow: -12px 13px 17px 0px rgb(149 149 149 / 15%), 12px 13px 17px 0px rgb(149 149 149 / 15%);">
 															<td class="first" style="border-width: 1px;font-weight: 600;padding-top: 20px;padding-bottom: 20px;">MediCare Premium<sup>+</sup></td>
 															<td style="border-width: 1px;">100,000</td>
-															<td style="border-width: 1px;">10,000,000</td>
+															<td style="border-width: 1px;">10,000,000,000</td>
 															<td style="border-width: 1px;">UP to 100,000</td>
 															<td style="border-width: 1px;">500,000</td>
 															<td style="border-width: 1px;">300,000</td>
@@ -428,7 +428,7 @@
 														<tr style="text-align: center;background-color: #fff;">
 															<td class="first" style="border-width: 1px;font-weight: 600;padding-top: 20px;padding-bottom: 20px;box-shadow: -12px 13px 17px 0px rgb(149 149 149 / 15%);">MediCare Premium</td>
 															<td style="border-width: 1px;">100,000</td>
-															<td style="border-width: 1px;">10,000,000</td>
+															<td style="border-width: 1px;">10,000,000,000</td>
 															<td style="border-width: 1px;">UP to 100,000</td>
 															<td style="border-width: 1px;">500,000</td>
 															<td style="border-width: 1px;">300,000</td>
@@ -437,7 +437,7 @@
 														<tr style="text-align: center;background-color: #fff;border-bottom-right-radius: 10px;box-shadow: -12px 13px 17px 0px rgb(149 149 149 / 15%), 12px 13px 17px 0px rgb(149 149 149 / 15%);">
 															<td class="first" style="border-width: 1px;font-weight: 600;padding-top: 20px;padding-bottom: 20px;">MediCare Premium<sup>+</sup></td>
 															<td style="border-width: 1px;">100,000</td>
-															<td style="border-width: 1px;">10,000,000</td>
+															<td style="border-width: 1px;">10,000,000,000</td>
 															<td style="border-width: 1px;">UP to 100,000</td>
 															<td style="border-width: 1px;">500,000</td>
 															<td style="border-width: 1px;">300,000</td>
