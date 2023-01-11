@@ -505,7 +505,8 @@
 				<div class="space-60"></div>
 				<div class="container section_1" style="max-width: 1500px;">
 					<div class="row">
-						<div class="col-md-9" style="padding-left: 30px;">
+						<div class="col-md-4"></div>
+						<div class="col-md-6">
 							<p style="font-weight: 600;font-size: 20px;">Other Features</p>
 							<ul style="list-style:square;">
 								<li>Download account statement in csv format / pdf format / MT940 format</li>
@@ -514,9 +515,9 @@
 								<li>Transact at one click by using a previous transaction.</li>
 							</ul>
 						</div>
-						<div class="col-md-1"></div>
+						<div class="col-md-2"></div>
 					</div>
-					<div class="space-20"></div>
+					<div class="space-60"></div>
 					<div class="col-md-12 text-center">
 						<h3 style="color: #1d1d1f;">Two packages: Basic and Basic<sup>+</sup></h3>
 					</div>
@@ -727,7 +728,7 @@
 							<p style="color: #000;font-weight: 400;font-size: 17px;margin-bottom: 0px;">Frequently Asked Question about Corporate Internet Banking</p>
 						</div>
 						<div class="col-md-3 col-xs-12 text-right" style="padding-top: 10px;padding-left: 0px;text-align: right;">
-							<a href="{{ url('/file/cib/FAQ_Corporate Internet Banking (CIB).pdf') }}" target="_blank">
+							<a href="{{ url('/file/cib/FAQ - Corporate Internet Banking (CIB) (Edit).pdf') }}" target="_blank">
 								<button class="btn read_more_btn">Read More</button>
 							</a>
 						</div>
@@ -739,7 +740,7 @@
 							<p style="color: #000;font-weight: 400;font-size: 17px;margin-bottom: 0px;">Frequently Asked Question about Corporate Internet Banking</p>
 						</div>
 						<div class="col-xs-12 text-center" style="padding-top: 10px;padding-left: 0px;text-align: right;">
-							<a href="{{ url('/file/cib/FAQ_Corporate Internet Banking (CIB).pdf') }}" target="_blank">
+							<a href="{{ url('/file/cib/FAQ - Corporate Internet Banking (CIB) (Edit).pdf') }}" target="_blank">
 								<button class="btn read_more_btn">Read More</button>
 							</a>
 						</div>
