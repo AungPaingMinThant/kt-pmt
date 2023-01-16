@@ -313,7 +313,7 @@
 						<div class="col-md-3"></div>
 						<div class="col-md-9 pad_left_mid">
 							<div class="space-30"></div>
-							<p style="font-weight: 700;">Card Block and Termination</p>
+							<p style="font-weight: 700;">Blocking and Termination</p>
 							<p>In case your card is missing, call to our Customer Services at <a href="tel:+9512317777">+95 1 2317777</a> or visit nearest visit branches for temporary card block and termination.</p>
 							<div class="space-29"></div>
 						</div>
