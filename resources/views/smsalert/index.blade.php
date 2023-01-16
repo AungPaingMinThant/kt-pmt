@@ -222,7 +222,7 @@
 										</div>
 									</div>
 									<div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
-										<img src="{{ url('/images/sms/eligibility.png') }}" class="img-fluid" style="width: 80%">
+										<img src="{{ url('/images/sms/eligibility_tab.jpg') }}" class="img-fluid" style="width: 80%">
 									</div>
 								</div>
 							</div>
