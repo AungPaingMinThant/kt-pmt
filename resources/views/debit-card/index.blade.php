@@ -533,7 +533,7 @@
 
 								<div class="space-40"></div>
 								
-								<a target="_blank" href="#">
+								<a target="_blank" href="{{ url('/file/cardservices/Debit Card E-commerce Registration Form.png') }}" target="_blank">
 									<button class="btn reset_pin_btn">
 										Register Now
 									</button>
