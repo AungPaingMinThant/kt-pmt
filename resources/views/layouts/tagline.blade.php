@@ -58,7 +58,7 @@
 @if($page == 'corporate_internet_banking')
 	<div class="row">
 		<div class="col-md-4 tag_line">
-			<p style="font-size: 19px;padding-right: 40px;">Cohesive service channel to manage all your accounts and transactions</p>
+			<p style="font-size: 19px;padding-right: 40px;">A Cohesive service channel to manage all your accounts and transactions</p>
 		</div>
 		<div class="col-md-8 tag_desc">
 			<p>Our Corporate Internet Banking (CIB) allows users to conduct a wide variety of financial transactions online over the internet connection effectively and securely from anywhere at any time.</p>

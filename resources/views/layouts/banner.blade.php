@@ -93,7 +93,7 @@
 		top: 156px;
 		right: 0;
 	}
-	.debit_banner_tag_mid, .credit_banner_tag_mid, .ecommerce_banner_tag_mid, .prepaid_banner_tag_mid, .frequently_tag_mid, .pos_tag_mid, .ayapay_tag_mid {
+	.debit_banner_tag_mid, .credit_banner_tag_mid, .ecommerce_banner_tag_mid, .prepaid_banner_tag_mid, .frequently_tag_mid, .pos_tag_mid, .ayapay_tag_mid, .mb_tag_mid, .digital_secure_tag_mid {
 		display: none;
 	}
 	.health_ins_banner {
@@ -132,7 +132,7 @@
 	@media (max-width: 1300px) and (min-width: 1000px) {
 		.tag_line_div {
 			position: absolute;
-			top: 60px;
+			top: 120px;
 			right: 0;
 		}
 		.debitcard_banner{
@@ -145,10 +145,10 @@
 		.smsalert_banner, .prepaid_banner {
 		    background-position: 70% center;
 		}
-		.debit_banner_tag, .credit_banner_tag, .ecommerce_banner_tag, .prepaid_banner_tag, .frequently_tag, .pos_tag, .ayapay_tag {
+		.debit_banner_tag, .credit_banner_tag, .ecommerce_banner_tag, .prepaid_banner_tag, .frequently_tag, .pos_tag, .ayapay_tag, .mb_tag, .digital_secure_tag {
 			display: none;
 		}
-		.debit_banner_tag_mid, .credit_banner_tag_mid, .ecommerce_banner_tag_mid, .prepaid_banner_tag_mid, .frequently_tag_mid, .pos_tag_mid, .ayapay_tag_mid {
+		.debit_banner_tag_mid, .credit_banner_tag_mid, .ecommerce_banner_tag_mid, .prepaid_banner_tag_mid, .frequently_tag_mid, .pos_tag_mid, .ayapay_tag_mid, .mb_tag_mid, .digital_secure_tag_mid {
 			display: block;
 		}
 		.frequently_digital_banner {
@@ -249,13 +249,25 @@
 	<div class="mbanking_banner">
 		<div class="container">
 			<div class="row d-none d-sm-block">
-				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
-					<div class="tag_line_div" style="">
-						<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;">Banking within the <span style="color: #a02226;">palm of your hand</span></p>
+				<div class="mb_tag">
+					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
+						<div class="tag_line_div" style="">
+							<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;">Banking within the <span style="color: #a02226;">palm of your hand</span></p>
+						</div>
+					</div>
+					<div class="col-md-6" style="text-align: right;">
+						<p></p>
 					</div>
 				</div>
-				<div class="col-md-6" style="text-align: right;">
-					<p></p>
+				<div class="mb_tag_mid">
+					<div class="col-md-8 text-right" style="text-align: right;position: relative;">
+						<div class="tag_line_div" style="">
+							<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;">Banking within the <span style="color: #a02226;">palm of your hand</span></p>
+						</div>
+					</div>
+					<div class="col-md-5" style="text-align: right;">
+						<p></p>
+					</div>
 				</div>
 			</div>
 			<div class="row d-block d-sm-none">
@@ -328,7 +340,9 @@
 						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;">a cashless payment</p>
 					</div>
 					<div class="debit_banner_tag_mid" style="position: absolute;top: 156px;right: 0;">
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;color: #a02226;">Nothing can be more simpler than a cashless payment</p>
+						<!-- <p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;color: #a02226;">Nothing can be more simpler than a cashless payment</p> -->
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 30px;">Nothing can be more simpler than</p>
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;">a cashless payment</p>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -653,17 +667,33 @@
 	<div class="digital_secure_banner" style="">
 		<div class="container">
 			<div class="row d-none d-sm-block">
-				<div class="col-md-6 text-right" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 156px;right: 130px;">
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Digital security, <span style="color: #a02226;">our utmost priority</span></p>
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;"></p>
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
-							
-						</p>
+				<div class="digital_secure_tag">
+					<div class="col-md-6 text-right" style="text-align: left;position: relative;">
+						<div style="position: absolute;top: 156px;right: 130px;">
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Digital security, <span style="color: #a02226;">our utmost priority</span></p>
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;"></p>
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
+								
+							</p>
+						</div>
+					</div>
+					<div class="col-md-6" style="text-align: right;">
+						<p></p>
 					</div>
 				</div>
-				<div class="col-md-6" style="text-align: right;">
-					<p></p>
+				<div class="digital_secure_tag_mid">
+					<div class="col-md-8 text-right" style="text-align: left;position: relative;">
+						<div style="position: absolute;top: 156px;right: 130px;">
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Digital security, <span style="color: #a02226;">our utmost priority</span></p>
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;"></p>
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 28px;">
+								
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4" style="text-align: right;">
+						<p></p>
+					</div>
 				</div>
 			</div>
 			<div class="row d-block d-sm-none">
