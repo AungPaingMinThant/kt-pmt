@@ -314,16 +314,16 @@
 							</ol>
 							<div class="carousel-inner">
 								<div class="carousel-item active">
-									<img src="{{ url('/images/ayapay/convenience_mockup.png') }}" class="d-block  img-fluid" id="simple_login_mockup" alt="First slide" style="width: 75%;">
+									<img src="{{ url('/images/ayapay/ayapay_Convenience.png') }}" class="d-block  img-fluid" id="simple_login_mockup" alt="First slide" style="width: 75%;">
 								</div>
 								<div class="carousel-item">
-									<img src="{{ url('/images/ayapay/fast_secure_mockup.png') }}" class="d-block  img-fluid" id="quick_mockup" alt="Second slide" style="width: 75%;">
+									<img src="{{ url('/images/ayapay/ayapay_fast_secure.png') }}" class="d-block  img-fluid" id="quick_mockup" alt="Second slide" style="width: 75%;">
 								</div>
 								<div class="carousel-item">
-									<img src="{{ url('/images/ayapay/easy_mockup.png') }}" class="d-block  img-fluid" id="manage_credit_mockup" alt="Third slide" style="width: 75%;">
+									<img src="{{ url('/images/ayapay/ayapay_easy.png') }}" class="d-block  img-fluid" id="manage_credit_mockup" alt="Third slide" style="width: 75%;">
 								</div>
 								<div class="carousel-item">
-									<img src="{{ url('/images/ayapay/funtional_mockup.png') }}" class="d-block  img-fluid" id="prepaid_card_mockup" alt="Fourth slide" style="width: 75%;">
+									<img src="{{ url('/images/ayapay/ayapay_funtional.png') }}" class="d-block  img-fluid" id="prepaid_card_mockup" alt="Fourth slide" style="width: 75%;">
 								</div>
 							</div>
 							<a class="carousel-control-prev d-none" href="#why_use_AYA_first_section" role="button" data-bs-slide="prev">

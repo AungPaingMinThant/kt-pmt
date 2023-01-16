@@ -55,7 +55,7 @@
 		background-position: center left;
 	}
 	.visa_credit_tab {
-		background-image: url('./images/credit_card_bg_with_model.jpg');
+		background-image: url('./images/credit_card_bg_with_model_2.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
 		height: 520px;
@@ -69,7 +69,7 @@
 		background-position: center left;
 	}
 	.jcb_credit_tab {
-		background-image: url('./images/jcb_credit_banner.jpg');
+		background-image: url('./images/jcb_credit_banner_2.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
 		height: 520px;
@@ -223,7 +223,7 @@
 	}
 	@media (max-width: 1300px) and (min-width: 1000px) {
 		.jcb_credit_tab{
-			background-position: center;
+			background-position: 80%;
 		}
 		.visa_credit_tab, .secure_credit_tab {
 			background-position: 80% center;
@@ -259,10 +259,10 @@
 			width: 100% !important;
 		}
 		.jcb_credit_tab{
-			background-position: 75% center;
+			background-position: 85% center;
 		}
 		.visa_credit_tab{
-			background-position: 88% center;
+			background-position: 85% center;
 		}
 		.secure_credit_tab {
 			height: auto;
@@ -548,7 +548,8 @@
 					<div class="row jcb_credit_fees_charge_section">
 						<div class="col-md-12 how_to_apply_desc">
 							<div class="row">
-								<p style="color: #1d1d1f;font-weight: 600;font-size: 30px;margin-bottom: 0px;">Fees and Charges</p>
+								<h3 style="color: #1d1d1f;font-weight: 600;">Fees and Charges</h3>
+								<!-- <p style="color: #1d1d1f;font-weight: 600;font-size: 30px;margin-bottom: 0px;"></p> -->
 								<p style="color: #1d1d1f;margin-bottom: 30px;">Enjoy free issuing card fees for both Principal and Supplementary Card holder. <a class="credit_fee_charge" style="color: #1d1d1f;text-decoration: underline;cursor: pointer;">Click here to learn other fees and charges</a><i class="menu-icon tf-icons bx bx-chevron-down credit_fee_charge_chevron"></i></p>
 							</div>
 
@@ -654,7 +655,7 @@
 						</div>
 						<div class="col-md-12 how_to_apply_desc">
 							<div class="row">
-								<p style="color: #1d1d1f;font-weight: 600;font-size: 30px;margin-bottom: 0px;">Annual Fees</p>
+								<h3 style="color: #1d1d1f;font-weight: 600;">Annual Fees</h3>
 								<p style="color: #1d1d1f;margin-bottom: 30px;"><a class="annual_fee" style="color: #1d1d1f;text-decoration: underline;cursor: pointer;">Check Annual fees here for AYA Credit cards</a><i class="menu-icon tf-icons bx bx-chevron-down annual_fee_chevron"></i></p>
 							</div>
 
@@ -796,7 +797,7 @@
 						</div>
 						<div class="col-md-12 how_to_apply_desc">
 							<div class="row">
-								<p style="color: #1d1d1f;font-weight: 600;font-size: 30px;margin-bottom: 0px;">Card Features</p>
+								<h3 style="color: #1d1d1f;font-weight: 600;">Card Features</h3>
 								<p style="color: #1d1d1f;margin-bottom: 30px;"><a class="card_feature" style="color: #1d1d1f;text-decoration: underline;cursor: pointer;">Take a moment to review our Card features</a><i class="menu-icon tf-icons bx bx-chevron-down card_feature_chevron"></i></p>
 							</div>
 
@@ -849,7 +850,7 @@
 						</div>
 						<div class="col-md-12 how_to_apply_desc">
 							<div class="row">
-								<p style="color: #1d1d1f;font-weight: 600;font-size: 30px;margin-bottom: 0px;">How to Apply</p>
+								<h3 style="color: #1d1d1f;font-weight: 600;">How to Apply</h3>
 								<p style="color: #1d1d1f;">
 									Visit any of our branches for application and submit with required documents. Bank will notify on your credit card approval and for card collection.Please take a moment to review below eligibility criteria as well as documents required for preparation of application process. <a class="how_to_apply" style="color: #1d1d1f;text-decoration: underline;cursor: pointer;">Check the full list of documents required</a><i class="menu-icon tf-icons bx bx-chevron-down how_to_apply_chevron"></i>
 								</p>
@@ -974,7 +975,7 @@
 					<div class="row visa_credit_find_out_more d-none">
 						<div class="col-md-12 how_to_apply_desc">
 							<div class="row">
-								<p style="color: #1d1d1f;font-weight: 600;font-size: 30px;margin-bottom: 0px;">Find out more</p>
+								<h3 style="color: #1d1d1f;font-weight: 600;">Find out more</h3>
 								<p style="color: #1d1d1f;margin-bottom: 20px;">Terms and Conditions apply <a href="{{ url('/file/cardservices/AYA CREDIT CARD AGREEMENT (English Version 2.0).docx') }}" class="tnc_apply" style="color: #1d1d1f;text-decoration: underline;cursor: pointer;">Click here</a></p>
 								<p style="color: #1d1d1f;margin-bottom: 0px;"><a href="{{ url('/file/cardservices/Membership Guide.docx') }}" class="tnc_apply" style="color: #1d1d1f;text-decoration: underline;cursor: pointer;">Click here</a> for Membership Guide.</p>
 							</div>
@@ -983,7 +984,7 @@
 					<div class="row secured_fees_charge_section d-none">
 						<div class="col-md-12 how_to_apply_desc">
 							<div class="row">
-								<p style="color: #1d1d1f;font-weight: 600;font-size: 30px;margin-bottom: 20px;">Requirements for Application</p>
+								<h3 style="color: #1d1d1f;font-weight: 600;">Requirements for Application</h3>
 								<div class="col-md-6">
 									<p><i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>&nbsp;NRC Copy</p>
 									<p><i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>&nbsp;Passport Photo</p>
@@ -998,7 +999,7 @@
 						</div>
 						<div class="col-md-12 how_to_apply_desc">
 							<div class="row">
-								<p style="color: #1d1d1f;font-weight: 600;font-size: 30px;margin-bottom: 0px;">Fees and Charges</p>
+								<h3 style="color: #1d1d1f;font-weight: 600;">Fees and Charges</h3>
 								<p style="color: #1d1d1f;margin-bottom: 30px;">Enjoy free issuing card fees for Secured Credit Card holder. <a class="secured_fee_charge" style="color: #1d1d1f;text-decoration: underline;cursor: pointer;">Click here to learn other fees and charges</a><i class="menu-icon tf-icons bx bx-chevron-up secured_fee_charge_chevron"></i></p>
 							</div>
 

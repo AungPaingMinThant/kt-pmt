@@ -208,7 +208,7 @@
 										</div>
 									</div>
 									<div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
-										<img src="{{ url('/images/sms/how_it_work.jpg') }}" class="img-fluid" style="width: 80%">
+										<img src="{{ url('/images/sms/how_it_work.png') }}" class="img-fluid" style="width: 80%">
 									</div>
 								</div>
 							</div>
@@ -222,7 +222,7 @@
 										</div>
 									</div>
 									<div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
-										<img src="{{ url('/images/sms/eligibility.jpg') }}" class="img-fluid" style="width: 80%">
+										<img src="{{ url('/images/sms/eligibility.png') }}" class="img-fluid" style="width: 80%">
 									</div>
 								</div>
 							</div>
@@ -354,7 +354,7 @@
 						<div class="accordion-item">
 							<h2 class="accordion-header" id="headingSix">
 								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-									Is SMS Alert service eligible to all 3 Telecommunications (MPT, Telenor and Ooredoo)?
+									Is SMS Alert service eligible to all 3 Telecommunications (MPT, ATOM and Ooredoo)?
 								</button>
 							</h2>
 							<div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">

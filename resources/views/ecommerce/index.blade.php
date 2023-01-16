@@ -87,7 +87,7 @@
 	}
 	.credit_tag_line {
 		font-size: 20px;
-		padding: 0px 150px;
+		padding: 0px 70px;
 	}
 	@media (min-width: 768px){
 		.col-md-3 {
@@ -149,7 +149,7 @@
 				<div class="space-40"></div>
 				<div class="container">
 					<div class="col-md-12 text-center">
-						<p class="credit_tag_line">Change your issues into opportunity with AYA E-Commerce. We will provide the best formulas to solve it. Grow your business by joining our wide variety of E-Commerce services.</p>
+						<p class="credit_tag_line">Change your issues into opportunity with AYA E-Commerce.<br>We will provide the best formulas to solve it.<br>Grow your business by joining our wide variety of E-Commerce services.</p>
 					</div>
 				</div>
 				<div class="space-40"></div>
