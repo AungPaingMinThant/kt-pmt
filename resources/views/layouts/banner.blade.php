@@ -118,6 +118,12 @@
 		height: 440px;
 		background-position: center right;
 	}
+	.fire_ins_banner {
+		background-image:url('../images/insurance/fire/KV_bg.png');
+		background-size: cover;
+		height: 440px;
+		background-position: center right;
+	}
 	@media (max-width: 1550px) and (min-width: 577px) {
 		.creditcard_banner{
 			background-position: 60% center;
@@ -160,7 +166,7 @@
 		.atm_banner {
 		    background-position: 90% center;
 		}
-		.health_ins_banner {
+		.health_ins_banner, .fire_ins_banner, .motor_ins_banner {
 			height: 310px;
 		}
 		.family_img_div {
@@ -235,7 +241,7 @@
 			height: 620px;
 			background-position: 80% center;
 		}
-		.motor_ins_banner {
+		.motor_ins_banner, .fire_ins_banner {
 			height: 620px;
 			background-position: 80% center;
 		}
@@ -983,10 +989,10 @@
 		<div class="container">
 			<div class="d-none d-sm-block">
 				<div class="row">
-					<div class="col-md-6" style="padding-top: 50px;">
+					<div class="col-md-6 family_img_div">
 						<img src="{{ url('/images/insurance/motor/family.png') }}" class="img-fluid">
 					</div>
-					<div class="col-md-5" style="padding-top: 80px;padding-left: 30px;">
+					<div class="col-md-6 tagline_div">
 						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Motor<br>Insurance</p>
 						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
 						<p style="font-size: 16px;font-weight: 400;">
@@ -1004,13 +1010,65 @@
 						<img src="{{ url('/images/insurance/motor/family.png') }}" class="img-fluid">
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
-						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Health Insurance</p>
+						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Motor Insurance</p>
 						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
 						<p style="font-size: 16px;font-weight: 400;">
 							Uncertainties are nature of our life and even the road trips can be stressful for you.
 						</p>
 						<p style="font-size: 16px;font-weight: 400;">
 							Protect yourself and those that matter to you from losses resulting from unforeseen accidents. A motor insurance with a full range of protection features that keep up with your needs is all you need.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
+
+@if($page == 'fire_insurance')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">FIRE INSURANCE</span>
+			</p>
+		</div>
+	</div>
+	<div class="fire_ins_banner">
+		<div class="container">
+			<div class="d-none d-sm-block">
+				<div class="row">
+					<div class="col-md-6 family_img_div">
+						<img src="{{ url('/images/insurance/fire/family.png') }}" class="img-fluid">
+					</div>
+					<!-- style="padding-top: 80px;padding-left: 30px;" -->
+					<div class="col-md-5 tagline_div" >
+						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Fire<br>Insurance</p>
+						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
+						<p style="font-size: 16px;font-weight: 400;">
+							Shield your property and business investments from financial losses arising from damage ranging from fire, explosions, and natural disasters.
+						</p>
+						<p style="font-size: 16px;font-weight: 400;">
+							With Fire Insurance, you and your assets are well covered for whatever it is come. 
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="d-block d-sm-none">
+				<div class="row">
+					<div class="col-md-6" style="padding-top: 20px;">
+						<img src="{{ url('/images/insurance/fire/family.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
+						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Fire Insurance</p>
+						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<p style="font-size: 16px;font-weight: 400;">
+							Shield your property and business investments from financial losses arising from damage ranging from fire, explosions, and natural disasters.
+						</p>
+						<p style="font-size: 16px;font-weight: 400;">
+							With Fire Insurance, you and your assets are well covered for whatever it is come. 
 						</p>
 					</div>
 				</div>

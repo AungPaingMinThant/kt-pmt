@@ -284,7 +284,7 @@
 									<div class="col-md-6">
 										<div class="row">
 											<div class="col-md-12">
-												<p style="font-size: 18px;color: #000;">Eligibility</p>
+												<p style="font-size: 18px;color: #000;font-weight: 600;">Eligibility</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>

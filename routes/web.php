@@ -84,3 +84,5 @@ Route::get('/atm','App\Http\Controllers\ATMController@index');
 Route::get('/insurance/health','App\Http\Controllers\HealthInsuranceController@index');
 
 Route::get('/insurance/motor','App\Http\Controllers\MotorInsuranceController@index');
+
+Route::get('/insurance/fire','App\Http\Controllers\FireInsuranceController@index');
