@@ -154,6 +154,12 @@
 		}
 	}
 	@media only screen and (max-width: 576px){
+		.tab, .glider {
+			height: 65px;
+		}
+		.tab {
+			font-size: 18px !important;
+		}
 		.tab-pane {
 			background-position: -80px -70px;
 		}
