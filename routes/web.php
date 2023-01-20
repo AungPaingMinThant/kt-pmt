@@ -51,38 +51,23 @@ Route::get('/admin/logout','App\Http\Controllers\AdminController@logout');
 Route::get('/share-post', 'App\Http\Controllers\SharePostController@share');
 
 
-Route::get('/mobile-banking','App\Http\Controllers\MobileBankingController@mbindex');
+Route::get('/mobile-banking','App\Http\Controllers\Digital\MobileBankingController@mbindex');
+Route::get('/internet-banking','App\Http\Controllers\Digital\InternetBankingController@index');
+Route::get('/debit-card','App\Http\Controllers\Digital\DebitCardController@index');
+Route::get('/credit-card','App\Http\Controllers\Digital\CreditCardController@index');
+Route::get('/ecommerce','App\Http\Controllers\Digital\EcommerceController@index');
+Route::get('/sms-alert','App\Http\Controllers\Digital\SMSAlertController@index');
+Route::get('/prepaid-card','App\Http\Controllers\Digital\PrepaidCardController@index');
+Route::get('/simple-pay','App\Http\Controllers\Digital\SimplePayController@index');
+Route::get('/reset-pin','App\Http\Controllers\Digital\ResetPinController@index');
+Route::get('/corporate-internet-banking','App\Http\Controllers\Digital\CorporateInternetBankingController@index');
+Route::get('/digital-secure','App\Http\Controllers\Digital\DigitalSecureController@index');
+Route::get('/frequently-used-digital','App\Http\Controllers\Digital\FrequentlyUsedDigitalController@index');
+Route::get('/pos','App\Http\Controllers\Digital\POSController@index');
+Route::get('/aya-pay','App\Http\Controllers\Digital\AyaPayController@index');
+Route::get('/atm','App\Http\Controllers\Digital\ATMController@index');
 
-Route::get('/internet-banking','App\Http\Controllers\InternetBankingController@index');
-
-Route::get('/debit-card','App\Http\Controllers\DebitCardController@index');
-
-Route::get('/credit-card','App\Http\Controllers\CreditCardController@index');
-
-Route::get('/ecommerce','App\Http\Controllers\EcommerceController@index');
-
-Route::get('/sms-alert','App\Http\Controllers\SMSAlertController@index');
-
-Route::get('/prepaid-card','App\Http\Controllers\PrepaidCardController@index');
-
-Route::get('/simple-pay','App\Http\Controllers\SimplePayController@index');
-
-Route::get('/reset-pin','App\Http\Controllers\ResetPinController@index');
-
-Route::get('/corporate-internet-banking','App\Http\Controllers\CorporateInternetBankingController@index');
-
-Route::get('/digital-secure','App\Http\Controllers\DigitalSecureController@index');
-
-Route::get('/frequently-used-digital','App\Http\Controllers\FrequentlyUsedDigitalController@index');
-
-Route::get('/pos','App\Http\Controllers\POSController@index');
-
-Route::get('/aya-pay','App\Http\Controllers\AyaPayController@index');
-
-Route::get('/atm','App\Http\Controllers\ATMController@index');
-
-Route::get('/insurance/health','App\Http\Controllers\HealthInsuranceController@index');
-
-Route::get('/insurance/motor','App\Http\Controllers\MotorInsuranceController@index');
-
-Route::get('/insurance/fire','App\Http\Controllers\FireInsuranceController@index');
+Route::get('/insurance/health','App\Http\Controllers\Insurance\HealthInsuranceController@index');
+Route::get('/insurance/motor','App\Http\Controllers\Insurance\MotorInsuranceController@index');
+Route::get('/insurance/fire','App\Http\Controllers\Insurance\FireInsuranceController@index');
+Route::get('/insurance/personal-accident','App\Http\Controllers\Insurance\PAInsuranceController@index');

@@ -1,6 +1,6 @@
 @extends('layouts.frontend-app')
 
-@section('title', 'Motor Insurance – AYA Bank')
+@section('title', 'Personal Accident Insurance – AYA Bank')
 <style type="text/css">
     .nav-align-top .nav-tabs .nav-item:first-child .nav-link {
     	border-top:  none;
@@ -20,8 +20,8 @@
 		cursor: pointer;
 		box-shadow: 0 0 16px 8px rgb(0 0 0 / 9%);
 	}
-	.tab_data_row > .col-md-6 {
-		width: 48%;
+	.tab_data_row > .col-md-4 {
+		width: 30%;
 	}
 	.secure_req_application_icon {
 		background-color: #a02226;
@@ -151,6 +151,11 @@
 	}
 	/* tab */
 
+	@media (max-width: 1300px) and (min-width: 1000px) {
+		.tab_data_row > .col-md-4 {
+			width: 48%;
+		}
+	}
 	@media only screen and (max-width: 576px){
 		.tab, .glider {
 			height: 65px;
@@ -161,7 +166,7 @@
 		.tab-pane {
 			background-position: -80px -70px;
 		}
-		.tab_data_row > .col-md-6 {
+		.tab_data_row > .col-md-4 {
 			width: 100%;
 		}
 		.tab_h2{
@@ -213,7 +218,7 @@
 			@include('layouts.header', ['page'=>'personal_banking'])
         	<div class="menu-overlay"></div>
 
-			@include('layouts.banner', ['page'=>'motor_insurance'])
+			@include('layouts.banner', ['page'=>'pa_insurance'])
 
 			<div style="">
 				<div class="d-none d-sm-block space-60"></div>
@@ -225,7 +230,7 @@
 						<input type="radio" id="radio-2" name="tabs">
 						<label class="tab" for="radio-2">Benefits</label>
 						<input type="radio" id="radio-3" name="tabs">
-						<label class="tab" for="radio-3">Product Highlights</label>
+						<label class="tab" for="radio-3" id="radio-3-label">Product Highlights</label>
 						<span class="glider"></span>
 					</div>
 				</div>
@@ -252,48 +257,48 @@
 					<div class="tab-content" style="background-color: transparent;padding: 30px 0px 0px 0px;">
 						<div class="tab-pane fade show active" id="navs-pills-top-coverage" role="tabpanel" style="background: transparent;padding-bottom: 30px;">
 							<div class="container section_1">
-								<div class="row tab_data_row" style="column-gap: 30px;">
-									<div class="col-md-6 benefit_feature_box" style="padding: 20px;margin-bottom: 35px;">
+								<div class="row tab_data_row" style="column-gap: 20px;">
+									<div class="col-md-4 benefit_feature_box" style="padding: 20px;margin-bottom: 20px;">
 										<div class="row">
-											<div class="col-md-2">
-												<img src="{{ url('/images/insurance/motor/loss_damage_vehicle.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+											<div class="col-md-3">
+												<img src="{{ url('/images/insurance/pa/death_due_to_accident.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 											</div>
-											<div class="col-md-10">
-												<p style="font-weight: 600;">Loss/Damage to vehicle</p>
-												<p style="color: #4e4e4e;">Protecting your own vehicle for damage caused by accidents, fires and thunderstorms (available to the maximum value of the vehicle guaranteed)</p>
+											<div class="col-md-9" style="padding-left:0;">
+												<p style="font-weight: 600;margin-bottom: 0;">Death due to accident</p>
+												<p style="color: #4e4e4e;margin-bottom: 0;">Total sum insured* amount of MMK 500,000 to MMK 20,000,000 will be paid as lump sum to the beneficiary</p>
 											</div>
 										</div>
 									</div>
-									<div class="col-md-6 benefit_feature_box" style="padding: 20px;margin-bottom: 35px;">
+									<div class="col-md-4 benefit_feature_box" style="padding: 20px;margin-bottom: 20px;">
 										<div class="row">
-											<div class="col-md-2">
-												<img src="{{ url('/images/insurance/motor/coverage_to_death_injury.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+											<div class="col-md-3">
+												<img src="{{ url('/images/insurance/pa/permanent_disability.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 											</div>
-											<div class="col-md-10">
-												<p style="font-weight: 600;">Coverage for Death and Injury</p>
-												<p style="color: #4e4e4e;">Compensation for death and injury is available for up to MMK one million, depending on the extent to which it is affected</p>
+											<div class="col-md-9" style="padding-left:0;">
+												<p style="font-weight: 600;margin-bottom: 0;">Permanent Disability</p>
+												<p style="color: #4e4e4e;margin-bottom: 0;">Total sum insured* amount of MMK 500,000 to MMK 20,000,000 will be paid as lump sum to the beneficiary<br><span style="font-size: 10px">Sum Insured* = Total Coverage Amount</span></p>
 											</div>
 										</div>
 									</div>
-									<div class="col-md-6 benefit_feature_box" style="padding: 20px;margin-bottom: 35px;">
+									<div class="col-md-4 benefit_feature_box" style="padding: 20px;margin-bottom: 20px;">
 										<div class="row">
-											<div class="col-md-2">
-												<img src="{{ url('/images/insurance/motor/windshield_protection.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+											<div class="col-md-3">
+												<img src="{{ url('/images/insurance/pa/injury_loss_limbs.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 											</div>
-											<div class="col-md-10">
-												<p style="font-weight: 600;">Windshield Protection</p>
-												<p style="color: #4e4e4e;">Up to MMK three million benefits for damage depending on the value of the windshield</p>
+											<div class="col-md-9" style="padding-left:0;">
+												<p style="font-weight: 600;margin-bottom: 0;">Injury / Loss of Limbs</p>
+												<p style="color: #4e4e4e;margin-bottom: 0;">The coverage of benefits will be determined by reviewing on Doctor's Recommendation.</p>
 											</div>
 										</div>
 									</div>
-									<div class="col-md-6 benefit_feature_box" style="padding: 20px;margin-bottom: 35px;">
+									<div class="col-md-4 benefit_feature_box" style="padding: 20px;margin-bottom: 20px;">
 										<div class="row">
-											<div class="col-md-2">
-												<img src="{{ url('/images/insurance/motor/harm_to_others.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+											<div class="col-md-3">
+												<img src="{{ url('/images/insurance/pa/hospitalizaiton_not_able_work.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 											</div>
-											<div class="col-md-10">
-												<p style="font-weight: 600;">Harm to Others</p>
-												<p style="color: #4e4e4e;">Compensation for the deaths of others, injuries, and the damage to other property up to MMK five million.</p>
+											<div class="col-md-9" style="padding-left:0;">
+												<p style="font-weight: 600;margin-bottom: 0;">Hospitalization / Not able to work</p>
+												<p style="color: #4e4e4e;margin-bottom: 0;">3% of amount of total coverage per week up to maximum 15% of sum insured.</p>
 											</div>
 										</div>
 									</div>
@@ -303,56 +308,13 @@
 									<div class="col-md-12">
 										<div class="row">
 											<div class="col-md-12">
-												<p style="font-size: 20px;color: #a02226;font-weight: 600;">Extra protections</p>
-											</div>
-											<div class="col-1">
-												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-											</div>
-											<div class="col-11 list_margin">
-												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Strikes, riots</p>
-												<p style="color: #4e4e4e;">Protection for damage caused by strikes, riots</p>
-											</div>
-											<div class="col-1">
-												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-											</div>
-											<div class="col-11 list_margin">
-												<p style="color: #000;font-weight: 600;margin-bottom: 0;">War disaster</p>
-												<p style="color: #4e4e4e;">Protection for Damage due to War and War Events</p>
-											</div>
-											<div class="col-1">
-												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-											</div>
-											<div class="col-11 list_margin">
-												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Compensation Exemption</p>
-												<p style="color: #4e4e4e;">Free oral money added to the damage caused by an accident</p>
-											</div>
-											<div class="col-1">
-												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-											</div>
-											<div class="col-11 list_margin">
-												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Motorway stolen</p>
-												<p style="color: #4e4e4e;">Protection for damage caused by automobile stolen</p>
-											</div>
-											<div class="col-1">
-												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-											</div>
-											<div class="col-11 list_margin">
-												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Natural disaster</p>
-												<p style="color: #4e4e4e;">Protection for damage caused by floods, storms, typhoons, tornadoes, volcanic eruptions, earthquakes, landslides, and so on</p>
-											</div>
-										</div>
-									</div>
-									<div class="space-40"></div>
-									<div class="col-md-12">
-										<div class="row">
-											<div class="col-md-12">
 												<p style="font-size: 20px;font-weight: 600;">Eligibility</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-11 list_margin">
-												<p style="color: #4e4e4e;">Officially registered vehicles or privately owned or public vehicles.</p>
+												<p style="color: #4e4e4e;">Anyone aged between 16 to 65 years old can take coverage for this policy.</p>
 											</div>
 										</div>
 									</div>
@@ -369,36 +331,22 @@
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-11 list_margin">
-												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Emergency Vehicle Costs</p>
-												<p style="color: #4e4e4e;">Benefits of emergency vehicle damage due to accidents (1)</p>
+												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Hassle-Free Documentation</p>
+												<p style="color: #4e4e4e;">You don't have to sweat it out when it comes to the documentation process. A smooth process of documentation is in place that is completely hassle-free.</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-11 list_margin">
-												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Legal Expenses</p>
-												<p style="color: #4e4e4e;">Availability of up to MMK two hundred thousand dollars for the cost of litigation against the vehicle</p>
+												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Hassle-Free Claims</p>
+												<p style="color: #4e4e4e;">Enjoy our hassle-free process when making personal accident claims. Fast and reliable claims give you a sense of calm to focus on your recovery.</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-11 list_margin">
-												<p style="color: #000;font-weight: 600;margin-bottom: 0;">24-Hour Compensation Claims Service</p>
-												<p style="color: #4e4e4e;">Contacting Emergency Compensation 24 Hours</p>
-											</div>
-											<div class="col-1">
-												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-											</div>
-											<div class="col-11 list_margin">
-												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Fleet Discount</p>
-												<p style="color: #4e4e4e;">Up to 10% fleet discount available under the name of a single insurer</p>
-											</div>
-											<div class="col-1">
-												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-											</div>
-											<div class="col-11 list_margin">
-												<p style="color: #000;font-weight: 600;margin-bottom: 0;">No Claim Bonus</p>
-												<p style="color: #4e4e4e;">Without compensation for more than 3 years, a non-compensation fee can be up to 40% of the premium</p>
+												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Quick Premium Payment</p>
+												<p style="color: #4e4e4e;">You can choose a range of payment options, either digitally or through branches and receive your policy within one week.</p>
 											</div>
 										</div>
 									</div>
@@ -413,17 +361,19 @@
 										<div class="row">
 											<div class="col-md-12">
 												<p style="font-size: 20px;font-weight: 600;">Insurance Rate</p>
-												<p>Depending on the insurance income (car value), the rate is set at 0.8% to 2% depending on the following:</p>
 												<ul>
-													<li>Vehicle Value</li>
-													<li>How to Use a Vehicle</li>
-													<li>Engine Power</li>
+													<li>Approximately 1% on sum insured</li>
+													<li>Subject to: Nature of Occupation Employment</li>
 												</ul>
 											</div>
 
 											<div class="col-md-12">
-												<p style="font-size: 20px;font-weight: 600;">Insurance Life Span</p>
-												<p>It can be kept for at least three months, 6 months, and 9 months and maximum policy lifespan is up to a year which can be extended annually.</p>
+												<p style="font-size: 20px;font-weight: 600;">Insurance life span</p>
+												<ul>
+													<li>Maximum policy term 1 year (Renewable on a yearly basis)</li>
+													<li>Minimum policy term – 3 months and 6 months are applicable.</li>
+													<li>Premium must be paid by lump sum.</li>
+												</ul>
 											</div>
 										</div>
 									</div>
@@ -433,8 +383,6 @@
 					</div>
 				</div>
 			</div>
-
-			<!-- <div class="space-40"></div> -->
 
 			<div class="container faq_section" style="">
 				<div class="row" style="padding: 25px 20px;background-color: #f5f5f7;border-radius: 6px;">
@@ -465,7 +413,7 @@
 					<div class="col-md-12 col-xs-12">
 						<p style="font-size: 18px;color: #1d1d1f;font-weight: 600;margin-bottom: 10px;">Disclaimers</p>
 						<p style="color: #777777;font-weight: 400;font-size: 12px;">
-							This Comprehensive Motor Insurance is underwritten by AYA Sompo Insurance Company Ltd and distributed by AYA Bank Co Ltd. It is not an obligation of, deposit in or guaranteed by AYA Bank. AYA Sompo Insurance Company Ltd reserves the right of final approval. Full details of the terms, conditions and exclusions of the insurance are provided in the policy wordings and will be sent to you upon acceptance of your application by AYA Sompo Insurance Company Ltd.
+							This Personal Accident Insurance is underwritten by AYA Sompo Insurance Company Ltd and distributed by AYA Bank Co Ltd. It is not an obligation of, deposit in or guaranteed by AYA Bank. AYA Sompo Insurance Company Ltd reserves the right of final approval. Full details of the terms, conditions and exclusions of the insurance are provided in the policy wordings and will be sent to you upon acceptance of your application by AYA Sompo Insurance Company Ltd.
 						<p style="color: #777777;font-weight: 400;font-size: 12px;">
 							This webpage contains only general information and does not have regard to the specific investment objectives, financial situation and the particular needs of any specific person. It is not intended as an offer or recommendation to buy the product. A copy of the product summary can be obtained from AYA Bank branches. The contract of insurance is between the insurer and the insured and not between the Bank and the insured. Bank does not give any warranty, as to the accuracy and completeness of the policies. Bank does not accept any liability or losses attributable to your contract of Insurance. Participation by the Bank’s customers in the insurance products is purely on a voluntary basis and is not linked to availment of any other facility from the bank.
 						</p>

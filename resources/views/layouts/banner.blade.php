@@ -124,6 +124,12 @@
 		height: 440px;
 		background-position: center right;
 	}
+	.pa_ins_banner {
+		background-image:url('../images/insurance/pa/KV_bg.png');
+		background-size: cover;
+		height: 440px;
+		background-position: center right;
+	}
 	@media (max-width: 1550px) and (min-width: 577px) {
 		.creditcard_banner{
 			background-position: 60% center;
@@ -166,7 +172,7 @@
 		.atm_banner {
 		    background-position: 90% center;
 		}
-		.health_ins_banner, .fire_ins_banner, .motor_ins_banner {
+		.health_ins_banner, .fire_ins_banner, .motor_ins_banner, .pa_ins_banner {
 			height: 310px;
 		}
 		.family_img_div {
@@ -237,11 +243,7 @@
 			background-image:url('./images/atm/mobile_KV.jpg');
 			background-position: 80% center;
 		}
-		.health_ins_banner {
-			height: 620px;
-			background-position: 80% center;
-		}
-		.motor_ins_banner, .fire_ins_banner {
+		.health_ins_banner, .pa_ins_banner, .motor_ins_banner, .fire_ins_banner {
 			height: 620px;
 			background-position: 80% center;
 		}
@@ -1068,6 +1070,60 @@
 						</p>
 						<p style="font-size: 15px;font-weight: 400;">
 							With Fire Insurance, you and your assets are well covered for whatever it is come. 
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
+
+@if($page == 'pa_insurance')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">PERSONAL ACCIDENT INSURANCE</span>
+			</p>
+		</div>
+	</div>
+	<div class="pa_ins_banner">
+		<div class="container">
+			<div class="d-none d-sm-block">
+				<div class="row">
+					<div class="col-md-6 family_img_div">
+						<img src="{{ url('/images/insurance/pa/family.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-6 tagline_div">
+						<p style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Personal Accident<br>Insurance</p>
+						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
+						<p class="tagline_desc" style="font-weight: 400;font-size: 15px;">
+							Accidents happen when least expected and at times turn into dramatically life changing events. What’s worse is the financial burden that comes with it.
+						</p>
+						<p class="tagline_desc" style="font-weight: 400;font-size: 15px;">
+							Purchase a personal accident insurance safety net which provides comprehensive accident coverage.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="d-block d-sm-none">
+				<div class="row">
+					<div class="col-md-6" style="padding-top: 20px;">
+						<img src="{{ url('/images/insurance/health/family_img.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
+						<p style="font-size: 20x;font-weight: 600;margin-bottom: 0px;color: #000;">Health Insurance</p>
+						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<p style="font-size: 15px;font-weight: 400;">
+							Health is wealth.
+						</p>
+						<p style="font-size: 15px;font-weight: 400;">
+							Guard your hard-earned savings from emergency healthcare and illness expenditures.
+						</p>
+						<p style="font-size: 15px;font-weight: 400;">
+							A flexible health insurance product that provides essential healthcare expense and medical coverage is all you need.
 						</p>
 					</div>
 				</div>
