@@ -13,8 +13,12 @@
    	}
    	.benefit_feature_box {
 		display: table;
+		border-radius: 5px;
+		border: 1px solid #dedede;
+	}
+	.benefit_feature_box:hover {
+		cursor: pointer;
 		box-shadow: 0 0 16px 8px rgb(0 0 0 / 9%);
-		border-radius: 10px;
 	}
 	.tab_data_row > .col-md-6 {
 		width: 48%;
@@ -341,7 +345,7 @@
 									<div class="col-md-12">
 										<div class="row">
 											<div class="col-md-12">
-												<p style="font-size: 20px;color: #a02226;font-weight: 600;">Eligibility</p>
+												<p style="font-size: 20px;font-weight: 600;">Eligibility</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
@@ -410,7 +414,7 @@
 									<div class="col-md-11">
 										<div class="row">
 											<div class="col-md-12">
-												<p style="font-size: 20px;color: #a02226;font-weight: 600;">Insurance Rate</p>
+												<p style="font-size: 20px;font-weight: 600;">Insurance Rate</p>
 												<p>Depending on the insurance income (car value), the rate is set at 0.8% to 2% depending on the following:</p>
 												<ul>
 													<li>Vehicle Value</li>
@@ -420,7 +424,7 @@
 											</div>
 
 											<div class="col-md-12">
-												<p style="font-size: 20px;color: #a02226;font-weight: 600;">Insurance Life Span</p>
+												<p style="font-size: 20px;font-weight: 600;">Insurance Life Span</p>
 												<p>It can be kept for at least three months, 6 months, and 9 months and maximum policy lifespan is up to a year which can be extended annually.</p>
 											</div>
 										</div>

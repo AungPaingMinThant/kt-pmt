@@ -936,7 +936,7 @@
 						<img src="{{ url('/images/insurance/health/family_img.png') }}" class="img-fluid">
 					</div>
 					<div class="col-md-6 tagline_div">
-						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Health<br>Insurance</p>
+						<p style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Health<br>Insurance</p>
 						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
 						<p class="tagline_desc" style="font-weight: 400;font-size: 15px;">
 							Health is wealth.
@@ -993,7 +993,7 @@
 						<img src="{{ url('/images/insurance/motor/family.png') }}" class="img-fluid">
 					</div>
 					<div class="col-md-6 tagline_div">
-						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Motor<br>Insurance</p>
+						<p style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Motor<br>Insurance</p>
 						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
 						<p style="font-size: 15px;font-weight: 400;">
 							Uncertainties are nature of our life and even the road trips can be stressful for you.
@@ -1010,7 +1010,7 @@
 						<img src="{{ url('/images/insurance/motor/family.png') }}" class="img-fluid">
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
-						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Motor Insurance</p>
+						<p style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Motor Insurance</p>
 						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
 						<p style="font-size: 15px;font-weight: 400;">
 							Uncertainties are nature of our life and even the road trips can be stressful for you.
@@ -1044,7 +1044,7 @@
 						<img src="{{ url('/images/insurance/fire/family.png') }}" class="img-fluid">
 					</div>
 					<div class="col-md-6 tagline_div" >
-						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Fire<br>Insurance</p>
+						<p style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Fire<br>Insurance</p>
 						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
 						<p style="font-size: 15px;font-weight: 400;">
 							Shield your property and business investments from financial losses arising from damage ranging from fire, explosions, and natural disasters.
@@ -1061,7 +1061,7 @@
 						<img src="{{ url('/images/insurance/fire/family.png') }}" class="img-fluid">
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
-						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Fire Insurance</p>
+						<p style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Fire Insurance</p>
 						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
 						<p style="font-size: 15px;font-weight: 400;">
 							Shield your property and business investments from financial losses arising from damage ranging from fire, explosions, and natural disasters.

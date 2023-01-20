@@ -13,8 +13,12 @@
    	}
    	.benefit_feature_box {
 		display: table;
+		border-radius: 5px;
+		border: 1px solid #dedede;
+	}
+	.benefit_feature_box:hover {
+		cursor: pointer;
 		box-shadow: 0 0 16px 8px rgb(0 0 0 / 9%);
-		border-radius: 10px;
 	}
 	.tab_data_row > .col-md-4 {
 		width: 30%;
@@ -433,7 +437,7 @@
 										<div class="row">
 											<div class="col-12">
 												<p>
-													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+													<!-- <i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i> -->
 													The total insurance rate (property value) ranges from 0.13% to 3.5%, depending on
 												</p>
 												<ul>
@@ -444,7 +448,7 @@
 											</div>
 											<div class="col-12">
 												<p>
-													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+													<!-- <i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i> -->
 													The maximum insurance life span is up to a year and can be extended annually.
 												</p>
 											</div>
