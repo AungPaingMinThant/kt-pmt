@@ -99,18 +99,19 @@
                 </div>
             </div>
             <div class="col-md-3 col-xs-12" style="padding-bottom: 20px;padding-top: -10px;padding-right: 0px;">
-                <h3 class="footer_like_title">Newsletter</h3>
-                <p class="footer_first_link_p">Get special offers & promotion.</p>
+                <h3 class="footer_like_title">Locations</h3>
+                <a class="footer_first_link_a" href="{{ url('/atm') }}"><p class="footer_first_link">ATM</p></a>
+                <a class="footer_first_link_a" href="#"><p class="footer_first_link">Branch</p></a>
+                <a class="footer_first_link_a" href="#"><p class="footer_first_link">FX Counter Locator</p></a>
                 
-                <form>
-                    <!-- <input type="text" class="form-control" name="" style="background-color: transparent;border-color: #c1c1c1;border-radius: 0px;height: 45px;;"> -->
+                <!-- <form>
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="Your Email Here" aria-label="Your Email Here" aria-describedby="basic-addon2" style="background-color: transparent;border-color: #c1c1c1;border-radius: 0px;height: 45px;border-right: none;color: #d3d3d3;">
                         <div class="input-group-append">
                             <button class="btn" type="button" style="background-color: transparent;border-color: #c1c1c1;border-radius: 0px;height: 45px;border-left: none;color: #d3d3d3 !important;"><span class="tf-icons bx bx-paper-plane"></span></button>
                         </div>
                     </div>
-                </form>
+                </form> -->
             </div>
         </div>
         <div class="row desktop_post_footer" style="padding: 30px 0px">

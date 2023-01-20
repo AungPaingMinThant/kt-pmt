@@ -938,13 +938,13 @@
 					<div class="col-md-6 tagline_div">
 						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Health<br>Insurance</p>
 						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
-						<p class="tagline_desc" style="font-weight: 400;">
+						<p class="tagline_desc" style="font-weight: 400;font-size: 15px;">
 							Health is wealth.
 						</p>
-						<p class="tagline_desc" style="font-weight: 400;">
+						<p class="tagline_desc" style="font-weight: 400;font-size: 15px;">
 							Guard your hard-earned savings from emergency healthcare and illness expenditures.
 						</p>
-						<p class="tagline_desc" style="font-weight: 400;">
+						<p class="tagline_desc" style="font-weight: 400;font-size: 15px;">
 							A flexible health insurance product that provides essential healthcare expense and medical coverage is all you need.
 						</p>
 					</div>
@@ -958,13 +958,13 @@
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
 						<p style="font-size: 20x;font-weight: 600;margin-bottom: 0px;color: #000;">Health Insurance</p>
 						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
-						<p style="font-size: 16px;font-weight: 400;">
+						<p style="font-size: 15px;font-weight: 400;">
 							Health is wealth.
 						</p>
-						<p style="font-size: 16px;font-weight: 400;">
+						<p style="font-size: 15px;font-weight: 400;">
 							Guard your hard-earned savings from emergency healthcare and illness expenditures.
 						</p>
-						<p style="font-size: 16px;font-weight: 400;">
+						<p style="font-size: 15px;font-weight: 400;">
 							A flexible health insurance product that provides essential healthcare expense and medical coverage is all you need.
 						</p>
 					</div>
@@ -995,10 +995,10 @@
 					<div class="col-md-6 tagline_div">
 						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Motor<br>Insurance</p>
 						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
-						<p style="font-size: 16px;font-weight: 400;">
+						<p style="font-size: 15px;font-weight: 400;">
 							Uncertainties are nature of our life and even the road trips can be stressful for you.
 						</p>
-						<p style="font-size: 16px;font-weight: 400;">
+						<p style="font-size: 15px;font-weight: 400;">
 							Protect yourself and those that matter to you from losses resulting from unforeseen accidents. A motor insurance with a full range of protection features that keep up with your needs is all you need.
 						</p>
 					</div>
@@ -1012,10 +1012,10 @@
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
 						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Motor Insurance</p>
 						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
-						<p style="font-size: 16px;font-weight: 400;">
+						<p style="font-size: 15px;font-weight: 400;">
 							Uncertainties are nature of our life and even the road trips can be stressful for you.
 						</p>
-						<p style="font-size: 16px;font-weight: 400;">
+						<p style="font-size: 15px;font-weight: 400;">
 							Protect yourself and those that matter to you from losses resulting from unforeseen accidents. A motor insurance with a full range of protection features that keep up with your needs is all you need.
 						</p>
 					</div>
@@ -1043,14 +1043,13 @@
 					<div class="col-md-6 family_img_div">
 						<img src="{{ url('/images/insurance/fire/family.png') }}" class="img-fluid">
 					</div>
-					<!-- style="padding-top: 80px;padding-left: 30px;" -->
-					<div class="col-md-5 tagline_div" >
+					<div class="col-md-6 tagline_div" >
 						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Fire<br>Insurance</p>
 						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
-						<p style="font-size: 16px;font-weight: 400;">
+						<p style="font-size: 15px;font-weight: 400;">
 							Shield your property and business investments from financial losses arising from damage ranging from fire, explosions, and natural disasters.
 						</p>
-						<p style="font-size: 16px;font-weight: 400;">
+						<p style="font-size: 15px;font-weight: 400;">
 							With Fire Insurance, you and your assets are well covered for whatever it is come. 
 						</p>
 					</div>
@@ -1064,10 +1063,10 @@
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
 						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Fire Insurance</p>
 						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
-						<p style="font-size: 16px;font-weight: 400;">
+						<p style="font-size: 15px;font-weight: 400;">
 							Shield your property and business investments from financial losses arising from damage ranging from fire, explosions, and natural disasters.
 						</p>
-						<p style="font-size: 16px;font-weight: 400;">
+						<p style="font-size: 15px;font-weight: 400;">
 							With Fire Insurance, you and your assets are well covered for whatever it is come. 
 						</p>
 					</div>

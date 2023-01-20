@@ -432,7 +432,7 @@
 				</div>
 			</div>
 
-			<div class="space-40"></div>
+			<!-- <div class="space-40"></div> -->
 
 			<div class="container faq_section" style="">
 				<div class="row" style="padding: 25px 20px;background-color: #f5f5f7;border-radius: 6px;">
@@ -461,7 +461,7 @@
 				
 				<div class="row">
 					<div class="col-md-12 col-xs-12">
-						<p style="font-size: 18px;color: #1d1d1f;font-weight: 600;margin-bottom: 0;">Disclaimers</p>
+						<p style="font-size: 18px;color: #1d1d1f;font-weight: 600;margin-bottom: 10px;">Disclaimers</p>
 						<p style="color: #777777;font-weight: 400;font-size: 12px;">
 							This Comprehensive Motor Insurance is underwritten by AYA Sompo Insurance Company Ltd and distributed by AYA Bank Co Ltd. It is not an obligation of, deposit in or guaranteed by AYA Bank. AYA Sompo Insurance Company Ltd reserves the right of final approval. Full details of the terms, conditions and exclusions of the insurance are provided in the policy wordings and will be sent to you upon acceptance of your application by AYA Sompo Insurance Company Ltd.
 						<p style="color: #777777;font-weight: 400;font-size: 12px;">
