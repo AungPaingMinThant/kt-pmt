@@ -13,8 +13,12 @@
    	}
    	.benefit_feature_box {
 		display: table;
+		border-radius: 5px;
+		border: 1px solid #dedede;
+	}
+	.benefit_feature_box:hover {
+		cursor: pointer;
 		box-shadow: 0 0 16px 8px rgb(0 0 0 / 9%);
-		border-radius: 10px;
 	}
 	.tab_data_row > .col-md-4 {
 		width: 30%;
