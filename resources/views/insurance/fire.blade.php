@@ -251,7 +251,7 @@
 												<img src="{{ url('/images/insurance/fire/Fire_Posse_Fire_icon.png') }}" class="img-fluid">
 											</div>
 											<div class="col-md-9">
-												<p style="font-weight: 600;">Fire / Posse Fire</p>
+												<p style="font-weight: 600;margin-bottom: 5px;">Fire / Posse Fire</p>
 												<p style="color: #4e4e4e;">It protects against total loss and partial loss caused by fire and negligence.</p>
 											</div>
 										</div>
@@ -262,7 +262,7 @@
 												<img src="{{ url('/images/insurance/fire/Household_gas_leak_icon.png') }}" class="img-fluid">
 											</div>
 											<div class="col-md-9">
-												<p style="font-weight: 600;">Household gas leak</p>
+												<p style="font-weight: 600;margin-bottom: 5px">Household gas leak</p>
 												<p style="color: #4e4e4e;">It protects against total loss and partial loss caused by household gas explosions.</p>
 											</div>
 										</div>
@@ -273,7 +273,7 @@
 												<img src="{{ url('/images/insurance/fire/Thunderstorms_and_Fire_Loss_icon.png') }}" class="img-fluid">
 											</div>
 											<div class="col-md-9">
-												<p style="font-weight: 600;">Thunderstorms and Fire Loss</p>
+												<p style="font-weight: 600;margin-bottom: 5px">Thunderstorms and Fire Loss</p>
 												<p style="color: #4e4e4e;">It protects against total loss and partial loss caused by thunderstorms and fires.</p>
 											</div>
 										</div>
@@ -284,7 +284,7 @@
 												<img src="{{ url('/images/insurance/fire/Infectious_Fire_icon.png') }}" class="img-fluid">
 											</div>
 											<div class="col-md-9">
-												<p style="font-weight: 600;">Infectious Fire</p>
+												<p style="font-weight: 600;margin-bottom: 5px">Infectious Fire</p>
 												<p style="color: #4e4e4e;">It protects against total loss and partial loss caused by infectious diseases.</p>
 											</div>
 										</div>
@@ -457,7 +457,7 @@
 				</div>
 			</div>
 
-			<div class="space-40"></div>
+			<!-- <div class="space-40"></div> -->
 
 			<div class="container faq_section" style="">
 				<div class="row" style="padding: 25px 20px;background-color: #f5f5f7;border-radius: 6px;">
@@ -486,7 +486,7 @@
 				
 				<div class="row">
 					<div class="col-md-12 col-xs-12">
-						<p style="font-size: 18px;color: #1d1d1f;font-weight: 600;margin-bottom: 0;">Disclaimers</p>
+						<p style="font-size: 18px;color: #1d1d1f;font-weight: 600;margin-bottom: 10px;">Disclaimers</p>
 						<p style="color: #777777;font-weight: 400;font-size: 12px;">
 							This Fire Insurance is underwritten by AYA Sompo Insurance Company Ltd and distributed by AYA Bank Co Ltd. It is not an obligation of, deposit in or guaranteed by AYA Bank. AYA Sompo Insurance Company Ltd reserves the right of final approval. Full details of the terms, conditions and exclusions of the insurance are provided in the policy wordings and will be sent to you upon acceptance of your application by AYA Sompo Insurance Company Ltd.
 						<p style="color: #777777;font-weight: 400;font-size: 12px;">
