@@ -223,7 +223,7 @@
 				</div>
 				<div class="space-80"></div>
 
-				<div class="nav-align-top mb-4">
+				<div class="nav-align-top">
 					<ul class="nav nav-pills " role="tablist" style="justify-content: center;display: none;">
 						<li class="nav-item">
 							<button type="button" class="tab_title nav-link active" id="coverage_tab" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-top-coverage" aria-controls="navs-pills-top-coverage" aria-selected="true" >
@@ -482,7 +482,7 @@
 					</div>
 				</div>
 
-				<div class="space-40"></div>
+				<div class="space-30"></div>
 				
 				<div class="row">
 					<div class="col-md-12 col-xs-12">
