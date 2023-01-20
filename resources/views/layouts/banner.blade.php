@@ -125,7 +125,7 @@
 		background-position: center right;
 	}
 	.pa_ins_banner {
-		background-image:url('../images/insurance/pa/KV_bg.png');
+		background-image:url('../images/insurance/PA/KV_bg.png');
 		background-size: cover;
 		height: 440px;
 		background-position: center right;
@@ -1094,7 +1094,7 @@
 			<div class="d-none d-sm-block">
 				<div class="row">
 					<div class="col-md-6 family_img_div">
-						<img src="{{ url('/images/insurance/pa/family.png') }}" class="img-fluid">
+						<img src="{{ url('/images/insurance/PA/family.png') }}" class="img-fluid">
 					</div>
 					<div class="col-md-6 tagline_div">
 						<p style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Personal Accident<br>Insurance</p>
