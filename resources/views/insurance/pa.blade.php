@@ -261,7 +261,7 @@
 									<div class="col-md-4 benefit_feature_box" style="padding: 20px;margin-bottom: 20px;">
 										<div class="row">
 											<div class="col-md-3">
-												<img src="{{ url('/images/insurance/pa/death_due_to_accident.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+												<img src="{{ url('/images/insurance/PA/death_due_to_accident.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 											</div>
 											<div class="col-md-9" style="padding-left:0;">
 												<p style="font-weight: 600;margin-bottom: 0;">Death due to accident</p>
@@ -272,7 +272,7 @@
 									<div class="col-md-4 benefit_feature_box" style="padding: 20px;margin-bottom: 20px;">
 										<div class="row">
 											<div class="col-md-3">
-												<img src="{{ url('/images/insurance/pa/permanent_disability.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+												<img src="{{ url('/images/insurance/PA/permanent_disability.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 											</div>
 											<div class="col-md-9" style="padding-left:0;">
 												<p style="font-weight: 600;margin-bottom: 0;">Permanent Disability</p>
@@ -283,7 +283,7 @@
 									<div class="col-md-4 benefit_feature_box" style="padding: 20px;margin-bottom: 20px;">
 										<div class="row">
 											<div class="col-md-3">
-												<img src="{{ url('/images/insurance/pa/injury_loss_limbs.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+												<img src="{{ url('/images/insurance/PA/injury_loss_limbs.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 											</div>
 											<div class="col-md-9" style="padding-left:0;">
 												<p style="font-weight: 600;margin-bottom: 0;">Injury / Loss of Limbs</p>
@@ -294,7 +294,7 @@
 									<div class="col-md-4 benefit_feature_box" style="padding: 20px;margin-bottom: 20px;">
 										<div class="row">
 											<div class="col-md-3">
-												<img src="{{ url('/images/insurance/pa/hospitalizaiton_not_able_work.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+												<img src="{{ url('/images/insurance/PA/hospitalizaiton_not_able_work.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 											</div>
 											<div class="col-md-9" style="padding-left:0;">
 												<p style="font-weight: 600;margin-bottom: 0;">Hospitalization / Not able to work</p>
