@@ -12,9 +12,6 @@
     <link rel="stylesheet" href="{{ url('/fonts/boxicons.css') }}" />
     <link rel="stylesheet" href="{{ url('/css/style.css') }}" />
     <link rel="stylesheet" href="{{ url('/css/core.css') }}" />
-    <link rel="stylesheet" href="{{ url('/css/theme-default.css') }}" />
-    <link rel="stylesheet" href="{{ url('/css/design.css') }}" />
-    <link rel="stylesheet" href="{{ url('/css/perfect-scrollbar.css') }}" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +22,7 @@
             font-family: 'Sora', sans-serif;
             background-color: #ffffff;
             font-size: 14px;
-	       color: #2e2e2e !important;
+            color: #2e2e2e !important;
         }
         .menu > .nav-item {            
             text-transform: uppercase !important;
@@ -70,6 +67,12 @@
         .space-80 {
             height: 80px;
         }
+        .secure_req_application_icon {
+            background-color: #a02226;
+            color: #fff;
+            border-radius: 50%;
+            font-size: 20px;
+        }
     </style>
 </head>
 <body>
@@ -80,8 +83,5 @@
     <script src="{{ url('/js/bootstrap.min.js') }}"></script>
     <script src="{{ url('/js/util.js') }}"></script>
     <script src="{{ url('/js/moment.js') }}"></script>
-    <script src="{{ url('/js/function.js') }}"></script>
-    <script src="{{ url('/js/config.js') }}"></script>
-    <script src="{{ url('/js/helpers.js') }}"></script>
 </body>
 </html>

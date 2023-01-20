@@ -1,0 +1,48 @@
+.nav-align-top .nav-tabs .nav-item:first-child .nav-link {
+	border-top:  none;
+	border-left: none;
+	border-right: none;
+	box-shadow: none;
+}
+	.nav-align-top > .tab-content {
+		box-shadow: none !important;
+	}
+	.benefit_feature_box {
+	display: table;
+	border-radius: 5px;
+	border: 1px solid #dedede;
+}
+.benefit_feature_box:hover {
+	cursor: pointer;
+	box-shadow: 0 0 16px 8px rgb(0 0 0 / 9%);
+}
+
+.read_more_btn {
+	background-color: transparent !important;
+	color: #2e2e2e !important;
+	border-radius: 5px !important;
+	border: 1px solid #2e2e2e !important;
+}
+.read_more_btn:hover{
+	background-color: #fff !important;
+	color: #2e2e2e !important;
+	border: 1px solid #2e2e2e !important;
+}
+.section_1 {
+    padding: 0px 100px !important;
+}
+.list_margin {
+	margin-left: -5%;
+}
+
+@media only screen and (max-width: 576px){
+	.tab-pane {
+		background-position: -80px -70px;
+	}
+	.section_1 {
+	    padding: 0px 30px !important;
+	}
+	.list_margin {
+		margin-left: 0;
+	}
+}
