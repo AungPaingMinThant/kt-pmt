@@ -49,6 +49,20 @@
     .social_icon:hover > span {
         color: #989ba1 !important;
     }
+    #go_to_top {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        border: none;
+        outline: none;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 10px;
+        width: 5%;
+    }
     @media  only screen and (max-width: 576px) {
         #first_footer_height{
             height: auto;
@@ -156,7 +170,7 @@
         </div>
     </div>
 </div>
-
+<img src="{{url('/images/go_to_top.png')}}"  data-src="{{url('/images/go_to_top.png')}}" data-hover="{{url('/images/go_to_top_hover.png')}}" id="go_to_top" title="Go to top" onclick="topFunction()">
 <script src="{{ url('/js/jquery.js') }}"></script>
 <script type="text/javascript">
     $('[data-toggle="slide-collapse"]').on('click', function() {
@@ -173,5 +187,30 @@
     $("#navbar_close").click(function(event) {
         $(".navbar-toggle").trigger("click");
         $(".menu-overlay").fadeOut(500);
+    });
+    
+
+    mybutton = document.getElementById("go_to_top");
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    function topFunction() {
+        var body = $("html, body");
+            body.stop().animate({scrollTop:0}, 500, function() { 
+        });
+    }
+
+    $("#go_to_top").mouseover(function () {
+        $(this).attr('src', $(this).data("hover"));
+    }).mouseout(function () {
+        $(this).attr('src', $(this).data("src"));
     });
 </script>

@@ -29,45 +29,45 @@
 					<div class="col-md-4">
 						<div id="scrollspy-collapsible" class="sticky-top">
 							<ul class="nav flex-column nav-pills menu-sidebar">
-								<li class="nav-item">
-									<a class="nav-link" href="#example-1-collapsible">Updating Profile / particulars on mobile</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#example-2-collapsible">How to add Bill payment organization</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#example-3-collapsible">How to top-up the mobile bill</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#example-4-collapsible">How to transfer Funds</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#example-5-collapsible">How to check credit card transaction details</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#example-6-collapsible">How to request Money</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#example-7-collapsible">Make payment with QR code</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#example-8-collapsible">How to check location of ATMs and Branches</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#example-9-collapsible">Check eligibility for HP Auto Loan, Mortgage etc.</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#example-10-collapsible">Viewing E-statements</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#example-11-collapsible">Calculation for Deposits</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#example-11-collapsible">How to manage bank account/ payees</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#example-11-collapsible">Create cash code for ATM withdrawal</a>
-								</li>
+								<li class="advice_title_li link_active advice_1">
+								<span>Updating Profile / particulars on mobile</span>
+							</li>
+							<li class="advice_title_li advice_2">
+								<span>How to add Bill payment organization</span>
+							</li>
+							<li class="advice_title_li advice_3">
+								<span>How to top-up the mobile bill</span>
+							</li>
+							<li class="advice_title_li advice_4">
+								<span>How to transfer Funds</span>
+							</li>
+							<li class="advice_title_li advice_5">
+								<span>How to check credit card transaction details</span>
+							</li>
+							<li class="advice_title_li advice_6">
+								<span>How to request Money</span>
+							</li>
+							<li class="advice_title_li advice_7">
+								<span>Make payment with QR code</span>
+							</li>
+							<li class="advice_title_li advice_8">
+								<span>How to check location of ATMs and Branches</span>
+							</li>
+							<li class="advice_title_li advice_9">
+								<span>Check eligibility for HP Auto Loan, Mortgage etc.</span>
+							</li>
+							<li class="advice_title_li advice_10">
+								<span>Viewing E-statements</span>
+							</li>
+							<li class="advice_title_li advice_11">
+								<span>Calculation for Deposits</span>
+							</li>
+							<li class="advice_title_li advice_12">
+								<span>How to manage bank account/ payees</span>
+							</li>
+							<li class="advice_title_li advice_13">
+								<span>Create cash code for ATM withdrawal</span>
+							</li>
 							</ul>
 						</div>
 					</div>
