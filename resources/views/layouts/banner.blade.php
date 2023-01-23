@@ -1470,7 +1470,7 @@
 						<p style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">One Health Solution<br>Individual Plan</p>
 						<hr style="height: 5px;color: #a02226;width: 15%;margin: 0px 0px 20px 0px;">
 						<p class="tagline_desc" style="font-weight: 400;font-size: 15px;">
-							With the constant escalating costs of healthcare and the ever-rising instances of new diseases in the world, medical insurance becomes a necessity today. The fallout from a medical emergency or unforeseen expense could extend beyond your immediate finances to loss of income.
+							With the constant escalating costs of healthcare and the ever-rising instances of new diseases in the world, medical insurance becomes a basic need today. The fallout from a medical emergency or unforeseen expense could extend beyond your immediate finances to loss of income.
 						</p>
 						<p class="tagline_desc" style="font-weight: 400;font-size: 15px;">
 							To avoid this, One Health Solution provides comprehensive much-needed financial support and safeguarding in difficult times against escalating medical costs and more, so that you can be rest assured your medical costs are covered.
@@ -1487,7 +1487,7 @@
 						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">One Health Solution Individual Plan</p>
 						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
 						<p style="font-size: 15px;font-weight: 400;">
-							With the constant escalating costs of healthcare and the ever-rising instances of new diseases in the world, medical insurance becomes a necessity today. The fallout from a medical emergency or unforeseen expense could extend beyond your immediate finances to loss of income.
+							With the constant escalating costs of healthcare and the ever-rising instances of new diseases in the world, medical insurance becomes a basic need today. The fallout from a medical emergency or unforeseen expense could extend beyond your immediate finances to loss of income.
 						</p>
 						<p style="font-size: 15px;font-weight: 400;">
 							To avoid this, One Health Solution provides comprehensive much-needed financial support and safeguarding in difficult times against escalating medical costs and more, so that you can be rest assured your medical costs are covered.
