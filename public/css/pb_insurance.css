@@ -4,10 +4,10 @@
 	border-right: none;
 	box-shadow: none;
 }
-	.nav-align-top > .tab-content {
-		box-shadow: none !important;
-	}
-	.benefit_feature_box {
+.nav-align-top > .tab-content {
+	box-shadow: none !important;
+}
+.benefit_feature_box {
 	display: table;
 	border-radius: 5px;
 	border: 1px solid #dedede;

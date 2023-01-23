@@ -17,6 +17,12 @@
 	.frequently_section_1 {
 	    padding: 0px 100px !important;
 	}
+	.col-1 {
+		width: 6% !important;
+	}
+	.col-11 {
+		padding-left: 0px !important;
+	}
 	@media only screen and (max-width: 576px){
 		.frequently_section_1 {
 		    padding: 0px 20px !important;
@@ -39,225 +45,238 @@
 					<div class="row">
 						<div class="col-md-4 advice_title">						
 							<li class="advice_title_li link_active advice_1">
-								<span>Updating Profile / particulars on mobile</span>
+								<span>1. Updating Particulars in Mobile Banking</span>
 							</li>
 							<li class="advice_title_li advice_2">
-								<span>How to add Bill payment organization</span>
+								<span>2. How to make bill payment</span>
 							</li>
 							<li class="advice_title_li advice_3">
-								<span>How to top-up the mobile bill</span>
+								<span>3. How to Top-up Mobile</span>
 							</li>
 							<li class="advice_title_li advice_4">
-								<span>How to transfer Funds</span>
+								<span>4. How to Transfer Funds</span>
 							</li>
 							<li class="advice_title_li advice_5">
-								<span>How to check credit card transaction details</span>
+								<span>5. How to check Credit Card Transation Details</span>
 							</li>
 							<li class="advice_title_li advice_6">
-								<span>How to request Money</span>
+								<span>6. How to Request Money</span>
 							</li>
 							<li class="advice_title_li advice_7">
-								<span>Make payment with QR code</span>
+								<span>7. Simply Pay With QR Code</span>
 							</li>
 							<li class="advice_title_li advice_8">
-								<span>How to check location of ATMs and Branches</span>
+								<span>8. How to check locations of ATMs and Branches</span>
 							</li>
 							<li class="advice_title_li advice_9">
-								<span>Check eligibility for HP Auto Loan, Mortgage etc.</span>
+								<span>9. How to check eligibilty for Loan application</span>
 							</li>
 							<li class="advice_title_li advice_10">
-								<span>Viewing E-statements</span>
+								<span>10. Calculation for Deposits' Interest</span>
 							</li>
 							<li class="advice_title_li advice_11">
-								<span>Calculation for Deposits</span>
+								<span>11. How to manage payees</span>
 							</li>
 							<li class="advice_title_li advice_12">
-								<span>How to manage bank account/ payees</span>
+								<span>12. Cardless cash withdrawal at ATM</span>
 							</li>
-							<li class="advice_title_li advice_13">
+							<!-- <li class="advice_title_li advice_13">
 								<span>Create cash code for ATM withdrawal</span>
-							</li>
+							</li> -->
 						</div>
 						<div class="col-md-8">
 							<section class="advide_desc" id="advice_1_collapsible">
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+								<p>Your registered mobile banking number is widely used to directly transfer the funds through mobile banking apps.</p>
 
-								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+								<p>It is very important that your credentials are up to date without fail to ensure you are reachable for any matters related to your account.</p>
 
-								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
+								<p>How to update your particulars in your mobile banking?</p>
 
-								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
+								<p>This can be done with a few easy steps only.</p>
 
-								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+								<!-- image -->
+								<p style="font-weight: 600;margin-bottom: 10px;">Update the following information in mobile banking</p>
 
-								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
+								<div class="row">
+									<div class="col-1">
+										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									</div>
+									<div class="col-11">
+										<p style="margin-bottom: 5px;font-weight: 500;">Your Name</p>
+										<p>Please ensure your name is spelled correctly as you opened your accounts.</p>
+									</div>
 
-								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
+									<div class="col-1">
+										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									</div>
+									<div class="col-11">
+										<p style="margin-bottom: 5px;font-weight: 500;">Your National Registration Card Number and date of birth</p>
+										<p>These data are vital as it is the main proof of identity.</p>
+									</div>
+
+									<div class="col-1">
+										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									</div>
+									<div class="col-11">
+										<p style="margin-bottom: 5px;font-weight: 500;">Your Email address</p>
+										<p>Ensure your email address is up to date, so we can stay in touch.</p>
+									</div>
+
+									<div class="col-1">
+										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									</div>
+									<div class="col-11">
+										<p style="margin-bottom: 5px;font-weight: 500;">Your Phone number that was registered when opening accounts</p>
+										<p>Keep your mobile number updated to receive transaction alerts and be notified of your account activities. The mobile number must be uniquely yours and do not share with another person.</p>
+									</div>
+								</div>
 							</section>
 							<section class="advide_desc" id="advice_2_collapsible" style="display: none;">
-								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+								<p>Being available 24/7, AYA mobile banking is great for those who could not be able to visit the actual facility during its working hours. You can use mobile banking to pay for your bills conveniently and in a straightforward way.</p>
 
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+								<p>Find out how you can make bill payment using mobile banking. </p>
 
-								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
+								<!-- image -->
 
-								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
+								<p style="font-weight: 600;margin-bottom: 10px;">Type of bill payments available in AYA mobile banking</p>
 
-								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+								<p>We have a wide range more than hundred over billing organization for you to make hassle-free payment. We provide the following services for your convenience.</p>
 
-								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
-
-								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
+								<div class="row">
+									<div class="col-12">
+										<p style="color: #4e4e4e;">
+											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											Credit cards
+										</p>
+										<p style="color: #4e4e4e;">
+											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											Electricity
+										</p>
+										<p style="color: #4e4e4e;">
+											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											Loans
+										</p>
+										<p style="color: #4e4e4e;">
+											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											Insurance
+										</p>
+										<p style="color: #4e4e4e;">
+											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											Grocery Stores
+										</p>
+										<p style="color: #4e4e4e;">
+											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											Communication
+										</p>
+										<p style="color: #4e4e4e;">
+											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											School fees
+										</p>
+										<p style="color: #4e4e4e;">
+											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											Mobile
+										</p>
+										<p style="color: #4e4e4e;">
+											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											Travels
+										</p>
+									</div>
+								</div>
 							</section>
 							<section class="advide_desc" id="advice_3_collapsible" style="display: none;">
-								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
+								<p>Topping up your mobile phone in mobile banking is just on your fingertips.</p>
 
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+								<p>You can top up all telecom phone bills operating in Myanmar with deposit account.</p>
 
-								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>								
+								<p>Top up a mobile phone just in 5 easy steps.</p>								
 
-								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
+								<!-- image -->
 
-								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-
-								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
-
-								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
+								<div class="row">
+									<div class="col-1">
+										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									</div>
+									<div class="col-11">
+										<p>Fast and Secure top-up service, applied in real-time. Stay in touch with family and friends.</p>
+									</div>
+								</div>
 							</section>
 							<section class="advide_desc" id="advice_4_collapsible" style="display: none;">
-								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
+								<p>The days are gone that we need to line up at the bank every time we’d have to pay for or send money.</p>
 
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+								<p>You can transfer funds instantly 24/7 to any of AYA Banks accounts or other local banks accounts in Myanmar round the clock through mobile banking.</p>
 
-								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+								<p>Your money can get to where it must be within just seconds.</p>
 
-								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>								
+								<!-- image -->
 
-								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-
-								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
-
-								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
+								<p style="font-size: 12px;">Notes: Please note that there is a transaction fees applied for every transaction.</p>
 							</section>
 							<section class="advide_desc" id="advice_5_collapsible" style="display: none;">
-								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
+								<p>A record of previous financial transactions is vital for all individuals and business.</p>
 
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+								<p>It is recommended to track spending on credit card before you can reconcile with a credit card statement.</p>
 
-								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+								<p>Monitor your expenses with a few steps here.</p>
 
-								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>								
-
-								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-
-								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
-
-								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
+								<!-- image -->
 							</section>
 							<section class="advide_desc" id="advice_6_collapsible" style="display: none;">
-								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
+								<p>Do you need to request money from others?</p>
 
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+								<p>We offer the option of generating your own QR code in mobile banking apps and send it over as an image to get someone paid to you.</p>
 
-								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+								<p>Please follow the simple steps below.</p>
 
-								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>								
-
-								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-
-								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
-
-								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
+								<!-- image -->
 							</section>
 							<section class="advide_desc" id="advice_7_collapsible" style="display: none;">
-								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
+								<p>AYA mobile payment feature can keep you comfort.</p>
 
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+								<p>At any time anywhere, just scan and pay instantly with QR code to save yourself the hassle of having to exchange currency.</p>
 
-								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+								<!-- image -->
 
-								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>								
-
-								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-
-								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
-
-								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
+								<p style="font-size: 12px;">Notes: You are advised to ensure the correct recipient and amount of transfer before proceeding the transaction.</p>
 							</section>
 							<section class="advide_desc" id="advice_8_collapsible" style="display: none;">
-								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
+								<p>For the sake of convenience and better service, we are using centralized online real-time exchange banking system. You can visit any nearest branches to receive banking services.</p>
 
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+								<p>Please find out our ATMs and Branches location in mobile application.</p>
 
-								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-
-								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>								
-
-								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-
-								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
-
-								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
+								<!-- image -->
 							</section>
 							<section class="advide_desc" id="advice_9_collapsible" style="display: none;">
-								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
+								<p>Are you looking at applying for any loan with AYA Bank?</p>
 
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+								<p>In AYA mobile apps, we will take you to explore various requirements you need to fulfill to take Auto loan, home loan and Education loan with us.</p>
 
-								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+								<p>Learn your eligibility more with simple steps.</p>
 
-								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>								
-
-								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-
-								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
-
-								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
+								<!-- image -->
 							</section>
 							<section class="advide_desc" id="advice_10_collapsible" style="display: none;">
-								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
+								<p>Are you planning to open saving accounts or a fixed deposit account with us?</p>
 
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+								<p>Explore how you can calculate returns on it before saving and investing in a few simple steps.</p>
 
-								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-
-								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>								
-
-								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-
-								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
-
-								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
+								<!-- image -->
 							</section>
 							<section class="advide_desc" id="advice_11_collapsible" style="display: none;">
-								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
+								<p>If you need to transfer to specific payee regularly instead of one-off payment, it is advisable to register in your payee list. It helps you saving the time for your next transfer and protects from making payments by mistake.</p>
 
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-
-								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-
-								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>								
-
-								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-
-								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
-
-								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
+								<!-- image -->
 							</section>
 							<section class="advide_desc" id="advice_12_collapsible" style="display: none;">
-								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
+								<p>Withdrawing funds from ATMs become more convenient now. We have upgraded the system of withdrawing cash from ATMs without using the debit or credit cards.</p>
 
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+								<p>This will save our ATM users from having lost cards, declined transactions due to incorrect PIN and taking cards to ATMs.</p>
 
-								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+								<p>Here is step by step guide to access the cardless cash withdrawal facility to our customers.</p>
 
-								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>								
+								<!-- image -->
 
-								<p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-
-								<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
-
-								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
+								<p style="font-size: 12px;">Notes: You can create another cash code if the current cash code was expired.</p>
 							</section>
 							<section class="advide_desc" id="advice_13_collapsible" style="display: none;">
 								<p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, Leo eget bibendum sodales, augue velit cursus nunc.</p>
