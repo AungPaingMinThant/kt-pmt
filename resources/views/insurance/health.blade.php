@@ -7,6 +7,19 @@
 	.tab_data_row > .col-md-4 {
 		width: 30%;
 	}
+	.benefit_table {
+		padding: 0px !important;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		background-color: transparent;
+		margin-bottom: 0px !important;
+	}
+	.benefit_table_div {
+		background: linear-gradient(90deg, transparent 50%, #ebebeb 50%);
+		padding: 0px !important;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
 	@media (max-width: 1300px) and (min-width: 1000px) {
 		.tab_data_row > .col-md-4 {
 			width: 48%;
@@ -15,6 +28,13 @@
 	@media only screen and (max-width: 576px){
 		.tab_data_row > .col-md-4 {
 			width: 100%;
+		}
+		.benefit_table_div {
+			overflow: auto;
+		}
+		.benefit_table {
+			zoom: 80%;
+			margin-bottom: 0px !important;
 		}
 	}
 </style>

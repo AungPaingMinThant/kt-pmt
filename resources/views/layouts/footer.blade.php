@@ -73,9 +73,12 @@
         .desktop_post_footer {
             display: none;
         }
+        #go_to_top {
+            width: 19%;
+        }
     }
 </style>
-
+<img src="{{url('/images/go_to_top.png')}}"  data-src="{{url('/images/go_to_top.png')}}" data-hover="{{url('/images/go_to_top_hover.png')}}" id="go_to_top" title="Go to top" onclick="topFunction()">
 <div id="index_footer" style="background-color: #484848;padding: 33px 0px 0px 0px;">
     <div style="height: 16px;"></div>
     <div class="container footer_section" style="">
@@ -170,7 +173,7 @@
         </div>
     </div>
 </div>
-<img src="{{url('/images/go_to_top.png')}}"  data-src="{{url('/images/go_to_top.png')}}" data-hover="{{url('/images/go_to_top_hover.png')}}" id="go_to_top" title="Go to top" onclick="topFunction()">
+
 <script src="{{ url('/js/jquery.js') }}"></script>
 <script type="text/javascript">
     $('[data-toggle="slide-collapse"]').on('click', function() {

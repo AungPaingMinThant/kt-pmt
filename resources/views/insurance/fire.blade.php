@@ -121,35 +121,35 @@
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-11 list_margin">
+											<div class="col-11">
 												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Damage done by aircraft</p>
 												<p style="color: #4e4e4e;">It protects against the loss caused by aircraft-related materials.</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-11 list_margin">
+											<div class="col-11">
 												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Damage caused by land passenger vehicle</p>
 												<p style="color: #4e4e4e;">It protects against losses caused by land traffic.</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-11 list_margin">
+											<div class="col-11">
 												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Landslides</p>
 												<p style="color: #4e4e4e;">It protects against loss caused by landslides, landslides, and landslides.</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-11 list_margin">
+											<div class="col-11">
 												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Various storms</p>
 												<p style="color: #4e4e4e;">It protects against loss caused by typhoons.</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-11 list_margin">
+											<div class="col-11">
 												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Explosive destruction</p>
 												<p style="color: #4e4e4e;">It protects the loss caused by explosions.</p>
 											</div>
@@ -163,28 +163,28 @@
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-11 list_margin">
+											<div class="col-11">
 												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Stealing</p>
 												<p style="color: #4e4e4e;">It protects the loss caused by breaking and stealing.</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-11 list_margin">
+											<div class="col-11">
 												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Earthquake and volcanic eruption</p>
 												<p style="color: #4e4e4e;">It protect against the loss caused by earthquakes and volcanic eruptions.</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-11 list_margin">
+											<div class="col-11">
 												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Flood, Flooding</p>
 												<p style="color: #4e4e4e;">It protects against losses caused by flooding and Inundation.</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-11 list_margin">
+											<div class="col-11">
 												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Automatic fires</p>
 												<p style="color: #4e4e4e;">It protects against loss caused by spontaneous reactions, heating, and fires.</p>
 											</div>
@@ -225,7 +225,7 @@
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-11 list_margin">
+											<div class="col-11">
 												<p style="color: #000;font-weight: 600;margin-bottom: 0;">No Claim Bonus</p>
 												<p style="color: #4e4e4e;">As a non-compensation award, it is reduced to 25% of the original insurance.</p>
 											</div>
@@ -236,7 +236,7 @@
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-11 list_margin">
+											<div class="col-11">
 												<p style="color: #000;font-weight: 600;margin-bottom: 0;">24-Hour Emergency Claim Service</p>
 												<p style="color: #4e4e4e;">If you would like to seek 24-hour emergency compensation, contact our 24-hour emergency services team.</p>
 											</div>
