@@ -285,10 +285,14 @@
 			background-image:url('./images/atm/mobile_KV.jpg');
 			background-position: 80% center;
 		}
-		.health_ins_banner, .pa_ins_banner, .motor_ins_banner, .fire_ins_banner, .aya_go_ins_banner, .aya_joy_ins_banner, 
+		.health_ins_banner, .pa_ins_banner, .motor_ins_banner, .fire_ins_banner, 
 		.life_short_term_ins_banner, .life_edu_ins_banner
 		{
 			height: 620px;
+			background-position: 80% center;
+		}
+		.aya_joy_ins_banner, .aya_go_ins_banner {
+			height: 550px;
 			background-position: 80% center;
 		}
 		.life_universal_ins_banner {
@@ -1215,7 +1219,7 @@
 			<div class="d-block d-sm-none">
 				<div class="row">
 					<div class="col-md-6" style="padding-top: 20px;">
-						<img src="{{ url('/images/insurance/aya-go/family_img.png') }}" class="img-fluid">
+						<img src="{{ url('/images/insurance/aya-go/family.png') }}" class="img-fluid">
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
 						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">AYA Go Travel Insurance</p>
@@ -1267,7 +1271,7 @@
 			<div class="d-block d-sm-none">
 				<div class="row">
 					<div class="col-md-6" style="padding-top: 20px;">
-						<img src="{{ url('/images/insurance/aya-joy/family_img.png') }}" class="img-fluid">
+						<img src="{{ url('/images/insurance/aya-joy/family.png') }}" class="img-fluid">
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
 						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">AYA Joy Travel Insurance</p>
