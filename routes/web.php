@@ -71,3 +71,9 @@ Route::get('/insurance/health','App\Http\Controllers\Insurance\HealthInsuranceCo
 Route::get('/insurance/motor','App\Http\Controllers\Insurance\MotorInsuranceController@index');
 Route::get('/insurance/fire','App\Http\Controllers\Insurance\FireInsuranceController@index');
 Route::get('/insurance/personal-accident','App\Http\Controllers\Insurance\PAInsuranceController@index');
+Route::get('/insurance/travel/aya-go','App\Http\Controllers\Insurance\AYAGOInsuranceController@index');
+Route::get('/insurance/travel/aya-joy','App\Http\Controllers\Insurance\AYAJoyInsuranceController@index');
+Route::get('/insurance/life/universal','App\Http\Controllers\Insurance\LifeInsuranceController@universalIndex');
+Route::get('/insurance/life/education','App\Http\Controllers\Insurance\LifeInsuranceController@educationIndex');
+Route::get('/insurance/life/one-health-solution-individual-plan','App\Http\Controllers\Insurance\LifeInsuranceController@oneHealthIndex');
+Route::get('/insurance/life/short-term','App\Http\Controllers\Insurance\LifeInsuranceController@shorttermIndex');

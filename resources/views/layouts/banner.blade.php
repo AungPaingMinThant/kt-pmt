@@ -109,6 +109,10 @@
 		padding-top: 80px;
 		padding-left: 30px;
 	}
+	.life_tagline_div {
+		padding-top: 50px;
+		padding-left: 30px;
+	}
 	.tagline_desc {
 		font-size: 16px;
 	}
@@ -126,6 +130,42 @@
 	}
 	.pa_ins_banner {
 		background-image:url('../images/insurance/PA/KV_bg.png');
+		background-size: cover;
+		height: 440px;
+		background-position: center right;
+	}
+	.aya_go_ins_banner {
+		background-image:url('../../images/insurance/aya-go/KV_bg.png');
+		background-size: cover;
+		height: 440px;
+		background-position: center right;
+	}
+	.aya_joy_ins_banner {
+		background-image:url('../../images/insurance/aya-joy/KV_bg.png');
+		background-size: cover;
+		height: 440px;
+		background-position: center right;	
+	}
+	.life_universal_ins_banner {
+		background-image:url('../../images/insurance/life/KV_bg.png');
+		background-size: cover;
+		height: 440px;
+		background-position: center right;
+	}
+	.life_short_term_ins_banner {
+		background-image:url('../../images/insurance/life/KV_bg.png');
+		background-size: cover;
+		height: 440px;
+		background-position: center right;
+	}
+	.life_edu_ins_banner {
+		background-image:url('../../images/insurance/life/KV_bg.png');
+		background-size: cover;
+		height: 440px;
+		background-position: center right;
+	}
+	.life_one_health_indi_ins_banner {
+		background-image:url('../../images/insurance/life/KV_bg.png');
 		background-size: cover;
 		height: 440px;
 		background-position: center right;
@@ -172,7 +212,9 @@
 		.atm_banner {
 		    background-position: 90% center;
 		}
-		.health_ins_banner, .fire_ins_banner, .motor_ins_banner, .pa_ins_banner {
+		.health_ins_banner, .fire_ins_banner, .motor_ins_banner, .pa_ins_banner, .aya_go_ins_banner, .aya_joy_ins_banner, 
+		.life_universal_ins_banner, .life_short_term_ins_banner, .life_edu_ins_banner, .life_one_health_indi_ins_banner
+		{
 			height: 310px;
 		}
 		.family_img_div {
@@ -243,8 +285,18 @@
 			background-image:url('./images/atm/mobile_KV.jpg');
 			background-position: 80% center;
 		}
-		.health_ins_banner, .pa_ins_banner, .motor_ins_banner, .fire_ins_banner {
+		.health_ins_banner, .pa_ins_banner, .motor_ins_banner, .fire_ins_banner, .aya_go_ins_banner, .aya_joy_ins_banner, 
+		.life_short_term_ins_banner, .life_edu_ins_banner
+		{
 			height: 620px;
+			background-position: 80% center;
+		}
+		.life_universal_ins_banner {
+			height: 650px;
+			background-position: 80% center;
+		}
+		.life_one_health_indi_ins_banner {
+			height: 750px;
 			background-position: 80% center;
 		}
 		.bread_crumb_text {
@@ -958,7 +1010,7 @@
 						<img src="{{ url('/images/insurance/health/family_img.png') }}" class="img-fluid">
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
-						<p style="font-size: 20x;font-weight: 600;margin-bottom: 0px;color: #000;">Health Insurance</p>
+						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Health Insurance</p>
 						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
 						<p style="font-size: 15px;font-weight: 400;">
 							Health is wealth.
@@ -1111,19 +1163,334 @@
 			<div class="d-block d-sm-none">
 				<div class="row">
 					<div class="col-md-6" style="padding-top: 20px;">
-						<img src="{{ url('/images/insurance/health/family_img.png') }}" class="img-fluid">
+						<img src="{{ url('/images/insurance/PA/family.png') }}" class="img-fluid">
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
-						<p style="font-size: 20x;font-weight: 600;margin-bottom: 0px;color: #000;">Health Insurance</p>
+						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Personal Accident Insurance</p>
 						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
 						<p style="font-size: 15px;font-weight: 400;">
-							Health is wealth.
+							Accidents happen when least expected and at times turn into dramatically life changing events. What’s worse is the financial burden that comes with it.
 						</p>
 						<p style="font-size: 15px;font-weight: 400;">
-							Guard your hard-earned savings from emergency healthcare and illness expenditures.
+							Purchase a personal accident insurance safety net which provides comprehensive accident coverage.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
+
+@if($page == 'aya_go_insurance')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;TRAVEL INSURANCE&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">AYA GO TRAVEL INSURANCE</span>
+			</p>
+		</div>
+	</div>
+	<div class="aya_go_ins_banner">
+		<div class="container">
+			<div class="d-none d-sm-block">
+				<div class="row">
+					<div class="col-md-6 family_img_div">
+						<img src="{{ url('/images/insurance/aya-go/family.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-6 tagline_div">
+						<p style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">AYA Go<br>Travel Insurance</p>
+						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
+						<p class="tagline_desc" style="font-weight: 400;font-size: 15px;">
+							Are you planning for a business travel or a personal trip around Myanmar?
+						</p>
+						<p class="tagline_desc" style="font-weight: 400;font-size: 15px;">
+							You’re protected from a variety of unexpected circumstances, allowing you to enjoy every moment. Explore Myanmar with AYA Go!
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="d-block d-sm-none">
+				<div class="row">
+					<div class="col-md-6" style="padding-top: 20px;">
+						<img src="{{ url('/images/insurance/aya-go/family_img.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
+						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">AYA Go Travel Insurance</p>
+						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<p style="font-size: 15px;font-weight: 400;">
+							Are you planning for a business travel or a personal trip around Myanmar?
 						</p>
 						<p style="font-size: 15px;font-weight: 400;">
-							A flexible health insurance product that provides essential healthcare expense and medical coverage is all you need.
+							You’re protected from a variety of unexpected circumstances, allowing you to enjoy every moment. Explore Myanmar with AYA Go!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
+
+@if($page == 'aya_joy_insurance')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;TRAVEL INSURANCE&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">AYA JOY TRAVEL INSURANCE</span>
+			</p>
+		</div>
+	</div>
+	<div class="aya_joy_ins_banner">
+		<div class="container">
+			<div class="d-none d-sm-block">
+				<div class="row">
+					<div class="col-md-6 family_img_div">
+						<img src="{{ url('/images/insurance/aya-joy/family.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-6 tagline_div">
+						<p style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">AYA Joy<br>Travel Insurance</p>
+						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
+						<p class="tagline_desc" style="font-weight: 400;font-size: 15px;">
+							Planning on a destination trip or quick getaway?
+						</p>
+						<p class="tagline_desc" style="font-weight: 400;font-size: 15px;">
+							Enjoy your travel overseas knowing that you have a travel companion to keep you safe and protected. Explore the world with AYA Joy travel insurance.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="d-block d-sm-none">
+				<div class="row">
+					<div class="col-md-6" style="padding-top: 20px;">
+						<img src="{{ url('/images/insurance/aya-joy/family_img.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
+						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">AYA Joy Travel Insurance</p>
+						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<p style="font-size: 15px;font-weight: 400;">
+							Planning on a destination trip or quick getaway?
+						</p>
+						<p style="font-size: 15px;font-weight: 400;">
+							Enjoy your travel overseas knowing that you have a travel companion to keep you safe and protected. Explore the world with AYA Joy travel insurance.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
+
+@if($page == 'life_universal_insurance')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<span style="color: #a02226;">LIFE INSURANCE</span>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span>UNIVERSAL LIFE INSURANCE</span>
+			</p>
+		</div>
+	</div>
+	<div class="life_universal_ins_banner">
+		<div class="container">
+			<div class="d-none d-sm-block">
+				<div class="row">
+					<div class="col-md-6 family_img_div">
+						<img src="{{ url('/images/insurance/life/universal/family.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-4 life_tagline_div">
+						<p style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Universal<br>Life Insurance</p>
+						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
+						<p class="tagline_desc" style="font-weight: 400;font-size: 15px;">
+							Have you ever asked yourself – if you are well prepared financially for any emergency in life?
+						</p>
+						<p class="tagline_desc" style="font-weight: 400;font-size: 15px;">
+							To help protect you and your family’s financial future, we provide the features of protection, saving and flexibility for the ever-changing needs through your life journey.
+						</p>
+						<p class="tagline_desc" style="font-weight: 400;font-size: 15px;">
+							Protect yourself and your loved ones with Universal Life.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="d-block d-sm-none">
+				<div class="row">
+					<div class="col-md-6" style="padding-top: 20px;">
+						<img src="{{ url('/images/insurance/life/universal/family.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
+						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Universal Life Insurance</p>
+						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<p style="font-size: 15px;font-weight: 400;">
+							Have you ever asked yourself – if you are well prepared financially for any emergency in life?
+						</p>
+						<p style="font-size: 15px;font-weight: 400;">
+							To help protect you and your family’s financial future, we provide the features of protection, saving and flexibility for the ever-changing needs through your life journey.
+						</p>
+						<p style="font-size: 15px;font-weight: 400;">
+							Protect yourself and your loved ones with Universal Life.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
+
+@if($page == 'life_short_term_insurance')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<span style="color: #a02226;">LIFE INSURANCE</span>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span>SHORT TERM ENDOWMENT LIFE INSURANCE</span>
+			</p>
+		</div>
+	</div>
+	<div class="life_short_term_ins_banner">
+		<div class="container">
+			<div class="d-none d-sm-block">
+				<div class="row">
+					<div class="col-md-6 family_img_div">
+						<img src="{{ url('/images/insurance/life/short-term/family.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-6 life_tagline_div">
+						<p style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Short-Term Endowment<br>Life Insurance</p>
+						<hr style="height: 5px;color: #a02226;width: 15%;margin: 0px 0px 20px 0px;">
+						<p class="tagline_desc" style="font-weight: 400;font-size: 15px;">
+							It’s always the best idea to increase your financial security. Having a life insurance policy ensures financial stability in case of any uncertainty in the near future.
+						</p>
+						<p class="tagline_desc" style="font-weight: 400;font-size: 15px;">
+							Our Short-Term Endowment helps you save to meet your financial goals with protection benefits.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="d-block d-sm-none">
+				<div class="row">
+					<div class="col-md-6" style="padding-top: 20px;">
+						<img src="{{ url('/images/insurance/life/short-term/family.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
+						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Short-Term Endowment Life Insurance</p>
+						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<p style="font-size: 15px;font-weight: 400;">
+							It’s always the best idea to increase your financial security. Having a life insurance policy ensures financial stability in case of any uncertainty in the near future.
+						</p>
+						<p style="font-size: 15px;font-weight: 400;">
+							Our Short-Term Endowment helps you save to meet your financial goals with protection benefits.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
+
+@if($page == 'life_edu_insurance')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<span style="color: #a02226;">LIFE INSURANCE</span>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span>EDUCATION LIFE INSURANCE</span>
+			</p>
+		</div>
+	</div>
+	<div class="life_edu_ins_banner">
+		<div class="container">
+			<div class="d-none d-sm-block">
+				<div class="row">
+					<div class="col-md-6 family_img_div">
+						<img src="{{ url('/images/insurance/life/education/education_model.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-6 life_tagline_div">
+						<p style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Education<br>Life Insurance</p>
+						<hr style="height: 5px;color: #a02226;width: 15%;margin: 0px 0px 20px 0px;">
+						<p class="tagline_desc" style="font-weight: 400;font-size: 15px;">
+							We are creating a community of learners. Our Education Life Insurance is designed to help parents save and ensure that their children could continue their education no matter what the future holds.
+						</p>
+						<p class="tagline_desc" style="font-weight: 400;font-size: 15px;">
+							Learn more about our education insurance products.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="d-block d-sm-none">
+				<div class="row">
+					<div class="col-md-6" style="padding-top: 20px;">
+						<img src="{{ url('/images/insurance/life/education/education_model.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
+						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Education Life Insurance</p>
+						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<p style="font-size: 15px;font-weight: 400;">
+							We are creating a community of learners. Our Education Life Insurance is designed to help parents save and ensure that their children could continue their education no matter what the future holds.
+						</p>
+						<p style="font-size: 15px;font-weight: 400;">
+							Learn more about our education insurance products.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
+
+@if($page == 'life_one_health_indi_insurance')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<span style="color: #a02226;">LIFE INSURANCE</span>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="">ONE HEALTH SOLUTION INDIVIDUAL PLAN</span>
+			</p>
+		</div>
+	</div>
+	<div class="life_one_health_indi_ins_banner">
+		<div class="container">
+			<div class="d-none d-sm-block">
+				<div class="row">
+					<div class="col-md-6 family_img_div">
+						<img src="{{ url('/images/insurance/life/one-health/family.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-6 life_tagline_div">
+						<p style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">One Health Solution<br>Individual Plan</p>
+						<hr style="height: 5px;color: #a02226;width: 15%;margin: 0px 0px 20px 0px;">
+						<p class="tagline_desc" style="font-weight: 400;font-size: 15px;">
+							With the constant escalating costs of healthcare and the ever-rising instances of new diseases in the world, medical insurance becomes a necessity today. The fallout from a medical emergency or unforeseen expense could extend beyond your immediate finances to loss of income.
+						</p>
+						<p class="tagline_desc" style="font-weight: 400;font-size: 15px;">
+							To avoid this, One Health Solution provides comprehensive much-needed financial support and safeguarding in difficult times against escalating medical costs and more, so that you can be rest assured your medical costs are covered.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="d-block d-sm-none">
+				<div class="row">
+					<div class="col-md-6" style="padding-top: 20px;">
+						<img src="{{ url('/images/insurance/life/one-health/family.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
+						<p style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">One Health Solution Individual Plan</p>
+						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<p style="font-size: 15px;font-weight: 400;">
+							With the constant escalating costs of healthcare and the ever-rising instances of new diseases in the world, medical insurance becomes a necessity today. The fallout from a medical emergency or unforeseen expense could extend beyond your immediate finances to loss of income.
+						</p>
+						<p style="font-size: 15px;font-weight: 400;">
+							To avoid this, One Health Solution provides comprehensive much-needed financial support and safeguarding in difficult times against escalating medical costs and more, so that you can be rest assured your medical costs are covered.
 						</p>
 					</div>
 				</div>

@@ -1,6 +1,6 @@
 @extends('layouts.frontend-app')
 
-@section('title', 'AYA Go Travel Insurance – AYA Bank')
+@section('title', 'AYA Joy Travel Insurance – AYA Bank')
 <link rel="stylesheet" href="{{ url('/css/slide_tab.css') }}" />
 <link rel="stylesheet" href="{{ url('/css/pb_insurance.css') }}">
 <style type="text/css">
@@ -25,7 +25,7 @@
 			@include('layouts.header', ['page'=>'personal_banking'])
         	<div class="menu-overlay"></div>
 
-			@include('layouts.banner', ['page'=>'aya_go_insurance'])
+			@include('layouts.banner', ['page'=>'aya_joy_insurance'])
 
 			<div style="">
 				<div class="d-none d-sm-block space-60"></div>
@@ -68,7 +68,7 @@
 									<div class="col-md-4 benefit_feature_box" style="padding: 20px;margin-bottom: 20px;">
 										<div class="row">
 											<div class="col-md-3">
-												<img src="{{ url('/images/insurance/aya-go/accidental_death.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+												<img src="{{ url('/images/insurance/aya-joy/accidental_death.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 											</div>
 											<div class="col-md-9" style="padding-left:0;">
 												<p style="font-weight: 600;margin-bottom: 0;">Accidental Death</p>
@@ -79,7 +79,7 @@
 									<div class="col-md-4 benefit_feature_box" style="padding: 20px;margin-bottom: 20px;">
 										<div class="row">
 											<div class="col-md-3">
-												<img src="{{ url('/images/insurance/aya-go/personal_liability.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+												<img src="{{ url('/images/insurance/aya-joy/personal_liability.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 											</div>
 											<div class="col-md-9" style="padding-left:0;">
 												<p style="font-weight: 600;margin-bottom: 0;">Personal Liability</p>
@@ -90,11 +90,11 @@
 									<div class="col-md-4 benefit_feature_box" style="padding: 20px;margin-bottom: 20px;">
 										<div class="row">
 											<div class="col-md-3">
-												<img src="{{ url('/images/insurance/aya-go/medical_hospital_other_expenses.png') }}" class="img-fluid" style="margin-bottom: 20px;">
+												<img src="{{ url('/images/insurance/aya-joy/medical_hospital_other_expenses.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 											</div>
 											<div class="col-md-9" style="padding-left:0;">
 												<p style="font-weight: 600;margin-bottom: 0;">Medical, Hospital & Other Expenses</p>
-												<p style="color: #4e4e4e;margin-bottom: 0;">Coverage for medical, hospital and other expenses up to MMK 10,000,000</p>
+												<p style="color: #4e4e4e;margin-bottom: 0;">Coverage for medical, hospital and other expenses up to MMK 100,000,000</p>
 											</div>
 										</div>
 									</div>
@@ -104,14 +104,35 @@
 									<div class="col-md-12">
 										<div class="row">
 											<div class="col-md-12">
-												<p style="font-size: 20px;color: #a02226;font-weight: 600;">Extra Coverage</p>
+												<p style="font-size: 20px;color: #a02226;font-weight: 600;">Additional Coverage</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-11 list_margin">
-												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Child Education Fund</p>
-												<p style="color: #4e4e4e;">Payable to the surviving children for their education fund in the event of accidental death of Insured Person</p>
+												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Hospital Allowance</p>
+												<p style="color: #4e4e4e;">Total coverage amount for hospital allowance is up to MMK 3,000,000 with MMK 100,000 (Per Day)</p>
+											</div>
+											<div class="col-1">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-11 list_margin">
+												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Baggage Delay</p>
+												<p style="color: #4e4e4e;">MMK 50,000 for every 6 full consecutive hours if your check-in baggage is delayed upon arrival at the scheduled destination abroad</p>
+											</div>
+											<div class="col-1">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-11 list_margin">
+												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Flight Delay</p>
+												<p style="color: #4e4e4e;">MMK 50,000 for every 6 full consecutive hours delay and MMK 70,000 for every 6 full consecutive hours thereafter</p>
+											</div>
+											<div class="col-1">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-11 list_margin">
+												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Loss to baggage and Personal Effects</p>
+												<p style="color: #4e4e4e;">Maximum MMK 200,000 any one article or pair or set of articles</p>
 											</div>
 										</div>
 									</div>
@@ -123,7 +144,7 @@
 											</div>
 											<div class="col-6">
 												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Adult</p>
-												<p style="color: #4e4e4e;">Age below 70 years old and must be a Myanmar citizen, Myanmar Permanent Resident, or otherwise legally employed in Myanmar and/or their Spouse and Children.</p>
+												<p style="color: #4e4e4e;">Aged below 70 years old and must be a Myanmar citizen, Myanmar Permanent Resident, or otherwise legally employed in Myanmar and/or their Spouse and Children</p>
 											</div>
 											<div class="col-6">
 												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Children</p>
@@ -140,7 +161,27 @@
 									<div class="col-md-1"></div>
 									<div class="col-md-10">
 										<div class="row">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+											<div class="col-1">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-11 list_margin">
+												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Variety Plan</p>
+												<p style="color: #4e4e4e;">When choosing AYA Joy Travel Insurance, it is helpful to remember that all plans-Express Plan, Eco Plan, Individual Plan and Family Plan. Compare them to find the coverage that is the best fit for your needs and financial situation.</p>
+											</div>
+											<div class="col-1">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-11 list_margin">
+												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Hassle-Free Claims</p>
+												<p style="color: #4e4e4e;">Considering a problem within a trip that may occur, AYA Joy Travel Insurance policy can come in handy to make the claim process smoother. Fast and reliable claims give you a sense of calm to focus on your recovery.</p>
+											</div>
+											<div class="col-1">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-11 list_margin">
+												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Quick Premium Payment</p>
+												<p style="color: #4e4e4e;">Choosing from a range of options, you can now make online payment quickly and effortlessly. Pay your premium digitally, or make payments by cash at our physical locations and get your policy within one week. It is comfort, safety and available 24/7 services.</p>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -153,12 +194,13 @@
 									<div class="col-md-11">
 										<div class="row">
 											<div class="col-md-12">
+												<p style="font-size: 20px;font-weight: 600;margin-bottom: 5px;">Premium Rating</p>
 												<p style="font-size: 20px;font-weight: 600;margin-bottom: 5px;">Policy Term</p>
-												<p>From a minimum of 1 day to a maximum of 31 consecutive days.</p>
+												<p>From a minimum of 1 day to a maximum of 31 consecutive days</p>
 											</div>
 											<div class="space-10"></div>
 											<div class="col-md-12">
-												<p style="font-size: 20px;font-weight: 600;margin-bottom: 5px;">Factors that do not include compensation</p>
+												<p style="font-size: 20px;font-weight: 600;margin-bottom: 5px;">Exclusions</p>
 												<ul style="list-style: number;">
 													<li>Pre-existing Medical Conditions</li>
 													<li>Suicide or attempted suicide, intentional self-injury</li>
@@ -216,7 +258,7 @@
 					<div class="col-md-12 col-xs-12">
 						<p style="font-size: 18px;color: #1d1d1f;font-weight: 600;margin-bottom: 10px;">Disclaimers</p>
 						<p style="color: #777777;font-weight: 400;font-size: 12px;">
-							This AYA Go Travel Insurance is underwritten by AYA Sompo Insurance Company Ltd and distributed by AYA Bank Co Ltd. It is not an obligation of, deposit in or guaranteed by AYA Bank. AYA Sompo Insurance Company Ltd reserves the right of final approval. Full details of the terms, conditions and exclusions of the insurance are provided in the policy wordings and will be sent to you upon acceptance of your application by AYA Sompo Insurance Company Ltd.
+							This AYA Joy Travel Insurance is underwritten by AYA Sompo Insurance Company Ltd and distributed by AYA Bank Co Ltd. It is not an obligation of, deposit in or guaranteed by AYA Bank. AYA Sompo Insurance Company Ltd reserves the right of final approval. Full details of the terms, conditions and exclusions of the insurance are provided in the policy wordings and will be sent to you upon acceptance of your application by AYA Sompo Insurance Company Ltd.
 						<p style="color: #777777;font-weight: 400;font-size: 12px;">
 							This webpage contains only general information and does not have regard to the specific investment objectives, financial situation and the particular needs of any specific person. It is not intended as an offer or recommendation to buy the product. A copy of the product summary can be obtained from AYA Bank branches. The contract of insurance is between the insurer and the insured and not between the Bank and the insured. Bank does not give any warranty, as to the accuracy and completeness of the policies. Bank does not accept any liability or losses attributable to your contract of Insurance. Participation by the Bank’s customers in the insurance products is purely on a voluntary basis and is not linked to availment of any other facility from the bank.
 						</p>
