@@ -48,7 +48,9 @@
             box-shadow: 10px 8px 10px 6px rgba(0,0,0,0.09);
             border: 1px solid #fff;
         }
-
+        .mb20 {
+            margin-bottom: 20px;
+        }
         .space-20 {
             height: 20px;
         }  
@@ -60,6 +62,9 @@
         }
         .space-40 {
             height: 40px;
+        }
+        .space-50 {
+            height: 50px;
         }
         .space-60 {
             height: 60px;

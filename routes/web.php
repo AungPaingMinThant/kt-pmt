@@ -50,7 +50,6 @@ Route::get('/admin/logout','App\Http\Controllers\AdminController@logout');
 
 Route::get('/share-post', 'App\Http\Controllers\SharePostController@share');
 
-
 Route::get('/mobile-banking','App\Http\Controllers\Digital\MobileBankingController@mbindex');
 Route::get('/internet-banking','App\Http\Controllers\Digital\InternetBankingController@index');
 Route::get('/debit-card','App\Http\Controllers\Digital\DebitCardController@index');
@@ -77,3 +76,7 @@ Route::get('/insurance/life/universal','App\Http\Controllers\Insurance\LifeInsur
 Route::get('/insurance/life/education','App\Http\Controllers\Insurance\LifeInsuranceController@educationIndex');
 Route::get('/insurance/life/one-health-solution-individual-plan','App\Http\Controllers\Insurance\LifeInsuranceController@oneHealthIndex');
 Route::get('/insurance/life/short-term','App\Http\Controllers\Insurance\LifeInsuranceController@shorttermIndex');
+
+Route::get('/account-saving/call-deposit','App\Http\Controllers\AccountSaving\CallDepositController@index');
+Route::get('/account-saving/call-deposit/premium-call-deposit','App\Http\Controllers\AccountSaving\CallDepositController@premiumIndex');
+Route::get('/account-saving/call-deposit/new-business-call','App\Http\Controllers\AccountSaving\CallDepositController@newBusinessCallIndex');

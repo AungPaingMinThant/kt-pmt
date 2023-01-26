@@ -140,7 +140,27 @@
 									<div class="col-md-1"></div>
 									<div class="col-md-10">
 										<div class="row">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+											<div class="col-1">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-11 list_margin">
+												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Variety Plan</p>
+												<p style="color: #4e4e4e;">When choosing AYA Go Travel Insurance, it is helpful to remember that all plans-Standard Plan, Small Ticket Size Plan, Individual Plan and Family Plan. Compare these plans to find the coverage that is the best fit for your needs and financial situation.</p>
+											</div>
+											<div class="col-1">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-11 list_margin">
+												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Hassle-free Claims</p>
+												<p style="color: #4e4e4e;">Considering a problem within a trip that may occur, AYA Go Travel Insurance policy can come in handy to make the claim process smoother. Fast and reliable claims give you a sense of calm to focus on your recovery.</p>
+											</div>
+											<div class="col-1">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-11 list_margin">
+												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Quick Premium Payment</p>
+												<p style="color: #4e4e4e;">Choosing from a range of options, you can now make online payment quickly and effortlessly. Pay your premium digitally, or make payments by cash at our physical locations and get your policy within one week. It is comfort, safety and available 24/7 services.</p>
+											</div>
 										</div>
 									</div>
 								</div>
