@@ -1,0 +1,286 @@
+.banner_bg{
+	background-size: cover;
+	height: 400px;
+	background-position: center right;
+}
+.mbanking_banner {
+	background-image:url('../images/MobileBanking_KV.jpg');
+}
+.ibanking_banner{
+	background-image:url('../images/IB_KV.jpg');
+}
+.debitcard_banner {
+	background-image:url('../images/debit_KV.jpg');
+}
+.creditcard_banner{
+	background-image:url('../images/KV_credit.jpg');
+}
+.ecommerce_banner{
+	background-image:url('../images/ecommerce/KV.jpg');
+}
+.smsalert_banner{
+	background-image:url('../images/sms/KV.jpg');
+}
+.prepaid_banner{
+	background-image:url('../images/prepaid/KV.jpg');
+}
+.simplepay_banner{
+	background-image:url('../images/simplepay/KV.jpg');
+}
+.calldeposit_banner{
+	background-image:url('../images/call_deposit/KV.jpg');
+}
+.premium_calldeposit_banner {
+	background-image:url('../images/premium_call_deposit/KV.jpg');
+}
+.new_business_call_banner {
+	background-image:url('../images/new_business_call/KV.jpg');
+}
+.cib_banner{
+	background-image:url('../images/corporate_internet_banking/KV.jpg');
+}
+.digital_secure_banner {
+	background-image:url('../images/digital_secure/KV.jpg');
+}
+.frequently_digital_banner {
+	background-image:url('../images/frequently/KV.jpg');
+}
+.pos_banner {
+	background-image:url('../images/POS/KV.jpg');
+}
+.ayapay_banner {
+	background-image:url('../images/ayapay/KV.jpg');
+}
+.atm_banner {
+	background-image:url('../images/atm/KV.jpg');
+}
+.bread_crumb_text {
+	font-size: 11px;
+	color: #666 !important;
+	margin: 25px 0 !important;
+}
+.tag_line_div {
+	position: absolute;
+	top: 156px;
+	right: 0;
+}
+.debit_banner_tag_mid, .credit_banner_tag_mid, .ecommerce_banner_tag_mid, .prepaid_banner_tag_mid,
+.frequently_tag_mid, .pos_tag_mid, .ayapay_tag_mid, .mb_tag_mid, .digital_secure_tag_mid
+{
+	display: none;
+}
+.family_img_div {
+	padding-top: 50px;
+}
+.tagline_div {
+	padding-top: 80px;
+	padding-left: 30px;
+}
+.life_tagline_div {
+	padding-top: 50px;
+	padding-left: 30px;
+}
+.tagline_desc {
+	font-size: 16px;
+}
+.ins_banner_bg {
+	background-size: cover;
+	height: 440px;
+	background-position: center right;
+}
+.health_ins_banner {
+	background-image:url('../images/insurance/health/KV_bg.png');
+}
+.motor_ins_banner {
+	background-image:url('../images/insurance/motor/KV_bg.png');
+}
+.fire_ins_banner {
+	background-image:url('../images/insurance/fire/KV_bg.png');
+}
+.pa_ins_banner {
+	background-image:url('../images/insurance/PA/KV_bg.png');
+}
+.aya_go_ins_banner {
+	background-image:url('../../images/insurance/aya-go/KV_bg.png');
+}
+.aya_joy_ins_banner {
+	background-image:url('../../images/insurance/aya-joy/KV_bg.png');	
+}
+.life_universal_ins_banner {
+	background-image:url('../../images/insurance/life/KV_bg.png');
+}
+.life_short_term_ins_banner {
+	background-image:url('../../images/insurance/life/KV_bg.png');
+}
+.life_edu_ins_banner {
+	background-image:url('../../images/insurance/life/KV_bg.png');
+}
+.life_one_health_indi_ins_banner {
+	background-image:url('../../images/insurance/life/KV_bg.png');
+}
+.call_deposit_banner_tagline {
+	position: absolute;
+	top: 156px;
+	right: 100px;
+}
+@media (max-width: 1550px) and (min-width: 577px) {
+	.creditcard_banner{
+		background-position: 60% center;
+	}
+	.creditcard_banner > .container {
+		max-width: 1160px !important;
+	}
+	.cib_banner{
+		background-position: 80% center;
+	}
+}
+@media (max-width: 1300px) and (min-width: 1000px) {
+	.tag_line_div {
+		position: absolute;
+		top: 120px;
+		right: 0;
+	}
+	.debitcard_banner{
+		background-image:url('../images/debit_KV2.jpg');
+		background-position: 90% center;
+	}
+	.ecommerce_banner {
+	    background-position: 65% center;
+	}
+	.smsalert_banner, .prepaid_banner {
+	    background-position: 70% center;
+	}
+	.debit_banner_tag, .credit_banner_tag, .ecommerce_banner_tag, .prepaid_banner_tag, .frequently_tag,
+	.pos_tag, .ayapay_tag, .mb_tag, .digital_secure_tag
+	{
+		display: none;
+	}
+	.debit_banner_tag_mid, .credit_banner_tag_mid, .ecommerce_banner_tag_mid, .prepaid_banner_tag_mid,
+	.frequently_tag_mid, .pos_tag_mid, .ayapay_tag_mid, .mb_tag_mid, .digital_secure_tag_mid
+	{
+		display: block;
+	}
+	.frequently_digital_banner {
+	    background-position: center;
+	}
+	.ayapay_banner {
+	    background-position: 90% center;
+	}
+	.atm_banner {
+	    background-position: 90% center;
+	}
+	.health_ins_banner, .fire_ins_banner, .motor_ins_banner, .pa_ins_banner, .aya_go_ins_banner, .aya_joy_ins_banner, 
+	.life_universal_ins_banner, .life_short_term_ins_banner, .life_edu_ins_banner, .life_one_health_indi_ins_banner
+	{
+		height: 310px;
+	}
+	.family_img_div {
+		padding-top: 20px;
+	}
+	.tagline_div {
+		padding-top: 20px;
+		padding-left: 10px;
+	}
+	.tagline_desc {
+		font-size: 16px;
+		margin-bottom: 7px;
+	}
+	.calldeposit_banner{
+		background-position: 90% center;
+	}
+	.call_deposit_banner_tagline {
+		top: 30px;
+		right: 60px;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.mbanking_banner {
+		background-image:url('../images/MobileBanking_KV_mobile.jpg');
+	}
+	.ibanking_banner{
+		background-image:url('../images/IB_KV_mobile.jpg');
+		background-position: 70% center;
+	}
+	.debitcard_banner{
+		background-image:url('../images/debit_KV_mobile.jpg');
+		background-position: 96% center;
+	}
+	.creditcard_banner{
+		background-image:url('../images/KV_credit_mobile.jpg');
+		background-position: 90% center;
+	}
+	.ecommerce_banner{
+		background-image:url('../images/ecommerce/mobile_KV.jpg');
+		background-position: 90% center;
+	}
+	.smsalert_banner{
+		background-image:url('../images/sms/mobileKV.jpg');
+		background-position: 90% center;
+	}
+	.prepaid_banner{
+		background-image:url('../images/prepaid/mobile_KV.jpg');
+		background-position: 90% center;
+	}
+	.simplepay_banner{
+		background-image:url('../images/simplepay/mobile_KV.jpg');
+		background-position: 60% center;
+	}
+	.cib_banner{
+		background-image:url('../images/corporate_internet_banking/mobile_KV.jpg');
+		background-position: 60% center;
+	}
+	.digital_secure_banner {
+		background-image:url('../images/digital_secure/mobile_KV.jpg');
+		background-position: 90% center;
+	}
+	.frequently_digital_banner {
+		background-image:url('../images/frequently/mobile_KV.jpg');
+		background-position: 50% center;
+	}
+	.pos_banner {
+		background-image:url('../images/POS/mobile_KV.jpg');
+		background-position: 90% center;
+	}
+	.ayapay_banner {
+		background-image:url('../images/ayapay/mobile_KV.jpg');
+		background-position: 80% center;
+	}
+	.atm_banner {
+		background-image:url('../images/atm/mobile_KV.jpg');
+		background-position: 80% center;
+	}
+	.calldeposit_banner{
+		background-image:url('../images/call_deposit/mobile_KV.jpg');
+		background-position: 60% center;
+	}
+	.premium_calldeposit_banner {
+		background-image:url('../images/premium_call_deposit/mobile_KV_2.png');
+		background-position: 60% center;
+	}
+	.new_business_call_banner {
+		background-image:url('../images/new_business_call/mobile_KV_2.png');
+		background-position: 60% center;
+	}
+	.health_ins_banner, .pa_ins_banner, .motor_ins_banner, .fire_ins_banner, 
+	.life_short_term_ins_banner, .life_edu_ins_banner
+	{
+		height: 620px;
+		background-position: 80% center;
+	}
+	.aya_joy_ins_banner, .aya_go_ins_banner {
+		height: 550px;
+		background-position: 80% center;
+	}
+	.life_universal_ins_banner {
+		height: 650px;
+		background-position: 80% center;
+	}
+	.life_one_health_indi_ins_banner {
+		height: 750px;
+		background-position: 80% center;
+	}
+	.bread_crumb_text {
+		font-size: 10px;
+		margin: 15px 0 !important;
+	}
+}

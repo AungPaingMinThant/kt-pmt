@@ -1,316 +1,6 @@
-<style type="text/css">
-	.mbanking_banner {
-		background-image:url('./images/MobileBanking_KV.jpg');
-		background-size: cover;
-		height: 400px;
-		background-position: center right;
-	}
-	.ibanking_banner{
-		background-image:url('./images/IB_KV.jpg');
-		background-size: cover;
-		height: 400px;
-		background-position: center right;
-	}
-	.debitcard_banner {
-		background-image:url('./images/debit_KV.jpg');
-		background-size: cover;
-		height: 400px;
-		background-position: center right;
-	}
-	.creditcard_banner{
-		background-image:url('./images/KV_credit.jpg');
-		background-size: cover;
-		height: 400px;
-		background-position: center right;
-	}
-	.ecommerce_banner{
-		background-image:url('./images/ecommerce/KV.jpg');
-		background-size: cover;
-		height: 400px;
-		background-position: center right;
-	}
-	.smsalert_banner{
-		background-image:url('./images/sms/KV.jpg');
-		background-size: cover;
-		height: 400px;
-		background-position: center right;
-	}
-	.prepaid_banner{
-		background-image:url('./images/prepaid/KV.jpg');
-		background-size: cover;
-		height: 400px;
-		background-position: center right;
-	}
-	.simplepay_banner{
-		background-image:url('./images/simplepay/KV.jpg');
-		background-size: cover;
-		height: 400px;
-		background-position: center right;
-	}
-	.cib_banner{
-		background-image:url('./images/corporate_internet_banking/KV.jpg');
-		background-size: cover;
-		height: 400px;
-		background-position: center right;
-	}
-	.digital_secure_banner {
-		background-image:url('./images/digital_secure/KV.jpg');
-		background-size: cover;
-		height: 400px;
-		background-position: center right;
-	}
-	.frequently_digital_banner {
-		background-image:url('./images/frequently/KV.jpg');
-		background-size: cover;
-		height: 400px;
-		background-position: center right;
-	}
-	.pos_banner {
-		background-image:url('./images/POS/KV.jpg');
-		background-size: cover;
-		height: 400px;
-		background-position: center right;
-	}
-	.ayapay_banner {
-		background-image:url('./images/ayapay/KV.jpg');
-		background-size: cover;
-		height: 400px;
-		background-position: center right;
-	}
-	.atm_banner {
-		background-image:url('./images/atm/KV.jpg');
-		background-size: cover;
-		height: 400px;
-		background-position: center right;
-	}
-	.bread_crumb_text {
-		font-size: 11px;
-		color: #666 !important;
-		margin: 25px 0 !important;
-	}
-	.tag_line_div {
-		position: absolute;
-		top: 156px;
-		right: 0;
-	}
-	.debit_banner_tag_mid, .credit_banner_tag_mid, .ecommerce_banner_tag_mid, .prepaid_banner_tag_mid, .frequently_tag_mid, .pos_tag_mid, .ayapay_tag_mid, .mb_tag_mid, .digital_secure_tag_mid {
-		display: none;
-	}
-	.health_ins_banner {
-		background-image:url('../images/insurance/health/KV_bg.png');
-		background-size: cover;
-		height: 440px;
-		background-position: center right;
-	}
-	.family_img_div {
-		padding-top: 50px;
-	}
-	.tagline_div {
-		padding-top: 80px;
-		padding-left: 30px;
-	}
-	.life_tagline_div {
-		padding-top: 50px;
-		padding-left: 30px;
-	}
-	.tagline_desc {
-		font-size: 16px;
-	}
-	.motor_ins_banner {
-		background-image:url('../images/insurance/motor/KV_bg.png');
-		background-size: cover;
-		height: 440px;
-		background-position: center right;
-	}
-	.fire_ins_banner {
-		background-image:url('../images/insurance/fire/KV_bg.png');
-		background-size: cover;
-		height: 440px;
-		background-position: center right;
-	}
-	.pa_ins_banner {
-		background-image:url('../images/insurance/PA/KV_bg.png');
-		background-size: cover;
-		height: 440px;
-		background-position: center right;
-	}
-	.aya_go_ins_banner {
-		background-image:url('../../images/insurance/aya-go/KV_bg.png');
-		background-size: cover;
-		height: 440px;
-		background-position: center right;
-	}
-	.aya_joy_ins_banner {
-		background-image:url('../../images/insurance/aya-joy/KV_bg.png');
-		background-size: cover;
-		height: 440px;
-		background-position: center right;	
-	}
-	.life_universal_ins_banner {
-		background-image:url('../../images/insurance/life/KV_bg.png');
-		background-size: cover;
-		height: 440px;
-		background-position: center right;
-	}
-	.life_short_term_ins_banner {
-		background-image:url('../../images/insurance/life/KV_bg.png');
-		background-size: cover;
-		height: 440px;
-		background-position: center right;
-	}
-	.life_edu_ins_banner {
-		background-image:url('../../images/insurance/life/KV_bg.png');
-		background-size: cover;
-		height: 440px;
-		background-position: center right;
-	}
-	.life_one_health_indi_ins_banner {
-		background-image:url('../../images/insurance/life/KV_bg.png');
-		background-size: cover;
-		height: 440px;
-		background-position: center right;
-	}
-	@media (max-width: 1550px) and (min-width: 577px) {
-		.creditcard_banner{
-			background-position: 60% center;
-		}
-		.creditcard_banner > .container {
-			max-width: 1160px !important;
-		}
-		.cib_banner{
-			background-position: 80% center;
-		}
-	}
-	@media (max-width: 1300px) and (min-width: 1000px) {
-		.tag_line_div {
-			position: absolute;
-			top: 120px;
-			right: 0;
-		}
-		.debitcard_banner{
-			background-image:url('./images/debit_KV2.jpg');
-			background-position: 90% center;
-		}
-		.ecommerce_banner {
-		    background-position: 65% center;
-		}
-		.smsalert_banner, .prepaid_banner {
-		    background-position: 70% center;
-		}
-		.debit_banner_tag, .credit_banner_tag, .ecommerce_banner_tag, .prepaid_banner_tag, .frequently_tag, .pos_tag, .ayapay_tag, .mb_tag, .digital_secure_tag {
-			display: none;
-		}
-		.debit_banner_tag_mid, .credit_banner_tag_mid, .ecommerce_banner_tag_mid, .prepaid_banner_tag_mid, .frequently_tag_mid, .pos_tag_mid, .ayapay_tag_mid, .mb_tag_mid, .digital_secure_tag_mid {
-			display: block;
-		}
-		.frequently_digital_banner {
-		    background-position: center;
-		}
-		.ayapay_banner {
-		    background-position: 90% center;
-		}
-		.atm_banner {
-		    background-position: 90% center;
-		}
-		.health_ins_banner, .fire_ins_banner, .motor_ins_banner, .pa_ins_banner, .aya_go_ins_banner, .aya_joy_ins_banner, 
-		.life_universal_ins_banner, .life_short_term_ins_banner, .life_edu_ins_banner, .life_one_health_indi_ins_banner
-		{
-			height: 310px;
-		}
-		.family_img_div {
-			padding-top: 20px;
-		}
-		.tagline_div {
-			padding-top: 20px;
-			padding-left: 10px;
-		}
-		.tagline_desc {
-			font-size: 16px;
-			margin-bottom: 7px;
-		}
-	}
-	@media only screen and (max-width: 576px) {
-		.mbanking_banner {
-			background-image:url('./images/MobileBanking_KV_mobile.jpg');
-		}
-		.ibanking_banner{
-			background-image:url('./images/IB_KV_mobile.jpg');
-			background-position: 70% center;
-		}
-		.debitcard_banner{
-			background-image:url('./images/debit_KV_mobile.jpg');
-			background-position: 96% center;
-		}
-		.creditcard_banner{
-			background-image:url('./images/KV_credit_mobile.jpg');
-			background-position: 90% center;
-		}
-		.ecommerce_banner{
-			background-image:url('./images/ecommerce/mobile_KV.jpg');
-			background-position: 90% center;
-		}
-		.smsalert_banner{
-			background-image:url('./images/sms/mobileKV.jpg');
-			background-position: 90% center;
-		}
-		.prepaid_banner{
-			background-image:url('./images/prepaid/mobile_KV.jpg');
-			background-position: 90% center;
-		}
-		.simplepay_banner{
-			background-image:url('./images/simplepay/mobile_KV.jpg');
-			background-position: 60% center;
-		}
-		.cib_banner{
-			background-image:url('./images/corporate_internet_banking/mobile_KV.jpg');
-			background-position: 60% center;
-		}
-		.digital_secure_banner {
-			background-image:url('./images/digital_secure/mobile_KV.jpg');
-			background-position: 90% center;
-		}
-		.frequently_digital_banner {
-			background-image:url('./images/frequently/mobile_KV.jpg');
-			background-position: 50% center;
-		}
-		.pos_banner {
-			background-image:url('./images/POS/mobile_KV.jpg');
-			background-position: 90% center;
-		}
-		.ayapay_banner {
-			background-image:url('./images/ayapay/mobile_KV.jpg');
-			background-position: 80% center;
-		}
-		.atm_banner {
-			background-image:url('./images/atm/mobile_KV.jpg');
-			background-position: 80% center;
-		}
-		.health_ins_banner, .pa_ins_banner, .motor_ins_banner, .fire_ins_banner, 
-		.life_short_term_ins_banner, .life_edu_ins_banner
-		{
-			height: 620px;
-			background-position: 80% center;
-		}
-		.aya_joy_ins_banner, .aya_go_ins_banner {
-			height: 550px;
-			background-position: 80% center;
-		}
-		.life_universal_ins_banner {
-			height: 650px;
-			background-position: 80% center;
-		}
-		.life_one_health_indi_ins_banner {
-			height: 750px;
-			background-position: 80% center;
-		}
-		.bread_crumb_text {
-			font-size: 10px;
-			margin: 15px 0 !important;
-		}
-	}
-</style>
+<link rel="stylesheet" href="{{ url('/css/banner.css') }}" />
 @if($page == 'mobilebanking')
-	<div class="mbanking_banner">
+	<div class="mbanking_banner banner_bg">
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="mb_tag">
@@ -359,7 +49,7 @@
 @endif
 
 @if($page == 'internetbanking')
-	<div class="ibanking_banner" style="">
+	<div class="ibanking_banner banner_bg" style="">
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
@@ -395,7 +85,7 @@
 @endif
 
 @if($page == 'debitcard')
-	<div class="debitcard_banner" style="">
+	<div class="debitcard_banner banner_bg" style="">
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
@@ -438,7 +128,7 @@
 @endif
 
 @if($page == 'creditcard')
-	<div class="creditcard_banner" style="">
+	<div class="creditcard_banner banner_bg" style="">
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
@@ -481,7 +171,7 @@
 @endif
 
 @if($page == 'ecommerce')
-	<div class="ecommerce_banner" style="">
+	<div class="ecommerce_banner banner_bg" style="">
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="ecommerce_banner_tag">
@@ -529,7 +219,7 @@
 @endif
 
 @if($page == 'smsalert')
-	<div class="smsalert_banner" style="">
+	<div class="smsalert_banner banner_bg" style="">
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
@@ -573,7 +263,7 @@
 @endif
 
 @if($page == 'prepaid')
-	<div class="prepaid_banner" style="">
+	<div class="prepaid_banner banner_bg" style="">
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="prepaid_banner_tag">
@@ -634,7 +324,7 @@
 @endif
 
 @if($page == 'simplepay')
-	<div class="simplepay_banner" style="">
+	<div class="simplepay_banner banner_bg" style="">
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
@@ -688,7 +378,7 @@
 @endif
 
 @if($page == 'corporate_internet_banking')
-	<div class="cib_banner" style="">
+	<div class="cib_banner banner_bg" style="">
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: left;position: relative;">
@@ -728,7 +418,7 @@
 @endif
 
 @if($page == 'digital_secure')
-	<div class="digital_secure_banner" style="">
+	<div class="digital_secure_banner banner_bg" style="">
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="digital_secure_tag">
@@ -785,7 +475,7 @@
 @endif
 
 @if($page == 'frequently-used-digital')
-	<div class="frequently_digital_banner" style="">
+	<div class="frequently_digital_banner banner_bg" style="">
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="frequently_tag">
@@ -836,7 +526,7 @@
 @endif
 
 @if($page == 'pos')
-	<div class="pos_banner" style="">
+	<div class="pos_banner banner_bg" style="">
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="pos_tag">
@@ -887,7 +577,7 @@
 @endif
 
 @if($page == 'ayapay')
-	<div class="ayapay_banner" style="">
+	<div class="ayapay_banner banner_bg" style="">
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="ayapay_tag">
@@ -934,7 +624,7 @@
 @endif
 
 @if($page == 'atm')
-	<div class="atm_banner" style="">
+	<div class="atm_banner banner_bg" style="">
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="ayapay_tag">
@@ -986,7 +676,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="health_ins_banner">
+	<div class="health_ins_banner ins_banner_bg">
 		<div class="container">
 			<div class="d-none d-sm-block">
 				<div class="row">
@@ -1043,7 +733,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="motor_ins_banner">
+	<div class="motor_ins_banner ins_banner_bg">
 		<div class="container">
 			<div class="d-none d-sm-block">
 				<div class="row">
@@ -1094,7 +784,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="fire_ins_banner">
+	<div class="fire_ins_banner ins_banner_bg">
 		<div class="container">
 			<div class="d-none d-sm-block">
 				<div class="row">
@@ -1145,7 +835,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="pa_ins_banner">
+	<div class="pa_ins_banner ins_banner_bg">
 		<div class="container">
 			<div class="d-none d-sm-block">
 				<div class="row">
@@ -1197,7 +887,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="aya_go_ins_banner">
+	<div class="aya_go_ins_banner ins_banner_bg">
 		<div class="container">
 			<div class="d-none d-sm-block">
 				<div class="row">
@@ -1249,7 +939,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="aya_joy_ins_banner">
+	<div class="aya_joy_ins_banner ins_banner_bg">
 		<div class="container">
 			<div class="d-none d-sm-block">
 				<div class="row">
@@ -1301,7 +991,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="life_universal_ins_banner">
+	<div class="life_universal_ins_banner ins_banner_bg">
 		<div class="container">
 			<div class="d-none d-sm-block">
 				<div class="row">
@@ -1359,7 +1049,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="life_short_term_ins_banner">
+	<div class="life_short_term_ins_banner ins_banner_bg">
 		<div class="container">
 			<div class="d-none d-sm-block">
 				<div class="row">
@@ -1411,7 +1101,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="life_edu_ins_banner">
+	<div class="life_edu_ins_banner ins_banner_bg">
 		<div class="container">
 			<div class="d-none d-sm-block">
 				<div class="row">
@@ -1463,7 +1153,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="life_one_health_indi_ins_banner">
+	<div class="life_one_health_indi_ins_banner ins_banner_bg">
 		<div class="container">
 			<div class="d-none d-sm-block">
 				<div class="row">
@@ -1496,6 +1186,113 @@
 						<p style="font-size: 15px;font-weight: 400;">
 							To avoid this, One Health Solution provides comprehensive much-needed financial support and safeguarding in difficult times against escalating medical costs and more, so that you can be rest assured your medical costs are covered.
 						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
+
+@if($page == 'calldeposit')
+	<div class="calldeposit_banner banner_bg" style="">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-5 text-left" style="text-align: left;position: relative;">
+					<div class="call_deposit_banner_tagline">
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">A short-term investment that can facilitate <span style="color: #a02226;">flexible cash management</span></p>
+					</div>
+				</div>
+				<div class="col-md-6" style="text-align: right;">
+					<p></p>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 45px;left: 25px;">
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">A short-term investment that can facilitate <span style="color: #a02226;">flexible cash management</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">CALL DEPOSIT</span>
+			</p>
+		</div>
+	</div>
+@endif
+
+@if($page == 'premium_calldeposit')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CALL DEPOSIT&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">PREMIUM CALL DEPOSIT</span>
+			</p>
+		</div>
+	</div>
+	<div class="premium_calldeposit_banner banner_bg" style="">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-5 text-left" style="text-align: left;position: relative;">
+					<div class="call_deposit_banner_tagline">
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 36px;"><span style="color: #a02226;font-size: 35px;">Premium Call Deposit</span><br><span>A simple deposit option to manage funds</span></p>
+					</div>
+				</div>
+				<div class="col-md-6" style="text-align: right;">
+					<p></p>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 45px;left: 15px;">
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">Premium Call Deposit</p>
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;">A simple deposit option to manage funds</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
+
+@if($page == 'new_business_call')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CALL DEPOSIT&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">NEW BUSINESS CALL</span>
+			</p>
+		</div>
+	</div>
+	<div class="new_business_call_banner banner_bg" style="">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-5 text-left" style="text-align: left;position: relative;">
+					<div class="call_deposit_banner_tagline">
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 36px;"><span style="color: #a02226;font-size: 35px;">New Business Call</span><br><span>Convenient way to save and invest your cash</span></p>
+					</div>
+				</div>
+				<div class="col-md-6" style="text-align: right;">
+					<p></p>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 45px;left: 15px;">
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">New Business Call</p>
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;">Convenient way to save and invest your cash</p>
 					</div>
 				</div>
 			</div>
