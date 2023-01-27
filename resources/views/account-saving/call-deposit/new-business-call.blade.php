@@ -58,7 +58,7 @@
 												<img src="{{ url('/images/acc_saving/related_premium_call_deposit.png') }}" class="img-fluid">
 											</div>
 											<div class="col-8 ">
-												<p style="margin-bottom: 10px;font-weight: 600;color: #2e2e2e;">Premium Call Deposit</p>
+												<p style="margin-bottom: 0px;font-weight: 600;color: #2e2e2e;">Premium Call Deposit</p>
 												<p style="color: #2e2e2e;">A Simple deposit option to manage funds</p>
 											</div>
 										</div>
