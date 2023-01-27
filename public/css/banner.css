@@ -27,15 +27,6 @@
 .simplepay_banner{
 	background-image:url('../images/simplepay/KV.jpg');
 }
-.calldeposit_banner{
-	background-image:url('../images/call_deposit/KV.jpg');
-}
-.premium_calldeposit_banner {
-	background-image:url('../images/premium_call_deposit/KV.jpg');
-}
-.new_business_call_banner {
-	background-image:url('../images/new_business_call/KV.jpg');
-}
 .cib_banner{
 	background-image:url('../images/corporate_internet_banking/KV.jpg');
 }
@@ -121,7 +112,18 @@
 .call_deposit_banner_tagline {
 	position: absolute;
 	top: 156px;
-	right: 100px;
+}
+.calldeposit_banner{
+	background-image:url('../images/acc_saving/call_deposit/KV.jpg');
+}
+.premium_calldeposit_banner {
+	background-image:url('../images/acc_saving/premium_call_deposit/KV.jpg');
+}
+.new_business_call_banner {
+	background-image:url('../images/acc_saving/new_business_call/KV.jpg');
+}
+.currentdeposit_banner{
+	background-image:url('../images/acc_saving/current_deposit/KV.jpg');
 }
 @media (max-width: 1550px) and (min-width: 577px) {
 	.creditcard_banner{
@@ -185,7 +187,7 @@
 		font-size: 16px;
 		margin-bottom: 7px;
 	}
-	.calldeposit_banner{
+	.calldeposit_banner, .currentdeposit_banner{
 		background-position: 90% center;
 	}
 	.call_deposit_banner_tagline {
@@ -250,15 +252,19 @@
 		background-position: 80% center;
 	}
 	.calldeposit_banner{
-		background-image:url('../images/call_deposit/mobile_KV.jpg');
+		background-image:url('../images/acc_saving/call_deposit/mobile_KV.jpg');
 		background-position: 60% center;
 	}
 	.premium_calldeposit_banner {
-		background-image:url('../images/premium_call_deposit/mobile_KV_2.png');
+		background-image:url('../images/acc_saving/premium_call_deposit/mobile_KV_2.png');
 		background-position: 60% center;
 	}
 	.new_business_call_banner {
-		background-image:url('../images/new_business_call/mobile_KV_2.png');
+		background-image:url('../images/acc_saving/new_business_call/mobile_KV_2.png');
+		background-position: 60% center;
+	}
+	.currentdeposit_banner{
+		background-image:url('../images/acc_saving/current_deposit/mobile_KV_2.jpg');
 		background-position: 60% center;
 	}
 	.health_ins_banner, .pa_ins_banner, .motor_ins_banner, .fire_ins_banner, 

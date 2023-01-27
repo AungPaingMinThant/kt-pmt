@@ -1299,3 +1299,38 @@
 		</div>
 	</div>
 @endif
+
+@if($page == 'currentdeposit')
+	<div class="currentdeposit_banner banner_bg" style="">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
+					<div class="call_deposit_banner_tagline">
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;"><span style="color: #a02226;">Make your everyday</span> banking<br><span style="color: #a02226;">easy and access</span> funds anytime</p>
+					</div>
+				</div>
+				<div class="col-md-6" style="text-align: right;">
+					<p></p>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 45px;left: 65px;">
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span style="color: #a02226;">Make your everyday</span> banking<br><span style="color: #a02226;">easy and access</span> funds anytime</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">CURRENT DEPOSIT</span>
+			</p>
+		</div>
+	</div>
+@endif

@@ -5,6 +5,14 @@
 	h4 {
 		color: #2e2e2e !important;
 	}
+	.benefit_icon_3 {
+		width: 10%;
+	}
+	@media only screen and (max-width: 576px){
+		.benefit_icon_3 {
+			width: 20%;
+		}
+	}
 </style>
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
@@ -28,15 +36,15 @@
 							<h4>Benefits</h4>
 							<div class="row">
 								<div class="col-md-6" style="margin-bottom: 20px;">
-									<img src="{{ url('/images/premium_call_deposit/benefit_icon.png') }}" class="img-fluid">
+									<img src="{{ url('/images/acc_saving/premium_call_deposit/benefit_icon.png') }}" class="img-fluid" style="width: 17%;">
 									<p>Start saving with initial deposit MMK 1,000</p>
 								</div>
 								<div class="col-md-6" style="margin-bottom: 20px;">
-									<img src="{{ url('/images/premium_call_deposit/benefit_icon_2.png') }}" class="img-fluid">
+									<img src="{{ url('/images/acc_saving/premium_call_deposit/benefit_icon_2.png') }}" class="img-fluid" style="width: 17%;">
 									<p>Receive interest 2% per annum</p>
 								</div>
 								<div class="col-md-12" style="margin-bottom: 20px;">
-									<img src="{{ url('/images/premium_call_deposit/benefit_icon_3.png') }}" class="img-fluid">
+									<img src="{{ url('/images/acc_saving/premium_call_deposit/benefit_icon_3.png') }}" class="img-fluid benefit_icon_3">
 									<p>Basic banking services and cheque books will be made available</p>
 								</div>
 							</div>
@@ -51,7 +59,7 @@
 									<a href="{{ url('/account-saving/call-deposit/new-business-call') }}">
 										<div class="row">
 											<div class="col-4">
-												<img src="{{ url('/images/call_deposit/related_new_business_call.png') }}" class="img-fluid">
+												<img src="{{ url('/images/acc_saving/related_new_business_call.png') }}" class="img-fluid">
 											</div>
 											<div class="col-8">
 												<p style="margin-bottom: 0px;font-weight: 600;color: #2e2e2e;">New Business Call</p>

@@ -9,16 +9,16 @@ class CallDepositController extends Controller
 {
     public function index()
     {
-        return view('account-saving.call-deposit');
+        return view('account-saving.call-deposit.index');
     }
 
     public function premiumIndex()
     {
-        return view('account-saving.premium-call-deposit');
+        return view('account-saving.call-deposit.premium-call-deposit');
     }
 
     public function newBusinessCallIndex()
     {
-        return view('account-saving.new-business-call');
+        return view('account-saving.call-deposit.new-business-call');
     }
 }
