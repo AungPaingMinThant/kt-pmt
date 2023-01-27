@@ -28,19 +28,19 @@
 							<h4>Benefits</h4>
 							<div class="row">
 								<div class="col-md-6" style="margin-bottom: 20px;">
-									<img src="{{ url('/images/new_business_call/benefit_icon.png') }}" class="img-fluid">
+									<img src="{{ url('/images/acc_saving/new_business_call/benefit_icon.png') }}" class="img-fluid" style="width: 17%;">
 									<p>Start saving with initial deposit MMK 10,000</p>
 								</div>
 								<div class="col-md-6" style="margin-bottom: 20px;">
-									<img src="{{ url('/images/new_business_call/benefit_icon_2.png') }}" class="img-fluid">
+									<img src="{{ url('/images/acc_saving/new_business_call/benefit_icon_2.png') }}" class="img-fluid" style="width: 17%;">
 									<p>Interest rate at 6% per annum</p>
 								</div>
 								<div class="col-md-6" style="margin-bottom: 20px;">
-									<img src="{{ url('/images/new_business_call/benefit_icon_3.png') }}" class="img-fluid">
+									<img src="{{ url('/images/acc_saving/new_business_call/benefit_icon_3.png') }}" class="img-fluid" style="width: 17%;">
 									<p>Unlimited cash deposits and withdrawal in a month</p>
 								</div>
 								<div class="col-md-6" style="margin-bottom: 20px;">
-									<img src="{{ url('/images/new_business_call/benefit_icon_4.png') }}" class="img-fluid">
+									<img src="{{ url('/images/acc_saving/new_business_call/benefit_icon_4.png') }}" class="img-fluid" style="width: 17%;">
 									<p>Opening account online with no minimum balance requirement</p>
 								</div>
 							</div>
@@ -55,7 +55,7 @@
 									<a href="{{ url('/account-saving/call-deposit/premium-call-deposit') }}">
 										<div class="row" style="cursor: pointer;">
 											<div class="col-4 ">
-												<img src="{{ url('/images/call_deposit/related_premium_call_deposit.png') }}" class="img-fluid">
+												<img src="{{ url('/images/acc_saving/related_premium_call_deposit.png') }}" class="img-fluid">
 											</div>
 											<div class="col-8 ">
 												<p style="margin-bottom: 10px;font-weight: 600;color: #2e2e2e;">Premium Call Deposit</p>

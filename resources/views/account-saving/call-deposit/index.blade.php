@@ -29,6 +29,9 @@
 	#quick_look {
 		padding-right: 250px;
 	}
+	.open_at_aya_branch_icon {
+		width: 80%;
+	}
 
 	@media only screen and (max-width: 576px){
 		.call_deposit_title {
@@ -37,6 +40,9 @@
 		}
 		.col-11 {
 			padding-left: 15px !important;
+		}
+		.open_at_aya_branch_icon {
+			width: 100%;
 		}
 	}
 </style>
@@ -102,7 +108,7 @@
 										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 									</div>
 									<div class="col-11">
-										<p style="">It protects the loss caused by explosions.</p>
+										<p style="">Age 18 and above</p>
 									</div>
 									<div class="col-1">
 										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
@@ -116,9 +122,9 @@
 								<h4>How to open the account?</h4>
 								<div class="row">
 									<div class="col-2">
-										<img src="{{ url('/images/call_deposit/open_at_aya_branch_icon.png') }}" class="img-fluid">
+										<img src="{{ url('/images/acc_saving/open_at_aya_branch_icon.png') }}" class="img-fluid open_at_aya_branch_icon">
 									</div>
-									<div class="col-10" style="padding-top: 20px;margin-left: -40px;">
+									<div class="col-10" style="padding-top: 30px;margin-left: -30px;">
 										<p style="">Open at any AYA branches</p>
 									</div>
 								</div>
@@ -192,7 +198,7 @@
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 								</div>
 								<div class="col-11">
-									<p style="">It protects the loss caused by explosions.</p>
+									<p style="">Age 18 and above</p>
 								</div>
 								<div class="col-1">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
@@ -210,7 +216,7 @@
 							<p class="call_deposit_title">How to open the account?</p>
 							<div class="row">
 								<div class="col-3">
-									<img src="{{ url('/images/call_deposit/open_at_aya_branch_icon.png') }}" class="img-fluid">
+									<img src="{{ url('/images/acc_saving/open_at_aya_branch_icon.png') }}" class="img-fluid open_at_aya_branch_icon">
 								</div>
 								<div class="col-9" style="padding-top: 20px;padding-left: 0px;">
 									<p style="">Open at any AYA branches</p>
@@ -294,10 +300,10 @@
 									<a href="{{ url('/account-saving/call-deposit/premium-call-deposit') }}">
 										<div class="row" style="cursor: pointer;">
 											<div class="col-4 ">
-												<img src="{{ url('/images/call_deposit/related_premium_call_deposit.png') }}" class="img-fluid">
+												<img src="{{ url('/images/acc_saving/related_premium_call_deposit.png') }}" class="img-fluid">
 											</div>
 											<div class="col-8 ">
-												<p style="margin-bottom: 10px;font-weight: 600;color: #2e2e2e;">Premium Call Deposit</p>
+												<p style="margin-bottom: 0px;font-weight: 600;color: #2e2e2e;">Premium Call Deposit</p>
 												<p style="color: #2e2e2e;">A Simple deposit option to manage funds</p>
 											</div>
 										</div>
@@ -307,10 +313,10 @@
 									<a href="{{ url('/account-saving/call-deposit/new-business-call') }}">
 										<div class="row">
 											<div class="col-4">
-												<img src="{{ url('/images/call_deposit/related_new_business_call.png') }}" class="img-fluid">
+												<img src="{{ url('/images/acc_saving/related_new_business_call.png') }}" class="img-fluid">
 											</div>
 											<div class="col-8">
-												<p style="margin-bottom: 10px;font-weight: 600;color: #2e2e2e;">New Business Call</p>
+												<p style="margin-bottom: 0px;font-weight: 600;color: #2e2e2e;">New Business Call</p>
 												<p style="color: #2e2e2e;">Convenient way to save and invest your cash</p>
 											</div>
 										</div>
