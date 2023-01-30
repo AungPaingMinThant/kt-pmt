@@ -108,6 +108,7 @@
 						</div>
 						<div class="col-md-8" style="padding-left: 30px;">
 							<section class="advide_desc" id="advice_1_collapsible">
+								<p style="font-weight: 600;">1. Updating Particulars in Mobile Banking</p>
 								<p>Your registered mobile banking number is widely used to directly transfer the funds through mobile banking apps.</p>
 
 								<p>It is very important that your credentials are up to date without fail to ensure you are reachable for any matters related to your account.</p>
@@ -115,7 +116,7 @@
 								<p>How to update your particulars in your mobile banking?</p>
 
 								<p>This can be done with a few easy steps only.</p>
-
+								<div class="space-30"></div>
 								<div class="row">
 									<div class="col-md-4 text-right">
 										<img src="{{ url('/images/frequently/steps/step_1/Updating_Profile_1.jpg') }}" class="img-fluid step_1 step_1_1" style="margin-bottom: 20px;">
@@ -190,10 +191,12 @@
 								</div>
 							</section>
 							<section class="advide_desc" id="advice_2_collapsible" style="display: none;">
+								<p style="font-weight: 600;">2. How to make bill payment</p>
 								<p>Being available 24/7, AYA mobile banking is great for those who could not be able to visit the actual facility during its working hours. You can use mobile banking to pay for your bills conveniently and in a straightforward way.</p>
 
 								<p>Find out how you can make bill payment using mobile banking. </p>
 
+								<div class="space-30"></div>
 								<div class="row">
 									<div class="col-md-4 text-right">
 										<img src="{{ url('/images/frequently/steps/step_2/Bill_Payment_1.jpg') }}" class="img-fluid step_2 step_2_1" style="margin-bottom: 20px;">
@@ -321,12 +324,14 @@
 								</div>
 							</section>
 							<section class="advide_desc" id="advice_3_collapsible" style="display: none;">
+								<p style="font-weight: 600;">3. How to Top-up Mobile</p>
 								<p>Topping up your mobile phone in mobile banking is just on your fingertips.</p>
 
 								<p>You can top up all telecom phone bills operating in Myanmar with deposit account.</p>
 
 								<p>Top up a mobile phone just in 5 easy steps.</p>								
 
+								<div class="space-30"></div>
 								<div class="row">
 									<div class="col-md-4 text-right">
 										<img src="{{ url('/images/frequently/steps/step_3/Top_up_1.jpg') }}" class="img-fluid step_3 step_3_1" style="margin-bottom: 20px;">
@@ -408,12 +413,14 @@
 								</div>
 							</section>
 							<section class="advide_desc" id="advice_4_collapsible" style="display: none;">
+								<p style="font-weight: 600;">4. How to Transfer Funds</p>
 								<p>The days are gone that we need to line up at the bank every time we’d have to pay for or send money.</p>
 
 								<p>You can transfer funds instantly 24/7 to any of AYA Banks accounts or other local banks accounts in Myanmar round the clock through mobile banking.</p>
 
 								<p>Your money can get to where it must be within just seconds.</p>
 
+								<div class="space-30"></div>
 								<div class="row">
 									<div class="col-md-4 text-right">
 										<img src="{{ url('/images/frequently/steps/step_4/Transfer_Fund_1.jpg') }}" class="img-fluid step_4 step_4_1" style="margin-bottom: 20px;">
@@ -497,12 +504,14 @@
 								<p style="font-size: 12px;">Notes: Please note that there is a transaction fees applied for every transaction.</p>
 							</section>
 							<section class="advide_desc" id="advice_5_collapsible" style="display: none;">
+								<p style="font-weight: 600;">5. How to check Credit Card Transation Details</p>
 								<p>A record of previous financial transactions is vital for all individuals and business.</p>
 
 								<p>It is recommended to track spending on credit card before you can reconcile with a credit card statement.</p>
 
 								<p>Monitor your expenses with a few steps here.</p>
 
+								<div class="space-30"></div>
 								<div class="row">
 									<div class="col-md-4 text-right">
 										<img src="{{ url('/images/frequently/steps/step_5/Credit_Card_Transaction_1.jpg') }}" class="img-fluid step_5 step_5_1" style="margin-bottom: 20px;">
@@ -541,12 +550,14 @@
 								<div class="space-20"></div>
 							</section>
 							<section class="advide_desc" id="advice_6_collapsible" style="display: none;">
+								<p style="font-weight: 600;">6. How to Request Money</p>
 								<p>Do you need to request money from others?</p>
 
 								<p>We offer the option of generating your own QR code in mobile banking apps and send it over as an image to get someone paid to you.</p>
 
 								<p>Please follow the simple steps below.</p>
 
+								<div class="space-30"></div>
 								<div class="row">
 									<div class="col-md-4 text-right">
 										<img src="{{ url('/images/frequently/steps/step_6/Request_Money_1.jpg') }}" class="img-fluid step_6 step_6_1" style="margin-bottom: 20px;">
@@ -594,10 +605,12 @@
 								<div class="space-20"></div>
 							</section>
 							<section class="advide_desc" id="advice_7_collapsible" style="display: none;">
+								<p style="font-weight: 600;">7. Simply Pay With QR Code</p>
 								<p>AYA mobile payment feature can keep you comfort.</p>
 
 								<p>At any time anywhere, just scan and pay instantly with QR code to save yourself the hassle of having to exchange currency.</p>
 
+								<div class="space-30"></div>
 								<div class="row">
 									<div class="col-md-4 text-right">
 										<img src="{{ url('/images/frequently/steps/step_7/Payment_with_QR_Code_1.jpg') }}" class="img-fluid mb20 step_7 step_7_1">
@@ -681,10 +694,12 @@
 								<p style="font-size: 12px;">Notes: You are advised to ensure the correct recipient and amount of transfer before proceeding the transaction.</p>
 							</section>
 							<section class="advide_desc" id="advice_8_collapsible" style="display: none;">
+								<p style="font-weight: 600;">8. How to check locations of ATMs and Branches</p>
 								<p>For the sake of convenience and better service, we are using centralized online real-time exchange banking system. You can visit any nearest branches to receive banking services.</p>
 
 								<p>Please find out our ATMs and Branches location in mobile application.</p>
 
+								<div class="space-30"></div>
 								<div class="row">
 									<div class="col-md-4 text-right">
 										<img src="{{ url('/images/frequently/steps/step_8/ATMs_Branch_Location_1.jpg') }}" class="img-fluid mb20 step_8 step_8_1">
@@ -723,12 +738,14 @@
 								<div class="space-20"></div>
 							</section>
 							<section class="advide_desc" id="advice_9_collapsible" style="display: none;">
+								<p style="font-weight: 600;">9. How to check eligibilty for Loan application</p>
 								<p>Are you looking at applying for any loan with AYA Bank?</p>
 
 								<p>In AYA mobile apps, we will take you to explore various requirements you need to fulfill to take Auto loan, home loan and Education loan with us.</p>
 
 								<p>Learn your eligibility more with simple steps.</p>
 
+								<div class="space-30"></div>
 								<div class="row">
 									<div class="col-md-4 text-right">
 										<img src="{{ url('/images/frequently/steps/step_9/Auto_Loan_Mortgage_1.jpg') }}" class="img-fluid mb20 step_9 step_9_1">
@@ -767,10 +784,12 @@
 								<div class="space-20"></div>
 							</section>
 							<section class="advide_desc" id="advice_10_collapsible" style="display: none;">
+								<p style="font-weight: 600;">10. Calculation for Deposits' Interest</p>
 								<p>Are you planning to open saving accounts or a fixed deposit account with us?</p>
 
 								<p>Explore how you can calculate returns on it before saving and investing in a few simple steps.</p>
 
+								<div class="space-30"></div>
 								<div class="row">
 									<div class="col-md-4 text-right">
 										<img src="{{ url('/images/frequently/steps/step_10/Calculation_Deposite_1.jpg') }}" class="img-fluid mb20 step_10 step_10_1">
@@ -809,8 +828,10 @@
 								<div class="space-20"></div>
 							</section>
 							<section class="advide_desc" id="advice_11_collapsible" style="display: none;">
+								<p style="font-weight: 600;">11. How to manage payees</p>
 								<p>If you need to transfer to specific payee regularly instead of one-off payment, it is advisable to register in your payee list. It helps you saving the time for your next transfer and protects from making payments by mistake.</p>
 
+								<div class="space-30"></div>
 								<div class="row">
 									<div class="col-md-4 text-right">
 										<img src="{{ url('/images/frequently/steps/step_11/Manage_Payees_1.jpg') }}" class="img-fluid mb20 step_11 step_11_1">
@@ -892,12 +913,14 @@
 								<div class="space-20"></div>
 							</section>
 							<section class="advide_desc" id="advice_12_collapsible" style="display: none;">
+								<p style="font-weight: 600;">12. Cardless cash withdrawal at ATM</p>
 								<p>Withdrawing funds from ATMs become more convenient now. We have upgraded the system of withdrawing cash from ATMs without using the debit or credit cards.</p>
 
 								<p>This will save our ATM users from having lost cards, declined transactions due to incorrect PIN and taking cards to ATMs.</p>
 
 								<p>Here is step by step guide to access the cardless cash withdrawal facility to our customers.</p>
 
+								<div class="space-30"></div>
 								<div class="row">
 									<div class="col-md-4 text-right">
 										<img src="{{ url('/images/frequently/steps/step_12/ATM_Withdrawal_1.jpg') }}" class="img-fluid mb20 step_12 step_12_1">
@@ -1024,6 +1047,7 @@
 
 										<p>This can be done with a few easy steps only.</p>
 
+										<div class="space-30"></div>
 										<div class="col-sm-12 text-center">
 											<img src="{{ url('/images/frequently/steps/step_1/Updating_Profile_1.jpg') }}" class="img-fluid mb20" style="width: 80%;">
 											<p style="padding: 0px 10px;"><b style="color: #c22236;">1.</b> Login to AYA Bank M-Banking with your user ID and Pin</p>
@@ -1091,6 +1115,7 @@
 
 										<p>Find out how you can make bill payment using mobile banking. </p>
 
+										<div class="space-30"></div>
 										<div class="row">
 											<div class="col-md-12 text-center">
 												<img src="{{ url('/images/frequently/steps/step_2/Bill_Payment_1.jpg') }}" class="img-fluid mb20" style="width: 80%;">
@@ -1184,6 +1209,7 @@
 
 										<p>Top up a mobile phone just in 5 easy steps.</p>
 
+										<div class="space-30"></div>
 										<div class="row">
 											<div class="col-md-12 text-center">
 												<img src="{{ url('/images/frequently/steps/step_3/Top_up_1.jpg') }}" class="img-fluid mb20" style="width: 80%;">
@@ -1237,6 +1263,7 @@
 
 										<p>Your money can get to where it must be within just seconds.</p>
 
+										<div class="space-30"></div>
 										<div class="row">
 											<div class="col-md-12 text-center">
 												<img src="{{ url('/images/frequently/steps/step_4/Transfer_Fund_1.jpg') }}" class="img-fluid mb20" style="width: 80%;">
@@ -1287,6 +1314,7 @@
 
 										<p>Monitor your expenses with a few steps here.</p>
 
+										<div class="space-30"></div>
 										<div class="row">
 											<div class="col-md-12 text-center">
 												<img src="{{ url('/images/frequently/steps/step_5/Credit_Card_Transaction_1.jpg') }}" class="img-fluid mb20" style="width: 80%;">
@@ -1319,6 +1347,7 @@
 
 										<p>Please follow the simple steps below.</p>
 
+										<div class="space-30"></div>
 										<div class="row">
 											<div class="col-md-12 text-center">
 												<img src="{{ url('/images/frequently/steps/step_6/Request_Money_1.jpg') }}" class="img-fluid mb20" style="width: 80%;">
@@ -1355,6 +1384,7 @@
 
 										<p>At any time anywhere, just scan and pay instantly with QR code to save yourself the hassle of having to exchange currency.</p>
 
+										<div class="space-30"></div>
 										<div class="row">
 											<div class="col-md-12 text-center">
 												<img src="{{ url('/images/frequently/steps/step_7/Payment_with_QR_Code_1.jpg') }}" class="img-fluid mb20" style="width: 80%;">
@@ -1403,6 +1433,7 @@
 
 										<p>Please find out our ATMs and Branches location in mobile application.</p>
 
+										<div class="space-30"></div>
 										<div class="row">
 											<div class="col-md-12 text-center">
 												<img src="{{ url('/images/frequently/steps/step_8/ATMs_Branch_Location_1.jpg') }}" class="img-fluid mb20" style="width: 80%;">
@@ -1435,6 +1466,7 @@
 
 										<p>Learn your eligibility more with simple steps.</p>
 
+										<div class="space-30"></div>
 										<div class="row">
 											<div class="col-md-12 text-center">
 												<img src="{{ url('/images/frequently/steps/step_9/Auto_Loan_Mortgage_1.jpg') }}" class="img-fluid mb20">
@@ -1465,6 +1497,7 @@
 
 										<p>Explore how you can calculate returns on it before saving and investing in a few simple steps.</p>
 
+										<div class="space-30"></div>
 										<div class="row">
 											<div class="col-md-12 text-center">
 												<img src="{{ url('/images/frequently/steps/step_10/Calculation_Deposite_1.jpg') }}" class="img-fluid mb20" style="width: 80%;">
@@ -1493,6 +1526,7 @@
 									<div class="accordion-body">
 										<p>If you need to transfer to specific payee regularly instead of one-off payment, it is advisable to register in your payee list. It helps you saving the time for your next transfer and protects from making payments by mistake.</p>
 
+										<div class="space-30"></div>
 										<div class="row">
 											<div class="col-md-12 text-center">
 												<img src="{{ url('/images/frequently/steps/step_11/Manage_Payees_1.jpg') }}" class="img-fluid mb20" style="width: 80%;">
@@ -1541,6 +1575,7 @@
 
 										<p>Here is step by step guide to access the cardless cash withdrawal facility to our customers.</p>
 
+										<div class="space-30"></div>
 										<div class="row">
 											<div class="col-md-12 text-center">
 												<img src="{{ url('/images/frequently/steps/step_12/ATM_Withdrawal_1.jpg') }}" class="img-fluid mb20" style="width: 80%;">

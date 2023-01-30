@@ -149,7 +149,7 @@
 								</ul>
 								
 								<div class="space-40" id="call_deposit_features"></div>
-								<h4>Upon opening a call deposit account</h4>
+								<h4>Upon opening a current deposit account</h4>
 								<div class="row">
 									<div class="col-1">
 										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
@@ -240,7 +240,7 @@
 															<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 														</div>
 														<div class="col-11">
-															<p style="">(1) Bo Aung Kyaw Branch - 1</p>
+															<p style=""> Bo Aung Kyaw Branch - 1</p>
 														</div>
 													</div>
 													<div class="row">
@@ -248,7 +248,7 @@
 															<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 														</div>
 														<div class="col-11">
-															<p style="">(2) Bo Aung Kyaw Branch - 2</p>
+															<p style=""> Bo Aung Kyaw Branch - 2</p>
 														</div>
 													</div>
 													<div class="row">
@@ -256,7 +256,7 @@
 															<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 														</div>
 														<div class="col-11">
-															<p style="">(3) Kyauk Ta Dar Branch</p>
+															<p style=""> Kyauk Ta Dar Branch</p>
 														</div>
 													</div>
 													<div class="row">
@@ -264,7 +264,7 @@
 															<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 														</div>
 														<div class="col-11">
-															<p style="">(4) Myanmar Plaza Branch</p>
+															<p style=""> Myanmar Plaza Branch</p>
 														</div>
 													</div>
 													<div class="row">
@@ -272,7 +272,7 @@
 															<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 														</div>
 														<div class="col-11">
-															<p style="">(5) Ahlone Riverview Branch</p>
+															<p style=""> Ahlone Riverview Branch</p>
 														</div>
 													</div>
 													<div class="row">
@@ -280,7 +280,7 @@
 															<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 														</div>
 														<div class="col-11">
-															<p style="">(6) Nyaung Oo Branch</p>
+															<p style=""> Nyaung Oo Branch</p>
 														</div>
 													</div>
 													<div class="row">
@@ -288,7 +288,7 @@
 															<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 														</div>
 														<div class="col-11">
-															<p style="">(7) Nay Pyi Taw Branch -1 </p>
+															<p style=""> Nay Pyi Taw Branch -1 </p>
 														</div>
 													</div>
 													<div class="row">
@@ -296,7 +296,7 @@
 															<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 														</div>
 														<div class="col-11">
-															<p style="">(8) Mandalay Branch - 2</p>
+															<p style=""> Mandalay Branch - 2</p>
 														</div>
 													</div>
 													<div class="row">
@@ -304,7 +304,7 @@
 															<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 														</div>
 														<div class="col-11">
-															<p style="">(9) Si Taw Gyi Branch (Yangon-48)</p>
+															<p style=""> Si Taw Gyi Branch (Yangon-48)</p>
 														</div>
 													</div>
 													<div class="row">
@@ -312,7 +312,7 @@
 															<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 														</div>
 														<div class="col-11">
-															<p style="">(10) Thilawa Branch (Yangon-63)</p>
+															<p style=""> Thilawa Branch (Yangon-63)</p>
 														</div>
 													</div>
 													<div class="row">
@@ -320,7 +320,7 @@
 															<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 														</div>
 														<div class="col-11">
-															<p style="">(11) Yangon-87</p>
+															<p style=""> Yangon-87</p>
 														</div>
 													</div>
 													<div class="row">
@@ -328,7 +328,7 @@
 															<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 														</div>
 														<div class="col-11">
-															<p style="">(12) Mawlamyaing Branch</p>
+															<p style=""> Mawlamyaing Branch</p>
 														</div>
 													</div>
 												</div>
@@ -519,7 +519,7 @@
 													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 												</div>
 												<div class="col-11">
-													<p style="">(1) Bo Aung Kyaw Branch - 1</p>
+													<p style=""> Bo Aung Kyaw Branch - 1</p>
 												</div>
 											</div>
 											<div class="row">
@@ -527,7 +527,7 @@
 													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 												</div>
 												<div class="col-11">
-													<p style="">(2) Bo Aung Kyaw Branch - 2</p>
+													<p style=""> Bo Aung Kyaw Branch - 2</p>
 												</div>
 											</div>
 											<div class="row">
@@ -535,7 +535,7 @@
 													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 												</div>
 												<div class="col-11">
-													<p style="">(3) Kyauk Ta Dar Branch</p>
+													<p style=""> Kyauk Ta Dar Branch</p>
 												</div>
 											</div>
 											<div class="row">
@@ -543,7 +543,7 @@
 													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 												</div>
 												<div class="col-11">
-													<p style="">(4) Myanmar Plaza Branch</p>
+													<p style=""> Myanmar Plaza Branch</p>
 												</div>
 											</div>
 											<div class="row">
@@ -551,7 +551,7 @@
 													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 												</div>
 												<div class="col-11">
-													<p style="">(5) Ahlone Riverview Branch</p>
+													<p style=""> Ahlone Riverview Branch</p>
 												</div>
 											</div>
 											<div class="row">
@@ -559,7 +559,7 @@
 													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 												</div>
 												<div class="col-11">
-													<p style="">(6) Nyaung Oo Branch</p>
+													<p style=""> Nyaung Oo Branch</p>
 												</div>
 											</div>
 											<div class="row">
@@ -567,7 +567,7 @@
 													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 												</div>
 												<div class="col-11">
-													<p style="">(7) Nay Pyi Taw Branch -1 </p>
+													<p style=""> Nay Pyi Taw Branch -1 </p>
 												</div>
 											</div>
 											<div class="row">
@@ -575,7 +575,7 @@
 													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 												</div>
 												<div class="col-11">
-													<p style="">(8) Mandalay Branch - 2</p>
+													<p style=""> Mandalay Branch - 2</p>
 												</div>
 											</div>
 											<div class="row">
@@ -583,7 +583,7 @@
 													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 												</div>
 												<div class="col-11">
-													<p style="">(9) Si Taw Gyi Branch (Yangon-48)</p>
+													<p style=""> Si Taw Gyi Branch (Yangon-48)</p>
 												</div>
 											</div>
 											<div class="row">
@@ -591,7 +591,7 @@
 													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 												</div>
 												<div class="col-11">
-													<p style="">(10) Thilawa Branch (Yangon-63)</p>
+													<p style=""> Thilawa Branch (Yangon-63)</p>
 												</div>
 											</div>
 											<div class="row">
@@ -599,7 +599,7 @@
 													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 												</div>
 												<div class="col-11">
-													<p style="">(11) Yangon-87</p>
+													<p style=""> Yangon-87</p>
 												</div>
 											</div>
 											<div class="row">
@@ -607,7 +607,7 @@
 													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 												</div>
 												<div class="col-11">
-													<p style="">(12) Mawlamyaing Branch</p>
+													<p style=""> Mawlamyaing Branch</p>
 												</div>
 											</div>
 										</div>
