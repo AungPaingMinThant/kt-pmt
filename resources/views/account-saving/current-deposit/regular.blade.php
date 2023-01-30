@@ -27,7 +27,7 @@
 									<p>Start saving with initial deposit MMK 10,000</p>
 								</div>
 								<div class="col-md-6" style="margin-bottom: 20px;">
-									<img src="{{ url('/images/acc_saving/regular_curr_acc/benefit_icon_2.png') }}" class="img-fluid" style="width: 17%;">
+									<img src="{{ url('/images/acc_saving/regular_curr_acc/benefit_icon_2.png') }}" class="img-fluid" style="width: 16%;">
 									<p>Safe payments with cheques to supplier or billing organisations.</p>
 								</div>
 								<div class="col-md-6" style="margin-bottom: 20px;">
