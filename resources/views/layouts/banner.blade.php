@@ -1315,7 +1315,7 @@
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 45px;left: 65px;">
+					<div style="position: absolute;top: 45px;left: 110px;">
 						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span style="color: #a02226;">Make your everyday</span> banking<br><span style="color: #a02226;">easy and access</span> funds anytime</p>
 					</div>
 				</div>
@@ -1331,6 +1331,150 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">CURRENT DEPOSIT</span>
 			</p>
+		</div>
+	</div>
+@endif
+
+@if($page == 'regular_curr_acc')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/current-deposit') }}" style="color: #666;">CURRENT DEPOSIT</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">REGUALR CURRENT ACCOUNT</span>
+			</p>
+		</div>
+	</div>
+	<div class="regular_curr_acc_banner banner_bg" style="">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-5 text-left" style="text-align: left;position: relative;">
+					<div class="call_deposit_banner_tagline">
+						<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">Regular Current Account</span><br><span>A simple current account in local currency with <br>everything you need to stay on top of your money.</span></p>
+					</div>
+				</div>
+				<div class="col-md-6" style="text-align: right;">
+					<p></p>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 45px;left: 15px;">
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">Regular Current Account</p>
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;">A simple current account in local currency with <br>everything you need to stay on top of your money.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
+
+@if($page == 'seafarer')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/current-deposit') }}" style="color: #666;">CURRENT DEPOSIT</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">SEAFARER ACCOUNT (FCY)</span>
+			</p>
+		</div>
+	</div>
+	<div class="seafarer_banner banner_bg" style="">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-5 text-left" style="text-align: left;position: relative;">
+					<div class="call_deposit_banner_tagline">
+						<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">Seafarer Account (FCY)</span><br><span>Designed for seafarers / seamen to receive their salary<br>from overseas or local in foreign currency.</span></p>
+					</div>
+				</div>
+				<div class="col-md-6" style="text-align: right;">
+					<p></p>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 45px;left: 15px;">
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">Seafarer Account (FCY)</p>
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;">Designed for seafarers / seamen to receive their salary<br>from overseas or local in foreign currency.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
+
+@if($page == 'new_business_curr_acc')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/current-deposit') }}" style="color: #666;">CURRENT DEPOSIT</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">NEW BUSINESS CURRENT ACCOUNT</span>
+			</p>
+		</div>
+	</div>
+	<div class="new_business_curr_acc_banner banner_bg" style="">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
+					<div class="call_deposit_banner_tagline">
+						<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">New Business Current Account</span><br><span>Suitable for individuals who required to transact frequently.<br>AYA New Business Current account helps make your everyday banking easier.</span></p>
+					</div>
+				</div>
+				<div class="col-md-6" style="text-align: right;">
+					<p></p>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 45px;left: 15px;">
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">New Business<br>Current Account</p>
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;">Suitable for individuals who required to transact frequently. AYA New Business Current account helps make your everyday banking easier.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
+
+@if($page == 'retail_fca_curr_acc')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/current-deposit') }}" style="color: #666;">CURRENT DEPOSIT</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">RETAIL FCA CURRENT (FCY)</span>
+			</p>
+		</div>
+	</div>
+	<div class="retail_fca_curr_acc_banner banner_bg" style="">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
+					<div class="call_deposit_banner_tagline">
+						<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">Retail FCA Current (FCY)</span><br><span>Designed for individuals who receives their salary in foreign currencies<br>while minimizing foreign exchange risks and maximizing<br>payment efficiency in foreign currencies.</span></p>
+					</div>
+				</div>
+				<div class="col-md-6" style="text-align: right;">
+					<p></p>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 45px;left: 15px;">
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">Retail FCA Current (FCY)</p>
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;">Designed for individuals who receives their salary in foreign currencies while minimizing foreign exchange risks and maximizing payment efficiency in foreign currencies.</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 @endif

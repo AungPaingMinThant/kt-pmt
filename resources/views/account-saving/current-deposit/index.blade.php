@@ -657,7 +657,7 @@
 									</a>
 								</div>
 								<div class="col-md-6" style="margin-bottom: 40px;">
-									<a href="{{ url('/account-saving/current-deposit/new-business-call') }}">
+									<a href="{{ url('/account-saving/current-deposit/new-business-current-account') }}">
 										<div class="row">
 											<div class="col-4">
 												<img src="{{ url('/images/acc_saving/new_business_current_account.png') }}" class="img-fluid">
@@ -683,7 +683,7 @@
 									</a>
 								</div>
 								<div class="col-md-6">
-									<a href="{{ url('/account-saving/current-deposit/retial-fca-current') }}">
+									<a href="{{ url('/account-saving/current-deposit/retail-fca-current') }}">
 										<div class="row">
 											<div class="col-4">
 												<img src="{{ url('/images/acc_saving/retail_fca_current.png') }}" class="img-fluid">

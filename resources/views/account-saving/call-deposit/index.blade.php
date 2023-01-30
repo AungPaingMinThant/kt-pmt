@@ -296,7 +296,7 @@
 									<h4 style="font-weight: 600;">Related</h4>
 								</div>
 								<div class="space-20"></div>
-								<div class="col-md-6">
+								<div class="col-md-6" style="margin-bottom: 30px;">
 									<a href="{{ url('/account-saving/call-deposit/premium-call-deposit') }}">
 										<div class="row" style="cursor: pointer;">
 											<div class="col-4 ">
