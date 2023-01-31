@@ -1433,7 +1433,7 @@
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 45px;left: 15px;">
+					<div style="position: absolute;top: 20px;left: 15px;">
 						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">New Business<br>Current Account</p>
 						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;">Suitable for individuals who required to transact frequently. AYA New Business Current account helps make your everyday banking easier.</p>
 					</div>
