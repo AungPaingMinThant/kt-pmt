@@ -86,3 +86,4 @@ Route::get('/account-saving/current-deposit/regular-current-account','App\Http\C
 Route::get('/account-saving/current-deposit/new-business-current-account','App\Http\Controllers\AccountSaving\CurrentDepositController@newBusinessIndex');
 Route::get('/account-saving/current-deposit/seafarer-acount','App\Http\Controllers\AccountSaving\CurrentDepositController@seafererIndex');
 Route::get('/account-saving/current-deposit/retail-fca-current','App\Http\Controllers\AccountSaving\CurrentDepositController@retailFCAIndex');
+Route::get('/account-saving/fixed-deposit','App\Http\Controllers\AccountSaving\FixedDepositController@index');

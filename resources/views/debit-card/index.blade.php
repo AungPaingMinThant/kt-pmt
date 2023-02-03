@@ -49,14 +49,14 @@
 		margin-bottom: 5px;
 	}
 	.mpu_jbc_tab {
-		background-image: url('./images/MPU_JCB_card_2.png');
+		background-image: url('./images/MPU_JCB_card_2.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
 		height: 520px;
 		background-position: center left;
 	}
 	.mpu_upi_tab {
-		background-image: url('./images/JBC_UPI_card_2.png');
+		background-image: url('./images/MPU-UPI-card.png');
 		background-size: cover;
 		background-repeat: no-repeat;
 		height: 520px;
@@ -189,10 +189,10 @@
 			zoom: 75%;
 		}
 		.mpu_jbc_tab {
-			background-image: url(./images/MPU_JCB_card.png);
+			background-image: url(./images/MPU_JCB_card_2.jpg);
 		}
 		.mpu_upi_tab {
-			background-image: url('./images/JBC_UPI_card.png');
+/*			background-image: url('./images/JBC_UPI_card.png');*/
 		}
 		.credit_tag_line {
 			padding: 0px 0px;
@@ -229,7 +229,8 @@
 							</button>
 						</li>
 					</ul>
-					<div class="tab-content" style="padding:0;background-image: url('./images/card_bg.jpg');background-size: cover;background-repeat: no-repeat;">
+					<!-- background-image: url('./images/MicrosoftTeams-image(1).png'); -->
+					<div class="tab-content" style="padding:0;background-size: cover;background-repeat: no-repeat;">
 						<div class="tab-pane fade mpu_jbc_tab show active" id="navs-pills-top-home" role="tabpanel">
 							<div class="row tab_data_row" >
 								<div class="col-md-7"></div>

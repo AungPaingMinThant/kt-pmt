@@ -1220,7 +1220,7 @@
 		<div class="container">
 			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">CALL DEPOSIT</span>
 			</p>
@@ -1233,7 +1233,7 @@
 		<div class="container">
 			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/call-deposit') }}" style="color: #666;">CALL DEPOSIT</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">PREMIUM CALL DEPOSIT</span>
@@ -1269,7 +1269,7 @@
 		<div class="container">
 			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/call-deposit') }}" style="color: #666;">CALL DEPOSIT</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">NEW BUSINESS CALL</span>
@@ -1327,7 +1327,7 @@
 		<div class="container">
 			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">CURRENT DEPOSIT</span>
 			</p>
@@ -1340,7 +1340,7 @@
 		<div class="container">
 			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/current-deposit') }}" style="color: #666;">CURRENT DEPOSIT</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">REGUALR CURRENT ACCOUNT</span>
@@ -1376,7 +1376,7 @@
 		<div class="container">
 			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/current-deposit') }}" style="color: #666;">CURRENT DEPOSIT</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">SEAFARER ACCOUNT (FCY)</span>
@@ -1412,7 +1412,7 @@
 		<div class="container">
 			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/current-deposit') }}" style="color: #666;">CURRENT DEPOSIT</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">NEW BUSINESS CURRENT ACCOUNT</span>
@@ -1448,7 +1448,7 @@
 		<div class="container">
 			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/current-deposit') }}" style="color: #666;">CURRENT DEPOSIT</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">RETAIL FCA CURRENT (FCY)</span>
@@ -1459,8 +1459,8 @@
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
-					<div class="call_deposit_banner_tagline">
-						<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">Retail FCA Current (FCY)</span><br><span>Designed for individuals who receives their salary in foreign currencies<br>while minimizing foreign exchange risks and maximizing<br>payment efficiency in foreign currencies.</span></p>
+					<div class="retail_banner_tagline">
+						<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">Retail FCA Current (FCY)</span><br><span>Designed for individuals who receives their salary in foreign currencies while minimizing foreign exchange risks and maximizing payment efficiency in foreign currencies.</span></p>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1475,6 +1475,41 @@
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
+@endif
+
+@if($page == 'fixed_deposit')
+	<div class="fixed_deposit_banner banner_bg" style="">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
+					<div class="fixed_deposit_banner_tagline">
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Maximise savings with<br><span style="color: #a02226;">AYA Fixed Deposits</span></p>
+					</div>
+				</div>
+				<div class="col-md-6" style="text-align: right;">
+					<p></p>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 30px;left: 30px;">
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Maximise savings with<br><span style="color: #a02226;">AYA Fixed Deposits</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">FIXED DEPOSIT</span>
+			</p>
 		</div>
 	</div>
 @endif
