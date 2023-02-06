@@ -190,7 +190,7 @@
 								</div>
 
 								<div class="space-40" id="benefits"></div>
-								<h4>Benefit</h4>
+								<h4>Benefits</h4>
 								<div class="row">
 									<div class="col-1">
 										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>

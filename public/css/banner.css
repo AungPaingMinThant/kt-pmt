@@ -123,6 +123,10 @@
 	top: 156px;
 	left: 200px;
 }
+.aya_maximizer_saving_banner_tagline {
+	position: absolute;
+	top: 90px;
+}
 .calldeposit_banner{
 	background-image:url('../images/acc_saving/call_deposit/KV.jpg');
 }
@@ -159,6 +163,9 @@
 }
 .aya_maximizer_saving_banner {
 	background-image:url('../images/acc_saving/aya-maximizer-saving/KV.jpg');
+}
+.aya_loyal_saving_banner {
+	background-image:url('../images/acc_saving/aya-loyal-saving/KV.jpg');
 }
 .ngwe_toe_shwe_o_banner {
 	background-image:url('../images/acc_saving/ngwe-toe-shwe-o/KV.jpg');
@@ -374,12 +381,15 @@
 		background-image:url('../images/acc_saving/aya-maximizer-saving/mobile_KV.jpg');
 		background-position: 80% center;
 	}
+	.aya_loyal_saving_banner {
+		background-image:url('../images/acc_saving/aya-loyal-saving/mobile_KV.jpg');
+	}
 	.ngwe_toe_shwe_o_banner {
 		background-image:url('../images/acc_saving/ngwe-toe-shwe-o/mobile_KV.jpg');
 		background-position: 80% center;
 	}
 	.aya_su_buu_banner {
 		background-image:url('../images/acc_saving/aya-su-buu/mobile_KV.jpg');
-		background-position: 60% center;
+		background-position: left center;
 	}
 }
