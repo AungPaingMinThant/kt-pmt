@@ -1603,22 +1603,22 @@
 		<div class="container">
 			<div class="d-none d-sm-block">
 				<div class="row">
-					<div class="col-md-5">
-						<p></p>
-					</div>
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
-						<div class="aya_regular_saving_banner_tagline">
+						<div class="aya_maximizer_saving_banner_tagline">
 							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Maximizer Saving</span><br>An interest-bearing account with the chance of obtaining bonus and interest at the same time upon on your monthly saving.<br><span style="line-height: 40px;">Suitable for individuals with regular income to start saving with MMK 10,000.</span></p>
 						</div>
+					</div>
+					<div class="col-md-5">
+						<p></p>
 					</div>
 				</div>
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 40px;left: 150px;">
-						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">AYA Maximizer Saving</p>
-						<p style="font-weight: 400;margin-bottom: 10px;line-height: 20px;">An interest-bearing account with the chance of obtaining bonus and interest at the same time upon on your monthly saving.</p>
-						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;">Suitable for individuals with regular income to start saving with MMK 10,000.</p>
+					<div style="position: absolute;top: 30px;left: 30px;">
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">AYA Maximizer <br>Saving</p>
+						<p style="font-weight: 400;margin-bottom: 10px;line-height: 20px;width: 65%;">An interest-bearing account with the chance of obtaining bonus and interest at the same time upon on your monthly saving.</p>
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;width: 53%;">Suitable for individuals with regular income to start saving with MMK 10,000.</p>
 					</div>
 				</div>
 			</div>
@@ -1638,23 +1638,23 @@
 			</p>
 		</div>
 	</div>
-	<div class="aya_maximizer_saving_banner banner_bg" style="">
+	<div class="aya_loyal_saving_banner banner_bg" style="">
 		<div class="container">
 			<div class="d-none d-sm-block">
 				<div class="row">
-					<div class="col-md-5">
-						<p></p>
-					</div>
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_regular_saving_banner_tagline">
 							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Loyal Saving</span><br>Offer higher interest and a bonus on three months idle funds in the saving account.<br><span style="line-height: 40px;">Suitable for regular savers who want to save money over time with minimum access.</span></p>
 						</div>
 					</div>
+					<div class="col-md-5">
+						<p></p>
+					</div>
 				</div>
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 110px;left: 150px;">
+					<div style="position: absolute;top: 30px;left: 30px;">
 						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">AYA Loyal Saving</p>
 						<p style="font-weight: 400;margin-bottom: 10px;line-height: 20px;">Offer higher interest and a bonus on three months idle funds in the saving account.</p>
 						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;">Suitable for regular savers who want to save money over time with minimum access.</p>
@@ -1681,19 +1681,19 @@
 		<div class="container">
 			<div class="d-none d-sm-block">
 				<div class="row">
-					<div class="col-md-5">
-						<p></p>
-					</div>
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_regular_saving_banner_tagline">
 							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">Ngwe Toe Mae-Shwe O</span><br>An interest bearing account for individuals and joint customers who receives regular international remittances from their family members.</p>
 						</div>
 					</div>
+					<div class="col-md-5">
+						<p></p>
+					</div>
 				</div>
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 110px;left: 150px;">
+					<div style="position: absolute;top: 30px;left: 30px;">
 						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">Ngwe Toe Mae-Shwe O</p>
 						<p style="font-weight: 400;margin-bottom: 10px;line-height: 20px;">An interest bearing account for individuals and joint customers who receives regular international remittances from their family members.</p>
 					</div>
@@ -1719,19 +1719,19 @@
 		<div class="container">
 			<div class="d-none d-sm-block">
 				<div class="row">
-					<div class="col-md-5">
-						<p></p>
-					</div>
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_regular_saving_banner_tagline">
 							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Su-Buu</span><br>An interest-bearing account for payroll customers where their employer has a provident fund scheme for the employees’ retirement plan.</p>
 						</div>
 					</div>
+					<div class="col-md-5">
+						<p></p>
+					</div>
 				</div>
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 110px;left: 150px;">
+					<div style="position: absolute;top: 10px;left: 30px;">
 						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">AYA Su-Buu</p>
 						<p style="font-weight: 400;margin-bottom: 10px;line-height: 20px;">An interest-bearing account for payroll customers where their employer has a provident fund scheme for the employees’ retirement plan.</p>
 					</div>

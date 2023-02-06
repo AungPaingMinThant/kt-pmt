@@ -131,7 +131,7 @@
 										<img src="{{ url('/images/acc_saving/open_at_aya_branch_icon.png') }}" class="img-fluid open_at_aya_branch_icon">
 									</div>
 									<div class="col-10" style="padding-top: 30px;margin-left: -30px;">
-										<p style="">Open at any AYA branch</p>
+										<p style="">Open at any AYA branches</p>
 									</div>
 								</div>
 
@@ -143,7 +143,7 @@
 								</ul>
 								
 								<div class="space-40" id="call_deposit_features"></div>
-								<h4>Upon opening a saving deposit account</h4>
+								<h4>Upon opening of a saving account</h4>
 								<div class="row">
 									<div class="col-1">
 										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
@@ -257,7 +257,7 @@
 					<div class="space-20"></div>
 					<div class="row">
 						<div class="col-md-12">
-							<p class="call_deposit_title">Upon opening a saving deposit account</p>
+							<p class="call_deposit_title">Upon opening of a saving account</p>
 							<div class="row">
 								<div class="col-1">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
