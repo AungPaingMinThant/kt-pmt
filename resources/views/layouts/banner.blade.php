@@ -1494,7 +1494,7 @@
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 30px;left: 30px;">
+					<div style="position: absolute;top: 30px;left: 200px;">
 						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Maximise savings with<br><span style="color: #a02226;">AYA Fixed Deposits</span></p>
 					</div>
 				</div>
@@ -1510,6 +1510,233 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">FIXED DEPOSIT</span>
 			</p>
+		</div>
+	</div>
+@endif
+
+@if($page == 'savingdeposit')
+	<div class="savingdeposit_banner banner_bg" style="">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
+					<div class="call_deposit_banner_tagline">
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">A safe way to save money and<Br><span style="color: #a02226;">receive the benefits of interest</span></p>
+					</div>
+				</div>
+				<div class="col-md-6" style="text-align: right;">
+					<p></p>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 30px;left: 45px;">
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">A safe way to save money and<Br><span style="color: #a02226;">receive the benefits of interest</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">SAVING DEPOSIT</span>
+			</p>
+		</div>
+	</div>
+@endif
+
+@if($page == 'aya_regular_saving')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/saving-deposit') }}" style="color: #666;">SAVING DEPOSIT</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">AYA REGULAR SAVING</span>
+			</p>
+		</div>
+	</div>
+	<div class="aya_regular_saving_banner banner_bg" style="">
+		<div class="container">
+			<div class="d-none d-sm-block">
+				<div class="row">
+					<div class="col-md-5">
+						<p></p>
+					</div>
+					<div class="col-md-4 text-left" style="text-align: left;position: relative;">
+						<div class="aya_regular_saving_banner_tagline">
+							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Regular Saving</span><br>An interest-bearing account where individuals and joint customers can deposit, withdraw and transfer anytime, anywhere.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 110px;left: 150px;">
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">AYA Regular Saving</p>
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;">An interest-bearing account where individuals and joint customers can deposit, withdraw and transfer anytime, anywhere.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
+
+@if($page == 'aya_maximizer_saving')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/saving-deposit') }}" style="color: #666;">SAVING DEPOSIT</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">AYA MAXIMIZER SAVING</span>
+			</p>
+		</div>
+	</div>
+	<div class="aya_maximizer_saving_banner banner_bg" style="">
+		<div class="container">
+			<div class="d-none d-sm-block">
+				<div class="row">
+					<div class="col-md-5">
+						<p></p>
+					</div>
+					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
+						<div class="aya_regular_saving_banner_tagline">
+							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Maximizer Saving</span><br>An interest-bearing account with the chance of obtaining bonus and interest at the same time upon on your monthly saving.<br><span style="line-height: 40px;">Suitable for individuals with regular income to start saving with MMK 10,000.</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 40px;left: 150px;">
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">AYA Maximizer Saving</p>
+						<p style="font-weight: 400;margin-bottom: 10px;line-height: 20px;">An interest-bearing account with the chance of obtaining bonus and interest at the same time upon on your monthly saving.</p>
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;">Suitable for individuals with regular income to start saving with MMK 10,000.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
+
+@if($page == 'aya_loyal_saving')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/saving-deposit') }}" style="color: #666;">SAVING DEPOSIT</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">AYA LOYAL SAVING</span>
+			</p>
+		</div>
+	</div>
+	<div class="aya_maximizer_saving_banner banner_bg" style="">
+		<div class="container">
+			<div class="d-none d-sm-block">
+				<div class="row">
+					<div class="col-md-5">
+						<p></p>
+					</div>
+					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
+						<div class="aya_regular_saving_banner_tagline">
+							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Loyal Saving</span><br>Offer higher interest and a bonus on three months idle funds in the saving account.<br><span style="line-height: 40px;">Suitable for regular savers who want to save money over time with minimum access.</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 110px;left: 150px;">
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">AYA Loyal Saving</p>
+						<p style="font-weight: 400;margin-bottom: 10px;line-height: 20px;">Offer higher interest and a bonus on three months idle funds in the saving account.</p>
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;">Suitable for regular savers who want to save money over time with minimum access.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
+
+@if($page == 'ngwe-toe-shwe-o')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/saving-deposit') }}" style="color: #666;">SAVING DEPOSIT</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">NGWE TOE MAE-SHWE O</span>
+			</p>
+		</div>
+	</div>
+	<div class="ngwe_toe_shwe_o_banner banner_bg" style="">
+		<div class="container">
+			<div class="d-none d-sm-block">
+				<div class="row">
+					<div class="col-md-5">
+						<p></p>
+					</div>
+					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
+						<div class="aya_regular_saving_banner_tagline">
+							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">Ngwe Toe Mae-Shwe O</span><br>An interest bearing account for individuals and joint customers who receives regular international remittances from their family members.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 110px;left: 150px;">
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">Ngwe Toe Mae-Shwe O</p>
+						<p style="font-weight: 400;margin-bottom: 10px;line-height: 20px;">An interest bearing account for individuals and joint customers who receives regular international remittances from their family members.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
+
+@if($page == 'aya_su_buu')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/saving-deposit') }}" style="color: #666;">SAVING DEPOSIT</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">AYA SU-BUU</span>
+			</p>
+		</div>
+	</div>
+	<div class="aya_su_buu_banner banner_bg" style="">
+		<div class="container">
+			<div class="d-none d-sm-block">
+				<div class="row">
+					<div class="col-md-5">
+						<p></p>
+					</div>
+					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
+						<div class="aya_regular_saving_banner_tagline">
+							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Su-Buu</span><br>An interest-bearing account for payroll customers where their employer has a provident fund scheme for the employees’ retirement plan.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 110px;left: 150px;">
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">AYA Su-Buu</p>
+						<p style="font-weight: 400;margin-bottom: 10px;line-height: 20px;">An interest-bearing account for payroll customers where their employer has a provident fund scheme for the employees’ retirement plan.</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 @endif

@@ -421,7 +421,7 @@
 					<div class="space-20"></div>
 					<div class="row">
 						<div class="col-md-12">
-							<p class="call_deposit_title">Upon opening a call deposit account</p>
+							<p class="call_deposit_title">Upon opening a current deposit account</p>
 							<div class="row">
 								<div class="col-1">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
