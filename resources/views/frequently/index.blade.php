@@ -27,26 +27,63 @@
 	.timeline:before {
 		margin-left: -9px;
 	}
-	.step_1_timeline:before, .step_5_timeline:before, .step_9_timeline:before, .step_10_timeline:before {
+	.step_1_timeline:before, .step_5_timeline:before, .step_10_timeline:before {
 		height: 120px;
 	}
 	.step_2_timeline:before, .step_4_timeline:before {
 		height: 470px;
 	}
 	.step_3_timeline:before {
-		height: 400px;
+		height: 370px;
+	}
+	.step_6_timeline:before {
+		height: 180px;
 	}
 	.step_7_timeline:before {
-		height: 480px;
+		height: 440px;
+	}
+	.step_8_timeline:before {
+		height: 120px;
+	}
+	.step_9_timeline:before {
+		height: 150px;
 	}
 	.step_11_timeline:before {
-		height: 450px;
+		height: 420px;
 	}
 	.step_12_timeline:before {
-		height: 530px;
+		height: 490px;
 	}
 	.frequently_desc {
 		font-size: 13px !important;
+	}
+	.bullet_square {
+		float: right;
+		margin-top: 5px;
+		width: 40%;
+	}
+	@media (max-width: 1300px) and (min-width: 1000px) {
+		.timeline:before {
+			margin-left: -11px;
+		}
+		.bullet_square {
+			width: 100%;
+		}
+		.step_1_timeline::before, .step_10_timeline::before {
+		  	height: 160px;
+		}
+		.step_2_timeline::before {
+		  	height: 520px;
+		}
+		.step_3_timeline::before {
+		  	height: 460px;
+		}
+		.step_4_timeline::before {
+			height: 530px;
+		}
+		.step_5_timeline::before {
+			height: 140px;
+		}
 	}
 	@media only screen and (max-width: 576px){
 		.frequently_section_1 {
@@ -161,7 +198,7 @@
 
 								<div class="row frequently_desc">
 									<div class="col-1">
-										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid" style="float: right;margin-top: 5px;width: 40%;">
+										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
 										<p style="margin-bottom: 5px;font-weight: 500;">Your Name</p>
@@ -169,7 +206,7 @@
 									</div>
 
 									<div class="col-1 text-right">
-										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid" style="float: right;margin-top: 5px;width: 40%;">
+										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
 										<p style="margin-bottom: 5px;font-weight: 500;">Your National Registration Card Number and date of birth</p>
@@ -177,7 +214,7 @@
 									</div>
 
 									<div class="col-1">
-										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid" style="float: right;margin-top: 5px;width: 40%;">
+										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
 										<p style="margin-bottom: 5px;font-weight: 500;">Your Email address</p>
@@ -185,7 +222,7 @@
 									</div>
 
 									<div class="col-1">
-										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid" style="float: right;margin-top: 5px;width: 40%;">
+										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
 										<p style="margin-bottom: 5px;font-weight: 500;">Your Phone number that was registered when opening accounts</p>
@@ -287,55 +324,55 @@
 
 								<div class="row frequently_desc">
 									<div class="col-1">
-										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid" style="float: right;margin-top: 5px;width: 40%;">
+										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
 										<p>Credit cards</p>
 									</div>
 									<div class="col-1">
-										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid" style="float: right;margin-top: 5px;width: 40%;">
+										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
 										<p>Electricity</p>
 									</div>
 									<div class="col-1">
-										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid" style="float: right;margin-top: 5px;width: 40%;">
+										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
 										<p>Loans</p>
 									</div>
 									<div class="col-1">
-										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid" style="float: right;margin-top: 5px;width: 40%;">
+										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
 										<p>Insurance</p>
 									</div>
 									<div class="col-1">
-										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid" style="float: right;margin-top: 5px;width: 40%;">
+										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
 										<p>Grocery Stores</p>
 									</div>
 									<div class="col-1">
-										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid" style="float: right;margin-top: 5px;width: 40%;">
+										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
 										<p>Communication</p>
 									</div>
 									<div class="col-1">
-										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid" style="float: right;margin-top: 5px;width: 40%;">
+										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
 										<p>School fees</p>
 									</div>
 									<div class="col-1">
-										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid" style="float: right;margin-top: 5px;width: 40%;">
+										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
 										<p>Mobile</p>
 									</div>
 									<div class="col-1">
-										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid" style="float: right;margin-top: 5px;width: 40%;">
+										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
 										<p>Travels</p>
@@ -424,7 +461,7 @@
 
 								<div class="row">
 									<div class="col-1">
-										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid" style="float: right;margin-top: 5px;width: 40%;">
+										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
 										<p class="frequently_desc">Fast and Secure top-up service, applied in real-time. Stay in touch with family and friends.</p>
@@ -524,11 +561,11 @@
 							</section>
 							<section class="advide_desc" id="advice_5_collapsible" style="display: none;">
 								<p style="font-weight: 600;color: #a02226;">How to check Credit Card Transation Details</p>
-								<p >A record of previous financial transactions is vital for all individuals and business.</p>
+								<p class="frequently_desc">A record of previous financial transactions is vital for all individuals and business.</p>
 
-								<p >It is recommended to track spending on credit card before you can reconcile with a credit card statement.</p>
+								<p class="frequently_desc">It is recommended to track spending on credit card before you can reconcile with a credit card statement.</p>
 
-								<p >Monitor your expenses with a few steps here.</p>
+								<p class="frequently_desc">Monitor your expenses with a few steps here.</p>
 
 								<div class="space-30"></div>
 								<div class="row">
@@ -570,11 +607,11 @@
 							</section>
 							<section class="advide_desc" id="advice_6_collapsible" style="display: none;">
 								<p style="font-weight: 600;color: #a02226;">How to Request Money</p>
-								<p>Do you need to request money from others?</p>
+								<p class="frequently_desc">Do you need to request money from others?</p>
 
-								<p>We offer the option of generating your own QR code in mobile banking apps and send it over as an image to get someone paid to you.</p>
+								<p class="frequently_desc">We offer the option of generating your own QR code in mobile banking apps and send it over as an image to get someone paid to you.</p>
 
-								<p>Please follow the simple steps below.</p>
+								<p class="frequently_desc">Please follow the simple steps below.</p>
 
 								<div class="space-30"></div>
 								<div class="row">
@@ -625,9 +662,9 @@
 							</section>
 							<section class="advide_desc" id="advice_7_collapsible" style="display: none;">
 								<p style="font-weight: 600;color: #a02226;">Simply Pay With QR Code</p>
-								<p>AYA mobile payment feature can keep you comfort.</p>
+								<p class="frequently_desc">AYA mobile payment feature can keep you comfort.</p>
 
-								<p>At any time anywhere, just scan and pay instantly with QR code to save yourself the hassle of having to exchange currency.</p>
+								<p class="frequently_desc">At any time anywhere, just scan and pay instantly with QR code to save yourself the hassle of having to exchange currency.</p>
 
 								<div class="space-30"></div>
 								<div class="row">
