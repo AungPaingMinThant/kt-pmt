@@ -1744,3 +1744,46 @@
 		</div>
 	</div>
 @endif
+
+@if($page == 'premium_banking')
+	<div class="premium_banking_banner banner_bg" style="">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="ayapay_tag">
+					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
+						<div style="position: absolute;top: 150px;">
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;"><span style="color: #a02226;">Relationship</span><br> Beyond Banking</p>
+						</div>
+					</div>
+					<div class="col-md-6"></div>
+				</div>
+				<div class="ayapay_tag_mid">
+					<div class="col-md-7 text-left" style="text-align: left;position: relative;">
+						<div style="position: absolute;top: 50px;left: 50px;">
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;"><span style="color: #a02226;">Relationship</span>  Beyond Banking</p>
+						</div>
+					</div>
+					<div class="col-md-3"></div>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 25px;left: 25px;">
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;"><span style="color: #a02226;">Relationship</span>  Beyond Banking</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PREMIUM BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">ROYAL BANKING</span>
+			</p>
+		</div>
+	</div>
+@endif
