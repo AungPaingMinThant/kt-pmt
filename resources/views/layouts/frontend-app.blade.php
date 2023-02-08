@@ -51,6 +51,9 @@
         .mb20 {
             margin-bottom: 20px;
         }
+        .space-6 {
+            height: 6px;
+        }
         .space-20 {
             height: 20px;
         }  
@@ -59,6 +62,9 @@
         }
         .space-30 {
             height: 30px;
+        }
+        .space-33 {
+            height: 33px;
         }
         .space-40 {
             height: 40px;
@@ -71,6 +77,15 @@
         }
         .space-80 {
             height: 80px;
+        }
+        .space-86 {
+            height: 86px;
+        }
+        .space-90 {
+            height: 90px;
+        }
+        .space-100 {
+            height: 100px;
         }
         .secure_req_application_icon {
             background-color: #a02226;

@@ -1752,7 +1752,7 @@
 				<div class="ayapay_tag">
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div style="position: absolute;top: 150px;">
-							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;"><span style="color: #a02226;">Relationship</span><br> Beyond Banking</p>
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;color: #2e2e2e;"><span style="color: #a02226;">Relationship</span><br> Beyond Banking</p>
 						</div>
 					</div>
 					<div class="col-md-6"></div>
@@ -1760,7 +1760,7 @@
 				<div class="ayapay_tag_mid">
 					<div class="col-md-7 text-left" style="text-align: left;position: relative;">
 						<div style="position: absolute;top: 50px;left: 50px;">
-							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;"><span style="color: #a02226;">Relationship</span>  Beyond Banking</p>
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;color: #2e2e2e;"><span style="color: #a02226;">Relationship</span>  Beyond Banking</p>
 						</div>
 					</div>
 					<div class="col-md-3"></div>
@@ -1769,7 +1769,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 25px;left: 25px;">
-						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;"><span style="color: #a02226;">Relationship</span>  Beyond Banking</p>
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;color: #2e2e2e;"><span style="color: #a02226;">Relationship</span>  Beyond Banking</p>
 					</div>
 				</div>
 			</div>
