@@ -9,6 +9,14 @@
     	width: 60% !important;
     	margin-left: 10px;
     }
+    .menu_link {
+    	padding: 10px 15px 10px 15px;
+    	font-size: 14px;
+    	font-weight: 500;
+    	text-transform: uppercase;
+    	line-height: 24px;
+    	letter-spacing: 0px;
+    }
     @media (max-width: 1300px) and (min-width: 577px) {
     	.mobile_logo {
 	    	width: 30% !important;
@@ -144,37 +152,41 @@
                 </li>
                 <li style="height: 20px;"></li>
                 <li style="padding: 10px 0px;">
-                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;padding: 10px 15px 10px 15px;font-size: 14px;font-weight: 500;text-transform: uppercase;line-height: 24px;letter-spacing: 0px;">HOME</a>
+                	@if($page == 'personal_banking')
+                		<a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #a02226;">HOME</a>
+                	@else
+                		<a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">HOME</a>
+                	@endif
                 </li>
                 <li style="padding: 10px 0px;">
                 	@if($page == 'personal_banking')
-                    	<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #a02226;padding: 10px 15px 10px 15px;font-size: 14px;font-weight: 500;text-transform: uppercase;line-height: 24px;letter-spacing: 0px;">
+                    	<a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #a02226;">
                     @else
-                    	<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;padding: 10px 15px 10px 15px;font-size: 14px;font-weight: 500;text-transform: uppercase;line-height: 24px;letter-spacing: 0px;">
+                    	<a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">
                     @endif
                     	PERSONAL BANKING
                     </a>
                 </li>
                 <li style="padding: 10px 0px;">
-                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;padding: 10px 15px 10px 15px;font-size: 14px;font-weight: 500;text-transform: uppercase;line-height: 24px;letter-spacing: 0px;">BUSINESS BANKING</a>
+                    <a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">BUSINESS BANKING</a>
                 </li>
                 <li style="padding: 10px 0px;">
-                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;padding: 10px 15px 10px 15px;font-size: 14px;font-weight: 500;text-transform: uppercase;line-height: 24px;letter-spacing: 0px;">DIGITAL SERVICES</a>
+                    <a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">DIGITAL SERVICES</a>
                 </li>
                 <li style="padding: 10px 0px;">
-                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;padding: 10px 15px 10px 15px;font-size: 14px;font-weight: 500;text-transform: uppercase;line-height: 24px;letter-spacing: 0px;">ABOUT AYA</a>
+                    <a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">ABOUT AYA</a>
                 </li>
                 <li style="padding: 10px 0px;">
-                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;padding: 10px 15px 10px 15px;font-size: 14px;font-weight: 500;text-transform: uppercase;line-height: 24px;letter-spacing: 0px;">REGISTER</a>
+                    <a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">REGISTER</a>
                 </li>
                 <li style="padding: 10px 0px;">
-                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;padding: 10px 15px 10px 15px;font-size: 14px;font-weight: 500;text-transform: uppercase;line-height: 24px;letter-spacing: 0px;">LOGIN</a>
+                    <a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">LOGIN</a>
                 </li>
                 <li style="padding: 10px 0px;">
-                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;padding: 10px 15px 10px 15px;font-size: 14px;font-weight: 500;text-transform: uppercase;line-height: 24px;letter-spacing: 0px;">ENGLISH</a>
+                    <a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">ENGLISH</a>
                 </li>
                 <li style="padding: 10px 0px;">
-                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;padding: 10px 15px 10px 15px;font-size: 14px;font-weight: 500;text-transform: uppercase;line-height: 24px;letter-spacing: 0px;">MYANMAR</a>
+                    <a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">MYANMAR</a>
                 </li>
             </ul>
             

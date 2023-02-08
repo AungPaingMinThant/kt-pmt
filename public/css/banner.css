@@ -109,10 +109,14 @@
 .life_one_health_indi_ins_banner {
 	background-image:url('../../images/insurance/life/KV_bg.png');
 }
-.call_deposit_banner_tagline, .aya_regular_saving_banner_tagline, .new_business_call_banner_tagline, .premium_calldeposit_banner_tagline,
+.call_deposit_banner_tagline, .new_business_call_banner_tagline, .premium_calldeposit_banner_tagline,
 .regular_curr_acc_banner_tagline, .new_business_curr_acc_banner_tagline, .seafarer_banner_tagline, .saving_deposit_banner_tagline {
 	position: absolute;
 	top: 156px;
+}
+.aya_regular_saving_banner_tagline, .aya_loyal_saving_banner_tagline {
+	position: absolute;
+	top: 140px;
 }
 .retail_banner_tagline {
 	position: absolute;
@@ -176,6 +180,9 @@
 }
 .new_business_curr_acc_desc {
 	font-weight: 400;margin-bottom: 0;width: 70%;
+}
+.premium_banking_banner {
+	background-image:url('../images/premium-banking/KV.jpg');
 }
 @media (max-width: 1550px) and (min-width: 577px) {
 	.creditcard_banner{
@@ -277,6 +284,15 @@
 	.regular_curr_acc_banner, .seafarer_banner {
 		background-position: 75% center;
 	}
+	.aya_loyal_saving_banner {
+		background-position: 60% center;
+	}
+	.ngwe_toe_shwe_o_banner {
+		background-position: 70% center;
+	}
+	.aya_su_buu_banner {
+		background-position: 70% center;
+	}
 	.premium_calldeposit_banner_tagline {
 		top: 120px;
 		right: 60px;
@@ -299,6 +315,17 @@
 	.saving_deposit_banner_tagline {
 		top: 160px;
 		right: 63px;
+	}
+	.aya_maximizer_saving_banner_tagline {
+		position: absolute;
+		top: 50px;
+	}
+	.aya_loyal_saving_banner_tagline {
+		position: absolute;
+		top: 100px;
+	}
+	.premium_banking_banner {
+	    background-position: 70% center;
 	}
 }
 @media only screen and (max-width: 576px) {
@@ -438,4 +465,7 @@
 		background-image:url('../images/acc_saving/aya-su-buu/mobile_KV.jpg');
 		background-position: left center;
 	}
+	.premium_banking_banner {
+		background-image:url('../images/premium-banking/mobile_KV.jpg');
+		background-position: 80% center;
 }

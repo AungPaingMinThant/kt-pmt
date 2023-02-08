@@ -1570,7 +1570,7 @@
 					<div class="col-md-5">
 						<p></p>
 					</div>
-					<div class="col-md-4 text-left" style="text-align: left;position: relative;">
+					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_regular_saving_banner_tagline">
 							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Regular Saving</span><br>An interest-bearing account where individuals and joint customers can deposit, withdraw and transfer anytime, anywhere.</p>
 						</div>
@@ -1607,7 +1607,8 @@
 				<div class="row">
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_maximizer_saving_banner_tagline">
-							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Maximizer Saving</span><br>An interest-bearing account with the chance of obtaining bonus and interest at the same time upon on your monthly saving.<br><span style="line-height: 40px;">Suitable for individuals with regular income to start saving with MMK 10,000.</span></p>
+							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Maximizer Saving</span><br>An interest-bearing account with the chance of obtaining bonus and interest at the same time upon on your monthly saving.</p>
+							<p style="font-weight: 400;margin-bottom: 0;margin-top: 10px;">Suitable for individuals with regular income to start saving with MMK 10,000.</p>
 						</div>
 					</div>
 					<div class="col-md-5">
@@ -1645,8 +1646,9 @@
 			<div class="d-none d-sm-block">
 				<div class="row">
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
-						<div class="aya_regular_saving_banner_tagline">
-							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Loyal Saving</span><br>Offer higher interest and a bonus on three months idle funds in the saving account.<br><span style="line-height: 40px;">Suitable for regular savers who want to save money over time with minimum access.</span></p>
+						<div class="aya_loyal_saving_banner_tagline">
+							<p style="font-weight: 400;margin-bottom: 10px;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Loyal Saving</span><br>Offer higher interest and a bonus on three months idle funds in the saving account.</p>
+							<p style="font-weight: 400;margin-bottom: 0;">Suitable for regular savers who want to save money over time with minimum access.</p>
 						</div>
 					</div>
 					<div class="col-md-5">
@@ -1739,6 +1741,49 @@
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
+@endif
+
+@if($page == 'premium_banking')
+	<div class="premium_banking_banner banner_bg" style="">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="ayapay_tag">
+					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
+						<div style="position: absolute;top: 150px;">
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;"><span style="color: #a02226;">Relationship</span><br> Beyond Banking</p>
+						</div>
+					</div>
+					<div class="col-md-6"></div>
+				</div>
+				<div class="ayapay_tag_mid">
+					<div class="col-md-7 text-left" style="text-align: left;position: relative;">
+						<div style="position: absolute;top: 50px;left: 50px;">
+							<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;"><span style="color: #a02226;">Relationship</span>  Beyond Banking</p>
+						</div>
+					</div>
+					<div class="col-md-3"></div>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 25px;left: 25px;">
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;"><span style="color: #a02226;">Relationship</span>  Beyond Banking</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PREMIUM BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">ROYAL BANKING</span>
+			</p>
 		</div>
 	</div>
 @endif
