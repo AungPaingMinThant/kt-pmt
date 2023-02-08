@@ -109,7 +109,8 @@
 .life_one_health_indi_ins_banner {
 	background-image:url('../../images/insurance/life/KV_bg.png');
 }
-.call_deposit_banner_tagline, .aya_regular_saving_banner_tagline {
+.call_deposit_banner_tagline, .aya_regular_saving_banner_tagline, .new_business_call_banner_tagline, .premium_calldeposit_banner_tagline,
+.regular_curr_acc_banner_tagline, .new_business_curr_acc_banner_tagline, .seafarer_banner_tagline, .saving_deposit_banner_tagline {
 	position: absolute;
 	top: 156px;
 }
@@ -173,6 +174,9 @@
 .aya_su_buu_banner {
 	background-image:url('../images/acc_saving/aya-su-buu/KV.jpg');
 }
+.new_business_curr_acc_desc {
+	font-weight: 400;margin-bottom: 0;width: 70%;
+}
 @media (max-width: 1550px) and (min-width: 577px) {
 	.creditcard_banner{
 		background-position: 60% center;
@@ -235,8 +239,14 @@
 		font-size: 16px;
 		margin-bottom: 7px;
 	}
-	.calldeposit_banner, .currentdeposit_banner, .savingdeposit_banner{
+	.calldeposit_banner, .currentdeposit_banner{
 		background-position: 90% center;
+	}
+	.aya_regular_saving_banner{
+		background-position: 20% center;
+	}
+	.savingdeposit_banner{
+		background-position: 56% center;
 	}
 	.call_deposit_banner_tagline {
 		top: 30px;
@@ -253,6 +263,42 @@
 		position: absolute;
 		top: 156px;
 		left: 0px;
+	}
+	.premium_calldeposit_banner {
+		background-position: 70% center;
+	}
+	.new_business_call_banner {
+		background-position: 60% center;
+	}
+	.new_business_call_banner_tagline {
+		top: 150px;
+		right: 60px;
+	}
+	.regular_curr_acc_banner, .seafarer_banner {
+		background-position: 75% center;
+	}
+	.premium_calldeposit_banner_tagline {
+		top: 120px;
+		right: 60px;
+	}
+	.regular_curr_acc_banner_tagline {
+		top: 10px;
+		right: 100px;
+	}
+	.new_business_curr_acc_banner_tagline {
+		top: 100px;
+		right: 100px;
+	}
+	.new_business_curr_acc_desc {
+		width: 100%;
+	}
+	.seafarer_banner_tagline {
+		top: 80px;
+		right: 120px;
+	}
+	.saving_deposit_banner_tagline {
+		top: 160px;
+		right: 63px;
 	}
 }
 @media only screen and (max-width: 576px) {

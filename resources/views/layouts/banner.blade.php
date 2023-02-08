@@ -1243,8 +1243,8 @@
 	<div class="premium_calldeposit_banner banner_bg" style="">
 		<div class="container">
 			<div class="row d-none d-sm-block">
-				<div class="col-md-5 text-left" style="text-align: left;position: relative;">
-					<div class="call_deposit_banner_tagline">
+				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
+					<div class="premium_calldeposit_banner_tagline">
 						<p style="font-weight: 400;margin-bottom: 0;line-height: 36px;"><span style="color: #a02226;font-size: 35px;">Premium Call Deposit</span><br><span>A simple deposit option to manage funds</span></p>
 					</div>
 				</div>
@@ -1280,7 +1280,7 @@
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="col-md-5 text-left" style="text-align: left;position: relative;">
-					<div class="call_deposit_banner_tagline">
+					<div class="new_business_call_banner_tagline">
 						<p style="font-weight: 400;margin-bottom: 0;line-height: 36px;"><span style="color: #a02226;font-size: 35px;">New Business Call</span><br><span>Convenient way to save and invest your cash</span></p>
 					</div>
 				</div>
@@ -1350,12 +1350,13 @@
 	<div class="regular_curr_acc_banner banner_bg" style="">
 		<div class="container">
 			<div class="row d-none d-sm-block">
-				<div class="col-md-5 text-left" style="text-align: left;position: relative;">
-					<div class="call_deposit_banner_tagline">
-						<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">Regular Current Account</span><br><span>A simple current account in local currency with <br>everything you need to stay on top of your money.</span></p>
+				<div class="col-md-7 text-left" style="text-align: left;position: relative;">
+					<div class="regular_curr_acc_banner_tagline">
+						<p style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 35px;line-height: 36px;">Regular Current Account</p>
+						<p style="font-weight: 400;margin-bottom: 0;width: 55%;">A simple current account in local currency with everything you need to stay on top of your money.</p>
 					</div>
 				</div>
-				<div class="col-md-6" style="text-align: right;">
+				<div class="col-md-5" style="text-align: right;">
 					<p></p>
 				</div>
 			</div>
@@ -1386,12 +1387,12 @@
 	<div class="seafarer_banner banner_bg" style="">
 		<div class="container">
 			<div class="row d-none d-sm-block">
-				<div class="col-md-5 text-left" style="text-align: left;position: relative;">
-					<div class="call_deposit_banner_tagline">
+				<div class="col-md-7 text-left" style="text-align: left;position: relative;">
+					<div class="seafarer_banner_tagline">
 						<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">Seafarer Account (FCY)</span><br><span>Designed for seafarers / seamen to receive their salary<br>from overseas or local in foreign currency.</span></p>
 					</div>
 				</div>
-				<div class="col-md-6" style="text-align: right;">
+				<div class="col-md-5" style="text-align: right;">
 					<p></p>
 				</div>
 			</div>
@@ -1423,11 +1424,12 @@
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
-					<div class="call_deposit_banner_tagline">
-						<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">New Business Current Account</span><br><span>Suitable for individuals who required to transact frequently.<br>AYA New Business Current account helps make your everyday banking easier.</span></p>
+					<div class="new_business_curr_acc_banner_tagline">
+						<p style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 35px;line-height: 36px;">New Business Current Account</p>
+						<p class="new_business_curr_acc_desc">Suitable for individuals who required to transact frequently. AYA New Business Current account helps make your everyday banking easier.</p>
 					</div>
 				</div>
-				<div class="col-md-6" style="text-align: right;">
+				<div class="col-md-5" style="text-align: right;">
 					<p></p>
 				</div>
 			</div>
@@ -1519,7 +1521,7 @@
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
-					<div class="call_deposit_banner_tagline">
+					<div class="saving_deposit_banner_tagline">
 						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">A safe way to save money and<Br><span style="color: #a02226;">receive the benefits of interest</span></p>
 					</div>
 				</div>
