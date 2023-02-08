@@ -93,31 +93,31 @@
 	    	font-size: 13px;
 	    }
 	    .relation_manage_box {
-	    	padding: 30px;
+	    	padding: 30px !important;
 	    	position: absolute;
 	    	top: 17%;
 	    	left: -60px;
 	    }
 	    .life_style_box {
-	    	padding: 30px;
+	    	padding: 30px !important;
 	    	position: absolute;
 	    	top: 10%;
 	    	right: -60px;
 	    }
 	    .travel_box {
-	    	padding: 30px;
+	    	padding: 30px !important;
 	    	position: absolute;
 	    	top: 10%;
 	    	right: -60px;
 	    }
 	    .product_service_box {
-	    	padding: 30px;
+	    	padding: 30px !important;
 	    	position: absolute;
 	    	top: 10%;
 	    	left: -60px;
 	    }
 	    .health_care_box {
-	    	padding: 30px;
+	    	padding: 30px !important;
 	    	position: absolute;
 	    	top: 17%;
 	    	left: -60px;
