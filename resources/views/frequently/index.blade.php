@@ -155,7 +155,7 @@
 
 								<p class="frequently_desc">How to update your particulars in your mobile banking?</p>
 
-								<p>This can be done with a few easy steps only.</p>
+								<p class="frequently_desc">This can be done with a few easy steps only.</p>
 								<div class="space-30"></div>
 								<div class="row">
 									<div class="col-md-5 text-right">
