@@ -1570,7 +1570,7 @@
 					<div class="col-md-5">
 						<p></p>
 					</div>
-					<div class="col-md-4 text-left" style="text-align: left;position: relative;">
+					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_regular_saving_banner_tagline">
 							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Regular Saving</span><br>An interest-bearing account where individuals and joint customers can deposit, withdraw and transfer anytime, anywhere.</p>
 						</div>
@@ -1607,7 +1607,8 @@
 				<div class="row">
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_maximizer_saving_banner_tagline">
-							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Maximizer Saving</span><br>An interest-bearing account with the chance of obtaining bonus and interest at the same time upon on your monthly saving.<br><span style="line-height: 40px;">Suitable for individuals with regular income to start saving with MMK 10,000.</span></p>
+							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Maximizer Saving</span><br>An interest-bearing account with the chance of obtaining bonus and interest at the same time upon on your monthly saving.</p>
+							<p style="font-weight: 400;margin-bottom: 0;margin-top: 10px;">Suitable for individuals with regular income to start saving with MMK 10,000.</p>
 						</div>
 					</div>
 					<div class="col-md-5">
@@ -1645,8 +1646,9 @@
 			<div class="d-none d-sm-block">
 				<div class="row">
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
-						<div class="aya_regular_saving_banner_tagline">
-							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Loyal Saving</span><br>Offer higher interest and a bonus on three months idle funds in the saving account.<br><span style="line-height: 40px;">Suitable for regular savers who want to save money over time with minimum access.</span></p>
+						<div class="aya_loyal_saving_banner_tagline">
+							<p style="font-weight: 400;margin-bottom: 10px;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Loyal Saving</span><br>Offer higher interest and a bonus on three months idle funds in the saving account.</p>
+							<p style="font-weight: 400;margin-bottom: 0;">Suitable for regular savers who want to save money over time with minimum access.</p>
 						</div>
 					</div>
 					<div class="col-md-5">
