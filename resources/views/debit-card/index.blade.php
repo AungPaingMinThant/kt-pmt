@@ -49,14 +49,14 @@
 		margin-bottom: 5px;
 	}
 	.mpu_jbc_tab {
-		background-image: url('./images/MPU_JCB_card_2.jpg');
+		background-image: url('./images/hand-with-card MPU-JCB.png');
 		background-size: cover;
 		background-repeat: no-repeat;
 		height: 520px;
 		background-position: center left;
 	}
 	.mpu_upi_tab {
-		background-image: url('./images/MPU-UPI-card.png');
+		background-image: url('./images/hand-with-card MPU-UPI.png');
 		background-size: cover;
 		background-repeat: no-repeat;
 		height: 520px;
@@ -229,8 +229,8 @@
 							</button>
 						</li>
 					</ul>
-					<!-- background-image: url('./images/MicrosoftTeams-image(1).png'); -->
-					<div class="tab-content" style="padding:0;background-size: cover;background-repeat: no-repeat;">
+					<!--  -->
+					<div class="tab-content" style="padding:0;background-size: cover;background-repeat: no-repeat;background-image: url('./images/Background.png');">
 						<div class="tab-pane fade mpu_jbc_tab show active" id="navs-pills-top-home" role="tabpanel">
 							<div class="row tab_data_row" >
 								<div class="col-md-7"></div>
