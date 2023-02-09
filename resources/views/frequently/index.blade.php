@@ -62,14 +62,58 @@
 		margin-top: 5px;
 		width: 40%;
 	}
-	@media (max-width: 1300px) and (min-width: 1000px) {
+	@media (max-width: 1300px) and (min-width: 1271px) {
 		.timeline:before {
 			margin-left: -11px;
 		}
 		.bullet_square {
 			width: 100%;
 		}
-		.step_1_timeline::before, .step_10_timeline::before {
+		.step_1_timeline::before {
+		  	height: 160px;
+		}
+		.step_2_timeline::before {
+		  	height: 500px;
+		}
+		.step_3_timeline::before {
+		  	height: 410px;
+		}
+		.step_4_timeline::before {
+			height: 480px;
+		}
+		.step_5_timeline::before {
+			height: 140px;
+		}
+		.step_6_timeline:before {
+			height: 200px;
+		}
+		.step_7_timeline:before {
+			height: 480px;
+		}
+		.step_8_timeline::before {
+			height: 130px;
+		}
+		.step_9_timeline::before {
+			height: 140px;
+		}
+		.step_10_timeline::before {
+			height: 120px;
+		}
+		.step_11_timeline::before {
+			height: 460px;
+		}
+		.step_12_timeline::before {
+			height: 520px;
+		}
+	}
+	@media (max-width: 1270px) and (min-width: 1000px) {
+		.timeline:before {
+			margin-left: -11px;
+		}
+		.bullet_square {
+			width: 100%;
+		}
+		.step_1_timeline::before {
 		  	height: 160px;
 		}
 		.step_2_timeline::before {
@@ -83,6 +127,27 @@
 		}
 		.step_5_timeline::before {
 			height: 140px;
+		}
+		.step_6_timeline:before {
+			height: 200px;
+		}
+		.step_7_timeline:before {
+			height: 520px;
+		}
+		.step_8_timeline::before {
+			height: 130px;
+		}
+		.step_9_timeline::before {
+			height: 170px;
+		}
+		.step_10_timeline::before {
+			height: 120px;
+		}
+		.step_11_timeline::before {
+			height: 500px;
+		}
+		.step_12_timeline::before {
+			height: 550px;
 		}
 	}
 	@media only screen and (max-width: 576px){
@@ -164,6 +229,7 @@
 										<img src="{{ url('/images/frequently/steps/step_1/Updating_Profile_3.jpg') }}" class="img-fluid step_1 d-none step_1_3" style="margin-bottom: 20px;">
 									</div>
 									<div class="col-md-7" style="padding-left: 30px;">
+										<p class="timeline-title" style="margin-left: -15px;margin-bottom: 0;font-weight: 500;">Click on the steps to view screens</p>
 										<ul class="timeline step_1_timeline">
 											<li class="timeline-inverted">
 												<div class="timeline-badge timeline-badge-1 active">1</div>
@@ -248,6 +314,7 @@
 										<img src="{{ url('/images/frequently/steps/step_2/Bill_Payment_6.jpg') }}" class="img-fluid step_2 d-none step_2_6" style="margin-bottom: 20px;">
 									</div>
 									<div class="col-md-7" style="padding-left: 30px;">
+										<p class="timeline-title" style="margin-left: -15px;margin-bottom: 0;font-weight: 500;">Click on the steps to view screens</p>
 										<ul class="timeline step_2_timeline">
 											<li class="timeline-inverted">
 												<div class="timeline-badge step_2_timeline-badge-1 active">1</div>
@@ -398,6 +465,7 @@
 										<img src="{{ url('/images/frequently/steps/step_3/Top_up_5.jpg') }}" class="img-fluid step_3 d-none step_3_5" style="margin-bottom: 20px;">
 									</div>
 									<div class="col-md-7" style="padding-left: 30px;">
+										<p class="timeline-title" style="margin-left: -15px;margin-bottom: 0;font-weight: 500;">Click on the steps to view screens</p>
 										<ul class="timeline step_3_timeline">
 											<li class="timeline-inverted">
 												<div class="timeline-badge step_3_timeline-badge-1 active">1</div>
@@ -488,6 +556,7 @@
 										<img src="{{ url('/images/frequently/steps/step_4/Transfer_Fund_6.jpg') }}" class="img-fluid step_4 d-none step_4_6" style="margin-bottom: 20px;">
 									</div>
 									<div class="col-md-7" style="padding-left: 30px;">
+										<p class="timeline-title" style="margin-left: -15px;margin-bottom: 0;font-weight: 500;">Click on the steps to view screens</p>
 										<ul class="timeline step_4_timeline">
 											<li class="timeline-inverted">
 												<div class="timeline-badge step_4_timeline-badge-1 active">1</div>
@@ -575,6 +644,7 @@
 										<img src="{{ url('/images/frequently/steps/step_5/Credit_Card_Transaction_3.jpg') }}" class="img-fluid step_5 d-none step_5_3" style="margin-bottom: 20px;">
 									</div>
 									<div class="col-md-7" style="padding-left: 30px;">
+										<p class="timeline-title" style="margin-left: -15px;margin-bottom: 0;font-weight: 500;">Click on the steps to view screens</p>
 										<ul class="timeline step_5_timeline">
 											<li class="timeline-inverted">
 												<div class="timeline-badge step_5_timeline-badge-1 active">1</div>
@@ -622,6 +692,7 @@
 										<img src="{{ url('/images/frequently/steps/step_6/Request_Money_4.jpg') }}" class="img-fluid step_6 d-none step_6_4" style="margin-bottom: 20px;">
 									</div>
 									<div class="col-md-7" style="padding-left: 30px;">
+										<p class="timeline-title" style="margin-left: -15px;margin-bottom: 0;font-weight: 500;">Click on the steps to view screens</p>
 										<ul class="timeline step_6_timeline">
 											<li class="timeline-inverted">
 												<div class="timeline-badge step_6_timeline-badge-1 active">1</div>
@@ -678,6 +749,7 @@
 										<img src="{{ url('/images/frequently/steps/step_7/Payment_with_QR_Code_6.jpg') }}" class="img-fluid mb20 step_7 d-none step_7_6">
 									</div>
 									<div class="col-md-7" style="padding-left: 30px;">
+										<p class="timeline-title" style="margin-left: -15px;margin-bottom: 0;font-weight: 500;">Click on the steps to view screens</p>
 										<ul class="timeline step_7_timeline">
 											<li class="timeline-inverted">
 												<div class="timeline-badge step_7_timeline-badge-1 active">1</div>
@@ -763,6 +835,7 @@
 										<img src="{{ url('/images/frequently/steps/step_8/ATMs_Branch_Location_3.jpg') }}" class="img-fluid mb20 step_8 d-none step_8_3">
 									</div>
 									<div class="col-md-7" style="padding-left: 30px;">
+										<p class="timeline-title" style="margin-left: -15px;margin-bottom: 0;font-weight: 500;">Click on the steps to view screens</p>
 										<ul class="timeline step_8_timeline">
 											<li class="timeline-inverted">
 												<div class="timeline-badge step_8_timeline-badge-1 active">1</div>
@@ -809,6 +882,7 @@
 										<img src="{{ url('/images/frequently/steps/step_9/Auto_Loan_Mortgage_3.jpg') }}" class="img-fluid mb20 step_9 d-none step_9_3">
 									</div>
 									<div class="col-md-7" style="padding-left: 30px;">
+										<p class="timeline-title" style="margin-left: -15px;margin-bottom: 0;font-weight: 500;">Click on the steps to view screens</p>
 										<ul class="timeline step_9_timeline">
 											<li class="timeline-inverted">
 												<div class="timeline-badge step_9_timeline-badge-1 active">1</div>
@@ -853,6 +927,7 @@
 										<img src="{{ url('/images/frequently/steps/step_10/Calculation_Deposite_3.jpg') }}" class="img-fluid mb20 step_10 d-none step_10_3">
 									</div>
 									<div class="col-md-7" style="padding-left: 30px;">
+										<p class="timeline-title" style="margin-left: -15px;margin-bottom: 0;font-weight: 500;">Click on the steps to view screens</p>
 										<ul class="timeline step_10_timeline">
 											<li class="timeline-inverted">
 												<div class="timeline-badge step_10_timeline-badge-1 active">1</div>
@@ -899,6 +974,7 @@
 										<img src="{{ url('/images/frequently/steps/step_11/Manage_Payees_6.jpg') }}" class="img-fluid mb20 step_11 d-none step_11_6">
 									</div>
 									<div class="col-md-7" style="padding-left: 30px;">
+										<p class="timeline-title" style="margin-left: -15px;margin-bottom: 0;font-weight: 500;">Click on the steps to view screens</p>
 										<ul class="timeline step_11_timeline">
 											<li class="timeline-inverted">
 												<div class="timeline-badge step_11_timeline-badge-1 active">1</div>
@@ -989,6 +1065,7 @@
 										<img src="{{ url('/images/frequently/steps/step_12/ATM_Withdrawal_7.jpg') }}" class="img-fluid mb20 step_12 d-none step_12_7">
 									</div>
 									<div class="col-md-7" style="padding-left: 30px;">
+										<p class="timeline-title" style="margin-left: -15px;margin-bottom: 0;font-weight: 500;">Click on the steps to view screens</p>
 										<ul class="timeline step_12_timeline">
 											<li class="timeline-inverted">
 												<div class="timeline-badge step_12_timeline-badge-1 active">1</div>
