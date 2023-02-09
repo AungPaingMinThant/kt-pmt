@@ -79,11 +79,63 @@
     	background-position: center;
     	background-repeat: no-repeat;
     }
-
-
     @media (max-width: 1300px) and (min-width: 1271px) {
-    	.planC-50 {
-	    	display: block;
+    	.intro_box_bg {
+	    	background-size: cover;
+	    }
+	    .intro_title {
+	    	padding: 30px 150px 0px 150px !important;
+	    }
+	    .intro_title > p {
+	    	margin-bottom: 20px;
+	    	font-size: 22px;
+	    	line-height: 26px;
+	    }
+	    .intro_desc {
+	    	padding: 0px 200px 30px 200px !important;
+	    	font-size: 13px;
+	    }
+	    .relation_manage_box {
+	    	padding: 30px !important;
+	    	position: absolute;
+	    	top: 17%;
+	    	left: -60px;
+	    }
+	    .life_style_box {
+	    	padding: 30px !important;
+	    	position: absolute;
+	    	top: 10%;
+	    	right: -60px;
+	    }
+	    .travel_box {
+	    	padding: 30px !important;
+	    	position: absolute;
+	    	top: 10%;
+	    	right: -60px;
+	    }
+	    .product_service_box {
+	    	padding: 30px !important;
+	    	position: absolute;
+	    	top: 10%;
+	    	left: -60px;
+	    }
+	    .health_care_box {
+	    	padding: 30px !important;
+	    	position: absolute;
+	    	top: 17%;
+	    	left: -60px;
+	    }
+	    .plan_section_1 {
+	    	padding: 0px 20px !important;
+	    }
+	    .planA, .planB, .planC {
+	    	padding: 0px 25px !important;
+	    }
+	    .input_email_box {
+	    	padding: 0px 50px;
+	    }
+	    .planC-50 {
+	    	display: none;
 	    }
     }
     
@@ -194,9 +246,6 @@
 	    }
 	    .input_email_box {
 	    	padding: 0px 25px 0px 25px !important;
-	    }
-	    .novotel_branch_bg {
-/*	    	background-position: 50% center;*/
 	    }
     }
 </style>
@@ -665,7 +714,7 @@
 					<div class="space-60"></div>
 					<div class="row" style="width: 100%">
 						<div class="col-md-6">
-							<p style="color: #f6eac4;font-weight:400;font-size: 15px;">We assist you with premium banking and financial needs at</p>
+							<p style="color: #f6eac4;font-weight:400;font-size: 15px;width: 80%;">We assist you with premium banking and financial needs at</p>
 							<div class="space-30"></div>
 							<p style="font-weight: 500;font-size: 12px;">Novotel branch</p>
 							<p style="font-size: 12px;">Second floor, No (459), Pyay Road, Kamayut Township, Novotel Yangon Max Hotel, Yangon.</p>
