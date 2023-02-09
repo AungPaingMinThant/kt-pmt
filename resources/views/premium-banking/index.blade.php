@@ -259,7 +259,7 @@
 							<div class="col-md-5" style="position: relative;padding: 0;">
 								<div class="product_service_box">
 									<p style="font-size: 18px;font-weight: 600;">Product Service</p>
-									<p style="color: #ccc;font-size: 12px;margin-bottom: 0;">You will be provided exclusive banking services including preferential rate for trade service, exclusive waiver for overdraft loan, exclusive offer for internet banking service, exclusive credit card offer and priority queue service. Furthermore, safe deposit locker is one of the ancillary services.</p>
+									<p style="color: #ccc;font-size: 12px;margin-bottom: 0;">You will be provided exclusive banking services including preferential rate for trade service, exclusive offer for overdraft loan, exclusive offer for internet banking service, exclusive credit card offer and priority queue service. Furthermore, safe deposit locker is one of the ancillary services.</p>
 								</div>
 							</div>
 						</div>
