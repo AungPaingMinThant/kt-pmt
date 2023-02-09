@@ -79,7 +79,15 @@
     	background-position: center;
     	background-repeat: no-repeat;
     }
-    @media (max-width: 1300px) and (min-width: 1000px) {
+
+
+    @media (max-width: 1300px) and (min-width: 1271px) {
+    	.planC-50 {
+	    	display: block;
+	    }
+    }
+    
+    @media (max-width: 1270px) and (min-width: 1000px) {
     	.intro_title {
 	    	padding: 25px 100px 0px 100px !important;
 	    }
@@ -127,9 +135,6 @@
 	    }
 	    .planA, .planB, .planC {
 	    	padding: 0px 25px !important;
-	    }
-	    .planC-50 {
-	    	display: block;
 	    }
 	    .input_email_box {
 	    	padding: 0px 50px;
@@ -188,7 +193,7 @@
 	    	margin-bottom: 30px;
 	    }
 	    .input_email_box {
-	    	padding: 0px 50px 0px 60px !important;
+	    	padding: 0px 25px 0px 25px !important;
 	    }
 	    .novotel_branch_bg {
 /*	    	background-position: 50% center;*/
@@ -328,7 +333,7 @@
 							<div class="col-md-5" style="position: relative;padding: 0;">
 								<div class="product_service_box">
 									<p style="font-size: 18px;font-weight: 600;">Product Service</p>
-									<p style="color: #ccc;font-size: 12px;margin-bottom: 0;">You will be provided exclusive banking services including preferential rate for trade service, exclusive waiver for overdraft loan, exclusive offer for internet banking service, exclusive credit card offer and priority queue service. Furthermore, safe deposit locker is one of the ancillary services.</p>
+									<p style="color: #ccc;font-size: 12px;margin-bottom: 0;">You will be provided exclusive banking services including preferential rate for trade service, exclusive offer for overdraft loan, exclusive offer for internet banking service, exclusive credit card offer and priority queue service. Furthermore, safe deposit locker is one of the ancillary services.</p>
 								</div>
 							</div>
 						</div>
@@ -439,7 +444,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Membership for F1 & Dagon Golf City</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Membership for F1 Gym or Dagon Golf City</p>
 								</div>
 
 								<div class="space-33"></div>
@@ -633,9 +638,11 @@
 
 			<div style="background-image: url('./images/premium-banking/explore_membership_bg.jpg');background-position: center;background-repeat: no-repeat;">
 				<div class="space-60"></div>
-				<div class="row text-center" style="width: 100%">
-					<p style="color: #1d1d1f;font-weight:600;font-size: 25px;">Explore more for membership benefits</p>
-					<p style="color: #666;font-weight: 500;margin-bottom: 30px;">Enter your Email Address to download the E-Booklet</p>
+				<div class="row text-center" style="width: 100%;margin: 0;">
+					<div class="col-md-12">
+						<p style="color: #1d1d1f;font-weight:600;font-size: 25px;">Explore more for membership benefits</p>
+						<p style="color: #666;font-weight: 500;margin-bottom: 30px;padding: 0px 20px;">Enter your Email Address to download the E-Booklet</p>
+					</div>
 
 					<div class="col-md-4"></div>
 					<div class="col-md-4 input_email_box">
