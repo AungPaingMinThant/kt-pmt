@@ -2,27 +2,53 @@
 
 @section('title', 'Corporate Internet Banking – AYA Bank')
 <style type="text/css">
-	.tab_title > span {
-    	padding: 20px 0px;
-    }
-    .nav-align-top .nav-tabs .tab_title.active span {
-    	border-bottom: 5px solid #a02226;
-    }
-    .nav-pills .tab_title.active, .nav-pills .tab_title.active:hover, .nav-pills .tab_title.active:focus {
-    	background-color: transparent !important;
-	    color: #000 !important;
-	    box-shadow: none !important;
-	    border-bottom: 5px solid #ae002c;
-	    border-radius: 0;
-	    font-weight: 500;
-    }
-    .nav .tab_title:hover, .nav .tab_title:focus {
-    	color: #000 !important;
-    }
-    .nav-pills .tab_title {
-    	font-weight: 400;
-    	font-size: 16px;
-    }
+	.carousel-caption.carousel_title {
+		top: 6%;
+	}
+	.carousel-caption.carousel_desc {
+		text-align: left !important;
+	}
+	.carousel-indicators{
+		left: 85% !important;
+		bottom: 50% !important;
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+		display: table-cell !important;
+	    vertical-align: middle !important;
+	    float: none !important;
+	    top: 25%;
+	    font-weight: 500 !important;
+	}
+	.carousel-indicators [data-bs-target] {
+		text-indent: 0 !important;
+		height: auto !important;
+		margin-left: 0 !important;
+		width: 100% !important;
+		padding: 15px 0px 15px 0px !important;
+		margin-bottom: -7.5%;
+		background-color: #e4e4e4 !important;
+		opacity: 1 !important;
+	}
+	.carousel-indicators [data-bs-target].active {
+		color: #a02226;
+	}
+	.carousel_desc_title {
+		font-weight: 400;
+		color: #a02226;
+		margin-bottom: 8px;
+		font-size: 20px;
+	}
+	.carousel_desc_detail {
+		font-size: 14px;
+		font-weight: 400;
+	}
+	.solution_icon {
+		width: 60%;
+	}
+	.solution_text {
+		color: #000;
+		margin-bottom: 5px;
+	}
 	.get_start_btn {
 		background: #a02225 !important;
 	    color: #fff !important;
@@ -88,135 +114,6 @@
 		border-radius: 50%;
 		font-size: 20px;
 	}
-
-	.image {
-	  	display: block;
-	  	width: 100%;
-	  	height: auto;
-	}
-	.overlay {
-		z-index: 9999;
-	  	position: absolute;
-	    bottom: 0;
-	    height: 50%;
-	    width: 28%;
-	 	opacity: 0;
-	  	transition: .3s ease;
-	  	background: #6b56565e;
-	  	transform: translate(133%, -53%);
-	  	-ms-transform: translate(133%, -53%);
-	}
-	.overlay_mobile {
-		z-index: 999;
-	  	position: absolute;
-	    bottom: 0;
-	    height: 19%;
-	    width: 48%;
-	 	opacity: 0;
-	  	transition: .3s ease;
-	  	background: #6b56565e;
-	  	transform: translate(50%, -70%);
-	  	-ms-transform: translate(50%, 580%);
-	}
-	.acc_service:hover .overlay {
-	  	opacity: 1;
-	}
-	.payment_service:hover .overlay {
-	  	opacity: 1;
-	}
-	.administration:hover .overlay {
-	  	opacity: 1;
-	}
-	.complex_approval:hover .overlay {
-		opacity: 1;
-	}
-
-	.key_feature_acc_service:hover .edit {
-		display: block;
-	}
-	.acc_service_hover_img {
-		display: none;
-	}
-	.key_feature_acc_service:hover .acc_service_img {
-		display: none;
-	}
-	.key_feature_acc_service:hover .acc_service_hover_img {
-		display: block;
-	}
-
-	.key_feature_payment_service:hover .edit {
-		display: block;
-	}
-	.payment_service_hover_img {
-		display: none;
-	}
-	.key_feature_payment_service:hover .payment_service_img {
-		display: none;
-	}
-	.key_feature_payment_service:hover .payment_service_hover_img {
-		display: block;
-	}
-
-	.key_feature_administration:hover .edit {
-		display: block;
-	}
-	.administration_hover_img {
-		display: none;
-	}
-	.key_feature_administration:hover .administration_img {
-		display: none;
-	}
-	.key_feature_administration:hover .administration_hover_img {
-		display: block;
-	}
-
-	.key_feature_complex_approval:hover .edit {
-		display: block;
-	}
-	.complex_approval_hover_img {
-		display: none;
-	}
-	.key_feature_complex_approval:hover .complex_approval_img {
-		display: none;
-	}
-	.key_feature_complex_approval:hover .complex_approval_hover_img {
-		display: block;
-	}
-	
-	.edit {
-		position: absolute;
-		right: 40%;
-		top: 40%;
-		display: none;
-	}
-	.icon {
-	  	color: white;
-	  	font-size: 100px;
-	  	position: absolute;
-	  	top: 50%;
-	  	left: 50%;
-	  	transform: translate(-50%, -50%);
-	  	-ms-transform: translate(-50%, -50%);
-	 	text-align: center;
-	}
-
-
-	.tab_section_1 {
-	    padding: 0px 100px !important;
-	}
-	.tab_data_row {
-		width: 100%;
-	}
-	.tab-content {
-		box-shadow: none !important;
-	}
-	.benefit_feature_box {
-		display: table;
-	}
-	.why_use_AYA {
-		display: table-cell !important;
-	}
-
 	@media (max-width: 1300px) and (min-width: 1000px) {
 		.carousel-indicators {
 			top: 25%;
@@ -251,15 +148,6 @@
 		}
 	}
 	@media only screen and (max-width: 576px){
-		.tab_section_1 {
-		    padding: 0px 30px !important;
-		}
-		.tab_data_row {
-			width: auto;
-		}
-		.tab-pane {
-			background-position: -80px -70px;
-		}
 		.need_more_support_section {
 		    padding: 0px 30px !important;
 		}
@@ -288,152 +176,190 @@
 				@include('layouts.tagline', ['page'=>'corporate_internet_banking'])
 			</div>
 
-			<div style="">
-				<div class="nav-align-top mb-4">
-					<ul class="nav nav-pills " role="tablist" style="justify-content: center;">
-						<li class="nav-item">
-							<button type="button" class="tab_title nav-link active" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-top-account-services" aria-controls="navs-pills-top-account-services" aria-selected="true" >
-								Account Services
-							</button>
-						</li>
-						<li class="nav-item">
-							<button type="button" class="tab_title nav-link" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-top-payment-services" aria-controls="navs-pills-top-payment-services" aria-selected="false" >
-								Payment Services
-							</button>
-						</li>
-						<li class="nav-item">
-							<button type="button" class="tab_title nav-link" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-top-administration" aria-controls="navs-pills-top-administration" aria-selected="false" >
-								Administration
-							</button>
-						</li>
-						<li class="nav-item">
-							<button type="button" class="tab_title nav-link" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-top-complex-approval-matrix" aria-controls="navs-pills-top-complex-approval-matrix" aria-selected="false" >
-								Complex Approval Matrix
-							</button>
-						</li>
-						<li class="nav-item">
-							<button type="button" class="tab_title nav-link" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-top-other-features" aria-controls="navs-pills-top-other-features" aria-selected="false" >
-								Other Features
-							</button>
-						</li>
-					</ul>
-					<div class="tab-content" style="background-color: transparent;padding: 20px 0px 0px 0px;">
-						<div class="tab-pane fade show active" id="navs-pills-top-account-services" role="tabpanel" style="background: rgb(243,243,243);background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(249,249,249,1) 50%, rgba(255,255,255,1) 100%);padding-bottom: 30px;">
-							<div class="container tab_section_1">
-								<div class="row tab_data_row" >
-									<div class="col-md-12 text-center" style="padding-top: 20px;">
-										<p>Users can easily enquire and review transaction records, account activities and a summary in real-time basis.</p>
-									</div>
-									<div class="col-md-4 benefit_feature_box" style="padding: 20px 20px 0px 20px;">
-										<div class="row why_use_AYA simple_login_div">
-											<img src="{{ url('/images/corporate_internet_banking/icon_1.png') }}" class="img-fluid" style="width: 30%;">
-											<p style="color: #4e4e4e;font-weight:600;margin-bottom: 5px;margin-top: 10px;">View Account's Statement</p>
-											<p style="color: #4e4e4e;">Users can view statements and search for the transaction details and status.</p>
-										</div>
-									</div>
-									<div class="col-md-4 benefit_feature_box" style="padding: 20px 20px 0px 20px;">
-										<div class="row why_use_AYA simple_login_div">
-											<img src="{{ url('/images/corporate_internet_banking/icon_2.png') }}" class="img-fluid" style="width: 30%;">
-											<p style="color: #4e4e4e;font-weight:600;margin-bottom: 5px;margin-top: 10px;">View Account's Overview</p>
-											<p style="color: #4e4e4e;">User can overview accounts' details and summary.</p>
-										</div>
-									</div>
-									<div class="col-md-4 benefit_feature_box" style="padding: 20px 20px 0px 20px;">
-										<div class="row why_use_AYA simple_login_div">
-											<img src="{{ url('/images/corporate_internet_banking/icon_3.png') }}" class="img-fluid" style="width: 30%;">
-											<p style="color: #4e4e4e;font-weight:600;margin-bottom: 5px;margin-top: 10px;">Download Account's Statament</p>
-											<p style="color: #4e4e4e;">Users can download accounts' statement and history</p>
-										</div>
-									</div>
-								</div>
+			<style>
+				.image {
+				  	display: block;
+				  	width: 100%;
+				  	height: auto;
+				}
+				.overlay {
+					z-index: 9999;
+				  	position: absolute;
+				    bottom: 0;
+				    height: 50%;
+				    width: 28%;
+				 	opacity: 0;
+				  	transition: .3s ease;
+				  	background: #6b56565e;
+				  	transform: translate(133%, -53%);
+				  	-ms-transform: translate(133%, -53%);
+				}
+				.overlay_mobile {
+					z-index: 999;
+				  	position: absolute;
+				    bottom: 0;
+				    height: 19%;
+				    width: 48%;
+				 	opacity: 0;
+				  	transition: .3s ease;
+				  	background: #6b56565e;
+				  	transform: translate(50%, -70%);
+				  	-ms-transform: translate(50%, 580%);
+				}
+				.acc_service:hover .overlay {
+				  	opacity: 1;
+				}
+				.payment_service:hover .overlay {
+				  	opacity: 1;
+				}
+				.administration:hover .overlay {
+				  	opacity: 1;
+				}
+				.complex_approval:hover .overlay {
+					opacity: 1;
+				}
+
+				.key_feature_acc_service:hover .edit {
+					display: block;
+				}
+				.acc_service_hover_img {
+					display: none;
+				}
+				.key_feature_acc_service:hover .acc_service_img {
+					display: none;
+				}
+				.key_feature_acc_service:hover .acc_service_hover_img {
+					display: block;
+				}
+
+				.key_feature_payment_service:hover .edit {
+					display: block;
+				}
+				.payment_service_hover_img {
+					display: none;
+				}
+				.key_feature_payment_service:hover .payment_service_img {
+					display: none;
+				}
+				.key_feature_payment_service:hover .payment_service_hover_img {
+					display: block;
+				}
+
+				.key_feature_administration:hover .edit {
+					display: block;
+				}
+				.administration_hover_img {
+					display: none;
+				}
+				.key_feature_administration:hover .administration_img {
+					display: none;
+				}
+				.key_feature_administration:hover .administration_hover_img {
+					display: block;
+				}
+
+				.key_feature_complex_approval:hover .edit {
+					display: block;
+				}
+				.complex_approval_hover_img {
+					display: none;
+				}
+				.key_feature_complex_approval:hover .complex_approval_img {
+					display: none;
+				}
+				.key_feature_complex_approval:hover .complex_approval_hover_img {
+					display: block;
+				}
+				
+				.edit {
+					position: absolute;
+					right: 40%;
+					top: 40%;
+					display: none;
+				}
+				.icon {
+				  	color: white;
+				  	font-size: 100px;
+				  	position: absolute;
+				  	top: 50%;
+				  	left: 50%;
+				  	transform: translate(-50%, -50%);
+				  	-ms-transform: translate(-50%, -50%);
+				 	text-align: center;
+				}
+			</style>
+
+			<div class="d-none d-sm-block">
+				<div id="carouselExample-cf" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="0" class="active"><span style="padding-left: 20px;">1. Account Services</span></li>
+						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="1"><span style="padding-left: 20px;">2. Payment Services</span></li>
+						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="2"><span style="padding-left: 20px;">3. Administration</span></li>
+						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="3"><span style="padding-left: 20px;">4. Complex Approval Matrix</span></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active acc_service" data-toggle="modal" data-target="#acc_service_modal"  style="cursor: pointer;">
+							<img class="d-block w-100 image" src="{{ url('/images/corporate_internet_banking/account_service.jpg') }}" alt="First slide">
+							<div class="overlay acc_service_overlay" style="cursor: pointer;">
+								<a class="icon" title="User Profile" >
+							    	<i class="menu-icon tf-icons bx bx-zoom-in" style="color: #000;font-size: 30px;"></i>
+							  	</a>
 							</div>
-							<div class="space-40"></div>
-						</div>
-						<div class="tab-pane payment-services fade" id="navs-pills-top-payment-services" role="tabpanel" style="background: rgb(243,243,243);background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(249,249,249,1) 50%, rgba(255,255,255,1) 100%);padding-bottom: 30px;">
-							<div class="container section_1">
-								<div class="row tab_data_row" >
-									<div class="col-md-12 text-center" style="padding-top: 20px;">
-										<p>Users can initiate transactions for AYA account transfer, own account transfer, payroll (bulk payments), pay bills, cheque book request and cheque cancellation.</p>
-									</div>
-									<div class="col-md-6 benefit_feature_box" style="padding: 20px 20px 0px 20px;">
-										<div class="row why_use_AYA simple_login_div">
-											<img src="{{ url('/images/corporate_internet_banking/icon_1.png') }}" class="img-fluid" style="width: 15%;">
-											<p style="color: #4e4e4e;font-weight:600;margin-bottom: 5px;margin-top: 10px;">Own Account Transfer</p>
-											<p style="color: #4e4e4e;">Users can initiate fund transfer within their own AYA accounts.</p>
-										</div>
-									</div>
-									<div class="col-md-6 benefit_feature_box" style="padding: 20px 20px 0px 20px;">
-										<div class="row why_use_AYA simple_login_div">
-											<img src="{{ url('/images/corporate_internet_banking/icon_2.png') }}" class="img-fluid" style="width: 15%;">
-											<p style="color: #4e4e4e;font-weight:600;margin-bottom: 5px;margin-top: 10px;">Other AYA Account’s Transfer</p>
-											<p style="color: #4e4e4e;">Users can transfer from their AYA Account to Another AYA Account.</p>
-										</div>
-									</div>
-									<div class="col-md-6 benefit_feature_box" style="padding: 20px 20px 0px 20px;">
-										<div class="row why_use_AYA simple_login_div">
-											<img src="{{ url('/images/corporate_internet_banking/icon_3.png') }}" class="img-fluid" style="width: 15%;">
-											<p style="color: #4e4e4e;font-weight:600;margin-bottom: 5px;margin-top: 10px;">Bulk Transfer</p>
-											<p style="color: #4e4e4e;">Users can initiate multiple transactions at the same time with "From Scratch" or "Upload" with a csv file.</p>
-										</div>
-									</div>
-									<div class="col-md-6 benefit_feature_box" style="padding: 20px 20px 0px 20px;">
-										<div class="row why_use_AYA simple_login_div">
-											<img src="{{ url('/images/corporate_internet_banking/icon_3.png') }}" class="img-fluid" style="width: 15%;">
-											<p style="color: #4e4e4e;font-weight:600;margin-bottom: 5px;margin-top: 10px;">Cheque Book Request and Stop Cheque</p>
-											<p style="color: #4e4e4e;">Users can request Cheque Book and Stop Cheque without going to the branch</p>
-										</div>
-									</div>
-								</div>
+							<div class="carousel-caption carousel_title d-none d-md-block">
+								<h3 style="color: #1d1d1f;">Key features of AYA Corporate Internet Banking</h3>
+							</div>
+							<div class="carousel-caption carousel_desc text-left d-none d-md-block" style="width: 17%;top: 35%;left: 13%;">
+								<p class="carousel_desc_title">Account Services</p>
+								<p class="carousel_desc_detail">Users can easily enquire and review transaction records, account activities and a summary in real-time basis.</p>
 							</div>
 						</div>
-						<div class="tab-pane administration fade" id="navs-pills-top-administration" role="tabpanel" style="background: rgb(243,243,243);background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(249,249,249,1) 50%, rgba(255,255,255,1) 100%);padding-bottom: 30px;">
-							<div class="container section_1">
-								<div class="row tab_data_row" >
-									<div class="col-md-6 benefit_feature_box" style="padding: 20px;">
-										<div class="row">
-											<p style="color: #4e4e4e;">Getting an instant SMS notification immediately after any transaction above MMK 20,000 for transactions such as ATM Withdraw, POS Transactions in shops, mBanking/ iBanking bill payment transactions, and money transfer. </p>
-										</div>
-									</div>
-									<div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
-										<img src="{{ url('/images/sms/how_it_work.png') }}" class="img-fluid" style="width: 80%">
-									</div>
-								</div>
+						<div class="carousel-item payment_service">
+							<img class="d-block w-100" src="{{ url('/images/corporate_internet_banking/paymentservices.jpg') }}" alt="Second slide">
+							<div class="overlay payment_service_overlay" style="cursor: pointer;">
+								<a class="icon" title="User Profile" >
+							    	<i class="menu-icon tf-icons bx bx-zoom-in" style="color: #000;font-size: 30px;"></i>
+							  	</a>
+							</div>
+							<div class="carousel-caption carousel_title d-none d-md-block">
+								<h3 style="color: #1d1d1f;">Key features of AYA Corporate Internet Banking</h3>
+							</div>
+							<div class="carousel-caption carousel_desc text-left d-none d-md-block" style="width: 17%;top: 35%;left: 13%;">
+								<p class="carousel_desc_title">Payment Services</p>
+								<p class="carousel_desc_detail">Users can initiate transactions for AYA account transfer, own account transfer, payroll (bulk payments), pay bills, cheque book request and cheque cancellation.</p>
 							</div>
 						</div>
-						<div class="tab-pane complex-approval-matrix fade" id="navs-pills-top-complex-approval-matrix" role="tabpanel" style="background: rgb(243,243,243);background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(249,249,249,1) 50%, rgba(255,255,255,1) 100%);padding-bottom: 30px;">
-							<div class="container section_1">
-								<div class="row tab_data_row" >
-									<div class="col-md-6 benefit_feature_box" style="padding: 20px;">
-										<div class="row">
-											<p style="color: #4e4e4e;">Anyone who has any AYA Saving and Current Accounts can sign up and apply AYA SMS Alert Service.</p>
-										</div>
-									</div>
-									<div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
-										<img src="{{ url('/images/sms/eligibility_tab.jpg') }}" class="img-fluid" style="width: 80%">
-									</div>
-								</div>
+						<div class="carousel-item administration">
+							<img class="d-block w-100" src="{{ url('/images/corporate_internet_banking/CIB_administration.jpg') }}" alt="Third slide">
+							<div class="overlay administration_overlay" style="cursor: pointer;">
+								<a class="icon" title="User Profile" >
+							    	<i class="menu-icon tf-icons bx bx-zoom-in" style="color: #000;font-size: 30px;"></i>
+							  	</a>
+							</div>
+							<div class="carousel-caption carousel_title d-none d-md-block">
+								<h3 style="color: #1d1d1f;">Key features of AYA Corporate Internet Banking</h3>
+							</div>
+							<div class="carousel-caption carousel_desc text-left d-none d-md-block" style="width: 17%;top: 35%;left: 13%;">
+								<p class="carousel_desc_title">Administration</p>
+								<p class="carousel_desc_detail">Users can change profiles, create beneficiaries for the most frequent transactions, and generate a wide range of transaction alerts.</p>
 							</div>
 						</div>
-						<div class="tab-pane other-features fade" id="navs-pills-top-other-features" role="tabpanel" style="background: rgb(243,243,243);background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(249,249,249,1) 50%, rgba(255,255,255,1) 100%);padding-bottom: 30px;">
-							<div class="container section_1">
-								<div class="row tab_data_row" >
-									<div class="col-md-2"></div>
-									<div class="col-md-8 benefit_feature_box" style="padding: 20px;">
-										<div class="row">
-											<p style="color: #4e4e4e;">You will be debited for each given account every month by our postpaid model.</p>
-											<p style="color: #4e4e4e;"><b>Initial Fees:</b> No application fees or processing fees.</p>
-											<p style="color: #4e4e4e;"><b>Monthly Fees:</b> MMK 1,500 per personal account, MMK 3,000 Ks per corporate account</p>
-											<p style="color: #4e4e4e;"><b>Cancellation Fee:</b> No cancellation fees. Just one month notice of service termination must be given to the bank.</p>
-										</div>
-									</div>
-									<!-- <div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
-										<img src="{{ url('/images/sms/placeholder.jpg') }}" class="img-fluid" style="width: 80%">
-									</div> -->
-								</div>
+						<div class="carousel-item complex_approval">
+							<img class="d-block w-100" src="{{ url('/images/corporate_internet_banking/Complex_Approval_Matrix.jpg') }}" alt="Fourth slide">
+							<div class="overlay complex_overlay" style="cursor: pointer;">
+								<a class="icon" title="User Profile" >
+							    	<i class="menu-icon tf-icons bx bx-zoom-in" style="color: #000;font-size: 30px;"></i>
+							  	</a>
+							</div>
+							<div class="carousel-caption carousel_title d-none d-md-block">
+								<h3 style="color: #1d1d1f;">Key features of AYA Corporate Internet Banking</h3>
+							</div>
+							<div class="carousel-caption carousel_desc text-left d-none d-md-block" style="width: 17%;top: 35%;left: 13%;">
+								<p class="carousel_desc_title">Complex Approval Matrix</p>
+								<p class="carousel_desc_detail">The Authorization Matrix allows ‘user access control’ by amount limits and different control groups. </p>
 							</div>
 						</div>
 					</div>
-				</div>
+                </div>
 			</div>
 
 			<div class="modal fade" id="acc_service_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

@@ -114,4 +114,15 @@
 		</div>
 	</div>
 @endif
+
+@if($page == 'remittance_local')
+	<div class="row">
+		<div class="col-md-4 tag_line">
+			<p style="font-size: 20px;">Just connect with us for money transfer at real time basis!</p>
+		</div>
+		<div class="col-md-8 tag_desc">
+			<p>We have wide network of branches across the country and we assure payment to beneficiary at optimal fee.</p>
+		</div>
+	</div>
+@endif
 <div class="space-40"></div>

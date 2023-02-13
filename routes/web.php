@@ -94,3 +94,6 @@ Route::get('/account-saving/saving-deposit/ngwe-toe-mae-shwe-o','App\Http\Contro
 Route::get('/account-saving/saving-deposit/aya-su-buu','App\Http\Controllers\AccountSaving\SavingDepositController@suBuuIndex');
 
 Route::get('/premium-banking','App\Http\Controllers\PremiumBankingController@index');
+
+Route::get('/remittance/local','App\Http\Controllers\RemittanceController@localIndex');
+Route::get('/remittance/international','App\Http\Controllers\RemittanceController@interIndex');
