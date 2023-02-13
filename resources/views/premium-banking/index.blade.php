@@ -138,7 +138,6 @@
 	    	display: none;
 	    }
     }
-    
     @media (max-width: 1270px) and (min-width: 1000px) {
     	.intro_title {
 	    	padding: 25px 100px 0px 100px !important;
@@ -190,6 +189,9 @@
 	    }
 	    .input_email_box {
 	    	padding: 0px 50px;
+	    }
+	    .planC-50 {
+	    	display: block;
 	    }
     }
     @media only screen and (max-width: 576px) {
