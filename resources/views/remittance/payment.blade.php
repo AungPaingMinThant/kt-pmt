@@ -153,35 +153,60 @@
 							</div>
 							<div class="tab-pane gift_cheque fade" id="navs-pills-top-gift_cheque" role="tabpanel">
 								<div class="container tab_section_1">
-									<div class="row tab_data_row" >
-										<div class="col-md-12" style="padding: 20px;">
-											<p style="font-size: 18px;font-weight: 500;">The best gift to the loved ones alternatively of hard cash.</p>
-											<p>Modernized, secure and personalized cashless payment services for the sake of social purposes such as recognition for wedding, birthday, anniversary and gift for motivational purpose like social, sports, educational, scholarship, etc.</p>
-										</div>
+									<div class="d-none d-sm-block">
+										<div class="row tab_data_row" >
+											<div class="col-md-12" style="padding: 20px;">
+												<p style="font-size: 18px;font-weight: 500;">The best gift to the loved ones alternatively of hard cash.</p>
+												<p>Modernized, secure and personalized cashless payment services for the sake of social purposes such as recognition for wedding, birthday, anniversary and gift for motivational purpose like social, sports, educational, scholarship, etc.</p>
+											</div>
 
-										<div class="col-md-7 text-center">
-											<img src="{{ url('/images/remittance/payment/Birthday-gift-cheque.jpg') }}" class="img-fluid">
-										</div>
-										<div class="col-md-5" style="display: flex;align-items: center;">
-											<p style="font-weight: 500;font-size: 16px;">Birthday Gift Cheque</p>
-										</div>
+											<div class="col-md-7 text-center">
+												<img src="{{ url('/images/remittance/payment/Birthday-gift-cheque.jpg') }}" class="img-fluid">
+											</div>
+											<div class="col-md-5" style="display: flex;align-items: center;">
+												<p style="font-weight: 500;font-size: 16px;">Birthday Gift Cheque</p>
+											</div>
 
-										<div class="col-md-12 space-40"></div>
+											<div class="col-md-12 space-40"></div>
 
-										<div class="col-md-5" style="display: flex;align-items: center;justify-content: flex-end;">
-											<p style="font-weight: 500;font-size: 16px;">General Gift Cheque</p>
-										</div>
-										<div class="col-md-7 text-center">
-											<img src="{{ url('/images/remittance/payment/General-Gift-Cheque.jpg') }}" class="img-fluid">
-										</div>
+											<div class="col-md-5" style="display: flex;align-items: center;justify-content: flex-end;">
+												<p style="font-weight: 500;font-size: 16px;">General Gift Cheque</p>
+											</div>
+											<div class="col-md-7 text-center">
+												<img src="{{ url('/images/remittance/payment/General-Gift-Cheque.jpg') }}" class="img-fluid">
+											</div>
 
-										<div class="col-md-12 space-40"></div>
+											<div class="col-md-12 space-40"></div>
 
-										<div class="col-md-7 text-center">
-											<img src="{{ url('/images/remittance/payment/Wedding-gift-cheque.jpg') }}" class="img-fluid">
+											<div class="col-md-7 text-center">
+												<img src="{{ url('/images/remittance/payment/Wedding-gift-cheque.jpg') }}" class="img-fluid">
+											</div>
+											<div class="col-md-5" style="display: flex;align-items: center;">
+												<p style="font-weight: 500;font-size: 16px;">Wedding Gift Cheque</p>
+											</div>
 										</div>
-										<div class="col-md-5" style="display: flex;align-items: center;">
-											<p style="font-weight: 500;font-size: 16px;">Wedding Gift Cheque</p>
+									</div>
+									<div class="d-block d-sm-none">
+										<div class="row tab_data_row" >
+											<div class="col-md-12" style="padding: 20px;">
+												<p style="font-size: 18px;font-weight: 500;">The best gift to the loved ones alternatively of hard cash.</p>
+												<p>Modernized, secure and personalized cashless payment services for the sake of social purposes such as recognition for wedding, birthday, anniversary and gift for motivational purpose like social, sports, educational, scholarship, etc.</p>
+											</div>
+
+											<div class="col-md-12 text-center">
+												<img src="{{ url('/images/remittance/payment/Birthday-gift-cheque.jpg') }}" class="img-fluid">
+												<p style="font-weight: 500;font-size: 16px;margin-top: 15px;">Birthday Gift Cheque</p>
+											</div>
+											<div class="col-md-12 space-30"></div>
+											<div class="col-md-12 text-center">
+												<img src="{{ url('/images/remittance/payment/General-Gift-Cheque.jpg') }}" class="img-fluid">
+												<p style="font-weight: 500;font-size: 16px;margin-top: 15px;">General Gift Cheque</p>
+											</div>
+											<div class="col-md-12 space-30"></div>
+											<div class="col-md-12 text-center">
+												<img src="{{ url('/images/remittance/payment/Wedding-gift-cheque.jpg') }}" class="img-fluid">
+												<p style="font-weight: 500;font-size: 16px;margin-top: 15px;">Wedding Gift Cheque</p>
+											</div>
 										</div>
 									</div>
 									<div class="space-60"></div>
