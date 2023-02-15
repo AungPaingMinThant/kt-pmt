@@ -50,6 +50,24 @@
 		border-radius: 50%;
 		font-size: 20px;
 	}
+	.bullet_square {
+		float: right;
+		margin-top: 5px;
+		width: 10%;
+	}
+	@media (max-width: 1300px) and (min-width: 1271px) {
+		.bullet_square {
+			width: 100%;
+		}
+	}
+	@media (max-width: 1270px) and (min-width: 1000px) {
+		.bullet_square {
+			width: 15%;
+		}
+		.bullet_square {
+			margin-top: 7px;
+		}
+	}
 	@media (min-width: 768px){
 		.col-md-3 {
 		    width: 23% !important;
@@ -64,6 +82,13 @@
 		}
 		.tab_data_row {
 			width: auto;
+		}
+		.bullet_square {
+			width: 70%;
+		}
+		.bullet_square {
+			margin-top: 10px;
+			margin-right: -10px;
 		}
 	}
 </style>
@@ -160,6 +185,29 @@
 												<p>Modernized, secure and personalized cashless payment services for the sake of social purposes such as recognition for wedding, birthday, anniversary and gift for motivational purpose like social, sports, educational, scholarship, etc.</p>
 											</div>
 
+											<div class="col-1">
+												<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
+											</div>
+											<div class="col-11">
+												<p style="margin-bottom: 5px;">Available at any AYA Branches</p>
+											</div>
+
+											<div class="col-1">
+												<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
+											</div>
+											<div class="col-11">
+												<p style="margin-bottom: 5px;">Service Fees MMK 500 per cheque</p>
+											</div>
+
+											<div class="col-1">
+												<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
+											</div>
+											<div class="col-11">
+												<p style="margin-bottom: 5px;">Customer to choose design for relevant purpose</p>
+											</div>
+
+											<div class="space-40"></div>
+
 											<div class="col-md-7 text-center">
 												<img src="{{ url('/images/remittance/payment/Birthday-gift-cheque.jpg') }}" class="img-fluid">
 											</div>
@@ -192,6 +240,29 @@
 												<p style="font-size: 18px;font-weight: 500;">The best gift to the loved ones alternatively of hard cash.</p>
 												<p>Modernized, secure and personalized cashless payment services for the sake of social purposes such as recognition for wedding, birthday, anniversary and gift for motivational purpose like social, sports, educational, scholarship, etc.</p>
 											</div>
+											
+											<div class="col-1">
+												<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
+											</div>
+											<div class="col-11">
+												<p style="margin-bottom: 5px;">Available at any AYA Branches</p>
+											</div>
+
+											<div class="col-1">
+												<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
+											</div>
+											<div class="col-11">
+												<p style="margin-bottom: 5px;">Service Fees MMK 500 per cheque</p>
+											</div>
+
+											<div class="col-1">
+												<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
+											</div>
+											<div class="col-11">
+												<p style="margin-bottom: 5px;">Customer to choose design for relevant purpose</p>
+											</div>
+
+											<div class="space-40"></div>
 
 											<div class="col-md-12 text-center">
 												<img src="{{ url('/images/remittance/payment/Birthday-gift-cheque.jpg') }}" class="img-fluid">

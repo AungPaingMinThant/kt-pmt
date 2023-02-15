@@ -210,7 +210,7 @@
 	font-weight: 400;
 	margin-bottom: 0;
 	line-height: 34px;
-	padding-right: 120px;
+	padding-right: 170px;
 }
 @media (max-width: 1550px) and (min-width: 577px) {
 	.creditcard_banner{
@@ -370,7 +370,7 @@
 		background-position: 70% center;
 	}
 	.remittance_payment_tag_desc {
-		padding-right: 60px;
+		padding-right: 10px;
 	}
 }
 @media only screen and (max-width: 576px) {
