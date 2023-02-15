@@ -1873,8 +1873,8 @@
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 45px;left: 25px;">
-						<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;">B<span style="color: #a02226;">Send or receive money securely & instantly</span> anywhere in Myanmar at AYA Branches</p>
+					<div style="position: absolute;top: 45px;left: 25px;right: 50px;">
+						<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;"><span style="color: #a02226;">Easiest way to make your payment</span> is a priority for us.</p>
 					</div>
 				</div>
 			</div>
