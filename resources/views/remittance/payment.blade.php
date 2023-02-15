@@ -57,7 +57,7 @@
 	}
 	@media (max-width: 1300px) and (min-width: 1271px) {
 		.bullet_square {
-			width: 100%;
+			width: 10%;
 		}
 	}
 	@media (max-width: 1270px) and (min-width: 1000px) {
