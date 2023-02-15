@@ -16,4 +16,9 @@ class RemittanceController extends Controller
     {
         return view('remittance.inter');
     }
+
+    public function paymentIndex()
+    {
+        return view('remittance.payment');
+    }
 }

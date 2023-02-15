@@ -190,6 +190,28 @@
 .remittance_inter_banner{
 	background-image:url('../images/remittance/inter/KV.jpg');
 }
+.remit_inter_tag_line_div {
+	position: absolute;
+	top: 130px;
+	right: 0;
+}
+.remit_inter_tag_line_div > p {
+	font-size: 26px;
+	font-weight: 400;
+	margin-bottom: 0;
+	line-height: 34px;
+	padding-right: 140px;
+}
+.remittance_payment_banner{
+	background-image:url('../images/remittance/payment/KV.jpg');
+}
+.remittance_payment_tag_desc {
+	font-size: 26px;
+	font-weight: 400;
+	margin-bottom: 0;
+	line-height: 34px;
+	padding-right: 120px;
+}
 @media (max-width: 1550px) and (min-width: 577px) {
 	.creditcard_banner{
 		background-position: 60% center;
@@ -206,6 +228,14 @@
 		position: absolute;
 		top: 120px;
 		right: 0;
+	}
+	.remit_inter_tag_line_div {
+		position: absolute;
+		top: 100px;
+		right: 0;
+	}
+	.remit_inter_tag_line_div > p {
+		padding-right: 50px;
 	}
 	.debitcard_banner{
 		background-image:url('../images/debit_KV2.jpg');
@@ -333,6 +363,15 @@
 	.premium_banking_banner {
 	    background-position: 70% center;
 	}
+	.remittance_inter_banner{
+		background-position: 60% center;
+	}
+	.remittance_payment_banner{
+		background-position: 70% center;
+	}
+	.remittance_payment_tag_desc {
+		padding-right: 60px;
+	}
 }
 @media only screen and (max-width: 576px) {
 	.mbanking_banner {
@@ -344,6 +383,10 @@
 	}
 	.remittance_local_banner{
 		background-image:url('../images/remittance/local/mobile_KV.jpg');
+		background-position: 70% center;
+	}
+	.remittance_payment_banner{
+		background-image:url('../images/remittance/payment/mobile_KV.jpg');
 		background-position: 70% center;
 	}
 	.remittance_inter_banner{

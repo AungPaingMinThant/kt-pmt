@@ -1794,7 +1794,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="tag_line_div" style="">
-						<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;padding-right: 120px;"><span style="color: #a02226;">Send or receive money securely & instantly</span> anywhere in Myanmar at AYA Branches</p>
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 34px;padding-right: 120px;"><span style="color: #a02226;">Send or receive money securely & instantly</span> anywhere in Myanmar at AYA Branches</p>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1828,8 +1828,43 @@
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
-					<div class="tag_line_div" style="">
-						<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;padding-right: 120px;"><span style="color: #a02226;">Send or receive money securely & instantly</span> anywhere in Myanmar at AYA Branches</p>
+					<div class="remit_inter_tag_line_div" style="">
+						<p>AYA International Remittance is <span style="color: #a02226;">secure and a quick way to send and receive money, across the global network.</span></p>
+					</div>
+				</div>
+				<div class="col-md-6" style="text-align: right;">
+					<p></p>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 45px;left: 25px;">
+						<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 20px;padding-right: 20px;">AYA International Remittance is <span style="color: #a02226;">secure and a quick way to send and receive money, across the global network.</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;REMITTANCE AND PAYMENTS&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">INTERNATIONAL REMITTANCE</span>
+			</p>
+		</div>
+	</div>
+@endif
+
+@if($page == 'remittance_payment')
+	<div class="remittance_payment_banner banner_bg" style="">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
+					<div class="tag_line_div">
+						<p class="remittance_payment_tag_desc"><span style="color: #a02226;">Send or receive money securely & instantly</span> anywhere in Myanmar at AYA Branches</p>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
