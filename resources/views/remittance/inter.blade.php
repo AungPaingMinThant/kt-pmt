@@ -377,7 +377,7 @@
 								DBS Remit Singapore (Inward)
 							</p>
 							<div class="row" style="position: relative;">
-								<img src="{{ url('/images/remittance/inter/DBS_remit_singpapore.png') }}" class="img-fluid">
+								<img src="{{ url('/images/remittance/inter/DBS_remit_singpapore_mobile.png') }}" class="img-fluid">
 								<p style="font-weight: 500;font-size: 18px;line-height: 22px;position: absolute;top: 70%;left: 4%;width: 90%;">DBS to AYA Remit,<br>a convenient way to send money.</p>
 							</div>
 							<div class="row">
@@ -413,7 +413,7 @@
 								Western Union (Inward) Worldwide 
 							</p>
 							<div class="row" style="position: relative;">
-								<img src="{{ url('/images/remittance/inter/western_union.png') }}" class="img-fluid">
+								<img src="{{ url('/images/remittance/inter/western_union_mobile.png') }}" class="img-fluid">
 								<p style="font-weight: 500;font-size: 18px;line-height: 22px;position: absolute;top: 70%;left: 4%;width: 90%;">Moving money for better with Western Union</p>
 							</div>
 							<div class="row">
@@ -443,7 +443,7 @@
 								Ria Money Transfer (Inward) Worldwide
 							</p>
 							<div class="row" style="position: relative;">
-								<img src="{{ url('/images/remittance/inter/ria_money_transfer.png') }}" class="img-fluid">
+								<img src="{{ url('/images/remittance/inter/ria_money_transfer_mobile.png') }}" class="img-fluid">
 								<p style="font-weight: 500;font-size: 18px;line-height: 22px;position: absolute;top: 80%;left: 4%;width: 90%;">Getting Money to Where it Matters</p>
 							</div>
 							<div class="row">

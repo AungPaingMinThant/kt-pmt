@@ -1864,7 +1864,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="tag_line_div">
-						<p class="remittance_payment_tag_desc"><span style="color: #a02226;">Send or receive money securely & instantly</span> anywhere in Myanmar at AYA Branches</p>
+						<p class="remittance_payment_tag_desc"><span style="color: #a02226;">Easiest way to make your payment</span> is a priority for us.</p>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1887,7 +1887,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;REMITTANCE AND PAYMENTS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">LOCAL REMITTANCE</span>
+				<span style="color: #a02226;">PAYMENTS</span>
 			</p>
 		</div>
 	</div>
