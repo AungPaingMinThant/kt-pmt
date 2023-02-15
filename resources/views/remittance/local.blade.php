@@ -24,7 +24,7 @@
 					<div class="col-md-6" style="padding-right: 70px;">
 						<p style="color: #a02226;font-size: 16px;font-weight: 600;">AYA to AYA Accounts</p>
 						<p>AYA mobile banking can take care of a range of financial needs whenever you wish. Access your account 24/7 and remit within Myanmar swiftly and conveniently.</p>
-						<p>Alternatively, you can visit to nearest branch along with your NRC and beneficiary information.</p>
+						<p>Alternatively, you can visit to <b>nearest branch</b> along with your NRC and beneficiary information.</p>
 						<div class="space-30"></div>
 						<a href="{{ url('/mobile-banking') }}">
 							<button class="btn" style="background-color: #ae071d;border-color: #ae071d;color: #fff;">Connect with us via digital!</button>
