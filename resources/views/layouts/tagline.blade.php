@@ -125,4 +125,16 @@
 		</div>
 	</div>
 @endif
+
+@if($page == 'remittance_inter')
+	<div class="row">
+		<div class="col-md-4 tag_line">
+			<p style="font-size: 20px;">Nowadays, distance are no longer matters.</p>
+		</div>
+		<div class="col-md-8 tag_desc">
+			<p>Technology is bridging the distance and convenient your business and personal context.</p>
+			<p>We facilitate the international transfer of money in all applicable currencies in more than 200 countries. Whether you need to send money or receive money for family, friends or business, you can have reliable service with competitive exchange rates. </p>
+		</div>
+	</div>
+@endif
 <div class="space-40"></div>

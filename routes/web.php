@@ -97,3 +97,8 @@ Route::get('/premium-banking','App\Http\Controllers\PremiumBankingController@ind
 
 Route::get('/remittance/local','App\Http\Controllers\RemittanceController@localIndex');
 Route::get('/remittance/international','App\Http\Controllers\RemittanceController@interIndex');
+Route::get('/remittance/payment','App\Http\Controllers\RemittanceController@paymentIndex');
+
+
+
+// contact-us
