@@ -212,6 +212,30 @@
 	line-height: 34px;
 	padding-right: 170px;
 }
+.autoloan_banner{
+	background-image:url('../images/borrowing/hire_purchase/auto_loan/KV.jpg');
+}
+.autoloan_banner_tagline {
+	position: absolute;
+	top: 156px;
+	left: 100px;
+}
+.c2c_autoloan_banner{
+	background-image:url('../images/borrowing/hire_purchase/c2c_auto_loan/KV.jpg');
+}
+.c2c_autoloan_banner_tagline {
+	position: absolute;
+	top: 130px;
+	left: 100px;
+}
+.educationloan_banner{
+	background-image:url('../images/borrowing/hire_purchase/education_loan/KV.jpg');
+}
+.educationloan_banner_tagline {
+	position: absolute;
+	top: 156px;
+	left: 100px;
+}
 @media (max-width: 1550px) and (min-width: 577px) {
 	.creditcard_banner{
 		background-position: 60% center;
@@ -372,6 +396,27 @@
 	.remittance_payment_tag_desc {
 		padding-right: 10px;
 	}
+	.autoloan_banner, .c2c_autoloan_banner {
+		background-position: 60% center;
+	}
+	.autoloan_banner_tagline {
+		top: 130px;
+		right: 0px;
+		left: 40px;
+	}
+	.c2c_autoloan_banner_tagline {
+		top: 130px;
+		right: 0px;
+		left: 40px;
+	}
+	.educationloan_banner {
+		background-position: 60% center;
+	}
+	.educationloan_banner_tagline {
+		top: 130px;
+		right: 0px;
+		left: 20px;
+	}
 }
 @media only screen and (max-width: 576px) {
 	.mbanking_banner {
@@ -525,4 +570,17 @@
 	.premium_banking_banner {
 		background-image:url('../images/premium-banking/mobile_KV.jpg');
 		background-position: 80% center;
+	}
+	.autoloan_banner{
+		background-image:url('../images/borrowing/hire_purchase/auto_loan/mobile_KV.jpg');
+		background-position: 100% center;
+	}
+	.c2c_autoloan_banner{
+		background-image:url('../images/borrowing/hire_purchase/c2c_auto_loan/mobile_KV.jpg');
+		background-position: 100% center;
+	}
+	.educationloan_banner{
+		background-image:url('../images/borrowing/hire_purchase/education_loan/mobile_KV.jpg');
+		background-position: 100% center;
+	}
 }
