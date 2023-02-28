@@ -2016,7 +2016,7 @@
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 30px;left: 25px;">
+					<div style="position: absolute;top: 260px;left: 50px;right: 50px;background-color: #ffffff8c;padding: 20px;">
 						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Explore a new way to bring <span style="color: #a02226;">your dream world to life</span> with our home construction and renovation financing.</p>
 					</div>
 				</div>
