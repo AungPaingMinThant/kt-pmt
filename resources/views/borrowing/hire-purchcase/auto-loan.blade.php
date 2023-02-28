@@ -145,7 +145,7 @@
 
 								<div class="space-40" id="required-document"></div>
 								<h4>Required Documents</h4>
-								<p style="color: #ae071d;">Basic Personal Documents</p>
+								<p class="theme_text_color">Basic Personal Documents</p>
 								<ul>
 									<li>NRC</li>
 									<li>Household Member List</li>
@@ -312,7 +312,7 @@
 
 									<div class="row">
 										<div class="col-12">
-											<p style="color: #ae071d;">Terms and Conditions</p>
+											<p class="theme_text_color">Terms and Conditions</p>
 										</div>
 										<div class="col-1">
 											<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
@@ -448,7 +448,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<p class="call_deposit_title">Required Documents</p>
-							<p style="color: #ae071d;">Basic Personal Documents</p>
+							<p class="theme_text_color">Basic Personal Documents</p>
 							<ul>
 								<li>NRC</li>
 								<li>Household Member List</li>
@@ -620,7 +620,7 @@
 
 								<div class="row">
 									<div class="col-12">
-										<p style="color: #ae071d;">Terms and Conditions</p>
+										<p class="theme_text_color">Terms and Conditions</p>
 									</div>
 									<div class="col-1">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square bullet_square_mobile">

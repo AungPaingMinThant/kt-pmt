@@ -1980,8 +1980,8 @@
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 30px;left: 25px;">
-						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span style="color: #a02226;">Own your dream car </span><br>with AYA Auto Loan</p>
+					<div style="position: absolute;top: 170px;left: 25px;">
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Planning for <br><span style="color: #a02226;">your child's education <br>journey</span> with AYA</p>
 					</div>
 				</div>
 			</div>
@@ -2001,13 +2001,13 @@
 	</div>
 @endif
 
-@if($page == 'educationloan')
-	<div class="educationloan_banner banner_bg" style="">
+@if($page == 'constructionloan')
+	<div class="constructionloan_banner banner_bg" style="">
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="col-md-5 text-left" style="text-align: left;position: relative;">
-					<div class="educationloan_banner_tagline">
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Planning for <span style="color: #a02226;">your child's education journey</span> with AYA</p>
+					<div class="constructionloan_banner_tagline">
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Explore a new way to bring <span style="color: #a02226;">your dream world to life</span> with our home construction and renovation financing.</p>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -2017,7 +2017,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 30px;left: 25px;">
-						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span style="color: #a02226;">Own your dream car </span><br>with AYA Auto Loan</p>
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Explore a new way to bring <span style="color: #a02226;">your dream world to life</span> with our home construction and renovation financing.</p>
 					</div>
 				</div>
 			</div>
@@ -2031,7 +2031,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BORROWING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;HIRE PURCHASE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">EDUCATION LOAN</span>
+				<span style="color: #a02226;">HOME CONSTRUCTION AND RENOVATION (HCR) LOAN</span>
 			</p>
 		</div>
 	</div>
