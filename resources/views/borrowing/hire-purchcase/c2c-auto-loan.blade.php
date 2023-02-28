@@ -100,7 +100,7 @@
 
 								<div class="space-40" id="required-document"></div>
 								<h4>Required Documents</h4>
-								<p style="color: #ae071d;">Basic Personal Documents</p>
+								<p class="theme_text_color">Basic Personal Documents</p>
 								<ul>
 									<li>NRC</li>
 									<li>Household Member List</li>
@@ -151,7 +151,7 @@
 								<h4>How to apply</h4>
 								<div class="row">
 									<p>Feel free to make an initial enquiry at any AYA branches via phone or in person. Then, visit nearest AYA branch to receive “<b>In-principle Loan Approval</b>” which contains the eligible HP loan amount.</p>
-									<a href="https://autocalc.ayabank.com" target="_blank">
+									<a href="#" target="_blank">
 										<button class="btn apply_now_btn">
 											Branches
 										</button>
@@ -165,7 +165,7 @@
 										<p class="mb-0">10% per annum</p>
 									</div>
 									<div class="col-12 mt-20">
-										<p style="color: #ae071d;">Terms and Conditions</p>
+										<p class="theme_text_color">Terms and Conditions</p>
 									</div>
 									<div class="col-1">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
@@ -258,7 +258,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<p class="call_deposit_title">Required Documents</p>
-							<p style="color: #ae071d;">Basic Personal Documents</p>
+							<p class="theme_text_color">Basic Personal Documents</p>
 							<ul>
 								<li>NRC</li>
 								<li>Household Member List</li>
@@ -295,7 +295,7 @@
 								</div>
 								<div class="col-md-6"></div>
 							</div>
-							<p style="color: #ae071d;">Car Related Documents</p>
+							<p class="theme_text_color">Car Related Documents</p>
 							<ul>
 								<li>In-Principle Loan Approval Letter</li>
 								<li>Sales and Purchase Agreement</li>
@@ -316,7 +316,7 @@
 									<p class="mb-0">10% per annum</p>
 								</div>
 								<div class="col-12 mt-20">
-									<p style="color: #ae071d;">Terms and Conditions</p>
+									<p class="theme_text_color">Terms and Conditions</p>
 								</div>
 								<div class="col-1">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">

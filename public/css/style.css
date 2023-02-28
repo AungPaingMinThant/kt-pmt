@@ -51,6 +51,12 @@
 .faq_section {
 	padding: 0px 100px !important;
 }
+.theme_text_color {
+	color: #ae071d;
+}
+.black_text_color {
+	color: #000;
+}
 .f-600 {
 	font-weight: 600;
 }
@@ -78,8 +84,14 @@
 .mt-20 {
 	margin-top: 20px !important;
 }
+.mt-40 {
+	margin-top: 40px !important;
+}
 .mb-0 {
 	margin-bottom: 0px;
+}
+.mb-10 {
+	margin-bottom: 10px;
 }
 .mb-20 {
 	margin-bottom: 20px;
@@ -90,8 +102,17 @@
 .mt-minus-30 {
 	margin-top: -30px;
 }
+.mb-minus-5 {
+	margin-bottom: -5px;
+}
+.mb-minus-10 {
+	margin-bottom: -10px;
+}
 .mb-minus-20 {
 	margin-bottom: -20px;
+}
+.mb-minus-30 {
+	margin-bottom: -30px;
 }
 .b-l-none {
 	border-left: none;
