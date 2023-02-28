@@ -99,6 +99,10 @@ Route::get('/remittance/local','App\Http\Controllers\RemittanceController@localI
 Route::get('/remittance/international','App\Http\Controllers\RemittanceController@interIndex');
 Route::get('/remittance/payment','App\Http\Controllers\RemittanceController@paymentIndex');
 
+Route::get('/borrowing/hire-purchase/auto-loan','App\Http\Controllers\Borrowing\HirePurchaseController@autoLoanIndex');
+Route::get('/borrowing/hire-purchase/c2c-auto-loan','App\Http\Controllers\Borrowing\HirePurchaseController@C2CAutoLoanIndex');
+Route::get('/borrowing/hire-purchase/education-loan','App\Http\Controllers\Borrowing\HirePurchaseController@educationLoanIndex');
+Route::get('/borrowing/hire-purchase/construction-loan','App\Http\Controllers\Borrowing\HirePurchaseController@constructionLoanIndex');
 
 
 // contact-us

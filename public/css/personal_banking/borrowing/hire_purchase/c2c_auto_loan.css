@@ -1,0 +1,106 @@
+.nav-link, h4 {
+	color: #2e2e2e !important;
+}
+.nav-pills .nav-link.active {
+	color: #2e2e2e !important;		
+}
+.nav-pills .nav-link.active > span {
+	border-bottom: 4px solid #a02226 !important;
+	font-weight: 600 !important;
+}
+.scroll_content::-webkit-scrollbar{
+    display: none;
+}
+#myScrollspy {
+	position: sticky;
+	top: 20px;
+	z-index: 99;
+}
+.col-1 {
+	width: 6% !important;
+}
+.col-11 {
+	padding-left: 0px !important;
+}
+#quick_look {
+	padding-right: 120px;
+}
+.apply_now_btn {
+	background-color: #ae071d !important;
+	color: #fff !important;
+	font-weight: 500;
+	padding: 15px 25px !important;
+	border: 1px solid #ae071d !important;
+	margin-bottom: 2rem;
+}
+.apply_now_btn:hover {
+	background-color: #fff !important;
+	color: #ae071d !important;
+}
+.salaried_staff_div {
+    height: 347px;
+	background-image: url('../../../../images/borrowing/hire_purchase/auto_loan/income_document_bg.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: transparent;
+	padding: 70px;
+}
+.bullet_square {
+	float: right;
+	margin-top: 7px;
+	width: 25%;
+}
+.income_doc_desktop {
+	margin-left: -60px !important;
+}
+
+@media (max-width: 1270px) and (min-width: 1000px) {
+	.bullet_square {
+		width: 50%;
+	}
+	#quick_look {
+	    padding-right: 100px;
+	}
+	.income_doc_desktop {
+		margin-left: -45px !important;
+	}
+	.salaried_staff_div {
+	    height: 400px;
+		background-image: url('../../../../images/borrowing/hire_purchase/auto_loan/income_document_bg_2.png');
+		padding: 60px 70px 0px 50px;
+	}
+}
+
+@media only screen and (max-width: 576px){
+	.call_deposit_title {
+		font-size: calc(1.2625rem + 0.15vw);
+		font-weight: 600 !important;
+	}
+	.col-11 {
+		padding-left: 15px !important;
+	}
+	.salaried_staff_div {
+	    background-image: url(../../../../images/borrowing/hire_purchase/auto_loan/income_document_bg_mobile.png);
+	    background-repeat: no-repeat;
+	    background-size: contain;
+	    background-color: transparent;
+	    padding: 70px 70px 0px 60px;
+	}
+	.self_employ {
+		padding: 70px 70px 0px 70px;
+    	background-position: top center;
+	}
+	.income_doc_desktop {
+	    margin-left: 0px !important;
+	    margin-top: 20px !important;
+	}
+	.bullet_square {
+		width: 50%;
+	}
+	.col-1 {
+		width: 10% !important;
+	}
+	.col-11 {
+		width: 90% !important;
+	}
+}
