@@ -109,7 +109,7 @@
 								<p style="color: #ae071d;margin-bottom: -30px;">Income Documents</p>
 								<div class="row income_doc_desktop">
 									<div class="col-md-6">
-										<div class="salaried_staff_div">
+										<div class="income_document_div salaried_staff_div">
 											<div class="row">
 												<p style="font-weight: 600;font-size: 16px;">Salary Staff</p>
 												<ul style="margin-left: 20px;">
@@ -121,14 +121,12 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-6" style="margin-left: -80px;">
-										<div class="salaried_staff_div">
+									<div class="col-md-6" style="margin-left: -50px;">
+										<div class="income_document_div self_employ_div">
 											<div class="row">
 												<p style="font-weight: 600;font-size: 16px;">Self Employed</p>
 												<ul style="margin-left: 20px;">
 													<li>Business or Company Registration Documents</li>
-													<li>Proof of regular income </li>
-													<li>Bank Statements (Minimum 6 months)</li>
 													<li>Income/ Financial Statement (Operating Account)</li>
 													<li>Tax Receipts</li>
 												</ul>
@@ -137,7 +135,7 @@
 									</div>
 									<div class="col-md-6"></div>
 								</div>
-								<p class="mt-minus-30" style="color: #ae071d;">Car Related Documents</p>
+								<p class="mt-minus-10" style="color: #ae071d;">Car Related Documents</p>
 								<ul>
 									<li>In-Principle Loan Approval Letter</li>
 									<li>Sales and Purchase Agreement</li>
@@ -267,7 +265,7 @@
 							<p style="color: #ae071d;margin-bottom: -30px;">Income Documents</p>
 							<div class="row income_doc_desktop">
 								<div class="col-md-12">
-									<div class="salaried_staff_div">
+									<div class="income_document_div">
 										<div class="row">
 											<p style="font-weight: 600;font-size: 16px;">Salary Staff</p>
 											<ul style="margin-left: 20px;">
@@ -280,13 +278,11 @@
 									</div>
 								</div>
 								<div class="col-md-12">
-									<div class="salaried_staff_div self_employ">
+									<div class="income_document_div self_employ">
 										<div class="row">
 											<p style="font-weight: 600;font-size: 16px;">Self Employed</p>
 											<ul style="margin-left: 20px;">
 												<li>Business or Company Registration Documents</li>
-												<li>Proof of regular income </li>
-												<li>Bank Statements (Minimum 6 months)</li>
 												<li>Income/ Financial Statement (Operating Account)</li>
 												<li>Tax Receipts</li>
 											</ul>

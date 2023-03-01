@@ -347,7 +347,7 @@
 								</ul>
 								<div class="row income_doc_desktop">
 									<div class="col-md-6">
-										<div class="salaried_staff_div">
+										<div class="income_document_div salaried_staff_div">
 											<div class="row">
 												<p style="font-weight: 600;font-size: 16px;">For Salaried applicants</p>
 												<ul style="margin-left: 20px;">
@@ -358,8 +358,8 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-6" style="margin-left: -80px;">
-										<div class="salaried_staff_div">
+									<div class="col-md-6" style="margin-left: -50px;">
+										<div class="income_document_div self_employ_div">
 											<div class="row">
 												<p style="font-weight: 600;font-size: 16px;">For self-employed applicants</p>
 												<ul style="margin-left: 20px;">
@@ -716,7 +716,7 @@
 							</ul>
 							<div class="row income_doc_desktop">
 								<div class="col-md-12">
-									<div class="salaried_staff_div">
+									<div class="income_document_div">
 										<div class="row">
 											<p style="font-weight: 600;font-size: 16px;">For Salaried applicants</p>
 											<ul style="margin-left: 20px;">
@@ -728,7 +728,7 @@
 									</div>
 								</div>
 								<div class="col-md-12">
-									<div class="salaried_staff_div self_employ">
+									<div class="income_document_div self_employ">
 										<div class="row">
 											<p style="font-weight: 600;font-size: 16px;">For self-employed applicants</p>
 											<ul style="margin-left: 20px;">
