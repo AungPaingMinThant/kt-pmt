@@ -151,7 +151,7 @@
 									<li>Household Member List</li>
 									<li>Original Testimonial Letter from Ward Administration Office</li>
 								</ul>
-								<p style="color: #ae071d;margin-bottom: -30px;">Income Documents</p>
+								<p style="color: #ae071d;margin-bottom: -20px;">Income Documents</p>
 								<div class="row income_doc_desktop">
 									<div class="col-md-6">
 										<div class="income_document_div salaried_staff_div">
@@ -457,7 +457,7 @@
 							<p style="color: #ae071d;margin-bottom: -30px;">Income Documents</p>
 							<div class="row income_doc_desktop">
 								<div class="col-md-12">
-									<div class="salaried_staff_div">
+									<div class="income_document_div">
 										<div class="row">
 											<p style="font-weight: 600;font-size: 16px;">Salaried Staff</p>
 											<ul style="margin-left: 20px;">
@@ -470,7 +470,7 @@
 									</div>
 								</div>
 								<div class="col-md-12">
-									<div class="salaried_staff_div self_employ">
+									<div class="income_document_div self_employ">
 										<div class="row">
 											<p style="font-weight: 600;font-size: 16px;">Self Employed</p>
 											<ul style="margin-left: 20px;">
