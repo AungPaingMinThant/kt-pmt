@@ -8,6 +8,12 @@
 	.salaried_staff_div {
 	    padding: 70px 80px 70px 70px;
 	}
+
+	@media only screen and (max-width: 576px){
+		.salaried_staff_div {
+		    padding: 50px 60px 70px 45px;
+		}
+	}
 </style>
 
 @section('content')
