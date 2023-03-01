@@ -14,6 +14,11 @@
 	.business_owner {
 		padding: 70px 80px 70px 70px;
 	}
+	@media (max-width: 1300px) and (min-width: 1000px) {
+		.sme_business_owner, .business_owner {
+			padding: 50px 60px 70px 55px;
+		}
+	}
 </style>
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
@@ -193,7 +198,7 @@
 													<li>Valid Business License</li>
 													<li>Business or Company Registration Documents</li>
 													<li>Proof of regular income</li>
-													<li>Bank Statements (Minimum 6 months)</li>
+													<li>Bank Statements<br>(Minimum 6 months)</li>
 													<li>Income/ Financial Statement (Operating Account)</li>
 													<li>Tax Receipts</li>
 												</ul>

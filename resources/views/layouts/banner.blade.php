@@ -1935,7 +1935,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="c2c_autoloan_banner_tagline">
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Driving a better customer experience, financing for<span style="color: #a02226;"> auto purchases<br>from any private seller</span></p>
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Driving a better customer experience, financing for<span style="color: #a02226;"> auto purchases from any private seller</span></p>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
