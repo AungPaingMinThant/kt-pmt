@@ -2036,3 +2036,39 @@
 		</div>
 	</div>
 @endif
+
+@if($page == 'homeloan')
+	<div class="homeloan_banner banner_bg" style="">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-5 text-left" style="text-align: left;position: relative;">
+					<div class="homeloan_banner_tagline">
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Ready to step into your <span style="color: #a02226;">dream home with us</span>.</p>
+					</div>
+				</div>
+				<div class="col-md-6" style="text-align: right;">
+					<p></p>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 30px;left: 25px;">
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Ready to step into your<br><span style="color: #a02226;">dream home with us</span>.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BORROWING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;HIRE PURCHASE&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">HOME LOAN</span>
+			</p>
+		</div>
+	</div>
+@endif

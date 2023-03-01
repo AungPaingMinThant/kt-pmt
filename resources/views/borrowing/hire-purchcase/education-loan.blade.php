@@ -53,7 +53,7 @@
 									</li>									
 									<li class="nav-item">
 										<a class="nav-link" href="#faqs">
-											<span>FAQs</span>
+											<span>FAQ</span>
 										</a>
 									</li>
 								</ul>

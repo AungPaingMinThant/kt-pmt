@@ -24,6 +24,11 @@ class HirePurchaseController extends Controller
 
     public function constructionLoanIndex()
     {
-        return view('borrowing.hire-purchcase.construction-loan');   
+        return view('borrowing.hire-purchcase.construction-loan');
+    }
+
+    public function homeLoanIndex()
+    {
+        return view('borrowing.hire-purchcase.home-loan');
     }
 }
