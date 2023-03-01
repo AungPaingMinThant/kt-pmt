@@ -8,6 +8,12 @@
 		box-shadow: 0 0 17px 0px rgb(149 149 149 / 15%), 0 0px 20px 10px rgb(149 149 149 / 15%);
     	border-radius: 5px;
 	}
+	.income_document_div {
+	    background-image: url(../../images/borrowing/hire_purchase/auto_loan/income_document_bg_3.png);
+	}
+	.salaried_staff_div {
+		background-image: url(../../images/borrowing/hire_purchase/auto_loan/income_document_bg_2.png);
+	}
 	.sme_business_owner {
 		padding: 60px 70px 70px 70px;
 	}
@@ -165,7 +171,7 @@
 
 								<div class="space-40" id="required_document"></div>
 								<h4>Required Documents</h4>
-								<p class="theme_text_color">Basic Personal Documents</p>
+								<p class="theme_text_color">Basic Personal Information</p>
 								<ul>
 									<li>NRIC</li>
 									<li>Household list</li>
@@ -175,9 +181,9 @@
 								<p class="theme_text_color mb-lg-n4">Income Documents</p>
 								<div class="row income_doc_desktop mb-lg-n3">
 									<div class="col-md-6">
-										<div class="salaried_staff_div">
+										<div class="income_document_div salaried_staff_div">
 											<div class="row">
-												<p style="font-weight: 600;font-size: 16px;">Salaried Staff</p>
+												<p style="font-weight: 600;font-size: 16px;">Salaried Employee</p>
 												<ul style="margin-left: 20px;">
 													<li>Salary Slip (minimum 3 months)</li>
 													<li>Employment Confirmation Letter</li>
@@ -191,7 +197,7 @@
 								<p class="mb-lg-n4 fw-semibold">Self Employed</p>
 								<div class="row income_doc_desktop">
 									<div class="col-md-6">
-										<div class="salaried_staff_div sme_business_owner">
+										<div class="income_document_div sme_business_owner">
 											<div class="row">
 												<p style="font-weight: 600;font-size: 16px;">SME Business Owner</p>
 												<ul style="margin-left: 20px;">
@@ -205,8 +211,8 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-6" style="margin-left: -80px;">
-										<div class="salaried_staff_div business_owner">
+									<div class="col-md-6" style="margin-left: -50px;">
+										<div class="income_document_div business_owner">
 											<div class="row">
 												<p style="font-weight: 600;font-size: 16px;">Business Owner</p>
 												<ul style="margin-left: 20px;">
@@ -223,6 +229,7 @@
 								
 								<div class="space-40" id="how_to_apply"></div>
 								<h4>How to apply</h4>
+								<p>Feel free to make an initial enquiry at any AYA branches via phone or in person. Then, visit nearest AYA branch to receive <b>“In-principle Loan Approval”</b> which contains the eligible HP loan amount.</p>
 								<div class="nav-align-top mb-4">
 									<ul class="nav nav-pills " role="tablist">
 										<li class="nav-item">
@@ -237,7 +244,6 @@
 										</li>
 									</ul>
 									<div class="tab-content" style="background-color: transparent;padding: 30px 0px 0px 0px;box-shadow: none;">
-										<p style="margin-bottom: 30px;">Feel free to make an initial enquiry at any AYA branches via phone or in person. Then, visit nearest AYA branch to receive <b>“In-principle Loan Approval”</b> which contains the eligible HP loan amount.</p>
 										<div class="tab-pane fade show active" id="navs-pills-top-dealer-program" role="tabpanel" style="padding-bottom: 20px;">
 											<div>
 												<p style="margin-bottom: 30px;">Choose from wide range of residences from our list of authorized developers to purchase your dream home.</p>
@@ -590,7 +596,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<p class="call_deposit_title">Required Documents</p>
-							<p class="theme_text_color">Basic Personal Documents</p>
+							<p class="theme_text_color">Basic Personal Information</p>
 							<ul>
 								<li>NRIC</li>
 								<li>Household list</li>
@@ -600,9 +606,9 @@
 							<p class="theme_text_color mb-lg-n4">Income Documents</p>
 							<div class="row income_doc_desktop">
 								<div class="col-md-12">
-									<div class="salaried_staff_div">
+									<div class="income_document_div">
 										<div class="row">
-											<p style="font-weight: 600;font-size: 16px;">Salaried Staff</p>
+											<p style="font-weight: 600;font-size: 16px;">Salaried Employee</p>
 											<ul style="margin-left: 20px;">
 												<li>Salary Slip (minimum 3 months)</li>
 												<li>Employment Confirmation Letter</li>
@@ -616,7 +622,7 @@
 							<p class="mb-lg-n4 fw-semibold">Self Employed</p>
 							<div class="row income_doc_desktop">
 								<div class="col-md-12">
-									<div class="salaried_staff_div self_employ">
+									<div class="income_document_div self_employ">
 										<div class="row">
 											<p style="font-weight: 600;font-size: 16px;">SME Business Owner</p>
 											<ul style="margin-left: 20px;">
@@ -631,7 +637,7 @@
 									</div>
 								</div>
 								<div class="col-md-12">
-									<div class="salaried_staff_div self_employ">
+									<div class="income_document_div self_employ">
 										<div class="row">
 											<p style="font-weight: 600;font-size: 16px;">Business Owner</p>
 											<ul style="margin-left: 20px;">
@@ -651,6 +657,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<p class="call_deposit_title">How to Apply</p>
+							<p>Feel free to make an initial enquiry at any AYA branches via phone or in person. Then, visit nearest AYA branch to receive <b>“In-principle Loan Approval”</b> which contains the eligible HP loan amount.</p>
 							<div class="nav-align-top mb-4">
 								<ul class="nav nav-pills " role="tablist" style="justify-content: center;">
 									<li class="nav-item">
@@ -665,8 +672,10 @@
 									</li>
 								</ul>
 								<div class="tab-content" style="background-color: transparent;padding: 30px 0px 0px 0px;box-shadow: none;">
-									<p style="margin-bottom: 30px;">Feel free to make an initial enquiry at any AYA branches via phone or in person. Then, visit nearest AYA branch to receive <b>“In-principle Loan Approval”</b> which contains the eligible HP loan amount.</p>
 									<div class="tab-pane fade show active" id="navs-pills-top-dealer-program-mobile" role="tabpanel" style="padding-bottom: 20px;">
+										<div>
+											<p style="margin-bottom: 30px;">Choose from wide range of residences from our list of authorized developers to purchase your dream home.</p>
+										</div>
 										<div class="row step_slide_row">
 											<div class="col-md-12">
 										      	<div class="slide-container swiper" style="padding-bottom: 40px;padding-bottom: 40px;padding-left: 0px;padding-right: 0px;margin-left: 10px;">
@@ -740,6 +749,9 @@
 										</div>
 									</div>
 									<div class="tab-pane individual-program-mobile fade" id="navs-pills-top-individual-program-mobile" role="tabpanel" style="padding-bottom: 20px;">
+										<div>
+											<p style="margin-bottom: 30px;">Choose the residence you wish to purchase from any developer rather than bank’s authorized developers.</p>
+										</div>
 										<div class="row step_slide_row">
 											<div class="col-md-12">
 										      	<div class="slide-container swiper" style="padding-bottom: 40px;padding-bottom: 40px;padding-left: 0px;padding-right: 0px;margin-left: 10px;">

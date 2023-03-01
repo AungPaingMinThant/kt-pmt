@@ -105,9 +105,9 @@
 	background-color: #fff !important;
 	color: #ae071d !important;
 }
-.salaried_staff_div {
+.income_document_div {
     height: 347px;
-	background-image: url('../../../../images/borrowing/hire_purchase/auto_loan/income_document_bg.png');
+	background-image: url('../../../../images/borrowing/hire_purchase/auto_loan/income_document_bg_2.png');
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-color: transparent;
@@ -282,7 +282,7 @@
 	width: 25%;
 }
 .income_doc_desktop {
-	margin-left: -60px !important;
+	margin-left: -40px !important;
 }
 .slide-content-mobile > .swiper-wrapper > .swiper-slide-active {
 	width: 100% !important;
@@ -296,6 +296,25 @@
 	box-shadow: 0 0 17px 0px rgb(149 149 149 / 15%), 0 0px 20px 10px rgb(149 149 149 / 15%);
 	border-radius: 5px;
 }
+
+@media (max-width: 1300px) and (min-width: 1271px) {
+	.step_slide_row {
+		width: 114%;
+	}
+	.income_document_div {
+    	height: 310px;
+    }
+	.salaried_staff_div {
+		padding: 70px 70px 70px 50px;
+	}
+	.self_employ_div {
+		padding: 70px 70px 70px 50px;
+	}
+	.loan_eligibility_check {
+	    padding: 30px 40px 20px 60px !important;
+	}
+}
+
 @media (max-width: 1270px) and (min-width: 1000px) {
 	.bullet_square {
 		width: 50%;
@@ -312,7 +331,7 @@
 	.income_doc_desktop {
 		margin-left: -45px !important;
 	}
-	.salaried_staff_div {
+	.income_document_div {
 	    height: 400px;
 		background-image: url('../../../../images/borrowing/hire_purchase/auto_loan/income_document_bg_2.png');
 		padding: 60px 70px 0px 50px;
@@ -348,7 +367,7 @@
 	    padding: 30px 30px 20px 30px !important;
 	    height: 260px;
 	}
-	.salaried_staff_div {
+	.income_document_div {
 	    background-image: url(../../../../images/borrowing/hire_purchase/auto_loan/income_document_bg_mobile.png);
 	    background-repeat: no-repeat;
 	    background-size: contain;

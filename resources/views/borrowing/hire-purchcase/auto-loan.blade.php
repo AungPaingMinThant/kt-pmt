@@ -56,7 +56,7 @@
 						<div class="col-md-8">
 							<div id="scroll_content" data-spy="scroll" data-target="#myScrollspy" data-offset="10" style="">
 								<p id="quick_look">
-									Getting a brand new car or pre-owned, AYA auto financing is right solution for you.  With AYA Auto Loan, you can just make the down payment to own your dream car. Vist our authorized auto dealers today to stop dreaming and start driving.
+									Getting a brand new car or pre-owned, AYA auto financing is right solution for you.  With AYA Auto Loan, you can just make the down payment to own your dream car. Visit our authorized auto dealers today to stop dreaming and start driving.
 								</p>
 
 								<div class="space-40" id="features"></div>
@@ -154,7 +154,7 @@
 								<p style="color: #ae071d;margin-bottom: -30px;">Income Documents</p>
 								<div class="row income_doc_desktop">
 									<div class="col-md-6">
-										<div class="salaried_staff_div">
+										<div class="income_document_div salaried_staff_div">
 											<div class="row">
 												<p style="font-weight: 600;font-size: 16px;">Salaried Staff</p>
 												<ul style="margin-left: 20px;">
@@ -166,8 +166,8 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-6" style="margin-left: -80px;">
-										<div class="salaried_staff_div">
+									<div class="col-md-6" style="margin-left: -50px;">
+										<div class="income_document_div self_employ_div">
 											<div class="row">
 												<p style="font-weight: 600;font-size: 16px;">Self Employed</p>
 												<ul style="margin-left: 20px;">
@@ -226,7 +226,7 @@
 																					</ul>
 												                            	</div>
 												                            </div>
-												                            <div class="space-20"></div>
+												                            <div class="space-40"></div>
 												                        </div>
 												                    </div>
 												                    <div class="card swiper-slide slide_2">
@@ -242,7 +242,7 @@
 																					<p class="step_desc">You will receive “In-Principle Loan Approval Letter” and authorized Car dealers list, and your loan amount will be based on your income and repayment capability.</p>
 												                            	</div>
 												                            </div>
-												                            <div class="space-20"></div>
+												                            <div class="space-40"></div>
 												                        </div>
 												                    </div>
 												                    <div class="card swiper-slide slide_3">
@@ -263,7 +263,7 @@
 																					</ul>
 												                            	</div>
 												                            </div>
-												                            <div class="space-20"></div>
+												                            <div class="space-40"></div>
 												                        </div>
 												                    </div>
 												                    <div class="card swiper-slide slide_4">
@@ -279,7 +279,7 @@
 																					<p class="step_desc">You will obtain final loan approval from AYA Bank and receive car from the dealer after successful car registration.</p>
 												                            	</div>
 												                            </div>
-												                            <div class="space-20"></div>
+												                            <div class="space-40"></div>
 												                        </div>
 												                    </div>
 												                </div>
@@ -347,7 +347,7 @@
 						<div class="col-md-12">
 							<p class="call_deposit_title">Quick look</p>
 							<p>
-								Getting a brand new car or pre-owned, AYA auto financing is right solution for you.  With AYA Auto Loan, you can just make the down payment to own your dream car. Vist our authorized auto dealers today to stop dreaming and start driving.
+								Getting a brand new car or pre-owned, AYA auto financing is right solution for you.  With AYA Auto Loan, you can just make the down payment to own your dream car. Visit our authorized auto dealers today to stop dreaming and start driving.
 							</p>
 						</div>
 					</div>

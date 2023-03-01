@@ -6,9 +6,19 @@
 
 <style type="text/css">
 	.salaried_staff_div {
-	    padding: 70px 80px 70px 70px;
+	    padding: 70px 90px 70px 70px;
 	}
-
+	.income_document_div {
+		height: 385px;
+	}
+	@media (max-width: 1300px) and (min-width: 1271px) {
+		.salaried_staff_div {
+			padding: 50px 80px 70px 50px;
+		}
+		.income_document_div {
+		    height: 340px;
+		}
+	}
 	@media only screen and (max-width: 576px){
 		.salaried_staff_div {
 		    padding: 50px 60px 70px 45px;
@@ -147,7 +157,7 @@
 								<p class="mb-minus-30" style="color: #ae071d;">Income Information</p>
 								<div class="row income_doc_desktop mb-minus-30">
 									<div class="col-md-6">
-										<div class="salaried_staff_div">
+										<div class="income_document_div salaried_staff_div">
 											<div class="row">
 												<p style="font-weight: 600;font-size: 16px;">Salary Staff</p>
 												<ul style="margin-left: 20px;">
@@ -159,8 +169,8 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-6" style="margin-left: -80px;">
-										<div class="salaried_staff_div">
+									<div class="col-md-6" style="margin-left: -50px;">
+										<div class="income_document_div salaried_staff_div">
 											<div class="row">
 												<p style="font-weight: 600;font-size: 16px;">Self Employed</p>
 												<ul style="margin-left: 20px;">
@@ -173,7 +183,6 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-6"></div>
 								</div>
 								<p class="theme_text_color">Property Information</p>
 								<ul>
@@ -341,7 +350,7 @@
 							<p class="theme_text_color">Income Information</p>
 							<div class="row income_doc_desktop">
 								<div class="col-md-12">
-									<div class="salaried_staff_div">
+									<div class="income_document_div">
 										<div class="row">
 											<p style="font-weight: 600;font-size: 16px;">Salary applicants</p>
 											<ul style="margin-left: 20px;">
@@ -354,7 +363,7 @@
 									</div>
 								</div>
 								<div class="col-md-12">
-									<div class="salaried_staff_div self_employ">
+									<div class="income_document_div self_employ">
 										<div class="row">
 											<p style="font-weight: 600;font-size: 16px;">Self Employed</p>
 											<ul style="margin-left: 20px;">
