@@ -20,7 +20,21 @@
 	.business_owner {
 		padding: 70px 80px 70px 70px;
 	}
-	@media (max-width: 1300px) and (min-width: 1000px) {
+	@media (max-width: 1300px) and (min-width: 1271px) {
+		.sme_business_owner, .business_owner {
+			padding: 50px 60px 70px 55px;
+		}
+		/*.salaried_staff_div {
+			background-image: url(../../images/borrowing/hire_purchase/auto_loan/income_document_bg_4.png);
+		}
+		.income_document_div {
+		    background-image: url(../../images/borrowing/hire_purchase/auto_loan/income_document_bg_4.png);
+		}*/
+	}
+	@media (max-width: 1270px) and (min-width: 1000px){
+		.step_slide_row {
+		    width: 110%;
+		}
 		.sme_business_owner, .business_owner {
 			padding: 50px 60px 70px 55px;
 		}
@@ -29,11 +43,6 @@
 		}
 		.income_document_div {
 		    background-image: url(../../images/borrowing/hire_purchase/auto_loan/income_document_bg_4.png);
-		}
-	}
-	@media (max-width: 1270px) and (min-width: 1000px){
-		.step_slide_row {
-		    width: 110%;
 		}
 	}
 </style>
