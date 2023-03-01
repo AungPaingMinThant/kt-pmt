@@ -82,9 +82,9 @@
 	.income_doc_desktop {
 		margin-left: -45px !important;
 	}
-	.salaried_staff_div {
+	.salaried_staff_div, .self_employ_div {
 	    height: 400px;
-		background-image: url('../../../../images/borrowing/hire_purchase/auto_loan/income_document_bg_2.png');
+		background-image: url('../../../../images/borrowing/hire_purchase/auto_loan/income_document_bg_4.png');
 		padding: 60px 70px 0px 50px;
 	}
 }
@@ -96,6 +96,9 @@
 	}
 	.col-11 {
 		padding-left: 15px !important;
+	}
+	.income_document_div {
+	    padding: 60px 90px 70px 60px;
 	}
 	.salaried_staff_div {
 	    background-image: url(../../../../images/borrowing/hire_purchase/auto_loan/income_document_bg_mobile.png);

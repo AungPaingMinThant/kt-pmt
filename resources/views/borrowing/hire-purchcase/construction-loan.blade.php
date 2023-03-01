@@ -19,6 +19,11 @@
 		    height: 340px;
 		}
 	}
+	@media (max-width: 1270px) and (min-width: 1000px) {
+		.salaried_staff_div {
+	    padding: 50px 90px 70px 50px;
+	}
+	}
 	@media only screen and (max-width: 576px){
 		.salaried_staff_div {
 		    padding: 50px 60px 70px 45px;

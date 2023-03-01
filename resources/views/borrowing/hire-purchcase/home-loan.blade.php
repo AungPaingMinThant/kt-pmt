@@ -24,6 +24,17 @@
 		.sme_business_owner, .business_owner {
 			padding: 50px 60px 70px 55px;
 		}
+		.salaried_staff_div {
+			background-image: url(../../images/borrowing/hire_purchase/auto_loan/income_document_bg_4.png);
+		}
+		.income_document_div {
+		    background-image: url(../../images/borrowing/hire_purchase/auto_loan/income_document_bg_4.png);
+		}
+	}
+	@media (max-width: 1270px) and (min-width: 1000px){
+		.step_slide_row {
+		    width: 110%;
+		}
 	}
 </style>
 @section('content')
@@ -227,7 +238,7 @@
 									<div class="col-md-6"></div>
 								</div>
 								
-								<div class="space-40" id="how_to_apply"></div>
+								<div class="space-20" id="how_to_apply"></div>
 								<h4>How to apply</h4>
 								<p>Feel free to make an initial enquiry at any AYA branches via phone or in person. Then, visit nearest AYA branch to receive <b>“In-principle Loan Approval”</b> which contains the eligible HP loan amount.</p>
 								<div class="nav-align-top mb-4">
