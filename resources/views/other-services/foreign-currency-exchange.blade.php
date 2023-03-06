@@ -67,8 +67,7 @@
 						<p class="disclaimer_title">Disclaimers</p>
 						<p style="color: #777777;font-size: 12px;">
 							Exchange rates fluctuate at times. Rates on this website are for information purposes only and are subject to change without notice. Always confirm actual currency rates with the Bank before making transactions!<br>
-							The rates in this table are intended for indicative purposes only.<br>
-							AYA Bank shall not be responsible for any loss or damage arising directly or indirectly from the use of or reliance on the information provided here in.
+							The rates in this table are intended for indicative purposes only. AYA Bank shall not be responsible for any loss or damage arising directly or indirectly from the use of or reliance on the information provided here in.
 						</p>
 					</div>
 				</div>
