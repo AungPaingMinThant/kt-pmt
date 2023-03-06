@@ -4,7 +4,7 @@
 <style type="text/css">
     @media only screen and (max-width: 576px){
 	    .benefit_table {
-	    	zoom: 80%;
+	    	zoom: 75%;
 	    }
 	}
 </style>
