@@ -105,4 +105,7 @@ Route::get('/borrowing/hire-purchase/education-loan','App\Http\Controllers\Borro
 Route::get('/borrowing/hire-purchase/construction-loan','App\Http\Controllers\Borrowing\HirePurchaseController@constructionLoanIndex');
 Route::get('/borrowing/hire-purchase/home-loan','App\Http\Controllers\Borrowing\HirePurchaseController@homeLoanIndex');
 
+Route::get('/other-services/foreign-currency-exchange-service','App\Http\Controllers\OtherServicesController@foreignCurrencyIndex');
+Route::get('/other-services/safe-deposit','App\Http\Controllers\OtherServicesController@safeDepositIndex');
+
 // contact-us
