@@ -479,11 +479,11 @@
 		left: 20px;
 	}
 	.safe_deposit_banner{
-		background-position: 60% center;
+		background-position: 40% center;
 	}
 	.safe_deposit_banner_tagline {
 		top: 130px;
-		right: 0px;
+		right: 70px;
 		left: 20px;
 	}
 }
@@ -666,6 +666,6 @@
 	}
 	.safe_deposit_banner{
 		background-image:url('../images/other-services/safe-deposit/mobile_KV.jpg');
-		background-position: 100% center;
+		background-position: 80% center;
 	}
 }

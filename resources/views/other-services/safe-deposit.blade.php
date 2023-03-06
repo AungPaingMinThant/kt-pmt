@@ -115,6 +115,9 @@
 		.ecommerce_registration_container {
 			padding: 40px 0px 40px 40px !important;
 		}
+		.benefit_table {
+			zoom: 75%;
+		}
 	}
 </style>
 @section('content')
@@ -255,7 +258,7 @@
 										<table class="table table-bordered-less benefit_table b-b-l-radius-10 b-b-r-radius-10" style="background-color: #f2f2f2;box-shadow: 0 0 15px 15px #f4f4f4 !important">
 											<tbody>
 												<tr class="theme_table_head fw-semibold">
-													<td class="b-b-none py-md-4 b-t-l-radius-10 b-b-l-radius-10">No.</td>
+													<td class="b-b-none py-md-4 b-t-l-radius-10 b-b-l-radius-10 w-10">No.</td>
 													<td class="b-b-none">Branch</td>
 													<td class="b-b-none">Name</td>
 													<td class="b-b-none b-t-r-radius-10 b-b-r-radius-10">Address</td>
