@@ -116,7 +116,7 @@
 			padding: 40px 0px 40px 40px !important;
 		}
 		.benefit_table {
-			zoom: 75%;
+			zoom: 65%;
 		}
 	}
 </style>
