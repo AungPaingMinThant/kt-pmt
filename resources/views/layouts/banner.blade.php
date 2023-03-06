@@ -2102,7 +2102,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;OTHER SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">FOREIGN CURRENCY EXCHANGE</span>
+				<span style="color: #a02226;">FOREIGN CURRENCY EXCHANGE SERVICE</span>
 			</p>
 		</div>
 	</div>
