@@ -2123,7 +2123,7 @@
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 30px;left: 25px;">
+					<div style="position: absolute;top: 160px;left: 25px;right: 130px;">
 						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Keep your valuables and documents safe</p>
 					</div>
 				</div>
