@@ -25,6 +25,8 @@
 				<div class="col-md-12">
 					<div class="row">
 						<div class="col-md-8">
+							<p>An interest-bearing account where individuals and joint customers can deposit, withdraw and transfer anytime, anywhere.</p>
+							<div class="space-20"></div>
 							<h4>Benefits</h4>
 							<div class="row">
 								<div class="col-md-6" style="margin-bottom: 20px;">

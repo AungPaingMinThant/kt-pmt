@@ -20,6 +20,8 @@
 				<div class="col-md-12">
 					<div class="row">
 						<div class="col-md-8">
+							<p>A simple current account in local currency with everything you need to stay on top of your money.</p>
+							<div class="space-20"></div>
 							<h4>Benefits</h4>
 							<div class="row">
 								<div class="col-md-6" style="margin-bottom: 20px;">

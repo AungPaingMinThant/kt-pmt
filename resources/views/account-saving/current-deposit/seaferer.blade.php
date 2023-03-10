@@ -20,6 +20,8 @@
 				<div class="col-md-12">
 					<div class="row">
 						<div class="col-md-8">
+							<p>Designed for seafarers / seamen to receive their salary<br>from overseas or local in foreign currency.</p>
+							<div class="space-20"></div>
 							<h4>Benefits</h4>
 							<div class="row">
 								<div class="col-md-6" style="margin-bottom: 20px;">

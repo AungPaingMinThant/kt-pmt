@@ -111,7 +111,7 @@
 					<div class="row">
 						<div class="col-md-4">
 							<img src="{{ url('/images/remittance/inter/fast_secure.png') }}" class="img-fluid" style="width: 20%;">
-							<p style="font-size: 16px;font-weight: 500;margin-top: 15px;">Fast & Secure Transfers.</p>
+							<p style="font-size: 16px;font-weight: 500;margin-top: 15px;">Fast & Secure Transfers</p>
 						</div>
 						<div class="col-md-4">
 							<img src="{{ url('/images/remittance/inter/easy_convenient_transfer.png') }}" class="img-fluid" style="width: 20%;">
@@ -127,7 +127,7 @@
 					<div class="row">
 						<div class="col-md-12 text-center">
 							<img src="{{ url('/images/remittance/inter/fast_secure.png') }}" class="img-fluid" style="width: 20%;">
-							<p style="font-size: 16px;font-weight: 500;margin-top: 15px;margin-bottom: 30px;">Fast & Secure Transfers.</p>
+							<p style="font-size: 16px;font-weight: 500;margin-top: 15px;margin-bottom: 30px;">Fast & Secure Transfers</p>
 						</div>
 						<div class="col-md-12 text-center">
 							<img src="{{ url('/images/remittance/inter/easy_convenient_transfer.png') }}" class="img-fluid" style="width: 20%;">
@@ -268,7 +268,8 @@
 								</div>
 								<div class="row">
 									<div class="space-30"></div>
-									<p>Ease and fast service with Western Union! It commits security and provides cross-border money transfer over 200 countries worldwide. Receivers in Myanmar can withdraw the funds at any of AYA branch in MMK currency. </p>
+									<p>Ease and fast service with Western Union!</p>
+									<p>It commits security and provides cross-border money transfer over 200 countries worldwide. Receivers in Myanmar can withdraw the funds at any of AYA branch in MMK currency. </p>
 
 									<div class="col-md-12 col-12">
 										<div class="row">
@@ -418,7 +419,8 @@
 							</div>
 							<div class="row">
 								<div class="space-30"></div>
-								<p>Ease and fast service with Western Union! It commits security and provides cross-border money transfer over 200 countries worldwide. Receivers in Myanmar can withdraw the funds at any of AYA branch in MMK currency. </p>
+								<p>Ease and fast service with Western Union!</p>
+								<p>It commits security and provides cross-border money transfer over 200 countries worldwide. Receivers in Myanmar can withdraw the funds at any of AYA branch in MMK currency. </p>
 
 								<div class="col-md-12 col-12">
 									<div class="row">

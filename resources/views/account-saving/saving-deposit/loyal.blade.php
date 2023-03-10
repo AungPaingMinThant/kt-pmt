@@ -1,6 +1,6 @@
 @extends('layouts.frontend-app')
 
-@section('title', 'AYA Maximizer Saving – AYA Bank')
+@section('title', 'AYA Loyal Saving – AYA Bank')
 <style type="text/css">
 	h4 {
 		color: #2e2e2e !important;
@@ -25,6 +25,9 @@
 				<div class="col-md-12">
 					<div class="row">
 						<div class="col-md-8">
+							<p>Offer higher interest and a bonus on three months idle funds in the saving account.</p>
+							<p>Suitable for regular savers who want to save money over time with minimum access.</p>
+							<div class="space-20"></div>
 							<h4>Benefits</h4>
 							<div class="row">
 								<div class="col-md-6" style="margin-bottom: 20px;">
