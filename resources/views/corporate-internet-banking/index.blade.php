@@ -217,7 +217,15 @@
 		display: table-cell !important;
 	}
 
-	@media (max-width: 1300px) and (min-width: 1000px) {
+	@media (max-width: 1024px) and (min-width: 577px) {
+		.col-md-3.basic_package_col {
+			width: 33.3%;
+		}
+		.need_more_support_section {
+		    padding: 40px 50px 0px 50px !important;
+		}
+	}
+	@media (max-width: 1300px) and (min-width: 1025px) {
 		.carousel-indicators {
 			top: 25%;
 			left: 78% !important;
@@ -318,7 +326,8 @@
 						</li>
 					</ul>
 					<div class="tab-content" style="background-color: transparent;padding: 20px 0px 0px 0px;">
-						<div class="tab-pane fade show active" id="navs-pills-top-account-services" role="tabpanel" style="background: rgb(243,243,243);background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(249,249,249,1) 50%, rgba(255,255,255,1) 100%);padding-bottom: 30px;">
+						<!-- background: rgb(243,243,243);background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(249,249,249,1) 50%, rgba(255,255,255,1) 100%); -->
+						<div class="tab-pane fade show active" id="navs-pills-top-account-services" role="tabpanel" style="padding-bottom: 30px;">
 							<div class="container tab_section_1">
 								<div class="row tab_data_row" >
 									<div class="col-md-12 text-center" style="padding-top: 20px;">
@@ -349,7 +358,7 @@
 							</div>
 							<div class="space-40"></div>
 						</div>
-						<div class="tab-pane payment-services fade" id="navs-pills-top-payment-services" role="tabpanel" style="background: rgb(243,243,243);background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(249,249,249,1) 50%, rgba(255,255,255,1) 100%);padding-bottom: 30px;">
+						<div class="tab-pane payment-services fade" id="navs-pills-top-payment-services" role="tabpanel" style="padding-bottom: 30px;">
 							<div class="container section_1">
 								<div class="row tab_data_row" >
 									<div class="col-md-12 text-center" style="padding-top: 20px;">
@@ -386,49 +395,76 @@
 								</div>
 							</div>
 						</div>
-						<div class="tab-pane administration fade" id="navs-pills-top-administration" role="tabpanel" style="background: rgb(243,243,243);background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(249,249,249,1) 50%, rgba(255,255,255,1) 100%);padding-bottom: 30px;">
-							<div class="container section_1">
+						<div class="tab-pane administration fade" id="navs-pills-top-administration" role="tabpanel" style="padding-bottom: 30px;">
+							<div class="container tab_section_1">
 								<div class="row tab_data_row" >
-									<div class="col-md-6 benefit_feature_box" style="padding: 20px;">
-										<div class="row">
-											<p style="color: #4e4e4e;">Getting an instant SMS notification immediately after any transaction above MMK 20,000 for transactions such as ATM Withdraw, POS Transactions in shops, mBanking/ iBanking bill payment transactions, and money transfer. </p>
+									<div class="col-md-12 text-center" style="padding-top: 20px;">
+										<p>Users can change profiles, create beneficiaries for the most frequent transactions, and generate a wide range of transaction alerts.</p>
+									</div>
+									<div class="col-md-4 benefit_feature_box" style="padding: 20px 20px 0px 20px;">
+										<div class="row why_use_AYA simple_login_div">
+											<img src="{{ url('/images/corporate_internet_banking/profile_edit.png') }}" class="img-fluid" style="width: 30%;">
+											<p style="color: #4e4e4e;font-weight:600;margin-bottom: 5px;margin-top: 10px;">Change Profile</p>
+											<p style="color: #4e4e4e;">Users have profile management options.</p>
 										</div>
 									</div>
-									<div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
-										<img src="{{ url('/images/sms/how_it_work.png') }}" class="img-fluid" style="width: 80%">
+									<div class="col-md-4 benefit_feature_box" style="padding: 20px 20px 0px 20px;">
+										<div class="row why_use_AYA simple_login_div">
+											<img src="{{ url('/images/corporate_internet_banking/create_alert.png') }}" class="img-fluid" style="width: 30%;">
+											<p style="color: #4e4e4e;font-weight:600;margin-bottom: 5px;margin-top: 10px;">Create Alert</p>
+											<p style="color: #4e4e4e;">Users can choose to receive various types of transaction notifications and alerts.</p>
+										</div>
+									</div>
+									<div class="col-md-4 benefit_feature_box" style="padding: 20px 20px 0px 20px;">
+										<div class="row why_use_AYA simple_login_div">
+											<img src="{{ url('/images/corporate_internet_banking/beneficiary_maintenance.png') }}" class="img-fluid" style="width: 30%;">
+											<p style="color: #4e4e4e;font-weight:600;margin-bottom: 5px;margin-top: 10px;">Beneficiary Maintenance</p>
+											<p style="color: #4e4e4e;">Users can create beneficiaries' information in advanced for multiple frequent transactions.</p>
+										</div>
 									</div>
 								</div>
 							</div>
+							<div class="space-40"></div>
 						</div>
-						<div class="tab-pane complex-approval-matrix fade" id="navs-pills-top-complex-approval-matrix" role="tabpanel" style="background: rgb(243,243,243);background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(249,249,249,1) 50%, rgba(255,255,255,1) 100%);padding-bottom: 30px;">
+						<div class="tab-pane complex-approval-matrix fade" id="navs-pills-top-complex-approval-matrix" role="tabpanel" style="padding-bottom: 30px;">
 							<div class="container section_1">
 								<div class="row tab_data_row" >
-									<div class="col-md-6 benefit_feature_box" style="padding: 20px;">
-										<div class="row">
-											<p style="color: #4e4e4e;">Anyone who has any AYA Saving and Current Accounts can sign up and apply AYA SMS Alert Service.</p>
-										</div>
+									<div class="col-md-12 text-center" style="padding-top: 20px;">
+										<p style="color: #4e4e4e;">The Authorization Matrix allows ‘user access control’ by amount limits and different control groups.</p>
 									</div>
 									<div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
-										<img src="{{ url('/images/sms/eligibility_tab.jpg') }}" class="img-fluid" style="width: 80%">
+										<p class="fw-semibold" style="color: #4e4e4e;font-size: 16px;">Multiple Level Access</p>
+										<img src="{{ url('/images/corporate_internet_banking/authorizer.png') }}" class="img-fluid" style="width: 70%;">
 									</div>
+									<div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
+										<p class="fw-semibold" style="color: #4e4e4e;font-size: 16px;">Multiple Level Access</p></p>
+										<img src="{{ url('/images/corporate_internet_banking/maker.png') }}" class="img-fluid" style="width: 70%;">
+									</div>
+									<div class="col-md-12 text-center" style="padding: 20px 150px 0px 150px;">
+										<p style="color: #4e4e4e;">One level can create transactions and another authorized level user needs to approve transactions in order to successfully complete the transaction process. Simply put, two qualified individuals authorize and complete a transaction or a payment.</p>
+									</div>
+									<div class="col-md-3"></div>
+									<div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
+										<img src="{{ url('/images/corporate_internet_banking/authorizer_maker.png') }}" class="img-fluid">
+									</div>
+									<div class="col-md-3"></div>
 								</div>
 							</div>
 						</div>
-						<div class="tab-pane other-features fade" id="navs-pills-top-other-features" role="tabpanel" style="background: rgb(243,243,243);background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(249,249,249,1) 50%, rgba(255,255,255,1) 100%);padding-bottom: 30px;">
+						<div class="tab-pane other-features fade" id="navs-pills-top-other-features" role="tabpanel" style="padding-bottom: 30px;">
 							<div class="container section_1">
 								<div class="row tab_data_row" >
 									<div class="col-md-2"></div>
 									<div class="col-md-8 benefit_feature_box" style="padding: 20px;">
 										<div class="row">
-											<p style="color: #4e4e4e;">You will be debited for each given account every month by our postpaid model.</p>
-											<p style="color: #4e4e4e;"><b>Initial Fees:</b> No application fees or processing fees.</p>
-											<p style="color: #4e4e4e;"><b>Monthly Fees:</b> MMK 1,500 per personal account, MMK 3,000 Ks per corporate account</p>
-											<p style="color: #4e4e4e;"><b>Cancellation Fee:</b> No cancellation fees. Just one month notice of service termination must be given to the bank.</p>
+											<ul style="list-style:square;">
+												<li>Download account statement in csv format / pdf format / MT940 format</li>
+												<li>Registration of beneficiaries through bulk</li>
+												<li>Transactions can be saved as a template for future use.</li>
+												<li>Transact at one click by using a previous transaction.</li>
+											</ul>
 										</div>
 									</div>
-									<!-- <div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
-										<img src="{{ url('/images/sms/placeholder.jpg') }}" class="img-fluid" style="width: 80%">
-									</div> -->
 								</div>
 							</div>
 						</div>
@@ -436,216 +472,57 @@
 				</div>
 			</div>
 
-			<div class="modal fade" id="acc_service_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-				<div class="modal-dialog modal-dialog-centered modal-xl" role="document" >
-					<div class="modal-content">
-						<div class="modal-body ">
-							<span class="acc_service_close" aria-hidden="true" style="float: right;border-radius: 50%;border: 1px solid #999;padding: 4px 10px;cursor: pointer;">&times;</span>
-							<img class="img-fluid text-center" src="{{ url('/images/corporate_internet_banking/CIB_Account_Services.png') }}" style="margin-left: 50px;">
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="modal fade" id="payment_service_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-				<div class="modal-dialog modal-dialog-centered modal-xl" role="document" style="max-width: 1450px;">
-					<div class="modal-content">
-						<div class="modal-body">
-					        <span class="payment_service_close" aria-hidden="true" style="float: right;border-radius: 50%;border: 1px solid #999;padding: 4px 10px;cursor: pointer;">&times;</span>
-							<img class="img-fluid text-center" src="{{ url('/images/corporate_internet_banking/CIB_Payment_Services.png') }}">
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="modal fade" id="administration_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-				<div class="modal-dialog modal-dialog-centered modal-xl" role="document" style="max-width: 1450px;">
-					<div class="modal-content">
-						<div class="modal-body">
-					        <span class="administration_close" aria-hidden="true" style="float: right;border-radius: 50%;border: 1px solid #999;padding: 4px 10px;cursor: pointer;">&times;</span>
-							<img class="img-fluid text-center" src="{{ url('/images/corporate_internet_banking/CIB - Administration.png') }}">
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="modal fade" id="complex_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-				<div class="modal-dialog modal-dialog-centered modal-xl" role="document" style="max-width: 1450px;">
-					<div class="modal-content">
-						<div class="modal-body">
-					        <span class="complex_close" aria-hidden="true" style="float: right;border-radius: 50%;border: 1px solid #999;padding: 4px 10px;cursor: pointer;">&times;</span>
-							<img class="img-fluid text-center" src="{{ url('/images/corporate_internet_banking/CIB_Complex_Approval_Matrix.jpg') }}">
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="modal fade" id="acc_service_modal_mobile" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-				<div class="modal-dialog modal-dialog-centered modal-xl" role="document" >
-					<div class="modal-content">
-						<div class="modal-body ">
-							<span class="acc_service_mobile_close" aria-hidden="true" style="float: right;border-radius: 50%;border: 1px solid #999;padding: 4px 10px;cursor: pointer;">&times;</span>
-							<img class="img-fluid text-center" src="{{ url('/images/corporate_internet_banking/CIB_Account_Services.png') }}">
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="modal fade" id="payment_service_modal_mobile" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-				<div class="modal-dialog modal-dialog-centered modal-xl" role="document" style="max-width: 1450px;">
-					<div class="modal-content">
-						<div class="modal-body">
-					        <span class="payment_service_mobile_close" aria-hidden="true" style="float: right;border-radius: 50%;border: 1px solid #999;padding: 4px 10px;cursor: pointer;">&times;</span>
-							<img class="img-fluid text-center" src="{{ url('/images/corporate_internet_banking/CIB_Payment_Services.png') }}">
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="modal fade" id="administration_modal_mobile" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-				<div class="modal-dialog modal-dialog-centered modal-xl" role="document" style="max-width: 1450px;">
-					<div class="modal-content">
-						<div class="modal-body">
-					        <span class="administration_mobile_close" aria-hidden="true" style="float: right;border-radius: 50%;border: 1px solid #999;padding: 4px 10px;cursor: pointer;">&times;</span>
-							<img class="img-fluid text-center" src="{{ url('/images/corporate_internet_banking/CIB - Administration.png') }}">
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="modal fade" id="complex_modal_mobile" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-				<div class="modal-dialog modal-dialog-centered modal-xl" role="document" style="max-width: 1450px;">
-					<div class="modal-content">
-						<div class="modal-body">
-					        <span class="complex_mobile_close" aria-hidden="true" style="float: right;border-radius: 50%;border: 1px solid #999;padding: 4px 10px;cursor: pointer;">&times;</span>
-							<img class="img-fluid text-center" src="{{ url('/images/corporate_internet_banking/CIB_Complex_Approval_Matrix.jpg') }}">
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="d-block d-sm-none">
-				<div class="aya_ibanking_fact">
-					<div class="col-12 text-center">
-						<h3 style="color: #1d1d1f;padding: 0px 60px;">Key features of AYA Corporate Internet Banking</h3>
-					</div>
-					<div class="col-12">
-						<p class="carousel_desc_title">Account Services</p>
-					</div>
-					<div class="col-12 key_feature_acc_service " style="position: relative;display: inline-block;">
-						<img src="{{ url('/images/corporate_internet_banking/account_service_mobile.jpg') }}" class="img-fluid acc_service_img" style="margin-bottom: 20px;">
-						<img src="{{ url('/images/corporate_internet_banking/account_service_mobile_hover.jpg') }}" class="img-fluid acc_service_hover_img" style="margin-bottom: 20px;">
-						<div class="edit acc_service_mobile"><i class="menu-icon tf-icons bx bx-zoom-in" style="color: #000;font-size: 30px;"></i></div>
-					</div>
-					<div class="col-12">
-						<p class="carousel_desc_detail">Users can access to enquire and review transaction records, account activities and summary in real time basis.</p>
-					</div>
-				</div>
-				<div class="aya_ibanking_fact">
-					<div class="col-12">
-						<p class="carousel_desc_title">Payment Services</p>
-					</div>
-					<div class="col-12 key_feature_payment_service" style="position: relative;display: inline-block;">
-						<img src="{{ url('/images/corporate_internet_banking/payment_services_mobile.jpg') }}" class="img-fluid payment_service_img" style="margin-bottom: 20px;">
-						<img src="{{ url('/images/corporate_internet_banking/payment_services_mobile_hover.jpg') }}" class="img-fluid payment_service_hover_img" style="margin-bottom: 20px;">
-						<div class="edit payment_service_mobile"><i class="menu-icon tf-icons bx bx-zoom-in" style="color: #000;font-size: 30px;"></i></div>
-					</div>
-					<div class="col-12">
-						<p class="carousel_desc_detail">Users can initiate transactions for AYA account transfer, own account transfer, payroll (bulk payments), pay bills, cheque book request and cheque cancellation.</p>
-					</div>
-				</div>
-				<div class="aya_ibanking_fact">
-					<div class="col-12">
-						<p class="carousel_desc_title">Administration</p>
-					</div>
-					<div class="col-12 key_feature_administration" style="position: relative;display: inline-block;">
-						<img src="{{ url('/images/corporate_internet_banking/administration_mobile.jpg') }}" class="img-fluid administration_img" style="margin-bottom: 20px;">
-						<img src="{{ url('/images/corporate_internet_banking/administration_mobile_hover.jpg') }}" class="img-fluid administration_hover_img" style="margin-bottom: 20px;">
-						<div class="edit administration_mobile"><i class="menu-icon tf-icons bx bx-zoom-in" style="color: #000;font-size: 30px;"></i></div>
-					</div>
-					<div class="col-12">
-						<p class="carousel_desc_detail">Users can change profile, create beneficiary for frequent transaction and create various transaction alerts.</p>
-					</div>
-				</div>
-				<div class="aya_ibanking_fact">
-					<div class="col-12">
-						<p class="carousel_desc_title">Complex Approval Matrix</p>
-					</div>
-					<div class="col-12 key_feature_complex_approval" style="position: relative;display: inline-block;">
-						<img src="{{ url('/images/corporate_internet_banking/Complex_Approval_Matrix_mobile.jpg') }}" class="img-fluid complex_approval_img" style="margin-bottom: 20px;">
-						<img src="{{ url('/images/corporate_internet_banking/Complex_Approval_Matrix_mobile_hover.jpg') }}" class="img-fluid complex_approval_hover_img" style="margin-bottom: 20px;">
-						<div class="edit complex_approval_mobile"><i class="menu-icon tf-icons bx bx-zoom-in" style="color: #000;font-size: 30px;"></i></div>
-					</div>
-					<div class="col-12">
-						<p class="carousel_desc_detail">The Authorization Matrix allows ‘user access control’ by amount limits and different control groups.</p>
-					</div>
-				</div>
-			</div>
 			<div style="background-color: #f5f5f7;">
 				<div class="space-60"></div>
 				<div class="container section_1" style="max-width: 1500px;">
-					<div class="row">
-						<div class="col-md-4"></div>
-						<div class="col-md-6">
-							<p style="font-weight: 600;font-size: 20px;">Other Features</p>
-							<ul style="list-style:square;">
-								<li>Download account statement in csv format / pdf format / MT940 format</li>
-								<li>Registration of beneficiaries through bulk</li>
-								<li>Transactions can be saved as a template for future use.</li>
-								<li>Transact at one click by using a previous transaction.</li>
-							</ul>
-						</div>
-						<div class="col-md-2"></div>
-					</div>
-					<div class="space-60"></div>
 					<div class="col-md-12 text-center">
 						<h3 style="color: #1d1d1f;">Two packages: Basic and Basic<sup>+</sup></h3>
 					</div>
 					<div class="space-20"></div>
-					<div class="row" style="padding: 40px 20px;background-color: #fff;border-radius: 6px;">
-						<div class="col-md-3">
-							<p style="font-size: 40px;margin-bottom: 0px;font-weight: 600;">Basic</h3>
-							<p>Standard features with two makers and one checker</p>
+					<div class="row" style="background-color: #fff;border-radius: 6px;">
+						<div class="col-md-3" style="background-image: url('././images/corporate_internet_banking/basic.jpg');background-size: cover;border-top-left-radius: 6px;border-bottom-left-radius: 6px;background-position: center 60px !important;background-repeat: no-repeat;">
+							<div class="row" style="background-color: #fff;padding: 20px;border-top-left-radius: 6px;border-top: 7px solid #ace3f7;">
+								<p style="font-size: 40px;margin-bottom: 0px;font-weight: 600;">Basic</h3>
+								<p style="margin-bottom: 0px;">Standard features with two makers and one checker</p>
+							</div>
 						</div>
-						<div class="col-md-9">
-							<div class="row">
-								<div class="col-md-3">
+						<div class="col-md-9" style="padding: 40px 20px 80px 20px;">
+							<div class="row d-none d-sm-block">
+								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 									<p style="font-weight: 500;width: 85%;float: right;">
 										Account Service
 									</p>
 									<hr style="width: 100%">
 								</div>
-								<div class="col-md-3">
+								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 									<p style="font-weight: 500;width: 85%;float: right;">
 										Dual Control
 									</p>
 									<hr style="width: 100%">
 								</div>
-								<div class="col-md-3">
+								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 									<p style="font-weight: 500;width: 85%;float: right;">
 										Registration Fees: FOC
 									</p>
 									<hr style="width: 100%">
 								</div>
-								<div class="col-md-3">
+								<div class="col-md-3 basic_package_col">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Monthly Fees: 10,000MMK
+									</p>
+									<hr style="width: 100%;">
+								</div>
+								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 									<p style="font-weight: 500;width: 85%;float: right;">
 										Token Fees: <br>20,000 MMK (Per Token)
 									</p>
 								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-3">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Payment Service
-									</p>
-									<ul style="list-style:none;">
-										<li style="margin-bottom: 5px;">Own Accout Transfer</li>
-										<li style="margin-bottom: 5px;">Third Party Transfer</li>
-										<li style="margin-bottom: 5px;">Bulk Transfer</li>
-										<li style="margin-bottom: 5px;">Cheque Book Request</li>
-										<li style="margin-bottom: 5px;">Stop Cheque Book</li>
-									</ul>
-								</div>
-								<div class="col-md-3">
+								<div class="col-md-3 basic_package_col" style="margin-bottom: -40px;">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 									<p style="font-weight: 500;width: 85%;float: right;">
 										Allow
@@ -655,55 +532,7 @@
 										<li style="margin-bottom: 5px;">1&nbsp;&nbsp;Checker</li>
 									</ul>
 								</div>
-								<div class="col-md-3">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Monthly Fees: 10,000MMK
-									</p>
-								</div>
-								<div class="col-md-3">
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="space-20"></div>
-					<div class="row" style="padding: 40px 20px;background-color: #fff;border-radius: 6px;">
-						<div class="col-md-3">
-							<p style="font-size: 40px;margin-bottom: 0px;font-weight: 600;">Basic<sup>+</sup></h3>
-							<p>Standard features with unlimited users</p>
-						</div>
-						<div class="col-md-9">
-							<div class="row">
-								<div class="col-md-3">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Account Service
-									</p>
-									<hr style="width: 100%">
-								</div>
-								<div class="col-md-3">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Allow Unlimited users
-									</p>
-									<hr style="width: 100%">
-								</div>
-								<div class="col-md-3">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Registration Fees: FOC
-									</p>
-									<hr style="width: 100%">
-								</div>
-								<div class="col-md-3">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Token Fees: <br>20,000 MMK (Per Token)
-									</p>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-3">
+								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 									<p style="font-weight: 500;width: 85%;float: right;">
 										Payment Service
@@ -716,19 +545,193 @@
 										<li style="margin-bottom: 5px;">Stop Cheque Book</li>
 									</ul>
 								</div>
-								<div class="col-md-3">
+							</div>
+							<div class="row d-block d-sm-none">
+								<div class="col-md-3 basic_package_col">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Account Service
+									</p>
+									<hr style="width: 100%">
+								</div>
+								<div class="col-md-3 basic_package_col">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Dual Control
+									</p>
+									<hr style="width: 100%">
+								</div>
+								<div class="col-md-3 basic_package_col">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Registration Fees: FOC
+									</p>
+									<hr style="width: 100%">
+								</div>
+								<div class="col-md-3 basic_package_col">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Monthly Fees: 10,000MMK
+									</p>
+									<hr style="width: 100%;">
+								</div>
+								<div class="col-md-3 basic_package_col">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Token Fees: <br>20,000 MMK (Per Token)
+									</p>
+									<hr style="width: 100%;">
+								</div>
+								<div class="col-md-3 basic_package_col">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Allow
+									</p>
+									<ul style="list-style:none;margin-left: 25px;">
+										<li style="margin-bottom: 5px;">2&nbsp;&nbsp;Makers</li>
+										<li style="margin-bottom: 5px;">1&nbsp;&nbsp;Checker</li>
+									</ul>
+									<hr style="width: 100%;">
+								</div>
+								<div class="col-md-3 basic_package_col">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Payment Service
+									</p>
+									<ul style="list-style:none;margin-left: 25px;">
+										<li style="margin-bottom: 5px;">Own Accout Transfer</li>
+										<li style="margin-bottom: 5px;">Third Party Transfer</li>
+										<li style="margin-bottom: 5px;">Bulk Transfer</li>
+										<li style="margin-bottom: 5px;">Cheque Book Request</li>
+										<li style="margin-bottom: 5px;">Stop Cheque Book</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="space-20"></div>
+					<div class="row" style="background-color: #fff;border-radius: 6px;">
+						<div class="col-md-3" style="background-image: url('././images/corporate_internet_banking/basic_plus.jpg');background-size: cover;border-top-left-radius: 6px;border-bottom-left-radius: 6px;background-position: center !important;background-repeat: no-repeat;">
+							<div class="row" style="background-color: #fff;padding: 20px;border-top-left-radius: 6px;border-top: 7px solid #ffd655;">
+								<p style="font-size: 40px;margin-bottom: 0px;font-weight: 600;">Basic<sup>+</sup></h3></p>
+								<p>Standard features with unlimited users</p>
+							</div>
+						</div>
+						<div class="col-md-9" style="padding: 40px 20px 80px 20px;">
+							<div class="row d-none d-sm-block">
+								<div class="col-md-3 basic_package_col">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Account Service
+									</p>
+									<hr style="width: 100%">
+								</div>
+								<div class="col-md-3 basic_package_col">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Allow Unlimited users
+									</p>
+									<hr style="width: 100%">
+								</div>
+								<div class="col-md-3 basic_package_col">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Registration Fees: FOC
+									</p>
+									<hr style="width: 100%">
+								</div>
+								<div class="col-md-3 basic_package_col">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Monthly Fees: 10,000MMK
+									</p>
+									<hr style="width: 100%">
+								</div>
+								<div class="col-md-3 basic_package_col">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Token Fees: <br>20,000 MMK (Per Token)
+									</p>
+								</div>
+								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 									<p style="font-weight: 500;width: 85%;float: right;">
 										Customized Authorization matrix
 									</p>
 								</div>
-								<div class="col-md-3">
+								<div class="col-md-3 basic_package_col">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Payment Service
+									</p>
+									<ul style="list-style:none;">
+										<li style="margin-bottom: 5px;">Own Accout Transfer</li>
+										<li style="margin-bottom: 5px;">Third Party Transfer</li>
+										<li style="margin-bottom: 5px;">Bulk Transfer</li>
+										<li style="margin-bottom: 5px;">Cheque Book Request</li>
+										<li style="margin-bottom: 5px;">Stop Cheque Book</li>
+									</ul>
+								</div>
+								<div class="col-md-3 basic_package_col">
+								</div>
+							</div>
+							<div class="row d-block d-sm-none">
+								<div class="col-md-3 basic_package_col">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Account Service
+									</p>
+									<hr style="width: 100%">
+								</div>
+								<div class="col-md-3 basic_package_col">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Allow Unlimited users
+									</p>
+									<hr style="width: 100%">
+								</div>
+								<div class="col-md-3 basic_package_col">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Registration Fees: FOC
+									</p>
+									<hr style="width: 100%">
+								</div>
+								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 									<p style="font-weight: 500;width: 85%;float: right;">
 										Monthly Fees: 10,000MMK
 									</p>
+									<hr style="width: 100%">
 								</div>
-								<div class="col-md-3">
+								<div class="col-md-3 basic_package_col">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Token Fees: <br>20,000 MMK (Per Token)
+									</p>
+									<hr style="width: 100%">
+								</div>
+								<div class="col-md-3 basic_package_col">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Customized Authorization matrix
+									</p>
+									<hr style="width: 100%">
+								</div>
+								<div class="col-md-3 basic_package_col">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p style="font-weight: 500;width: 85%;float: right;">
+										Payment Service
+									</p>
+									<ul style="list-style:none;margin-left: 25px;">
+										<li style="margin-bottom: 5px;">Own Accout Transfer</li>
+										<li style="margin-bottom: 5px;">Third Party Transfer</li>
+										<li style="margin-bottom: 5px;">Bulk Transfer</li>
+										<li style="margin-bottom: 5px;">Cheque Book Request</li>
+										<li style="margin-bottom: 5px;">Stop Cheque Book</li>
+									</ul>
+								</div>
+								<div class="col-md-3 basic_package_col">
 								</div>
 							</div>
 						</div>

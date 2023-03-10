@@ -25,6 +25,9 @@
 				<div class="col-md-12">
 					<div class="row">
 						<div class="col-md-8">
+							<p>An interest-bearing account with the chance of obtaining bonus and interest at the same time upon on your monthly saving.</p>
+							<p>Suitable for individuals with regular income to start saving with MMK 10,000.</p>
+							<div class="space-20"></div>
 							<h4>Benefits</h4>
 							<div class="row">
 								<div class="col-md-6" style="margin-bottom: 20px;">

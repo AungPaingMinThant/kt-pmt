@@ -1353,7 +1353,7 @@
 				<div class="col-md-7 text-left" style="text-align: left;position: relative;">
 					<div class="regular_curr_acc_banner_tagline">
 						<p style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 35px;line-height: 36px;">Regular Current Account</p>
-						<p style="font-weight: 400;margin-bottom: 0;width: 55%;">A simple current account in local currency with everything you need to stay on top of your money.</p>
+						<p style="font-weight: 400;margin-bottom: 0;width: 70%;">Are you looking for an everyday account?</p>
 					</div>
 				</div>
 				<div class="col-md-5" style="text-align: right;">
@@ -1364,7 +1364,7 @@
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 15px;">
 						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">Regular Current Account</p>
-						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;">A simple current account in local currency with <br>everything you need to stay on top of your money.</p>
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;">Are you looking for an everyday account?</p>
 					</div>
 				</div>
 			</div>
@@ -1389,7 +1389,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-7 text-left" style="text-align: left;position: relative;">
 					<div class="seafarer_banner_tagline">
-						<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">Seafarer Account (FCY)</span><br><span>Designed for seafarers / seamen to receive their salary<br>from overseas or local in foreign currency.</span></p>
+						<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">Seafarer Account (FCY)</span><br><span>Unique banking solution for seafarers <br>to manage payroll and finance</span></p>
 					</div>
 				</div>
 				<div class="col-md-5" style="text-align: right;">
@@ -1400,7 +1400,7 @@
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 15px;">
 						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">Seafarer Account (FCY)</p>
-						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;">Designed for seafarers / seamen to receive their salary<br>from overseas or local in foreign currency.</p>
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;">Unique banking solution for seafarers <Br>to manage payroll and finance</p>
 					</div>
 				</div>
 			</div>
@@ -1426,7 +1426,7 @@
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="new_business_curr_acc_banner_tagline">
 						<p style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 35px;line-height: 36px;">New Business Current Account</p>
-						<p class="new_business_curr_acc_desc">Suitable for individuals who required to transact frequently. AYA New Business Current account helps make your everyday banking easier.</p>
+						<p class="new_business_curr_acc_desc">Make your cash management more accessible</p>
 					</div>
 				</div>
 				<div class="col-md-5" style="text-align: right;">
@@ -1437,7 +1437,7 @@
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 20px;left: 15px;">
 						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">New Business<br>Current Account</p>
-						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;">Suitable for individuals who required to transact frequently. AYA New Business Current account helps make your everyday banking easier.</p>
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;">Make your cash management more accessible</p>
 					</div>
 				</div>
 			</div>
@@ -1462,7 +1462,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="retail_banner_tagline">
-						<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">Retail FCA Current (FCY)</span><br><span>Designed for individuals who receives their salary in foreign currencies while minimizing foreign exchange risks and maximizing payment efficiency in foreign currencies.</span></p>
+						<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">Retail FCA Current (FCY)</span><br><span>Manage your foreign currency payroll is <br>as convenient as local currency.</span></p>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1473,7 +1473,7 @@
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 15px;">
 						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">Retail FCA Current (FCY)</p>
-						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;">Designed for individuals who receives their salary in foreign currencies while minimizing foreign exchange risks and maximizing payment efficiency in foreign currencies.</p>
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;">Manage your foreign currency payroll is <br>as convenient as local currency.</p>
 					</div>
 				</div>
 			</div>
@@ -1572,7 +1572,7 @@
 					</div>
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_regular_saving_banner_tagline">
-							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Regular Saving</span><br>An interest-bearing account where individuals and joint customers can deposit, withdraw and transfer anytime, anywhere.</p>
+							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Regular Saving</span><br>A simple account for standard financial transactions.</p>
 						</div>
 					</div>
 				</div>
@@ -1581,7 +1581,7 @@
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 110px;left: 150px;">
 						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">AYA Regular Saving</p>
-						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;">An interest-bearing account where individuals and joint customers can deposit, withdraw and transfer anytime, anywhere.</p>
+						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;">A simple account for standard financial transactions.</p>
 					</div>
 				</div>
 			</div>
@@ -1607,8 +1607,7 @@
 				<div class="row">
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_maximizer_saving_banner_tagline">
-							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Maximizer Saving</span><br>An interest-bearing account with the chance of obtaining bonus and interest at the same time upon on your monthly saving.</p>
-							<p style="font-weight: 400;margin-bottom: 0;margin-top: 10px;">Suitable for individuals with regular income to start saving with MMK 10,000.</p>
+							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Maximizer Saving</span><br>Earn bonus interest rates on your monthly minimum deposits.</p>
 						</div>
 					</div>
 					<div class="col-md-5">
@@ -1620,8 +1619,7 @@
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 30px;left: 30px;">
 						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">AYA Maximizer <br>Saving</p>
-						<p style="font-weight: 400;margin-bottom: 10px;line-height: 20px;width: 65%;">An interest-bearing account with the chance of obtaining bonus and interest at the same time upon on your monthly saving.</p>
-						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;width: 53%;">Suitable for individuals with regular income to start saving with MMK 10,000.</p>
+						<p style="font-weight: 400;margin-bottom: 10px;line-height: 20px;width: 65%;">Earn bonus interest rates on your monthly minimum deposits.</p>
 					</div>
 				</div>
 			</div>
@@ -1647,8 +1645,7 @@
 				<div class="row">
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_loyal_saving_banner_tagline">
-							<p style="font-weight: 400;margin-bottom: 10px;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Loyal Saving</span><br>Offer higher interest and a bonus on three months idle funds in the saving account.</p>
-							<p style="font-weight: 400;margin-bottom: 0;">Suitable for regular savers who want to save money over time with minimum access.</p>
+							<p style="font-weight: 400;margin-bottom: 10px;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Loyal Saving</span><br>Reach your goals, grow your savings with <br>competitive interest rate</p>
 						</div>
 					</div>
 					<div class="col-md-5">
@@ -1660,8 +1657,7 @@
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 30px;left: 30px;">
 						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">AYA Loyal Saving</p>
-						<p style="font-weight: 400;margin-bottom: 10px;line-height: 20px;">Offer higher interest and a bonus on three months idle funds in the saving account.</p>
-						<p style="font-weight: 400;margin-bottom: 0;line-height: 20px;">Suitable for regular savers who want to save money over time with minimum access.</p>
+						<p style="font-weight: 400;margin-bottom: 10px;line-height: 20px;">Reach your goals, grow your savings with competitive interest rate</p>
 					</div>
 				</div>
 			</div>
@@ -1687,7 +1683,7 @@
 				<div class="row">
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_regular_saving_banner_tagline">
-							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">Ngwe Toe Mae-Shwe O</span><br>An interest bearing account for individuals and joint customers who receives regular international remittances from their family members.</p>
+							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">Ngwe Toe Mae-Shwe O</span><br>Send money back to your hometown and earn regular interest</p>
 						</div>
 					</div>
 					<div class="col-md-5">
@@ -1699,7 +1695,7 @@
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 30px;left: 30px;">
 						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">Ngwe Toe Mae-Shwe O</p>
-						<p style="font-weight: 400;margin-bottom: 10px;line-height: 20px;">An interest bearing account for individuals and joint customers who receives regular international remittances from their family members.</p>
+						<p style="font-weight: 400;margin-bottom: 10px;line-height: 20px;">Send money back to your hometown and earn regular interest</p>
 					</div>
 				</div>
 			</div>
@@ -1725,7 +1721,7 @@
 				<div class="row">
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_regular_saving_banner_tagline">
-							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Su-Buu</span><br>An interest-bearing account for payroll customers where their employer has a provident fund scheme for the employees’ retirement plan.</p>
+							<p style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Su-Buu</span><br>Get a head start for future with a well-managed <br>retirement savings scheme</p>
 						</div>
 					</div>
 					<div class="col-md-5">
@@ -1737,7 +1733,7 @@
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 10px;left: 30px;">
 						<p style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">AYA Su-Buu</p>
-						<p style="font-weight: 400;margin-bottom: 10px;line-height: 20px;">An interest-bearing account for payroll customers where their employer has a provident fund scheme for the employees’ retirement plan.</p>
+						<p style="font-weight: 400;margin-bottom: 10px;line-height: 20px;">Get a head start for future with a well-managed retirement savings scheme</p>
 					</div>
 				</div>
 			</div>

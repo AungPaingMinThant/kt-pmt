@@ -20,6 +20,8 @@
 				<div class="col-md-12">
 					<div class="row">
 						<div class="col-md-8">
+							<p>Designed for individuals who receives their salary in foreign currencies while minimizing foreign exchange risks and maximizing payment efficiency in foreign currencies.</p>
+							<div class="space-20"></div>
 							<h4>Benefits</h4>
 							<div class="row">
 								<div class="col-md-6" style="margin-bottom: 20px;">
