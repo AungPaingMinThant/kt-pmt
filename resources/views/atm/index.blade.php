@@ -163,7 +163,7 @@
 		border: 2px solid #fff;
   		outline: 2px solid #982801;
 	}
-	.swiper-wrapper, .slide-content-available > .swiper-wrapper {
+	.swiper-wrapper {
 		height: 85%;
 	}
 	.slide-content-desktop > .swiper-wrapper > .swiper-slide-active {
@@ -234,6 +234,9 @@
 		.swiper_div {
 			padding-left: 40px !important;
 		}
+		.slide-content-available > .swiper-wrapper {
+		height: 90% !important;
+	}
 	}
 </style>
 @section('content')
@@ -415,8 +418,8 @@
 											    	<div class="swiper-button-available-next swiper-button-next swiper-navBtn" style="right: 50%;"></div>
 											    </div>
 											    <div class="col-12 d-block d-sm-none" style="position: relative;">
-											    	<div class="swiper-button-available-prev swiper-button-prev swiper-navBtn" style="left: 40%;"></div>
-											    	<div class="swiper-button-available-next swiper-button-next swiper-navBtn" style="right: 33%;"></div>
+											    	<div class="swiper-button-available-prev swiper-button-prev swiper-navBtn" style="left: 37%;"></div>
+											    	<div class="swiper-button-available-next swiper-button-next swiper-navBtn" style="right: 30%;"></div>
 											    </div>
 											</div>
 										</div>
@@ -432,10 +435,10 @@
 											</div>
 
 											<div class="row">
-												<div class="col-md-1" style="position: relative;">
+												<div class="col-1 d-none d-sm-block" style="position: relative;">
 													<div class="swiper-button-available-prev swiper-button-prev swiper-navBtn" style="left: 50%;"></div>
 												</div>
-												<div class="col-md-10">
+												<div class="col-md-10 swiper_div">
 											      	<div class="slide-container swiper" style="padding-bottom: 40px;padding-bottom: 40px;padding-left: 0px;padding-right: 0px;">
 											            <div class="slide-content slide-content-available">
 											                <div class="card-wrapper swiper-wrapper">
@@ -536,8 +539,12 @@
 											            </div>
 											        </div>
 											    </div>
-											    <div class="col-md-1" style="position: relative;">
+											    <div class="col-1 d-none d-sm-block" style="position: relative;">
 											    	<div class="swiper-button-available-next swiper-button-next swiper-navBtn" style="right: 50%;"></div>
+											    </div>
+											    <div class="col-12 d-block d-sm-none" style="position: relative;">
+											    	<div class="swiper-button-available-prev swiper-button-prev swiper-navBtn" style="left: 37%;"></div>
+											    	<div class="swiper-button-available-next swiper-button-next swiper-navBtn" style="right: 30%;"></div>
 											    </div>
 											</div>
 										</div>
@@ -552,10 +559,10 @@
 											</div>
 
 											<div class="row">
-												<div class="col-md-1" style="position: relative;">
+												<div class="col-1 d-none d-sm-block" style="position: relative;">
 													<div class="swiper-button-available-prev swiper-button-prev swiper-navBtn" style="left: 50%;"></div>
 												</div>
-												<div class="col-md-10">
+												<div class="col-md-10 swiper_div">
 											      	<div class="slide-container swiper" style="padding-bottom: 40px;padding-bottom: 40px;padding-left: 0px;padding-right: 0px;">
 											            <div class="slide-content slide-content-available">
 											                <div class="card-wrapper swiper-wrapper">
@@ -654,8 +661,12 @@
 											            </div>
 											        </div>
 											    </div>
-											    <div class="col-md-1" style="position: relative;">
+											    <div class="col-1 d-none d-sm-block" style="position: relative;">
 											    	<div class="swiper-button-available-next swiper-button-next swiper-navBtn" style="right: 50%;"></div>
+											    </div>
+											    <div class="col-12 d-block d-sm-none" style="position: relative;">
+											    	<div class="swiper-button-available-prev swiper-button-prev swiper-navBtn" style="left: 37%;"></div>
+											    	<div class="swiper-button-available-next swiper-button-next swiper-navBtn" style="right: 30%;"></div>
 											    </div>
 											</div>
 										</div>
@@ -670,10 +681,10 @@
 											</div>
 
 											<div class="row">
-												<div class="col-md-1" style="position: relative;">
+												<div class="col-1 d-none d-sm-block" style="position: relative;">
 													<div class="swiper-button-available-prev swiper-button-prev swiper-navBtn" style="left: 50%;"></div>
 												</div>
-												<div class="col-md-10">
+												<div class="col-md-10 swiper_div">
 											      	<div class="slide-container swiper" style="padding-bottom: 40px;padding-bottom: 40px;padding-left: 0px;padding-right: 0px;">
 											            <div class="slide-content slide-content-available">
 											                <div class="card-wrapper swiper-wrapper">
@@ -716,8 +727,12 @@
 											            </div>
 											        </div>
 											    </div>
-											    <div class="col-md-1" style="position: relative;">
+											    <div class="col-1 d-none d-sm-block" style="position: relative;">
 											    	<div class="swiper-button-available-next swiper-button-next swiper-navBtn" style="right: 50%;"></div>
+											    </div>
+											    <div class="col-12 d-block d-sm-none" style="position: relative;">
+											    	<div class="swiper-button-available-prev swiper-button-prev swiper-navBtn" style="left: 37%;"></div>
+											    	<div class="swiper-button-available-next swiper-button-next swiper-navBtn" style="right: 30%;"></div>
 											    </div>
 											</div>
 										</div>
@@ -732,10 +747,10 @@
 											</div>
 
 											<div class="row">
-												<div class="col-md-1" style="position: relative;">
+												<div class="col-1 d-none d-sm-block" style="position: relative;">
 													<div class="swiper-button-available-prev swiper-button-prev swiper-navBtn" style="left: 50%;"></div>
 												</div>
-												<div class="col-md-10">
+												<div class="col-md-10 swiper_div">
 											      	<div class="slide-container swiper" style="padding-bottom: 40px;padding-bottom: 40px;padding-left: 0px;padding-right: 0px;">
 											            <div class="slide-content slide-content-available">
 											                <div class="card-wrapper swiper-wrapper">
@@ -790,8 +805,12 @@
 											            </div>
 											        </div>
 											    </div>
-											    <div class="col-md-1" style="position: relative;">
+											    <div class="col-1 d-none d-sm-block" style="position: relative;">
 											    	<div class="swiper-button-available-next swiper-button-next swiper-navBtn" style="right: 50%;"></div>
+											    </div>
+											    <div class="col-12 d-block d-sm-none" style="position: relative;">
+											    	<div class="swiper-button-available-prev swiper-button-prev swiper-navBtn" style="left: 37%;"></div>
+											    	<div class="swiper-button-available-next swiper-button-next swiper-navBtn" style="right: 30%;"></div>
 											    </div>
 											</div>
 										</div>
@@ -806,10 +825,10 @@
 											</div>
 
 											<div class="row">
-												<div class="col-md-1" style="position: relative;">
+												<div class="col-1 d-none d-sm-block" style="position: relative;">
 													<div class="swiper-button-available-prev swiper-button-prev swiper-navBtn" style="left: 50%;"></div>
 												</div>
-												<div class="col-md-10">
+												<div class="col-md-10 swiper_div">
 											      	<div class="slide-container swiper" style="padding-bottom: 40px;padding-bottom: 40px;padding-left: 0px;padding-right: 0px;">
 											            <div class="slide-content slide-content-available">
 											                <div class="card-wrapper swiper-wrapper">
@@ -896,8 +915,12 @@
 											            </div>
 											        </div>
 											    </div>
-											    <div class="col-md-1" style="position: relative;">
+											    <div class="col-1 d-none d-sm-block" style="position: relative;">
 											    	<div class="swiper-button-available-next swiper-button-next swiper-navBtn" style="right: 50%;"></div>
+											    </div>
+											    <div class="col-12 d-block d-sm-none" style="position: relative;">
+											    	<div class="swiper-button-available-prev swiper-button-prev swiper-navBtn" style="left: 37%;"></div>
+											    	<div class="swiper-button-available-next swiper-button-next swiper-navBtn" style="right: 30%;"></div>
 											    </div>
 											</div>
 										</div>
