@@ -46,6 +46,9 @@ Route::post('/admin/mbanking/banner/update','App\Http\Controllers\AdminMBankingC
 Route::post('/admin/mbanking/tagline/update','App\Http\Controllers\AdminMBankingController@mbankingTagline');
 Route::post('/admin/mbanking/fact/update','App\Http\Controllers\AdminMBankingController@mbankingFact');
 
+Route::get('/admin/exchange-rate','App\Http\Controllers\ExchangeController@index');
+Route::get('/admin/exchange-rate/edit','App\Http\Controllers\ExchangeController@index');
+
 Route::get('/admin/logout','App\Http\Controllers\AdminController@logout');
 
 Route::get('/share-post', 'App\Http\Controllers\SharePostController@share');

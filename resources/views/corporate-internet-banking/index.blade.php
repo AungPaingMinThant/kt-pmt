@@ -322,6 +322,9 @@
 
 			<div style="">
 				<div class="nav-align-top mb-4">
+					<div class="text-center">
+						<h3 class="fw-semibold py-md-3" style="color: #1d1d1f;">Key features</h3>
+					</div>
 					<ul class="nav nav-pills " role="tablist" style="justify-content: center;">
 						<li class="nav-item">
 							<button type="button" class="tab_title nav-link active" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-top-account-services" aria-controls="navs-pills-top-account-services" aria-selected="true" >
