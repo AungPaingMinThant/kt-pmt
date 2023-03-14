@@ -72,6 +72,18 @@
 			</a>
 		</li>
 
+		<!-- Exchange -->
+		@if($page == 'Exchange')
+			<li class="menu-item active">
+		@else
+			<li class="menu-item">
+		@endif
+			<a href="{{ url('/admin/exchange-rate') }}" class="menu-link">
+				<i class="menu-icon tf-icons bx bx-dollar"></i>
+				<div>Exchange Rate</div>
+			</a>
+		</li>
+
 		<!-- Layouts -->
 		<!-- <li class="menu-item">
 			<a href="javascript:void(0);" class="menu-link menu-toggle">
