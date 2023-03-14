@@ -181,8 +181,7 @@
 	}
 	.key_feature_complex_approval:hover .complex_approval_hover_img {
 		display: block;
-	}
-	
+	}	
 	.edit {
 		position: absolute;
 		right: 40%;
@@ -199,8 +198,6 @@
 	  	-ms-transform: translate(-50%, -50%);
 	 	text-align: center;
 	}
-
-
 	.tab_section_1 {
 	    padding: 0px 100px !important;
 	}
@@ -216,13 +213,22 @@
 	.why_use_AYA {
 		display: table-cell !important;
 	}
-
-	@media (max-width: 1024px) and (min-width: 577px) {
-		.col-md-3.basic_package_col {
-			width: 33.3%;
-		}
-		.need_more_support_section {
-		    padding: 40px 50px 0px 50px !important;
+	.basic_package_col.col-md-3 {
+		width: 25%;
+	}
+	.basic_pack_allow {
+		margin-bottom: -40px;
+	}
+	.packages_list {
+		list-style:none;
+	}
+	.packages_main{
+		padding: 40px 20px 80px 20px;
+	}
+	
+	@media (max-width: 1400px) and (min-width: 1301px) {
+		.carousel-indicators{
+			left: 85% !important;
 		}
 	}
 	@media (max-width: 1300px) and (min-width: 1025px) {
@@ -253,9 +259,15 @@
 		    padding: 40px 100px 0px 100px !important;
 		}
 	}
-	@media (max-width: 1400px) and (min-width: 1301px) {
-		.carousel-indicators{
-			left: 85% !important;
+	@media (max-width: 1024px) and (min-width: 577px) {
+		.basic_package_col.col-md-3 {
+			width: 33.3%;
+		}
+		.need_more_support_section {
+		    padding: 40px 50px 0px 50px !important;
+		}
+		.packages_main{
+			padding: 40px 20px;
 		}
 	}
 	@media only screen and (max-width: 576px){
@@ -280,6 +292,18 @@
 		.offers_bg {
 			padding: 30px 20px 0px 20px;
 			height:950px;
+		}
+		.basic_package_col.col-md-3 {
+			width: 100%;
+		}
+		.basic_pack_allow {
+			margin-bottom: auto;
+		}
+		.packages_list {
+			margin-left: 25px;
+		}
+		.packages_main{
+			padding: 40px 20px 20px 20px;
 		}
 	}
 </style>
@@ -486,8 +510,8 @@
 								<p style="margin-bottom: 0px;">Standard features with two makers and one checker</p>
 							</div>
 						</div>
-						<div class="col-md-9" style="padding: 40px 20px 80px 20px;">
-							<div class="row d-none d-sm-block">
+						<div class="col-md-9 packages_main">
+							<div class="row">
 								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 									<p style="font-weight: 500;width: 85%;float: right;">
@@ -521,23 +545,25 @@
 									<p style="font-weight: 500;width: 85%;float: right;">
 										Token Fees: <br>20,000 MMK (Per Token)
 									</p>
+									<hr class="d-block d-sm-none" style="width: 100%;">
 								</div>
-								<div class="col-md-3 basic_package_col" style="margin-bottom: -40px;">
+								<div class="col-md-3 basic_package_col basic_pack_allow">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 									<p style="font-weight: 500;width: 85%;float: right;">
 										Allow
 									</p>
-									<ul style="list-style:none;">
+									<ul class="packages_list">
 										<li style="margin-bottom: 5px;">2&nbsp;&nbsp;Makers</li>
 										<li style="margin-bottom: 5px;">1&nbsp;&nbsp;Checker</li>
 									</ul>
+									<hr class="d-block d-sm-none" style="width: 100%;">
 								</div>
 								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 									<p style="font-weight: 500;width: 85%;float: right;">
 										Payment Service
 									</p>
-									<ul style="list-style:none;">
+									<ul class="packages_list">
 										<li style="margin-bottom: 5px;">Own Accout Transfer</li>
 										<li style="margin-bottom: 5px;">Third Party Transfer</li>
 										<li style="margin-bottom: 5px;">Bulk Transfer</li>
@@ -545,66 +571,66 @@
 										<li style="margin-bottom: 5px;">Stop Cheque Book</li>
 									</ul>
 								</div>
-							</div>
-							<div class="row d-block d-sm-none">
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Account Service
-									</p>
-									<hr style="width: 100%">
-								</div>
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Dual Control
-									</p>
-									<hr style="width: 100%">
-								</div>
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Registration Fees: FOC
-									</p>
-									<hr style="width: 100%">
-								</div>
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Monthly Fees: 10,000MMK
-									</p>
-									<hr style="width: 100%;">
-								</div>
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Token Fees: <br>20,000 MMK (Per Token)
-									</p>
-									<hr style="width: 100%;">
-								</div>
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Allow
-									</p>
-									<ul style="list-style:none;margin-left: 25px;">
-										<li style="margin-bottom: 5px;">2&nbsp;&nbsp;Makers</li>
-										<li style="margin-bottom: 5px;">1&nbsp;&nbsp;Checker</li>
-									</ul>
-									<hr style="width: 100%;">
-								</div>
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Payment Service
-									</p>
-									<ul style="list-style:none;margin-left: 25px;">
-										<li style="margin-bottom: 5px;">Own Accout Transfer</li>
-										<li style="margin-bottom: 5px;">Third Party Transfer</li>
-										<li style="margin-bottom: 5px;">Bulk Transfer</li>
-										<li style="margin-bottom: 5px;">Cheque Book Request</li>
-										<li style="margin-bottom: 5px;">Stop Cheque Book</li>
-									</ul>
+								<div class="d-none mobile_basic_package">
+									<div class="col-md-3 basic_package_col">
+										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+										<p style="font-weight: 500;width: 85%;float: right;">
+											Account Service
+										</p>
+										<hr style="width: 100%">
+									</div>
+									<div class="col-md-3 basic_package_col">
+										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+										<p style="font-weight: 500;width: 85%;float: right;">
+											Dual Control
+										</p>
+										<hr style="width: 100%">
+									</div>
+									<div class="col-md-3 basic_package_col">
+										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+										<p style="font-weight: 500;width: 85%;float: right;">
+											Registration Fees: FOC
+										</p>
+										<hr style="width: 100%">
+									</div>
+									<div class="col-md-3 basic_package_col">
+										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+										<p style="font-weight: 500;width: 85%;float: right;">
+											Monthly Fees: 10,000MMK
+										</p>
+										<hr style="width: 100%;">
+									</div>
+									<div class="col-md-3 basic_package_col">
+										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+										<p style="font-weight: 500;width: 85%;float: right;">
+											Token Fees: <br>20,000 MMK (Per Token)
+										</p>
+										<hr style="width: 100%;">
+									</div>
+									<div class="col-md-3 basic_package_col">
+										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+										<p style="font-weight: 500;width: 85%;float: right;">
+											Allow
+										</p>
+										<ul style="list-style:none;margin-left: 25px;">
+											<li style="margin-bottom: 5px;">2&nbsp;&nbsp;Makers</li>
+											<li style="margin-bottom: 5px;">1&nbsp;&nbsp;Checker</li>
+										</ul>
+										<hr style="width: 100%;">
+									</div>
+									<div class="col-md-3 basic_package_col">
+										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+										<p style="font-weight: 500;width: 85%;float: right;">
+											Payment Service
+										</p>
+										<ul style="list-style:none;margin-left: 25px;">
+											<li style="margin-bottom: 5px;">Own Accout Transfer</li>
+											<li style="margin-bottom: 5px;">Third Party Transfer</li>
+											<li style="margin-bottom: 5px;">Bulk Transfer</li>
+											<li style="margin-bottom: 5px;">Cheque Book Request</li>
+											<li style="margin-bottom: 5px;">Stop Cheque Book</li>
+										</ul>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -617,8 +643,8 @@
 								<p>Standard features with unlimited users</p>
 							</div>
 						</div>
-						<div class="col-md-9" style="padding: 40px 20px 80px 20px;">
-							<div class="row d-none d-sm-block">
+						<div class="col-md-9 packages_main">
+							<div class="row">
 								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 									<p style="font-weight: 500;width: 85%;float: right;">
@@ -652,78 +678,21 @@
 									<p style="font-weight: 500;width: 85%;float: right;">
 										Token Fees: <br>20,000 MMK (Per Token)
 									</p>
+									<hr class="d-block d-sm-none" style="width: 100%;">
 								</div>
 								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 									<p style="font-weight: 500;width: 85%;float: right;">
 										Customized Authorization matrix
 									</p>
+									<hr class="d-block d-sm-none" style="width: 100%;">
 								</div>
 								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 									<p style="font-weight: 500;width: 85%;float: right;">
 										Payment Service
 									</p>
-									<ul style="list-style:none;">
-										<li style="margin-bottom: 5px;">Own Accout Transfer</li>
-										<li style="margin-bottom: 5px;">Third Party Transfer</li>
-										<li style="margin-bottom: 5px;">Bulk Transfer</li>
-										<li style="margin-bottom: 5px;">Cheque Book Request</li>
-										<li style="margin-bottom: 5px;">Stop Cheque Book</li>
-									</ul>
-								</div>
-								<div class="col-md-3 basic_package_col">
-								</div>
-							</div>
-							<div class="row d-block d-sm-none">
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Account Service
-									</p>
-									<hr style="width: 100%">
-								</div>
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Allow Unlimited users
-									</p>
-									<hr style="width: 100%">
-								</div>
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Registration Fees: FOC
-									</p>
-									<hr style="width: 100%">
-								</div>
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Monthly Fees: 10,000MMK
-									</p>
-									<hr style="width: 100%">
-								</div>
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Token Fees: <br>20,000 MMK (Per Token)
-									</p>
-									<hr style="width: 100%">
-								</div>
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Customized Authorization matrix
-									</p>
-									<hr style="width: 100%">
-								</div>
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Payment Service
-									</p>
-									<ul style="list-style:none;margin-left: 25px;">
+									<ul class="packages_list">
 										<li style="margin-bottom: 5px;">Own Accout Transfer</li>
 										<li style="margin-bottom: 5px;">Third Party Transfer</li>
 										<li style="margin-bottom: 5px;">Bulk Transfer</li>
