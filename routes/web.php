@@ -14,42 +14,43 @@ use App\Http\Controllers\SimplePayController;
 |
 */
 
-Route::get('/superl0g1n','App\Http\Controllers\AdminLoginController@login');
-Route::post('/authlogin','App\Http\Controllers\AdminLoginController@authLogin');
+Route::get('/superl0g1n','App\Http\Controllers\Admin\AdminLoginController@login');
+Route::post('/authlogin','App\Http\Controllers\Admin\AdminLoginController@authLogin');
 
-Route::get('/admin/dashboard','App\Http\Controllers\AdminController@dashboard');
+Route::get('/admin/dashboard','App\Http\Controllers\Admin\AdminController@dashboard');
 
-Route::get('/admin/categories','App\Http\Controllers\CategoryController@categories');
-Route::get('/admin/category/add','App\Http\Controllers\CategoryController@categoryAdd');
-Route::post('/admin/category/store','App\Http\Controllers\CategoryController@categoryStore');
-Route::post('/admin/category/delete','App\Http\Controllers\CategoryController@categoryDelete');
-Route::get('/admin/category/edit/{category_id}','App\Http\Controllers\CategoryController@categoryEdit');
-Route::post('/admin/category/update','App\Http\Controllers\CategoryController@categoryUpdate');
+Route::get('/admin/categories','App\Http\Controllers\Admin\CategoryController@categories');
+Route::get('/admin/category/add','App\Http\Controllers\Admin\CategoryController@categoryAdd');
+Route::post('/admin/category/store','App\Http\Controllers\Admin\CategoryController@categoryStore');
+Route::post('/admin/category/delete','App\Http\Controllers\Admin\CategoryController@categoryDelete');
+Route::get('/admin/category/edit/{category_id}','App\Http\Controllers\Admin\CategoryController@categoryEdit');
+Route::post('/admin/category/update','App\Http\Controllers\Admin\CategoryController@categoryUpdate');
 
-Route::get('/admin/blog','App\Http\Controllers\BlogController@blog');
-Route::get('/admin/blog/add','App\Http\Controllers\BlogController@blogAdd');
-Route::post('/admin/blog/store','App\Http\Controllers\BlogController@blogStore');
-Route::post('/admin/blog/delete','App\Http\Controllers\BlogController@blogDelete');
-Route::get('/admin/blog/edit/{blog_id}','App\Http\Controllers\BlogController@blogEdit');
-Route::post('/admin/blog/update','App\Http\Controllers\BlogController@blogUpdate');
+Route::get('/admin/blog','App\Http\Controllers\Admin\BlogController@blog');
+Route::get('/admin/blog/add','App\Http\Controllers\Admin\BlogController@blogAdd');
+Route::post('/admin/blog/store','App\Http\Controllers\Admin\BlogController@blogStore');
+Route::post('/admin/blog/delete','App\Http\Controllers\Admin\BlogController@blogDelete');
+Route::get('/admin/blog/edit/{blog_id}','App\Http\Controllers\Admin\BlogController@blogEdit');
+Route::post('/admin/blog/update','App\Http\Controllers\Admin\BlogController@blogUpdate');
 
-Route::get('/admin/report','App\Http\Controllers\ReportController@report');
-Route::get('/admin/report/add','App\Http\Controllers\ReportController@reportAdd');
-Route::post('/admin/report/store','App\Http\Controllers\ReportController@reportStore');
-Route::post('/admin/report/delete','App\Http\Controllers\ReportController@reportDelete');
-Route::get('/admin/report/edit/{report_id}','App\Http\Controllers\ReportController@reportEdit');
-Route::post('/admin/report/update','App\Http\Controllers\ReportController@reportUpdate');
+Route::get('/admin/report','App\Http\Controllers\Admin\ReportController@report');
+Route::get('/admin/report/add','App\Http\Controllers\Admin\ReportController@reportAdd');
+Route::post('/admin/report/store','App\Http\Controllers\Admin\ReportController@reportStore');
+Route::post('/admin/report/delete','App\Http\Controllers\Admin\ReportController@reportDelete');
+Route::get('/admin/report/edit/{report_id}','App\Http\Controllers\Admin\ReportController@reportEdit');
+Route::post('/admin/report/update','App\Http\Controllers\Admin\ReportController@reportUpdate');
 
-Route::get('/admin/pagelist/','App\Http\Controllers\PageController@pageList');
-Route::get('/admin/page/mbanking/edit','App\Http\Controllers\AdminMBankingController@mbanking');
-Route::post('/admin/mbanking/banner/update','App\Http\Controllers\AdminMBankingController@mbankingBanner');
-Route::post('/admin/mbanking/tagline/update','App\Http\Controllers\AdminMBankingController@mbankingTagline');
-Route::post('/admin/mbanking/fact/update','App\Http\Controllers\AdminMBankingController@mbankingFact');
+Route::get('/admin/pagelist/','App\Http\Controllers\Admin\PageController@pageList');
+Route::get('/admin/page/mbanking/edit','App\Http\Controllers\Admin\AdminMBankingController@mbanking');
+Route::post('/admin/mbanking/banner/update','App\Http\Controllers\Admin\AdminMBankingController@mbankingBanner');
+Route::post('/admin/mbanking/tagline/update','App\Http\Controllers\Admin\AdminMBankingController@mbankingTagline');
+Route::post('/admin/mbanking/fact/update','App\Http\Controllers\Admin\AdminMBankingController@mbankingFact');
 
-Route::get('/admin/exchange-rate','App\Http\Controllers\ExchangeController@index');
-Route::get('/admin/exchange-rate/edit','App\Http\Controllers\ExchangeController@index');
+Route::get('/admin/exchange-rate','App\Http\Controllers\Admin\ExchangeController@index');
+Route::get('/admin/exchange-rate/edit','App\Http\Controllers\Admin\ExchangeController@editExchange');
+Route::post('/admin/exchange/store','App\Http\Controllers\Admin\ExchangeController@updateExchange');
 
-Route::get('/admin/logout','App\Http\Controllers\AdminController@logout');
+Route::get('/admin/logout','App\Http\Controllers\Admin\AdminController@logout');
 
 Route::get('/share-post', 'App\Http\Controllers\SharePostController@share');
 

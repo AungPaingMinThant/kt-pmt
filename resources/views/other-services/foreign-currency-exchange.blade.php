@@ -6,6 +6,9 @@
 	    .benefit_table {
 	    	zoom: 65%;
 	    }
+	    .fx_other_services {
+	    	display: none !important;
+	    }
 	}
 </style>
 @section('content')
@@ -25,7 +28,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<h3 class="theme_text_color fw-semibold mb-10">Exchange Rate</h3>
-						<p>16th September 2022</p>
+						<p><?php  echo date('j<\s\up>S</\s\up> F Y  (h:i A)', strtotime($exchange_rate_buy_sell->updated_at)); ?></p>
 					</div>
 					<div class="col-md-9">
 						<div class="benefit_table_div">
@@ -42,22 +45,22 @@
 										<td class="py-md-4">USD</td>
 										<td>US Dollar</td>
 										<td>1</td>
-										<td>2105</td>
-										<td>2106</td>
+										<td>{{ $exchange_rate_buy_sell->USD_buying }}</td>
+										<td>{{ $exchange_rate_buy_sell->USD_selling }}</td>
 									</tr>
 									<tr>
 										<td class="py-md-4">EUR</td>
 										<td>Euro</td>
 										<td>1</td>
-										<td>2049</td>
-										<td>2055</td>
+										<td>{{ $exchange_rate_buy_sell->EUR_buying }}</td>
+										<td>{{ $exchange_rate_buy_sell->EUR_buying }}</td>
 									</tr>
 									<tr>
 										<td class="py-md-4 b-b-none">SGD</td>
 										<td class="b-b-none">SINGAPORE DOLLAR</td>
 										<td class="b-b-none">1</td>
-										<td class="b-b-none">1477</td>
-										<td class="b-t-r-radius-10 b-b-r-radius-10 b-b-none">1481</td>
+										<td class="b-b-none">{{ $exchange_rate_buy_sell->SGD_buying }}</td>
+										<td class="b-t-r-radius-10 b-b-r-radius-10 b-b-none">{{ $exchange_rate_buy_sell->SGD_buying }}</td>
 									</tr>
 								</tbody>
 							</table>
@@ -67,29 +70,30 @@
 						<p class="disclaimer_title">Disclaimers</p>
 						<p style="color: #777777;font-size: 12px;">
 							Exchange rates fluctuate at times. Rates on this website are for information purposes only and are subject to change without notice. Always confirm actual currency rates with the Bank before making transactions!<br>
-							The rates in this table are intended for indicative purposes only. AYA Bank shall not be responsible for any loss or damage arising directly or indirectly from the use of or reliance on the information provided here in.
+							The rates in this table are intended for indicative purposes only. AYA Bank shall not be responsible for any loss or damage arising directly or indirectly from the use of or reliance on the information provided here in.<br>
+							[Note: Above rates will be updated every day and more currency can be added]
 						</p>
 					</div>
 				</div>
-				<div class="space-20"></div>
-				<div class="row">
-					<div class="d-none d-sm-block">
-						<div class="col-md-1">
-							<img src="{{ url('/images/other-services/foreign-currency-exchange/account_transfer_between_aya_foreign_currency_account.png') }}" class="img-fluid">
-						</div>
-						<div class="col-md-11">
-							<p class="theme_text_color mb-0" style="font-size: 18px;">Account Transfer between AYA Foreign Currency Accounts (FCA)</p>
-							<p>Our FCA customers can move money between each other which minimize foreign exchange risk while maximizing payment efficiency in foreign currency.</p>
-						</div>
-						<div class="space-20"></div>
-						<div class="col-md-1">
-							<img src="{{ url('/images/other-services/foreign-currency-exchange/account_transfer_between_aya_fca_other_bank_fca.png') }}" class="img-fluid">
-						</div>
-						<div class="col-md-11">
-							<p class="theme_text_color mb-0" style="font-size: 18px;">Account Transfer between AYA FCA and other banks’ FCA</p>
-							<p>Our FCA customers can do money transfers through chosen bank or receive from other banks for foreign currencies.</p>
-						</div>
+				<!-- <div class="space-20"></div>
+				<div class="row fx_other_services">
+					<div class="col-md-1">
+						<img src="{{ url('/images/other-services/foreign-currency-exchange/account_transfer_between_aya_foreign_currency_account.png') }}" class="img-fluid">
 					</div>
+					<div class="col-md-11 pt-10">
+						<p class="theme_text_color mb-0" style="font-size: 18px;">Account Transfer between AYA Foreign Currency Accounts (FCA)</p>
+						<p>Our FCA customers can move money between each other which minimize foreign exchange risk while maximizing payment efficiency in foreign currency.</p>
+					</div>
+					<div class="space-30"></div>
+					<div class="col-md-1">
+						<img src="{{ url('/images/other-services/foreign-currency-exchange/account_transfer_between_aya_fca_other_bank_fca.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-11 pt-10">
+						<p class="theme_text_color mb-0" style="font-size: 18px;">Account Transfer between AYA FCA and other banks’ FCA</p>
+						<p>Our FCA customers can do money transfers through chosen bank or receive from other banks for foreign currencies.</p>
+					</div>
+				</div>
+				<div class="row">
 					<div class="d-block d-sm-none">
 						<div class="col-12">
 							<img src="{{ url('/images/other-services/foreign-currency-exchange/account_transfer_between_aya_foreign_currency_account.png') }}" class="img-fluid w-20 mb-20">
@@ -103,7 +107,7 @@
 							<p>Our FCA customers can do money transfers through chosen bank or receive from other banks for foreign currencies.</p>
 						</div>
 					</div>
-				</div>
+				</div> -->
 
 				<div class="space-40"></div>
 				<div class="row">

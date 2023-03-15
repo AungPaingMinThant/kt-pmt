@@ -2180,7 +2180,7 @@ progress {
   font-size: 0.9375rem;
   font-weight: 400;
   line-height: 1.53;
-  color: #a02226;
+/*  color: #a02226;*/
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #d9dee3;
@@ -2202,7 +2202,7 @@ progress {
   cursor: pointer;
 }
 .form-control:focus {
-  color: #a02226;
+/*  color: #a02226;*/
   background-color: #fff;
   border-color: rgba(249, 249, 255, 0.54);
   outline: 0;
@@ -2228,7 +2228,7 @@ progress {
   margin: -0.4375rem -0.875rem;
   -webkit-margin-end: 0.875rem;
           margin-inline-end: 0.875rem;
-  color: #a02226;
+/*  color: #a02226;*/
   background-color: #fff;
   pointer-events: none;
   border-color: inherit;
@@ -2251,7 +2251,7 @@ progress {
   margin: -0.4375rem -0.875rem;
   -webkit-margin-end: 0.875rem;
           margin-inline-end: 0.875rem;
-  color: #a02226;
+/*  color: #a02226;*/
   background-color: #fff;
   pointer-events: none;
   border-color: inherit;
@@ -2361,7 +2361,7 @@ textarea.form-control-lg {
   font-size: 0.9375rem;
   font-weight: 400;
   line-height: 1.53;
-  color: #a02226;
+/*  color: #a02226;*/
   background-color: #fff;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%2867, 89, 113, 0.6%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
@@ -2389,12 +2389,12 @@ textarea.form-control-lg {
   background-image: none;
 }
 .form-select:disabled {
-  color: #a02226;
+/*  color: #a02226;*/
   background-color: #eceef1;
 }
 .form-select:-moz-focusring {
   color: transparent;
-  text-shadow: 0 0 0 #a02226;
+/*  text-shadow: 0 0 0 #a02226;*/
 }
 
 .form-select-sm {
@@ -2705,7 +2705,7 @@ textarea.form-control-lg {
   font-size: 0.9375rem;
   font-weight: 400;
   line-height: 1.53;
-  color: #a02226;
+/*  color: #a02226;*/
   text-align: center;
   white-space: nowrap;
   background-color: #fff;
@@ -9721,6 +9721,10 @@ button.list-group-item-gray.active {
 
 .p-5 {
   padding: 3rem !important;
+}
+
+.pl-0 {
+  padding-left: 0 !important;
 }
 
 .px-0 {

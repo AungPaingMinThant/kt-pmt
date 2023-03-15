@@ -152,10 +152,10 @@
 @if($page == 'safe_deposit')
 	<div class="row">
 		<div class="col-md-4 tag_line">
-			<p style="font-size: 20px;">Lockers branches are equipped with high security features</p>
+			<p style="font-size: 20px;">Lockers at branches are equipped with high security features</p>
 		</div>
 		<div class="col-md-8 tag_desc">
-			<p>Whether they are personal treasures, family inheritances or important documents, we can help keep your valuables safe and secure with us. Lockers branches are equipped with high security features and available in various sizes and at various locations.</p>
+			<p>Whether they are personal treasures, family inheritances or important documents, we can help keep your valuables safe and secure with us. Lockers at branches are equipped with high security features and available in various sizes and at various locations.</p>
 		</div>
 	</div>
 @endif

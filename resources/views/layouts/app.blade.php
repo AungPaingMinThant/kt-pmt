@@ -27,7 +27,7 @@
         }
         .navbar-nav > .nav-item {
             font-size: 16px !important;
-            text-transform: uppercase !important;
+/*            text-transform: uppercase !important;*/
         }
         .form-control, .form-select, input::file-selector-button {
             color: #566a7f !important;

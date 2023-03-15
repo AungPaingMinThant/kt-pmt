@@ -76,6 +76,15 @@
 	.why_use_AYA {
 		display: table-cell !important;
 	}
+	.features_icon {
+		width: 25% !important;
+	}
+	
+	@media (max-width: 1300px) and (min-width: 1000px) {
+		.features_icon {
+			width: 30% !important;
+		}
+	}
 	@media (min-width: 768px){
 		.col-md-3 {
 		    width: 23% !important;
@@ -159,38 +168,38 @@
 						<div class="tab-pane fade features show active" id="navs-pills-top-features" role="tabpanel">
 							<div class="container tab_section_1">
 								<div class="row tab_data_row" style="color: #4e4e4e;">
-									<div class="col-md-2"></div>
-									<div class="col-md-4 benefit_feature_box p-lg-3">
+									<div class="col-md-1"></div>
+									<div class="col-md-5 benefit_feature_box p-lg-3">
 										<div class="row why_use_AYA simple_login_div">
-											<img src="{{ url('/images/other-services/safe-deposit/feature_safe.png') }}" class="img-fluid w-25">
-											<p class="fw-semibold mt-xl-3 mb-0" style="font-size: 16px;">Safe</p>
+											<img src="{{ url('/images/other-services/safe-deposit/feature_safe.png') }}" class="img-fluid features_icon">
+											<p class="fw-semibold mt-3 mb-0" style="font-size: 16px;">Safe</p>
 											<p class="mt-10">Your valuables are kept in vault at our designated branches</p>
 										</div>
 									</div>
-									<div class="col-md-4 benefit_feature_box p-lg-3">
+									<div class="col-md-5 benefit_feature_box p-lg-3">
 										<div class="row why_use_AYA simple_login_div">
-											<img src="{{ url('/images/other-services/safe-deposit/feature_secure.png') }}" class="img-fluid w-25">
-											<p class="fw-semibold mt-xl-3 mb-0" style="font-size: 16px;">Secure</p>
+											<img src="{{ url('/images/other-services/safe-deposit/feature_secure.png') }}" class="img-fluid features_icon">
+											<p class="fw-semibold mt-3 mb-0" style="font-size: 16px;">Secure</p>
 											<p class="mt-10">Your locker can only be opened with the assigned keys provided to you.</p>
 										</div>
 									</div>
-									<div class="col-md-2"></div>
-									<div class="col-md-2"></div>
-									<div class="col-md-4 benefit_feature_box p-lg-3">
+									<div class="col-md-1"></div>
+									<div class="col-md-1"></div>
+									<div class="col-md-5 benefit_feature_box p-lg-3">
 										<div class="row why_use_AYA simple_login_div">
-											<img src="{{ url('/images/other-services/safe-deposit/feature_quality.png') }}" class="img-fluid w-25">
-											<p class="fw-semibold mt-xl-3 mb-0" style="font-size: 16px;">Quality</p>
+											<img src="{{ url('/images/other-services/safe-deposit/feature_quality.png') }}" class="img-fluid features_icon">
+											<p class="fw-semibold mt-3 mb-0" style="font-size: 16px;">Quality</p>
 											<p class="mt-10">A fireproof metal box which will keep your contents safe from fire and other disasters</p>
 										</div>
 									</div>
-									<div class="col-md-4 benefit_feature_box p-lg-3">
+									<div class="col-md-5 benefit_feature_box p-lg-3">
 										<div class="row why_use_AYA simple_login_div">
-											<img src="{{ url('/images/other-services/safe-deposit/feature_access.png') }}" class="img-fluid w-25">
-											<p class="fw-semibold mt-xl-3 mb-0" style="font-size: 16px;">Access</p>
+											<img src="{{ url('/images/other-services/safe-deposit/feature_access.png') }}" class="img-fluid features_icon">
+											<p class="fw-semibold mt-3 mb-0" style="font-size: 16px;">Access</p>
 											<p class="mt-10">You can plan your visit and access your locker on working days during banking hours.</p>
 										</div>
 									</div>
-									<div class="col-md-2"></div>
+									<div class="col-md-1"></div>
 								</div>
 							</div>
 						</div>
@@ -214,143 +223,143 @@
 									<div class="col-md-12 text-center p-lg-3">
 										<p style="font-size: 15px;">Our Safe Deposit Boxes come in four sizes, and prices start at just MMK 4,200 a month.</p>
 									</div>
-									<div class="col-md-2"></div>
-									<div class="col-md-4 text-center benefit_feature_box p-lg-3">
+									<div class="col-md-1"></div>
+									<div class="col-md-5 text-center benefit_feature_box p-lg-3">
 										<div class="row why_use_AYA simple_login_div">
 											<img src="{{ url('/images/other-services/safe-deposit/locker_icon.png') }}" class="img-fluid w-30">
-											<p class="fw-semibold mt-xl-3 mb-0" style="font-size: 16px;">3″ x 5″</p>
+											<p class="fw-semibold mt-3 mb-0" style="font-size: 16px;">3″ x 5″</p>
 											<p class="mt-10 theme_text_color fw-semibold">MMK 50,000 a year</p>
 										</div>
 									</div>
-									<div class="col-md-4 text-center benefit_feature_box p-lg-3">
+									<div class="col-md-5 text-center benefit_feature_box p-lg-3">
 										<div class="row why_use_AYA simple_login_div">
 											<img src="{{ url('/images/other-services/safe-deposit/locker_icon.png') }}" class="img-fluid w-30">
-											<p class="fw-semibold mt-xl-3 mb-0" style="font-size: 16px;">3″ x 10″</p>
+											<p class="fw-semibold mt-3 mb-0" style="font-size: 16px;">3″ x 10″</p>
 											<p class="mt-10 theme_text_color fw-semibold">MMK 150,000 a year</p>
 										</div>
 									</div>
-									<div class="col-md-2"></div>
-									<div class="col-md-2"></div>
-									<div class="col-md-4 text-center benefit_feature_box p-lg-3">
+									<div class="col-md-1"></div>
+									<div class="col-md-1"></div>
+									<div class="col-md-5 text-center benefit_feature_box p-lg-3">
 										<div class="row why_use_AYA simple_login_div">
 											<img src="{{ url('/images/other-services/safe-deposit/locker_icon.png') }}" class="img-fluid w-30">
-											<p class="fw-semibold mt-xl-3 mb-0" style="font-size: 16px;">5″ x 10″</p>
+											<p class="fw-semibold mt-3 mb-0" style="font-size: 16px;">5″ x 10″</p>
 											<p class="mt-10 theme_text_color fw-semibold">MMK 300,000 a year</p>
 										</div>
 									</div>
-									<div class="col-md-4 text-center benefit_feature_box p-lg-3">
+									<div class="col-md-5 text-center benefit_feature_box p-lg-3">
 										<div class="row why_use_AYA simple_login_div">
 											<img src="{{ url('/images/other-services/safe-deposit/locker_icon.png') }}" class="img-fluid w-30">
-											<p class="fw-semibold mt-xl-3 mb-0" style="font-size: 16px;">10″ x 10″</p>
+											<p class="fw-semibold mt-3 mb-0" style="font-size: 16px;">10″ x 10″</p>
 											<p class="mt-10 theme_text_color fw-semibold">MMK 500,000 a year</p>
 										</div>
 									</div>
-									<div class="col-md-2"></div>
+									<div class="col-md-1"></div>
 								</div>
 							</div>
 						</div>
 						<div class="tab-pane available-branch fade" id="navs-pills-top-available-branch" role="tabpanel">
 							<div class="container tab_section_1">
 								<div class="row tab_data_row" style="color: #4e4e4e;">
-									<div class="col-md-1"></div>
-									<div class="col-md-10 benefit_feature_box p-lg-3">
+									<!-- <div class="col-md-1"></div> -->
+									<div class="col-md-12 benefit_feature_box p-lg-3">
 										<p>Our branches to secure your valuables:</p>
 										<table class="table table-bordered-less benefit_table b-b-l-radius-10 b-b-r-radius-10" style="background-color: #f2f2f2;box-shadow: 0 0 15px 15px #f4f4f4 !important">
 											<tbody>
 												<tr class="theme_table_head fw-semibold">
-													<td class="b-b-none py-md-4 b-t-l-radius-10 b-b-l-radius-10 w-10">No.</td>
-													<td class="b-b-none">Branch</td>
+													<td class="b-b-none py-md-4 b-t-l-radius-10 b-b-l-radius-10 w-5">No.</td>
+													<td class="px-0 b-b-none w-13">Branch</td>
 													<td class="b-b-none">Name</td>
 													<td class="b-b-none b-t-r-radius-10 b-b-r-radius-10">Address</td>
 												</tr>
 												<tr>
 													<td class="py-md-4">1</td>
-													<td>Naypyidaw (1)</td>
+													<td class="px-0">Naypyidaw (1)</td>
 													<td>Thiri Yadanar Branch</td>
 													<td>111-112, Thiri Yadanar Shopping Complex, Dekhina Thiri, NayPyiDaw.</td>
 												</tr>
 												<tr>
 													<td class="py-md-4">2</td>
-													<td>Yangon (1)</td>
+													<td class="px-0">Yangon (1)</td>
 													<td>Hlaing Branch</td>
 													<td>No. (1) Ywama Curve, Bayint Naung Road, Ward (2), Hlaing Township, Yangon.</td>
 												</tr>
 												<tr>
 													<td class="py-md-4">3</td>
-													<td>Yangon (4)</td>
+													<td class="px-0">Yangon (4)</td>
 													<td>North Dagon (1) Branch</td>
 													<td>No. (27/6), Myay Taing Ward, Dagon Myo Oo Yeik Mon, Shwe Pin Lon Housing Project, North Dagon Townsip, Yangon.</td>
 												</tr>
 												<tr>
 													<td class="py-md-4">4</td>
-													<td>Yangon (7)</td>
+													<td class="px-0">Yangon (7)</td>
 													<td>Wardan Branch</td>
 													<td>No. (151), Corner of Wardan Street and Bogyoke Road, Ward (8), Lanmadaw Township, Yangon.</td>
 												</tr>
 												<tr>
 													<td class="py-md-4">5</td>
-													<td>Yangon (19)</td>
+													<td class="px-0">Yangon (19)</td>
 													<td>Hlaingtharyar (1) Branch</td>
 													<td>No. (1948) Bogyoke Road, 5 Ward, Yangon-Pathein Road, Hlaingtharyar Township, Yangon.</td>
 												</tr>
 												<tr>
 													<td class="py-md-4">6</td>
-													<td>Yangon (26)</td>
+													<td class="px-0">Yangon (26)</td>
 													<td>Kyauktadar Branch</td>
 													<td>No. (416), Maharbandoola Road, Kyauktadar Township, Yangon.</td>
 												</tr>
 												<tr>
 													<td class="py-md-4">7</td>
-													<td>Yangon (29)</td>
+													<td class="px-0">Yangon (29)</td>
 													<td>Hlaing (2) Pyay Road Branch</td>
 													<td>No. (1/B), Pyay Road, Ward (10), Hlaing Township, Yangon.</td>
 												</tr>
 												<tr>
 													<td class="py-md-4">8</td>
-													<td>Yangon (41)</td>
+													<td class="px-0">Yangon (41)</td>
 													<td>Novotel Branch</td>
 													<td>No. (459) Pyay Road, Kamayut Township, Yangon.</td>
 												</tr>
 												<tr>
 													<td class="py-md-4">9</td>
-													<td>Yangon (58)</td>
+													<td class="px-0">Yangon (58)</td>
 													<td>Bahan (2) Branch</td>
 													<td>No. (97) Kabar Aye Pagoda Road, ShweTaungKyar Ward (1), Bahan Township, Yangon.</td>
 												</tr>
 												<tr>
 													<td class="py-md-4">10</td>
-													<td>Yangon (85)</td>
+													<td class="px-0">Yangon (85)</td>
 													<td>Windermere Branch</td>
 													<td>No. (40/A), Innyar Road, Bahan Township, Yangon.</td>
 												</tr>
 												<tr>
 													<td class="py-md-4">11</td>
-													<td>Yangon (99)</td>
+													<td class="px-0">Yangon (99)</td>
 													<td>Khaymarthi Road Branch</td>
 													<td>No. (705), Khay Mar Thi Road, North Okkalapa Township, Yangon</td>
 												</tr>
 												<tr>
 													<td class="py-md-4">12</td>
-													<td>Yangon (103)</td>
+													<td class="px-0">Yangon (103)</td>
 													<td>Thamardi Street Branch</td>
 													<td>No. (B2, E1, E2), Thamardi Street, Myittarnyunt Block, Tamwe Township, Yangon.</td>
 												</tr>
 												<tr>
 													<td class="py-md-4">13</td>
-													<td>Mandalay (6)</td>
+													<td class="px-0">Mandalay (6)</td>
 													<td>80th Street Branch</td>
 													<td>No. (211), Between 80th Street and 30th x31st Street, Chanayetharzan Township, Mandalay.</td>
 												</tr>
 												<tr>
 													<td class="py-md-4 b-b-none">14</td>
-													<td class="b-b-none">Mandalay (21)</td>
+													<td class="px-0 b-b-none">Mandalay (21)</td>
 													<td class="b-b-none">84th Street Branch</td>
 													<td class="b-t-r-radius-10 b-b-r-radius-10 b-b-none">No. (210), Aung Nan Yeik Thar (West) Quarter, (Corner of 84th Street and 34th Street), Chan Aye Thar Zan Township, Mandalay.</td>
 												</tr>
 											</tbody>
 										</table>
 									</div>
-									<div class="col-md-1"></div>
+									<!-- <div class="col-md-1"></div> -->
 								</div>
 							</div>
 						</div>
