@@ -71,11 +71,11 @@ class Share
     }
 
     /**
-     * @param string $url
-     * @param string|null $title
+     * @param $url
+     * @param null $title
      * @param array $options
-     * @param string|null $prefix
-     * @param string|null $suffix
+     * @param null $prefix
+     * @param null $suffix
      * @return $this
      */
     public function page($url, $title = null, $options = [], $prefix = null, $suffix = null)
@@ -83,7 +83,6 @@ class Share
         $this->url = $url;
         $this->title = $title;
         $this->options = $options;
-        $this->html = '';
 
         $this->setPrefixAndSuffix($prefix, $suffix);
 
@@ -91,10 +90,10 @@ class Share
     }
 
     /**
-     * @param string|null $title
+     * @param null $title
      * @param array $options
-     * @param string|null $prefix
-     * @param string|null $suffix
+     * @param null $prefix
+     * @param null $suffix
      * @return $this
      */
     public function currentPage($title = null, $options = [], $prefix = null, $suffix = null)
@@ -237,8 +236,8 @@ class Share
     /**
      * Build a single link
      *
-     * @param string $provider
-     * @param string $url
+     * @param $provider
+     * @param $url
      */
     protected function buildLink($provider, $url)
     {
@@ -259,8 +258,8 @@ class Share
     /**
      * Optionally Set custom prefix and/or suffix
      *
-     * @param string $prefix
-     * @param string $suffix
+     * @param $prefix
+     * @param $suffix
      */
     protected function setPrefixAndSuffix($prefix, $suffix)
     {
@@ -274,8 +273,8 @@ class Share
     }
 
     /**
-     * @param string $provider
-     * @param string $socialNetworkUrl
+     * @param $provider
+     * @param $socialNetworkUrl
      */
     protected function rememberRawLink($provider, $socialNetworkUrl)
     {
