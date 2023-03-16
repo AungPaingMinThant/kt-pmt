@@ -122,7 +122,7 @@
 										<p style="">The maximum age of applicant shall not exceed 55</p>
 									</div>
 									<div class="col-12">
-										<p style="color: #777777;font-size: 12px;">Note: <b>Joint applicant</b> is allowed (only for immediate family members) for customers with age over 55 and low income. Documents which reveal accurate information of above are required to provide at the point of application such as NRC, Household Member List, Income Statement or Salary slip. </p>
+										<p style="color: #777777;font-size: 12px;">Note: <b>Joint applicant</b> is allowed (only for immediate family members) for customers with age over 55 and low income. <b>Documents</b> which reveal accurate information of above are required to provide at the point of application such as NRC, Household Member List, Income Statement or Salary slip. </p>
 									</div>
 
 									<div class="space-20"></div>

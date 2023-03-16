@@ -53,14 +53,14 @@
 										<td>Euro</td>
 										<td>1</td>
 										<td>{{ $exchange_rate_buy_sell->EUR_buying }}</td>
-										<td>{{ $exchange_rate_buy_sell->EUR_buying }}</td>
+										<td>{{ $exchange_rate_buy_sell->EUR_selling }}</td>
 									</tr>
 									<tr>
 										<td class="py-md-4 b-b-none">SGD</td>
 										<td class="b-b-none">SINGAPORE DOLLAR</td>
 										<td class="b-b-none">1</td>
 										<td class="b-b-none">{{ $exchange_rate_buy_sell->SGD_buying }}</td>
-										<td class="b-t-r-radius-10 b-b-r-radius-10 b-b-none">{{ $exchange_rate_buy_sell->SGD_buying }}</td>
+										<td class="b-t-r-radius-10 b-b-r-radius-10 b-b-none">{{ $exchange_rate_buy_sell->SGD_selling }}</td>
 									</tr>
 								</tbody>
 							</table>
