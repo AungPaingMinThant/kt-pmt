@@ -7986,10 +7986,10 @@ form select.selectpicker.is-invalid ~ .btn {
   }
 }
 @media (max-width: 767.98px) {
-  .modal .modal-dialog:not(.modal-fullscreen) {
+  /*.modal .modal-dialog:not(.modal-fullscreen) {
     padding: 0 0.75rem;
     padding-left: 0.75rem !important;
-  }
+  }*/
   .modal .carousel-control-prev,
 .modal .carousel-control-next {
     display: none;

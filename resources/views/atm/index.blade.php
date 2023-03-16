@@ -195,6 +195,9 @@
 	.modal-body {
 	    padding: 0.5rem 1.5rem !important;
 	}
+	.modal .modal-dialog:not(.modal-fullscreen) {
+		padding: 0px !important;
+	}
 	@media (max-width: 1300px) and (min-width: 577px) {
 		.why_use_AYA_outer > .col-md-6 {
 			width: 47%;
@@ -238,12 +241,15 @@
 		.services_overview_div{
 			padding-left: 15px !important;
 		}
-		.swiper_div {
+		/*.swiper_div {
 			padding-left: 40px !important;
-		}
+		}*/
 		.slide-content-available > .swiper-wrapper {
-		height: 90% !important;
-	}
+			height: 90% !important;
+		}
+		.modal-body {
+			padding-bottom: 40px !important;
+		}
 	}
 </style>
 @section('content')
@@ -1411,207 +1417,39 @@
 @include('layouts.footer', ['page'=>'mobilebanking'])
 <script src="{{ url('/js/swiper-bundle.min.js') }}"></script>
 <script type="text/javascript">
-	var cash_withdraw_mmk_swiper = new Swiper(".slide-content-cash-withdraw-mmk", {
-		slidesPerView: 2,
-		spaceBetween: 25,
-		loop: true,
-		centerSlide: 'true',
-		fade: 'true',
-		grabCursor: 'true',
-		pagination: {
-			el: ".available_services_pagination",
-			clickable: true,
-			dynamicBullets: true,
-		},
-		navigation: {
-			nextEl: ".swiper-button-cash-withdraw-mmk-next",
-			prevEl: ".swiper-button-cash-withdraw-mmk-prev",
-		},
-
-		breakpoints:{
-			0: {
-				slidesPerView: 1,
-			},
-			520: {
-				slidesPerView: 2,
-			},
-			950: {
-				slidesPerView: 2,
-			},
-			1250: {
-				slidesPerView: 2,
-			},
-		},
-	});
-
-	var quick_cash_withdrawl_swiper = new Swiper(".slide-content-quick-cash-withdrawl", {
-		slidesPerView: 2,
-		spaceBetween: 25,
-		loop: true,
-		centerSlide: 'true',
-		fade: 'true',
-		grabCursor: 'true',
-		pagination: {
-			el: ".available_services_pagination",
-			clickable: true,
-			dynamicBullets: true,
-		},
-		navigation: {
-			nextEl: ".swiper-button-quick-cash-withdrawl-next",
-			prevEl: ".swiper-button-quick-cash-withdrawl-prev",
-		},
-
-		breakpoints:{
-			0: {
-				slidesPerView: 1,
-			},
-			520: {
-				slidesPerView: 2,
-			},
-			950: {
-				slidesPerView: 2,
-			},
-			1250: {
-				slidesPerView: 2,
-			},
-		},
-	});
-
-	var cardless_swiper = new Swiper(".slide-content-cardless-withdrawal", {
-		slidesPerView: 2,
-		spaceBetween: 25,
-		loop: true,
-		centerSlide: 'true',
-		fade: 'true',
-		grabCursor: 'true',
-		pagination: {
-			el: ".available_services_pagination",
-			clickable: true,
-			dynamicBullets: true,
-		},
-		navigation: {
-			nextEl: ".swiper-button-cardless-withdrawal-next",
-			prevEl: ".swiper-button-cardless-withdrawal-prev",
-		},
-
-		breakpoints:{
-			0: {
-				slidesPerView: 1,
-			},
-			520: {
-				slidesPerView: 2,
-			},
-			950: {
-				slidesPerView: 2,
-			},
-			1250: {
-				slidesPerView: 2,
-			},
-		},
-	});
-
-	var pin_change_swiper = new Swiper(".slide-content-pin-change", {
-		slidesPerView: 2,
-		spaceBetween: 25,
-		loop: true,
-		centerSlide: 'true',
-		fade: 'true',
-		grabCursor: 'true',
-		pagination: {
-			el: ".available_services_pagination",
-			clickable: true,
-			dynamicBullets: true,
-		},
-		navigation: {
-			nextEl: ".swiper-button-pin-change-next",
-			prevEl: ".swiper-button-pin-change-prev",
-		},
-
-		breakpoints:{
-			0: {
-				slidesPerView: 1,
-			},
-			520: {
-				slidesPerView: 2,
-			},
-			950: {
-				slidesPerView: 2,
-			},
-			1250: {
-				slidesPerView: 2,
-			},
-		},
-	});
-
-	var balance_inquiry_swiper = new Swiper(".slide-content-balance-inquiry", {
-		slidesPerView: 2,
-		spaceBetween: 25,
-		loop: true,
-		centerSlide: 'true',
-		fade: 'true',
-		grabCursor: 'true',
-		pagination: {
-			el: ".available_services_pagination",
-			clickable: true,
-			dynamicBullets: true,
-		},
-		navigation: {
-			nextEl: ".swiper-button-balance-inquiry-next",
-			prevEl: ".swiper-button-balance-inquiry-prev",
-		},
-
-		breakpoints:{
-			0: {
-				slidesPerView: 1,
-			},
-			520: {
-				slidesPerView: 2,
-			},
-			950: {
-				slidesPerView: 2,
-			},
-			1250: {
-				slidesPerView: 2,
-			},
-		},
-	});
-
-	var fund_transfer_swiper = new Swiper(".slide-content-fund-transfer", {
-		slidesPerView: 2,
-		spaceBetween: 25,
-		loop: true,
-		centerSlide: 'true',
-		fade: 'true',
-		grabCursor: 'true',
-		pagination: {
-			el: ".available_services_pagination",
-			clickable: true,
-			dynamicBullets: true,
-		},
-		navigation: {
-			nextEl: ".swiper-button-fund-transfer-next",
-			prevEl: ".swiper-button-fund-transfer-prev",
-		},
-
-		breakpoints:{
-			0: {
-				slidesPerView: 1,
-			},
-			520: {
-				slidesPerView: 2,
-			},
-			950: {
-				slidesPerView: 2,
-			},
-			1250: {
-				slidesPerView: 2,
-			},
-		},
-	});
-
 	$("#cash_withdraw_mmk_div").click(function(){
-		// cash_withdraw_mmk_swiper.slideTo(10, 100, false);
-		// cash_withdraw_mmk_swiper.init();
+		var cash_withdraw_mmk_swiper = new Swiper(".slide-content-cash-withdraw-mmk", {
+			slidesPerView: 2,
+			spaceBetween: 25,
+			loop: true,
+			centerSlide: 'true',
+			fade: 'true',
+			grabCursor: 'true',
+			pagination: {
+				el: ".available_services_pagination",
+				clickable: true,
+				dynamicBullets: true,
+			},
+			navigation: {
+				nextEl: ".swiper-button-cash-withdraw-mmk-next",
+				prevEl: ".swiper-button-cash-withdraw-mmk-prev",
+			},
+
+			breakpoints:{
+				0: {
+					slidesPerView: 1,
+				},
+				520: {
+					slidesPerView: 2,
+				},
+				950: {
+					slidesPerView: 2,
+				},
+				1250: {
+					slidesPerView: 2,
+				},
+			},
+		});
 		$("#cash_withdraw_mmk_modal").modal('show');
 	});
 	$(".cash_withdraw_mmk_close").click(function(){
@@ -1619,8 +1457,38 @@
 	});
 
 	$("#quick_cash_withdrawal_div").click(function(){
-		// quick_cash_withdrawl_swiper.init();
-		// quick_cash_withdrawl_swiper.slideTo(10, 100, false);
+		var quick_cash_withdrawl_swiper = new Swiper(".slide-content-quick-cash-withdrawl", {
+			slidesPerView: 2,
+			spaceBetween: 25,
+			loop: true,
+			centerSlide: 'true',
+			fade: 'true',
+			grabCursor: 'true',
+			pagination: {
+				el: ".available_services_pagination",
+				clickable: true,
+				dynamicBullets: true,
+			},
+			navigation: {
+				nextEl: ".swiper-button-quick-cash-withdrawl-next",
+				prevEl: ".swiper-button-quick-cash-withdrawl-prev",
+			},
+
+			breakpoints:{
+				0: {
+					slidesPerView: 1,
+				},
+				520: {
+					slidesPerView: 2,
+				},
+				950: {
+					slidesPerView: 2,
+				},
+				1250: {
+					slidesPerView: 2,
+				},
+			},
+		});
 		$("#quick_cash_withdrawal_modal").modal('show');
 	});
 	$(".quick_cash_withdrawal_close").click(function(){
@@ -1628,8 +1496,38 @@
 	});
 
 	$("#cardless_withdrawal_div").click(function(){
-		// cardless_swiper.init();
-		// cardless_swiper.slideTo(10, 100, false);
+		var cardless_swiper = new Swiper(".slide-content-cardless-withdrawal", {
+			slidesPerView: 2,
+			spaceBetween: 25,
+			loop: true,
+			centerSlide: 'true',
+			fade: 'true',
+			grabCursor: 'true',
+			pagination: {
+				el: ".available_services_pagination",
+				clickable: true,
+				dynamicBullets: true,
+			},
+			navigation: {
+				nextEl: ".swiper-button-cardless-withdrawal-next",
+				prevEl: ".swiper-button-cardless-withdrawal-prev",
+			},
+
+			breakpoints:{
+				0: {
+					slidesPerView: 1,
+				},
+				520: {
+					slidesPerView: 2,
+				},
+				950: {
+					slidesPerView: 2,
+				},
+				1250: {
+					slidesPerView: 2,
+				},
+			},
+		});
 		$("#cardless_withdrawal_modal").modal('show');
 	});
 	$(".cardless_withdrawal_close").click(function(){
@@ -1637,7 +1535,38 @@
 	});
 
 	$("#pin_change_div").click(function(){
-		// pin_change_swiper.slideTo(10, 100, false);
+		var pin_change_swiper = new Swiper(".slide-content-pin-change", {
+			slidesPerView: 2,
+			spaceBetween: 25,
+			loop: true,
+			centerSlide: 'true',
+			fade: 'true',
+			grabCursor: 'true',
+			pagination: {
+				el: ".available_services_pagination",
+				clickable: true,
+				dynamicBullets: true,
+			},
+			navigation: {
+				nextEl: ".swiper-button-pin-change-next",
+				prevEl: ".swiper-button-pin-change-prev",
+			},
+
+			breakpoints:{
+				0: {
+					slidesPerView: 1,
+				},
+				520: {
+					slidesPerView: 2,
+				},
+				950: {
+					slidesPerView: 2,
+				},
+				1250: {
+					slidesPerView: 2,
+				},
+			},
+		});
 		$("#pin_change_modal").modal('show');
 	});
 	$(".pin_change_close").click(function(){
@@ -1645,7 +1574,38 @@
 	});
 
 	$("#balance_inquiry_div").click(function(){
-		// balance_inquiry_swiper.slideTo(10, 100, false);
+		var balance_inquiry_swiper = new Swiper(".slide-content-balance-inquiry", {
+			slidesPerView: 2,
+			spaceBetween: 25,
+			loop: true,
+			centerSlide: 'true',
+			fade: 'true',
+			grabCursor: 'true',
+			pagination: {
+				el: ".available_services_pagination",
+				clickable: true,
+				dynamicBullets: true,
+			},
+			navigation: {
+				nextEl: ".swiper-button-balance-inquiry-next",
+				prevEl: ".swiper-button-balance-inquiry-prev",
+			},
+
+			breakpoints:{
+				0: {
+					slidesPerView: 1,
+				},
+				520: {
+					slidesPerView: 2,
+				},
+				950: {
+					slidesPerView: 2,
+				},
+				1250: {
+					slidesPerView: 2,
+				},
+			},
+		});
 		$("#balance_inquiry_modal").modal('show');
 	});
 	$(".balance_inquiry_close").click(function(){
@@ -1653,7 +1613,38 @@
 	});
 
 	$("#fund_transfer_div").click(function(){
-		// fund_transfer_swiper.slideTo(11, 100, false);
+		var fund_transfer_swiper = new Swiper(".slide-content-fund-transfer", {
+			slidesPerView: 2,
+			spaceBetween: 25,
+			loop: true,
+			centerSlide: 'true',
+			fade: 'true',
+			grabCursor: 'true',
+			pagination: {
+				el: ".available_services_pagination",
+				clickable: true,
+				dynamicBullets: true,
+			},
+			navigation: {
+				nextEl: ".swiper-button-fund-transfer-next",
+				prevEl: ".swiper-button-fund-transfer-prev",
+			},
+
+			breakpoints:{
+				0: {
+					slidesPerView: 1,
+				},
+				520: {
+					slidesPerView: 2,
+				},
+				950: {
+					slidesPerView: 2,
+				},
+				1250: {
+					slidesPerView: 2,
+				},
+			},
+		});
 		$("#fund_transfer_modal").modal('show');
 	});
 	$(".fund_transfer_close").click(function(){
