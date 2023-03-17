@@ -137,8 +137,9 @@
 	color: #000 !important;
 }
 .nav-pills .tab_title {
-	font-weight: 400;
-	font-size: 16px;
+	font-weight: 500;
+	font-size: 18px;
+	padding-left: 0px;
 }
 .swiper-navBtn{
 	color: #d7d7d8;
@@ -290,7 +291,7 @@
 	width: 100% !important;
 }
 
-@media (max-width: 1300px) and (min-width: 1271px) {
+@media (max-width: 1360px) and (min-width: 1271px) {
 	.step_slide_row {
 		width: 114%;
 	}

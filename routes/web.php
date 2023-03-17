@@ -70,6 +70,7 @@ Route::get('/pos','App\Http\Controllers\Digital\POSController@index');
 Route::get('/aya-pay','App\Http\Controllers\Digital\AyaPayController@index');
 Route::get('/atm','App\Http\Controllers\Digital\ATMController@index');
 
+// Personal
 Route::get('/insurance/health','App\Http\Controllers\Insurance\HealthInsuranceController@index');
 Route::get('/insurance/motor','App\Http\Controllers\Insurance\MotorInsuranceController@index');
 Route::get('/insurance/fire','App\Http\Controllers\Insurance\FireInsuranceController@index');
@@ -111,5 +112,9 @@ Route::get('/borrowing/hire-purchase/home-loan','App\Http\Controllers\Borrowing\
 
 Route::get('/other-services/foreign-currency-exchange-service','App\Http\Controllers\OtherServicesController@foreignCurrencyIndex');
 Route::get('/other-services/safe-deposit','App\Http\Controllers\OtherServicesController@safeDepositIndex');
+
+// Busineess
+Route::get('/business/account-saving/call-deposit','App\Http\Controllers\Business\AccountSaving\CallDepositController@callDepositIndex');
+
 
 // contact-us
