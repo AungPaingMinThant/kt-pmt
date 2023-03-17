@@ -159,4 +159,21 @@
 		</div>
 	</div>
 @endif
+
+@if($page == 'bu_acc_sav_call_deposit')
+	<div class="row">
+		<!-- <div class="col-md-4 tag_line">
+			<p style="font-size: 20px;">Lockers at branches are equipped with high security features</p>
+		</div> -->
+		<div class="col-md-10">
+			<p>Either you are a small business owner, trader, service provider, or merchant, you have a range of options when it comes to opening a business bank account. Manage your business funds your way in call deposit - a daily interest saving account which can be accessed at any time.</p>
+			<p>
+				Manage your account online, over <a class="theme_text_color text-decoration-underline" href="https://corporate.ayaibanking.com/customer/portal" target="_blank">Corporate Internet Banking</a>, or through our extensive branch network.
+			</p>
+		</div>
+	</div>
+@endif
 <div class="space-40"></div>
+
+
+

@@ -28,7 +28,7 @@
 		margin-top: 7px;
 		width: 13%;
 	}
-	#q_remit_malay_inward, .dbs_remit_singapore, .western_union_inward, .ria_money_transfer_inward {
+	#premium_account, .dbs_remit_singapore, .western_union_inward, .ria_money_transfer_inward {
 		padding-right: 250px;
 		font-size: 18px;
 		font-weight: 600;
@@ -99,75 +99,32 @@
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
 		<div class="layout-page">
-			@include('layouts.header', ['page'=>'personal_banking'])
+			@include('layouts.header', ['page'=>'business_banking'])
         	<div class="menu-overlay"></div>
 
-			@include('layouts.banner', ['page'=>'remittance_inter'])
+			@include('layouts.banner', ['page'=>'bu_acc_sav_call_deposit'])
 
 			<div class="container section_1" >
-				@include('layouts.tagline', ['page'=>'remittance_inter'])
-
-				<div class="d-none d-sm-block">
-					<div class="row">
-						<div class="col-md-4">
-							<img src="{{ url('/images/remittance/inter/fast_secure.png') }}" class="img-fluid" style="width: 20%;">
-							<p style="font-size: 16px;font-weight: 500;margin-top: 15px;">Fast & Secure Transfers</p>
-						</div>
-						<div class="col-md-4">
-							<img src="{{ url('/images/remittance/inter/easy_convenient_transfer.png') }}" class="img-fluid" style="width: 20%;">
-							<p style="font-size: 16px;font-weight: 500;margin-top: 15px;">Easy & Convenient Transfers</p>
-						</div>
-						<div class="col-md-4">
-							<img src="{{ url('/images/remittance/inter/competitive_exhange_rate.png') }}" class="img-fluid" style="width: 20%;">
-							<p style="font-size: 16px;font-weight: 500;margin-top: 15px;">Competitive Exchange Rate</p>
-						</div>
-					</div>
-				</div>
-				<div class="d-block d-sm-none">
-					<div class="row">
-						<div class="col-md-12 text-center">
-							<img src="{{ url('/images/remittance/inter/fast_secure.png') }}" class="img-fluid" style="width: 20%;">
-							<p style="font-size: 16px;font-weight: 500;margin-top: 15px;margin-bottom: 30px;">Fast & Secure Transfers</p>
-						</div>
-						<div class="col-md-12 text-center">
-							<img src="{{ url('/images/remittance/inter/easy_convenient_transfer.png') }}" class="img-fluid" style="width: 20%;">
-							<p style="font-size: 16px;font-weight: 500;margin-top: 15px;margin-bottom: 30px;">Easy & Convenient Transfers</p>
-						</div>
-						<div class="col-md-12 text-center">
-							<img src="{{ url('/images/remittance/inter/competitive_exhange_rate.png') }}" class="img-fluid" style="width: 20%;">
-							<p style="font-size: 16px;font-weight: 500;margin-top: 15px;margin-bottom: 30px;">Competitive Exchange Rate</p>
-						</div>
-					</div>
-				</div>
-				
-				<div class="space-30"></div>
+				@include('layouts.tagline', ['page'=>'bu_acc_sav_call_deposit'])
 				
 				<div class="col-md-12 d-none d-sm-block">
 					<div class="row">
-						<div class="col-md-12">
-							<p style="font-weight: 600;font-size: 18px;">Our International Partners</p>
-						</div>
 						<div class="col-md-4">
 							<nav id="myScrollspy">
 								<ul class="nav nav-pills flex-column">
 									<li class="nav-item advice_1">
-										<a class="nav-link active" href="#q_remit_malay_inward">
-											<span>Q-Remit Malaysia (Inward)</span>
+										<a class="nav-link active" href="#premium_account">
+											<span>Premium Account</span>
 										</a>
 									</li>
 									<li class="nav-item advice_2">
-										<a class="nav-link" href="#dbs_remit_singapore">
-											<span>DBS Remit Singapore (Inward)</span>
+										<a class="nav-link" href="#business_account">
+											<span>Business Account</span>
 										</a>
 									</li>
 									<li class="nav-item advice_3">
-										<a class="nav-link" href="#western_union_inward">
-											<span>Western Union (Inward) Worldwide</span>
-										</a>
-									</li>
-									<li class="nav-item advice_4">
-										<a class="nav-link" href="#ria_money_transfer_inward">
-											<span>Ria Money Transfer (Inward) Worldwide</span>
+										<a class="nav-link" href="#new_business_call">
+											<span>New Business Call</span>
 										</a>
 									</li>
 								</ul>
@@ -175,8 +132,8 @@
 						</div>
 						<div class="col-md-8">
 							<div id="scroll_content" data-spy="scroll" data-target="#myScrollspy" data-offset="10" style="">
-								<p id="q_remit_malay_inward">
-									Q-Remit Malaysia (Inward)
+								<p id="premium_account">
+									Premium Account
 								</p>
 								<div class="row" style="position: relative;">
 									<img src="{{ url('/images/remittance/inter/q_remit_malay_inward.png') }}" class="img-fluid">
@@ -222,7 +179,7 @@
 									</div>
 								</div>
 
-								<div class="space-40" id="dbs_remit_singapore"></div>
+								<div class="space-40" id="business_account"></div>
 								<p class="dbs_remit_singapore">
 									DBS Remit Singapore (Inward)
 								</p>
@@ -258,8 +215,8 @@
 									</div>
 								</div>
 
-								<div class="space-40" id="western_union_inward"></div>
-								<p class="western_union_inward">
+								<div class="space-40" id="new_business_call"></div>
+								<p class="new_business_call">
 									Western Union (Inward) Worldwide 
 								</p>
 								<div class="row" style="position: relative;">

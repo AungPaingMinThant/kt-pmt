@@ -291,7 +291,7 @@
 	width: 100% !important;
 }
 
-@media (max-width: 1360px) and (min-width: 1271px) {
+@media (max-width: 1370px) and (min-width: 1271px) {
 	.step_slide_row {
 		width: 114%;
 	}
