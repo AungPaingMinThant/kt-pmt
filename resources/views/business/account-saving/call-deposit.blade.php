@@ -28,7 +28,7 @@
 		margin-top: 7px;
 		width: 13%;
 	}
-	#premium_account, .dbs_remit_singapore, .western_union_inward, .ria_money_transfer_inward {
+	#premium_account, .business_account, .new_business_call {
 		padding-right: 250px;
 		font-size: 18px;
 		font-weight: 600;
@@ -40,24 +40,24 @@
 	.secure_credit_fact {
 		padding-left: 0 !important;
 	}
-	.q_remit_malay_inward_tagline {
+	.premium_banking_tagline {
 		font-weight: 500;
 		font-size: 20px;
 		line-height: 24px;
 		width: 45% !important;
 		position: absolute;
-		top: 80%;
+		top: 85%;
 		left: 4%;
 	}
-	.dbs_remit_singapore_tagline {
+	.business_account_tagline {
 		font-weight: 500;
 		font-size: 20px;
 		line-height: 24px;
 		position: absolute;
-		top: 80%;
+		top: 85%;
 		left: 4%;
 	}
-	.western_tagline, .ria_tagline {
+	.new_business_call_tagline {
 		font-weight: 500;
 		font-size: 20px;
 		line-height: 24px;
@@ -67,18 +67,11 @@
 		left: 4%;
 	}
 	@media (max-width: 1300px) and (min-width: 1000px) {
-		.q_remit_malay_inward_tagline{
+		.premium_banking_tagline{
 			width: 60% !important;
 		}
-		.dbs_remit_singapore_tagline {
-			top: 75%;
-		}
-		.western_tagline {
+		.new_business_call_tagline {
 			width: 45% !important;
-			top: 75%;
-		}
-		.ria_tagline {
-			width: 40% !important;
 			top: 75%;
 		}
 		.bullet_square {
@@ -86,7 +79,7 @@
 		}
 	}
 	@media only screen and (max-width: 576px){
-		.remittance_inter_mobile_title {
+		.calldeposit__mobile_title {
 			font-size: calc(1.2625rem + 0.15vw);
 			font-weight: 600 !important;
 		}
@@ -114,17 +107,17 @@
 								<ul class="nav nav-pills flex-column">
 									<li class="nav-item advice_1">
 										<a class="nav-link active" href="#premium_account">
-											<span>Premium Account</span>
+											<span class="pr-5">Premium Account</span>
 										</a>
 									</li>
 									<li class="nav-item advice_2">
 										<a class="nav-link" href="#business_account">
-											<span>Business Account</span>
+											<span class="pr-5">Business Account</span>
 										</a>
 									</li>
 									<li class="nav-item advice_3">
 										<a class="nav-link" href="#new_business_call">
-											<span>New Business Call</span>
+											<span class="pr-5">New Business Call</span>
 										</a>
 									</li>
 								</ul>
@@ -136,143 +129,114 @@
 									Premium Account
 								</p>
 								<div class="row" style="position: relative;">
-									<img src="{{ url('/images/remittance/inter/q_remit_malay_inward.png') }}" class="img-fluid">
-									<p class="q_remit_malay_inward_tagline">Remit seamlessly without borders with Q-Remit</p>
+									<img src="{{ url('/images/business/account-saving/call-deposit/premium_account.png') }}" class="img-fluid">
+									<p class="premium_banking_tagline">An easy-access deposit account</p>
 								</div>
 								<div class="row">
 									<div class="space-30"></div>
-									<p>Easy and secure way to transfer money from Malaysia to Myanmar. You can receive the transferred amount in MMK at any of AYA Branches.</p>
+									<p>Designed for businesses to invest over any period, with immediate access to your money to take care of business and payments cycles. It calculate interest on the daily end of day balances and will credit to account at the end of the month.</p>
 									<div class="col-1">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Visit agents to make payments</p>
+										<p>Offers deposit interest 2.0% per annum</p>
 									</div>
 									<div class="col-1">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Payout amount (in MMK) is confirmed</p>
+										<p>No limit on deposit amount</p>
 									</div>
 
-									<p style="font-weight: 600;">Contact here to send money</p>
+									<p class="fw-semibold" style="font-size: 17px;">The Benefits</p>
 
-									<div class="col-md-6">
-										<div class="row">
-											<div class="col-2 text-right">
-												<img src="{{ url('/images/remittance/inter/location_icon.png') }}" class="img-fluid" style="float: right;">
-											</div>
-											<div class="col-10">
-												<p>25, Jalan Medan Pasar, 50050<br>Kuala Lumpur, Malaysia</p>
-											</div>
-										</div>
+									<div class="col-md-4 text-center">
+										<img src="{{ url('/images/business/account-saving/call-deposit/Gain_interest_short_term_deposit.png') }}" class="img-fluid w-50">
+										<p>Gain interest for short-term deposit</p>
 									</div>
-									<div class="col-md-6" style="padding-left: 0px;">
-										<div class="row">
-											<div class="col-2 text-right">
-												<img src="{{ url('/images/remittance/inter/location_icon.png') }}" class="img-fluid" style="float: right;">
-											</div>
-											<div class="col-10">
-												<p>60, Jalan Munshi Abdullah, 75100<Br>Melaka, Malaysia</p>
-											</div>
-										</div>
+									<div class="col-md-4 text-center">
+										<img src="{{ url('/images/business/account-saving/call-deposit/Able_to_remit_and_pay_transactions_easily.png') }}" class="img-fluid w-50">
+										<p>Able to remit and pay transactions easily</p>
+									</div>
+									<div class="col-md-4 text-center">
+										<img src="{{ url('/images/business/account-saving/call-deposit/Receive_or_pay_bills.png') }}" class="img-fluid w-50">
+										<p>Receive or pay bills through our Cash Management solutions</p>
 									</div>
 								</div>
 
 								<div class="space-40" id="business_account"></div>
-								<p class="dbs_remit_singapore">
-									DBS Remit Singapore (Inward)
+								<p class="business_account">
+									Business Account
 								</p>
 								<div class="row" style="position: relative;">
-									<img src="{{ url('/images/remittance/inter/DBS_remit_singpapore.png') }}" class="img-fluid">
-									<p class="dbs_remit_singapore_tagline">DBS to AYA Remit,<br>a convenient way to send money.</p>
+									<img src="{{ url('/images/business/account-saving/call-deposit/business_account.png') }}" class="img-fluid">
+									<p class="business_account_tagline">Manage your business funds professionally</p>
 								</div>
 								<div class="row">
 									<div class="space-30"></div>
-									<p>DBS and POSB (Singapore) account holder can remit funds to Myanmar 24/7 with AYA – DBS Remit. </p>
+									<p>Specifically designed for large corporates either local or foreign entities for growing business, providing a range of customized services along with high returns on your idle funds.</p>
+									<div class="col-1">
+										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
+									</div>
+									<div class="col-11">
+										<p>Offers deposit interest up to 4.5% per annum</p>
+									</div>
+									<div class="col-1">
+										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
+									</div>
+									<div class="col-11">
+										<p>Minimum account opening balance requirement is MMK “100 million” for local corporate and MMK “300 million” for foreign corporate</p>
+									</div>
 
-									<div class="col-md-12 col-12">
-										<div class="row">
-											<div class="col-md-1 col-2" style="padding-top: 5px;">
-												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-											</div>
-											<div class="col-md-11 col-10 secure_credit_fact">
-												<p>Zero “0” transfer fee to both sender and receiver</p>
-											</div>
-											<div class="col-md-1 col-2" style="padding-top: 5px;">
-												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-											</div>
-											<div class="col-md-11 col-10 secure_credit_fact">
-												<p>Instant credit to AYA account and same day transfer to any local banks in Myanmar</p>
-											</div>
-											<div class="col-md-1 col-2" style="padding-top: 5px;">
-												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-											</div>
-											<div class="col-md-11 col-10 secure_credit_fact">
-												<p>Receive payment with AYA’s Ngwe Toe Mae Shwe Oo to earn higher interest and cash out anytime needed</p>
-											</div>
-										</div>
+									<p class="fw-semibold" style="font-size: 17px;">The Benefits</p>
+
+									<div class="col-md-5 text-center">
+										<img src="{{ url('/images/business/account-saving/call-deposit/business_account_expert_support.png') }}" class="img-fluid" style="width: 43.5% !important;">
+										<p>Enjoy expert support from your dedicated relationship manager</p>
+									</div>
+									<div class="col-md-7 text-center">
+										<img src="{{ url('/images/business/account-saving/call-deposit/Access_financial_support.png') }}" class="img-fluid w-30">
+										<p>Access financial support, including business loans, overdrafts, and invoice finance</p>
 									</div>
 								</div>
 
 								<div class="space-40" id="new_business_call"></div>
 								<p class="new_business_call">
-									Western Union (Inward) Worldwide 
+									New Business Call 
 								</p>
 								<div class="row" style="position: relative;">
-									<img src="{{ url('/images/remittance/inter/western_union.png') }}" class="img-fluid">
-									<p class="western_tagline">Moving money for better with Western Union</p>
+									<img src="{{ url('/images/business/account-saving/call-deposit/new_business_call.png') }}" class="img-fluid">
+									<p class="new_business_call_tagline">Maximize your excess cash</p>
 								</div>
 								<div class="row">
 									<div class="space-30"></div>
-									<p>Ease and fast service with Western Union!</p>
-									<p>It commits security and provides cross-border money transfer over 200 countries worldwide. Receivers in Myanmar can withdraw the funds at any of AYA branch in MMK currency. </p>
-
-									<div class="col-md-12 col-12">
-										<div class="row">
-											<div class="col-md-1 col-2" style="padding-top: 5px;">
-												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-											</div>
-											<div class="col-md-11 col-10 secure_credit_fact">
-												<p>100% cash out at any AYA Branches using the secure transaction code (i.e. 10 digits MTCN)</p>
-											</div>
-											<div class="col-md-1 col-2" style="padding-top: 5px;">
-												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-											</div>
-											<div class="col-md-11 col-10 secure_credit_fact">
-												<p>Cash out and credit to AYA’s Ngwe Toe Mae Shwe Oo account to earn higher interest</p>
-											</div>
-										</div>
+									<p>Designed to provide the tariff that best meets your business needs. A Call Deposit account suitable for businesses with cash-based transactions.</p>
+									<div class="col-1">
+										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
-								</div>
+									<div class="col-11">
+										<p>Offers deposit interest 6.0% per annum</p>
+									</div>
+									<div class="col-1">
+										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
+									</div>
+									<div class="col-11">
+										<p>Minimum account opening balance requirement is MMK 10,000</p>
+									</div>
 
-								<div class="space-40" id="ria_money_transfer_inward"></div>
-								<p class="ria_money_transfer_inward">
-									Ria Money Transfer (Inward) Worldwide
-								</p>
-								<div class="row" style="position: relative;">
-									<img src="{{ url('/images/remittance/inter/ria_money_transfer.png') }}" class="img-fluid">
-									<p class="ria_tagline">Getting Money to Where it Matters</p>
-								</div>
-								<div class="row">
-									<div class="space-30"></div>
-									<p>International money transfer made Easy, Fast, Safe and Guaranteed. Compare and save to get low fees and great exchange rates on international money transfers to 165+ countries.</p>
+									<p class="fw-semibold" style="font-size: 17px;">The Benefits</p>
 
-									<div class="col-md-12 col-12">
-										<div class="row">
-											<div class="col-md-1 col-2" style="padding-top: 5px;">
-												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-											</div>
-											<div class="col-md-11 col-10 secure_credit_fact">
-												<p>100% cash out at any AYA Branches using the secure transaction code (PIN)</p>
-											</div>
-											<div class="col-md-1 col-2" style="padding-top: 5px;">
-												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-											</div>
-											<div class="col-md-11 col-10 secure_credit_fact">
-												<p>Cash out and credit to AYA’s Ngwe Toe Mae Shwe Oo account to earn higher interest</p>
-											</div>
-										</div>
+									<div class="col-md-4 text-center">
+										<img src="{{ url('/images/business/account-saving/call-deposit/Opening_a_new_business_call_deposit_account.png') }}" class="img-fluid w-50">
+										<p>Opening a new business call deposit account is a relatively simple and straight-forward procedure</p>
+									</div>
+									<div class="col-md-4 text-center">
+										<img src="{{ url('/images/business/account-saving/call-deposit/Unlimited_cash_withdrawal.png') }}" class="img-fluid w-50">
+										<p>Unlimited cash withdrawal up to the deposited amount</p>
+									</div>
+									<div class="col-md-4 text-center">
+										<img src="{{ url('/images/business/account-saving/call-deposit/Receive_account_statement_digitally.png') }}" class="img-fluid w-50">
+										<p>Receive account statement digitally or at the branches</p>
 									</div>
 								</div>
 							</div>
@@ -283,147 +247,119 @@
 				<div class="col-md-12 d-block d-sm-none">
 					<div class="row">
 						<div class="col-md-12">
-							<p class="remittance_inter_mobile_title">
-								Q-Remit Malaysia (Inward)
+							<p class="calldeposit__mobile_title">
+								Premium Account
 							</p>
 							<div class="row" style="position: relative;">
-								<img src="{{ url('/images/remittance/inter/q_remit_malay_inward.png') }}" class="img-fluid">
-								<p style="font-weight: 500;font-size: 18px;line-height: 22px;position: absolute;top: 70%;left: 4%;width: 90%;">Remit seamlessly without borders with Q-Remit</p>
+								<img src="{{ url('/images/business/account-saving/call-deposit/premium_account.png') }}" class="img-fluid">
+								<p style="font-weight: 500;font-size: 16px;line-height: 22px;position: absolute;top: 83%;left: 4%;width: 90%;">An easy-access deposit account</p>
 							</div>
 							<div class="row">
 								<div class="space-30"></div>
-								<p>Easy and secure way to transfer money from Malaysia to Myanmar. You can receive the transferred amount in MMK at any of AYA Branches.</p>
+								<p>Designed for businesses to invest over any period, with immediate access to your money to take care of business and payments cycles. It calculate interest on the daily end of day balances and will credit to account at the end of the month.</p>
 								<div class="col-1">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>Visit agents to make payments</p>
+									<p>Offers deposit interest 2.0% per annum</p>
 								</div>
 								<div class="col-1">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>Payout amount (in MMK) is confirmed</p>
+									<p>No limit on deposit amount</p>
 								</div>
 
-								<p style="font-weight: 600;">Contact here to send money</p>
+								<p class="fw-semibold text-center" style="font-size: 18px;">The Benefits</p>
 
-								<div class="col-md-6">
-									<div class="row">
-										<div class="col-2 text-right">
-											<img src="{{ url('/images/remittance/inter/location_icon.png') }}" class="img-fluid" style="float: right;">
-										</div>
-										<div class="col-10">
-											<p>25, Jalan Medan Pasar, 50050<br>Kuala Lumpur, Malaysia</p>
-										</div>
-									</div>
+								<div class="col-md-12 text-center">
+									<img src="{{ url('/images/business/account-saving/call-deposit/Gain_interest_short_term_deposit.png') }}" class="img-fluid w-30">
+									<p>Gain interest for short-term deposit</p>
 								</div>
-								<div class="col-md-6">
-									<div class="row">
-										<div class="col-2 text-right">
-											<img src="{{ url('/images/remittance/inter/location_icon.png') }}" class="img-fluid" style="float: right;">
-										</div>
-										<div class="col-10">
-											<p>60, Jalan Munshi Abdullah, 75100<Br>Melaka, Malaysia</p>
-										</div>
-									</div>
+								<div class="col-md-12 text-center">
+									<img src="{{ url('/images/business/account-saving/call-deposit/Able_to_remit_and_pay_transactions_easily.png') }}" class="img-fluid w-30">
+									<p>Able to remit and pay transactions easily</p>
+								</div>
+								<div class="col-md-12 text-center">
+									<img src="{{ url('/images/business/account-saving/call-deposit/Receive_or_pay_bills.png') }}" class="img-fluid w-30">
+									<p>Receive or pay bills through our Cash Management solutions</p>
 								</div>
 							</div>
 
 							<div class="space-40" id="dbs_remit_singapore"></div>
-							<p class="remittance_inter_mobile_title">
-								DBS Remit Singapore (Inward)
+							<p class="calldeposit__mobile_title">
+								Business Account
 							</p>
 							<div class="row" style="position: relative;">
-								<img src="{{ url('/images/remittance/inter/DBS_remit_singpapore_mobile.png') }}" class="img-fluid">
-								<p style="font-weight: 500;font-size: 18px;line-height: 22px;position: absolute;top: 70%;left: 4%;width: 90%;">DBS to AYA Remit,<br>a convenient way to send money.</p>
+								<img src="{{ url('/images/business/account-saving/call-deposit/business_account.png') }}" class="img-fluid">
+								<p style="font-weight: 500;font-size: 16px;line-height: 22px;position: absolute;top: 85%;left: 4%;width: 90%;">Manage your business funds professionally</p>
 							</div>
 							<div class="row">
 								<div class="space-30"></div>
-								<p>DBS and POSB (Singapore) account holder can remit funds to Myanmar 24/7 with AYA – DBS Remit. </p>
+								<p>Specifically designed for large corporates either local or foreign entities for growing business, providing a range of customized services along with high returns on your idle funds.</p>
 
-								<div class="col-md-12 col-12">
-									<div class="row">
-										<div class="col-md-1 col-2" style="padding-top: 5px;">
-											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-										</div>
-										<div class="col-md-11 col-10 secure_credit_fact">
-											<p>Zero “0” transfer fee to both sender and receiver</p>
-										</div>
-										<div class="col-md-1 col-2" style="padding-top: 5px;">
-											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-										</div>
-										<div class="col-md-11 col-10 secure_credit_fact">
-											<p>Instant credit to AYA account and same day transfer to any local banks in Myanmar</p>
-										</div>
-										<div class="col-md-1 col-2" style="padding-top: 5px;">
-											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-										</div>
-										<div class="col-md-11 col-10 secure_credit_fact">
-											<p>Receive payment with AYA’s Ngwe Toe Mae Shwe Oo to earn higher interest and cash out anytime needed</p>
-										</div>
-									</div>
+								<div class="col-1">
+									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
+								</div>
+								<div class="col-11">
+									<p>Offers deposit interest up to 4.5% per annum</p>
+								</div>
+								<div class="col-1">
+									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
+								</div>
+								<div class="col-11">
+									<p>Minimum account opening balance requirement is MMK “100 million” for local corporate and MMK “300 million” for foreign corporate</p>
+								</div>
+
+								<p class="fw-semibold text-center" style="font-size: 18px;">The Benefits</p>
+
+								<div class="col-md-12 text-center">
+									<img src="{{ url('/images/business/account-saving/call-deposit/Gain_interest_short_term_deposit.png') }}" class="img-fluid w-30">
+									<p>Enjoy expert support from your dedicated relationship manager</p>
+								</div>
+								<div class="col-md-12 text-center">
+									<img src="{{ url('/images/business/account-saving/call-deposit/Able_to_remit_and_pay_transactions_easily.png') }}" class="img-fluid w-30">
+									<p>Access financial support, including business loans, overdrafts, and invoice finance</p>
 								</div>
 							</div>
 
 							<div class="space-40" id="western_union_inward"></div>
-							<p class="remittance_inter_mobile_title">
-								Western Union (Inward) Worldwide 
+							<p class="calldeposit__mobile_title">
+								New Business Call
 							</p>
 							<div class="row" style="position: relative;">
-								<img src="{{ url('/images/remittance/inter/western_union_mobile.png') }}" class="img-fluid">
-								<p style="font-weight: 500;font-size: 18px;line-height: 22px;position: absolute;top: 70%;left: 4%;width: 90%;">Moving money for better with Western Union</p>
+								<img src="{{ url('/images/business/account-saving/call-deposit/new_business_call.png') }}" class="img-fluid">
+								<p style="font-weight: 500;font-size: 18px;line-height: 22px;position: absolute;top: 85%;left: 4%;width: 90%;">Maximize your excess cash</p>
 							</div>
 							<div class="row">
 								<div class="space-30"></div>
-								<p>Ease and fast service with Western Union!</p>
-								<p>It commits security and provides cross-border money transfer over 200 countries worldwide. Receivers in Myanmar can withdraw the funds at any of AYA branch in MMK currency. </p>
-
-								<div class="col-md-12 col-12">
-									<div class="row">
-										<div class="col-md-1 col-2" style="padding-top: 5px;">
-											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-										</div>
-										<div class="col-md-11 col-10 secure_credit_fact">
-											<p>100% cash out at any AYA Branches using the secure transaction code (i.e. 10 digits MTCN)</p>
-										</div>
-										<div class="col-md-1 col-2" style="padding-top: 5px;">
-											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-										</div>
-										<div class="col-md-11 col-10 secure_credit_fact">
-											<p>Cash out and credit to AYA’s Ngwe Toe Mae Shwe Oo account to earn higher interest</p>
-										</div>
-									</div>
+								<p>Designed to provide the tariff that best meets your business needs. A Call Deposit account suitable for businesses with cash-based transactions.</p>
+								<div class="col-1">
+									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
-							</div>
+								<div class="col-11">
+									<p>Offers deposit interest 6.0% per annum</p>
+								</div>
+								<div class="col-1">
+									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
+								</div>
+								<div class="col-11">
+									<p>Minimum account opening balance requirement is MMK 10,000</p>
+								</div>
 
-							<div class="space-40" id="ria_money_transfer_inward"></div>
-							<p class="remittance_inter_mobile_title">
-								Ria Money Transfer (Inward) Worldwide
-							</p>
-							<div class="row" style="position: relative;">
-								<img src="{{ url('/images/remittance/inter/ria_money_transfer_mobile.png') }}" class="img-fluid">
-								<p style="font-weight: 500;font-size: 18px;line-height: 22px;position: absolute;top: 80%;left: 4%;width: 90%;">Getting Money to Where it Matters</p>
-							</div>
-							<div class="row">
-								<div class="space-30"></div>
-								<p>International money transfer made Easy, Fast, Safe and Guaranteed. Compare and save to get low fees and great exchange rates on international money transfers to 165+ countries.</p>
+								<p class="fw-semibold text-center" style="font-size: 18px;">The Benefits</p>
 
-								<div class="col-md-12 col-12">
-									<div class="row">
-										<div class="col-md-1 col-2" style="padding-top: 5px;">
-											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-										</div>
-										<div class="col-md-11 col-10 secure_credit_fact">
-											<p>100% cash out at any AYA Branches using the secure transaction code (PIN)</p>
-										</div>
-										<div class="col-md-1 col-2" style="padding-top: 5px;">
-											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-										</div>
-										<div class="col-md-11 col-10 secure_credit_fact">
-											<p>Cash out and credit to AYA’s Ngwe Toe Mae Shwe Oo account to earn higher interest</p>
-										</div>
-									</div>
+								<div class="col-md-12 text-center">
+									<img src="{{ url('/images/business/account-saving/call-deposit/Opening_a_new_business_call_deposit_account.png') }}" class="img-fluid w-30">
+									<p>Opening a new business call deposit account is a relatively simple and straight-forward procedure</p>
+								</div>
+								<div class="col-md-12 text-center">
+									<img src="{{ url('/images/business/account-saving/call-deposit/Unlimited_cash_withdrawal.png') }}" class="img-fluid w-30">
+									<p>Unlimited cash withdrawal up to the deposited amount</p>
+								</div>
+								<div class="col-md-12 text-center">
+									<img src="{{ url('/images/business/account-saving/call-deposit/Receive_account_statement_digitally.png') }}" class="img-fluid w-30">
+									<p>Receive account statement digitally or at the branches</p>
 								</div>
 							</div>
 						</div>

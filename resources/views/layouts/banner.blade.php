@@ -1976,8 +1976,8 @@
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 170px;left: 25px;">
-						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Planning for <br><span style="color: #a02226;">your child's education <br>journey</span> with AYA</p>
+					<div style="position: absolute;top: 170px;left: 5px;">
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Planning for<Br><span style="color: #a02226;">your child's education <br>journey</span> with AYA</p>
 					</div>
 				</div>
 			</div>
