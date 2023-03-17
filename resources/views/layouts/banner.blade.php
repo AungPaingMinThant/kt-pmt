@@ -2173,3 +2173,73 @@
 		</div>
 	</div>
 @endif
+
+@if($page == 'bu_acc_sav_saving_deposit')
+	<div class="bu_acc_sav_saving_deposit_banner banner_bg" style="">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
+					<div class="bu_acc_sav_saving_deposit_banner_tagline">
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;"><span class="theme_text_color">Watch your savings grow </span><br>with business advantage</p>
+					</div>
+				</div>
+				<div class="col-md-6" style="text-align: right;">
+					<p></p>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 50px;left: 25px;right: 80px;">
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span class="theme_text_color">Watch your savings grow </span><br>with business advantage</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNT & SAVINGS&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">SAVING DEPOSIT</span>
+			</p>
+		</div>
+	</div>
+@endif
+
+@if($page == 'bu_acc_sav_fixed_deposit')
+	<div class="bu_acc_sav_fixed_deposit_banner banner_bg" style="">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
+					<div class="bu_acc_sav_fixed_deposit_banner_tagline">
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;"><span class="theme_text_color">Earn highest interest</span><br>and maximize returns for your business</p>
+					</div>
+				</div>
+				<div class="col-md-6" style="text-align: right;">
+					<p></p>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 50px;left: 150px;right: 20px;background-color: #ffffff96;padding: 20px;">
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span class="theme_text_color">Earn highest interest</span><br>and maximize returns for your business</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNT & SAVINGS&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">FIXED DEPOSIT</span>
+			</p>
+		</div>
+	</div>
+@endif

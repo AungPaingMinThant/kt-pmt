@@ -162,9 +162,6 @@
 
 @if($page == 'bu_acc_sav_call_deposit')
 	<div class="row">
-		<!-- <div class="col-md-4 tag_line">
-			<p style="font-size: 20px;">Lockers at branches are equipped with high security features</p>
-		</div> -->
 		<div class="col-md-10">
 			<p>Either you are a small business owner, trader, service provider, or merchant, you have a range of options when it comes to opening a business bank account. Manage your business funds your way in call deposit - a daily interest saving account which can be accessed at any time.</p>
 			<p>
@@ -173,7 +170,24 @@
 		</div>
 	</div>
 @endif
+
+@if($page == 'bu_acc_sav_saving_deposit')
+	<div class="row">
+		<div class="col-md-10">
+			<p>Having the right bank account will help improve cash flow management for your business. Select the business saving account to suit your business.</p>
+			<p class="mb-0">Only available to businesses registered in Myanmar.</p>
+			<p>
+				Manage your account either in a branch or through <a class="theme_text_color text-decoration-underline" href="https://corporate.ayaibanking.com/customer/portal" target="_blank">Corporate Internet Banking</a>.
+			</p>
+		</div>
+	</div>
+@endif
+
+@if($page == 'bu_acc_sav_current_deposit')
+	<div class="row">
+		<div class="col-md-10">
+			<p>AYA Bank offers current account for every entities such as large corporate, small entrepreneur, charitable association or professions for their financial transactions. Transferring funds and receiving money through various means (online, or via cheques, or pay orders) assured hassle-free and flexible.</p>
+		</div>
+	</div>
+@endif
 <div class="space-40"></div>
-
-
-

@@ -11,4 +11,19 @@ class CallDepositController extends Controller
     {
         return view('business.account-saving.call-deposit');
     }
+
+    public function savingDepositIndex()
+    {
+        return view('business.account-saving.saving-deposit');
+    }
+
+    public function currentDepositIndex()
+    {
+        return view('business.account-saving.current-deposit');   
+    }
+
+    public function fixedDepositIndex()
+    {
+        return view('business.account-saving.fixed-deposit');  
+    }
 }

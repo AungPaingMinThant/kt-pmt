@@ -281,6 +281,34 @@
     left: 0px;
     right: 120px;
 }
+.bu_acc_sav_saving_deposit_banner{
+	background-image:url('../images/business/account-saving/saving-deposit/KV.jpg');
+}
+.bu_acc_sav_saving_deposit_banner_tagline {
+	position: absolute;
+    top: 120px;
+    left: 0px;
+    right: 120px;
+}
+.bu_acc_sav_current_deposit_banner{
+	background-image:url('../images/business/account-saving/current-deposit/KV.jpg');
+}
+.bu_acc_sav_current_deposit_banner_tagline {
+	position: absolute;
+    top: 120px;
+    left: 0px;
+    right: 120px;
+}
+.bu_acc_sav_fixed_deposit_banner{
+	background-image:url('../images/business/account-saving/fixed-deposit/KV.jpg');
+}
+.bu_acc_sav_fixed_deposit_banner_tagline {
+	position: absolute;
+    top: 120px;
+    left: 40px;
+    right: 300px;
+}
+
 @media (max-width: 1550px) and (min-width: 577px) {
 	.creditcard_banner{
 		background-position: 60% center;
@@ -510,6 +538,30 @@
 		right: 40px;
 		left: 20px;
 	}
+	.bu_acc_sav_saving_deposit_banner{
+		background-position: 80% center;
+	}
+	.bu_acc_sav_saving_deposit_banner_tagline {
+		top: 80px;
+		right: 40px;
+		left: 20px;
+	}
+	.bu_acc_sav_current_deposit_banner{
+		background-position: 80% center;
+	}
+	.bu_acc_sav_current_deposit_banner_tagline {
+		top: 80px;
+		right: 40px;
+		left: 20px;
+	}
+	.bu_acc_sav_fixed_deposit_banner{
+		background-position: 80% center;
+	}
+	.bu_acc_sav_fixed_deposit_banner_tagline {
+		top: 120px;
+		right: 130px;
+		left: 20px;
+	}
 }
 @media only screen and (max-width: 576px) {
 	.mbanking_banner {
@@ -695,5 +747,17 @@
 	.bu_acc_sav_call_deposit_banner{
 		background-image:url('../images/business/account-saving/call-deposit/mobile_KV.jpg');
 		background-position: 70% center;
+	}
+	.bu_acc_sav_saving_deposit_banner{
+		background-image:url('../images/business/account-saving/saving-deposit/mobile_KV.jpg');
+		background-position: 90% center;
+	}
+	.bu_acc_sav_current_deposit_banner{
+		background-image:url('../images/business/account-saving/current-deposit/mobile_KV.jpg');
+		background-position: 90% center;
+	}
+	.bu_acc_sav_fixed_deposit_banner{
+		background-image:url('../images/business/account-saving/fixed-deposit/mobile_KV.jpg');
+		background-position: 30% center;
 	}
 }
