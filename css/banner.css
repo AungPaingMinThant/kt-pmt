@@ -296,7 +296,7 @@
 .bu_acc_sav_current_deposit_banner_tagline {
 	position: absolute;
     top: 120px;
-    left: 0px;
+    left: 60px;
     right: 120px;
 }
 .bu_acc_sav_fixed_deposit_banner{
@@ -552,7 +552,7 @@
 	.bu_acc_sav_current_deposit_banner_tagline {
 		top: 80px;
 		right: 40px;
-		left: 20px;
+		left: 60px;
 	}
 	.bu_acc_sav_fixed_deposit_banner{
 		background-position: 80% center;
@@ -754,7 +754,7 @@
 	}
 	.bu_acc_sav_current_deposit_banner{
 		background-image:url('../images/business/account-saving/current-deposit/mobile_KV.jpg');
-		background-position: 90% center;
+		background-position: 60% center;
 	}
 	.bu_acc_sav_fixed_deposit_banner{
 		background-image:url('../images/business/account-saving/fixed-deposit/mobile_KV.jpg');

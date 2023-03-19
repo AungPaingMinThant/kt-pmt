@@ -2215,7 +2215,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="bu_acc_sav_current_deposit_banner_tagline">
-						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;"><span class="theme_text_color">Watch your savings grow </span><br>with business advantage</p>
+						<p style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;"><span class="theme_text_color">Easy everyday banking</span><br> for businesses</p>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -2224,8 +2224,8 @@
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 50px;left: 25px;right: 80px;">
-						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span class="theme_text_color">Watch your savings grow </span><br>with business advantage</p>
+					<div style="position: absolute;top: 30px;left: 100px;right: 80px;">
+						<p style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span class="theme_text_color">Easy everyday banking</span><br> for businesses</p>
 					</div>
 				</div>
 			</div>
