@@ -305,8 +305,8 @@
 .bu_acc_sav_fixed_deposit_banner_tagline {
 	position: absolute;
     top: 120px;
-    left: 40px;
-    right: 300px;
+    left: 0px;
+    right: 250px;
 }
 
 @media (max-width: 1550px) and (min-width: 577px) {
