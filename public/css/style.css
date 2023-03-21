@@ -110,7 +110,10 @@
 	width: 40% !important;
 }
 .w-80 {
-	width: 80%;
+	width: 80% !important;
+}
+.w-90 {
+	width: 90% !important;
 }
 .mt-20 {
 	margin-top: 20px !important;

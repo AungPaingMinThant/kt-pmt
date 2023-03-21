@@ -18,7 +18,7 @@
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
 		<div class="layout-page">
-			@include('layouts.header', ['page'=>'personal_banking'])
+			@include('layouts.header', ['page'=>'business_banking'])
         	<div class="menu-overlay"></div>
 
 			@include('layouts.banner', ['page'=>'bu_acc_sav_fixed_deposit'])

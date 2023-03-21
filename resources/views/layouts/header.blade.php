@@ -109,7 +109,11 @@
 							@endif
 								<a class="nav-link" href="#">Personal Banking</a>
 							</li>
-							<li class="nav-item">
+							@if($page == 'business_banking')
+								<li class="nav-item active">
+							@else
+								<li class="nav-item">
+							@endif
 								<a class="nav-link" href="#">Business Banking</a>
 							</li>
 							@if($page == 'digital_services')

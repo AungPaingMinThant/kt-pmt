@@ -308,6 +308,24 @@
     left: 0px;
     right: 250px;
 }
+.bu_remittance_local_banner{
+	background-image:url('../images/business/remittance/local-payments/KV.jpg');
+}
+.bu_remittance_local_banner_tagline {
+	position: absolute;
+    top: 130px;
+    left: 60px;
+    right: 140px;
+}
+.bu_remittance_inter_banner{
+	background-image:url('../images/business/remittance/international-payments/KV.jpg');
+}
+.bu_remittance_inter_banner_tagline {
+	position: absolute;
+    top: 130px;
+    left: 60px;
+    right: 140px;
+}
 
 @media (max-width: 1550px) and (min-width: 577px) {
 	.creditcard_banner{
@@ -562,6 +580,22 @@
 		right: 130px;
 		left: 20px;
 	}
+	.bu_remittance_local_banner{
+		background-position: 80% center;
+	}
+	.bu_remittance_local_banner_tagline {
+		top: 60px;
+	    right: 90px;
+	    left: 20px;
+	}
+	.bu_remittance_inter_banner{
+		background-position: 80% center;
+	}
+	.bu_remittance_inter_banner_tagline {
+		top: 60px;
+	    right: 90px;
+	    left: 20px;
+	}
 }
 @media only screen and (max-width: 576px) {
 	.mbanking_banner {
@@ -760,4 +794,13 @@
 		background-image:url('../images/business/account-saving/fixed-deposit/mobile_KV.jpg');
 		background-position: 30% center;
 	}
+	.bu_remittance_local_banner{
+		background-image:url('../images/business/remittance/local-payments/mobile_KV.jpg');
+		background-position: 30% center;
+	}
+	.bu_remittance_inter_banner{
+		background-image:url('../images/business/remittance/international-payments/mobile_KV.jpg');
+		background-position: 30% center;
+	}
+	
 }

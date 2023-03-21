@@ -118,4 +118,7 @@ Route::get('/business/account-saving/call-deposit','App\Http\Controllers\Busines
 Route::get('/business/account-saving/saving-deposit','App\Http\Controllers\Business\AccountSaving\CallDepositController@savingDepositIndex');
 Route::get('/business/account-saving/current-deposit','App\Http\Controllers\Business\AccountSaving\CallDepositController@currentDepositIndex');
 Route::get('/business/account-saving/fixed-deposit','App\Http\Controllers\Business\AccountSaving\CallDepositController@fixedDepositIndex');
+
+Route::get('/business/remittance-payments/local-payments','App\Http\Controllers\Business\RemittanceController@localPaymentsIndex');
+Route::get('/business/remittance-payments/international-payments','App\Http\Controllers\Business\RemittanceController@internationalPaymentsIndex');
 // contact-us

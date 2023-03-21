@@ -24,6 +24,9 @@
             font-size: 14px;
             color: #2e2e2e !important;
         }
+        h1 {
+            font-family: 'Sora', sans-serif;
+        }
         .menu > .nav-item {            
             text-transform: uppercase !important;
             color: #222222 !important;
