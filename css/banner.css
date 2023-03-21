@@ -192,10 +192,10 @@
 }
 .remit_inter_tag_line_div {
 	position: absolute;
-	top: 130px;
+	top: 100px;
 	right: 0;
 }
-.remit_inter_tag_line_div > p {
+.remit_inter_tag_line_div > h1 {
 	font-size: 26px;
 	font-weight: 400;
 	margin-bottom: 0;
@@ -357,7 +357,7 @@
 		top: 100px;
 		right: 0;
 	}
-	.remit_inter_tag_line_div > p {
+	.remit_inter_tag_line_div > h1 {
 		padding-right: 50px;
 	}
 	.debitcard_banner{

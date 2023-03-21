@@ -1788,7 +1788,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="remit_inter_tag_line_div">
-						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 34px;">AYA International Remittance is <span style="color: #a02226;">secure and a quick way to send and receive money, across the global network.</span></h1>
+						<h1>AYA International Remittance is <span style="color: #a02226;">secure and a quick way to send and receive money, across the global network.</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
