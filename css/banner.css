@@ -326,6 +326,14 @@
     left: 60px;
     right: 140px;
 }
+.bu_borrowing_corporate_business_loan_banner{
+	background-image:url('../images/business/borrowing/corporate-business-loan/KV.jpg');
+}
+.bu_borrowing_corporate_business_loan_banner_tagline {
+	position: absolute;
+    top: 130px;
+    left: 60px;
+}
 
 @media (max-width: 1550px) and (min-width: 577px) {
 	.creditcard_banner{
@@ -596,6 +604,14 @@
 	    right: 90px;
 	    left: 20px;
 	}
+	.bu_borrowing_corporate_business_loan_banner{
+		background-position: 80% center;
+	}
+	.bu_borrowing_corporate_business_loan_banner_tagline {
+		top: 60px;
+	    right: 90px;
+	    left: 20px;
+	}
 }
 @media only screen and (max-width: 576px) {
 	.mbanking_banner {
@@ -796,11 +812,14 @@
 	}
 	.bu_remittance_local_banner{
 		background-image:url('../images/business/remittance/local-payments/mobile_KV.jpg');
-		background-position: 30% center;
+		background-position: 90% center;
 	}
 	.bu_remittance_inter_banner{
 		background-image:url('../images/business/remittance/international-payments/mobile_KV.jpg');
 		background-position: 30% center;
 	}
-	
+	.bu_borrowing_corporate_business_loan_banner{
+		background-image:url('../images/business/borrowing/corporate-business-loan/mobile_KV.jpg');
+		background-position: 30% center;
+	}
 }
