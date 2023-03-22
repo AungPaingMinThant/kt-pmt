@@ -62,6 +62,9 @@
 		.visit_us_col {
 			text-align: center;
 		}
+		.visit_us_div {
+			background-position: 97% center;
+		}
 	}
 </style>
 @section('content')
@@ -104,21 +107,45 @@
 					</div>
 
 					<div class="row why_use_AYA_outer" style="column-gap: 30px;">
-						<div class="col-md-4 outer_benefit_box benefit_section_col">
+						<div class="col-md-4 outer_benefit_box benefit_section_col d-none d-sm-block">
 							<div class="row">
 								<img src="{{ url('/images/business/remittance/international-payments/benefit_effiency.png') }}" class="img-fluid benefit_icon">
 								<p class="fw-semibold mb-0">Efficiency</p>
 								<p style="color: #4e4e4e;">Recipient is able to receive the funds quickly usually within 24 hours.</p>
 							</div>
 						</div>
-						<div class="col-md-4 outer_benefit_box benefit_section_col">
+						<div class="col-md-4 outer_benefit_box benefit_section_col d-none d-sm-block">
 							<div class="row">
 								<img src="{{ url('/images/business/remittance/international-payments/benefit_security.png') }}" class="img-fluid benefit_icon">
 								<p class="fw-semibold mb-0">Security</p>
 								<p style="color: #4e4e4e;">Practically no risk of loss as we use our correspondent banking relationship to conduct settlement.</p>
 							</div>
 						</div>
-						<div class="col-md-4 outer_benefit_box benefit_section_col">
+						<div class="col-md-4 outer_benefit_box benefit_section_col d-none d-sm-block">
+							<div class="row">
+								<img src="{{ url('/images/business/remittance/international-payments/benefit_reliability.png') }}" class="img-fluid benefit_icon">
+								<p class="fw-semibold mb-0">Reliability</p>
+								<p style="color: #4e4e4e;">It is reliable as we have necessary internal infrastructure. Communication is made through authenticate SWIFT platform to ensure that the transfer is executed in a timely fashion and to good order.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="why_use_AYA_outer">
+						<div class="col-md-12 outer_benefit_box benefit_section_col d-block d-sm-none">
+							<div class="row">
+								<img src="{{ url('/images/business/remittance/international-payments/benefit_effiency.png') }}" class="img-fluid benefit_icon">
+								<p class="fw-semibold mb-0">Efficiency</p>
+								<p style="color: #4e4e4e;">Recipient is able to receive the funds quickly usually within 24 hours.</p>
+							</div>
+						</div>
+						<div class="col-md-12 outer_benefit_box benefit_section_col d-block d-sm-none">
+							<div class="row">
+								<img src="{{ url('/images/business/remittance/international-payments/benefit_security.png') }}" class="img-fluid benefit_icon">
+								<p class="fw-semibold mb-0">Security</p>
+								<p style="color: #4e4e4e;">Practically no risk of loss as we use our correspondent banking relationship to conduct settlement.</p>
+							</div>
+						</div>
+						<div class="col-md-12 outer_benefit_box benefit_section_col d-block d-sm-none">
 							<div class="row">
 								<img src="{{ url('/images/business/remittance/international-payments/benefit_reliability.png') }}" class="img-fluid benefit_icon">
 								<p class="fw-semibold mb-0">Reliability</p>
@@ -133,17 +160,19 @@
 					</div>
 
 					<div class="space-20"></div>
-					<div class="row visit_us_div p-sm-4">
-						<div class="col-md-8 visit_us_col">
-							<p class="my-md-0 fw-semibold" style="font-size: 16px;">International Banking Department, AYA Bank Head office.</p>
-							<p class="my-md-0">Alternatively, you may submit the forms at your nearest branches.</p>
-						</div>
-						<div class="col-md-4 visit_us_col text-right">
-							<a href="#" target="_blank">
-								<button class="btn visit_us_btn">
-									Visit Us
-								</button>
-							</a>
+					<div class="visit_us_div p-sm-4">
+						<div class="row">
+							<div class="col-md-8 visit_us_col">
+								<p class="my-md-0 fw-semibold" style="font-size: 16px;">International Banking Department, AYA Bank Head office.</p>
+								<p class="my-md-0">Alternatively, you may submit the forms at your nearest branches.</p>
+							</div>
+							<div class="col-md-4 visit_us_col text-right">
+								<a href="#" target="_blank">
+									<button class="btn visit_us_btn">
+										Visit Us
+									</button>
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>

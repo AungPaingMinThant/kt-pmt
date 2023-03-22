@@ -198,6 +198,36 @@
 	.modal .modal-dialog:not(.modal-fullscreen) {
 		padding: 0px !important;
 	}
+	.cash_withdraw_mmk_div {
+		position: relative;
+	}
+	/*.cash_withdraw_mmk_overlay {
+		position: absolute;
+	    bottom: 0;
+	    background: rgb(0, 0, 0);
+	    background: rgba(0, 0, 0, 0.8);
+	    color: #f1f1f1;
+	    width: 94%;
+	    transition: .5s ease;
+	    opacity: 0;
+	    color: white;
+	    font-size: 20px;
+	    padding: 90px 20px;
+	    text-align: center;
+	    top: 0;
+	    height: 76%;
+	    border-radius: 10px;
+	}
+	.cash_withdraw_mmk_div:hover .cash_withdraw_mmk_overlay {
+		opacity: 1;
+		cursor: pointer;
+	}
+	.cash_withdraw_mmk_div:hover .cash_withdraw_mmk_text {
+		display: none;
+	}*/
+
+	
+
 	@media (max-width: 1300px) and (min-width: 577px) {
 		.why_use_AYA_outer > .col-md-6 {
 			width: 47%;
@@ -241,9 +271,6 @@
 		.services_overview_div{
 			padding-left: 15px !important;
 		}
-		/*.swiper_div {
-			padding-left: 40px !important;
-		}*/
 		.slide-content-available > .swiper-wrapper {
 			height: 90% !important;
 		}
@@ -281,9 +308,10 @@
 						<h3 style="color: #1d1d1f;">Available ATM Card Services</h3>
 					</div>
 					<div class="space-20"></div>
-					<div class="col-md-4 col-sm-12" id="cash_withdraw_mmk_div">
+					<div class="col-md-4 col-sm-12 cash_withdraw_mmk_div" id="cash_withdraw_mmk_div">
 						<img src="{{ url('/images/atm/cash_withdraw_mmk.png') }}" class="img-fluid">
-						<p style="padding: 20px 0px;font-weight: 500;">Cash Withdrawal (MMK)</p>
+						<p class="fw-500 cash_withdraw_mmk_text" style="padding: 20px 0px;">Cash Withdrawal (MMK)</p>
+						<!-- <div class="cash_withdraw_mmk_overlay">Cash Withdrawal (MMK)</div> -->
 					</div>
 					<div class="col-md-4 col-sm-12" id="quick_cash_withdrawal_div">
 						<img src="{{ url('/images/atm/fast_cash_withdrawl.png') }}" class="img-fluid">
@@ -1417,6 +1445,10 @@
 @include('layouts.footer', ['page'=>'mobilebanking'])
 <script src="{{ url('/js/swiper-bundle.min.js') }}"></script>
 <script type="text/javascript">
+	$("#cash_withdraw_mmk_div").hover(function() {
+		
+	});
+
 	$("#cash_withdraw_mmk_div").click(function(){
 		var cash_withdraw_mmk_swiper = new Swiper(".slide-content-cash-withdraw-mmk", {
 			slidesPerView: 2,

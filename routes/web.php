@@ -121,4 +121,9 @@ Route::get('/business/account-saving/fixed-deposit','App\Http\Controllers\Busine
 
 Route::get('/business/remittance-payments/local-payments','App\Http\Controllers\Business\RemittanceController@localPaymentsIndex');
 Route::get('/business/remittance-payments/international-payments','App\Http\Controllers\Business\RemittanceController@internationalPaymentsIndex');
+
+Route::get('/business/borrowing/corporate-business-loan','App\Http\Controllers\Business\BorrowingController@corporateBusinessLoanIndex');
+Route::get('/business/borrowing/hire-purchase','App\Http\Controllers\Business\BorrowingController@hirePurchaseIndex');
+Route::get('/business/borrowing/sme','App\Http\Controllers\Business\BorrowingController@SMEIndex');
+
 // contact-us
