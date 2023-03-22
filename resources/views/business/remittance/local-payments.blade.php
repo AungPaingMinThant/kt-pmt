@@ -147,6 +147,9 @@
 		.create_payment_order_col {
 			text-align: center;
 		}
+		.visit_us_div {
+			background-position: 97% center;
+		}
 	}
 </style>
 @section('content')
