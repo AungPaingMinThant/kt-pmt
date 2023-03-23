@@ -2318,7 +2318,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="bu_borrowing_corporate_business_loan_banner_tagline">
-						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;"><span class="theme_text_color">Drive your business forward <br>and explore</span> what you can expect <Br>when borrow from us</h1>
+						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;"><span class="theme_text_color">Drive your business forward <br>and explore</span> what you can expect when borrow from us</h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -2327,7 +2327,7 @@
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 30px;left: 80px;right: 20px;">
+					<div style="position: absolute;top: 20px;left: 70px;right: 20px;">
 						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span class="theme_text_color">Drive your business forward and explore</span> what you can expect when borrow from us</h1>
 					</div>
 				</div>

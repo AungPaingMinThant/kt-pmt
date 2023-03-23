@@ -97,6 +97,9 @@
 .w-13 {
     width: 13% !important;
 }
+.w-17 {
+    width: 17% !important;
+}
 .w-20 {
 	width: 20% !important;
 }
@@ -180,6 +183,12 @@
 }
 .b-b-l-radius-10 {
 	border-bottom-left-radius: 10px;
+}
+
+@media (max-width: 1300px) and (min-width: 1000px) {
+	.pt-30 {
+	    padding-top: 10px !important;
+	}
 }
 
 @media  only screen and (max-width: 576px) {

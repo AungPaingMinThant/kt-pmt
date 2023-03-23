@@ -72,12 +72,17 @@
 		font-weight: 500;
 		font-size: 20px;
 		line-height: 24px;
+		width: 58% !important;
 		position: absolute;
 		top: 80%;
 		left: 4%;
 	}
 	.franchise_financing_tagline {
+		width: 70% !important;
 		top: 85%;
+	}
+	.trade_financing_tagline {
+		width: 90% !important;
 	}
 	.contact_us_btn {
 		background-color: #ae071d !important;
@@ -94,19 +99,53 @@
 	.c-b-l-icon {
 		width: 80% !important;
 	}
-	.CAPEX_fee_charge_table {
-		width: 70%;
+	.fee_charge_table {
+		width: 70% !important;
 	}
-	@media (max-width: 1300px) and (min-width: 1000px) {
+	@media (max-width: 1400px) and (min-width: 1271px) {
 		.capex_financing_tagline{
-			width: 60% !important;
+			width: 42% !important;
+		    top: 75%;
+		}
+		.project_loan_tagline {
+			width: 65% !important;
+		}
+		.franchise_financing_tagline {
+   			width: 80% !important;
+   		}
+	}
+	@media (max-width: 1270px) and (min-width: 1000px) {
+		.capex_financing_tagline{
+			width: 50% !important;
+			top: 75%;
+		}
+		.working_capital_financing_tagline {
+		    width: 90% !important;
+		    top: 75%;
 		}
 		.demand_loan_tagline {
-			width: 45% !important;
+			width:80% !important;
+			top: 75%;
+		}
+		.project_loan_tagline{
+			width: 80% !important;
+		    top: 75%;
+		}
+		.franchise_financing_tagline {
+		    width: 100% !important;
+		    top: 85%;
+		}
+		.trade_financing_tagline {
 			top: 75%;
 		}
 		.bullet_square {
 			width: 20%;
+		}
+		.c-b-l-icon {
+			width: 100% !important;
+		}
+		.fee_charge_table {
+		    width: 100% !important;
 		}
 	}
 	@media only screen and (max-width: 576px){
@@ -120,9 +159,13 @@
 		.bullet_square {
 			width: 60%;
 		}
+		.capex_financing_tagline, .demand_loan_tagline, .working_capital_financing_tagline, .project_loan_tagline, .franchise_financing_tagline, .trade_financing_tagline {
+			font-size: 18px;
+		    line-height: 22px;
+		}
 		.capex_financing_tagline {
 			width: 60% !important;
-			top: 20%;
+			top: 45%;
 		}
 		.c-b-l-icon {
 			width: 25% !important;
@@ -131,8 +174,28 @@
 		.c-b-l-div {
 			text-align: center;
 		}
-		.CAPEX_fee_charge_table {
-			width: 100%;
+		.fee_charge_table {
+			width: 100% !important;
+		}
+		.working_capital_financing_tagline {
+		    width: 90% !important;
+		    top: 52%;
+		    left: 4%;
+		}
+		.demand_loan_tagline {
+			width: 90% !important;
+		    top: 65%;
+		}
+		.project_loan_tagline {
+			width: 92% !important;
+		    top: 50%;
+		}
+		.franchise_financing_tagline{
+			top: 65%;
+			width: 90% !important;
+		}
+		.trade_financing_tagline {
+			top: 50%;
 		}
 	}
 </style>
@@ -240,26 +303,32 @@
 
 									<p class="fw-semibold" style="font-size: 17px;">Features and Benefits</p>
 
-									<div class="col-md-2 c-b-l-div">
-										<img src="{{ url('/images/business/borrowing/corporate-business-loan/maximum_loan_tenor_12_months.png') }}" class="img-fluid c-b-l-icon">
-									</div>
-									<div class="col-md-10 c-b-l-div pt-30">
-										<p>Maximum Loan Tenor: 12 months from the date of drawdown</p>
-									</div>
-									<div class="col-md-2 c-b-l-div">
-										<img src="{{ url('/images/business/borrowing/corporate-business-loan/CAPEX_share_securities.png') }}" class="img-fluid c-b-l-icon">
-									</div>
-									<div class="col-md-10 c-b-l-div pt-30">
-										<p>It can be considered under business loans, trade advances, inventory funding, loans against share & securities etc. This would be reviewed from time to time by the Credit Committee.</p>
-									</div>
+									<table class="table table-borderless" cellspacing="0">
+										<tr>
+											<td class="w-17">
+												<img src="{{ url('/images/business/borrowing/corporate-business-loan/maximum_loan_tenor_12_months.png') }}" class="img-fluid c-b-l-icon">
+											</td>
+											<td>
+												<p>Maximum Loan Tenor: 12 months from the date of drawdown</p>
+											</td>
+										</tr>
+										<tr>
+											<td class="w-17">
+												<img src="{{ url('/images/business/borrowing/corporate-business-loan/CAPEX_share_securities.png') }}" class="img-fluid c-b-l-icon">
+											</td>
+											<td>
+												<p class="w-80">It can be considered under business loans, trade advances, inventory funding, loans against share & securities etc. This would be reviewed from time to time by the Credit Committee.</p>
+											</td>
+										</tr>
+									</table>
 
 									<div class="space-20"></div>
 
 									<div class="col-md-12">
 										<p class="fw-semibold" style="font-size: 17px;">Fees and Charges</p>
 										<div class="space-10"></div>
-										<table class="table table-bordered CAPEX_fee_charge_table">
-											<tbody style="box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%);border-bottom-right-radius: 10px;font-weight: 500;background-color: transparent;">
+										<table class="table table-bordered fee_charge_table">
+											<tbody style="box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%);font-weight: 500;background-color: transparent;">
 												<tr style="background-color: #fff;border-top: none;">
 													<td style="border-left: none;padding: 20px;">Interest rate</td>
 													<td style="border-right: none;">9% - 14.5% per annum</td>
@@ -272,9 +341,9 @@
 													<td style="border-left: none;padding: 20px;">Default fee</td>
 													<td style="border-right: none;">2% per month</td>
 												</tr>
-												<tr style="background-color: #fff;border-bottom-right-radius: 10px;border-bottom: none;">
+												<tr style="background-color: #fff;border-bottom: none;">
 													<td style="border-width: 1px;border-bottom: none;border-left: none;padding: 20px;">Penalty fee</td>
-													<td class="last" style="border-width: 1px;border-bottom-right-radius: 10px;border-right: none;border-bottom: none;">2% per month</td>
+													<td class="last" style="border-width: 1px;border-right: none;border-bottom: none;">2% per month</td>
 												</tr>
 											</tbody>
 										</table>
@@ -286,7 +355,8 @@
 									Working Capital Financing (Overdraft – OD)
 								</p>
 								<div class="row" style="position: relative;">
-									<img src="{{ url('/images/business/borrowing/corporate-business-loan/working_capital_financing_OD.png') }}" class="img-fluid">
+									<img src="{{ url('/images/business/borrowing/corporate-business-loan/working_capital_financing_OD.png') }}" class="img-fluid d-none d-sm-block">
+									<img src="{{ url('/images/business/borrowing/corporate-business-loan/working_capital_financing_OD_mobile.png') }}" class="img-fluid d-block d-sm-none">
 									<p class="working_capital_financing_tagline">Do you have ongoing working capital requirements?<br>You are at the right place!</p>
 								</div>
 								<div class="row">
@@ -299,37 +369,43 @@
 									<p class="fw-semibold mb-0" style="font-size: 17px;">Features and Benefits</p>
 									<p>Best suited for businesses with inconsistent cash flow.</p>
 
-									<div class="col-md-2">
-										<img src="{{ url('/images/business/borrowing/corporate-business-loan/loan_tenure_1_year.png') }}" class="img-fluid c-b-l-icon">
-									</div>
-									<div class="col-md-10 pt-30">
-										<p>Loan Tenure: 1 year (Yearly renewal)</p>
-									</div>
-									<div class="col-md-2">
-										<img src="{{ url('/images/business/borrowing/corporate-business-loan/calculation_interest_rate.png') }}" class="img-fluid c-b-l-icon">
-									</div>
-									<div class="col-md-10 pt-30">
-										<p>Calculation of interest rate is based on the utilization of loan amount</p>
-									</div>
+									<table class="table table-borderless" cellspacing="0">
+										<tr>
+											<td class="w-17">
+												<img src="{{ url('/images/business/borrowing/corporate-business-loan/loan_tenure_1_year.png') }}" class="img-fluid c-b-l-icon">
+											</td>
+											<td>
+												<p>Loan Tenure: 1 year (Yearly renewal)</p>
+											</td>
+										</tr>
+										<tr>
+											<td class="w-17">
+												<img src="{{ url('/images/business/borrowing/corporate-business-loan/calculation_interest_rate.png') }}" class="img-fluid c-b-l-icon">
+											</td>
+											<td>
+												<p class="w-80">Calculation of interest rate is based on the utilization of loan amount</p>
+											</td>
+										</tr>
+									</table>
 
 									<div class="space-20"></div>
 
 									<div class="col-md-12">
 										<p class="fw-semibold" style="font-size: 17px;">Fees and Charges</p>
 										<div class="space-10"></div>
-										<table class="table table-bordered" style="width: 70%;">
-											<tbody style="box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%);border-bottom-right-radius: 10px;font-weight: 500;background-color: transparent;">
+										<table class="table table-bordered fee_charge_table">
+											<tbody style="box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%);font-weight: 500;background-color: transparent;">
 												<tr style="background-color: #fff;border-top: none;">
-													<td class="w-30" style="border-left: none;padding: 20px;">Service Fee</td>
+													<td class="w-40" style="border-left: none;padding: 20px;">Service Fee</td>
 													<td style="border-right: none;">0% - 1% per annum</td>
 												</tr>
 												<tr style="background-color: #fff;border-top: none;">
 													<td style="border-left: none;padding: 20px;">Commitment Fee</td>
 													<td style="border-right: none;">1% (based on the unutilized portion which is under the 80% of the loan amount)</td>
 												</tr>
-												<tr style="background-color: #fff;border-bottom-right-radius: 10px;border-bottom: none;">
+												<tr style="background-color: #fff;border-bottom: none;">
 													<td style="border-width: 1px;border-bottom: none;border-left: none;padding: 20px;">Interest rate</td>
-													<td class="last" style="border-width: 1px;border-bottom-right-radius: 10px;border-right: none;border-bottom: none;">8% - 9% per annum</td>
+													<td class="last" style="border-width: 1px;border-right: none;border-bottom: none;">8% - 9% per annum</td>
 												</tr>
 											</tbody>
 										</table>
@@ -342,7 +418,7 @@
 								</p>
 								<div class="row" style="position: relative;">
 									<img src="{{ url('/images/business/borrowing/corporate-business-loan/demand_loan.png') }}" class="img-fluid">
-									<p class="demand_loan_tagline">Enjoy convenience of demanding repayment <br>at any time</p>
+									<p class="demand_loan_tagline">Enjoy convenience of demanding repayment at any time</p>
 								</div>
 								<div class="row">
 									<div class="space-30"></div>
@@ -351,40 +427,50 @@
 
 									<p class="fw-semibold mb-0" style="font-size: 17px;">Features and Benefits</p>
 
-									<div class="col-md-2">
-										<img src="{{ url('/images/business/borrowing/corporate-business-loan/loan_tenor_3_year.png') }}" class="img-fluid c-b-l-icon">
-									</div>
-									<div class="col-md-10 pt-30">
-										<p>Loan Tenor is up to 3 years</p>
-									</div>
-									<div class="col-md-2">
-										<img src="{{ url('/images/business/borrowing/corporate-business-loan/loan_amount.png') }}" class="img-fluid c-b-l-icon">
-									</div>
-									<div class="col-md-10 pt-30">
-										<p>Loan amount is up to MMK 1 billion for SME, starting from MMK 1 billion for corporates</p>
-									</div>
-									<div class="col-md-2">
-										<img src="{{ url('/images/business/borrowing/corporate-business-loan/CAPEX_share_securities.png') }}" class="img-fluid c-b-l-icon">
-									</div>
-									<div class="col-md-10 pt-30">
-										<p>It can be considered under business loans, trade advances, inventory funding, loans against share & securities etc. (subject to be reviewed by the Credit Committee)</p>
-									</div>
-									<div class="col-md-2">
-										<img src="{{ url('/images/business/borrowing/corporate-business-loan/repayment.png') }}" class="img-fluid c-b-l-icon">
-									</div>
-									<div class="col-md-10 pt-30">
-										<p>You can apply for either short, medium or long term which do not have a fixed repayment date and carry a floating interest rate varying according to the prime date.</p>
-									</div>
+									<table class="table table-borderless" cellspacing="0">
+										<tr>
+											<td class="w-17">
+												<img src="{{ url('/images/business/borrowing/corporate-business-loan/loan_tenor_3_year.png') }}" class="img-fluid c-b-l-icon">
+											</td>
+											<td>
+												<p>Loan Tenor is up to 3 years</p>
+											</td>
+										</tr>
+										<tr>
+											<td class="w-17">
+												<img src="{{ url('/images/business/borrowing/corporate-business-loan/loan_amount.png') }}" class="img-fluid c-b-l-icon">
+											</td>
+											<td>
+												<p>Loan amount is up to MMK 1 billion for SME, starting from MMK 1 billion for corporates</p>
+											</td>
+										</tr>
+										<tr>
+											<td class="w-17">
+												<img src="{{ url('/images/business/borrowing/corporate-business-loan/CAPEX_share_securities.png') }}" class="img-fluid c-b-l-icon">
+											</td>
+											<td>
+												<p>It can be considered under business loans, trade advances, inventory funding, loans against share & securities etc. (subject to be reviewed by the Credit Committee)</p>
+											</td>
+										</tr>
+										<tr>
+											<td class="w-17">
+												<img src="{{ url('/images/business/borrowing/corporate-business-loan/repayment.png') }}" class="img-fluid c-b-l-icon">
+											</td>
+											<td>
+												<p>You can apply for either short, medium or long term which do not have a fixed repayment date and carry a floating interest rate varying according to the prime date.</p>
+											</td>
+										</tr>
+									</table>
 
 									<div class="space-20"></div>
 
 									<div class="col-md-12">
 										<p class="fw-semibold" style="font-size: 17px;">Fees and Charges</p>
 										<div class="space-10"></div>
-										<table class="table table-bordered" style="width: 70%;">
-											<tbody style="box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%);border-bottom-right-radius: 10px;font-weight: 500;background-color: transparent;">
+										<table class="table table-bordered fee_charge_table">
+											<tbody style="box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%);font-weight: 500;background-color: transparent;">
 												<tr style="background-color: #fff;border-top: none;">
-													<td style="border-left: none;padding: 20px;">Interest rate</td>
+													<td class="w-30" style="border-left: none;padding: 20px;">Interest rate</td>
 													<td style="border-right: none;">10% - 14.5% per annum for SME, 9% - 14.5% per annum for corporates</td>
 												</tr>
 												<tr style="background-color: #fff;border-top: none;">
@@ -395,9 +481,9 @@
 													<td style="border-left: none;padding: 20px;">Default fee</td>
 													<td style="border-right: none;">2% per month (applicable to SME and corporate)</td>
 												</tr>
-												<tr style="background-color: #fff;border-bottom-right-radius: 10px;border-bottom: none;">
+												<tr style="background-color: #fff;border-bottom: none;">
 													<td style="border-width: 1px;border-bottom: none;border-left: none;padding: 20px;">Penalty fee</td>
-													<td class="last" style="border-width: 1px;border-bottom-right-radius: 10px;border-right: none;border-bottom: none;">2% per month (applicable to SME and corporate)</td>
+													<td class="last" style="border-width: 1px;border-right: none;border-bottom: none;">2% per month (applicable to SME and corporate)</td>
 												</tr>
 											</tbody>
 										</table>
@@ -410,7 +496,7 @@
 								</p>
 								<div class="row" style="position: relative;">
 									<img src="{{ url('/images/business/borrowing/corporate-business-loan/project_loan.png') }}" class="img-fluid">
-									<p class="project_loan_tagline">Providing a path to infrastructural solutions <br>with smooth banking experience </p>
+									<p class="project_loan_tagline">Providing a path to infrastructural solutions with smooth banking experience </p>
 								</div>
 								<div class="row">
 									<div class="space-30"></div>
@@ -419,39 +505,47 @@
 
 									<p class="fw-semibold mb-0" style="font-size: 17px;">Features and Benefits</p>
 
-									<div class="col-md-2">
-										<img src="{{ url('/images/business/borrowing/corporate-business-loan/easy_efficient_application.png') }}" class="img-fluid c-b-l-icon">
-									</div>
-									<div class="col-md-9 pt-30">
-										<p>Easy and efficient application to increase the source of funds whenever you require</p>
-									</div>
-									<div class="col-md-2">
-										<img src="{{ url('/images/business/borrowing/corporate-business-loan/able_to_maintain.png') }}" class="img-fluid c-b-l-icon">
-									</div>
-									<div class="col-md-9 pt-30">
-										<p>Able to maintain a competitive advantage in the market and opportunity of risk sharing</p>
-									</div>
-									<div class="col-md-2">
-										<img src="{{ url('/images/business/borrowing/corporate-business-loan/extend_debt_capacity.png') }}" class="img-fluid c-b-l-icon">
-									</div>
-									<div class="col-md-9 pt-30">
-										<p>Can extend the debt capacity with the release of free cash flows</p>
-									</div>
+									<table class="table table-borderless" cellspacing="0">
+										<tr>
+											<td class="w-17">
+												<img src="{{ url('/images/business/borrowing/corporate-business-loan/easy_efficient_application.png') }}" class="img-fluid c-b-l-icon">
+											</td>
+											<td>
+												<p>Easy and efficient application to increase the source of funds whenever you require</p>
+											</td>
+										</tr>
+										<tr>
+											<td class="w-17">
+												<img src="{{ url('/images/business/borrowing/corporate-business-loan/able_to_maintain.png') }}" class="img-fluid c-b-l-icon">
+											</td>
+											<td>
+												<p>Able to maintain a competitive advantage in the market and opportunity of risk sharing</p>
+											</td>
+										</tr>
+										<tr>
+											<td class="w-17">
+												<img src="{{ url('/images/business/borrowing/corporate-business-loan/extend_debt_capacity.png') }}" class="img-fluid c-b-l-icon">
+											</td>
+											<td>
+												<p>Can extend the debt capacity with the release of free cash flows</p>
+											</td>
+										</tr>
+									</table>
 
 									<div class="space-20"></div>
 
 									<div class="col-md-12">
 										<p class="fw-semibold" style="font-size: 17px;">Fees and Charges</p>
 										<div class="space-10"></div>
-										<table class="table table-bordered" style="width: 70%;">
-											<tbody style="box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%);border-bottom-right-radius: 10px;font-weight: 500;background-color: transparent;">
+										<table class="table table-bordered fee_charge_table">
+											<tbody style="box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%);font-weight: 500;background-color: transparent;">
 												<tr style="background-color: #fff;border-top: none;">
 													<td style="border-left: none;padding: 20px;">Affordable interest rate</td>
 													<td style="border-right: none;">only 13% per annum</td>
 												</tr>
-												<tr style="background-color: #fff;border-bottom-right-radius: 10px;border-bottom: none;">
+												<tr style="background-color: #fff;border-bottom: none;">
 													<td style="border-width: 1px;border-bottom: none;border-left: none;padding: 20px;">Reasonable service fee</td>
-													<td class="last" style="border-width: 1px;border-bottom-right-radius: 10px;border-right: none;border-bottom: none;">1.5% per annum on pro-rata basis</td>
+													<td class="last" style="border-width: 1px;border-right: none;border-bottom: none;">1.5% per annum on pro-rata basis</td>
 												</tr>
 											</tbody>
 										</table>
@@ -463,7 +557,8 @@
 									Franchise Financing
 								</p>
 								<div class="row" style="position: relative;">
-									<img src="{{ url('/images/business/borrowing/corporate-business-loan/franchise_financing.png') }}" class="img-fluid">
+									<img src="{{ url('/images/business/borrowing/corporate-business-loan/franchise_financing.png') }}" class="img-fluid d-none d-sm-block">
+									<img src="{{ url('/images/business/borrowing/corporate-business-loan/franchise_financing_mobile.png') }}" class="img-fluid d-block d-sm-none">
 									<p class="franchise_financing_tagline">Get simple, fast financing for your franchise business</p>
 								</div>
 								<div class="row">
@@ -477,7 +572,8 @@
 								</p>
 								<div class="row" style="position: relative;">
 									<img src="{{ url('/images/business/borrowing/corporate-business-loan/trade_financing.png') }}" class="img-fluid">
-									<p class="trade_financing_tagline">Looking for the solution to be a player<br>on the international trade and commerce stage?</p>
+									<p class="trade_financing_tagline d-none d-sm-block">Looking for the solution to be a player<br>on the international trade and commerce stage?</p>
+									<p class="trade_financing_tagline d-block d-sm-none">Looking for the solution to be a player on the international trade and commerce stage?</p>
 								</div>
 								<div class="row">
 									<div class="space-30"></div>
@@ -488,154 +584,12 @@
 
 								<div class="space-40"></div>
 								<div class="">
-									<div class="col-md-12" style="background-color: #f2f2f2;padding: 20px 20px 20px 30px;border-radius: 5px;">
+									<div class="col-md-12 c-b-l-div" style="background-color: #f2f2f2;padding: 20px 20px 20px 30px;border-radius: 5px;">
 										<p style="font-weight: 600;font-size: 16px;">Have any questions?</p>
-										<a href="{{ url('/file/business/borrowing/Enquiry Form.docx') }}" target="_blank">
+										<a href="#" target="_blank">
 											<button class="btn contact_us_btn">Contact Us</button>
 										</a>
 									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-12 d-block d-sm-none">
-					<div class="row">
-						<div class="col-md-12">
-							<p class="calldeposit__mobile_title">
-								CAPEX Financing / Assets Acquisition Financing
-							</p>
-							<div class="row" style="position: relative;">
-								<img src="{{ url('/images/business/borrowing/corporate-business-loan/working_capital_financing_OD.png') }}" class="img-fluid">
-								<p style="color:#fff;font-weight: 500;font-size: 16px;line-height: 22px;position: absolute;top: 70%;left: 2%;width: 100%;">Open a Current Account to increase efficiency and transparency of business transactions</p>
-							</div>
-							<div class="row">
-								<div class="space-30"></div>
-								<p>The simple current account that provides your business with an accurate record of transactions. It allows your business the flexibility to carry out a large number of transactions while offering services built specifically for business needs.</p>
-								<div class="col-1">
-									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
-								</div>
-								<div class="col-11">
-									<p>Initial deposit requires MMK 10,000 for minimum</p>
-								</div>
-								<div class="col-1">
-									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
-								</div>
-								<div class="col-11">
-									<p>Enabling Interbank payments and SWIFT Telegraphic transfer</p>
-								</div>
-								<div class="col-1">
-									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
-								</div>
-								<div class="col-11">
-									<p>Manage payroll and supplier payments via online banking or cheque</p>
-								</div>
-								<div class="col-1">
-									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
-								</div>
-								<div class="col-11">
-									<p>No annual or monthly maintenance fee</p>
-								</div>
-
-								<p class="fw-semibold text-center" style="font-size: 18px;">The Benefits</p>
-
-								<div class="col-md-12 text-center">
-									<img src="{{ url('/images/business/borrowing/corporate-business-loan/anytime_withdrawal_facility.png') }}" class="img-fluid w-30">
-									<p>Any time withdrawal facility to meet the business needs</p>
-								</div>
-								<div class="col-md-12 text-center">
-									<img src="{{ url('/images/business/borrowing/corporate-business-loan/seamless_transfer.png') }}" class="img-fluid w-30">
-									<p>Seamless transfers: Link your business accounts so you can transfer funds with ease and speed</p>
-								</div>
-								<div class="col-md-12 text-center">
-									<img src="{{ url('/images/business/borrowing/corporate-business-loan/Receive_or_pay_bills.png') }}" class="img-fluid w-30">
-									<p>Provides batch transfer for both payroll and supplier payments through online banking</p>
-								</div>
-							</div>
-
-							<div class="space-40"></div>
-							<p class="calldeposit__mobile_title">
-								Working Capital Financing (Overdraft – OD)
-							</p>
-							<div class="row" style="position: relative;">
-								<img src="{{ url('/images/business/borrowing/corporate-business-loan/working_capital_financing.png') }}" class="img-fluid">
-								<p style="color:#fff;font-weight: 500;font-size: 16px;line-height: 22px;position: absolute;top: 70%;left: 4%;width: 90%;">Cash Deposit or withdraw to coincide with cash requirements of your business</p>
-							</div>
-							<div class="row">
-								<div class="space-30"></div>
-								<p>Designed for businesses which require to transact frequently and able to link with New Business Call Account.</p>
-
-								<div class="col-1">
-									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
-								</div>
-								<div class="col-11">
-									<p>Initial cash deposit requires MMK 10,000 for minimum</p>
-								</div>
-								<div class="col-1">
-									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
-								</div>
-								<div class="col-11">
-									<p>Enabling Interbank payments and SWIFT Telegraphic transfer </p>
-								</div>
-								<div class="col-1">
-									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
-								</div>
-								<div class="col-11">
-									<p>Manage payroll and supplier payments via online banking or cheque </p>
-								</div>
-								<div class="col-1">
-									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
-								</div>
-								<div class="col-11">
-									<p>No annual or monthly maintenance fee </p>
-								</div>
-
-								<p class="fw-semibold text-center" style="font-size: 18px;">The Benefits</p>
-
-								<div class="col-md-12 text-center">
-									<img src="{{ url('/images/business/borrowing/corporate-business-loan/Unlimited_cash_withdrawal.png') }}" class="img-fluid w-30">
-									<p>Unlimited cash deposit or withdrawal in a month to meet the cash requirement of the business</p>
-								</div>
-								<div class="col-md-12 text-center">
-									<img src="{{ url('/images/business/borrowing/corporate-business-loan/make_your_business_everyday_banking_easier.png') }}" class="img-fluid w-30">
-									<p>Make your business’ everyday banking easier to coincide with your business needs</p>
-								</div>
-							</div>
-
-							<div class="space-40" id="western_union_inward"></div>
-							<p class="calldeposit__mobile_title">
-								Demand Loan
-							</p>
-							<div class="row" style="position: relative;">
-								<img src="{{ url('/images/business/borrowing/corporate-business-loan/demand_loan.png') }}" class="img-fluid">
-								<p style="color:#fff;font-weight: 500;font-size: 18px;line-height: 22px;position: absolute;top: 70%;left: 4%;width: 90%;">Mange foreign currency payments efficiently</p>
-							</div>
-							<div class="row">
-								<div class="space-30"></div>
-								<p>Designed to meet the requirements of regular businesses, corporate firms, importers, and exporters receiving and making payments in foreign currencies.</p>
-								<div class="col-1">
-									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
-								</div>
-								<div class="col-11">
-									<p>Open account in United States Dollar, Euro, Singapore Dollar, Chinese Yuan or Thai Baht</p>
-								</div>
-								<div class="col-1">
-									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
-								</div>
-								<div class="col-11">
-									<p>Suitable for business with international trade payment or any foreign currency payments</p>
-								</div>
-
-								<p class="fw-semibold text-center" style="font-size: 18px;">The Benefits</p>
-
-								<div class="col-md-12 text-center">
-									<img src="{{ url('/images/business/borrowing/corporate-business-loan/transact_SWIFT_Telegraphic_transfer.png') }}" class="img-fluid w-30">
-									<p>Transact SWIFT Telegraphic Transfer with the account currency or invoice currency (Bank’s applicable exchange rate apply)</p>
-								</div>
-								<div class="col-md-12 text-center">
-									<img src="{{ url('/images/business/borrowing/corporate-business-loan/Receive_or_pay_bills.png') }}" class="img-fluid w-30">
-									<p>Local or international foreign currency payments online or over-the-counter</p>
 								</div>
 							</div>
 						</div>

@@ -333,6 +333,7 @@
 	position: absolute;
     top: 130px;
     left: 60px;
+    right: 70px;
 }
 
 @media (max-width: 1550px) and (min-width: 577px) {
@@ -605,11 +606,11 @@
 	    left: 20px;
 	}
 	.bu_borrowing_corporate_business_loan_banner{
-		background-position: 80% center;
+		background-position: 60% center;
 	}
 	.bu_borrowing_corporate_business_loan_banner_tagline {
 		top: 60px;
-	    right: 90px;
+	    right: 30px;
 	    left: 20px;
 	}
 }
@@ -820,6 +821,6 @@
 	}
 	.bu_borrowing_corporate_business_loan_banner{
 		background-image:url('../images/business/borrowing/corporate-business-loan/mobile_KV.jpg');
-		background-position: 30% center;
+		background-position: 45% center;
 	}
 }
