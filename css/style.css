@@ -133,6 +133,9 @@
 .mb-30 {
 	margin-bottom: 30px;
 }
+.mt-minus-5 {
+	margin-top: -5px;
+}
 .mt-minus-10 {
 	margin-top: -10px;
 }
@@ -211,5 +214,5 @@
 	.py-md-4 {
 	    padding-top: 1.5rem !important;
 	    padding-bottom: 1.5rem !important;
-	  }
+	}
 }

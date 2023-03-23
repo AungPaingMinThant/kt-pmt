@@ -262,8 +262,8 @@
 								AYA SU-Buu
 							</p>
 							<div class="row" style="position: relative;">
-								<img src="{{ url('/images/business/account-saving/saving-deposit/aya-su-buu.png') }}" class="img-fluid">
-								<p style="font-weight: 500;font-size: 16px;line-height: 22px;position: absolute;top: 70%;left: 4%;width: 90%;">Exclusive account for your employees’ retirement-oriented scheme</p>
+								<img src="{{ url('/images/business/account-saving/saving-deposit/aya-su-buu-mobile.png') }}" class="img-fluid">
+								<p style="font-weight: 500;font-size: 16px;line-height: 18px;position: absolute;top: 70%;left: 4%;width: 92%;">Exclusive account for your employees’ retirement-oriented scheme</p>
 							</div>
 							<div class="row">
 								<div class="space-30"></div>

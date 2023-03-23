@@ -87,7 +87,7 @@
 			font-weight: 600 !important;
 		}
 		.bullet_square {
-			width: 60%;
+			width: 100%;
 		}
 	}
 </style>
@@ -274,8 +274,8 @@
 								Regular Current Account
 							</p>
 							<div class="row" style="position: relative;">
-								<img src="{{ url('/images/business/account-saving/current-deposit/regular-current-account.png') }}" class="img-fluid">
-								<p style="color:#fff;font-weight: 500;font-size: 16px;line-height: 22px;position: absolute;top: 70%;left: 2%;width: 100%;">Open a Current Account to increase efficiency and transparency of business transactions</p>
+								<img src="{{ url('/images/business/account-saving/current-deposit/regular-current-account-mobile.png') }}" class="img-fluid">
+								<p style="color:#fff;font-weight: 500;font-size: 16px;line-height: 18px;position: absolute;top: 58%;left: 2%;width: 97%;">Open a Current Account to increase efficiency and transparency of business transactions</p>
 							</div>
 							<div class="row">
 								<div class="space-30"></div>
@@ -326,8 +326,8 @@
 								New Business Current Account
 							</p>
 							<div class="row" style="position: relative;">
-								<img src="{{ url('/images/business/account-saving/current-deposit/new_business_current_account.png') }}" class="img-fluid">
-								<p style="color:#fff;font-weight: 500;font-size: 16px;line-height: 22px;position: absolute;top: 70%;left: 4%;width: 90%;">Cash Deposit or withdraw to coincide with cash requirements of your business</p>
+								<img src="{{ url('/images/business/account-saving/current-deposit/new_business_current_account_mobile.png') }}" class="img-fluid">
+								<p style="color:#fff;font-weight: 500;font-size: 16px;line-height: 18px;position: absolute;top: 60%;left: 4%;width: 90%;">Cash Deposit or withdraw to coincide with cash requirements of your business</p>
 							</div>
 							<div class="row">
 								<div class="space-30"></div>
@@ -376,7 +376,7 @@
 							</p>
 							<div class="row" style="position: relative;">
 								<img src="{{ url('/images/business/account-saving/current-deposit/enterprise_FCA_current.png') }}" class="img-fluid">
-								<p style="color:#fff;font-weight: 500;font-size: 18px;line-height: 22px;position: absolute;top: 70%;left: 4%;width: 90%;">Mange foreign currency payments efficiently</p>
+								<p style="color:#fff;font-weight: 500;font-size: 18px;line-height: 22px;position: absolute;top: 65%;left: 4%;width: 90%;">Mange foreign currency payments efficiently</p>
 							</div>
 							<div class="row">
 								<div class="space-30"></div>

@@ -84,7 +84,7 @@
 			font-weight: 600 !important;
 		}
 		.bullet_square {
-			width: 60%;
+			width: 100%;
 		}
 	}
 </style>
@@ -291,8 +291,8 @@
 								Business Account
 							</p>
 							<div class="row" style="position: relative;">
-								<img src="{{ url('/images/business/account-saving/call-deposit/business_account.png') }}" class="img-fluid">
-								<p style="font-weight: 500;font-size: 16px;line-height: 22px;position: absolute;top: 85%;left: 4%;width: 90%;">Manage your business funds professionally</p>
+								<img src="{{ url('/images/business/account-saving/call-deposit/business_account_mobile.png') }}" class="img-fluid">
+								<p style="font-weight: 500;font-size: 16px;line-height: 22px;position: absolute;top: 65%;left: 4%;width: 90%;">Manage your business funds professionally</p>
 							</div>
 							<div class="row">
 								<div class="space-30"></div>
@@ -329,7 +329,7 @@
 							</p>
 							<div class="row" style="position: relative;">
 								<img src="{{ url('/images/business/account-saving/call-deposit/new_business_call.png') }}" class="img-fluid">
-								<p style="font-weight: 500;font-size: 18px;line-height: 22px;position: absolute;top: 85%;left: 4%;width: 90%;">Maximize your excess cash</p>
+								<p style="font-weight: 500;font-size: 18px;line-height: 22px;position: absolute;top: 80%;left: 4%;width: 90%;">Maximize your excess cash</p>
 							</div>
 							<div class="row">
 								<div class="space-30"></div>
