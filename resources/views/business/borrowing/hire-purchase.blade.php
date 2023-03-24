@@ -325,7 +325,7 @@
 									<p>AYA Bank’s financing options for costly equipment such as computers, vehicles, machinery, electronic appliances, etc. to accelerate the growth of your business. We make it easy to separate your business and equipment expenses.</p>
 									<div class="space-20"></div>
 
-									<p class="fw-semibold mb-0" style="font-size: 17px;">Features and Benefits</p>
+									<p class="fw-semibold mb-0" style="font-size: 17px;">Features</p>
 
 									<table class="table table-borderless" cellspacing="0">
 										<tr>
