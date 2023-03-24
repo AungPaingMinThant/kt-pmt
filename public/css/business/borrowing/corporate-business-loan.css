@@ -1,0 +1,195 @@
+.nav-link, h4 {
+	color: #2e2e2e !important;
+}
+.nav-link {
+	padding: 0 1.25rem 1rem 0 !important;
+	font-size: 16px;
+}
+.nav-item-separate {
+	border-bottom: 4px solid #a02226;
+	width: 80%;
+	margin-top: 5px;
+	display: none;
+}
+.nav-pills .nav-link.active {
+	border-radius: 0;
+	padding-bottom: 0px !important;
+	color: #ae071d !important;
+}
+.nav-pills .nav-link.active .nav-item-separate {
+	display: block;
+}
+.scroll_content::-webkit-scrollbar{
+    display: none;
+}
+#myScrollspy {
+	position: sticky;
+	top: 20px;
+	z-index: 99;
+}
+#capex_financing, .working_capital_financing, .demand_loan, .project_loan_tender_contract_loan, .franchise_financing, .trade_financing {
+	padding-right: 250px;
+	font-size: 18px;
+	font-weight: 700;
+}
+.secure_req_application_icon {
+	margin-top: -5px;
+}
+.capex_financing_tagline {
+	color: #fff;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	width: 37% !important;
+	position: absolute;
+	top: 80%;
+	left: 4%;
+}
+.working_capital_financing_tagline {
+	color: #000;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	width: 85% !important;
+	position: absolute;
+	top: 80%;
+	left: 4%;
+}
+.demand_loan_tagline, .project_loan_tagline, .franchise_financing_tagline, .trade_financing_tagline {
+	color: #000;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	width: 58% !important;
+	position: absolute;
+	top: 80%;
+	left: 4%;
+}
+.franchise_financing_tagline {
+	width: 70% !important;
+	top: 85%;
+}
+.trade_financing_tagline {
+	width: 90% !important;
+}
+.contact_us_btn {
+	background-color: #ae071d !important;
+	color: #fff !important;
+	font-weight: 500;
+	padding: 15px 25px !important;
+	border: 1px solid #ae071d !important;
+	margin-bottom: 10px;
+}
+.contact_us_btn:hover {
+	background-color: #fff !important;
+	color: #ae071d !important;
+}
+.c-b-l-icon {
+	width: 80% !important;
+}
+.fee_charge_table {
+	width: 70% !important;
+}
+.benefit_table_icon_td {
+	width: 17%;
+}
+.working_capital_financing_link {
+	width: 80% !important;
+}
+@media (max-width: 1400px) and (min-width: 1271px) {
+	.capex_financing_tagline{
+		width: 42% !important;
+	    top: 75%;
+	}
+	.project_loan_tagline {
+		width: 65% !important;
+	}
+	.franchise_financing_tagline {
+			width: 80% !important;
+		}
+}
+@media (max-width: 1270px) and (min-width: 1000px) {
+	.working_capital_financing_link {
+		width: 90% !important;
+	}
+	.capex_financing_tagline{
+		width: 50% !important;
+		top: 75%;
+	}
+	.working_capital_financing_tagline {
+	    width: 90% !important;
+	    top: 75%;
+	}
+	.demand_loan_tagline {
+		width:80% !important;
+		top: 75%;
+	}
+	.project_loan_tagline{
+		width: 80% !important;
+	    top: 75%;
+	}
+	.franchise_financing_tagline {
+	    width: 100% !important;
+	    top: 85%;
+	}
+	.trade_financing_tagline {
+		top: 75%;
+	}
+	.c-b-l-icon {
+		width: 100% !important;
+	}
+	.fee_charge_table {
+	    width: 100% !important;
+	}
+}
+@media only screen and (max-width: 576px){
+	#capex_financing, .working_capital_financing, .demand_loan, .project_loan_tender_contract_loan, .franchise_financing, .trade_financing {
+		padding-right: 0px;
+	}
+	.calldeposit__mobile_title {
+		font-size: calc(1.2625rem + 0.15vw);
+		font-weight: 600 !important;
+	}
+	.capex_financing_tagline, .demand_loan_tagline, .working_capital_financing_tagline, .project_loan_tagline, .franchise_financing_tagline, .trade_financing_tagline {
+		font-size: 18px;
+	    line-height: 22px;
+	}
+	.capex_financing_tagline {
+		width: 60% !important;
+		top: 45%;
+	}
+	.c-b-l-icon {
+		width: 100% !important;
+		float: center !important;
+	}
+	.c-b-l-div {
+		text-align: center;
+	}
+	.fee_charge_table {
+		width: 100% !important;
+	}
+	.working_capital_financing_tagline {
+	    width: 90% !important;
+	    top: 52%;
+	    left: 4%;
+	}
+	.demand_loan_tagline {
+		width: 90% !important;
+	    top: 65%;
+	}
+	.project_loan_tagline {
+		width: 92% !important;
+	    top: 50%;
+	}
+	.franchise_financing_tagline{
+		top: 65%;
+		width: 90% !important;
+	}
+	.trade_financing_tagline {
+		top: 50%;
+	}
+	.benefit_table_icon_td {
+		width: 30%;
+		vertical-align: top;
+	}
+}

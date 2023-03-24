@@ -1,8 +1,10 @@
 @extends('layouts.frontend-app')
 
-@section('title', 'Hire Purchase – AYA Bank')
+@section('title', 'SME – AYA Bank')
 <link rel="stylesheet" href="{{ url('/css/business/borrowing/hire-purchase.css') }}" />
-
+<style type="text/css">
+	
+</style>
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
@@ -10,12 +12,12 @@
 			@include('layouts.header', ['page'=>'business_banking'])
         	<div class="menu-overlay"></div>
 
-			@include('layouts.banner', ['page'=>'bu_borrowing_hire_purchase'])
+			@include('layouts.banner', ['page'=>'bu_borrowing_SME'])
 
 			<div class="container section_1" >
 				<div class="space-40"></div>
 				<div class="col-md-9">
-					<p>Need to purchase new assets for your business without the stress of having to pay large upfront costs?<br>AYA Bank offers a hire purchase finance option to meet your needs.</p>
+					<p>Need to purchase new assets for your business without the stress of having to pay large upfront costs? AYA Bank offers a hire purchase finance option to meet your needs.</p>
 					<p>Hire purchase finance can be used for a variety of assets, ranging from heavy machinery, equipment, vehicle to shop house.</p>
 				</div>
 				<div class="space-20"></div>
@@ -25,26 +27,22 @@
 				</div>
 				<div class="row">
 					<div class="col-1">
-						<!-- <img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square"> -->
-						<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+						<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 					</div>
 					<div class="col-11">
-						<!-- need-to-know-point -->
-						<p class="should-apply-point mt-minus-5">It is a fixed rate loan, so interest rates tend to be cost effective</p>
+						<p class="need-to-know-point mt-minus-5">It is a fixed rate loan, so interest rates tend to be cost effective</p>
 					</div>
 					<div class="col-1">
-						<!-- <img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square"> -->
-						<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+						<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 					</div>
 					<div class="col-11">
-						<p class="should-apply-point mt-minus-5">You can utilize the asset while paying back in instalments over a set period of time</p>
+						<p class="need-to-know-point mt-minus-5">You can utilize the asset while paying back in instalments over a set period of time</p>
 					</div>
 					<div class="col-1">
-						<!-- <img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square"> -->
-						<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+						<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 					</div>
 					<div class="col-11">
-						<p class="should-apply-point mt-minus-5">You will legally own the item once all the instalments have been paid in full</p>
+						<p class="need-to-know-point mt-minus-5">You will legally own the item once all the instalments have been paid in full</p>
 					</div>
 				</div>
 				
@@ -276,10 +274,10 @@
 								</div>
 								<div class="row">
 									<div class="space-30"></div>
-									<p>If your company relies on one or more vehicles, AYA business auto loan is the way to go. We provides an affordable way to buy a car, van or truck for business advantage. You can select vehicles from the AYA Bank’s authorized dealers, apply at any AYA branches with minimum down-payment and variable loan tenor.</p>
+									<p>If you are looking forward to boosting your capital investment or business expansion, let us help you grow your business! AYA Bank offers Demand Loan to SMEs and Corporates for fixed asset purchases, capital expenditure purchases and industrial building construction, etc.</p>
 									<div class="space-20"></div>
 
-									<p class="fw-semibold mb-0" style="font-size: 17px;">Features</p>
+									<p class="fw-semibold mb-0" style="font-size: 17px;">Features and Benefits</p>
 
 									<table class="table table-borderless" cellspacing="0">
 										<tr>

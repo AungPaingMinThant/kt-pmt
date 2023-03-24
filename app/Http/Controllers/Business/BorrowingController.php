@@ -19,6 +19,6 @@ class BorrowingController extends Controller
 
     public function SMEIndex()
     {
-        return view('business.borrowing.corporate-business-loan');
+        return view('business.borrowing.SME');
     }
 }
