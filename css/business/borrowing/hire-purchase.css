@@ -41,7 +41,7 @@
 .secure_credit_fact {
 	padding-left: 0 !important;
 }
-.heavy_mahine_hp_tagline {
+.heavy_machine_hp_tagline {
 	color: #fff;
 	font-weight: 500;
 	font-size: 20px;
@@ -52,21 +52,31 @@
 	left: 4%;
 }
 .shop_house_tagline {
-	color: #000;
+	color: #fff;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 24px;
-	width: 85% !important;
+	width: 40% !important;
 	position: absolute;
 	top: 80%;
 	left: 4%;
 }
-.auto_loan_corporate_tagline, .project_loan_tagline, .franchise_financing_tagline, .trade_financing_tagline {
-	color: #000;
+.auto_loan_corporate_tagline, .franchise_financing_tagline, .trade_financing_tagline {
+	color: #fff;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 24px;
-	width: 58% !important;
+	width: 45% !important;
+	position: absolute;
+	top: 80%;
+	left: 4%;
+}
+.equipment_loan_tagline {
+	color: #fff;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	width: 80% !important;
 	position: absolute;
 	top: 80%;
 	left: 4%;
@@ -91,10 +101,13 @@
 	color: #ae071d !important;
 }
 .c-b-l-icon {
-	width: 80% !important;
+	width: 60% !important;
 }
 .fee_charge_table {
 	width: 70% !important;
+}
+.why_use_AYA_outer {
+	column-gap: 40px;
 }
 .why_use_AYA_outer > .col-md-6 {
 	width: 48%;
@@ -108,40 +121,54 @@
     margin-bottom: 40px;
 }
 .benefit_section_col > .row {
-	padding: 10px 20px 0px 20px;
+	padding: 30px;
 }
 .benefit_icon {
-	width: 90% !important;
+	width: 70% !important;
+	margin-bottom: 20px;
 }
 .benefit_table_icon_td {
 	width: 17%;
 }
-@media (max-width: 1400px) and (min-width: 1271px) {
-	.heavy_mahine_hp_tagline{
-		width: 42% !important;
-	    top: 75%;
-	}
-	.project_loan_tagline {
-		width: 65% !important;
-	}
-	.franchise_financing_tagline {
-			width: 80% !important;
-		}
+.need-to-know-point {
+	margin-left: -5rem;
 }
-@media (max-width: 1270px) and (min-width: 1000px) {
-	.heavy_mahine_hp_tagline{
-		width: 50% !important;
-		top: 75%;
+.should-apply-point {
+    margin-left: -3rem;
+}
+@media (max-width: 1400px) and (min-width: 1271px) {
+	.heavy_machine_hp_tagline{
+		width: 85% !important;
+	    top: 80%;
 	}
 	.shop_house_tagline {
-	    width: 90% !important;
+	    width: 50% !important;
+	}
+	.auto_loan_corporate_tagline {
+	    width: 60% !important;
+	}
+	.equipment_loan_tagline {
+		width: 65% !important;
+	}
+}
+@media (max-width: 1270px) and (min-width: 1000px) {
+	.heavy_machine_hp_tagline, .auto_loan_corporate_tagline, .shop_house_tagline, .equipment_loan_tagline {
+		font-size: 18px;
+	    line-height: 22px;
+	}
+	.heavy_machine_hp_tagline{
+		width: 90% !important;
+    	top: 75%;
+	}
+	.shop_house_tagline {
+	    width: 55% !important;
 	    top: 75%;
 	}
 	.auto_loan_corporate_tagline {
-		width:80% !important;
+		width: 60% !important;
 		top: 75%;
 	}
-	.project_loan_tagline{
+	.equipment_loan_tagline{
 		width: 80% !important;
 	    top: 75%;
 	}
@@ -153,7 +180,7 @@
 		top: 75%;
 	}
 	.bullet_square {
-		width: 20%;
+		width: 11%;
 	}
 	.c-b-l-icon {
 		width: 100% !important;
@@ -161,8 +188,30 @@
 	.fee_charge_table {
 	    width: 100% !important;
 	}
+	.need-to-know-point {
+	    margin-left: -3rem;
+	}
+	.should-apply-point {
+	    margin-left: -2rem;
+	}
+	.why_use_AYA_outer > .col-md-6 {
+	    width: 47%;
+	}
+	.benefit_icon {
+    	width: 90% !important;
+    }
 }
 @media only screen and (max-width: 576px){
+	.why_use_AYA_outer {
+		column-gap: unset;
+		padding: 0px 15px;
+	}
+	.why_use_AYA_outer > .col-md-6 {
+		width: 100%;
+	}
+	.benefit_icon {
+	    width: 30% !important;
+	}
 	#heavy_mahine_hp, .shop_house, .auto_loan_corporate, .equipment_loan, .franchise_financing, .trade_financing {
 		padding-right: 0px;
 	}
@@ -171,18 +220,18 @@
 		font-weight: 600 !important;
 	}
 	.bullet_square {
-		width: 60%;
+		width: 100%;
 	}
-	.heavy_mahine_hp_tagline, .auto_loan_corporate_tagline, .shop_house_tagline, .project_loan_tagline, .franchise_financing_tagline, .trade_financing_tagline {
+	.heavy_machine_hp_tagline, .auto_loan_corporate_tagline, .shop_house_tagline, .equipment_loan_tagline, .franchise_financing_tagline, .trade_financing_tagline {
 		font-size: 18px;
 	    line-height: 22px;
 	}
-	.heavy_mahine_hp_tagline {
-		width: 60% !important;
-		top: 45%;
+	.heavy_machine_hp_tagline {
+		width: 90% !important;
+		top: 50%;
 	}
 	.c-b-l-icon {
-		width: 25% !important;
+		width: 100% !important;
 		float: center !important;
 	}
 	.c-b-l-div {
@@ -193,14 +242,14 @@
 	}
 	.shop_house_tagline {
 	    width: 90% !important;
-	    top: 52%;
+	    top: 65%;
 	    left: 4%;
 	}
 	.auto_loan_corporate_tagline {
-		width: 90% !important;
-	    top: 65%;
+		width: 93% !important;
+    	top: 63%;
 	}
-	.project_loan_tagline {
+	.equipment_loan_tagline {
 		width: 92% !important;
 	    top: 50%;
 	}
@@ -214,5 +263,8 @@
 	.benefit_table_icon_td {
 		width: 30%;
 		vertical-align: top;
+	}
+	.need-to-know-point, .should-apply-point {
+	    margin-left: 0rem;
 	}
 }
