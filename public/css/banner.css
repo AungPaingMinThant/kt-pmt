@@ -332,6 +332,15 @@
 .bu_borrowing_corporate_business_loan_banner_tagline {
 	position: absolute;
     top: 130px;
+    left: 40px;
+    right: 100px;
+}
+.bu_borrowing_hire_purchase_banner{
+	background-image:url('../images/business/borrowing/hire-purchase/KV.jpg');
+}
+.bu_borrowing_hire_purchase_banner_tagline {
+	position: absolute;
+    top: 130px;
     left: 60px;
     right: 70px;
 }
@@ -353,6 +362,10 @@
 	    top: 140px;
 	    left: 30px;
 	    right: 120px;
+	}
+	.bu_borrowing_corporate_business_loan_banner_tagline {
+	    left: 40px;
+	    right: 60px;
 	}
 }
 @media (max-width: 1300px) and (min-width: 1000px) {
@@ -611,6 +624,14 @@
 	.bu_borrowing_corporate_business_loan_banner_tagline {
 		top: 60px;
 	    right: 30px;
+	    left: 0px;
+	}
+	.bu_borrowing_hire_purchase_banner{
+		background-position: 60% center;
+	}
+	.bu_borrowing_hire_purchase_banner_tagline {
+		top: 60px;
+	    right: 30px;
 	    left: 20px;
 	}
 }
@@ -821,6 +842,10 @@
 	}
 	.bu_borrowing_corporate_business_loan_banner{
 		background-image:url('../images/business/borrowing/corporate-business-loan/mobile_KV.jpg');
+		background-position: 45% center;
+	}
+	.bu_borrowing_hire_purchase_banner{
+		background-image:url('../images/business/borrowing/hire-purchase/mobile_KV.jpg');
 		background-position: 45% center;
 	}
 }

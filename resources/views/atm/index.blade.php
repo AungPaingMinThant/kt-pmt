@@ -198,34 +198,25 @@
 	.modal .modal-dialog:not(.modal-fullscreen) {
 		padding: 0px !important;
 	}
-	.cash_withdraw_mmk_div {
-		position: relative;
+	.available_ATM_card_service_div{
+		overflow: hidden;
+		border-radius: 10px;
 	}
-	/*.cash_withdraw_mmk_overlay {
-		position: absolute;
-	    bottom: 0;
-	    background: rgb(0, 0, 0);
-	    background: rgba(0, 0, 0, 0.8);
-	    color: #f1f1f1;
-	    width: 94%;
-	    transition: .5s ease;
-	    opacity: 0;
-	    color: white;
-	    font-size: 20px;
-	    padding: 90px 20px;
-	    text-align: center;
-	    top: 0;
-	    height: 76%;
-	    border-radius: 10px;
+	.available_ATM_card_service_div > img {
+/*		transition: transform .5s;*/
+		transition: all 0.3s;
+		overflow: hidden;
 	}
-	.cash_withdraw_mmk_div:hover .cash_withdraw_mmk_overlay {
-		opacity: 1;
+	.available_ATM_card_service_div:hover {
 		cursor: pointer;
 	}
-	.cash_withdraw_mmk_div:hover .cash_withdraw_mmk_text {
-		display: none;
-	}*/
-
+	.available_ATM_card_service_div:hover > img {		
+		/*-ms-transform: scale(1.05);
+		-webkit-transform: scale(1.05);
+		transform: scale(1.02);*/
+		transform: scale(1.3) rotate(5deg);
+		overflow: hidden;
+	}
 	
 
 	@media (max-width: 1300px) and (min-width: 577px) {
@@ -308,10 +299,9 @@
 						<h3 style="color: #1d1d1f;">Available ATM Card Services</h3>
 					</div>
 					<div class="space-20"></div>
-					<div class="col-md-4 col-sm-12 cash_withdraw_mmk_div" id="cash_withdraw_mmk_div">
+					<div class="col-md-4 col-sm-12 available_ATM_card_service_div cash_withdraw_mmk_div" id="cash_withdraw_mmk_div">
 						<img src="{{ url('/images/atm/cash_withdraw_mmk.png') }}" class="img-fluid">
 						<p class="fw-500 cash_withdraw_mmk_text" style="padding: 20px 0px;">Cash Withdrawal (MMK)</p>
-						<!-- <div class="cash_withdraw_mmk_overlay">Cash Withdrawal (MMK)</div> -->
 					</div>
 					<div class="col-md-4 col-sm-12" id="quick_cash_withdrawal_div">
 						<img src="{{ url('/images/atm/fast_cash_withdrawl.png') }}" class="img-fluid">

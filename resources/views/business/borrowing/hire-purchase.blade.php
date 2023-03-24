@@ -1,196 +1,9 @@
 @extends('layouts.frontend-app')
 
-@section('title', 'Corporate Business Loan – AYA Bank')
+@section('title', 'Hire Purchase – AYA Bank')
+<link rel="stylesheet" href="{{ url('/css/business/borrowing/hire-purchase.css') }}" />
 <style type="text/css">
-	.nav-link, h4 {
-		color: #2e2e2e !important;
-	}
-	.nav-link {
-		padding: 0 1.25rem 1rem 0 !important;
-		font-size: 16px;
-	}
-	.nav-item-separate {
-		border-bottom: 4px solid #a02226;
-		width: 80%;
-		margin-top: 5px;
-		display: none;
-	}
-	.nav-pills .nav-link.active {
-		border-radius: 0;
-		padding-bottom: 0px !important;
-		color: #ae071d !important;
-	}
-	.nav-pills .nav-link.active .nav-item-separate {
-		display: block;
-	}
-	.scroll_content::-webkit-scrollbar{
-	    display: none;
-	}
-	#myScrollspy {
-		position: sticky;
-		top: 20px;
-		z-index: 99;
-	}
-	#capex_financing, .working_capital_financing, .demand_loan, .project_loan_tender_contract_loan, .franchise_financing, .trade_financing {
-		padding-right: 250px;
-		font-size: 18px;
-		font-weight: 700;
-	}
-	.secure_req_application_icon {
-    	margin-top: -5px;
-	}
-	.capex_financing_tagline {
-		color: #fff;
-		font-weight: 500;
-		font-size: 20px;
-		line-height: 24px;
-		width: 37% !important;
-		position: absolute;
-		top: 80%;
-		left: 4%;
-	}
-	.working_capital_financing_tagline {
-		color: #000;
-		font-weight: 500;
-		font-size: 20px;
-		line-height: 24px;
-		width: 85% !important;
-		position: absolute;
-		top: 80%;
-		left: 4%;
-	}
-	.demand_loan_tagline, .project_loan_tagline, .franchise_financing_tagline, .trade_financing_tagline {
-		color: #000;
-		font-weight: 500;
-		font-size: 20px;
-		line-height: 24px;
-		width: 58% !important;
-		position: absolute;
-		top: 80%;
-		left: 4%;
-	}
-	.franchise_financing_tagline {
-		width: 70% !important;
-		top: 85%;
-	}
-	.trade_financing_tagline {
-		width: 90% !important;
-	}
-	.contact_us_btn {
-		background-color: #ae071d !important;
-		color: #fff !important;
-		font-weight: 500;
-		padding: 15px 25px !important;
-		border: 1px solid #ae071d !important;
-		margin-bottom: 10px;
-	}
-	.contact_us_btn:hover {
-		background-color: #fff !important;
-		color: #ae071d !important;
-	}
-	.c-b-l-icon {
-		width: 80% !important;
-	}
-	.fee_charge_table {
-		width: 70% !important;
-	}
-	.benefit_table_icon_td {
-		width: 17%;
-	}
-	@media (max-width: 1400px) and (min-width: 1271px) {
-		.capex_financing_tagline{
-			width: 42% !important;
-		    top: 75%;
-		}
-		.project_loan_tagline {
-			width: 65% !important;
-		}
-		.franchise_financing_tagline {
-   			width: 80% !important;
-   		}
-	}
-	@media (max-width: 1270px) and (min-width: 1000px) {
-		.capex_financing_tagline{
-			width: 50% !important;
-			top: 75%;
-		}
-		.working_capital_financing_tagline {
-		    width: 90% !important;
-		    top: 75%;
-		}
-		.demand_loan_tagline {
-			width:80% !important;
-			top: 75%;
-		}
-		.project_loan_tagline{
-			width: 80% !important;
-		    top: 75%;
-		}
-		.franchise_financing_tagline {
-		    width: 100% !important;
-		    top: 85%;
-		}
-		.trade_financing_tagline {
-			top: 75%;
-		}
-		.c-b-l-icon {
-			width: 100% !important;
-		}
-		.fee_charge_table {
-		    width: 100% !important;
-		}
-	}
-	@media only screen and (max-width: 576px){
-		#capex_financing, .working_capital_financing, .demand_loan, .project_loan_tender_contract_loan, .franchise_financing, .trade_financing {
-			padding-right: 0px;
-		}
-		.calldeposit__mobile_title {
-			font-size: calc(1.2625rem + 0.15vw);
-			font-weight: 600 !important;
-		}
-		.capex_financing_tagline, .demand_loan_tagline, .working_capital_financing_tagline, .project_loan_tagline, .franchise_financing_tagline, .trade_financing_tagline {
-			font-size: 18px;
-		    line-height: 22px;
-		}
-		.capex_financing_tagline {
-			width: 60% !important;
-			top: 45%;
-		}
-		.c-b-l-icon {
-			width: 100% !important;
-			float: center !important;
-		}
-		.c-b-l-div {
-			text-align: center;
-		}
-		.fee_charge_table {
-			width: 100% !important;
-		}
-		.working_capital_financing_tagline {
-		    width: 90% !important;
-		    top: 52%;
-		    left: 4%;
-		}
-		.demand_loan_tagline {
-			width: 90% !important;
-		    top: 65%;
-		}
-		.project_loan_tagline {
-			width: 92% !important;
-		    top: 50%;
-		}
-		.franchise_financing_tagline{
-			top: 65%;
-			width: 90% !important;
-		}
-		.trade_financing_tagline {
-			top: 50%;
-		}
-		.benefit_table_icon_td {
-			width: 30%;
-			vertical-align: top;
-		}
-	}
+	
 </style>
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
@@ -199,36 +12,121 @@
 			@include('layouts.header', ['page'=>'business_banking'])
         	<div class="menu-overlay"></div>
 
-			@include('layouts.banner', ['page'=>'bu_borrowing_corporate_business_loan'])
+			@include('layouts.banner', ['page'=>'bu_borrowing_hire_purchase'])
 
 			<div class="container section_1" >
 				<div class="space-40"></div>
-				<div class="col-md-12">
-					<p>If you are operating a business with ongoing capital requirements, we offer a full range of loan packages to suit your property financing needs. We work closely with business clients in advising on appropriate credit facilities and tenors in alignment with their business nature.  </p>
+				<div class="col-md-9">
+					<p>Need to purchase new assets for your business without the stress of having to pay large upfront costs? AYA Bank offers a hire purchase finance option to meet your needs.</p>
+					<p>Hire purchase finance can be used for a variety of assets, ranging from heavy machinery, equipment, vehicle to shop house.</p>
 				</div>
 				<div class="space-20"></div>
 
 				<div class="col-md-12">
-					<p class="fw-semibold" style="font-size: 16px;">Basic Requirements your company should meet,</p>
+					<p class="fw-semibold" style="font-size: 16px;">All You Need to Know</p>
+				</div>
+				<div class="row">
+					<div class="col-1">
+						<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
+					</div>
+					<div class="col-11">
+						<p class="mx-n7 mt-minus-5">It is a fixed rate loan, so interest rates tend to be cost effective</p>
+					</div>
+					<div class="col-1">
+						<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
+					</div>
+					<div class="col-11">
+						<p class="mx-n7 mt-minus-5">You can utilize the asset while paying back in instalments over a set period of time</p>
+					</div>
+					<div class="col-1">
+						<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
+					</div>
+					<div class="col-11">
+						<p class="mx-n7 mt-minus-5">You will legally own the item once all the instalments have been paid in full</p>
+					</div>
+				</div>
+				
+				<div class="space-20"></div>
+
+				<div class="col-md-12">
+					<p class="fw-semibold" style="font-size: 16px;">Why You Should Apply</p>
 				</div>
 				<div class="row">
 					<div class="col-1">
 						<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 					</div>
 					<div class="col-11">
-						<p class="mx-n5 mt-minus-5">Good credit scores</p>
+						<p class="mx-n4 mt-minus-5">Companies can purchase necessary assets quickly</p>
 					</div>
 					<div class="col-1">
 						<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 					</div>
 					<div class="col-11">
-						<p class="mx-n5 mt-minus-5">Healthy financial records coupled with sound purposes for utilizing loans</p>
+						<p class="mx-n4 mt-minus-5">Cost of repaying is spread over a fixed period without impact on working capital</p>
 					</div>
 					<div class="col-1">
 						<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 					</div>
 					<div class="col-11">
-						<p class="mx-n5 mt-minus-5">All prerequisites requested from AYA Bank</p>
+						<p class="mx-n4 mt-minus-5">AYA Bank offers competitive interest rate</p>
+					</div>
+					<div class="col-1">
+						<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+					</div>
+					<div class="col-11">
+						<p class="mx-n4 mt-minus-5">It is flexible, straightforward and relatively easy to apply</p>
+					</div>
+				</div>
+
+				<div class="space-20"></div>
+
+				<div class="col-md-12">
+					<p class="fw-semibold" style="font-size: 16px;">How to Qualify</p>
+				</div>
+				<div class="row why_use_AYA_outer" style="column-gap: 40px;">
+					<div class="col-md-6 outer_benefit_box benefit_section_col d-none d-sm-block">
+						<div class="row">
+							<div class="col-3 py-md-3">
+								<img src="{{ url('/images/business/borrowing/hire-purchase/credit-score.png') }}" class="img-fluid benefit_icon">
+							</div>
+							<div class="col-9 py-md-4 px-md-3">
+								<p class="fw-semibold mb-0">Credit Score</p>
+								<p class="mb-0" style="color: #4e4e4e;">Does your business have minimum credit score for Business Loan Eligibility? Different credit scores needed for different types of business loans. It ultimately determines loan amount, repayment schedules, etc.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 outer_benefit_box benefit_section_col d-none d-sm-block">
+						<div class="row">
+							<div class="col-3 py-md-3">
+								<img src="{{ url('/images/business/borrowing/hire-purchase/cash-flow.png') }}" class="img-fluid benefit_icon">
+							</div>
+							<div class="col-9 py-md-4 px-md-3">
+								<p class="fw-semibold mb-0">Cash Flow</p>
+								<p class="mb-0" style="color: #4e4e4e;">You can qualify for hire purchase financing on the basis of your cash flow.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 outer_benefit_box benefit_section_col d-none d-sm-block">
+						<div class="row">
+							<div class="col-3 py-md-4">
+								<img src="{{ url('/images/business/borrowing/hire-purchase/collateral.png') }}" class="img-fluid benefit_icon">
+							</div>
+							<div class="col-9 py-md-4 px-md-3">
+								<p class="fw-semibold mb-0">Collateral</p>
+								<p class="mb-0" style="color: #4e4e4e;">Asset to be financed is secured as collateral in hire purchase agreement.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 outer_benefit_box benefit_section_col d-none d-sm-block">
+						<div class="row">
+							<div class="col-3 py-md-4">
+								<img src="{{ url('/images/business/borrowing/hire-purchase/down-payment.png') }}" class="img-fluid benefit_icon">
+							</div>
+							<div class="col-9 py-md-4 px-md-3">
+								<p class="fw-semibold mb-0">Down Payment</p>
+								<p class="pr-15" style="color: #4e4e4e;">The down payment requirement can range from 10% to 30% for the eligible borrowers. The actual amount can vary by the loan type and the borrower’s qualifications</p>
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -237,45 +135,32 @@
 				<div class="col-md-12">
 					<div class="row">
 						<div class="col-md-12">
-							<h3 class="fw-bold">Offering Loan & Financing</h3>
+							<h3 class="fw-bold">Offering Loan</h3>
 						</div>
-						<div class="space-20"></div>
 						<div class="col-md-4 d-none d-sm-block">
 							<nav id="myScrollspy">
 								<ul class="nav nav-pills flex-column">
 									<li class="nav-item">
-										<a class="nav-link active" href="#capex_financing">
-											<span class="pr-5">CAPEX Financing / Assets Acquisition Financing</span>
+										<a class="nav-link active" href="#heavy_mahine_hp">
+											<span class="pr-5">Heavy Machinery HP</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#working_capital_financing">
-											<span class="pr-5">Working Capital Financing<br>(Overdraft – OD)</span>
+										<a class="nav-link" href="#shop_house">
+											<span class="pr-5">Shop House</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#demand_loan">
-											<span class="pr-5">Demand Loan</span>
+										<a class="nav-link" href="#auto_loan_corporate">
+											<span class="pr-5">Auto Loan (Corporate)</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#project_loan_tender_contract_loan">
-											<span class="pr-5">Project Loan / Tender Contract Loan</span>
-											<hr class="nav-item-separate">
-										</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#franchise_financing">
-											<span class="pr-5">Franchise Financing</span>
-											<hr class="nav-item-separate">
-										</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#trade_financing">
-											<span class="pr-5">Trade Financing</span>
+										<a class="nav-link" href="#equipment_loan">
+											<span class="pr-5">Equipment Loan</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
@@ -284,77 +169,61 @@
 						</div>
 						<div class="col-md-8">
 							<div id="scroll_content" data-spy="scroll" data-target="#myScrollspy" data-offset="10" style="">
-								<p id="capex_financing">
-									CAPEX Financing / Assets Acquisition Financing
+								<p id="heavy_mahine_hp">
+									Heavy Machinery HP
 								</p>
 								<div class="row" style="position: relative;">
-									<img src="{{ url('/images/business/borrowing/corporate-business-loan/CAPEX_financing.png') }}" class="img-fluid">
-									<p class="capex_financing_tagline">Time to fuel your business for the next stage of growth</p>
+									<img src="{{ url('/images/business/borrowing/hire-purchase/heavy-Machinery-HP.png') }}" class="img-fluid">
+									<p class="heavy_mahine_hp_tagline">Buy heavy machinery with us and dedicate your cash flow to more valuable channels!</p>
 								</div>
 								<div class="row">
 									<div class="space-30"></div>
-									<p>You have vision but require a large amount of financing to invest in fixed assets?</p>
-									<p>We have tools to make it happen. AYA Bank offers CAPEX loans, either short, medium or long term, which do not have a fixed date for repayment. It carries a floating interest rate which may varies according to the prime rate. It can be "called" for repayment by the lending institution anytime.</p>
+									<p>You can get financing for the heavy machinery while avoiding the financial risk and administrative burden of owning vehicle fleets. AYA Bank made convenient for both sides. Under our heavy machinery HP, seller can become bank’s authorized dealer and buyer can purchase with the bank’s HP scheme.</p>
+									<p>AYA Bank provides a convenient option to ownership while paying off and maintenance and value-added services are included. The finance company guarantees the resale value of the vehicle at the end of the contract purchase agreement for a known, fixed amount.</p>
 
 									<div class="space-20"></div>
 
-									<p class="fw-semibold" style="font-size: 17px;">Features and Benefits</p>
+									<p class="fw-semibold" style="font-size: 17px;">Features</p>
 
 									<table class="table table-borderless" cellspacing="0">
 										<tr>
 											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/borrowing/corporate-business-loan/maximum_loan_tenor_12_months.png') }}" class="img-fluid c-b-l-icon">
+												<img src="{{ url('/images/business/borrowing/hire-purchase/financing-amount.png') }}" class="img-fluid c-b-l-icon">
 											</td>
 											<td>
-												<p>Maximum Loan Tenor: 12 months from the date of drawdown</p>
+												<p class="fw-semibold mb-10">Financing Amount</p>
+												<p class="mb-0" style="color: #4e4e4e;">You will be able to get funds up to 70% of the price of the heavy machinery you plan to buy for your business. It depends on your credit score, etc.</p>
 											</td>
 										</tr>
 										<tr>
 											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/borrowing/corporate-business-loan/CAPEX_share_securities.png') }}" class="img-fluid c-b-l-icon">
+												<img src="{{ url('/images/business/borrowing/hire-purchase/interest-rate.png') }}" class="img-fluid c-b-l-icon">
 											</td>
 											<td>
-												<p class="w-80">It can be considered under business loans, trade advances, inventory funding, loans against share & securities etc. This would be reviewed from time to time by the Credit Committee.</p>
+												<p class="fw-semibold mb-10">Interest Rate</p>
+												<p class="mb-0" style="color: #4e4e4e;">Arrangement for flat rate as low as 10%.</p>
+											</td>
+										</tr>
+										<tr>
+											<td class="benefit_table_icon_td">
+												<img src="{{ url('/images/business/borrowing/hire-purchase/repayment-terms.png') }}" class="img-fluid c-b-l-icon">
+											</td>
+											<td>
+												<p class="fw-semibold mb-10">Repayment Terms</p>
+												<p class="mb-0" style="color: #4e4e4e;">Flexible terms to meet your requirements with variable duration and mileage terms, up to 5 years.</p>
 											</td>
 										</tr>
 									</table>
-
-									<div class="space-20"></div>
-
-									<div class="col-md-12">
-										<p class="fw-semibold" style="font-size: 17px;">Fees and Charges</p>
-										<div class="space-10"></div>
-										<table class="table table-bordered fee_charge_table">
-											<tbody style="box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%);font-weight: 500;background-color: transparent;">
-												<tr style="background-color: #fff;border-top: none;">
-													<td style="border-left: none;padding: 20px;">Interest rate</td>
-													<td style="border-right: none;">9% - 14.5% per annum</td>
-												</tr>
-												<tr style="background-color: #fff;border-top: none;">
-													<td style="border-left: none;padding: 20px;">Facility fee</td>
-													<td style="border-right: none;">1% - 2% per annum</td>
-												</tr>
-												<tr>
-													<td style="border-left: none;padding: 20px;">Default fee</td>
-													<td style="border-right: none;">2% per month</td>
-												</tr>
-												<tr style="background-color: #fff;border-bottom: none;">
-													<td style="border-width: 1px;border-bottom: none;border-left: none;padding: 20px;">Penalty fee</td>
-													<td class="last" style="border-width: 1px;border-right: none;border-bottom: none;">2% per month</td>
-												</tr>
-											</tbody>
-										</table>
-									</div>
 								</div>
 
-								<div class="space-40" id="working_capital_financing"></div>
-								<p class="working_capital_financing">
-									Working Capital Financing (Overdraft – OD)
+								<div class="space-40" id="shop_house"></div>
+								<p class="shop_house">
+									Shop House
 								</p>
 								<div class="row" style="position: relative;">
-									<img src="{{ url('/images/business/borrowing/corporate-business-loan/working_capital_financing_OD.png') }}" class="img-fluid d-none d-sm-block">
-									<img src="{{ url('/images/business/borrowing/corporate-business-loan/working_capital_financing_OD_mobile.png') }}" class="img-fluid d-block d-sm-none">
-									<p class="working_capital_financing_tagline">Do you have ongoing working capital requirements?<br>You are at the right place!</p>
+									<img src="{{ url('/images/business/borrowing/hire-purchase/shop-house.png') }}" class="img-fluid d-none d-sm-block">
+									<!-- <img src="{{ url('/images/business/borrowing/hire-purchase/shop_house_OD_mobile.png') }}" class="img-fluid d-block d-sm-none"> -->
+									<p class="shop_house_tagline">Do you have ongoing working capital requirements?<br>You are at the right place!</p>
 								</div>
 								<div class="row">
 									<div class="space-30"></div>
@@ -369,7 +238,7 @@
 									<table class="table table-borderless" cellspacing="0">
 										<tr>
 											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/borrowing/corporate-business-loan/loan_tenure_1_year.png') }}" class="img-fluid c-b-l-icon">
+												<img src="{{ url('/images/business/borrowing/hire-purchase/loan_tenure_1_year.png') }}" class="img-fluid c-b-l-icon">
 											</td>
 											<td>
 												<p>Loan Tenure: 1 year (Yearly renewal)</p>
@@ -377,7 +246,7 @@
 										</tr>
 										<tr>
 											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/borrowing/corporate-business-loan/calculation_interest_rate.png') }}" class="img-fluid c-b-l-icon">
+												<img src="{{ url('/images/business/borrowing/hire-purchase/calculation_interest_rate.png') }}" class="img-fluid c-b-l-icon">
 											</td>
 											<td>
 												<p class="w-80">Calculation of interest rate is based on the utilization of loan amount</p>
@@ -409,13 +278,13 @@
 									</div>
 								</div>
 
-								<div class="space-40" id="demand_loan"></div>
-								<p class="demand_loan">
+								<div class="space-40" id="auto_loan_corporate"></div>
+								<p class="auto_loan_corporate">
 									Demand Loan
 								</p>
 								<div class="row" style="position: relative;">
-									<img src="{{ url('/images/business/borrowing/corporate-business-loan/demand_loan.png') }}" class="img-fluid">
-									<p class="demand_loan_tagline">Enjoy convenience of demanding repayment at any time</p>
+									<img src="{{ url('/images/business/borrowing/hire-purchase/auto_loan_corporate.png') }}" class="img-fluid">
+									<p class="auto_loan_corporate_tagline">Enjoy convenience of demanding repayment at any time</p>
 								</div>
 								<div class="row">
 									<div class="space-30"></div>
@@ -427,7 +296,7 @@
 									<table class="table table-borderless" cellspacing="0">
 										<tr>
 											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/borrowing/corporate-business-loan/loan_tenor_3_year.png') }}" class="img-fluid c-b-l-icon">
+												<img src="{{ url('/images/business/borrowing/hire-purchase/loan_tenor_3_year.png') }}" class="img-fluid c-b-l-icon">
 											</td>
 											<td>
 												<p>Loan Tenor is up to 3 years</p>
@@ -435,7 +304,7 @@
 										</tr>
 										<tr>
 											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/borrowing/corporate-business-loan/loan_amount.png') }}" class="img-fluid c-b-l-icon">
+												<img src="{{ url('/images/business/borrowing/hire-purchase/loan_amount.png') }}" class="img-fluid c-b-l-icon">
 											</td>
 											<td>
 												<p>Loan amount is up to MMK 1 billion for SME, starting from MMK 1 billion for corporates</p>
@@ -443,7 +312,7 @@
 										</tr>
 										<tr>
 											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/borrowing/corporate-business-loan/CAPEX_share_securities.png') }}" class="img-fluid c-b-l-icon">
+												<img src="{{ url('/images/business/borrowing/hire-purchase/CAPEX_share_securities.png') }}" class="img-fluid c-b-l-icon">
 											</td>
 											<td>
 												<p>It can be considered under business loans, trade advances, inventory funding, loans against share & securities etc. (subject to be reviewed by the Credit Committee)</p>
@@ -451,7 +320,7 @@
 										</tr>
 										<tr>
 											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/borrowing/corporate-business-loan/repayment.png') }}" class="img-fluid c-b-l-icon">
+												<img src="{{ url('/images/business/borrowing/hire-purchase/repayment.png') }}" class="img-fluid c-b-l-icon">
 											</td>
 											<td>
 												<p>You can apply for either short, medium or long term which do not have a fixed repayment date and carry a floating interest rate varying according to the prime date.</p>
@@ -487,12 +356,12 @@
 									</div>
 								</div>
 
-								<div class="space-40" id="project_loan_tender_contract_loan"></div>
-								<p class="project_loan_tender_contract_loan">
+								<div class="space-40" id="equipment_loan"></div>
+								<p class="equipment_loan">
 									Project Loan / Tender Contract Loan
 								</p>
 								<div class="row" style="position: relative;">
-									<img src="{{ url('/images/business/borrowing/corporate-business-loan/project_loan.png') }}" class="img-fluid">
+									<img src="{{ url('/images/business/borrowing/hire-purchase/project_loan.png') }}" class="img-fluid">
 									<p class="project_loan_tagline">Providing a path to infrastructural solutions with smooth banking experience </p>
 								</div>
 								<div class="row">
@@ -505,7 +374,7 @@
 									<table class="table table-borderless" cellspacing="0">
 										<tr>
 											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/borrowing/corporate-business-loan/easy_efficient_application.png') }}" class="img-fluid c-b-l-icon">
+												<img src="{{ url('/images/business/borrowing/hire-purchase/easy_efficient_application.png') }}" class="img-fluid c-b-l-icon">
 											</td>
 											<td>
 												<p>Easy and efficient application to increase the source of funds whenever you require</p>
@@ -513,7 +382,7 @@
 										</tr>
 										<tr>
 											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/borrowing/corporate-business-loan/able_to_maintain.png') }}" class="img-fluid c-b-l-icon">
+												<img src="{{ url('/images/business/borrowing/hire-purchase/able_to_maintain.png') }}" class="img-fluid c-b-l-icon">
 											</td>
 											<td>
 												<p>Able to maintain a competitive advantage in the market and opportunity of risk sharing</p>
@@ -521,7 +390,7 @@
 										</tr>
 										<tr>
 											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/borrowing/corporate-business-loan/extend_debt_capacity.png') }}" class="img-fluid c-b-l-icon">
+												<img src="{{ url('/images/business/borrowing/hire-purchase/extend_debt_capacity.png') }}" class="img-fluid c-b-l-icon">
 											</td>
 											<td>
 												<p>Can extend the debt capacity with the release of free cash flows</p>
@@ -554,8 +423,8 @@
 									Franchise Financing
 								</p>
 								<div class="row" style="position: relative;">
-									<img src="{{ url('/images/business/borrowing/corporate-business-loan/franchise_financing.png') }}" class="img-fluid d-none d-sm-block">
-									<img src="{{ url('/images/business/borrowing/corporate-business-loan/franchise_financing_mobile.png') }}" class="img-fluid d-block d-sm-none">
+									<img src="{{ url('/images/business/borrowing/hire-purchase/franchise_financing.png') }}" class="img-fluid d-none d-sm-block">
+									<img src="{{ url('/images/business/borrowing/hire-purchase/franchise_financing_mobile.png') }}" class="img-fluid d-block d-sm-none">
 									<p class="franchise_financing_tagline">Get simple, fast financing for your franchise business</p>
 								</div>
 								<div class="row">
@@ -568,7 +437,7 @@
 									Trade Financing
 								</p>
 								<div class="row" style="position: relative;">
-									<img src="{{ url('/images/business/borrowing/corporate-business-loan/trade_financing.png') }}" class="img-fluid">
+									<img src="{{ url('/images/business/borrowing/hire-purchase/trade_financing.png') }}" class="img-fluid">
 									<p class="trade_financing_tagline d-none d-sm-block">Looking for the solution to be a player<br>on the international trade and commerce stage?</p>
 									<p class="trade_financing_tagline d-block d-sm-none">Looking for the solution to be a player on the international trade and commerce stage?</p>
 								</div>
