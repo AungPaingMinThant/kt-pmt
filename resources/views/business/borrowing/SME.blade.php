@@ -407,7 +407,7 @@
 														Eligibility
 													</button>
 												</h2>
-												<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+												<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
 													<div class="accordion-body">
 														<div class="col-md-12">
 															<p class="fw-semibold" style="font-size: 18px;">AYA Micro Loan လျှောက်ထားနိုင်သူများ</p>
@@ -442,7 +442,7 @@
 														AYA Micro Loan
 													</button>
 												</h2>
-												<div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+												<div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
 													<div class="accordion-body">
 														<div class="apply-tab nav-align-top mb-4">
 															<ul class="nav nav-pills " role="tablist">
