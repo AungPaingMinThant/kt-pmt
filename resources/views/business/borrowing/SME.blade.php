@@ -155,8 +155,8 @@
 							<nav id="myScrollspy">
 								<ul class="side-nav nav nav-pills flex-column">
 									<li class="">
-										<a class="side-link active" href="#working_capital_loan_over_draft">
-											<span class="pr-5">Working Capital Loan <br>(Overdraft – OD)</span>
+										<a class="side-link active working_capital_link" href="#working_capital_loan_over_draft" style="width: 80%;">
+											<span class="pr-5">Working Capital Loan (Overdraft – OD)</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
