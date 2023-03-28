@@ -126,4 +126,7 @@ Route::get('/business/borrowing/corporate-business-loan','App\Http\Controllers\B
 Route::get('/business/borrowing/hire-purchase','App\Http\Controllers\Business\BorrowingController@hirePurchaseIndex');
 Route::get('/business/borrowing/sme','App\Http\Controllers\Business\BorrowingController@SMEIndex');
 
+Route::get('/business/trade/trade-financing','App\Http\Controllers\Business\TradeController@tradeFinancingIndex');
+Route::get('/business/trade/trade-services','App\Http\Controllers\Business\TradeController@tradeServicesIndex');
+
 // contact-us
