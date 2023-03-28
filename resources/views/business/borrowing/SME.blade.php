@@ -87,7 +87,7 @@
 				</div>
 			</div>
 
-			<div style="position: relative;margin-top: -80px;">
+			<div class="success_story_section">
 				<div class="slide-container swiper">
 		            <div class="slide-content">
 		                <div class="card-wrapper swiper-wrapper">
@@ -556,13 +556,13 @@
 																					<td style="border-right: none;">30,000,000</td>
 																				</tr>
 																				<tr style="background-color: #fff;border-top: none;">
-																					<td style="border-left: none;padding: 20px;">(၁) နှစ်လျှင် အတိုးနှုန်း	စုစုပေါင်း</td>
+																					<td style="border-left: none;padding: 20px;">(၁) နှစ်လျှင် အတိုးနှုန်း</td>
 																					<td>9.5%</td>
 																					<td>9.5%</td>
 																					<td style="border-right: none;">9.5%</td>
 																				</tr>
 																				<tr>
-																					<td style="border-left: none;padding: 20px;">(၁)နှစ်စာ အတိုး</td>
+																					<td style="border-left: none;padding: 20px;">စုစုပေါင်း (၁)နှစ်စာ အတိုး</td>
 																					<td>475,000</td>
 																					<td>950,000</td>
 																					<td style="border-right: none;">2,850,000</td>
@@ -599,12 +599,12 @@
 																					<td style="border-right: none;">10,000,000</td>
 																				</tr>
 																				<tr style="background-color: #fff;border-top: none;">
-																					<td style="border-left: none;padding: 20px;">(၁) နှစ်လျှင် အတိုးနှုန်း	စုစုပေါင်း</td>
+																					<td style="border-left: none;padding: 20px;">(၁) နှစ်လျှင် အတိုးနှုန်း</td>
 																					<td>10.5%</td>
 																					<td style="border-right: none;">10.5%</td>
 																				</tr>
 																				<tr>
-																					<td style="border-left: none;padding: 20px;">(၁)နှစ်စာ အတိုး</td>
+																					<td style="border-left: none;padding: 20px;">စုစုပေါင်း (၁)နှစ်စာ အတိုး</td>
 																					<td>525,000</td>
 																					<td style="border-right: none;">1,050,000</td>
 																				</tr>

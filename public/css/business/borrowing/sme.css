@@ -354,6 +354,10 @@
 	top: 60%;
 	left: 82%;
 }
+.success_story_section {
+	position: relative;
+	margin-top: -80px;
+}
 .apply-with-collectral-tab, .return-collectral-tab {
 	padding-right: 60px;
 }
@@ -580,7 +584,7 @@
 	}
 	.aya_sme_loan_tagline {
 		width: 93% !important;
-	    top: 50%;
+	    top: 70%;
 	    text-shadow: 0px 0px 40px #fff;
 	}
 	.agriculture_loan_tagline {
@@ -641,5 +645,8 @@
 	}
 	.micro_loan_points {
 	    margin-left: 0rem;
+	}
+	.success_story_section {
+		margin-top: 0px;
 	}
 }
