@@ -344,6 +344,15 @@
     left: 60px;
     right: 70px;
 }
+.bu_borrowing_SME_banner{
+	background-image:url('../images/business/borrowing/sme/KV.jpg');
+}
+.bu_borrowing_SME_banner_tagline {
+	position: absolute;
+    top: 130px;
+    left: 60px;
+    right: 70px;
+}
 
 @media (max-width: 1550px) and (min-width: 577px) {
 	.creditcard_banner{
@@ -634,6 +643,14 @@
 	    right: 30px;
 	    left: 20px;
 	}
+	.bu_borrowing_SME_banner{
+		background-position: 60% center;
+	}
+	.bu_borrowing_SME_banner_tagline {
+		top: 60px;
+	    right: 30px;
+	    left: 20px;
+	}
 }
 @media only screen and (max-width: 576px) {
 	.mbanking_banner {
@@ -846,6 +863,10 @@
 	}
 	.bu_borrowing_hire_purchase_banner{
 		background-image:url('../images/business/borrowing/hire-purchase/mobile_KV.jpg');
+		background-position: 45% center;
+	}
+	.bu_borrowing_SME_banner{
+		background-image:url('../images/business/borrowing/sme/mobile_KV.jpg');
 		background-position: 45% center;
 	}
 }
