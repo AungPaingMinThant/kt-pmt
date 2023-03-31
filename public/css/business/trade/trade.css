@@ -653,11 +653,12 @@
 	    margin-top: 20px !important;
 	}
 	.income_document_div {
-	    background-image: url(../../../images/business/trade/trade-services/income_document_bg_mobile.png);
+	    height: 410px;
+	    background-image: url(../../../images/business/trade/trade-services/income_document_bg_6.png);
 	    background-repeat: no-repeat;
 	    background-size: contain;
 	    background-color: transparent;
-	    padding: 50px 70px 0px 60px;
+	    padding: 50px 70px 0px 30px;
 	}
 	.letter-credit-icon {
 		width: 100% !important;
