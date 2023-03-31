@@ -397,7 +397,7 @@
 										<div class="accordion" id="accordionExample">
 											<div class="accordion-item">
 												<h2 class="accordion-header b-b-none" id="headingOne">
-													<button class="accordion-button pl-20 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+													<button class="accordion-button pl-20" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 														<span class="accordion-open">
 															<i class="menu-icon tf-icons bx bx-plus"></i>
 														</span>

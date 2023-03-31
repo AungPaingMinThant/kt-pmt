@@ -32,13 +32,11 @@
 	margin-top: 7px;
 	width: 13%;
 }
-#import_financing, .export_financing, .other_trade_financing {
-	padding-right: 250px;
+#import_financing, .export_financing, .other_trade_financing, #import_services, .export_services, .other_trade_services {
 	font-size: 18px;
 	font-weight: 600;
 }
 .secure_req_application_icon {
-	float: right;
 	margin-top: -5px;
 }
 .secure_credit_fact {
@@ -52,6 +50,16 @@
 	width: 50% !important;
 	position: absolute;
 	top: 80%;
+	left: 4%;
+}
+.import_services_tagline {
+	color: #fff;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	width: 70% !important;
+	position: absolute;
+	top: 85%;
 	left: 4%;
 }
 .export_financing_tagline {
@@ -69,9 +77,13 @@
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 24px;
+	width: 40% !important;
 	position: absolute;
-	top: 85%;
+	top: 80%;
 	left: 4%;
+}
+.import-financing-accord .accordion-item .accordion-collapse .accordion-body {
+	padding: 20px 0px 0px 0px !important;
 }
 .accordion-body > .nav-align-top > .nav {
 	justify-content: start;
@@ -122,27 +134,522 @@
 .accordion-item {
 	margin-bottom: 30px;
 }
-@media (max-width: 1300px) and (min-width: 1000px) {
+.margin-financing-letter-of-credit, .trust-receipt, .import-invoice-financing {
+	background-image: url('../../../images/business/trade/trade-financing/margin-financing.png');
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	background-position: center;
+	position: relative;
+}
+.trust-receipt {
+	background-image: url('../../../images/business/trade/trade-financing/trust_receipt.png');
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	background-position: center;
+	position: relative;
+}
+.import-invoice-financing {
+	background-image: url('../../../images/business/trade/trade-financing/import_invoice_financing.png');
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	background-position: center;
+	position: relative;
+}
+.pre-shipment-financing {
+	background-image: url('../../../images/business/trade/trade-financing/pre_shipment_financing.png');
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	background-position: center;
+	position: relative;
+}
+.post-shipment-financing {
+	background-image: url('../../../images/business/trade/trade-financing/post_shipment_financing.png');
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	background-position: center;
+	position: relative;
+}
+.invoice-financing {
+	background-image: url('../../../images/business/trade/trade-financing/invoice_financing.png');
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	background-position: center;
+	position: relative;
+}
+.margin_financing_tagline, .trust_receipt_tagline {
+	color: #fff;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	width: 55% !important;
+	position: absolute;
+	top: 75%;
+	left: 4%;
+}
+.import_invoice_financing_tagline {
+	color: #fff;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	width: 77% !important;
+	position: absolute;
+	top: 75%;
+	left: 4%;
+}
+.pre_shipment_financing_tagline {
+	color: #fff;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	width: 50% !important;
+	position: absolute;
+	top: 75%;
+	left: 4%;
+}
+.post_shipment_financing_tagline {
+	color: #fff;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	width: 45% !important;
+	position: absolute;
+	top: 75%;
+	left: 4%;
+}
+.invoice_financing_tagline {
+	color: #fff;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	width: 55% !important;
+	position: absolute;
+	top: 75%;
+	left: 4%;
+}
+.import-services-letter-of-credit {
+	background-image: url('../../../images/business/trade/trade-services/letter-of-credit.png');
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	background-position: center;
+	position: relative;
+}
+.import-documentary-collection {
+	background-image: url('../../../images/business/trade/trade-services/import-documentary-collection.png');
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	background-position: center;
+	position: relative;
+}
+.letter-credit-advising {
+	background-image: url('../../../images/business/trade/trade-services/letter_of_credit_advising.png');
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	background-position: center;
+	position: relative;
+}
+.export-documentary-collections {
+	background-image: url('../../../images/business/trade/trade-services/export_documentation_collection.png');
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	background-position: center;
+	position: relative;
+}
+.letter-credit-confirmation {
+	background-image: url('../../../images/business/trade/trade-services/letter-of-credit-confirmation.png');
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	background-position: center;
+	position: relative;
+}
+
+.import_services_letter_credit_tagline {
+	color: #fff;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	width: 55% !important;
+	position: absolute;
+	top: 75%;
+	left: 4%;
+}
+.import_documentary_collection_tagline {
+	color: #fff;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	width: 75% !important;
+	position: absolute;
+	top: 75%;
+	left: 4%;
+}
+.export_services_tagline {
+	color: #fff;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	width: 70% !important;
+	position: absolute;
+	top: 82%;
+	left: 4%;
+}
+.letter_credit_advising_tagline {
+	color: #fff;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	width: 80% !important;
+	position: absolute;
+	top: 75%;
+	left: 4%;
+}
+.letter_credit_confirmation_tagline {
+	color: #fff;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	width: 80% !important;
+	position: absolute;
+	top: 83%;
+	left: 4%;
+}
+.export_documentary_collections_tagline {
+	color: #fff;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	width: 60% !important;
+	position: absolute;
+	top: 77%;
+	left: 4%;
+}
+.other_trade_services_tagline {
+	color: #fff;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	width: 70% !important;
+	position: absolute;
+	top: 82%;
+	left: 4%;
+}
+.income_document_div {
+    height: 380px;
+	background-image: url('../../../images/business/trade/trade-services/income_document_bg_3.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: transparent;
+}
+.salaried_staff_div {
+	padding: 60px 90px 70px 60px;
+}
+.self_employ_div {
+	padding: 60px 70px 70px 60px;
+}
+.self_employ_col_6 {
+	margin-left: -50px;
+}
+.income_doc_desktop {
+	margin-left: -40px !important;
+}
+.type_of_guarantees_row > .col-md-6 {
+	width: 40%;
+}
+.c-b-l-icon {
+	width: 80% !important;
+}
+.letter-credit-icon {
+	width: 70% !important;
+}
+.benefit_table_icon_td {
+	width: 17%;
+}
+.trade_services_table_icon_td {
+	width: 15%;
+}
+.margin_financing_eligibility {
+	margin-left: -30px;
+}
+.contact_us_btn {
+	background-color: #ae071d !important;
+	color: #fff !important;
+	font-weight: 500;
+	padding: 15px 25px !important;
+	border: 1px solid #ae071d !important;
+	margin-bottom: 10px;
+}
+.contact_us_btn:hover {
+	background-color: #fff !important;
+	color: #ae071d !important;
+}
+@media (max-width: 1400px) and (min-width: 1301px) {
+	.import_financing_tagline {
+	    width: 60% !important;
+	    top: 80%;
+	}
+	.margin_financing_tagline {
+	    width: 70% !important;
+	}
+	.trust_receipt_tagline {
+	    width: 60% !important;
+	}
+	.import_invoice_financing_tagline {
+	    width: 85% !important;
+	}
+	.post_shipment_financing_tagline {
+	    width: 50% !important;
+	}
+	.other_trade_financing_tagline {
+	    width: 50% !important;
+	}
+	.export_services_tagline {
+	    width: 80% !important;
+	    top: 80%;
+	}
+	.letter_credit_advising_tagline {
+		width: 90% !important;
+	}
+	.export_documentary_collections_tagline {
+	    width: 70% !important;
+	    top: 76%;
+	}
+	.other_trade_services_tagline {
+	    top: 80%;
+	}
+	.income_document_div {
+	    height: 380px;
+	    background-image: url(../../../images/business/trade/trade-services/income_document_bg_5.png);
+	}
+	.salaried_staff_div, .self_employ_div {
+	    padding: 50px 60px 70px 40px;
+	}
+}
+@media (max-width: 1300px) and (min-width: 1271px) {
 	.import_financing_tagline{
-		width: 60% !important;
+		font-size: 18px !important;
+		line-height: 22px !important;
 	}
 	.other_trade_financing_tagline {
 		width: 45% !important;
 		top: 75%;
 	}
+	.import_invoice_financing_tagline {
+	    width: 85% !important;
+	}
+	.post_shipment_financing_tagline {
+	    width: 50% !important;
+	}
 	.bullet_square {
 		width: 20%;
 	}
+	.income_document_div{
+		height: 380px;
+    	background-image: url(../../../images/business/trade/trade-services/income_document_bg_5.png);
+	}
+	.salaried_staff_div {
+		padding: 40px 70px 70px 40px;
+	}
+	.self_employ_div {
+		padding: 40px 70px 70px 40px;
+	}
+	.import_financing_tagline, .margin_financing_tagline, .trust_receipt_tagline, .import_invoice_financing_tagline, .export_financing_tagline,
+	.pre_shipment_financing_tagline, .post_shipment_financing_tagline, .other_trade_financing_tagline, .invoice_financing_tagline,
+	.import_services_tagline, .import_services_letter_credit_tagline, .import_documentary_collection_tagline, .export_services_tagline,
+	.letter_credit_advising_tagline, .letter_credit_confirmation_tagline, .export_documentary_collections_tagline, .other_trade_services_tagline {
+		font-size: 18px !important;
+		line-height: 22px !important;
+	}
+	.export_services_tagline {
+	    width: 80% !important;
+	    top: 80%;
+	}
+}
+@media (max-width: 1270px) and (min-width: 1000px) {
+	.import_financing_tagline, .margin_financing_tagline, .trust_receipt_tagline, .import_invoice_financing_tagline, .export_financing_tagline,
+	.pre_shipment_financing_tagline, .post_shipment_financing_tagline, .other_trade_financing_tagline, .invoice_financing_tagline,
+	.import_services_tagline, .import_services_letter_credit_tagline, .import_documentary_collection_tagline, .export_services_tagline,
+	.letter_credit_advising_tagline, .letter_credit_confirmation_tagline, .export_documentary_collections_tagline, .other_trade_services_tagline {
+		font-size: 18px !important;
+		line-height: 22px !important;
+	}
+	.import_financing_tagline {
+	    width: 70% !important;
+	    top: 75%;
+	    left: 4%;
+	}
+	.margin_financing_tagline, .trust_receipt_tagline {
+	    width: 80% !important;
+	}
+	.import_invoice_financing_tagline {
+	    width: 92% !important;
+	    top: 66%;
+	}
+	.export_financing_tagline {
+	    width: 80% !important;
+	    top: 76%;
+	}
+	.post_shipment_financing_tagline {
+	    width: 60% !important;
+	}
+	.other_trade_financing_tagline {
+	    width: 60% !important;
+	    top: 76%;
+	}
+	.invoice_financing_tagline {
+	    width: 70% !important;
+	}
+	.import_services_tagline {
+	    width: 80% !important;
+	    top: 83%;
+	}
+	.import_services_letter_credit_tagline {
+   		width: 78% !important;
+   	}
+   	.import_documentary_collection_tagline {
+   		width: 90%;
+   	}
+   	.export_services_tagline {
+	    width: 90% !important;
+	    top: 78%;
+	}
+	.letter_credit_advising_tagline {
+	    width: 90% !important;
+	}
+	.letter_credit_confirmation_tagline {
+	    width: 90% !important;
+	}
+	.export_documentary_collections_tagline {
+	    width: 90% !important;
+	}
+	.other_trade_services_tagline {
+	    width: 80% !important;
+	    top: 77%;
+	}
+   	.letter-credit-icon {
+	    width: 100% !important;
+	}
+	.c-b-l-icon {
+	    width: 90% !important;
+	}
+	.margin_financing_eligibility {
+	    margin-left: -10px;
+	}
+	.income_doc_desktop {
+		margin-left: -12px !important;
+		margin-top: 20px !important;
+	}
+	.income_document_div {
+	    height: 390px;
+		background-image: url('../../../images/business/trade/trade-services/income_document_bg_6.png');
+		padding: 30px 60px 0px 40px;
+	}
+	.self_employ_col_6 {
+		margin-left: 0px;
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+	}
+	.salaried_staff_col_6 {
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+	}
+	.type_of_guarantees_row > .col-md-6 {
+		width: 50%;
+	}
 }
 @media only screen and (max-width: 576px){
-	.calldeposit__mobile_title {
-		font-size: calc(1.2625rem + 0.15vw);
-		font-weight: 600 !important;
-	}
 	.bullet_square {
 		width: 100%;
 	}
 	.accordion-body > .nav-align-top > .nav {
 	    justify-content: space-around;
+	}
+	.import_financing_tagline, .margin_financing_tagline, .trust_receipt_tagline, .import_invoice_financing_tagline, .export_financing_tagline,
+	.pre_shipment_financing_tagline, .post_shipment_financing_tagline, .other_trade_financing_tagline, .invoice_financing_tagline {
+		font-size: 18px !important;
+		line-height: 22px !important;
+	}
+	.import_financing_tagline {
+	    width: 90% !important;
+	    top: 65%;
+	}
+	.margin_financing_tagline, .trust_receipt_tagline {
+	    width: 90% !important;
+	    top: 77%;
+	}
+	.accordion-header {
+		padding-right: 10px;
+	}
+	.benefit_table_icon_td {
+	    width: 30%;
+	    vertical-align: top;
+	}
+	.c-b-l-icon {
+    	width: 100% !important;
+    }
+    .margin_financing_eligibility {
+	    margin-left: 0px;
+	}
+	.margin-financing-letter-of-credit, .trust-receipt, .import-invoice-financing, .pre-shipment-financing, .post-shipment-financing, .invoice-financing {
+		width: 97%;
+	}
+	.import_invoice_financing_tagline {
+	    width: 90% !important;
+	    top: 62%;
+	    text-shadow: 0px 0px 40px #000;
+	}
+	.export_financing_tagline {
+	    width: 90% !important;
+	    top: 64%;
+	}
+	.pre_shipment_financing_tagline {
+	    width: 90% !important;
+	    top: 77%;
+	}
+	.post_shipment_financing_tagline {
+		width: 90% !important;
+		top: 78%;
+	}
+	.other_trade_financing_tagline {
+	    width: 80% !important;
+	    top: 67%;
+	}
+	.invoice_financing_tagline {
+	    width: 90% !important;
+	    top: 70%;
+	}
+	.c-b-l-div {
+		text-align: center;
+	}
+	.income_doc_desktop {
+	    margin-left: 0px !important;
+	    margin-top: 20px !important;
+	}
+	.income_document_div {
+	    background-image: url(../../../images/business/trade/trade-services/income_document_bg_mobile.png);
+	    background-repeat: no-repeat;
+	    background-size: contain;
+	    background-color: transparent;
+	    padding: 70px 70px 0px 60px;
 	}
 }

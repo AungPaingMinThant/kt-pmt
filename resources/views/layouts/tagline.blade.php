@@ -198,4 +198,13 @@
 		</div>
 	</div>
 @endif
+
+@if($page == 'bu_trade_services')
+	<div class="row">
+		<div class="col-md-10">
+			<p>AYA Trade services help streamline any method of payment in global trade, perform smooth operations, and build healthy supplier relations in your trading business.</p>
+			<p>Our dedicated international trade payment services team holds extensive experience of working closely with both importers and exporters and providing reliable trade solutions in the most beneficial way.</p>
+		</div>
+	</div>
+@endif
 <div class="space-40"></div>

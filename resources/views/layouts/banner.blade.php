@@ -2415,10 +2415,6 @@
 	</div>
 @endif
 
-@php
-	$imagePath = public_path("images/business/trade/trade-financing/KV.jpg");
-	$image = "data:image/png;base64,".base64_encode(file_get_contents($imagePath));
-@endphp
 @if($page == 'bu_trade_financing')
 	<div class="bu_trade_financing_banner banner_bg">
 		<div class="container">
@@ -2434,7 +2430,7 @@
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 30px;left: 100px;right: 80px;">
+					<div style="position: absolute;top: 20px;left: 100px;right: 50px;">
 						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span class="theme_text_color">We essentially assist you </span><br>with the trade cycle funding gap and risk mitigation</h1>
 					</div>
 				</div>
@@ -2449,6 +2445,41 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;TRADE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">TRADE FINANCING</span>
+			</p>
+		</div>
+	</div>
+@endif
+
+@if($page == 'bu_trade_services')
+	<div class="bu_trade_services_banner banner_bg">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
+					<div class="bu_trade_services_banner_tagline">
+						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;"><span class="theme_text_color">We essentially assist you </span><br>with the trade cycle funding gap and risk mitigation</h1>
+					</div>
+				</div>
+				<div class="col-md-6" style="text-align: right;">
+					<h1></h1>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 20px;left: 100px;right: 50px;">
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span class="theme_text_color">We essentially assist you </span><br>with the trade cycle funding gap and risk mitigation</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;TRADE&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">TRADE SERVICES</span>
 			</p>
 		</div>
 	</div>
