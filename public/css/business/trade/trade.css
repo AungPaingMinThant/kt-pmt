@@ -365,7 +365,7 @@
 	padding: 60px 90px 70px 60px;
 }
 .self_employ_div {
-	padding: 60px 70px 70px 60px;
+	padding: 60px 90px 70px 60px;
 }
 .self_employ_col_6 {
 	margin-left: -50px;
@@ -402,6 +402,9 @@
 .contact_us_btn:hover {
 	background-color: #fff !important;
 	color: #ae071d !important;
+}
+.type_of_guarantees_text {
+	width: 80%;
 }
 @media (max-width: 1400px) and (min-width: 1301px) {
 	.import_financing_tagline {
@@ -584,8 +587,11 @@
 	.accordion-body > .nav-align-top > .nav {
 	    justify-content: space-around;
 	}
+
 	.import_financing_tagline, .margin_financing_tagline, .trust_receipt_tagline, .import_invoice_financing_tagline, .export_financing_tagline,
-	.pre_shipment_financing_tagline, .post_shipment_financing_tagline, .other_trade_financing_tagline, .invoice_financing_tagline {
+	.pre_shipment_financing_tagline, .post_shipment_financing_tagline, .other_trade_financing_tagline, .invoice_financing_tagline,
+	.import_services_tagline, .import_services_letter_credit_tagline, .import_documentary_collection_tagline, .export_services_tagline,
+	.letter_credit_advising_tagline, .letter_credit_confirmation_tagline, .export_documentary_collections_tagline, .other_trade_services_tagline {
 		font-size: 18px !important;
 		line-height: 22px !important;
 	}
@@ -610,7 +616,8 @@
     .margin_financing_eligibility {
 	    margin-left: 0px;
 	}
-	.margin-financing-letter-of-credit, .trust-receipt, .import-invoice-financing, .pre-shipment-financing, .post-shipment-financing, .invoice-financing {
+	.margin-financing-letter-of-credit, .trust-receipt, .import-invoice-financing, .pre-shipment-financing, .post-shipment-financing, .invoice-financing,
+	.import-services-letter-of-credit {
 		width: 97%;
 	}
 	.import_invoice_financing_tagline {
@@ -650,6 +657,46 @@
 	    background-repeat: no-repeat;
 	    background-size: contain;
 	    background-color: transparent;
-	    padding: 70px 70px 0px 60px;
+	    padding: 50px 70px 0px 60px;
+	}
+	.letter-credit-icon {
+		width: 100% !important;
+	}
+	.trade_services_table_icon_td {
+		width: 20%;
+	    vertical-align: top;
+	}
+	.import_services_tagline, .import_documentary_collection_tagline, .export_documentary_collections_tagline, .other_trade_services_tagline {
+	    width: 90% !important;
+	    top: 70%;
+	}
+	.import_services_letter_credit_tagline {
+	    width: 90% !important;
+	    top: 78%;
+	}
+	.export_services_tagline {
+		width: 90% !important;
+		top: 55%;
+	}
+	.letter_credit_advising_tagline {
+		width: 90% !important;
+		top: 60%;
+	}
+	.letter_credit_confirmation_tagline {
+		width: 80% !important;
+	    top: 78%;
+	}
+	.self_employ_col_6 {
+	    margin-left: 0px; 
+	}
+	.type_of_guarantees_row > .col-md-6 {
+		width: 100%;
+		text-align: center;
+	}
+	.type_of_guarantees_title {
+		text-align: center;
+	}
+	.type_of_guarantees_text {
+		width: 100% !important;
 	}
 }

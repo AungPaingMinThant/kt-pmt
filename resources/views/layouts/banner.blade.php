@@ -2456,7 +2456,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="bu_trade_services_banner_tagline">
-						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;"><span class="theme_text_color">We essentially assist you </span><br>with the trade cycle funding gap and risk mitigation</h1>
+						<h1 style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">Our experts’ strong expertise in trading services guarantees <span class="theme_text_color">your success.</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -2466,7 +2466,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 20px;left: 100px;right: 50px;">
-						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span class="theme_text_color">We essentially assist you </span><br>with the trade cycle funding gap and risk mitigation</h1>
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Our experts’ strong expertise in trading services guarantees <span class="theme_text_color">your success.</span></h1>
 					</div>
 				</div>
 			</div>

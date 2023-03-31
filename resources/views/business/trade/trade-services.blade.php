@@ -165,8 +165,8 @@
 
 														<table class="table table-borderless" cellspacing="0">
 															<tr>
-																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-services/Cost_efficient_easy_to_use.png') }}" class="img-fluid c-b-l-icon">
+																<td class="trade_services_table_icon_td">
+																	<img src="{{ url('/images/business/trade/trade-services/Cost_efficient_easy_to_use.png') }}" class="img-fluid letter-credit-icon">
 																</td>
 																<td>
 																	<p class="fw-semibold mb-0 w-80">Cost-efficient and easy to use.</p>
@@ -174,8 +174,8 @@
 																</td>
 															</tr>
 															<tr>
-																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-services/added_security.png') }}" class="img-fluid c-b-l-icon">
+																<td class="trade_services_table_icon_td">
+																	<img src="{{ url('/images/business/trade/trade-services/added_security.png') }}" class="img-fluid letter-credit-icon">
 																</td>
 																<td>
 																	<p class="fw-semibold mb-0 w-80">Added security.</p>
@@ -183,8 +183,8 @@
 																</td>
 															</tr>
 															<tr>
-																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-services/universally_regulated.png') }}" class="img-fluid c-b-l-icon">
+																<td class="trade_services_table_icon_td">
+																	<img src="{{ url('/images/business/trade/trade-services/universally_regulated.png') }}" class="img-fluid letter-credit-icon">
 																</td>
 																<td>
 																	<p class="fw-semibold mb-0 w-80">Universally regulated.</p>
@@ -235,16 +235,16 @@
 
 														<table class="table table-borderless" cellspacing="0">
 															<tr>
-																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-services/benefits_of_using_letter_of_credit_advising_1.png') }}" class="img-fluid c-b-l-icon">
+																<td class="trade_services_table_icon_td">
+																	<img src="{{ url('/images/business/trade/trade-services/benefits_of_using_letter_of_credit_advising_1.png') }}" class="img-fluid letter-credit-icon">
 																</td>
 																<td>
 																	<p>Authentication is guaranteed as we firmly establish a good relationship with a wide range of correspondent banks.</p>
 																</td>
 															</tr>
 															<tr>
-																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-services/benefits_of_using_letter_of_credit_advising_2.png') }}" class="img-fluid c-b-l-icon">
+																<td class="trade_services_table_icon_td">
+																	<img src="{{ url('/images/business/trade/trade-services/benefits_of_using_letter_of_credit_advising_2.png') }}" class="img-fluid letter-credit-icon">
 																</td>
 																<td>
 																	<p class="w-80">Efficiently manage Letter of Credit (LC) collection</p>
@@ -260,16 +260,16 @@
 
 														<table class="table table-borderless" cellspacing="0">
 															<tr>
-																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-services/benefits_of_using_negotiating_bank_1.png') }}" class="img-fluid c-b-l-icon">
+																<td class="trade_services_table_icon_td">
+																	<img src="{{ url('/images/business/trade/trade-services/benefits_of_using_negotiating_bank_1.png') }}" class="img-fluid letter-credit-icon">
 																</td>
 																<td>
 																	<p>Provides value to the seller, assuming that the terms of the credit line have been met.</p>
 																</td>
 															</tr>
 															<tr>
-																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-services/benefits_of_using_negotiating_bank_2.png') }}" class="img-fluid c-b-l-icon">
+																<td class="trade_services_table_icon_td">
+																	<img src="{{ url('/images/business/trade/trade-services/benefits_of_using_negotiating_bank_2.png') }}" class="img-fluid letter-credit-icon">
 																</td>
 																<td>
 																	<p class="w-80">Provides certainty, the buyer could not cancel or amend without your consent</p>
@@ -303,16 +303,16 @@
 
 														<table class="table table-borderless" cellspacing="0">
 															<tr>
-																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-services/letter_of_credit_confirmation_benefit_1.png') }}" class="img-fluid c-b-l-icon">
+																<td class="trade_services_table_icon_td">
+																	<img src="{{ url('/images/business/trade/trade-services/letter_of_credit_confirmation_benefit_1.png') }}" class="img-fluid letter-credit-icon">
 																</td>
 																<td>
 																	<p>the country risk and insolvency risk of the issuing bank are eliminated,</p>
 																</td>
 															</tr>
 															<tr>
-																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-services/letter_of_credit_confirmation_benefit_2.png') }}" class="img-fluid c-b-l-icon">
+																<td class="trade_services_table_icon_td">
+																	<img src="{{ url('/images/business/trade/trade-services/letter_of_credit_confirmation_benefit_2.png') }}" class="img-fluid letter-credit-icon">
 																</td>
 																<td>
 																	<p class="w-80">Guaranteed payment, reduced credit risk, and be on a safe side</p>
@@ -385,32 +385,32 @@
 
 														<table class="table table-borderless" cellspacing="0">
 															<tr>
-																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-services/export_documentation_processing.png') }}" class="img-fluid c-b-l-icon">
+																<td class="trade_services_table_icon_td">
+																	<img src="{{ url('/images/business/trade/trade-services/export_documentation_processing.png') }}" class="img-fluid letter-credit-icon">
 																</td>
 																<td>
 																	<p>Export documentation processing is handled by a trusted agent (AYA bank)</p>
 																</td>
 															</tr>
 															<tr>
-																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-services/receive_immediate_advance_against_approved_facility.png') }}" class="img-fluid c-b-l-icon">
+																<td class="trade_services_table_icon_td">
+																	<img src="{{ url('/images/business/trade/trade-services/receive_immediate_advance_against_approved_facility.png') }}" class="img-fluid letter-credit-icon">
 																</td>
 																<td>
 																	<p class="w-80">Receive an immediate advance against approved facility</p>
 																</td>
 															</tr>
 															<tr>
-																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-services/secure_timely_receipt.png') }}" class="img-fluid c-b-l-icon">
+																<td class="trade_services_table_icon_td">
+																	<img src="{{ url('/images/business/trade/trade-services/secure_timely_receipt.png') }}" class="img-fluid letter-credit-icon">
 																</td>
 																<td>
 																	<p class="w-80">Secure and timely receipt of documents</p>
 																</td>
 															</tr>
 															<tr>
-																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-services/cost_effectiveness.png') }}" class="img-fluid c-b-l-icon">
+																<td class="trade_services_table_icon_td">
+																	<img src="{{ url('/images/business/trade/trade-services/cost_effectiveness.png') }}" class="img-fluid letter-credit-icon">
 																</td>
 																<td>
 																	<p class="w-80">Cost-effectiveness</p>
@@ -464,48 +464,80 @@
 									<div class="space-20"></div>
 
 									<p class="fw-semibold mb-minus-10" style="font-size: 17px;">Benefits</p>
-									<div class="row income_doc_desktop">
-										<div class="col-md-6 salaried_staff_col_6">
-											<div class="income_document_div salaried_staff_div">
-												<div class="row">
-													<p class="mb-10" style="font-weight: 600;font-size: 16px;">To the Applicant:</p>
-													<ul style="margin-left: 20px;font-size: 13px">
-														<li class="mb-10">Strengthening business growth and entrepreneurial activities that encourages small companies to secure loans or conduct business</li>
-														<li class="mb-10">Credibility of the applicant increases on the issuance of the guarantee.</li>
-														<li>An easy process and requires minimal documents</li>
-													</ul>
+									<div class="d-none d-sm-block">
+										<div class="row income_doc_desktop">
+											<div class="col-md-6 salaried_staff_col_6">
+												<div class="income_document_div salaried_staff_div">
+													<div class="row">
+														<p class="mb-10" style="font-weight: 600;font-size: 16px;">To the Applicant:</p>
+														<ul style="margin-left: 20px;font-size: 13px">
+															<li class="mb-10">Strengthening business growth and entrepreneurial activities that encourages small companies to secure loans or conduct business</li>
+															<li class="mb-10">Credibility of the applicant increases on the issuance of the guarantee.</li>
+															<li>An easy process and requires minimal documents</li>
+														</ul>
+													</div>
 												</div>
 											</div>
-										</div>
-										<div class="col-md-6 self_employ_col_6">
-											<div class="income_document_div self_employ_div">
-												<div class="row">
-													<p class="mb-10" style="font-weight: 600;font-size: 16px;">To the Beneficiary:</p>
-													<ul style="margin-left: 20px;font-size: 13px;">
-														<li class="mb-10">It is safe for beneficiaries to enter the contract knowing that due diligence’s been done on their counterparty.</li>
-														<li class="mb-10">It serves as a risk management tool for the beneficiary as the Bank presumes the liability to ensure the counterparty fulfill its obligation.</li>
-														<li>Bank Guarantee adds “Creditworthiness” to both the applicant and the contract. </li>
-													</ul>
+											<div class="col-md-6 self_employ_col_6">
+												<div class="income_document_div self_employ_div">
+													<div class="row">
+														<p class="mb-10" style="font-weight: 600;font-size: 16px;">To the Beneficiary:</p>
+														<ul style="margin-left: 20px;font-size: 13px;">
+															<li class="mb-10">It is safe for beneficiaries to enter the contract knowing that due diligence’s been done on their counterparty.</li>
+															<li class="mb-10">It serves as a risk management tool for the beneficiary as the Bank presumes the liability to ensure the counterparty fulfill its obligation.</li>
+															<li>Bank Guarantee adds “Creditworthiness” to both the applicant and the contract. </li>
+														</ul>
+													</div>
 												</div>
 											</div>
+											<div class="col-md-6"></div>
 										</div>
-										<div class="col-md-6"></div>
+									</div>
+
+									<div class="d-block d-sm-none">
+										<div class="row income_doc_desktop">
+											<div class="col-md-12 salaried_staff_col_6">
+												<div class="income_document_div salaried_staff_div">
+													<div class="row">
+														<p class="mb-10" style="font-weight: 600;font-size: 16px;">To the Applicant:</p>
+														<ul style="margin-left: 20px;font-size: 13px">
+															<li class="mb-10">Strengthening business growth and entrepreneurial activities that encourages small companies to secure loans or conduct business</li>
+															<li class="mb-10">Credibility of the applicant increases on the issuance of the guarantee.</li>
+															<li>An easy process and requires minimal documents</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-12 self_employ_col_6">
+												<div class="income_document_div self_employ_div">
+													<div class="row">
+														<p class="mb-10" style="font-weight: 600;font-size: 16px;">To the Beneficiary:</p>
+														<ul style="margin-left: 20px;font-size: 13px;">
+															<li class="mb-10">It is safe for beneficiaries to enter the contract knowing that due diligence’s been done on their counterparty.</li>
+															<li class="mb-10">It serves as a risk management tool for the beneficiary as the Bank presumes the liability to ensure the counterparty fulfill its obligation.</li>
+															<li>Bank Guarantee adds “Creditworthiness” to both the applicant and the contract. </li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6"></div>
+										</div>
 									</div>
 
 									<div class="space-20"></div>
 									<p class="fw-semibold mb-30" style="font-size: 17px;">Features</p>
 									<table class="table table-borderless" cellspacing="0">
 										<tr>
-											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/trade/trade-services/customized_and_flexible_solutions.png') }}" class="img-fluid c-b-l-icon">
+											<td class="trade_services_table_icon_td">
+												<img src="{{ url('/images/business/trade/trade-services/customized_and_flexible_solutions.png') }}" class="img-fluid letter-credit-icon">
 											</td>
 											<td>
 												<p>Customized and Flexible Solutions for a wide range of guarantees as per customers’ needs.</p>
 											</td>
 										</tr>
 										<tr>
-											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/trade/trade-services/fast_issuance.png') }}" class="img-fluid c-b-l-icon">
+											<td class="trade_services_table_icon_td">
+												<img src="{{ url('/images/business/trade/trade-services/fast_issuance.png') }}" class="img-fluid letter-credit-icon">
 											</td>
 											<td>
 												<p class="w-80">Fast issuance upon receiving all documents in order</p>
@@ -514,18 +546,18 @@
 									</table>
 
 									<div class="space-20"></div>
-									<p class="fw-semibold mb-30" style="font-size: 17px;">Types of Guarantees</p>
+									<p class="fw-semibold mb-30 type_of_guarantees_title" style="font-size: 17px;">Types of Guarantees</p>
 									
 									<div class="row type_of_guarantees_row">
 										<div class="col-md-6">
 											<img src="{{ url('/images/business/trade/trade-services/financial-bank-guarantee.png') }}" class="img-fluid mb-20">
 											<p class="theme_text_color fw-semibold">Financial Bank guarantee</p>
-											<p class="w-80">We guarantee on behalf of the buyer / borrower to repay the debts owed to the seller / lender.</p>
+											<p class="type_of_guarantees_text">We guarantee on behalf of the buyer / borrower to repay the debts owed to the seller / lender.</p>
 										</div>
 										<div class="col-md-6">
 											<img src="{{ url('/images/business/trade/trade-services/performance-based-guarantee.png') }}" class="img-fluid mb-20">
 											<p class="theme_text_color fw-semibold">Performance-based guarantee</p>
-											<p class="w-90">The beneficiary can claim resulting losses from non-performance as laid out in the contract.</p>
+											<p class="type_of_guarantees_text">The beneficiary can claim resulting losses from non-performance as laid out in the contract.</p>
 										</div>
 									</div>
 								</div>

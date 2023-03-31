@@ -369,7 +369,7 @@
 	position: absolute;
     top: 120px;
     left: 60px;
-    right: 120px;
+    right: 200px;
 }
 @media (max-width: 1550px) and (min-width: 577px) {
 	.creditcard_banner{
@@ -395,6 +395,12 @@
 	}
 	.bu_trade_services_banner{
 		background-position: 40% center;
+	}
+	.bu_trade_services_banner_tagline {
+	    position: absolute;
+	    top: 120px;
+	    left: 60px;
+	    right: 140px;
 	}
 }
 @media (max-width: 1300px) and (min-width: 1000px) {
@@ -684,7 +690,7 @@
 	}
 	.bu_trade_services_banner_tagline {
 		top: 30px;
-	    right: 0px;
+	    right: 60px;
 	    left: 40px;
 	}
 }
