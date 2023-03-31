@@ -154,7 +154,7 @@
 														<table class="table table-borderless" cellspacing="0">
 															<tr>
 																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-financing/convenient-line-of-credit-for-issuing-letter-of-credit.png') }}" class="img-fluid c-b-l-icon">
+																	<img src="{{ url('/images/business/trade/trade-financing/trust_receipt_benefit_1.png') }}" class="img-fluid c-b-l-icon">
 																</td>
 																<td>
 																	<p>Help with liquidity by financing customer’s international payables, hence increasing confidence between importer and seller</p>
@@ -162,7 +162,7 @@
 															</tr>
 															<tr>
 																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-financing/leverage-the-value-of-assets.png') }}" class="img-fluid c-b-l-icon">
+																	<img src="{{ url('/images/business/trade/trade-financing/trust_receipt_benefit_2.png') }}" class="img-fluid c-b-l-icon">
 																</td>
 																<td>
 																	<p class="w-80">A sound choice for importers with insufficient cash flow</p>
@@ -170,7 +170,7 @@
 															</tr>
 															<tr>
 																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-financing/flexible-repayment-and-on-your-own-schedule.png') }}" class="img-fluid c-b-l-icon">
+																	<img src="{{ url('/images/business/trade/trade-financing/trust_receipt_benefit_3.png') }}" class="img-fluid c-b-l-icon">
 																</td>
 																<td>
 																	<p class="w-80">Paying back loans only after goods are sold</p>
@@ -178,7 +178,7 @@
 															</tr>
 															<tr>
 																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-financing/flexible-repayment-and-on-your-own-schedule.png') }}" class="img-fluid c-b-l-icon">
+																	<img src="{{ url('/images/business/trade/trade-financing/trust_receipt_benefit_4.png') }}" class="img-fluid c-b-l-icon">
 																</td>
 																<td>
 																	<p class="w-80">Flexible repayment plan</p>
@@ -230,7 +230,7 @@
 														<table class="table table-borderless" cellspacing="0">
 															<tr>
 																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-financing/convenient-line-of-credit-for-issuing-letter-of-credit.png') }}" class="img-fluid c-b-l-icon">
+																	<img src="{{ url('/images/business/trade/trade-financing/import_invoice_financing_benefit_1.png') }}" class="img-fluid c-b-l-icon">
 																</td>
 																<td>
 																	<p>More flexibility than business loans or overdrafts</p>
@@ -238,7 +238,7 @@
 															</tr>
 															<tr>
 																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-financing/leverage-the-value-of-assets.png') }}" class="img-fluid c-b-l-icon">
+																	<img src="{{ url('/images/business/trade/trade-financing/import_invoice_financing_benefit_2.png') }}" class="img-fluid c-b-l-icon">
 																</td>
 																<td>
 																	<p class="w-80">Payment is guaranteed to your exporter</p>
@@ -246,7 +246,7 @@
 															</tr>
 															<tr>
 																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-financing/flexible-repayment-and-on-your-own-schedule.png') }}" class="img-fluid c-b-l-icon">
+																	<img src="{{ url('/images/business/trade/trade-financing/import_invoice_financing_benefit_3.png') }}" class="img-fluid c-b-l-icon">
 																</td>
 																<td>
 																	<p class="w-80">Maintain a smooth operation of the supply chain and improve cash flow</p>
@@ -316,7 +316,7 @@
 														<table class="table table-borderless" cellspacing="0">
 															<tr>
 																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-financing/convenient-line-of-credit-for-issuing-letter-of-credit.png') }}" class="img-fluid c-b-l-icon">
+																	<img src="{{ url('/images/business/trade/trade-financing/pre_shipment_financing_benefit_1.png') }}" class="img-fluid c-b-l-icon">
 																</td>
 																<td>
 																	<p>Pre-production cost is financed by using sales contracts as a repayment source.</p>
@@ -324,7 +324,7 @@
 															</tr>
 															<tr>
 																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-financing/leverage-the-value-of-assets.png') }}" class="img-fluid c-b-l-icon">
+																	<img src="{{ url('/images/business/trade/trade-financing/pre_shipment_financing_benefit_2.png') }}" class="img-fluid c-b-l-icon">
 																</td>
 																<td>
 																	<p class="w-80">Help develop your business smoothly and free up your funds for better cash flow management</p>
@@ -382,7 +382,7 @@
 														<table class="table table-borderless" cellspacing="0">
 															<tr>
 																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-financing/convenient-line-of-credit-for-issuing-letter-of-credit.png') }}" class="img-fluid c-b-l-icon">
+																	<img src="{{ url('/images/business/trade/trade-financing/post_shipment_financing_benefit_1.png') }}" class="img-fluid c-b-l-icon">
 																</td>
 																<td>
 																	<p>Enabling eligible exporters to procure raw materials, suppliers, process, manufacture or ship the goods meant for export</p>
@@ -390,7 +390,7 @@
 															</tr>
 															<tr>
 																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-financing/leverage-the-value-of-assets.png') }}" class="img-fluid c-b-l-icon">
+																	<img src="{{ url('/images/business/trade/trade-financing/post_shipment_financing_benefit_2.png') }}" class="img-fluid c-b-l-icon">
 																</td>
 																<td>
 																	<p class="w-80">Fulfilling an important cash flow avenue for exporters to manufacture finished goods</p>
@@ -398,7 +398,7 @@
 															</tr>
 															<tr>
 																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-financing/flexible-repayment-and-on-your-own-schedule.png') }}" class="img-fluid c-b-l-icon">
+																	<img src="{{ url('/images/business/trade/trade-financing/post_shipment_financing_benefit_3.png') }}" class="img-fluid c-b-l-icon">
 																</td>
 																<td>
 																	<p class="w-80">Flexible financing period </p>
@@ -474,7 +474,7 @@
 														<table class="table table-borderless" cellspacing="0">
 															<tr>
 																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-financing/convenient-line-of-credit-for-issuing-letter-of-credit.png') }}" class="img-fluid c-b-l-icon">
+																	<img src="{{ url('/images/business/trade/trade-financing/invoice_financing_benefit_1.png') }}" class="img-fluid c-b-l-icon">
 																</td>
 																<td>
 																	<p>Equity is maintained well</p>
@@ -482,7 +482,7 @@
 															</tr>
 															<tr>
 																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-financing/leverage-the-value-of-assets.png') }}" class="img-fluid c-b-l-icon">
+																	<img src="{{ url('/images/business/trade/trade-financing/invoice_financing_benefit_2.png') }}" class="img-fluid c-b-l-icon">
 																</td>
 																<td>
 																	<p class="w-80">Financing made easy and quickly</p>
@@ -490,10 +490,10 @@
 															</tr>
 															<tr>
 																<td class="benefit_table_icon_td">
-																	<img src="{{ url('/images/business/trade/trade-financing/leverage-the-value-of-assets.png') }}" class="img-fluid c-b-l-icon">
+																	<img src="{{ url('/images/business/trade/trade-financing/invoice_financing_benefit_3.png') }}" class="img-fluid c-b-l-icon">
 																</td>
 																<td>
-																	<p class="w-80">Financing made easy and quicklyAble to access finance quickly</p>
+																	<p class="w-80">Able to access finance quickly</p>
 																</td>
 															</tr>
 														</table>
