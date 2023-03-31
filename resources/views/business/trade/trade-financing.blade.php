@@ -16,6 +16,9 @@
 				
 				<div class="col-md-12">
 					<div class="row">
+						<div class="col-md-12">
+							<h3 class="fw-semibold" style="font-size: 18px;">Offering Services</h3>
+						</div>
 						<div class="col-md-4 d-none d-sm-block">
 							<nav id="myScrollspy">
 								<ul class="nav nav-pills flex-column">
