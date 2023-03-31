@@ -78,7 +78,7 @@
 														<p class="mb-10">How can we assist you with international trade settlement?</p>
 														<p>We undertake and issue a letter of credit (LC) on behalf of the buyer/ importer to ensure timely payment to the supplier within a designated time if all terms and conditions stated in the LC are met, and all required documents are obtained. </p>
 														<div class="space-20"></div>
-														<p class="fw-semibold" style="font-size: 17px;">Features and Benefits</p>
+														<p class="fw-semibold" style="font-size: 17px;">Benefits</p>
 
 														<table class="table table-borderless" cellspacing="0">
 															<tr>

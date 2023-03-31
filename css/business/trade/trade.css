@@ -669,7 +669,7 @@
 	}
 	.import_services_tagline, .import_documentary_collection_tagline, .export_documentary_collections_tagline, .other_trade_services_tagline {
 	    width: 90% !important;
-	    top: 70%;
+	    top: 60%;
 	}
 	.import_services_letter_credit_tagline {
 	    width: 90% !important;
