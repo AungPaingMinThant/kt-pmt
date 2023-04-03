@@ -129,4 +129,6 @@ Route::get('/business/borrowing/sme','App\Http\Controllers\Business\BorrowingCon
 Route::get('/business/trade/trade-financing','App\Http\Controllers\Business\TradeController@tradeFinancingIndex');
 Route::get('/business/trade/trade-services','App\Http\Controllers\Business\TradeController@tradeServicesIndex');
 
+Route::get('/business/cash-management','App\Http\Controllers\Business\CashManagementController@CMIndex');
+
 // contact-us

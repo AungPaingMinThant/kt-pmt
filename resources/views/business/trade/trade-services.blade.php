@@ -148,16 +148,16 @@
 														<p>Inward Documentary Collection is the form of document we issue at the request of the importer to collect payments from the exporter. After the shipment of goods, the importer entrusts the trade document to us alongside specific instructions and terms for their release of goods to the exporter.</p>
 
 														<div class="space-20"></div>
+														<p class="fw-semibold mb-10" style="font-size: 17px;">Classification</p>
+														<p>Inward collection has two forms including documents against payment (D/P) and documents against acceptance (D/A).</p>
+
+														<div class="space-20"></div>
 														<p class="fw-semibold mb-10" style="font-size: 17px;">Documents against Acceptance (DA)</p>
 														<p>Releasing the import documents upon acceptance of the bills of exchange/drafts.</p>
 
 														<div class="space-20"></div>
 														<p class="fw-semibold mb-10" style="font-size: 17px;">Documents against Payment (DP)</p>
 														<p>Releasing the import documents only upon payments.</p>
-
-														<div class="space-20"></div>
-														<p class="fw-semibold mb-10" style="font-size: 17px;">Classification</p>
-														<p>Inward collection has two forms including documents against payment (D/P) and documents against acceptance (D/A).</p>
 
 														<div class="space-20"></div>
 														<p class="fw-semibold mb-0" style="font-size: 17px;">Benefits</p>
@@ -220,7 +220,7 @@
 														<span class="accordion-close">
 															<i class="menu-icon tf-icons bx bx-minus"></i>
 														</span>
-														Letter of credit Advising
+														Letter of credit Advising and Negotiation
 													</button>
 												</h2>
 												<div id="collapseExportServicesOne" class="accordion-collapse collapse" aria-labelledby="headingExportOne" data-bs-parent="#accordionExample">
@@ -417,29 +417,6 @@
 																</td>
 															</tr>
 														</table>
-
-														<div class="space-20"></div>
-														<p class="fw-semibold mb-30" style="font-size: 17px;">Features</p>
-														<div class="row">
-															<div class="col-1">
-																<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-															</div>
-															<div class="col-11">
-																<p class="margin_financing_eligibility mt-minus-5">Only irrevocable letters of credit can be confirmed.</p>
-															</div>
-															<div class="col-1">
-																<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-															</div>
-															<div class="col-11">
-																<p class="margin_financing_eligibility mt-minus-5">During the issuance phase of a letter of credit, “authorize or request” should be made to add our confirmation to the letter of credit.</p>
-															</div>
-															<div class="col-1">
-																<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-															</div>
-															<div class="col-11">
-																<p class="margin_financing_eligibility mt-minus-5">Confirmation of the letter of credit is subject to terms and conditions and no obligation from the bank.</p>
-															</div>
-														</div>
 													</div>
 												</div>
 											</div>

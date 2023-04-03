@@ -2485,6 +2485,42 @@
 	</div>
 @endif
 
+@if($page == 'bu_cash_management')
+	<div class="bu_cash_management_banner banner_bg">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
+					<div class="bu_cash_management_banner_tagline">
+						<h1 style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">Our experts’ strong expertise in trading services guarantees <span class="theme_text_color">your success.</span></h1>
+					</div>
+				</div>
+				<div class="col-md-6" style="text-align: right;">
+					<h1></h1>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 20px;left: 100px;right: 50px;">
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Our experts’ strong expertise in trading services guarantees <span class="theme_text_color">your success.</span></h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">CASH MANAGEMENT</span>
+			</p>
+		</div>
+	</div>
+@endif
+
+
+
 <!-- 
 $imagePath = public_path("images/20220405140258.jpg");
         $image = "data:image/png;base64,".base64_encode(file_get_contents($imagePath)); -->
