@@ -2489,9 +2489,9 @@
 	<div class="bu_cash_management_banner banner_bg">
 		<div class="container">
 			<div class="row d-none d-sm-block">
-				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
+				<div class="col-md-5 text-left" style="text-align: left;position: relative;">
 					<div class="bu_cash_management_banner_tagline">
-						<h1 style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">Our experts’ strong expertise in trading services guarantees <span class="theme_text_color">your success.</span></h1>
+						<h1 style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">Cash Management Service <span class="theme_text_color">at your Fingertips</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -2500,8 +2500,8 @@
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 20px;left: 100px;right: 50px;">
-						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Our experts’ strong expertise in trading services guarantees <span class="theme_text_color">your success.</span></h1>
+					<div style="position: absolute;top: 170px;left: 10px;right: 90px;">
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Cash Management Service <span class="theme_text_color">at your Fingertips</span></h1>
 					</div>
 				</div>
 			</div>

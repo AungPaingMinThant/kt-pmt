@@ -15,118 +15,41 @@
 			<div class="container section_1" >
 				<div class="space-40"></div>
 				<div class="col-md-9">
-					<p>Need to purchase new assets for your business without the stress of having to pay large upfront costs?<br>AYA Bank offers a hire purchase finance option to meet your needs.</p>
-					<p>Hire purchase finance can be used for a variety of assets, ranging from heavy machinery, equipment, vehicle to shop house.</p>
+					<p>We offer a wide range of effective and efficient cash management service and solutions for the businesses. With AYA Cash Management Service, we ensure to provide a full suite of customized receivables and payables solutions alongside a comprehensive and timely management report gearing to facilitate the daily business decisions and to manage and accelerate the business cash flow effectively.</p>
 				</div>
 				<div class="space-20"></div>
 
 				<div class="col-md-12">
-					<p class="fw-semibold" style="font-size: 16px;">All You Need to Know</p>
+					<p class="fw-semibold" style="font-size: 16px;">Why AYA Cash Management Service?</p>
 				</div>
-				<div class="row">
-					<div class="col-1">
-						<!-- <img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square"> -->
-						<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-					</div>
-					<div class="col-11">
-						<!-- need-to-know-point -->
-						<p class="should-apply-point mt-minus-5">It is a fixed rate loan, so interest rates tend to be cost effective</p>
-					</div>
-					<div class="col-1">
-						<!-- <img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square"> -->
-						<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-					</div>
-					<div class="col-11">
-						<p class="should-apply-point mt-minus-5">You can utilize the asset while paying back in instalments over a set period of time</p>
-					</div>
-					<div class="col-1">
-						<!-- <img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square"> -->
-						<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-					</div>
-					<div class="col-11">
-						<p class="should-apply-point mt-minus-5">You will legally own the item once all the instalments have been paid in full</p>
-					</div>
-				</div>
-				
-				<div class="space-20"></div>
-
-				<div class="col-md-12">
-					<p class="fw-semibold" style="font-size: 16px;">Why You Should Apply</p>
-				</div>
-				<div class="row">
-					<div class="col-1">
-						<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-					</div>
-					<div class="col-11">
-						<p class="should-apply-point mt-minus-5">Companies can purchase necessary assets quickly</p>
-					</div>
-					<div class="col-1">
-						<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-					</div>
-					<div class="col-11">
-						<p class="should-apply-point mt-minus-5">Cost of repaying is spread over a fixed period without impact on working capital</p>
-					</div>
-					<div class="col-1">
-						<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-					</div>
-					<div class="col-11">
-						<p class="should-apply-point mt-minus-5">AYA Bank offers competitive interest rate</p>
-					</div>
-					<div class="col-1">
-						<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-					</div>
-					<div class="col-11">
-						<p class="should-apply-point mt-minus-5">It is flexible, straightforward and relatively easy to apply</p>
-					</div>
-				</div>
-
-				<div class="space-20"></div>
-
-				<div class="col-md-12">
-					<p class="fw-semibold" style="font-size: 16px;">How to Qualify</p>
-				</div>
-				<div class="row why_use_AYA_outer">
-					<div class="col-md-6 outer_benefit_box benefit_section_col">
-						<div class="row">
-							<div class="col-md-3">
-								<img src="{{ url('/images/business/borrowing/hire-purchase/credit-score.png') }}" class="img-fluid benefit_icon">
+				<div class="row ">
+					<div class="col-md-6 ">
+						<div class="why_use_AYA_outer">
+							<div class="row outer_benefit_box benefit_section_col">
+								<div class="col-md-3">
+									<img src="{{ url('/images/business/cash-management/why_AYA_Cash_Management_Service_1.png') }}" class="img-fluid benefit_icon">
+								</div>
+								<div class="col-md-9">
+									<p class="mb-0 mt-10" style="color: #4e4e4e;">Greater control and direct access to your funds. Reliable receivables collection with real-time email alert and secure payments along with consolidated transaction reports </p>
+								</div>
 							</div>
-							<div class="col-md-9">
-								<p class="fw-semibold mb-0">Credit Score</p>
-								<p class="mb-0" style="color: #4e4e4e;">Does your business have minimum credit score for Business Loan Eligibility? Different credit scores needed for different types of business loans. It ultimately determines loan amount, repayment schedules, etc.</p>
+						</div>
+
+						<div class="why_use_AYA_outer">
+							<div class="row outer_benefit_box benefit_section_col">
+								<div class="col-md-3">
+									<img src="{{ url('/images/business/cash-management/why_AYA_Cash_Management_Service_2.png') }}" class="img-fluid benefit_icon">
+								</div>
+								<div class="col-md-9">
+									<p class="mb-0 mt-20" style="color: #4e4e4e;">Around the clock transaction service and highly skillful support for the timely solution to any errors or down-time </p>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 outer_benefit_box benefit_section_col">
+					<div class="col-md-6 ">
 						<div class="row">
-							<div class="col-md-3">
-								<img src="{{ url('/images/business/borrowing/hire-purchase/cash-flow.png') }}" class="img-fluid benefit_icon">
-							</div>
-							<div class="col-md-9">
-								<p class="fw-semibold mb-0">Cash Flow</p>
-								<p class="mb-0" style="color: #4e4e4e;">You can qualify for hire purchase financing on the basis of your cash flow.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 outer_benefit_box benefit_section_col">
-						<div class="row">
-							<div class="col-md-3">
-								<img src="{{ url('/images/business/borrowing/hire-purchase/collateral.png') }}" class="img-fluid benefit_icon">
-							</div>
-							<div class="col-md-9">
-								<p class="fw-semibold mb-0">Collateral</p>
-								<p class="mb-0" style="color: #4e4e4e;">Asset to be financed is secured as collateral in hire purchase agreement.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 outer_benefit_box benefit_section_col">
-						<div class="row">
-							<div class="col-md-3">
-								<img src="{{ url('/images/business/borrowing/hire-purchase/down-payment.png') }}" class="img-fluid benefit_icon">
-							</div>
-							<div class="col-md-9">
-								<p class="fw-semibold mb-0">Down Payment</p>
-								<p class="pr-15" style="color: #4e4e4e;">The down payment requirement can range from 10% to 30% for the eligible borrowers. The actual amount can vary by the loan type and the borrower’s qualifications</p>
+							<div class="col-md-12 text-center">
+								<img src="{{ url('/images/business/cash-management/cash-management-service.png') }}" class="img-fluid cash-management-service-img">
 							</div>
 						</div>
 					</div>
@@ -137,32 +60,32 @@
 				<div class="col-md-12">
 					<div class="row">
 						<div class="col-md-12">
-							<h3 class="fw-bold">Offering Loan</h3>
+							<h3 class="fw-bold">Offering Services</h3>
 						</div>
 						<div class="col-md-4 d-none d-sm-block">
 							<nav id="myScrollspy">
 								<ul class="nav nav-pills flex-column">
 									<li class="nav-item">
-										<a class="nav-link active" href="#heavy_mahine_hp">
-											<span class="pr-5">Heavy Machinery HP</span>
+										<a class="nav-link active" href="#payroll_service">
+											<span class="pr-5">Payroll Service</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#shop_house">
-											<span class="pr-5">Shop House</span>
+										<a class="nav-link" href="#receivables_service">
+											<span class="pr-5">Receivables Service</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#auto_loan_corporate">
-											<span class="pr-5">Auto Loan (Corporate)</span>
+										<a class="nav-link" href="#bulk_payment_payables_services">
+											<span class="pr-5">Bulk Payment (Payables Service)</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#equipment_loan">
-											<span class="pr-5">Equipment Loan</span>
+										<a class="nav-link" href="#liquidity_service">
+											<span class="pr-5">Liquidity Service</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
@@ -171,188 +94,287 @@
 						</div>
 						<div class="col-md-8">
 							<div id="scroll_content" data-spy="scroll" data-target="#myScrollspy" data-offset="10" style="">
-								<p id="heavy_mahine_hp">
-									Heavy Machinery HP
+								<p id="payroll_service">
+									Payroll Service
 								</p>
 								<div class="row" style="position: relative;">
-									<img src="{{ url('/images/business/borrowing/hire-purchase/heavy-Machinery-HP.png') }}" class="img-fluid d-none d-sm-block">
-									<img src="{{ url('/images/business/borrowing/hire-purchase/heavy-Machinery-HP-mobile.png') }}" class="img-fluid d-block d-sm-none">
-									<p class="heavy_machine_hp_tagline">Buy heavy machinery with us and dedicate your cash flow to more valuable channels!</p>
+									<img src="{{ url('/images/business/cash-management/payroll-service.png') }}" class="img-fluid">
+									<p class="payroll_service_tagline">Simplify pay day and let the payroll tools work for you</p>
 								</div>
 								<div class="row">
 									<div class="space-30"></div>
-									<p>You can get financing for the heavy machinery while avoiding the financial risk and administrative burden of owning vehicle fleets. AYA Bank made convenient for both sides. Under our heavy machinery HP, seller can become bank’s authorized dealer and buyer can purchase with the bank’s HP scheme.</p>
-									<p>AYA Bank provides a convenient option to ownership while paying off and maintenance and value-added services are included. The finance company guarantees the resale value of the vehicle at the end of the contract purchase agreement for a known, fixed amount.</p>
+									<p>Time saving, high security and minimize paperwork on the payroll operation with AYA Bank.  With AYA Payroll Service, we offer a very handy and automated Payment service with single debit transaction through our integrated systems.</p>
 
 									<div class="space-20"></div>
+									<p class="fw-semibold mb-30" style="font-size: 17px;">Features</p>
+									<div class="row">
+										<div class="col-1">
+											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+										</div>
+										<div class="col-11">
+											<p class="margin_payroll_service mt-minus-5">Multi-beneficiaries accounts with single debit transaction in a timely manner</p>
+										</div>
+										<div class="col-1">
+											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+										</div>
+										<div class="col-11">
+											<p class="margin_payroll_service mt-minus-5">Effective and complete report on the successful delivery to both the corporate and the recipients</p>
+										</div>
+									</div>
 
-									<p class="fw-semibold" style="font-size: 17px;">Features</p>
+									<div class="space-20"></div>
+									<p class="fw-semibold mb-10" style="font-size: 17px;">Benefits</p>
 
 									<table class="table table-borderless" cellspacing="0">
 										<tr>
 											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/borrowing/hire-purchase/financing-amount.png') }}" class="img-fluid c-b-l-icon">
+												<img src="{{ url('/images/business/cash-management/cost-effectiveness.png') }}" class="img-fluid c-b-l-icon">
 											</td>
 											<td>
-												<p class="fw-semibold mb-10">Financing Amount</p>
-												<p class="mb-0" style="color: #4e4e4e;">You will be able to get funds up to 70% of the price of the heavy machinery you plan to buy for your business. It depends on your credit score, etc.</p>
+												<p class="fw-semibold mb-10">Cost Effectiveness</p>
+												<p class="mb-0" style="color: #4e4e4e;">Minimize costs by streamlining customized payment process in one fingertip from your place or anywhere in the world at any time.</p>
 											</td>
 										</tr>
 										<tr>
 											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/borrowing/hire-purchase/interest-rate.png') }}" class="img-fluid c-b-l-icon">
+												<img src="{{ url('/images/business/cash-management/convenience.png') }}" class="img-fluid c-b-l-icon">
 											</td>
 											<td>
-												<p class="fw-semibold mb-10">Interest Rate</p>
-												<p class="mb-0" style="color: #4e4e4e;">Arrangement for flat rate as low as 10%.</p>
+												<p class="fw-semibold mb-10">Convenience</p>
+												<p class="mb-0" style="color: #4e4e4e;">Numerous branches-networked across Myanmar and 24/7 electronically available in terms of rescheduling a cycle for payroll payments, reducing cash handling workloads and simple user interface.</p>
 											</td>
 										</tr>
 										<tr>
 											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/borrowing/hire-purchase/repayment-terms.png') }}" class="img-fluid c-b-l-icon">
+												<img src="{{ url('/images/business/cash-management/security.png') }}" class="img-fluid c-b-l-icon">
 											</td>
 											<td>
-												<p class="fw-semibold mb-10">Repayment Terms</p>
-												<p class="mb-0" style="color: #4e4e4e;">Flexible terms to meet your requirements with variable duration and mileage terms, up to 5 years.</p>
+												<p class="fw-semibold mb-10">Security</p>
+												<p class="mb-0" style="color: #4e4e4e;">Highly protected banking channels, high data confidentiality and advanced maintenance system throughout the process.</p>
+											</td>
+										</tr>
+										<tr>
+											<td class="benefit_table_icon_td">
+												<img src="{{ url('/images/business/cash-management/customized-splendid-reporting.png') }}" class="img-fluid c-b-l-icon">
+											</td>
+											<td>
+												<p class="fw-semibold mb-10">Customized and Splendid Reporting</p>
+												<p class="mb-0" style="color: #4e4e4e;">Real-time “Management Information System Reports” ensuring detailed and accuracy for each transaction for your reconciliation requirements.</p>
 											</td>
 										</tr>
 									</table>
 								</div>
 
-								<div class="space-40" id="shop_house"></div>
-								<p class="shop_house">
-									Shop House
+								<div class="space-40" id="receivables_service"></div>
+								<p class="receivables_service">
+									Receivables Service
 								</p>
 								<div class="row" style="position: relative;">
-									<img src="{{ url('/images/business/borrowing/hire-purchase/shop-house.png') }}" class="img-fluid">
-									<p class="shop_house_tagline">Business loan for shop owners with affordable rate</p>
+									<img src="{{ url('/images/business/cash-management/receivables-service.png') }}" class="img-fluid">
+									<p class="receivables_service_tagline">Collect your receivables quick for efficient cash flow</p>
 								</div>
 								<div class="row">
 									<div class="space-30"></div>
-									<p>Business owners can own shop or shop house instead of paying monthly rentals. Benefit from AYA shop house hire purchase scheme for purchasing a commercial property (store, office or warehouse, for example).</p>
-									
-									<div class="space-20"></div>
+									<p>Is your business retail, wholesale, or services? Our Collection Services allow you to manage your receivables efficiently and in timely manner through our extensive branches across the nation as well as on the digital channels such as AYA m-banking and i-banking. We are very committed in delivering a quality service hence ensuring you to meet your specific business requirements.</p>
 
-									<p class="fw-semibold mb-0" style="font-size: 17px;">Features</p>
+									<div class="space-20"></div>
+									<p class="fw-semibold mb-30" style="font-size: 17px;">Features</p>
+									<div class="row">
+										<div class="col-1">
+											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+										</div>
+										<div class="col-11">
+											<p class="margin_payroll_service mt-minus-5">We provide a full suite of customized collection solutions for your business.</p>
+										</div>
+										<div class="col-1">
+											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+										</div>
+										<div class="col-11">
+											<p class="margin_payroll_service mt-minus-5">Customized Management Information System (MIS) Report on receivables will be delivered in every end of the day or in agreed intervals.</p>
+										</div>
+									</div>
+
+									<div class="space-20"></div>
+									<p class="fw-semibold mb-10" style="font-size: 17px;">Benefits</p>
 
 									<table class="table table-borderless" cellspacing="0">
 										<tr>
 											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/borrowing/hire-purchase/financing-amount.png') }}" class="img-fluid c-b-l-icon">
+												<img src="{{ url('/images/business/cash-management/enhance-the-timeliness-accuracy.png') }}" class="img-fluid c-b-l-icon">
 											</td>
 											<td>
-												<p class="fw-semibold mb-10">Financing Amount</p>
-												<p class="mb-0" style="color: #4e4e4e;">The maximum loan amount you can get is 70% of the agreement value.</p>
+												<p class="mb-0" style="color: #4e4e4e;">Enhance the timeliness and accuracy of collection information and process</p>
 											</td>
 										</tr>
 										<tr>
 											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/borrowing/hire-purchase/interest-rate.png') }}" class="img-fluid c-b-l-icon">
+												<img src="{{ url('/images/business/cash-management/smoothen-your-collection-cycles.png') }}" class="img-fluid c-b-l-icon">
 											</td>
 											<td>
-												<p class="fw-semibold mb-10">Interest Rate</p>
-												<p class="mb-0" style="color: #4e4e4e;">Business loan for shops come with normal interest rates of 13% per annum.</p>
+												<p class="mb-0" style="color: #4e4e4e;">Smoothen your collection cycles</p>
 											</td>
 										</tr>
 										<tr>
 											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/borrowing/hire-purchase/repayment-terms.png') }}" class="img-fluid c-b-l-icon">
+												<img src="{{ url('/images/business/cash-management/reduce-administrative-costs-minimize-cash.png') }}" class="img-fluid c-b-l-icon">
 											</td>
 											<td>
-												<p class="fw-semibold mb-10">Repayment Terms</p>
-												<p class="mb-0" style="color: #4e4e4e;">Under AYA Bank’s shop house HP, an installment repayment with variable loan tenors is up to 5 years.</p>
+												<p class="mb-0" style="color: #4e4e4e;">Reduce administrative costs and minimize cash handling risks. </p>
+											</td>
+										</tr>
+										<tr>
+											<td class="benefit_table_icon_td">
+												<img src="{{ url('/images/business/cash-management/multi-channel-reporting.png') }}" class="img-fluid c-b-l-icon">
+											</td>
+											<td>
+												<p class="mb-0" style="color: #4e4e4e;">Multi-channel reporting as per your requirements. </p>
 											</td>
 										</tr>
 									</table>
 								</div>
 
-								<div class="space-40" id="auto_loan_corporate"></div>
-								<p class="auto_loan_corporate">
-									Auto Loan (Corporate)
+								<div class="space-40" id="bulk_payment_payables_services"></div>
+								<p class="bulk_payment_payables_services">
+									Bulk Payment (Payables Service)
 								</p>
 								<div class="row" style="position: relative;">
-									<img src="{{ url('/images/business/borrowing/hire-purchase/auto-loan-corporate.png') }}" class="img-fluid">
-									<p class="auto_loan_corporate_tagline">Purchase the equipment you need to keep your business rolling</p>
+									<img src="{{ url('/images/business/cash-management/bulk-payment-payables-service.png') }}" class="img-fluid">
+									<p class="bulk_payment_payables_services_tagline">A convenient, secure, and optimal way of fund transfer</p>
 								</div>
 								<div class="row">
 									<div class="space-30"></div>
-									<p>If your company relies on one or more vehicles, AYA business auto loan is the way to go. We provides an affordable way to buy a car, van or truck for business advantage. You can select vehicles from the AYA Bank’s authorized dealers, apply at any AYA branches with minimum down-payment and variable loan tenor.</p>
-									<div class="space-20"></div>
+									<p>We provide secure payment services with consolidated reporting system in order to enhance your business turnover and accelerate your cash flow functionality in just simple steps. Our systems are designed to deliver end-to-end payment solutions and multi-recipients with single debit transaction securely and efficiently for all business nature.</p>
 
-									<p class="fw-semibold mb-0" style="font-size: 17px;">Features</p>
+									<div class="space-20"></div>
+									<p class="fw-semibold mb-30" style="font-size: 17px;">Features</p>
+									<div class="row">
+										<div class="col-1">
+											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+										</div>
+										<div class="col-11">
+											<p class="margin_payroll_service mt-minus-5 mb-10">Comprehensive payment solutions available for</p>
+											<ul class="mx-n3">
+												<li>Staff payroll and bonus payments</li>
+												<li>Suppliers' payments,</li>
+												<li>Loan disbursements</li>
+											</ul>
+										</div>
+										<div class="col-1">
+											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+										</div>
+										<div class="col-11">
+											<p class="margin_payroll_service mt-minus-5">Automated systems enable users to schedule payments</p>
+										</div>
+										<div class="col-1">
+											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+										</div>
+										<div class="col-11">
+											<p class="margin_payroll_service mt-minus-5">Able to transfer multi-beneficiaries accounts with single debit transaction at the same time</p>
+										</div>
+										<div class="col-1">
+											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+										</div>
+										<div class="col-11">
+											<p class="margin_payroll_service mt-minus-5">Multi-control with more than two user-levels for approval process</p>
+										</div>
+									</div>
+
+									<div class="space-20"></div>
+									<p class="fw-semibold mb-10" style="font-size: 17px;">Benefits</p>
 
 									<table class="table table-borderless" cellspacing="0">
 										<tr>
 											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/borrowing/hire-purchase/financing-amount.png') }}" class="img-fluid c-b-l-icon">
+												<img src="{{ url('/images/business/cash-management/minimize-operating-costs.png') }}" class="img-fluid c-b-l-icon">
 											</td>
 											<td>
-												<p class="fw-semibold mb-10">Financing Amount</p>
-												<p class="mb-0" style="color: #4e4e4e;">We offer maximum funds 70% for commercial auto loans with minimum initial down payment 30%.</p>
+												<p class="mb-0" style="color: #4e4e4e;">Minimize operating costs by streamlining payment processes</p>
 											</td>
 										</tr>
 										<tr>
 											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/borrowing/hire-purchase/interest-rate.png') }}" class="img-fluid c-b-l-icon">
+												<img src="{{ url('/images/business/cash-management/smoothen-your-collection-cycles.png') }}" class="img-fluid c-b-l-icon">
 											</td>
 											<td>
-												<p class="fw-semibold mb-10">Interest Rate</p>
-												<p class="mb-0" style="color: #4e4e4e;">Annual interest rates start at 9%.</p>
+												<p class="mb-0" style="color: #4e4e4e;">Able to credit beneficiaries’ accounts at specified date</p>
 											</td>
 										</tr>
 										<tr>
 											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/borrowing/hire-purchase/repayment-terms.png') }}" class="img-fluid c-b-l-icon">
+												<img src="{{ url('/images/business/cash-management/highly-protected-system.png') }}" class="img-fluid c-b-l-icon">
 											</td>
 											<td>
-												<p class="fw-semibold mb-10">Repayment Terms</p>
-												<p class="mb-0" style="color: #4e4e4e;">Loan tenor is convenient and variable with options up to 5 years.</p>
+												<p class="mb-0" style="color: #4e4e4e;">Highly protected system and accounts details information</p>
+											</td>
+										</tr>
+										<tr>
+											<td class="benefit_table_icon_td">
+												<img src="{{ url('/images/business/cash-management/able-to-customize-structure.png') }}" class="img-fluid c-b-l-icon">
+											</td>
+											<td>
+												<p class="mb-0" style="color: #4e4e4e;">Able to customize and structure corporate’s organization chart into an effective and efficient authorization matrix</p>
 											</td>
 										</tr>
 									</table>
 								</div>
 
-								<div class="space-40" id="equipment_loan"></div>
-								<p class="equipment_loan">
-									Equipment Loan
+								<div class="space-40" id="liquidity_service"></div>
+								<p class="liquidity_service">
+									Liquidity Service
 								</p>
 								<div class="row" style="position: relative;">
-									<img src="{{ url('/images/business/borrowing/hire-purchase/equipment-loan.png') }}" class="img-fluid">
-									<p class="equipment_loan_tagline">Helping you get financing for the<br>equipment essential to run your business</p>
+									<img src="{{ url('/images/business/cash-management/liquidity-service.png') }}" class="img-fluid">
+									<p class="liquidity_service_tagline">Improve and optimize your liquidity through our automated sweeping funds</p>
 								</div>
 								<div class="row">
 									<div class="space-30"></div>
-									<p>AYA Bank’s financing options for costly equipment such as computers, vehicles, machinery, electronic appliances, etc. to accelerate the growth of your business. We make it easy to separate your business and equipment expenses.</p>
-									<div class="space-20"></div>
+									<p>Our liquidity service serves the businesses to manage the cash in-and-out flow effectively as well as balance the liquidity position in a rapidly growing market. AYA Bank promises to ensure your liquidity requirements are efficiently managed through our comprehensive system while adding value to your business. Our liquidity management solution is automated for sweeping surplus funds from collection account to the centralized account of the corporate, hence optimizing the corporate’s funds.</p>
 
-									<p class="fw-semibold mb-0" style="font-size: 17px;">Features</p>
+									<div class="space-20"></div>
+									<p class="fw-semibold mb-30" style="font-size: 17px;">Features</p>
+									<div class="row">
+										<div class="col-1">
+											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+										</div>
+										<div class="col-11">
+											<p class="margin_payroll_service mt-minus-5">Sweep the excess funds of collection account into corporate’s central account</p>
+										</div>
+									</div>
+
+									<div class="space-20"></div>
+									<p class="fw-semibold mb-10" style="font-size: 17px;">Benefits</p>
 
 									<table class="table table-borderless" cellspacing="0">
 										<tr>
 											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/borrowing/hire-purchase/financing-amount.png') }}" class="img-fluid c-b-l-icon">
+												<img src="{{ url('/images/business/cash-management/sweeping-funds-into-corporate-central-account.png') }}" class="img-fluid c-b-l-icon">
 											</td>
 											<td>
-												<p class="fw-semibold mb-10">Financing Amount</p>
-												<p class="mb-0" style="color: #4e4e4e;">Eligible business owners could receive up to 70% of equipment value.</p>
+												<p class="mb-0" style="color: #4e4e4e;">Sweeping funds into corporate’s central account</p>
 											</td>
 										</tr>
 										<tr>
 											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/borrowing/hire-purchase/interest-rate.png') }}" class="img-fluid c-b-l-icon">
+												<img src="{{ url('/images/business/cash-management/sweeping-funds-into-any-interest-bearing-account.png') }}" class="img-fluid c-b-l-icon">
 											</td>
 											<td>
-												<p class="fw-semibold mb-10">Interest Rate</p>
-												<p class="mb-0" style="color: #4e4e4e;">Starting interest rate from 10%.</p>
+												<p class="mb-0" style="color: #4e4e4e;">Sweeping funds into any interest-bearing account or any account in the interest of loan purpose (e.g., overdraft loan)</p>
 											</td>
 										</tr>
 										<tr>
 											<td class="benefit_table_icon_td">
-												<img src="{{ url('/images/business/borrowing/hire-purchase/repayment-terms.png') }}" class="img-fluid c-b-l-icon">
+												<img src="{{ url('/images/business/cash-management/reliable-auditable-reporting-system.png') }}" class="img-fluid c-b-l-icon">
 											</td>
 											<td>
-												<p class="fw-semibold mb-10">Repayment Terms</p>
-												<p class="mb-0" style="color: #4e4e4e;">Periodic repayments up to 10 years.</p>
+												<p class="mb-0" style="color: #4e4e4e;">Reliable and auditable reporting system for the corporate’s monitoring and reconciliation procedures</p>
+											</td>
+										</tr>
+										<tr>
+											<td class="benefit_table_icon_td">
+												<img src="{{ url('/images/business/cash-management/able-to-make-payments-for-payroll.png') }}" class="img-fluid c-b-l-icon">
+											</td>
+											<td>
+												<p class="mb-0" style="color: #4e4e4e;">Able to make payments for payroll or suppliers’ payments or other expenses</p>
 											</td>
 										</tr>
 									</table>
@@ -361,8 +383,8 @@
 								<div class="space-40"></div>
 								<div class="">
 									<div class="col-md-12 c-b-l-div" style="background-color: #f2f2f2;padding: 20px 20px 20px 30px;border-radius: 5px;">
-										<p style="font-weight: 600;font-size: 16px;">Contact our team for more information</p>
-										<a href="{{ url('/contact-us') }}">
+										<p style="font-weight: 600;font-size: 16px;">Have any questions?</p>
+										<a href="#">
 											<button class="btn contact_us_btn">Contact Us</button>
 										</a>
 									</div>
