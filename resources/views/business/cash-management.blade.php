@@ -59,11 +59,14 @@
 
 				<div class="col-md-12">
 					<div class="row">
-						<div class="col-md-12">
+						<div class="col-md-12 d-block d-sm-none">
 							<h3 class="fw-bold">Offering Services</h3>
 						</div>
 						<div class="col-md-4 d-none d-sm-block">
 							<nav id="myScrollspy">
+								<div class="col-md-12">
+									<h3 class="fw-bold">Offering Services</h3>
+								</div>
 								<ul class="nav nav-pills flex-column">
 									<li class="nav-item">
 										<a class="nav-link active" href="#payroll_service">

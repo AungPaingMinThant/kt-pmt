@@ -131,4 +131,8 @@ Route::get('/business/trade/trade-services','App\Http\Controllers\Business\Trade
 
 Route::get('/business/cash-management','App\Http\Controllers\Business\CashManagementController@CMIndex');
 
+Route::get('/business/insurance/domestic-marine-cargo','App\Http\Controllers\Business\InsuranceController@domesticMarineCargoIndex');
+Route::get('/business/insurance/oversea-marine-cargo','App\Http\Controllers\Business\InsuranceController@overseaMarineCargoIndex');
+Route::get('/business/insurance/domestic-inland-transit','App\Http\Controllers\Business\InsuranceController@domesticInlandTransitIndex');
+
 // contact-us

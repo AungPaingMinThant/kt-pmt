@@ -380,6 +380,30 @@
     left: 60px;
     right: 150px;
 }
+.bu_domestic_marine_cargo_insurance_banner {
+	background-image:url('../images/business/insurance/domestic-marine-cargo/KV_bg.png');
+}
+.bu_domestic_marine_cargo_insurance_tagline {
+	font-size: 15px;
+	font-weight: 400;
+	padding-right: 35%;
+}
+.bu_oversea_marine_cargo_insurance_banner {
+	background-image:url('../images/business/insurance/oversea-marine-cargo/KV_bg.png');
+}
+.bu_oversea_marine_cargo_insurance_tagline {
+	font-size: 15px;
+	font-weight: 400;
+	padding-right: 25%;
+}
+.bu_domestic_inland_transit_insurance_banner {
+	background-image:url('../images/business/insurance/domestic-inland-transit/KV_bg.png');
+}
+.bu_domestic_inland_transit_insurance_tagline {
+	font-size: 15px;
+	font-weight: 400;
+	padding-right: 35%;
+}
 @media (max-width: 1550px) and (min-width: 577px) {
 	.creditcard_banner{
 		background-position: 60% center;
@@ -419,6 +443,44 @@
 	    top: 120px;
 	    left: 60px;
 	    right: 80px;
+	}
+	.family_img_div {
+	    padding-top: 20px;
+	}
+	.tagline_div {
+	    padding-top: 20px;
+	    padding-left: 10px;
+	}
+	.bu_domestic_marine_cargo_insurance_tagline {
+	    padding-right: 30%;
+	}
+	.bu_oversea_marine_cargo_insurance_tagline {
+	    padding-right: 20%;
+	}
+	.bu_domestic_inland_transit_insurance_tagline {
+		padding-right: 20%;
+	}
+	.ins_banner_bg {
+	    height: 340px;
+	}
+}
+@media (max-width: 1300px) and (min-width: 1201px) {
+	.health_ins_banner, .fire_ins_banner, .motor_ins_banner, .pa_ins_banner, .aya_go_ins_banner, .aya_joy_ins_banner, 
+	.life_universal_ins_banner, .life_short_term_ins_banner, .life_edu_ins_banner, .life_one_health_indi_ins_banner,
+	.bu_domestic_marine_cargo_insurance_banner, .bu_oversea_marine_cargo_insurance_banner, .bu_domestic_inland_transit_insurance_banner
+	{
+		height: 284px;
+	}
+	.family_img_div {
+		width: 42% !important;
+	}
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+	.health_ins_banner, .fire_ins_banner, .motor_ins_banner, .pa_ins_banner, .aya_go_ins_banner, .aya_joy_ins_banner, 
+	.life_universal_ins_banner, .life_short_term_ins_banner, .life_edu_ins_banner, .life_one_health_indi_ins_banner,
+	.bu_domestic_marine_cargo_insurance_banner, .bu_oversea_marine_cargo_insurance_banner, .bu_domestic_inland_transit_insurance_banner
+	{
+		height: 310px;
 	}
 }
 @media (max-width: 1300px) and (min-width: 1000px) {
@@ -463,11 +525,6 @@
 	}
 	.atm_banner {
 	    background-position: 90% center;
-	}
-	.health_ins_banner, .fire_ins_banner, .motor_ins_banner, .pa_ins_banner, .aya_go_ins_banner, .aya_joy_ins_banner, 
-	.life_universal_ins_banner, .life_short_term_ins_banner, .life_edu_ins_banner, .life_one_health_indi_ins_banner
-	{
-		height: 310px;
 	}
 	.family_img_div {
 		padding-top: 20px;
@@ -719,6 +776,16 @@
 	    right: 30px;
 	    left: 40px;
 	}
+	.bu_domestic_marine_cargo_insurance_tagline {
+	    padding-right: 17%;
+	}
+	.bu_oversea_marine_cargo_insurance_tagline {
+	    padding-right: 0;
+	    font-size: 14px;
+	}
+	.bu_domestic_inland_transit_insurance_tagline {
+		padding-right: 17%;
+	}
 }
 @media only screen and (max-width: 576px) {
 	.mbanking_banner {
@@ -821,9 +888,13 @@
 		background-position: 50% center;
 	}
 	.health_ins_banner, .pa_ins_banner, .motor_ins_banner, .fire_ins_banner, 
-	.life_short_term_ins_banner, .life_edu_ins_banner
+	.life_short_term_ins_banner, .life_edu_ins_banner, .bu_domestic_marine_cargo_insurance_banner, .bu_domestic_inland_transit_insurance_banner
 	{
 		height: 620px;
+		background-position: 80% center;
+	}
+	.bu_oversea_marine_cargo_insurance_banner {
+		height: 680px;
 		background-position: 80% center;
 	}
 	.aya_joy_ins_banner, .aya_go_ins_banner {

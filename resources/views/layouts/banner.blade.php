@@ -2519,7 +2519,158 @@
 	</div>
 @endif
 
+@if($page == 'bu_domestic_marine_cargo_insurance')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">DOMESTIC MARINE CARGO INSURANCE</span>
+			</p>
+		</div>
+	</div>
+	<div class="bu_domestic_marine_cargo_insurance_banner ins_banner_bg">
+		<div class="container">
+			<div class="d-none d-sm-block">
+				<div class="row">
+					<div class="col-md-6 family_img_div">
+						<img src="{{ url('/images/business/insurance/domestic-marine-cargo/dosmetic.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-6 tagline_div">
+						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Domestic Marine Cargo<br>Insurance</h1>
+						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
+						<h1 class="bu_domestic_marine_cargo_insurance_tagline">
+							Cargo handling and management either during conveyance or at port poses risks to businesses.
+						</h1>
+						<h1 class="bu_domestic_marine_cargo_insurance_tagline">
+							Domestic marine cargo insurance helps you manage a pool of risks at a timescale that allows you to conduct your business efficiently.
+						</h1>
+					</div>
+				</div>
+			</div>
+			<div class="d-block d-sm-none">
+				<div class="row">
+					<div class="col-md-6" style="padding-top: 20px;">
+						<img src="{{ url('/images/business/insurance/domestic-marine-cargo/dosmetic.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
+						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Domestic Marine Cargo<br>Insurance</h1>
+						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<h1 style="font-size: 15px;font-weight: 400;">
+							Cargo handling and management either during conveyance or at port poses risks to businesses.
+						</h1>
+						<h1 style="font-size: 15px;font-weight: 400;">
+							Domestic marine cargo insurance helps you manage a pool of risks at a timescale that allows you to conduct your business efficiently.
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
 
+@if($page == 'bu_oversea_marine_cargo_insurance')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">OVERSEA MARINE CARGO INSURANCE</span>
+			</p>
+		</div>
+	</div>
+	<div class="bu_oversea_marine_cargo_insurance_banner ins_banner_bg">
+		<div class="container">
+			<div class="d-none d-sm-block">
+				<div class="row">
+					<div class="col-md-6 family_img_div">
+						<img src="{{ url('/images/business/insurance/domestic-marine-cargo/dosmetic.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-6 tagline_div" style="padding-right:0">
+						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Oversea Marine Cargo<br>Insurance</h1>
+						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
+						<h1 class="bu_oversea_marine_cargo_insurance_tagline">
+							The rough open oceans pose a great threat to the security of marine cargo transportation. The unpredictable seas also carry other dangers and risks like collision, fires, explosions. These risks carry on at port during the discharge and loading of cargo.
+						</h1>
+						<h1 class="bu_oversea_marine_cargo_insurance_tagline">
+							Secure cargo transportation at sea with an effective marine cargo insurance that brings value to you and your business.
+						</h1>
+					</div>
+				</div>
+			</div>
+			<div class="d-block d-sm-none">
+				<div class="row">
+					<div class="col-md-6" style="padding-top: 20px;">
+						<img src="{{ url('/images/business/insurance/domestic-marine-cargo/dosmetic.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
+						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Oversea Marine Cargo<br>Insurance</h1>
+						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<h1 style="font-size: 15px;font-weight: 400;">
+							The rough open oceans pose a great threat to the security of marine cargo transportation. The unpredictable seas also carry other dangers and risks like collision, fires, explosions. These risks carry on at port during the discharge and loading of cargo.
+						</h1>
+						<h1 style="font-size: 15px;font-weight: 400;">
+							Secure cargo transportation at sea with an effective marine cargo insurance that brings value to you and your business.
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
+
+@if($page == 'bu_domestic_inland_transit_insurance')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">DOMESTIC INLAND TRANSIT INSURANCE</span>
+			</p>
+		</div>
+	</div>
+	<div class="bu_domestic_inland_transit_insurance_banner ins_banner_bg">
+		<div class="container">
+			<div class="d-none d-sm-block">
+				<div class="row">
+					<div class="col-md-6 family_img_div">
+						<img src="{{ url('/images/business/insurance/domestic-marine-cargo/dosmetic.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-6 tagline_div">
+						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Domestic Inland Transit<br>Insurance</h1>
+						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
+						<h1 class="bu_domestic_inland_transit_insurance_tagline">
+							Transporting goods on the road exposes you and your business to unforeseen and unexpected financial loss. Derailment, fire, collision, and explosions are some risks that are inherent to inland transit.
+						</h1>
+						<h1 class="bu_domestic_inland_transit_insurance_tagline">
+							Secure your goods, and your business, with domestic inland transit insurance.
+						</h1>
+					</div>
+				</div>
+			</div>
+			<div class="d-block d-sm-none">
+				<div class="row">
+					<div class="col-md-6" style="padding-top: 20px;">
+						<img src="{{ url('/images/business/insurance/domestic-marine-cargo/dosmetic.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
+						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Domestic Inland Transit<br>Insurance</h1>
+						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<h1 style="font-size: 15px;font-weight: 400;">
+							Transporting goods on the road exposes you and your business to unforeseen and unexpected financial loss. Derailment, fire, collision, and explosions are some risks that are inherent to inland transit.
+						</h1>
+						<h1 style="font-size: 15px;font-weight: 400;">
+							Secure your goods, and your business, with domestic inland transit insurance.
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
 
 <!-- 
 $imagePath = public_path("images/20220405140258.jpg");

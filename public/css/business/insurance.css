@@ -1,0 +1,99 @@
+.nav-align-top .nav-tabs .nav-item:first-child .nav-link {
+	border-top:  none;
+	border-left: none;
+	border-right: none;
+	box-shadow: none;
+}
+.nav-align-top > .tab-content {
+	box-shadow: none !important;
+}
+.benefit_feature_box {
+	display: table;
+	border-radius: 5px;
+	border: 1px solid #dedede;
+}
+.benefit_feature_box:hover {
+	cursor: pointer;
+	border: 1px solid #fff;
+	box-shadow: 0 0 30px 10px rgb(0 0 0 / 9%);
+}
+.read_more_btn, .load_more_btn {
+	background-color: transparent !important;
+	color: #2e2e2e !important;
+	border-radius: 5px !important;
+	border: 1px solid #2e2e2e !important;
+}
+.read_more_btn:hover{
+	background-color: #fff !important;
+	color: #2e2e2e !important;
+	border: 1px solid #2e2e2e !important;
+}
+.load_more_btn:hover {
+	background-color: #f7f7f7 !important;
+	color: #2e2e2e !important;
+	border-radius: 5px !important;
+	border: 1px solid #2e2e2e !important;
+}
+.section_1 {
+    padding: 0px 100px !important;
+}
+.list_margin {
+	margin-left: -5%;
+}
+.tab_data_row > .col-md-4, .tab_data_row > .coverage_div_2 > .col-md-4 {
+    flex: 0 0 auto;
+    width: 31% !important;
+}
+.more_detail_section {
+    padding: 0px 150px !important;
+}
+.benefit_desc_div {
+	padding: 0px 100px !important;
+}
+.coverage_icon {
+	margin-bottom: 20px;
+}
+/*.faq_section {
+    padding: 0px 100px !important;
+}*/
+@media (max-width: 1300px) and (min-width: 1000px) {
+	.tab_data_row > .col-md-4, .tab_data_row > .coverage_div_2 > .col-md-4 {
+	    width: 48% !important;
+	}
+	.coverage_detail {
+		font-size: 13px;
+	}
+	.list_margin {
+	    margin-left: -3%;
+	}
+	.more_detail_section {
+	    padding: 0px 70px !important;
+	}
+	.benefit_desc_div {
+		padding: 0px 50px !important;
+	}
+}
+@media only screen and (max-width: 576px){
+	.tab-pane {
+		background-position: -80px -70px;
+	}
+	.section_1 {
+	    padding: 0px 30px !important;
+	}
+	.list_margin {
+		margin-left: 0;
+	}
+	.coverage_icon {
+		width: 20%;
+		margin-bottom: 10px;
+	}
+	.tab_data_row > .col-md-4, .tab_data_row > .coverage_div_2 > .col-md-4 {
+	    width: 100% !important;
+	}
+	.more_detail_section {
+	    padding: 0px 40px !important;
+	}
+	.benefit_desc_div {
+	    padding: 0px 10px !important;
+	}
+}
