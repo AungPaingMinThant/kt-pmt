@@ -227,7 +227,6 @@
 												<p class="theme_text_color fw-semibold" style="font-size: 20px;">Eligibility</p>
 												<p class="mb-0" style="color: #4e4e4e;">Any person who owns a property or who has a legal obligation over safety of a property e.g., Owners of goods traded, Business owners, Manufacturers and Distributors, etc.</p>
 											</div>
-											</div>
 										</div>
 									</div>
 								</div>
