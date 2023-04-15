@@ -2672,6 +2672,51 @@
 	</div>
 @endif
 
+@if($page == 'bu_car_ear_insurance')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">CONTRACTOR’S ALL RISK & ERECTION ALL RISK (CAR & EAR) INSURANCE</span>
+			</p>
+		</div>
+	</div>
+	<div class="bu_car_ear_insurance_banner ins_banner_bg">
+		<div class="container">
+			<div class="d-none d-sm-block">
+				<div class="row">
+					<div class="col-md-6 family_img_div">
+						<img src="{{ url('/images/business/insurance/car-ear/CAR_EAR.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-6 tagline_div">
+						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Contractor’s All Risk &<br>Erection All Risk (CAR & EAR) Insurance</h1>
+						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
+						<h1 class="bu_car_ear_insurance_tagline">
+							Construction projects inherently carry with them risks. We offer comprehensive package for you to run your business safely and ensure protections of your projects and investments.
+						</h1>
+					</div>
+				</div>
+			</div>
+			<div class="d-block d-sm-none">
+				<div class="row">
+					<div class="col-md-6" style="padding-top: 20px;">
+						<img src="{{ url('/images/business/insurance/domestic-marine-cargo/dosmetic.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
+						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Contractor’s All Risk &<br>Erection All Risk (CAR & EAR) Insurance</h1>
+						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<h1 style="font-size: 15px;font-weight: 400;">
+							Construction projects inherently carry with them risks. We offer comprehensive package for you to run your business safely and ensure protections of your projects and investments.
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
+
 <!-- 
 $imagePath = public_path("images/20220405140258.jpg");
         $image = "data:image/png;base64,".base64_encode(file_get_contents($imagePath)); -->

@@ -40,6 +40,9 @@
 .list_margin {
 	margin-left: -5%;
 }
+.car_ear_benefit_list_margin {
+	margin-left: -2%;
+}
 .tab_data_row > .col-md-4, .tab_data_row > .coverage_div_2 > .col-md-4 {
     flex: 0 0 auto;
     width: 31% !important;
@@ -53,9 +56,15 @@
 .coverage_icon {
 	margin-bottom: 20px;
 }
-/*.faq_section {
-    padding: 0px 100px !important;
-}*/
+.car_ear_coverage_icon_td {
+	width: 23%;
+}
+.car_ear_coverage_icon {
+	width: 70% !important;
+}
+.third_party_liabilities {
+	margin-left: -25px;
+}
 @media (max-width: 1300px) and (min-width: 1000px) {
 	.tab_data_row > .col-md-4, .tab_data_row > .coverage_div_2 > .col-md-4 {
 	    width: 48% !important;
@@ -80,10 +89,10 @@
 	.section_1 {
 	    padding: 0px 30px !important;
 	}
-	.list_margin {
+	.list_margin, .car_ear_benefit_list_margin {
 		margin-left: 0;
 	}
-	.coverage_icon {
+	.coverage_icon, .car_ear_coverage_icon {
 		width: 20%;
 		margin-bottom: 10px;
 	}

@@ -21,4 +21,9 @@ class InsuranceController extends Controller
     {
         return view('business.insurance.domestic-inland-transit');
     }
+
+    public function CAREARIndex()
+    {
+        return view('business.insurance.car-ear');
+    }
 }

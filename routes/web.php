@@ -134,5 +134,6 @@ Route::get('/business/cash-management','App\Http\Controllers\Business\CashManage
 Route::get('/business/insurance/domestic-marine-cargo','App\Http\Controllers\Business\InsuranceController@domesticMarineCargoIndex');
 Route::get('/business/insurance/oversea-marine-cargo','App\Http\Controllers\Business\InsuranceController@overseaMarineCargoIndex');
 Route::get('/business/insurance/domestic-inland-transit','App\Http\Controllers\Business\InsuranceController@domesticInlandTransitIndex');
+Route::get('/business/insurance/car-ear','App\Http\Controllers\Business\InsuranceController@CAREARIndex');
 
 // contact-us
