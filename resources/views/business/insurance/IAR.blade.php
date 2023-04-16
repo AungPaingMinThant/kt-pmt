@@ -1,6 +1,6 @@
 @extends('layouts.frontend-app')
 
-@section('title', 'Oversea Marine Cargo Insurance – AYA Bank')
+@section('title', 'Industrial All Risk Insurance (IAR) Insurance – AYA Bank')
 <link rel="stylesheet" href="{{ url('/css/slide_tab.css') }}" />
 <link rel="stylesheet" href="{{ url('/css/business/insurance.css') }}">
 <style type="text/css">
