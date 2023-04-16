@@ -47,11 +47,19 @@
     flex: 0 0 auto;
     width: 31% !important;
 }
+.tab_data_row > .col-md-3 {
+    flex: 0 0 auto;
+    width: 23% !important;
+}
 .more_detail_section {
     padding: 0px 150px !important;
 }
 .benefit_desc_div {
 	padding: 0px 100px !important;
+}
+.IAR_coverage_icon {
+	width: 35% !important;
+	margin-bottom: 10px;
 }
 .coverage_icon {
 	margin-bottom: 20px;
@@ -96,8 +104,11 @@
 		width: 20%;
 		margin-bottom: 10px;
 	}
-	.tab_data_row > .col-md-4, .tab_data_row > .coverage_div_2 > .col-md-4 {
-	    width: 100% !important;
+	.IAR_coverage_icon {
+		width: 50% !important;
+	}
+	.tab_data_row > .col-md-4, .tab_data_row > .coverage_div_2 > .col-md-4, .tab_data_row > .col-md-3 {
+	    width: 45% !important;
 	}
 	.more_detail_section {
 	    padding: 0px 40px !important;

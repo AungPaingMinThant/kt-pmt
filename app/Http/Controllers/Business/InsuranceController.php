@@ -26,4 +26,9 @@ class InsuranceController extends Controller
     {
         return view('business.insurance.car-ear');
     }
+
+    public function IARIndex()
+    {
+        return view('business.insurance.IAR');
+    }
 }

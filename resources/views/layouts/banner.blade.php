@@ -2586,7 +2586,7 @@
 			<div class="d-none d-sm-block">
 				<div class="row">
 					<div class="col-md-6 family_img_div">
-						<img src="{{ url('/images/business/insurance/domestic-marine-cargo/dosmetic.png') }}" class="img-fluid">
+						<img src="{{ url('/images/business/insurance/oversea-marine-cargo/oversea.png') }}" class="img-fluid">
 					</div>
 					<div class="col-md-6 tagline_div" style="padding-right:0">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Oversea Marine Cargo<br>Insurance</h1>
@@ -2603,7 +2603,7 @@
 			<div class="d-block d-sm-none">
 				<div class="row">
 					<div class="col-md-6" style="padding-top: 20px;">
-						<img src="{{ url('/images/business/insurance/domestic-marine-cargo/dosmetic.png') }}" class="img-fluid">
+						<img src="{{ url('/images/business/insurance/oversea-marine-cargo/oversea.png') }}" class="img-fluid">
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Oversea Marine Cargo<br>Insurance</h1>
@@ -2637,7 +2637,7 @@
 			<div class="d-none d-sm-block">
 				<div class="row">
 					<div class="col-md-6 family_img_div">
-						<img src="{{ url('/images/business/insurance/domestic-marine-cargo/dosmetic.png') }}" class="img-fluid">
+						<img src="{{ url('/images/business/insurance/domestic-inland-transit/inland.png') }}" class="img-fluid">
 					</div>
 					<div class="col-md-6 tagline_div">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Domestic Inland Transit<br>Insurance</h1>
@@ -2654,7 +2654,7 @@
 			<div class="d-block d-sm-none">
 				<div class="row">
 					<div class="col-md-6" style="padding-top: 20px;">
-						<img src="{{ url('/images/business/insurance/domestic-marine-cargo/dosmetic.png') }}" class="img-fluid">
+						<img src="{{ url('/images/business/insurance/domestic-inland-transit/inland.png') }}" class="img-fluid">
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Domestic Inland Transit<br>Insurance</h1>
@@ -2702,13 +2702,58 @@
 			<div class="d-block d-sm-none">
 				<div class="row">
 					<div class="col-md-6" style="padding-top: 20px;">
-						<img src="{{ url('/images/business/insurance/domestic-marine-cargo/dosmetic.png') }}" class="img-fluid">
+						<img src="{{ url('/images/business/insurance/car-ear/CAR_EAR.png') }}" class="img-fluid">
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Contractor’s All Risk &<br>Erection All Risk (CAR & EAR) Insurance</h1>
 						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
 						<h1 style="font-size: 15px;font-weight: 400;">
 							Construction projects inherently carry with them risks. We offer comprehensive package for you to run your business safely and ensure protections of your projects and investments.
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
+
+@if($page == 'bu_IAR_insurance')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">INDUSTRIAL ALL RISK INSURANCE (IAR) INSURANCE</span>
+			</p>
+		</div>
+	</div>
+	<div class="bu_IAR_insurance_banner ins_banner_bg">
+		<div class="container">
+			<div class="d-none d-sm-block">
+				<div class="row">
+					<div class="col-md-6 family_img_div">
+						<img src="{{ url('/images/business/insurance/IAR/IAR.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-6 tagline_div">
+						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Industrial All Risk Insurance (IAR)<br>Insurance</h1>
+						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
+						<h1 class="bu_IAR_insurance_tagline">
+							An enhanced solution to the most demanding of needs – the industrial all risk insurance is your go–to product to insure your property and business in one single policy.
+						</h1>
+					</div>
+				</div>
+			</div>
+			<div class="d-block d-sm-none">
+				<div class="row">
+					<div class="col-md-6" style="padding-top: 20px;">
+						<img src="{{ url('/images/business/insurance/IAR/IAR.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
+						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Industrial All Risk Insurance (IAR)<br>Insurance</h1>
+						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<h1 style="font-size: 15px;font-weight: 400;">
+							An enhanced solution to the most demanding of needs – the industrial all risk insurance is your go–to product to insure your property and business in one single policy.
 						</h1>
 					</div>
 				</div>

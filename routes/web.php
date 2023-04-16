@@ -135,5 +135,6 @@ Route::get('/business/insurance/domestic-marine-cargo','App\Http\Controllers\Bus
 Route::get('/business/insurance/oversea-marine-cargo','App\Http\Controllers\Business\InsuranceController@overseaMarineCargoIndex');
 Route::get('/business/insurance/domestic-inland-transit','App\Http\Controllers\Business\InsuranceController@domesticInlandTransitIndex');
 Route::get('/business/insurance/car-ear','App\Http\Controllers\Business\InsuranceController@CAREARIndex');
+Route::get('/business/insurance/industrial-all-risk-insurance','App\Http\Controllers\Business\InsuranceController@IARIndex');
 
 // contact-us
