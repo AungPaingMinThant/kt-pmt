@@ -198,26 +198,26 @@
 	.modal .modal-dialog:not(.modal-fullscreen) {
 		padding: 0px !important;
 	}
-	.available_ATM_card_service_div{
+	/*.available_ATM_card_service_div{
 		overflow: hidden;
 		border-radius: 10px;
 	}
 	.available_ATM_card_service_div > img {
-/*		transition: transform .5s;*/
-		transition: all 0.3s;
+		transition: all 0.5s;
 		overflow: hidden;
 	}
 	.available_ATM_card_service_div:hover {
 		cursor: pointer;
+		max-height: 239px !important;
+		overflow: hidden !important;
 	}
-	.available_ATM_card_service_div:hover > img {		
-		/*-ms-transform: scale(1.05);
-		-webkit-transform: scale(1.05);
-		transform: scale(1.02);*/
-		transform: scale(1.3) rotate(5deg);
-		overflow: hidden;
+	.available_ATM_card_service_div:hover > img {	
+		transform: scale(1.2) rotate(3deg);
 	}
-	
+	.available_ATM_card_service_div:hover > .cash_withdraw_mmk_text {	
+		color: #000 !important;
+	}
+	*/
 
 	@media (max-width: 1300px) and (min-width: 577px) {
 		.why_use_AYA_outer > .col-md-6 {
@@ -299,6 +299,11 @@
 						<h3 style="color: #1d1d1f;">Available ATM Card Services</h3>
 					</div>
 					<div class="space-20"></div>
+
+					<!-- <div class="img-hover-zoom img-hover-zoom--xyz">
+					  <img src="/path/to/image/" alt="Another Image zoom-on-hover effect">
+					</div> -->
+
 					<div class="col-md-4 col-sm-12 available_ATM_card_service_div cash_withdraw_mmk_div" id="cash_withdraw_mmk_div">
 						<img src="{{ url('/images/atm/cash_withdraw_mmk.png') }}" class="img-fluid">
 						<p class="fw-500 cash_withdraw_mmk_text" style="padding: 20px 0px;">Cash Withdrawal (MMK)</p>

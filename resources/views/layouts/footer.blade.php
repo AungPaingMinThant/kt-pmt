@@ -148,7 +148,7 @@
                 </a>
             </div>
             <div class="col-4 d-none d-sm-block text-right" style="">
-                <p class="footer_first_link_p" style="font-size: 12px;float: right;">Copyright at &copy;<?php echo date('Y'); ?> AYA BANK</p>
+                <p class="footer_first_link_p" style="font-size: 12px;float: right;">Copyright at &copy; <?php echo date('Y'); ?> AYA BANK</p>
             </div>
         </div>
         <div class="row d-block d-sm-none" style="padding: 20px 0px">
@@ -168,7 +168,7 @@
             </div>
             <div class="col-12 text-center">
                 <div style="height: 20px;"></div> 
-                <p class="footer_first_link_p" style="font-size: 12px;">Copyright at &copy;<?php echo date('Y'); ?> AYA BANK</p>
+                <p class="footer_first_link_p" style="font-size: 12px;">Copyright at &copy; <?php echo date('Y'); ?> AYA BANK</p>
             </div>
         </div>
     </div>

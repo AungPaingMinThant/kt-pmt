@@ -2762,6 +2762,53 @@
 	</div>
 @endif
 
-<!-- 
-$imagePath = public_path("images/20220405140258.jpg");
-        $image = "data:image/png;base64,".base64_encode(file_get_contents($imagePath)); -->
+@if($page == 'bu_group_life_insurance')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">GROUP LIFE INSURANCE</span>
+			</p>
+		</div>
+	</div>
+	<div class="bu_group_life_insurance_banner ins_banner_bg">
+		<div class="container">
+			<div class="d-none d-sm-block">
+				<div class="row">
+					<div class="col-md-6 family_img_div">
+						<img src="{{ url('/images/business/insurance/group-life/group.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-6 tagline_div">
+						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Group Life<br>Insurance</h1>
+						<hr style="height: 5px;color: #a02226;width: 15%;margin: 0px 0px 20px 0px;">
+						<h1 class="bu_group_life_insurance_tagline" style="font-weight: 400;font-size: 15px;">
+							Employees are greatest asset to any organization. We provide protection Coverage that your employees truly value.
+						</h1>
+						<h1 class="bu_group_life_insurance_tagline" style="font-weight: 400;font-size: 15px;">
+							Group Life Insurance provides life and total permanent disability coverage for employees of your organization.
+						</h1>
+					</div>
+				</div>
+			</div>
+			<div class="d-block d-sm-none">
+				<div class="row">
+					<div class="col-md-6" style="padding-top: 20px;">
+						<img src="{{ url('/images/business/insurance/group-life/group.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
+						<h1 style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Group Life Insurance</h1>
+						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<h1 style="font-size: 15px;font-weight: 400;">
+							Employees are greatest asset to any organization. We provide protection Coverage that your employees truly value.
+						</h1>
+						<h1 style="font-size: 15px;font-weight: 400;">
+							Group Life Insurance provides life and total permanent disability coverage for employees of your organization.
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif

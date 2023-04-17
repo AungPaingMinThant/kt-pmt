@@ -420,6 +420,14 @@
 	font-weight: 400;
 	padding-right: 35%;
 }
+.bu_group_life_insurance_banner {
+	background-image:url('../images/insurance/life/KV_bg.png');
+}
+.bu_group_life_insurance_tagline {
+	font-size: 15px;
+	font-weight: 400;
+	padding-right: 35%;
+}
 
 @media (max-width: 1550px) and (min-width: 577px) {
 	.creditcard_banner{
@@ -471,7 +479,8 @@
 	.bu_domestic_marine_cargo_insurance_tagline {
 	    padding-right: 30%;
 	}
-	.bu_domestic_inland_transit_insurance_tagline, .bu_oversea_marine_cargo_insurance_tagline, .bu_car_ear_insurance_tagline, .bu_IAR_insurance_tagline {
+	.bu_domestic_inland_transit_insurance_tagline, .bu_oversea_marine_cargo_insurance_tagline, .bu_car_ear_insurance_tagline, .bu_IAR_insurance_tagline,
+	.bu_group_life_insurance_tagline {
 		padding-right: 20%;
 	}
 	.ins_banner_bg {
@@ -482,7 +491,7 @@
 	.health_ins_banner, .fire_ins_banner, .motor_ins_banner, .pa_ins_banner, .aya_go_ins_banner, .aya_joy_ins_banner, 
 	.life_universal_ins_banner, .life_short_term_ins_banner, .life_edu_ins_banner, .life_one_health_indi_ins_banner,
 	.bu_domestic_marine_cargo_insurance_banner, .bu_oversea_marine_cargo_insurance_banner, .bu_domestic_inland_transit_insurance_banner,
-	.bu_car_ear_insurance_banner, .bu_IAR_insurance_banner
+	.bu_car_ear_insurance_banner, .bu_IAR_insurance_banner, .bu_group_life_insurance_banner
 	{
 		height: 284px;
 	}
@@ -494,7 +503,7 @@
 	.health_ins_banner, .fire_ins_banner, .motor_ins_banner, .pa_ins_banner, .aya_go_ins_banner, .aya_joy_ins_banner, 
 	.life_universal_ins_banner, .life_short_term_ins_banner, .life_edu_ins_banner, .life_one_health_indi_ins_banner,
 	.bu_domestic_marine_cargo_insurance_banner, .bu_oversea_marine_cargo_insurance_banner, .bu_domestic_inland_transit_insurance_banner,
-	.bu_car_ear_insurance_banner, .bu_IAR_insurance_banner
+	.bu_car_ear_insurance_banner, .bu_IAR_insurance_banner, .bu_group_life_insurance_banner
 	{
 		height: 310px;
 	}
@@ -799,7 +808,7 @@
 	    padding-right: 0;
 	    font-size: 14px;
 	}
-	.bu_domestic_inland_transit_insurance_tagline, .bu_car_ear_insurance_tagline, .bu_IAR_insurance_tagline {
+	.bu_domestic_inland_transit_insurance_tagline, .bu_car_ear_insurance_tagline, .bu_IAR_insurance_tagline, .bu_group_life_insurance_tagline {
 		padding-right: 17%;
 	}
 }
@@ -905,7 +914,7 @@
 	}
 	.health_ins_banner, .pa_ins_banner, .motor_ins_banner, .fire_ins_banner, 
 	.life_short_term_ins_banner, .life_edu_ins_banner, .bu_domestic_marine_cargo_insurance_banner, .bu_domestic_inland_transit_insurance_banner,
-	.bu_car_ear_insurance_banner, .bu_IAR_insurance_banner
+	.bu_car_ear_insurance_banner, .bu_IAR_insurance_banner, .bu_group_life_insurance_banner
 	{
 		height: 620px;
 		background-position: 80% center;

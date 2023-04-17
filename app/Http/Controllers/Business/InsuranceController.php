@@ -31,4 +31,9 @@ class InsuranceController extends Controller
     {
         return view('business.insurance.IAR');
     }
+
+    public function groupLifeIndex()
+    {
+        return view('business.insurance.group');
+    }
 }
