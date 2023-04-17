@@ -105,7 +105,7 @@
 			<div class="container section_1" >
 				<div class="row">
 					<div class="text-center">
-						<p style="font-size: 18px;">Available channels for Payments are;</p>
+						<p style="font-size: 18px;">Available channels for Payments</p>
 					</div>
 					<div class="col-md-4"></div>
 					<div class="col-md-2">
@@ -168,7 +168,7 @@
 								<div class="container tab_section_1">
 									<div class="row tab_data_row" style="margin-top: 20px;">
 										<div class="col-md-6" style="padding-right: 70px;">
-											<p class="fw-semibold" style="font-size: 15px;">Are you still wasting your time for paying bills, taxes and other personal related payments?</p>
+											<p style="font-size: 18px;font-weight: 500;">Are you still wasting your time for paying bills, taxes and other personal related payments?</p>
 											<p>We can make it easier for you to pay bills when you need to, and to pay on-time every time. It can be routed through AYA Bank’s bill payment services at branches or simply click and pay on digital channels.</p>
 											<div class="space-20"></div>
 											<p>It provides efficient and timeless of payments with straight-through-processing (STP) meanwhile ensuring payment is credited to payee’s account as per specified value date.</p>
