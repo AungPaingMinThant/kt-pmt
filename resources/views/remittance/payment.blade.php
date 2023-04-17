@@ -55,10 +55,16 @@
 		margin-top: 5px;
 		width: 10%;
 	}
-	@media (max-width: 1300px) and (min-width: 1271px) {
+	.scf_first {
+		padding-left: 70px !important;
+	}
+	@media (max-width: 1370px) and (min-width: 1271px) {
 		.bullet_square {
 			width: 10%;
 		}
+			.scf_first {
+			    padding-left: 30px !important;
+			}
 	}
 	@media (max-width: 1270px) and (min-width: 1000px) {
 		.bullet_square {
@@ -66,6 +72,9 @@
 		}
 		.bullet_square {
 			margin-top: 7px;
+		}
+		.scf_first {
+		    padding-left: 10px !important;
 		}
 	}
 	@media (min-width: 768px){
@@ -110,7 +119,7 @@
 					<div class="col-md-4"></div>
 					<div class="col-md-2">
 						<div class="row">
-							<div class="col-md-12 secure_credit_fact">
+							<div class="col-md-12 secure_credit_fact scf_first">
 								<p><i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>AYA ATM</p>
 								<p><i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>AYA iBanking</p>
 							</div>
