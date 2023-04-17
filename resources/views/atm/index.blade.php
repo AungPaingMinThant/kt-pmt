@@ -198,26 +198,26 @@
 	.modal .modal-dialog:not(.modal-fullscreen) {
 		padding: 0px !important;
 	}
-	/*.available_ATM_card_service_div{
+
+	.img-hover-zoom {
+		height: fit-content;
+		width: fit-content;
 		overflow: hidden;
 		border-radius: 10px;
 	}
-	.available_ATM_card_service_div > img {
-		transition: all 0.5s;
-		overflow: hidden;
+	.img-hover-zoom--zoom-n-rotate img {
+	  transition: transform .5s ease-in-out;
 	}
 	.available_ATM_card_service_div:hover {
 		cursor: pointer;
-		max-height: 239px !important;
-		overflow: hidden !important;
 	}
-	.available_ATM_card_service_div:hover > img {	
+	.available_ATM_card_service_div:hover .img-hover-zoom--zoom-n-rotate img {
 		transform: scale(1.2) rotate(3deg);
 	}
-	.available_ATM_card_service_div:hover > .cash_withdraw_mmk_text {	
-		color: #000 !important;
+	.available_ATM_card_service_div:hover p {
+		text-decoration: underline !important;
+		color: #a02226 !important;
 	}
-	*/
 
 	@media (max-width: 1300px) and (min-width: 577px) {
 		.why_use_AYA_outer > .col-md-6 {
@@ -300,32 +300,40 @@
 					</div>
 					<div class="space-20"></div>
 
-					<!-- <div class="img-hover-zoom img-hover-zoom--xyz">
-					  <img src="/path/to/image/" alt="Another Image zoom-on-hover effect">
-					</div> -->
-
 					<div class="col-md-4 col-sm-12 available_ATM_card_service_div cash_withdraw_mmk_div" id="cash_withdraw_mmk_div">
-						<img src="{{ url('/images/atm/cash_withdraw_mmk.png') }}" class="img-fluid">
+						<div class="img-hover-zoom img-hover-zoom--zoom-n-rotate">
+							<img src="{{ url('/images/atm/cash_withdraw_mmk.png') }}" class="img-fluid">
+						</div>
 						<p class="fw-500 cash_withdraw_mmk_text" style="padding: 20px 0px;">Cash Withdrawal (MMK)</p>
 					</div>
-					<div class="col-md-4 col-sm-12" id="quick_cash_withdrawal_div">
-						<img src="{{ url('/images/atm/fast_cash_withdrawl.png') }}" class="img-fluid">
+					<div class="col-md-4 col-sm-12 available_ATM_card_service_div quick_cash_withdrawal_div" id="quick_cash_withdrawal_div">
+						<div class="img-hover-zoom img-hover-zoom--zoom-n-rotate">
+							<img src="{{ url('/images/atm/fast_cash_withdrawl.png') }}" class="img-fluid">
+						</div>
 						<p style="padding: 20px 0px;font-weight: 500;">Quick Cash Withdrawal</p>
 					</div>
-					<div class="col-md-4 col-sm-12" id="cardless_withdrawal_div">
-						<img src="{{ url('/images/atm/cardless_withdraw.png') }}" class="img-fluid">
+					<div class="col-md-4 col-sm-12 available_ATM_card_service_div cardless_withdrawal_div" id="cardless_withdrawal_div">
+						<div class="img-hover-zoom img-hover-zoom--zoom-n-rotate">
+							<img src="{{ url('/images/atm/cardless_withdraw.png') }}" class="img-fluid">
+						</div>
 						<p style="padding: 20px 0px;font-weight: 500;">Cardless Withdrawal</p>
 					</div>
-					<div class="col-md-4 col-sm-12" id="pin_change_div">
-						<img src="{{ url('/images/atm/pin_change.png') }}" class="img-fluid">
+					<div class="col-md-4 col-sm-12 available_ATM_card_service_div pin_change_div" id="pin_change_div">
+						<div class="img-hover-zoom img-hover-zoom--zoom-n-rotate">
+							<img src="{{ url('/images/atm/pin_change.png') }}" class="img-fluid">
+						</div>
 						<p style="padding: 20px 0px;font-weight: 500;">PIN Change</p>
 					</div>
-					<div class="col-md-4 col-sm-12" id="balance_inquiry_div">
-						<img src="{{ url('/images/atm/balance_inquiry.png') }}" class="img-fluid">
+					<div class="col-md-4 col-sm-12 available_ATM_card_service_div balance_inquiry_div" id="balance_inquiry_div">
+						<div class="img-hover-zoom img-hover-zoom--zoom-n-rotate">
+							<img src="{{ url('/images/atm/balance_inquiry.png') }}" class="img-fluid">
+						</div>
 						<p style="padding: 20px 0px;font-weight: 500;">Balance Enquiry at ATM</p>
 					</div>
-					<div class="col-md-4 col-sm-12" id="fund_transfer_div">
-						<img src="{{ url('/images/atm/fund_transfer.png') }}" class="img-fluid">
+					<div class="col-md-4 col-sm-12 available_ATM_card_service_div fund_transfer_div" id="fund_transfer_div">
+						<div class="img-hover-zoom img-hover-zoom--zoom-n-rotate">
+							<img src="{{ url('/images/atm/fund_transfer.png') }}" class="img-fluid">
+						</div>
 						<p style="padding: 20px 0px;font-weight: 500;">Funds Transfer</p>
 					</div>
 				</div>

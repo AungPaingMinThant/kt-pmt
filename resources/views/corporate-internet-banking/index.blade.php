@@ -86,7 +86,7 @@
 		background-color: #a02226;
 		color: #fff;
 		border-radius: 50%;
-		font-size: 20px;
+		font-size: 18px !important;
 	}
 
 	.image {
@@ -223,12 +223,29 @@
 		list-style:none;
 	}
 	.packages_main{
-		padding: 40px 20px 80px 20px;
+		padding: 40px 20px 30px 20px;
 	}
-	
+	.packages_img {
+		width: 20% !important;
+	}
+	.packages_main {
+		width: 80% !important;
+		padding-right: 20px !important;
+	}
+	.plus_ac_service_extra_line, .plus_allow_user_extra_line, .plus_reg_fees_extra_line,
+	.ac_service_extra_line, .dual_control_extra_line, .reg_fee_extra_line {
+		display: none;
+	}
+
 	@media (max-width: 1400px) and (min-width: 1301px) {
 		.carousel-indicators{
 			left: 85% !important;
+		}
+	}
+	@media (max-width: 1370px) and (min-width: 1301px) {
+		.plus_ac_service_extra_line, .plus_allow_user_extra_line, .plus_reg_fees_extra_line, .ac_service_extra_line,
+		.dual_control_extra_line, .reg_fee_extra_line {
+			display: contents;
 		}
 	}
 	@media (max-width: 1300px) and (min-width: 1025px) {
@@ -258,8 +275,14 @@
 		.need_more_support_section {
 		    padding: 40px 100px 0px 100px !important;
 		}
+		.plus_ac_service_extra_line, .plus_allow_user_extra_line, .plus_reg_fees_extra_line, .ac_service_extra_line, .dual_control_extra_line {
+			display: contents;
+		}
 	}
 	@media (max-width: 1024px) and (min-width: 577px) {
+		.ac_service_extra_line, .dual_control_extra_line {
+			display: contents;
+		}
 		.basic_package_col.col-md-3 {
 			width: 33.3%;
 		}
@@ -320,7 +343,7 @@
 				@include('layouts.tagline', ['page'=>'corporate_internet_banking'])
 			</div>
 
-			<div style="">
+			<div>
 				<div class="nav-align-top mb-4">
 					<div class="text-center">
 						<h3 class="fw-semibold py-md-3" style="color: #1d1d1f;">Key features</h3>
@@ -353,7 +376,6 @@
 						</li>
 					</ul>
 					<div class="tab-content" style="background-color: transparent;padding: 20px 0px 0px 0px;">
-						<!-- background: rgb(243,243,243);background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(249,249,249,1) 50%, rgba(255,255,255,1) 100%); -->
 						<div class="tab-pane fade show active" id="navs-pills-top-account-services" role="tabpanel" style="padding-bottom: 30px;">
 							<div class="container tab_section_1">
 								<div class="row tab_data_row" >
@@ -501,58 +523,59 @@
 
 			<div style="background-color: #f5f5f7;">
 				<div class="space-60"></div>
-				<div class="container section_1" style="max-width: 1500px;">
+				 <!-- style="max-width: 1500px;" -->
+				<div class="container section_1">
 					<div class="col-md-12 text-center">
 						<h3 style="color: #1d1d1f;">Two packages: Basic and Basic<sup>+</sup></h3>
 					</div>
 					<div class="space-20"></div>
 					<div class="row" style="background-color: #fff;border-radius: 6px;">
-						<div class="col-md-3" style="background-image: url('././images/corporate_internet_banking/basic.jpg');background-size: cover;border-top-left-radius: 6px;border-bottom-left-radius: 6px;background-position: center 60px !important;background-repeat: no-repeat;">
-							<div class="row" style="background-color: #fff;padding: 20px;border-top-left-radius: 6px;border-top: 7px solid #ace3f7;">
+						<div class="col-md-2 packages_img" style="background-image: url('././images/corporate_internet_banking/basic.jpg');background-size: cover;border-top-left-radius: 6px;border-bottom-left-radius: 6px;background-position: center 60px !important;background-repeat: no-repeat;">
+							<div class="row" style="background-color: #fff;padding: 20px 10px;border-top-left-radius: 6px;border-top: 7px solid #ace3f7;">
 								<p style="font-size: 40px;margin-bottom: 0px;font-weight: 600;">Basic</h3>
-								<p style="margin-bottom: 0px;">Standard features with two makers and one checker</p>
+								<p class="mb-0">Standard features with two makers and one checker</p>
 							</div>
 						</div>
-						<div class="col-md-9 packages_main">
+						<div class="col-md-10 packages_main">
 							<div class="row">
 								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Account Service
+									<p style="font-weight: 500;width: 84%;float: right;">
+										Account Service<span class="ac_service_extra_line"><br>&nbsp;</span>
 									</p>
 									<hr style="width: 100%">
 								</div>
 								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Dual Control
+									<p style="font-weight: 500;width: 84%;float: right;">
+										Dual Control<span class="dual_control_extra_line"><br>&nbsp;</span>
 									</p>
 									<hr style="width: 100%">
 								</div>
 								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Registration Fees: FOC
+									<p style="font-weight: 500;width: 84%;float: right;">
+										Registration Fees: FOC<span class="reg_fee_extra_line"><br>&nbsp;</span>
 									</p>
 									<hr style="width: 100%">
 								</div>
 								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
+									<p style="font-weight: 500;width: 84%;float: right;">
 										Monthly Fees: 10,000MMK
 									</p>
 									<hr style="width: 100%;">
 								</div>
 								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
+									<p style="font-weight: 500;width: 84%;float: right;">
 										Token Fees: <br>20,000 MMK (Per Token)
 									</p>
 									<hr class="d-block d-sm-none" style="width: 100%;">
 								</div>
 								<div class="col-md-3 basic_package_col basic_pack_allow">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
+									<p style="font-weight: 500;width: 84%;float: right;">
 										Allow
 									</p>
 									<ul class="packages_list">
@@ -563,7 +586,7 @@
 								</div>
 								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
+									<p style="font-weight: 500;width: 84%;float: right;">
 										Payment Service
 									</p>
 									<ul class="packages_list">
@@ -577,42 +600,42 @@
 								<div class="d-none mobile_basic_package">
 									<div class="col-md-3 basic_package_col">
 										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-										<p style="font-weight: 500;width: 85%;float: right;">
+										<p style="font-weight: 500;width: 84%;float: right;">
 											Account Service
 										</p>
 										<hr style="width: 100%">
 									</div>
 									<div class="col-md-3 basic_package_col">
 										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-										<p style="font-weight: 500;width: 85%;float: right;">
+										<p style="font-weight: 500;width: 84%;float: right;">
 											Dual Control
 										</p>
 										<hr style="width: 100%">
 									</div>
 									<div class="col-md-3 basic_package_col">
 										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-										<p style="font-weight: 500;width: 85%;float: right;">
+										<p style="font-weight: 500;width: 84%;float: right;">
 											Registration Fees: FOC
 										</p>
 										<hr style="width: 100%">
 									</div>
 									<div class="col-md-3 basic_package_col">
 										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-										<p style="font-weight: 500;width: 85%;float: right;">
+										<p style="font-weight: 500;width: 84%;float: right;">
 											Monthly Fees: 10,000MMK
 										</p>
 										<hr style="width: 100%;">
 									</div>
 									<div class="col-md-3 basic_package_col">
 										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-										<p style="font-weight: 500;width: 85%;float: right;">
+										<p style="font-weight: 500;width: 84%;float: right;">
 											Token Fees: <br>20,000 MMK (Per Token)
 										</p>
 										<hr style="width: 100%;">
 									</div>
 									<div class="col-md-3 basic_package_col">
 										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-										<p style="font-weight: 500;width: 85%;float: right;">
+										<p style="font-weight: 500;width: 84%;float: right;">
 											Allow
 										</p>
 										<ul style="list-style:none;margin-left: 25px;">
@@ -623,7 +646,7 @@
 									</div>
 									<div class="col-md-3 basic_package_col">
 										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-										<p style="font-weight: 500;width: 85%;float: right;">
+										<p style="font-weight: 500;width: 84%;float: right;">
 											Payment Service
 										</p>
 										<ul style="list-style:none;margin-left: 25px;">
@@ -640,59 +663,59 @@
 					</div>
 					<div class="space-20"></div>
 					<div class="row" style="background-color: #fff;border-radius: 6px;">
-						<div class="col-md-3" style="background-image: url('././images/corporate_internet_banking/basic_plus.jpg');background-size: cover;border-top-left-radius: 6px;border-bottom-left-radius: 6px;background-position: center !important;background-repeat: no-repeat;">
-							<div class="row" style="background-color: #fff;padding: 20px;border-top-left-radius: 6px;border-top: 7px solid #ffd655;">
+						<div class="packages_img" style="background-image: url('././images/corporate_internet_banking/basic_plus.jpg');background-size: cover;border-top-left-radius: 6px;border-bottom-left-radius: 6px;background-position: center !important;background-repeat: no-repeat;">
+							<div class="row" style="background-color: #fff;padding: 20px 10px;border-top-left-radius: 6px;border-top: 7px solid #ffd655;">
 								<p style="font-size: 40px;margin-bottom: 0px;font-weight: 600;">Basic<sup>+</sup></h3></p>
-								<p>Standard features with unlimited users</p>
+								<p class="mb-0">Standard features with unlimited users</p>
 							</div>
 						</div>
-						<div class="col-md-9 packages_main">
+						<div class="packages_main">
 							<div class="row">
 								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Account Service
+									<p style="font-weight: 500;width: 84%;float: right;">
+										Account Service<span class="plus_ac_service_extra_line"><br>&nbsp;</span>
 									</p>
 									<hr style="width: 100%">
 								</div>
 								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Allow Unlimited users
+									<p style="font-weight: 500;width: 84%;float: right;">
+										Allow Unlimited users<span class="plus_allow_user_extra_line"><br>&nbsp;</span>
 									</p>
 									<hr style="width: 100%">
 								</div>
 								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
-										Registration Fees: FOC
+									<p style="font-weight: 500;width: 84%;float: right;">
+										Registration Fees: FOC<span class="plus_reg_fees_extra_line"><br>&nbsp;</span>
 									</p>
 									<hr style="width: 100%">
 								</div>
 								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
+									<p style="font-weight: 500;width: 84%;float: right;">
 										Monthly Fees: 10,000MMK
 									</p>
 									<hr style="width: 100%">
 								</div>
 								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
+									<p style="font-weight: 500;width: 84%;float: right;">
 										Token Fees: <br>20,000 MMK (Per Token)
 									</p>
 									<hr class="d-block d-sm-none" style="width: 100%;">
 								</div>
 								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
+									<p style="font-weight: 500;width: 84%;float: right;">
 										Customized Authorization matrix
 									</p>
 									<hr class="d-block d-sm-none" style="width: 100%;">
 								</div>
 								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 85%;float: right;">
+									<p style="font-weight: 500;width: 84%;float: right;">
 										Payment Service
 									</p>
 									<ul class="packages_list">
