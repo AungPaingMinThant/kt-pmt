@@ -239,9 +239,7 @@
 										<div class="row">
 											<div class="col-md-12">
 												<p style="font-size: 20px;font-weight: 600;">Premium Rating</p>
-												<p>Subject to following risk factors: <span class="theme_text_color fw-semibold">COPEM</span></p>
-												<p>Subject to:</p>
-												<ul>
+												<p>Subject to following risk factors: <span class="theme_text_color fw-semibold">COPEM</span></p>												<ul>
 													<li><span class="theme_text_color fw-semibold">C</span> – Construction (Type of Construction, Total Area Sq m/Sq Ft of Construction)</li>
 													<li><span class="theme_text_color fw-semibold">O</span> – Occupancy (Occupancy & Type of Items Stored at the Warehouses)</li>
 													<li><span class="theme_text_color fw-semibold">P</span> – Protection (Fire Extinguishing Arrangement)</li>

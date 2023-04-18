@@ -436,4 +436,8 @@
 	.col-11 {
 		width: 90% !important;
 	}
+	.swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+	    transform: translate(-80%,40%) !important;
+	    padding: 5px;
+	}
 }

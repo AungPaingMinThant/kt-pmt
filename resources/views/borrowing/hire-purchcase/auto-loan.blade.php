@@ -506,14 +506,14 @@
 						<div class="col-md-12">
 							<p class="call_deposit_title">How to Apply</p>
 							<div class="nav-align-top mb-4">
-								<ul class="nav nav-pills " role="tablist" style="justify-content: center;">
+								<ul class="nav nav-pills auto_loan_nav" role="tablist" style="justify-content: center;">
 									<li class="nav-item">
-										<button type="button" class="tab_title nav-link active" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-top-brand-new-car-mobile" aria-controls="navs-pills-top-brand-new-car-mobile" aria-selected="true" >
+										<button type="button" class="tab_title nav-link active" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-top-brand-new-car-mobile" aria-controls="navs-pills-top-brand-new-car-mobile" aria-selected="true" style="font-size: 13px;">
 											Brand New Car Only
 										</button>
 									</li>
 									<li class="nav-item">
-										<button type="button" class="tab_title nav-link" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-top-brand-new-pre-owned-mobile" aria-controls="navs-pills-top-brand-new-pre-owned-mobile" aria-selected="false" >
+										<button type="button" class="tab_title nav-link" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-top-brand-new-pre-owned-mobile" aria-controls="navs-pills-top-brand-new-pre-owned-mobile" aria-selected="false" style="font-size: 13px;">
 											Brand New or Pre-Owned Car
 										</button>
 									</li>
@@ -524,8 +524,11 @@
 											<p style="margin-bottom: 30px;">Feel free to make an initial enquiry at any AYA branches via phone or in person. Then, visit nearest AYA branch to receive <b>“In-principle Loan Approval”</b> which contains the eligible HP loan amount.</p>
 										</div>
 										<div class="d-block d-sm-none">
-											<div class="row step_slide_row">
-												<div class="col-md-12">
+											<div class="row" style="position: relative;">
+												<div class="col-1" style="position: relative;">
+													<div class="swiper-button-prev swiper-navBtn"></div>
+												</div>
+												<div class="col-9">
 											      	<div class="slide-container swiper" style="padding-bottom: 40px;padding-bottom: 40px;padding-left: 0px;padding-right: 0px;margin-left: 10px;">
 											            <div class="slide-content slide-content-mobile">
 											                <div class="card-wrapper swiper-wrapper">
@@ -603,11 +606,13 @@
 											                        </div>
 											                    </div>
 											                </div>
-											                <div class="swiper-pagination swiper-pagination-mobile"></div>
 											            </div>
-											            
 											        </div>
 											    </div>
+											    <div class="col-1" style="position: relative;">
+													<div class="swiper-button-next swiper-navBtn"></div>
+												</div>
+												<div class="swiper-pagination swiper-pagination-mobile"></div>
 											</div>
 										</div>
 									</div>
