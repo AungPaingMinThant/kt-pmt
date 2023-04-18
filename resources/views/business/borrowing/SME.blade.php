@@ -3,12 +3,7 @@
 @section('title', 'SME – AYA Bank')
 <link rel="stylesheet" href="{{ url('/css/business/borrowing/sme.css') }}" />
 <link rel="stylesheet" href="{{ url('/css/swiper-bundle.min.css') }}" />
-<style type="text/css">
-	/*.micro_loan_accordion_header{
-		background-color: #f7f7f7 !important;
-		border-bottom: none !important;
-	}*/
-</style>
+
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">

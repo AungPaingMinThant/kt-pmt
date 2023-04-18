@@ -1,12 +1,39 @@
 .nav-link, h4 {
 	color: #2e2e2e !important;
 }
-.nav-pills .nav-link.active {
-	color: #2e2e2e !important;		
+.side-nav > .nav-item > .nav-link {
+	padding: 0 1.25rem 1rem 0 !important;
+	font-size: 16px;
 }
-.nav-pills .nav-link.active > span {
-	border-bottom: 4px solid #a02226 !important;
-	font-weight: 600 !important;
+.nav-item-separate {
+	border-bottom: 4px solid #a02226;
+	width: 60% !important;
+	margin-top: 5px;
+	display: none;
+}
+.side-nav.nav-pills .nav-link.active {
+	border-radius: 0;
+	padding-bottom: 0px !important;
+	color: #ae071d !important;
+}
+.side-nav.nav-pills .nav-link.active .nav-item-separate {
+	display: block;
+}
+.side-link {
+	display: block;
+}
+.side-nav.nav-pills > li > .side-link.active {
+    border-radius: 0;
+    padding-bottom: 0px !important;
+    color: #ae071d !important;
+}
+.side-nav > li > .side-link {
+	color: #2e2e2e !important;
+    padding: 0 1.25rem 1rem 0 !important;
+    font-size: 16px;
+}
+.side-nav > li > a.active .nav-item-separate {
+	display: block;
 }
 .scroll_content::-webkit-scrollbar{
     display: none;
@@ -122,23 +149,36 @@
 .tab_title > span {
 	padding: 20px 0px;
 }
-.nav-align-top .nav-tabs .tab_title.active span {
+.auto_loan_nav .nav-align-top .nav-tabs .tab_title.active span {
 	border-bottom: 5px solid #a02226;
 }
-.nav-pills .tab_title.active, .nav-pills .tab_title.active:hover, .nav-pills .tab_title.active:focus {
-	background-color: transparent !important;
+.auto_loan_nav.nav-pills .tab_title {
+	padding: 10px 15px 7px 15px !important;
+}
+.auto_loan_nav.nav-pills .tab_title.active, .nav-pills .tab_title.active:hover, .nav-pills .tab_title.active:focus {
+    background-color: #fff !important;
     color: #000 !important;
     box-shadow: none !important;
-    border-bottom: 5px solid #ae002c;
-    border-radius: 0;
-    font-weight: 500;
+    font-weight: 500;   
+    border-color: #ae002c;
+    border: 2px solid #ae002c;
+    border-bottom: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.auto_loan_nav > .nav-item {
+	background: #cccccc2e !important;
+	border-radius: 0 !important;
+    border-top-right-radius: 5px !important;
+    border-top-left-radius: 5px !important;
 }
 .nav .tab_title:hover, .nav .tab_title:focus {
 	color: #000 !important;
 }
 .nav-pills .tab_title {
-	font-weight: 500;
-	font-size: 18px;
+	font-size: 15px;
 	padding-left: 0px;
 }
 .swiper-navBtn{
@@ -196,7 +236,7 @@
 .swiper-wrapper {
 	height: 90%;
 }
-.slide-content-desktop > .swiper-wrapper >.slide_1.swiper-slide-prev {
+/*.slide-content-desktop > .swiper-wrapper >.slide_1.swiper-slide-prev {
 	margin-left: -25%;
 }
 .slide-content-desktop > .swiper-wrapper >.slide_2.swiper-slide-prev {
@@ -210,7 +250,7 @@
 }
 .slide-content-desktop > .swiper-wrapper >.slide_1.swiper-slide-duplicate.swiper-slide-active {
 	margin-left: -20%;
-}
+}*/
 .slide-content-desktop > .swiper-wrapper > .swiper-slide:after,
 .slide-content-desktop > .swiper-wrapper > .swiper-slide:before {
 	left: 100%;
@@ -236,12 +276,12 @@
 	z-index: 99;
 }
 .slide-content-desktop > .swiper-wrapper > .swiper-slide-active {
-	width: 30% !important;
+	width: 33.33% !important;
 	background-color: #f2f2f2;
 	z-index: 99;
 }
 .slide-content-desktop > .swiper-slide-next, .slide-content-desktop > .swiper-wrapper > .swiper-slide {
-	width: 30% !important;
+	width: 33.33% !important;
 }
 .step_slide_row {
 	width: 118%;
@@ -291,7 +331,7 @@
 	width: 100% !important;
 }
 
-@media (max-width: 1370px) and (min-width: 1271px) {
+@media (max-width: 1370px) and (min-width: 1281px) {
 	.step_slide_row {
 		width: 114%;
 	}
@@ -304,8 +344,11 @@
 	.loan_eligibility_check {
 	    padding: 30px 40px 20px 60px !important;
 	}
+	.nav-item-separate {
+		width: 80% !important;
+	}
 }
-@media (max-width: 1270px) and (min-width: 1000px) {
+@media (max-width: 1280px) and (min-width: 1000px) {
 	.bullet_square {
 		width: 50%;
 	}
@@ -328,6 +371,12 @@
 	}
 	.swiper-wrapper {
 		height: 95%;
+	}
+	.nav-item-separate {
+		width: 90% !important;
+	}
+	.slide-content-desktop > .swiper-slide-next, .slide-content-desktop > .swiper-wrapper > .swiper-slide {
+	    width: 51% !important;
 	}
 }
 

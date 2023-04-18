@@ -2736,7 +2736,7 @@
 						<img src="{{ url('/images/business/insurance/IAR/IAR.png') }}" class="img-fluid">
 					</div>
 					<div class="col-md-6 tagline_div">
-						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Industrial All Risk Insurance (IAR)<br>Insurance</h1>
+						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Industrial All Risk Insurance (IAR)</h1>
 						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
 						<h1 class="bu_IAR_insurance_tagline">
 							An enhanced solution to the most demanding of needs – the industrial all risk insurance is your go–to product to insure your property and business in one single policy.
@@ -2750,7 +2750,7 @@
 						<img src="{{ url('/images/business/insurance/IAR/IAR.png') }}" class="img-fluid">
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
-						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Industrial All Risk Insurance (IAR)<br>Insurance</h1>
+						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Industrial All Risk Insurance (IAR)</h1>
 						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
 						<h1 style="font-size: 15px;font-weight: 400;">
 							An enhanced solution to the most demanding of needs – the industrial all risk insurance is your go–to product to insure your property and business in one single policy.

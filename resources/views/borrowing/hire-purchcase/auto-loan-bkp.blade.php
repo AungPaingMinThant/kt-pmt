@@ -17,49 +17,43 @@
 			<div class="container section_1">
 				<div class="col-md-12 d-none d-sm-block">
 					<div class="row">
-						<div class="col-md-3">
+						<div class="col-md-4">
 							<nav id="myScrollspy">
-								<ul class="side-nav nav nav-pills flex-column">
-									<li>
-										<a class="side-link active" href="#quick_look">
+								<ul class="nav nav-pills flex-column">
+									<li class="nav-item">
+										<a class="nav-link active" href="#quick_look">
 											<span>Quick look</span>
-											<hr class="nav-item-separate">
 										</a>
 									</li>
-									<li>
-										<a class="side-link" href="#features">
+									<li class="nav-item">
+										<a class="nav-link" href="#features">
 											<span>Features</span>
-											<hr class="nav-item-separate">
 										</a>
 									</li>
-									<li>
-										<a class="side-link" href="#eligibility">
+									<li class="nav-item">
+										<a class="nav-link" href="#eligibility">
 											<span>Eligibility</span>
-											<hr class="nav-item-separate">
 										</a>
 									</li>
-									<li>
-										<a class="side-link" href="#required-document">
+									<li class="nav-item">
+										<a class="nav-link" href="#required-document">
 											<span>Required Documents</span>
-											<hr class="nav-item-separate">
 										</a>
 									</li>
-									<li>
-										<a class="side-link" href="#how_to_apply">
+									<li class="nav-item">
+										<a class="nav-link" href="#how_to_apply">
 											<span>How to apply</span>
-											<hr class="nav-item-separate">
 										</a>
 									</li>
-									<li>
-										<a class="side-link" href="#faqs">
+									<li class="nav-item">
+										<a class="nav-link" href="#faqs">
 											<span>FAQs</span>
-											<hr class="nav-item-separate">
 										</a>
 									</li>
 								</ul>
 							</nav>
 						</div>
-						<div class="col-md-9">
+						<div class="col-md-8">
 							<div id="scroll_content" data-spy="scroll" data-target="#myScrollspy" data-offset="10" style="">
 								<p id="quick_look">
 									Getting a brand new car or pre-owned, AYA auto financing is right solution for you.  With AYA Auto Loan, you can just make the down payment to own your dream car. Visit our authorized auto dealers today to stop dreaming and start driving.
@@ -192,7 +186,7 @@
 								<div class="space-40" id="how_to_apply"></div>
 								<h4>How to apply</h4>
 								<div class="nav-align-top mb-4">
-									<ul class="nav nav-pills auto_loan_nav" role="tablist">
+									<ul class="nav nav-pills " role="tablist">
 										<li class="nav-item">
 											<button type="button" class="tab_title nav-link active" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-top-brand-new-car" aria-controls="navs-pills-top-brand-new-car" aria-selected="true" >
 												Brand New Car Only
@@ -204,18 +198,15 @@
 											</button>
 										</li>
 									</ul>
-									<div class="tab-content" style="background-color: transparent;padding: 30px 0px 0px 0px;box-shadow: none;border-top: 1px solid #cccccc2e;border-radius: 0;">
+									<div class="tab-content" style="background-color: transparent;padding: 30px 0px 0px 0px;box-shadow: none;">
 										<div class="tab-pane fade show active" id="navs-pills-top-brand-new-car" role="tabpanel" style="padding-bottom: 20px;">
 											<div>
-												<p style="margin-bottom: 30px;width: 93%;">Feel free to make an initial enquiry at any AYA branches via phone or in person. Then, visit nearest AYA branch to receive <b>“In-principle Loan Approval”</b> which contains the eligible HP loan amount.</p>
+												<p style="margin-bottom: 30px;">Feel free to make an initial enquiry at any AYA branches via phone or in person. Then, visit nearest AYA branch to receive <b>“In-principle Loan Approval”</b> which contains the eligible HP loan amount.</p>
 											</div>
 											<div class="d-none d-sm-block">
-												<div class="row" style="position: relative;">
-													<div class="col-1" style="position: relative;">
-														<div class="swiper-button-prev swiper-navBtn"></div>
-													</div>
-													<div class="col-md-10">
-												      	<div class="slide-container swiper" style="padding-bottom: 40px;padding-left: 0px;padding-right: 0px;">
+												<div class="row step_slide_row" style="position: relative;">
+													<div class="col-md-12">
+												      	<div class="slide-container swiper" style="padding-bottom: 40px;padding-bottom: 40px;padding-left: 0px;padding-right: 0px;">
 												            <div class="slide-content slide-content-desktop">
 												                <div class="card-wrapper swiper-wrapper">
 												                    <div class="card swiper-slide slide_1">
@@ -293,11 +284,10 @@
 												                    </div>
 												                </div>
 												            </div>
+												            
 												        </div>
+												        
 												    </div>
-												    <div class="col-1" style="position: relative;">
-														<div class="swiper-button-next swiper-navBtn" style="left: 20%;"></div>
-													</div>
 												    <div class="swiper-pagination swiper-pagination-desktop"></div>
 												</div>
 											</div>
@@ -678,18 +668,8 @@
 		$(".nav-link").not(this).removeClass('active');
 	});
 
-	$(".side-link").click(function() {
-		$(".side-link").addClass('active');
-		$(".side-link").not(this).removeClass('active');
-	});
-
-	$(".auto_loan_nav").click(function() {
-		$(".auto_loan_nav").addClass('active');
-		$(".auto_loan_nav").not(this).removeClass('active');
-	});
-
 	var swiper = new Swiper(".slide-content-desktop", {
-		slidesPerView: 3,
+		slidesPerView: 4,
 		spaceBetween: 25,
 		loop: true,
 		centerSlide: 'true',
@@ -714,10 +694,7 @@
 				slidesPerView: 2,
 			},
 			950: {
-				slidesPerView: 2,
-			},
-			1300: {
-				slidesPerView: 3,	
+				slidesPerView: 4,
 			},
 		},
 	});
