@@ -204,7 +204,7 @@
 												<p style="margin-bottom: 30px;">Feel free to make an initial enquiry at any AYA branches via phone or in person. Then, visit nearest AYA branch to receive <b>“In-principle Loan Approval”</b> which contains the eligible HP loan amount.</p>
 											</div>
 											<div class="d-none d-sm-block">
-												<div class="row step_slide_row">
+												<div class="row step_slide_row" style="position: relative;">
 													<div class="col-md-12">
 												      	<div class="slide-container swiper" style="padding-bottom: 40px;padding-bottom: 40px;padding-left: 0px;padding-right: 0px;">
 												            <div class="slide-content slide-content-desktop">
@@ -284,8 +284,11 @@
 												                    </div>
 												                </div>
 												            </div>
+												            
 												        </div>
+												        
 												    </div>
+												    <div class="swiper-pagination swiper-pagination-desktop"></div>
 												</div>
 											</div>
 										</div>
@@ -590,8 +593,9 @@
 											                        </div>
 											                    </div>
 											                </div>
+											                <div class="swiper-pagination swiper-pagination-mobile"></div>
 											            </div>
-											            <div class="swiper-pagination"></div>
+											            
 											        </div>
 											    </div>
 											</div>
@@ -672,9 +676,10 @@
 		fade: 'true',
 		grabCursor: 'true',
 		pagination: {
-			el: ".swiper-pagination",
+			el: ".swiper-pagination-desktop",
 			clickable: true,
 			dynamicBullets: true,
+			loop: true,
 		},
 		navigation: {
 			nextEl: ".swiper-button-next",
@@ -702,7 +707,7 @@
 		fade: 'true',
 		grabCursor: 'true',
 		pagination: {
-			el: ".swiper-pagination",
+			el: ".swiper-pagination-mobile",
 			clickable: true,
 			dynamicBullets: true,
 		},

@@ -107,8 +107,11 @@
 	.IAR_coverage_icon {
 		width: 50% !important;
 	}
-	.tab_data_row > .col-md-4, .tab_data_row > .coverage_div_2 > .col-md-4, .tab_data_row > .col-md-3 {
+	.tab_data_row > .coverage_div_2 > .col-md-4, .tab_data_row > .col-md-3 {
 	    width: 45% !important;
+	}
+	.tab_data_row > .col-md-4 {
+		width: 100% !important;
 	}
 	.more_detail_section {
 	    padding: 0px 40px !important;

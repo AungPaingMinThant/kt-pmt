@@ -94,16 +94,6 @@
 										</div>
 									</div>
 								</div>
-
-								<div class="space-40"></div>
-								<div class="col-md-12">
-									<div class="row">
-										<div class="col-md-12">
-											<p class="theme_text_color fw-semibold" style="font-size: 20px;">Eligibility</p>
-											<p style="color: #4e4e4e;">Any person who owns a property or who has a legal obligation over safety of a property e.g., Owners of goods traded, Business owners, Manufacturers and Distributors, etc.</p>
-										</div>
-									</div>
-								</div>
 							</div>
 						</div>
 						<div class="tab-pane set-text-alert fade" id="navs-pills-top-benefits" role="tabpanel" style="background: transparent;padding-bottom: 30px;">
@@ -119,6 +109,15 @@
 											<div class="col-md-12 text-center">
 												<img src="{{ url('/images/business/insurance/domestic-inland-transit/inland_transit_ENG.jpg') }}" class="img-fluid">
 											</div>
+										</div>
+									</div>
+								</div>
+								<div class="space-40"></div>
+								<div class="col-md-12">
+									<div class="row">
+										<div class="col-md-12">
+											<p class="theme_text_color fw-semibold" style="font-size: 20px;">Eligibility</p>
+											<p style="color: #4e4e4e;">Any person who owns a property or who has a legal obligation over safety of a property e.g., Owners of goods traded, Business owners, Manufacturers and Distributors, etc.</p>
 										</div>
 									</div>
 								</div>
@@ -182,12 +181,12 @@
 					<div class="col-md-12 col-xs-12">
 						<p class="disclaimer_title">Disclaimers</p>
 						<p style="color: #777777;font-weight: 400;font-size: 12px;">
-							This Domestic Inland Transit Insurance is underwritten by AYA Sompo Insurance Company Ltd and distributed by AYA Bank Co Ltd. It is not an obligation of, deposit in or guaranteed by AYA Bank. AYA Sompo Insurance Company Ltd reserves the right of final approval. Full details of the terms, conditions and exclusions of the insurance are provided in the policy wordings and will be sent to you upon acceptance of your application by AYA Sompo Insurance Company Ltd.
+							This Domestic Inland Transit Insurance is underwritten by AYA SOMPO Insurance Company Ltd and distributed by AYA Bank Co Ltd. It is not an obligation of, deposit in or guaranteed by AYA Bank. AYA SOMPO Insurance Company Ltd reserves the right of final approval. Full details of the terms, conditions and exclusions of the insurance are provided in the policy wordings and will be sent to you upon acceptance of your application by AYA SOMPO Insurance Company Ltd.
 						<p style="color: #777777;font-weight: 400;font-size: 12px;">
 							This webpage contains only general information and does not have regard to the specific investment objectives, financial situation and the particular needs of any specific person. It is not intended as an offer or recommendation to buy the product. A copy of the product summary can be obtained from AYA Bank branches. The contract of insurance is between the insurer and the insured and not between the Bank and the insured. Bank does not give any warranty, as to the accuracy and completeness of the policies. Bank does not accept any liability or losses attributable to your contract of Insurance. Participation by the Bank’s customers in the insurance products is purely on a voluntary basis and is not linked to availment of any other facility from the bank.
 						</p>
 						<p style="color: #777777;font-weight: 400;font-size: 12px;">
-							This policy is protected under the Policy Owners’ Protection Scheme which is administered by Myanmar Insurance Corporation. For detail information on the types of benefits that are covered under the scheme as well as the limits of coverage, where applicable, please visit any of AYA Bank branches.
+							This policy is protected under the Policy Owners’ Protection Scheme which is administered by Myanmar Insurance Association. For detail information on the types of benefits that are covered under the scheme as well as the limits of coverage, where applicable, please visit any of AYA Bank branches.
 						</p>
 					</div>
 				</div>

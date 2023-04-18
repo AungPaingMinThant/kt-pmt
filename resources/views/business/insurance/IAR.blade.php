@@ -59,7 +59,7 @@
 					<div class="tab-content" style="background-color: transparent;padding: 30px 0px 0px 0px;">
 						<div class="tab-pane fade show active" id="navs-pills-top-coverage" role="tabpanel" style="background: transparent;padding-bottom: 30px;">
 							<div class="container section_1">
-								<div class="row tab_data_row" style="column-gap: 20px;">
+								<div class="row tab_data_row IAR_data_row" style="column-gap: 20px;">
 									<div class="col-md-3 benefit_feature_box" style="padding: 10px 20px 10px 20px;margin-bottom: 35px;">
 										<div class="row">
 											<img src="{{ url('/images/business/insurance/air_craft_damage.png') }}" class="img-fluid IAR_coverage_icon">
@@ -291,12 +291,12 @@
 				<div class="row px-0">
 					<p class="disclaimer_title">Disclaimers</p>
 					<p style="color: #777777;font-weight: 400;font-size: 12px;">
-						This Industrial All Risk Insurance (IAR) is underwritten by AYA Sompo Insurance Company Ltd and distributed by AYA Bank Co Ltd. It is not an obligation of, deposit in or guaranteed by AYA Bank. AYA Sompo Insurance Company Ltd reserves the right of final approval. Full details of the terms, conditions and exclusions of the insurance are provided in the policy wordings and will be sent to you upon acceptance of your application by AYA Sompo Insurance Company Ltd.
+						This Industrial All Risk Insurance (IAR) is underwritten by AYA SOMPO Insurance Company Ltd and distributed by AYA Bank Co Ltd. It is not an obligation of, deposit in or guaranteed by AYA Bank. AYA SOMPO Insurance Company Ltd reserves the right of final approval. Full details of the terms, conditions and exclusions of the insurance are provided in the policy wordings and will be sent to you upon acceptance of your application by AYA SOMPO Insurance Company Ltd.
 					<p style="color: #777777;font-weight: 400;font-size: 12px;">
 						This webpage contains only general information and does not have regard to the specific investment objectives, financial situation and the particular needs of any specific person. It is not intended as an offer or recommendation to buy the product. A copy of the product summary can be obtained from AYA Bank branches. The contract of insurance is between the insurer and the insured and not between the Bank and the insured. Bank does not give any warranty, as to the accuracy and completeness of the policies. Bank does not accept any liability or losses attributable to your contract of Insurance. Participation by the Bank’s customers in the insurance products is purely on a voluntary basis and is not linked to availment of any other facility from the bank.
 					</p>
 					<p style="color: #777777;font-weight: 400;font-size: 12px;">
-						This policy is protected under the Policy Owners’ Protection Scheme which is administered by Myanmar Insurance Corporation. For detail information on the types of benefits that are covered under the scheme as well as the limits of coverage, where applicable, please visit any of AYA Bank branches.
+						This policy is protected under the Policy Owners’ Protection Scheme which is administered by Myanmar Insurance Association. For detail information on the types of benefits that are covered under the scheme as well as the limits of coverage, where applicable, please visit any of AYA Bank branches.
 					</p>
 				</div>
 			</div>
