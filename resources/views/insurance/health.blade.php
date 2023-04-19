@@ -91,8 +91,8 @@
 												<img src="{{ url('/images/insurance/health/icon_1.png') }}" class="img-fluid">
 											</div>
 											<div class="col-md-9">
-												<p style="font-weight: 600;">Coverage for Hospitalization and Death</p>
-												<p style="color: #4e4e4e;">Hospitalization costs and death protection</p>
+												<p style="font-weight: 600;">Hospitalization and Death Benefits</p>
+												<p style="color: #4e4e4e;">Coverage for death benefit and hospital expenses</p>
 											</div>
 										</div>
 									</div>
@@ -113,8 +113,85 @@
 												<img src="{{ url('/images/insurance/health/icon_3.png') }}" class="img-fluid">
 											</div>
 											<div class="col-md-9">
-												<p style="font-weight: 600;">Outpatient Benefit</p>
+												<p style="font-weight: 600;">Outpatient Benefit (OPD*)</p>
 												<p style="color: #4e4e4e;">Coverage for Outpatient Treatments at clinics or hospitals which do not require admission of patient</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="space-40"></div>
+								<div class="row ">
+									<div class="col-md-4">
+										<div class="row">
+											<div class="col-md-12">
+												<p style="font-size: 20px;color: #a02226;font-weight: 600;">Critical Illness</p>
+											</div>
+											<div class="col-1">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-11">
+												<p>Heart Attack</p>
+											</div>
+											<div class="col-1">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-11">
+												<p>Stroke (Permanent)</p>
+											</div>
+											<div class="col-1">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-11">
+												<p>Cancer (Life Threatening)</p>
+											</div>
+											<div class="col-1">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-11">
+												<p>Heart Valve Repair or Replacement</p>
+											</div>
+											<div class="col-1">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-11">
+												<p>Renal Failure</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="row">
+											<div class="col-md-12 d-none d-sm-block">
+												<p style="font-size: 20px;color: #a02226;font-weight: 600;">&nbsp;</p>
+											</div>
+											<div class="col-1">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-11">
+												<p>Coronary Artery Bypass Surgery</p>
+											</div>
+											<div class="col-1">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-11">
+												<p>Severe Burns</p>
+											</div>
+											<div class="col-1">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-11">
+												<p>Coma</p>
+											</div>
+											<div class="col-1">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-11">
+												<p>Major Organ Transplant</p>
+											</div>
+											<div class="col-1">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-11">
+												<p>Bacterial Meningitis</p>
 											</div>
 										</div>
 									</div>
@@ -287,16 +364,6 @@
 												</table>
 											</div>
 										</div>
-										<!-- <div class="space-40"></div> -->
-										<!-- <div class="row">
-											<div class="col-md-12">
-												<p style="font-size: 18px;color: #000;font-weight: 600;margin-bottom: 10px;">Access to Insurance</p>
-												<ul style="margin-left: 16px;color: #4e4e4e;">
-													<li>Health insurance can be purchased by anyone between 6 to 60 years of age. If insured is between 6 to 18 years of age, the policy need to be purchased by a parent or guardian.</li>
-													<li>If purchased over a unit (maximum benefit = Myanmar $4,000,000), or if the insurer is over 50 years of age, a health checkup is needed.</li>
-												</ul>
-											</div>
-										</div> -->
 									</div>
 								</div>
 							</div>
@@ -305,27 +372,28 @@
 							<div class="container section_1">
 								<div class="row tab_data_row">
 									<div class="col-md-12">
-										<p style="font-size: 18px;color: #000;font-weight: 600;margin-bottom: 0;">Insurance Life Span</p>
-										<p style="color: #4e4e4e;margin-bottom: 10px;padding-left: 0px;">The maximum insurance life span is up to a year and can be extended annually.</p>
+										<p style="font-size: 18px;color: #000;font-weight: 600;margin-bottom: 0;">Policy Term</p>
+										<p style="color: #4e4e4e;margin-bottom: 10px;padding-left: 0px;">Maximum policy term 1 year (Renewable on annual basis)</p>
 									</div>
 									<div class="space-40"></div>
 									<div class="col-md-12">
-										<p style="font-size: 18px;color: #000;font-weight: 600;margin-bottom: 10px;">Factors That Do Not Include Compensation</p>
+										<p style="font-size: 18px;color: #000;font-weight: 600;margin-bottom: 10px;">Exclusion</p>
 										<ul style="margin-left: 16px;color: #4e4e4e;">
-											<li>Existing Disease Before Insurance</li>
-											<li>Pregnancy causes schizophrenia, childbirth, and mental illness</li>
-											<li>Hospitalization for Health Checks</li>
-											<li>Hospitalization and Surgery for Children</li>
-											<li>Treatments for tooth exceptions to accidents</li>
-											<li>Eye-related treatments exception to accidents</li>
-											<li>Cosmetic surgeries buying hearing devices</li>
-											<li>Pre-insurance Physical Disability Treatment</li>
-											<li>Taking drugs</li>
-											<li>Criminal offences</li>
-											<li>Immunodeficiency Disease</li>
-											<li>Injuries directly or indirectly caused by violence, riots, war and war</li>
-											<li>Fraudulent Compensation</li>
-											<li>Self-injury</li>
+											<li>Pre-existing diseases</li>
+											<li>Normal delivery, surgery, and hospitalization due to pregnancy, insanity, mental illness.</li>
+											<li>Hospital visits for medical checkup purpose.</li>
+											<li>Illegal abortion and/or induced miscarriage</li>
+											<li>Dental treatment except due to accident</li>
+											<li>Eye treatment except due to accident</li>
+											<li>Cosmetic/plastic surgery</li>
+											<li>Hearing implant</li>
+											<li>Infirmity</li>
+											<li>Drug abuse</li>
+											<li>Crimes</li>
+											<li>HIV/AIDS</li>
+											<li>Vandalizing, protect and war and war-like terrorism.</li>
+											<li>Fraudulent requests</li>
+											<li>Suicide</li>
 										</ul>
 									</div>
 								</div>
@@ -334,8 +402,6 @@
 					</div>
 				</div>
 			</div>
-
-			<!-- <div class="space-40"></div> -->
 
 			<div class="container faq_section" style="">
 				<div class="row" style="padding: 25px 20px;background-color: #f5f5f7;border-radius: 6px;">
@@ -366,7 +432,7 @@
 					<div class="col-md-12 col-xs-12">
 						<p class="disclaimer_title">Disclaimers</p>
 						<p style="color: #777777;font-weight: 400;font-size: 12px;">
-							This Health Insurance is underwritten by AYA Sompo Insurance Company Ltd and distributed by AYA Bank Co Ltd. It is not an obligation of, deposit in or guaranteed by AYA Bank. AYA Sompo Insurance Company Ltd reserves the right of final approval. Full details of the terms, conditions and exclusions of the insurance are provided in the policy wordings and will be sent to you upon acceptance of your application by AYA Sompo Insurance Company Ltd. 
+							This Health Insurance is underwritten by AYA SOMPO Insurance Company Ltd and distributed by AYA Bank Co Ltd. It is not an obligation of, deposit in or guaranteed by AYA Bank. AYA SOMPO Insurance Company Ltd reserves the right of final approval. Full details of the terms, conditions and exclusions of the insurance are provided in the policy wordings and will be sent to you upon acceptance of your application by AYA SOMPO Insurance Company Ltd. 
 						<p style="color: #777777;font-weight: 400;font-size: 12px;">
 							This webpage contains only general information and does not have regard to the specific investment objectives, financial situation and the particular needs of any specific person. It is not intended as an offer or recommendation to buy the product. A copy of the product summary can be obtained from AYA Bank branches. The contract of insurance is between the insurer and the insured and not between the Bank and the insured. Bank does not give any warranty, as to the accuracy and completeness of the policies. Bank does not accept any liability or losses attributable to your contract of Insurance. Participation by the Bank’s customers in the insurance products is purely on a voluntary basis and is not linked to availment of any other facility from the bank.
 						</p>

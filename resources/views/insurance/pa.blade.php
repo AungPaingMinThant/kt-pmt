@@ -153,7 +153,7 @@
 											</div>
 											<div class="col-11 list_margin">
 												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Quick Premium Payment</p>
-												<p style="color: #4e4e4e;">You can choose a range of payment options, either digitally or through branches and receive your policy within one week.</p>
+												<p style="color: #4e4e4e;">We have a range of options for you to choose, including online payment quickly and effortlessly. Your premium can be paid either digitally or by cash at our physical locations. You will receive the policy within one week. Enjoy the comfort with our 24/7 services.</p>
 											</div>
 										</div>
 									</div>
@@ -167,19 +167,30 @@
 									<div class="col-md-11">
 										<div class="row">
 											<div class="col-md-12">
-												<p style="font-size: 20px;font-weight: 600;">Insurance Rate</p>
+												<p style="font-size: 20px;font-weight: 600;">Premium Rating</p>
 												<ul>
 													<li>Approximately 1% on sum insured</li>
-													<li>Subject to: Nature of Occupation Employment</li>
+													<li>Subject to: Nature of Occupation</li>
 												</ul>
 											</div>
 
 											<div class="col-md-12">
-												<p style="font-size: 20px;font-weight: 600;">Insurance life span</p>
+												<p style="font-size: 20px;font-weight: 600;">Policy Term</p>
 												<ul>
 													<li>Maximum policy term 1 year (Renewable on a yearly basis)</li>
 													<li>Minimum policy term – 3 months and 6 months are applicable.</li>
 													<li>Premium must be paid by lump sum.</li>
+												</ul>
+											</div>
+
+											<div class="col-md-12">
+												<p style="font-size: 20px;font-weight: 600;">Exclusion</p>
+												<ul>
+													<li>Intentionally self-inflicted injury</li>
+													<li>Death, permanent disability, injury due to intoxicating drugs</li>
+													<li>Permanent disability, death due to disease</li>
+													<li>Protest, War risk, War like terrorism</li>
+													<li>Strike, Riot and Civil Commotion, Civil Unrest, Military, or usurped power.</li>
 												</ul>
 											</div>
 										</div>
@@ -220,7 +231,7 @@
 					<div class="col-md-12 col-xs-12">
 						<p class="disclaimer_title">Disclaimers</p>
 						<p style="color: #777777;font-weight: 400;font-size: 12px;">
-							This Personal Accident Insurance is underwritten by AYA Sompo Insurance Company Ltd and distributed by AYA Bank Co Ltd. It is not an obligation of, deposit in or guaranteed by AYA Bank. AYA Sompo Insurance Company Ltd reserves the right of final approval. Full details of the terms, conditions and exclusions of the insurance are provided in the policy wordings and will be sent to you upon acceptance of your application by AYA Sompo Insurance Company Ltd.
+							This Personal Accident Insurance is underwritten by AYA SOMPO Insurance Company Ltd and distributed by AYA Bank Co Ltd. It is not an obligation of, deposit in or guaranteed by AYA Bank. AYA SOMPO Insurance Company Ltd reserves the right of final approval. Full details of the terms, conditions and exclusions of the insurance are provided in the policy wordings and will be sent to you upon acceptance of your application by AYA SOMPO Insurance Company Ltd.
 						<p style="color: #777777;font-weight: 400;font-size: 12px;">
 							This webpage contains only general information and does not have regard to the specific investment objectives, financial situation and the particular needs of any specific person. It is not intended as an offer or recommendation to buy the product. A copy of the product summary can be obtained from AYA Bank branches. The contract of insurance is between the insurer and the insured and not between the Bank and the insured. Bank does not give any warranty, as to the accuracy and completeness of the policies. Bank does not accept any liability or losses attributable to your contract of Insurance. Participation by the Bank’s customers in the insurance products is purely on a voluntary basis and is not linked to availment of any other facility from the bank.
 						</p>

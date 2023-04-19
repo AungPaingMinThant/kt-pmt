@@ -67,7 +67,7 @@
 											</div>
 											<div class="col-md-10">
 												<p style="font-weight: 600;">Loss/Damage to vehicle</p>
-												<p style="color: #4e4e4e;">Protecting your own vehicle for damage caused by accidents, fires and thunderstorms (available to the maximum value of the vehicle guaranteed)</p>
+												<p style="color: #4e4e4e;">Coverage for loss or damage to own vehicle due to accident, fire, and/or lightning (up to the maximum amount of total coverage)</p>
 											</div>
 										</div>
 									</div>
@@ -77,8 +77,8 @@
 												<img src="{{ url('/images/insurance/motor/coverage_to_death_injury.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 											</div>
 											<div class="col-md-10">
-												<p style="font-weight: 600;">Coverage for Death and Injury</p>
-												<p style="color: #4e4e4e;">Compensation for death and injury is available for up to MMK one million, depending on the extent to which it is affected</p>
+												<p style="font-weight: 600;">Death and Injury Benefits</p>
+												<p style="color: #4e4e4e;">Coverage for death and disability up to MMK 1 million and payout according to scale of injury prescribed.</p>
 											</div>
 										</div>
 									</div>
@@ -88,8 +88,8 @@
 												<img src="{{ url('/images/insurance/motor/windshield_protection.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 											</div>
 											<div class="col-md-10">
-												<p style="font-weight: 600;">Windshield Protection</p>
-												<p style="color: #4e4e4e;">Up to MMK three million benefits for damage depending on the value of the windshield</p>
+												<p style="font-weight: 600;">Windscreen Coverage</p>
+												<p style="color: #4e4e4e;">Coverage for windscreen up to MMK 3 million in case of damage or loss</p>
 											</div>
 										</div>
 									</div>
@@ -99,8 +99,8 @@
 												<img src="{{ url('/images/insurance/motor/harm_to_others.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 											</div>
 											<div class="col-md-10">
-												<p style="font-weight: 600;">Harm to Others</p>
-												<p style="color: #4e4e4e;">Compensation for the deaths of others, injuries, and the damage to other property up to MMK five million.</p>
+												<p style="font-weight: 600;">Liabilities for Third Parties</p>
+												<p style="color: #4e4e4e;">Compensation liability for another person’s death, bodily injury, property loss and damage (up to MMK 50 million maximum coverage amount.</p>
 											</div>
 										</div>
 									</div>
@@ -110,42 +110,42 @@
 									<div class="col-md-12">
 										<div class="row">
 											<div class="col-md-12">
-												<p style="font-size: 20px;color: #a02226;font-weight: 600;">Extra protections</p>
+												<p style="font-size: 20px;color: #a02226;font-weight: 600;">Additional Coverage</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-11 list_margin">
-												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Strikes, riots</p>
-												<p style="color: #4e4e4e;">Protection for damage caused by strikes, riots</p>
+												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Strike, Riot, Civil Commotion</p>
+												<p style="color: #4e4e4e;">Coverage for loss or damage due to strike or riot.</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-11 list_margin">
-												<p style="color: #000;font-weight: 600;margin-bottom: 0;">War disaster</p>
-												<p style="color: #4e4e4e;">Protection for Damage due to War and War Events</p>
+												<p style="color: #000;font-weight: 600;margin-bottom: 0;">War Risk</p>
+												<p style="color: #4e4e4e;">Coverage for loss or damage due to events such as war, mutiny, rebellion, revolution, military, or usurped power</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-11 list_margin">
-												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Compensation Exemption</p>
-												<p style="color: #4e4e4e;">Free oral money added to the damage caused by an accident</p>
+												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Nil Excess</p>
+												<p style="color: #4e4e4e;">Coverage for any excess charges in case of damage or loss due to accidents</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-11 list_margin">
-												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Motorway stolen</p>
-												<p style="color: #4e4e4e;">Protection for damage caused by automobile stolen</p>
+												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Theft</p>
+												<p style="color: #4e4e4e;">Coverage for loss or damage to vehicle due to theft</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-11 list_margin">
-												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Natural disaster</p>
-												<p style="color: #4e4e4e;">Protection for damage caused by floods, storms, typhoons, tornadoes, volcanic eruptions, earthquakes, landslides, and so on</p>
+												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Acts of God</p>
+												<p style="color: #4e4e4e;">Coverage for loss or damage due to flood, windstorm, typhoon, hurricane, volcanic eruption, earthquake, landslide, landslip, or subsidence.</p>
 											</div>
 										</div>
 									</div>
@@ -159,7 +159,7 @@
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-11 list_margin">
-												<p style="color: #4e4e4e;">Officially registered vehicles or privately owned or public vehicles.</p>
+												<p style="color: #4e4e4e;">Any legally registered motor vehicles, or fleets of vehicles, of private or public use.</p>
 											</div>
 										</div>
 									</div>
@@ -176,36 +176,36 @@
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-11 list_margin">
-												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Emergency Vehicle Costs</p>
-												<p style="color: #4e4e4e;">Benefits of emergency vehicle damage due to accidents (1)</p>
+												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Emergency Towing Assistance</p>
+												<p style="color: #4e4e4e;">Emergency towing services following an accident and coverage up to MMK 100,000</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-11 list_margin">
 												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Legal Expenses</p>
-												<p style="color: #4e4e4e;">Availability of up to MMK two hundred thousand dollars for the cost of litigation against the vehicle</p>
+												<p style="color: #4e4e4e;">Coverage for legal expenses in the event of motor prosecution up to MMK 200,000</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-11 list_margin">
-												<p style="color: #000;font-weight: 600;margin-bottom: 0;">24-Hour Compensation Claims Service</p>
-												<p style="color: #4e4e4e;">Contacting Emergency Compensation 24 Hours</p>
+												<p style="color: #000;font-weight: 600;margin-bottom: 0;">24-Hour Compensation Claims Services</p>
+												<p style="color: #4e4e4e;">Contact for services from our 24/7 support team in the event of any arising emergency and/or claim.</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-11 list_margin">
 												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Fleet Discount</p>
-												<p style="color: #4e4e4e;">Up to 10% fleet discount available under the name of a single insurer</p>
+												<p style="color: #4e4e4e;">Up to 10% of fleet discount will be offered under the insured’s name.</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-11 list_margin">
-												<p style="color: #000;font-weight: 600;margin-bottom: 0;">No Claim Bonus</p>
-												<p style="color: #4e4e4e;">Without compensation for more than 3 years, a non-compensation fee can be up to 40% of the premium</p>
+												<p style="color: #000;font-weight: 600;margin-bottom: 0;">No Claim Bonus (NCB)</p>
+												<p style="color: #4e4e4e;">No Claim Bonus up to 40% if claims are not being made 3 years and above.</p>
 											</div>
 										</div>
 									</div>
@@ -219,18 +219,18 @@
 									<div class="col-md-11">
 										<div class="row">
 											<div class="col-md-12">
-												<p style="font-size: 20px;font-weight: 600;">Insurance Rate</p>
-												<p>Depending on the insurance income (car value), the rate is set at 0.8% to 2% depending on the following:</p>
+												<p style="font-size: 20px;font-weight: 600;">Premium Rating</p>
+												<p>0.8% to 2% on sum insured (car value)<br>Subject to – </p>
 												<ul>
-													<li>Vehicle Value</li>
-													<li>How to Use a Vehicle</li>
-													<li>Engine Power</li>
+													<li>Value of car</li>
+													<li>Use of the car</li>
+													<li>Engine C.C</li>
 												</ul>
 											</div>
 
 											<div class="col-md-12">
-												<p style="font-size: 20px;font-weight: 600;">Insurance Life Span</p>
-												<p>It can be kept for at least three months, 6 months, and 9 months and maximum policy lifespan is up to a year which can be extended annually.</p>
+												<p style="font-size: 20px;font-weight: 600;">Policy Term</p>
+												<p>Maximum policy term 1 year (renewable on a yearly basis)<br>Minimum policy term up to 3,6,9 months are applicable. </p>
 											</div>
 										</div>
 									</div>
@@ -240,8 +240,6 @@
 					</div>
 				</div>
 			</div>
-
-			<!-- <div class="space-40"></div> -->
 
 			<div class="container faq_section" style="">
 				<div class="row" style="padding: 25px 20px;background-color: #f5f5f7;border-radius: 6px;">
@@ -272,7 +270,7 @@
 					<div class="col-md-12 col-xs-12">
 						<p class="disclaimer_title">Disclaimers</p>
 						<p style="color: #777777;font-weight: 400;font-size: 12px;">
-							This Comprehensive Motor Insurance is underwritten by AYA Sompo Insurance Company Ltd and distributed by AYA Bank Co Ltd. It is not an obligation of, deposit in or guaranteed by AYA Bank. AYA Sompo Insurance Company Ltd reserves the right of final approval. Full details of the terms, conditions and exclusions of the insurance are provided in the policy wordings and will be sent to you upon acceptance of your application by AYA Sompo Insurance Company Ltd.
+							This Comprehensive Motor Insurance is underwritten by AYA SOMPO Insurance Company Ltd and distributed by AYA Bank Co Ltd. It is not an obligation of, deposit in or guaranteed by AYA Bank. AYA SOMPO Insurance Company Ltd reserves the right of final approval. Full details of the terms, conditions and exclusions of the insurance are provided in the policy wordings and will be sent to you upon acceptance of your application by AYA SOMPO Insurance Company Ltd.
 						<p style="color: #777777;font-weight: 400;font-size: 12px;">
 							This webpage contains only general information and does not have regard to the specific investment objectives, financial situation and the particular needs of any specific person. It is not intended as an offer or recommendation to buy the product. A copy of the product summary can be obtained from AYA Bank branches. The contract of insurance is between the insurer and the insured and not between the Bank and the insured. Bank does not give any warranty, as to the accuracy and completeness of the policies. Bank does not accept any liability or losses attributable to your contract of Insurance. Participation by the Bank’s customers in the insurance products is purely on a voluntary basis and is not linked to availment of any other facility from the bank.
 						</p>

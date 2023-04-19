@@ -16,43 +16,49 @@
 			<div class="container section_1">
 				<div class="col-md-12 d-none d-sm-block">
 					<div class="row">
-						<div class="col-md-4">
+						<div class="col-md-3">
 							<nav id="myScrollspy">
-								<ul class="nav nav-pills flex-column">
-									<li class="nav-item">
-										<a class="nav-link active" href="#quick_look">
+								<ul class="side-nav nav nav-pills flex-column">
+									<li>
+										<a class="side-link active" href="#quick_look">
 											<span>Quick look</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#why_choose_c2c">
+									<li>
+										<a class="side-link" href="#why_choose_c2c">
 											<span>Why Choose AYA C2C Auto Loan?</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#eligibility">
+									<li>
+										<a class="side-link" href="#eligibility">
 											<span>Eligibility</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#required-document">
+									<li>
+										<a class="side-link" href="#required-document">
 											<span>Required Documents</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#how_to_apply">
+									<li>
+										<a class="side-link" href="#how_to_apply">
 											<span>How to apply</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#interest_rates_fees">
+									<li>
+										<a class="side-link" href="#interest_rates_fees">
 											<span>Interest Rates and Fees</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
 								</ul>
 							</nav>
 						</div>
-						<div class="col-md-8">
+						<div class="col-md-9">
 							<div id="scroll_content" data-spy="scroll" data-target="#myScrollspy" data-offset="10" style="">
 								<p id="quick_look">
 									An auto financing solution enabling customers to trade with each other. It is a new way of originating auto loans that can help transform the dealership experience. You will be financed by the Bank while choosing a private seller to purchase a vehicle, not limited to a dealership by applying AYA Auto Loan – C2C Plan.
@@ -62,13 +68,13 @@
 								<h4>Why Choose AYA C2C Auto Loan?</h4>
 								<div class="row">
 									<div class="col-md-2">
-										<img src="{{ url('/images/borrowing/hire_purchase/c2c_auto_loan/why_choose_1.png') }}" class="img-fluid w-80">
+										<img src="{{ url('/images/borrowing/hire_purchase/c2c_auto_loan/why_choose_1.png') }}" class="img-fluid" style="width: 60%">
 									</div>
 									<div class="col-md-10 pt-30">
 										<p>Supports consumer to consumer transaction whereby loan application can be done at any AYA branch with standard down-payment</p>
 									</div>
 									<div class="col-md-2">
-										<img src="{{ url('/images/borrowing/hire_purchase/c2c_auto_loan/why_choose_2.png') }}" class="img-fluid w-80">
+										<img src="{{ url('/images/borrowing/hire_purchase/c2c_auto_loan/why_choose_2.png') }}" class="img-fluid" style="width: 60%">
 									</div>
 									<div class="col-md-10 pt-30">
 										<p>Able to select automobile from the market</p>
@@ -352,6 +358,11 @@
 	$(".nav-link").click(function() {
 		$(".nav-link").addClass('active');
 		$(".nav-link").not(this).removeClass('active');
+	});
+
+	$(".side-link").click(function() {
+		$(".side-link").addClass('active');
+		$(".side-link").not(this).removeClass('active');
 	});
 </script>
 

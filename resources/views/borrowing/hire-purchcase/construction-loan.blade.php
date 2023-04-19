@@ -23,7 +23,6 @@
 		.salaried_staff_div {
 	    padding: 50px 90px 70px 50px;
 	}
-	}
 	@media only screen and (max-width: 576px){
 		.salaried_staff_div {
 		    padding: 50px 60px 70px 45px;
@@ -44,43 +43,49 @@
 			<div class="container section_1">
 				<div class="col-md-12 d-none d-sm-block">
 					<div class="row">
-						<div class="col-md-4">
+						<div class="col-md-3">
 							<nav id="myScrollspy">
-								<ul class="nav nav-pills flex-column">
-									<li class="nav-item">
-										<a class="nav-link active" href="#quick_look">
+								<ul class="side-nav nav nav-pills flex-column">
+									<li>
+										<a class="side-link active" href="#quick_look">
 											<span>Quick look</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#why_choose_HCR">
+									<li>
+										<a class="side-link" href="#why_choose_HCR">
 											<span>Why Choose HCR Loan?</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#eligibility">
+									<li>
+										<a class="side-link" href="#eligibility">
 											<span>Eligibility</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#required-document">
+									<li>
+										<a class="side-link" href="#required-document">
 											<span>Required Documents</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#how_to_apply">
+									<li>
+										<a class="side-link" href="#how_to_apply">
 											<span>How to apply</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>									
-									<li class="nav-item">
-										<a class="nav-link" href="#interest_rates_fees">
+									<li>
+										<a class="side-link" href="#interest_rates_fees">
 											<span>Interest Rates and Fees</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
 								</ul>
 							</nav>
 						</div>
-						<div class="col-md-8">
+						<div class="col-md-9">
 							<div id="scroll_content" data-spy="scroll" data-target="#myScrollspy" data-offset="10" style="">
 								<p id="quick_look">
 									Building a new home, or doing major renovations or construction of a house are great ways to make your dream home a reality. Critical first step is to know how you will be financed for the construction. We offer a mortgage to build or renovate a home. Learn more about our options for home construction renovation financing below to make payment to contractors, architect, interior decorator and purchase of related materials.
@@ -92,7 +97,7 @@
 									<div class="col-md-6">
 										<div class="row">
 											<div class="col-md-3">
-												<img src="{{ url('/images/borrowing/hire_purchase/construction_loan/why_choose_quick_smooth.png') }}" class="img-fluid mb-20">
+												<img src="{{ url('/images/borrowing/hire_purchase/construction_loan/why_choose_quick_smooth.png') }}" class="img-fluid mb-20" style="width: 80%;">
 											</div>
 											<div class="col-md-9 pt-20">
 												<p>Quick and smooth process</p>
@@ -102,7 +107,7 @@
 									<div class="col-md-6">
 										<div class="row">
 											<div class="col-md-3">
-												<img src="{{ url('/images/borrowing/hire_purchase/construction_loan/why_choose_fixed_monthly_installment_plan.png') }}" class="img-fluid mb-20">
+												<img src="{{ url('/images/borrowing/hire_purchase/construction_loan/why_choose_fixed_monthly_installment_plan.png') }}" class="img-fluid mb-20" style="width: 80%;">
 											</div>
 											<div class="col-md-9 pt-20">
 												<p>Fixed monthly installment plan</p>
@@ -112,7 +117,7 @@
 									<div class="col-md-6">
 										<div class="row">
 											<div class="col-md-3">
-												<img src="{{ url('/images/borrowing/hire_purchase/construction_loan/why_choose_offer_loan_tenor_25_years.png') }}" class="img-fluid mb-20">
+												<img src="{{ url('/images/borrowing/hire_purchase/construction_loan/why_choose_offer_loan_tenor_25_years.png') }}" class="img-fluid mb-20" style="width: 80%;">
 											</div>
 											<div class="col-md-9 pt-20">
 												<p>Offers Loan tenor up to 25 years</p>
@@ -479,86 +484,9 @@
 		$(".nav-link").not(this).removeClass('active');
 	});
 
-	var swiper = new Swiper(".slide-content-desktop", {
-		slidesPerView: 4,
-		spaceBetween: 25,
-		loop: true,
-		centerSlide: 'true',
-		fade: 'true',
-		grabCursor: 'true',
-		pagination: {
-			el: ".swiper-pagination",
-			clickable: true,
-			dynamicBullets: true,
-		},
-
-		breakpoints:{
-			0: {
-				slidesPerView: 1,
-			},
-			520: {
-				slidesPerView: 2,
-			},
-			950: {
-				slidesPerView: 4,
-			},
-		},
-	});
-
-	var swiper = new Swiper(".slide-content-mobile", {
-		slidesPerView: 1,
-		spaceBetween: 25,
-		loop: true,
-		centerSlide: 'true',
-		fade: 'true',
-		grabCursor: 'true',
-		pagination: {
-			el: ".swiper-pagination",
-			clickable: true,
-			dynamicBullets: true,
-		},
-
-		breakpoints:{
-			0: {
-				slidesPerView: 1,
-			},
-			520: {
-				slidesPerView: 1,
-			},
-			950: {
-				slidesPerView: 1,
-			},
-		},
-	});
-
-	var swiper = new Swiper(".slide-content-partner", {
-		slidesPerView: 3,
-		spaceBetween: 25,
-		loop: true,
-		centerSlide: 'true',
-		fade: 'true',
-		grabCursor: 'true',
-		pagination: {
-			el: ".swiper-pagination-partner",
-			clickable: true,
-			dynamicBullets: true,
-		},
-		navigation: {
-			nextEl: ".swiper-button-next-partner",
-			prevEl: ".swiper-button-prev-partner",
-		},
-
-		breakpoints:{
-			0: {
-				slidesPerView: 1,
-			},
-			520: {
-				slidesPerView: 2,
-			},
-			950: {
-				slidesPerView: 3,
-			},
-		},
+	$(".side-link").click(function() {
+		$(".side-link").addClass('active');
+		$(".side-link").not(this).removeClass('active');
 	});
 </script>
 

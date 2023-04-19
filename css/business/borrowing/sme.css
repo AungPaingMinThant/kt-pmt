@@ -28,9 +28,6 @@
 .side-link {
 	display: block;
 }
-/*.side-nav.nav-pills > li > .side-link {
-	width: 80%;
-}*/
 .side-nav.nav-pills > li > .side-link.active {
     border-radius: 0;
     padding-bottom: 0px !important;

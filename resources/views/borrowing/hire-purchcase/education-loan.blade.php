@@ -2,8 +2,8 @@
 
 @section('title', 'Education Loan – AYA Bank')
 <link rel="stylesheet" href="{{ url('/css/swiper-bundle.min.css') }}" />
-<link rel="stylesheet" href="{{ url('/css/personal_banking/borrowing/hire_purchase/education_loan.css') }}" />
 <link rel="stylesheet" href="{{ url('/css/personal_banking/borrowing/hire_purchase/swiper_partner.css') }}" />
+<link rel="stylesheet" href="{{ url('/css/personal_banking/borrowing/hire_purchase/education_loan.css') }}" />
 
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
@@ -18,48 +18,55 @@
 			<div class="container section_1">
 				<div class="col-md-12 d-none d-sm-block">
 					<div class="row">
-						<div class="col-md-4">
+						<div class="col-md-3">
 							<nav id="myScrollspy">
-								<ul class="nav nav-pills flex-column">
-									<li class="nav-item">
-										<a class="nav-link active" href="#quick_look">
+								<ul class="side-nav nav nav-pills flex-column">
+									<li>
+										<a class="side-link active" href="#quick_look">
 											<span>Quick look</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#why_choose_edu">
+									<li>
+										<a class="side-link" href="#why_choose_edu">
 											<span>Why Choose AYA Education Loan?</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#eligibility">
+									<li>
+										<a class="side-link" href="#eligibility">
 											<span>Eligibility</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#how_to_apply">
+									<li>
+										<a class="side-link" href="#how_to_apply">
 											<span>How to apply</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#required-document">
+									<li>
+										<a class="side-link" href="#required-document">
 											<span>Required Documents</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#interest_rates_fees">
+									<li>
+										<a class="side-link" href="#interest_rates_fees">
 											<span>Interest Rates and Fees</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>									
-									<li class="nav-item">
-										<a class="nav-link" href="#faqs">
+									<li>
+										<a class="side-link" href="#faqs">
 											<span>FAQ</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
 								</ul>
 							</nav>
 						</div>
-						<div class="col-md-8">
+						<div class="col-md-9">
 							<div id="scroll_content" data-spy="scroll" data-target="#myScrollspy" data-offset="10" style="">
 								<p id="quick_look">
 									To meet your child’s learning goals, AYA Education Loan provides financial support for completing Diploma, Degree and Post Graduate programs from our partner institutions - Local Private Bordering Schools, Universities and International Schools.
@@ -145,15 +152,18 @@
 
 								<div class="space-40" id="how_to_apply"></div>
 								<h4 class="mb-30">How to apply</h4>
-								<div class="row step_slide_row">
-									<div class="col-md-12">
-								      	<div class="apply_steps slide-container swiper" style="padding-bottom: 0px;padding-bottom: 40px;padding-left: 0px;padding-right: 0px;">
+								<div class="row" style="position: relative;">
+									<div class="col-md-1" style="position: relative;">
+										<div class="swiper-button-prev swiper-button-prev-desktop swiper-navBtn swiper-navBtn-desktop"></div>
+									</div>
+									<div class="col-md-10">
+								      	<div class="apply_steps slide-container swiper" style="padding-bottom: 40px;padding-left: 0px;padding-right: 0px;">
 								            <div class="slide-content slide-content-desktop">
 								                <div class="card-wrapper swiper-wrapper">
 								                    <div class="card swiper-slide slide_1">
 								                        <div class="card-content">
 								                        	<div class="row">
-								                        		<img src="{{ url('/images/borrowing/hire_purchase/education_loan/how_to_apply_step_1.png') }}" class="img-fluid w-30">
+								                        		<img src="{{ url('/images/borrowing/hire_purchase/education_loan/how_to_apply_step_1.png') }}" class="img-fluid" style="width: 40%;">
 								                        	</div>
 								                        	<div class="space-20"></div>
 								                            <div class="row">
@@ -168,7 +178,7 @@
 								                    <div class="card swiper-slide slide_2">
 								                    	<div class="card-content">
 								                        	<div class="row">
-								                        		<img src="{{ url('/images/borrowing/hire_purchase/education_loan/how_to_apply_step_2.png') }}" class="img-fluid w-30">
+								                        		<img src="{{ url('/images/borrowing/hire_purchase/education_loan/how_to_apply_step_2.png') }}" class="img-fluid" style="width: 40%;">
 								                        	</div>
 								                        	<div class="space-20"></div>
 								                            <div class="row">
@@ -183,7 +193,7 @@
 								                    <div class="card swiper-slide slide_3">
 								                        <div class="card-content">
 								                        	<div class="row">
-								                        		<img src="{{ url('/images/borrowing/hire_purchase/education_loan/how_to_apply_step_3.png') }}" class="img-fluid w-30">
+								                        		<img src="{{ url('/images/borrowing/hire_purchase/education_loan/how_to_apply_step_3.png') }}" class="img-fluid" style="width: 40%;">
 								                        	</div>
 								                        	<div class="space-20"></div>
 								                            <div class="row">
@@ -198,7 +208,7 @@
 								                    <div class="card swiper-slide slide_4">
 								                        <div class="card-content">
 								                        	<div class="row">
-								                        		<img src="{{ url('/images/borrowing/hire_purchase/education_loan/how_to_apply_step_4.png') }}" class="img-fluid w-30">
+								                        		<img src="{{ url('/images/borrowing/hire_purchase/education_loan/how_to_apply_step_4.png') }}" class="img-fluid" style="width: 40%;">
 								                        	</div>
 								                        	<div class="space-20"></div>
 								                            <div class="row">
@@ -213,7 +223,7 @@
 								                    <div class="card swiper-slide slide_5">
 								                        <div class="card-content">
 								                        	<div class="row">
-								                        		<img src="{{ url('/images/borrowing/hire_purchase/education_loan/how_to_apply_step_5.png') }}" class="img-fluid w-30">
+								                        		<img src="{{ url('/images/borrowing/hire_purchase/education_loan/how_to_apply_step_5.png') }}" class="img-fluid" style="width: 40%;">
 								                        	</div>
 								                        	<div class="space-20"></div>
 								                            <div class="row">
@@ -229,9 +239,13 @@
 								            </div>
 								        </div>
 								    </div>
+								    <div class="col-md-1" style="position: relative;">
+										<div class="swiper-button-next swiper-button-next-desktop swiper-navBtn swiper-navBtn-desktop"></div>
+									</div>
+									<div class="swiper-pagination swiper-pagination-desktop"></div>
 								</div>
 
-								<div class="space-40"></div>
+								<div class="space-60"></div>
 								
 								<div class="row">
 									<div class="col-md-12">
@@ -510,8 +524,11 @@
 						<div class="col-md-12">
 							<p class="call_deposit_title">How to Apply</p>
 
-							<div class="row step_slide_row">
-								<div class="col-md-12">
+							<div class="row">
+								<div class="col-1" style="position: relative;">
+									<div class="swiper-button-prev swiper-button-prev-mobile swiper-navBtn swiper-navBtn-mobile"></div>
+								</div>
+								<div class="col-9">
 							      	<div class="slide-container swiper" style="padding-bottom: 40px;padding-bottom: 40px;padding-left: 0px;padding-right: 0px;margin-left: 10px;">
 							            <div class="slide-content slide-content-mobile">
 							                <div class="card-wrapper swiper-wrapper">
@@ -593,10 +610,16 @@
 							                </div>
 							            </div>
 							        </div>
-							    </div>
+								</div>
+							    <div class="col-1" style="position: relative;">
+									<div class="swiper-button-next swiper-button-next-mobile swiper-navBtn swiper-navBtn-mobile"></div>
+								</div>
+								<div class="col-12" style="position: relative;">
+									<div class="swiper-pagination swiper-pagination-mobile"></div>
+								</div>
 							</div>
 
-							<div class="space-40"></div>
+							<div class="space-60"></div>
 								
 							<div class="row">
 								<div class="col-md-12">
@@ -791,19 +814,27 @@
 		$(".nav-link").not(this).removeClass('active');
 	});
 
+	$(".side-link").click(function() {
+		$(".side-link").addClass('active');
+		$(".side-link").not(this).removeClass('active');
+	});
+
 	var swiper = new Swiper(".slide-content-desktop", {
-		slidesPerView: 4,
+		slidesPerView: 3,
 		spaceBetween: 25,
 		loop: true,
 		centerSlide: 'true',
 		fade: 'true',
 		grabCursor: 'true',
 		pagination: {
-			el: ".swiper-pagination",
+			el: ".swiper-pagination-desktop",
 			clickable: true,
 			dynamicBullets: true,
 		},
-
+		navigation: {
+			nextEl: ".swiper-button-next-desktop",
+			prevEl: ".swiper-button-prev-desktop",
+		},
 		breakpoints:{
 			0: {
 				slidesPerView: 1,
@@ -812,7 +843,7 @@
 				slidesPerView: 2,
 			},
 			950: {
-				slidesPerView: 4,
+				slidesPerView: 3,
 			},
 		},
 	});
@@ -825,11 +856,14 @@
 		fade: 'true',
 		grabCursor: 'true',
 		pagination: {
-			el: ".swiper-pagination",
+			el: ".swiper-pagination-mobile",
 			clickable: true,
 			dynamicBullets: true,
 		},
-
+		navigation: {
+			nextEl: ".swiper-button-next-mobile",
+			prevEl: ".swiper-button-prev-mobile",
+		},
 		breakpoints:{
 			0: {
 				slidesPerView: 1,

@@ -15,21 +15,15 @@
 		background-image: url(../../images/borrowing/hire_purchase/auto_loan/income_document_bg_2.png);
 	}
 	.sme_business_owner {
-		padding: 60px 70px 70px 70px;
+		padding: 60px 180px 70px 50px;
 	}
 	.business_owner {
-		padding: 70px 80px 70px 70px;
+		padding: 70px 170px 70px 50px;
 	}
 	@media (max-width: 1300px) and (min-width: 1271px) {
 		.sme_business_owner, .business_owner {
 			padding: 50px 60px 70px 55px;
 		}
-		/*.salaried_staff_div {
-			background-image: url(../../images/borrowing/hire_purchase/auto_loan/income_document_bg_4.png);
-		}
-		.income_document_div {
-		    background-image: url(../../images/borrowing/hire_purchase/auto_loan/income_document_bg_4.png);
-		}*/
 	}
 	@media (max-width: 1270px) and (min-width: 1000px){
 		.step_slide_row {
@@ -59,43 +53,49 @@
 			<div class="container section_1">
 				<div class="col-md-12 d-none d-sm-block">
 					<div class="row">
-						<div class="col-md-4">
+						<div class="col-md-3">
 							<nav id="myScrollspy">
-								<ul class="nav nav-pills flex-column">
-									<li class="nav-item">
-										<a class="nav-link active" href="#quick_look">
+								<ul class="side-nav nav nav-pills flex-column">
+									<li>
+										<a class="side-link active" href="#quick_look">
 											<span>Quick look</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#features">
+									<li>
+										<a class="side-link" href="#features">
 											<span>Features</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#eligibility">
+									<li>
+										<a class="side-link" href="#eligibility">
 											<span>Eligibility</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#required_document">
+									<li>
+										<a class="side-link" href="#required_document">
 											<span>Required Documents</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#how_to_apply">
+									<li>
+										<a class="side-link" href="#how_to_apply">
 											<span>How to apply</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#faqs">
+									<li>
+										<a class="side-link" href="#faqs">
 											<span>FAQ</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
 								</ul>
 							</nav>
 						</div>
-						<div class="col-md-8">
+						<div class="col-md-9">
 							<div id="scroll_content" data-spy="scroll" data-target="#myScrollspy" data-offset="10" style="">
 								<p id="quick_look">
 									Staying at your own house is the real comfort for your family. Our home loan solution is here to provide you that comfort. With choice of affordable repayment options of your needs, take control of your future. The future is yours now.
@@ -251,7 +251,7 @@
 								<h4>How to apply</h4>
 								<p>Feel free to make an initial enquiry at any AYA branches via phone or in person. Then, visit nearest AYA branch to receive <b>“In-principle Loan Approval”</b> which contains the eligible HP loan amount.</p>
 								<div class="nav-align-top mb-4">
-									<ul class="nav nav-pills " role="tablist">
+									<ul class="nav nav-pills auto_loan_nav" role="tablist">
 										<li class="nav-item">
 											<button type="button" class="tab_title nav-link active" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-top-dealer-program" aria-controls="navs-pills-top-dealer-program" aria-selected="true" >
 												Dealer Program
@@ -263,15 +263,18 @@
 											</button>
 										</li>
 									</ul>
-									<div class="tab-content" style="background-color: transparent;padding: 30px 0px 0px 0px;box-shadow: none;">
+									<div class="tab-content" style="background-color: transparent;padding: 30px 0px 0px 0px;box-shadow: none;border-top: 1px solid #cccccc2e;border-radius: 0;">
 										<div class="tab-pane fade show active" id="navs-pills-top-dealer-program" role="tabpanel" style="padding-bottom: 20px;">
 											<div>
 												<p style="margin-bottom: 30px;">Choose from wide range of residences from our list of authorized developers to purchase your dream home.</p>
 											</div>
-											<div class="row step_slide_row">
-												<div class="col-md-12">
-											      	<div class="slide-container swiper" style="padding-bottom: 40px;padding-bottom: 40px;padding-left: 0px;padding-right: 0px;">
-											            <div class="slide-content slide-content-desktop">
+											<div class="row">
+												<div class="col-1" style="position: relative;">
+													<div class="swiper-button-prev swiper-button-prev-dealer swiper-navBtn"></div>
+												</div>
+												<div class="col-md-10">
+											      	<div class="slide-container swiper" style="padding-bottom: 40px;padding-left: 0px;padding-right: 0px;">
+											            <div class="slide-content slide-content-dealer-desktop">
 											                <div class="card-wrapper swiper-wrapper">
 											                    <div class="card swiper-slide slide_1">
 											                        <div class="card-content">
@@ -337,16 +340,25 @@
 											            </div>
 											        </div>
 											    </div>
+											    <div class="col-1" style="position: relative;">
+													<div class="swiper-button-next swiper-button-next-dealer swiper-navBtn"></div>
+												</div>
+												<div class="col-12" style="position: relative;">
+													<div class="swiper-pagination swiper-pagination-dealer-desktop"></div>
+												</div>
 											</div>
 										</div>
 										<div class="tab-pane individual-program fade" id="navs-pills-top-individual-program" role="tabpanel" style="padding-bottom: 20px;">
 											<div>
 												<p style="margin-bottom: 30px;">Choose the residence you wish to purchase from any developer rather than bank’s authorized developers.</p>
 											</div>
-											<div class="row step_slide_row">
-												<div class="col-md-12">
-											      	<div class="slide-container swiper" style="padding-bottom: 40px;padding-bottom: 40px;padding-left: 0px;padding-right: 0px;">
-											            <div class="slide-content slide-content-desktop">
+											<div class="row">
+												<div class="col-1" style="position: relative;">
+													<div class="swiper-button-prev swiper-button-prev-individual swiper-navBtn"></div>
+												</div>
+												<div class="col-md-10">
+											      	<div class="slide-container swiper" style="padding-bottom: 40px;padding-left: 0px;padding-right: 0px;">
+											            <div class="slide-content slide-content-individual-desktop">
 											                <div class="card-wrapper swiper-wrapper">
 											                    <div class="card swiper-slide slide_1">
 											                        <div class="card-content">
@@ -412,6 +424,12 @@
 											            </div>
 											        </div>
 											    </div>
+											    <div class="col-1" style="position: relative;">
+													<div class="swiper-button-next swiper-button-next-individual swiper-navBtn"></div>
+												</div>
+												<div class="col-12" style="position: relative;">
+													<div class="swiper-pagination swiper-pagination-individual-desktop"></div>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -679,7 +697,7 @@
 							<p class="call_deposit_title">How to Apply</p>
 							<p>Feel free to make an initial enquiry at any AYA branches via phone or in person. Then, visit nearest AYA branch to receive <b>“In-principle Loan Approval”</b> which contains the eligible HP loan amount.</p>
 							<div class="nav-align-top mb-4">
-								<ul class="nav nav-pills " role="tablist" style="justify-content: center;">
+								<ul class="nav nav-pills auto_loan_nav" role="tablist" style="justify-content: center;">
 									<li class="nav-item">
 										<button type="button" class="tab_title nav-link active" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-top-dealer-program-mobile" aria-controls="navs-pills-top-dealer-program-mobile" aria-selected="true" >
 											Dealer Program
@@ -691,15 +709,18 @@
 										</button>
 									</li>
 								</ul>
-								<div class="tab-content" style="background-color: transparent;padding: 30px 0px 0px 0px;box-shadow: none;">
+								<div class="tab-content" style="background-color: transparent;padding: 30px 0px 0px 0px;box-shadow: none;border-top: 1px solid #cccccc2e;border-radius: 0;">
 									<div class="tab-pane fade show active" id="navs-pills-top-dealer-program-mobile" role="tabpanel" style="padding-bottom: 20px;">
 										<div>
 											<p style="margin-bottom: 30px;">Choose from wide range of residences from our list of authorized developers to purchase your dream home.</p>
 										</div>
-										<div class="row step_slide_row">
-											<div class="col-md-12">
+										<div class="row">
+											<div class="col-1" style="position: relative;">
+												<div class="swiper-button-prev swiper-button-prev-dealer-mobile swiper-navBtn"></div>
+											</div>
+											<div class="col-9">
 										      	<div class="slide-container swiper" style="padding-bottom: 40px;padding-bottom: 40px;padding-left: 0px;padding-right: 0px;margin-left: 10px;">
-										            <div class="slide-content slide-content-mobile">
+										            <div class="slide-content slide-content-dealer-mobile">
 										                <div class="card-wrapper swiper-wrapper">
 										                    <div class="card swiper-slide slide_1">
 										                        <div class="card-content">
@@ -766,16 +787,25 @@
 										            <div class="swiper-pagination"></div>
 										        </div>
 										    </div>
+										    <div class="col-1" style="position: relative;">
+												<div class="swiper-button-next swiper-button-next-dealer-mobile swiper-navBtn" style="left: 20%;"></div>
+											</div>
+											<div class="col-12" style="position: relative;">
+												<div class="swiper-pagination swiper-pagination-dealer-mobile"></div>
+											</div>
 										</div>
 									</div>
 									<div class="tab-pane individual-program-mobile fade" id="navs-pills-top-individual-program-mobile" role="tabpanel" style="padding-bottom: 20px;">
 										<div>
 											<p style="margin-bottom: 30px;">Choose the residence you wish to purchase from any developer rather than bank’s authorized developers.</p>
 										</div>
-										<div class="row step_slide_row">
-											<div class="col-md-12">
+										<div class="row">
+											<div class="col-1" style="position: relative;">
+												<div class="swiper-button-prev swiper-button-prev-individual-mobile swiper-navBtn"></div>
+											</div>
+											<div class="col-9">
 										      	<div class="slide-container swiper" style="padding-bottom: 40px;padding-bottom: 40px;padding-left: 0px;padding-right: 0px;margin-left: 10px;">
-										            <div class="slide-content slide-content-mobile">
+										            <div class="slide-content slide-content-individual-mobile">
 										                <div class="card-wrapper swiper-wrapper">
 										                    <div class="card swiper-slide slide_1">
 										                        <div class="card-content">
@@ -842,6 +872,12 @@
 										            <div class="swiper-pagination"></div>
 										        </div>
 										    </div>
+										    <div class="col-1" style="position: relative;">
+												<div class="swiper-button-next swiper-button-next-individual-mobile swiper-navBtn"></div>
+											</div>
+											<div class="col-12" style="position: relative;">
+												<div class="swiper-pagination swiper-pagination-individual-mobile"></div>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -952,21 +988,21 @@
 		$(".nav-link").not(this).removeClass('active');
 	});
 
-	var swiper = new Swiper(".slide-content-desktop", {
-		slidesPerView: 4,
+	var swiper = new Swiper(".slide-content-dealer-desktop", {
+		slidesPerView: 3,
 		spaceBetween: 25,
 		loop: true,
 		centerSlide: 'true',
 		fade: 'true',
 		grabCursor: 'true',
 		pagination: {
-			el: ".swiper-pagination",
+			el: ".swiper-pagination-dealer-desktop",
 			clickable: true,
 			dynamicBullets: true,
 		},
 		navigation: {
-			nextEl: ".swiper-button-next",
-			prevEl: ".swiper-button-prev",
+			nextEl: ".swiper-button-next-dealer",
+			prevEl: ".swiper-button-prev-dealer",
 		},
 
 		breakpoints:{
@@ -977,12 +1013,49 @@
 				slidesPerView: 2,
 			},
 			950: {
-				slidesPerView: 4,
+				slidesPerView: 2,
+			},
+			1300: {
+				slidesPerView: 3,	
 			},
 		},
 	});
 
-	var swiper = new Swiper(".slide-content-mobile", {
+	var swiper = new Swiper(".slide-content-individual-desktop", {
+		slidesPerView: 3,
+		spaceBetween: 25,
+		loop: true,
+		centerSlide: 'true',
+		fade: 'true',
+		grabCursor: 'true',
+		pagination: {
+			el: ".swiper-pagination-individual-desktop",
+			clickable: true,
+			dynamicBullets: true,
+		},
+		navigation: {
+			nextEl: ".swiper-button-next-individual",
+			prevEl: ".swiper-button-prev-individual",
+		},
+
+		breakpoints:{
+			0: {
+				slidesPerView: 1,
+			},
+			520: {
+				slidesPerView: 2,
+			},
+			950: {
+				slidesPerView: 2,
+			},
+			1300: {
+				slidesPerView: 3,	
+			},
+		},
+	});
+
+
+	var swiper = new Swiper(".slide-content-dealer-mobile", {
 		slidesPerView: 1,
 		spaceBetween: 25,
 		loop: true,
@@ -990,13 +1063,43 @@
 		fade: 'true',
 		grabCursor: 'true',
 		pagination: {
-			el: ".swiper-pagination",
+			el: ".swiper-pagination-dealer-mobile",
 			clickable: true,
 			dynamicBullets: true,
 		},
 		navigation: {
-			nextEl: ".swiper-button-next",
-			prevEl: ".swiper-button-prev",
+			nextEl: ".swiper-button-next-dealer-mobile",
+			prevEl: ".swiper-button-prev-dealer-mobile",
+		},
+
+		breakpoints:{
+			0: {
+				slidesPerView: 1,
+			},
+			520: {
+				slidesPerView: 1,
+			},
+			950: {
+				slidesPerView: 1,
+			},
+		},
+	});
+
+	var swiper = new Swiper(".slide-content-individual-mobile", {
+		slidesPerView: 1,
+		spaceBetween: 25,
+		loop: true,
+		centerSlide: 'true',
+		fade: 'true',
+		grabCursor: 'true',
+		pagination: {
+			el: ".swiper-pagination-individual-mobile",
+			clickable: true,
+			dynamicBullets: true,
+		},
+		navigation: {
+			nextEl: ".swiper-button-next-individual-mobile",
+			prevEl: ".swiper-button-prev-individual-mobile",
 		},
 
 		breakpoints:{

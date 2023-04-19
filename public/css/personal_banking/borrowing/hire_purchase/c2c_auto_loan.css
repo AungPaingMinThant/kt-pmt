@@ -1,12 +1,39 @@
 .nav-link, h4 {
 	color: #2e2e2e !important;
 }
-.nav-pills .nav-link.active {
-	color: #2e2e2e !important;		
+.side-nav > .nav-item > .nav-link {
+	padding: 0 1.25rem 1rem 0 !important;
+	font-size: 16px;
 }
-.nav-pills .nav-link.active > span {
-	border-bottom: 4px solid #a02226 !important;
-	font-weight: 600 !important;
+.nav-item-separate {
+	border-bottom: 4px solid #a02226;
+	width: 80% !important;
+	margin-top: 5px;
+	display: none;
+}
+.side-nav.nav-pills .nav-link.active {
+	border-radius: 0;
+	padding-bottom: 0px !important;
+	color: #ae071d !important;
+}
+.side-nav.nav-pills .nav-link.active .nav-item-separate {
+	display: block;
+}
+.side-link {
+	display: block;
+}
+.side-nav.nav-pills > li > .side-link.active {
+    border-radius: 0;
+    padding-bottom: 0px !important;
+    color: #ae071d !important;
+}
+.side-nav > li > .side-link {
+	color: #2e2e2e !important;
+    padding: 0 1.25rem 1rem 0 !important;
+    font-size: 16px;
+}
+.side-nav > li > a.active .nav-item-separate {
+	display: block;
 }
 .scroll_content::-webkit-scrollbar{
     display: none;
@@ -43,7 +70,7 @@
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-color: transparent;
-	padding: 70px 90px 70px 70px;
+	padding: 70px 140px 70px 70px;
 }
 .bullet_square {
 	float: right;
@@ -62,10 +89,10 @@
 	    height: 320px;
 	}
 	.salaried_staff_div {
-		padding: 50px 70px 70px 50px;
+		padding: 50px 120px 70px 50px;
 	}
 	.self_employ_div {
-		padding: 50px 70px 70px 50px;
+		padding: 50px 90px 70px 50px;
 	}
 	.loan_eligibility_check {
 	    padding: 30px 40px 20px 60px !important;
