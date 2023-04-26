@@ -71,11 +71,11 @@
 	width: 200%;
 }
 .carousel-right-2 p.carousel-caption-title {
-	animation: 2s carousel-right-2 2s forwards;
+	animation: 2s carousel-right-2 1s forwards;
 	transform:translateX(-100%);
 }
-.carousel-right-2 p.carousel-caption-desc {
-	animation: 2s carousel-right-2 2s forwards;
+.carousel-right-2 p.carousel-caption-desc-2 {
+	animation: 2s carousel-right-2 1.5s forwards;
 	transform:translateX(-100%);
 }
 @keyframes carousel-right-2 {
@@ -99,7 +99,10 @@
 .carousel-caption-desc-2 {
 	color: #000 !important;
 	font-size: 20px;
-	margin-left: 10px;
+	margin-left: 30px;
+}
+.carousel-caption-desc-2-2 {
+	margin-left: 50px;
 }
 .mbaning_div {
 	background-image: url('../images/home/mbanking.png');

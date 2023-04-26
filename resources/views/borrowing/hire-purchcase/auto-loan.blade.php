@@ -471,8 +471,8 @@
 								<li>Original Testimonial Letter from Ward Administration Office</li>
 							</ul>
 							<p style="color: #ae071d;margin-bottom: -30px;">Income Documents</p>
-							<div class="row income_doc_desktop">
-								<div class="col-md-12">
+							<div class="row income_doc_desktop" >
+								<div class="col-md-12" style="padding-right: 30px;">
 									<div class="income_document_div">
 										<div class="row">
 											<p style="font-weight: 600;font-size: 16px;">Salaried Staff</p>
@@ -485,7 +485,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-12">
+								<div class="col-md-12" style="padding-right: 30px;">
 									<div class="income_document_div self_employ">
 										<div class="row">
 											<p style="font-weight: 600;font-size: 16px;">Self Employed</p>

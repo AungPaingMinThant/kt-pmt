@@ -11,7 +11,7 @@
         	<div class="menu-overlay"></div>
 
         	<div class="">
-        		<div id="carouselExample-cf" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+        		<div id="carouselExample-cf" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel" style="box-shadow: 0px 15px 20px 5px #f4f4f4;">
 					<ol class="carousel-indicators">
 						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="0" class="active"></li>
 						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="1"></li>
@@ -20,7 +20,7 @@
 						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="4"></li>
 					</ol>
 					<div class="carousel-inner">
-						<!-- <div class="carousel-item active">
+						<div class="carousel-item active">
 							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_1.jpg') }}" alt="First slide" />
 							<div class="row carousel-caption">
 								<div class="col-md-6"></div>
@@ -31,19 +31,20 @@
 									</div>
 								</div>
 							</div>
-						</div> -->
-						<div class="carousel-item active">
+						</div>
+						<!-- <div class="carousel-item active">
 							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_2.jpg') }}" alt="Second slide" />
 							<div class="row carousel-caption carousel-caption-2">
 								<div class="col-md-6">
 									<div class="carousel-right-2">
 										<p class="carousel-caption-title">Learning Today,</p>
-										<p class="carousel-caption-desc-2">For Better Bankers Tomorrow. Learn & Grow with AYA.</p>
+										<p class="carousel-caption-desc-2 mb-10">For Better Bankers Tomorrow.</p>
+										<p class="carousel-caption-desc-2 carousel-caption-desc-2-2">Learn & Grow with AYA.</p>
 									</div>
 								</div>
 								<div class="col-md-6"></div>
 							</div>
-						</div>
+						</div> -->
 						<!-- <div class="carousel-item">
 							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_3.jpg') }}" alt="Third slide" />
 							<div class="carousel-caption d-none d-md-block">
