@@ -99,7 +99,11 @@
 				<div class="row" style="border-top: 1px solid #ebeff1;">
 					<div class="col-md-12 text-right">
 						<ul class="menu" style="display: flex;list-style: none;float: right;margin-bottom: 1rem;margin-top: 1rem;">
-							<li class="nav-item">
+							@if($page == 'home')
+								<li class="nav-item active">
+							@else
+								<li class="nav-item">
+							@endif
 								<a class="nav-link active" aria-current="page" href="#">Home</a>
 							</li>
 							@if($page == 'personal_banking')

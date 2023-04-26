@@ -1,0 +1,267 @@
+.carousel-indicators {
+	left: 50px !important;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: transparent !important;
+    border: 1px solid #ccc;
+}
+.carousel-indicators{
+	right: 85% !important;
+	bottom: 50% !important;
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+	display: table-cell !important;
+    vertical-align: middle !important;
+    float: none !important;
+    top: 40%;
+    font-weight: 500 !important;
+}
+.carousel-indicators [data-bs-target] {
+	text-indent: 0 !important;
+    height: 8px !important;
+    margin-left: 0 !important;
+    width: 8px !important;
+    margin-bottom: 5%;
+    margin-right: 5% !important;
+    opacity: 1 !important;
+    border-radius: 50%;
+}
+.carousel-indicators [data-bs-target].active {
+	boder: 1px solid #a02226 !important;
+	background-color: #a02226 !important;
+}
+.carousel-caption {
+    right: 0;
+    bottom: 1.25rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    text-align: left !important;
+    top: 100px;
+    left: 20%;
+}
+.carousel-caption-2 {
+    right: 0;
+    bottom: 1.25rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    text-align: left !important;
+    top: 50px;
+    left: 7% !important;
+}
+
+.carousel-left-1 {
+	width: 200%;
+}
+.carousel-left-1 p.carousel-caption-title {
+	animation: 2s carousel-left-1 1.5s forwards;
+	transform:translateX(100%);
+}
+.carousel-left-1 p.carousel-caption-desc {
+	animation: 2s carousel-left-1 2s forwards;
+	transform:translateX(100%);
+}
+@keyframes carousel-left-1 {
+	to {
+		transform:translateX(0);
+	}
+}
+
+
+.carousel-right-2 {
+	width: 200%;
+}
+.carousel-right-2 p.carousel-caption-title {
+	animation: 2s carousel-right-2 2s forwards;
+	transform:translateX(-100%);
+}
+.carousel-right-2 p.carousel-caption-desc {
+	animation: 2s carousel-right-2 2s forwards;
+	transform:translateX(-100%);
+}
+@keyframes carousel-right-2 {
+	to {
+		transform:translateX(0);
+	}
+}
+
+
+.carousel-caption-title {
+	font-size: 60px;
+	line-height: 50px;
+	font-weight: 500;
+	color: #a02226;
+}
+.carousel-caption-desc {
+	color: #000 !important;
+	font-size: 20px;
+	margin-left: 100px;
+}
+.carousel-caption-desc-2 {
+	color: #000 !important;
+	font-size: 20px;
+	margin-left: 10px;
+}
+.mbaning_div {
+	background-image: url('../images/home/mbanking.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 400px;
+}
+.mbaning_div:hover {
+	background-image: url('../images/home/mbanking_hover.png');
+}
+.ayapay_div {
+	background-image: url('../images/home/ayapay_wallet.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 400px;
+}
+.ayapay_div:hover {
+	background-image: url('../images/home/ayapay_wallet_hover.png');
+}
+.app_detail_div {
+	position: absolute;
+    left: 33%;
+    top: 130px;
+}
+.ayapay_app_detail_div {
+	position: absolute;
+    top: 130px;
+    left: 11%;
+}
+.app_title {
+	color: #666666;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+.app_desc {
+	color: #a02225;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    padding-right: 130px !important;
+}
+.ayapay_app_desc {
+	color: #a02225;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    padding-right: 280px !important;
+}
+.ayapay_app_link_div {
+	padding-right: 120px !important;
+}
+.CTA_section_1 {
+	background-image: url('../images/home/personal_borrowing_plan.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 520px;
+}
+.CTA_desc {
+	color: #444444;
+}
+.CTA_section_1_info, .CTA_section_3_info {
+	position: absolute;
+	top: 170px;
+	left: 10%;
+}
+.CTA_section_2 {
+	background-image: url('../images/home/business.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 520px;
+}
+.CTA_section_2_info {
+	position: absolute;
+	top: 170px;
+	left: 7%;
+}
+.CTA_section_3 {
+	background-image: url('../images/home/find_the_ins_need.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 520px;
+}
+.input-group-text {
+	color: #a02225 !important;
+	font-size: 18px !important;
+	background-color: transparent !important;
+    border: none !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.form-select {
+	color: #a67d00 !important;
+	font-size: 18px !important;
+	background-color: transparent !important;
+    border: none !important;
+    border-bottom: 3px solid #a67d00 !important;
+    border-radius: 0px !important;
+    padding-left: 5px !important;
+    background-size: 30px !important;
+    background-image: url('../images/dropdown_arrow.png') !important;
+}
+.input-group {
+	width: 90% !important;
+}
+.input-group:focus-within, .form-select:focus {
+	box-shadow: none !important;
+}
+.insights_container {
+	padding: 0px 60px !important;
+}
+.insights_title {
+	color: #333;
+	font-size: 13px;
+}
+.insights_sub_title {
+	color: #a02226;
+	font-weight: 900;
+	font-size: 22px;
+}
+.news_content_div {
+	background-color: #f1f1f1;
+	padding: 20px;
+}
+.news_title {
+	color: #a0222c;
+	font-weight: 600;
+	font-size: 15px;
+}
+.news_category {
+	font-size: 12px;
+	font-weight: 800;
+	padding-right: 10px;
+}
+.news_date {
+	font-size: 12px;
+	color: #aaaaaa;
+	padding-left: 10px;
+}
+.news_break {
+	color: #999999;
+	font-size: 18px;
+}
+.news_img_div {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 230px;
+    width: 100%;
+    background-position: center;
+    margin-left: 0px !important;
+}
+.view_all_news {
+	background-color: #a02226;
+	width: 100%;
+	margin-left: 0px !important;
+	padding: 0;
+}
+.view_all_news_col {
+	background-image:  url('../images/news_image/view_all_news.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    height: 160px;
+    width: 100%;
+    background-position: center;
+    margin-left: 0px !important;
+}

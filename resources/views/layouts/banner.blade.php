@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="{{ url('/css/banner.css') }}" />
+
 @if($page == 'mobilebanking')
 	<div class="mbanking_banner banner_bg">
 		<div class="container">

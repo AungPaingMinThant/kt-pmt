@@ -316,11 +316,14 @@
 												<div class="col-11">
 													<p>Complete the application forms and submit at nearest branches or dealer.</p>
 												</div>
-												<div class="col-12" style="padding-left: 30px;">
-													<p>Find Available Car Brands <a href="{{ url('/images/borrowing/hire_purchase/auto_loan/Available-Brands.jpg') }}" target="_blank">Here</a> !</p>
-												</div>
 											</div>
 										</div>
+
+										<div class="col-12" style="padding-left: 30px;">
+											<p>Find Available Car Brands <a href="{{ url('/images/borrowing/hire_purchase/auto_loan/Available-Brands.jpg') }}" target="_blank">Here</a> !</p>
+										</div>
+
+										<div class="space-20"></div>
 									</div>
 
 									<div class="row">
@@ -630,11 +633,14 @@
 											<div class="col-11">
 												<p>Complete the application forms and submit at nearest branches or dealer.</p>
 											</div>
-											<div class="col-12" style="padding-left: 30px;">
-												<p>Find Available Car Brands <a href="{{ url('/images/borrowing/hire_purchase/auto_loan/Available-Brands.jpg') }}" target="_blank">Here</a> !</p>
-											</div>
 										</div>
 									</div>
+
+									<div class="col-12" style="padding-left: 30px;">
+										<p>Find Available Car Brands <a href="{{ url('/images/borrowing/hire_purchase/auto_loan/Available-Brands.jpg') }}" target="_blank">Here</a> !</p>
+									</div>
+
+									<div class="space-20"></div>
 								</div>
 
 								<div class="row">

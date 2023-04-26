@@ -21,13 +21,12 @@
 	}
 	.carousel-indicators [data-bs-target] {
 		text-indent: 0 !important;
-		height: auto !important;
-		margin-left: 0 !important;
-		width: 100% !important;
-		padding: 15px 0px 15px 0px !important;
-		margin-bottom: -7.5%;
-		background-color: #e4e4e4 !important;
-		opacity: 1 !important;
+	    height: 10px !important;
+	    margin-left: 0 !important;
+	    width: 10px !important;
+	    margin-bottom: -7.5%;
+	    opacity: 1 !important;
+	    border-radius: 50%;
 	}
 	.carousel-indicators [data-bs-target].active {
 		color: #a02226;

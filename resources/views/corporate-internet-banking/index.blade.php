@@ -1,335 +1,8 @@
 @extends('layouts.frontend-app')
 
 @section('title', 'Corporate Internet Banking – AYA Bank')
-<style type="text/css">
-	.tab_title > span {
-    	padding: 20px 0px;
-    }
-    .nav-align-top .nav-tabs .tab_title.active span {
-    	border-bottom: 5px solid #a02226;
-    }
-    .nav-pills .tab_title.active, .nav-pills .tab_title.active:hover, .nav-pills .tab_title.active:focus {
-    	background-color: transparent !important;
-	    color: #000 !important;
-	    box-shadow: none !important;
-	    border-bottom: 5px solid #ae002c;
-	    border-radius: 0;
-	    font-weight: 500;
-    }
-    .nav .tab_title:hover, .nav .tab_title:focus {
-    	color: #000 !important;
-    }
-    .nav-pills .tab_title {
-    	font-weight: 400;
-    	font-size: 16px;
-    }
-	.get_start_btn {
-		background: #a02225 !important;
-	    color: #fff !important;
-	    border: 1px solid #a02225 !important;
-	    padding: 12px 30px !important;
-	    font-size: 16px !important;
-	    font-weight: 400 !important;
-	    border-radius: 10px !important;
-	}
-	.get_start_btn:hover {
-		background: #fff !important;
-	    color: #a02225 !important;
-	}
-	.aya_ibanking_fact {
-		padding: 20px 20px;
-	}
-	.packages_div > .col-md-5 {
-		width: 33.666667%;		
-	}
-	.packages_div > .col-md-1 {
-		width: 9.333333%;
-	}
-	.offers_bg {
-		background-color: #f5f5f7;
-		height:850px;
-		padding: 60px 20px 0px 20px;
-		border-radius: 200px;
-		margin-bottom: 20px;
-	}
-	.offers_tag {
-		background-color: #4b4c4c;
-		border-radius: 50%;
-		width: 240px;
-		height: 240px;
-		margin: 0 auto !important;
-		align-content: center !important;
-	}
-	.offers_tag_plus {
-		background-color: #a02225;
-		border-radius: 50%;
-		width: 240px;
-		height: 240px;
-		margin: 0 auto !important;
-		align-content: center !important;
-	}
-	.read_more_btn {
-		background-color: #484848 !important;
-		color: #fff !important;
-		border-radius: 5px !important;
-		border: 1px solid #484848 !important;
-	}
-	.read_more_btn:hover{
-		background-color: #fff !important;
-		color: #484848 !important;
-		border: 1px solid #484848 !important;
-	}
-	.need_more_support_section {
-	    padding: 40px 208px 0px 208px !important;
-	}
-	.secure_req_application_icon {
-		background-color: #a02226;
-		color: #fff;
-		border-radius: 50%;
-		font-size: 18px !important;
-	}
+<link rel="stylesheet" href="{{ url('/css/CIB.css') }}" />
 
-	.image {
-	  	display: block;
-	  	width: 100%;
-	  	height: auto;
-	}
-	.overlay {
-		z-index: 9999;
-	  	position: absolute;
-	    bottom: 0;
-	    height: 50%;
-	    width: 28%;
-	 	opacity: 0;
-	  	transition: .3s ease;
-	  	background: #6b56565e;
-	  	transform: translate(133%, -53%);
-	  	-ms-transform: translate(133%, -53%);
-	}
-	.overlay_mobile {
-		z-index: 999;
-	  	position: absolute;
-	    bottom: 0;
-	    height: 19%;
-	    width: 48%;
-	 	opacity: 0;
-	  	transition: .3s ease;
-	  	background: #6b56565e;
-	  	transform: translate(50%, -70%);
-	  	-ms-transform: translate(50%, 580%);
-	}
-	.acc_service:hover .overlay {
-	  	opacity: 1;
-	}
-	.payment_service:hover .overlay {
-	  	opacity: 1;
-	}
-	.administration:hover .overlay {
-	  	opacity: 1;
-	}
-	.complex_approval:hover .overlay {
-		opacity: 1;
-	}
-
-	.key_feature_acc_service:hover .edit {
-		display: block;
-	}
-	.acc_service_hover_img {
-		display: none;
-	}
-	.key_feature_acc_service:hover .acc_service_img {
-		display: none;
-	}
-	.key_feature_acc_service:hover .acc_service_hover_img {
-		display: block;
-	}
-
-	.key_feature_payment_service:hover .edit {
-		display: block;
-	}
-	.payment_service_hover_img {
-		display: none;
-	}
-	.key_feature_payment_service:hover .payment_service_img {
-		display: none;
-	}
-	.key_feature_payment_service:hover .payment_service_hover_img {
-		display: block;
-	}
-
-	.key_feature_administration:hover .edit {
-		display: block;
-	}
-	.administration_hover_img {
-		display: none;
-	}
-	.key_feature_administration:hover .administration_img {
-		display: none;
-	}
-	.key_feature_administration:hover .administration_hover_img {
-		display: block;
-	}
-
-	.key_feature_complex_approval:hover .edit {
-		display: block;
-	}
-	.complex_approval_hover_img {
-		display: none;
-	}
-	.key_feature_complex_approval:hover .complex_approval_img {
-		display: none;
-	}
-	.key_feature_complex_approval:hover .complex_approval_hover_img {
-		display: block;
-	}	
-	.edit {
-		position: absolute;
-		right: 40%;
-		top: 40%;
-		display: none;
-	}
-	.icon {
-	  	color: white;
-	  	font-size: 100px;
-	  	position: absolute;
-	  	top: 50%;
-	  	left: 50%;
-	  	transform: translate(-50%, -50%);
-	  	-ms-transform: translate(-50%, -50%);
-	 	text-align: center;
-	}
-	.tab_section_1 {
-	    padding: 0px 100px !important;
-	}
-	.tab_data_row {
-		width: 100%;
-	}
-	.tab-content {
-		box-shadow: none !important;
-	}
-	.benefit_feature_box {
-		display: table;
-	}
-	.why_use_AYA {
-		display: table-cell !important;
-	}
-	.basic_package_col.col-md-3 {
-		width: 25%;
-	}
-	.basic_pack_allow {
-		margin-bottom: -40px;
-	}
-	.packages_list {
-		list-style:none;
-	}
-	.packages_main{
-		padding: 40px 20px 30px 20px;
-	}
-	.packages_img {
-		width: 20% !important;
-	}
-	.packages_main {
-		width: 80% !important;
-		padding-right: 20px !important;
-	}
-	.plus_ac_service_extra_line, .plus_allow_user_extra_line, .plus_reg_fees_extra_line,
-	.ac_service_extra_line, .dual_control_extra_line, .reg_fee_extra_line {
-		display: none;
-	}
-
-	@media (max-width: 1400px) and (min-width: 1301px) {
-		.carousel-indicators{
-			left: 85% !important;
-		}
-	}
-	@media (max-width: 1370px) and (min-width: 1301px) {
-		.plus_ac_service_extra_line, .plus_allow_user_extra_line, .plus_reg_fees_extra_line, .ac_service_extra_line,
-		.dual_control_extra_line, .reg_fee_extra_line {
-			display: contents;
-		}
-	}
-	@media (max-width: 1300px) and (min-width: 1025px) {
-		.carousel-indicators {
-			top: 25%;
-			left: 78% !important;
-		}
-		.carousel-indicators [data-bs-target] {
-			padding: 10px 0px 10px 0px !important;
-		}
-		.carousel_desc {
-			width: 25% !important;
-			top: 25% !important;
-			left: 10% !important;
-		}
-		.offers_tag, .offers_tag_plus {
-		    width: 220px;
-		    height: 220px;
-		}
-		.offers_bg {
-		    padding: 30px 20px 0px 20px;
-		    height: 930px;
-		}
-		.packages_div > .col-md-5 {
-		    width: 35.666667%;
-		}
-		.need_more_support_section {
-		    padding: 40px 100px 0px 100px !important;
-		}
-		.plus_ac_service_extra_line, .plus_allow_user_extra_line, .plus_reg_fees_extra_line, .ac_service_extra_line, .dual_control_extra_line {
-			display: contents;
-		}
-	}
-	@media (max-width: 1024px) and (min-width: 577px) {
-		.ac_service_extra_line, .dual_control_extra_line {
-			display: contents;
-		}
-		.basic_package_col.col-md-3 {
-			width: 33.3%;
-		}
-		.need_more_support_section {
-		    padding: 40px 50px 0px 50px !important;
-		}
-		.packages_main{
-			padding: 40px 20px;
-		}
-	}
-	@media only screen and (max-width: 576px){
-		.tab_section_1 {
-		    padding: 0px 30px !important;
-		}
-		.tab_data_row {
-			width: auto;
-		}
-		.tab-pane {
-			background-position: -80px -70px;
-		}
-		.need_more_support_section {
-		    padding: 0px 30px !important;
-		}
-		.packages_div > .col-md-5 {
-			width: 100%;		
-		}
-		.packages_div > .col-md-1 {
-			width: 100%;
-		}
-		.offers_bg {
-			padding: 30px 20px 0px 20px;
-			height:950px;
-		}
-		.basic_package_col.col-md-3 {
-			width: 100%;
-		}
-		.basic_pack_allow {
-			margin-bottom: auto;
-		}
-		.packages_list {
-			margin-left: 25px;
-		}
-		.packages_main{
-			padding: 40px 20px 20px 20px;
-		}
-	}
-</style>
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
@@ -408,35 +81,35 @@
 							<div class="space-40"></div>
 						</div>
 						<div class="tab-pane payment-services fade" id="navs-pills-top-payment-services" role="tabpanel" style="padding-bottom: 30px;">
-							<div class="container section_1">
+							<div class="container tab_section_1">
 								<div class="row tab_data_row" >
 									<div class="col-md-12 text-center" style="padding-top: 20px;">
 										<p>Users can initiate transactions for AYA account transfer, own account transfer, payroll (bulk payments), pay bills, cheque book request and cheque cancellation.</p>
 									</div>
 									<div class="col-md-6 benefit_feature_box" style="padding: 20px 20px 0px 20px;">
 										<div class="row why_use_AYA simple_login_div">
-											<img src="{{ url('/images/corporate_internet_banking/icon_1.png') }}" class="img-fluid" style="width: 15%;">
+											<img src="{{ url('/images/corporate_internet_banking/own_account_transfer.png') }}" class="img-fluid payment_service_img">
 											<p style="color: #4e4e4e;font-weight:600;margin-bottom: 5px;margin-top: 10px;">Own Account Transfer</p>
 											<p style="color: #4e4e4e;">Users can initiate fund transfer within their own AYA accounts.</p>
 										</div>
 									</div>
 									<div class="col-md-6 benefit_feature_box" style="padding: 20px 20px 0px 20px;">
 										<div class="row why_use_AYA simple_login_div">
-											<img src="{{ url('/images/corporate_internet_banking/icon_2.png') }}" class="img-fluid" style="width: 15%;">
+											<img src="{{ url('/images/corporate_internet_banking/other_account_transfer.png') }}" class="img-fluid payment_service_img">
 											<p style="color: #4e4e4e;font-weight:600;margin-bottom: 5px;margin-top: 10px;">Other AYA Account’s Transfer</p>
 											<p style="color: #4e4e4e;">Users can transfer from their AYA Account to Another AYA Account.</p>
 										</div>
 									</div>
 									<div class="col-md-6 benefit_feature_box" style="padding: 20px 20px 0px 20px;">
 										<div class="row why_use_AYA simple_login_div">
-											<img src="{{ url('/images/corporate_internet_banking/icon_3.png') }}" class="img-fluid" style="width: 15%;">
+											<img src="{{ url('/images/corporate_internet_banking/bulk_transfer.png') }}" class="img-fluid payment_service_img">
 											<p style="color: #4e4e4e;font-weight:600;margin-bottom: 5px;margin-top: 10px;">Bulk Transfer</p>
 											<p style="color: #4e4e4e;">Users can initiate multiple transactions at the same time with "From Scratch" or "Upload" with a csv file.</p>
 										</div>
 									</div>
 									<div class="col-md-6 benefit_feature_box" style="padding: 20px 20px 0px 20px;">
 										<div class="row why_use_AYA simple_login_div">
-											<img src="{{ url('/images/corporate_internet_banking/icon_3.png') }}" class="img-fluid" style="width: 15%;">
+											<img src="{{ url('/images/corporate_internet_banking/cheque_book_request.png') }}" class="img-fluid payment_service_img">
 											<p style="color: #4e4e4e;font-weight:600;margin-bottom: 5px;margin-top: 10px;">Cheque Book Request and Stop Cheque</p>
 											<p style="color: #4e4e4e;">Users can request Cheque Book and Stop Cheque without going to the branch</p>
 										</div>
@@ -483,13 +156,13 @@
 									</div>
 									<div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
 										<p class="fw-semibold" style="color: #4e4e4e;font-size: 16px;">Multiple Level Access</p>
-										<img src="{{ url('/images/corporate_internet_banking/authorizer.png') }}" class="img-fluid" style="width: 70%;">
+										<img src="{{ url('/images/corporate_internet_banking/authorizer.png') }}" class="img-fluid com_approval_tab_img">
 									</div>
 									<div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
 										<p class="fw-semibold" style="color: #4e4e4e;font-size: 16px;">Multiple Level Access</p></p>
-										<img src="{{ url('/images/corporate_internet_banking/maker.png') }}" class="img-fluid" style="width: 70%;">
+										<img src="{{ url('/images/corporate_internet_banking/maker.png') }}" class="img-fluid com_approval_tab_img">
 									</div>
-									<div class="col-md-12 text-center" style="padding: 20px 150px 0px 150px;">
+									<div class="col-md-12 text-center com_approval_tab_txt">
 										<p style="color: #4e4e4e;">One level can create transactions and another authorized level user needs to approve transactions in order to successfully complete the transaction process. Simply put, two qualified individuals authorize and complete a transaction or a payment.</p>
 									</div>
 									<div class="col-md-3"></div>
@@ -523,14 +196,13 @@
 
 			<div style="background-color: #f5f5f7;">
 				<div class="space-60"></div>
-				 <!-- style="max-width: 1500px;" -->
 				<div class="container section_1">
 					<div class="col-md-12 text-center">
 						<h3 style="color: #1d1d1f;">Two packages: Basic and Basic<sup>+</sup></h3>
 					</div>
 					<div class="space-20"></div>
 					<div class="row" style="background-color: #fff;border-radius: 6px;">
-						<div class="col-md-2 packages_img" style="background-image: url('././images/corporate_internet_banking/basic.jpg');background-size: cover;border-top-left-radius: 6px;border-bottom-left-radius: 6px;background-position: center 60px !important;background-repeat: no-repeat;">
+						<div class="col-md-2 packages_img basic_packages_img">
 							<div class="row" style="background-color: #fff;padding: 20px 10px;border-top-left-radius: 6px;border-top: 7px solid #ace3f7;">
 								<p style="font-size: 40px;margin-bottom: 0px;font-weight: 600;">Basic</h3>
 								<p class="mb-0">Standard features with two makers and one checker</p>
@@ -663,7 +335,7 @@
 					</div>
 					<div class="space-20"></div>
 					<div class="row" style="background-color: #fff;border-radius: 6px;">
-						<div class="packages_img" style="background-image: url('././images/corporate_internet_banking/basic_plus.jpg');background-size: cover;border-top-left-radius: 6px;border-bottom-left-radius: 6px;background-position: center !important;background-repeat: no-repeat;">
+						<div class="packages_img basic_plus_packages_img">
 							<div class="row" style="background-color: #fff;padding: 20px 10px;border-top-left-radius: 6px;border-top: 7px solid #ffd655;">
 								<p style="font-size: 40px;margin-bottom: 0px;font-weight: 600;">Basic<sup>+</sup></h3></p>
 								<p class="mb-0">Standard features with unlimited users</p>
