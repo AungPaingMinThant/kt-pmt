@@ -100,8 +100,15 @@
 	color: #000 !important;
 	font-size: 20px;
 	margin-left: 30px;
+	margin-bottom: 10px;
 }
 .carousel-caption-desc-2-2 {
+	margin-left: 50px;
+}
+.carousel-caption-desc-3 {
+	font-size: 50px;
+	line-height: 40px;
+	font-weight: 500;
 	margin-left: 50px;
 }
 .mbaning_div {
@@ -267,4 +274,123 @@
     width: 100%;
     background-position: center;
     margin-left: 0px !important;
+}
+.carousel-control-prev-icon {
+    border-radius: 50%;
+    background-color: #cccccc82;
+    color: #424242 !important;
+}
+.mbaning_img_ios, .ayapay_img_ios {
+	width: 30%;
+	margin-right: 20px;
+}
+.mbaning_img_andriod, .ayapay_img_andriod {
+	width: 35%;
+}
+
+@media only screen and (max-width: 576px){
+	.carousel-caption {
+	    top: 40px !important;
+	    left: 40% !important;
+	}
+	.carousel-caption-2 {
+	    top: -5px !important;
+    	left: 25% !important;
+    	text-shadow: 0 0 20px #e7ecec;
+	}
+	.carousel-caption-title {
+	    font-size: 40px;
+	    line-height: 20px;
+	}
+	.carousel-caption-title-2 {
+	    font-size: 30px;
+	    line-height: 30px;
+	    margin-bottom: 10px;
+	}
+	.carousel-caption-desc {
+	    font-size: 16px;
+	    margin-left: 20px;
+	    margin-bottom: 0;
+	}
+	.carousel-caption-desc-2 {
+	    font-size: 16px;
+	    margin-left: 20px;
+	    margin-bottom: 0;
+	    text-shadow: 0 0 20px #e7ecec;
+	}
+	.mbaning_div {
+		background-image: url('../images/home/mbanking_mobile.png');
+		height: 220px;
+		background-size: cover;
+		padding-right: 0px !important;
+	}
+	.mbaning_div:hover {
+		background-image: url('../images/home/mbanking_mobile_hover.png');
+	}
+	.app_detail_div {
+	    left: 33%;
+	    top: 50px;
+	}
+	.ayapay_app_detail_div {
+		top: 60px;
+		left: 5%;
+	}
+	.app_title {
+		width: 90% !important;
+	}
+	.app_desc {
+	    color: #a02225;
+	    font-size: 17px;
+	    line-height: 23px;
+	    margin-bottom: 15px;
+	    width: 85% !important;
+    	padding-right: 0px !important;
+	}
+	.ayapay_app_desc {
+	    font-size: 17px;
+	    line-height: 23px;
+	    margin-bottom: 15px;
+	    padding-right: 160px !important;
+	}
+	.app_title {
+	    margin-bottom: 5px;
+	}
+	.mbaning_img_ios, .ayapay_img_ios {
+		width: 35%;
+	}
+	.mbaning_img_andriod, .ayapay_img_andriod {
+		width: 40%;
+	}
+	.ayapay_div {
+		background-image: url('../images/home/ayapay_wallet_mobile.png');
+		height: 220px;
+		background-size: cover;
+		padding-right: 0px !important;
+	}
+	.ayapay_div:hover {
+		background-image: url('../images/home/ayapay_wallet_mobile_hover.png');
+	}
+
+	.CTA_section_1_info, .CTA_section_3_info, .CTA_section_2_info {
+		background-color: #fff;
+		padding: 15px;
+	    left: 5%;
+	    right: 7%;
+	    box-shadow: 0 11px 20px 0px #f4f4f4 !important;
+	}
+	.CTA_section_1, .CTA_section_3 {
+		height: 230px;
+		margin-bottom: 130px;
+	}
+	.CTA_section_2 {
+		height: 230px;
+		background-position: center right;
+		margin-bottom: 130px;
+	}
+	.insights_container {
+	    padding: 0px 20px !important;
+	}
+	.view_all_news_div {
+		height: 60px;
+	}
 }

@@ -2862,7 +2862,7 @@ textarea.form-control-lg {
   display: inline-block;
   margin-left: 0.5em;
   vertical-align: middle;
-  content: "sss";
+  content: "";
   margin-top: -0.28em;
   width: 0.42em;
   height: 0.42em;
@@ -5306,7 +5306,7 @@ textarea.form-control-lg {
 
 .carousel-dark .carousel-control-prev-icon,
 .carousel-dark .carousel-control-next-icon {
-  filter: invert(1) grayscale(100);
+/*  filter: invert(1) grayscale(100);*/
 }
 .carousel-dark .carousel-indicators [data-bs-target] {
   background-color: #435971;
