@@ -143,6 +143,8 @@
 										<p>Receive Interest on 6.25% per annum and frequency on monthly basis</p>
 									</div>
 
+									<div class="space-40"></div>
+
 									<p class="fw-semibold" style="font-size: 17px;">The Benefits</p>
 
 									<div class="col-md-4 text-center">
@@ -182,6 +184,8 @@
 									<div class="col-11">
 										<p>Contributed by employer and employee every month</p>
 									</div>
+
+									<div class="space-40"></div>
 
 									<p class="fw-semibold" style="font-size: 17px;">The Benefits</p>
 
@@ -241,6 +245,8 @@
 									<p>Receive Interest on 6.25% per annum and frequency on monthly basis</p>
 								</div>
 
+								<div class="space-40"></div>
+
 								<p class="fw-semibold text-center" style="font-size: 18px;">The Benefits</p>
 
 								<div class="col-md-4 text-center">
@@ -280,6 +286,8 @@
 								<div class="col-11">
 									<p>Contributed by employer and employee every month</p>
 								</div>
+
+								<div class="space-40"></div>
 
 								<p class="fw-semibold text-center" style="font-size: 18px;">The Benefits</p>
 

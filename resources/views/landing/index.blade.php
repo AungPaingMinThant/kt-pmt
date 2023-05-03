@@ -19,7 +19,7 @@
 						<!-- <li data-bs-target="#carouselExample-cf" data-bs-slide-to="3"></li> -->
 						<!-- <li data-bs-target="#carouselExample-cf" data-bs-slide-to="4"></li> -->
 					</ol>
-					<div class="carousel-inner">
+					<div class="carousel-inner active">
 						<div class="carousel-item active">
 							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_1.jpg') }}" alt="First slide" />
 							<div class="row carousel-caption">
@@ -45,9 +45,9 @@
 								<div class="col-md-6"></div>
 							</div>
 						</div>
-						<div class="carousel-item">
+						<div class="carousel-item ">
 							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_3.jpg') }}" alt="Third slide" />
-							<div class="row carousel-caption">
+							<div class="row carousel-caption carousel-caption-3">
 								<div class="col-md-6"></div>
 								<div class="col-md-6">
 									<div class="carousel-left-1">
@@ -70,16 +70,16 @@
                 </div>
             </div>
             <div class="d-block d-sm-none">
-                <div id="carouselExample-cf" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel" style="box-shadow: 0px 15px 20px 5px #f4f4f4;">
+                <div id="carouselExample-cf-mobile" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel" style="box-shadow: 0px 15px 20px 5px #f4f4f4;">
 					<!-- <ol class="carousel-indicators">
-						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="0" class="active"></li>
-						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="1"></li>
-						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="2"></li>
-						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="3"></li>
-						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="4"></li>
+						<li data-bs-target="#carouselExample-cf-mobile" data-bs-slide-to="0" class="active"></li>
+						<li data-bs-target="#carouselExample-cf-mobile" data-bs-slide-to="1"></li>
+						<li data-bs-target="#carouselExample-cf-mobile" data-bs-slide-to="2"></li>
+						<li data-bs-target="#carouselExample-cf-mobile" data-bs-slide-to="3"></li>
+						<li data-bs-target="#carouselExample-cf-mobile" data-bs-slide-to="4"></li>
 					</ol> -->
 					<div class="carousel-inner">
-						<!-- <div class="carousel-item ">
+						<div class="carousel-item active">
 							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_mobile_1.jpg') }}" alt="First slide" />
 							<div class="row carousel-caption">
 								<div class="col-md-12">
@@ -89,8 +89,8 @@
 									</div>
 								</div>
 							</div>
-						</div> -->
-						<div class="carousel-item active">
+						</div>
+						<div class="carousel-item">
 							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_mobile2.jpg') }}" alt="Second slide" />
 							<div class="row carousel-caption carousel-caption-2">
 								<div class="col-md-12">
@@ -102,19 +102,25 @@
 								</div>
 							</div>
 						</div>
-						<!-- <div class="carousel-item">
-							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_3.jpg') }}" alt="Third slide" />
-							<div class="carousel-caption d-none d-md-block">
-								<p class="carousel-caption-title">GROW</p>
-								<p>Lorem ipsum dolor sit amet, virtute consequat ea qui, minim graeco mel no.</p>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_mobile_3.jpg') }}" alt="Third slide" />
+							<div class="row carousel-caption">
+								<div class="col-md-6"></div>
+								<div class="col-md-6">
+									<div class="carousel-left-1">
+										<p class="carousel-caption-title carousel-caption-title-3-1">Moving Forward,</p>
+										<p class="carousel-caption-title carousel-caption-title-3-2">Going Digital,</p>
+										<p class="carousel-caption-desc carousel-caption-3-desc" style="width: 	50%;">Experience the New AYA on the Go!</p>
+									</div>
+								</div>
 							</div>
-						</div> -->
+						</div>
 					</div>
-                    <a class="carousel-control-prev" href="#carouselExample-cf" role="button" data-bs-slide="prev">
+                    <a class="carousel-control-prev" href="#carouselExample-cf-mobile" role="button" data-bs-slide="prev">
                       	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
                       	<span class="visually-hidden">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExample-cf" role="button" data-bs-slide="next">
+                    <a class="carousel-control-next" href="#carouselExample-cf-mobile" role="button" data-bs-slide="next">
                       	<span class="carousel-control-next-icon" aria-hidden="true"></span>
                      	<span class="visually-hidden">Next</span>
                     </a>
@@ -125,12 +131,12 @@
 				<div class="space-40"></div>
 				<div class="row">
 					<div class="col-md-6 mbaning_div">
-						<div class="row">
+						<div class="row" style="width: 100%">
 							<div class="col-md-12" style="position: relative;">
 								<div class="row app_detail_div">
 									<p class="app_title">AYA mBaning 2.0 Mobile APP</p>
 									<p class="app_desc">Everyday banking made easy with AYA mBanking</p>
-									<div class="col-md-10">
+									<div class="col-md-10 apps_link_div">
 										<a href="http://bit.ly/ayambankingios">
 											<img src="{{ url('/images/apple.png') }}" class="img-fluid mbaning_img_ios">
 										</a>
@@ -142,8 +148,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 ayapay_div d-non">
-						<div class="row">
+					<div class="col-md-6 ayapay_div">
+						<div class="row" style="width: 100%">
 							<div class="col-md-12" style="position: relative;">
 								<div class="row ayapay_app_detail_div">
 									<p class="app_title">AYA PAY Wallet Mobile APP</p>
@@ -153,7 +159,7 @@
 											<img src="{{ url('/images/apple.png') }}" class="img-fluid ayapay_img_ios">
 										</a>
 										<a href="https://play.google.com/store/apps/details?id=com.ayaplus.subscriber">
-											<img src="{{ url('/images/google.png') }}" class="img-fluid ayapay_img_andriod" style="width: 35%">
+											<img src="{{ url('/images/google.png') }}" class="img-fluid ayapay_img_andriod">
 										</a>
 									</div>
 								</div>

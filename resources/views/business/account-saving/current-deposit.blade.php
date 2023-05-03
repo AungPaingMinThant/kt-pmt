@@ -163,6 +163,8 @@
 										<p>No annual or monthly maintenance fee</p>
 									</div>
 
+									<div class="space-40"></div>
+
 									<p class="fw-semibold" style="font-size: 17px;">The Benefits</p>
 
 									<div class="col-md-4 text-center">
@@ -215,6 +217,8 @@
 										<p>No annual or monthly maintenance fee</p>
 									</div>
 
+									<div class="space-40"></div>
+
 									<p class="fw-semibold" style="font-size: 17px;">The Benefits</p>
 
 									<div class="col-md-6 text-center">
@@ -250,6 +254,8 @@
 									<div class="col-11">
 										<p>Suitable for business with international trade payment or any foreign currency payments</p>
 									</div>
+
+									<div class="space-40"></div>
 
 									<p class="fw-semibold" style="font-size: 17px;">The Benefits</p>
 
@@ -305,6 +311,8 @@
 									<p>No annual or monthly maintenance fee</p>
 								</div>
 
+								<div class="space-40"></div>
+
 								<p class="fw-semibold text-center" style="font-size: 18px;">The Benefits</p>
 
 								<div class="col-md-12 text-center">
@@ -358,6 +366,8 @@
 									<p>No annual or monthly maintenance fee </p>
 								</div>
 
+								<div class="space-40"></div>
+
 								<p class="fw-semibold text-center" style="font-size: 18px;">The Benefits</p>
 
 								<div class="col-md-12 text-center">
@@ -393,6 +403,8 @@
 								<div class="col-11">
 									<p>Suitable for business with international trade payment or any foreign currency payments</p>
 								</div>
+
+								<div class="space-40"></div>
 
 								<p class="fw-semibold text-center" style="font-size: 18px;">The Benefits</p>
 

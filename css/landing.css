@@ -71,11 +71,11 @@
 	width: 200%;
 }
 .carousel-right-2 p.carousel-caption-title {
-	animation: 2s carousel-right-2 2s forwards;
+	animation: 2s carousel-right-2 1s forwards;
 	transform:translateX(-100%);
 }
-.carousel-right-2 p.carousel-caption-desc {
-	animation: 2s carousel-right-2 2s forwards;
+.carousel-right-2 p.carousel-caption-desc-2 {
+	animation: 2s carousel-right-2 1.5s forwards;
 	transform:translateX(-100%);
 }
 @keyframes carousel-right-2 {
@@ -99,7 +99,17 @@
 .carousel-caption-desc-2 {
 	color: #000 !important;
 	font-size: 20px;
-	margin-left: 10px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+.carousel-caption-desc-2-2 {
+	margin-left: 50px;
+}
+.carousel-caption-desc-3 {
+	font-size: 50px;
+	line-height: 40px;
+	font-weight: 500;
+	margin-left: 50px;
 }
 .mbaning_div {
 	background-image: url('../images/home/mbanking.png');
@@ -227,6 +237,10 @@
 	color: #a0222c;
 	font-weight: 600;
 	font-size: 15px;
+	display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 .news_category {
 	font-size: 12px;
@@ -264,4 +278,265 @@
     width: 100%;
     background-position: center;
     margin-left: 0px !important;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    border-radius: 50%;
+    background-color: #cccccc82;
+    color: #424242 !important;
+}
+.mbaning_img_ios, .ayapay_img_ios {
+	width: 30%;
+	margin-right: 20px;
+}
+.mbaning_img_andriod, .ayapay_img_andriod {
+	width: 35%;
+}
+@media (max-width: 1250px) and (min-width: 1000px) {
+	.carousel-caption {
+		top: 25%;
+	}
+	.carousel-caption-title {
+		font-size: 50px;
+	}
+	.carousel-caption-2 {
+		top: 5%;
+	}
+	.carousel-caption-3 {
+		top: 15% !important;
+	}
+	.app_detail_div, .ayapay_app_detail_div {
+		top: 90px;
+	}
+	.app_desc {
+		padding-right: 30px !important;
+	}
+	.ayapay_app_desc, .app_desc {
+		font-size: 20px;
+    	line-height: 26px;
+	}
+	.mbaning_img_ios {
+		width: 40% !important;
+	}
+	.mbaning_img_andriod, .ayapay_img_ios {
+		width: 45% !important;
+	}
+	.ayapay_img_andriod {
+		width: 48% !important;
+	}
+	.mbaning_img_ios, .ayapay_img_ios {
+		margin-right: 10px;
+	}
+	.ayapay_app_desc {
+		padding-right: 182px !important;
+	}
+	.CTA_section_1 {
+		margin-top: -100px;
+		background-position: 30% center;
+	}
+	.CTA_section_2 {
+		background-position: 80% center;
+	}
+	.CTA_section_3 {
+		background-position: 30% center;
+	}
+	.news_content_div {
+		padding: 15px;
+	}
+	.news_img_div {
+		height: 150px;
+	}
+	.view_all_news_col {
+		height: 137px !important;
+	}
+}
+@media (max-width: 1360px) and (min-width: 1251px) {
+	.carousel-caption {
+		top: 25%;
+	}
+	.carousel-caption-title {
+		font-size: 50px;
+	}
+	.carousel-caption-2 {
+		top: 5%;
+	}
+	.carousel-caption-3 {
+		top: 15% !important;
+	}
+	.app_detail_div, .ayapay_app_detail_div {
+		top: 110px;
+	}
+	.app_desc {
+		padding-right: 100px !important;
+	}
+	.ayapay_app_desc {
+		padding-right: 220px !important;
+	}
+	.ayapay_app_desc, .app_desc {
+		font-size: 20px;
+    	line-height: 26px;
+	}
+	.mbaning_img_ios {
+		width: 35% !important;
+	}
+	.mbaning_img_andriod {
+		width: 39% !important;
+	}
+	.ayapay_img_ios {
+		width: 36% !important;
+	}
+	.ayapay_img_andriod {
+		width: 43% !important;
+	}
+	.mbaning_img_ios, .ayapay_img_ios {
+		margin-right: 10px;
+	}
+	.CTA_section_1 {
+		margin-top: -50px;
+		background-position: 30% center;
+	}
+	.CTA_section_2 {
+		background-position: 80% center;
+	}
+	.CTA_section_3 {
+		background-position: 30% center;
+	}
+	.news_img_div {
+		height: 180px;
+	}
+}
+@media only screen and (max-width: 576px){
+	.carousel-caption {
+	    top: 40px !important;
+	    left: 40% !important;
+	}
+	.carousel-caption-2 {
+	    top: -5px !important;
+    	left: 25% !important;
+    	text-shadow: 0 0 20px #e7ecec;
+	}
+	.carousel-caption-title {
+	    font-size: 40px;
+	    line-height: 20px;
+	}
+	.carousel-caption-title-2 {
+	    font-size: 30px;
+	    line-height: 30px;
+	    margin-bottom: 10px;
+	}
+	.carousel-caption-desc {
+	    font-size: 16px;
+	    margin-left: 20px;
+	    margin-bottom: 0;
+	}
+	.carousel-caption-desc-2 {
+	    font-size: 16px;
+	    margin-left: 20px;
+	    margin-bottom: 0;
+	    text-shadow: 0 0 20px #e7ecec;
+	}
+	.carousel-caption-title-3-1 {
+		margin-left: -40px;
+	    margin-top: -75px;
+	    text-shadow: 0 0 20px #e7ecec;
+	    font-size: 30px;
+	    line-height: 30px;
+	}
+	.carousel-caption-title-3-2 {
+		margin-left: 10px;
+	    line-height: 35px;
+	    margin-top: -10px;
+	    font-size: 30px;
+	    line-height: 30px;
+	    color: #000;
+	    text-shadow: 0 0 20px #e7ecec;
+	    margin-bottom: 10px;
+	}
+	.mbaning_div {
+		background-image: url('../images/home/mbanking_mobile.png');
+		height: 220px;
+		background-size: cover;
+		padding-right: 0px !important;
+	}
+	.mbaning_div:hover {
+		background-image: url('../images/home/mbanking_mobile_hover.png');
+	}
+	.app_detail_div {
+	    left: 33%;
+	    top: 50px;
+		width: 68% !important;
+	}
+	.ayapay_app_detail_div {
+		top: 60px;
+		left: 5%;
+	}
+	.app_title {
+	    margin-bottom: 5px;
+	}
+	.app_desc {
+	    color: #a02225;
+	    font-size: 17px;
+	    line-height: 23px;
+	    margin-bottom: 15px;
+    	padding-right: 0px !important;
+	}
+	.ayapay_app_desc {
+	    font-size: 17px;
+	    line-height: 23px;
+	    margin-bottom: 15px;
+	    width: 90% !important;
+    	padding-right: 100px !important;
+	}
+	.ayapay_app_link_div {
+		padding-right: 70px !important;
+	}
+	.ayapay_app_detail_div {
+		width:94% !important;
+	}
+	.mbaning_img_ios, .ayapay_img_ios {
+		margin-right: 6px;
+	}
+	.mbaning_img_ios, .ayapay_img_ios {
+		width: 45%;
+	}
+	.mbaning_img_andriod {
+		width: 50%;
+	}
+	.ayapay_img_ios {
+		width: 38% !important;
+	}
+	.ayapay_img_andriod {
+		width: 42% !important;
+	}
+	.ayapay_div {
+		background-image: url('../images/home/ayapay_wallet_mobile.png');
+		height: 220px;
+		background-size: cover;
+		padding-right: 0px !important;
+	}
+	.ayapay_div:hover {
+		background-image: url('../images/home/ayapay_wallet_mobile_hover.png');
+	}
+
+	.CTA_section_1_info, .CTA_section_3_info, .CTA_section_2_info {
+		background-color: #fff;
+		padding: 15px;
+	    left: 5%;
+	    right: 7%;
+	    box-shadow: 0 11px 20px 0px #f4f4f4 !important;
+	}
+	.CTA_section_1, .CTA_section_3 {
+		height: 230px;
+		margin-bottom: 130px;
+	}
+	.CTA_section_2 {
+		height: 230px;
+		background-position: center right;
+		margin-bottom: 130px;
+	}
+	.insights_container {
+	    padding: 0px 20px !important;
+	}
+	.view_all_news_div {
+		height: 60px;
+	}
 }

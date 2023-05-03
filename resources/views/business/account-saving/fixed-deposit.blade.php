@@ -99,7 +99,7 @@
 									<p class="fixed_deposit_desc">Receive interest every 6 months for the placement of 24 months Fixed Deposit.</p>
 								</div>
 							</div>
-							<div class="space-20"></div>
+							<div class="space-40"></div>
 							<div class="row">
 								<p class="fw-semibold" style="font-size: 17px;">The Benefits</p>
 

@@ -148,6 +148,8 @@
 										<p>No limit on deposit amount</p>
 									</div>
 
+									<div class="space-40"></div>
+
 									<p class="fw-semibold" style="font-size: 17px;">The Benefits</p>
 
 									<div class="col-md-4 text-center">
@@ -188,6 +190,8 @@
 										<p>Minimum account opening balance requirement is MMK “100 million” for local corporate and MMK “300 million” for foreign corporate</p>
 									</div>
 
+									<div class="space-40"></div>
+
 									<p class="fw-semibold" style="font-size: 17px;">The Benefits</p>
 
 									<div class="col-md-5 text-center">
@@ -223,6 +227,8 @@
 									<div class="col-11">
 										<p>Minimum account opening balance requirement is MMK 10,000</p>
 									</div>
+
+									<div class="space-40"></div>
 
 									<p class="fw-semibold" style="font-size: 17px;">The Benefits</p>
 
@@ -270,6 +276,8 @@
 									<p>No limit on deposit amount</p>
 								</div>
 
+								<div class="space-40"></div>
+
 								<p class="fw-semibold text-center" style="font-size: 18px;">The Benefits</p>
 
 								<div class="col-md-12 text-center">
@@ -311,6 +319,8 @@
 									<p>Minimum account opening balance requirement is MMK “100 million” for local corporate and MMK “300 million” for foreign corporate</p>
 								</div>
 
+								<div class="space-40"></div>
+
 								<p class="fw-semibold text-center" style="font-size: 18px;">The Benefits</p>
 
 								<div class="col-md-12 text-center">
@@ -346,6 +356,8 @@
 								<div class="col-11">
 									<p>Minimum account opening balance requirement is MMK 10,000</p>
 								</div>
+
+								<div class="space-40"></div>
 
 								<p class="fw-semibold text-center" style="font-size: 18px;">The Benefits</p>
 
