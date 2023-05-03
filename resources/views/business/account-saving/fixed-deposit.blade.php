@@ -53,31 +53,31 @@
 									<table class="table table-bordered benefit_table">
 										<tbody style="box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%);border-bottom-right-radius: 10px;font-weight: 500;background-color: transparent;">
 											<tr style="background-color: #f5f5f7;border-top: none;">
-												<td style="border-width: 1px;border-top: none;border-left: none;padding: 20px;">Tenure</td>
+												<td style="border-width: 1px;border-top: none;border-left: none;padding: 15px 20px;">Tenure</td>
 												<td class="last" style="border-width: 1px;border-right: none;border-top: none;">Interest Rates</td>
 											</tr>
 											<tr style="background-color: #fff;border-top: none;">
-												<td style="border-left: none;padding: 20px;">1 month</td>
+												<td style="border-left: none;padding: 15px 20px;">1 month</td>
 												<td style="border-right: none;">7.00% p.a.</td>
 											</tr>
 											<tr style="background-color: #fff;border-top: none;">
-												<td style="border-left: none;padding: 20px;">3 months</td>
+												<td style="border-left: none;padding: 15px 20px;">3 months</td>
 												<td style="border-right: none;">7.25% p.a.</td>
 											</tr>
 											<tr>
-												<td style="border-left: none;padding: 20px;">6 months</td>
+												<td style="border-left: none;padding: 15px 20px;">6 months</td>
 												<td style="border-right: none;">9.25% p.a.</td>
 											</tr>
 											<tr>
-												<td style="border-left: none;padding: 20px;">9 months</td>
+												<td style="border-left: none;padding: 15px 20px;">9 months</td>
 												<td style="border-right: none;">9.30% p.a.</td>
 											</tr>
 											<tr>
-												<td style="border-left: none;padding: 20px;">12 months</td>
+												<td style="border-left: none;padding: 15px 20px;">12 months</td>
 												<td style="border-right: none;">9.50% p.a.</td>
 											</tr>
 											<tr style="background-color: #fff;border-bottom-right-radius: 10px;border-bottom: none;">
-												<td style="border-width: 1px;border-bottom: none;border-left: none;padding: 20px;">24 months</td>
+												<td style="border-width: 1px;border-bottom: none;border-left: none;padding: 15px 20px;">24 months</td>
 												<td class="last" style="border-width: 1px;border-bottom-right-radius: 10px;border-right: none;border-bottom: none;">9.75% p.a.</td>
 											</tr>
 										</tbody>

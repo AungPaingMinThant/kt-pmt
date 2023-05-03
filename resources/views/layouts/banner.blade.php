@@ -2109,7 +2109,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="bu_acc_sav_call_deposit_banner_tagline">
-						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">A simple <span class="theme_text_color">daily interest-bearing account</span> with easy, instant access</h1>
+						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;"><span class="theme_text_color">A simple daily interest-bearing </span>account with easy, instant access</h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -2119,7 +2119,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 50px;left: 25px;right: 80px;">
-						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">A simple <span class="theme_text_color">daily interest-bearing account</span> with easy, instant access</h1>
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span class="theme_text_color">A simple daily interest-bearing </span>account with easy, instant access</h1>
 					</div>
 				</div>
 			</div>
