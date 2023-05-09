@@ -193,7 +193,7 @@
 
 @if($page == 'bu_trade_financing')
 	<div class="row">
-		<div class="col-md-10">
+		<div class="col-md-12">
 			<p>AYA Bank provides a comprehensive solution for trade financing needs from import to export, invoice financing and inventory financing. We bridge the funding gap for a period between vendor payments and buyers for both domestic and international trade transactions. With our Trade Financing, corporates can mitigate non-payment risk and improve working capital efficiency.</p>
 		</div>
 	</div>
@@ -201,7 +201,7 @@
 
 @if($page == 'bu_trade_services')
 	<div class="row">
-		<div class="col-md-10">
+		<div class="col-md-12">
 			<p>AYA Trade services help streamline any method of payment in global trade, perform smooth operations, and build healthy supplier relations in your trading business.</p>
 			<p>Our dedicated international trade payment services team holds extensive experience of working closely with both importers and exporters and providing reliable trade solutions in the most beneficial way.</p>
 		</div>

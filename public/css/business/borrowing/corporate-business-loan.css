@@ -5,6 +5,9 @@
 	padding: 0 1.25rem 1rem 0 !important;
 	font-size: 16px;
 }
+.nav-item {
+	font-size: 14px !important;
+}
 .nav-item-separate {
 	border-bottom: 4px solid #a02226;
 	width: 80%;
@@ -16,6 +19,7 @@
 	padding-bottom: 0px !important;
 	color: #ae071d !important;
 }
+
 .nav-pills .nav-link.active .nav-item-separate {
 	display: block;
 }
@@ -38,9 +42,9 @@
 .capex_financing_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
-	width: 37% !important;
+	font-size: 18px;
+	line-height: 22px;
+	width: 34% !important;
 	position: absolute;
 	top: 80%;
 	left: 4%;
@@ -48,8 +52,8 @@
 .working_capital_financing_tagline {
 	color: #000;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 22px;
 	width: 85% !important;
 	position: absolute;
 	top: 80%;
@@ -58,9 +62,9 @@
 .demand_loan_tagline, .project_loan_tagline, .franchise_financing_tagline, .trade_financing_tagline {
 	color: #000;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
-	width: 58% !important;
+	font-size: 18px;
+	line-height: 22px;
+	width: 52% !important;
 	position: absolute;
 	top: 80%;
 	left: 4%;
@@ -99,7 +103,7 @@
 @media (max-width: 1400px) and (min-width: 1271px) {
 	.capex_financing_tagline{
 		width: 42% !important;
-	    top: 75%;
+	    top: 80%;
 	}
 	.project_loan_tagline {
 		width: 65% !important;

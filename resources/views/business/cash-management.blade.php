@@ -14,7 +14,7 @@
 
 			<div class="container section_1" >
 				<div class="space-40"></div>
-				<div class="col-md-9">
+				<div class="col-md-12">
 					<p>We offer a wide range of effective and efficient cash management service and solutions for the businesses. With AYA Cash Management Service, we ensure to provide a full suite of customized receivables and payables solutions alongside a comprehensive and timely management report gearing to facilitate the daily business decisions and to manage and accelerate the business cash flow effectively.</p>
 				</div>
 				<div class="space-20"></div>
@@ -49,7 +49,7 @@
 					<div class="col-md-6 ">
 						<div class="row">
 							<div class="col-md-12 text-center">
-								<img src="{{ url('/images/business/cash-management/cash-management-service.png') }}" class="img-fluid cash-management-service-img">
+								<img src="{{ url('/images/business/cash-management/cash_management_service.png') }}" class="img-fluid cash-management-service-img">
 							</div>
 						</div>
 					</div>
@@ -60,34 +60,34 @@
 				<div class="col-md-12">
 					<div class="row">
 						<div class="col-md-12 d-block d-sm-none">
-							<h3 class="fw-bold">Offering Services</h3>
+							<p class="fw-bold" style="font-size: 18px;">Services we offer</p>
 						</div>
 						<div class="col-md-4 d-none d-sm-block">
 							<nav id="myScrollspy">
 								<div class="col-md-12">
-									<h3 class="fw-bold">Offering Services</h3>
+									<p class="fw-bold" style="font-size: 18px;">Services we offer</p>
 								</div>
 								<ul class="nav nav-pills flex-column">
 									<li class="nav-item">
-										<a class="nav-link active" href="#payroll_service">
+										<a class="nav-link active" id="payroll_service_link" href="#payroll_service">
 											<span class="pr-5">Payroll Service</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#receivables_service">
+										<a class="nav-link" id="receivables_service_link" href="#receivables_service">
 											<span class="pr-5">Receivables Service</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#bulk_payment_payables_services">
+										<a class="nav-link" id="bulk_payment_payables_services_link" href="#bulk_payment_payables_services">
 											<span class="pr-5">Bulk Payment (Payables Service)</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#liquidity_service">
+										<a class="nav-link" id="liquidity_service_link" href="#liquidity_service">
 											<span class="pr-5">Liquidity Service</span>
 											<hr class="nav-item-separate">
 										</a>
@@ -106,7 +106,8 @@
 								</div>
 								<div class="row">
 									<div class="space-30"></div>
-									<p>Time saving, high security and minimize paperwork on the payroll operation with AYA Bank.  With AYA Payroll Service, we offer a very handy and automated Payment service with single debit transaction through our integrated systems.</p>
+									<p>Time saving, high security and minimize paperwork on the payroll operation with AYA Bank.</p>
+									<p>With AYA Payroll Service, we offer a very handy and automated Payment service with single debit transaction through our integrated systems.</p>
 
 									<div class="space-20"></div>
 									<p class="fw-semibold mb-30" style="font-size: 17px;">Features</p>
@@ -178,7 +179,9 @@
 								</div>
 								<div class="row">
 									<div class="space-30"></div>
-									<p>Is your business retail, wholesale, or services? Our Collection Services allow you to manage your receivables efficiently and in timely manner through our extensive branches across the nation as well as on the digital channels such as AYA m-banking and i-banking. We are very committed in delivering a quality service hence ensuring you to meet your specific business requirements.</p>
+									<p>Is your business retail, wholesale, or services? </p>
+									<p>Our Collection Services allow you to manage your receivables efficiently and in timely manner through our extensive branches across the nation as well as on the digital channels such as AYA m-banking and i-banking. </p>
+									<p>We are very committed in delivering a quality service hence ensuring you to meet your specific business requirements.</p>
 
 									<div class="space-20"></div>
 									<p class="fw-semibold mb-30" style="font-size: 17px;">Features</p>
@@ -403,9 +406,62 @@
 <div class="space-60"></div>
 @include('layouts.footer', ['page'=>'mobilebanking'])
 <script type="text/javascript">
-	$(".nav-link").click(function() {
-		$(".nav-link").addClass('active');
-		$(".nav-link").not(this).removeClass('active');
+	var cur_url = window.location.href;
+	var parts = cur_url.split('#');
+	var last_part = parts.at(-1);
+
+	$( document ).ready(function() {
+		$(".nav-link").click(function(e) {
+			$(".nav-link").addClass('active');
+			$(".nav-link").not(this).removeClass('active');
+
+			var nav_link_href = $(this).attr('href');
+
+
+
+
+
+
+			if (nav_link_href == 'payroll_service') {
+				$(".nav-link").removeClass('active');
+		  		$("#payroll_service_link").addClass('active');
+		  	}
+
+		  	if (nav_link_href == 'receivables_service') {
+		  		$(".nav-link").removeClass('active');
+		  		$("#receivables_service_link").addClass('active');
+		  	}
+
+		  	if (nav_link_href == 'bulk_payment_payables_services') {
+				$(".nav-link").removeClass('active');
+		  		$("#bulk_payment_payables_services_link").addClass('active');
+		  	}
+
+		  	if (nav_link_href == 'liquidity_service') {
+				$(".nav-link").removeClass('active');
+		  		$("#liquidity_service_link").addClass('active');
+		  	}
+		});
+
+	    if (last_part == 'payroll_service') {
+			$(".nav-link").removeClass('active');
+	  		$("#payroll_service_link").addClass('active');
+	  	}
+
+	  	if (last_part == 'receivables_service') {
+	  		$(".nav-link").removeClass('active');
+	  		$("#receivables_service_link").addClass('active');
+	  	}
+
+	  	if (last_part == 'bulk_payment_payables_services') {
+			$(".nav-link").removeClass('active');
+	  		$("#bulk_payment_payables_services_link").addClass('active');
+	  	}
+
+	  	if (last_part == 'liquidity_service') {
+			$(".nav-link").removeClass('active');
+	  		$("#liquidity_service_link").addClass('active');
+	  	}
 	});
 </script>
 @endsection('content')

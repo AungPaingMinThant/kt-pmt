@@ -2,6 +2,7 @@
 
 @section('title', 'Trade Financing – AYA Bank')
 <link rel="stylesheet" href="{{ url('/css/business/trade/trade.css') }}" />
+
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
@@ -17,25 +18,26 @@
 				<div class="col-md-12">
 					<div class="row">
 						<div class="col-md-12">
-							<h3 class="fw-semibold" style="font-size: 18px;">Offering Financing</h3>
+							<!-- <h3 class="fw-semibold" style="font-size: 18px;">Offering Financing</h3> -->
+							<p class="fw-bold" style="font-size: 18px;">Available Trade Financing</p>
 						</div>
 						<div class="col-md-4 d-none d-sm-block">
 							<nav id="myScrollspy">
 								<ul class="nav nav-pills flex-column">
 									<li class="nav-item">
-										<a class="nav-link active" href="#import_financing">
+										<a class="nav-link active" id="import_financing_link" href="#import_financing">
 											<span class="pr-5">Import Financing</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#export_financing">
+										<a class="nav-link" id="export_financing_link" href="#export_financing">
 											<span>Export Financing</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#other_trade_financing">
+										<a class="nav-link" id="other_trade_financing_link" href="#other_trade_financing">
 											<span class="pr-5">Other Trade Financing</span>
 											<hr class="nav-item-separate">
 										</a>
@@ -60,7 +62,7 @@
 										<div class="accordion import-financing-accord" id="accordionExample">
 											<div class="accordion-item">
 												<h2 class="accordion-header b-b-none" id="headingOne">
-													<button class="accordion-button pl-20" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+													<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="padding: 10px 0px 10px 20px !important;">
 														<span class="accordion-open">
 															<i class="menu-icon tf-icons bx bx-plus"></i>
 														</span>
@@ -134,7 +136,7 @@
 											</div>
 											<div class="accordion-item">
 												<h2 class="accordion-header b-b-none" id="headingTwo">
-													<button class="accordion-button pl-20 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+													<button class="accordion-button collapsed" id="trust_receipt_ac_button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" style="padding: 10px 0px 10px 20px !important;">
 														<span class="accordion-open">
 															<i class="menu-icon tf-icons bx bx-plus"></i>
 														</span>
@@ -210,7 +212,7 @@
 											</div>
 											<div class="accordion-item">
 												<h2 class="accordion-header b-b-none" id="headingThree">
-													<button class="accordion-button pl-20 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree" style="padding: 10px 0px 10px 20px !important;">
 														<span class="accordion-open">
 															<i class="menu-icon tf-icons bx bx-plus"></i>
 														</span>
@@ -296,7 +298,7 @@
 										<div class="accordion import-financing-accord" id="accordionExample">
 											<div class="accordion-item">
 												<h2 class="accordion-header b-b-none" id="headingExportOne">
-													<button class="accordion-button pl-20 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExportOne" aria-expanded="true" aria-controls="collapseExportOne">
+													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExportOne" aria-expanded="true" aria-controls="collapseExportOne" style="padding: 10px 0px 10px 20px !important;">
 														<span class="accordion-open">
 															<i class="menu-icon tf-icons bx bx-plus"></i>
 														</span>
@@ -362,7 +364,7 @@
 											</div>
 											<div class="accordion-item">
 												<h2 class="accordion-header b-b-none" id="headingExportTwo">
-													<button class="accordion-button pl-20 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExportTwo" aria-expanded="true" aria-controls="collapseExportTwo">
+													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExportTwo" aria-expanded="true" aria-controls="collapseExportTwo" style="padding: 10px 0px 10px 20px !important;">
 														<span class="accordion-open">
 															<i class="menu-icon tf-icons bx bx-plus"></i>
 														</span>
@@ -454,7 +456,7 @@
 										<div class="accordion import-financing-accord" id="accordionExample">
 											<div class="accordion-item">
 												<h2 class="accordion-header b-b-none" id="headingOtherTradeOne">
-													<button class="accordion-button pl-20 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOtherTradeOne" aria-expanded="true" aria-controls="collapseOtherTradeOne">
+													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOtherTradeOne" aria-expanded="true" aria-controls="collapseOtherTradeOne" style="padding: 10px 0px 10px 20px !important;">
 														<span class="accordion-open">
 															<i class="menu-icon tf-icons bx bx-plus"></i>
 														</span>
@@ -544,9 +546,79 @@
 <div class="space-60"></div>
 @include('layouts.footer', ['page'=>'mobilebanking'])
 <script type="text/javascript">
-	$(".nav-link").click(function() {
-		$(".nav-link").addClass('active');
-		$(".nav-link").not(this).removeClass('active');
+	var cur_url = window.location.href;
+	var parts = cur_url.split('#');
+	var last_part = parts.at(-1);
+
+	$(".nav-link").click(function(e) {
+		$(".nav-link").removeClass('active');
+
+		var nav_link_href = $(this).attr('href');
+
+		if (nav_link_href == '#import_financing') {			
+	  		$("#import_financing_link").addClass('active');
+	  	}
+
+	  	if (nav_link_href == '#export_financing') {
+	  		$("#export_financing_link").addClass('active');
+	  	}
+
+	  	if (nav_link_href == '#other_trade_financing') {
+	  		$("#other_trade_financing_link").addClass('active');
+	  	}
 	});
+
+    if (last_part == 'import_financing') {
+		$(".nav-link").removeClass('active');
+  		$("#import_financing_link").addClass('active');
+  	}
+
+  	if (last_part == 'export_financing') {
+  		$(".nav-link").removeClass('active');
+  		$("#export_financing_link").addClass('active');
+  	}
+
+  	if (last_part == 'other_trade_financing') {
+		$(".nav-link").removeClass('active');
+  		$("#other_trade_financing_link").addClass('active');
+  	}
+
+  	$(window).on('scroll', function() {
+		var scrollTop = $(this).scrollTop();
+
+		var import_financing_section = $("#import_financing");
+		if (scrollTop > import_financing_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#import_financing_link").addClass('active');
+		}
+
+		var export_financing_section = $("#export_financing");
+		if (scrollTop > export_financing_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#export_financing_link").addClass('active');
+		}
+
+		var other_trade_financing_section = $("#other_trade_financing");
+		if (scrollTop > other_trade_financing_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#other_trade_financing_link").addClass('active');
+		}
+	});
+
+	// $(".accordion-button").click(function(e){
+	// 	if(!($(this).hasClass('collapsed'))) {
+	// 		var ele_id = $(this).attr('id');
+	// 		var element = document.getElementById(ele_id);
+	// 		// element.scrollIntoView({ behavior: 'smooth' });
+
+	// 		// const element = document.getElementById('my-element');
+	// 		window.scrollTo({
+	// 			top: element.offsetTop - 60,
+	// 			behavior: 'smooth'
+	// 		});
+
+	// 		alert(ele_id);
+	// 	}
+	// });
 </script>
 @endsection('content')

@@ -44,9 +44,9 @@
 .heavy_machine_hp_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
-	width: 72% !important;
+	font-size: 18px;
+	line-height: 22px;
+	width: 65% !important;
 	position: absolute;
 	top: 80%;
 	left: 4%;
@@ -54,8 +54,8 @@
 .shop_house_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 22px;
 	width: 40% !important;
 	position: absolute;
 	top: 80%;
@@ -64,9 +64,9 @@
 .auto_loan_corporate_tagline, .franchise_financing_tagline, .trade_financing_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
-	width: 45% !important;
+	font-size: 18px;
+	line-height: 22px;
+	width: 40% !important;
 	position: absolute;
 	top: 80%;
 	left: 4%;
@@ -74,8 +74,8 @@
 .equipment_loan_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 22px;
 	width: 80% !important;
 	position: absolute;
 	top: 80%;

@@ -25,22 +25,18 @@
 				</div>
 				<div class="row">
 					<div class="col-1">
-						<!-- <img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square"> -->
 						<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 					</div>
 					<div class="col-11">
-						<!-- need-to-know-point -->
 						<p class="should-apply-point mt-minus-5">It is a fixed rate loan, so interest rates tend to be cost effective</p>
 					</div>
 					<div class="col-1">
-						<!-- <img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square"> -->
 						<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 					</div>
 					<div class="col-11">
 						<p class="should-apply-point mt-minus-5">You can utilize the asset while paying back in instalments over a set period of time</p>
 					</div>
 					<div class="col-1">
-						<!-- <img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square"> -->
 						<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 					</div>
 					<div class="col-11">
@@ -137,31 +133,31 @@
 				<div class="col-md-12">
 					<div class="row">
 						<div class="col-md-12">
-							<h3 class="fw-bold">Offering Loan</h3>
+							<p class="fw-bold" style="font-size: 18px;">What We Offer for Hire Purchase</p>
 						</div>
 						<div class="col-md-4 d-none d-sm-block">
 							<nav id="myScrollspy">
 								<ul class="nav nav-pills flex-column">
 									<li class="nav-item">
-										<a class="nav-link active" href="#heavy_mahine_hp">
+										<a class="nav-link active" id="heavy_mahine_hp_link" href="#heavy_mahine_hp">
 											<span class="pr-5">Heavy Machinery HP</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#shop_house">
+										<a class="nav-link" id="shop_house_link" href="#shop_house">
 											<span class="pr-5">Shop House</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#auto_loan_corporate">
+										<a class="nav-link" id="auto_loan_corporate_link" href="#auto_loan_corporate">
 											<span class="pr-5">Auto Loan (Corporate)</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#equipment_loan">
+										<a class="nav-link" id="equipment_loan_link" href="#equipment_loan">
 											<span class="pr-5">Equipment Loan</span>
 											<hr class="nav-item-separate">
 										</a>
@@ -378,9 +374,84 @@
 <div class="space-60"></div>
 @include('layouts.footer', ['page'=>'mobilebanking'])
 <script type="text/javascript">
-	$(".nav-link").click(function() {
-		$(".nav-link").addClass('active');
-		$(".nav-link").not(this).removeClass('active');
+	// $(".nav-link").click(function() {
+	// 	$(".nav-link").addClass('active');
+	// 	$(".nav-link").not(this).removeClass('active');
+	// });
+
+
+	var cur_url = window.location.href;
+	var parts = cur_url.split('#');
+	var last_part = parts.at(-1);
+
+	if (last_part == 'heavy_mahine_hp') {
+		$(".nav-link").removeClass('active');
+  		$("#heavy_mahine_hp_link").addClass('active');
+  	}
+
+  	if (last_part == 'shop_house') {
+  		$(".nav-link").removeClass('active');
+  		$("#shop_house_link").addClass('active');
+  	}
+
+  	if (last_part == 'auto_loan_corporate') {
+		$(".nav-link").removeClass('active');
+  		$("#auto_loan_corporate_link").addClass('active');
+  	}
+
+  	if (last_part == 'equipment_loan') {
+		$(".nav-link").removeClass('active');
+  		$("#equipment_loan_link").addClass('active');
+  	}
+
+  	$(".nav-link").click(function(e) {
+		$(".nav-link").removeClass('active');
+
+		var nav_link_href = $(this).attr('href');
+
+		if (nav_link_href == '#heavy_mahine_hp') {
+	  		$("#heavy_mahine_hp_link").addClass('active');
+	  	}
+
+	  	if (nav_link_href == '#shop_house') {
+	  		$("#shop_house_link").addClass('active');
+	  	}
+
+	  	if (nav_link_href == '#auto_loan_corporate') {
+	  		$("#auto_loan_corporate_link").addClass('active');
+	  	}
+
+	  	if (nav_link_href == '#equipment_loan') {
+	  		$("#equipment_loan_link").addClass('active');
+	  	}
+	});
+
+  	$(window).on('scroll', function() {
+		var scrollTop = $(this).scrollTop();
+
+		var heavy_mahine_hp_section = $("#heavy_mahine_hp");
+		if (scrollTop > heavy_mahine_hp_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#heavy_mahine_hp_link").addClass('active');
+		}
+
+		var shop_house_section = $("#shop_house");
+		if (scrollTop > shop_house_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#shop_house_link").addClass('active');
+		}
+
+		var auto_loan_corporate_section = $("#auto_loan_corporate");
+		if (scrollTop > auto_loan_corporate_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#auto_loan_corporate_link").addClass('active');
+		}
+
+		var equipment_loan_section = $("#equipment_loan");
+		if (scrollTop > equipment_loan_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#equipment_loan_link").addClass('active');
+		}
 	});
 </script>
 @endsection('content')

@@ -27,6 +27,7 @@
 	top: 20px;
 	z-index: 99;
 }
+
 .bullet_square {
 	float: right;
 	margin-top: 7px;
@@ -45,8 +46,8 @@
 .import_financing_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 22px;
 	width: 50% !important;
 	position: absolute;
 	top: 80%;
@@ -55,8 +56,8 @@
 .import_services_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 22px;
 	width: 70% !important;
 	position: absolute;
 	top: 85%;
@@ -65,9 +66,9 @@
 .export_financing_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
-	width: 65% !important;
+	font-size: 18px;
+	line-height: 22px;
+	width: 60% !important;
 	position: absolute;
 	top: 80%;
 	left: 4%;
@@ -75,9 +76,9 @@
 .other_trade_financing_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
-	width: 40% !important;
+	font-size: 18px;
+	line-height: 22px;
+	width: 37% !important;
 	position: absolute;
 	top: 80%;
 	left: 4%;
@@ -104,13 +105,13 @@
 .accordion-open {
 	border: 2px solid #ae071d;
 	color: #ae071d;
-	padding: 10px;
+	padding: 5px;
 	margin-right: 10px;
 }
 .accordion-close {
 	border: 2px solid #fff;
 	color: #fff;
-	padding: 10px;
+	padding: 5px;
 	margin-right: 10px;
 }
 .accordion-open i, .accordion-close i {
@@ -191,9 +192,9 @@
 .margin_financing_tagline, .trust_receipt_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
-	width: 55% !important;
+	font-size: 18px;
+	line-height: 22px;
+	width: 50% !important;
 	position: absolute;
 	top: 75%;
 	left: 4%;
@@ -201,9 +202,9 @@
 .import_invoice_financing_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
-	width: 77% !important;
+	font-size: 18px;
+	line-height: 22px;
+	width: 70% !important;
 	position: absolute;
 	top: 75%;
 	left: 4%;
@@ -211,9 +212,9 @@
 .pre_shipment_financing_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
-	width: 50% !important;
+	font-size: 18px;
+	line-height: 22px;
+	width: 45% !important;
 	position: absolute;
 	top: 75%;
 	left: 4%;
@@ -221,9 +222,9 @@
 .post_shipment_financing_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
-	width: 45% !important;
+	font-size: 18px;
+	line-height: 22px;
+	width: 40% !important;
 	position: absolute;
 	top: 75%;
 	left: 4%;
@@ -231,9 +232,9 @@
 .invoice_financing_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
-	width: 55% !important;
+	font-size: 18px;
+	line-height: 22px;
+	width: 50% !important;
 	position: absolute;
 	top: 75%;
 	left: 4%;
@@ -287,8 +288,8 @@
 .import_services_letter_credit_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 22px;
 	width: 55% !important;
 	position: absolute;
 	top: 75%;
@@ -297,8 +298,8 @@
 .import_documentary_collection_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 22px;
 	width: 75% !important;
 	position: absolute;
 	top: 75%;
@@ -307,8 +308,8 @@
 .export_services_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 22px;
 	width: 70% !important;
 	position: absolute;
 	top: 82%;
@@ -317,8 +318,8 @@
 .letter_credit_advising_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 22px;
 	width: 80% !important;
 	position: absolute;
 	top: 75%;
@@ -327,8 +328,8 @@
 .letter_credit_confirmation_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 22px;
 	width: 80% !important;
 	position: absolute;
 	top: 83%;
@@ -337,8 +338,8 @@
 .export_documentary_collections_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 22px;
 	width: 60% !important;
 	position: absolute;
 	top: 77%;
@@ -347,34 +348,24 @@
 .other_trade_services_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 22px;
 	width: 70% !important;
 	position: absolute;
 	top: 82%;
 	left: 4%;
 }
 .income_document_div {
-    height: 380px;
-	background-image: url('../../../images/business/trade/trade-services/income_document_bg_3.png');
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-color: transparent;
+	height: 300px;
+    background-image: linear-gradient(235deg, transparent 40px, rgb(255 255 255) 40px);
+    padding: 10px;
+    position: relative;
+    filter: drop-shadow(0px 0px 10px #0000001a);
+    padding: 20px 40px 0px 20px;
+    margin-top: 30px;
 }
-.salaried_staff_div {
-	padding: 60px 90px 70px 60px;
-}
-.self_employ_div {
-	padding: 60px 90px 70px 60px;
-}
-.self_employ_col_6 {
-	margin-left: -50px;
-}
-.income_doc_desktop {
-	margin-left: -40px !important;
-}
-.type_of_guarantees_row > .col-md-6 {
-	width: 40%;
+.salaried_staff_div, .self_employ_div {
+	padding: 30px 70px 60px 30px;
 }
 .c-b-l-icon {
 	width: 80% !important;
@@ -405,6 +396,22 @@
 }
 .type_of_guarantees_text {
 	width: 80%;
+}
+.financial-bank-guarantee-div {
+	background-image: url(../../../images/business/trade/trade-services/financial-bank-guarantee.png);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 220px;
+    border-radius: 5px;
+}
+.performance-based-guarantee-div {
+	background-image: url(../../../images/business/trade/trade-services/performance-based-guarantee.png);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 220px;
+    border-radius: 5px;
 }
 @media (max-width: 1400px) and (min-width: 1301px) {
 	.import_financing_tagline {
@@ -441,11 +448,18 @@
 	    top: 80%;
 	}
 	.income_document_div {
-	    height: 380px;
-	    background-image: url(../../../images/business/trade/trade-services/income_document_bg_5.png);
+	    height: 370px;
+	    background-image: linear-gradient(235deg, transparent 40px, rgb(255 255 255) 40px);
+	    position: relative;
+	    filter: drop-shadow(0px 0px 10px #0000001a);
+	    padding: 40px 60px 0px 30px;
+	    margin-top: 30px;
 	}
 	.salaried_staff_div, .self_employ_div {
 	    padding: 50px 60px 70px 40px;
+	}
+	.financial-bank-guarantee-div, .performance-based-guarantee-div {
+		height: 190px;
 	}
 }
 @media (max-width: 1300px) and (min-width: 1271px) {
@@ -467,8 +481,12 @@
 		width: 20%;
 	}
 	.income_document_div{
-		height: 380px;
-    	background-image: url(../../../images/business/trade/trade-services/income_document_bg_5.png);
+    	height: 370px;
+	    background-image: linear-gradient(235deg, transparent 40px, rgb(255 255 255) 40px);
+	    position: relative;
+	    filter: drop-shadow(0px 0px 10px #0000001a);
+	    padding: 40px 60px 0px 30px;
+	    margin-top: 30px;
 	}
 	.salaried_staff_div {
 		padding: 40px 70px 70px 40px;
@@ -486,6 +504,9 @@
 	.export_services_tagline {
 	    width: 80% !important;
 	    top: 80%;
+	}
+	.financial-bank-guarantee-div, .performance-based-guarantee-div {
+		height: 190px;
 	}
 }
 @media (max-width: 1270px) and (min-width: 1000px) {
@@ -559,25 +580,26 @@
 	    margin-left: -10px;
 	}
 	.income_doc_desktop {
-		margin-left: -12px !important;
 		margin-top: 20px !important;
 	}
 	.income_document_div {
-	    height: 390px;
-		background-image: url('../../../images/business/trade/trade-services/income_document_bg_6.png');
-		padding: 30px 60px 0px 40px;
+		height: 370px;
+	    background-image: linear-gradient(235deg, transparent 40px, rgb(255 255 255) 40px);
+	    position: relative;
+	    filter: drop-shadow(0px 0px 10px #0000001a);
+	    padding: 40px 60px 0px 30px;
+	    margin-top: 30px;
 	}
 	.self_employ_col_6 {
 		margin-left: 0px;
 		padding-right: 0px !important;
 		padding-left: 0px !important;
 	}
-	.salaried_staff_col_6 {
-		padding-right: 0px !important;
-		padding-left: 0px !important;
-	}
 	.type_of_guarantees_row > .col-md-6 {
 		width: 50%;
+	}
+	.financial-bank-guarantee-div, .performance-based-guarantee-div {
+		height: 160px;
 	}
 }
 @media only screen and (max-width: 576px){
@@ -653,12 +675,19 @@
 	    margin-top: 20px !important;
 	}
 	.income_document_div {
-	    height: 410px;
+	    /*height: 410px;
 	    background-image: url(../../../images/business/trade/trade-services/income_document_bg_6.png);
 	    background-repeat: no-repeat;
 	    background-size: contain;
 	    background-color: transparent;
-	    padding: 50px 70px 0px 30px;
+	    padding: 50px 70px 0px 30px;*/
+
+	    height: 300px;
+	    background-image: linear-gradient(235deg, transparent 40px, rgb(255 255 255) 40px);
+	    position: relative;
+	    filter: drop-shadow(0px 0px 10px #0000001a);
+	    padding: 40px 60px 0px 30px;
+	    margin-top: 30px;
 	}
 	.letter-credit-icon {
 		width: 100% !important;

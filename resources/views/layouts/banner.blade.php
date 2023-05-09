@@ -2328,7 +2328,7 @@
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 20px;left: 70px;right: 20px;">
+					<div style="position: absolute;top: 20px;left: 20px;right: 50px;">
 						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span class="theme_text_color">Drive your business forward and explore</span> what you can expect from us</h1>
 					</div>
 				</div>

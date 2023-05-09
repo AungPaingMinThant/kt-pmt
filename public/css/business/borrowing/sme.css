@@ -69,9 +69,9 @@
 .working_capital_loan_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
-	width: 48% !important;
+	font-size: 18px;
+	line-height: 22px;
+	width: 43% !important;
 	position: absolute;
 	top: 80%;
 	left: 4%;
@@ -79,9 +79,9 @@
 .jica_sme_two_step_loan_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
-	width: 65% !important;
+	font-size: 18px;
+	line-height: 22px;
+	width: 60% !important;
 	position: absolute;
 	top: 80%;
 	left: 4%;
@@ -89,9 +89,9 @@
 .aya_sme_loan_tagline{
 	color: #000;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
-	width: 55% !important;
+	font-size: 18px;
+	line-height: 22px;
+	width: 50% !important;
 	position: absolute;
 	top: 80%;
 	left: 4%;
@@ -99,8 +99,8 @@
 .agriculture_loan_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 22px;
 	width: 70% !important;
 	position: absolute;
 	top: 80%;
@@ -109,8 +109,8 @@
 .miro_loan_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 22px;
 	width: 70% !important;
 	position: absolute;
 	top: 80%;
@@ -405,14 +405,14 @@
 }
 @media (max-width: 1300px) and (min-width: 1271px) {
 	.working_capital_loan_tagline{
-		width: 55% !important;
+		width: 49% !important;
 	    top: 80%;
 	}
 	.jica_sme_two_step_loan_tagline {
-	    width: 75% !important;
+	    width: 67% !important;
 	}
 	.aya_sme_loan_tagline {
-	    width: 60% !important;
+	    width: 55% !important;
 	}
 	.agriculture_loan_tagline {
 		width: 80% !important;

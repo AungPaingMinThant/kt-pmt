@@ -1,72 +1,8 @@
 @extends('layouts.frontend-app')
 
 @section('title', 'International Payments – AYA Bank')
-<style type="text/css">
-	.tab_section_1 {
-	    padding: 0px 100px !important;
-	}
-	.outer_benefit_box {
-		background-color: #fff;
-		margin-bottom: 20px;
-		margin-top: 40px;
-	}
-	.why_use_AYA_outer > .col-md-4 {
-		width: 31%;
-	}
-	.benefit_section_col {
-	    background-color: #fff;
-	    border: none !important;
-	    border-radius: 10px;
-	    padding: 0px 20px;
-	    box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%);
-	}
-	.benefit_section_col > .row {
-		padding: 10px 20px 0px 20px;
-	}
-	.visit_us_div {
-		background-image: url('../../images/business/remittance/local-payments/create_payment_order_bg.png');
-		background-size: cover;
-		border-radius: 5px;
-	}
-	.visit_us_btn {
-		background-color: #ae071d !important;
-		color: #fff !important;
-		padding: 10px 20px !important;
-		border-color: #ae071d !important;
-		float: right;
-	}
-	.visit_us_btn:hover{
-		background-color: #fff !important;
-		border-color: #ae071d !important;
-		color: #ae071d !important;
-	}
-	.benefit_icon {
-		width: 30% !important;
-	}
-	@media (max-width: 1400px) and (min-width: 577px) {
-		.why_use_AYA_outer > .col-md-4 {
-			width: 31% !important;
-		}
-		.benefit_icon {
-			width: 40% !important;
-		}
-	}
-	@media only screen and (max-width: 576px){
-		/*.why_use_AYA_outer > .col-md-6 {
-			width: 100%;
-		}*/
-		.visit_us_btn {
-			float: none;
-			margin-top: 20px;
-		}
-		.visit_us_col {
-			text-align: center;
-		}
-		.visit_us_div {
-			background-position: 97% center;
-		}
-	}
-</style>
+<link rel="stylesheet" href="{{ url('/css/business/remittance/international-payments.css') }}" />
+
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
@@ -162,18 +98,92 @@
 					<div class="space-20"></div>
 					<div class="visit_us_div p-sm-4">
 						<div class="row">
-							<div class="col-md-8 visit_us_col">
+							<div class="col-md-12 text-center visit_us_col">
 								<p class="my-md-0 fw-semibold" style="font-size: 16px;">International Banking Department, AYA Bank Head office.</p>
 								<p class="my-md-0">Alternatively, you may submit the forms at your nearest branches.</p>
 							</div>
-							<div class="col-md-4 visit_us_col text-right">
-								<a href="#" target="_blank">
+							<div class="space-30"></div>
+							<div class="col-md-6 d-none d-sm-block text-right visit_us_col">
+								<button class="btn visit_us_btn" data-bs-toggle="modal" data-bs-target="#modalCenterInternationalBanking" style="float: right;">
+									Head Office
+								</button>
+							</div>
+							<div class="col-md-6 d-none d-sm-block text-left">
+								<a href="#">
 									<button class="btn visit_us_btn">
-										Visit Us
+										Branches
+									</button>
+								</a>
+							</div>
+							<div class="col-md-12 text-center d-block d-sm-none">
+								<button class="btn visit_us_btn" data-bs-toggle="modal" data-bs-target="#modalCenterInternationalBanking">
+									Head Office
+								</button>
+								<a href="#">
+									<button class="btn visit_us_btn">
+										Branches
 									</button>
 								</a>
 							</div>
 						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="modalCenterInternationalBanking" tabindex="-1" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title fw-semibold" id="modalCenterTitle">International Banking</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-2">
+						<i class="menu-icon tf-icons bx bx-building-house theme_text_color" style="font-size: 30px;"></i>
+					</div>
+					<div class="col-10 mx-sm-n5">
+						<p class="mb-0 fw-semibold" style="font-size: 16px;">Address:</p>
+						<p>No. 416, Mahabandoola Road, Kyauktada Township, Yangon, Myanmar</p>
+					</div>
+				</div>
+				<div class="space-20"></div>
+				<div class="row">
+					<div class="col-2">
+						<i class="menu-icon tf-icons bx bx-phone-call theme_text_color" style="font-size: 30px;"></i>
+					</div>
+					<div class="col-10 mx-sm-n5">
+						<p class="mb-0 fw-semibold" style="font-size: 16px;">Hotline:</p>
+						<p class="mb-10">
+							Money Transfer Serviec (MTS): 
+							<a class="text-decoration-underline theme_text_color" href="tel:+95 9 453448814">+95 9 453448814</a>
+						</p>
+						<p class="mb-10">
+							Trade: 
+							<a class="text-decoration-underline theme_text_color" href="tel:+95 9 453448815">+95 9 453448815</a>
+						</p>
+						<p class="mb-10">
+							Outward Telegraphic Transfers (OTT): 
+							<a class="text-decoration-underline theme_text_color" href="tel:+95 9 45448816">+95 9 45448816</a>
+						</p>
+						<p class="mb-10">
+							Inward Telegraphic Transfers (ITT): 
+							<a class="text-decoration-underline theme_text_color" href="tel:+95 9 453448817">+95 9 453448817</a>
+						</p>
+
+						<p class="mb-10">Tel: <a class="text-decoration-underline theme_text_color" href="tel:+95 1 392070">+95 1 392070</a>, <a class="text-decoration-underline theme_text_color" href="tel:+95 1 392462">392462</a>, <a class="text-decoration-underline theme_text_color" href="tel:+95 1 392526">392526</a></p>
+					</div>
+				</div>
+				<div class="space-20"></div>
+				<div class="row">
+					<div class="col-2">
+						<i class="menu-icon tf-icons bx bx-envelope theme_text_color" style="font-size: 30px;"></i>
+					</div>
+					<div class="col-10 mx-sm-n5">
+						<p class="mb-0 fw-semibold" style="font-size: 16px;">Email:</p>
+						<p><a class="text-decoration-underline theme_text_color" href="mailto:ibdteam@ayabank.com">ibdteam@ayabank.com</a></p>
 					</div>
 				</div>
 			</div>

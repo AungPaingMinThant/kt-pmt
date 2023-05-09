@@ -194,32 +194,36 @@
 								<div class="row ">
 									<div class="col-md-1"></div>
 									<div class="col-md-11">
-										<div class="row">
+										<div class="row tab_data_row" style="column-gap: 30px;">
 											<div class="col-md-12">
 												<p class="fw-semibold" style="font-size: 20px;">Premium Rating</p>
 												<p>Based on Total Contract Value (TCV) upon completion which includes:</p>
 											</div>
 
-											<div class="col-md-6">
+											<div class="col-md-5 prod_highlight_1 benefit_feature_box">
 												<p class="fw-semibold theme_text_color">I. Engineering Costs</p>
 												<p class="mb-0">Cost of goods or works of suppliers (i.e., material cost) including:</p>
-												<p>Tax, custom duties, Insurance cost, transportation cost, Cost of construction/ erection (i.e., labor cost), Various other costs (e.g., commission)</p>
+												<p class="mb-0">Tax, custom duties, Insurance cost, transportation cost, Cost of construction/ erection (i.e., labor cost), Various other costs (e.g., commission)</p>
 											</div>
 
-											<div class="col-md-6">
+											<div class="col-md-5 prod_highlight_2 benefit_feature_box">
 												<p class="fw-semibold theme_text_color">II.Service Equipment Supplied by the Principal</p>
 												<p class="mb-0">Construction/Erection Period Works Period<br>Commences</p>
-												<ul>
+												<ul style="margin-left: 40px;">
 													<li>Directly upon commencement of work or</li>
 													<li>At the time after the unloading of subject matter of insurance from the conveyance on the site</li>
 												</ul>
 											</div>
 
+											<div class="space-40"></div>
+											
 											<div class="col-md-12">
 												<p class="fw-semibold" style="font-size: 20px;">Expires</p>
 												<p>At the time when the works are taken over by the principal or put into service or the date specified in the schedule.</p>
 											</div>
 
+											<div class="space-30"></div>
+											
 											<div class="col-md-12">
 												<p class="fw-semibold" style="font-size: 20px;">Policy Term</p>
 												<p>Maximum policy term 1 year (Renewable on a yearly basis)</p>
@@ -241,7 +245,7 @@
 					</div>
 					<div class="col-md-3 col-xs-12 text-right d-none d-sm-block" style="padding-top: 10px;padding-left: 0px;text-align: right;">
 						<a href="#" target="_blank">
-							<button class="btn read_more_btn">More Details</button>
+							<button class="btn read_more_btn">Find Branches</button>
 						</a>
 					</div>
 
@@ -251,7 +255,7 @@
 					</div>
 					<div class="col-md-3 col-xs-12 text-center d-block d-sm-none" style="padding-top: 20px;padding-left: 0px;text-align: right;">
 						<a href="#" target="_blank">
-							<button class="btn read_more_btn">More Details</button>
+							<button class="btn read_more_btn">Find Branches</button>
 						</a>
 					</div>
 				</div>
@@ -262,7 +266,7 @@
 					<div class="col-md-12 col-xs-12">
 						<p class="disclaimer_title">Disclaimers</p>
 						<p style="color: #777777;font-weight: 400;font-size: 12px;">
-							This Contractor’s All Risk & Erection All Risk is underwritten by AYA SOMPO Insurance Company Ltd and distributed by AYA Bank Co Ltd. It is not an obligation of, deposit in or guaranteed by AYA Bank. AYA SOMPO Insurance Company Ltd reserves the right of final approval. Full details of the terms, conditions and exclusions of the insurance are provided in the policy wordings and will be sent to you upon acceptance of your application by AYA SOMPO Insurance Company Ltd.
+							This Contractor’s All Risk & Erection All Risk is underwritten by AYA SOMPO Insurance Company Ltd and distributed by AYA Bank PCL. It is not an obligation of, deposit in or guaranteed by AYA Bank. AYA SOMPO Insurance Company Ltd reserves the right of final approval. Full details of the terms, conditions and exclusions of the insurance are provided in the policy wordings and will be sent to you upon acceptance of your application by AYA SOMPO Insurance Company Ltd.
 						<p style="color: #777777;font-weight: 400;font-size: 12px;">
 							This webpage contains only general information and does not have regard to the specific investment objectives, financial situation and the particular needs of any specific person. It is not intended as an offer or recommendation to buy the product. A copy of the product summary can be obtained from AYA Bank branches. The contract of insurance is between the insurer and the insured and not between the Bank and the insured. Bank does not give any warranty, as to the accuracy and completeness of the policies. Bank does not accept any liability or losses attributable to your contract of Insurance. Participation by the Bank’s customers in the insurance products is purely on a voluntary basis and is not linked to availment of any other facility from the bank.
 						</p>

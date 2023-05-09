@@ -757,15 +757,15 @@
 		background-position: 60% center;
 	}
 	.bu_borrowing_corporate_business_loan_banner_tagline {
-		top: 60px;
-	    right: 30px;
+		top: 120px;
+	    right: 60px;
 	    left: 0px;
 	}
 	.bu_borrowing_hire_purchase_banner{
 		background-position: 60% center;
 	}
 	.bu_borrowing_hire_purchase_banner_tagline {
-		top: 60px;
+		top: 150px;
 	    right: 30px;
 	    left: 20px;
 	}
@@ -773,7 +773,7 @@
 		background-position: 60% center;
 	}
 	.bu_borrowing_SME_banner_tagline {
-		top: 60px;
+		top: 150px;
 	    right: 30px;
 	    left: 20px;
 	}
@@ -798,7 +798,7 @@
 	}
 	.bu_cash_management_banner_tagline {
 		top: 130px;
-	    right: 30px;
+	    right: 90px;
 	    left: 40px;
 	}
 	.bu_domestic_marine_cargo_insurance_tagline {

@@ -44,9 +44,9 @@
 .payroll_service_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
-	width: 55% !important;
+	font-size: 18px;
+	line-height: 22px;
+	width: 50% !important;
 	position: absolute;
 	top: 80%;
 	left: 4%;
@@ -54,29 +54,39 @@
 .receivables_service_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
-	width: 40% !important;
+	font-size: 18px;
+	line-height: 22px;
+	width: 38% !important;
 	position: absolute;
 	top: 80%;
 	left: 4%;
 }
-.bulk_payment_payables_services_tagline, .franchise_financing_tagline, .trade_financing_tagline {
+.franchise_financing_tagline, .trade_financing_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 22px;
 	width: 50% !important;
 	position: absolute;
 	top: 80%;
 	left: 4%;
 }
+.bulk_payment_payables_services_tagline {
+	color: #fff;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	width: 70% !important;
+	position: absolute;
+	top: 85%;
+	left: 4%;
+}
 .liquidity_service_tagline {
 	color: #fff;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 24px;
-	width: 60% !important;
+	font-size: 18px;
+	line-height: 22px;
+	width: 53% !important;
 	position: absolute;
 	top: 80%;
 	left: 4%;

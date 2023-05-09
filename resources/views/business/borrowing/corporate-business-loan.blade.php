@@ -47,44 +47,44 @@
 				<div class="col-md-12">
 					<div class="row">
 						<div class="col-md-12">
-							<h3 class="fw-bold">Offering Loan & Financing</h3>
+							<p class="fw-bold" style="font-size: 16px;">What We Offer for Corporate Business Loans</p>
 						</div>
 						<div class="space-20"></div>
 						<div class="col-md-4 d-none d-sm-block">
 							<nav id="myScrollspy">
 								<ul class="nav nav-pills flex-column">
 									<li class="nav-item">
-										<a class="nav-link active" href="#capex_financing">
+										<a class="nav-link active" id="capex_financing_link" href="#capex_financing">
 											<span class="pr-5">CAPEX Financing / Assets Acquisition Financing</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link working_capital_financing_link" href="#working_capital_financing">
+										<a class="nav-link" id="working_capital_financing_link" href="#working_capital_financing">
 											<span>Working Capital Financing (Overdraft – OD)</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#demand_loan">
+										<a class="nav-link" id="demand_loan_link" href="#demand_loan">
 											<span>Demand Loan</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#project_loan_tender_contract_loan">
+										<a class="nav-link" id="project_loan_tender_contract_loan_link" href="#project_loan_tender_contract_loan">
 											<span class="pr-5">Project Loan / Tender Contract Loan</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#franchise_financing">
+										<a class="nav-link" id="franchise_financing_link" href="#franchise_financing">
 											<span class="pr-5">Franchise Financing</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#trade_financing">
+										<a class="nav-link" id="trade_financing_link" href="#trade_financing">
 											<span class="pr-5">Trade Financing</span>
 											<hr class="nav-item-separate">
 										</a>
@@ -94,7 +94,7 @@
 						</div>
 						<div class="col-md-8">
 							<div id="scroll_content" data-spy="scroll" data-target="#myScrollspy" data-offset="10" style="">
-								<p id="capex_financing">
+								<p class="offers_div" id="capex_financing">
 									CAPEX Financing / Assets Acquisition Financing
 								</p>
 								<div class="row" style="position: relative;">
@@ -157,7 +157,7 @@
 									</div>
 								</div>
 
-								<div class="space-40" id="working_capital_financing"></div>
+								<div class="space-40 offers_div" id="working_capital_financing"></div>
 								<p class="working_capital_financing">
 									Working Capital Financing (Overdraft – OD)
 								</p>
@@ -219,7 +219,7 @@
 									</div>
 								</div>
 
-								<div class="space-40" id="demand_loan"></div>
+								<div class="space-40 offers_div" id="demand_loan"></div>
 								<p class="demand_loan">
 									Demand Loan
 								</p>
@@ -297,7 +297,7 @@
 									</div>
 								</div>
 
-								<div class="space-40" id="project_loan_tender_contract_loan"></div>
+								<div class="space-40 offers_div" id="project_loan_tender_contract_loan"></div>
 								<p class="project_loan_tender_contract_loan">
 									Project Loan / Tender Contract Loan
 								</p>
@@ -359,7 +359,7 @@
 									</div>
 								</div>
 
-								<div class="space-40" id="franchise_financing"></div>
+								<div class="space-40 offers_div" id="franchise_financing"></div>
 								<p class="franchise_financing">
 									Franchise Financing
 								</p>
@@ -373,7 +373,7 @@
 									<p>Work with us to receive the type of financing you need to improve your franchised shop and expand business. Our non-revolving credit facility is granted to end-borrower for their franchise business establishment. AYA Bank facilitates finance to franchised customers with collaterals in return for borrowing funds.</p>
 								</div>
 
-								<div class="space-40" id="trade_financing"></div>
+								<div class="space-40 offers_div" id="trade_financing"></div>
 								<p class="trade_financing">
 									Trade Financing
 								</p>
@@ -409,9 +409,108 @@
 <div class="space-60"></div>
 @include('layouts.footer', ['page'=>'mobilebanking'])
 <script type="text/javascript">
-	$(".nav-link").click(function() {
-		$(".nav-link").addClass('active');
-		$(".nav-link").not(this).removeClass('active');
+	var cur_url = window.location.href;
+	var parts = cur_url.split('#');
+	var last_part = parts.at(-1);
+
+	if (last_part == 'capex_financing') {
+		$(".nav-link").removeClass('active');
+  		$("#capex_financing_link").addClass('active');
+  	}
+
+  	if (last_part == 'working_capital_financing') {
+  		$(".nav-link").removeClass('active');
+  		$("#working_capital_financing_link").addClass('active');
+  	}
+
+  	if (last_part == 'demand_loan') {
+		$(".nav-link").removeClass('active');
+  		$("#demand_loan_link").addClass('active');
+  	}
+
+  	if (last_part == 'project_loan_tender_contract_loan') {
+		$(".nav-link").removeClass('active');
+  		$("#project_loan_tender_contract_loan_link").addClass('active');
+  	}
+
+  	if (last_part == 'franchise_financing') {
+		$(".nav-link").removeClass('active');
+  		$("#franchise_financing_link").addClass('active');
+  	}
+
+  	if (last_part == 'trade_financing') {
+		$(".nav-link").removeClass('active');
+  		$("#trade_financing_link").addClass('active');
+  	}
+
+	$(".nav-link").click(function(e) {
+		$(".nav-link").removeClass('active');
+
+		var nav_link_href = $(this).attr('href');
+
+		if (nav_link_href == '#capex_financing') {
+	  		$("#capex_financing_link").addClass('active');
+	  	}
+
+	  	if (nav_link_href == '#working_capital_financing') {
+	  		$("#working_capital_financing_link").addClass('active');
+	  	}
+
+	  	if (nav_link_href == '#demand_loan') {
+	  		$("#demand_loan_link").addClass('active');
+	  	}
+
+	  	if (nav_link_href == '#project_loan_tender_contract_loan') {
+	  		$("#project_loan_tender_contract_loan_link").addClass('active');
+	  	}
+
+	  	if (nav_link_href == '#franchise_financing') {
+	  		$("#franchise_financing_link").addClass('active');
+	  	}
+
+	  	if (nav_link_href == '#trade_financing') {
+	  		$("#trade_financing_link").addClass('active');
+	  	}
+	});
+
+  	$(window).on('scroll', function() {
+		var scrollTop = $(this).scrollTop();
+
+		var capex_financing_section = $("#capex_financing");
+		if (scrollTop > capex_financing_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#capex_financing_link").addClass('active');
+		}
+
+		var working_capital_financing_section = $("#working_capital_financing");
+		if (scrollTop > working_capital_financing_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#working_capital_financing_link").addClass('active');
+		}
+
+		var demand_loan_section = $("#demand_loan");
+		if (scrollTop > demand_loan_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#demand_loan_link").addClass('active');
+		}
+
+		var prj_tender_contract_loan_section = $("#project_loan_tender_contract_loan");
+		if (scrollTop > prj_tender_contract_loan_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#project_loan_tender_contract_loan_link").addClass('active');
+		}
+
+		var franchise_financing_section = $("#franchise_financing");
+		if (scrollTop > franchise_financing_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#franchise_financing_link").addClass('active');
+		}
+
+		var trade_financing_section = $("#trade_financing");
+		if (scrollTop > trade_financing_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#trade_financing_link").addClass('active');
+		}
 	});
 </script>
 @endsection('content')

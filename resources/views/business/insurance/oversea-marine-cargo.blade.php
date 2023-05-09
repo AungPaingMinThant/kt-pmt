@@ -265,7 +265,7 @@
 													<li>Season of the Trip</li>
 												</ul>
 											</div>
-
+											<div class="space-20"></div>
 											<div class="col-md-12">
 												<p style="font-size: 20px;font-weight: 600;">Policy Term</p>
 												<p>Coverage is applicable for single voyage.</p>
@@ -287,7 +287,7 @@
 					</div>
 					<div class="col-md-3 col-xs-12 text-right d-none d-sm-block" style="padding-top: 10px;padding-left: 0px;text-align: right;">
 						<a href="#" target="_blank">
-							<button class="btn read_more_btn">More Details</button>
+							<button class="btn read_more_btn">Find Branches</button>
 						</a>
 					</div>
 
@@ -297,7 +297,7 @@
 					</div>
 					<div class="col-md-3 col-xs-12 text-center d-block d-sm-none" style="padding-top: 20px;padding-left: 0px;text-align: right;">
 						<a href="#" target="_blank">
-							<button class="btn read_more_btn">More Details</button>
+							<button class="btn read_more_btn">Find Branches</button>
 						</a>
 					</div>
 				</div>
@@ -307,7 +307,7 @@
 				<div class="row px-0">
 					<p class="disclaimer_title">Disclaimers</p>
 					<p style="color: #777777;font-weight: 400;font-size: 12px;">
-						This Oversea Marine Cargo Insurance is underwritten by AYA SOMPO Insurance Company Ltd and distributed by AYA Bank Co Ltd. It is not an obligation of, deposit in or guaranteed by AYA Bank. AYA SOMPO Insurance Company Ltd reserves the right of final approval. Full details of the terms, conditions and exclusions of the insurance are provided in the policy wordings and will be sent to you upon acceptance of your application by AYA SOMPO Insurance Company Ltd.
+						This Oversea Marine Cargo Insurance is underwritten by AYA SOMPO Insurance Company Ltd and distributed by AYA Bank PCL. It is not an obligation of, deposit in or guaranteed by AYA Bank. AYA SOMPO Insurance Company Ltd reserves the right of final approval. Full details of the terms, conditions and exclusions of the insurance are provided in the policy wordings and will be sent to you upon acceptance of your application by AYA SOMPO Insurance Company Ltd.
 					<p style="color: #777777;font-weight: 400;font-size: 12px;">
 						This webpage contains only general information and does not have regard to the specific investment objectives, financial situation and the particular needs of any specific person. It is not intended as an offer or recommendation to buy the product. A copy of the product summary can be obtained from AYA Bank branches. The contract of insurance is between the insurer and the insured and not between the Bank and the insured. Bank does not give any warranty, as to the accuracy and completeness of the policies. Bank does not accept any liability or losses attributable to your contract of Insurance. Participation by the Bank’s customers in the insurance products is purely on a voluntary basis and is not linked to availment of any other facility from the bank.
 					</p>

@@ -78,7 +78,8 @@
 
 				<div class="space-40"></div>
 				<div class="col-md-12">
-					<h3 class="fw-bold">Success Story</h3>
+					<!-- <h3 class="fw-bold">Success Story</h3> -->
+					<p class="fw-bold" style="font-size: 18px;">Success Story</p>
 				</div>
 			</div>
 
@@ -144,37 +145,38 @@
 				<div class="col-md-12">
 					<div class="row">
 						<div class="col-md-12">
-							<h3 class="fw-bold">Offering Loan</h3>
+							<!-- <h3 class="fw-bold">What We Offer for SME Loans</h3> -->
+							<p class="fw-bold" style="font-size: 18px;">What We Offer for SME Loans</p>
 						</div>
 						<div class="col-md-4 d-none d-sm-block">
 							<nav id="myScrollspy">
 								<ul class="side-nav nav nav-pills flex-column">
 									<li class="">
-										<a class="side-link active working_capital_link" href="#working_capital_loan_over_draft" style="width: 80%;">
+										<a class="side-link active" id="working_capital_loan_over_draft_link" href="#working_capital_loan_over_draft" style="width: 80%;">
 											<span class="pr-5">Working Capital Loan (Overdraft – OD)</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="">
-										<a class="side-link" href="#jica_sme_two_step_loan">
+										<a class="side-link" id="jica_sme_two_step_loan_link" href="#jica_sme_two_step_loan">
 											<span class="pr-5">JICA SME Two Step Loan</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="">
-										<a class="side-link" href="#aya_sme_loan">
+										<a class="side-link" id="aya_sme_loan_link" href="#aya_sme_loan">
 											<span class="pr-5">AYA SME Loan</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="">
-										<a class="side-link" href="#agriculture_loan">
+										<a class="side-link" id="agriculture_loan_link" href="#agriculture_loan">
 											<span class="pr-5">Agriculture Loan</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="">
-										<a class="side-link" href="#micro_loan">
+										<a class="side-link" id="micro_loan_link" href="#micro_loan">
 											<span class="pr-5">Micro Loan</span>
 											<hr class="nav-item-separate">
 										</a>
@@ -824,14 +826,98 @@
 @include('layouts.footer', ['page'=>'mobilebanking'])
 <script src="{{ url('/js/swiper-bundle.min.js') }}"></script>
 <script type="text/javascript">
+	var cur_url = window.location.href;
+	var parts = cur_url.split('#');
+	var last_part = parts.at(-1);
+
 	$(".nav-link").click(function() {
 		$(".nav-link").addClass('active');
 		$(".nav-link").not(this).removeClass('active');
 	});
 
-	$(".side-link").click(function() {
-		$(".side-link").addClass('active');
-		$(".side-link").not(this).removeClass('active');
+	$(".side-link").click(function(e) {
+		$(".side-link").removeClass('active');
+
+		var nav_link_href = $(this).attr('href');
+
+		if (nav_link_href == '#working_capital_loan_over_draft') {
+	  		$("#working_capital_loan_over_draft_link").addClass('active');
+	  	}
+
+	  	if (nav_link_href == '#jica_sme_two_step_loan') {
+	  		$("#jica_sme_two_step_loan_link").addClass('active');
+	  	}
+
+	  	if (nav_link_href == '#aya_sme_loan') {
+	  		$("#aya_sme_loan_link").addClass('active');
+	  	}
+
+	  	if (nav_link_href == '#agriculture_loan') {
+	  		$("#agriculture_loan_link").addClass('active');
+	  	}
+
+	  	if (nav_link_href == '#micro_loan') {
+	  		$("#micro_loan_link").addClass('active');
+	  	}
+	});
+
+	if (last_part == 'working_capital_loan_over_draft') {
+		$(".side-link").removeClass('active');
+  		$("#working_capital_loan_over_draft_link").addClass('active');
+  	}
+
+  	if (last_part == 'jica_sme_two_step_loan') {
+  		$(".side-link").removeClass('active');
+  		$("#jica_sme_two_step_loan_link").addClass('active');
+  	}
+
+  	if (last_part == 'aya_sme_loan') {
+		$(".side-link").removeClass('active');
+  		$("#aya_sme_loan_link").addClass('active');
+  	}
+
+  	if (last_part == 'agriculture_loan') {
+		$(".side-link").removeClass('active');
+  		$("#agriculture_loan_link").addClass('active');
+  	}
+
+  	if (last_part == 'micro_loan') {
+		$(".side-link").removeClass('active');
+  		$("#micro_loan_link").addClass('active');
+  	}
+
+  	$(window).on('scroll', function() {
+		var scrollTop = $(this).scrollTop();
+
+		var working_capital_loan_over_draft_section = $("#working_capital_loan_over_draft");
+		if (scrollTop > working_capital_loan_over_draft_section.offset().top - 60) {
+			$(".side-link").removeClass('active');
+  			$("#working_capital_loan_over_draft_link").addClass('active');
+		}
+
+		var jica_sme_two_step_loan_section = $("#jica_sme_two_step_loan");
+		if (scrollTop > jica_sme_two_step_loan_section.offset().top - 60) {
+			$(".side-link").removeClass('active');
+  			$("#jica_sme_two_step_loan_link").addClass('active');
+		}
+
+		var aya_sme_loan_section = $("#aya_sme_loan");
+		if (scrollTop > aya_sme_loan_section.offset().top - 60) {
+			$(".side-link").removeClass('active');
+  			$("#aya_sme_loan_link").addClass('active');
+		}
+
+		var agriculture_loan_section = $("#agriculture_loan");
+		if (scrollTop > agriculture_loan_section.offset().top - 60) {
+			$(".side-link").removeClass('active');
+  			$("#agriculture_loan_link").addClass('active');
+		}
+
+		var micro_loan_section = $("#micro_loan");
+		if (scrollTop > micro_loan_section.offset().top - 60) {
+			$(".side-link").removeClass('active');
+  			$("#micro_loan_link").addClass('active');
+		}
 	});
 
 	$(".apply-tab-link").click(function() {

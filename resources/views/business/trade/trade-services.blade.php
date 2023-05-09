@@ -17,25 +17,25 @@
 				<div class="col-md-12">
 					<div class="row">
 						<div class="col-md-12">
-							<h3 class="fw-semibold" style="font-size: 18px;">Offering Services</h3>
+							<p class="fw-semibold" style="font-size: 18px;">Available Trade Services</p>
 						</div>
 						<div class="col-md-4 d-none d-sm-block">
 							<nav id="myScrollspy">
 								<ul class="nav nav-pills flex-column">
 									<li class="nav-item">
-										<a class="nav-link active" href="#import_services">
+										<a class="nav-link active" id="import_services_link" href="#import_services">
 											<span class="pr-5">Import Services</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#export_services">
+										<a class="nav-link" id="export_services_link" href="#export_services">
 											<span>Export Services</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#other_trade_services">
+										<a class="nav-link" id="other_trade_services_link" href="#other_trade_services">
 											<span class="pr-5">Other Trade Services</span>
 											<hr class="nav-item-separate">
 										</a>
@@ -58,7 +58,7 @@
 										<div class="accordion import-financing-accord" id="accordionExample">
 											<div class="accordion-item">
 												<h2 class="accordion-header b-b-none" id="headingOne">
-													<button class="accordion-button pl-20" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+													<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="padding: 10px 0px 10px 20px !important;">
 														<span class="accordion-open">
 															<i class="menu-icon tf-icons bx bx-plus"></i>
 														</span>
@@ -127,7 +127,7 @@
 											</div>
 											<div class="accordion-item">
 												<h2 class="accordion-header b-b-none" id="headingTwo">
-													<button class="accordion-button pl-20 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" style="padding: 10px 0px 10px 20px !important;">
 														<span class="accordion-open">
 															<i class="menu-icon tf-icons bx bx-plus"></i>
 														</span>
@@ -213,7 +213,7 @@
 										<div class="accordion import-financing-accord" id="accordionExample">
 											<div class="accordion-item">
 												<h2 class="accordion-header b-b-none" id="headingExportOne">
-													<button class="accordion-button pl-20 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExportServicesOne" aria-expanded="true" aria-controls="collapseExportServicesOne">
+													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExportServicesOne" aria-expanded="true" aria-controls="collapseExportServicesOne" style="padding: 10px 0px 10px 20px !important;">
 														<span class="accordion-open">
 															<i class="menu-icon tf-icons bx bx-plus"></i>
 														</span>
@@ -281,7 +281,7 @@
 											</div>
 											<div class="accordion-item">
 												<h2 class="accordion-header b-b-none" id="headingExportTwo">
-													<button class="accordion-button pl-20 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExporServicestTwo" aria-expanded="true" aria-controls="collapseExporServicestTwo">
+													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExporServicestTwo" aria-expanded="true" aria-controls="collapseExporServicestTwo" style="padding: 10px 0px 10px 20px !important;">
 														<span class="accordion-open">
 															<i class="menu-icon tf-icons bx bx-plus"></i>
 														</span>
@@ -307,7 +307,7 @@
 																	<img src="{{ url('/images/business/trade/trade-services/letter_of_credit_confirmation_benefit_1.png') }}" class="img-fluid letter-credit-icon">
 																</td>
 																<td>
-																	<p>the country risk and insolvency risk of the issuing bank are eliminated,</p>
+																	<p>The country risk and insolvency risk of the issuing bank are eliminated</p>
 																</td>
 															</tr>
 															<tr>
@@ -347,7 +347,7 @@
 											</div>
 											<div class="accordion-item">
 												<h2 class="accordion-header b-b-none" id="headingExportTwo">
-													<button class="accordion-button pl-20 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExporServicestThree" aria-expanded="true" aria-controls="collapseExporServicestThree">
+													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExporServicestThree" aria-expanded="true" aria-controls="collapseExporServicestThree" style="padding: 10px 0px 10px 20px !important;">
 														<span class="accordion-open">
 															<i class="menu-icon tf-icons bx bx-plus"></i>
 														</span>
@@ -527,14 +527,19 @@
 									
 									<div class="row type_of_guarantees_row">
 										<div class="col-md-6">
-											<img src="{{ url('/images/business/trade/trade-services/financial-bank-guarantee.png') }}" class="img-fluid mb-20">
-											<p class="theme_text_color fw-semibold">Financial Bank guarantee</p>
-											<p class="type_of_guarantees_text">We guarantee on behalf of the buyer / borrower to repay the debts owed to the seller / lender.</p>
+											<!-- <img src="{{ url('/images/business/trade/trade-services/financial-bank-guarantee.png') }}" class="img-fluid mb-20"> -->
+											<div class="financial-bank-guarantee-div"></div>
+											<div class="row">
+												<p class="theme_text_color fw-semibold">Financial Bank guarantee</p>
+												<p class="type_of_guarantees_text">We guarantee on behalf of the buyer / borrower to repay the debts owed to the seller / lender.</p>
+											</div>
 										</div>
 										<div class="col-md-6">
-											<img src="{{ url('/images/business/trade/trade-services/performance-based-guarantee.png') }}" class="img-fluid mb-20">
-											<p class="theme_text_color fw-semibold">Performance-based guarantee</p>
-											<p class="type_of_guarantees_text">The beneficiary can claim resulting losses from non-performance as laid out in the contract.</p>
+											<div class="performance-based-guarantee-div"></div>
+											<div class="row">
+												<p class="theme_text_color fw-semibold">Performance-based guarantee</p>
+												<p class="type_of_guarantees_text">The beneficiary can claim resulting losses from non-performance as laid out in the contract.</p>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -559,9 +564,65 @@
 <div class="space-60"></div>
 @include('layouts.footer', ['page'=>'mobilebanking'])
 <script type="text/javascript">
-	$(".nav-link").click(function() {
-		$(".nav-link").addClass('active');
-		$(".nav-link").not(this).removeClass('active');
+	var cur_url = window.location.href;
+	var parts = cur_url.split('#');
+	var last_part = parts.at(-1);
+
+	$(".nav-link").click(function(e) {
+		$(".nav-link").removeClass('active');
+
+		var nav_link_href = $(this).attr('href');
+
+		if (nav_link_href == '#import_services') {
+	  		$("#import_services_link").addClass('active');
+	  	}
+
+	  	if (nav_link_href == '#export_services') {
+	  		$("#export_services_link").addClass('active');
+	  	}
+
+	  	if (nav_link_href == '#other_trade_services') {
+	  		$("#other_trade_services_link").addClass('active');
+	  	}
 	});
+
+    if (last_part == 'import_services') {
+		$(".nav-link").removeClass('active');
+  		$("#import_services_link").addClass('active');
+  	}
+
+  	if (last_part == 'export_services') {
+  		$(".nav-link").removeClass('active');
+  		$("#export_services_link").addClass('active');
+  	}
+
+  	if (last_part == 'other_trade_services') {
+		$(".nav-link").removeClass('active');
+  		$("#other_trade_services_link").addClass('active');
+  	}
+
+	
+  	$(window).on('scroll', function() {
+		var scrollTop = $(this).scrollTop();
+
+		var import_services_section = $("#import_services");
+		if (scrollTop > import_services_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#import_services_link").addClass('active');
+		}
+
+		var export_services_section = $("#export_services");
+		if (scrollTop > export_services_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#export_services_link").addClass('active');
+		}
+
+		var other_trade_services_section = $("#other_trade_services");
+		if (scrollTop > other_trade_services_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#other_trade_services_link").addClass('active');
+		}
+	});
+
 </script>
 @endsection('content')

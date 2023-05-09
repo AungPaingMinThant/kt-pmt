@@ -34,7 +34,7 @@ input[type="radio"] {
 	align-items: center;
 	justify-content: center;
 	height: 54px;
-	width: 200px;
+	width: 380px;
 	font-size: 16px;
 	font-weight: 500;
 	border-radius: 99px;
@@ -76,22 +76,41 @@ input[id="radio-3"]:checked ~ .glider {
 	position: absolute;
 	display: flex;
 	height: 54px;
-	width: 200px;
+	width: 380px;
 	background-color: #fff;
 	z-index: 1;
 	border-radius: 99px;
 	transition: 0.25s ease-out;
 }
+@media (max-width: 1400px) and (min-width: 1301px) {
+	.glider, .tab {
+		width: 330px;
+	}
+}
+@media (max-width: 1300px) and (min-width: 1201px) {
+	.glider, .tab {
+   		width: 330px;
+	}
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+	.glider, .tab {
+   		width: 270px;
+	}
+}
 @media (max-width: 700px) {
 	.tabs {
 		transform: scale(0.6);
 	}
+
+	.glider, .tab {
+   		width: 200px;
+	}
 }
 @media only screen and (max-width: 576px){
 	.tab, .glider {
-		height: 65px;
+		height: 80px;
 	}
 	.tab {
-		font-size: 18px !important;
+		font-size: 19px !important;
 	}
 }
