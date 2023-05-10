@@ -140,4 +140,7 @@ Route::get('/business/insurance/car-ear','App\Http\Controllers\Business\Insuranc
 Route::get('/business/insurance/industrial-all-risk','App\Http\Controllers\Business\InsuranceController@IARIndex');
 Route::get('/business/insurance/group-life','App\Http\Controllers\Business\InsuranceController@groupLifeIndex');
 
+
+Route::get('/test','App\Http\Controllers\HomeController@testIndex');
+
 // contact-us

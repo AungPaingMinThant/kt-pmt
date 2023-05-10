@@ -2813,3 +2813,15 @@
 		</div>
 	</div>
 @endif
+
+
+@if($page == 'test')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<h1 class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">TEST</span>
+			</h1>
+		</div>
+	</div>
+@endif

@@ -10,4 +10,9 @@ class HomeController extends Controller
     {
         return view('landing.index');
     }
+
+    public function testIndex()
+    {
+        return view('test.index');
+    }
 }
