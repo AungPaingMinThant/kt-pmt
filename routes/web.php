@@ -141,6 +141,6 @@ Route::get('/business/insurance/industrial-all-risk','App\Http\Controllers\Busin
 Route::get('/business/insurance/group-life','App\Http\Controllers\Business\InsuranceController@groupLifeIndex');
 
 
-Route::get('/test','App\Http\Controllers\HomeController@testIndex');
-
 // contact-us
+
+Route::get('/test','App\Http\Controllers\HomeController@testIndex');
