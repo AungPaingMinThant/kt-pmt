@@ -135,9 +135,6 @@
 
 			<div class="container section_1">
 				<div class="space-40"></div>
-				<video class="img-fluid" autoplay loop muted>
-								<source src="{{ url('/images/home/desk.mp4') }}" type="video/mp4" />
-							</video>
 				<div class="row">
 					<div class="col-md-6 mbaning_div">
 						<div class="row" style="width: 100%">
