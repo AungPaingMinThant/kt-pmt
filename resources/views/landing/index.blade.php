@@ -21,7 +21,11 @@
 					</ol>
 					<div class="carousel-inner active">
 						<div class="carousel-item active">
-							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_1.jpg') }}" alt="First slide" />
+							<!-- loop.mp4 -->
+							<!-- <img class="d-block w-100" src="{{ url('/images/home/KV_slider_1.jpg') }}" alt="First slide" /> -->
+							<video class="img-fluid" autoplay loop muted>
+								<source src="{{ url('/images/home/desk.mp4') }}" type="video/mp4" />
+							</video>
 							<div class="row carousel-caption">
 								<div class="col-md-6"></div>
 								<div class="col-md-6">
@@ -79,13 +83,15 @@
 						<li data-bs-target="#carouselExample-cf-mobile" data-bs-slide-to="4"></li>
 					</ol> -->
 					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_mobile_1.jpg') }}" alt="First slide" />
-							<div class="row carousel-caption">
+						<!-- <div class="carousel-item active">
+							<video class="img-fluid" autoplay loop muted>
+								<source src="{{ url('/images/home/mobile.mp4') }}" type="video/mp4" />
+							</video>
+							<div class="row carousel-caption carousel-caption-mobile-2">
 								<div class="col-md-12">
-									<div class="carousel-left-1">
+									<div class="carousel-right-2">
 										<p class="carousel-caption-title">Creating</p>
-										<p class="carousel-caption-desc">your Financial World <br>in One Bank.</p>
+										<p class="carousel-caption-desc-2 mb-10">your Financial World <br>in One Bank.</p>
 									</div>
 								</div>
 							</div>
@@ -101,8 +107,8 @@
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="carousel-item">
+						</div> -->
+						<div class="carousel-item active">
 							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_mobile_3.jpg') }}" alt="Third slide" />
 							<div class="row carousel-caption">
 								<div class="col-md-6"></div>
@@ -110,7 +116,7 @@
 									<div class="carousel-left-1">
 										<p class="carousel-caption-title carousel-caption-title-3-1">Moving Forward,</p>
 										<p class="carousel-caption-title carousel-caption-title-3-2">Going Digital,</p>
-										<p class="carousel-caption-desc carousel-caption-3-desc" style="width: 	50%;">Experience the New AYA on the Go!</p>
+										<p class="carousel-caption-desc carousel-caption-3-desc" style="width: 50%;margin-right: -40px;">Experience the New AYA on the Go!</p>
 									</div>
 								</div>
 							</div>
