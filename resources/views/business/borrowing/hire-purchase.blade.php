@@ -133,7 +133,7 @@
 				<div class="col-md-12">
 					<div class="row">
 						<div class="col-md-12">
-							<p class="fw-bold" style="font-size: 18px;">What We Offer for Hire Purchase</p>
+							<p class="fw-bold" style="font-size: 18px;">What We Offer</p>
 						</div>
 						<div class="col-md-4 d-none d-sm-block">
 							<nav id="myScrollspy">

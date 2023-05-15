@@ -295,7 +295,7 @@
 									<p>We provide various types of funding and services to the exporters to facilitate the exports from the country. Exporters are financed for the purchase of capital goods through a loan agreement granted to the importer. This short-term loan helps businesses fulfill orders from oversea customers.</p>
 									<div class="space-20"></div>
 									<div class="col-md-12">
-										<div class="accordion import-financing-accord" id="accordionExample">
+										<div class="accordion export-financing-accord" id="accordionExportExample">
 											<div class="accordion-item">
 												<h2 class="accordion-header b-b-none" id="headingExportOne">
 													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExportOne" aria-expanded="true" aria-controls="collapseExportOne" style="padding: 10px 0px 10px 20px !important;">
@@ -308,7 +308,7 @@
 														Pre-Shipment Financing
 													</button>
 												</h2>
-												<div id="collapseExportOne" class="accordion-collapse collapse" aria-labelledby="headingExportOne" data-bs-parent="#accordionExample">
+												<div id="collapseExportOne" class="accordion-collapse collapse" aria-labelledby="headingExportOne" data-bs-parent="#accordionExportExample">
 													<div class="accordion-body">
 														<div class="col-md-12 pre-shipment-financing">
 															<p class="pre_shipment_financing_tagline">Your working-capital needs are effectively covered</p>
@@ -374,7 +374,7 @@
 														Post Shipment Financing
 													</button>
 												</h2>
-												<div id="collapseExportTwo" class="accordion-collapse collapse" aria-labelledby="headingExportTwo" data-bs-parent="#accordionExample">
+												<div id="collapseExportTwo" class="accordion-collapse collapse" aria-labelledby="headingExportTwo" data-bs-parent="#accordionExportExample">
 													<div class="accordion-body">
 														<div class="col-md-12 post-shipment-financing">
 															<p class="post_shipment_financing_tagline">Improve positive cashflow for the export of goods for your business</p>
@@ -453,7 +453,7 @@
 									<p>We cover a wide range of financial products that exporters and importers utilize to make trade transactions feasible.</p>
 									<div class="space-20"></div>
 									<div class="col-md-12">
-										<div class="accordion import-financing-accord" id="accordionExample">
+										<div class="accordion other-financing-accord" id="accordionOtherExample">
 											<div class="accordion-item">
 												<h2 class="accordion-header b-b-none" id="headingOtherTradeOne">
 													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOtherTradeOne" aria-expanded="true" aria-controls="collapseOtherTradeOne" style="padding: 10px 0px 10px 20px !important;">
@@ -466,7 +466,7 @@
 														Invoice Financing
 													</button>
 												</h2>
-												<div id="collapseOtherTradeOne" class="accordion-collapse collapse" aria-labelledby="headingOtherTradeOne" data-bs-parent="#accordionExample">
+												<div id="collapseOtherTradeOne" class="accordion-collapse collapse" aria-labelledby="headingOtherTradeOne" data-bs-parent="#accordionOtherExample">
 													<div class="accordion-body">
 														<div class="col-md-12 invoice-financing">
 															<p class="invoice_financing_tagline">Make use of your unpaid invoices as security to satisfy your funding needs</p>
@@ -583,6 +583,10 @@
   		$("#other_trade_financing_link").addClass('active');
   	}
 
+
+  	// var import_financing_section = $("#accordionOtherExample");
+  	// console.log(import_financing_section.offset());
+
   	$(window).on('scroll', function() {
 		var scrollTop = $(this).scrollTop();
 
@@ -605,20 +609,34 @@
 		}
 	});
 
-	// $(".accordion-button").click(function(e){
-	// 	if(!($(this).hasClass('collapsed'))) {
-	// 		var ele_id = $(this).attr('id');
-	// 		var element = document.getElementById(ele_id);
-	// 		// element.scrollIntoView({ behavior: 'smooth' });
+	$(".import-financing-accord").click(function(e){
+		var ele_id = $(this).attr('id');
+		var element = document.getElementById(ele_id);
 
-	// 		// const element = document.getElementById('my-element');
-	// 		window.scrollTo({
-	// 			top: element.offsetTop - 60,
-	// 			behavior: 'smooth'
-	// 		});
+		window.scrollTo({
+			top: 1400,
+			behavior: 'smooth'
+		});		
+	});
 
-	// 		alert(ele_id);
-	// 	}
-	// });
+	$(".export-financing-accord").click(function(e){
+		var ele_id = $(this).attr('id');
+		var element = document.getElementById(ele_id);
+
+		window.scrollTo({
+			top: 3100,
+			behavior: 'smooth'
+		});		
+	});
+
+	$(".other-financing-accord").click(function(e){
+		var ele_id = $(this).attr('id');
+		var element = document.getElementById(ele_id);
+
+		window.scrollTo({
+			top: 3830,
+			behavior: 'smooth'
+		});		
+	});
 </script>
 @endsection('content')

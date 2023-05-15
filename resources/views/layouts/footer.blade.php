@@ -55,13 +55,18 @@
         bottom: 20px;
         right: 30px;
         z-index: 99;
-        border: none;
         outline: none;
-        color: white;
         cursor: pointer;
-        padding: 15px;
-        border-radius: 10px;
-        width: 5%;
+        padding: 7px;
+        border-radius: 50%;
+        border: 1px solid #bf8b00;
+        color: #bf8b00;
+        font-size: 30px;
+    }
+    #go_to_top:hover {
+        border: 1px solid #bf8b00;
+        color: #fff;
+        background-color: #bf8f00;
     }
     @media  only screen and (max-width: 576px) {
         #first_footer_height{
@@ -73,12 +78,16 @@
         .desktop_post_footer {
             display: none;
         }
-        #go_to_top {
+        /*#go_to_top {
             width: 19%;
-        }
+        }*/
     }
 </style>
-<img src="{{url('/images/go_to_top.png')}}"  data-src="{{url('/images/go_to_top.png')}}" data-hover="{{url('/images/go_to_top_hover.png')}}" id="go_to_top" title="Go to top" onclick="topFunction()">
+<!-- <img src="{{url('/images/go_to_top.png')}}"  data-src="{{url('/images/go_to_top.png')}}" data-hover="{{url('/images/go_to_top_hover.png')}}" id="go_to_top" title="Go to top" onclick="topFunction()"> -->
+
+<!-- <box-icon name='chevron-down'></box-icon> -->
+<i class="tf-icons bx bx-chevron-up" id="go_to_top" title="Go to top" onclick="topFunction()"></i>
+
 <div id="index_footer" style="background-color: #484848;padding: 33px 0px 0px 0px;">
     <div style="height: 16px;"></div>
     <div class="container footer_section" style="">
@@ -215,5 +224,13 @@
         $(this).attr('src', $(this).data("hover"));
     }).mouseout(function () {
         $(this).attr('src', $(this).data("src"));
+    });
+
+
+    $(".menu-link").mouseenter(function(e) {
+        $(this).not('.menu-active').addClass('menu-hover-active');
+    });
+    $(".menu-link").mouseleave(function(e) {
+        $(this).not('.menu-active').removeClass('menu-hover-active');
     });
 </script>

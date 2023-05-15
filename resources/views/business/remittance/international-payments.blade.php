@@ -96,7 +96,59 @@
 					</div>
 
 					<div class="space-20"></div>
+
 					<div class="visit_us_div p-sm-4">
+						<div class="container d-none d-sm-block need_more_support_section_container">
+							<div class="row">
+								<div class="col-md-12 col-xs-12 text-center">
+									<h3 style="color: #1d1d1f;padding: 0px 60px;">Visit Us</h3>
+									<div class="space-20"></div>
+								</div>
+								<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;border-right: 1px solid #1d1d1f;padding-right: 0px;">
+									<p style="color: #000;font-weight: 400;font-size: 17px;">International Banking Department,<Br>AYA Bank Head office.</p>
+									<button class="btn visit_us_btn" data-bs-toggle="modal" data-bs-target="#modalCenterInternationalBanking">
+										Head Office
+									</button>
+									<div style="height: 40px;"></div>
+								</div>
+								<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;padding-left: 0px;">
+									<p style="color: #000;font-weight: 400;font-size: 17px;">Alternatively, you may submit the forms<br>at your nearest branches.</p>
+									<a href="#">
+										<button class="btn visit_us_btn">
+											Branches
+										</button>
+									</a>
+									<div style="height: 40px;"></div>
+								</div>
+							</div>
+						</div>
+						<div class="container d-block d-sm-none" style="padding: 30px;background-image: url('./images/get_start_bg.jpg');background-size: cover;border-radius: 6px;">
+							<div class="row">
+								<div class="col-md-12 col-xs-12 text-center">
+									<h3 style="color: #1d1d1f;padding: 0px 60px;">Visit Us</h3>
+									<div class="space-20"></div>
+								</div>
+								<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;border-bottom: 1px solid #1d1d1f;padding-bottom: 0px;">
+									<p style="color: #000;font-weight: 400;font-size: 17px;">International Banking Department, AYA Bank Head office.</p>
+									<button class="btn visit_us_btn" data-bs-toggle="modal" data-bs-target="#modalCenterInternationalBanking">
+										Head Office
+									</button>
+									<div style="height: 40px;"></div>
+								</div>
+								<div class="col-md-6 col-xs-12 text-center" style="padding-top: 20px;">
+									<p style="color: #000;font-weight: 400;font-size: 17px;">Alternatively, you may submit the forms at your nearest branches.</p>
+									<a href="#">
+										<button class="btn visit_us_btn">
+											Branches
+										</button>
+									</a>
+									<div style="height: 40px;"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- <div class="visit_us_div p-sm-4">
 						<div class="row">
 							<div class="col-md-12 text-center visit_us_col">
 								<p class="my-md-0 fw-semibold" style="font-size: 16px;">International Banking Department, AYA Bank Head office.</p>
@@ -126,7 +178,7 @@
 								</a>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>

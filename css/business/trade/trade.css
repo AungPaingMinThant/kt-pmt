@@ -83,9 +83,12 @@
 	top: 80%;
 	left: 4%;
 }
-.import-financing-accord .accordion-item .accordion-collapse .accordion-body {
+.import-financing-accord .accordion-item .accordion-collapse .accordion-body,
+.export-financing-accord .accordion-item .accordion-collapse .accordion-body,
+.other-financing-accord .accordion-item .accordion-collapse .accordion-body {
 	padding: 20px 0px 0px 0px !important;
 }
+
 .accordion-body > .nav-align-top > .nav {
 	justify-content: start;
 }

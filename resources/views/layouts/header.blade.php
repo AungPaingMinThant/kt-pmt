@@ -17,6 +17,86 @@
     	line-height: 24px;
     	letter-spacing: 0px;
     }
+    #searchModalDialog {
+        max-width: 820px;
+    }
+    #search_txt{
+        height: 70px;
+        background-color: transparent;
+        border-radius: 50px;
+        border: 2px solid #fff;
+        color: #fff;
+        padding: 0 30px;
+        width: 100%;
+    }
+    #search_txt::placeholder {
+      color: #fff;
+      opacity: 1;
+    }
+    .personal-dropdown-content {
+/*		display: none;*/
+		position: absolute;
+		background-color: #f6f6f6;
+		width: 100%;
+		left: 0;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		top: 19%;
+	}
+	.left-menu-div {
+		background-image: linear-gradient(to right, #980d36 , #d5244e);
+		padding: 0px;
+	}
+	.left-menu-div > .row > a {
+		color: #fff;
+	}
+	.menu-link {
+		padding: 20px 0px 0px 60px !important;
+		font-weight: 300;
+	}
+	.menu-link > a {
+		padding: 0;
+		padding-bottom: 15px;
+	}
+	.menu-link > a:not(.personal-other-menu) {
+		font-size: 13px;
+		border-bottom: 1px solid #e7e7e790;
+	    width: 90%;
+	}
+	.menu-link.menu-active {
+		background-color: #f6f6f6 !important;
+	}
+	.menu-link.menu-hover-active {
+		background-color: #f6f6f6 !important;
+	}
+	.menu-active > a {
+		color: #000 !important;
+		font-weight: 700;
+	}
+	.menu-hover-active > a {
+		color: #000 !important;
+		font-weight: 700;
+	}
+    .personal-banking-li:hover .personal-dropdown-content {
+	  display: block;
+	}
+	.menu_label {
+		writing-mode: tb-rl;
+	    transform: rotate(180deg);
+	    position: absolute;
+	    right: 0;
+	    font-size: 27px;
+	    top: 0;
+	    background: #dfdfdf;
+	    padding: 20px;
+	    bottom: 0;
+	    margin-bottom: 0;
+	    text-align: center;
+	    margin-right: 0px;
+	    box-shadow: 10px 0px 40px 4px #ffffff;
+	    color: #adadad;
+	    font-weight: 200;
+	}
     @media (max-width: 1300px) and (min-width: 577px) {
     	.mobile_logo {
 	    	width: 30% !important;
@@ -107,11 +187,39 @@
 								<a class="nav-link active" aria-current="page" href="#">Home</a>
 							</li>
 							@if($page == 'personal_banking')
-								<li class="nav-item active">
+								<li class="nav-item personal-banking-li active">
 							@else
-								<li class="nav-item">
+								<li class="nav-item personal-banking-li">
 							@endif
 								<a class="nav-link" href="#">Personal Banking</a>
+								<!-- <div class="personal-dropdown-content">
+									<div class="row" style="width: 100%;">
+										<div class="col-md-4 left-menu-div">
+											<div class="row menu-link menu-active">
+												<a class="" href="#">ACCOUNTS AND SAVINGS</a>
+											</div>
+											<div class="row menu-link">
+												<a class="" href="#">BORROWING</a>
+											</div>
+											<div class="row menu-link">
+												<a class="" href="#">REMITTANCE AND PAYMENTS</a>
+											</div>
+											<div class="row menu-link">
+												<a class="" href="#">PREMIUM BANKING</a>
+											</div>
+											<div class="row menu-link">
+												<a class="" href="#">INSURANCE</a>
+											</div>
+											<div class="row menu-link">
+												<a class="personal-other-menu" href="#">OTHER SERVIES</a>
+											</div>
+											<div class="space-50"></div>
+										</div>
+										<div class="col-md-7">
+											<p class="menu_label">PERSONAL BANKING</p>
+										</div>
+									</div>
+								</div> -->
 							</li>
 							@if($page == 'business_banking')
 								<li class="nav-item active">
@@ -131,7 +239,7 @@
 								<a class="nav-link" href="#">About AYA</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">
+								<a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#searchBox" >
 									<span class="tf-icons bx bx-search"></span>
 								</a>
 							</li>
@@ -201,4 +309,19 @@
         </div>
     </div>
 </nav>
+
+<div class="modal fade" id="searchBox" tabindex="-1" role="dialog" aria-labelledby="searchBoxLabel" aria-hidden="true" style="background-color: #0a0a0ab8">
+    <div class="modal-dialog" id="searchModalDialog" role="document" style="background-color: transparent;top: 39%;">
+        <div class="modal-content" style="background-color: transparent;border-color: transparent;box-shadow: none !important;">
+            <div class="modal-body" style="padding-right: 0px;">
+                <form role="search" method="get" class="ekit-search-group" action="https://ayasompo.com/">
+                    <input type="search" id="search_txt" class="ekit_search-field" placeholder="Search..." value="" name="s">
+                    <button type="submit" class="ekit_search-button" style="background-color: transparent;border: none;color: #fff;position: absolute;top: 40%;right: 3%;">
+                        <i aria-hidden="true" class="icon icon-search11"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 

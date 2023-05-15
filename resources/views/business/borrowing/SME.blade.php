@@ -145,8 +145,7 @@
 				<div class="col-md-12">
 					<div class="row">
 						<div class="col-md-12">
-							<!-- <h3 class="fw-bold">What We Offer for SME Loans</h3> -->
-							<p class="fw-bold" style="font-size: 18px;">What We Offer for SME Loans</p>
+							<p class="fw-bold" style="font-size: 18px;">What We Offer</p>
 						</div>
 						<div class="col-md-4 d-none d-sm-block">
 							<nav id="myScrollspy">

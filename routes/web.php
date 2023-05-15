@@ -144,3 +144,7 @@ Route::get('/business/insurance/group-life','App\Http\Controllers\Business\Insur
 // contact-us
 
 Route::get('/test','App\Http\Controllers\HomeController@testIndex');
+
+
+// About AYA
+// about-aya/who-we-are-corporate-profile/awards

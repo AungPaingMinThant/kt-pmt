@@ -210,7 +210,7 @@
 								<div class="row">
 									<div class="space-30"></div>
 									<div class="col-md-12">
-										<div class="accordion import-financing-accord" id="accordionExample">
+										<div class="accordion export-financing-accord" id="accordionExportExample">
 											<div class="accordion-item">
 												<h2 class="accordion-header b-b-none" id="headingExportOne">
 													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExportServicesOne" aria-expanded="true" aria-controls="collapseExportServicesOne" style="padding: 10px 0px 10px 20px !important;">
@@ -223,7 +223,7 @@
 														Letter of credit Advising and Negotiation
 													</button>
 												</h2>
-												<div id="collapseExportServicesOne" class="accordion-collapse collapse" aria-labelledby="headingExportOne" data-bs-parent="#accordionExample">
+												<div id="collapseExportServicesOne" class="accordion-collapse collapse" aria-labelledby="headingExportOne" data-bs-parent="#accordionExportExample">
 													<div class="accordion-body">
 														<div class="col-md-12 letter-credit-advising">
 															<p class="letter_credit_advising_tagline">Enjoy greater security and accelerate your business growth confidently with Letter of Credit Advising and Negotiation</p>
@@ -291,7 +291,7 @@
 														Letter of Credit Confirmation
 													</button>
 												</h2>
-												<div id="collapseExporServicestTwo" class="accordion-collapse collapse" aria-labelledby="headingExportTwo" data-bs-parent="#accordionExample">
+												<div id="collapseExporServicestTwo" class="accordion-collapse collapse" aria-labelledby="headingExportTwo" data-bs-parent="#accordionExportExample">
 													<div class="accordion-body">
 														<div class="col-md-12 letter-credit-confirmation">
 															<p class="letter_credit_confirmation_tagline">A Second Payment Guarantee to the Letter of Credit </p>
@@ -357,7 +357,7 @@
 														Export Documentary Collections
 													</button>
 												</h2>
-												<div id="collapseExporServicestThree" class="accordion-collapse collapse" aria-labelledby="headingExportTwo" data-bs-parent="#accordionExample">
+												<div id="collapseExporServicestThree" class="accordion-collapse collapse" aria-labelledby="headingExportTwo" data-bs-parent="#accordionExportExample">
 													<div class="accordion-body">
 														<div class="col-md-12 export-documentary-collections">
 															<p class="export_documentary_collections_tagline">All your needs for your exporting business’s trading transactions are effectively facilitated.</p>
@@ -622,6 +622,26 @@
 			$(".nav-link").removeClass('active');
   			$("#other_trade_services_link").addClass('active');
 		}
+	});
+
+	$(".import-financing-accord").click(function(e){
+		var ele_id = $(this).attr('id');
+		var element = document.getElementById(ele_id);
+
+		window.scrollTo({
+			top: 1300,
+			behavior: 'smooth'
+		});		
+	});
+
+	$(".export-financing-accord").click(function(e){
+		var ele_id = $(this).attr('id');
+		var element = document.getElementById(ele_id);
+
+		window.scrollTo({
+			top: 2800,
+			behavior: 'smooth'
+		});		
 	});
 
 </script>

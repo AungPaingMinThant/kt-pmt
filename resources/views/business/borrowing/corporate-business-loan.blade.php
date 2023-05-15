@@ -47,7 +47,7 @@
 				<div class="col-md-12">
 					<div class="row">
 						<div class="col-md-12">
-							<p class="fw-bold" style="font-size: 16px;">What We Offer for Corporate Business Loans</p>
+							<p class="fw-bold" style="font-size: 16px;">What We Offer</p>
 						</div>
 						<div class="space-20"></div>
 						<div class="col-md-4 d-none d-sm-block">

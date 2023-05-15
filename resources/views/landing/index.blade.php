@@ -349,10 +349,44 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="space-80"></div>
+
+			<div class="award_accolade_div">
+				<div class="container insights_container">
+					<div class="row">
+						<div class="col-md-5">
+							<p class="mb-0">Discover about our achievements</p>
+							<p style="font-size: 30px;font-weight: 800">Awards and Accolades</p>
+							<a href="{{ url('/about-aya/who-we-are-corporate-profile/awards') }}">
+								<p class="mb-0 theme_text_color fw-bold">Discover More <i class="tf-icons bx bx-chevron-right"></i></p>
+							</a>
+						</div>
+						<div class="col-md-7 award_icon_div">
+							<div class="row">
+								<div class="col">
+									<img src="{{ url('/images/home/3-Fastest-Growing-Retail-Bank-2014.png') }}" class="img-fluid" style="width: 70%;">
+								</div>
+								<div class="col">
+									<img src="{{ url('/images/home/2-Best-Regional-Banking-Partner-2017.png') }}" class="img-fluid" style="width: 70%;">
+								</div>
+								<div class="col">
+									<img src="{{ url('/images/home/2-un_global_compact.png') }}" class="img-fluid" style="width: 70%;">
+								</div>
+								<div class="col">
+									<img src="{{ url('/images/home/2-Banker-of-the-Year-2014.png') }}" class="img-fluid" style="width: 70%;">
+								</div>
+								<div class="col text-center">
+									<img src="{{ url('/images/home/2-CSR-Award-2017.png') }}" class="img-fluid">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
-<div class="space-60"></div>
 @include('layouts.footer', ['page'=>'mobilebanking'])
 
 <script type="text/javascript">

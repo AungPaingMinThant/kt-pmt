@@ -67,10 +67,11 @@
 									<div class="row" style="position: relative;">
 										<img src="{{ url('/images/business/remittance/local-payments/aya_to_aya_header.png') }}" class="img-fluid desktop_aya_to_aya_order">
 										<img src="{{ url('/images/business/remittance/local-payments/aya_to_aya_header_mobile.png') }}" class="img-fluid mobile_aya_to_aya_order">
-										<p class="aya_to_aya_tagline">Making payments is now easier than ever before and no longer costly.</p>
+										<p class="aya_to_aya_tagline"></p>
 									</div>
 									<div class="row tab_data_row" style="margin-top: 30px;">
 										<div class="col-md-12">
+											<p>Making payments is now easier than ever before and no longer costly.</p>
 											<p>With a wide range of network of AYA across the country, pay a visit to our branches or simply logging into our internet banking to keeping costs down and saving your time. It can be delivered almost instantly or in a matter of minutes.</p>
 										</div>
 									</div>
@@ -118,13 +119,15 @@
 									<div class="row" style="position: relative;">
 										<img src="{{ url('/images/business/remittance/local-payments/payment_order.png') }}" class="img-fluid desktop_payment_order">
 										<img src="{{ url('/images/business/remittance/local-payments/payment_order_mobile.png') }}" class="img-fluid mobile_payment_order">
-										<p class="payment_order_tagline">A Secure, safe and alternate <br>payment method</p>
+										<p class="payment_order_tagline"></p>
 									</div>
-									<div class="text-center py-3">
-										<p class="fw-semibold" style="font-size: 16px;">Payment Order (PO) is designed to make a payment for a particular amount for a third-party <br>that is not a bank.</p>
-									</div>
+									<!-- <div class="text-center py-3">
+										<p class="fw-semibold" style="font-size: 16px;"></p>
+									</div>-->
 
-									<div class="col-md-12">
+									<div class="col-md-12" style="margin-top: 30px;">
+										<p>A Secure, safe and alternate payment method</p>
+										<p>Payment Order (PO) is designed to make a payment for a particular amount for a third-party that is not a bank.</p>
 										<p class="fw-500" style="font-size: 17px">Features and Benefits</p>
 									</div>
 									<div class="row">

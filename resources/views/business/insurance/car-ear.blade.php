@@ -206,7 +206,7 @@
 												<p class="mb-0">Tax, custom duties, Insurance cost, transportation cost, Cost of construction/ erection (i.e., labor cost), Various other costs (e.g., commission)</p>
 											</div>
 
-											<div class="col-md-5 prod_highlight_2 benefit_feature_box">
+											<div class="col-md-5 prod_highlight_1 benefit_feature_box">
 												<p class="fw-semibold theme_text_color">II.Service Equipment Supplied by the Principal</p>
 												<p class="mb-0">Construction/Erection Period Works Period<br>Commences</p>
 												<ul style="margin-left: 40px;">
