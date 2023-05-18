@@ -71,7 +71,8 @@
 	}
 	@media (max-width: 1300px) and (min-width: 1000px) {
 		.regular_current_account_tagline{
-			width: 60% !important;
+			width: 80% !important;
+			top: 75%;
 		}
 		.enterprise_FCA_current_tagline {
 			width: 45% !important;

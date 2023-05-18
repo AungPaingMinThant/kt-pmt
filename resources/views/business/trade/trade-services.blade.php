@@ -211,7 +211,7 @@
 									<div class="space-30"></div>
 									<div class="col-md-12">
 										<div class="accordion export-financing-accord" id="accordionExportExample">
-											<div class="accordion-item">
+											<div class="accordion-item export-financing-accord-item-1" id="export-financing-accord-item-1">
 												<h2 class="accordion-header b-b-none" id="headingExportOne">
 													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExportServicesOne" aria-expanded="true" aria-controls="collapseExportServicesOne" style="padding: 10px 0px 10px 20px !important;">
 														<span class="accordion-open">
@@ -279,7 +279,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="accordion-item">
+											<div class="accordion-item export-financing-accord-item-2" id="export-financing-accord-item-2">
 												<h2 class="accordion-header b-b-none" id="headingExportTwo">
 													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExporServicestTwo" aria-expanded="true" aria-controls="collapseExporServicestTwo" style="padding: 10px 0px 10px 20px !important;">
 														<span class="accordion-open">
@@ -345,7 +345,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="accordion-item">
+											<div class="accordion-item export-financing-accord-item-3" id="export-financing-accord-item-3">
 												<h2 class="accordion-header b-b-none" id="headingExportTwo">
 													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExporServicestThree" aria-expanded="true" aria-controls="collapseExporServicestThree" style="padding: 10px 0px 10px 20px !important;">
 														<span class="accordion-open">
@@ -603,6 +603,8 @@
 
 	
   	$(window).on('scroll', function() {
+  		// var import_financing_section = $("#accordionExportExample");
+  		// console.log(import_financing_section.offset());
 		var scrollTop = $(this).scrollTop();
 
 		var import_services_section = $("#import_services");
@@ -634,12 +636,14 @@
 		});		
 	});
 
+
+
 	$(".export-financing-accord").click(function(e){
 		var ele_id = $(this).attr('id');
 		var element = document.getElementById(ele_id);
 
 		window.scrollTo({
-			top: 2800,
+			top: 3000,
 			behavior: 'smooth'
 		});		
 	});

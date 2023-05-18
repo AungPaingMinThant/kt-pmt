@@ -83,7 +83,7 @@
 						<li data-bs-target="#carouselExample-cf-mobile" data-bs-slide-to="4"></li>
 					</ol> -->
 					<div class="carousel-inner">
-						<!-- <div class="carousel-item active">
+						<div class="carousel-item active">
 							<video class="img-fluid" autoplay loop muted>
 								<source src="{{ url('/images/home/mobile.mp4') }}" type="video/mp4" />
 							</video>
@@ -107,7 +107,7 @@
 									</div>
 								</div>
 							</div>
-						</div> -->
+						</div>
 						<div class="carousel-item active">
 							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_mobile_3.jpg') }}" alt="Third slide" />
 							<div class="row carousel-caption">
