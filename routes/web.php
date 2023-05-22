@@ -56,6 +56,7 @@ Route::get('/share-post', 'App\Http\Controllers\SharePostController@share');
 
 Route::get('/','App\Http\Controllers\HomeController@index');
 
+// Digital
 Route::get('/mobile-banking','App\Http\Controllers\Digital\MobileBankingController@mbindex');
 Route::get('/internet-banking','App\Http\Controllers\Digital\InternetBankingController@index');
 Route::get('/debit-card','App\Http\Controllers\Digital\DebitCardController@index');

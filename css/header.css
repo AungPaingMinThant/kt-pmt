@@ -1,0 +1,230 @@
+.desktop_menu {
+    display: block;
+}
+.mobile_menu {
+    display: none;
+}
+.mobile_logo {
+	width: 60% !important;
+	margin-left: 10px;
+}
+.menu_link {
+	padding: 10px 15px 10px 15px;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+	line-height: 24px;
+	letter-spacing: 0px;
+}
+#searchModalDialog {
+    max-width: 820px;
+}
+#search_txt{
+    height: 70px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 0 30px;
+    width: 100%;
+}
+#search_txt::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.personal-dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f6f6f6;
+	width: 100%;
+	left: 0;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 99;
+	top: 18%;
+	background-image: url('../images/menu/personal_acc_bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 80% center;
+}
+.business-dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f6f6f6;
+	width: 100%;
+	left: 0;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 99;
+	top: 18%;
+/*	background-image: url('../images/menu/personal_acc_bg.png');*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 80% center;
+}
+.digital-dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f6f6f6;
+	width: 100%;
+	left: 0;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 99;
+	top: 18%;
+/*	background-image: url('../images/menu/personal_acc_bg.png');*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 80% center;
+}
+.about-aya-dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f6f6f6;
+	width: 100%;
+	left: 0;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 99;
+	top: 18%;
+/*	background-image: url('../images/menu/personal_acc_bg.png');*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 80% center;
+}
+.personal-banking-li:hover .personal-dropdown-content {
+  display: block;
+}
+.business-banking-li:hover .business-dropdown-content {
+  display: block;
+}
+.digital-services-li:hover .digital-dropdown-content {
+  display: block;
+}
+.about-aya-li:hover .about-aya-dropdown-content {
+  display: block;
+}
+.left-menu-div {
+	background-image: linear-gradient(to right, #980d36 , #d5244e);
+	padding: 0px;
+}
+.left-menu-div > .row > a {
+	color: #fff;
+}
+.menu-link {
+	padding: 20px 0px 0px 60px !important;
+	font-weight: 300;
+}
+.menu-link > a {
+	padding: 0;
+	padding-bottom: 15px;
+}
+.menu-link > a:not(.other-menu) {
+	font-size: 13px;
+	border-bottom: 1px solid #e7e7e790;
+    width: 90%;
+}
+.menu-link.menu-active {
+	background-color: #f6f6f6 !important;
+}
+.menu-link.menu-hover-active {
+	background-color: #f6f6f6 !important;
+}
+.menu-active > a {
+	color: #000 !important;
+	font-weight: 700;
+}
+.menu-hover-active > a {
+	color: #000 !important;
+	font-weight: 700;
+}
+.header-menu > .nav-item {
+	padding-bottom: 20px;
+}
+.header-menu {
+	margin-bottom: -5px;
+}
+.menu_label {
+	writing-mode: tb-rl;
+    transform: rotate(180deg);
+    position: absolute;
+    right: 0;
+    font-size: 27px;
+    top: 0;
+    background: #dfdfdf;
+    padding: 20px;
+    bottom: 0;
+    text-align: center;
+    box-shadow: 10px 0px 40px 4px #ffffff;
+    color: #adadad;
+    font-weight: 200;
+    margin: 0;
+}
+.right-menu-div > div > .row {
+	padding-top: 52px;
+	padding-left: 20px;
+}
+.right-menu-div > div > .row > div > p > a, .right-menu-div > div > .row > div > p {
+	color: #161616 !important;
+	text-transform: capitalize;
+}
+.right-menu-div > div > .row > div > p > a:hover {
+	color: #a02226 !important;
+}
+.personal-acc-sav-menu > .row > .col, .business-acc-sav-menu > .row > .col {
+	max-width: 25% !important;
+}
+@media (max-width: 1400px) and (min-width: 1301px) {
+    .personal-dropdown-content {
+	    background-position: 95% center;
+	}
+	.personal-acc-sav-menu > .row > .col {
+		max-width: 30% !important;
+	}
+}
+@media (max-width: 1300px) and (min-width: 577px) {
+	.mobile_logo {
+    	width: 30% !important;
+    	margin-left: 10px;
+    }
+    .personal-dropdown-content {
+	    background-position: 95% center;
+	}
+	.personal-acc-sav-menu > .row > .col {
+		max-width: 30% !important;
+	}
+}
+@media  only screen and (max-width: 1024px) {
+	.mobile_logo {
+    	width: 60%;
+    	margin-left: 10px;
+    }
+	#slide-navbar-collapse {
+        position: fixed;
+        top: 0;
+        left: 0px;
+        z-index: 99;
+        width: 350px;
+        height: 100%;
+        background-color: #f7f7f7;
+        overflow: auto;
+    }
+    .menu-overlay {
+        display: none;
+        background-color: #000;
+        bottom: 0;
+        left: 0;
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+        /* IE7 & 8 */
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 1;
+    }
+    .dropdown-toggle::after{
+        display: none;
+    }
+    .desktop_menu {
+        display: none;
+    }
+    .mobile_menu {
+        display: block;
+    }
+}
