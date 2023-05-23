@@ -2,7 +2,10 @@
 
 @section('title', 'Enquiry Form – AYA Bank')
 <style type="text/css">
-    
+    .form-check-input:checked {
+	    background-color: rgba(160, 34, 38, 1) !important;
+	    border-color: rgba(160, 34, 38, 1) !important;
+	}
 </style>
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
@@ -75,19 +78,19 @@
 		                          		<label class="form-label d-block ">Select Product <span class="text-danger">*</span></label>
 
 										<div class="form-check form-check-inline mt-2">
-											<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Loan" />
+											<input class="form-check-input prodct_check" type="checkbox" id="inlineCheckbox1" value="Loan" checked />
 											<label class="form-check-label" for="inlineCheckbox1">Loan</label>
 										</div>
 										<div class="form-check form-check-inline">
-											<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="Trade" />
+											<input class="form-check-input prodct_check" type="checkbox" id="inlineCheckbox2" value="Trade" />
 											<label class="form-check-label" for="inlineCheckbox2">Trade</label>
 										</div>
 										<div class="form-check form-check-inline">
-											<input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="CMS" />
+											<input class="form-check-input prodct_check" type="checkbox" id="inlineCheckbox3" value="CMS" />
 											<label class="form-check-label" for="inlineCheckbox3">CMS</label>
 										</div>
 										<div class="form-check form-check-inline">
-											<input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="Digital Banking" />
+											<input class="form-check-input prodct_check" type="checkbox" id="inlineCheckbox4" value="Digital Banking" />
 											<label class="form-check-label" for="inlineCheckbox4">Digital Banking</label>
 										</div>
 		                    		</div>
@@ -99,28 +102,68 @@
 				                    <div class="mb-3">
 		                          		<label class="form-label d-block ">Select Sub Product <span class="text-danger">*</span></label>
 
-										<div class="form-check form-check-inline mt-2">
-											<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Loan" />
-											<label class="form-check-label" for="inlineCheckbox1">Loan</label>
+		                          		<div class="loan_check">
+											<div class="form-check mt-2">
+												<input class="form-check-input" type="checkbox" id="inlineLoanCheckbox1" value="Capex Financing" />
+												<label class="form-check-label" for="inlineLoanCheckbox1">Capex Financing</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="inlineLoanCheckbox2" value="Demand Loan" />
+												<label class="form-check-label" for="inlineLoanCheckbox2">Demand Loan</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="inlineLoanCheckbox3" value="Project Loan / Tender Contract Loan" />
+												<label class="form-check-label" for="inlineLoanCheckbox3">Project Loan / Tender Contract Loan</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="inlineLoanCheckbox4" value="Franchise Financing" />
+												<label class="form-check-label" for="inlineLoanCheckbox4">Franchise Financing</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="inlineLoanCheckbox5" value="Trade Financing" />
+												<label class="form-check-label" for="inlineLoanCheckbox5">Trade Financing</label>
+											</div>
 										</div>
-										<div class="form-check form-check-inline">
-											<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="Trade" />
-											<label class="form-check-label" for="inlineCheckbox2">Trade</label>
+
+										<div class="trade_check d-none">
+											<div class="form-check mt-2">
+												<input class="form-check-input" type="checkbox" id="inlineTradeCheckbox1" value="Import Services" />
+												<label class="form-check-label" for="inlineTradeCheckbox1">Import Services</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="inlineTradeCheckbox2" value="Export Services" />
+												<label class="form-check-label" for="inlineTradeCheckbox2">Export Services</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="inlineTradeCheckbox3" value="Other Services" />
+												<label class="form-check-label" for="inlineTradeCheckbox3">Other Services</label>
+											</div>
 										</div>
-										<div class="form-check form-check-inline">
-											<input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="CMS" />
-											<label class="form-check-label" for="inlineCheckbox3">CMS</label>
+
+										<div class="CMS_check d-none">
+											<div class="form-check mt-2">
+												<input class="form-check-input" type="checkbox" id="inlineTradeCheckbox1" value="Payroll Service" />
+												<label class="form-check-label" for="inlineTradeCheckbox1">Payroll Service</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="inlineTradeCheckbox2" value="Collection Service" />
+												<label class="form-check-label" for="inlineTradeCheckbox2">Collection Service</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="inlineTradeCheckbox3" value="Payment Service" />
+												<label class="form-check-label" for="inlineTradeCheckbox3">Payment Service</label>
+											</div>
 										</div>
-										<div class="form-check form-check-inline">
-											<input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="Digital Banking" />
-											<label class="form-check-label" for="inlineCheckbox4">Digital Banking</label>
+
+										<div class="digital_check">
+											<div class="form-check mt-2">
+												<input class="form-check-input" type="checkbox" id="inlineDigitalCheckbox1" value="Corporate Internet Banking" />
+												<label class="form-check-label" for="inlineDigitalCheckbox1">Corporate Internet Banking</label>
+											</div>
 										</div>
 		                    		</div>
 		                    	</div>
 		                    </div>
-							
-							
-							
 							<button type="submit" class="btn btn-primary">Send</button>
 						</form>
 

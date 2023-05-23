@@ -145,15 +145,15 @@
 														<p class="m-b-5">
 															<a href="{{ url('/borrowing/hire-purchase/auto-loan') }}">Auto Loan</a>
 														</p>
-														<p class="m-b-5">
+														<!-- <p class="m-b-5">
 															<a href="{{ url('/borrowing/hire-purchase/c2c-auto-loan') }}">C2C Auto Loan</a>
-														</p>
+														</p> -->
 														<p class="m-b-5">
 															<a href="{{ url('/borrowing/hire-purchase/education-loan') }}">Education Loan</a>
 														</p>
-														<p class="m-b-5">
+														<!-- <p class="m-b-5">
 															<a href="{{ url('/borrowing/hire-purchase/construction-loan') }}">Home Construction & Renovation (HCR) Loan</a>
-														</p>
+														</p> -->
 														<p class="m-b-5">
 															<a href="{{ url('/borrowing/hire-purchase/home-loan') }}">Home Loan</a>
 														</p>
