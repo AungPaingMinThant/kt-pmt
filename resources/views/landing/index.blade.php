@@ -240,31 +240,25 @@
 						<div class="col-md-6" style="position: relative;">
 							<div class="row CTA_section_3_info d-none d-sm-block">
 								<div class="row">
-									<p class="CTA_desc mb-0">Find the insurance you need</p>
-									<div class="input-group">
-										<label class="input-group-text" for="inputGroupSelect03">I want to &nbsp;</label>
-										<select class="form-select" id="inputGroupSelect03">
-											<option value="0" selected>get whole life protection and savings</option>
-											<option value="1">protect my life and save my future</option>
-											<option value="2">drive vehicle with peace of mind</option>
-											<option value="3">care for health and save money</option>
-											<option value="4">get coverage for safe traveling</option>
-											<option value="5">get potection for my business</option>
+									<p class="CTA_desc mb-0">ATM / Branch / FX Counter Locator</p>
+									<div class="input-group CTA_3_input_group" style="width: 70% !important;">
+										<label class="input-group-text" for="inputGroupSelect03">I want to find &nbsp;</label>
+										<select class="form-select" id="inputGroupSelect03" style="width: 50%">
+											<option value="0" selected>Branch</option>
+											<option value="1">ATM</option>
+											<option value="2">FX Counter Locator</option>
 										</select>
 									</div>
 								</div>
 							</div>
 							<div class="row CTA_section_3_info d-block d-sm-none">
 								<div class="col-md-12 text-center">
-									<p class="CTA_desc mb-10">Find the insurance you need</p>
-									<label class="theme_text_color" for="inputGroupSelect03" style="font-size: 16px;margin-bottom: 5px;">I want to &nbsp;</label>
+									<p class="CTA_desc mb-10">ATM / Branch / FX Counter Locator</p>
+									<label class="theme_text_color" for="inputGroupSelect03" style="font-size: 16px;margin-bottom: 5px;">I want to find &nbsp;</label>
 									<select class="form-select" id="inputGroupSelect03">
-										<option value="0" selected>get whole life protection and savings</option>
-										<option value="1">protect my life and save my future</option>
-										<option value="2">drive vehicle with peace of mind</option>
-										<option value="3">care for health and save money</option>
-										<option value="4">get coverage for safe traveling</option>
-										<option value="5">get potection for my business</option>
+										<option value="0" selected>Branch</option>
+										<option value="1">ATM</option>
+										<option value="2">FX Counter Locator</option>
 									</select>
 								</div>
 							</div>
@@ -285,35 +279,37 @@
 					<div class="col-md-6">
 						<div class="row">
 							<a href="">
-								<img src="{{ url('/images/news_image/sustainable_investments_for_future_generations.jpg') }}" class="img-fluid">
+								<img src="{{ url('/images/news_image/MOU-Between-AYA-Bank-and-SMART-Myanmar.jpg') }}" class="img-fluid">
 							</a>
 						</div>
 						<div class="news_content_div">
-							<a href="">
-								<p class="news_title">Sustainable investments for future generations</p>
-							</a>
-							<p class="mb-30">With your sustainable investment you too can create added value for the economy, society and the environment.</p>
-							<p class="mb-0"><span class="news_category">FEATURE NEWS</span><span class="news_break">|</span><span class="news_date">24 May 2023</span></p>
+							<div class="news_title_div">
+								<a href="">
+									<p class="news_title">AYA Bank Offering Apprenticeship Opportunity</p>
+								</a>
+							</div>
+							<p class="news_desc mb-20">AYA Bank organized ‘National Apprenticeship Program’ in partnership with the National Management Acdemy (NMA) to shape the future of students with a wide range of opportunities to learn a specific skill in the financial services industry.</p>
+							<p class="mb-0"><span class="news_category">CORPORATE NEWS</span><span class="news_break">|</span><span class="news_date">16 May 2023</span></p>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="row">
 							<div class="col-md-6">
-								<div class="row news_img_div" style="background-image:  url('./images/news_image/how_to_balance_helping_parents_retire_saving.jpg');"></div>
+								<div class="row news_img_div" style="background-image:  url('./images/news_image/U-Zaw-Zaw-Drives-Social-Responsibility-through-Football-in-Myanmar.jpg');"></div>
 								<div class="news_content_div">
 									<a href="">
-										<p class="news_title">How to balance helping your parents retire and saving</p>
+										<p class="news_title">U Zaw Zaw Drives Social Responsibility through Football in Myanmar</p>
 									</a>
-									<p class="mb-0"><span class="news_category">AYA ADVICE</span><span class="news_break">|</span><span class="news_date">24 May 2023</span></p>
+									<p class="mb-0"><span class="news_category">CSR NEWS</span><span class="news_break">|</span><span class="news_date">13 March 2023</span></p>
 								</div>
 							</div>
 							<div class="col-md-6">
-								<div class="row news_img_div" style="background-image:  url('./images/news_image/buy_now_pay_later.jpg');"></div>
+								<div class="row news_img_div" style="background-image:  url('./images/news_image/Celebration-of-International-Womens-Day-2023-at-AYA-Bank-Office.jpg');"></div>
 								<div class="news_content_div">
 									<a href="">
-										<p class="news_title">'Buy now, pay later' loans make it tough to get a handle?</p>
+										<p class="news_title">Celebration of International Women’s Day 2023 at AYA Bank Office</p>
 									</a>
-									<p class="mb-0"><span class="news_category">AYA ADVICE</span><span class="news_break">|</span><span class="news_date">24 May 2023</span></p>
+									<p class="mb-0"><span class="news_category">CSR NEWS</span><span class="news_break">|</span><span class="news_date">8 March 2023</span></p>
 								</div>
 							</div>
 						</div>
@@ -546,49 +542,25 @@
 		var open = $(this).data("isopen");
 		if (open) {
 			if (this.value === previousValue2) {
-				if ($('#inputGroupSelect03 option:selected').val() == 0) {
-					window.location.href = APP_URL+'/insurance/life/universal';
-				}
+				// if ($('#inputGroupSelect03 option:selected').val() == 0) {
+				// 	window.location.href = APP_URL+'/insurance/life/universal';
+				// }
 				if ($('#inputGroupSelect03 option:selected').val() == 1) {
-					window.location.href = APP_URL+'/insurance/life/short-term';
+					window.location.href = APP_URL+'/atm';
 				}
-				if ($('#inputGroupSelect03 option:selected').val() == 2) {
-					window.location.href = APP_URL+'/insurance/motor';
-				}
-				if ($('#inputGroupSelect03 option:selected').val() == 3) {
-					window.location.href = APP_URL+'/insurance/health';
-				}
-				if ($('#inputGroupSelect03 option:selected').val() == 4) {
-					window.location.href = APP_URL+'/insurance/travel/aya-joy';
-				}
-				if ($('#inputGroupSelect03 option:selected').val() == 5) {
-					window.location.href = APP_URL+'/insurance/travel/aya-go';
-				}
-				if ($('#inputGroupSelect03 option:selected').val() == 6) {
-					window.location.href = APP_URL+'/business/insurance/domestic-marine-cargo';
-				}
+				// if ($('#inputGroupSelect03 option:selected').val() == 2) {
+				// 	window.location.href = APP_URL+'/insurance/motor';
+				// }
 			} else {
-				if ($('#inputGroupSelect03 option:selected').val() == 0) {
-					window.location.href = APP_URL+'/insurance/life/universal';
-				}
+				// if ($('#inputGroupSelect03 option:selected').val() == 0) {
+				// 	window.location.href = APP_URL+'/insurance/life/universal';
+				// }
 				if ($('#inputGroupSelect03 option:selected').val() == 1) {
-					window.location.href = APP_URL+'/insurance/life/short-term';
+					window.location.href = APP_URL+'/atm';
 				}
-				if ($('#inputGroupSelect03 option:selected').val() == 2) {
-					window.location.href = APP_URL+'/insurance/motor';
-				}
-				if ($('#inputGroupSelect03 option:selected').val() == 3) {
-					window.location.href = APP_URL+'/insurance/health';
-				}
-				if ($('#inputGroupSelect03 option:selected').val() == 4) {
-					window.location.href = APP_URL+'/insurance/travel/aya-joy';
-				}
-				if ($('#inputGroupSelect03 option:selected').val() == 5) {
-					window.location.href = APP_URL+'/insurance/travel/aya-go';
-				}
-				if ($('#inputGroupSelect03 option:selected').val() == 6) {
-					window.location.href = APP_URL+'/business/insurance/domestic-marine-cargo';
-				}
+				// if ($('#inputGroupSelect03 option:selected').val() == 2) {
+				// 	window.location.href = APP_URL+'/insurance/motor';
+				// }
 			}
 		}
 
