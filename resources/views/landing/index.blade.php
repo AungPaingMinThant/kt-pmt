@@ -336,7 +336,7 @@
 							<div class="col-md-5">
 								<p class="mb-0">Discover about our achievements</p>
 								<p style="font-size: 30px;font-weight: 800">Awards and Accolades</p>
-								<a href="https://saltnpixel.com/AYABank/AYABank_Report.html" target="_blank">
+								<a href="https://saltnpixel.com/AYABank/AYABank_Awards.html" target="_blank">
 									<p class="mb-0 theme_text_color fw-bold">Discover More <i class="tf-icons bx bx-chevron-right"></i></p>
 								</a>
 							</div>
@@ -366,7 +366,7 @@
 						<div class="col-md-12 text-center">
 							<p class="mb-0">Discover about our achievements</p>
 							<p style="font-size: 28px;font-weight: 800">Awards and Accolades</p>
-							<a href="https://saltnpixel.com/AYABank/AYABank_Report.html" target="_blank">
+							<a href="https://saltnpixel.com/AYABank/AYABank_Awards.html" target="_blank">
 								<p class="mb-20 theme_text_color fw-bold">Discover More <i class="tf-icons bx bx-chevron-right"></i></p>
 							</a>
 
