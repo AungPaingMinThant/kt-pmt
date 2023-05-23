@@ -760,6 +760,9 @@
 															<a href="">Corporate News</a>
 														</p>
 														<p class="m-b-5">
+															<a href="">CSR News</a>
+														</p>
+														<p class="m-b-5">
 															<a href="">Press Releases</a>
 														</p>
 														<p class="m-b-5">

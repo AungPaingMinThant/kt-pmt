@@ -16,55 +16,113 @@
 			<div class="container section_1">
 				<div class="space-60"></div>			
 				<div class="row" >
-					<div class="col-md-12">
+					<div class="col-md-6">
 						<form>
 							<div class="mb-3">
-								<label class="form-label" for="basic-icon-default-fullname">Full Name</label>
+								<label class="form-label" for="basic-icon-default-fullname">Name <span class="text-danger">*</span></label>
 								<div class="input-group input-group-merge">
 									<span id="basic-icon-default-fullname2" class="input-group-text"><i class="bx bx-user"></i></span>
-									<input type="text" class="form-control" id="basic-icon-default-fullname" placeholder="John Doe" aria-label="John Doe" aria-describedby="basic-icon-default-fullname2"/>
+									<input type="text" class="form-control" id="basic-icon-default-fullname" placeholder="Name" required />
 								</div>
 							</div>
 							<div class="mb-3">
-								<label class="form-label" for="basic-icon-default-company">Company</label>
-								<div class="input-group input-group-merge">
-									<span id="basic-icon-default-company2" class="input-group-text"><i class="bx bx-buildings"></i></span>
-									<input type="text" id="basic-icon-default-company" class="form-control" placeholder="ACME Inc." aria-label="ACME Inc." aria-describedby="basic-icon-default-company2"/>
-								</div>
-							</div>
-							<div class="mb-3">
-							<label class="form-label" for="basic-icon-default-email">Email</label>
-								<div class="input-group input-group-merge">
-									<span class="input-group-text"><i class="bx bx-envelope"></i></span>
-									<input type="text" id="basic-icon-default-email" class="form-control" placeholder="john.doe" aria-label="john.doe" aria-describedby="basic-icon-default-email2"/>
-									<span id="basic-icon-default-email2" class="input-group-text">@example.com</span>
-								</div>
-								<div class="form-text">You can use letters, numbers & periods</div>
-							</div>
-							<div class="mb-3">
-								<label class="form-label" for="basic-icon-default-phone">Phone No</label>
+								<label class="form-label" for="basic-icon-default-phone">Contact Number <span class="text-danger">*</span></label>
 								<div class="input-group input-group-merge">
 									<span id="basic-icon-default-phone2" class="input-group-text" ><i class="bx bx-phone"></i></span>
-									<input type="text" id="basic-icon-default-phone" class="form-control phone-mask" placeholder="658 799 8941" aria-label="658 799 8941" aria-describedby="basic-icon-default-phone2" />
+									<input type="text" id="basic-icon-default-phone" class="form-control phone-mask" placeholder="xxx xxx xxxx" required />
 								</div>
 							</div>
 							<div class="mb-3">
-							<label class="form-label" for="basic-icon-default-message">Message</label>
-							<div class="input-group input-group-merge">
-							<span id="basic-icon-default-message2" class="input-group-text"
-							><i class="bx bx-comment"></i
-							></span>
-							<textarea
-							id="basic-icon-default-message"
-							class="form-control"
-							placeholder="Hi, Do you have a moment to talk Joe?"
-							aria-label="Hi, Do you have a moment to talk Joe?"
-							aria-describedby="basic-icon-default-message2"
-							></textarea>
+								<label class="form-label" for="basic-icon-default-email">Email Address</label>
+								<div class="input-group input-group-merge">
+									<span class="input-group-text"><i class="bx bx-envelope"></i></span>
+									<input type="text" id="basic-icon-default-email" class="form-control" placeholder="Email Address" />
+								</div>
 							</div>
+							<div class="mb-3">
+								<label class="form-label" for="basic-icon-default-company">Company Name <span class="text-danger">*</span></label>
+								<div class="input-group input-group-merge">
+									<span id="basic-icon-default-company2" class="input-group-text"><i class="bx bx-buildings"></i></span>
+									<input type="text" id="basic-icon-default-company" class="form-control" placeholder="Company Name"/>
+								</div>
 							</div>
+							<div class="mb-3">
+		                        <label for="exampleFormControlSelect1" class="form-label">Location <span class="text-danger">*</span></label>
+		                        <select class="form-select" id="exampleFormControlSelect1" aria-label="Default select example">
+		                          	<option selected>Select Division/State</option>
+		                          	<option value="1">Ayeyarwady</option>
+		                          	<option value="2">Bago</option>
+		                          	<option value="3">Chin</option>
+		                          	<option value="4">Kachin</option>
+		                          	<option value="5">Kayah</option>
+		                          	<option value="6">Kayin</option>
+		                          	<option value="7">Magway</option>
+		                          	<option value="8">Mandalay</option>
+		                          	<option value="9">Mon</option>
+		                          	<option value="10">Naypyidaw</option>
+		                          	<option value="11">Rakhine</option>
+		                          	<option value="12">Sagaing</option>
+		                          	<option value="13">Shan</option>
+		                          	<option value="14">Tanintharyi</option>
+		                          	<option value="15">Yangon</option>
+		                        </select>
+		                    </div>
+
+		                    <div class="row gy-3">
+			                    <div class="col-md">
+				                    <div class="mb-3">
+				                    	<label class="form-label d-block ">How Can We Help? <small class="text-light fw-semibold">Feel free to ask a question or simply leave a comment.</small> <span class="text-danger">*</span></label>
+		                          		<label class="form-label d-block ">Select Product <span class="text-danger">*</span></label>
+
+										<div class="form-check form-check-inline mt-2">
+											<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Loan" />
+											<label class="form-check-label" for="inlineCheckbox1">Loan</label>
+										</div>
+										<div class="form-check form-check-inline">
+											<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="Trade" />
+											<label class="form-check-label" for="inlineCheckbox2">Trade</label>
+										</div>
+										<div class="form-check form-check-inline">
+											<input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="CMS" />
+											<label class="form-check-label" for="inlineCheckbox3">CMS</label>
+										</div>
+										<div class="form-check form-check-inline">
+											<input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="Digital Banking" />
+											<label class="form-check-label" for="inlineCheckbox4">Digital Banking</label>
+										</div>
+		                    		</div>
+		                    	</div>
+		                    </div>
+
+		                    <div class="row gy-3">
+			                    <div class="col-md">
+				                    <div class="mb-3">
+		                          		<label class="form-label d-block ">Select Sub Product <span class="text-danger">*</span></label>
+
+										<div class="form-check form-check-inline mt-2">
+											<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Loan" />
+											<label class="form-check-label" for="inlineCheckbox1">Loan</label>
+										</div>
+										<div class="form-check form-check-inline">
+											<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="Trade" />
+											<label class="form-check-label" for="inlineCheckbox2">Trade</label>
+										</div>
+										<div class="form-check form-check-inline">
+											<input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="CMS" />
+											<label class="form-check-label" for="inlineCheckbox3">CMS</label>
+										</div>
+										<div class="form-check form-check-inline">
+											<input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="Digital Banking" />
+											<label class="form-check-label" for="inlineCheckbox4">Digital Banking</label>
+										</div>
+		                    		</div>
+		                    	</div>
+		                    </div>
+							
+							
+							
 							<button type="submit" class="btn btn-primary">Send</button>
-							</form>
+						</form>
 
 
 						<!-- <h3 style="font-weight: 600;color: #000;margin-bottom: 30px;">GET IN TOUCH</h3>
