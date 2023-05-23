@@ -237,14 +237,14 @@
     $(".personal-menu-ac-sav-link").hover(function(){
         $(".menu-link").not('.menu-active').removeClass('menu-hover-active');
         $(".personal-menu-ac-sav-link").addClass('menu-hover-active');
-        $(".personal-dropdown-content").css('background-image',"url('http://localhost/ayab/public/images/menu/personal_acc_bg.png')");
+        // $(".personal-dropdown-content").css('background-image',"url('http://103.94.54.111/images/menu/personal_acc_bg.png')");
         $(".personal-menu-links").addClass('d-none');
         $(".personal-acc-sav-menu").removeClass('d-none');
     });
     $(".personal-menu-borrow-link").hover(function(){
         $(".menu-link").not('.menu-active').removeClass('menu-hover-active');
         $(".personal-menu-borrow-link").addClass('menu-hover-active');
-        $(".personal-dropdown-content").css('background-image',"url('http://localhost/ayab/public/images/menu/personal_borrow_bg.png')");
+        // $(".personal-dropdown-content").css('background-image',"url('http://103.94.54.111/images/menu/personal_borrow_bg.png')");
         $(".personal-menu-links").addClass('d-none');
         $(".personal-borrow-menu").removeClass('d-none');
     });
