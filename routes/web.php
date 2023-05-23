@@ -149,3 +149,7 @@ Route::get('/test','App\Http\Controllers\HomeController@testIndex');
 
 // About AYA
 // about-aya/who-we-are-corporate-profile/awards
+
+
+// Enquiry Form
+Route::get('/get-in-touch','App\Http\Controllers\EnquiryController@index');

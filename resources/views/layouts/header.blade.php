@@ -374,6 +374,15 @@
 													</div>
 													<div class="col-md-12">
 														<p class="m-b-5">
+															<a href="{{ url('/business/insurance/group-life') }}">Group Life Insurance</a>
+														</p>
+														<p class="m-b-5">
+															<a href="{{ url('/insurance/fire') }}">Fire Insurance</a>
+														</p>
+														<p class="m-b-5">
+															<a href="{{ url('/insurance/motor') }}">Motor Insurance</a>
+														</p>
+														<p class="m-b-5">
 															<a href="{{ url('/business/insurance/domestic-marine-cargo') }}">Domestic Marine Cargo Insurance</a>
 														</p>
 														<p class="m-b-5">
@@ -383,13 +392,10 @@
 															<a href="{{ url('/business/insurance/domestic-inland-transit') }}">Domestic Inland Transit Insurance</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/business/insurance/car-ear') }}">Contractor’s All Risk & Erection All Risk (CAR & EAR) Insurance</a>
-														</p>
-														<p class="m-b-5">
 															<a href="{{ url('/business/insurance/industrial-all-risk') }}">Industrial All Risk Insurance (IAR) Insurance</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/business/insurance/group-life') }}">Group Life Insurance</a>
+															<a href="{{ url('/business/insurance/car-ear') }}">Contractor’s All Risk & Erection All Risk (CAR & EAR) Insurance</a>
 														</p>
 													</div>
 												</div>
@@ -709,9 +715,6 @@
 															<a href="">Our Commitment</a>
 														</p>
 														<p class="m-b-5">
-															<a href="">Our Commitment</a>
-														</p>
-														<p class="m-b-5">
 															<a href="">UNGC Commitment</a>
 														</p>
 													</div>
@@ -763,9 +766,6 @@
 															<a href="">Announcements</a>
 														</p>
 														<p class="m-b-5">
-															<a href="">Knowledge Hub</a>
-														</p>
-														<p class="m-b-5">
 															<a href="https://saltnpixel.com/AYABank/AYABank_Report.html" target="_blank">Reports</a>
 														</p>
 													</div>
@@ -785,6 +785,9 @@
 														</p>
 														<p class="m-b-5">
 															<a href="">FX Locations</a>
+														</p>
+														<p class="m-b-5">
+															<a href="">ATM Location</a>
 														</p>
 													</div>
 												</div>
