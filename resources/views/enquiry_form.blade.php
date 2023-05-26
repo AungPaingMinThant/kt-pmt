@@ -186,7 +186,7 @@
 											</div>
 										</div>
 
-										<div class="digital_check">
+										<div class="digital_check d-none">
 											<div class="form-check mt-2">
 												<input class="form-check-input sub_prod_check" type="checkbox" name="sub_prod_check[]" id="inlineDigitalCheckbox1" value="Corporate Internet Banking" required />
 												<label class="form-check-label" for="inlineDigitalCheckbox1">Corporate Internet Banking</label>
