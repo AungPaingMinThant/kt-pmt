@@ -191,14 +191,17 @@
             'width': 'toggle'
         }, 350);
         $(".menu-overlay").fadeIn(500);
+        $(".landing_carousel").css('z-index','0');
     });
     $(".menu-overlay").click(function(event) {
         $(".navbar-toggle").trigger("click");
         $(".menu-overlay").fadeOut(500);
+        $(".landing_carousel").css('z-index','2');
     });
     $("#navbar_close").click(function(event) {
         $(".navbar-toggle").trigger("click");
         $(".menu-overlay").fadeOut(500);
+        $(".landing_carousel").css('z-index','2');
     });
     
 

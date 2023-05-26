@@ -11,16 +11,19 @@
         	<div class="menu-overlay"></div>
 
         	<div class="d-none d-sm-block">
-        		<div id="carouselExample-cf" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel" style="box-shadow: 0px 15px 20px 5px #f4f4f4;">
+        		<div id="carouselExample-cf" class="carousel carousel-dark slide carousel-fade landing_carousel" data-bs-ride="carousel" style="box-shadow: 0px 15px 20px 5px #f4f4f4;">
 					<ol class="carousel-indicators">
 						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="0" class="active"></li>
 						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="1"></li>
 						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="2"></li>
 					</ol>
 					<div class="carousel-inner active">
-						<div class="carousel-item active">
-							<video class="img-fluid" autoplay loop muted>
+						<div class="carousel-item carousel-item-1 active">
+							<video class="img-fluid desk_slide" autoplay loop muted>
 								<source src="{{ url('/images/home/desk.mp4') }}" type="video/mp4" />
+							</video>
+							<video class="img-fluid tablet_slide" autoplay loop muted>
+								<source src="{{ url('/images/home/landing_slide_1.mp4') }}" type="video/mp4" />
 							</video>
 							<div class="row carousel-caption">
 								<div class="col-md-6"></div>
@@ -32,21 +35,19 @@
 								</div>
 							</div>
 						</div>
-						<div class="carousel-item">
-							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_2.jpg') }}" alt="Second slide" />
+						<!-- <div class="carousel-item carousel-item-2">
 							<div class="row carousel-caption carousel-caption-2">
 								<div class="col-md-6">
 									<div class="carousel-right-2">
 										<p class="carousel-caption-title">Learning Today,</p>
-										<p class="carousel-caption-desc-2 mb-10">For Better Bankers Tomorrow.</p>
+										<p class="carousel-caption-desc-2 mb-0">For Better Bankers Tomorrow.</p>
 										<p class="carousel-caption-desc-2 carousel-caption-desc-2-2">Learn & Grow with AYA.</p>
 									</div>
 								</div>
 								<div class="col-md-6"></div>
 							</div>
 						</div>
-						<div class="carousel-item ">
-							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_3.jpg') }}" alt="Third slide" />
+						<div class="carousel-item carousel-item-3">
 							<div class="row carousel-caption carousel-caption-3">
 								<div class="col-md-6"></div>
 								<div class="col-md-6">
@@ -57,7 +58,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> -->
 					</div>
                 </div>
             </div>
@@ -70,9 +71,9 @@
 							</video>
 							<div class="row carousel-caption carousel-caption-mobile-2">
 								<div class="col-md-12">
-									<div class="carousel-right-2">
+									<div class="carousel-left-1">
 										<p class="carousel-caption-title">Creating</p>
-										<p class="carousel-caption-desc-2 mb-10">your Financial World <br>in One Bank.</p>
+										<p class="carousel-caption-desc">your Financial World in One Bank.</p>
 									</div>
 								</div>
 							</div>
@@ -89,7 +90,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="carousel-item active">
+						<div class="carousel-item">
 							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_mobile_3.jpg') }}" alt="Third slide" />
 							<div class="row carousel-caption">
 								<div class="col-md-6"></div>
@@ -97,7 +98,7 @@
 									<div class="carousel-left-1">
 										<p class="carousel-caption-title carousel-caption-title-3-1">Moving Forward,</p>
 										<p class="carousel-caption-title carousel-caption-title-3-2">Going Digital,</p>
-										<p class="carousel-caption-desc carousel-caption-3-desc" style="width: 50%;margin-right: -40px;">Experience the New AYA on the Go!</p>
+										<p class="carousel-caption-desc carousel-caption-3-desc" style="width: 50%;margin-left: 70px;">Experience the New AYA on the Go!</p>
 									</div>
 								</div>
 							</div>
@@ -201,7 +202,7 @@
 									<div class="input-group">
 										<label class="input-group-text" for="inputGroupSelect02">I want to &nbsp;</label>
 										<select class="form-select" id="inputGroupSelect02">
-											<option value="0" selected>get Loan for business expansion</option>
+											<option value="0" selected>get corporate loan for business expansion</option>
 											<option value="1">get business loan for project / tender contract</option>
 											<option value="2">start a small business</option>
 											<option value="3">grow towards a modern  agricultural sector</option>
@@ -217,7 +218,7 @@
 									<p class="CTA_desc mb-10">Let us guide you what you are looking for your business</p>
 									<label class="theme_text_color" for="inputGroupSelect02" style="font-size: 16px;margin-bottom: 5px;">I want to &nbsp;</label>
 									<select class="form-select" id="inputGroupSelect02">
-										<option value="0" selected>get Loan for business expansion</option>
+										<option value="0" selected>get corporate loan for business expansion</option>
 										<option value="1">get business loan for project / tender contract</option>
 										<option value="2">start a small business</option>
 										<option value="3">grow towards a modern  agricultural sector</option>
@@ -246,7 +247,7 @@
 										<select class="form-select" id="inputGroupSelect03" style="width: 50%">
 											<option value="0" selected>Branch</option>
 											<option value="1">ATM</option>
-											<option value="2">FX Counter Locator</option>
+											<option value="2">FX Counter</option>
 										</select>
 									</div>
 								</div>
@@ -258,7 +259,7 @@
 									<select class="form-select" id="inputGroupSelect03">
 										<option value="0" selected>Branch</option>
 										<option value="1">ATM</option>
-										<option value="2">FX Counter Locator</option>
+										<option value="2">FX Counter</option>
 									</select>
 								</div>
 							</div>
@@ -317,7 +318,7 @@
 						<div class="space-20"></div>
 						<div class="row view_all_news">
 							<div class="col-md-6 view_all_news_col"></div>
-							<div class="col-md-6 text-center view_all_news_div" style="display: table;">
+							<div class="col-md-6 text-center view_all_news_div" style="display: table;height: auto;">
 								<a href="" style="display: table-cell;vertical-align: middle;">
 									<p class="mb-0" style="color: #fff;">View All <i class="menu-icon tf-icons bx bx-chevron-right"></i></p>
 								</a>
@@ -333,10 +334,10 @@
 				<div class="container insights_container">
 					<div class="d-none d-sm-block">
 						<div class="row">
-							<div class="col-md-5">
+							<div class="col-md-5 accolades_text_div">
 								<p class="mb-0">Discover about our achievements</p>
 								<p style="font-size: 30px;font-weight: 800">Awards and Accolades</p>
-								<a href="https://saltnpixel.com/AYABank/AYABank_Awards.html" target="_blank">
+								<a class="view_more_desk_link" href="https://saltnpixel.com/AYABank/AYABank_Awards.html" target="_blank">
 									<p class="mb-0 theme_text_color fw-bold">Discover More <i class="tf-icons bx bx-chevron-right"></i></p>
 								</a>
 							</div>
@@ -358,6 +359,9 @@
 										<img src="{{ url('/images/home/2-CSR-Award-2017.png') }}" class="img-fluid">
 									</div>
 								</div>
+								<a class="view_more_tab_link" href="https://saltnpixel.com/AYABank/AYABank_Awards.html" target="_blank">
+									<p class="mb-0 theme_text_color fw-bold">Discover More <i class="tf-icons bx bx-chevron-right"></i></p>
+								</a>
 							</div>
 						</div>
 					</div>

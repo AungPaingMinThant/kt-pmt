@@ -1323,8 +1323,8 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-7 text-left" style="text-align: left;position: relative;">
 					<div class="regular_curr_acc_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 35px;line-height: 36px;">Regular Current Account</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;width: 70%;">Are you looking for an everyday account?</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 26px;line-height: 36px;">Regular Current Account</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;width: 70%;font-size: 26px;line-height: 36px;">Are you looking for an everyday account?</h1>
 					</div>
 				</div>
 				<div class="col-md-5" style="text-align: right;">
@@ -1359,7 +1359,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-7 text-left" style="text-align: left;position: relative;">
 					<div class="seafarer_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">Seafarer Account (FCY)</span><br><span>Unique banking solution for seafarers <br>to manage payroll and finance</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 26px;line-height: 36px;">Seafarer Account (FCY)</span><br><span style="font-size: 26px;line-height: 36px;">Unique banking solution for seafarers <br>to manage payroll and finance</span></h1>
 					</div>
 				</div>
 				<div class="col-md-5" style="text-align: right;">
@@ -1394,8 +1394,8 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="new_business_curr_acc_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 35px;line-height: 36px;">New Business Current Account</h1>
-						<h1 class="new_business_curr_acc_desc">Make your cash management more accessible</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 26px;line-height: 36px;">New Business Current Account</h1>
+						<h1 class="new_business_curr_acc_desc" style="font-size: 26px;line-height: 36px;">Make your cash management more accessible</h1>
 					</div>
 				</div>
 				<div class="col-md-5" style="text-align: right;">
@@ -1430,7 +1430,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="retail_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">Retail FCA Current (FCY)</span><br><span>Manage your foreign currency payroll is <br>as convenient as local currency.</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;"><span style="color: #a02226;">Retail FCA Current (FCY)</span><br><span>Manage your foreign currency payroll is <br>as convenient as local currency.</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">

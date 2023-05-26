@@ -1,13 +1,34 @@
+.carousel, .carousel-item {
+	height: 400px;
+}
 .carousel_first_slide {
 	background-image: url('../images/home/loop.mp4');
 	height: 500px;
+}
+.tablet_slide {
+	display: none;
+}
+.carousel-item{
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.carousel-item-1 {
+	background-image: url('../images/home/desk.mp4');
+}
+.carousel-item-2 {
+	background-image: url('../images/home/KV_slider_2.jpg');
+	background-position: 73% center;
+}
+.carousel-item-3 {
+	background-image: url('../images/home/KV_slider3.jpg');
 }
 .carousel-indicators {
 	left: 50px !important;
 }
 .carousel-dark .carousel-indicators [data-bs-target] {
     background-color: transparent !important;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
+    box-shadow: 0px 8px 16px 0px rgba(208,208,208,0.2);
 }
 .carousel-indicators{
 	right: 85% !important;
@@ -22,9 +43,9 @@
 }
 .carousel-indicators [data-bs-target] {
 	text-indent: 0 !important;
-    height: 8px !important;
+    height: 10px !important;
+    width: 10px !important;
     margin-left: 0 !important;
-    width: 8px !important;
     margin-bottom: 5%;
     margin-right: 5% !important;
     opacity: 1 !important;
@@ -40,7 +61,7 @@
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
     text-align: left !important;
-    top: 100px;
+    top: 70px;
     left: 20%;
 }
 .carousel-caption-2 {
@@ -321,6 +342,65 @@
 .award_icon_div {
 	overflow: hidden;
 }
+.view_more_tab_link {
+	display: none;
+}
+
+@media (max-width: 1360px) and (min-width: 1251px) {
+	.carousel-caption {
+		top: 25%;
+	}
+	.carousel-caption-title {
+		font-size: 50px;
+	}
+	.carousel-caption-2 {
+		top: 5%;
+	}
+	.carousel-caption-3 {
+		top: 15% !important;
+	}
+	.app_detail_div, .ayapay_app_detail_div {
+		top: 110px;
+	}
+	.app_desc {
+		padding-right: 100px !important;
+	}
+	.ayapay_app_desc {
+		padding-right: 220px !important;
+	}
+	.ayapay_app_desc, .app_desc {
+		font-size: 20px;
+    	line-height: 26px;
+	}
+	.mbaning_img_ios {
+		width: 35% !important;
+	}
+	.mbaning_img_andriod {
+		width: 39% !important;
+	}
+	.ayapay_img_ios {
+		width: 36% !important;
+	}
+	.ayapay_img_andriod {
+		width: 43% !important;
+	}
+	.mbaning_img_ios, .ayapay_img_ios {
+		margin-right: 10px;
+	}
+	.CTA_section_1 {
+		margin-top: -50px;
+		background-position: 30% center;
+	}
+	.CTA_section_2 {
+		background-position: 80% center;
+	}
+	.CTA_section_3 {
+		background-position: 30% center;
+	}
+	.news_img_div {
+		height: 180px;
+	}
+}
 @media (max-width: 1250px) and (min-width: 1000px) {
 	.carousel-caption {
 		top: 25%;
@@ -379,49 +459,93 @@
 		height: 137px !important;
 	}
 }
-@media (max-width: 1360px) and (min-width: 1251px) {
-	.carousel-caption {
-		top: 25%;
+@media (max-width: 999px) and (min-width: 577px) {
+	.carousel-item-3 {
+		background-image: url('../images/home/KV_slider_tablet_3.jpg');
+	}
+	.carousel-item-2 {
+		background-image: url('../images/home/KV_slider_tablet_2.jpg');
 	}
 	.carousel-caption-title {
-		font-size: 50px;
+	    font-size: 50px;
+	    line-height: 40px;
+	}
+	.carousel-caption-desc-3 {
+	    font-size: 40px;
+	    line-height: 30px;
+	    margin-left: 40px;
+	}
+	.carousel-caption {
+	    left: -40px !important;
+	    top: 50px !important;
+	}
+	.carousel-caption-desc {
+	    margin-left: 80px;
+	}
+	.carousel-caption-2{
+		left: 20% !important;
 	}
 	.carousel-caption-2 {
-		top: 5%;
+		left: 20% !important;
+		top: 2% !important;
 	}
-	.carousel-caption-3 {
-		top: 15% !important;
+	.carousel-right-2 p.carousel-caption-title {
+		margin-left: -30px !important;
+		margin-bottom: 10px !important;
+	}
+	.carousel-right-2 p.carousel-caption-desc-2 {
+		transform: translateX(-110%);
+	}
+	.tablet_slide {
+		display: block;
+	}
+	.desk_slide {
+		display: none;
 	}
 	.app_detail_div, .ayapay_app_detail_div {
-		top: 110px;
+	    top: 50px;
 	}
-	.app_desc {
-		padding-right: 100px !important;
+	.mbaning_div {
+    	background-image: url(../images/home/mbanking_tablet.png);
+    	height: 260px;
+    }
+    .mbaning_div:hover {
+    	background-image: url(../images/home/mbanking_tablet_hover.png);
+    }
+    .ayapay_div {
+    	background-image: url(../images/home/ayapay_wallet_tablet.png);
+    	height: 260px;
+    }
+    .ayapay_div:hover{
+    	background-image: url(../images/home/ayapay_wallet_tablet_hover.png);
+    }
+    .app_title {
+	    margin-bottom: 10px;
+	}
+    .app_desc {
+	    font-size: 16px;
+	    line-height: 22px;
+	    margin-bottom: 20px;
+	    padding-right: 30px !important;
 	}
 	.ayapay_app_desc {
-		padding-right: 220px !important;
-	}
-	.ayapay_app_desc, .app_desc {
-		font-size: 20px;
-    	line-height: 26px;
-	}
-	.mbaning_img_ios {
-		width: 35% !important;
-	}
-	.mbaning_img_andriod {
-		width: 39% !important;
-	}
-	.ayapay_img_ios {
-		width: 36% !important;
-	}
-	.ayapay_img_andriod {
-		width: 43% !important;
+	    font-size: 16px;
+	    line-height: 22px;
+	    margin-bottom: 20px;
+	    padding-right: 120px !important;
 	}
 	.mbaning_img_ios, .ayapay_img_ios {
-		margin-right: 10px;
+	    width: 44%;
+	    margin-right: 10px;
+	}
+	.mbaning_img_andriod, .ayapay_img_andriod {
+	    width: 47%;
+	}
+	.ayapay_app_link_div {
+	    padding-right: 80px !important;
 	}
 	.CTA_section_1 {
-		margin-top: -50px;
+		margin-top: -20px;
 		background-position: 30% center;
 	}
 	.CTA_section_2 {
@@ -430,11 +554,35 @@
 	.CTA_section_3 {
 		background-position: 30% center;
 	}
-	.news_img_div {
-		height: 180px;
+	.insights_container {
+	    padding: 0px 20px !important;
+	}
+	.view_all_news_div {
+		height: 60px;
+	}
+	.award_accolade_div {
+		height: auto;
+	}
+	.insights_container > .row > .col-md-6 {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.accolades_text_div, .award_icon_div {
+		width: 100% !important;
+		text-align: center;
+	}
+	.view_more_desk_link {
+		display: none;
+	}
+	.view_more_tab_link {
+		display: block;
+		margin-top: -30px;
 	}
 }
 @media only screen and (max-width: 576px){
+	.carousel, .carousel-item {
+	    height: auto;
+	}
 	.carousel-caption {
 	    top: 40px !important;
 	    left: 40% !important;
@@ -445,8 +593,10 @@
     	text-shadow: 0 0 20px #e7ecec;
 	}
 	.carousel-caption-mobile-2 {
-		top: 20px !important;
-	    left: 8% !important;
+		/*top: 20px !important;
+	    left: 8% !important;*/
+    	top: 30px !important;
+    	left: 28% !important;
 	}
 	.carousel-caption-title {
 	    font-size: 40px;

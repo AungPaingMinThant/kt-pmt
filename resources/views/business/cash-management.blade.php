@@ -67,7 +67,7 @@
 								<div class="col-md-12">
 									<p class="fw-bold" style="font-size: 18px;">Services we offer</p>
 								</div>
-								<ul class="nav nav-pills flex-column">
+								<ul class="nav nav-pills flex-column cash_mgmt_link">
 									<li class="nav-item">
 										<a class="nav-link active" id="payroll_service_link" href="#payroll_service">
 											<span class="pr-5">Payroll Service</span>

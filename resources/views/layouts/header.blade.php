@@ -96,24 +96,21 @@
 															<a href="{{ url('/account-saving/saving-deposit/aya-su-buu') }}">AYA Su-Buu</a>
 														</p>
 													</div>
-													<div class="col">
+													<div class="col-md-4">
 														<p class="fw-bold">
 															<a href="{{ url('/account-saving/current-deposit') }}">CURRENT DEPOST</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/account-saving/saving-deposit/aya-regular-saving') }}">AYA Regular Saving</a>
+															<a href="{{ url('/account-saving/current-deposit/regular-current-account') }}">Regular Current Account</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/account-saving/saving-deposit/aya-maximizer-saving') }}">AYA Maximizer Saving</a>
+															<a href="{{ url('/account-saving/current-deposit/new-business-current-account') }}">New Business Current Account</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/account-saving/saving-deposit/aya-loyal-saving') }}">AYA Loyal Saving</a>
+															<a href="{{ url('/account-saving/current-deposit/seafarer-acount') }}">Seafarer Account (FCY)</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/account-saving/saving-deposit/ngwe-toe-mae-shwe-o') }}">Ngwe Toe Mae-Shwe O</a>
-														</p>
-														<p class="m-b-5">
-															<a href="{{ url('/account-saving/saving-deposit/aya-su-buu') }}">AYA Su-Buu</a>
+															<a href="{{ url('/account-saving/current-deposit/retail-fca-current') }}">Retail FCA Current (FCY)</a>
 														</p>
 													</div>
 												</div>
@@ -131,7 +128,10 @@
 													</div>
 													<div class="col">
 														<p class="fw-bold">
-															<a href="{{ url('/account-saving/saving-deposit') }}">FIXED DEPOST</a>
+															FIXED DEPOST
+														</p>
+														<p class="m-b-5">
+															<a href="{{ url('/account-saving/saving-deposit') }}">Fixed Deposit</a>
 														</p>
 													</div>
 												</div>
@@ -294,10 +294,10 @@
 															ACCOUNTS AND SAVINGS
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/business/account-saving/call-deposit') }}">Call Deposit</a>
+															<a href="{{ url('/business/account-saving/saving-deposit') }}">Saving Deposit</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/business/account-saving/saving-deposit') }}">Saving Deposit</a>
+															<a href="{{ url('/business/account-saving/call-deposit') }}">Call Deposit</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/business/account-saving/current-deposit') }}">Current Deposit</a>
@@ -315,10 +315,10 @@
 															REMITTANCE AND PAYMENTS
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/business/remittance-payments/local-payments') }}">Local Payments</a>
+															<a href="{{ url('/business/remittance-payments/local-payments') }}">Local Remittance</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/business/remittance-payments/international-payments') }}">International Payments</a>
+															<a href="{{ url('/business/remittance-payments/international-payments') }}">International Remittance</a>
 														</p>
 													</div>
 												</div>
@@ -361,6 +361,18 @@
 													<div class="col-md-5">
 														<p class="m-b-5 fw-bold">
 															<a href="{{ url('/business/cash-management') }}">CASH MANAGEMENT</a>
+														</p>
+														<p class="m-b-5">
+															<a href="{{ url('/business/cash-management#payroll_service') }}">Payroll Service</a>
+														</p>
+														<p class="m-b-5">
+															<a href="{{ url('/business/cash-management#receivables_service') }}">Receivables Service</a>
+														</p>
+														<p class="m-b-5">
+															<a href="{{ url('/business/cash-management#bulk_payment_payables_services') }}">Bulk Payment (Payables Service)</a>
+														</p>
+														<p class="m-b-5">
+															<a href="{{ url('/business/cash-management#liquidity_service') }}">Liquidity Service</a>
 														</p>
 													</div>
 												</div>

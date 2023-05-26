@@ -170,6 +170,13 @@
 .personal-acc-sav-menu > .row > .col, .business-acc-sav-menu > .row > .col {
 	max-width: 25% !important;
 }
+.personal-acc-sav-menu > .row > .co:nth-child(2){
+	max-width: 30% !important;
+}
+@media (min-width: 1800px) {
+	.personal-dropdown-content, .business-dropdown-content, .digital-dropdown-content, .about-aya-dropdown-content {
+		top: 15% !important;
+	}
 @media (max-width: 1400px) and (min-width: 1301px) {
     .personal-dropdown-content {
 	    background-position: 95% center;

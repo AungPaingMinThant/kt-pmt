@@ -88,11 +88,13 @@ Route::get('/insurance/life/short-term','App\Http\Controllers\Insurance\LifeInsu
 Route::get('/account-saving/call-deposit','App\Http\Controllers\AccountSaving\CallDepositController@index');
 Route::get('/account-saving/call-deposit/premium-call-deposit','App\Http\Controllers\AccountSaving\CallDepositController@premiumIndex');
 Route::get('/account-saving/call-deposit/new-business-call','App\Http\Controllers\AccountSaving\CallDepositController@newBusinessCallIndex');
+
 Route::get('/account-saving/current-deposit','App\Http\Controllers\AccountSaving\CurrentDepositController@index');
 Route::get('/account-saving/current-deposit/regular-current-account','App\Http\Controllers\AccountSaving\CurrentDepositController@RegularIndex');
 Route::get('/account-saving/current-deposit/new-business-current-account','App\Http\Controllers\AccountSaving\CurrentDepositController@newBusinessIndex');
 Route::get('/account-saving/current-deposit/seafarer-acount','App\Http\Controllers\AccountSaving\CurrentDepositController@seafererIndex');
 Route::get('/account-saving/current-deposit/retail-fca-current','App\Http\Controllers\AccountSaving\CurrentDepositController@retailFCAIndex');
+
 Route::get('/account-saving/fixed-deposit','App\Http\Controllers\AccountSaving\FixedDepositController@index');
 Route::get('/account-saving/saving-deposit','App\Http\Controllers\AccountSaving\SavingDepositController@index');
 Route::get('/account-saving/saving-deposit/aya-regular-saving','App\Http\Controllers\AccountSaving\SavingDepositController@regularSavingIndex');
@@ -152,4 +154,5 @@ Route::get('/test','App\Http\Controllers\HomeController@testIndex');
 
 
 // Enquiry Form
-Route::get('/get-in-touch','App\Http\Controllers\EnquiryController@index');
+Route::get('/enquiry','App\Http\Controllers\EnquiryController@index');
+Route::post('/enquiry_form_submit','App\Http\Controllers\EnquiryController@enquirySave');
