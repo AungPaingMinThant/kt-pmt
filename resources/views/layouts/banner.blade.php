@@ -1404,7 +1404,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 20px;left: 15px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;color: #a02226;font-size: 18px;">New Business<br>Current Account</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;color: #a02226;font-size: 18px;">New Business Current Account</h1>
 						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;font-size: 18px;">Make your cash management more accessible</h1>
 					</div>
 				</div>
