@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="{{ url('/css/header.css') }}" />
-<div class="desktop_menu">
+<div class="desktop_menu desktop_header">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-3">
@@ -824,7 +824,7 @@
 	</div>
 </div>
 
-<nav class="navbar navbar-default mobile_menu" >
+<nav class="navbar navbar-default mobile_menu">
     <div class="container-fluid">
         <div class="navbar-header" style="padding: 10px 0px;">
             <button type="button" class="navbar-toggle collapsed" data-toggle="slide-collapse" data-target="#slide-navbar-collapse" aria-expanded="false" style="margin-right: 30px;background-color: transparent;border: 1px solid #fff;border-radius: 5px;color: #fff;">

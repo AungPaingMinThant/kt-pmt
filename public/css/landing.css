@@ -345,7 +345,6 @@
 .view_more_tab_link {
 	display: none;
 }
-
 @media (max-width: 1360px) and (min-width: 1251px) {
 	.carousel-caption {
 		top: 25%;
