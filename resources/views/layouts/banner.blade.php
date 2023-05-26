@@ -1218,7 +1218,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="premium_calldeposit_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 36px;"><span style="color: #a02226;font-size: 35px;">Premium Call Deposit</span><br><span>A simple deposit option to manage funds</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;"><span style="color: #a02226;">Premium Call Deposit</span><br><span>A simple deposit option to manage funds</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1227,8 +1227,8 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 15px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">Premium Call Deposit</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 20px;">A simple deposit option to manage funds</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 18px;line-height: 28px;">Premium Call Deposit</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 18px;line-height: 28px;">A simple deposit option to manage funds</h1>
 					</div>
 				</div>
 			</div>
@@ -1253,7 +1253,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-5 text-left" style="text-align: left;position: relative;">
 					<div class="new_business_call_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 36px;"><span style="color: #a02226;font-size: 35px;">New Business Call</span><br><span>Convenient way to save and invest your cash</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;"><span style="color: #a02226;">New Business Call</span><br><span>Convenient way to save and invest your cash</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1262,9 +1262,9 @@
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 45px;left: 15px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">New Business Call</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 20px;">Convenient way to save and invest your cash</h1>
+					<div style="position: absolute;top: 45px;left: 15px;right: 100px;">
+						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;color: #a02226;font-size: 18px;">New Business Call</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;font-size: 18px;">Convenient way to save and invest your cash</h1>
 					</div>
 				</div>
 			</div>
@@ -1287,7 +1287,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 110px;">
-						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span style="color: #a02226;">Make your everyday</span> banking<br><span style="color: #a02226;">easy and access</span> funds anytime</h1>
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 28px;"><span style="color: #a02226;">Make your everyday</span> banking<br><span style="color: #a02226;">easy and access</span> funds anytime</h1>
 					</div>
 				</div>
 			</div>
@@ -1333,8 +1333,8 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 15px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;26px;line-height: 36px;color: #a02226;">Regular Current Account</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;26px;line-height: 36px;">Are you looking for an everyday account?</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 18px;line-height: 28px;color: #a02226;">Regular Current Account</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 18px;line-height: 28px;">Are you looking for an everyday account?</h1>
 					</div>
 				</div>
 			</div>
@@ -1368,8 +1368,8 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 15px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">Seafarer Account (FCY)</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 20px;">Unique banking solution for seafarers <Br>to manage payroll and finance</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;color: #a02226;font-size: 18px;">Seafarer Account (FCY)</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 18px;line-height: 28px;">Unique banking solution for seafarers <Br>to manage payroll and finance</h1>
 					</div>
 				</div>
 			</div>
@@ -1404,8 +1404,8 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 20px;left: 15px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">New Business<br>Current Account</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 20px;">Make your cash management more accessible</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;color: #a02226;font-size: 18px;">New Business<br>Current Account</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;font-size: 18px;">Make your cash management more accessible</h1>
 					</div>
 				</div>
 			</div>
@@ -1439,8 +1439,8 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 15px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">Retail FCA Current (FCY)</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 20px;">Manage your foreign currency payroll is <br>as convenient as local currency.</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;color: #a02226;font-size: 18px;">Retail FCA Current (FCY)</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;font-size: 18px;">Manage your foreign currency payroll is <br>as convenient as local currency.</h1>
 					</div>
 				</div>
 			</div>

@@ -109,10 +109,15 @@
 .life_one_health_indi_ins_banner {
 	background-image:url('../../images/insurance/life/KV_bg.png');
 }
-.call_deposit_banner_tagline, .new_business_call_banner_tagline, .premium_calldeposit_banner_tagline,
+.call_deposit_banner_tagline, .premium_calldeposit_banner_tagline,
 .regular_curr_acc_banner_tagline, .new_business_curr_acc_banner_tagline, .seafarer_banner_tagline, .saving_deposit_banner_tagline {
 	position: absolute;
 	top: 156px;
+}
+.new_business_call_banner_tagline {
+	position: absolute;
+	right: 100px;
+	top: 120px;
 }
 .aya_regular_saving_banner_tagline, .aya_loyal_saving_banner_tagline {
 	position: absolute;
