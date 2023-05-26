@@ -220,16 +220,14 @@
 						<div class="tab-pane wide-range-payment-option fade" id="navs-pills-top-wide-range-payment-option" role="tabpanel" style="background: rgb(243,243,243);background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(249,249,249,1) 50%, rgba(255,255,255,1) 100%);padding-bottom: 30px;">
 							<div class="container section_1">
 								<div class="row tab_data_row" >
-									<!-- <div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
-										<img src="{{ url('/images/sms/placeholder.jpg') }}" class="img-fluid" style="width: 80%">
-									</div> -->
-									<div class="col-md-12 benefit_feature_box" style="padding: 20px;">
+									<div class="col-md-1"></div>
+									<div class="col-md-10 benefit_feature_box" style="padding: 20px;">
 										<div class="space-20"></div>
 										<div class="row">
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-md-11 col-10 secure_credit_fact">
+											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
 												<p>Online services are offered with most debits and credits cards including Myanmar Payment Union (MPU), UPI, JCB debit cards, Visa, MasterCard on a real-time basis.</p>
 											</div>
 										</div>
@@ -237,7 +235,7 @@
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-md-11 col-10 secure_credit_fact">
+											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
 												<p>We accept all debit and credit cards (MPU, JCB, UPI, VISA, MASTER CARD)</p>
 											</div>
 										</div>
@@ -245,28 +243,27 @@
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-md-11 col-10 secure_credit_fact">
+											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
 												<p>POS Terminal is integrated with AYA Pay wallet</p>
 											</div>
 										</div>
 										<div class="space-40"></div>
 									</div>
+									<div class="col-md-1"></div>
 								</div>
 							</div>
 						</div>
 						<div class="tab-pane all-inclusive-services fade" id="navs-pills-top-all-inclusive-services" role="tabpanel" style="background: rgb(243,243,243);background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(249,249,249,1) 50%, rgba(255,255,255,1) 100%);padding-bottom: 30px;">
 							<div class="container section_1">
 								<div class="row tab_data_row" >
-									<!-- <div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
-										<img src="{{ url('/images/sms/placeholder.jpg') }}" class="img-fluid" style="width: 80%">
-									</div> -->
-									<div class="col-md-12 benefit_feature_box" style="padding: 20px;">
+									<div class="col-md-1"></div>
+									<div class="col-md-10 benefit_feature_box" style="padding: 20px;">
 										<div class="space-20"></div>
 										<div class="row">
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-md-11 col-10 secure_credit_fact">
+											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
 												<p>Free of charge for Installations, User training guides, transaction reports or machine maintenance.</p>
 											</div>
 										</div>
@@ -274,7 +271,7 @@
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-md-11 col-10 secure_credit_fact">
+											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
 												<p>Payment integration can be made to your existing POS system.</p>
 											</div>
 										</div>
@@ -282,7 +279,7 @@
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-md-11 col-10 secure_credit_fact">
+											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
 												<p>Free of charge for installation, training and operating user manual and onsite support</p>
 											</div>
 										</div>
@@ -290,7 +287,7 @@
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-md-11 col-10 secure_credit_fact">
+											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
 												<p>24/7 hotline support is available for any technical error</p>
 											</div>
 										</div>
@@ -298,28 +295,27 @@
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-md-11 col-10 secure_credit_fact">
+											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
 												<p>Payment Integration is possible (Integration between merchant’s existing Point of Sales System and AYA POS)</p>
 											</div>
 										</div>
 										<div class="space-40"></div>
 									</div>
+									<div class="col-md-1"></div>
 								</div>
 							</div>
 						</div>
 						<div class="tab-pane eligibility fade" id="navs-pills-top-eligibility" role="tabpanel" style="background: rgb(243,243,243);background: linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(249,249,249,1) 50%, rgba(255,255,255,1) 100%);padding-bottom: 30px;">
 							<div class="container section_1">
 								<div class="row tab_data_row" >
-									<!-- <div class="col-md-6 text-center benefit_feature_box" style="padding: 20px;">
-										<img src="{{ url('/images/sms/placeholder.jpg') }}" class="img-fluid" style="width: 80%">
-									</div> -->
-									<div class="col-md-12 benefit_feature_box" style="padding: 20px;">
+									<div class="col-md-1"></div>
+									<div class="col-md-10 benefit_feature_box" style="padding: 20px;">
 										<div class="space-20"></div>
 										<div class="row">
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-md-11 col-10 secure_credit_fact">
+											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
 												<p>Call us at <a href="tel:+959258889973" style="color: #a02226">+(95) 9 25 888 9973</a>, <a href="tel:+959258889937" style="color: #a02226">+(95) 9 25 888 9937</a> or visit any of our Branches for more details.</p>
 											</div>
 										</div>
@@ -327,12 +323,13 @@
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-md-11 col-10 secure_credit_fact">
+											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
 												<p>You may also email us at <a href="mailto:mchsupport.card@ayabank.com" style="color: #a02226">mchsupport.card@ayabank.com</a> and arrange our Relationship Manager to call you.</p>
 											</div>
 										</div>
 										<div class="space-40"></div>
 									</div>
+									<div class="col-md-1"></div>
 								</div>
 							</div>
 						</div>

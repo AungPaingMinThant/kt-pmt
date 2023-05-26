@@ -19,7 +19,7 @@
 					</ol>
 					<div class="carousel-inner active">
 						<div class="carousel-item carousel-item-1 active">
-							<video class="img-fluid desk_slide" autoplay loop muted controls="false">
+							<video class="img-fluid desk_slide" autoplay loop muted>
 								<source src="{{ url('/images/home/desk.mp4') }}" type="video/mp4" />
 							</video>
 							<video class="img-fluid tablet_slide" autoplay loop muted>
@@ -35,7 +35,7 @@
 								</div>
 							</div>
 						</div>
-						<!-- <div class="carousel-item carousel-item-2">
+						<div class="carousel-item carousel-item-2">
 							<div class="row carousel-caption carousel-caption-2">
 								<div class="col-md-6">
 									<div class="carousel-right-2">
@@ -58,7 +58,7 @@
 									</div>
 								</div>
 							</div>
-						</div> -->
+						</div>
 					</div>
                 </div>
             </div>
@@ -66,7 +66,7 @@
                 <div id="carouselExample-cf-mobile" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel" style="box-shadow: 0px 15px 20px 5px #f4f4f4;">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<video class="img-fluid" autoplay loop muted controls="false">
+							<video class="img-fluid" autoplay loop muted>
 								<source src="{{ url('/images/home/mobile.mp4') }}" type="video/mp4" />
 							</video>
 							<div class="row carousel-caption carousel-caption-mobile-2">
