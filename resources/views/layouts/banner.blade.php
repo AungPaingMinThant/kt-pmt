@@ -7,7 +7,7 @@
 				<div class="mb_tag">
 					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 						<div class="tag_line_div">
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;">Banking within the <span style="color: #a02226;">palm of your hand</span></h1>
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Banking within the <span style="color: #a02226;">palm of your hand</span></h1>
 						</div>
 					</div>
 					<div class="col-md-6" style="text-align: right;">
@@ -17,7 +17,7 @@
 				<div class="mb_tag_mid">
 					<div class="col-md-8 text-right" style="text-align: right;position: relative;">
 						<div class="tag_line_div">
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;">Banking within the <span style="color: #a02226;">palm of your hand</span></h1>
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Banking within the <span style="color: #a02226;">palm of your hand</span></h1>
 						</div>
 					</div>
 					<div class="col-md-5" style="text-align: right;">
@@ -55,7 +55,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 					<div class="tag_line_div">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;">Banking with AYA is <span style="color: #a02226;">easier</span> than <span style="color: #a02226;">"ABC..."</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Banking with AYA is <span style="color: #a02226;">easier</span> than <span style="color: #a02226;">"ABC..."</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -90,12 +90,12 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 					<div class="debit_banner_tag" style="position: absolute;top: 156px;right: 0;">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;">Nothing can be more simpler than</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;color: #a02226;">a cashless payment</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Nothing can be more simpler than</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;color: #a02226;">a cashless payment</h1>
 					</div>
 					<div class="debit_banner_tag_mid" style="position: absolute;top: 156px;right: 0;">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;">Nothing can be more simpler than</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;color: #a02226;">a cashless payment</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Nothing can be more simpler than</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;color: #a02226;">a cashless payment</h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -130,11 +130,11 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 					<div class="credit_banner_tag" style="position: absolute;top: 156px;right: 0;">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;">Define your life style with <span style="color: #a02226;">AYA Credit Cards</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Define your life style with <span style="color: #a02226;">AYA Credit Cards</span></h1>
 					</div>
 					<div class="credit_banner_tag_mid" style="position: absolute;top: 80px;right: 0;">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;">Define your life style with</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;">
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Define your life style with</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">
 							<span style="color: #a02226;">AYA Credit Cards</span>
 						</h1>
 					</div>
@@ -173,7 +173,7 @@
 				<div class="ecommerce_banner_tag">
 					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 						<div style="position: absolute;top: 150px;right: 0;">
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;">Register <span style="color: #a02226;">E-commerce Business</span> with Us</h1>
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Register <span style="color: #a02226;">E-commerce Business</span> with Us</h1>
 						</div>
 					</div>
 					<div class="col-md-6" style="text-align: right;">
@@ -182,7 +182,7 @@
 				<div class="ecommerce_banner_tag_mid">
 					<div class="col-md-8 text-right" style="text-align: right;position: relative;">
 						<div style="position: absolute;top: 150px;right: 0;">
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;">Register <span style="color: #a02226;">E-commerce Business</span> with Us</h1>
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Register <span style="color: #a02226;">E-commerce Business</span> with Us</h1>
 						</div>
 					</div>
 					<div class="col-md-4" style="text-align: right;">
@@ -257,8 +257,8 @@
 				<div class="prepaid_banner_tag">
 					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 						<div style="position: absolute;top: 156px;right: 0;">
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;">Pick AYA World Travel Card, <span style="color: #a02226;">explore the</span></h1>
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;color: #a02226;">
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Pick AYA World Travel Card, <span style="color: #a02226;">explore the</span></h1>
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;color: #a02226;">
 								world and make life more fun!
 							</h1>
 						</div>
@@ -269,11 +269,11 @@
 				<div class="prepaid_banner_tag_mid">
 					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 						<div style="position: absolute;top: 150px;right: 0;">
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;">Pick AYA World Travel Card,</h1>
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;color: #a02226;">
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Pick AYA World Travel Card,</h1>
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;color: #a02226;">
 								explore the world and
 							</h1>
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;color: #a02226;">
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;color: #a02226;">
 								make life more fun!
 							</h1>
 						</div>
@@ -1203,7 +1203,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="premium_calldeposit_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;"><span style="color: #a02226;">Premium Call Deposit</span><br><span>A simple deposit option to manage funds</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #a02226;">Premium Call Deposit</span><br><span>A simple deposit option to manage funds</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1238,7 +1238,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-5 text-left" style="text-align: left;position: relative;">
 					<div class="new_business_call_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;"><span style="color: #a02226;">New Business Call</span><br><span>Convenient way to save and invest your cash</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #a02226;">New Business Call</span><br><span>Convenient way to save and invest your cash</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1308,8 +1308,8 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-7 text-left" style="text-align: left;position: relative;">
 					<div class="regular_curr_acc_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 26px;line-height: 36px;">Regular Current Account</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;width: 70%;font-size: 26px;line-height: 36px;">Are you looking for an everyday account?</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 26px;line-height: 30px;">Regular Current Account</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;width: 70%;font-size: 26px;line-height: 30px;">Are you looking for an everyday account?</h1>
 					</div>
 				</div>
 				<div class="col-md-5" style="text-align: right;">
@@ -1344,7 +1344,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-7 text-left" style="text-align: left;position: relative;">
 					<div class="seafarer_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 26px;line-height: 36px;">Seafarer Account (FCY)</span><br><span style="font-size: 26px;line-height: 36px;">Unique banking solution for seafarers <br>to manage payroll and finance</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 26px;line-height: 30px;">Seafarer Account (FCY)</span><br><span style="font-size: 26px;line-height: 30px;">Unique banking solution for seafarers <br>to manage payroll and finance</span></h1>
 					</div>
 				</div>
 				<div class="col-md-5" style="text-align: right;">
@@ -1379,8 +1379,8 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="new_business_curr_acc_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 26px;line-height: 36px;">New Business Current Account</h1>
-						<h1 class="new_business_curr_acc_desc" style="font-size: 26px;line-height: 36px;">Make your cash management more accessible</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 26px;line-height: 30px;">New Business Current Account</h1>
+						<h1 class="new_business_curr_acc_desc" style="font-size: 26px;line-height: 30px;">Make your cash management more accessible</h1>
 					</div>
 				</div>
 				<div class="col-md-5" style="text-align: right;">
@@ -1415,7 +1415,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="retail_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;"><span style="color: #a02226;">Retail FCA Current (FCY)</span><br><span>Manage your foreign currency payroll is <br>as convenient as local currency.</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #a02226;">Retail FCA Current (FCY)</span><br><span>Manage your foreign currency payroll is <br>as convenient as local currency.</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1439,7 +1439,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="fixed_deposit_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;">Maximise savings with<br><span style="color: #a02226;">AYA Fixed Deposits</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Maximise savings with<br><span style="color: #a02226;">AYA Fixed Deposits</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1473,7 +1473,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="saving_deposit_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;">A safe way to save money and<Br><span style="color: #a02226;">receive the benefits of interest</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">A safe way to save money and<Br><span style="color: #a02226;">receive the benefits of interest</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1522,7 +1522,7 @@
 					</div>
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_regular_saving_banner_tagline">
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;"><span style="color: #a02226;">AYA Regular Saving</span><br>A simple account for standard financial transactions.</h1>
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #a02226;">AYA Regular Saving</span><br>A simple account for standard financial transactions.</h1>
 						</div>
 					</div>
 				</div>
@@ -1557,7 +1557,7 @@
 				<div class="row">
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_maximizer_saving_banner_tagline">
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;"><span style="color: #a02226;">AYA Maximizer Saving</span><br>Earn bonus interest rates on your monthly minimum deposits.</h1>
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #a02226;">AYA Maximizer Saving</span><br>Earn bonus interest rates on your monthly minimum deposits.</h1>
 						</div>
 					</div>
 					<div class="col-md-5">
@@ -1594,7 +1594,7 @@
 				<div class="row">
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_loyal_saving_banner_tagline">
-							<h1 style="font-weight: 400;margin-bottom: 10px;font-size: 26px;line-height: 36px;"><span style="color: #a02226;">AYA Loyal Saving</span><br>Reach your goals, grow your savings with <br>competitive interest rate</h1>
+							<h1 style="font-weight: 400;margin-bottom: 10px;font-size: 26px;line-height: 30px;"><span style="color: #a02226;">AYA Loyal Saving</span><br>Reach your goals, grow your savings with <br>competitive interest rate</h1>
 						</div>
 					</div>
 					<div class="col-md-5">
@@ -1632,7 +1632,7 @@
 				<div class="row">
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_regular_saving_banner_tagline">
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;"><span style="color: #a02226;">Ngwe Toe Mae-Shwe O</span><br>Send money back to your hometown and earn regular interest</h1>
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #a02226;">Ngwe Toe Mae-Shwe O</span><br>Send money back to your hometown and earn regular interest</h1>
 						</div>
 					</div>
 					<div class="col-md-5">
@@ -1670,7 +1670,7 @@
 				<div class="row">
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_regular_saving_banner_tagline">
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;"><span style="color: #a02226;">AYA Su-Buu</span><br>Get a head start for future with a well-managed <br>retirement savings scheme</h1>
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #a02226;">AYA Su-Buu</span><br>Get a head start for future with a well-managed <br>retirement savings scheme</h1>
 						</div>
 					</div>
 					<div class="col-md-5">
@@ -2381,7 +2381,7 @@
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 20px;left: 70px;right: 20px;">
+					<div style="position: absolute;top: 140px;left: 30px;right: 20px;">
 						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span class="theme_text_color">Support the growth </span><br>of your SME business</h1>
 					</div>
 				</div>
@@ -2416,8 +2416,8 @@
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 20px;left: 100px;right: 50px;">
-						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span class="theme_text_color">We essentially assist you </span><br>with the trade cycle funding gap and risk mitigation</h1>
+					<div style="position: absolute;top: 20px;left: 20px;right: 40px;">
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span class="theme_text_color">We essentially assist you </span>with the trade cycle funding gap and risk mitigation</h1>
 					</div>
 				</div>
 			</div>
@@ -2451,7 +2451,7 @@
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 20px;left: 100px;right: 50px;">
+					<div style="position: absolute;top: 30px;left: 20px;right: 40px;">
 						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Our experts’ strong expertise in trading services guarantees <span class="theme_text_color">your success.</span></h1>
 					</div>
 				</div>

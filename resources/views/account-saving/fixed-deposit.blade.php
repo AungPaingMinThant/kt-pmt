@@ -1,59 +1,8 @@
 @extends('layouts.frontend-app')
 
 @section('title', 'Fixed Deposit – AYA Bank')
-<style type="text/css">
-	.nav-link, h4 {
-		color: #2e2e2e !important;
-	}
-	.nav-pills .nav-link.active {
-		color: #2e2e2e !important;		
-	}
-	.nav-pills .nav-link.active > span {
-		border-bottom: 4px solid #a02226 !important;
-    	font-weight: 600 !important;
-	}
-	.scroll_content::-webkit-scrollbar{
-	    display: none;
-	}
-	#myScrollspy {
-		position: sticky;
-		top: 20px;
-		z-index: 99;
-	}
-	.col-1 {
-		width: 6% !important;
-	}
-	.col-11 {
-		padding-left: 0px !important;
-	}
-	#quick_look {
-		padding-right: 250px;
-	}
-	.open_at_aya_branch_icon {
-		width: 80%;
-	}
-	.benefit_table {
-		width: 60% !important;
-		padding: 0px !important;
-		background-color: transparent;
-	}
+<link rel="stylesheet" href="{{ url('/css/personal_banking/borrowing/hire_purchase/auto_loan.css') }}" />
 
-	@media only screen and (max-width: 576px){
-		.call_deposit_title {
-			font-size: calc(1.2625rem + 0.15vw);
-			font-weight: 600 !important;
-		}
-		.col-11 {
-			padding-left: 15px !important;
-		}
-		.open_at_aya_branch_icon {
-			width: 100%;
-		}
-		.benefit_table {
-			width: 100% !important;
-		}
-	}
-</style>
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
@@ -69,40 +18,47 @@
 					<div class="row">
 						<div class="col-md-4">
 							<nav id="myScrollspy">
-								<ul class="nav nav-pills flex-column">
+								<ul class="side-nav nav nav-pills flex-column">
 									<li class="nav-item">
 										<a class="nav-link active" href="#quick_look">
 											<span>Quick look</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="#eligible">
 											<span>Are you eligible?</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="#open_account">
 											<span>How to open the account</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="#requirements">
 											<span>What are requirements</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="#call_deposit_features">
 											<span>Features of current deposit</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="#manage_account">
 											<span>How to manage the account</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="#benefits">
 											<span>Why choose?</span>
+											<hr class="nav-item-separate">
 										</a>
 									</li>
 								</ul>

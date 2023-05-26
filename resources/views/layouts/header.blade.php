@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="{{ url('/css/header.css') }}" />
-<div class="desktop_menu desktop_header">
+<div class="desktop_menu">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-3">
@@ -435,10 +435,10 @@
 												<a class="">ATM</a>
 											</div>
 											<div class="row menu-link digital-menu-wallet-solutions-link">
-												<a class="">WALLET SOLUTIONS</a>
+												<a class="">WALLET SOLUTION</a>
 											</div>
 											<div class="row menu-link digital-menu-guidlines-link">
-												<a class="other-menu">GUIDLINES</a>
+												<a class="other-menu">GUIDE LINES</a>
 											</div>
 											<div class="row menu-link ">
 												<a class="other-menu">&nbsp;</a>
@@ -461,9 +461,9 @@
 														<p class="m-b-5">
 															<a href="{{ url('/mobile-banking') }}">Mobile Banking</a>
 														</p>
-														<p class="m-b-5">
+														<!-- <p class="m-b-5">
 															<a href="{{ url('/sms-alert') }}">SMS Alert</a>
-														</p>
+														</p> -->
 														<p class="m-b-5">
 															<a href="{{ url('/corporate-internet-banking') }}">Corporate Internet Banking</a>
 														</p>
@@ -479,14 +479,26 @@
 														<p class="m-b-5">
 															<a href="{{ url('/pos') }}">POS</a>
 														</p>
-														<p class="m-b-5">
-															<a href="{{ url('/ecommerce') }}">Ecommerce</a>
+														<p class="mb-20">
+															<a href="{{ url('/ecommerce') }}">E-commerce</a>
 														</p>
-														<p class="m-b-5">
+
+														<p class="fw-bold">
+															DEBIT CARD
+														</p>
+														<p class="mb-20">
 															<a href="{{ url('/debit-card') }}">Debit Card</a>
 														</p>
-														<p class="m-b-5">
-															<a href="{{ url('/credit-card') }}">Credit Deposit</a>
+
+														<p class="fw-bold">
+															CREDIT CARD
+														</p>
+														<p class="mb-20">
+															<a href="{{ url('/credit-card') }}">Credit Card</a>
+														</p>
+
+														<p class="fw-bold">
+															PREPAID CARD
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/prepaid-card') }}">Prepaid Card</a>
@@ -530,7 +542,7 @@
 												<div class="row">
 													<div class="col-12">
 														<p class="fw-bold">
-															GUIDLINES
+															GUIDE LINES
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/digital-secure') }}">Security Advices for Digital Services</a>
@@ -610,7 +622,7 @@
 															What We Offer
 														</p>
 														<p class="mb-30">
-															<a href="https://saltnpixel.com/AYABank/AYABank_WhyUs.html" target="_blank">Key Takeaways / Why us</a>
+															<a href="https://saltnpixel.com/AYABank/AYABank_WhyUs.html" target="_blank">Why us</a>
 														</p>
 													</div>
 													<div class="col-md-5">
@@ -628,12 +640,12 @@
 														</p>
 													</div>
 													<div class="col-md-5">
-														<p class="fw-bold">
+														<!-- <p class="fw-bold">
 															INVESTOR RELATIONS
 														</p>
 														<p class="m-b-5">
 															<a href="">Investor Relations</a>
-														</p>
+														</p> -->
 													</div>
 												</div>
 											</div>
@@ -679,8 +691,11 @@
 														<p class="m-b-5">
 															<a href="">Role of Committees</a>
 														</p>
-														<p class="mb-30">
+														<p class="m-b-5">
 															<a href="">Committee Meeting & Attendance</a>
+														</p>
+														<p class="mb-20">
+															<a href="">Code of Ethical Conduct</a>
 														</p>
 														<p class="fw-bold">
 															COMPLIANCE
@@ -707,6 +722,9 @@
 														</p>
 														<p class="m-b-5">
 															<a href="">Corporate Affairs</a>
+														</p>
+														<p class="m-b-5">
+															<a href="">Creditors’ Rights</a>
 														</p>
 														<p class="m-b-5">
 															<a href="">Compliance</a>
@@ -793,7 +811,7 @@
 															NETWORK
 														</p>
 														<p class="m-b-5">
-															<a href="">Correspondent Bank</a>
+															<a href="">Correspondent Banks</a>
 														</p>
 														<p class="m-b-5">
 															<a href="">Branch Locations</a>
@@ -802,7 +820,7 @@
 															<a href="">FX Locations</a>
 														</p>
 														<p class="m-b-5">
-															<a href="">ATM Location</a>
+															<a href="">ATM Locations</a>
 														</p>
 													</div>
 												</div>
@@ -833,7 +851,7 @@
             <a href="#" target="_blank"><img alt="AYA BANK" src="{{ url('/images/logo_wo_tagline_2.png') }}" class="img-fluid mobile_logo"></a>
         </div>
 
-        <div class="collapse navbar-collapse" id="slide-navbar-collapse" style="">
+        <div class="collapse navbar-collapse" id="slide-navbar-collapse">
             <ul class="nav navbar-nav">
                 <li class="active" style="padding: 20px;">
                     <a href=""><img src="{{url('/images/logo_wo_tagline_2.png')}}" class="img-fluid" style="width: 50%"></a>
@@ -847,7 +865,7 @@
                 		<a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">HOME</a>
                 	@endif
                 </li>
-                <li style="padding: 10px 0px;">
+                <li class="personal-banking-li" style="padding: 10px 0px;">
                 	@if($page == 'personal_banking')
                     	<a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #a02226;">
                     @else
@@ -855,7 +873,36 @@
                     @endif
                     	PERSONAL BANKING
                     </a>
+                    <div class="personal-dropdown-content">
+						<div class="row" style="width: 100%;">
+							<div class="col-md-12 left-menu-div">
+								<div class="row menu-link personal-menu-ac-sav-link menu-active ">
+									<a class="" href="#">ACCOUNTS AND SAVINGS</a>
+								</div>
+								<div class="row menu-link personal-menu-borrow-link">
+									<a class="" href="#">BORROWING</a>
+								</div>
+								<div class="row menu-link personal-menu-remit-link">
+									<a class="" href="#">REMITTANCE AND PAYMENTS</a>
+								</div>
+								<div class="row menu-link personal-menu-premium-link">
+									<a class="" href="#">PREMIUM BANKING</a>
+								</div>
+								<div class="row menu-link personal-menu-ins-link">
+									<a class="" href="#">INSURANCE</a>
+								</div>
+								<div class="row menu-link personal-menu-other-link">
+									<a class="other-menu" href="#">OTHER SERVIES</a>
+								</div>
+
+								<div class="space-60"></div>
+							</div>
+						</div>
+					</div>
                 </li>
+
+
+                
                 <li style="padding: 10px 0px;">
                     <a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">BUSINESS BANKING</a>
                 </li>

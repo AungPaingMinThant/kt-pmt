@@ -195,7 +195,7 @@
 		max-width: 30% !important;
 	}
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1024px) {
 	.desktop_menu {
         display: none !important;
     }
@@ -231,5 +231,8 @@
     }
     .dropdown-toggle::after{
         display: none;
+    }
+    .personal-dropdown-content {
+    	top: 30% !important;
     }
 }

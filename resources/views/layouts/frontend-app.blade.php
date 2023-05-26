@@ -109,6 +109,8 @@
                 font-size: 20px;
             }
         </style>
+
+        <script src="{{ url('/js/helper.js') }}"></script>
     </head>
     <body>
     	@yield('content')
@@ -118,5 +120,7 @@
         <script src="{{ url('/js/bootstrap.min.js') }}"></script>
         <script src="{{ url('/js/util.js') }}"></script>
         <script src="{{ url('/js/moment.js') }}"></script>
+        <script src="{{ url('/js/menu.js') }}"></script>
+        <script src="{{ url('/js/main.js') }}"></script>
     </body>
 </html>
