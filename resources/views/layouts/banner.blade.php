@@ -1333,8 +1333,8 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 15px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">Regular Current Account</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 20px;">Are you looking for an everyday account?</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;26px;line-height: 36px;color: #a02226;">Regular Current Account</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;26px;line-height: 36px;">Are you looking for an everyday account?</h1>
 					</div>
 				</div>
 			</div>
@@ -1454,7 +1454,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="fixed_deposit_banner_tagline">
-						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">Maximise savings with<br><span style="color: #a02226;">AYA Fixed Deposits</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;">Maximise savings with<br><span style="color: #a02226;">AYA Fixed Deposits</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1488,7 +1488,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="saving_deposit_banner_tagline">
-						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 36px;">A safe way to save money and<Br><span style="color: #a02226;">receive the benefits of interest</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;">A safe way to save money and<Br><span style="color: #a02226;">receive the benefits of interest</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1537,16 +1537,16 @@
 					</div>
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_regular_saving_banner_tagline">
-							<h1 style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Regular Saving</span><br>A simple account for standard financial transactions.</h1>
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;"><span style="color: #a02226;">AYA Regular Saving</span><br>A simple account for standard financial transactions.</h1>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 110px;left: 150px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">AYA Regular Saving</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 20px;">A simple account for standard financial transactions.</h1>
+					<div style="position: absolute;top: 70px;left: 140px;">
+						<h1 style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 18px;line-height: 28px;">AYA Regular Saving</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 18px;line-height: 28px;">A simple account for standard financial transactions.</h1>
 					</div>
 				</div>
 			</div>
@@ -1572,7 +1572,7 @@
 				<div class="row">
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_maximizer_saving_banner_tagline">
-							<h1 style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Maximizer Saving</span><br>Earn bonus interest rates on your monthly minimum deposits.</h1>
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;"><span style="color: #a02226;">AYA Maximizer Saving</span><br>Earn bonus interest rates on your monthly minimum deposits.</h1>
 						</div>
 					</div>
 					<div class="col-md-5">
@@ -1582,8 +1582,8 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 30px;left: 30px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">AYA Maximizer <br>Saving</h1>
-						<h1 style="font-weight: 400;margin-bottom: 10px;line-height: 20px;width: 65%;">Earn bonus interest rates on your monthly minimum deposits.</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 18px;line-height: 28px;">AYA Maximizer Saving</h1>
+						<h1 style="font-weight: 400;margin-bottom: 10px;width: 65%;font-size: 18px;line-height: 28px;">Earn bonus interest rates on your monthly minimum deposits.</h1>
 					</div>
 				</div>
 			</div>
@@ -1609,7 +1609,7 @@
 				<div class="row">
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_loyal_saving_banner_tagline">
-							<h1 style="font-weight: 400;margin-bottom: 10px;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Loyal Saving</span><br>Reach your goals, grow your savings with <br>competitive interest rate</h1>
+							<h1 style="font-weight: 400;margin-bottom: 10px;font-size: 26px;line-height: 36px;"><span style="color: #a02226;">AYA Loyal Saving</span><br>Reach your goals, grow your savings with <br>competitive interest rate</h1>
 						</div>
 					</div>
 					<div class="col-md-5">
@@ -1620,8 +1620,8 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 30px;left: 30px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">AYA Loyal Saving</h1>
-						<h1 style="font-weight: 400;margin-bottom: 10px;line-height: 20px;">Reach your goals, grow your savings with competitive interest rate</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 18px;line-height: 28px;">AYA Loyal Saving</h1>
+						<h1 style="font-weight: 400;margin-bottom: 10px;font-size: 18px;line-height: 28px;">Reach your goals, grow your savings with competitive interest rate</h1>
 					</div>
 				</div>
 			</div>
@@ -1647,7 +1647,7 @@
 				<div class="row">
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_regular_saving_banner_tagline">
-							<h1 style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">Ngwe Toe Mae-Shwe O</span><br>Send money back to your hometown and earn regular interest</h1>
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;"><span style="color: #a02226;">Ngwe Toe Mae-Shwe O</span><br>Send money back to your hometown and earn regular interest</h1>
 						</div>
 					</div>
 					<div class="col-md-5">
@@ -1658,8 +1658,8 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 30px;left: 30px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">Ngwe Toe Mae-Shwe O</h1>
-						<h1 style="font-weight: 400;margin-bottom: 10px;line-height: 20px;">Send money back to your hometown and earn regular interest</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 18px;line-height: 28px;">Ngwe Toe Mae-Shwe O</h1>
+						<h1 style="font-weight: 400;margin-bottom: 10px;font-size: 18px;line-height: 28px;">Send money back to your hometown and earn regular interest</h1>
 					</div>
 				</div>
 			</div>
@@ -1685,7 +1685,7 @@
 				<div class="row">
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_regular_saving_banner_tagline">
-							<h1 style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 35px;line-height: 36px;">AYA Su-Buu</span><br>Get a head start for future with a well-managed <br>retirement savings scheme</h1>
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 36px;"><span style="color: #a02226;">AYA Su-Buu</span><br>Get a head start for future with a well-managed <br>retirement savings scheme</h1>
 						</div>
 					</div>
 					<div class="col-md-5">
@@ -1696,8 +1696,8 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 10px;left: 30px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 30px;color: #a02226;font-size: 30px;">AYA Su-Buu</h1>
-						<h1 style="font-weight: 400;margin-bottom: 10px;line-height: 20px;">Get a head start for future with a well-managed retirement savings scheme</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 18px;line-height: 28px;">AYA Su-Buu</h1>
+						<h1 style="font-weight: 400;margin-bottom: 10px;font-size: 18px;line-height: 28px;">Get a head start for future with a well-managed retirement savings scheme</h1>
 					</div>
 				</div>
 			</div>
