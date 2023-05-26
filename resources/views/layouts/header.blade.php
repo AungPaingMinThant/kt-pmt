@@ -859,46 +859,305 @@
                 </li>
                 <li style="height: 20px;"></li>
                 <li style="padding: 10px 0px;">
-                	@if($page == 'personal_banking')
+                	@if($page == 'home')
                 		<a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #a02226;">HOME</a>
                 	@else
                 		<a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">HOME</a>
                 	@endif
                 </li>
+
                 <li class="personal-banking-li" style="padding: 10px 0px;">
                 	@if($page == 'personal_banking')
-                    	<a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #a02226;">
+                    	<a class=" dropdown-toggle menu_link" style="color: #a02226;">
                     @else
-                    	<a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">
+                    	<a class="nav-link dropdown-toggle menu_link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">
                     @endif
                     	PERSONAL BANKING
                     </a>
-                    <div class="personal-dropdown-content">
-						<div class="row" style="width: 100%;">
-							<div class="col-md-12 left-menu-div">
-								<div class="row menu-link personal-menu-ac-sav-link menu-active ">
-									<a class="" href="#">ACCOUNTS AND SAVINGS</a>
-								</div>
-								<div class="row menu-link personal-menu-borrow-link">
-									<a class="" href="#">BORROWING</a>
-								</div>
-								<div class="row menu-link personal-menu-remit-link">
-									<a class="" href="#">REMITTANCE AND PAYMENTS</a>
-								</div>
-								<div class="row menu-link personal-menu-premium-link">
-									<a class="" href="#">PREMIUM BANKING</a>
-								</div>
-								<div class="row menu-link personal-menu-ins-link">
-									<a class="" href="#">INSURANCE</a>
-								</div>
-								<div class="row menu-link personal-menu-other-link">
-									<a class="other-menu" href="#">OTHER SERVIES</a>
-								</div>
+                    <div class="col-12 left-menu-div">
+						<div class="row nav-item dropdown menu-link personal-menu-ac-sav-link">
+							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ACCOUNTS AND SAVINGS</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+									<p class="dropdown-item fw-bold m-b-5 mt-3">
+										<a href="{{ url('/account-saving/saving-deposit') }}">SAVING DEPOST</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/account-saving/saving-deposit/aya-regular-saving') }}">AYA Regular Saving</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/account-saving/saving-deposit/aya-maximizer-saving') }}">AYA Maximizer Saving</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/account-saving/saving-deposit/aya-loyal-saving') }}">AYA Loyal Saving</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/account-saving/saving-deposit/ngwe-toe-mae-shwe-o') }}">Ngwe Toe Mae-Shwe O</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20 m-l-20">
+										<a href="{{ url('/account-saving/saving-deposit/aya-su-buu') }}">AYA Su-Buu</a>
+									</p>
+								</li>
 
-								<div class="space-60"></div>
-							</div>
+								<li>
+									<p class="dropdown-item fw-bold m-b-5 mt-3">
+										<a href="{{ url('/account-saving/current-deposit') }}">CURRENT DEPOST</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/account-saving/current-deposit/regular-current-account') }}">Regular Current Account</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/account-saving/current-deposit/new-business-current-account') }}">New Business Current Account</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/account-saving/current-deposit/seafarer-acount') }}">Seafarer Account (FCY)</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20 m-l-20">
+										<a href="{{ url('/account-saving/current-deposit/retail-fca-current') }}">Retail FCA Current (FCY)</a>
+									</p>
+								</li>
+
+								<li>
+									<p class="dropdown-item fw-bold m-b-5 mt-3">
+										<a href="{{ url('/account-saving/call-deposit') }}">CALL DEPOST</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/account-saving/call-deposit/premium-call-deposit') }}">Premium Call Deposit</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20 m-l-20">
+										<a href="{{ url('/account-saving/call-deposit/new-business-call') }}">New Business Call</a>
+									</p>
+								</li>
+
+								<li>
+									<p class="dropdown-item fw-bold m-b-5 mt-3">
+										FIXED DEPOST
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20 m-l-20">
+										<a href="{{ url('/account-saving/fixed-deposit') }}">Fixed Deposit</a>
+									</p>
+								</li>
+							</ul>
 						</div>
+						<div class="row menu-link personal-menu-borrow-link">
+							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BORROWING</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+									<p class="dropdown-item fw-bold m-b-5 mt-3">
+										<a href="{{ url('/account-saving/saving-deposit') }}">SAVING DEPOST</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/account-saving/saving-deposit/aya-regular-saving') }}">AYA Regular Saving</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/account-saving/saving-deposit/aya-maximizer-saving') }}">AYA Maximizer Saving</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/account-saving/saving-deposit/aya-loyal-saving') }}">AYA Loyal Saving</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/account-saving/saving-deposit/ngwe-toe-mae-shwe-o') }}">Ngwe Toe Mae-Shwe O</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20 m-l-20">
+										<a href="{{ url('/account-saving/saving-deposit/aya-su-buu') }}">AYA Su-Buu</a>
+									</p>
+								</li>
+
+								<li>
+									<p class="dropdown-item fw-bold m-b-5 mt-3">
+										<a href="{{ url('/account-saving/current-deposit') }}">CURRENT DEPOST</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/account-saving/current-deposit/regular-current-account') }}">Regular Current Account</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/account-saving/current-deposit/new-business-current-account') }}">New Business Current Account</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/account-saving/current-deposit/seafarer-acount') }}">Seafarer Account (FCY)</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20 m-l-20">
+										<a href="{{ url('/account-saving/current-deposit/retail-fca-current') }}">Retail FCA Current (FCY)</a>
+									</p>
+								</li>
+
+								<li>
+									<p class="dropdown-item fw-bold m-b-5 mt-3">
+										<a href="{{ url('/account-saving/call-deposit') }}">CALL DEPOST</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/account-saving/call-deposit/premium-call-deposit') }}">Premium Call Deposit</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20 m-l-20">
+										<a href="{{ url('/account-saving/call-deposit/new-business-call') }}">New Business Call</a>
+									</p>
+								</li>
+
+								<li>
+									<p class="dropdown-item fw-bold m-b-5 mt-3">
+										FIXED DEPOST
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20 m-l-20">
+										<a href="{{ url('/account-saving/fixed-deposit') }}">Fixed Deposit</a>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="row menu-link personal-menu-remit-link">
+							<a class="" href="#">REMITTANCE AND PAYMENTS</a>
+						</div>
+						<div class="row menu-link personal-menu-premium-link">
+							<a class="" href="#">PREMIUM BANKING</a>
+						</div>
+						<div class="row menu-link personal-menu-ins-link">
+							<a class="" href="#">INSURANCE</a>
+						</div>
+						<div class="row menu-link personal-menu-other-link">
+							<a class="other-menu" href="#">OTHER SERVIES</a>
+						</div>
+
+						<div class="space-60"></div>
 					</div>
+                    <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<li>
+							<p class="dropdown-item fw-bold m-b-5 mt-3">
+								<a href="{{ url('/account-saving/saving-deposit') }}">SAVING DEPOST</a>
+							</p>
+						</li>
+						<li>
+							<p class="dropdown-item m-b-5 m-l-20">
+								<a href="{{ url('/account-saving/saving-deposit/aya-regular-saving') }}">AYA Regular Saving</a>
+							</p>
+						</li>
+						<li>
+							<p class="dropdown-item m-b-5 m-l-20">
+								<a href="{{ url('/account-saving/saving-deposit/aya-maximizer-saving') }}">AYA Maximizer Saving</a>
+							</p>
+						</li>
+						<li>
+							<p class="dropdown-item m-b-5 m-l-20">
+								<a href="{{ url('/account-saving/saving-deposit/aya-loyal-saving') }}">AYA Loyal Saving</a>
+							</p>
+						</li>
+						<li>
+							<p class="dropdown-item m-b-5 m-l-20">
+								<a href="{{ url('/account-saving/saving-deposit/ngwe-toe-mae-shwe-o') }}">Ngwe Toe Mae-Shwe O</a>
+							</p>
+						</li>
+						<li>
+							<p class="dropdown-item mb-20 m-l-20">
+								<a href="{{ url('/account-saving/saving-deposit/aya-su-buu') }}">AYA Su-Buu</a>
+							</p>
+						</li>
+
+						<li>
+							<p class="dropdown-item fw-bold m-b-5 mt-3">
+								<a href="{{ url('/account-saving/current-deposit') }}">CURRENT DEPOST</a>
+							</p>
+						</li>
+						<li>
+							<p class="dropdown-item m-b-5 m-l-20">
+								<a href="{{ url('/account-saving/current-deposit/regular-current-account') }}">Regular Current Account</a>
+							</p>
+						</li>
+						<li>
+							<p class="dropdown-item m-b-5 m-l-20">
+								<a href="{{ url('/account-saving/current-deposit/new-business-current-account') }}">New Business Current Account</a>
+							</p>
+						</li>
+						<li>
+							<p class="dropdown-item m-b-5 m-l-20">
+								<a href="{{ url('/account-saving/current-deposit/seafarer-acount') }}">Seafarer Account (FCY)</a>
+							</p>
+						</li>
+						<li>
+							<p class="dropdown-item mb-20 m-l-20">
+								<a href="{{ url('/account-saving/current-deposit/retail-fca-current') }}">Retail FCA Current (FCY)</a>
+							</p>
+						</li>
+
+						<li>
+							<p class="dropdown-item fw-bold m-b-5 mt-3">
+								<a href="{{ url('/account-saving/call-deposit') }}">CALL DEPOST</a>
+							</p>
+						</li>
+						<li>
+							<p class="dropdown-item m-b-5 m-l-20">
+								<a href="{{ url('/account-saving/call-deposit/premium-call-deposit') }}">Premium Call Deposit</a>
+							</p>
+						</li>
+						<li>
+							<p class="dropdown-item mb-20 m-l-20">
+								<a href="{{ url('/account-saving/call-deposit/new-business-call') }}">New Business Call</a>
+							</p>
+						</li>
+
+						<li>
+							<p class="dropdown-item fw-bold m-b-5 mt-3">
+								FIXED DEPOST
+							</p>
+						</li>
+						<li>
+							<p class="dropdown-item mb-20 m-l-20">
+								<a href="{{ url('/account-saving/fixed-deposit') }}">Fixed Deposit</a>
+							</p>
+						</li>
+						
+
+						<li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
+						<li>
+						<hr class="dropdown-divider" />
+						</li>
+						<li><a class="dropdown-item" href="javascript:void(0)">Something else here</a></li>
+					</ul> -->
                 </li>
 
 

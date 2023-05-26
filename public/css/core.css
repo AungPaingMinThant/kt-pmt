@@ -8517,7 +8517,7 @@ button.list-group-item-gray.active {
   background-image: none !important;
 }
 .accordion .accordion-item.active {
-  box-shadow: 0 0.25rem 1rem rgba(161, 172, 184, 0.45);
+/*  box-shadow: 0 0.25rem 1rem rgba(161, 172, 184, 0.45);*/
 }
 
 .card.accordion-item {

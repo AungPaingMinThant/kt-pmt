@@ -110,14 +110,14 @@
             }
         </style>
 
-        <script src="{{ url('/js/helper.js') }}"></script>
+        <script src="{{ url('/js/helpers.js') }}"></script>
     </head>
     <body>
     	@yield('content')
 
     	<script src="{{ url('/js/jquery.js') }}"></script>
         <script src="{{ url('/js/popper.js') }}"></script>
-        <script src="{{ url('/js/bootstrap.min.js') }}"></script>
+        <script src="{{ url('/js/bootstrap.js') }}"></script>
         <script src="{{ url('/js/util.js') }}"></script>
         <script src="{{ url('/js/moment.js') }}"></script>
         <script src="{{ url('/js/menu.js') }}"></script>

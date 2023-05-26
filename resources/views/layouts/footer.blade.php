@@ -384,4 +384,18 @@
         $(".about-aya-network-menu").removeClass('d-none');
     });
 
+
+    $(".personal-menu-ac-sav-link").click(function(){
+        $(".personal-menu-ac-sav-link").addClass('menu-active');
+        $(".personal-menu-borrow-link").removeClass('menu-active');
+        $(".personal-menu-remit-link").removeClass('menu-active');
+
+        $(".personal-acc-sav-menu").removeClass('d-none');
+        $(".personal-remit-menu").removeClass('d-none');
+        $(".personal-borrow-menu").removeClass('d-none');
+        
+        $(".personal-acc-sav-menu").slideToggle();
+        $(".personal-borrow-menu").hide('toogle');
+        $(".personal-remit-menu").hide('toogle');       
+    });
 </script>
