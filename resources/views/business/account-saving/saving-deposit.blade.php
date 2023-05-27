@@ -77,7 +77,10 @@
 			font-weight: 600 !important;
 		}
 		.bullet_square {
-			width: 60%;
+			width: 30%;
+		}
+		.bullet_square_div {
+			padding-left: 0 !important;
 		}
 	}
 </style>
@@ -124,19 +127,19 @@
 									<div class="space-30"></div>
 									<p>A business Savings account with features designed to add convenience and flexibility to your business.</p>
 									<p>It will help nurture growth for major purchase or business expansion.</p>
-									<div class="col-1">
+									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
 										<p>Lowest account opening requirement starts from MMK 1,000</p>
 									</div>
-									<div class="col-1">
+									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
 										<p>Set up CMS collection service and sweep funds at EOD or real-time</p>
 									</div>
-									<div class="col-1">
+									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
@@ -172,13 +175,13 @@
 								<div class="row">
 									<div class="space-30"></div>
 									<p>Open an AYA Su-Buu account to start building a sufficient retirement fund for your employees, as what corporates usually do. You just need to deposit a certain amount every month in AYA Su-Buu to keep earning interest and forms a vast sum of funds.</p>
-									<div class="col-1">
+									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
 										<p>Receive Interest on 6.25% per annum and frequency on monthly basis</p>
 									</div>
-									<div class="col-1">
+									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
@@ -226,19 +229,19 @@
 								<div class="space-30"></div>
 								<p>A business Savings account with features designed to add convenience and flexibility to your business.</p>
 								<p>It will help nurture growth for major purchase or business expansion.</p>
-								<div class="col-1">
+								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
 									<p>Lowest account opening requirement starts from MMK 1,000</p>
 								</div>
-								<div class="col-1">
+								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
 									<p>Set up CMS collection service and sweep funds at EOD or real-time</p>
 								</div>
-								<div class="col-1">
+								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
@@ -274,13 +277,13 @@
 							<div class="row">
 								<div class="space-30"></div>
 								<p>Open an AYA Su-Buu account to start building a sufficient retirement fund for your employees, as what corporates usually do. You just need to deposit a certain amount every month in AYA Su-Buu to keep earning interest and forms a vast sum of funds.</p>
-								<div class="col-1">
+								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
 									<p>Receive Interest on 6.25% per annum and frequency on monthly basis</p>
 								</div>
-								<div class="col-1">
+								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">

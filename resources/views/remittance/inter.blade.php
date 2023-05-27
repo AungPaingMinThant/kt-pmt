@@ -331,7 +331,7 @@
 							</p>
 							<div class="row" style="position: relative;">
 								<img src="{{ url('/images/remittance/inter/q_remit_malay_inward.png') }}" class="img-fluid">
-								<p style="font-weight: 500;font-size: 18px;line-height: 22px;position: absolute;top: 70%;left: 4%;width: 90%;">Remit seamlessly without borders with Q-Remit</p>
+								<p style="font-weight: 500;font-size: 16px;line-height: 20px;position: absolute;top: 70%;left: 4%;width: 90%;">Remit seamlessly without borders with Q-Remit</p>
 							</div>
 							<div class="row">
 								<div class="space-30"></div>
@@ -379,7 +379,7 @@
 							</p>
 							<div class="row" style="position: relative;">
 								<img src="{{ url('/images/remittance/inter/DBS_remit_singpapore_mobile.png') }}" class="img-fluid">
-								<p style="font-weight: 500;font-size: 18px;line-height: 22px;position: absolute;top: 70%;left: 4%;width: 90%;">DBS to AYA Remit,<br>a convenient way to send money.</p>
+								<p style="font-weight: 500;font-size: 16px;line-height: 20px;position: absolute;top: 70%;left: 4%;width: 90%;">DBS to AYA Remit,<br>a convenient way to send money.</p>
 							</div>
 							<div class="row">
 								<div class="space-30"></div>
@@ -415,7 +415,7 @@
 							</p>
 							<div class="row" style="position: relative;">
 								<img src="{{ url('/images/remittance/inter/western_union_mobile.png') }}" class="img-fluid">
-								<p style="font-weight: 500;font-size: 18px;line-height: 22px;position: absolute;top: 70%;left: 4%;width: 90%;">Moving money for better with Western Union</p>
+								<p style="font-weight: 500;font-size: 16px;line-height: 20px;position: absolute;top: 70%;left: 4%;width: 90%;">Moving money for better with Western Union</p>
 							</div>
 							<div class="row">
 								<div class="space-30"></div>
@@ -446,7 +446,7 @@
 							</p>
 							<div class="row" style="position: relative;">
 								<img src="{{ url('/images/remittance/inter/ria_money_transfer_mobile.png') }}" class="img-fluid">
-								<p style="font-weight: 500;font-size: 18px;line-height: 22px;position: absolute;top: 80%;left: 4%;width: 90%;">Getting Money to Where it Matters</p>
+								<p style="font-weight: 500;font-size: 16px;line-height: 20px;position: absolute;top: 80%;left: 4%;width: 90%;">Getting Money to Where it Matters</p>
 							</div>
 							<div class="row">
 								<div class="space-30"></div>

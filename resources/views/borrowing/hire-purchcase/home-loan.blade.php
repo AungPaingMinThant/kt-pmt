@@ -657,7 +657,7 @@
 									</div>
 								</div>
 							</div>
-							<p class="mb-lg-n4 fw-semibold">Self Employed</p>
+							<p class="mb-lg-n4 fw-semibold self_employ_title">Self Employed</p>
 							<div class="row income_doc_desktop">
 								<div class="col-md-12">
 									<div class="income_document_div self_employ">

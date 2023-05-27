@@ -92,12 +92,18 @@
 		.tab_data_row {
 			width: auto;
 		}
+		.bullet_square_div {
+			padding-left: 0 !important;
+		}
 		.bullet_square {
-			width: 70%;
+			width: 40%;
 		}
 		.bullet_square {
 			margin-top: 10px;
 			margin-right: -10px;
+		}
+		.scf_first {
+		    padding-left: 130px !important;
 		}
 	}
 </style>
@@ -122,14 +128,16 @@
 							<div class="col-md-12 secure_credit_fact scf_first">
 								<p><i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>AYA ATM</p>
 								<p><i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>AYA iBanking</p>
+								<p class="d-block d-sm-none"><i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>AYA mBanking</p>
+								<p class="d-block d-sm-none"><i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>AYA Branches</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3">
 						<div class="row">
 							<div class="col-md-12 secure_credit_fact">
-								<p><i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>AYA mBanking</p>
-								<p><i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>AYA Branches</p>
+								<p class="d-none d-sm-block"><i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>AYA mBanking</p>
+								<p class="d-none d-sm-block"><i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>AYA Branches</p>
 							</div>
 						</div>
 					</div>
@@ -161,7 +169,7 @@
 							<div class="tab-pane fade cheque_payment show active" id="navs-pills-top-cheque_payment" role="tabpanel">
 								<div class="container tab_section_1">
 									<div class="row tab_data_row" style="margin-top: 20px;">
-										<div class="col-md-6" style="padding-right: 70px;">
+										<div class="col-md-6">
 											<p>Making financial transactions can be convenient by means of using cheque for personal payments.</p>
 											<div class="space-20"></div>
 											<p>Cheque payment within AYA Bank’s network can be done instantly, and for other banks you will be able to withdraw the funds on the following banking day.</p>
@@ -176,8 +184,8 @@
 							<div class="tab-pane bill_payment fade" id="navs-pills-top-bill_payment" role="tabpanel">
 								<div class="container tab_section_1">
 									<div class="row tab_data_row" style="margin-top: 20px;">
-										<div class="col-md-6" style="padding-right: 70px;">
-											<p style="font-size: 18px;font-weight: 500;">Are you still wasting your time for paying bills, taxes and other personal related payments?</p>
+										<div class="col-md-6">
+											<p>Are you still wasting your time for paying bills, taxes and other personal related payments?</p>
 											<p>We can make it easier for you to pay bills when you need to, and to pay on-time every time. It can be routed through AYA Bank’s bill payment services at branches or simply click and pay on digital channels.</p>
 											<div class="space-20"></div>
 											<p>It provides efficient and timeless of payments with straight-through-processing (STP) meanwhile ensuring payment is credited to payee’s account as per specified value date.</p>
@@ -194,7 +202,7 @@
 									<div class="d-none d-sm-block">
 										<div class="row tab_data_row" >
 											<div class="col-md-6" style="padding: 20px;">
-												<p style="font-size: 18px;font-weight: 500;">The best gift to the loved ones alternatively of hard cash.</p>
+												<p>The best gift to the loved ones alternatively of hard cash.</p>
 												<p>Modernized, secure and personalized cashless payment services for the sake of social purposes such as recognition for wedding, birthday, anniversary and gift for motivational purpose like social, sports, educational, scholarship, etc.</p>
 												<div class="row">
 													<div class="col-2">
@@ -238,25 +246,25 @@
 									<div class="d-block d-sm-none">
 										<div class="row tab_data_row" >
 											<div class="col-md-12" style="padding: 20px;">
-												<p style="font-size: 18px;font-weight: 500;">The best gift to the loved ones alternatively of hard cash.</p>
+												<p>The best gift to the loved ones alternatively of hard cash.</p>
 												<p>Modernized, secure and personalized cashless payment services for the sake of social purposes such as recognition for wedding, birthday, anniversary and gift for motivational purpose like social, sports, educational, scholarship, etc.</p>
 											</div>
 											
-											<div class="col-1">
+											<div class="col-1 bullet_square_div">
 												<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 											</div>
 											<div class="col-11">
 												<p style="margin-bottom: 5px;">Available at any AYA Branches</p>
 											</div>
 
-											<div class="col-1">
+											<div class="col-1 bullet_square_div">
 												<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 											</div>
 											<div class="col-11">
 												<p style="margin-bottom: 5px;">Service Fees MMK 500 per cheque</p>
 											</div>
 
-											<div class="col-1">
+											<div class="col-1 bullet_square_div">
 												<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 											</div>
 											<div class="col-11">
