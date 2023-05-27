@@ -3,7 +3,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-3">
-				<a class="navbar-brand" href="#" style="padding: 22px 0px 20px 4px;">
+				<a href="{{url('/')}}" class="navbar-brand" href="#" style="padding: 22px 0px 20px 4px;">
 					<img src="{{ url('/images/logo_wo_tagline_2.png') }}" class="img-fluid" style="width: 70%;margin-top: 40px">
 				</a>
 			</div>
