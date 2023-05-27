@@ -1421,12 +1421,12 @@
 									</p>
 								</li>
 								<li>
-									<p class="dropdown-item m-b-5 m-l-20">
+									<p class="dropdown-item mb-20 m-l-20">
 										<a href="https://saltnpixel.com/AYABank/AYABANK_MeetOurLeaders.html" target="_blank">Meet Our Leaders</a>
 									</p>
 								</li>
 								<li>
-									<p class="dropdown-item m-b-5 m-l-20">
+									<p class="dropdown-item fw-bold m-b-5">
 										What We Offer
 									</p>
 								</li>
