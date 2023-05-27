@@ -94,9 +94,9 @@
         <div class="row" id="first_footer_height">
             <div class="col-md-3 col-xs-12" style="padding-bottom: 20px;padding-top: -10px;">
                 <h3 class="footer_like_title">Useful Links</h3>
-                <a class="footer_first_link_a" href="http://localhost/ayab/public/mobile-banking"><p class="footer_first_link">mbanking</p></a>
-                <a class="footer_first_link_a" href="http://localhost/ayab/public/internet-banking"><p class="footer_first_link">iBanking</p></a>
-                <p>&nbsp</p>
+                <a class="footer_first_link_a" href="{{url('/mobile-banking')}}"><p class="footer_first_link">mbanking</p></a>
+                <a class="footer_first_link_a" href="{{url('/internet-banking')}}"><p class="footer_first_link">iBanking</p></a>
+                <p>&nbsp;</p>
                 <h3 class="footer_like_title">Need Help</h3>
                 <a class="footer_first_link_a" href="#"><p class="footer_first_link">Help & Support</p></a>
                 <a class="footer_first_link_a" href="#"><p class="footer_first_link">Get in Touch</p></a>

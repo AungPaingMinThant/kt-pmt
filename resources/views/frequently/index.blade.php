@@ -62,6 +62,35 @@
 		margin-top: 5px;
 		width: 40%;
 	}
+	@media (max-width: 1400px) and (min-width: 1301px) {
+		.step_1_timeline:before, .step_5_timeline:before {
+		    height: 150px;
+		}
+		.step_2_timeline:before, .step_4_timeline:before {
+		    height: 490px;
+		}
+		.step_3_timeline:before {
+		    height: 410px;
+		}
+		.step_6_timeline:before {
+		    height: 200px;
+		}
+		.step_7_timeline:before {
+		    height: 475px;
+		}
+		.step_8_timeline:before {
+		    height: 125px;
+		}
+		.step_10_timeline:before {
+		    height: 130px;
+		}
+		.step_11_timeline:before {
+		    height: 460px;
+		}
+		.step_12_timeline:before {
+		    height: 520px;
+		}
+	}
 	@media (max-width: 1300px) and (min-width: 1271px) {
 		.timeline:before {
 			margin-left: -11px;

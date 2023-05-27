@@ -437,6 +437,9 @@
 	    transform: translate(-80%,40%) !important;
 	    padding: 5px;
 	}
+	.loan_eligibility_check_inner {
+	    padding-right: 90px !important;
+	}
 }
 @media only screen and (max-width: 350px){
 	.income_document_div, .self_employ {

@@ -179,8 +179,8 @@
 							<div class="row CTA_section_1_info d-block d-sm-none">
 								<div class="col-md-12 text-center">
 									<p class="CTA_desc mb-10">Match your needs with our comprehensive personal borrowing plan</p>
-									<label class="theme_text_color" for="inputGroupSelect01" style="font-size: 16px;margin-bottom: 5px;">I want to &nbsp;</label>
-									<select class="form-select" name="inputGroupSelect01" id="inputGroupSelect01">
+									<label class="theme_text_color" for="inputGroupSelect01mobile" style="font-size: 16px;margin-bottom: 5px;">I want to &nbsp;</label>
+									<select class="form-select" name="inputGroupSelect01mobile" id="inputGroupSelect01mobile">
 										<option value="0" id="inputGroupSelect01_option_1" selected>get a home loan to fulfil my dream</option>
 										<option value="1" class="inputGroupSelect01_option">apply car loan to own my dream car</option>
 										<option value="2" class="inputGroupSelect01_option">plan my child future with education loan</option>
@@ -216,8 +216,8 @@
 							<div class="row CTA_section_2_info d-block d-sm-none">
 								<div class="col-md-12 text-center">
 									<p class="CTA_desc mb-10">Let us guide you what you are looking for your business</p>
-									<label class="theme_text_color" for="inputGroupSelect02" style="font-size: 16px;margin-bottom: 5px;">I want to &nbsp;</label>
-									<select class="form-select" id="inputGroupSelect02">
+									<label class="theme_text_color" for="inputGroupSelect02mobile" style="font-size: 16px;margin-bottom: 5px;">I want to &nbsp;</label>
+									<select class="form-select" id="inputGroupSelect02mobile">
 										<option value="0" selected>get corporate loan for business expansion</option>
 										<option value="1">get business loan for project / tender contract</option>
 										<option value="2">start a small business</option>
@@ -255,8 +255,8 @@
 							<div class="row CTA_section_3_info d-block d-sm-none">
 								<div class="col-md-12 text-center">
 									<p class="CTA_desc mb-10">ATM / Branch / FX Counter Locator</p>
-									<label class="theme_text_color" for="inputGroupSelect03" style="font-size: 16px;margin-bottom: 5px;">I want to find &nbsp;</label>
-									<select class="form-select" id="inputGroupSelect03">
+									<label class="theme_text_color" for="inputGroupSelect03mobile" style="font-size: 16px;margin-bottom: 5px;">I want to find &nbsp;</label>
+									<select class="form-select" id="inputGroupSelect03mobile">
 										<option value="0" selected>Branch</option>
 										<option value="1">ATM</option>
 										<option value="2">FX Counter</option>
@@ -414,6 +414,13 @@
 		} else {
 			$('#inputGroupSelect01 option:selected').next().attr('selected', 'selected');
 		}
+
+		if ($('#inputGroupSelect01mobile option:selected').val() == '2') {
+			$('#inputGroupSelect01mobile option:first').attr('selected', 'selected');
+			$('#inputGroupSelect01mobile option:not(first)').removeAttr('selected');
+		} else {
+			$('#inputGroupSelect01mobile option:selected').next().attr('selected', 'selected');
+		}
 	}
 
 	function changeCTA2() {
@@ -423,6 +430,13 @@
 		} else {
 			$('#inputGroupSelect02 option:selected').next().attr('selected', 'selected');
 		}
+
+		if ($('#inputGroupSelect02mobile option:selected').val() == '6') {
+			$('#inputGroupSelect02mobile option:first').attr('selected', 'selected');
+			$('#inputGroupSelect02mobile option:not(first)').removeAttr('selected');
+		} else {
+			$('#inputGroupSelect02mobile option:selected').next().attr('selected', 'selected');
+		}
 	}
 
 	function changeCTA3() {
@@ -431,6 +445,13 @@
 			$('#inputGroupSelect03 option:not(first)').removeAttr('selected');
 		} else {
 			$('#inputGroupSelect03 option:selected').next().attr('selected', 'selected');
+		}
+
+		if ($('#inputGroupSelect03mobile option:selected').val() == '5') {
+			$('#inputGroupSelect03mobile option:first').attr('selected', 'selected');
+			$('#inputGroupSelect03mobile option:not(first)').removeAttr('selected');
+		} else {
+			$('#inputGroupSelect03mobile option:selected').next().attr('selected', 'selected');
 		}
 	}
 
@@ -477,6 +498,38 @@
 					window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
 				}
 				if ($('#inputGroupSelect01 option:selected').val() == 2) {
+					window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
+				}
+			}
+		}
+
+		previousValue = this.value;
+
+		$(this).data("isopen", !open);
+	});
+
+	$("#inputGroupSelect01mobile").mouseup(function() {
+		var open = $(this).data("isopen");
+		if (open) {
+			if (this.value === previousValue)
+			{
+				if ($('#inputGroupSelect01mobile option:selected').val() == 0) {
+					window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
+				}
+				if ($('#inputGroupSelect01mobile option:selected').val() == 1) {
+					window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
+				}
+				if ($('#inputGroupSelect01mobile option:selected').val() == 2) {
+					window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
+				}
+			} else {
+				if ($('#inputGroupSelect01mobile option:selected').val() == 0) {
+					window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
+				}
+				if ($('#inputGroupSelect01mobile option:selected').val() == 1) {
+					window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
+				}
+				if ($('#inputGroupSelect01mobile option:selected').val() == 2) {
 					window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
 				}
 			}
@@ -542,6 +595,61 @@
 		$(this).data("isopen", !open);
 	});
 
+	$('#inputGroupSelect02mobile').mouseup(function(){
+		var open = $(this).data("isopen");
+		if (open) {
+			if (this.value === previousValue2) {
+				if ($('#inputGroupSelect02mobile option:selected').val() == 0) {
+					window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#demand_loan';
+				}
+				if ($('#inputGroupSelect02mobile option:selected').val() == 1) {
+					window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#project_loan_tender_contract_loan';
+				}
+				if ($('#inputGroupSelect02mobile option:selected').val() == 2) {
+					window.location.href = APP_URL+'/business/borrowing/sme#aya_sme_loan';
+				}
+				if ($('#inputGroupSelect02mobile option:selected').val() == 3) {
+					window.location.href = APP_URL+'/business/borrowing/sme#agriculture_loan';
+				}
+				if ($('#inputGroupSelect02mobile option:selected').val() == 4) {
+					window.location.href = APP_URL+'/business/borrowing/hire-purchase#heavy_mahine_hp';
+				}
+				if ($('#inputGroupSelect02mobile option:selected').val() == 5) {
+					window.location.href = APP_URL+'/business/borrowing/hire-purchase#shop_house';
+				}
+				if ($('#inputGroupSelect02mobile option:selected').val() == 6) {
+					window.location.href = APP_URL+'/business/borrowing/hire-purchase#auto_loan_corporate';
+				}
+			} else {
+				if ($('#inputGroupSelect02mobile option:selected').val() == 0) {
+					window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#demand_loan';
+				}
+				if ($('#inputGroupSelect02mobile option:selected').val() == 1) {
+					window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#project_loan_tender_contract_loan';
+				}
+				if ($('#inputGroupSelect02mobile option:selected').val() == 2) {
+					window.location.href = APP_URL+'/business/borrowing/sme#aya_sme_loan';
+				}
+				if ($('#inputGroupSelect02mobile option:selected').val() == 3) {
+					window.location.href = APP_URL+'/business/borrowing/sme#agriculture_loan';
+				}
+				if ($('#inputGroupSelect02mobile option:selected').val() == 4) {
+					window.location.href = APP_URL+'/business/borrowing/hire-purchase#heavy_mahine_hp';
+				}
+				if ($('#inputGroupSelect02mobile option:selected').val() == 5) {
+					window.location.href = APP_URL+'/business/borrowing/hire-purchase#shop_house';
+				}
+				if ($('#inputGroupSelect02mobile option:selected').val() == 6) {
+					window.location.href = APP_URL+'/business/borrowing/hire-purchase#auto_loan_corporate';
+				}
+			}
+		}
+
+		previousValue2 = this.value;
+
+		$(this).data("isopen", !open);
+	});
+
 	$('#inputGroupSelect03').mouseup(function(){
 		var open = $(this).data("isopen");
 		if (open) {
@@ -563,6 +671,37 @@
 					window.location.href = APP_URL+'/atm';
 				}
 				// if ($('#inputGroupSelect03 option:selected').val() == 2) {
+				// 	window.location.href = APP_URL+'/insurance/motor';
+				// }
+			}
+		}
+
+		previousValue3 = this.value;
+
+		$(this).data("isopen", !open);
+	});
+
+	$('#inputGroupSelect03mobile').mouseup(function(){
+		var open = $(this).data("isopen");
+		if (open) {
+			if (this.value === previousValue2) {
+				// if ($('#inputGroupSelect03mobile option:selected').val() == 0) {
+				// 	window.location.href = APP_URL+'/insurance/life/universal';
+				// }
+				if ($('#inputGroupSelect03mobile option:selected').val() == 1) {
+					window.location.href = APP_URL+'/atm';
+				}
+				// if ($('#inputGroupSelect03mobile option:selected').val() == 2) {
+				// 	window.location.href = APP_URL+'/insurance/motor';
+				// }
+			} else {
+				// if ($('#inputGroupSelect03mobile option:selected').val() == 0) {
+				// 	window.location.href = APP_URL+'/insurance/life/universal';
+				// }
+				if ($('#inputGroupSelect03mobile option:selected').val() == 1) {
+					window.location.href = APP_URL+'/atm';
+				}
+				// if ($('#inputGroupSelect03mobile option:selected').val() == 2) {
 				// 	window.location.href = APP_URL+'/insurance/motor';
 				// }
 			}

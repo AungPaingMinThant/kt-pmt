@@ -665,7 +665,7 @@
 															<a href="https://saltnpixel.com/AYABank/AYABank_Employee_Development.html" target="_blank">Employee Development</a>
 														</p>
 														<p class="m-b-5">
-															<a href="">Career Opportunities</a>
+															<a href="https://saltnpixel.com/AYABank/AYABank_Career_Opportunities.html" target="_blank">Career Opportunities</a>
 														</p>
 													</div>
 												</div>
@@ -745,7 +745,7 @@
 															<a href="">Our Commitment</a>
 														</p>
 														<p class="m-b-5">
-															<a href="">UNGC Commitment</a>
+															<a href="https://saltnpixel.com/AYABank/AYABank_UNGC_Commitment.html" target="_blank">UNGC Commitment</a>
 														</p>
 													</div>
 													<div class="col-md-5">
@@ -1477,7 +1477,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item mb-20">
-										<a href="">Career Opportunities</a>
+										<a href="https://saltnpixel.com/AYABank/AYABank_Career_Opportunities.html" target="_blank">Career Opportunities</a>
 									</p>
 								</li>
 							</ul>
@@ -1597,7 +1597,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item mb-20 m-l-20">
-										<a href="">UNGC Commitment</a>
+										<a href="https://saltnpixel.com/AYABank/AYABank_UNGC_Commitment.html" target="_blank">UNGC Commitment</a>
 									</p>
 								</li>
 								<li>
