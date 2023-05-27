@@ -446,7 +446,7 @@
 			<div class="d-block d-sm-none">
 				<div class="aya_ibanking_fact">
 					<div class="col-12 text-center">
-						<h3 style="color: #1d1d1f;padding: 0px 60px;">What you can do with AYA iBanking?</h3>
+						<h3 style="color: #1d1d1f;padding: 0px 10px;">What you can do with AYA iBanking?</h3>
 					</div>
 					<div class="col-12">
 						<p class="carousel_desc_title">Transfer Funds</p>
@@ -518,8 +518,7 @@
 				<div class="space-60"></div>
 				<div class="row">
 					<div class="col-md-12 text-center">
-						<!-- <h2 style="font-weight: 800;color: #000;">The right solution for managing your funds because, it is</h2> -->
-						<h3 style="color: #1d1d1f;padding: 0px 60px;">The right solution for managing your funds because, it is</h3>
+						<h3 style="color: #1d1d1f;padding: 0px;">The right solution for managing your funds because, it is</h3>
 					</div>
 				</div>
 				<div class="row">
@@ -579,7 +578,7 @@
 					<div class="row">
 						<div class="col-md-12 col-xs-12 text-center">
 							<!-- <h2 style="font-weight: 800;color: #000;">Get started Banking Online!</h2> -->
-							<h3 style="color: #1d1d1f;padding: 0px 60px;">Get started Banking Online!</h3>
+							<h3 style="color: #1d1d1f;padding: 0px;">Get started Banking Online!</h3>
 							<div class="space-20"></div>
 						</div>
 						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;border-bottom: 1px solid #1d1d1f;padding-bottom: 0px;">
