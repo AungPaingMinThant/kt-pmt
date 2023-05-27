@@ -104,8 +104,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;color: #a02226;">The journey starts from here.</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;">Make every transaction meaningful with AYA Debit Cards that brings <span style="color: #a02226;">Power</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;">Nothing can be more simpler than <span style="color: #a02226;">a cashless payment</span></h1>
 					</div>
 				</div>
 			</div>
