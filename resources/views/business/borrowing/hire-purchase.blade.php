@@ -314,7 +314,7 @@
 								</p>
 								<div class="row" style="position: relative;">
 									<img src="{{ url('/images/business/borrowing/hire-purchase/equipment-loan.png') }}" class="img-fluid">
-									<p class="equipment_loan_tagline">Helping you get financing for the<br>equipment essential to run your business</p>
+									<p class="equipment_loan_tagline">Helping you get financing for the equipment essential to run your business</p>
 								</div>
 								<div class="row">
 									<div class="space-30"></div>

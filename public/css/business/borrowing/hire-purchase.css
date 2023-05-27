@@ -76,7 +76,7 @@
 	font-weight: 500;
 	font-size: 18px;
 	line-height: 22px;
-	width: 80% !important;
+	width: 50% !important;
 	position: absolute;
 	top: 80%;
 	left: 4%;
@@ -247,7 +247,7 @@
 	}
 	.auto_loan_corporate_tagline {
 		width: 93% !important;
-    	top: 63%;
+    	top: 50%;
 	}
 	.equipment_loan_tagline {
 		width: 92% !important;
