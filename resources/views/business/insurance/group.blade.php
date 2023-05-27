@@ -22,6 +22,11 @@
 	   		width: 400px;
 		}
 	}
+	@media only screen and (max-width: 576px){
+		.glider, .tab {
+		    width: 290px !important;
+		}
+	}
 </style>
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
