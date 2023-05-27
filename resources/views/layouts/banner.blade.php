@@ -957,7 +957,7 @@
 					<div class="col-md-6 family_img_div">
 						<img src="{{ url('/images/insurance/life/universal/family.png') }}" class="img-fluid">
 					</div>
-					<div class="col-md-4 life_tagline_div">
+					<div class="col-md-6 life_tagline_div">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Universal<br>Life Insurance</h1>
 						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
 						<h1 class="tagline_desc" style="font-weight: 400;font-size: 15px;">
@@ -1119,10 +1119,10 @@
 					<div class="col-md-6 family_img_div">
 						<img src="{{ url('/images/insurance/life/one-health/family.png') }}" class="img-fluid">
 					</div>
-					<div class="col-md-6 life_tagline_div">
+					<div class="col-md-6 one_health_tagline_div">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">One Health Solution<br>Individual Plan</h1>
-						<hr style="height: 5px;color: #a02226;width: 15%;margin: 0px 0px 20px 0px;">
-						<h1 class="tagline_desc" style="font-weight: 400;font-size: 15px;">
+						<hr style="height: 5px;color: #a02226;width: 15%;margin: 0px 0px 10px 0px;">
+						<h1 class="tagline_desc" style="font-weight: 400;font-size: 15px;margin-bottom: 0px;">
 							With the constant escalating costs of healthcare and the ever-rising instances of new diseases in the world, medical insurance becomes a basic need today. The fallout from a medical emergency or unforeseen expense could extend beyond your immediate finances to loss of income.
 						</h1>
 						<h1 class="tagline_desc" style="font-weight: 400;font-size: 15px;">

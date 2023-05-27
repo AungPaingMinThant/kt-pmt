@@ -47,16 +47,16 @@ class EnquiryController extends Controller
         // tbcibaya@ayabank.com
 
         if ($product_check == 'Loan') {
-            Mail::to('maykhaing@saltnpixel.com')->cc('maykhaine11@gmail.com')->send(new Enquiry($name_txt, $phone_txt, $email_txt, $division_select, $company_txt, $product_check, $sub_prod_check, $comment_question_txt));
+            Mail::to('businessloan@ayabank.com')->cc('maykhaing@saltnpixel.com')->send(new Enquiry($name_txt, $phone_txt, $email_txt, $division_select, $company_txt, $product_check, $sub_prod_check, $comment_question_txt));
         }
         if ($product_check == 'Trade') {
-            Mail::to('maykhaing@saltnpixel.com')->cc('maykhaine11@gmail.com')->send(new Enquiry($name_txt, $phone_txt, $email_txt, $division_select, $company_txt, $product_check, $sub_prod_check, $comment_question_txt));
+            Mail::to('btradeaya@ayabank.com')->cc('maykhaing@saltnpixel.com')->send(new Enquiry($name_txt, $phone_txt, $email_txt, $division_select, $company_txt, $product_check, $sub_prod_check, $comment_question_txt));
         }
         if ($product_check == 'CMS') {
-            Mail::to('maykhaing@saltnpixel.com')->cc('maykhaine11@gmail.com')->send(new Enquiry($name_txt, $phone_txt, $email_txt, $division_select, $company_txt, $product_check, $sub_prod_check, $comment_question_txt));
+            Mail::to('tbcmsaya@ayabank.com')->cc('maykhaing@saltnpixel.com')->send(new Enquiry($name_txt, $phone_txt, $email_txt, $division_select, $company_txt, $product_check, $sub_prod_check, $comment_question_txt));
         }
         if ($product_check == 'Digital Banking') {
-            Mail::to('maykhaing@saltnpixel.com')->cc('maykhaine11@gmail.com')->send(new Enquiry($name_txt, $phone_txt, $email_txt, $division_select, $company_txt, $product_check, $sub_prod_check, $comment_question_txt));
+            Mail::to('tbcibaya@ayabank.com')->cc('maykhaing@saltnpixel.com')->send(new Enquiry($name_txt, $phone_txt, $email_txt, $division_select, $company_txt, $product_check, $sub_prod_check, $comment_question_txt));
         }
 
         return redirect(url()->previous().'#success')->with('success', "Your request was successfully sent! We'll reach you soon!");

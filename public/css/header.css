@@ -250,8 +250,20 @@
     .personal-dropdown-content {
     	top: 30% !important;
     }
+    .business-dropdown-content {
+    	top: 35% !important;
+    }
+    .digital-dropdown-content {
+    	top: 42% !important;
+    }
+    .about-aya-dropdown-content {
+    	top: 48% !important;
+    }
     .menu-link {
 	    padding: 20px 0px 0px 30px !important;
 	    font-weight: 300;
+	}
+	.left-menu-div {
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	}
 }

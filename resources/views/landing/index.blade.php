@@ -20,10 +20,10 @@
 					<div class="carousel-inner active">
 						<div class="carousel-item carousel-item-1 active">
 							<video class="img-fluid desk_slide" autoplay loop muted>
-								<source src="{{ url('/images/home/desk.mp4') }}" type="video/mp4" />
+								<source src="{{ url('/images/home/desk.mp4') }}" poster="{{ url('/images/home/desk_poster.jpeg') }}" type="video/mp4" />
 							</video>
 							<video class="img-fluid tablet_slide" autoplay loop muted>
-								<source src="{{ url('/images/home/landing_slide_1.mp4') }}" type="video/mp4" />
+								<source src="{{ url('/images/home/landing_slide_1.mp4') }}" poster="{{ url('/images/home/landing_slide_1_poster.jpeg') }}" type="video/mp4" />
 							</video>
 							<div class="row carousel-caption">
 								<div class="col-md-6"></div>
@@ -67,7 +67,7 @@
 					<div class="carousel-inner">
 						<div class="carousel-item active">
 							<video class="img-fluid" autoplay loop muted>
-								<source src="{{ url('/images/home/mobile.mp4') }}" type="video/mp4" />
+								<source src="{{ url('/images/home/mobile.mp4') }}" poster="{{ url('/images/home/mobile_poster.jpeg') }}" type="video/mp4" />
 							</video>
 							<div class="row carousel-caption carousel-caption-mobile-2">
 								<div class="col-md-12">
@@ -98,7 +98,7 @@
 									<div class="carousel-left-1">
 										<p class="carousel-caption-title carousel-caption-title-3-1">Moving Forward,</p>
 										<p class="carousel-caption-title carousel-caption-title-3-2">Going Digital,</p>
-										<p class="carousel-caption-desc carousel-caption-3-desc" style="width: 50%;margin-left: 70px;">Experience the New AYA on the Go!</p>
+										<p class="carousel-caption-desc carousel-caption-3-desc" style="width: 50%;margin-left: 50px;">Experience the New AYA on the Go!</p>
 									</div>
 								</div>
 							</div>

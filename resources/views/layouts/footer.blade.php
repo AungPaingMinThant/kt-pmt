@@ -128,7 +128,7 @@
                 <h3 class="footer_like_title">Locations</h3>
                 <a class="footer_first_link_a" href="{{ url('/atm') }}"><p class="footer_first_link">ATM</p></a>
                 <a class="footer_first_link_a" href="#"><p class="footer_first_link">Branch</p></a>
-                <a class="footer_first_link_a" href="#"><p class="footer_first_link">FX Counter Locator</p></a>
+                <a class="footer_first_link_a" href="#"><p class="footer_first_link">FX Counter</p></a>
                 
                 <!-- <form>
                     <div class="input-group mb-3">
@@ -385,17 +385,16 @@
     });
 
 
-    $(".personal-menu-ac-sav-link").click(function(){
-        $(".personal-menu-ac-sav-link").addClass('menu-active');
-        $(".personal-menu-borrow-link").removeClass('menu-active');
-        $(".personal-menu-remit-link").removeClass('menu-active');
-
-        $(".personal-acc-sav-menu").removeClass('d-none');
-        $(".personal-remit-menu").removeClass('d-none');
-        $(".personal-borrow-menu").removeClass('d-none');
-        
-        $(".personal-acc-sav-menu").slideToggle();
-        $(".personal-borrow-menu").hide('toogle');
-        $(".personal-remit-menu").hide('toogle');       
+    $(".personal-banking-li > a").click(function(){
+        $(".personal-dropdown-content").slideToggle();
+    });
+    $(".business-banking-li > a").click(function(){
+        $(".business-dropdown-content").slideToggle();
+    });
+    $(".digital-services-li > a").click(function(){
+        $(".digital-dropdown-content").slideToggle();
+    });
+    $(".about-aya-li > a").click(function(){
+        $(".about-aya-dropdown-content").slideToggle();
     });
 </script>

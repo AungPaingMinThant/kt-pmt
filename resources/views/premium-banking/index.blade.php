@@ -79,6 +79,14 @@
     	background-position: center;
     	background-repeat: no-repeat;
     }
+    @media (max-width: 1400px) and (min-width: 1301px) {
+		.intro_title {
+		    padding: 30px 170px 0px 170px !important;
+		}
+		.intro_desc {
+		    padding: 0px 160px 40px 160px !important;
+		}
+	}
     @media (max-width: 1300px) and (min-width: 1271px) {
     	.intro_box_bg {
 	    	background-size: cover;

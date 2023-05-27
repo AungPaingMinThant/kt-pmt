@@ -131,7 +131,7 @@
 															FIXED DEPOST
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/account-saving/saving-deposit') }}">Fixed Deposit</a>
+															<a href="{{ url('/account-saving/fixed-deposit') }}">Fixed Deposit</a>
 														</p>
 													</div>
 												</div>
@@ -182,7 +182,7 @@
 												<div class="row">
 													<div class="col-md-5">
 														<p class="m-b-5 fw-bold">
-															<a href="{{ url('/premium-banking') }}">Premium Banking</a>
+															<a href="{{ url('/premium-banking') }}">Royal Banking</a>
 														</p>
 													</div>
 												</div>
@@ -868,13 +868,13 @@
 
                 <li class="personal-banking-li" style="padding: 10px 0px;">
                 	@if($page == 'personal_banking')
-                    	<a class=" dropdown-toggle menu_link" style="color: #a02226;">
+                    	<a class="dropdown-toggle menu_link" style="color: #a02226;padding-right: 140px !important;">
                     @else
-                    	<a class="nav-link dropdown-toggle menu_link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">
+                    	<a class="dropdown-toggle menu_link" style="color: #222222;padding-right: 140px !important;">
                     @endif
-                    	PERSONAL BANKING
+                    	PERSONAL BANKING &nbsp; <i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
                     </a>
-                    <div class="col-12 left-menu-div">
+                    <div class="col-12 personal-dropdown-content left-menu-div" style="display: none;">
 						<div class="row nav-item dropdown menu-link personal-menu-ac-sav-link">
 							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ACCOUNTS AND SAVINGS</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -968,208 +968,736 @@
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-3">
-										<a href="{{ url('/account-saving/saving-deposit') }}">SAVING DEPOST</a>
+										ASSETS ACQUISITION / FINANCING
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/account-saving/saving-deposit/aya-regular-saving') }}">AYA Regular Saving</a>
+										<a href="{{ url('/borrowing/hire-purchase/auto-loan') }}">Auto Loan</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/account-saving/saving-deposit/aya-maximizer-saving') }}">AYA Maximizer Saving</a>
-									</p>
-								</li>
-								<li>
-									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/account-saving/saving-deposit/aya-loyal-saving') }}">AYA Loyal Saving</a>
-									</p>
-								</li>
-								<li>
-									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/account-saving/saving-deposit/ngwe-toe-mae-shwe-o') }}">Ngwe Toe Mae-Shwe O</a>
+										<a href="{{ url('/borrowing/hire-purchase/education-loan') }}">Education Loan</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item mb-20 m-l-20">
-										<a href="{{ url('/account-saving/saving-deposit/aya-su-buu') }}">AYA Su-Buu</a>
-									</p>
-								</li>
-
-								<li>
-									<p class="dropdown-item fw-bold m-b-5 mt-3">
-										<a href="{{ url('/account-saving/current-deposit') }}">CURRENT DEPOST</a>
-									</p>
-								</li>
-								<li>
-									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/account-saving/current-deposit/regular-current-account') }}">Regular Current Account</a>
-									</p>
-								</li>
-								<li>
-									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/account-saving/current-deposit/new-business-current-account') }}">New Business Current Account</a>
-									</p>
-								</li>
-								<li>
-									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/account-saving/current-deposit/seafarer-acount') }}">Seafarer Account (FCY)</a>
-									</p>
-								</li>
-								<li>
-									<p class="dropdown-item mb-20 m-l-20">
-										<a href="{{ url('/account-saving/current-deposit/retail-fca-current') }}">Retail FCA Current (FCY)</a>
-									</p>
-								</li>
-
-								<li>
-									<p class="dropdown-item fw-bold m-b-5 mt-3">
-										<a href="{{ url('/account-saving/call-deposit') }}">CALL DEPOST</a>
-									</p>
-								</li>
-								<li>
-									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/account-saving/call-deposit/premium-call-deposit') }}">Premium Call Deposit</a>
-									</p>
-								</li>
-								<li>
-									<p class="dropdown-item mb-20 m-l-20">
-										<a href="{{ url('/account-saving/call-deposit/new-business-call') }}">New Business Call</a>
-									</p>
-								</li>
-
-								<li>
-									<p class="dropdown-item fw-bold m-b-5 mt-3">
-										FIXED DEPOST
-									</p>
-								</li>
-								<li>
-									<p class="dropdown-item mb-20 m-l-20">
-										<a href="{{ url('/account-saving/fixed-deposit') }}">Fixed Deposit</a>
+										<a href="{{ url('/borrowing/hire-purchase/home-loan') }}">Home Loan</a>
 									</p>
 								</li>
 							</ul>
 						</div>
 						<div class="row menu-link personal-menu-remit-link">
-							<a class="" href="#">REMITTANCE AND PAYMENTS</a>
+							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">REMITTANCE AND PAYMENTS</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+									<p class="dropdown-item fw-bold m-b-5 mt-3">
+										REMITTANCE AND PAYMENTS
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/remittance/local') }}">Local Remittance</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/remittance/international') }}">International Remittance</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20 m-l-20">
+										<a href="{{ url('/remittance/payment') }}">Payments</a>
+									</p>
+								</li>
+							</ul>
 						</div>
 						<div class="row menu-link personal-menu-premium-link">
-							<a class="" href="#">PREMIUM BANKING</a>
+							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PREMIUM BANKING</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+									<p class="dropdown-item mb-20 mt-3">
+										<a href="{{ url('/premium-banking') }}">Royal Banking</a>
+									</p>
+								</li>
+							</ul>
 						</div>
 						<div class="row menu-link personal-menu-ins-link">
-							<a class="" href="#">INSURANCE</a>
+							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">INSURANCE</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+									<p class="dropdown-item m-b-5 mt-2">
+										<a href="{{ url('/insurance/health') }}">Health Insurance</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5">
+										<a href="{{ url('/insurance/motor') }}">Motor Insurance</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5">
+										<a href="{{ url('/insurance/fire') }}">Fire Insurance</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5">
+										<a href="{{ url('/insurance/personal-accident') }}">Personal Accident Insurance</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5">
+										<a href="{{ url('/insurance/travel/aya-go') }}">AYA Go Travel Insurance</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20">
+										<a href="{{ url('/insurance/travel/aya-joy') }}">AYA Joy Travel Insurance</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item fw-bold m-b-5 mt-3">
+										LIFE
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/insurance/life/universal') }}">Universal Life Insurance</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/insurance/life/education') }}">Education Life Insurance</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/insurance/life/one-health-solution-individual-plan') }}">One Health Solution Individual Plan</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20 m-l-20">
+										<a href="{{ url('/insurance/life/short-term') }}">Short Term Endowment Life Insurance</a>
+									</p>
+								</li>
+							</ul>
 						</div>
 						<div class="row menu-link personal-menu-other-link">
-							<a class="other-menu" href="#">OTHER SERVIES</a>
+							<a class="other-menu nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">OTHER SERVIES</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+									<p class="dropdown-item m-b-5 mt-2">
+										<a href="{{ url('/other-services/foreign-currency-exchange-service') }}">Foreign Currency Exchange Service</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5">
+										<a href="{{ url('/other-services/safe-deposit') }}"> Safe Deposit Locker</a>
+									</p>
+								</li>
+							</ul>
 						</div>
-
-						<div class="space-60"></div>
 					</div>
-                    <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<li>
-							<p class="dropdown-item fw-bold m-b-5 mt-3">
-								<a href="{{ url('/account-saving/saving-deposit') }}">SAVING DEPOST</a>
-							</p>
-						</li>
-						<li>
-							<p class="dropdown-item m-b-5 m-l-20">
-								<a href="{{ url('/account-saving/saving-deposit/aya-regular-saving') }}">AYA Regular Saving</a>
-							</p>
-						</li>
-						<li>
-							<p class="dropdown-item m-b-5 m-l-20">
-								<a href="{{ url('/account-saving/saving-deposit/aya-maximizer-saving') }}">AYA Maximizer Saving</a>
-							</p>
-						</li>
-						<li>
-							<p class="dropdown-item m-b-5 m-l-20">
-								<a href="{{ url('/account-saving/saving-deposit/aya-loyal-saving') }}">AYA Loyal Saving</a>
-							</p>
-						</li>
-						<li>
-							<p class="dropdown-item m-b-5 m-l-20">
-								<a href="{{ url('/account-saving/saving-deposit/ngwe-toe-mae-shwe-o') }}">Ngwe Toe Mae-Shwe O</a>
-							</p>
-						</li>
-						<li>
-							<p class="dropdown-item mb-20 m-l-20">
-								<a href="{{ url('/account-saving/saving-deposit/aya-su-buu') }}">AYA Su-Buu</a>
-							</p>
-						</li>
-
-						<li>
-							<p class="dropdown-item fw-bold m-b-5 mt-3">
-								<a href="{{ url('/account-saving/current-deposit') }}">CURRENT DEPOST</a>
-							</p>
-						</li>
-						<li>
-							<p class="dropdown-item m-b-5 m-l-20">
-								<a href="{{ url('/account-saving/current-deposit/regular-current-account') }}">Regular Current Account</a>
-							</p>
-						</li>
-						<li>
-							<p class="dropdown-item m-b-5 m-l-20">
-								<a href="{{ url('/account-saving/current-deposit/new-business-current-account') }}">New Business Current Account</a>
-							</p>
-						</li>
-						<li>
-							<p class="dropdown-item m-b-5 m-l-20">
-								<a href="{{ url('/account-saving/current-deposit/seafarer-acount') }}">Seafarer Account (FCY)</a>
-							</p>
-						</li>
-						<li>
-							<p class="dropdown-item mb-20 m-l-20">
-								<a href="{{ url('/account-saving/current-deposit/retail-fca-current') }}">Retail FCA Current (FCY)</a>
-							</p>
-						</li>
-
-						<li>
-							<p class="dropdown-item fw-bold m-b-5 mt-3">
-								<a href="{{ url('/account-saving/call-deposit') }}">CALL DEPOST</a>
-							</p>
-						</li>
-						<li>
-							<p class="dropdown-item m-b-5 m-l-20">
-								<a href="{{ url('/account-saving/call-deposit/premium-call-deposit') }}">Premium Call Deposit</a>
-							</p>
-						</li>
-						<li>
-							<p class="dropdown-item mb-20 m-l-20">
-								<a href="{{ url('/account-saving/call-deposit/new-business-call') }}">New Business Call</a>
-							</p>
-						</li>
-
-						<li>
-							<p class="dropdown-item fw-bold m-b-5 mt-3">
-								FIXED DEPOST
-							</p>
-						</li>
-						<li>
-							<p class="dropdown-item mb-20 m-l-20">
-								<a href="{{ url('/account-saving/fixed-deposit') }}">Fixed Deposit</a>
-							</p>
-						</li>
-						
-
-						<li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
-						<li>
-						<hr class="dropdown-divider" />
-						</li>
-						<li><a class="dropdown-item" href="javascript:void(0)">Something else here</a></li>
-					</ul> -->
                 </li>
-
-
                 
-                <li style="padding: 10px 0px;">
-                    <a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">BUSINESS BANKING</a>
+                <li class="business-banking-li" style="padding: 10px 0px;">
+                    <a class="dropdown-toggle menu_link" style="color: #222222;padding-right: 140px !important;">BUSINESS BANKING &nbsp; <i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i></a>
+
+                    <div class="col-12 business-dropdown-content left-menu-div" style="display: none;">
+						<div class="row nav-item dropdown menu-link business-menu-ac-sav-link">
+							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ACCOUNTS AND SAVINGS</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+									<p class="dropdown-item m-b-5 mt-2">
+										<a href="{{ url('/business/account-saving/saving-deposit') }}">Saving Deposit</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5">
+										<a href="{{ url('/business/account-saving/call-deposit') }}">Call Deposit</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5">
+										<a href="{{ url('/business/account-saving/current-deposit') }}">Current Deposit</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20">
+										<a href="{{ url('/business/account-saving/fixed-deposit') }}">Fixed Deposit</a>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="row menu-link business-menu-remit-link">
+							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">REMITTANCE AND PAYMENTS</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+									<p class="dropdown-item m-b-5 mt-2">
+										<a href="{{ url('/business/remittance-payments/local-payments') }}">Local Remittance</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20">
+										<a href="{{ url('/business/remittance-payments/international-payments') }}">International Remittance</a>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="row menu-link business-menu-borrow-link">
+							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BORROWING</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+									<p class="dropdown-item m-b-5 mt-2">
+										<a href="{{ url('/business/borrowing/corporate-business-loan') }}">Corporate Business Loan</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5">
+										<a href="{{ url('/business/borrowing/hire-purchase') }}">Hire Purchase</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20">
+										<a href="{{ url('/business/borrowing/sme') }}">SME</a>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="row menu-link business-menu-trade-link">
+							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TRADE</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+									<p class="dropdown-item m-b-5 mt-2">
+										<a href="{{ url('/business/trade/trade-financing') }}">Trade Financing</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20">
+										<a href="{{ url('/business/trade/trade-services') }}">Trade Services</a>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="row menu-link business-menu-cash-management-link">
+							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CASH MANAGEMENT</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+									<p class="dropdown-item m-b-5 mt-2">
+										<a href="{{ url('/business/cash-management#payroll_service') }}">Payroll Service</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5">
+										<a href="{{ url('/business/cash-management#receivables_service') }}">Receivables Service</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5">
+										<a href="{{ url('/business/cash-management#bulk_payment_payables_services') }}">Bulk Payment (Payables Service)</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20">
+										<a href="{{ url('/business/cash-management#liquidity_service') }}">Liquidity Service</a>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="row menu-link business-menu-ins-link">
+							<a class="other-menu nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">INSURANCE</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+									<p class="dropdown-item m-b-5 mt-2">
+										<a href="{{ url('/business/insurance/group-life') }}">Group Life Insurance</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5">
+										<a href="{{ url('/insurance/fire') }}">Fire Insurance</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5">
+										<a href="{{ url('/insurance/motor') }}">Motor Insurance</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5">
+										<a href="{{ url('/business/insurance/domestic-marine-cargo') }}">Domestic Marine Cargo Insurance</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5">
+										<a href="{{ url('/business/insurance/oversea-marine-cargo') }}">Oversea Marine Cargo Insurance</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5">
+										<a href="{{ url('/business/insurance/domestic-inland-transit') }}">Domestic Inland Transit Insurance</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5">
+										<a href="{{ url('/business/insurance/industrial-all-risk') }}">Industrial All Risk Insurance (IAR)<br>Insurance</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20">
+										<a href="{{ url('/business/insurance/car-ear') }}">Contractor’s All Risk & Erection <br>All Risk (CAR & EAR) Insurance</a>
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
                 </li>
-                <li style="padding: 10px 0px;">
-                    <a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">DIGITAL SERVICES</a>
+                <li class="digital-services-li" style="padding: 10px 0px;">
+                    <a class="dropdown-toggle menu_link" style="color: #222222;padding-right: 140px !important;">DIGITAL SERVICES &nbsp; <i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i></a>
+
+                    <div class="col-12 digital-dropdown-content left-menu-div" style="display: none;">
+						<div class="row nav-item dropdown menu-link business-menu-ac-sav-link">
+							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ONLINE PAYMENT SERVICES</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+									<p class="dropdown-item m-b-5 mt-2">
+										<a href="{{ url('/internet-banking') }}">Internet Banking</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5">
+										<a href="{{ url('/mobile-banking') }}">Mobile Banking</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20">
+										<a href="{{ url('/corporate-internet-banking') }}">Corporate Internet Banking</a>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="row menu-link business-menu-remit-link">
+							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CARD SERVICES</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+									<p class="dropdown-item fw-bold m-b-5 mt-2">
+										MERCHANT SERVICES
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/pos') }}">POS</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20 m-l-20">
+										<a href="{{ url('/ecommerce') }}">E-commerce</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item fw-bold m-b-5 mt-2">
+										DEBIT CARD
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20 m-l-20">
+										<a href="{{ url('/debit-card') }}">Debit Card</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item fw-bold m-b-5 mt-2">
+										CREDIT CARD
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20 m-l-20">
+										<a href="{{ url('/credit-card') }}">Credit Card</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item fw-bold m-b-5 mt-2">
+										PREPAID CARD
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20 m-l-20">
+										<a href="{{ url('/prepaid-card') }}">Prepaid Card</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item fw-bold m-b-5 mt-2">
+										CARD PRIVILEGE
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20 m-l-20">
+										<a href="{{ url('/simple-pay') }}">Simple Pay</a>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="row menu-link business-menu-borrow-link">
+							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ATM</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+									<p class="dropdown-item mb-20 mt-2">
+										<a href="{{ url('/atm') }}">ATM Service and Network</a>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="row menu-link business-menu-trade-link">
+							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WALLET SOLUTION</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+									<p class="dropdown-item mb-20 mt-2">
+										<a href="{{ url('/aya-pay') }}">AYA Pay</a>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="row menu-link business-menu-cash-management-link">
+							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GUIDE LINES</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+									<p class="dropdown-item m-b-5 mt-2">
+										<a href="{{ url('/digital-secure') }}">Security Advices for Digital Services</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20">
+										<a href="{{ url('/frequently-used-digital') }}">Frequently Used Digital Services</a>
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
                 </li>
-                <li style="padding: 10px 0px;">
-                    <a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">ABOUT AYA</a>
+                <li class="about-aya-li" style="padding: 10px 0px;">
+                    <a class="dropdown-toggle menu_link" style="color: #222222;padding-right: 140px !important;">ABOUT AYA &nbsp; <i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i></a>
+
+                    <div class="col-12 about-aya-dropdown-content left-menu-div" style="display: none;">
+						<div class="row nav-item dropdown menu-link about-aya-menu-who-we-are-link">
+							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WHO WE ARE</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+									<p class="dropdown-item fw-bold m-b-5 mt-2">
+										CORPORATE PROFILE
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="https://saltnpixel.com/AYABank/AYABank_Profile.html" target="_blank">AYA Bank Profile</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="https://saltnpixel.com/AYABank/AYABank_OurCorporateValue.html" target="_blank">Mission, Corporate Values and <br>Brand Value</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="http://saltnpixel.com/AYABank/AYABank_CorporateGoal.html" target="_blank">Corporate Goals</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="https://saltnpixel.com/AYABank/AYABank_CorporateMilestone.html" target="_blank">Corporate Milestones</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-l-20 mb-20">
+										<a href="https://saltnpixel.com/AYABank/AYABank_Awards.html" target="_blank">Awards</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item fw-bold m-b-5 mt-2">
+										LEADERSHIP
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="" >Message From Chairman</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="https://saltnpixel.com/AYABank/AYABANK_MeetOurLeaders.html" target="_blank">Meet Our Leaders</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										What We Offer
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-l-20 mb-20">
+										<a href="https://saltnpixel.com/AYABank/AYABank_WhyUs.html" target="_blank">Why us</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item fw-bold m-b-5 mt-2">
+										OUR STRATEGIES
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="https://saltnpixel.com/AYABank/AYABank_Corporate_Strategy.html" target="_blank">Corporate Strategy</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="">Business Model</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-l-20 mb-20">
+										<a href="https://saltnpixel.com/AYABank/AYABank_Stakeholders.html" target="_blank">Stakeholder Management</a>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="row menu-link about-aya-menu-career-link">
+							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CAREER</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+									<p class="dropdown-item m-b-5 mt-2">
+										<a href="">Life at AYA</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5">
+										<a href="">AYA Culture</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5">
+										<a href="https://saltnpixel.com/AYABank/AYABank_Employee_Development.html" target="_blank">Employee Development</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20">
+										<a href="">Career Opportunities</a>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="row menu-link about-aya-menu-governance-link">
+							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GOVERNANCE</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+									<p class="dropdown-item fw-bold m-b-5 mt-2">
+										<a href="https://saltnpixel.com/AYABank/AYABank_Corporate_Governance.html" target="_blank">CORPORATE GOVERNANCE</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="">Leadership</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="">Governance Framework</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="">Board Committees</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="">Who are on the Committees</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="">Role of Committees</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="">Committee Meeting & Attendance</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20 m-l-20">
+										<a href="">Code of Ethical Conduct</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item fw-bold m-b-5">
+										COMPLIANCE
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="https://saltnpixel.com/AYABank/AYABank_Compliance.html" target="_blank">Compliance</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20 m-l-20">
+										<a href="https://saltnpixel.com/AYABank/AYABank_AML_CFT.html" target="_blank">Implementations of AML/CFT</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item fw-bold m-b-5">
+										RISK MANAGEMENT
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20 m-l-20">
+										<a href="https://saltnpixel.com/AYABank/AYABank_RiskManagement_Environment.html" target="_blank">Risk Management</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item fw-bold m-b-5">
+										<a href="https://saltnpixel.com/AYABank/AYABank_CorporatePolicy.html" target="_blank">CORPORATE POLICIES</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="">People</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="">Corporate Affairs</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="">Creditors’ Rights</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="">Compliance</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20 m-l-20">
+										<a href="">Finance</a>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="row menu-link about-aya-menu-sustainability-link">
+							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SUSTAINABILITY</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+									<p class="dropdown-item fw-bold m-b-5 mt-2">
+										<a href="https://saltnpixel.com/AYABank/AYABank_Sustainability.html" target="_blank">SUSTAINABILITY</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="">Our Commitment</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20 m-l-20">
+										<a href="">UNGC Commitment</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item fw-bold m-b-5">
+										OUR APPROACH
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="">Social Sustainability</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="">Environment Sustainability</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20 m-l-20">
+										<a href="">Economic Sustainability</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item fw-bold m-b-5">
+										AVENUE TO SUSTAIN
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20 m-l-20">
+										<a href="">Non-financial performance</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item fw-bold m-b-5">
+										CORPORATE SOCIAL RESPONSIBILITY
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20 m-l-20">
+										<a href="">Corporate Social Responsibility</a>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="row menu-link about-aya-menu-newsroom-link">
+							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">NEWSROOM</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+									<p class="dropdown-item m-b-5 mt-2">
+										<a href="">Corporate News</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5">
+										<a href="">CSR News</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5">
+										<a href="">Press Releases</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5">
+										<a href="">Announcements</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20">
+										<a href="https://saltnpixel.com/AYABank/AYABank_Report.html" target="_blank">Reports</a>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="row menu-link about-aya-menu-network-link">
+							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">NETWORK</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+									<p class="dropdown-item m-b-5 mt-2">
+										<a href="">Correspondent Banks</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5">
+										<a href="">Branch Locations</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5">
+										<a href="">FX Locations</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20">
+										<a href="">ATM Locations</a>
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
                 </li>
                 <li style="padding: 10px 0px;">
                     <a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">REGISTER</a>
@@ -1182,6 +1710,11 @@
                 </li>
                 <li style="padding: 10px 0px;">
                     <a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">MYANMAR</a>
+                </li>
+                <li style="padding: 10px 15px;">
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#searchBox" >
+						<span class="tf-icons bx bx-search"></span>
+					</a>
                 </li>
             </ul>
             

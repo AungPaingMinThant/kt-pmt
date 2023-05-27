@@ -431,7 +431,7 @@
 						</div>
 						<div class="col-md-12 col-xs-12 text-center">
 							<div class="space-60"></div>
-							<p style="color: #000;font-size: 16px;"><a href="{{ url('/file/cib/CIB_Enquiry Form.pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities to help you manage your finance online.</p>
+							<p style="color: #000;font-size: 16px;"><a href="{{ url('/enquiry') }}" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities to help you manage your finance online.</p>
 						</div>
 					</div>
 				</div>
@@ -457,7 +457,7 @@
 						</div>
 						<div class="col-md-12 col-xs-12 text-center">
 							<!-- <div class="space-20"></div> -->
-							<p style="color: #000;"><a href="{{ url('/file/cib/CIB_Enquiry Form.pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities to help you manage your finance online.</p>
+							<p style="color: #000;"><a href="{{ url('/enquiry') }}" style="text-decoration: underline;color: #4e4e4e;">Find out more</a> about our online facilities to help you manage your finance online.</p>
 						</div>
 					</div>
 				</div>
