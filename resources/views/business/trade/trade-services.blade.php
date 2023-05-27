@@ -548,7 +548,7 @@
 								<div class="">
 									<div class="col-md-12 c-b-l-div" style="background-color: #f2f2f2;padding: 20px 20px 20px 30px;border-radius: 5px;">
 										<p style="font-weight: 600;font-size: 16px;">Have any questions?</p>
-										<a href="#" target="_blank">
+										<a href="{{url('/enquiry')}}">
 											<button class="btn contact_us_btn">Contact Us</button>
 										</a>
 									</div>
