@@ -848,13 +848,13 @@
             <button type="button" class="navbar-toggle collapsed" data-toggle="slide-collapse" data-target="#slide-navbar-collapse" aria-expanded="false" style="margin-right: 30px;background-color: transparent;border: 1px solid #fff;border-radius: 5px;color: #fff;">
                 <span class="tf-icons bx bx-menu" style="font-size: 30px;color: #c1c1c1;"></span>
             </button>
-            <a href="#" target="_blank"><img alt="AYA BANK" src="{{ url('/images/logo_wo_tagline_2.png') }}" class="img-fluid mobile_logo"></a>
+            <a href="{{url('/')}}"><img alt="AYA BANK" src="{{ url('/images/logo_wo_tagline_2.png') }}" class="img-fluid mobile_logo"></a>
         </div>
 
         <div class="collapse navbar-collapse" id="slide-navbar-collapse">
             <ul class="nav navbar-nav">
                 <li class="active" style="padding: 20px;">
-                    <a href=""><img src="{{url('/images/logo_wo_tagline_2.png')}}" class="img-fluid" style="width: 50%"></a>
+                    <a href="{{url('/')}}"><img src="{{url('/images/logo_wo_tagline_2.png')}}" class="img-fluid" style="width: 50%"></a>
                     <button class="elementskit-menu-close elementskit-menu-toggler" id="navbar_close" type="button" style="float: right;border: 1px solid rgba(0,0,0,.5);color: rgba(51,51,51,.5);padding: 5px 10px 5px 10px;border-radius: 5px;">X</button>
                 </li>
                 <li style="height: 20px;"></li>
