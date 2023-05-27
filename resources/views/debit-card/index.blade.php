@@ -150,7 +150,7 @@
 	}
 	@media only screen and (max-width: 576px){
 		.tab-pane {
-			background-position: -80px -70px;
+		    background-position: -220px bottom;
 		}
 		.tab_data_row {
 			/*width: auto;*/

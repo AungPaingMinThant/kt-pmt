@@ -309,6 +309,9 @@
 		.simple_pay_div {
 			padding: 0px;
 		}
+		.simple_pay_div > .container {
+			background-image: none;
+		}
 	}
 </style>
 @section('content')
