@@ -185,6 +185,9 @@
     border-radius: 0;
     overflow: hidden;
 }
+.dropdown-menu > li > p {
+	font-size: 13px !important;
+}
 @media (min-width: 1800px) {
 	.personal-dropdown-content, .business-dropdown-content, .digital-dropdown-content, .about-aya-dropdown-content {
 		top: 15% !important;

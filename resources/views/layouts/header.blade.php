@@ -860,9 +860,9 @@
                 <li style="height: 20px;"></li>
                 <li style="padding: 10px 0px;">
                 	@if($page == 'home')
-                		<a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #a02226;">HOME</a>
+                		<a href="{{ url('/') }}" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #a02226;">HOME</a>
                 	@else
-                		<a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">HOME</a>
+                		<a href="{{ url('/') }}" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">HOME</a>
                 	@endif
                 </li>
 
