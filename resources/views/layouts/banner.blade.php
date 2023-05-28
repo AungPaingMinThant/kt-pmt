@@ -943,9 +943,9 @@
 			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<span style="color: #a02226;">LIFE INSURANCE</span>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;LIFE INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span>UNIVERSAL LIFE INSURANCE</span>
+				<span style="color: #a02226;">UNIVERSAL LIFE INSURANCE</span>
 			</p>
 		</div>
 	</div>
@@ -1001,9 +1001,9 @@
 			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<span style="color: #a02226;">LIFE INSURANCE</span>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;LIFE INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span>SHORT TERM ENDOWMENT LIFE INSURANCE</span>
+				<span style="color: #a02226;">SHORT TERM ENDOWMENT LIFE INSURANCE</span>
 			</p>
 		</div>
 	</div>
@@ -1053,9 +1053,9 @@
 			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<span style="color: #a02226;">LIFE INSURANCE</span>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;LIFE INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span>EDUCATION LIFE INSURANCE</span>
+				<span style="color: #a02226;">EDUCATION LIFE INSURANCE</span>
 			</p>
 		</div>
 	</div>
@@ -1105,9 +1105,9 @@
 			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<span style="color: #a02226;">LIFE INSURANCE</span>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;LIFE INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span>ONE HEALTH SOLUTION INDIVIDUAL PLAN</span>
+				<span style="color: #a02226;">ONE HEALTH SOLUTION INDIVIDUAL PLAN</span>
 			</p>
 		</div>
 	</div>
