@@ -206,7 +206,7 @@
 	left: 10%;
 }
 .CTA_section_2 {
-	background-image: url('../images/home/business.jpg');
+	background-image: url('../images/home/business.webp');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 520px;
@@ -218,7 +218,7 @@
 }
 
 .CTA_section_3 {
-	background-image: url('../images/home/atm_branch_fx_counter.jpg');
+	background-image: url('../images/home/atm_branch_fx_counter.webp');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 520px;
