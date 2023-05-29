@@ -35,7 +35,7 @@
 								</div>
 							</div>
 						</div>
-						<!-- <div class="carousel-item carousel-item-2">
+						<div class="carousel-item carousel-item-2">
 							<div class="row carousel-caption carousel-caption-2">
 								<div class="col-md-6">
 									<div class="carousel-right-2">
@@ -58,7 +58,7 @@
 									</div>
 								</div>
 							</div>
-						</div> -->
+						</div>
 					</div>
                 </div>
             </div>
