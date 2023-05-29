@@ -35,7 +35,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="carousel-item carousel-item-2">
+						<!-- <div class="carousel-item carousel-item-2">
 							<div class="row carousel-caption carousel-caption-2">
 								<div class="col-md-6">
 									<div class="carousel-right-2">
@@ -58,7 +58,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> -->
 					</div>
                 </div>
             </div>
@@ -66,9 +66,11 @@
                 <div id="carouselExample-cf-mobile" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel" style="box-shadow: 0px 15px 20px 5px #f4f4f4;">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<video class="img-fluid" autoplay loop muted>
+							<!-- <video class="img-fluid" autoplay loop muted>
 								<source src="{{ url('/images/home/mobile.mp4') }}" poster="{{ url('/images/home/mobile_poster.jpeg') }}" type="video/mp4" />
-							</video>
+							</video> -->
+							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_mobile_1.png') }}" alt="Second slide" />
+							<!-- KV_slider_mobile_1.png -->
 							<div class="row carousel-caption carousel-caption-mobile-2">
 								<div class="col-md-12">
 									<div class="carousel-left-1">
