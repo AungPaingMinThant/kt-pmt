@@ -187,7 +187,7 @@
 	padding-right: 120px !important;
 }
 .CTA_section_1 {
-	background-image: url('../images/home/personal_borrowing_plan.jpg');
+	background-image: url('../images/home/personal_borrowing_plan.webp');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 520px;
@@ -633,13 +633,13 @@
 	    margin-bottom: 10px;
 	}
 	.mbaning_div {
-		background-image: url('../images/home/mbanking_mobile.png');
+		background-image: url('../images/home/mbanking_mobile.webp');
 		height: 220px;
 		background-size: cover;
 		padding-right: 0px !important;
 	}
 	.mbaning_div:hover {
-		background-image: url('../images/home/mbanking_mobile_hover.png');
+		background-image: url('../images/home/mbanking_mobile_hover.webp');
 	}
 	.app_detail_div {
 	    left: 33%;
@@ -689,13 +689,13 @@
 		width: 42% !important;
 	}
 	.ayapay_div {
-		background-image: url('../images/home/ayapay_wallet_mobile.png');
+		background-image: url('../images/home/ayapay_wallet_mobile.webp');
 		height: 220px;
 		background-size: cover;
 		padding-right: 0px !important;
 	}
 	.ayapay_div:hover {
-		background-image: url('../images/home/ayapay_wallet_mobile_hover.png');
+		background-image: url('../images/home/ayapay_wallet_mobile_hover.webp');
 	}
 
 	.CTA_section_1_info, .CTA_section_3_info, .CTA_section_2_info {

@@ -282,7 +282,7 @@
 					<div class="col-md-6">
 						<div class="row">
 							<a href="">
-								<img src="{{ url('/images/news_image/MOU-Between-AYA-Bank-and-SMART-Myanmar.jpg') }}" class="img-fluid">
+								<img src="{{ url('/images/news_image/MOU-Between-AYA-Bank-and-SMART-Myanmar.webp') }}" class="img-fluid">
 							</a>
 						</div>
 						<div class="news_content_div">
@@ -298,7 +298,7 @@
 					<div class="col-md-6">
 						<div class="row">
 							<div class="col-md-6">
-								<div class="row news_img_div" style="background-image:  url('./images/news_image/U-Zaw-Zaw-Drives-Social-Responsibility-through-Football-in-Myanmar.jpg');"></div>
+								<div class="row news_img_div" style="background-image:  url('./images/news_image/U-Zaw-Zaw-Drives-Social-Responsibility-through-Football-in-Myanmar.webp');"></div>
 								<div class="news_content_div">
 									<a href="">
 										<p class="news_title">U Zaw Zaw Drives Social Responsibility through Football in Myanmar</p>
@@ -307,7 +307,7 @@
 								</div>
 							</div>
 							<div class="col-md-6">
-								<div class="row news_img_div" style="background-image:  url('./images/news_image/Celebration-of-International-Womens-Day-2023-at-AYA-Bank-Office.jpg');"></div>
+								<div class="row news_img_div" style="background-image:  url('./images/news_image/Celebration-of-International-Womens-Day-2023-at-AYA-Bank-Office.webp');"></div>
 								<div class="news_content_div">
 									<a href="">
 										<p class="news_title">Celebration of International Women’s Day 2023 at AYA Bank Office</p>
