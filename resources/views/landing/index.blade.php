@@ -69,8 +69,7 @@
 							<!-- <video class="img-fluid" autoplay loop muted>
 								<source src="{{ url('/images/home/mobile.mp4') }}" poster="{{ url('/images/home/mobile_poster.jpeg') }}" type="video/mp4" />
 							</video> -->
-							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_mobile_1.png') }}" alt="Second slide" />
-							<!-- KV_slider_mobile_1.png -->
+							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_mobile_1.webp') }}" alt="Second slide" />
 							<div class="row carousel-caption carousel-caption-mobile-2">
 								<div class="col-md-12">
 									<div class="carousel-left-1">
@@ -81,7 +80,7 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_mobile2.jpg') }}" alt="Second slide" />
+							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_mobile2.webp') }}" alt="Second slide" />
 							<div class="row carousel-caption carousel-caption-2">
 								<div class="col-md-12">
 									<div class="carousel-left-1">
@@ -93,7 +92,7 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_mobile_3.jpg') }}" alt="Third slide" />
+							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_mobile_3.webp') }}" alt="Third slide" />
 							<div class="row carousel-caption">
 								<div class="col-md-6"></div>
 								<div class="col-md-6">
@@ -379,7 +378,7 @@
 
 							<div class="row">
 								<div class="col-12">
-									<img src="{{ url('/images/home/3-Fastest-Growing-Retail-Bank-2014.png') }}" class="img-fluid" style="width: 20%;">
+									<img src="{{ url('/images/home/3-Fastest-Growing-Retail-Bank-2014.webp') }}" class="img-fluid" style="width: 20%;">
 								</div>
 								<div class="col-12">
 									<img src="{{ url('/images/home/2-Best-Regional-Banking-Partner-2017.png') }}" class="img-fluid" style="width: 20%;">

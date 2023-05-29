@@ -52,19 +52,19 @@
 									<div class="row" style="width: 100%;">
 										<div class="col-md-4 left-menu-div">
 											<div class="row menu-link personal-menu-ac-sav-link menu-active ">
-												<a class="" href="#">ACCOUNTS AND SAVINGS</a>
+												<a href="#">ACCOUNTS AND SAVINGS</a>
 											</div>
 											<div class="row menu-link personal-menu-borrow-link">
-												<a class="" href="#">BORROWING</a>
+												<a href="#">BORROWING</a>
 											</div>
 											<div class="row menu-link personal-menu-remit-link">
-												<a class="" href="#">REMITTANCE AND PAYMENTS</a>
+												<a href="#">REMITTANCE AND PAYMENTS</a>
 											</div>
 											<div class="row menu-link personal-menu-premium-link">
-												<a class="" href="#">PREMIUM BANKING</a>
+												<a href="#">PREMIUM BANKING</a>
 											</div>
 											<div class="row menu-link personal-menu-ins-link">
-												<a class="" href="#">INSURANCE</a>
+												<a href="#">INSURANCE</a>
 											</div>
 											<div class="row menu-link personal-menu-other-link">
 												<a class="other-menu" href="#">OTHER SERVIES</a>
@@ -265,19 +265,19 @@
 									<div class="row" style="width: 100%;">
 										<div class="col-md-4 left-menu-div">
 											<div class="row menu-link business-menu-ac-sav-link menu-active ">
-												<a class="">ACCOUNTS AND SAVINGS</a>
+												<a>ACCOUNTS AND SAVINGS</a>
 											</div>
 											<div class="row menu-link business-menu-remit-link">
-												<a class="">REMITTANCE AND PAYMENTS</a>
+												<a>REMITTANCE AND PAYMENTS</a>
 											</div>
 											<div class="row menu-link business-menu-borrow-link">
-												<a class="">BORROWING</a>
+												<a>BORROWING</a>
 											</div>
 											<div class="row menu-link business-menu-trade-link">
-												<a class="">TRADE</a>
+												<a>TRADE</a>
 											</div>
 											<div class="row menu-link business-menu-cash-management-link">
-												<a class="">CASH MANAGEMENT</a>
+												<a>CASH MANAGEMENT</a>
 											</div>
 											<div class="row menu-link business-menu-ins-link">
 												<a class="other-menu">INSURANCE</a>
@@ -426,16 +426,16 @@
 									<div class="row" style="width: 100%;">
 										<div class="col-md-4 left-menu-div">
 											<div class="row menu-link digital-menu-online-pay-services-link menu-active ">
-												<a class="">ONLINE PAYMENT SERVICES</a>
+												<a>ONLINE PAYMENT SERVICES</a>
 											</div>
 											<div class="row menu-link digital-menu-card-services-link">
-												<a class="">CARD SERVICES</a>
+												<a>CARD SERVICES</a>
 											</div>
 											<div class="row menu-link digital-menu-atm-link">
-												<a class="">ATM</a>
+												<a>ATM</a>
 											</div>
 											<div class="row menu-link digital-menu-wallet-solutions-link">
-												<a class="">WALLET SOLUTION</a>
+												<a>WALLET SOLUTION</a>
 											</div>
 											<div class="row menu-link digital-menu-guidlines-link">
 												<a class="other-menu">GUIDE LINES</a>
@@ -563,19 +563,19 @@
 									<div class="row" style="width: 100%;">
 										<div class="col-md-4 left-menu-div">
 											<div class="row menu-link about-aya-menu-who-we-are-link menu-active">
-												<a class="">WHO WE ARE</a>
+												<a>WHO WE ARE</a>
 											</div>
 											<div class="row menu-link about-aya-menu-career-link">
-												<a class="">CAREER</a>
+												<a>CAREER</a>
 											</div>
 											<div class="row menu-link about-aya-menu-governance-link">
-												<a class="">GOVERNANCE</a>
+												<a>GOVERNANCE</a>
 											</div>
 											<div class="row menu-link about-aya-menu-sustainability-link">
-												<a class="">SUSTAINABILITY</a>
+												<a>SUSTAINABILITY</a>
 											</div>
 											<div class="row menu-link about-aya-menu-newsroom-link">
-												<a class="">NEWSROOM</a>
+												<a>NEWSROOM</a>
 											</div>
 											<div class="row menu-link about-aya-menu-network-link">
 												<a class="other-menu">NETWORK</a>
