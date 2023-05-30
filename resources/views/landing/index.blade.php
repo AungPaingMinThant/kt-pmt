@@ -404,57 +404,57 @@
 
 <script type="text/javascript">
 	var APP_URL = {!! json_encode(url('/')) !!};
-	var timer = setInterval(changeCTA1, 2000);
-	var timer2 = setInterval(changeCTA2, 2000);
-	var timer3 = setInterval(changeCTA3, 2000);
+	// var timer = setInterval(changeCTA1, 2000);
+	// var timer2 = setInterval(changeCTA2, 2000);
+	// var timer3 = setInterval(changeCTA3, 2000);
 
-	function changeCTA1() {
-		if ($('#inputGroupSelect01 option:selected').val() == '2') {
-			$('#inputGroupSelect01 option:first').attr('selected', 'selected');
-			$('#inputGroupSelect01 option:not(first)').removeAttr('selected');
-		} else {
-			$('#inputGroupSelect01 option:selected').next().attr('selected', 'selected');
-		}
+	// function changeCTA1() {
+	// 	if ($('#inputGroupSelect01 option:selected').val() == '2') {
+	// 		$('#inputGroupSelect01 option:first').attr('selected', 'selected');
+	// 		$('#inputGroupSelect01 option:not(first)').removeAttr('selected');
+	// 	} else {
+	// 		$('#inputGroupSelect01 option:selected').next().attr('selected', 'selected');
+	// 	}
 
-		if ($('#inputGroupSelect01mobile option:selected').val() == '2') {
-			$('#inputGroupSelect01mobile option:first').attr('selected', 'selected');
-			$('#inputGroupSelect01mobile option:not(first)').removeAttr('selected');
-		} else {
-			$('#inputGroupSelect01mobile option:selected').next().attr('selected', 'selected');
-		}
-	}
+	// 	if ($('#inputGroupSelect01mobile option:selected').val() == '2') {
+	// 		$('#inputGroupSelect01mobile option:first').attr('selected', 'selected');
+	// 		$('#inputGroupSelect01mobile option:not(first)').removeAttr('selected');
+	// 	} else {
+	// 		$('#inputGroupSelect01mobile option:selected').next().attr('selected', 'selected');
+	// 	}
+	// }
 
-	function changeCTA2() {
-		if ($('#inputGroupSelect02 option:selected').val() == '6') {
-			$('#inputGroupSelect02 option:first').attr('selected', 'selected');
-			$('#inputGroupSelect02 option:not(first)').removeAttr('selected');
-		} else {
-			$('#inputGroupSelect02 option:selected').next().attr('selected', 'selected');
-		}
+	// function changeCTA2() {
+	// 	if ($('#inputGroupSelect02 option:selected').val() == '6') {
+	// 		$('#inputGroupSelect02 option:first').attr('selected', 'selected');
+	// 		$('#inputGroupSelect02 option:not(first)').removeAttr('selected');
+	// 	} else {
+	// 		$('#inputGroupSelect02 option:selected').next().attr('selected', 'selected');
+	// 	}
 
-		if ($('#inputGroupSelect02mobile option:selected').val() == '6') {
-			$('#inputGroupSelect02mobile option:first').attr('selected', 'selected');
-			$('#inputGroupSelect02mobile option:not(first)').removeAttr('selected');
-		} else {
-			$('#inputGroupSelect02mobile option:selected').next().attr('selected', 'selected');
-		}
-	}
+	// 	if ($('#inputGroupSelect02mobile option:selected').val() == '6') {
+	// 		$('#inputGroupSelect02mobile option:first').attr('selected', 'selected');
+	// 		$('#inputGroupSelect02mobile option:not(first)').removeAttr('selected');
+	// 	} else {
+	// 		$('#inputGroupSelect02mobile option:selected').next().attr('selected', 'selected');
+	// 	}
+	// }
 
-	function changeCTA3() {
-		if ($('#inputGroupSelect03 option:selected').val() == '5') {
-			$('#inputGroupSelect03 option:first').attr('selected', 'selected');
-			$('#inputGroupSelect03 option:not(first)').removeAttr('selected');
-		} else {
-			$('#inputGroupSelect03 option:selected').next().attr('selected', 'selected');
-		}
+	// function changeCTA3() {
+	// 	if ($('#inputGroupSelect03 option:selected').val() == '5') {
+	// 		$('#inputGroupSelect03 option:first').attr('selected', 'selected');
+	// 		$('#inputGroupSelect03 option:not(first)').removeAttr('selected');
+	// 	} else {
+	// 		$('#inputGroupSelect03 option:selected').next().attr('selected', 'selected');
+	// 	}
 
-		if ($('#inputGroupSelect03mobile option:selected').val() == '5') {
-			$('#inputGroupSelect03mobile option:first').attr('selected', 'selected');
-			$('#inputGroupSelect03mobile option:not(first)').removeAttr('selected');
-		} else {
-			$('#inputGroupSelect03mobile option:selected').next().attr('selected', 'selected');
-		}
-	}
+	// 	if ($('#inputGroupSelect03mobile option:selected').val() == '5') {
+	// 		$('#inputGroupSelect03mobile option:first').attr('selected', 'selected');
+	// 		$('#inputGroupSelect03mobile option:not(first)').removeAttr('selected');
+	// 	} else {
+	// 		$('#inputGroupSelect03mobile option:selected').next().attr('selected', 'selected');
+	// 	}
+	// }
 
 	$('#inputGroupSelect01').hover(function(ev){
 	    clearInterval(timer);

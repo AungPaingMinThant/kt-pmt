@@ -52,7 +52,7 @@
 						<div class="space-20"></div>
 						<div class="col-md-4 d-none d-sm-block">
 							<nav id="myScrollspy">
-								<ul class="nav nav-pills flex-column">
+								<ul class="nav nav-pills flex-column side_bar">
 									<li class="nav-item">
 										<a class="nav-link active" id="capex_financing_link" href="#capex_financing">
 											<span class="pr-5">CAPEX Financing / Assets Acquisition Financing</span>

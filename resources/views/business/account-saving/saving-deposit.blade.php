@@ -5,7 +5,7 @@
 	.nav-link, h4 {
 		color: #2e2e2e !important;
 	}
-	.nav-link {
+	.side_nav > li > .nav-link {
 		padding: 0 1.25rem 1rem 0 !important;
 		font-size: 16px;
 	}
@@ -100,7 +100,7 @@
 					<div class="row">
 						<div class="col-md-4">
 							<nav id="myScrollspy">
-								<ul class="nav nav-pills flex-column">
+								<ul class="nav nav-pills flex-column side_nav">
 									<li class="nav-item advice_1">
 										<a class="nav-link active" href="#aya-regular-saving">
 											<span class="pr-5">AYA Regular Saving</span>

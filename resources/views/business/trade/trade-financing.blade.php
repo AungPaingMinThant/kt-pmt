@@ -23,7 +23,7 @@
 						</div>
 						<div class="col-md-4 d-none d-sm-block">
 							<nav id="myScrollspy">
-								<ul class="nav nav-pills flex-column">
+								<ul class="nav nav-pills flex-column side_nav">
 									<li class="nav-item">
 										<a class="nav-link active" id="import_financing_link" href="#import_financing">
 											<span class="pr-5">Import Financing</span>
