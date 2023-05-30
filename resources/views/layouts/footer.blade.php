@@ -229,161 +229,198 @@
         $(this).attr('src', $(this).data("src"));
     });
 
+    $(".personal-banking-li").mouseenter(function(e) {
+        $(".menu-link").removeClass('menu-hover-active');
+        $(".personal-menu-ac-sav-link").addClass('menu-active');
+    });
+    $(".business-banking-li").mouseenter(function(e) {
+        $(".menu-link").removeClass('menu-hover-active');
+        $(".business-menu-ac-sav-link").addClass('menu-active');
+    });
+    $(".digital-services-li").mouseenter(function(e) {
+        $(".menu-link").removeClass('menu-hover-active');
+        $(".digital-menu-online-pay-services-link").addClass('menu-active');
+    });
+    $(".about-aya-li").mouseenter(function(e) {
+        $(".menu-link").removeClass('menu-hover-active');
+        $(".about-aya-menu-who-we-are-link").addClass('menu-active');
+    });
 
     $(".menu-link").mouseenter(function(e) {
         $(this).addClass('menu-hover-active');
     });
     $(".menu-link").mouseleave(function(e) {
         $(this).removeClass('menu-hover-active');
+        $(".personal-menu-ac-sav-link").addClass('menu-active');
+        $(".business-menu-ac-sav-link").addClass('menu-active');
+        $(".digital-menu-online-pay-services-link").addClass('menu-active');
+        $(".about-aya-menu-who-we-are-link").addClass('menu-active');
     });
 
     $(".personal-menu-ac-sav-link").hover(function(){
         $(".menu-link").removeClass('menu-hover-active');
+        $(".menu-link").removeClass('menu-active');
         $(".personal-menu-ac-sav-link").addClass('menu-hover-active');
-        // $(".personal-dropdown-content").css('background-image',"url('http://103.94.54.111/images/menu/personal_acc_bg.png')");
         $(".personal-menu-links").addClass('d-none');
         $(".personal-acc-sav-menu").removeClass('d-none');
     });
     $(".personal-menu-borrow-link").hover(function(){
         $(".menu-link").removeClass('menu-hover-active');
+        $(".menu-link").removeClass('menu-active');
         $(".personal-menu-borrow-link").addClass('menu-hover-active');
-        // $(".personal-dropdown-content").css('background-image',"url('http://103.94.54.111/images/menu/personal_borrow_bg.png')");
         $(".personal-menu-links").addClass('d-none');
         $(".personal-borrow-menu").removeClass('d-none');
     });
     $(".personal-menu-remit-link").hover(function(){
         $(".menu-link").removeClass('menu-hover-active');
+        $(".menu-link").removeClass('menu-active');
         $(".personal-menu-remit-link").addClass('menu-hover-active');
         $(".personal-menu-links").addClass('d-none');
         $(".personal-remit-menu").removeClass('d-none');
     });
     $(".personal-menu-premium-link").hover(function(){
         $(".menu-link").removeClass('menu-hover-active');
+        $(".menu-link").removeClass('menu-active');
         $(".personal-menu-premium-link").addClass('menu-hover-active');
         $(".personal-menu-links").addClass('d-none');
         $(".personal-premium-menu").removeClass('d-none');
     });
     $(".personal-menu-ins-link").hover(function(){
         $(".menu-link").removeClass('menu-hover-active');
+        $(".menu-link").removeClass('menu-active');
         $(".personal-menu-ins-link").addClass('menu-hover-active');
         $(".personal-menu-links").addClass('d-none');
         $(".personal-ins-menu").removeClass('d-none');
     });
     $(".personal-menu-other-link").hover(function(){
         $(".menu-link").removeClass('menu-hover-active');
+        $(".menu-link").removeClass('menu-active');
         $(".personal-menu-other-link").addClass('menu-hover-active');
         $(".personal-menu-links").addClass('d-none');
         $(".personal-other-menu").removeClass('d-none');
     });
 
-
     $(".business-menu-ac-sav-link").hover(function(){
         $(".menu-link").removeClass('menu-hover-active');
+        $(".menu-link").removeClass('menu-active');
         $(".business-menu-ac-sav-link").addClass('menu-hover-active');
         $(".business-menu-links").addClass('d-none');
         $(".business-acc-sav-menu").removeClass('d-none');
     });
     $(".business-menu-remit-link").hover(function(){
         $(".menu-link").removeClass('menu-hover-active');
+        $(".menu-link").removeClass('menu-active');
         $(".business-menu-remit-link").addClass('menu-hover-active');
         $(".business-menu-links").addClass('d-none');
         $(".business-remit-menu").removeClass('d-none');
     });
     $(".business-menu-borrow-link").hover(function(){
         $(".menu-link").removeClass('menu-hover-active');
+        $(".menu-link").removeClass('menu-active');
         $(".business-menu-borrow-link").addClass('menu-hover-active');
         $(".business-menu-links").addClass('d-none');
         $(".business-borrow-menu").removeClass('d-none');
     });
     $(".business-menu-trade-link").hover(function(){
         $(".menu-link").removeClass('menu-hover-active');
+        $(".menu-link").removeClass('menu-active');
         $(".business-menu-trade-link").addClass('menu-hover-active');
         $(".business-menu-links").addClass('d-none');
         $(".business-trade-menu").removeClass('d-none');
     });
     $(".business-menu-cash-management-link").hover(function(){
         $(".menu-link").removeClass('menu-hover-active');
+        $(".menu-link").removeClass('menu-active');
         $(".business-menu-cash-management-link").addClass('menu-hover-active');
         $(".business-menu-links").addClass('d-none');
         $(".business-cash-management-menu").removeClass('d-none');
     });
     $(".business-menu-ins-link").hover(function(){
         $(".menu-link").removeClass('menu-hover-active');
+        $(".menu-link").removeClass('menu-active');
         $(".business-menu-ins-link").addClass('menu-hover-active');
         $(".business-menu-links").addClass('d-none');
         $(".business-ins-menu").removeClass('d-none');
     });
 
-
     $(".digital-menu-online-pay-services-link").hover(function(){
         $(".menu-link").removeClass('menu-hover-active');
+        $(".menu-link").removeClass('menu-active');
         $(".digital-menu-online-pay-services-link").addClass('menu-hover-active');
         $(".digital-menu-links").addClass('d-none');
         $(".digital-online-pay-services-menu").removeClass('d-none');
     });
     $(".digital-menu-card-services-link").hover(function(){
         $(".menu-link").removeClass('menu-hover-active');
+        $(".menu-link").removeClass('menu-active');
         $(".digital-menu-card-services-link").addClass('menu-hover-active');
         $(".digital-menu-links").addClass('d-none');
         $(".digital-card-services-menu").removeClass('d-none');
     });
     $(".digital-menu-atm-link").hover(function(){
         $(".menu-link").removeClass('menu-hover-active');
+        $(".menu-link").removeClass('menu-active');
         $(".digital-menu-atm-link").addClass('menu-hover-active');
         $(".digital-menu-links").addClass('d-none');
         $(".digital-atm-menu").removeClass('d-none');
     });
     $(".digital-menu-wallet-solutions-link").hover(function(){
         $(".menu-link").removeClass('menu-hover-active');
+        $(".menu-link").removeClass('menu-active');
         $(".digital-menu-wallet-solutions-link").addClass('menu-hover-active');
         $(".digital-menu-links").addClass('d-none');
         $(".digital-wallet-solutions-menu").removeClass('d-none');
     });
     $(".digital-menu-guidlines-link").hover(function(){
         $(".menu-link").removeClass('menu-hover-active');
+        $(".menu-link").removeClass('menu-active');
         $(".digital-menu-guidlines-link").addClass('menu-hover-active');
         $(".digital-menu-links").addClass('d-none');
         $(".digital-guidlines-menu").removeClass('d-none');
     });
 
-
     $(".about-aya-menu-who-we-are-link").hover(function(){
         $(".menu-link").removeClass('menu-hover-active');
+        $(".menu-link").removeClass('menu-active');
         $(".about-aya-menu-who-we-are-link").addClass('menu-hover-active');
         $(".about-aya-menu-links").addClass('d-none');
         $(".about-aya-who-we-are-menu").removeClass('d-none');
     });
     $(".about-aya-menu-career-link").hover(function(){
         $(".menu-link").removeClass('menu-hover-active');
+        $(".menu-link").removeClass('menu-active');
         $(".about-aya-menu-career-link").addClass('menu-hover-active');
         $(".about-aya-menu-links").addClass('d-none');
         $(".about-aya-career-menu").removeClass('d-none');
     });
     $(".about-aya-menu-governance-link").hover(function(){
         $(".menu-link").removeClass('menu-hover-active');
+        $(".menu-link").removeClass('menu-active');
         $(".about-aya-menu-governance-link").addClass('menu-hover-active');
         $(".about-aya-menu-links").addClass('d-none');
         $(".about-aya-governance-menu").removeClass('d-none');
     });
     $(".about-aya-menu-sustainability-link").hover(function(){
         $(".menu-link").removeClass('menu-hover-active');
+        $(".menu-link").removeClass('menu-active');
         $(".about-aya-menu-sustainability-link").addClass('menu-hover-active');
         $(".about-aya-menu-links").addClass('d-none');
         $(".about-aya-sustainability-menu").removeClass('d-none');
     });
     $(".about-aya-menu-newsroom-link").hover(function(){
         $(".menu-link").removeClass('menu-hover-active');
+        $(".menu-link").removeClass('menu-active');
         $(".about-aya-menu-newsroom-link").addClass('menu-hover-active');
         $(".about-aya-menu-links").addClass('d-none');
         $(".about-aya-newsroom-menu").removeClass('d-none');
     });
     $(".about-aya-menu-network-link").hover(function(){
         $(".menu-link").removeClass('menu-hover-active');
+        $(".menu-link").removeClass('menu-active');
         $(".about-aya-menu-network-link").addClass('menu-hover-active');
         $(".about-aya-menu-links").addClass('d-none');
         $(".about-aya-network-menu").removeClass('d-none');
     });
-
 
     $(".personal-banking-li > a").click(function(){
         $(".personal-dropdown-content").slideToggle();

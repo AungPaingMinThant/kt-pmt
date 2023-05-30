@@ -408,53 +408,53 @@
 	var timer2 = setInterval(changeCTA2, 2000);
 	var timer3 = setInterval(changeCTA3, 2000);
 
-	function changeCTA1() {
-		if ($('#inputGroupSelect01 option:selected').val() == '2') {
-			$('#inputGroupSelect01 option:first').attr('selected', 'selected');
-			$('#inputGroupSelect01 option:not(first)').removeAttr('selected');
-		} else {
-			$('#inputGroupSelect01 option:selected').next().attr('selected', 'selected');
-		}
+	// function changeCTA1() {
+	// 	if ($('#inputGroupSelect01 option:selected').val() == '2') {
+	// 		$('#inputGroupSelect01 option:first').attr('selected', 'selected');
+	// 		$('#inputGroupSelect01 option:not(first)').removeAttr('selected');
+	// 	} else {
+	// 		$('#inputGroupSelect01 option:selected').next().attr('selected', 'selected');
+	// 	}
 
-		if ($('#inputGroupSelect01mobile option:selected').val() == '2') {
-			$('#inputGroupSelect01mobile option:first').attr('selected', 'selected');
-			$('#inputGroupSelect01mobile option:not(first)').removeAttr('selected');
-		} else {
-			$('#inputGroupSelect01mobile option:selected').next().attr('selected', 'selected');
-		}
-	}
+	// 	if ($('#inputGroupSelect01mobile option:selected').val() == '2') {
+	// 		$('#inputGroupSelect01mobile option:first').attr('selected', 'selected');
+	// 		$('#inputGroupSelect01mobile option:not(first)').removeAttr('selected');
+	// 	} else {
+	// 		$('#inputGroupSelect01mobile option:selected').next().attr('selected', 'selected');
+	// 	}
+	// }
 
-	function changeCTA2() {
-		if ($('#inputGroupSelect02 option:selected').val() == '6') {
-			$('#inputGroupSelect02 option:first').attr('selected', 'selected');
-			$('#inputGroupSelect02 option:not(first)').removeAttr('selected');
-		} else {
-			$('#inputGroupSelect02 option:selected').next().attr('selected', 'selected');
-		}
+	// function changeCTA2() {
+	// 	if ($('#inputGroupSelect02 option:selected').val() == '6') {
+	// 		$('#inputGroupSelect02 option:first').attr('selected', 'selected');
+	// 		$('#inputGroupSelect02 option:not(first)').removeAttr('selected');
+	// 	} else {
+	// 		$('#inputGroupSelect02 option:selected').next().attr('selected', 'selected');
+	// 	}
 
-		if ($('#inputGroupSelect02mobile option:selected').val() == '6') {
-			$('#inputGroupSelect02mobile option:first').attr('selected', 'selected');
-			$('#inputGroupSelect02mobile option:not(first)').removeAttr('selected');
-		} else {
-			$('#inputGroupSelect02mobile option:selected').next().attr('selected', 'selected');
-		}
-	}
+	// 	if ($('#inputGroupSelect02mobile option:selected').val() == '6') {
+	// 		$('#inputGroupSelect02mobile option:first').attr('selected', 'selected');
+	// 		$('#inputGroupSelect02mobile option:not(first)').removeAttr('selected');
+	// 	} else {
+	// 		$('#inputGroupSelect02mobile option:selected').next().attr('selected', 'selected');
+	// 	}
+	// }
 
-	function changeCTA3() {
-		if ($('#inputGroupSelect03 option:selected').val() == '5') {
-			$('#inputGroupSelect03 option:first').attr('selected', 'selected');
-			$('#inputGroupSelect03 option:not(first)').removeAttr('selected');
-		} else {
-			$('#inputGroupSelect03 option:selected').next().attr('selected', 'selected');
-		}
+	// function changeCTA3() {
+	// 	if ($('#inputGroupSelect03 option:selected').val() == '5') {
+	// 		$('#inputGroupSelect03 option:first').attr('selected', 'selected');
+	// 		$('#inputGroupSelect03 option:not(first)').removeAttr('selected');
+	// 	} else {
+	// 		$('#inputGroupSelect03 option:selected').next().attr('selected', 'selected');
+	// 	}
 
-		if ($('#inputGroupSelect03mobile option:selected').val() == '5') {
-			$('#inputGroupSelect03mobile option:first').attr('selected', 'selected');
-			$('#inputGroupSelect03mobile option:not(first)').removeAttr('selected');
-		} else {
-			$('#inputGroupSelect03mobile option:selected').next().attr('selected', 'selected');
-		}
-	}
+	// 	if ($('#inputGroupSelect03mobile option:selected').val() == '5') {
+	// 		$('#inputGroupSelect03mobile option:first').attr('selected', 'selected');
+	// 		$('#inputGroupSelect03mobile option:not(first)').removeAttr('selected');
+	// 	} else {
+	// 		$('#inputGroupSelect03mobile option:selected').next().attr('selected', 'selected');
+	// 	}
+	// }
 
 	$('#inputGroupSelect01').hover(function(ev){
 	    clearInterval(timer);
@@ -477,241 +477,241 @@
 	var previousValue;
 	var previousValue2;
 	var previousValue3;
-	$("#inputGroupSelect01").mouseup(function() {
-		var open = $(this).data("isopen");
-		if (open) {
-			if (this.value === previousValue)
-			{
-				if ($('#inputGroupSelect01 option:selected').val() == 0) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
-				}
-				if ($('#inputGroupSelect01 option:selected').val() == 1) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
-				}
-				if ($('#inputGroupSelect01 option:selected').val() == 2) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
-				}
-			} else {
-				if ($('#inputGroupSelect01 option:selected').val() == 0) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
-				}
-				if ($('#inputGroupSelect01 option:selected').val() == 1) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
-				}
-				if ($('#inputGroupSelect01 option:selected').val() == 2) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
-				}
-			}
-		}
+	// $("#inputGroupSelect01").mouseup(function() {
+	// 	var open = $(this).data("isopen");
+	// 	if (open) {
+	// 		if (this.value === previousValue)
+	// 		{
+	// 			if ($('#inputGroupSelect01 option:selected').val() == 0) {
+	// 				window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
+	// 			}
+	// 			if ($('#inputGroupSelect01 option:selected').val() == 1) {
+	// 				window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
+	// 			}
+	// 			if ($('#inputGroupSelect01 option:selected').val() == 2) {
+	// 				window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
+	// 			}
+	// 		} else {
+	// 			if ($('#inputGroupSelect01 option:selected').val() == 0) {
+	// 				window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
+	// 			}
+	// 			if ($('#inputGroupSelect01 option:selected').val() == 1) {
+	// 				window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
+	// 			}
+	// 			if ($('#inputGroupSelect01 option:selected').val() == 2) {
+	// 				window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
+	// 			}
+	// 		}
+	// 	}
 
-		previousValue = this.value;
+	// 	previousValue = this.value;
 
-		$(this).data("isopen", !open);
-	});
+	// 	$(this).data("isopen", !open);
+	// });
 
-	$("#inputGroupSelect01mobile").mouseup(function() {
-		var open = $(this).data("isopen");
-		if (open) {
-			if (this.value === previousValue)
-			{
-				if ($('#inputGroupSelect01mobile option:selected').val() == 0) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
-				}
-				if ($('#inputGroupSelect01mobile option:selected').val() == 1) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
-				}
-				if ($('#inputGroupSelect01mobile option:selected').val() == 2) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
-				}
-			} else {
-				if ($('#inputGroupSelect01mobile option:selected').val() == 0) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
-				}
-				if ($('#inputGroupSelect01mobile option:selected').val() == 1) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
-				}
-				if ($('#inputGroupSelect01mobile option:selected').val() == 2) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
-				}
-			}
-		}
+	// $("#inputGroupSelect01mobile").mouseup(function() {
+	// 	var open = $(this).data("isopen");
+	// 	if (open) {
+	// 		if (this.value === previousValue)
+	// 		{
+	// 			if ($('#inputGroupSelect01mobile option:selected').val() == 0) {
+	// 				window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
+	// 			}
+	// 			if ($('#inputGroupSelect01mobile option:selected').val() == 1) {
+	// 				window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
+	// 			}
+	// 			if ($('#inputGroupSelect01mobile option:selected').val() == 2) {
+	// 				window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
+	// 			}
+	// 		} else {
+	// 			if ($('#inputGroupSelect01mobile option:selected').val() == 0) {
+	// 				window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
+	// 			}
+	// 			if ($('#inputGroupSelect01mobile option:selected').val() == 1) {
+	// 				window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
+	// 			}
+	// 			if ($('#inputGroupSelect01mobile option:selected').val() == 2) {
+	// 				window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
+	// 			}
+	// 		}
+	// 	}
 
-		previousValue = this.value;
+	// 	previousValue = this.value;
 
-		$(this).data("isopen", !open);
-	});
+	// 	$(this).data("isopen", !open);
+	// });
 
-	$('#inputGroupSelect02').mouseup(function(){
-		var open = $(this).data("isopen");
-		if (open) {
-			if (this.value === previousValue2) {
-				if ($('#inputGroupSelect02 option:selected').val() == 0) {
-					window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#demand_loan';
-				}
-				if ($('#inputGroupSelect02 option:selected').val() == 1) {
-					window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#project_loan_tender_contract_loan';
-				}
-				if ($('#inputGroupSelect02 option:selected').val() == 2) {
-					window.location.href = APP_URL+'/business/borrowing/sme#aya_sme_loan';
-				}
-				if ($('#inputGroupSelect02 option:selected').val() == 3) {
-					window.location.href = APP_URL+'/business/borrowing/sme#agriculture_loan';
-				}
-				if ($('#inputGroupSelect02 option:selected').val() == 4) {
-					window.location.href = APP_URL+'/business/borrowing/hire-purchase#heavy_mahine_hp';
-				}
-				if ($('#inputGroupSelect02 option:selected').val() == 5) {
-					window.location.href = APP_URL+'/business/borrowing/hire-purchase#shop_house';
-				}
-				if ($('#inputGroupSelect02 option:selected').val() == 6) {
-					window.location.href = APP_URL+'/business/borrowing/hire-purchase#auto_loan_corporate';
-				}
-			} else {
-				if ($('#inputGroupSelect02 option:selected').val() == 0) {
-					window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#demand_loan';
-				}
-				if ($('#inputGroupSelect02 option:selected').val() == 1) {
-					window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#project_loan_tender_contract_loan';
-				}
-				if ($('#inputGroupSelect02 option:selected').val() == 2) {
-					window.location.href = APP_URL+'/business/borrowing/sme#aya_sme_loan';
-				}
-				if ($('#inputGroupSelect02 option:selected').val() == 3) {
-					window.location.href = APP_URL+'/business/borrowing/sme#agriculture_loan';
-				}
-				if ($('#inputGroupSelect02 option:selected').val() == 4) {
-					window.location.href = APP_URL+'/business/borrowing/hire-purchase#heavy_mahine_hp';
-				}
-				if ($('#inputGroupSelect02 option:selected').val() == 5) {
-					window.location.href = APP_URL+'/business/borrowing/hire-purchase#shop_house';
-				}
-				if ($('#inputGroupSelect02 option:selected').val() == 6) {
-					window.location.href = APP_URL+'/business/borrowing/hire-purchase#auto_loan_corporate';
-				}
-			}
-		}
+	// $('#inputGroupSelect02').mouseup(function(){
+	// 	var open = $(this).data("isopen");
+	// 	if (open) {
+	// 		if (this.value === previousValue2) {
+	// 			if ($('#inputGroupSelect02 option:selected').val() == 0) {
+	// 				window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#demand_loan';
+	// 			}
+	// 			if ($('#inputGroupSelect02 option:selected').val() == 1) {
+	// 				window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#project_loan_tender_contract_loan';
+	// 			}
+	// 			if ($('#inputGroupSelect02 option:selected').val() == 2) {
+	// 				window.location.href = APP_URL+'/business/borrowing/sme#aya_sme_loan';
+	// 			}
+	// 			if ($('#inputGroupSelect02 option:selected').val() == 3) {
+	// 				window.location.href = APP_URL+'/business/borrowing/sme#agriculture_loan';
+	// 			}
+	// 			if ($('#inputGroupSelect02 option:selected').val() == 4) {
+	// 				window.location.href = APP_URL+'/business/borrowing/hire-purchase#heavy_mahine_hp';
+	// 			}
+	// 			if ($('#inputGroupSelect02 option:selected').val() == 5) {
+	// 				window.location.href = APP_URL+'/business/borrowing/hire-purchase#shop_house';
+	// 			}
+	// 			if ($('#inputGroupSelect02 option:selected').val() == 6) {
+	// 				window.location.href = APP_URL+'/business/borrowing/hire-purchase#auto_loan_corporate';
+	// 			}
+	// 		} else {
+	// 			if ($('#inputGroupSelect02 option:selected').val() == 0) {
+	// 				window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#demand_loan';
+	// 			}
+	// 			if ($('#inputGroupSelect02 option:selected').val() == 1) {
+	// 				window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#project_loan_tender_contract_loan';
+	// 			}
+	// 			if ($('#inputGroupSelect02 option:selected').val() == 2) {
+	// 				window.location.href = APP_URL+'/business/borrowing/sme#aya_sme_loan';
+	// 			}
+	// 			if ($('#inputGroupSelect02 option:selected').val() == 3) {
+	// 				window.location.href = APP_URL+'/business/borrowing/sme#agriculture_loan';
+	// 			}
+	// 			if ($('#inputGroupSelect02 option:selected').val() == 4) {
+	// 				window.location.href = APP_URL+'/business/borrowing/hire-purchase#heavy_mahine_hp';
+	// 			}
+	// 			if ($('#inputGroupSelect02 option:selected').val() == 5) {
+	// 				window.location.href = APP_URL+'/business/borrowing/hire-purchase#shop_house';
+	// 			}
+	// 			if ($('#inputGroupSelect02 option:selected').val() == 6) {
+	// 				window.location.href = APP_URL+'/business/borrowing/hire-purchase#auto_loan_corporate';
+	// 			}
+	// 		}
+	// 	}
 
-		previousValue2 = this.value;
+	// 	previousValue2 = this.value;
 
-		$(this).data("isopen", !open);
-	});
+	// 	$(this).data("isopen", !open);
+	// });
 
-	$('#inputGroupSelect02mobile').mouseup(function(){
-		var open = $(this).data("isopen");
-		if (open) {
-			if (this.value === previousValue2) {
-				if ($('#inputGroupSelect02mobile option:selected').val() == 0) {
-					window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#demand_loan';
-				}
-				if ($('#inputGroupSelect02mobile option:selected').val() == 1) {
-					window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#project_loan_tender_contract_loan';
-				}
-				if ($('#inputGroupSelect02mobile option:selected').val() == 2) {
-					window.location.href = APP_URL+'/business/borrowing/sme#aya_sme_loan';
-				}
-				if ($('#inputGroupSelect02mobile option:selected').val() == 3) {
-					window.location.href = APP_URL+'/business/borrowing/sme#agriculture_loan';
-				}
-				if ($('#inputGroupSelect02mobile option:selected').val() == 4) {
-					window.location.href = APP_URL+'/business/borrowing/hire-purchase#heavy_mahine_hp';
-				}
-				if ($('#inputGroupSelect02mobile option:selected').val() == 5) {
-					window.location.href = APP_URL+'/business/borrowing/hire-purchase#shop_house';
-				}
-				if ($('#inputGroupSelect02mobile option:selected').val() == 6) {
-					window.location.href = APP_URL+'/business/borrowing/hire-purchase#auto_loan_corporate';
-				}
-			} else {
-				if ($('#inputGroupSelect02mobile option:selected').val() == 0) {
-					window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#demand_loan';
-				}
-				if ($('#inputGroupSelect02mobile option:selected').val() == 1) {
-					window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#project_loan_tender_contract_loan';
-				}
-				if ($('#inputGroupSelect02mobile option:selected').val() == 2) {
-					window.location.href = APP_URL+'/business/borrowing/sme#aya_sme_loan';
-				}
-				if ($('#inputGroupSelect02mobile option:selected').val() == 3) {
-					window.location.href = APP_URL+'/business/borrowing/sme#agriculture_loan';
-				}
-				if ($('#inputGroupSelect02mobile option:selected').val() == 4) {
-					window.location.href = APP_URL+'/business/borrowing/hire-purchase#heavy_mahine_hp';
-				}
-				if ($('#inputGroupSelect02mobile option:selected').val() == 5) {
-					window.location.href = APP_URL+'/business/borrowing/hire-purchase#shop_house';
-				}
-				if ($('#inputGroupSelect02mobile option:selected').val() == 6) {
-					window.location.href = APP_URL+'/business/borrowing/hire-purchase#auto_loan_corporate';
-				}
-			}
-		}
+	// $('#inputGroupSelect02mobile').mouseup(function(){
+	// 	var open = $(this).data("isopen");
+	// 	if (open) {
+	// 		if (this.value === previousValue2) {
+	// 			if ($('#inputGroupSelect02mobile option:selected').val() == 0) {
+	// 				window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#demand_loan';
+	// 			}
+	// 			if ($('#inputGroupSelect02mobile option:selected').val() == 1) {
+	// 				window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#project_loan_tender_contract_loan';
+	// 			}
+	// 			if ($('#inputGroupSelect02mobile option:selected').val() == 2) {
+	// 				window.location.href = APP_URL+'/business/borrowing/sme#aya_sme_loan';
+	// 			}
+	// 			if ($('#inputGroupSelect02mobile option:selected').val() == 3) {
+	// 				window.location.href = APP_URL+'/business/borrowing/sme#agriculture_loan';
+	// 			}
+	// 			if ($('#inputGroupSelect02mobile option:selected').val() == 4) {
+	// 				window.location.href = APP_URL+'/business/borrowing/hire-purchase#heavy_mahine_hp';
+	// 			}
+	// 			if ($('#inputGroupSelect02mobile option:selected').val() == 5) {
+	// 				window.location.href = APP_URL+'/business/borrowing/hire-purchase#shop_house';
+	// 			}
+	// 			if ($('#inputGroupSelect02mobile option:selected').val() == 6) {
+	// 				window.location.href = APP_URL+'/business/borrowing/hire-purchase#auto_loan_corporate';
+	// 			}
+	// 		} else {
+	// 			if ($('#inputGroupSelect02mobile option:selected').val() == 0) {
+	// 				window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#demand_loan';
+	// 			}
+	// 			if ($('#inputGroupSelect02mobile option:selected').val() == 1) {
+	// 				window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#project_loan_tender_contract_loan';
+	// 			}
+	// 			if ($('#inputGroupSelect02mobile option:selected').val() == 2) {
+	// 				window.location.href = APP_URL+'/business/borrowing/sme#aya_sme_loan';
+	// 			}
+	// 			if ($('#inputGroupSelect02mobile option:selected').val() == 3) {
+	// 				window.location.href = APP_URL+'/business/borrowing/sme#agriculture_loan';
+	// 			}
+	// 			if ($('#inputGroupSelect02mobile option:selected').val() == 4) {
+	// 				window.location.href = APP_URL+'/business/borrowing/hire-purchase#heavy_mahine_hp';
+	// 			}
+	// 			if ($('#inputGroupSelect02mobile option:selected').val() == 5) {
+	// 				window.location.href = APP_URL+'/business/borrowing/hire-purchase#shop_house';
+	// 			}
+	// 			if ($('#inputGroupSelect02mobile option:selected').val() == 6) {
+	// 				window.location.href = APP_URL+'/business/borrowing/hire-purchase#auto_loan_corporate';
+	// 			}
+	// 		}
+	// 	}
 
-		previousValue2 = this.value;
+	// 	previousValue2 = this.value;
 
-		$(this).data("isopen", !open);
-	});
+	// 	$(this).data("isopen", !open);
+	// });
 
-	$('#inputGroupSelect03').mouseup(function(){
-		var open = $(this).data("isopen");
-		if (open) {
-			if (this.value === previousValue2) {
-				// if ($('#inputGroupSelect03 option:selected').val() == 0) {
-				// 	window.location.href = APP_URL+'/insurance/life/universal';
-				// }
-				if ($('#inputGroupSelect03 option:selected').val() == 1) {
-					window.location.href = APP_URL+'/atm';
-				}
-				// if ($('#inputGroupSelect03 option:selected').val() == 2) {
-				// 	window.location.href = APP_URL+'/insurance/motor';
-				// }
-			} else {
-				// if ($('#inputGroupSelect03 option:selected').val() == 0) {
-				// 	window.location.href = APP_URL+'/insurance/life/universal';
-				// }
-				if ($('#inputGroupSelect03 option:selected').val() == 1) {
-					window.location.href = APP_URL+'/atm';
-				}
-				// if ($('#inputGroupSelect03 option:selected').val() == 2) {
-				// 	window.location.href = APP_URL+'/insurance/motor';
-				// }
-			}
-		}
+	// $('#inputGroupSelect03').mouseup(function(){
+	// 	var open = $(this).data("isopen");
+	// 	if (open) {
+	// 		if (this.value === previousValue2) {
+	// 			// if ($('#inputGroupSelect03 option:selected').val() == 0) {
+	// 			// 	window.location.href = APP_URL+'/insurance/life/universal';
+	// 			// }
+	// 			if ($('#inputGroupSelect03 option:selected').val() == 1) {
+	// 				window.location.href = APP_URL+'/atm';
+	// 			}
+	// 			// if ($('#inputGroupSelect03 option:selected').val() == 2) {
+	// 			// 	window.location.href = APP_URL+'/insurance/motor';
+	// 			// }
+	// 		} else {
+	// 			// if ($('#inputGroupSelect03 option:selected').val() == 0) {
+	// 			// 	window.location.href = APP_URL+'/insurance/life/universal';
+	// 			// }
+	// 			if ($('#inputGroupSelect03 option:selected').val() == 1) {
+	// 				window.location.href = APP_URL+'/atm';
+	// 			}
+	// 			// if ($('#inputGroupSelect03 option:selected').val() == 2) {
+	// 			// 	window.location.href = APP_URL+'/insurance/motor';
+	// 			// }
+	// 		}
+	// 	}
 
-		previousValue3 = this.value;
+	// 	previousValue3 = this.value;
 
-		$(this).data("isopen", !open);
-	});
+	// 	$(this).data("isopen", !open);
+	// });
 
-	$('#inputGroupSelect03mobile').mouseup(function(){
-		var open = $(this).data("isopen");
-		if (open) {
-			if (this.value === previousValue2) {
-				// if ($('#inputGroupSelect03mobile option:selected').val() == 0) {
-				// 	window.location.href = APP_URL+'/insurance/life/universal';
-				// }
-				if ($('#inputGroupSelect03mobile option:selected').val() == 1) {
-					window.location.href = APP_URL+'/atm';
-				}
-				// if ($('#inputGroupSelect03mobile option:selected').val() == 2) {
-				// 	window.location.href = APP_URL+'/insurance/motor';
-				// }
-			} else {
-				// if ($('#inputGroupSelect03mobile option:selected').val() == 0) {
-				// 	window.location.href = APP_URL+'/insurance/life/universal';
-				// }
-				if ($('#inputGroupSelect03mobile option:selected').val() == 1) {
-					window.location.href = APP_URL+'/atm';
-				}
-				// if ($('#inputGroupSelect03mobile option:selected').val() == 2) {
-				// 	window.location.href = APP_URL+'/insurance/motor';
-				// }
-			}
-		}
+	// $('#inputGroupSelect03mobile').mouseup(function(){
+	// 	var open = $(this).data("isopen");
+	// 	if (open) {
+	// 		if (this.value === previousValue2) {
+	// 			// if ($('#inputGroupSelect03mobile option:selected').val() == 0) {
+	// 			// 	window.location.href = APP_URL+'/insurance/life/universal';
+	// 			// }
+	// 			if ($('#inputGroupSelect03mobile option:selected').val() == 1) {
+	// 				window.location.href = APP_URL+'/atm';
+	// 			}
+	// 			// if ($('#inputGroupSelect03mobile option:selected').val() == 2) {
+	// 			// 	window.location.href = APP_URL+'/insurance/motor';
+	// 			// }
+	// 		} else {
+	// 			// if ($('#inputGroupSelect03mobile option:selected').val() == 0) {
+	// 			// 	window.location.href = APP_URL+'/insurance/life/universal';
+	// 			// }
+	// 			if ($('#inputGroupSelect03mobile option:selected').val() == 1) {
+	// 				window.location.href = APP_URL+'/atm';
+	// 			}
+	// 			// if ($('#inputGroupSelect03mobile option:selected').val() == 2) {
+	// 			// 	window.location.href = APP_URL+'/insurance/motor';
+	// 			// }
+	// 		}
+	// 	}
 
-		previousValue3 = this.value;
+	// 	previousValue3 = this.value;
 
-		$(this).data("isopen", !open);
-	});
+	// 	$(this).data("isopen", !open);
+	// });
 </script>
 
 @endsection('content')

@@ -437,6 +437,15 @@
 	font-weight: 400;
 	padding-right: 35%;
 }
+.meet_our_leaders_banner{
+	background-image:url('../images/about-aya/meet-our-leaders/KV.jpg');
+}
+.meet_our_leaders_banner_tagline {
+	position: absolute;
+    top: 170px;
+    left: 60px;
+    right: 200px;
+}
 
 @media (max-width: 1550px) and (min-width: 577px) {
 	.creditcard_banner{
@@ -498,6 +507,15 @@
 	}
 	.ins_banner_bg {
 	    height: 340px;
+	}
+	.meet_our_leaders_banner{
+		background-position: 40% center;
+	}
+	.meet_our_leaders_banner_tagline {
+	    position: absolute;
+	    top: 120px;
+	    left: 60px;
+	    right: 140px;
 	}
 }
 @media (max-width: 1300px) and (min-width: 1201px) {
@@ -824,6 +842,14 @@
 	.bu_domestic_inland_transit_insurance_tagline, .bu_car_ear_insurance_tagline, .bu_IAR_insurance_tagline, .bu_group_life_insurance_tagline {
 		padding-right: 17%;
 	}
+	.meet_our_leaders_banner{
+		background-position: 40% center;
+	}
+	.meet_our_leaders_banner_tagline {
+		top: 30px;
+	    right: 60px;
+	    left: 40px;
+	}
 }
 @media only screen and (max-width: 576px) {
 	.mbanking_banner {
@@ -1057,6 +1083,10 @@
 	}
 	.bu_cash_management_banner{
 		background-image:url('../images/business/cash-management/mobile_KV.jpg');
+		background-position: 60% center;
+	}
+	.meet_our_leaders_banner{
+		background-image:url('../images/about-aya/meet-our-leaders/mobile_KV.jpg');
 		background-position: 60% center;
 	}
 }

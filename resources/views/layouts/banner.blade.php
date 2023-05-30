@@ -2820,3 +2820,36 @@
 		</div>
 	</div>
 @endif
+
+@if($page == 'meet_our_leaders')
+	<div class="meet_our_leaders_banner banner_bg">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
+					<div class="meet_our_leaders_banner_tagline">
+						<h1 style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">Meet <span class="theme_text_color">Our Leaders</span></h1>
+					</div>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 30px;left: 20px;right: 40px;">
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Meet <span class="theme_text_color">Our Leaders</span></h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ABOUT AYA&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;WHO WE ARE&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;LEADERSHIP&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">MEET OUR LEADERS</span>
+			</p>
+		</div>
+	</div>
+@endif

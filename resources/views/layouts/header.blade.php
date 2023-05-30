@@ -438,7 +438,7 @@
 												<a>WALLET SOLUTION</a>
 											</div>
 											<div class="row menu-link digital-menu-guidlines-link">
-												<a class="other-menu">GUIDE LINES</a>
+												<a class="other-menu">GUIDELINE</a>
 											</div>
 											<div class="row menu-link ">
 												<a class="other-menu">&nbsp;</a>
@@ -482,26 +482,29 @@
 														<p class="mb-20">
 															<a href="{{ url('/ecommerce') }}">E-commerce</a>
 														</p>
-
-														<p class="fw-bold">
-															DEBIT CARD
-														</p>
-														<p class="mb-20">
-															<a href="{{ url('/debit-card') }}">Debit Card</a>
-														</p>
-
+													</div>
+													<div class="col-md-5">
 														<p class="fw-bold">
 															CREDIT CARD
 														</p>
 														<p class="mb-20">
 															<a href="{{ url('/credit-card') }}">Credit Card</a>
 														</p>
-
+													</div>
+													<div class="col-md-5">
 														<p class="fw-bold">
 															PREPAID CARD
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/prepaid-card') }}">Prepaid Card</a>
+														</p>
+													</div>
+													<div class="col-md-5">
+														<p class="fw-bold">
+															DEBIT CARD
+														</p>
+														<p class="mb-20">
+															<a href="{{ url('/debit-card') }}">Debit Card</a>
 														</p>
 													</div>
 													<div class="col-md-5">
@@ -542,7 +545,7 @@
 												<div class="row">
 													<div class="col-12">
 														<p class="fw-bold">
-															GUIDE LINES
+															GUIDELINE
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/digital-secure') }}">Security Advices for Digital Services</a>
@@ -1357,7 +1360,7 @@
 							</ul>
 						</div>
 						<div class="row menu-link business-menu-cash-management-link">
-							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GUIDE LINES</a>
+							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GUIDELINE</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">

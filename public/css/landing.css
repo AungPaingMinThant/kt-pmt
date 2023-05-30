@@ -345,6 +345,16 @@
 .view_more_tab_link {
 	display: none;
 }
+#inputGroupSelect01 {
+	position: absolute;
+    left: 20% !important;
+    width: 100% !important;
+}
+#inputGroupSelect02 {
+	position: absolute;
+    left: 25% !important;
+    width: 490px !important;
+}
 @media (max-width: 1360px) and (min-width: 1251px) {
 	.carousel-caption {
 		top: 25%;
@@ -440,13 +450,20 @@
 	}
 	.CTA_section_1 {
 		margin-top: -100px;
-		background-position: 30% center;
+		background-position: 35% center;
 	}
 	.CTA_section_2 {
-		background-position: 80% center;
+		background-position: 60% center;
 	}
 	.CTA_section_3 {
 		background-position: 30% center;
+	}
+	.CTA_section_1_info {
+		margin-left: -80px !important;
+		margin-top: 50px !important;
+	}
+	.CTA_section_2_info {
+		margin-left: -50px;
 	}
 	.news_content_div {
 		padding: 15px;
