@@ -251,16 +251,16 @@
         display: none;
     }
     .personal-dropdown-content {
-    	top: 30% !important;
+    	top: 110% !important;
     }
     .business-dropdown-content {
-    	top: 37% !important;
+    	top: 110% !important;
     }
     .digital-dropdown-content {
-    	top: 45% !important;
+    	top: 110% !important;
     }
     .about-aya-dropdown-content {
-    	top: 51% !important;
+    	top: 110% !important;
     }
     .menu-link {
 	    padding: 20px 0px 0px 30px !important;
