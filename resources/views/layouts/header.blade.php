@@ -43,9 +43,9 @@
 								<a class="nav-link active" aria-current="page" href="{{ url('/') }}">Home</a>
 							</li>
 							@if($page == 'personal_banking')
-								<li class="nav-item personal-banking-li active">
+								<li class="nav-item personal-banking-li active" style="position: relative;">
 							@else
-								<li class="nav-item personal-banking-li">
+								<li class="nav-item personal-banking-li" style="position: relative;">
 							@endif
 								<a class="nav-link" href="#">Personal Banking</a>
 								<div class="personal-dropdown-content">
@@ -256,9 +256,9 @@
 								</div>
 							</li>
 							@if($page == 'business_banking')
-								<li class="nav-item business-banking-li active">
+								<li class="nav-item business-banking-li active" style="position: relative;">
 							@else
-								<li class="nav-item business-banking-li">
+								<li class="nav-item business-banking-li" style="position: relative;">
 							@endif
 								<a class="nav-link" href="#">Business Banking</a>
 								<div class="business-dropdown-content">
@@ -417,9 +417,9 @@
 								</div>
 							</li>
 							@if($page == 'digital_services')
-								<li class="nav-item digital-services-li active">
+								<li class="nav-item digital-services-li active" style="position: relative;">
 							@else
-								<li class="nav-item digital-services-li">
+								<li class="nav-item digital-services-li" style="position: relative;">
 							@endif
 								<a class="nav-link" href="#">Digital Services</a>
 								<div class="digital-dropdown-content">
@@ -560,7 +560,7 @@
 									</div>
 								</div>
 							</li>
-							<li class="nav-item about-aya-li">
+							<li class="nav-item about-aya-li" style="position: relative;">
 								<a class="nav-link" href="#">About AYA</a>
 								<div class="about-aya-dropdown-content">
 									<div class="row" style="width: 100%;">
