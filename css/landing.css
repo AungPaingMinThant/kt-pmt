@@ -16,11 +16,11 @@
 	background-image: url('../images/home/desk.mp4');
 }
 .carousel-item-2 {
-	background-image: url('../images/home/KV_slider_2.jpg');
+	background-image: url('../images/home/KV_slider_2.webp');
 	background-position: 73% center;
 }
 .carousel-item-3 {
-	background-image: url('../images/home/KV_slider3.jpg');
+	background-image: url('../images/home/KV_slider3.webp');
 }
 .carousel-indicators {
 	left: 50px !important;
@@ -312,7 +312,7 @@
 	padding: 0;
 }
 .view_all_news_col {
-	background-image:  url('../images/news_image/view_all_news.jpg');
+	background-image:  url('../images/news_image/view_all_news.webp');
 	background-size: cover;
     background-repeat: no-repeat;
     height: 174px;
@@ -333,7 +333,7 @@
 	width: 35%;
 }
 .award_accolade_div {
-	background-image:  url('../images/home/award_accolades_bg.jpg');
+	background-image:  url('../images/home/award_accolades_bg.webp');
 	background-size: cover;
     background-repeat: no-repeat;
     padding: 30px 0px;
@@ -522,18 +522,18 @@
 	    top: 50px;
 	}
 	.mbaning_div {
-    	background-image: url(../images/home/mbanking_tablet.png);
+    	background-image: url(../images/home/mbanking_tablet.webp);
     	height: 260px;
     }
     .mbaning_div:hover {
-    	background-image: url(../images/home/mbanking_tablet_hover.png);
+    	background-image: url(../images/home/mbanking_tablet_hover.webp);
     }
     .ayapay_div {
-    	background-image: url(../images/home/ayapay_wallet_tablet.png);
+    	background-image: url(../images/home/ayapay_wallet_tablet.webp);
     	height: 260px;
     }
     .ayapay_div:hover{
-    	background-image: url(../images/home/ayapay_wallet_tablet_hover.png);
+    	background-image: url(../images/home/ayapay_wallet_tablet_hover.webp);
     }
     .app_title {
 	    margin-bottom: 10px;

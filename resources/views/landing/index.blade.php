@@ -381,16 +381,16 @@
 									<img src="{{ url('/images/home/3-Fastest-Growing-Retail-Bank-2014.webp') }}" class="img-fluid" style="width: 20%;">
 								</div>
 								<div class="col-12">
-									<img src="{{ url('/images/home/2-Best-Regional-Banking-Partner-2017.png') }}" class="img-fluid" style="width: 20%;">
+									<img src="{{ url('/images/home/2-Best-Regional-Banking-Partner-2017.webp') }}" class="img-fluid" style="width: 20%;">
 								</div>
 								<div class="col-12">
-									<img src="{{ url('/images/home/2-un_global_compact.png') }}" class="img-fluid" style="width: 20%;">
+									<img src="{{ url('/images/home/2-un_global_compact.webp') }}" class="img-fluid" style="width: 20%;">
 								</div>
 								<div class="col-12">
-									<img src="{{ url('/images/home/2-Banker-of-the-Year-2014.png') }}" class="img-fluid" style="width: 20%;">
+									<img src="{{ url('/images/home/2-Banker-of-the-Year-2014.webp') }}" class="img-fluid" style="width: 20%;">
 								</div>
 								<div class="col-12 text-center">
-									<img src="{{ url('/images/home/2-CSR-Award-2017.png') }}" class="img-fluid">
+									<img src="{{ url('/images/home/2-CSR-Award-2017.webp') }}" class="img-fluid">
 								</div>
 							</div>
 						</div>
