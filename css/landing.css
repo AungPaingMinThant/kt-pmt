@@ -1,3 +1,6 @@
+.xl_slide {
+	display: none;
+}
 .carousel, .carousel-item {
 	height: 400px;
 }
@@ -355,6 +358,17 @@
     left: 25% !important;
     width: 490px !important;
 }
+@media (min-width: 1800px) {
+	.carousel-inner {
+		height: 600px !important;
+	}
+	.carousel, .carousel-item {
+	    height: 600px;
+	}
+	.xl_slide {
+		display: block;
+	}
+}
 @media (max-width: 1360px) and (min-width: 1251px) {
 	.carousel-caption {
 		top: 25%;
@@ -515,7 +529,7 @@
 	.tablet_slide {
 		display: block;
 	}
-	.desk_slide {
+	.desk_slide, .xl_slide {
 		display: none;
 	}
 	.app_detail_div, .ayapay_app_detail_div {
