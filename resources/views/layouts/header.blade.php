@@ -61,7 +61,7 @@
 												<a href="#">REMITTANCE AND PAYMENTS</a>
 											</div>
 											<div class="row menu-link personal-menu-premium-link">
-												<a href="#">PREMIUM BANKING</a>
+												<a href="#">ROYAL BANKING</a>
 											</div>
 											<div class="row menu-link personal-menu-ins-link">
 												<a href="#">INSURANCE</a>
@@ -1021,7 +1021,7 @@
 							</ul>
 						</div>
 						<div class="row menu-link personal-menu-premium-link">
-							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PREMIUM BANKING</a>
+							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ROYAL BANKING</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item mb-20 mt-3">

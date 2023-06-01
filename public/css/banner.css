@@ -447,7 +447,7 @@
     right: 200px;
 }
 .aya_bank_profile_banner{
-	background-image:url('../images/about-aya/meet-our-leaders/KV.webp');
+	background-image:url('../images/about-aya/ayabank-profile/KV.webp');
 }
 .aya_bank_profile_banner_tagline {
 	position: absolute;
@@ -455,8 +455,6 @@
     left: 60px;
     right: 200px;
 }
-
-
 
 @media (max-width: 1550px) and (min-width: 577px) {
 	.creditcard_banner{
@@ -523,6 +521,15 @@
 		background-position: 40% center;
 	}
 	.meet_our_leaders_banner_tagline {
+	    position: absolute;
+	    top: 120px;
+	    left: 60px;
+	    right: 140px;
+	}
+	.aya_bank_profile_banner{
+		background-position: 40% center;
+	}
+	.aya_bank_profile_banner_tagline {
 	    position: absolute;
 	    top: 120px;
 	    left: 60px;
@@ -861,6 +868,16 @@
 	    right: 60px;
 	    left: 40px;
 	}
+	.aya_bank_profile_banner{
+		background-position: 40% center;
+	}
+	.aya_bank_profile_banner_tagline {
+		top: 30px;
+	    right: 60px;
+	    left: 40px;
+	}
+
+	
 }
 @media (max-width: 999px) and (min-width: 577px) {
 	.meet_our_leaders_banner {
@@ -869,6 +886,14 @@
 	.meet_our_leaders_banner_tagline {
 	    right: 80px;
 	}
+	.aya_bank_profile_banner {
+		background-position: 60% center;
+	}
+	.aya_bank_profile_banner_tagline {
+	    right: 80px;
+	}
+
+
 }
 @media only screen and (max-width: 576px) {
 	.mbanking_banner {
@@ -1108,4 +1133,10 @@
 		background-image:url('../images/about-aya/meet-our-leaders/mobile_KV.webp');
 		background-position: 60% center;
 	}
+	.aya_bank_profile_banner{
+		background-image:url('../images/about-aya/ayabank-profile/mobile_KV.webp');
+		background-position: 60% center;
+	}
+
+	
 }

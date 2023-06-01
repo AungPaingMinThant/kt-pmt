@@ -39,4 +39,7 @@
 	.popup_image, .u_nyein_chan_soe_win_popup_image {
 		width: 100%;
 	}
+	.glider, .tab {
+	    width: 340px;
+	}
 }
