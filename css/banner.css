@@ -438,7 +438,7 @@
 	padding-right: 35%;
 }
 .meet_our_leaders_banner{
-	background-image:url('../images/about-aya/meet-our-leaders/KV.jpg');
+	background-image:url('../images/about-aya/meet-our-leaders/KV.webp');
 }
 .meet_our_leaders_banner_tagline {
 	position: absolute;
@@ -851,6 +851,14 @@
 	    left: 40px;
 	}
 }
+@media (max-width: 999px) and (min-width: 577px) {
+	.meet_our_leaders_banner {
+		background-position: 60% center;
+	}
+	.meet_our_leaders_banner_tagline {
+	    right: 80px;
+	}
+}
 @media only screen and (max-width: 576px) {
 	.mbanking_banner {
 		background-image:url('../images/MobileBanking_KV_mobile.jpg');
@@ -1086,7 +1094,7 @@
 		background-position: 60% center;
 	}
 	.meet_our_leaders_banner{
-		background-image:url('../images/about-aya/meet-our-leaders/mobile_KV.jpg');
+		background-image:url('../images/about-aya/meet-our-leaders/mobile_KV.webp');
 		background-position: 60% center;
 	}
 }

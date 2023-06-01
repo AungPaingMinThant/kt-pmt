@@ -66,9 +66,6 @@
                 <div id="carouselExample-cf-mobile" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel" style="box-shadow: 0px 15px 20px 5px #f4f4f4;">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<!-- <video class="img-fluid" autoplay loop muted>
-								<source src="{{ url('/images/home/mobile.mp4') }}" poster="{{ url('/images/home/mobile_poster.jpeg') }}" type="video/mp4" />
-							</video> -->
 							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_mobile_1.webp') }}" alt="Second slide" />
 							<div class="row carousel-caption carousel-caption-mobile-2">
 								<div class="col-md-12">
@@ -404,109 +401,49 @@
 
 <script type="text/javascript">
 	var APP_URL = {!! json_encode(url('/')) !!};
-	// var timer = setInterval(changeCTA1, 2000);
-	// var timer2 = setInterval(changeCTA2, 2000);
-	// var timer3 = setInterval(changeCTA3, 2000);
-
-	// function changeCTA1() {
-	// 	if ($('#inputGroupSelect01 option:selected').val() == '2') {
-	// 		$('#inputGroupSelect01 option:first').attr('selected', 'selected');
-	// 		$('#inputGroupSelect01 option:not(first)').removeAttr('selected');
-	// 	} else {
-	// 		$('#inputGroupSelect01 option:selected').next().attr('selected', 'selected');
-	// 	}
-
-	// 	if ($('#inputGroupSelect01mobile option:selected').val() == '2') {
-	// 		$('#inputGroupSelect01mobile option:first').attr('selected', 'selected');
-	// 		$('#inputGroupSelect01mobile option:not(first)').removeAttr('selected');
-	// 	} else {
-	// 		$('#inputGroupSelect01mobile option:selected').next().attr('selected', 'selected');
-	// 	}
-	// }
-
-	// function changeCTA2() {
-	// 	if ($('#inputGroupSelect02 option:selected').val() == '6') {
-	// 		$('#inputGroupSelect02 option:first').attr('selected', 'selected');
-	// 		$('#inputGroupSelect02 option:not(first)').removeAttr('selected');
-	// 	} else {
-	// 		$('#inputGroupSelect02 option:selected').next().attr('selected', 'selected');
-	// 	}
-
-	// 	if ($('#inputGroupSelect02mobile option:selected').val() == '6') {
-	// 		$('#inputGroupSelect02mobile option:first').attr('selected', 'selected');
-	// 		$('#inputGroupSelect02mobile option:not(first)').removeAttr('selected');
-	// 	} else {
-	// 		$('#inputGroupSelect02mobile option:selected').next().attr('selected', 'selected');
-	// 	}
-	// }
-
-	// function changeCTA3() {
-	// 	if ($('#inputGroupSelect03 option:selected').val() == '5') {
-	// 		$('#inputGroupSelect03 option:first').attr('selected', 'selected');
-	// 		$('#inputGroupSelect03 option:not(first)').removeAttr('selected');
-	// 	} else {
-	// 		$('#inputGroupSelect03 option:selected').next().attr('selected', 'selected');
-	// 	}
-
-	// 	if ($('#inputGroupSelect03mobile option:selected').val() == '5') {
-	// 		$('#inputGroupSelect03mobile option:first').attr('selected', 'selected');
-	// 		$('#inputGroupSelect03mobile option:not(first)').removeAttr('selected');
-	// 	} else {
-	// 		$('#inputGroupSelect03mobile option:selected').next().attr('selected', 'selected');
-	// 	}
-	// }
-
-	$('#inputGroupSelect01').hover(function(ev){
-	    clearInterval(timer);
-	}, function(ev){
-	    timer = setInterval( changeCTA1, 3000);
-	});
-
-	$('#inputGroupSelect02').hover(function(ev){
-	    clearInterval(timer2);
-	}, function(ev){
-	    timer2 = setInterval( changeCTA2, 3000);
-	});
-
-	$('#inputGroupSelect03').hover(function(ev){
-	    clearInterval(timer3);
-	}, function(ev){
-	    timer3 = setInterval( changeCTA3, 3000);
-	});
 
 	var previousValue;
 	var previousValue2;
 	var previousValue3;
-	$("#inputGroupSelect01").mouseup(function() {
+	$("#inputGroupSelect01").mouseup(function(e) {
+		var dropdown = document.getElementById("inputGroupSelect01");
 		var open = $(this).data("isopen");
-		if (open) {
-			if (this.value === previousValue)
-			{
-				if ($('#inputGroupSelect01 option:selected').val() == 0) {
+
+		console.log('First : '+$(this).data("isopen"));
+		console.log(this.value);
+
+		if (open == true) {
+			if (this.value === previousValue) {
+				if (this.value == 0) {
 					window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
 				}
-				if ($('#inputGroupSelect01 option:selected').val() == 1) {
+				if (this.value == 1) {
 					window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
 				}
-				if ($('#inputGroupSelect01 option:selected').val() == 2) {
+				if (this.value == 2) {
 					window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
 				}
 			} else {
-				if ($('#inputGroupSelect01 option:selected').val() == 0) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
-				}
-				if ($('#inputGroupSelect01 option:selected').val() == 1) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
-				}
-				if ($('#inputGroupSelect01 option:selected').val() == 2) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
-				}
+				// if ($('#inputGroupSelect01 option:selected').val() == 0) {
+				// 	window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
+				// }
+				// if ($('#inputGroupSelect01 option:selected').val() == 1) {
+				// 	window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
+				// }
+				// if ($('#inputGroupSelect01 option:selected').val() == 2) {
+				// 	window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
+				// }
 			}
 		}
 
 		previousValue = this.value;
 
-		$(this).data("isopen", !open);
+		// $(this).data("isopen", !open);
+	});
+
+	$(".layout-wrapper").click(function(){
+		// console.log('layout-wrapper ');
+		$("#inputGroupSelect01").data("isopen", undefined);
 	});
 
 	$("#inputGroupSelect01mobile").mouseup(function() {

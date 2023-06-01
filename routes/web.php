@@ -152,6 +152,7 @@ Route::get('/test','App\Http\Controllers\HomeController@testIndex');
 // About AYA
 // about-aya/who-we-are-corporate-profile/awards
 Route::get('/about-aya/who-we-are/leadership/meet-our-leaders','App\Http\Controllers\AboutAYA\WhoWeAreController@meetOurLeadersIndex');
+Route::get('/about-aya/who-we-are/corporate-profile/aya-bank-profile','App\Http\Controllers\AboutAYA\WhoWeAreController@profileIndex');
 
 
 

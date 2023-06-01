@@ -560,7 +560,11 @@
 									</div>
 								</div>
 							</li>
-							<li class="nav-item about-aya-li">
+							@if($page == 'about_aya')
+								<li class="nav-item about-aya-li active">
+							@else
+								<li class="nav-item about-aya-li">
+							@endif
 								<a class="nav-link" href="#">About AYA</a>
 								<div class="about-aya-dropdown-content">
 									<div class="row" style="width: 100%;">

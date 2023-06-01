@@ -34,6 +34,10 @@
 .list_margin {
 	margin-left: -5%;
 }
+.view_bio_link:hover {
+	text-decoration: underline !important;
+	cursor: pointer;
+}
 
 @media only screen and (max-width: 576px){
 	.tab-pane {

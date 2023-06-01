@@ -3838,7 +3838,7 @@ textarea.form-control-lg {
   background-color: #fff;
   background-clip: border-box;
   border: 0 solid #d9dee3;
-  border-radius: 0.5rem;
+/*  border-radius: 0.5rem;*/
 }
 .card > hr {
   margin-right: 0;
@@ -3934,8 +3934,8 @@ textarea.form-control-lg {
 
 .card-img,
 .card-img-top {
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
+/*  border-top-left-radius: 0.5rem;*/
+/*  border-top-right-radius: 0.5rem;*/
 }
 
 .card-img,
@@ -9577,6 +9577,10 @@ button.list-group-item-gray.active {
 
 .mb-4 {
   margin-bottom: 1.5rem !important;
+}
+
+.mb-6 {
+  margin-bottom: 2rem !important;
 }
 
 .mb-5 {

@@ -11,4 +11,9 @@ class WhoWeAreController extends Controller
     {
         return view('about-aya.meet-our-leaders.index');
     }
+
+    public function profileIndex($value='')
+    {
+        return view('about-aya.corporate-profile.profile-index');
+    }
 }
