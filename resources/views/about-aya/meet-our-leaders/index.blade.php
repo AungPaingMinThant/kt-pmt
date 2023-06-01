@@ -45,6 +45,9 @@
 						<div class="tab-pane fade show active" id="navs-pills-top-bod" role="tabpanel" style="background: transparent;padding-bottom: 30px;">
 							<div class="container section_1">
 								<div class="row tab_data_row">
+									<div class="col-md-12">
+										<p>The Board is the highest authority of the Bank. The Board of Directors provide strategic direction for the Bank and establishes a policy-based governance system.</p>
+									</div>
 									<div class="col-md-4 col-lg-4 mb-6">
 										<div class="card h-100">
 											<img src="{{ url('/images/about-aya/meet-our-leaders/u_zaw.webp') }}" alt="U Zaw Zaw | Board of Directors | Founder and Chairman" class="card-img-top">
