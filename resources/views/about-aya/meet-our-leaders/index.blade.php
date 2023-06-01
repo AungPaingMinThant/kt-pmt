@@ -46,7 +46,7 @@
 							<div class="container section_1">
 								<div class="row tab_data_row">
 									<div class="col-md-12">
-										<p>The Board is the highest authority of the Bank. The Board of Directors provide strategic direction for the Bank and establishes a policy-based governance system.</p>
+										<p class="mb-30">The Board is the highest authority of the Bank. The Board of Directors provide strategic direction for the Bank and establishes a policy-based governance system.</p>
 									</div>
 									<div class="col-md-4 col-lg-4 mb-6">
 										<div class="card h-100">
@@ -148,7 +148,7 @@
 							<div class="container section_1">
 								<div class="row tab_data_row">
 									<div class="col-md-12">
-										<p>Executive Management Team reports to the Board and support the Board in the day-to-day management of the Bank, implementation of corporate strategy, ensure that Board’s policies and guidance are implemented in daily operations, and good corporate practices are maintained.</p>
+										<p class="mb-30">Executive Management Team reports to the Board and support the Board in the day-to-day management of the Bank, implementation of corporate strategy, ensure that Board’s policies and guidance are implemented in daily operations, and good corporate practices are maintained.</p>
 									</div>
 									<div class="col-md-4 col-lg-4 mb-6">
 										<div class="card h-100">

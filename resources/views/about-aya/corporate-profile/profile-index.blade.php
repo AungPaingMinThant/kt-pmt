@@ -1,6 +1,7 @@
 @extends('layouts.frontend-app')
 
 @section('title', 'AYA Bank Profile – AYA Bank')
+<link rel="stylesheet" href="{{ url('/css/about-aya/ayabank-profile.css') }}">
 
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
@@ -28,10 +29,17 @@
 					</div>
 				</div>
 
-				<div class="row full_service_bank_img">
-					
+				<div class="space-20"></div>
+				
+				<div class="row full_service_bank_img"></div>
+
+				<div class="space-20"></div>
+
+				<div class="row">
+					<div class="col">
+						<p>AYA Bank is a leading private sector bank in Myanmar. The Bank was licensed by the Central Bank of Myanmar as a development bank on 2nd July 2010 and relicensed under the Financial Institutions Law 2016 as a full service bank. Registered as a Private Company Limited by Shares on 14th July 2010 and established on 11th August 2010, AYA Bank has been part of promoting the stability of financial system of the nation.</p>
+					</div>
 				</div>
-				<img src="{{ url('/images/about-aya/ayabank-profile/full_service_bank.webp') }}" class="img-fluid">
 			</div>
 		</div>
 	</div>
