@@ -19,8 +19,8 @@
 					</ol>
 					<div class="carousel-inner active">
 						<div class="carousel-item carousel-item-1 active">
-							<video class="img-fluid desk_slide" autoplay loop muted>
-								<source src="{{ url('/images/home/desk.mp4') }}" poster="{{ url('/images/home/desk_poster.jpeg') }}" type="video/mp4" />
+							<video class="img-fluid desk_slide" autoplay loop muted plays-inline>
+								<source src="{{ url('/images/home/landing_1920_1080.mp4') }}" poster="{{ url('/images/home/desk_poster.jpeg') }}" type="video/mp4" />
 							</video>
 							<video class="img-fluid tablet_slide" autoplay loop muted>
 								<source src="{{ url('/images/home/landing_slide_1.mp4') }}" poster="{{ url('/images/home/landing_slide_1_poster.jpeg') }}" type="video/mp4" />
@@ -35,7 +35,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="carousel-item carousel-item-2">
+						<!-- <div class="carousel-item carousel-item-2">
 							<div class="row carousel-caption carousel-caption-2">
 								<div class="col-md-6">
 									<div class="carousel-right-2">
@@ -58,7 +58,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> -->
 					</div>
                 </div>
             </div>

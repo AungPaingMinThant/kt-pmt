@@ -446,6 +446,17 @@
     left: 60px;
     right: 200px;
 }
+.aya_bank_profile_banner{
+	background-image:url('../images/about-aya/meet-our-leaders/KV.webp');
+}
+.aya_bank_profile_banner_tagline {
+	position: absolute;
+    top: 170px;
+    left: 60px;
+    right: 200px;
+}
+
+
 
 @media (max-width: 1550px) and (min-width: 577px) {
 	.creditcard_banner{
