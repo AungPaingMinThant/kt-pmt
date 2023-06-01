@@ -3,3 +3,7 @@
 	background-size: cover;
 	height: 370px;
 }
+.corporate_information_icon {
+	width: 50%;
+	border: 1px solid #ccc;
+}

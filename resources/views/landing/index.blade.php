@@ -19,6 +19,9 @@
 					</ol>
 					<div class="carousel-inner active">
 						<div class="carousel-item carousel-item-1 active">
+							<video class="img-fluid xl_slide" autoplay loop muted plays-inline>
+								<source src="{{ url('/images/home/landing_1920_600.mp4') }}" poster="{{ url('/images/home/desk_poster.jpeg') }}" type="video/mp4" />
+							</video>
 							<video class="img-fluid desk_slide" autoplay loop muted plays-inline>
 								<source src="{{ url('/images/home/desk.mp4') }}" poster="{{ url('/images/home/desk_poster.jpeg') }}" type="video/mp4" />
 							</video>
