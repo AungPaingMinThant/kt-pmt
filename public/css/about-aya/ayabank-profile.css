@@ -1,9 +1,152 @@
+.full_service_col_1, .full_service_col_2 {
+	padding-right: 3rem !important;
+}
 .full_service_bank_img {
 	background-image: url('../../images/about-aya/ayabank-profile/full_service_bank.webp');
 	background-size: cover;
 	height: 370px;
 }
+.leading_capabilities_row {
+	margin-bottom: 30px;
+}
 .corporate_information_icon {
 	width: 50%;
 	border: 1px solid #ccc;
+	margin-bottom: 30px;
+}
+.leading_capabilities_value_style {
+	line-height: 30px;
+}
+.leading_capabilities_value_style > span {
+	font-size: 30px !important;
+}
+.leading_capabilities_text_style {
+	color: #999a9a;
+	text-transform: uppercase;
+}
+.update_date_div {
+	background: rgb(245,245,245);
+	background: radial-gradient(circle, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 100%);
+}
+.CTA_div {
+	background-image: url('../../images/about-aya/ayabank-profile/BG.webp');
+	background-size: cover;
+	background-position: top;
+	height: 480px;
+}
+.CTA_detail_col_2 {
+	padding-top: 8rem !important;
+	padding-left: 3rem !important;
+}
+.CTA2_detail_col_1 {
+	padding-top: 8rem !important;
+	padding-right: 3rem !important;
+}
+.CTA_detail_col_1 {
+	background-image: url('../../images/about-aya/ayabank-profile/a_driver_growth.webp');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	height: 420px;
+}
+.CTA_detail_2_col_1 {
+	background-image: url('../../images/about-aya/ayabank-profile/share_holding_information.webp');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	height: 420px;
+}
+.CTA2_detail_col_2 {
+	background-image: url('../../images/about-aya/ayabank-profile/business_practices.webp');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	height: 420px;
+}
+
+@media (max-width: 999px) and (min-width: 577px) {
+	.full_service_col_1, .full_service_col_2, .full_service_col_3 {
+		width: 100% !important;
+	}
+	.full_service_bank_img {
+	    height: 240px;
+	    background-position: 80% center;
+	}
+	.corp_info_col_1, .corp_info_col_3 {
+		width: 5% !important;
+	}
+	.corp_info_col_2 {
+		width: 90% !important;
+	}
+	.lead_cap_col_1 {
+		width: 5 !important;
+	}
+	.lead_cap_col_2 {
+		width: 95% !important;
+	}
+	.lead_cap_col_3 {
+		display: none !important;
+	}
+	.lead_cap_detail_col{
+		flex: 0 0 auto !important;
+		width: 33.33333333% !important;
+	}
+	.CTA_div {
+	    height: 440px;
+	}
+	.CTA_div > .container {
+		padding-right: 0.2rem !important;
+		padding-left: 0.2rem !important;
+	}
+	.CTA_detail_col_1 {
+		height: 360px;
+    	background-position: 100% center;
+	}
+	.CTA_detail_2_col_1 {
+	    height: 320px;
+	    background-position: 100% center;
+	}
+	.CTA_detail_col_2 {
+	    padding-top: 5rem !important;
+	    padding-left: 1.5rem !important;
+	}
+	.CTA_div:last-child {
+		height: 360px;
+	}
+	.CTA2_detail_col_1 {
+		padding-top: 5rem !important;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.full_service_bank_img {
+	    height: 160px;
+	}
+	.full_service_col_1, .full_service_col_2 {
+		padding-right: 0.5rem !important;
+	}
+	.corporate_information_icon {
+	    width: 30%;
+	    margin-bottom: 30px;
+	}
+	.leading_capabilities_row > .col-md-3 {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.CTA_div {
+		height: 810px !important;
+	}
+	.CTA_detail_col_1, .CTA_detail_2_col_1, .CTA2_detail_col_2 {
+		background-size: contain;
+		height: 380px !important;
+	}
+	.CTA_detail_col_2, .CTA2_detail_col_1 {
+	    padding-top: 1.5rem !important;
+	    padding-left: 1.5rem !important;
+	}
+	.CTA2_div > .container > .row {
+		flex-direction: column-reverse;
+	}
+	.CTA_div:last-child {
+	    height: 670px !important;
+	}
 }

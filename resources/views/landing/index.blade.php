@@ -127,10 +127,10 @@
 									<p class="app_desc">Everyday banking made easy with AYA mBanking</p>
 									<div class="col-md-10 apps_link_div">
 										<a href="http://bit.ly/ayambankingios">
-											<img src="{{ url('/images/apple.png') }}" class="img-fluid mbaning_img_ios">
+											<img src="{{ url('/images/apple.png') }}" class="img-fluid mbaning_img_ios" loading="lazy">
 										</a>
 										<a href="http://bit.ly/ayambankingandriod">
-											<img src="{{ url('/images/google.png') }}" class="img-fluid mbaning_img_andriod">
+											<img src="{{ url('/images/google.png') }}" class="img-fluid mbaning_img_andriod" loading="lazy">
 										</a>
 									</div>
 								</div>
