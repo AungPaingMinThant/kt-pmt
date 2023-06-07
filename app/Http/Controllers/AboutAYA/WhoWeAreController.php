@@ -16,4 +16,14 @@ class WhoWeAreController extends Controller
     {
         return view('about-aya.corporate-profile.profile-index');
     }
+
+    public function shareHoldingIndex($value='')
+    {
+        return view('about-aya.corporate-profile.share-holding-information-index');
+    }
+
+    public function businessPracticeIndex($value='')
+    {
+        return view('about-aya.corporate-profile.business-practices-index');
+    }
 }

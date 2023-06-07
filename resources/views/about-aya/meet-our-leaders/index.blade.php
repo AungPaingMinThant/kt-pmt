@@ -54,7 +54,7 @@
 											<div class="card-body">
 												<h5 class="card-title fw-semibold mb-0">U Zaw Zaw</h5>
 												<p class="mb-4">Founder and Chairman</p>
-												<a class="view_bio_link theme_text_color" data-bs-toggle="modal" data-bs-target="#u_zaw_bio_modal">View Bio <i class='bx bx-chevron-right' style="font-size: 18px;"></i></a>
+												<a href="#u_zaw_zaw" id="u_zaw_btn" class="view_bio_link theme_text_color" data-bs-toggle="modal" data-bs-target="#u_zaw_zaw">View Bio <i class='bx bx-chevron-right' style="font-size: 18px;"></i></a>
 											</div>
 										</div>
 									</div>
@@ -259,7 +259,7 @@
 		</div>
 	</div>
 </div>
-<div class="modal fade" id="u_zaw_bio_modal" data-bs-backdrop="static" tabindex="-1" aria-hidden="true">
+<div class="modal fade" id="u_zaw_zaw" data-bs-backdrop="static" tabindex="-1" aria-hidden="true">
 	<div class="modal-dialog modal-xl modal-dialog-centered" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
@@ -617,13 +617,20 @@
 @include('layouts.footer', ['page'=>''])
 
 <script type="text/javascript">
-	document.querySelectorAll('.button').forEach(button => button.addEventListener('click', e => {
-		if(!button.classList.contains('delete')) {
-		button.classList.add('delete');
-		setTimeout(() => button.classList.remove('delete'), 3200);
-		}
-		e.preventDefault();
-	}));
+	var cur_url = window.location.href;
+	var parts = cur_url.split('#');
+	var last_part = parts.at(-1);
+
+	if (last_part == 'u_zaw_zaw') {
+		$("#u_zaw_btn").click();
+		// $("#u_zaw_zaw").addClass('show');
+		// $('#u_zaw_zaw').show();
+		alert('s1s');
+  	}
+
+  	$("#u_zaw_btn").click(function() {
+  		$('#u_zaw_zaw').show('modal');
+  	});
 
 	$("#radio-1").click(function(){
 		$("#bod_tab").click();
