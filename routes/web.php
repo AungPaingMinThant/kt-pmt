@@ -152,9 +152,9 @@ Route::get('/test','App\Http\Controllers\HomeController@testIndex');
 // About AYA
 // about-aya/who-we-are-corporate-profile/awards
 Route::get('/about-aya/who-we-are/leadership/meet-our-leaders','App\Http\Controllers\AboutAYA\WhoWeAreController@meetOurLeadersIndex');
-Route::get('/about-aya/who-we-are/corporate-profile/aya-bank-profile','App\Http\Controllers\AboutAYA\WhoWeAreController@profileIndex');
-Route::get('/about-aya/who-we-are/corporate-profile/aya-bank-profile/shareholding-information','App\Http\Controllers\AboutAYA\WhoWeAreController@shareHoldingIndex');
-Route::get('/about-aya/who-we-are/corporate-profile/aya-bank-profile/business-practices','App\Http\Controllers\AboutAYA\WhoWeAreController@businessPracticeIndex');
+Route::get('/about-aya/who-we-are/corporate-profile/ayabank-profile','App\Http\Controllers\AboutAYA\WhoWeAreController@profileIndex');
+Route::get('/about-aya/who-we-are/corporate-profile/ayabank-profile/shareholding-information','App\Http\Controllers\AboutAYA\WhoWeAreController@shareHoldingIndex');
+Route::get('/about-aya/who-we-are/corporate-profile/ayabank-profile/business-practices','App\Http\Controllers\AboutAYA\WhoWeAreController@businessPracticeIndex');
 
 
 
