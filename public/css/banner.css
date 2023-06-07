@@ -446,10 +446,19 @@
     left: 60px;
     right: 200px;
 }
-.aya_bank_profile_banner{
+.aya_bank_profile_banner {
 	background-image:url('../images/about-aya/ayabank-profile/KV.webp');
 }
 .aya_bank_profile_banner_tagline {
+	position: absolute;
+    top: 170px;
+    left: 60px;
+    right: 200px;
+}
+.stakeholder_management_banner {
+	background-image:url('../images/about-aya/stakeholder-management/KV.webp');
+}
+.stakeholder_management_banner_tagline {
 	position: absolute;
     top: 170px;
     left: 60px;
@@ -530,6 +539,15 @@
 		background-position: 40% center;
 	}
 	.aya_bank_profile_banner_tagline {
+	    position: absolute;
+	    top: 120px;
+	    left: 60px;
+	    right: 140px;
+	}
+	.stakeholder_management_banner{
+		background-position: 40% center;
+	}
+	.stakeholder_management_banner_tagline {
 	    position: absolute;
 	    top: 120px;
 	    left: 60px;
@@ -876,8 +894,14 @@
 	    right: 60px;
 	    left: 40px;
 	}
-
-	
+	.stakeholder_management_banner{
+		background-position: 40% center;
+	}
+	.stakeholder_management_banner_tagline {
+		top: 30px;
+	    right: 60px;
+	    left: 40px;
+	}
 }
 @media (max-width: 999px) and (min-width: 577px) {
 	.meet_our_leaders_banner {
@@ -892,7 +916,12 @@
 	.aya_bank_profile_banner_tagline {
 	    right: 80px;
 	}
-
+	.stakeholder_management_banner {
+		background-position: 60% center;
+	}
+	.stakeholder_management_banner_tagline {
+	    right: 80px;
+	}
 }
 @media only screen and (max-width: 576px) {
 	.mbanking_banner {
@@ -1136,6 +1165,8 @@
 		background-image:url('../images/about-aya/ayabank-profile/mobile_KV.webp');
 		background-position: 60% center;
 	}
-
-	
+	.stakeholder_management_banner{
+		background-image:url('../images/about-aya/stakeholder-management/mobile_KV.webp');
+		background-position: 1% center;
+	}
 }
