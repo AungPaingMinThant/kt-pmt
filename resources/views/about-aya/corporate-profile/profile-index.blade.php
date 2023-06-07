@@ -171,7 +171,7 @@
 						<div class="col-md-8 CTA2_detail_col_1">
 							<p class="theme_text_color" style="font-size: 20px;">Business Practices</p>
 							<p class="mb-30">AYA Bank aims to have an overall positive impact on financial sector as well as social and environment through responsible practices, align with our Code of Business Conduct, effective governance and risk and compliance framework. We grow as a responsible business at the strategic, portfolio and transactional levels and across all business areas with following key highlights,</p>
-							<a href="{{ url('/about-aya/who-we-are/corporate-profile/aya-bank-profile/business-practices') }}">
+							<a href="{{ url('/about-aya/who-we-are/corporate-profile/ayabank-profile/business-practices') }}">
 								<p class="theme_text_color">Find out more&nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i></p>
 							</a>
 						</div>
@@ -184,13 +184,11 @@
 			<div class="CTA_div">
 				<div class="container section_1">
 					<div class="row">
-						<div class="col-md-4 CTA_detail_2_col_1">
-							<!-- <img src="{{ url('/images/about-aya/ayabank-profile/share_holding_information.webp') }}" class="img-fluid"> -->
-						</div>
+						<div class="col-md-4 CTA_detail_2_col_1"></div>
 						<div class="col-md-8 CTA_detail_col_2">
 							<p class="f-white" style="font-size: 20px;">Shareholding Information</p>
 							<p class="f-white mb-30">AYA Bank is organized independently as a stand-alone business and has been operating with its own culture, management structure, business structure and legal structure. It is incorporated with 1,400,090 shares, in which share capital is owned by following shareholders:</p>
-							<a href="{{ url('/about-aya/who-we-are/corporate-profile/aya-bank-profile/shareholding-information') }}" style="color: #fff;">
+							<a href="{{ url('/about-aya/who-we-are/corporate-profile/ayabank-profile/shareholding-information') }}" style="color: #fff;">
 								<p class="f_white">Find out more&nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i></p>
 							</a>
 						</div>

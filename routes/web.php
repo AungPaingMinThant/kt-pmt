@@ -155,6 +155,7 @@ Route::get('/about-aya/who-we-are/leadership/meet-our-leaders','App\Http\Control
 Route::get('/about-aya/who-we-are/corporate-profile/ayabank-profile','App\Http\Controllers\AboutAYA\WhoWeAreController@profileIndex');
 Route::get('/about-aya/who-we-are/corporate-profile/ayabank-profile/shareholding-information','App\Http\Controllers\AboutAYA\WhoWeAreController@shareHoldingIndex');
 Route::get('/about-aya/who-we-are/corporate-profile/ayabank-profile/business-practices','App\Http\Controllers\AboutAYA\WhoWeAreController@businessPracticeIndex');
+Route::get('/about-aya/who-we-are/our-strategies/stakeholder-management','App\Http\Controllers\AboutAYA\WhoWeAreController@stakeholderIndex');
 
 
 

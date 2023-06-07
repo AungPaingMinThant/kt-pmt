@@ -26,4 +26,9 @@ class WhoWeAreController extends Controller
     {
         return view('about-aya.corporate-profile.business-practices-index');
     }
+
+    public function stakeholderIndex($value='')
+    {
+        return view('about-aya.our-strategies.stakeholder-index');
+    }
 }
