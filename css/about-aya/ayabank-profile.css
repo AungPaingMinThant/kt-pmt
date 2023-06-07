@@ -244,7 +244,7 @@
    		padding-top: 1.5rem !important;
    	}
 }
-@media only screen and (max-width: 576px) {
+@media (max-width: 576px) and (min-width: 361px) {
 	.full_service_bank_img {
 	    height: 160px;
 	}
@@ -261,9 +261,6 @@
 	}
 	.CTA_div {
 		height: 810px !important;
-	}
-	.drive_growth_CTA {
-		height: 880px !important;
 	}
 	.CTA_detail_col_1, .CTA_detail_2_col_1, .CTA2_detail_col_2, .CTA_business_practice_detail_col_1, .sh_CTA_detail_col_1,
 	.CTA_transparent_marketing_detail_col_1 {
@@ -307,5 +304,84 @@
 	.CTA_financial_detail_col_2 {
 		padding-right: 15px !important;
 		padding-left: 15px !important;
+	}
+	.sh_first_td {
+	    padding-left: 20px !important;
+	}
+	.sh_third_td {
+	    padding-right: 20px !important;
+    	width: 250px;
+	}
+}
+@media only screen and (max-width: 360px) {
+	.full_service_bank_img {
+	    height: 160px;
+	}
+	.full_service_col_1, .full_service_col_2 {
+		padding-right: 0.5rem !important;
+	}
+	.corporate_information_icon {
+	    width: 30%;
+	    margin-bottom: 30px;
+	}
+	.leading_capabilities_row > .col-md-3 {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.CTA_div {
+		height: 810px !important;
+	}
+	.CTA_detail_col_1, .CTA_detail_2_col_1, .CTA2_detail_col_2, .CTA_business_practice_detail_col_1, .sh_CTA_detail_col_1,
+	.CTA_transparent_marketing_detail_col_1 {
+		background-size: 322px;
+		height: 310px !important;
+	}
+	.CTA_detail_col_2, .CTA2_detail_col_1 {
+	    padding-top: 1.5rem !important;
+	    padding-left: 1.5rem !important;
+	}
+	.CTA2_div > .container > .row, .responsible_CTA > .container > .row {
+		flex-direction: column-reverse !important;
+	}
+	.CTA_div:last-child {
+	    height: 610px !important;
+	}
+	.sh_section {
+		padding: 0px 20px !important;
+	}
+	.CTA_business_practice_detail_col_2, .CTA_transparent_marketing_detail_col_2 {
+	    padding-top: 1rem !important;
+	    padding-right: 0.8rem !important;
+	    padding-left: 0.8rem !important;
+	}
+	.sh_CTA_detail_col_2 {
+	    padding-top: 1rem !important;
+	    padding-right: 0.8rem !important;
+	    padding-left: 0.8rem !important;
+	}
+	.responsible_CTA {
+		height: 580px !important;
+	}
+	.CTA_financial_div {
+	    background-image: none;
+	    padding: 0 !important;
+	    margin-bottom: 130px;
+	}
+	.financial_red_bg {
+		background-image: none;
+		background-color: #9f2226;
+		height: auto;
+	}
+	.CTA_financial_detail_col_2 {
+	    padding-right: 15px !important;
+	    padding-left: 15px !important;
+	    padding-top: 1rem !important;
+	}
+	.sh_first_td {
+	    padding-left: 20px !important;
+	}
+	.sh_third_td {
+	    padding-right: 20px !important;
+    	width: 250px;
 	}
 }

@@ -10,7 +10,7 @@
 			@include('layouts.header', ['page'=>'about_aya'])
         	<div class="menu-overlay"></div>
 
-			@include('layouts.banner', ['page'=>'aya_bank_profile'])
+			@include('layouts.banner', ['page'=>'stakeholder_management'])
 
 			<div class="container sh_section">
 				<div class="space-40"></div>

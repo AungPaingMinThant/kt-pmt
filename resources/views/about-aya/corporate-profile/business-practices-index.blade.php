@@ -66,25 +66,12 @@
 			
 
 			<div class="space-40"></div>
-			<!-- <div class="CTA_financial_div">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 CTA_financial_detail_col_2">
-							<p class="f-white" style="font-size: 20px;">Financial Inclusion:</p>
-							<p class="f-white">We provide financial solutions and services to meet the evolving needs of vulnerable, marginalized, underrepresented and under resourced groups including small- and medium-sized businesses, NGOs, INGOs and women, minorities, veterans, people with disabilities. A wide range of banking products and services are accessible by individuals and businesses at an affordable terms and conditions and the Bank will not knowingly undertake activities that would disproportionally harm any group.</p>
-							<p class="f-white">To ensure adequacy and effectiveness of the Bank's internal control systems, both financial and non-financial auditing practices are in place. AYA Bank is audited under International Standards of Auditing (ISA) by a big-four international firm, Deloitte from year 2016 to 2019 and by a leading local audit firm, Win Thin & Associates from year 2020 to date. To enhance control mechanism, a global management consulting firm was engaged to analyze and provide professional advice on the Bank’s non-financial data.</p>
-							<p class="f-white mb-30">AYA Bank have always ensure to promote responsible business practices by delivering on our purpose and striving to be a good corporate citizen. With a long term sustainable development as our ambition, the Bank continue to further strengthen its governance, risk and compliance structure as a measure to ensure balance and sustain growth.</p>
-						</div>
-						<div class="col-md-4 "></div>
-					</div>
-				</div>
-			</div> -->
 			<div class="CTA_financial_div">
 				<div class="financial_red_bg">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-8 CTA_financial_detail_col_2">
-								<p class="f-white" style="font-size: 20px;">Financial Inclusion:</p>
+								<p class="f-white" style="font-size: 20px;">Financial Inclusion</p>
 								<p class="f-white">We provide financial solutions and services to meet the evolving needs of vulnerable, marginalized, underrepresented and under resourced groups including small- and medium-sized businesses, NGOs, INGOs and women, minorities, veterans, people with disabilities. A wide range of banking products and services are accessible by individuals and businesses at an affordable terms and conditions and the Bank will not knowingly undertake activities that would disproportionally harm any group.</p>
 								<p class="f-white">To ensure adequacy and effectiveness of the Bank's internal control systems, both financial and non-financial auditing practices are in place. AYA Bank is audited under International Standards of Auditing (ISA) by a big-four international firm, Deloitte from year 2016 to 2019 and by a leading local audit firm, Win Thin & Associates from year 2020 to date. To enhance control mechanism, a global management consulting firm was engaged to analyze and provide professional advice on the Bank’s non-financial data.</p>
 								<p class="f-white mb-30">AYA Bank have always ensure to promote responsible business practices by delivering on our purpose and striving to be a good corporate citizen. With a long term sustainable development as our ambition, the Bank continue to further strengthen its governance, risk and compliance structure as a measure to ensure balance and sustain growth.</p>
