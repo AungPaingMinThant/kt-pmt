@@ -2881,7 +2881,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;WHO WE ARE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CORPORATE PROFILE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<a href="{{ url('/about-aya/who-we-are/corporate-profile/aya-bank-profile/') }}"><span style="color: #a02226;">AYA BANK PROFILE</span></a>
+				<a href="{{ url('/about-aya/who-we-are/corporate-profile/ayabank-profile/') }}"><span style="color: #a02226;">AYA BANK PROFILE</span></a>
 			</p>
 		</div>
 	</div>
