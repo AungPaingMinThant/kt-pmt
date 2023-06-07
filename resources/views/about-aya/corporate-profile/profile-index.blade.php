@@ -37,7 +37,7 @@
 
 				<div class="row">
 					<div class="col">
-						<p>AYA Bank is the country’s second largest bank with more than (3.2) million customers and (265) branches. Our large and loyal customer base has been one of the key drivers of our success, allowing us for rapid growth over the years. The Bank focus on deepening relationships with customers, providing best-in-class customer service, and leveraging technology as the enabler to rapidly expand the customer base.</p>
+						<p>AYA Bank is the country’s one of the largest banks with more than (3.2) million customers and (265) branches. Our large and loyal customer base has been one of the key drivers of our success, allowing us for rapid growth over the years. The Bank focus on deepening relationships with customers, providing best-in-class customer service, and leveraging technology as the enabler to rapidly expand the customer base.</p>
 					</div>
 				</div>
 
