@@ -151,7 +151,7 @@
 			</div>
 
 			<div class="space-60"></div>
-			<div class="CTA_div">
+			<div class="CTA_div drive_growth_CTA">
 				<div class="container section_1">
 					<div class="row">
 						<div class="col-md-4 CTA_detail_col_1"></div>
