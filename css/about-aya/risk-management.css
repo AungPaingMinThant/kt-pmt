@@ -91,9 +91,71 @@
 .mobile_navBtn {
 	display: none;
 }
+
+.accordion-body > .nav-align-top > .nav {
+	justify-content: start;
+}
+.accordion-button::after {
+	display: none;
+}
+.accordion-header {
+	border-bottom: none !important;
+}
+.accordion-button {
+	background-color: transparent !important;
+	border-radius: 0 !important;
+}
+.accordion-close {
+	display: none;
+}
+.accordion-open {
+	border: 2px solid #ae071d;
+	color: #ae071d;
+	padding: 5px;
+	margin-right: 10px;
+}
+.accordion-close {
+	border: 2px solid #a02226;
+	background-color: #a02226;
+    color: #fff;
+    padding: 5px;
+    margin-right: 10px;
+}
+.accordion-open i, .accordion-close i {
+	margin: 0;
+}
+.accordion-button:not(.collapsed) {
+    color: #2e2e2e !important;
+    background-color: transparent !important;
+    box-shadow: inset 0 0 0 #d9dee3;
+}
+.accordion-button:not(.collapsed) > .accordion-close {
+    display: block;
+    transform: rotate(180deg) !important;
+    transition: transform 0.2s ease-in-out;
+}
+.accordion-button:not(.collapsed) > .accordion-open {
+    display: none;
+    transform: rotate(180deg) !important;
+    transition: transform 0.2s ease-in-out;
+}
+.accordion-item {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc !important;
+    border-radius: 0 !important;
+}
+.bullet_square {
+	float: right;
+	margin-top: 7px;
+	width: 15%;
+}
 @media (max-width: 1400px) and (min-width: 1280px) {
 	.swiper-button-next {
 	    left: 0% !important;
+	}
+	.bullet_square {
+	    width: 20%;
 	}
 }
 @media (max-width: 1279px) and (min-width: 1000px) {
@@ -102,6 +164,9 @@
 	}
 	.swiper-button-next {
 	    left: 0 !important;
+	}
+	.bullet_square {
+	    width: 40%;
 	}
 }
 @media (max-width: 999px) and (min-width: 577px) {
@@ -113,6 +178,9 @@
 	}
 	.swiper-button-next {
 	    left: 0 !important;
+	}
+	.bullet_square {
+	    width: 70%;
 	}
 }
 @media only screen and (max-width: 576px) {
@@ -146,5 +214,14 @@
 	.swiper-button-next {
 	    right: 0 !important;
 	    left: 225px !important;
+	}
+	.risk_governance_col_1 {
+		width: 10% !important;
+	}
+	.risk_governance_col_11 {
+		width: 90% !important;
+	}
+	.bullet_square {
+	    width: 80%;
 	}
 }
