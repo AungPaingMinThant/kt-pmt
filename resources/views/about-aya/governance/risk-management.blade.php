@@ -1,6 +1,6 @@
 @extends('layouts.frontend-app')
 
-@section('title', 'Risk Management – Governance – AYA Bank')
+@section('title', 'Risk Management – AYA Bank')
 <link rel="stylesheet" href="{{ url('/css/swiper-bundle.min.css') }}" />
 <link rel="stylesheet" href="{{ url('/css/about-aya/risk-management.css') }}">
 <style type="text/css">
@@ -23,13 +23,15 @@
 						<p>AYA Bank acknowledges the critical need for an effective risk management system to address potential threats to its operations. It adopts a risk management policy, demonstrating its cognizance of the importance of instituting an Enterprise Risk Management (ERM) strategy.</p>
 						<p>The Bank's Board is dedicated to allocating adequate personnel and resources to guarantee the successful execution of this ERM program. AYA Bank will uphold an ERM policy and framework that unifies various risk aspects. This ERM policy is not meant to supersede existing risk and compliance initiatives, but rather aims to act as a consolidated umbrella for all the risk management programs already established.</p>
 					</div>
-					<div class="col-md-4 risk_side_bar">
-						<p class="risk_sidebar_title">Risk Management</p>
-						<p class="risk_sidebar_link side_active">Overview</p>
-						<p class="risk_sidebar_link"><a href="#">Risk Governance</a></p>
-						<p class="risk_sidebar_link">Risk Management Framework</p>
-						<p class="risk_sidebar_link">Risk Management Control</p>
-						<p class="risk_sidebar_link">Managing Risk</p>
+					<div class="col-md-4">
+						<div class="row risk_side_bar">
+							<p class="risk_sidebar_title">Risk Management</p>
+							<p class="risk_sidebar_link side_active"><a href="{{ url('/about-aya/governance/risk-management') }}">Overview</a></p>
+							<p class="risk_sidebar_link"><a href="{{ url('/about-aya/governance/risk-management/risk-governance') }}">Risk Governance</a></p>
+							<p class="risk_sidebar_link">Risk Management Framework</p>
+							<p class="risk_sidebar_link">Risk Management Control</p>
+							<p class="risk_sidebar_link">Managing Risk</p>
+						</div>
 					</div>
 				</div>
 			</div>

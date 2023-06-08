@@ -1,6 +1,6 @@
 @extends('layouts.frontend-app')
 
-@section('title', 'Business Practices – AYA Bank Profile – AYA Bank')
+@section('title', 'Business Practices – AYA Bank')
 <link rel="stylesheet" href="{{ url('/css/about-aya/ayabank-profile.css') }}">
 
 @section('content')

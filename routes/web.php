@@ -157,6 +157,7 @@ Route::get('/about-aya/who-we-are/corporate-profile/ayabank-profile/shareholding
 Route::get('/about-aya/who-we-are/corporate-profile/ayabank-profile/business-practices','App\Http\Controllers\AboutAYA\WhoWeAreController@businessPracticeIndex');
 Route::get('/about-aya/who-we-are/our-strategies/stakeholder-management','App\Http\Controllers\AboutAYA\WhoWeAreController@stakeholderIndex');
 Route::get('/about-aya/governance/risk-management','App\Http\Controllers\AboutAYA\WhoWeAreController@riskManagementIndex');
+Route::get('/about-aya/governance/risk-management/risk-governance','App\Http\Controllers\AboutAYA\WhoWeAreController@riskGovernanceIndex');
 
 
 // Risk Management

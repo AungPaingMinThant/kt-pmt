@@ -51,6 +51,9 @@
 .faq_section {
 	padding: 0px 100px !important;
 }
+.breadcrumb_text_color {
+	color: #666 !important;
+}
 .theme_table_head {
 	background-color: #a02226;
 	color: #fff;

@@ -36,4 +36,9 @@ class WhoWeAreController extends Controller
     {
         return view('about-aya.governance.risk-management');
     }
+
+    public function riskGovernanceIndex($value='')
+    {
+        return view('about-aya.governance.risk-governance');
+    }
 }
