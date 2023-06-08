@@ -1,6 +1,6 @@
 @extends('layouts.frontend-app')
 
-@section('title', 'Stakeholder Management – AYA Bank Profile – AYA Bank')
+@section('title', 'Stakeholder Management – Our Strategies – AYA Bank')
 <link rel="stylesheet" href="{{ url('/css/about-aya/ayabank-profile.css') }}">
 
 @section('content')
@@ -15,7 +15,7 @@
 			<div class="container stake_holder_container">
 				<div class="space-40"></div>
 				<div class="row">
-					<h4 class="fw-bold">Stakeholder Management</h4>
+					<h4 class="fw-bold">Stakeholder</h4>
 				</div>
 				<div class="text-center">
 					<img src="{{ url('/images/about-aya/stakeholder-management/stakeholder_chart.webp') }}" class="img-fluid stakeholder_chart">

@@ -62,9 +62,9 @@
 		.bullet_square {
 			width: 10%;
 		}
-			.scf_first {
-			    padding-left: 30px !important;
-			}
+		.scf_first {
+		    padding-left: 30px !important;
+		}
 	}
 	@media (max-width: 1270px) and (min-width: 1000px) {
 		.bullet_square {
@@ -78,7 +78,7 @@
 		}
 	}
 	@media (min-width: 768px){
-		.col-md-3 {
+		.link_div.col-md-3 {
 		    width: 23% !important;
 		}
 	}
@@ -133,7 +133,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="link_div col-md-3">
 						<div class="row">
 							<div class="col-md-12 secure_credit_fact">
 								<p class="d-none d-sm-block"><i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>AYA mBanking</p>

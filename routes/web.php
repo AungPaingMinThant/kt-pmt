@@ -156,8 +156,15 @@ Route::get('/about-aya/who-we-are/corporate-profile/ayabank-profile','App\Http\C
 Route::get('/about-aya/who-we-are/corporate-profile/ayabank-profile/shareholding-information','App\Http\Controllers\AboutAYA\WhoWeAreController@shareHoldingIndex');
 Route::get('/about-aya/who-we-are/corporate-profile/ayabank-profile/business-practices','App\Http\Controllers\AboutAYA\WhoWeAreController@businessPracticeIndex');
 Route::get('/about-aya/who-we-are/our-strategies/stakeholder-management','App\Http\Controllers\AboutAYA\WhoWeAreController@stakeholderIndex');
+Route::get('/about-aya/governance/risk-management','App\Http\Controllers\AboutAYA\WhoWeAreController@riskManagementIndex');
 
 
+// Risk Management
+// https://saltnpixel.com/AYABank/AYABank_RiskManagement_Environment.html
+// https://saltnpixel.com/AYABank/AYABank_RiskManagement_Managing_Risk.html
+// https://saltnpixel.com/AYABank/AYABank_RiskManagement_Risk_Management_Framework.html
+// https://saltnpixel.com/AYABank/AYABank_RiskManagement_Risk_Management_Control.html
+// https://saltnpixel.com/AYABank/AYABank_RiskManagement_Risk_Governance.html
 
 // Enquiry Form
 Route::get('/enquiry','App\Http\Controllers\EnquiryController@index');

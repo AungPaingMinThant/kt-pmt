@@ -5,7 +5,7 @@
 	.nav-link, h4 {
 		color: #2e2e2e !important;
 	}
-	.nav-link {
+	.side-nav > .nav-item > .nav-link {
 		padding: 0 1.25rem 1rem 0 !important;
 		font-size: 16px;
 	}
@@ -149,7 +149,7 @@
 						</div>
 						<div class="col-md-4">
 							<nav id="myScrollspy">
-								<ul class="nav nav-pills flex-column">
+								<ul class="side-nav nav nav-pills flex-column">
 									<li class="nav-item advice_1">
 										<a class="nav-link active" href="#q_remit_malay_inward">
 											<span>Q-Remit Malaysia (Inward)</span>

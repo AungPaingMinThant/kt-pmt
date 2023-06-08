@@ -440,30 +440,22 @@
 .meet_our_leaders_banner{
 	background-image:url('../images/about-aya/meet-our-leaders/KV.webp');
 }
-.meet_our_leaders_banner_tagline {
-	position: absolute;
-    top: 170px;
-    left: 60px;
-    right: 200px;
-}
 .aya_bank_profile_banner {
 	background-image:url('../images/about-aya/ayabank-profile/KV.webp');
 }
-.aya_bank_profile_banner_tagline {
-	position: absolute;
-    top: 170px;
-    left: 60px;
-    right: 200px;
+.risk_management_banner {
+	background-image:url('../images/about-aya/risk-management/KV.webp');
 }
 .stakeholder_management_banner {
 	background-image:url('../images/about-aya/stakeholder-management/KV.webp');
 }
-.stakeholder_management_banner_tagline {
+.stakeholder_management_banner_tagline, .risk_management_banner_tagline, .aya_bank_profile_banner_tagline, .meet_our_leaders_banner_tagline {
 	position: absolute;
     top: 170px;
     left: 60px;
     right: 200px;
 }
+
 
 @media (max-width: 1550px) and (min-width: 577px) {
 	.creditcard_banner{
@@ -526,28 +518,10 @@
 	.ins_banner_bg {
 	    height: 340px;
 	}
-	.meet_our_leaders_banner{
+	.meet_our_leaders_banner, .aya_bank_profile_banner, .stakeholder_management_banner, .risk_management_banner{
 		background-position: 40% center;
 	}
-	.meet_our_leaders_banner_tagline {
-	    position: absolute;
-	    top: 120px;
-	    left: 60px;
-	    right: 140px;
-	}
-	.aya_bank_profile_banner{
-		background-position: 40% center;
-	}
-	.aya_bank_profile_banner_tagline {
-	    position: absolute;
-	    top: 120px;
-	    left: 60px;
-	    right: 140px;
-	}
-	.stakeholder_management_banner{
-		background-position: 40% center;
-	}
-	.stakeholder_management_banner_tagline {
+	.meet_our_leaders_banner_tagline, .aya_bank_profile_banner_tagline, .stakeholder_management_banner_tagline, .risk_management_banner_tagline {
 	    position: absolute;
 	    top: 120px;
 	    left: 60px;
@@ -878,48 +852,20 @@
 	.bu_domestic_inland_transit_insurance_tagline, .bu_car_ear_insurance_tagline, .bu_IAR_insurance_tagline, .bu_group_life_insurance_tagline {
 		padding-right: 17%;
 	}
-	.meet_our_leaders_banner{
+	.meet_our_leaders_banner, .aya_bank_profile_banner, .stakeholder_management_banner, .risk_management_banner {
 		background-position: 40% center;
 	}
-	.meet_our_leaders_banner_tagline {
-		top: 30px;
-	    right: 60px;
-	    left: 40px;
-	}
-	.aya_bank_profile_banner{
-		background-position: 40% center;
-	}
-	.aya_bank_profile_banner_tagline {
-		top: 30px;
-	    right: 60px;
-	    left: 40px;
-	}
-	.stakeholder_management_banner{
-		background-position: 40% center;
-	}
-	.stakeholder_management_banner_tagline {
+	.meet_our_leaders_banner_tagline, .aya_bank_profile_banner_tagline, .stakeholder_management_banner_tagline, .risk_management_banner_tagline {
 		top: 30px;
 	    right: 60px;
 	    left: 40px;
 	}
 }
 @media (max-width: 999px) and (min-width: 577px) {
-	.meet_our_leaders_banner {
+	.meet_our_leaders_banner, .aya_bank_profile_banner, .stakeholder_management_banner, .risk_management_banner {
 		background-position: 60% center;
 	}
-	.meet_our_leaders_banner_tagline {
-	    right: 80px;
-	}
-	.aya_bank_profile_banner {
-		background-position: 60% center;
-	}
-	.aya_bank_profile_banner_tagline {
-	    right: 80px;
-	}
-	.stakeholder_management_banner {
-		background-position: 60% center;
-	}
-	.stakeholder_management_banner_tagline {
+	.meet_our_leaders_banner_tagline, .aya_bank_profile_banner_tagline, .stakeholder_management_banner_tagline, .risk_management_banner_tagline {
 	    right: 80px;
 	}
 }
@@ -1167,6 +1113,10 @@
 	}
 	.stakeholder_management_banner{
 		background-image:url('../images/about-aya/stakeholder-management/mobile_KV.webp');
+		background-position: 1% center;
+	}
+	.risk_management_banner{
+		background-image:url('../images/about-aya/risk-management/mobile_KV.webp');
 		background-position: 1% center;
 	}
 }

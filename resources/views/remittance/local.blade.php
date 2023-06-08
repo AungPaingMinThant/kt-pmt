@@ -1,9 +1,7 @@
 @extends('layouts.frontend-app')
 
 @section('title', 'Local Remittance – AYA Bank')
-<style type="text/css">
-	
-</style>
+
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
