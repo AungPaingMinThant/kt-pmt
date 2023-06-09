@@ -150,6 +150,13 @@
 	margin-top: 7px;
 	width: 15%;
 }
+.card-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 44px;
+}
 @media (max-width: 1400px) and (min-width: 1280px) {
 	.swiper-button-next {
 	    left: 0% !important;

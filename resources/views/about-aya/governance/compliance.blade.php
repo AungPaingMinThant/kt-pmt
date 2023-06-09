@@ -110,7 +110,7 @@
 			                    <div class="card swiper-slide risk_card_swiper_slide slide_4">
 			                        <div class="card-content">
 			                        	<div class="swiper_detail_card card h-100">
-											<img src="{{ url('/images/about-aya/risk-management/managing_risk.webp') }}" alt="Managing Risk" class="card-img-top">
+											<img src="{{ url('/images/about-aya/risk-management/reporting_suspicious.webp') }}" alt="Managing Risk" class="card-img-top">
 											<div class="card-body">
 												<p class="card-title fw-semibold mb-20">Reporting of Suspicious Transactions</p>
 												<div class="sidebar-box sidebar-box-4">
@@ -120,6 +120,74 @@
 
 												<div class="space-30"></div>
 												<p class="reporting_suspicious_show_more"><a class="theme_text_color">Show More</a></p>
+											</div>
+										</div>
+			                        </div>
+			                    </div>
+			                    <div class="card swiper-slide risk_card_swiper_slide slide_5">
+			                        <div class="card-content">
+			                        	<div class="swiper_detail_card card h-100">
+											<img src="{{ url('/images/about-aya/risk-management/reporting_suspicious_transaction.webp') }}" alt="Managing Risk" class="card-img-top">
+											<div class="card-body">
+												<p class="card-title fw-semibold mb-20">Reporting of Suspicious Transactions/Record Keeping</p>
+												<div class="sidebar-box sidebar-box-5">
+													<p>The Bank maintains detailed records of suspicious transactions, along with relevant investigation details and decisions made. These records are retained for the required period, in accordance with the Bank's policy and regulatory requirements.</p>
+													<p class="read-more"><a class="button">&nbsp;</a></p>
+												</div>
+
+												<div class="space-30"></div>
+												<p class="reporting_suspicious_transaction_show_more"><a class="theme_text_color">Show More</a></p>
+											</div>
+										</div>
+			                        </div>
+			                    </div>
+			                    <div class="card swiper-slide risk_card_swiper_slide slide_6">
+			                        <div class="card-content">
+			                        	<div class="swiper_detail_card card h-100">
+											<img src="{{ url('/images/about-aya/risk-management/compliance_officer.webp') }}" alt="Managing Risk" class="card-img-top">
+											<div class="card-body">
+												<p class="card-title fw-semibold mb-20">Appointing Compliance Officers</p>
+												<div class="sidebar-box sidebar-box-6">
+													<p>Compliance Officers are appointed in all departments and branches of the Bank. Their responsibilities include establishing and maintaining internal policies, procedures, and compliance manuals. Compliance Officers play a crucial role in identifying and mitigating noncompliance risks, both externally and internally. They constantly report to management on the organization's compliance with laws and regulations and ensure that employees are aware of their obligations to comply with internal and external requirements.</p>
+													<p class="read-more"><a class="button">&nbsp;</a></p>
+												</div>
+
+												<div class="space-30"></div>
+												<p class="compliance_officer_show_more"><a class="theme_text_color">Show More</a></p>
+											</div>
+										</div>
+			                        </div>
+			                    </div>
+			                    <div class="card swiper-slide risk_card_swiper_slide slide_7">
+			                        <div class="card-content">
+			                        	<div class="swiper_detail_card card h-100">
+											<img src="{{ url('/images/about-aya/risk-management/risk_compliance_training.webp') }}" alt="Managing Risk" class="card-img-top">
+											<div class="card-body">
+												<p class="card-title fw-semibold mb-20">Effective Risk and Compliance Training</p>
+												<div class="sidebar-box sidebar-box-7">
+													<p>AYA Bank recognizes the dynamic nature of the financial industry and the need to stay updated on emerging risks and regulations. The Bank designs training programs to reduce risks, enhance workforce efficiency, and ensure employees are well-versed in banking sector developments. Continuous training and seminars on risk and compliance are provided to help employees detect and report suspicious activities, including predicate offenses to money laundering and terrorist financing. </p>
+													<p class="read-more"><a class="button">&nbsp;</a></p>
+												</div>
+
+												<div class="space-30"></div>
+												<p class="risk_compliance_training_show_more"><a class="theme_text_color">Show More</a></p>
+											</div>
+										</div>
+			                        </div>
+			                    </div>
+			                    <div class="card swiper-slide risk_card_swiper_slide slide_8">
+			                        <div class="card-content">
+			                        	<div class="swiper_detail_card card h-100">
+											<img src="{{ url('/images/about-aya/risk-management/audits.webp') }}" alt="Managing Risk" class="card-img-top">
+											<div class="card-body">
+												<p class="card-title fw-semibold mb-20">Independent Audits</p>
+												<div class="sidebar-box sidebar-box-8">
+													<p>AYA Bank's Internal Audit Team plays a vital role in proactively identifying and assessing potential risks, weaknesses, and noncompliance situations. They collaborate with all departments and branches across the country to enforce compliance and evaluate the effectiveness of applying anti-money laundering and combating the financing of terrorism (AML/CFT) guidelines and relevant laws on an annual basis.</p>
+													<p class="read-more"><a class="button">&nbsp;</a></p>
+												</div>
+
+												<div class="space-30"></div>
+												<p class="audits_show_more"><a class="theme_text_color">Show More</a></p>
 											</div>
 										</div>
 			                        </div>
@@ -280,6 +348,110 @@
 		$p.fadeOut();
 
 		$(".reporting_suspicious_show_more").addClass('d-none');
+		return false;
+
+	});
+
+	$(".reporting_suspicious_transaction_show_more").click(function() {
+		totalHeight = 0
+
+		$el = $(".sidebar-box-5 .button");
+		$p  = $el.parent();
+		$up = $p.parent();
+		$ps = $up.find("p:not('.read-more')");
+
+		$ps.each(function() {
+			totalHeight += $(".sidebar-box-5 .button").outerHeight();
+		});
+	    
+		$up.css({
+	  		"height": 'auto',
+	  		"max-height": 9999
+		}).animate({
+	  		"height": 'auto'
+		});
+
+		$p.fadeOut();
+
+		$(".reporting_suspicious_transaction_show_more").addClass('d-none');
+		return false;
+
+	});
+
+	$(".compliance_officer_show_more").click(function() {
+		totalHeight = 0
+
+		$el = $(".sidebar-box-6 .button");
+		$p  = $el.parent();
+		$up = $p.parent();
+		$ps = $up.find("p:not('.read-more')");
+
+		$ps.each(function() {
+			totalHeight += $(".sidebar-box-6 .button").outerHeight();
+		});
+	    
+		$up.css({
+	  		"height": 'auto',
+	  		"max-height": 9999
+		}).animate({
+	  		"height": 'auto'
+		});
+
+		$p.fadeOut();
+
+		$(".compliance_officer_show_more").addClass('d-none');
+		return false;
+
+	});
+
+	$(".risk_compliance_training_show_more").click(function() {
+		totalHeight = 0
+
+		$el = $(".sidebar-box-7 .button");
+		$p  = $el.parent();
+		$up = $p.parent();
+		$ps = $up.find("p:not('.read-more')");
+
+		$ps.each(function() {
+			totalHeight += $(".sidebar-box-7 .button").outerHeight();
+		});
+	    
+		$up.css({
+	  		"height": 'auto',
+	  		"max-height": 9999
+		}).animate({
+	  		"height": 'auto'
+		});
+
+		$p.fadeOut();
+
+		$(".risk_compliance_training_show_more").addClass('d-none');
+		return false;
+
+	});
+
+	$(".audits_show_more").click(function() {
+		totalHeight = 0
+
+		$el = $(".sidebar-box-8 .button");
+		$p  = $el.parent();
+		$up = $p.parent();
+		$ps = $up.find("p:not('.read-more')");
+
+		$ps.each(function() {
+			totalHeight += $(".sidebar-box-8 .button").outerHeight();
+		});
+	    
+		$up.css({
+	  		"height": 'auto',
+	  		"max-height": 9999
+		}).animate({
+	  		"height": 'auto'
+		});
+
+		$p.fadeOut();
+
+		$(".audits_show_more").addClass('d-none');
 		return false;
 
 	});
