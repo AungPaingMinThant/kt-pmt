@@ -16,9 +16,11 @@
 
 			<div class="container risk_container">
 				<div class="space-40"></div>
+				<div class="col-md-12">
+					<h4 class="fw-bold">Risk Governance</h4>
+				</div>
 				<div class="row">
 					<div class="col-md-8">
-						<h4 class="fw-bold">Risk Governance</h4>
 						<div class="space-20"></div>
 						<div class="row text-center">
 							<p class="fw-semibold" style="font-size: 18px;">Reporting lines of Risk Management Function</p>
@@ -27,7 +29,7 @@
 
 						<div class="space-40"></div>
 
-						<div class="accordion import-financing-accord" id="accordionExample">
+						<div class="accordion" id="accordionExample">
 							<div class="accordion-item">
 								<h2 class="accordion-header b-b-none" id="headingOne">
 									<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="padding: 10px 0px 10px 20px !important;">
@@ -127,14 +129,7 @@
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="row risk_side_bar">
-							<p class="risk_sidebar_title">Risk Management</p>
-							<p class="risk_sidebar_link"><a href="{{ url('/about-aya/governance/risk-management') }}">Overview</a></p>
-							<p class="risk_sidebar_link side_active"><a href="{{ url('/about-aya/governance/risk-management/risk-governance') }}">Risk Governance</a></p>
-							<p class="risk_sidebar_link">Risk Management Framework</p>
-							<p class="risk_sidebar_link">Risk Management Control</p>
-							<p class="risk_sidebar_link">Managing Risk</p>
-						</div>
+						@include('about-aya.governance.sidebar', ['side_page'=>'risk_governance'])
 					</div>
 				</div>
 			</div>
@@ -144,41 +139,5 @@
 
 <div class="space-60"></div>
 @include('layouts.footer', ['page'=>''])
-<script src="{{ url('/js/swiper-bundle.min.js') }}"></script>
-<script type="text/javascript">
-	var swiper = new Swiper(".slide-content-desktop", {
-		slidesPerView: 3,
-		spaceBetween: 5,
-		loop: true,
-		centerSlide: 'true',
-		fade: 'true',
-		grabCursor: 'true',
-		pagination: {
-			el: ".swiper-pagination-desktop",
-			clickable: true,
-			dynamicBullets: true,
-			loop: true,
-		},
-		navigation: {
-			nextEl: ".swiper-button-next",
-			prevEl: ".swiper-button-prev",
-		},
-
-		breakpoints:{
-			0: {
-				slidesPerView: 1,
-			},
-			520: {
-				slidesPerView: 2,
-			},
-			950: {
-				slidesPerView: 2,
-			},
-			1200: {
-				slidesPerView: 3,	
-			},
-		},
-	});
-</script>
 
 @endsection('content')
