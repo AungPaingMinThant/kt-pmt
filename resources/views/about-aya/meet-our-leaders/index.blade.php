@@ -364,7 +364,7 @@
 
 						<h5 class="card-title theme_text_color fw-semibold mb-0">Daw Khin Ma Ma</h5>
 						<p class="mb-0">Myanmar</p>
-						<p>Vice-Chairman</p>
+						<p>Vice-Chairman<br>(Executive)</p>
 
 						<p class="mb-10 bio_detail">Daw Khin Ma Ma is a member of the Board of Directors of AYA Bank since 2010 and presently holds the position of Vice-Chairman. She has been appointed as Deputy Managing Director in 2011, Executive Director in 2013 and currently re-appointed as Vice-Chairman in 2022 due to her strong commitment and constant demonstration on effectiveness of the Board and Bank’s strategic direction. She obtained a bachelor’s degree in Science from University of Yangon.</p>
 						<p>Daw Khin Ma Ma brings along with her a wealth of cross- sector experience gained through her 17 years in the service industry. With her passion for delivering quality service, she has improved services providing in all branches to a higher level. She plays a pivotal role in human resources management, provides guidance for talent strategy, and leads in all aspects of human resources and talent management.</p>
@@ -387,7 +387,7 @@
 
 						<h5 class="card-title theme_text_color fw-semibold mb-0">U Myint Zaw</h5>
 						<p class="mb-0">Myanmar</p>
-						<p>Chief Executive Officer</p>
+						<p>Chief Executive Officer<br>(Executive)</p>
 
 						<p class="mb-10 bio_detail">U Myint Zaw is a member of the Board of Directors of AYA Bank. He has been appointed as Managing Director in 2017, re-appointed as Senior Managing Director in 2021 and Chief Executive Officer in 2022 for his growth initiatives, leadership abilities, and managing the strategic direction of the Bank. He graduated with B-Econ (Economics) and received a Master of Public Administration (MPA) as well. He held various senior positions in Advertising and Marketing for well-established and reputable international and local companies in the private sector.</p>
 						<p>His professional background comes from over 25 years of working experience from different industries in Agriculture, Advertising, Commodity Future Market, Beverage and Soft Drink Industry, Telecommunications and Education. Before joining AYA Bank, U Myint Zaw founded Professional Marketers Association (PMA) and developed Ground Solution Company that provided management and consultancy services.</p>
@@ -528,11 +528,10 @@
 
 						<h5 class="card-title theme_text_color fw-semibold mb-0">U Ko Ko Oo</h5>
 						<p class="mb-0">Myanmar</p>
-						<p>Managing Director (Banking Operations and Retail Banking)</p>
+						<p>Managing Director (Governance, Risk Management and Compliance)</p>
 
-						<p class="mb-10 bio_detail">U Minn Wint Oo is the Managing Director for “Banking Operations and Retail Banking” of AYA Bank and came on board in 2011. He is a member of the Executive Committee, Asset-Liability Committee, Credit Committee, Product and Business Development Committee, and IT and Digitalization Steering Committee. As the Managing Director of Banking Operations and Retail Banking, he is responsible for daily banking operations, ensuring efficiency of the Bank, necessary to support the business objectives, leading more than 4500 employees who deliver banking services to clients across AYA Bank’s 265 branches in the country. He also oversees the teams handling centralized operations, currency operations as well as branch operations systems support, and retail banking.</p>
-						<p>During his early tenure at AYA, he held the post as Chief Technology Officer, the strategic founder and executive decision maker with regards to the technological advances of AYA Bank. He was the main driving force for the bank’s whole IT systems and infrastructure, including, but not limited to, Data Centers, Network Architecture, Software Development, and Information Security. He is responsible for outlining the bank’s technological vision, implementing technological strategies, developing policy and procedures, and ensuring that the technological resources are aligned with business goals.</p>
-						<p>He graduated from Yangon Technological University and continued specialization in IT industry. Along with strong technical knowledge and expertise in banking, he is the right talent to take the bank to its next level. He is the core person in driving and reinforcing digital transformation of the bank, integrating digital technology into all areas of the bank, optimizing operations and value delivery to customers. With his technological background as an added advantage, he is able to take AYA Bank to the next level of Banking for the ever-changing customer centric economic environment.</p>
+						<p class="mb-10 bio_detail">U Ko Ko Oo, co-chairperson of Board, Risk and Compliance Committee, has been appointed as Managing Director of Governance, Risk Management and Compliance in 2022 for his strong strategic skills as well as effective implementation for risk, compliance and governance. He joined AYA Bank in 2010 since its inception and had taken various positions and responsibilities. He became Deputy Managing Director in 2014 and has been appointed as Senior Chief Risk and Compliance Officer in 2018. He studied Master of Public Administration and brought in his expertise of Strategic Studies and International relations.</p>
+						<p>He has developed and implemented the Risk and Compliance Management System for the bank business and support functions. He is managing all aspects of risk to the organization, employees, clients, reputation, assets, and interests of stakeholders. U Ko Ko Oo possesses a powerful commitment to his task. Besides his present responsibility, he cooperatively managed the Bank’s administrative matters and Bank Branches Network for new branch opening across Myanmar.</p>
 					</div>
 				</div>
 			</div>

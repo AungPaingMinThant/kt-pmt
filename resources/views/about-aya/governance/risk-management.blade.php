@@ -50,7 +50,7 @@
 												<p class="risk_bullet mb-0">Board Risk and Compliance Committee (BRCC)</p>
 												<p class="risk_bullet mb-0">Enterprise Risk Management Department</p>
 												<div class="space-30"></div>
-												<p class=""><a href="#" class="theme_text_color">Read More</a></p>
+												<p class=""><a href="{{ url('/about-aya/governance/risk-management/risk-governance') }}" class="theme_text_color">Read More</a></p>
 											</div>
 										</div>
 			                        </div>
@@ -63,7 +63,7 @@
 												<p class="card-title fw-semibold mb-20">Risk Management Framework</p>
 												<p class="card_detail_info">AYA Bank has designed an Enterprise Risk Management Framework that adheres to the standards of the Risk Management Guidelines set by the Central Bank of Myanmar (CBM).</p>
 												<div class="space-30"></div>
-												<p class="risk_read_more"><a href="#" class="theme_text_color">Read More</a></p>
+												<p class="risk_read_more"><a href="{{ url('/about-aya/governance/risk-management/risk-management-framework') }}" class="theme_text_color">Read More</a></p>
 											</div>
 										</div>
 			                        </div>
@@ -76,7 +76,7 @@
 												<p class="card-title fw-semibold mb-20">Risk Management Control</p>
 												<p class="card_detail_info">Effective risk management is fundamentally reliant on competent management and staff. It's crucial that personnel comprehend the Bank's mission, risk appetite, core values, policies, and processes.</p>
 												<div class="space-30"></div>
-												<p class="risk_read_more"><a href="#" class="theme_text_color">Read More</a></p>
+												<p class="risk_read_more"><a href="{{ url('/about-aya/governance/risk-management/risk-management-control') }}" class="theme_text_color">Read More</a></p>
 											</div>
 										</div>
 			                        </div>
@@ -89,7 +89,7 @@
 												<p class="card-title fw-semibold mb-20">Managing Risk</p>
 												<p class="card_detail_info">The Credit Department within the Risk Management Unit is responsible for the comprehensive management of credit risk. This department drafts and administers credit policies, the internal rating system, credit authority guidelines, credit application guidelines, manages nonperforming loans (NPLs) and other aspects of credit portfolio management.</p>
 												<div class="space-30"></div>
-												<p class="risk_read_more"><a href="#" class="theme_text_color">Read More</a></p>
+												<p class="risk_read_more"><a href="{{ url('/about-aya/governance/risk-management/managing-risk') }}" class="theme_text_color">Read More</a></p>
 											</div>
 										</div>
 			                        </div>

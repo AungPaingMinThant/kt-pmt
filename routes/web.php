@@ -156,19 +156,14 @@ Route::get('/about-aya/who-we-are/corporate-profile/ayabank-profile','App\Http\C
 Route::get('/about-aya/who-we-are/corporate-profile/ayabank-profile/shareholding-information','App\Http\Controllers\AboutAYA\WhoWeAreController@shareHoldingIndex');
 Route::get('/about-aya/who-we-are/corporate-profile/ayabank-profile/business-practices','App\Http\Controllers\AboutAYA\WhoWeAreController@businessPracticeIndex');
 Route::get('/about-aya/who-we-are/our-strategies/stakeholder-management','App\Http\Controllers\AboutAYA\WhoWeAreController@stakeholderIndex');
-Route::get('/about-aya/governance/risk-management','App\Http\Controllers\AboutAYA\WhoWeAreController@riskManagementIndex');
-Route::get('/about-aya/governance/risk-management/risk-governance','App\Http\Controllers\AboutAYA\WhoWeAreController@riskGovernanceIndex');
-Route::get('/about-aya/governance/risk-management/risk-management-framework','App\Http\Controllers\AboutAYA\WhoWeAreController@riskMgmtFrameworkIndex');
-Route::get('/about-aya/governance/risk-management/risk-management-control','App\Http\Controllers\AboutAYA\WhoWeAreController@riskMgmtControlIndex');
-Route::get('/about-aya/governance/risk-management/managing-risk','App\Http\Controllers\AboutAYA\WhoWeAreController@managingRiskIndex');
 
+Route::get('/about-aya/governance/risk-management','App\Http\Controllers\AboutAYA\GovernanceController@riskManagementIndex');
+Route::get('/about-aya/governance/risk-management/risk-governance','App\Http\Controllers\AboutAYA\GovernanceController@riskGovernanceIndex');
+Route::get('/about-aya/governance/risk-management/risk-management-framework','App\Http\Controllers\AboutAYA\GovernanceController@riskMgmtFrameworkIndex');
+Route::get('/about-aya/governance/risk-management/risk-management-control','App\Http\Controllers\AboutAYA\GovernanceController@riskMgmtControlIndex');
+Route::get('/about-aya/governance/risk-management/managing-risk','App\Http\Controllers\AboutAYA\GovernanceController@managingRiskIndex');
+Route::get('/about-aya/governance/compliance','App\Http\Controllers\AboutAYA\GovernanceController@complianceIndex');
 
-// Risk Management
-// https://saltnpixel.com/AYABank/AYABank_RiskManagement_Environment.html
-// https://saltnpixel.com/AYABank/AYABank_RiskManagement_Managing_Risk.html
-// https://saltnpixel.com/AYABank/AYABank_RiskManagement_Risk_Management_Framework.html
-// https://saltnpixel.com/AYABank/AYABank_RiskManagement_Risk_Management_Control.html
-// https://saltnpixel.com/AYABank/AYABank_RiskManagement_Risk_Governance.html
 
 // Enquiry Form
 Route::get('/enquiry','App\Http\Controllers\EnquiryController@index');
