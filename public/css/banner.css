@@ -458,8 +458,11 @@
 .risk_mgmt_ctl_banner {
 	background-image:url('../images/about-aya/risk-management/risk_mgmt_ctl_KV.webp');
 }
+.managing_risk_banner {
+	background-image:url('../images/about-aya/risk-management/managing_risk_KV.webp');
+}
 .stakeholder_management_banner_tagline, .aya_bank_profile_banner_tagline, .meet_our_leaders_banner_tagline, .risk_management_banner_tagline,
-.risk_governance_banner_tagline, .risk_mgmt_framework_banner_tagline, .risk_mgmt_ctl_banner_tagline {
+.risk_governance_banner_tagline, .risk_mgmt_framework_banner_tagline, .risk_mgmt_ctl_banner_tagline, .managing_risk_banner_tagline {
 	position: absolute;
     top: 170px;
     left: 60px;
@@ -529,11 +532,12 @@
 	    height: 340px;
 	}
 	.meet_our_leaders_banner, .aya_bank_profile_banner, .stakeholder_management_banner, .risk_management_banner,
-	.risk_governance_banner, .risk_mgmt_framework_banner, .risk_mgmt_ctl_banner{
+	.risk_governance_banner, .risk_mgmt_framework_banner, .risk_mgmt_ctl_banner, .managing_risk_banner {
 		background-position: 40% center;
 	}
 	.meet_our_leaders_banner_tagline, .aya_bank_profile_banner_tagline, .stakeholder_management_banner_tagline,
-	.risk_management_banner_tagline, .risk_governance_banner_tagline, .risk_mgmt_framework_banner_tagline, .risk_mgmt_ctl_banner_tagline {
+	.risk_management_banner_tagline, .risk_governance_banner_tagline, .risk_mgmt_framework_banner_tagline, .risk_mgmt_ctl_banner_tagline,
+	.managing_risk_banner_tagline {
 	    position: absolute;
 	    top: 120px;
 	    left: 60px;
@@ -865,11 +869,12 @@
 		padding-right: 17%;
 	}
 	.meet_our_leaders_banner, .aya_bank_profile_banner, .stakeholder_management_banner, .risk_management_banner,
-	.risk_governance_banner, .risk_mgmt_framework_banner, .risk_mgmt_ctl_banner {
+	.risk_governance_banner, .risk_mgmt_framework_banner, .risk_mgmt_ctl_banner, .managing_risk_banner {
 		background-position: 40% center;
 	}
 	.meet_our_leaders_banner_tagline, .aya_bank_profile_banner_tagline, .stakeholder_management_banner_tagline,
-	.risk_management_banner_tagline, .risk_governance_banner_tagline, .risk_mgmt_framework_banner_tagline, .risk_mgmt_ctl_banner_tagline {
+	.risk_management_banner_tagline, .risk_governance_banner_tagline, .risk_mgmt_framework_banner_tagline, .risk_mgmt_ctl_banner_tagline, 
+	.managing_risk_banner_tagline {
 		top: 30px;
 	    right: 60px;
 	    left: 40px;
@@ -877,11 +882,12 @@
 }
 @media (max-width: 999px) and (min-width: 577px) {
 	.meet_our_leaders_banner, .aya_bank_profile_banner, .stakeholder_management_banner, .risk_management_banner,
-	.risk_governance_banner, .risk_mgmt_framework_banner, .risk_mgmt_ctl_banner {
+	.risk_governance_banner, .risk_mgmt_framework_banner, .risk_mgmt_ctl_banner, .managing_risk_banner {
 		background-position: 60% center;
 	}
 	.meet_our_leaders_banner_tagline, .aya_bank_profile_banner_tagline, .stakeholder_management_banner_tagline,
-	.risk_management_banner_tagline, .risk_governance_banner_tagline, .risk_mgmt_framework_banner_tagline, .risk_mgmt_ctl_banner_tagline {
+	.risk_management_banner_tagline, .risk_governance_banner_tagline, .risk_mgmt_framework_banner_tagline, .risk_mgmt_ctl_banner_tagline,
+	.managing_risk_banner_tagline {
 	    right: 80px;
 	}
 }
@@ -1145,6 +1151,10 @@
 	}
 	.risk_mgmt_ctl_banner {
 		background-image:url('../images/about-aya/risk-management/risk_mgmt_ctl_mobile_KV.webp');
+		background-position: 1% center;
+	}
+	.managing_risk_banner {
+		background-image:url('../images/about-aya/risk-management/managing_risk_mobile_KV.webp');
 		background-position: 1% center;
 	}
 }
