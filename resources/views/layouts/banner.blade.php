@@ -3012,7 +3012,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;GOVERNANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a class="breadcrumb_text_color" href="{{ url('/about-aya/governance/risk-management') }}">RISK MANAGEMENT</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">RISK MANAGEMENT</span>
+				<span style="color: #a02226;">RISK MANAGEMENT FRAMEWORK</span>
 			</p>
 		</div>
 	</div>
