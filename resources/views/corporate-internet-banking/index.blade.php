@@ -84,19 +84,19 @@
 							<div class="container tab_section_1">
 								<div class="row tab_data_row" >
 									<div class="col-md-12 text-center" style="padding-top: 20px;">
-										<p>Users can initiate transactions for AYA account transfer, own account transfer, payroll (bulk payments), pay bills, cheque book request and cheque cancellation.</p>
+										<p>Users can initiate transactions for AYA account transfer, own account transfer, bulk payments, cheque book request and cheque cancellation.</p>
 									</div>
 									<div class="col-md-6 benefit_feature_box" style="padding: 20px 20px 0px 20px;">
 										<div class="row why_use_AYA simple_login_div">
 											<img src="{{ url('/images/corporate_internet_banking/own_account_transfer.png') }}" class="img-fluid payment_service_img">
-											<p style="color: #4e4e4e;font-weight:600;margin-bottom: 5px;margin-top: 10px;">Own Account Transfer</p>
+											<p style="color: #4e4e4e;font-weight:600;margin-bottom: 5px;margin-top: 10px;">Internal Account Trasfer</p>
 											<p style="color: #4e4e4e;">Users can initiate fund transfer within their own AYA accounts.</p>
 										</div>
 									</div>
 									<div class="col-md-6 benefit_feature_box" style="padding: 20px 20px 0px 20px;">
 										<div class="row why_use_AYA simple_login_div">
 											<img src="{{ url('/images/corporate_internet_banking/other_account_transfer.png') }}" class="img-fluid payment_service_img">
-											<p style="color: #4e4e4e;font-weight:600;margin-bottom: 5px;margin-top: 10px;">Other AYA Account’s Transfer</p>
+											<p style="color: #4e4e4e;font-weight:600;margin-bottom: 5px;margin-top: 10px;">Third-Party Transfer</p>
 											<p style="color: #4e4e4e;">Users can transfer from their AYA Account to Another AYA Account.</p>
 										</div>
 									</div>
@@ -126,7 +126,7 @@
 									<div class="col-md-4 benefit_feature_box" style="padding: 20px 20px 0px 20px;">
 										<div class="row why_use_AYA simple_login_div">
 											<img src="{{ url('/images/corporate_internet_banking/profile_edit.png') }}" class="img-fluid" style="width: 30%;">
-											<p style="color: #4e4e4e;font-weight:600;margin-bottom: 5px;margin-top: 10px;">Change Profile</p>
+											<p style="color: #4e4e4e;font-weight:600;margin-bottom: 5px;margin-top: 10px;">Change Password</p>
 											<p style="color: #4e4e4e;">Users have profile management options.</p>
 										</div>
 									</div>
@@ -210,125 +210,47 @@
 						</div>
 						<div class="col-md-10 packages_main">
 							<div class="row">
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 84%;float: right;">
-										Account Service<span class="ac_service_extra_line"><br>&nbsp;</span>
+								<div class="col-md-4 basic_package_col">
+									<p class="fw-bold" style="font-size: 15px;">
+										Services
 									</p>
 									<hr style="width: 100%">
-								</div>
-								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 84%;float: right;">
-										Dual Control<span class="dual_control_extra_line"><br>&nbsp;</span>
+									<p class="mb-30 fw-500 float-end packages_list">
+										Account Service
 									</p>
-									<hr style="width: 100%">
-								</div>
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 84%;float: right;">
-										Registration Fees: FOC<span class="reg_fee_extra_line"><br>&nbsp;</span>
-									</p>
-									<hr style="width: 100%">
-								</div>
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 84%;float: right;">
-										Monthly Fees: 10,000MMK
-									</p>
-									<hr style="width: 100%;">
-								</div>
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 84%;float: right;">
-										Token Fees: <br>20,000 MMK (Per Token)
-									</p>
-									<hr class="d-block d-sm-none" style="width: 100%;">
-								</div>
-								<div class="col-md-3 basic_package_col basic_pack_allow">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 84%;float: right;">
-										Allow
-									</p>
-									<ul class="packages_list">
-										<li style="margin-bottom: 5px;">2&nbsp;&nbsp;Makers</li>
-										<li style="margin-bottom: 5px;">1&nbsp;&nbsp;Checker</li>
-									</ul>
-									<hr class="d-block d-sm-none" style="width: 100%;">
-								</div>
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 84%;float: right;">
+									<p class="mb-30 fw-500 float-end packages_list">
 										Payment Service
 									</p>
-									<ul class="packages_list">
-										<li style="margin-bottom: 5px;">Own Accout Transfer</li>
-										<li style="margin-bottom: 5px;">Third Party Transfer</li>
-										<li style="margin-bottom: 5px;">Bulk Transfer</li>
-										<li style="margin-bottom: 5px;">Cheque Book Request</li>
-										<li style="margin-bottom: 5px;">Stop Cheque Book</li>
-									</ul>
+									<p class="mb-30 fw-500 float-end packages_list">
+										Administration Service
+									</p>
 								</div>
-								<div class="d-none mobile_basic_package">
-									<div class="col-md-3 basic_package_col">
-										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-										<p style="font-weight: 500;width: 84%;float: right;">
-											Account Service
-										</p>
-										<hr style="width: 100%">
-									</div>
-									<div class="col-md-3 basic_package_col">
-										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-										<p style="font-weight: 500;width: 84%;float: right;">
-											Dual Control
-										</p>
-										<hr style="width: 100%">
-									</div>
-									<div class="col-md-3 basic_package_col">
-										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-										<p style="font-weight: 500;width: 84%;float: right;">
-											Registration Fees: FOC
-										</p>
-										<hr style="width: 100%">
-									</div>
-									<div class="col-md-3 basic_package_col">
-										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-										<p style="font-weight: 500;width: 84%;float: right;">
-											Monthly Fees: 10,000MMK
-										</p>
-										<hr style="width: 100%;">
-									</div>
-									<div class="col-md-3 basic_package_col">
-										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-										<p style="font-weight: 500;width: 84%;float: right;">
-											Token Fees: <br>20,000 MMK (Per Token)
-										</p>
-										<hr style="width: 100%;">
-									</div>
-									<div class="col-md-3 basic_package_col">
-										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-										<p style="font-weight: 500;width: 84%;float: right;">
-											Allow
-										</p>
-										<ul style="list-style:none;margin-left: 25px;">
-											<li style="margin-bottom: 5px;">2&nbsp;&nbsp;Makers</li>
-											<li style="margin-bottom: 5px;">1&nbsp;&nbsp;Checker</li>
-										</ul>
-										<hr style="width: 100%;">
-									</div>
-									<div class="col-md-3 basic_package_col">
-										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-										<p style="font-weight: 500;width: 84%;float: right;">
-											Payment Service
-										</p>
-										<ul style="list-style:none;margin-left: 25px;">
-											<li style="margin-bottom: 5px;">Own Accout Transfer</li>
-											<li style="margin-bottom: 5px;">Third Party Transfer</li>
-											<li style="margin-bottom: 5px;">Bulk Transfer</li>
-											<li style="margin-bottom: 5px;">Cheque Book Request</li>
-											<li style="margin-bottom: 5px;">Stop Cheque Book</li>
-										</ul>
-									</div>
+								<div class="col-md-4 basic_package_col">
+									<p class="fw-bold" style="font-size: 15px;">
+										Fees and Charges
+									</p>
+									<hr style="width: 100%">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p class="mb-30 fw-500 float-end packages_list">
+										Token Fees: <br>45,000 MMK (Per Token)
+									</p>
+									<p class="mb-30 fw-500 float-end packages_list">
+										Monthly Fees: 10,000MMK
+									</p>
+									<p class="mb-30 fw-500 float-end packages_list">
+										Registration Fees: FOC<span class="reg_fee_extra_line"><br>&nbsp;</span>
+									</p>
+								</div>
+								<div class="col-md-4 basic_package_col">
+									<p class="fw-bold" style="font-size: 15px;">
+										User
+									</p>
+									<hr style="width: 100%">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p class="mb-30 fw-500 float-end packages_list">
+										Allow: 3 users
+									</p>
 								</div>
 							</div>
 						</div>
@@ -343,62 +265,47 @@
 						</div>
 						<div class="packages_main">
 							<div class="row">
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 84%;float: right;">
-										Account Service<span class="plus_ac_service_extra_line"><br>&nbsp;</span>
+								<div class="col-md-4 basic_package_col">
+									<p class="fw-bold" style="font-size: 15px;">
+										Services
 									</p>
 									<hr style="width: 100%">
-								</div>
-								<div class="col-md-3 basic_package_col">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 84%;float: right;">
-										Allow Unlimited users<span class="plus_allow_user_extra_line"><br>&nbsp;</span>
+									<p class="mb-30 fw-500 float-end packages_list">
+										Account Service
 									</p>
-									<hr style="width: 100%">
-								</div>
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 84%;float: right;">
-										Registration Fees: FOC<span class="plus_reg_fees_extra_line"><br>&nbsp;</span>
-									</p>
-									<hr style="width: 100%">
-								</div>
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 84%;float: right;">
-										Monthly Fees: 10,000MMK
-									</p>
-									<hr style="width: 100%">
-								</div>
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 84%;float: right;">
-										Token Fees: <br>20,000 MMK (Per Token)
-									</p>
-									<hr class="d-block d-sm-none" style="width: 100%;">
-								</div>
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 84%;float: right;">
-										Customized Authorization matrix
-									</p>
-									<hr class="d-block d-sm-none" style="width: 100%;">
-								</div>
-								<div class="col-md-3 basic_package_col">
-									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-									<p style="font-weight: 500;width: 84%;float: right;">
+									<p class="mb-30 fw-500 float-end packages_list">
 										Payment Service
 									</p>
-									<ul class="packages_list">
-										<li style="margin-bottom: 5px;">Own Accout Transfer</li>
-										<li style="margin-bottom: 5px;">Third Party Transfer</li>
-										<li style="margin-bottom: 5px;">Bulk Transfer</li>
-										<li style="margin-bottom: 5px;">Cheque Book Request</li>
-										<li style="margin-bottom: 5px;">Stop Cheque Book</li>
-									</ul>
+									<p class="mb-30 fw-500 float-end packages_list">
+										Administration Service
+									</p>
 								</div>
-								<div class="col-md-3 basic_package_col">
+								<div class="col-md-4 basic_package_col">
+									<p class="fw-bold" style="font-size: 15px;">
+										Fees and Charges
+									</p>
+									<hr style="width: 100%">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p class="mb-30 fw-500 float-end packages_list">
+										Token Fees: <br>45,000 MMK (Per Token)
+									</p>
+									<p class="mb-30 fw-500 float-end packages_list">
+										Monthly Fees: 10,000MMK
+									</p>
+									<p class="mb-30 fw-500 float-end packages_list">
+										Registration Fees: FOC<span class="reg_fee_extra_line"><br>&nbsp;</span>
+									</p>
+								</div>
+								<div class="col-md-4 basic_package_col">
+									<p class="fw-bold" style="font-size: 15px;">
+										User
+									</p>
+									<hr style="width: 100%">
+									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+									<p class="mb-30 fw-500 float-end packages_list">
+										Allow: more than 3 user with customizable authorize matrix
+									</p>
 								</div>
 							</div>
 						</div>
@@ -418,14 +325,14 @@
 						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;border-right: 1px solid #1d1d1f;padding-right: 0px;">
 							<p style="color: #000;font-weight: 400;font-size: 17px;">Not yet a Corporate Internet Banking user?</p>
 							<a href="#" target="_blank">
-								<button class="btn get_start_btn">VISIT US TO FIND OUT MORE</button>
+								<button class="btn btn-sm get_start_btn">VISIT US TO FIND OUT MORE</button>
 							</a>
 							<div style="height: 40px;"></div>
 						</div>
 						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;padding-left: 0px;">
 							<p style="color: #000;font-weight: 400;font-size: 17px;">Already a Corporate Internet Banking user?</p>
 							<a href="https://corporate.ayaibanking.com/customer/portal" target="_blank">
-								<button class="btn get_start_btn">LOGIN</button>
+								<button class="btn btn-sm get_start_btn">LOGIN</button>
 							</a>
 							<div style="height: 40px;"></div>
 						</div>
@@ -444,14 +351,14 @@
 						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;border-bottom: 1px solid #1d1d1f;padding-bottom: 0px;">
 							<p style="color: #000;font-weight: 400;font-size: 17px;">Not yet a Corporate Internet Banking user?</p>
 							<a href="#" target="_blank">
-								<button class="btn get_start_btn">VISIT US TO FIND OUT MORE</button>
+								<button class="btn btn-sm get_start_btn">VISIT US TO FIND OUT MORE</button>
 							</a>
 							<div style="height: 40px;"></div>
 						</div>
 						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 20px;">
 							<p style="color: #000;font-weight: 400;font-size: 17px;">Already a Corporate Internet Banking user?</p>
 							<a href="https://corporate.ayaibanking.com/customer/portal" target="_blank">
-								<button class="btn get_start_btn">LOGIN</button>
+								<button class="btn btn-sm get_start_btn">LOGIN</button>
 							</a>
 							<div style="height: 40px;"></div>
 						</div>
@@ -472,7 +379,7 @@
 							<p style="color: #000;font-weight: 400;font-size: 17px;margin-bottom: 0px;">Frequently Asked Question about Corporate Internet Banking</p>
 						</div>
 						<div class="col-md-3 col-xs-12 text-right" style="padding-top: 10px;padding-left: 0px;text-align: right;">
-							<a href="{{ url('/file/cib/FAQ - Corporate Internet Banking (CIB) (Edit).pdf') }}" target="_blank">
+							<a href="{{ url('/file/cib/FAQ-Corporate_Internet_Banking.pdf') }}" target="_blank">
 								<button class="btn read_more_btn">Read More</button>
 							</a>
 						</div>
@@ -484,7 +391,7 @@
 							<p style="color: #000;font-weight: 400;font-size: 17px;margin-bottom: 0px;">Frequently Asked Question about Corporate Internet Banking</p>
 						</div>
 						<div class="col-xs-12 text-center" style="padding-top: 10px;padding-left: 0px;text-align: right;">
-							<a href="{{ url('/file/cib/FAQ - Corporate Internet Banking (CIB) (Edit).pdf') }}" target="_blank">
+							<a href="{{ url('/file/cib/FAQ-Corporate_Internet_Banking.pdf') }}" target="_blank">
 								<button class="btn read_more_btn">Read More</button>
 							</a>
 						</div>

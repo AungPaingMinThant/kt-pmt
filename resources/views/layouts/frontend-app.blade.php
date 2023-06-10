@@ -16,19 +16,24 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-        <link href="{{url('../fonts/Pyidaungsu-1.8_Regular.ttf')}}">
-        <link href="{{url('../fonts/Sora-Regular.ttf')}}">
+        <link href="{{url('/fonts/Pyidaungsu-1.8_Regular.ttf')}}">
+        <link href="{{url('/fonts/Sora-Regular.ttf')}}">
 
         <style type="text/css">
             @font-face {
                 font-family: 'Pyidaungsu';
                 font-style: normal;
-                src: url('../../fonts/Pyidaungsu-1.8_Regular.ttf');
+                src: url('http://localhost/ayab/public/fonts/Pyidaungsu-1.8_Regular.ttf');
+            }
+            @font-face {
+                font-family: 'W35Art House';
+                font-style: normal;
+                src: url('http://localhost/ayab/public/fonts/W35Art House.TTF');
             }
             @font-face {
                 font-family: 'Sora';
                 font-style: normal;
-                src: url('../../fonts/Sora-Regular.ttf');
+                src: url('http://localhost/ayab/public/fonts/Sora-Regular.ttf');
             }
             html, body, table{
                 font-family: 'Sora', sans-serif;

@@ -143,9 +143,39 @@
 			background-position: 30% center;
 		}
 	}
-	@media (min-width: 768px){
+	@media (min-width: 1000px){
 		.col-md-3 {
 		    width: 23% !important;
+		}
+	}
+	@media (max-width: 999px) and (min-width: 577px) {
+		.outer_benefit_box {
+			width: 31% !important;
+			margin-bottom: 20px;
+		}
+		.how_to_apply_outer_section {
+		    background-position: 80% bottom;
+		}
+		.debit_how_to_apply_section {
+		    padding: 40px 50px 60px 0px !important;
+		}
+		.ecommerce_registration_container {
+		    padding: 40px 0px 40px 0px !important;
+		}
+		.ecom_reg_desc {
+			width: 60% !important;
+		}
+		.ecom_reg_desc_space {
+			width: 40% !important;
+		}
+		.credit_tag_line {
+		    padding: 0px 20px;
+		}
+		.mpu_jbc_tab, .mpu_upi_tab {
+			background-position: 30% center;
+		}
+		.tab_h3, .tab_upi_h3 {
+		    top: 120px;
 		}
 	}
 	@media only screen and (max-width: 576px){
@@ -411,15 +441,15 @@
 											<p class="fee_desc">AYA Bank Branches</p>
 										</div>
 										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Late Card Activation</p>
+											<p class="fee_title">Card Activation</p>
 											<p class="fee_desc">AYA Bank Branches</p>
 										</div>
 									</div>
 									<div class="row">
 										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">ATM Withdrawal Limit</p>
-											<p class="fee_desc">Domestic Transaction - 1,000,000 MMK Per day</p>
-											<p class="fee_desc">International Transaction - Amount Equivalent to 1,000,000 MMK Per day</p>
+											<p class="fee_desc">Domestic Transaction - 2,000,000 MMK Per day</p>
+											<p class="fee_desc">International Transaction - Amount Equivalent to 500,000 MMK Per day</p>
 										</div>
 										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">Fund Transfer</p>
@@ -429,14 +459,27 @@
 									<div class="row">
 										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">POS Withdrawal Limit</p>
-											<p class="fee_desc">Domestic Transaction - 5,000,000 MMK Per day</p>
-											<p class="fee_desc">International Transaction - Up To Avaliable Amount</p>
+											<p class="fee_desc">Domestic Transaction - 2,000,000 MMK Per day</p>
+											<p class="fee_desc">International Transaction - Amount Equivalent to 500,000 MMK Per day</p>
 										</div>
 										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">Transaction Limit</p>
-											<p class="fee_desc">Not Applicable</p>
+											<p class="fee_desc">Domestic Transaction -  5,000,000 MMK per day</p>
+											<p class="fee_desc">International Transaction - 2,500,000 MMK per month</p>
 										</div>
 									</div>
+									<div class="row">
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">International Transaction Fees</p>
+											<p class="fee_desc">Fees 25% ~ 50%(Note * Fees are subject to change without prior notice)</p>
+										</div>
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">Other Fees</p>
+											<p class="fee_desc">Service Charges/ Fees will be inclusive based on the transaction types including refunds and reversal transactions.</p>
+										</div>
+									</div>
+
+									<p style="color: #a0222c;font-size:12px;font-style: italic;">Note: Cross currency mark-up fees will be applied for foreign transactions</p>
 								</div>
 							</div>
 						</div>
@@ -452,7 +495,6 @@
 			</div>
 			<div class="how_to_apply_outer_section">
 				<div class="container debit_how_to_apply_section" style="">
-					<!-- <div class="space-40"></div> -->
 					<div class="row">
 						<div class="col-md-6 how_to_apply_desc" style="">
 							<div class="row how_to_apply_title_row">
@@ -525,14 +567,14 @@
 				<div class="container ecommerce_registration_container">
 					<div class="space-40"></div>
 					<div class="row" style="width: 100%">
-						<div class="col-md-6"></div>
-						<div class="col-md-6 how_to_apply_desc" style="">
+						<div class="col-md-6 ecom_reg_desc_space"></div>
+						<div class="col-md-6 ecom_reg_desc how_to_apply_desc" style="">
 							<div class="row">
 								<p style="color: #1d1d1f;font-weight: 600;font-size: 26px;margin-bottom: 1.5rem;">AYA MPU Card E-Commerce Registration</p>
 
 								<p>In order to allow MPU cardholder customers for buying online products and services, you are required to register and your current mobile number must be registered with AYA Bank.</p>
 
-								<div class="space-40"></div>
+								<div class="space-20"></div>
 								
 								<a target="_blank" href="https://card.ayabank.com/" target="_blank">
 									<button class="btn reset_pin_btn">
@@ -540,7 +582,7 @@
 									</button>
 								</a>
 
-								<div class="space-30"></div>
+								<div class="space-10"></div>
 								
 								<p style="color: #4e4e4e;margin-bottom: 0px;">Kindly note that registration will not be successful if your current mobile number is not registered with AYA Bank or updated in the system. Please visit the nearest AYA Branch with any proof of identity to register your phone number.</p>
 							</div>
@@ -613,8 +655,23 @@
 							<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
 								<div class="accordion-body">
 									<p>
-										You can apply Debit Card during accout opening. Please visit to any of AYA Branches with NRC Card, 2 License Photo, two guarantors of existing AYA Bank account holders and open any account  with initial deposit (Eg. for Saving account 10000 Kyats). 4:1 Service (1)  UNIVERSAL Debit Card (MPU-JCB Co-Brand)၊ (2) Saving Book (3) Application of m-Banking , and (4) i- Banking services will be provided and the interest can be enjoyed as per type of accounts. Debit Card can also be linked with Current Account but interest will not be able to enjoy.
+										You can apply Debit Card during accout opening.<br>
+										Please visit to any of AYA Branches with 
+										<ul style="list-style: none;">
+											<li>* NRC Card, </li>
+											<li>* 2 License Photo, </li>
+											<li>* two guarantors of existing AYA Bank account holders, and </li>
+											<li>* initial deposit to open account (Eg. for Saving account 10000 Kyats). </li>
+										</ul>
 									</p>
+									<p>4:1 Service</p>
+									<ul style="list-style:none;">
+										<li>(1) UNIVERSAL Debit Card (MPU-JCB Co-Brand)</li>
+										<li>(2) Saving Book </li>
+										<li>(3) Application of m-Banking and </li>
+										<li>(4) i-Banking services will be provided and the interest can be enjoyed as per type of accounts.</li>
+									</ul>
+									<p>Debit Card can also be linked with Current Account but interest will not be able to enjoy.</p>
 								</div>
 							</div>
 						</div>

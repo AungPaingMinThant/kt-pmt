@@ -3,8 +3,6 @@
 @section('title', 'mBanking – AYA Bank')
 <style type="text/css">
 	.outer_benefit_box {
-		/*padding: 0px 20px 0px 20px !important;
-		margin-bottom: 20px;*/
 		padding: 20px !important;
 		border: 1px solid #dedede;
 		border-radius: 10px;
@@ -29,6 +27,7 @@
 	.how_to_apply_bg {
 		background-image: url('./images/how_to_apply.jpg');
 		background-size: cover;
+		background-position: center left;
 	}
 	.need_more_support_section_inner {
 		padding: 40px 100px 60px 100px;
@@ -36,7 +35,26 @@
 		background-size: cover;
 		border-radius: 6px;
 	}
-	@media (max-width: 1300px) and (min-width: 577px) {
+	.mbanking_apple {
+		width: 25%;
+		margin-right: 20px;
+	}
+	.mbanking_abdriod {
+		width: 29%;
+		margin-right: 20px;
+	}
+	.mbanking_huawei {
+		width: 29%;
+	}
+	.how_to_apply_mb_section {
+	    padding: 40px 100px 60px 100px !important;
+	}
+	@media (min-width: 1800px) {
+		.how_to_apply_desc {
+			padding-right: 10% !important;
+		}
+	}
+	@media (max-width: 1300px) and (min-width: 1000px) {
 		.why_use_AYA_outer > .col-md-6 {
 			width: 47%;
 		}
@@ -49,6 +67,40 @@
 		.need_more_support_section_inner {
 			padding: 40px 60px 60px 60px;
 			background-position: 60% center;
+		}
+	}
+	@media (max-width: 999px) and (min-width: 577px) {
+		.why_use_AYA_outer > .col-md-6 {
+		    width: 47%;
+		}
+		.how_to_apply_bg {
+			background-position: 30% center;
+		}
+		.need_more_support_section {
+		    padding: 40px 60px !important;
+		}
+		.need_more_support_section_inner {
+			padding: 40px 60px 60px 60px;
+			background-position: 60% center;
+		}
+		.how_to_apply_desc {
+			width: 65% !important;
+		}
+		.mbanking_apple {
+			width: 30%;
+			margin-right: 20px;
+			margin-bottom: 10px;
+		}
+		.mbanking_abdriod {
+			width: 34%;
+			margin-right: 20px;
+			margin-bottom: 10px;
+		}
+		.mbanking_huawei {
+			width: 34%;
+		}
+		.how_to_apply_mb_section {
+		    padding: 40px 100px 60px 30px !important;
 		}
 	}
 	@media only screen and (max-width: 576px){
@@ -148,6 +200,8 @@
 								<li data-bs-target="#why_use_AYA_second_section" id="slide2_1" data-bs-slide-to="0" class="active"></li>
 								<li data-bs-target="#why_use_AYA_second_section" id="slide2_2" data-bs-slide-to="1"></li>
 								<li data-bs-target="#why_use_AYA_second_section" id="slide2_3" data-bs-slide-to="2"></li>
+								<li data-bs-target="#why_use_AYA_second_section" id="slide2_4" data-bs-slide-to="3"></li>
+								<li data-bs-target="#why_use_AYA_second_section" id="slide2_5" data-bs-slide-to="4"></li>
 							</ol>
 							<div class="carousel-inner">
 								<div class="carousel-item active">
@@ -158,6 +212,12 @@
 								</div>
 								<div class="carousel-item">
 									<img src="{{ url('/images/ATM_withdrawalmockup.png') }}" class="d-block  img-fluid" id="ATM_withdrawal_mockup" alt="Third slide" style="width: 75%;">
+								</div>
+								<div class="carousel-item">
+									<img src="{{ url('/images/pfm_mockup.png') }}" class="d-block  img-fluid" id="Multifunction_mockup" alt="Fourth slide" style="width: 75%;">
+								</div>
+								<div class="carousel-item">
+									<img src="{{ url('/images/qr_scan_pay_mockup.png') }}" class="d-block  img-fluid" id="qr_scan_pay_mockup" alt="Fifth slide" style="width: 75%;">
 								</div>
 							</div>
 							<a class="carousel-control-prev d-none" href="#why_use_AYA_second_section" role="button" data-bs-slide="prev">
@@ -187,15 +247,34 @@
 								</div>
 							</div>
 							<div class="col-md-6 outer_benefit_box why_use_AYA">
+								<div class="row Multifunction">
+									<img src="{{ url('/images/pfm.png') }}" class="img-fluid" style="width: 91px;">
+									<p style="font-weight: 600;margin-top: 1rem;margin-bottom: 10px;">Multifunction Loan for you</p>
+									<p style="font-weight: 600;">Link your Personal Financial Management (PFM) on mBanking 2.0</p>
+									<p style="color: #4e4e4e;">Make your personal goal and aim for your family with our quick, flexible financing service. Get your hire purchase of automobile or mortgage information and status immediately at your fingertips.</p>
+									<p style="color: #4e4e4e;>Suite your needs for a house purchase and get a new car for your personal usage and family matters.</p>
+									<p style="color: #4e4e4e;>You can get your loan, paid amount and next payment status anytime by simply logging in to your mBanking 2.0.</p>
+								</div>
+							</div>
+							<div class="col-md-6 outer_benefit_box why_use_AYA">
+								<div class="row qr_scan_pay">
+									<img src="{{ url('/images/qr_scan_pay.png') }}" class="img-fluid" style="width: 91px;">
+									<p style="font-weight: 600;margin-top: 1rem;margin-bottom: 10px;">Quickly Scan and Pay</p>
+									<p style="font-weight: 600;">Make payments effortless and seamless!</p>
+									<p style="color: #4e4e4e;">Scan QR is the Ultimate everyday for getting goods, appliances, services, and ordering meals and more at AYA Merchant.</p>
+									<p style="color: #4e4e4e;">It’s easy for you to get your everyday needs, and it would enable cashless transactions at AYA Merchant.</p>
+									<p style="color: #4e4e4e;">AYA Merchant can receive your every interactive transaction instantly and securely with a digital banking experience with AYA Bank.</p>
+								</div>
+							</div>
+							<div class="col-md-6 outer_benefit_box why_use_AYA">
 								<div class="row ATM_withdrawal_div">
 									<img src="{{ url('/images/ATM_withdrawal.png') }}" class="img-fluid" style="width: 91px;">
 									<p style="font-weight: 600;margin-top: 1rem;">Cardless withdrawal</p>
 									<p style="color: #4e4e4e;">You can withdraw money at any AYA ATM without your bank card by initiating ATM cardless withdrawal straight. </p>
 								</div>
 							</div>
-							<div class="col-md-6" style="padding: 20px;">
-								
-							</div>
+
+							<div class="space-40"></div>
 						</div>
 					</div>					
 				</div>
@@ -204,11 +283,10 @@
 				<img src="{{ url('/images/how_to_apply_mobile.jpg') }}" class="img-fluid">
 			</div>
 			<div class="how_to_apply_bg">
-				<div class="container how_to_apply_section" style="">
+				<div class="container how_to_apply_mb_section">
 					<div class="row">
 						<div class="col-md-6 how_to_apply_desc" style="">
 							<h3 style="color: #1d1d1f;margin-bottom: 1.5rem;">How to Apply</h3>
-							<!-- <p style="color: #1d1d1f;font-weight: 600;font-size: 30px;margin-bottom: 1.5rem;">How to Apply</p> -->
 							<p style="margin-bottom: 1.5rem;">You can easily register AYA Mobile Banking Service at any AYA Branches. Alternatively, you can apply online here. Our application is available to personal and business banking customers. You will need iOS or Android devices.</p>
 
 							<a href="https://ibankapp.ayabank.com" style="">
@@ -216,12 +294,14 @@
 							</a>
 
 							<h3 style="color: #a02225;margin-bottom: 5px;">Download the APP Now</h3>
-							<!-- <p style="color: #a02225;font-weight: 500;font-size: 25px;margin-bottom: 5px;">Download the APP Now</p> -->
 
 							<p style="color: #666;font-weight: 400;">On your mobile or tablet, download AYA Mobile Bankng here.</p>
 
-							<a href="http://bit.ly/ayambankingios"><img src="{{ url('/images/apple.png') }}" class="img-fluid" style="width: 30%;margin-right: 20px;"></a>
-							<a href="http://bit.ly/ayambankingandriod"><img src="{{ url('/images/google.png') }}" class="img-fluid" style="width: 35%"></a>
+							<a href="http://bit.ly/ayambankingios" target="_blank"><img src="{{ url('/images/apple.png') }}" class="img-fluid mbanking_apple"></a>
+							<a href="http://bit.ly/ayambankingandriod" target="_blank"><img src="{{ url('/images/google.png') }}" class="img-fluid mbanking_abdriod"></a>
+							<a href="https://appgallery.huawei.com/app/C101771299" target="_blank">
+								<img src="{{ url('/images/huawei_app_gallery.png') }}" class="img-fluid mbanking_huawei">
+							</a>
 						</div>
 						<div class="col-md-6">
 							
@@ -235,7 +315,7 @@
 					<div class="row">
 						<div class="col-md-5 col-xs-12 text-center" style="padding-top: 80px;">
 							<p style="color: #a02225;font-weight: 500;font-size: 20px;margin-bottom: 5px;">Need more support?</p>
-							<p style="font-weight:400;color: #4e4e4e;">Read our <a href="{{ url('/file/mBanking/mBanking version 2.2.5 User Guide.pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">AYA Mobile banking 2.0 user guide</a></p>
+							<p style="font-weight:400;color: #4e4e4e;">Read our <a href="{{ url('/file/mBanking/mBanking_User_Guide.pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">AYA Mobile banking 2.0 user guide</a></p>
 							<div style="height: 70px;"></div>
 						</div>
 						<div class="col-md-7"></div>
@@ -246,7 +326,7 @@
 					<div class="row">
 						<div class="col-xs-12 text-center" style="padding-top: 20px;">
 							<p style="color: #a02225;font-weight: 500;font-size: 20px;margin-bottom: 5px;">Need more support?</p>
-							<p style="font-weight:400;color: #4e4e4e;">Read our <a href="{{ url('/file/mBanking/mBanking version 2.2.5 User Guide.pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">AYA Mobile banking 2.0 user guide</a></p>
+							<p style="font-weight:400;color: #4e4e4e;">Read our <a href="{{ url('/file/mBanking/mBanking_User_Guide.pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">AYA Mobile banking 2.0 user guide</a></p>
 						</div>
 					</div>
 				</div>
@@ -343,50 +423,31 @@
 <script type="text/javascript">
 	$(".simple_login_div").click(function() {
 		$("#slide_1").click();
-		// $("#simple_login_mockup").show(500);
-		// $("#quick_mockup").hide(500);
-		// $("#manage_credit_mockup").hide(500);
-		// $("#prepaid_card_mockup").hide(500);
 	});
 	$(".quick_div").click(function() {
 		$("#slide_2").click();
-		// $("#simple_login_mockup").hide(500);
-		// $("#quick_mockup").show(500);
-		// $("#manage_credit_mockup").hide(500);
-		// $("#prepaid_card_mockup").hide(500);
 	});
 	$(".manage_credit_div").click(function() {
 		$("#slide_3").click();
-		// $("#simple_login_mockup").hide(500);
-		// $("#quick_mockup").hide(500);
-		// $("#manage_credit_mockup").show(500);
-		// $("#prepaid_card_mockup").hide(500);
 	});
 	$(".prepaid_card_div").click(function() {
 		$("#slide_4").click();
-		// $("#simple_login_mockup").hide(500);
-		// $("#quick_mockup").hide(500);
-		// $("#manage_credit_mockup").hide(500);
-		// $("#prepaid_card_mockup").show(500);
 	});
 
 	$(".secure_transaction_div").click(function() {
 		$("#slide2_1").click();
-		// $("#secure_transaction_mockup").show(500);
-		// $("#easy_transfer_payment_mockup").hide(500);
-		// $("#ATM_withdrawal_mockup").hide(500);
 	});
 	$(".easy_transfer_payment_div").click(function() {
 		$("#slide2_2").click();
-		// $("#secure_transaction_mockup").hide(500);
-		// $("#easy_transfer_payment_mockup").show(500);
-		// $("#ATM_withdrawal_mockup").hide(500);
 	});
 	$(".ATM_withdrawal_div").click(function() {
 		$("#slide2_3").click();
-		// $("#secure_transaction_mockup").hide(500);
-		// $("#easy_transfer_payment_mockup").hide(500);
-		// $("#ATM_withdrawal_mockup").show(500);
+	});
+	$(".Multifunction").click(function() {
+		$("#slide2_4").click();
+	});
+	$(".qr_scan_pay").click(function() {
+		$("#slide2_5").click();
 	});
 </script>
 

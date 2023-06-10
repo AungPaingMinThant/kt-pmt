@@ -89,13 +89,8 @@
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
-					<div class="debit_banner_tag" style="position: absolute;top: 156px;right: 0;">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Nothing can be more simpler than</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;color: #a02226;">a cashless payment</h1>
-					</div>
-					<div class="debit_banner_tag_mid" style="position: absolute;top: 156px;right: 0;">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Nothing can be more simpler than</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;color: #a02226;">a cashless payment</h1>
+					<div class="debit_banner_tagline">
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Nothing can be more simpler than <span class="theme_text_color">a cashless payment</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -128,14 +123,8 @@
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
-					<div class="credit_banner_tag" style="position: absolute;top: 156px;right: 0;">
+					<div class="credit_banner_tagline">
 						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Define your life style with <span style="color: #a02226;">AYA Credit Cards</span></h1>
-					</div>
-					<div class="credit_banner_tag_mid" style="position: absolute;top: 80px;right: 0;">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Define your life style with</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">
-							<span style="color: #a02226;">AYA Credit Cards</span>
-						</h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -216,11 +205,8 @@
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
-					<div style="position: absolute;top: 156px;right: 0;">
-						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;"><span style="color: #a02226;">In touch</span> with your bank account</h1>
-						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">
-							and <span style="color: #a02226;">transactions 24/7</span>
-						</h1>
+					<div class="smsalert_banner_tagline">
+						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;"><span style="color: #a02226;">In touch</span> with your bank account and <span style="color: #a02226;">transactions 24/7</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -253,28 +239,10 @@
 	<div class="prepaid_banner banner_bg">
 		<div class="container">
 			<div class="row d-none d-sm-block">
-				<div class="prepaid_banner_tag">
+				<div>
 					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
-						<div style="position: absolute;top: 156px;right: 0;">
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Pick AYA World Travel Card, <span style="color: #a02226;">explore the</span></h1>
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;color: #a02226;">
-								world and make life more fun!
-							</h1>
-						</div>
-					</div>
-					<div class="col-md-6" style="text-align: right;">
-					</div>
-				</div>
-				<div class="prepaid_banner_tag_mid">
-					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
-						<div style="position: absolute;top: 150px;right: 0;">
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Pick AYA World Travel Card,</h1>
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;color: #a02226;">
-								explore the world and
-							</h1>
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;color: #a02226;">
-								make life more fun!
-							</h1>
+						<div class="prepaid_banner_tagline">
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Pick AYA World Travel Card, <span style="color: #a02226;">explore the world and make life more fun!</span></h1>
 						</div>
 					</div>
 					<div class="col-md-6" style="text-align: right;">
@@ -363,7 +331,7 @@
 		<div class="container">
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 156px;right: 130px;">
+					<div class="cib_banner_tagline">
 						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">Your business's financial transactions <span style="color: #a02226;">at your fingertips</span></h1>
 					</div>
 				</div>
@@ -490,24 +458,13 @@
 	<div class="pos_banner banner_bg">
 		<div class="container">
 			<div class="row d-none d-sm-block">
-				<div class="pos_tag">
+				<div class="">
 					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
-						<div style="position: absolute;top: 156px;right: 130px;">
-							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;"><span style="color: #a02226;">Hassel free</span> transactions</h1>
-							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">for your <span style="color: #a02226;">Business</span></h1>
+						<div class="pos_tagline">
+							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;"><span style="color: #a02226;">Hassel free</span> transactions for your <span style="color: #a02226;">Business</span></h1>
 						</div>
 					</div>
 					<div class="col-md-6" style="text-align: right;">
-					</div>
-				</div>
-				<div class="pos_tag_mid">
-					<div class="col-md-7 text-right" style="text-align: right;position: relative;">
-						<div style="position: absolute;top: 156px;right: 130px;">
-							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;"><span style="color: #a02226;">Hassel free</span> transactions</h1>
-							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">for your <span style="color: #a02226;">Business</span></h1>
-						</div>
-					</div>
-					<div class="col-md-5" style="text-align: right;">
 					</div>
 				</div>
 			</div>
@@ -538,12 +495,12 @@
 @if($page == 'ayapay')
 	<div class="ayapay_banner banner_bg">
 		<div class="container">
-			<div class="row d-none d-sm-block">
+			<div class="row d-none">
 				<div class="ayapay_tag">
-					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
-						<div style="position: absolute;top: 170px;right: 130px;">
-							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">Make Your Transactions</h1>
-							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;color: #a02226;">Easy with AYA Pay</h1>
+					<div class="col-md-12 text-left" style="position: relative;">
+						<div style="position: absolute;top: 100px;right: 130px;left: 30px;">
+							<h1 class="f-white fw-bold" style="font-family: 'W35Art House'; font-size: 50px;margin-bottom: 0;line-height: 32px;">e u</h1>
+							<!-- <h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;color: #a02226;">Make Your Transactions Easy with AYA Pay</h1> -->
 						</div>
 					</div>
 					<div class="col-md-6" style="text-align: right;"></div>
@@ -558,7 +515,7 @@
 					<div class="col-md-6" style="text-align: right;"></div>
 				</div>
 			</div>
-			<div class="row d-block d-sm-none">
+			<div class="row d-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;right: 55px;">
 						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;">Make Your Transactions</h1>

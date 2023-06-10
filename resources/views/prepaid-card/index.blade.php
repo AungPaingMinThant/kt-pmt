@@ -72,6 +72,18 @@
 		    width: 23% !important;
 		}
 	}
+	@media (max-width: 999px) and (min-width: 577px) {
+		.statment_enquiry_col {
+			padding-left: 80px !important;
+			padding-right: 40px !important;
+		}
+		.block_termination_col {
+			padding-left: 80px !important;
+		}
+		.benefit_icon {
+		    width: 45% !important;
+		}
+	}
 	@media only screen and (max-width: 576px){
 		.outer_benefit_box_row > .col-md-4 {
 		    flex: 0 0 auto;
@@ -252,6 +264,18 @@
 									<p class="fee_desc">Free</p>
 								</div>
 							</div>
+							<div class="row">
+								<div class="col-md-6 fee_charge_inner_div">
+									<p class="fee_title">International Transaction Fees</p>
+									<p class="fee_desc">Fees 25% ~ 50%</p>
+									<p class="fee_desc">(Note * Fees are subject to change without prior notice)</p>
+								</div>
+								<div class="col-md-6 fee_charge_inner_div">
+									<p class="fee_title">Other Fees</p>
+									<p class="fee_desc">Service Charges/ Fees will be inclusive based on the transaction types including refunds and reversal transactions.</p>
+								</div>
+							</div>
+							<p style="font-size: 12px;margin-bottom: 0px;">* Note: Cross currency mark-up fees will be applied for foreign transactions</p>
 						</div>
 					</div>
 				</div>
@@ -296,7 +320,7 @@
 					</div>
 					<div class="row statment_enquiry">
 						<div class="col-md-3"></div>
-						<div class="col-md-9 pad_left_mid">
+						<div class="col-md-9 pad_left_mid statment_enquiry_col">
 							<div class="space-30"></div>
 							<p style="font-weight: 700;">Statement Enquiry</p>
 							<p>Visit Nearest branches or Email to <a href="mailto:support.card@ayabank.com">support.card@ayabank.com</a> with cardholder’s name, NRC, and card number.</p>
@@ -311,7 +335,7 @@
 					</div>
 					<div class="row card_block_termination">
 						<div class="col-md-3"></div>
-						<div class="col-md-9 pad_left_mid">
+						<div class="col-md-9 pad_left_mid block_termination_col">
 							<div class="space-30"></div>
 							<p style="font-weight: 700;">Blocking and Termination</p>
 							<p>In case your card is missing, call to our Customer Services at <a href="tel:+9512317777">+95 1 2317777</a> or visit nearest visit branches for temporary card block and termination.</p>

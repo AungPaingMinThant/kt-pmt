@@ -2,109 +2,8 @@
 
 @section('title', 'AYA Pay – AYA Bank')
 <link rel="stylesheet" href="{{ url('/css/timeline.css') }}">
-<style type="text/css">
-	.outer_benefit_box {
-		padding: 20px !important;
-		border: 1px solid #dedede;
-		border-radius: 10px;
-		margin-bottom: 20px;
-		margin-top: 40px;
-	}
-	.why_use_AYA_outer > .col-md-6 {
-		width: 48%;
-	}
-	.apply_now_btn {
-		background-color: #ae071d !important;
-		color: #fff !important;
-		padding: 15px 25px !important;
-		border-color: #ae071d !important;
-		margin-bottom: 2rem !important;
-	}
-	.apply_now_btn:hover{
-		background-color: #fff !important;
-		border-color: #ae071d !important;
-		color: #ae071d !important;
-	}
-	.need_more_support_section_inner {
-		padding: 10px 100px 10px 100px;
-		background-image: url('./images/ayapay/explore_bg.png');
-		background-size: cover;
-		border-radius: 6px;
-	}
-	.merchant_agent_div {
-		column-gap: 20px;
-		width: 100%;
-	}
-	.merchant_agent_div > .col-md-6 {
-		width: 49%;
-	}
-	.need_more_support_section {
-	    padding: 40px 208px 0px 208px;
-	}
-	.reset_pin_btn {
-		background-color: #ae071d !important;
-		border: 1px solid #ae071d !important;
-		color: #fff !important;
-		font-weight: 500;
-		padding: 15px 25px !important;
-		margin-bottom: 2rem !important;
-	}
-	.reset_pin_btn:hover {
-		border: 1px solid #ae071d !important;
-		color: #ae071d !important;
-		background-color: #fff !important;
-	}
-	.need_more_support_section_merchant {
-	    padding: 40px 153px 40px 196px !important;
-	}
-	.secure_req_application_icon {
-		background-color: #a02226;
-		color: #fff;
-		border-radius: 50%;
-		font-size: 20px;
-	}
-	
-	@media (max-width: 1400px) and (min-width: 1301px) {
-		.merchant_agent_div > .col-md-6 {
-			width: 48%;
-		}
-	}
-	@media (max-width: 1300px) and (min-width: 577px) {
-		.why_use_AYA_outer > .col-md-6 {
-			width: 47%;
-		}
-		.need_more_support_section {
-		    padding: 40px 130px !important;
-		}
-		.need_more_support_section_inner {
-			padding: 40px 60px 60px 60px;
-			background-position: 60% center;
-		}
-		.merchant_agent_div > .col-md-6 {
-			width: 48%;
-		}
-		.tag_line_mascot {
-			margin-top: -50px;
-		}
-	}
-	@media only screen and (max-width: 576px){
-		.why_use_AYA_outer > .col-md-6 {
-			width: 100%;
-		}
-		.merchant_agent_div > .col-md-6 {
-			width: 100%;
-		}
-		.tag_line_mascot {
-			text-align: center;
-		}
-		.merchant_agent_div {
-			width: auto;
-		}
-		.need_more_support_section, .need_more_support_section_merchant {
-		    padding: 0px 20px !important;
-		}
-	}
-</style>
+<link rel="stylesheet" href="{{ url('/css/ayapay.css') }}">
+
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
@@ -194,11 +93,11 @@
 				<div class="container" style="">
 					<div class="row">
 						<div class="col-md-12 text-center d-none d-sm-block">
-							<img src="{{ url('/images/ayapay/ayapay_registration_title.png') }}" class="img-fluid" style="width: 50%">
+							<img src="{{ url('/images/ayapay/ayapay_registration_title.webp') }}" class="img-fluid" style="width: 50%">
 							<div class="space-60"></div>
 						</div>
 						<div class="col-md-12 text-center d-block d-sm-none">
-							<img src="{{ url('/images/ayapay/ayapay_registration_title.png') }}" class="img-fluid " >
+							<img src="{{ url('/images/ayapay/ayapay_registration_title.webp') }}" class="img-fluid " >
 							<div class="space-40"></div>
 						</div>					
 					</div>
@@ -206,15 +105,16 @@
 					<div class="d-none d-sm-block">
 						<div class="row" style="padding: 0px 50px;">
 							<div class="col-md-4 text-right">
-								<img src="{{ url('/images/ayapay/reg_phone_1.png') }}" class="img-fluid reg_phone reg_phone_1" style="margin-bottom: 20px;margin-left:90px;">
-								<img src="{{ url('/images/ayapay/reg_phone_2.png') }}" class="img-fluid reg_phone d-none reg_phone_2" style="margin-bottom: 20px;margin-left:90px;">
-								<img src="{{ url('/images/ayapay/reg_phone_3.png') }}" class="img-fluid reg_phone d-none reg_phone_3" style="margin-bottom: 20px;margin-left:90px;">
-								<img src="{{ url('/images/ayapay/reg_phone_4.png') }}" class="img-fluid reg_phone d-none reg_phone_4" style="margin-bottom: 20px;margin-left:90px;">
-								<img src="{{ url('/images/ayapay/reg_phone_5.png') }}" class="img-fluid reg_phone d-none reg_phone_5" style="margin-bottom: 20px;margin-left:90px;">
-								<img src="{{ url('/images/ayapay/reg_phone_6.png') }}" class="img-fluid reg_phone d-none reg_phone_6" style="margin-bottom: 20px;margin-left:90px;">
-								<img src="{{ url('/images/ayapay/reg_phone_7.png') }}" class="img-fluid reg_phone d-none reg_phone_7" style="margin-bottom: 20px;margin-left:90px;">
-								<img src="{{ url('/images/ayapay/reg_phone_8.png') }}" class="img-fluid reg_phone d-none reg_phone_8" style="margin-bottom: 20px;margin-left:90px;">
-								<img src="{{ url('/images/ayapay/reg_phone_9.png') }}" class="img-fluid reg_phone d-none reg_phone_9" style="margin-bottom: 20px;margin-left:90px;">
+								<img src="{{ url('/images/ayapay/Step1.webp') }}" class="img-fluid reg_phone reg_phone_1">
+								<img src="{{ url('/images/ayapay/Step2.webp') }}" class="img-fluid reg_phone d-none reg_phone_2">
+								<img src="{{ url('/images/ayapay/Step3.webp') }}" class="img-fluid reg_phone d-none reg_phone_3">
+								<img src="{{ url('/images/ayapay/Step4.webp') }}" class="img-fluid reg_phone d-none reg_phone_4">
+								<img src="{{ url('/images/ayapay/Step5.webp') }}" class="img-fluid reg_phone d-none reg_phone_5">
+								<img src="{{ url('/images/ayapay/Step6.webp') }}" class="img-fluid reg_phone d-none reg_phone_6">
+								<img src="{{ url('/images/ayapay/Step7.webp') }}" class="img-fluid reg_phone d-none reg_phone_7">
+								<img src="{{ url('/images/ayapay/Step8.webp') }}" class="img-fluid reg_phone d-none reg_phone_8">
+								<img src="{{ url('/images/ayapay/Step9.webp') }}" class="img-fluid reg_phone d-none reg_phone_9">
+								<img src="{{ url('/images/ayapay/Step10.webp') }}" class="img-fluid reg_phone d-none reg_phone_10">
 							</div>
 							<div class="col-md-8" style="padding-top: 0px;">
 								<ul class="timeline">
@@ -222,7 +122,7 @@
 										<div class="timeline-badge timeline-badge-1 active">1</div>
 										<div class="timeline-panel">
 											<div class="timeline-heading">
-												<p class="timeline-title">Input mobile number you want to open <b style="color: #c22236;">AYA Pay</b> account and click '<b style="color: #c22236;">Next</b>'.</p>
+												<p class="timeline-title">Input mobile number you want to open <b class="theme_text_color">AYA Pay</b> account and click '<b class="theme_text_color">Next</b>'.</p>
 											</div>
 										</div>
 									</li>
@@ -230,7 +130,7 @@
 										<div class="timeline-badge timeline-badge-2">2</div>
 										<div class="timeline-panel">
 											<div class="timeline-heading">
-												<p class="timeline-title">Key in <b style="color: #c22236;">4-digits OTP</b> received as <b style="color: #c22236;">SMS</b> in your mobile.</p>
+												<p class="timeline-title">Key in <b class="theme_text_color">4-digits OTP</b> received as <b class="theme_text_color">SMS</b> in your mobile.</p>
 											</div>
 										</div>
 									</li>
@@ -238,7 +138,7 @@
 										<div class="timeline-badge timeline-badge-3">3</div>
 										<div class="timeline-panel">
 											<div class="timeline-heading">
-												<p class="timeline-title">Input your data and click '<b style="color: #c22236;">Register</b>'.</p>
+												<p class="timeline-title">Take your <b class="theme_text_color">clear selfie </b>photo.</p>
 											</div>
 										</div>
 									</li>
@@ -246,7 +146,7 @@
 										<div class="timeline-badge timeline-badge-4">4</div>
 											<div class="timeline-panel">
 											<div class="timeline-heading">
-												<p class="timeline-title">Key in <b style="color: #c22236;">6-digits</b> PIN as your password.</p>
+												<p class="timeline-title">You may register your AYA Pay account with ID card <b class="theme_text_color"> (NRIC or Driving License or Passport)</b>.</p>
 											</div>
 										</div>
 									</li>
@@ -254,7 +154,7 @@
 							        	<div class="timeline-badge timeline-badge-5">5</div>
 							          	<div class="timeline-panel">
 							            	<div class="timeline-heading">
-							              		<p class="timeline-title">You will get new <b style="color: #c22236;">AYA Pay</b> account and select '<b style="color: #c22236;">Upgrade Full KYC</b>'.</p>
+							              		<p class="timeline-title">Upload <b class="theme_text_color">your ID card</b> (front & back).</p>
 							            	</div>
 							          	</div>
 							        </li>
@@ -262,7 +162,7 @@
 							        	<div class="timeline-badge timeline-badge-6">6</div>
 							          	<div class="timeline-panel">
 							            	<div class="timeline-heading">
-							              		<p class="timeline-title">Input your data and click '<b style="color: #c22236;">Upgrade</b>'.</p>
+							              		<p class="timeline-title">Fill in all the <b class="theme_text_color">required information</b> and click “Register”.</p>
 							            	</div>
 							          	</div>
 							        </li>
@@ -270,7 +170,7 @@
 							        	<div class="timeline-badge timeline-badge-7">7</div>
 							          	<div class="timeline-panel">
 							            	<div class="timeline-heading">
-							              		<p class="timeline-title">Key in <b style="color: #c22236;">4-digits OTP</b> received as SMS in your mobile.</p>
+							              		<p class="timeline-title">Key in <b class="theme_text_color">6-digit PIN</b> as your password.</p>
 							            	</div>
 							          	</div>
 							        </li>
@@ -278,7 +178,7 @@
 							        	<div class="timeline-badge timeline-badge-8">8</div>
 							          	<div class="timeline-panel">
 							            	<div class="timeline-heading">
-							              		<p class="timeline-title"><b style="color: #c22236;">AYA Pay</b> will do <b style="color: #c22236;">KYC</b> check and confirm in 24-hours.</p>
+							              		<p class="timeline-title">Click <b class="theme_text_color">upgrade Full KYC </b> to upgrade Level 1.5 to Level 2.</p>
 							            	</div>
 							          	</div>
 							        </li>
@@ -286,7 +186,15 @@
 							        	<div class="timeline-badge timeline-badge-9">9</div>
 							          	<div class="timeline-panel">
 							            	<div class="timeline-heading">
-							              		<p class="timeline-title">You can get started with <b style="color: #c22236;">AYA Pay</b>.</p>
+							              		<p class="timeline-title">Check all the information and click <b class="theme_text_color">“Change”</b>.</p>
+							            	</div>
+							          	</div>
+							        </li>
+							        <li class="timeline-inverted">
+							        	<div class="timeline-badge timeline-badge-10">10</div>
+							          	<div class="timeline-panel">
+							            	<div class="timeline-heading">
+							              		<p class="timeline-title">AYA Pay will do KYC check and confirm in 24-hours.</p>
 							            	</div>
 							          	</div>
 							        </li>
@@ -296,41 +204,45 @@
 					</div>
 					<div class="d-block d-sm-none">
 						<div class="row">
-							<div class="col-sm-12 text-center">
-								<img src="{{ url('/images/ayapay/reg_phone_1_old.png') }}" class="img-fluid" style="margin-bottom: 20px;">
-								<p style="padding: 0px 10px;">1. Input mobile number you want to open <b style="color: #c22236;">AYA Pay</b> account and click '<b style="color: #c22236;">Next</b>'.</p>
+							<div class="col-sm-12 text-center" style="margin-bottom: 20px;">
+								<img src="{{ url('/images/ayapay/Step1.webp') }}" class="img-fluid reg_phone_mobile" style="margin-bottom: 20px;">
+								<p style="padding: 0px 10px;">1. Input mobile number you want to open <b class="theme_text_color">AYA Pay</b> account and click '<b class="theme_text_color">Next</b>'.</p>
 							</div>
-							<div class="col-sm-12 text-center">
-								<img src="{{ url('/images/ayapay/reg_phone_2_old.png') }}" class="img-fluid" style="margin-bottom: 20px;">
-								<p style="padding: 0px 10px;">2. Key in <b style="color: #c22236;">4-digits OTP</b> received as <b style="color: #c22236;">SMS</b> in your mobile.</p>
+							<div class="col-sm-12 text-center" style="margin-bottom: 20px;">
+								<img src="{{ url('/images/ayapay/Step2.webp') }}" class="img-fluid reg_phone_mobile" style="margin-bottom: 20px;">
+								<p style="padding: 0px 10px;">2. Key in <b class="theme_text_color">4-digits OTP</b> received as <b class="theme_text_color">SMS</b> in your mobile.</p>
 							</div>
-							<div class="col-sm-12 text-center">
-								<img src="{{ url('/images/ayapay/reg_phone_3_old.png') }}" class="img-fluid" style="margin-bottom: 20px;">
-								<p>3. Input your data and click '<b style="color: #c22236;">Register</b>'.</p>
+							<div class="col-sm-12 text-center" style="margin-bottom: 20px;">
+								<img src="{{ url('/images/ayapay/Step3.webp') }}" class="img-fluid reg_phone_mobile" style="margin-bottom: 20px;">
+								<p>3. Take your <b class="theme_text_color">clear selfie </b>photo.</p>
 							</div>
-							<div class="col-sm-12 text-center">
-								<img src="{{ url('/images/ayapay/reg_phone_4_old.png') }}" class="img-fluid" style="margin-bottom: 20px;">
-								<p>4. Key in <b style="color: #c22236;">6-digits</b> PIN as your password.</p>
+							<div class="col-sm-12 text-center" style="margin-bottom: 20px;">
+								<img src="{{ url('/images/ayapay/Step4.webp') }}" class="img-fluid reg_phone_mobile" style="margin-bottom: 20px;">
+								<p>4. You may register your AYA Pay account with ID card <b class="theme_text_color"> (NRIC or Driving License or Passport)</b>.</p>
 							</div>
-							<div class="col-sm-12 text-center">
-								<img src="{{ url('/images/ayapay/reg_phone_5_old.png') }}" class="img-fluid" style="margin-bottom: 20px;">
-								<p style="padding: 0px 20px;">5. You will get new <b style="color: #c22236;">AYA Pay</b> account and select '<b style="color: #c22236;">Upgrade Full KYC</b>'.</p>
+							<div class="col-sm-12 text-center" style="margin-bottom: 20px;">
+								<img src="{{ url('/images/ayapay/Step5.webp') }}" class="img-fluid reg_phone_mobile" style="margin-bottom: 20px;">
+								<p style="padding: 0px 20px;">5. Upload <b class="theme_text_color">your ID card</b> (front & back).</p>
 							</div>
-							<div class="col-sm-12 text-center">
-								<img src="{{ url('/images/ayapay/reg_phone_6_old.png') }}" class="img-fluid" style="margin-bottom: 20px;">
-								<p>6. Input your data and click '<b style="color: #c22236;">Upgrade</b>'.</p>
+							<div class="col-sm-12 text-center" style="margin-bottom: 20px;">
+								<img src="{{ url('/images/ayapay/Step6.webp') }}" class="img-fluid reg_phone_mobile" style="margin-bottom: 20px;">
+								<p>6. Fill in all the <b class="theme_text_color">required information</b> and click “Register”.</p>
 							</div>
-							<div class="col-sm-12 text-center">
-								<img src="{{ url('/images/ayapay/reg_phone_7_old.png') }}" class="img-fluid" style="margin-bottom: 20px;">
-								<p>7. Key in <b style="color: #c22236;">4-digits OTP</b> received as SMS in your mobile.</p>
+							<div class="col-sm-12 text-center" style="margin-bottom: 20px;">
+								<img src="{{ url('/images/ayapay/Step7.webp') }}" class="img-fluid reg_phone_mobile" style="margin-bottom: 20px;">
+								<p>7. Key in <b class="theme_text_color">6-digit PIN</b> as your password.</p>
 							</div>
-							<div class="col-sm-12 text-center">
-								<img src="{{ url('/images/ayapay/reg_phone_8_old.png') }}" class="img-fluid" style="margin-bottom: 20px;">
-								<p style="padding: 0px 10px;">8. <b style="color: #c22236;">AYA Pay</b> will do <b style="color: #c22236;">KYC</b> check and confirm in 24-hours.</p>
+							<div class="col-sm-12 text-center" style="margin-bottom: 20px;">
+								<img src="{{ url('/images/ayapay/Step8.webp') }}" class="img-fluid reg_phone_mobile" style="margin-bottom: 20px;">
+								<p style="padding: 0px 10px;">8. Click <b class="theme_text_color">upgrade Full KYC </b> to upgrade Level 1.5 to Level 2.</p>
 							</div>
-							<div class="col-sm-12 text-center">
-								<img src="{{ url('/images/ayapay/reg_phone_9_old.png') }}" class="img-fluid" style="margin-bottom: 20px;">
-								<p style="padding: 0px 10px;">9. You can get started with <b style="color: #c22236;">AYA Pay</b>.</p>
+							<div class="col-sm-12 text-center" style="margin-bottom: 20px;">
+								<img src="{{ url('/images/ayapay/Step9.webp') }}" class="img-fluid reg_phone_mobile" style="margin-bottom: 20px;">
+								<p style="padding: 0px 10px;">9. Check all the information and click <b class="theme_text_color">“Change”</b>.</p>
+							</div>
+							<div class="col-sm-12 text-center" style="margin-bottom: 20px;">
+								<img src="{{ url('/images/ayapay/Step10.webp') }}" class="img-fluid reg_phone_mobile" style="margin-bottom: 20px;">
+								<p style="padding: 0px 10px;">10. AYA Pay will do KYC check and confirm in 24-hours.</p>
 							</div>
 						</div>
 					</div>
@@ -372,7 +284,7 @@
 			<div class="need_more_support_section">
 				<div class="container d-none d-sm-block need_more_support_section_inner">
 					<div class="row">
-						<div class="col-md-7 col-xs-12" style="padding-top: 80px;padding-left: 50px;">
+						<div class="col-md-7 col-xs-12 explore_cta_col">
 							<p style="font-weight: 500;font-size: 20px;margin-bottom: 5px;">Explore more on <span style="color: #a02225;">AYA Pay</span></p>
 							<a href="https://www.ayapay.com/" target="_blank">
 								<button class="btn reset_pin_btn">
@@ -474,6 +386,12 @@
 		$(".timeline-badge-9").addClass('active');
 		$(".reg_phone").addClass('d-none');
 		$(".reg_phone_9").removeClass('d-none');
+	});
+	$(".timeline-badge-10").click(function() {
+		$(".timeline-badge").removeClass('active');
+		$(".timeline-badge-10").addClass('active');
+		$(".reg_phone").addClass('d-none');
+		$(".reg_phone_10").removeClass('d-none');
 	});
 </script>
 

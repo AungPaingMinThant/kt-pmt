@@ -24,7 +24,7 @@
     color: #fff !important;
     border: 1px solid #a02225 !important;
     padding: 12px 30px !important;
-    font-size: 16px !important;
+/*    font-size: 16px !important;*/
     font-weight: 400 !important;
     border-radius: 10px !important;
 }
@@ -256,6 +256,9 @@
 .com_approval_tab_txt {
 	padding: 20px 150px 0px 150px !important;
 }
+.packages_list {
+	width: 90%;
+}
 @media (max-width: 1400px) and (min-width: 1301px) {
 	.carousel-indicators{
 		left: 85% !important;
@@ -298,7 +301,7 @@
 		display: contents;
 	}
 }
-@media (max-width: 1024px) and (min-width: 577px) {
+@media (max-width: 1024px) and (min-width: 1000px) {
 	.ac_service_extra_line, .dual_control_extra_line {
 		display: contents;
 	}
@@ -310,6 +313,26 @@
 	}
 	.packages_main{
 		padding: 40px 20px;
+	}
+	.tab_section_1 {
+	    padding: 0px 20px !important;
+	}
+	.packages_list {
+		width: 85%;
+	}
+}
+@media (max-width: 999px) and (min-width: 577px) {
+	.tab_section_1 {
+	    padding: 0px 20px !important;
+	}
+	.benefit_feature_box {
+		width: 50% !important;
+	}
+	.packages_list {
+		width: 80%;
+	}
+	.payment_service_img {
+	    width: 30% !important;
 	}
 }
 @media only screen and (max-width: 576px){
@@ -344,9 +367,6 @@
 	.basic_pack_allow {
 		margin-bottom: auto;
 	}
-	.packages_list {
-		margin-left: 25px;
-	}
 	.packages_main{
 		padding: 40px 20px 20px 20px;
 		width: 100% !important;
@@ -362,5 +382,8 @@
 	}
 	.com_approval_tab_txt {
 		padding: 20px 20px 0px 20px !important;
+	}
+	.packages_list {
+		width: 85%;
 	}
 }

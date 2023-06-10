@@ -30,6 +30,11 @@
 .cib_banner{
 	background-image:url('../images/corporate_internet_banking/KV.jpg');
 }
+.cib_banner_tagline {
+	position: absolute;
+	top: 156px;
+	right: 130px;
+}
 .digital_secure_banner {
 	background-image:url('../images/digital_secure/KV.jpg');
 }
@@ -40,7 +45,7 @@
 	background-image:url('../images/POS/KV.jpg');
 }
 .ayapay_banner {
-	background-image:url('../images/ayapay/KV.jpg');
+	background-image:url('../images/ayapay/KV.webp');
 }
 .atm_banner {
 	background-image:url('../images/atm/KV.jpg');
@@ -55,8 +60,7 @@
 	top: 156px;
 	right: 0;
 }
-.debit_banner_tag_mid, .credit_banner_tag_mid, .ecommerce_banner_tag_mid, .prepaid_banner_tag_mid,
-.frequently_tag_mid, .pos_tag_mid, .ayapay_tag_mid, .mb_tag_mid, .digital_secure_tag_mid
+.ecommerce_banner_tag_mid, .frequently_tag_mid, .ayapay_tag_mid, .mb_tag_mid, .digital_secure_tag_mid
 {
 	display: none;
 }
@@ -472,8 +476,32 @@
     left: 60px;
     right: 200px;
 }
-
-
+.smsalert_banner_tagline {
+	position: absolute;
+	top: 156px;
+	right: 170px;
+}
+.debit_banner_tagline {
+	position: absolute;
+	top: 156px;
+	right: 170px;
+}
+.credit_banner_tagline {
+	position: absolute;
+	top: 156px;
+	right: 0;
+}
+.prepaid_banner_tagline {
+	position: absolute;
+	top: 156px;
+	right: 0;
+}
+.pos_tagline {
+	position: absolute;
+	top: 156px;
+	right: 170px;
+    left: 100px;
+}
 @media (max-width: 1550px) and (min-width: 577px) {
 	.creditcard_banner{
 		background-position: 60% center;
@@ -547,6 +575,15 @@
 	    left: 60px;
 	    right: 140px;
 	}
+	.smsalert_banner_tagline {
+	    right: 100px;
+	}
+	.debit_banner_tagline {
+	    right: 90px;
+	}
+	.pos_tagline {
+	    left: 40px;
+	}
 }
 @media (max-width: 1300px) and (min-width: 1201px) {
 	.health_ins_banner, .fire_ins_banner, .motor_ins_banner, .pa_ins_banner, .aya_go_ins_banner, .aya_joy_ins_banner, 
@@ -559,6 +596,12 @@
 	.family_img_div {
 		width: 42% !important;
 	}
+	.debit_banner_tagline {
+	    right: 90px;
+	}
+	.pos_tagline {
+	    left: 40px;
+	}
 }
 @media (max-width: 1200px) and (min-width: 1000px) {
 	.health_ins_banner, .fire_ins_banner, .motor_ins_banner, .pa_ins_banner, .aya_go_ins_banner, .aya_joy_ins_banner, 
@@ -567,6 +610,17 @@
 	.bu_car_ear_insurance_banner, .bu_IAR_insurance_banner, .bu_group_life_insurance_banner
 	{
 		height: 310px;
+	}
+	.smsalert_banner_tagline {
+	    right: 30px;
+	}
+	.debit_banner_tagline {
+	    right: 10px;
+	}
+	.pos_tagline {
+	    top: 156px;
+	    right: 100px;
+	    left: 20px;
 	}
 }
 @media (max-width: 1300px) and (min-width: 1000px) {
@@ -593,13 +647,12 @@
 	.smsalert_banner, .prepaid_banner {
 	    background-position: 70% center;
 	}
-	.debit_banner_tag, .credit_banner_tag, .ecommerce_banner_tag, .prepaid_banner_tag, .frequently_tag,
-	.pos_tag, .ayapay_tag, .mb_tag, .digital_secure_tag
+	.ecommerce_banner_tag, .frequently_tag,
+	.ayapay_tag, .mb_tag, .digital_secure_tag
 	{
 		display: none;
 	}
-	.debit_banner_tag_mid, .credit_banner_tag_mid, .ecommerce_banner_tag_mid, .prepaid_banner_tag_mid,
-	.frequently_tag_mid, .pos_tag_mid, .ayapay_tag_mid, .mb_tag_mid, .digital_secure_tag_mid
+	.ecommerce_banner_tag_mid, .frequently_tag_mid, .ayapay_tag_mid, .mb_tag_mid, .digital_secure_tag_mid
 	{
 		display: block;
 	}
@@ -607,7 +660,7 @@
 	    background-position: center;
 	}
 	.ayapay_banner {
-	    background-position: 90% center;
+	    background-position: 30% center;
 	}
 	.atm_banner {
 	    background-position: 90% center;
@@ -883,6 +936,9 @@
 	    right: 60px;
 	    left: 40px;
 	}
+	.smsalert_banner_tagline {
+	    right: 100px;
+	}
 }
 @media (max-width: 999px) and (min-width: 577px) {
 	.meet_our_leaders_banner, .aya_bank_profile_banner, .stakeholder_management_banner, .risk_management_banner,
@@ -893,6 +949,52 @@
 	.risk_management_banner_tagline, .risk_governance_banner_tagline, .risk_mgmt_framework_banner_tagline, .risk_mgmt_ctl_banner_tagline,
 	.managing_risk_banner_tagline, .compliance_banner_tagline {
 	    right: 80px;
+	}
+	.cib_banner > .container > .row > .col-md-6 {
+		width: 70% !important;
+	}
+	.cib_banner{
+		background-position: 75% center;
+	}
+	.cib_banner_tagline {
+	    position: absolute;
+	    top: 70px;
+	    right: 0;
+	}
+	.ayapay_banner {
+		background-image: url(../images/ayapay/mobile_KV.webp);
+		background-position: center 90%;
+	}
+	.ibanking_banner, .ecommerce_banner, .pos_banner {
+		background-position: 80% center;
+	}
+	.smsalert_banner {
+		background-position: 60% center;
+	}
+	.smsalert_banner_tagline {
+	    right: -70px;
+	}
+	.debitcard_banner {
+		background-position: 75% center;
+	}
+	.debit_banner_tagline {
+	    top: 40px;
+	    right: -100px;
+	}
+	.creditcard_banner{
+		background-position: 95% center;
+	}
+	.credit_banner_tagline {
+	    top: 30px;
+	    right: -270px;
+	}
+	.prepaid_banner {
+		background-position: 65% center;
+	}
+	.pos_tagline {
+    	top: 150px;
+	    right: 0px;
+	    left: 10px;
 	}
 }
 @media only screen and (max-width: 576px) {
@@ -956,8 +1058,8 @@
 		background-position: 90% center;
 	}
 	.ayapay_banner {
-		background-image:url('../images/ayapay/mobile_KV.jpg');
-		background-position: 80% center;
+		background-image:url('../images/ayapay/mobile_KV.webp');
+		background-position: 90% center;
 	}
 	.atm_banner {
 		background-image:url('../images/atm/mobile_KV.jpg');

@@ -220,7 +220,20 @@
 	    padding-top: 10px !important;
 	}
 }
-
+@media (max-width: 999px) and (min-width: 577px) {
+	.tag_line {
+	    padding: 20px 10px 20px 0px !important;
+	}
+	.tag_line_mascot {
+	    margin-top: -80px !important;
+	}
+	.faq_section {
+		padding: 0px 40px !important;
+	}
+	.need_more_support_section {
+	    padding: 40px 50px 0px 50px !important;
+	}
+}
 @media  only screen and (max-width: 576px) {
     .section_1 {
 		padding: 0px 50px;

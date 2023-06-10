@@ -1,0 +1,276 @@
+.nav-align-top .nav-tabs .nav-item:first-child .nav-link {
+	border-top:  none;
+	border-left: none;
+	border-right: none;
+	box-shadow: none;
+}
+.tab_title > span {
+	padding: 20px 0px;
+}
+.nav-align-top .nav-tabs .tab_title.active span {
+	border-bottom: 5px solid #a02226;
+}
+.nav-pills .tab_title.active, .nav-pills .tab_title.active:hover, .nav-pills .tab_title.active:focus {
+	background-color: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    border-bottom: 5px solid #ae002c;
+    border-radius: 0;
+    font-weight: 500;
+}
+.nav .tab_title:hover, .nav .tab_title:focus {
+	color: #000 !important;
+}
+.nav-pills .tab_title {
+	font-weight: 400;
+	font-size: 16px;
+}
+.tab-content {
+	box-shadow: none !important;
+}
+/* tab:end */
+
+.step_point_title {
+	color: #000;
+	font-size: 13px !important;
+	font-weight: 600 !important;
+}
+.step_desc {
+	color: #000;
+	font-size: 13px !important;
+}
+.step_points {
+	padding-left: 15px;
+	list-style: square;
+}
+.slide-content-available > .swiper-wrapper > .swiper-slide-active {
+    background-color: #f2f2f2;
+}
+.slide-content-available > .swiper-wrapper {
+	height: 95% !important;
+}
+.slide-content-quick-cash-withdrawl > .swiper-wrapper, .slide-content-cardless-withdrawal > .swiper-wrapper,
+.slide-content-balance-inquiry > .swiper-wrapper, .slide-content-fund-transfer > .swiper-wrapper {
+	height: 85% !important;
+}
+
+.outer_benefit_box {
+	padding: 20px !important;
+	border: 1px solid #dedede;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+.why_use_AYA_outer > .col-md-6 {
+	width: 48%;
+}
+.apply_now_btn {
+	background-color: #ae071d !important;
+	color: #fff !important;
+	padding: 15px 25px !important;
+	border-color: #ae071d !important;
+	margin-bottom: 2rem !important;
+}
+.apply_now_btn:hover{
+	background-color: #fff !important;
+	border-color: #ae071d !important;
+	color: #ae071d !important;
+}
+.need_more_support_section_inner {
+	padding: 10px 100px 10px 100px;
+	background-image: url('./images/ayapay/explore_bg.png');
+	background-size: cover;
+	border-radius: 6px;
+}
+.merchant_agent_div {
+	column-gap: 20px;
+	width: 100%;
+}
+.merchant_agent_div > .col-md-6 {
+	width: 49%;
+}
+.need_more_support_section {
+    padding: 40px 208px 0px 208px;
+}
+.reset_pin_btn {
+	background-color: #ae071d !important;
+	border: 1px solid #ae071d !important;
+	color: #fff !important;
+	font-weight: 500;
+	padding: 15px 25px !important;
+	margin-bottom: 2rem !important;
+}
+.reset_pin_btn:hover {
+	border: 1px solid #ae071d !important;
+	color: #ae071d !important;
+	background-color: #fff !important;
+}
+.swiper-navBtn{
+	color: #d7d7d8;
+	transition: color 0.3s ease;
+	top: 40%;
+	border: 1px solid #dedede;
+}
+.swiper-navBtn:hover{
+	color: #979797;
+	border: 1px solid #979797;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+	font-size: 20px;
+}
+.swiper-button-next{
+	right: 0 !important;
+	border-radius: 50%;
+    padding: 20px 20px 20px 23px;
+}
+.swiper-button-prev{
+	left: 0 !important;
+	border-radius: 50%;
+    padding: 20px 23px 20px 20px;
+}
+.swiper-pagination-bullet{
+	background-color: #6E93f7;
+	opacity: 1;
+}
+.swiper-pagination-bullet-active{
+	background-color: #4070F4;
+}
+.card {
+	box-shadow: none !important;
+	padding: 30px 20px 20px 20px !important;
+    border: 1px solid #dedede !important;
+    border-radius: 10px !important;
+}
+.swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+	transform: translate(-50%,40%) !important;
+	padding: 5px;
+}
+.swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,13px));
+    height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,13px));
+}
+.swiper-pagination-bullet {
+	background-color: #c3c3c3;
+}
+.swiper-pagination-bullet-active {
+	background-color: #982801;
+	border: 2px solid #fff;
+		outline: 2px solid #982801;
+}
+.swiper-wrapper {
+	height: 85%;
+}
+.slide-content-desktop > .swiper-wrapper > .swiper-slide-active {
+	width: 60% !important;
+}
+.slide-content-desktop > .slide-wrapper > .swiper-slide-next {
+	opacity: 0.4;
+	width: 60% !important;
+}
+.fee_title {
+	color: #5c5c5c;
+	margin-bottom: 5px;
+}
+.fee_desc {
+	color: #000;
+	font-size: 13px;
+	margin-bottom: 0px;
+}
+.services_overview_div{
+	padding-left: 120px !important;
+}
+.available_services_div {
+	padding-left: 77px !important;
+}
+.modal-body {
+    padding: 0.5rem 1.5rem !important;
+}
+.modal .modal-dialog:not(.modal-fullscreen) {
+	padding: 0px !important;
+}
+
+.img-hover-zoom {
+	height: fit-content;
+	width: fit-content;
+	overflow: hidden;
+	border-radius: 10px;
+}
+.img-hover-zoom--zoom-n-rotate img {
+  transition: transform .5s ease-in-out;
+}
+.available_ATM_card_service_div:hover {
+	cursor: pointer;
+}
+.available_ATM_card_service_div:hover .img-hover-zoom--zoom-n-rotate img {
+	transform: scale(1.2) rotate(3deg);
+}
+.available_ATM_card_service_div:hover p {
+	text-decoration: underline !important;
+	color: #a02226 !important;
+}
+.services_overview_section {
+    padding: 0px 100px;
+}
+@media (max-width: 1300px) and (min-width: 1000px) {
+	.why_use_AYA_outer > .col-md-6 {
+		width: 47%;
+	}
+	.need_more_support_section {
+	    padding: 40px 130px !important;
+	}
+	.need_more_support_section_inner {
+		padding: 40px 60px 60px 60px;
+		background-position: 60% center;
+	}
+	.merchant_agent_div > .col-md-6 {
+		width: 48%;
+	}
+	.tag_line_mascot {
+		margin-top: -50px;
+	}
+	.services_overview_div{
+		padding-left: 85px !important;
+	}
+}
+@media (max-width: 999px) and (min-width: 577px) {
+	.services_overview_section {
+	    padding: 0px 40px;
+	}
+	.slide-content-desktop > .swiper-wrapper > .swiper-slide-active {
+	    width: 75% !important;
+	}
+	.modal-dialog {
+	    max-width: 45rem !important;
+	    margin: 1.75rem auto !important;
+	}
+}
+@media only screen and (max-width: 576px){
+	.why_use_AYA_outer > .col-md-6 {
+		width: 100%;
+	}
+	.merchant_agent_div > .col-md-6 {
+		width: 100%;
+	}
+	.tag_line_mascot {
+		text-align: center;
+	}
+	.merchant_agent_div {
+		width: auto;
+	}
+	.need_more_support_section {
+	    padding: 0px 20px !important;
+	}
+	.swiper-wrapper{
+	    height: 90%;
+	}
+	.services_overview_div{
+		padding-left: 15px !important;
+	}
+	.slide-content-available > .swiper-wrapper {
+		height: 90% !important;
+	}
+	.modal-body {
+		padding-bottom: 40px !important;
+	}
+}

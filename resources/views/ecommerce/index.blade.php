@@ -89,9 +89,32 @@
 		font-size: 20px;
 		padding: 0px 70px;
 	}
+	.features_benefit_icon {
+		width: 30% !important;
+	}
 	@media (min-width: 768px){
 		.col-md-3 {
 		    width: 23% !important;
+		}
+	}
+	@media (max-width: 1200px) and (min-width: 1000px) {
+		.features_benefit_icon {
+			width: 45% !important;
+		}
+	}
+	@media (max-width: 999px) and (min-width: 577px) {
+		.features_benefit_icon {
+			width: 45% !important;
+		}
+		.tab_section_1 {
+		    padding: 0px 30px !important;
+		}
+		.why_use_AYA {
+		    padding: 20px 10px !important;
+		}
+		.credit_tag_line {
+		    font-size: 18px;
+		    padding: 0px;
 		}
 	}
 	@media only screen and (max-width: 576px){
@@ -177,32 +200,32 @@
 								<div class="row tab_data_row" >
 									<div class="col-md-4 benefit_feature_box" style="padding: 20px;">
 										<div class="row why_use_AYA simple_login_div">
-											<img src="{{ url('/images/ecommerce/Experience_seamless_payment_services.png') }}" class="img-fluid" style="width: 30%;">
+											<img src="{{ url('/images/ecommerce/Experience_seamless_payment_services.png') }}" class="img-fluid features_benefit_icon">
 											<p style="color: #4e4e4e;margin-top: 20px;">Experience seamless payment services "Secure Payment gateway and reliable processing" with AYA for international widely known brands.</p>
 										</div>
 									</div>
 									<div class="col-md-4 benefit_feature_box" style="padding: 20px;">
 										<div class="row why_use_AYA simple_login_div">
-											<img src="{{ url('/images/ecommerce/One_stop_service.png') }}" class="img-fluid" style="width: 30%;">
+											<img src="{{ url('/images/ecommerce/One_stop_service.png') }}" class="img-fluid features_benefit_icon">
 											<p style="color: #4e4e4e;margin-top: 20px;">One stop service for all major card networks and 99.999% uptime for international networks.</p>
 										</div>
 									</div>
 									<div class="col-md-4 benefit_feature_box" style="padding: 20px;">
 										<div class="row why_use_AYA simple_login_div">
-											<img src="{{ url('/images/ecommerce/multiple_payment_channels.png') }}" class="img-fluid" style="width: 30%;">
+											<img src="{{ url('/images/ecommerce/multiple_payment_channels.png') }}" class="img-fluid features_benefit_icon">
 											<p style="color: #4e4e4e;margin-top: 20px;">Support with multiple payment channels such as Mobile, Web, Kiosk, POS and Mobile POS.</p>
 										</div>
 									</div>
 									<div class="col-md-4 benefit_feature_box" style="padding: 20px;">
 										<div class="row why_use_AYA simple_login_div">
-											<img src="{{ url('/images/ecommerce/Secure_Transactions.png') }}" class="img-fluid" style="width: 30%;">
-											<p style="color: #4e4e4e;margin-top: 20px;">Secure Transactions: Extensively provides 3D Secure (3-domain structure) authentication that helps to prevent frauds and unauthorized transactions for all cards.</p>
+											<img src="{{ url('/images/ecommerce/Secure_Transactions.png') }}" class="img-fluid features_benefit_icon">
+											<p style="color: #4e4e4e;margin-top: 20px;">Secure Transactions: Extensively provides 3D Secure (3-domain structure) authentication that helps to prevent frauds and unauthorized transactions.</p>
 										</div>
 									</div>
 									<div class="col-md-4 benefit_feature_box" style="padding: 20px;">
 										<div class="row why_use_AYA simple_login_div">
-											<img src="{{ url('/images/ecommerce/Accelerate_your_Speed_to_market.png') }}" class="img-fluid" style="width: 30%;">
-											<p style="color: #4e4e4e;margin-top: 20px;">Accelerate your Speed to market. Your relationship managers will assist you for further application process.</p>
+											<img src="{{ url('/images/ecommerce/Accelerate_your_Speed_to_market.png') }}" class="img-fluid features_benefit_icon">
+											<p style="color: #4e4e4e;margin-top: 20px;">Accelerate your Speed to market. Our relationship managers will assist you for further application process.</p>
 										</div>
 									</div>
 								</div>
@@ -220,7 +243,7 @@
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-md-11 col-10 secure_credit_fact">
-												<p>All Business entity must be incorporated in Myanmar. </p>
+												<p>All Business entity must be incorporated in Myanmar.</p>
 											</div>
 										</div>
 										<div class="row">
@@ -228,7 +251,7 @@
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-md-11 col-10 secure_credit_fact">
-												<p>Need to provide Business License from Yangon city Development Committee (or) Company license from DICA and Copy of owner’s NRC.</p>
+												<p> Need to provide Business License from Yangon city Development Committee (or) Company license from DICA, Copy of owner’s NRC and Copy of owner’s household list.</p>
 											</div>
 										</div>
 										<div class="row">
@@ -236,7 +259,7 @@
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-md-11 col-10 secure_credit_fact">
-												<p>Applicant must have any accounts at AYA.</p>
+												<p>Applicant must have any account at AYA. We prefer new business call account.</p>
 											</div>
 										</div>
 									</div>
@@ -334,48 +357,6 @@
 								<div class="accordion-body">
 									<p>
 										3D Secure Programme is an additional layer of card holder authentication on online card transactions. For online transactions, cardholder will be redirected to a 3DS secure page for cardholder verification (such as OTP).
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="headingSix">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-									What are the Payment Gateways that AYA Credit Card support?
-								</button>
-							</h2>
-							<div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-								<div class="accordion-body">
-									<p>
-										We support certified payment gateways, including MPU, VISA, MASTERCARD and JCB.
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="headingSeven">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-									What are the online payment services provided by AYA and Payment Gateways?
-								</button>
-							</h2>
-							<div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-								<div class="accordion-body">
-									<p>
-										We support majority of ecommerce services.
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="headingEight">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-									How do I integrate with the Payment Gateways and AYA?
-								</button>
-							</h2>
-							<div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
-								<div class="accordion-body">
-									<p>
-										Bank will provide required specifications to merchant directly.
 									</p>
 								</div>
 							</div>

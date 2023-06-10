@@ -235,7 +235,7 @@
 										<div class="row">
 											<p style="color: #4e4e4e;">You will be debited for each given account every month by our postpaid model.</p>
 											<p style="color: #4e4e4e;"><b>Initial Fees:</b> No application fees or processing fees.</p>
-											<p style="color: #4e4e4e;"><b>Monthly Fees:</b> MMK 1,500 per personal account, MMK 3,000 Ks per corporate account</p>
+											<p style="color: #4e4e4e;"><b>Monthly Fees:</b> MMK 1,500 per personal account, MMK 2,000 Ks per corporate account</p>
 											<p style="color: #4e4e4e;"><b>Cancellation Fee:</b> No cancellation fees. Just one month notice of service termination must be given to the bank.</p>
 										</div>
 									</div>
@@ -346,7 +346,7 @@
 							<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
 								<div class="accordion-body">
 									<p>
-										The process may take approximately 7 working days in order to get access SMS Alert Service.
+										The process may take approximately 3 working days in order to get access SMS Alert Service.
 									</p>
 								</div>
 							</div>
@@ -360,7 +360,7 @@
 							<div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
 								<div class="accordion-body">
 									<p>
-										Yes.
+										Yes. It is eligible to all telecommunications operating in Myanmar.
 									</p>
 								</div>
 							</div>
@@ -474,7 +474,7 @@
 								<div class="accordion-body">
 									<p>
 										You may link all your deposit accounts to your particular phone number. <br>
-										However, charges are 1500 Kyats per account for Individual and 3000 Kyats per account for Corporate.
+										However, charges are 1500 Kyats per account for Individual and 2,000 Kyats per account for Corporate.
 									</p>
 								</div>
 							</div>

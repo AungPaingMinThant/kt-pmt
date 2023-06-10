@@ -2,274 +2,8 @@
 
 @section('title', 'ATM – AYA Bank')
 <link rel="stylesheet" href="{{ url('/css/swiper-bundle.min.css') }}" />
-<style type="text/css">
-	/* tab */
-	.nav-align-top .nav-tabs .nav-item:first-child .nav-link {
-    	border-top:  none;
-    	border-left: none;
-    	border-right: none;
-    	box-shadow: none;
-    }
-    .tab_title > span {
-    	padding: 20px 0px;
-    }
-    .nav-align-top .nav-tabs .tab_title.active span {
-    	border-bottom: 5px solid #a02226;
-    }
-    .nav-pills .tab_title.active, .nav-pills .tab_title.active:hover, .nav-pills .tab_title.active:focus {
-    	background-color: transparent !important;
-	    color: #000 !important;
-	    box-shadow: none !important;
-	    border-bottom: 5px solid #ae002c;
-	    border-radius: 0;
-	    font-weight: 500;
-    }
-    .nav .tab_title:hover, .nav .tab_title:focus {
-    	color: #000 !important;
-    }
-    .nav-pills .tab_title {
-    	font-weight: 400;
-    	font-size: 16px;
-    }
-    .tab-content {
-		box-shadow: none !important;
-	}
-	.tab_section_1 {
-	/*	    padding: 0px 100px !important;*/
-	}
-	/* tab:end */
+<link rel="stylesheet" href="{{ url('/css/atm.css') }}" />
 
-	.step_point_title {
-		color: #000;
-		font-size: 13px;
-		font-weight: 500;
-	}
-	.step_desc {
-		color: #000;
-		font-size: 13px;
-	}
-	.step_points {
-		padding-left: 15px;
-		list-style: square;
-	}
-	.slide-content-available > .swiper-wrapper > .swiper-slide-active {
-	    background-color: #f2f2f2;
-	}
-	.slide-content-available > .swiper-wrapper {
-		height: 95% !important;
-	}
-	.slide-content-quick-cash-withdrawl > .swiper-wrapper, .slide-content-cardless-withdrawal > .swiper-wrapper,
-	.slide-content-balance-inquiry > .swiper-wrapper, .slide-content-fund-transfer > .swiper-wrapper {
-		height: 85% !important;
-	}
-
-	.outer_benefit_box {
-		padding: 20px !important;
-		border: 1px solid #dedede;
-		border-radius: 10px;
-		margin-bottom: 20px;
-		margin-top: 40px;
-	}
-	.why_use_AYA_outer > .col-md-6 {
-		width: 48%;
-	}
-	.apply_now_btn {
-		background-color: #ae071d !important;
-		color: #fff !important;
-		padding: 15px 25px !important;
-		border-color: #ae071d !important;
-		margin-bottom: 2rem !important;
-	}
-	.apply_now_btn:hover{
-		background-color: #fff !important;
-		border-color: #ae071d !important;
-		color: #ae071d !important;
-	}
-	.need_more_support_section_inner {
-		padding: 10px 100px 10px 100px;
-		background-image: url('./images/ayapay/explore_bg.png');
-		background-size: cover;
-		border-radius: 6px;
-	}
-	.merchant_agent_div {
-		column-gap: 20px;
-		width: 100%;
-	}
-	.merchant_agent_div > .col-md-6 {
-		width: 49%;
-	}
-	.need_more_support_section {
-	    padding: 40px 208px 0px 208px;
-	}
-	.reset_pin_btn {
-		background-color: #ae071d !important;
-		border: 1px solid #ae071d !important;
-		color: #fff !important;
-		font-weight: 500;
-		padding: 15px 25px !important;
-		margin-bottom: 2rem !important;
-	}
-	.reset_pin_btn:hover {
-		border: 1px solid #ae071d !important;
-		color: #ae071d !important;
-		background-color: #fff !important;
-	}
-	.swiper-navBtn{
-		color: #d7d7d8;
-		transition: color 0.3s ease;
-		top: 40%;
-		border: 1px solid #dedede;
-	}
-	.swiper-navBtn:hover{
-		color: #979797;
-		border: 1px solid #979797;
-	}
-	.swiper-navBtn::before,
-	.swiper-navBtn::after{
-		font-size: 20px;
-	}
-	.swiper-button-next{
-		right: 0;
-		border-radius: 50%;
-	    padding: 20px 20px 20px 23px;
-	}
-	.swiper-button-prev{
-		left: 0;
-		border-radius: 50%;
-	    padding: 20px 23px 20px 20px;
-	}
-	.swiper-pagination-bullet{
-		background-color: #6E93f7;
-		opacity: 1;
-	}
-	.swiper-pagination-bullet-active{
-		background-color: #4070F4;
-	}
-	.card {
-		box-shadow: none !important;
-		padding: 30px 20px 20px 20px !important;
-	    border: 1px solid #dedede !important;
-	    border-radius: 10px !important;
-	}
-	.swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
-		transform: translate(-50%,40%) !important;
-		padding: 5px;
-	}
-	.swiper-pagination-bullet {
-	    width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,13px));
-	    height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,13px));
-	}
-	.swiper-pagination-bullet {
-		background-color: #c3c3c3;
-	}
-	.swiper-pagination-bullet-active {
-		background-color: #982801;
-		border: 2px solid #fff;
-  		outline: 2px solid #982801;
-	}
-	.swiper-wrapper {
-		height: 85%;
-	}
-	.slide-content-desktop > .swiper-wrapper > .swiper-slide-active {
-		width: 60% !important;
-	}
-	.slide-content-desktop > .slide-wrapper > .swiper-slide-next {
-		opacity: 0.4;
-		width: 60% !important;
-	}
-	.fee_title {
-		color: #5c5c5c;
-		margin-bottom: 5px;
-	}
-	.fee_desc {
-		color: #000;
-		font-size: 13px;
-		margin-bottom: 0px;
-	}
-	.services_overview_div{
-		padding-left: 120px !important;
-	}
-	.available_services_div {
-		padding-left: 77px !important;
-	}
-	.modal-body {
-	    padding: 0.5rem 1.5rem !important;
-	}
-	.modal .modal-dialog:not(.modal-fullscreen) {
-		padding: 0px !important;
-	}
-
-	.img-hover-zoom {
-		height: fit-content;
-		width: fit-content;
-		overflow: hidden;
-		border-radius: 10px;
-	}
-	.img-hover-zoom--zoom-n-rotate img {
-	  transition: transform .5s ease-in-out;
-	}
-	.available_ATM_card_service_div:hover {
-		cursor: pointer;
-	}
-	.available_ATM_card_service_div:hover .img-hover-zoom--zoom-n-rotate img {
-		transform: scale(1.2) rotate(3deg);
-	}
-	.available_ATM_card_service_div:hover p {
-		text-decoration: underline !important;
-		color: #a02226 !important;
-	}
-
-	@media (max-width: 1300px) and (min-width: 577px) {
-		.why_use_AYA_outer > .col-md-6 {
-			width: 47%;
-		}
-		.need_more_support_section {
-		    padding: 40px 130px !important;
-		}
-		.need_more_support_section_inner {
-			padding: 40px 60px 60px 60px;
-			background-position: 60% center;
-		}
-		.merchant_agent_div > .col-md-6 {
-			width: 48%;
-		}
-		.tag_line_mascot {
-			margin-top: -50px;
-		}
-		.services_overview_div{
-			padding-left: 85px !important;
-		}
-	}
-	@media only screen and (max-width: 576px){
-		.why_use_AYA_outer > .col-md-6 {
-			width: 100%;
-		}
-		.merchant_agent_div > .col-md-6 {
-			width: 100%;
-		}
-		.tag_line_mascot {
-			text-align: center;
-		}
-		.merchant_agent_div {
-			width: auto;
-		}
-		.need_more_support_section {
-		    padding: 0px 20px !important;
-		}
-		.swiper-wrapper{
-		    height: 90%;
-		}
-		.services_overview_div{
-			padding-left: 15px !important;
-		}
-		.slide-content-available > .swiper-wrapper {
-			height: 90% !important;
-		}
-		.modal-body {
-			padding-bottom: 40px !important;
-		}
-	}
-</style>
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
@@ -420,11 +154,10 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/collect_cash.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('../images/atm/print_receipt.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 6</p>
-									                        		<p class="step_point_title mb-1">Collect the Cash</p>
-																	<p class="step_desc">Collect the cash from the lower slot of the machine.</p>
-																	<p  class="step_desc">Please ensure to check your cash amount before you leave from the machine.</p>
+									                        		<p class="step_point_title mb-1">Choose to get the printed receipt, if needed</p>
+																	<p class="step_desc">You will get an option if you want a printed receipt of the transaction</p>
 									                        	</div>
 									                        	<div class="space-20"></div>
 									                        </div>
@@ -432,10 +165,11 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/print_receipt.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('../images/atm/collect_cash.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 7</p>
-									                        		<p class="step_point_title mb-1">Take a printed receipt, if needed</p>
-																	<p class="step_desc">You will get an option if you want a printed receipt of the transaction. You can choose if needed and close the transaction.</p>
+									                        		<p class="step_point_title mb-1">Collect the Cash</p>
+																	<p class="step_desc">Collect the cash from the lower slot of the machine.</p>
+																	<p  class="step_desc">Please ensure to check your cash amount before you leave from the machine.</p>
 									                        	</div>
 									                        	<div class="space-20"></div>
 									                        </div>
@@ -552,11 +286,10 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/collect_cash.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('../images/atm/print_receipt.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 6</p>
-									                        		<p class="step_point_title mb-1">Collect the Cash</p>
-																	<p class="step_desc">Collect the cash from the lower slot of the machine.</p>
-																	<p  class="step_desc">Please ensure to check your cash amount before you leave from the machine.</p>
+									                        		<p class="step_point_title mb-1">Choose to get the printed receipt, if needed</p>
+																	<p class="step_desc">You will get an option if you want a printed receipt of the transaction.</p>
 									                        	</div>
 									                        	<div class="space-20"></div>
 									                        </div>
@@ -564,10 +297,11 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/print_receipt.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('../images/atm/collect_cash.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 7</p>
-									                        		<p class="step_point_title mb-1">Take a printed receipt, if needed</p>
-																	<p class="step_desc">You will get an option if you want a printed receipt of the transaction. You can choose if needed and close the transaction.</p>
+									                        		<p class="step_point_title mb-1">Collect the Cash</p>
+																	<p class="step_desc">Collect the cash from the lower slot of the machine.</p>
+																	<p  class="step_desc">Please ensure to check your cash amount before you leave from the machine.</p>
 									                        	</div>
 									                        	<div class="space-20"></div>
 									                        </div>
@@ -681,8 +415,30 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/collect_cash.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('../images/atm/enter_pin.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 6</p>
+									                        		<p class="step_point_title mb-1">Enter the cash amount correctly.</p>
+																	<p class="step_desc">The amount must be which you have selected in step:2.</p>
+									                        	</div>
+									                        	<div class="space-20"></div>
+									                        </div>
+									                    </div>
+									                    <div class="card swiper-slide">
+									                        <div class="card-content">
+									                        	<div class="row">
+									                        		<img src="{{ url('../images/atm/print_receipt.png') }}" class="img-fluid w-30 mb-10">
+									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 7</p>
+									                        		<p class="step_point_title mb-1">Choose to get the printed receipt, if needed</p>
+																	<p class="step_desc">You will get an option if you want a printed receipt of the transaction.</p>
+									                        	</div>
+									                        	<div class="space-20"></div>
+									                        </div>
+									                    </div>
+									                    <div class="card swiper-slide">
+									                        <div class="card-content">
+									                        	<div class="row">
+									                        		<img src="{{ url('../images/atm/collect_cash.png') }}" class="img-fluid w-30 mb-10">
+									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 8</p>
 									                        		<p class="step_point_title mb-1">Collect the Cash</p>
 																	<p class="step_desc">Collect the cash from the lower slot of the machine.</p>
 																	<p  class="step_desc">Please ensure to check your cash amount before you leave from the machine.</p>
@@ -693,19 +449,8 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/print_receipt.png') }}" class="img-fluid w-30 mb-10">
-									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 7</p>
-									                        		<p class="step_point_title mb-1">Take a printed receipt, if needed</p>
-																	<p class="step_desc">You will get an option if you want a printed receipt of the transaction. You can choose if needed and close the transaction.</p>
-									                        	</div>
-									                        	<div class="space-20"></div>
-									                        </div>
-									                    </div>
-									                    <div class="card swiper-slide">
-									                        <div class="card-content">
-									                        	<div class="row">
 									                        		<img src="{{ url('../images/atm/select_transaction.png') }}" class="img-fluid w-30 mb-10">
-									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 8</p>
+									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 9</p>
 									                        		<p class="step_point_title mb-1">Another Transaction</p>
 																	<p class="step_desc">If you want to undertake another transaction, then select that option.</p>
 									                        	</div>
@@ -756,7 +501,7 @@
 									                        		<img src="{{ url('../images/atm/insert_card.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 1</p>
 									                        		<p class="step_point_title mb-1">Insert ATM Card</p>
-																	<p class="step_desc">Insert your ATM Card in the designated card slot at ATM.</p>
+																	<p class="step_desc mb-0">Insert your ATM Card in the designated card slot at ATM.</p>
 																	<p class="step_desc">Note: Make sure your card is facing the right way when you insert it.</p>
 									                        	</div>
 									                        	<div class="space-20"></div>
@@ -778,9 +523,19 @@
 									                        	<div class="row">
 									                        		<img src="{{ url('../images/atm/enter_pin.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 3</p>
-									                        		<p class="step_point_title mb-1">Enter PIN</p>
-																	<p class="step_desc">Enter current PIN and re-enter your new PIN.</p>
-																	<p  class="step_desc">Your new PIN has been accepted.</p>
+																	<p class="step_desc">Select the PIN change button and enter PIN.</p>
+									                        	</div>
+									                        	<div class="space-20"></div>
+									                        </div>
+									                    </div>
+									                    <div class="card swiper-slide">
+									                        <div class="card-content">
+									                        	<div class="row">
+									                        		<img src="{{ url('../images/atm/enter_pin.png') }}" class="img-fluid w-30 mb-10">
+									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 4</p>
+									                        		<p class="step_point_title mb-1">Re-enter PIN</p>
+																	<p class="step_desc mb-0">Re-enter your new PIN.</p>
+																	<p class="step_desc">Your new PIN has been accepted.</p>
 									                        	</div>
 									                        	<div class="space-20"></div>
 									                        </div>
@@ -866,6 +621,17 @@
 									                        		<p class="step_point_title mb-1">Select the type of Transaction</p>
 																	<p class="step_desc">You will see different types of transaction options and you must select Balance Enquiry</p>
 																	<p  class="step_desc">You can see the actual balance and available balance that you can withdraw cash.</p>
+									                        	</div>
+									                        	<div class="space-20"></div>
+									                        </div>
+									                    </div>
+									                    <div class="card swiper-slide">
+									                        <div class="card-content">
+									                        	<div class="row">
+									                        		<img src="{{ url('../images/atm/print_receipt.png') }}" class="img-fluid w-30 mb-10">
+									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 5</p>
+									                        		<p class="step_point_title mb-1">Choose to get the printed receipt, if needed</p>
+																	<p class="step_desc">You will get an option if you want a printed receipt of the transaction.</p>
 									                        	</div>
 									                        	<div class="space-20"></div>
 									                        </div>
@@ -970,8 +736,8 @@
 									                        		<img src="{{ url('../images/atm/collect_cash.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 6</p>
 									                        		<p class="step_point_title mb-1">Complete information</p>
-																	<p class="step_desc">Collect the cash from the lower slot of the machine.Enter the beneficiary account number that you wish to transfer.</p>
-																	<p  class="step_desc">Please ensure to check your cash amount before you leave from the machine.Confirm for correct beneficiary number and name of the recipient.</p>
+																	<p class="step_desc">Enter the beneficiary account number that you wish to transfer.</p>
+																	<p  class="step_desc">Confirm for correct beneficiary number and name of the recipient.</p>
 									                        	</div>
 									                        	<div class="space-20"></div>
 									                        </div>
@@ -1008,7 +774,7 @@
 			<div class="space-20"></div>
 			<div style="background-color: #fbfbfd">
 				<div class="space-60"></div>
-				<div class="section_1">
+				<div class="services_overview_section">
 					<div class="row">
 						<div class="col-md-12 services_overview_div">
 							<h3 style="color: #1d1d1f;">Service Overview</h3>
@@ -1042,11 +808,6 @@
 																<hr>
 							                            	</div>
 							                            	<div class="col-md-6">
-							                            		<p class="fee_title">Cardless Withdrawal</p>
-																<p class="fee_desc">Free</p>
-																<hr>
-							                            	</div>
-							                            	<div class="col-md-6">
 							                            		<p class="fee_title">Balance enquiry</p>
 																<p class="fee_desc">Free</p>
 																<hr>
@@ -1055,7 +816,7 @@
 							                            		<p class="fee_title">Fast Cash Withdrawal</p>
 																<p class="fee_desc">Free</p>
 																<hr>
-							                            	</div>						                            	
+							                            	</div>
 							                            	<div class="col-md-6">
 							                            		<p class="fee_title">Password Change</p>
 																<p class="fee_desc">Free</p>

@@ -228,7 +228,7 @@
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
-												<p>Online services are offered with most debits and credits cards including Myanmar Payment Union (MPU), UPI, JCB debit cards, Visa, MasterCard on a real-time basis.</p>
+												<p>Online services are offered with most debit and credit cards including Myanmar Payment Union (MPU), UPI, JCB, Visa, Mastercard on a real-time basis.</p>
 											</div>
 										</div>
 										<div class="row">
@@ -236,15 +236,7 @@
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
-												<p>We accept all debit and credit cards (MPU, JCB, UPI, VISA, MASTER CARD)</p>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-md-1 col-2" style="padding-top: 5px;">
-												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-											</div>
-											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
-												<p>POS Terminal is integrated with AYA Pay wallet</p>
+												<p>POS Terminal is integrated with AYA Pay Merchant Application.</p>
 											</div>
 										</div>
 										<div class="space-40"></div>
@@ -264,7 +256,7 @@
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
-												<p>Free of charge for Installations, User training guides, transaction reports or machine maintenance.</p>
+												<p>Free deployment, user training and on-site support.</p>
 											</div>
 										</div>
 										<div class="row">
@@ -280,7 +272,7 @@
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
-												<p>Free of charge for installation, training and operating user manual and onsite support</p>
+												<p>Payment integration can be made to your existing POS system.</p>
 											</div>
 										</div>
 										<div class="row">
@@ -296,7 +288,7 @@
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
-												<p>Payment Integration is possible (Integration between merchant’s existing Point of Sales System and AYA POS)</p>
+												<p>24/7 hotline support is available for any technical error</p>
 											</div>
 										</div>
 										<div class="space-40"></div>

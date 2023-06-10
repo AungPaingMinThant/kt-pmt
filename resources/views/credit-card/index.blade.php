@@ -195,7 +195,7 @@
 		padding: 0px 208px 40px 208px;
 	}
 	.simple_pay_div > .container {
-		padding: 0px 100px 50px 70px;
+		padding: 0px 100px 50px 30px;
 		background-image: url('./images/simple_pay_installment.png');
 		background-size: contain;
 		background-repeat: no-repeat;
@@ -220,6 +220,9 @@
 		border: 1px solid #ae071d !important;
 		color: #ae071d !important;
 		background-color: #fff !important;
+	}
+	.simple_pay_col {
+		padding-top: 120px;
 	}
 	@media (max-width: 1300px) and (min-width: 1000px) {
 		.jcb_credit_tab{
@@ -252,6 +255,65 @@
 		}
 		.slide-content{
 			margin: 0 10px;
+		}
+	}
+	@media (max-width: 999px) and (min-width: 577px) {
+		.credit_tag_line {
+		    padding: 0px 40px;
+		}
+		.jcb_credit_tab, .visa_credit_tab {
+			background-position: 75% center;
+		}
+		.secure_credit_tab {
+			background-position: 70% center;
+		}
+		.tab_h2 {
+		    top: 160px;
+		    left: 20px;
+		}
+		.secure_credit_data {
+		    padding-left: 30px !important;
+		    width: 65% !important;
+		}
+		.space-60 {
+		    height: 30px !important;
+		}
+		.check_icon_col {
+			padding: 0px 10px !important;
+		}
+		.secure_credit_fact {
+			padding-right: 70px !important;
+		}
+		.jbc_visa_manage_card > .col-md-6, .secured_manage_card > .col-md-6 {
+		    width: 47% !important;
+		}
+		.manage_card_image_div {
+			width: 46% !important;
+		}
+		.manage_card_fact_div {
+			padding: 0px !important;
+		}
+		.manage_your_card_icon {
+		    width: 45% !important;
+		}
+		.simple_pay_div {
+		    padding: 0px 60px 0px 60px;
+		    margin-bottom: -50px;
+		}
+		.simple_pay_col {
+			padding-top: 0px;
+		}
+		.simple_pay_text {
+		    font-size: 18px;
+		    margin-bottom: 5px;
+		    padding-top: 25%;
+		}
+		.reset_pin_btn {
+		    padding: 10px 20px !important;
+		    margin-bottom: 1rem !important;
+		}
+		.renew_div {
+			margin-bottom: -30px;
 		}
 	}
 	@media only screen and (max-width: 576px){
@@ -371,13 +433,13 @@
 							<div class="row tab_data_row" >
 								<div class="col-md-6 secure_credit_data">
 									<div class="space-60"></div>
-									<h3 class="" style="margin-bottom: 25px;left: 30%;color: #000;">Smile with your Secured Credit Card.</h3>
+									<h3 class="" style="margin-bottom: 15px;left: 30%;color: #000;">Smile with your Secured Credit Card.</h3>
 									<p style="font-weight: 600;color: #4e4e4e;margin-bottom: 25px;">Interested in a new Secured Credit Card?</p>
 									<p>AYA's innovation product, the "Secured Credit Card" is designed to help customers who wants or needs a credit card withour having to go through complex paperwork process. As opposed to applying a normal credit card, where proof of income or a guarantor is a prerequisite.</p>
 
-									<div class="space-40"></div>
+									<div class="space-20"></div>
 									<div class="row">
-										<div class="col-md-1 col-2">
+										<div class="col-md-1 col-2 check_icon_col">
 											<img src="{{ url('/images/check_icon.png') }}" class="img-fluid">
 										</div>
 										<div class="col-md-11 col-10 secure_credit_fact">
@@ -385,7 +447,7 @@
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-md-1 col-2">
+										<div class="col-md-1 col-2 check_icon_col">
 											<img src="{{ url('/images/check_icon.png') }}" class="img-fluid">
 										</div>
 										<div class="col-md-11 col-10 secure_credit_fact">
@@ -393,7 +455,7 @@
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-md-1 col-2">
+										<div class="col-md-1 col-2 check_icon_col">
 											<img src="{{ url('/images/check_icon.png') }}" class="img-fluid">
 										</div>
 										<div class="col-md-11 col-10 secure_credit_fact">
@@ -481,10 +543,10 @@
 					<div class="space-20"></div>
 					<div class="col-md-12" >
 						<div class="row" >
-							<div class="col-md-6" style="margin-bottom: 20px">
+							<div class="col-md-6 manage_card_image_div" style="margin-bottom: 20px">
 								<img src="{{ url('/images/manage_card_image.png') }}" class="img-fluid" style="margin-top: 12%;">
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-6 manage_card_fact_div">
 								<div class="row jbc_visa_manage_card" style="column-gap: 20px;">
 									<div class="col-md-6 outer_benefit_box why_use_AYA">
 										<div class="row benefit_box">
@@ -809,7 +871,7 @@
 									<div class="row">
 										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">Card Validity</p>
-											<p class="fee_desc">3 Years for JCB / 5 Years for Visa</p>
+											<p class="fee_desc">5 Years</p>
 										</div>
 										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">Currency</p>
@@ -829,13 +891,13 @@
 									<div class="row">
 										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">ATM Withdrawal Limit</p>
-											<p class="fee_desc">Domestic Transaction - 1,000,000 MMK Per day</p>
-											<p class="fee_desc">International Transaction - 1,000,000 MMK Per day</p>
+											<p class="fee_desc">Domestic Transaction - 2,000,000 MMK Per day</p>
+											<p class="fee_desc">International Transaction - 500,000 MMK Per day</p>
 										</div>
 										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">POS Withdrawal Limit</p>
-											<p class="fee_desc">Domestic Transaction - 5,000,000 MMK Per day</p>
-											<p class="fee_desc">International Transaction - Up To Avaliable Amount Per day</p>
+											<p class="fee_desc">Domestic Transaction - 2,000,000 MMK Per day</p>
+											<p class="fee_desc">International Transaction - 500,000 MMK Per day</p>
 										</div>
 									</div>
 									<div class="row">
@@ -845,9 +907,22 @@
 										</div>
 										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">Transaction Limit</p>
-											<p class="fee_desc">N/A</p>
+											<p class="fee_desc">Domestic Transaction - 500,000 MMK per day</p>
+											<p class="fee_desc">International Transaction - 2,500,000 per month</p>
 										</div>
 									</div>
+									<div class="row">
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">International Transaction Fees</p>
+											<p class="fee_desc">Fees 25% ~ 50%</p>
+											<p class="fee_desc">(Note * Fees are subject to change without prior notice)</p>
+										</div>
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">Other Fees</p>
+											<p class="fee_desc">Service Charges/ Fees will be inclusive based on the transaction types including refunds and reversal transactions.</p>
+										</div>
+									</div>
+									<p style="font-size: 12px;margin-bottom: 0px;">* Note: Cross currency mark-up fees will be applied for foreign transactions</p>
 								</div>
 							</div>
 						</div>
@@ -1118,7 +1193,7 @@
 			<div class="simple_pay_div">
 				<div class="container d-none d-sm-block">
 					<div class="row">
-						<div class="col-md-8 col-xs-12" style="padding-top: 120px;">
+						<div class="col-md-9 col-xs-12 simple_pay_col">
 							<p class="simple_pay_text">Are you also interested in <br><span style="font-weight: 500;color: #a02225;">SimplePay Installment</span> with AYA Credit Cards?</p>
 							<a href="{{ url('/simple-pay') }}">
 								<button class="btn reset_pin_btn" >
@@ -1126,7 +1201,7 @@
 								</button>
 							</a>
 						</div>
-						<div class="col-md-4"></div>
+						<div class="col-md-3"></div>
 					</div>
 				</div>
 
