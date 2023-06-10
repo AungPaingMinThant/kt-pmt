@@ -3097,7 +3097,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 30px;left: 20px;right: 40px;">
-						<h1 class="theme_text_color" style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Compliance</h1>
+						<h1 class="f-white" style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Compliance</h1>
 					</div>
 				</div>
 			</div>
