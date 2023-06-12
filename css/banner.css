@@ -1006,6 +1006,31 @@
 	.premium_banking_tagline {
 		top: 40px;
 	}
+	.bu_acc_sav_saving_deposit_banner_tagline {
+	    top: 40px;
+	    left: 250px;
+	    right: -250px;
+	}
+	.bu_acc_sav_call_deposit_banner_tagline {
+	    top: 10px;
+	    left: 0px;
+	    right: -100px;
+	}
+	.bu_acc_sav_current_deposit_banner {
+		background-position: 70% center;
+	}
+	.bu_acc_sav_current_deposit_banner_tagline {
+	    top: 10px;
+	    left: 20px;
+	    right: 0px;
+	}
+	.bu_acc_sav_fixed_deposit_banner {
+		background-position: 70% center;
+	}
+	.bu_acc_sav_fixed_deposit_banner_tagline {
+		top: 60px;
+		right: 0;
+	}
 }
 @media only screen and (max-width: 576px) {
 	.mbanking_banner {

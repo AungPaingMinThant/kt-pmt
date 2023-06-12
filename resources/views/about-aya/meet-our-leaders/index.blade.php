@@ -319,7 +319,7 @@
 
 						<h5 class="card-title theme_text_color fw-semibold mb-0">U Than Zaw</h5>
 						<p class="mb-0">Myanmar</p>
-						<p>Vice-Chairman</p>
+						<p>Vice-Chairman<br>(Executive)</p>
 
 						<p class="mb-10 bio_detail">U Than Zaw is a member of the Board of Directors of AYA Bank and presently holds the position of Vice-Chairman. He was appointed as the Managing Director to AYA Bank from 2011 to 2013. During his tenure, he has led the fledging Bank to grow its brand and network in Myanmar. He also heads AYA Sompo Insurance as a Vice-Chairman. U Than Zaw’s vast experience includes eight-year tenure with the Olympics Committee as a Treasurer and another two years as the Chief Executive Officer of the Myanmar Football Federation. He is instrumental in strengthening systems and procedures by taking initiatives. U Than Zaw has been giving the guidance at Board level regards to policies, practices to ensure the bank in full compliance with stipulated laws and regulations.</p>
 					</div>
@@ -341,7 +341,7 @@
 
 						<h5 class="card-title theme_text_color fw-semibold mb-0">Daw Htay Htay Khaing</h5>
 						<p class="mb-0">Myanmar</p>
-						<p>Vice-Chairman</p>
+						<p>Vice-Chairman<br>(Non-Executive)</p>
 
 						<p class="mb-10 bio_detail">Daw Htay Htay Khaing has been the Co-Founder and Vice-Chairman of the Board of Directors since the Bank’s inception in 2010. Daw Htay Htay Khaing had completed a Bachelor of Science in Mathematics awarded by the University of Yangon.</p>
 						<p>She demonstrated the high degree of commitment to the growth of AYA Bank. Her accolades do not stop here. She has contributed extensively to the welfare of women in various sectors and plays active roles as a Vice-Chairperson with the Myanmar Women Football Association and as a Trustee with the Myanmar Women Sports Association.</p>
@@ -624,7 +624,7 @@
 		$("#u_zaw_btn").click();
 		// $("#u_zaw_zaw").addClass('show');
 		// $('#u_zaw_zaw').show();
-		alert('s1s');
+		// alert('s1s');
   	}
 
   	$("#u_zaw_btn").click(function() {

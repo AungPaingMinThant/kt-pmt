@@ -176,6 +176,9 @@
 .stake_table_last_column {
 	width: 250px !important;
 }
+.shareholding_link:hover {
+	color: #fff !important;
+}
 /*Stakeholder Management*/
 
 @media (max-width: 1400px) and (min-width: 1280px) {

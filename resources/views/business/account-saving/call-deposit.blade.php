@@ -40,7 +40,7 @@
 	.secure_credit_fact {
 		padding-left: 0 !important;
 	}
-	.premium_banking_tagline {
+	.call_deposit_premium_banking_tagline {
 		font-weight: 500;
 		font-size: 20px;
 		line-height: 24px;
@@ -67,7 +67,7 @@
 		left: 4%;
 	}
 	@media (max-width: 1300px) and (min-width: 1000px) {
-		.premium_banking_tagline{
+		.call_deposit_premium_banking_tagline{
 			width: 60% !important;
 		}
 		.new_business_call_tagline {
@@ -76,6 +76,23 @@
 		}
 		.bullet_square {
 			width: 20%;
+		}
+	}
+	@media (max-width: 999px) and (min-width: 577px) {
+		.call_deposit_premium_banking_tagline {
+			width: 80% !important;
+			top: 85% !important;
+		}
+		.bullet_square_div {
+			padding: 0 !important;
+		}
+		.business_account_tagline {
+			width: 90% !important;
+			top: 70%;
+		}
+		.new_business_call_tagline {
+			width: 70% !important;
+			top: 85%;
 		}
 	}
 	@media only screen and (max-width: 576px){
@@ -130,22 +147,22 @@
 								</p>
 								<div class="row" style="position: relative;">
 									<img src="{{ url('/images/business/account-saving/call-deposit/premium_account.png') }}" class="img-fluid">
-									<p class="premium_banking_tagline">An easy-access deposit account</p>
+									<p class="call_deposit_premium_banking_tagline">An easy-access deposit account</p>
 								</div>
 								<div class="row">
 									<div class="space-30"></div>
-									<p>Designed for businesses to invest over any period, with immediate access to your money to take care of business and payments cycles. It calculate interest on the daily end of day balances and will credit to account at the end of the month.</p>
-									<div class="col-1">
+									<p>Designed for businesses to invest over any period, with immediate access to your money to take care of business and payments cycles. It calculates interest on the daily end of day balances and will credit to account quartely.</p>
+									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Offers deposit interest 2.0% per annum</p>
+										<p>Offers deposit interest 2.0% per annum.</p>
 									</div>
-									<div class="col-1">
+									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>No limit on deposit amount</p>
+										<p>No limit on deposit amount.</p>
 									</div>
 
 									<div class="space-40"></div>
@@ -158,7 +175,7 @@
 									</div>
 									<div class="col-md-4 text-center">
 										<img src="{{ url('/images/business/account-saving/call-deposit/Able_to_remit_and_pay_transactions_easily.png') }}" class="img-fluid w-50">
-										<p>Able to remit and pay transactions easily</p>
+										<p>Able to make payments easily.</p>
 									</div>
 									<div class="col-md-4 text-center">
 										<img src="{{ url('/images/business/account-saving/call-deposit/Receive_or_pay_bills.png') }}" class="img-fluid w-50">
@@ -177,17 +194,17 @@
 								<div class="row">
 									<div class="space-30"></div>
 									<p>Specifically designed for large corporates either local or foreign entities for growing business, providing a range of customized services along with high returns on your idle funds.</p>
-									<div class="col-1">
+									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Offers deposit interest up to 4.5% per annum</p>
+										<p>Offers deposit interest up to 4.5% per annum.</p>
 									</div>
-									<div class="col-1">
+									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Minimum account opening balance requirement is MMK “100 million” for local corporate and MMK “300 million” for foreign corporate</p>
+										<p>Minimum account opening balance requirement is MMK 100 million for local corporate and MMK 300 million for foreign corporate.</p>
 									</div>
 
 									<div class="space-40"></div>
@@ -200,7 +217,7 @@
 									</div>
 									<div class="col-md-7 text-center">
 										<img src="{{ url('/images/business/account-saving/call-deposit/Access_financial_support.png') }}" class="img-fluid w-30">
-										<p>Access financial support, including business loans, overdrafts, and invoice finance</p>
+										<p>Access financial support including business loans, overdrafts and invoice financing</p>
 									</div>
 								</div>
 
@@ -215,17 +232,17 @@
 								<div class="row">
 									<div class="space-30"></div>
 									<p>Designed to provide the tariff that best meets your business needs. A Call Deposit account suitable for businesses with cash-based transactions.</p>
-									<div class="col-1">
+									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Offers deposit interest 6.0% per annum</p>
+										<p>Offers deposit interest 6.0% per annum.</p>
 									</div>
-									<div class="col-1">
+									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Minimum account opening balance requirement is MMK 10,000</p>
+										<p>Minimum account opening balance requirement is MMK 1,000.</p>
 									</div>
 
 									<div class="space-40"></div>
@@ -234,7 +251,7 @@
 
 									<div class="col-md-4 text-center">
 										<img src="{{ url('/images/business/account-saving/call-deposit/Opening_a_new_business_call_deposit_account.png') }}" class="img-fluid w-50">
-										<p>Opening a new business call deposit account is a relatively simple and straight-forward procedure</p>
+										<p>Transfer to and from Other Bank's special accounts through CBM Net.</p>
 									</div>
 									<div class="col-md-4 text-center">
 										<img src="{{ url('/images/business/account-saving/call-deposit/Unlimited_cash_withdrawal.png') }}" class="img-fluid w-50">
@@ -262,18 +279,18 @@
 							</div>
 							<div class="row">
 								<div class="space-30"></div>
-								<p>Designed for businesses to invest over any period, with immediate access to your money to take care of business and payments cycles. It calculate interest on the daily end of day balances and will credit to account at the end of the month.</p>
-								<div class="col-1">
+								<p>Designed for businesses to invest over any period, with immediate access to your money to take care of business and payments cycles. It calculates interest on the daily end of day balances and will credit to account quartely.</p>
+								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>Offers deposit interest 2.0% per annum</p>
+									<p>Offers deposit interest 2.0% per annum.</p>
 								</div>
-								<div class="col-1">
+								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>No limit on deposit amount</p>
+									<p>No limit on deposit amount.</p>
 								</div>
 
 								<div class="space-40"></div>
@@ -286,7 +303,7 @@
 								</div>
 								<div class="col-md-12 text-center">
 									<img src="{{ url('/images/business/account-saving/call-deposit/Able_to_remit_and_pay_transactions_easily.png') }}" class="img-fluid w-30">
-									<p>Able to remit and pay transactions easily</p>
+									<p>Able to make payments easily.</p>
 								</div>
 								<div class="col-md-12 text-center">
 									<img src="{{ url('/images/business/account-saving/call-deposit/Receive_or_pay_bills.png') }}" class="img-fluid w-30">
@@ -306,17 +323,17 @@
 								<div class="space-30"></div>
 								<p>Specifically designed for large corporates either local or foreign entities for growing business, providing a range of customized services along with high returns on your idle funds.</p>
 
-								<div class="col-1">
+								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>Offers deposit interest up to 4.5% per annum</p>
+									<p>Offers deposit interest up to 4.5% per annum.</p>
 								</div>
-								<div class="col-1">
+								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>Minimum account opening balance requirement is MMK “100 million” for local corporate and MMK “300 million” for foreign corporate</p>
+									<p>Minimum account opening balance requirement is MMK 100 million for local corporate and MMK 300 million for foreign corporate.</p>
 								</div>
 
 								<div class="space-40"></div>
@@ -329,7 +346,7 @@
 								</div>
 								<div class="col-md-12 text-center">
 									<img src="{{ url('/images/business/account-saving/call-deposit/Able_to_remit_and_pay_transactions_easily.png') }}" class="img-fluid w-30">
-									<p>Access financial support, including business loans, overdrafts, and invoice finance</p>
+									<p>Access financial support including business loans, overdrafts and invoice financing</p>
 								</div>
 							</div>
 
@@ -344,17 +361,17 @@
 							<div class="row">
 								<div class="space-30"></div>
 								<p>Designed to provide the tariff that best meets your business needs. A Call Deposit account suitable for businesses with cash-based transactions.</p>
-								<div class="col-1">
+								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>Offers deposit interest 6.0% per annum</p>
+									<p>Offers deposit interest 6.0% per annum.</p>
 								</div>
-								<div class="col-1">
+								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>Minimum account opening balance requirement is MMK 10,000</p>
+									<p>Minimum account opening balance requirement is MMK 1,000.</p>
 								</div>
 
 								<div class="space-40"></div>
@@ -363,7 +380,7 @@
 
 								<div class="col-md-12 text-center">
 									<img src="{{ url('/images/business/account-saving/call-deposit/Opening_a_new_business_call_deposit_account.png') }}" class="img-fluid w-30">
-									<p>Opening a new business call deposit account is a relatively simple and straight-forward procedure</p>
+									<p>Transfer to and from Other Bank's special accounts through CBM Net.</p>
 								</div>
 								<div class="col-md-12 text-center">
 									<img src="{{ url('/images/business/account-saving/call-deposit/Unlimited_cash_withdrawal.png') }}" class="img-fluid w-30">

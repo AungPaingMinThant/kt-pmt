@@ -71,6 +71,19 @@
 			width: 20%;
 		}
 	}
+	@media (max-width: 999px) and (min-width: 577px) {
+		.aya-regular-saving-tagline {
+		    width: 80% !important;
+		    top: 70% !important;
+		    text-shadow: 0 0 10px white !important;
+		}
+		.aya-su-buu_tagline {
+			top: 70% !important;
+		}
+		.bullet_square_div {
+			padding: 0 !important;
+		}
+	}
 	@media only screen and (max-width: 576px){
 		.calldeposit__mobile_title {
 			font-size: calc(1.2625rem + 0.15vw);
@@ -125,25 +138,25 @@
 								</div>
 								<div class="row">
 									<div class="space-30"></div>
-									<p>A business Savings account with features designed to add convenience and flexibility to your business.</p>
+									<p>A business savings account with features designed to add convenience and flexibility to your business.</p>
 									<p>It will help nurture growth for major purchase or business expansion.</p>
 									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Lowest account opening requirement starts from MMK 1,000</p>
+										<p>Lowest account opening requirement starts from MMK 1,000.</p>
 									</div>
 									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Set up CMS collection service and sweep funds at EOD or real-time</p>
+										<p>Set up Cash Management - collection service and sweep funds at EOD or real-time.</p>
 									</div>
 									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Receive Interest on 6.25% per annum and frequency on monthly basis</p>
+										<p>Receive interest on 6.25% per annum and frequency on monthly basis.</p>
 									</div>
 
 									<div class="space-40"></div>
@@ -160,7 +173,7 @@
 									</div>
 									<div class="col-md-4 text-center">
 										<img src="{{ url('/images/business/account-saving/saving-deposit/Receive_or_pay_bills.png') }}" class="img-fluid w-50">
-										<p>Receive or pay bills through our Cash Management solutions. </p>
+										<p>Receive or pay bills through our Cash Management solutions.</p>
 									</div>
 								</div>
 
@@ -179,13 +192,13 @@
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Receive Interest on 6.25% per annum and frequency on monthly basis</p>
+										<p>Receive interest on 6% per annum and frequency on monthly basis.</p>
 									</div>
 									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Contributed by employer and employee every month</p>
+										<p>Saving funds contributed by employer and employee every month.</p>
 									</div>
 
 									<div class="space-40"></div>
@@ -198,7 +211,7 @@
 									</div>
 									<div class="col-md-6 text-center">
 										<img src="{{ url('/images/business/account-saving/saving-deposit/Unlimited_cash_withdrawal.png') }}" class="img-fluid w-30">
-										<p>Allows withdrawals anytime</p>
+										<p>Withdrawal funds at designated branch</p>
 									</div>
 									<div class="space-20"></div>
 									<div class="col-md-6 text-center">
@@ -233,19 +246,19 @@
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>Lowest account opening requirement starts from MMK 1,000</p>
+									<p>Lowest account opening requirement starts from MMK 1,000.</p>
 								</div>
 								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>Set up CMS collection service and sweep funds at EOD or real-time</p>
+									<p>Set up Cash Management - collection service and sweep funds at EOD or real-time.</p>
 								</div>
 								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>Receive Interest on 6.25% per annum and frequency on monthly basis</p>
+									<p>Receive interest on 6% per annum and frequency on monthly basis.</p>
 								</div>
 
 								<div class="space-40"></div>
@@ -262,7 +275,7 @@
 								</div>
 								<div class="col-md-4 text-center">
 									<img src="{{ url('/images/business/account-saving/saving-deposit/Receive_or_pay_bills.png') }}" class="img-fluid w-30">
-									<p>Receive or pay bills through our Cash Management solutions. </p>
+									<p>Receive or pay bills through our Cash Management solutions.</p>
 								</div>
 							</div>
 
@@ -287,7 +300,7 @@
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>Contributed by employer and employee every month</p>
+									<p>Saving funds contributed by employer and employee every month.</p>
 								</div>
 
 								<div class="space-40"></div>
@@ -300,7 +313,7 @@
 								</div>
 								<div class="col-md-6 text-center">
 									<img src="{{ url('/images/business/account-saving/saving-deposit/Unlimited_cash_withdrawal.png') }}" class="img-fluid w-30">
-									<p>Allows withdrawals anytime</p>
+									<p>Withdrawal funds at designated branch</p>
 								</div>
 								<div class="space-20"></div>
 								<div class="col-md-6 text-center">

@@ -16,7 +16,6 @@
 			<p style="font-size: 20px;">Simplify your day-to-day banking with AYA i-Banking!</p>
 		</div>
 		<div class="col-md-8 tag_desc">
-			<!-- <p>AYA iBanking will allow you real time banking transactions via PCs, Laptops, Smartphone or other devices with access to the internet. Make payments, go paperless, view and download statements and more from the comfort of your home.</p> -->
 			<p>AYA i-Banking will allow you real time banking transactions via all electronic devices with internet access. Go paperless, make payments, view and download digitally.</p>
 		</div>
 	</div>
@@ -185,7 +184,7 @@
 
 @if($page == 'bu_acc_sav_current_deposit')
 	<div class="row">
-		<div class="col-md-10">
+		<div class="col-md-10 bu_acc_sav_current_deposit_tagline_div">
 			<p>AYA Bank offers current account for every entities such as large corporate, small entrepreneur, charitable association or professions for their financial transactions. Transferring funds and receiving money through various means (online, or via cheques, or pay orders) assured hassle-free and flexible.</p>
 		</div>
 	</div>

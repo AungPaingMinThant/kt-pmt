@@ -8,6 +8,11 @@
 	.fixed_deposit_desc {
 		margin-left: -30px;
 	}
+	@media (max-width: 999px) and (min-width: 577px) {
+		.fixed_deposit_tag_div {
+			width: 100% !important;
+		}
+	}
 	@media only screen and (max-width: 576px) {
 		.fixed_deposit_desc {
 			margin-left: 0px;
@@ -27,8 +32,8 @@
 			<div class="container section_1">
 				<div class="col-md-12">
 					<div class="row">
-						<div class="col-md-10">
-							<p class="mb-0">Open a business fixed deposit account where it provides a fixed interest rate for a fixed term on the lump-sum deposits.</p>
+						<div class="col-md-10 fixed_deposit_tag_div">
+							<p class="mb-0">A fixed deposit placement where it provides a fixed interest rate for a fixed term on the lump-sum deposits.</p>
 							<p>In fact, even market conditions change and interest rates fluctuate, still benefit from the interest rate fixed at the start of the term.</p>
 							<p>Start investing once you’ve made decision on amount and period to lock away your earnings!</p>
 
@@ -38,13 +43,13 @@
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 								</div>
 								<div class="col-11">
-									<p class="fixed_deposit_desc">Able to start deposit from MMK 10,000</p>
+									<p class="fixed_deposit_desc">Able to start deposit from MMK 10,000.</p>
 								</div>
 								<div class="col-1">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 								</div>
 								<div class="col-11">
-									<p class="fixed_deposit_desc">Flexible : Choose the term up to two years, with clear visibility on expected returns</p>
+									<p class="fixed_deposit_desc">Flexible : Choose the term up to two years, with clear visibility on expected returns.</p>
 								</div>
 							</div>
 							<div class="space-20"></div>
@@ -53,16 +58,16 @@
 									<table class="table table-bordered benefit_table">
 										<tbody style="box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%);border-bottom-right-radius: 10px;font-weight: 500;background-color: transparent;">
 											<tr style="background-color: #f5f5f7;border-top: none;">
-												<td style="border-width: 1px;border-top: none;border-left: none;padding: 15px 20px;">Tenure</td>
+												<td style="border-width: 1px;border-top: none;border-left: none;padding: 15px 20px;">Tenor</td>
 												<td class="last" style="border-width: 1px;border-right: none;border-top: none;">Interest Rates</td>
 											</tr>
 											<tr style="background-color: #fff;border-top: none;">
 												<td style="border-left: none;padding: 15px 20px;">1 month</td>
-												<td style="border-right: none;">7.00% p.a.</td>
+												<td style="border-right: none;">8.55% p.a.</td>
 											</tr>
 											<tr style="background-color: #fff;border-top: none;">
 												<td style="border-left: none;padding: 15px 20px;">3 months</td>
-												<td style="border-right: none;">7.25% p.a.</td>
+												<td style="border-right: none;">9.00% p.a.</td>
 											</tr>
 											<tr>
 												<td style="border-left: none;padding: 15px 20px;">6 months</td>
@@ -90,7 +95,7 @@
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 								</div>
 								<div class="col-11">
-									<p class="fixed_deposit_desc">Receive interest to the linked saving deposit account or current account at the maturity.</p>
+									<p class="fixed_deposit_desc">Receive interest to the linked savings account or current account at the maturity.</p>
 								</div>
 								<div class="col-1">
 									<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
@@ -109,7 +114,7 @@
 								</div>
 								<div class="col-md-6 text-center">
 									<img src="{{ url('/images/business/account-saving/fixed-deposit/entrust_your_money_with_us.png') }}" class="img-fluid w-25">
-									<p>Entrust your money with us. Secure, simple and clear.</p>
+									<p>Entrust your money with us. Secure, simple and clear</p>
 								</div>
 							</div>
 						</div>

@@ -29,7 +29,7 @@
 		width: 13%;
 	}
 	#regular_current_account, .new_business_current_account, .enterprise_FCA_current {
-		padding-right: 250px;
+		padding-right: 160px;
 		font-size: 18px;
 		font-weight: 600;
 	}
@@ -80,6 +80,25 @@
 		}
 		.bullet_square {
 			width: 20%;
+		}
+	}
+	@media (max-width: 999px) and (min-width: 577px) {
+		.bu_acc_sav_current_deposit_tagline_div {
+			width: 100% !important;
+		}
+		.regular_current_account_tagline {
+			top: 60%;
+		}
+		.bullet_square_div {
+			padding: 0 !important;
+		}
+		.new_business_current_account_tagline {
+			width: 80% !important;
+			top: 60%;
+		}
+		.enterprise_FCA_current_tagline {
+			top: 70%;
+			width: 70% !IMPORTANT;
 		}
 	}
 	@media only screen and (max-width: 576px){
@@ -139,29 +158,29 @@
 								<div class="row">
 									<div class="space-30"></div>
 									<p>The simple current account that provides your business with an accurate record of transactions. It allows your business the flexibility to carry out a large number of transactions while offering services built specifically for business needs.</p>
-									<div class="col-1">
+									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Initial deposit requires MMK 10,000 for minimum</p>
+										<p>Initial deposit requires MMK 10,000 for minimum.</p>
 									</div>
-									<div class="col-1">
+									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Enabling Interbank payments and SWIFT Telegraphic transfer</p>
+										<p>Enabling Interbank payments and SWIFT Telegraphic transfer.</p>
 									</div>
-									<div class="col-1">
+									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Manage payroll and supplier payments via online banking or cheque</p>
+										<p>Manage payroll and supplier payments via online banking or cheque.</p>
 									</div>
-									<div class="col-1">
+									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>No annual or monthly maintenance fee</p>
+										<p>No annual or monthly maintenance fee.</p>
 									</div>
 
 									<div class="space-40"></div>
@@ -170,11 +189,11 @@
 
 									<div class="col-md-4 text-center">
 										<img src="{{ url('/images/business/account-saving/current-deposit/anytime_withdrawal_facility.png') }}" class="img-fluid w-30">
-										<p>Any time withdrawal facility to meet the business needs</p>
+										<p>Convenient payments to supplier and other business using cheque</p>
 									</div>
 									<div class="col-md-4 text-center">
 										<img src="{{ url('/images/business/account-saving/current-deposit/seamless_transfer.png') }}" class="img-fluid w-30">
-										<p>Seamless transfers: Link your business accounts so you can transfer funds with ease and speed</p>
+										<p>Seamless transfers across accounts with ease and speed</p>
 									</div>
 									<div class="col-md-4 text-center">
 										<img src="{{ url('/images/business/account-saving/current-deposit/Receive_or_pay_bills.png') }}" class="img-fluid w-30">
@@ -193,29 +212,29 @@
 								<div class="row">
 									<div class="space-30"></div>
 									<p>Designed for businesses which require to transact frequently and able to link with New Business Call Account.</p>
-									<div class="col-1">
+									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Initial cash deposit requires MMK 10,000 for minimum</p>
+										<p>Initial cash deposit requires MMK 10,000 for minimum.</p>
 									</div>
-									<div class="col-1">
+									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
 										<p>Enabling Interbank payments and SWIFT Telegraphic transfer</p>
 									</div>
-									<div class="col-1">
+									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Manage payroll and supplier payments via online banking or cheque</p>
+										<p>Manage payroll and supplier payments via online banking or cheque.</p>
 									</div>
-									<div class="col-1">
+									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>No annual or monthly maintenance fee</p>
+										<p>No annual or monthly maintenance fee.</p>
 									</div>
 
 									<div class="space-40"></div>
@@ -243,17 +262,17 @@
 								<div class="row">
 									<div class="space-30"></div>
 									<p>Designed to meet the requirements of regular businesses, corporate firms, importers, and exporters receiving and making payments in foreign currencies.</p>
-									<div class="col-1">
+									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Open account in United States Dollar, Euro, Singapore Dollar, Chinese Yuan or Thai Baht</p>
+										<p>Open account in US Dollar, Euro, Singapore Dollar, Chinese Yuan or Thai Baht.</p>
 									</div>
-									<div class="col-1">
+									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Suitable for business with international trade payment or any foreign currency payments</p>
+										<p>Suitable for business with international trade payment or any foreign currency payments.</p>
 									</div>
 
 									<div class="space-40"></div>
@@ -287,29 +306,29 @@
 							<div class="row">
 								<div class="space-30"></div>
 								<p>The simple current account that provides your business with an accurate record of transactions. It allows your business the flexibility to carry out a large number of transactions while offering services built specifically for business needs.</p>
-								<div class="col-1">
+								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>Initial deposit requires MMK 10,000 for minimum</p>
+									<p>Initial deposit requires MMK 10,000 for minimum.</p>
 								</div>
-								<div class="col-1">
+								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>Enabling Interbank payments and SWIFT Telegraphic transfer</p>
+									<p>Enabling Interbank payments and SWIFT Telegraphic transfer.</p>
 								</div>
-								<div class="col-1">
+								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>Manage payroll and supplier payments via online banking or cheque</p>
+									<p>Manage payroll and supplier payments via online banking or cheque payment.</p>
 								</div>
-								<div class="col-1">
+								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>No annual or monthly maintenance fee</p>
+									<p>No annual or monthly maintenance fee.</p>
 								</div>
 
 								<div class="space-40"></div>
@@ -318,11 +337,11 @@
 
 								<div class="col-md-12 text-center">
 									<img src="{{ url('/images/business/account-saving/current-deposit/anytime_withdrawal_facility.png') }}" class="img-fluid w-30">
-									<p>Any time withdrawal facility to meet the business needs</p>
+									<p>Convenient payments to supplier and other business using cheque</p>
 								</div>
 								<div class="col-md-12 text-center">
 									<img src="{{ url('/images/business/account-saving/current-deposit/seamless_transfer.png') }}" class="img-fluid w-30">
-									<p>Seamless transfers: Link your business accounts so you can transfer funds with ease and speed</p>
+									<p>Seamless transfers across accounts with ease and speed</p>
 								</div>
 								<div class="col-md-12 text-center">
 									<img src="{{ url('/images/business/account-saving/current-deposit/Receive_or_pay_bills.png') }}" class="img-fluid w-30">
@@ -342,25 +361,25 @@
 								<div class="space-30"></div>
 								<p>Designed for businesses which require to transact frequently and able to link with New Business Call Account.</p>
 
-								<div class="col-1">
+								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>Initial cash deposit requires MMK 10,000 for minimum</p>
+									<p>Initial cash deposit requires MMK 10,000 for minimum.</p>
 								</div>
-								<div class="col-1">
+								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>Enabling Interbank payments and SWIFT Telegraphic transfer </p>
+									<p>Enabling Interbank payments and SWIFT Telegraphic transfer.</p>
 								</div>
-								<div class="col-1">
+								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>Manage payroll and supplier payments via online banking or cheque </p>
+									<p>Manage payroll and supplier payments via online banking or cheque payment.</p>
 								</div>
-								<div class="col-1">
+								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
@@ -392,17 +411,17 @@
 							<div class="row">
 								<div class="space-30"></div>
 								<p>Designed to meet the requirements of regular businesses, corporate firms, importers, and exporters receiving and making payments in foreign currencies.</p>
-								<div class="col-1">
+								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>Open account in United States Dollar, Euro, Singapore Dollar, Chinese Yuan or Thai Baht</p>
+									<p>Open account in US Dollar, Euro, Singapore Dollar, Chinese Yuan or Thai Baht.</p>
 								</div>
-								<div class="col-1">
+								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>Suitable for business with international trade payment or any foreign currency payments</p>
+									<p>Suitable for business with international trade payment or any foreign currency payments.</p>
 								</div>
 
 								<div class="space-40"></div>
