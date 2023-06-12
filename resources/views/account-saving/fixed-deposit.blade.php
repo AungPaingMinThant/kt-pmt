@@ -33,25 +33,25 @@
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="#open_account">
-											<span>How to open the account</span>
+											<span>How to do deposit placement?</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="#requirements">
-											<span>What are requirements</span>
+											<span>What are requirements?</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="#call_deposit_features">
-											<span>Features of current deposit</span>
+											<span>Features of fixed deposit</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="#manage_account">
-											<span>How to manage the account</span>
+											<span>How to manage the account?</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
@@ -67,7 +67,7 @@
 						<div class="col-md-8">
 							<div id="scroll_content" data-spy="scroll" data-target="#myScrollspy" data-offset="10" style="">
 								<p id="quick_look">
-									Highest return on savings of excess cash for an extended period of time. Our fixed deposit saving is available with a competitive range of terms from minimum 1 month to maximum 24 months
+									Highest return on savings of excess cash for an extended period of time. Our Fixed Deposit is available with a competitive range of terms from minimum 1 month to maximum 24 months.
 								</p>
 
 								<div class="space-40" id="eligible"></div>
@@ -89,7 +89,7 @@
 										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 									</div>
 									<div class="col-11">
-										<p style="">Open in sole or corporate account</p>
+										<p style="">Open in sole or joint account</p>
 									</div>
 								</div>
 
@@ -108,7 +108,7 @@
 								<h4>What are requirements?</h4>
 								<ul>
 									<li>NRC copy</li>
-									<li>(2) passport size photos</li>
+									<li>(1) passport size photo</li>
 								</ul>
 								
 								<div class="space-40" id="call_deposit_features"></div>
@@ -118,13 +118,13 @@
 										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 									</div>
 									<div class="col-11">
-										<p style="">Start saving with initial deposit just MMK 10,000</p>
+										<p style="">Start saving with initial deposit just MMK 10,000.</p>
 									</div>
 									<div class="col-1">
 										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 									</div>
 									<div class="col-11">
-										<p style="">a fixed deposit certificate will be issued</p>
+										<p style="">a fixed deposit certificate will be issued.</p>
 									</div>
 								</div>
 
@@ -135,7 +135,7 @@
 										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 									</div>
 									<div class="col-11">
-										<p style="">Visit our branches to make placement, renewal or withdrawal</p>
+										<p style="">Visit our branches to make placement, renewal or withdrawal.</p>
 									</div>
 									<div class="col-1">
 										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
@@ -152,29 +152,29 @@
 										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 									</div>
 									<div class="col-11">
-										<p style="">Higher interest rates for longer tenor investment</p>
+										<p style="">Higher interest rates for longer tenor investment.</p>
 									</div>
 									<div class="col-1">
 										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 									</div>
 									<div class="col-11">
-										<p style="">Flexible choice of tenor with respective interest rate</p>
+										<p style="">Flexible choice of tenor with respective interest rate.</p>
 									</div>
 
 									<div class="col-12" style="margin-top: 40px;">
 										<table class="table table-bordered benefit_table">
 											<tbody style="box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%);border-bottom-right-radius: 10px;font-weight: 500;background-color: transparent;">
 												<tr style="background-color: #f5f5f7;border-top: none;">
-													<td style="border-width: 1px;border-top: none;border-left: none;padding: 20px;">Tenure</td>
+													<td style="border-width: 1px;border-top: none;border-left: none;padding: 20px;">Tenor</td>
 													<td class="last" style="border-width: 1px;border-right: none;border-top: none;">Interest Rates</td>
 												</tr>
 												<tr style="background-color: #fff;border-top: none;">
 													<td style="border-left: none;padding: 20px;">1 month</td>
-													<td style="border-right: none;">7.00% p.a.</td>
+													<td style="border-right: none;">8.55% p.a.</td>
 												</tr>
 												<tr style="background-color: #fff;border-top: none;">
 													<td style="border-left: none;padding: 20px;">3 months</td>
-													<td style="border-right: none;">7.25% p.a.</td>
+													<td style="border-right: none;">9.00% p.a.</td>
 												</tr>
 												<tr>
 													<td style="border-left: none;padding: 20px;">6 months</td>
@@ -342,16 +342,16 @@
 							<table class="table table-bordered benefit_table">
 								<tbody style="box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%);border-bottom-right-radius: 10px;font-weight: 500;background-color: transparent;">
 									<tr style="background-color: #f5f5f7;border-top: none;">
-										<td style="border-width: 1px;border-top: none;border-left: none;padding: 20px;">Tenure</td>
+										<td style="border-width: 1px;border-top: none;border-left: none;padding: 20px;">Tenor</td>
 										<td class="last" style="border-width: 1px;border-right: none;border-top: none;">Interest Rates</td>
 									</tr>
 									<tr style="background-color: #fff;border-top: none;">
 										<td style="border-left: none;padding: 20px;">1 month</td>
-										<td style="border-right: none;">7.00% p.a.</td>
+										<td style="border-right: none;">8.55% p.a.</td>
 									</tr>
 									<tr style="background-color: #fff;border-top: none;">
 										<td style="border-left: none;padding: 20px;">3 months</td>
-										<td style="border-right: none;">7.25% p.a.</td>
+										<td style="border-right: none;">9.00% p.a.</td>
 									</tr>
 									<tr>
 										<td style="border-left: none;padding: 20px;">6 months</td>

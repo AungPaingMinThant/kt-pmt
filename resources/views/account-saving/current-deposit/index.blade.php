@@ -33,25 +33,25 @@
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="#open_account">
-											<span>How to open the account</span>
+											<span>How to open the account?</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="#requirements">
-											<span>What are requirements</span>
+											<span>What are requirements?</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="#call_deposit_features">
-											<span>Features of current deposit</span>
+											<span>Features of Current Deposit?</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="#manage_account">
-											<span>How to manage the account</span>
+											<span>How to manage the account?</span>
 											<hr class="nav-item-separate">
 										</a>
 									</li>
@@ -100,7 +100,7 @@
 										<img src="{{ url('/images/acc_saving/open_at_aya_branch_icon.png') }}" class="img-fluid open_at_aya_branch_icon">
 									</div>
 									<div class="col-10" style="padding-top: 30px;margin-left: -30px;">
-										<p style="">Open at any AYA branch</p>
+										<p style="">Open at any AYA branches</p>
 									</div>
 								</div>
 
@@ -108,7 +108,7 @@
 								<h4>What are requirements?</h4>
 								<ul>
 									<li>NRC copy (or) Passport copy</li>
-									<li>(2) passport size photos</li>
+									<li>(1) passport size photo</li>
 									<li>Valid Business Visa for foreigners</li>
 								</ul>
 								
@@ -119,7 +119,7 @@
 										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 									</div>
 									<div class="col-11">
-										<p style="">Make use of cheque for convenient payment</p>
+										<p style="">Make use of cheque for convenient payment.</p>
 									</div>
 									<div class="col-1">
 										<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
@@ -158,7 +158,7 @@
 											</h2>
 											<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
 												<div class="accordion-body">
-													<p> The bank will charge MMK 7500 to issue a cheque book and MMK 200 for stamp duty fees.</p>
+													<p>The bank will charge MMK 7500 to issue a cheque book and MMK 125 for stamp duty fees.</p>
 												</div>
 											</div>
 										</div>
@@ -185,7 +185,7 @@
 											<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
 												<div class="accordion-body">
 													<p>
-														Minimum amount to maintain in seafarer account is USD 10.
+														Minimum amount to maintain in seafarer account is US Dollar 10.
 													</p>
 												</div>
 											</div>

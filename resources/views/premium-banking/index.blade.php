@@ -1,264 +1,8 @@
 @extends('layouts.frontend-app')
 
 @section('title', 'Premium Banking – AYA Bank')
-<style type="text/css">
-    p {
-    	color: #fff;
-    	font-weight: 300;
-    }
-    .section_1 {
-    	padding: 0px 100px !important;
-    }
-    .intro_box_bg {
-    	background-image: url('./images/premium-banking/intro-bg.jpg');
-    	background-size: contain;
-    	background-repeat: no-repeat;
-    	background-position: center top;
-    }
-    .intro_title {
-    	padding: 40px 200px 0px 200px !important
-    }
-    .intro_title > p {
-    	margin-bottom: 30px;
-    	font-size: 28px;
-    	line-height: 32px;
-    }
-    .intro_desc {
-    	padding: 0px 260px 40px 260px !important;
-    }
-    .relation_manage_box {
-    	background-color: #705c1e;
-    	padding: 60px 110px 60px 60px !important;
-    	position: absolute;
-    	top: 17%;
-    	left: -80px;
-    }
-    .life_style_box {
-    	background-color: #705c1e;
-    	padding: 60px 140px 60px 60px !important;
-    	position: absolute;
-    	top: 13%;
-    	right: -80px;
-    }
-    .product_service_box {
-    	background-color: #705c1e;
-    	padding: 60px 110px 60px 60px !important;
-    	position: absolute;
-    	top: 17%;
-    	left: -80px;
-    }
-    .travel_box {
-    	background-color: #705c1e;
-    	padding: 60px 150px 60px 60px !important;
-    	position: absolute;
-    	top: 13%;
-    	right: -80px;
-    }
-    .health_care_box {
-    	background-color: #705c1e;
-    	padding: 60px 110px 60px 60px !important;
-    	position: absolute;
-    	top: 17%;
-    	left: -80px;
-    }
-    .plan_section_1 {
-    	padding: 0px 100px !important;
-    }
-    .planA, .planB, .planC {
-    	padding: 0px 30px !important;
-    }
-    .planC-50 {
-    	display: none;
-    }
-    .input_email_box {
-    	padding: 0px 90px;
-    }
-    .novotel_branch_bg {
-    	background-image: url('./images/premium-banking/novotel_branch_bg.jpg');
-    	background-size: cover;
-    	background-position: center;
-    	background-repeat: no-repeat;
-    }
-    @media (max-width: 1400px) and (min-width: 1301px) {
-		.intro_title {
-		    padding: 30px 170px 0px 170px !important;
-		}
-		.intro_desc {
-		    padding: 0px 160px 40px 160px !important;
-		}
-	}
-    @media (max-width: 1300px) and (min-width: 1271px) {
-    	.intro_box_bg {
-	    	background-size: cover;
-	    }
-	    .intro_title {
-	    	padding: 30px 150px 0px 150px !important;
-	    }
-	    .intro_title > p {
-	    	margin-bottom: 20px;
-	    	font-size: 22px;
-	    	line-height: 26px;
-	    }
-	    .intro_desc {
-	    	padding: 0px 200px 30px 200px !important;
-	    	font-size: 13px;
-	    }
-	    .relation_manage_box {
-	    	padding: 30px !important;
-	    	position: absolute;
-	    	top: 17%;
-	    	left: -60px;
-	    }
-	    .life_style_box {
-	    	padding: 30px !important;
-	    	position: absolute;
-	    	top: 10%;
-	    	right: -60px;
-	    }
-	    .travel_box {
-	    	padding: 30px !important;
-	    	position: absolute;
-	    	top: 10%;
-	    	right: -60px;
-	    }
-	    .product_service_box {
-	    	padding: 30px !important;
-	    	position: absolute;
-	    	top: 10%;
-	    	left: -60px;
-	    }
-	    .health_care_box {
-	    	padding: 30px !important;
-	    	position: absolute;
-	    	top: 17%;
-	    	left: -60px;
-	    }
-	    .plan_section_1 {
-	    	padding: 0px 20px !important;
-	    }
-	    .planA, .planB, .planC {
-	    	padding: 0px 25px !important;
-	    }
-	    .input_email_box {
-	    	padding: 0px 50px;
-	    }
-	    .planC-50 {
-	    	display: none;
-	    }
-    }
-    @media (max-width: 1270px) and (min-width: 1000px) {
-    	.intro_title {
-	    	padding: 25px 100px 0px 100px !important;
-	    }
-	    .intro_title > p {
-	    	margin-bottom: 20px;
-	    	font-size: 22px;
-	    	line-height: 26px;
-	    }
-	    .intro_desc {
-	    	padding: 0px 100px 40px 100px !important;
-	    	font-size: 13px;
-	    }
-	    .relation_manage_box {
-	    	padding: 30px !important;
-	    	position: absolute;
-	    	top: 17%;
-	    	left: -60px;
-	    }
-	    .life_style_box {
-	    	padding: 30px !important;
-	    	position: absolute;
-	    	top: 10%;
-	    	right: -60px;
-	    }
-	    .travel_box {
-	    	padding: 30px !important;
-	    	position: absolute;
-	    	top: 10%;
-	    	right: -60px;
-	    }
-	    .product_service_box {
-	    	padding: 30px !important;
-	    	position: absolute;
-	    	top: 10%;
-	    	left: -60px;
-	    }
-	    .health_care_box {
-	    	padding: 30px !important;
-	    	position: absolute;
-	    	top: 17%;
-	    	left: -60px;
-	    }
-	    .plan_section_1 {
-	    	padding: 0px 20px !important;
-	    }
-	    .planA, .planB, .planC {
-	    	padding: 0px 25px !important;
-	    }
-	    .input_email_box {
-	    	padding: 0px 50px;
-	    }
-	    .planC-50 {
-	    	display: block;
-	    }
-    }
-    @media only screen and (max-width: 576px) {
-    	.intro_title {
-	    	padding: 20px 40px 0px 40px !important;
-	    }
-	    .section_1, .plan_section_1 {
-	    	padding: 0px 20px !important;
-	    }
-	    .intro_title > p {
-	    	margin-bottom: 30px;
-	    	font-size: 20px;
-	    	line-height: 24px;
-	    }
-	    .intro_desc {
-	    	padding: 0px 30px !important;
-	    }
-	    .intro_box_bg {
-	    	background-image: url('./images/premium-banking/intro-bg-mobile.jpg');
-	    	background-size: cover;
-	    }
-	    .relation_manage_box {
-	    	padding: 20px !important;
-	    	position: inherit;
-	    	top: 0;
-	    	left: 0;
-	    }
-	    .life_style_box {
-	    	padding: 20px !important;
-	    	position: inherit;
-	    	top: 0;
-	    	left: 0;
-	    }
-	    .product_service_box {
-	    	padding: 20px !important;
-	    	position: inherit;
-	    	top: 0;
-	    	left: 0;
-	    }
-	    .travel_box {
-	    	padding: 20px !important;
-	    	position: inherit;
-	    	top: 0;
-	    	left: 0;
-	    }
-	    .health_care_box {
-	    	padding: 20px !important;
-	    	position: inherit;
-	    	top: 0;
-	    	left: 0;
-	    }
-	    .planA, .planB {
-	    	margin-bottom: 30px;
-	    }
-	    .input_email_box {
-	    	padding: 0px 25px 0px 25px !important;
-	    }
-    }
-</style>
+<link rel="stylesheet" href="{{ url('/css/premium.css') }}" />
+
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
@@ -431,31 +175,25 @@
 			</div>
 
 			<div style="background-color: #272727;background-image: url('./images/premium-banking/plan_section_bottom_bg.png');background-position: center bottom;background-repeat: no-repeat;">
-				<div class="container plan_section_1">
+				<div class="container">
 					<div class="space-60"></div>
 					<div class="row text-center">
 						<p style="font-weight: 700;font-size: 30px;">Become a Royal Member</p>
 					</div>
 					<div class="space-40"></div>
 					<div class="row">
-						<div class="col-md-4 planA">
+						<div class="col-md-3 planA">
 							<div class="row" style="background-color: #555;padding: 40px 20px;background-image: url('./images/premium-banking/package_bottom_bg.png');background-position: center bottom;background-repeat: no-repeat;border-radius: 10px;box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);">
-								<p style="font-weight: 500;font-size: 16px;margin-bottom:0;">Package A</p>
-								<p style="margin-bottom: 0;font-weight: 300;">300 Million</p>
-								<p style="font-weight: 300;">(Fixed Deposit at least 1 year)</p>
+								<p class="fw-500 mb-0" style="font-size: 16px;">Package A</p>
+								<p class="mb-0 fw-light">300 Million</p>
+								<p class="mb-10">Bearing 8% of Interest Rate</p>
+								<p class="fw-light">(Fixed Deposit at least 1 year)</p>
 								<div class="space-20"></div>
 								<div class="col-2 text-right" style="padding-right: 0;">
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
 									<p style="font-size: 11px;margin-bottom: 10px;">Deposit Size- minimum 300 Million for individual account, 500 Million for joint account.</p>
-									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
-								</div>
-								<div class="col-2 text-right" style="padding-right: 0;">
-									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
-								</div>
-								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Bearing 8% of interest rate.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -506,27 +244,21 @@
 									<p style="font-size: 11px;margin-bottom: 10px;">Membership for F1 Gym or Dagon Golf City</p>
 								</div>
 
-								<div class="space-33"></div>
+								<div class="planA_last_space"></div>
 							</div>
 						</div>
-						<div class="col-md-4 planB">
+						<div class="col-md-3 planB">
 							<div class="row" style="background-color: #665a34;padding: 40px 20px;background-image: url('./images/premium-banking/package_B_bottom_bg.png');background-position: center bottom;background-repeat: no-repeat;border-radius: 10px;box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);">
-								<p style="font-weight: 500;font-size: 16px;margin-bottom:0;">Package B</p>
-								<p style="margin-bottom: 0;font-weight: 300;">500 Million</p>
-								<p style="font-weight: 300;">(Fixed Deposit at least 1 year)</p>
+								<p class="fw-500 mb-0" style="font-size: 16px;">Package B</p>
+								<p class="mb-0 fw-light">500 Million</p>
+								<p class="mb-10">Bearing 8.25% of Interest Rate</p>
+								<p class="fw-light">(Fixed Deposit at least 1 year)</p>
 								<div class="space-20"></div>
 								<div class="col-2 text-right" style="padding-right: 0;">
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
 									<p style="font-size: 11px;margin-bottom: 10px;">Deposit Size- minimum 300 Million for individual account, 500 Million for joint account.</p>
-									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
-								</div>
-								<div class="col-2 text-right" style="padding-right: 0;">
-									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
-								</div>
-								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Bearing 8.25% of interest rate either individual or joint account.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -577,35 +309,28 @@
 									<p style="font-size: 11px;margin-bottom: 10px;">Offer Fuel Coupons 1,000,000 MMK at Max Energy in each customer.</p>
 								</div>
 
-								<!-- <div class="space-6"></div> -->
+								<div class="planB_last_space"></div>
 							</div>
 						</div>
-						<div class="col-md-4 planC">
+						<div class="col-md-3 planC">
 							<div class="row" style="background-color: #705400;padding: 40px 20px;background-image: url('./images/premium-banking/package_C_bottom_bg.png');background-position: center bottom;background-repeat: no-repeat;border-radius: 10px;box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);">
-								<p style="font-weight: 500;font-size: 16px;margin-bottom:0;">Package C</p>
-								<p style="margin-bottom: 0;font-weight: 300;">700 Million</p>
-								<p style="font-weight: 300;">(Fixed Deposit at least 1 year)</p>
+								<p class="fw-500 mb-0" style="font-size: 16px;">Tier 1</p>
+								<p class="mb-10 fw-light">300 Million (Individual Account) bearing 8% of Interest rate</p>
+								<p class="mb-10 fw-light">500 Million (Joint Account) bearing 8.25% of Interest rate</p>
+								<p class="fw-light">Fixed Deposit at least One Year</p>
 								<div class="space-20"></div>
 								<div class="col-2 text-right" style="padding-right: 0;">
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Deposit Size- 700 Million</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Deposit Size- minimum 300 Million for Individual Account & 500 Million for Joint Account</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 								<div class="col-2 text-right" style="padding-right: 0;">
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Bearing 9.5% of interest rate either individual or joint account.</p>
-									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
-								</div>
-
-								<div class="col-2 text-right" style="padding-right: 0;">
-									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
-								</div>
-								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Offer Royal MPU Member Card and Visa Platinum Credit Card.</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Offer Royal MPU members card and Visa Platinum Credit card</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -613,7 +338,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Enjoy our Special Discounts at partnership merchants</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Enjoy our special discount at partnership merchants</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -625,9 +350,200 @@
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
-								<div class="space-100"></div>
-								<div class="space-86"></div>
-								<div class="space-50 planC-50"></div>
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Twice a week meeting room service</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Airport pick-up service (only available at YGN), twice per month</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Unlimited airport lounge service for domestic air-travel</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Express Lane service for International air-travel (3 times)</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">International airport lounge service (24 times)</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Spa Package one time (500,000 kyats)</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Membership at F1 Gym or Dagon Golf City</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Offer fuel coupon 1,000,000 Kyats at Max energy for each customer</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="planC_last_space"></div>
+							</div>
+						</div>
+						<div class="col-md-3 planD">
+							<div class="row" style="background-color: #7f4f08c7;padding: 40px 20px;background-image: url('./images/premium-banking/package_C_bottom_bg.png');background-position: center bottom;background-repeat: no-repeat;border-radius: 10px;box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);">
+								<p class="fw-500 mb-0" style="font-size: 16px;">Tier 2</p>
+								<p class="mb-10 fw-light">500 Million - 10 Billion </p>
+								<p class="mb-10 fw-light">Minimum of Fixed Deposit 500 Million at least six months</p>
+								<p class="fw-light">Bearing 9.5% of Interest Rate</p>
+								<div class="space-20"></div>
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Deposit Size- minimum 500 Million for individual</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Offer Royal MPU members card and Visa Platinum Credit card</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Enjoy our special discount at partnership merchants</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Exclusive banking services</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Twice a week meeting room service</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Airport pick-up service (only available at YGN), twice per month</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Unlimited airport lounge service for domestic air-travel</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Express lane service for International air-travel (6 times)</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">International airport lounge service (24 times)</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Breakfast at Pan Pacific Hotel and Dinner at Novotel Hotel. (6 times per annum)</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Spa Package one time (500,000 kyats)</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Membership at F1 Gym or Dagon Golf City</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Medical check-up one time</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Local Staycation 2N3D</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Offer fuel coupon 1,500,000 Kyats at Max energy for each customer</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="planD_last_space"></div>
 							</div>
 						</div>
 					</div>
@@ -643,21 +559,21 @@
 								<div class="col-1">
 									<img src="{{ url('/images/premium-banking/check.png') }}" class="img-fluid" style="width: 25%">
 								</div>
-								<div class="col-11" style="margin-left: -60px;">
+								<div class="col-11 benchmark_fact">
 									<p style="font-size: 12px;">Royal membership can be applied through either an individual account type or joint account type.</p>
 								</div>
 
 								<div class="col-1">
 									<img src="{{ url('/images/premium-banking/check.png') }}" class="img-fluid" style="width: 25%">
 								</div>
-								<div class="col-11" style="margin-left: -60px;">
+								<div class="col-11 benchmark_fact">
 									<p style="font-size: 12px;">In the case where the customer fails to maintain the deposit status, the Bank reserves the right to cancel Royal status of such customer and any privileges with effective immediately without any prior notice.</p>
 								</div>
 
 								<div class="col-1">
 									<img src="{{ url('/images/premium-banking/check.png') }}" class="img-fluid" style="width: 25%">
 								</div>
-								<div class="col-11" style="margin-left: -60px;">
+								<div class="col-11 benchmark_fact">
 									<p style="font-size: 12px;">The bank reserves the right to modify terms and conditions of Royal privileges without prior notice.</p>
 								</div>
 							</div>

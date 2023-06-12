@@ -20,23 +20,23 @@
 				<div class="col-md-12">
 					<div class="row">
 						<div class="col-md-8">
-							<p>Designed for individuals who receives their salary in foreign currencies while minimizing foreign exchange risks and maximizing payment efficiency in foreign currencies.</p>
+							<p>Designed for individuals who receives their salary in foreign currencies while minimising foreign exchange risks and maximising payment efficiency in foreign currencies.</p>
 							<div class="space-20"></div>
 							<h4>Benefits</h4>
 							<div class="row">
 								<div class="col-md-6" style="margin-bottom: 20px;">
 									<img src="{{ url('/images/acc_saving/retail_fca_curr_acc/benefit_icon.png') }}" class="img-fluid" style="width: 17%;">
-									<p>Available to open account in United States Dollar, Euro, Singapore Dollar or Chinese Yuan </p>
+									<p>Available to open account in US Dollar, Euro, Singapore Dollar, Chinese Yuan or Thai Baht.</p>
 								</div>
 								<div class="col-md-6" style="margin-bottom: 20px;">
 									<img src="{{ url('/images/acc_saving/retail_fca_curr_acc/benefit_icon_2.png') }}" class="img-fluid" style="width: 17%;">
-									<p>initial deposit as low as  USD 10 or equivalent</p>
+									<p>Initial deposit as low as US Dollar, Euro, Singapore Dollar , Chinese Yuan or Thai Baht 100 or equivalent.</p>
 								</div>
 								<div class="col-md-6" style="margin-bottom: 0px;">
 									<img src="{{ url('/images/acc_saving/retail_fca_curr_acc/benefit_icon_3.png') }}" class="img-fluid" style="width: 17%;">
 								</div>
 								<div class="col-md-7" style="margin-bottom: 20px;">
-									<p>Competitive currency exchange rate for payroll received. Facilitated by local payments and international SWIFT payments</p>
+									<p>Competitive currency exchange rate for payroll received. Facilitated by local payments and international SWIFT payments.</p>
 								</div>
 							</div>
 						</div>

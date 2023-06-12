@@ -26,15 +26,15 @@
 							<div class="row">
 								<div class="col-md-6" style="margin-bottom: 20px;">
 									<img src="{{ url('/images/acc_saving/seafarer/benefit_icon.png') }}" class="img-fluid" style="width: 17%;">
-									<p>Initial deposit as low as US 10 or it can be in other preferred currencies such as Euro or Singapore dollar</p>
+									<p>Initial deposit as low as US Dollar 10 or it can be in other preferred currencies such as Euro or Singapore Dollar.</p>
 								</div>
 								<div class="col-md-6" style="margin-bottom: 20px;">
 									<img src="{{ url('/images/acc_saving/seafarer/benefit_icon_2.png') }}" class="img-fluid" style="width: 17%;">
-									<p>open a joint account with family member and allow them to have access to the funds.</p>
+									<p>Open a joint account with family member and allow them to have access to the funds.</p>
 								</div>
 								<div class="col-md-6" style="margin-bottom: 20px;">
 									<img src="{{ url('/images/acc_saving/seafarer/benefit_icon_3.png') }}" class="img-fluid" style="width: 17%;">
-									<p>Provides saving passbook for ease of transaction tracking</p>
+									<p>Provides saving passbook for ease of transaction tracking.</p>
 								</div>
 								<div class="col-md-6" style="margin-bottom: 20px;">
 									<img src="{{ url('/images/acc_saving/seafarer/benefit_icon_4.png') }}" class="img-fluid" style="width: 17%;">
@@ -44,7 +44,7 @@
 									<img src="{{ url('/images/acc_saving/seafarer/benefit_icon_5.png') }}" class="img-fluid" style="width: 18%;">
 								</div>
 								<div class="col-md-10" style="margin-bottom: 20px;">
-									<p>Dedicated service centre is located at AYA Branch on Bo Aung Kyaw Road, which is designed as a one-stop-service centre to handle seafarers banking transactions</p>
+									<p>Dedicated service centre is located at AYA Branch on Bo Aung Kyaw Road(Yangon), which is designed as a one-stop-service centre to handle seafarers banking transactions.</p>
 								</div>
 							</div>
 						</div>

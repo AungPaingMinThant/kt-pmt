@@ -31,15 +31,15 @@
 							<div class="row">
 								<div class="col-md-6" style="margin-bottom: 20px;">
 									<img src="{{ url('/images/acc_saving/aya-su-buu/benefit_icon.png') }}" class="img-fluid" style="width: 17%;">
-									<p>Long term savings to support an employee’s retirement</p>
+									<p>Long term savings to support an employee’s retirement.</p>
 								</div>
 								<div class="col-md-6" style="margin-bottom: 20px;">
 									<img src="{{ url('/images/acc_saving/aya-su-buu/benefit_icon_2.png') }}" class="img-fluid" style="width: 17%;">
-									<p>Receive interest 6.25% per annum</p>
+									<p>Receive interest 6% per annum.</p>
 								</div>
 								<div class="col-md-6" style="margin-bottom: 20px;">
 									<img src="{{ url('/images/acc_saving/aya-su-buu/benefit_icon_3.png') }}" class="img-fluid" style="width: 17%;">
-									<p>Receive interest monthly</p>
+									<p>Receive interest monthly.</p>
 								</div>
 							</div>
 						</div>

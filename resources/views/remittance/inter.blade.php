@@ -189,13 +189,13 @@
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Visit agents to make payments</p>
+										<p>Visit agents to make payments.</p>
 									</div>
 									<div class="col-1">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Payout amount (in MMK) is confirmed</p>
+										<p>Payout amount Myanmar Kyat is confirmed.</p>
 									</div>
 
 									<p style="font-weight: 600;">Contact here to send money</p>
@@ -228,7 +228,7 @@
 								</p>
 								<div class="row" style="position: relative;">
 									<img src="{{ url('/images/remittance/inter/DBS_remit_singpapore.png') }}" class="img-fluid">
-									<p class="dbs_remit_singapore_tagline">DBS to AYA Remit,<br>a convenient way to send money.</p>
+									<p class="dbs_remit_singapore_tagline">DBS to AYA Remit,<br>a convenient way to send money</p>
 								</div>
 								<div class="row">
 									<div class="space-30"></div>
@@ -240,19 +240,19 @@
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-md-11 col-10 secure_credit_fact">
-												<p>Zero “0” transfer fee to both sender and receiver</p>
+												<p>Zero “0” transfer fee to both sender and receiver.</p>
 											</div>
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-md-11 col-10 secure_credit_fact">
-												<p>Instant credit to AYA account and same day transfer to any local banks in Myanmar</p>
+												<p>Instant credit to AYA account and same day transfer to any local banks in Myanmar.</p>
 											</div>
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-md-11 col-10 secure_credit_fact">
-												<p>Receive payment with AYA’s Ngwe Toe Mae Shwe Oo to earn higher interest and cash out anytime needed</p>
+												<p>Receive payment with AYA’s Ngwe Toe Mae-Shwe O to earn higher interest and cash out anytime needed.</p>
 											</div>
 										</div>
 									</div>
@@ -269,7 +269,7 @@
 								<div class="row">
 									<div class="space-30"></div>
 									<p>Ease and fast service with Western Union!</p>
-									<p>It commits security and provides cross-border money transfer over 200 countries worldwide. Receivers in Myanmar can withdraw the funds at any of AYA branch in MMK currency. </p>
+									<p>It commits security and provides cross-border money transfer over 200 countries worldwide. Receivers in Myanmar can withdraw the funds at any of AYA branch in Myanmar Kyat currency.</p>
 
 									<div class="col-md-12 col-12">
 										<div class="row">
@@ -277,13 +277,13 @@
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-md-11 col-10 secure_credit_fact">
-												<p>100% cash out at any AYA Branches using the secure transaction code (i.e. 10 digits MTCN)</p>
+												<p>100% cash out at any AYA Branches using the secure transaction code (i.e. 10 digits MTCN).</p>
 											</div>
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-md-11 col-10 secure_credit_fact">
-												<p>Cash out and credit to AYA’s Ngwe Toe Mae Shwe Oo account to earn higher interest</p>
+												<p>Cash out and credit to AYA’s Ngwe Toe Mae - Shwe O account to earn higher interest.</p>
 											</div>
 										</div>
 									</div>
@@ -307,13 +307,13 @@
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-md-11 col-10 secure_credit_fact">
-												<p>100% cash out at any AYA Branches using the secure transaction code (PIN)</p>
+												<p>100% cash out at any AYA Branches using the secure transaction code (PIN).</p>
 											</div>
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-md-11 col-10 secure_credit_fact">
-												<p>Cash out and credit to AYA’s Ngwe Toe Mae Shwe Oo account to earn higher interest</p>
+												<p>Cash out and credit to AYA’s Ngwe Toe Mae - Shwe O account to earn higher interest.</p>
 											</div>
 										</div>
 									</div>

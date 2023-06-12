@@ -1371,7 +1371,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="retail_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #a02226;">Retail FCA Current (FCY)</span><br><span>Manage your foreign currency payroll is <br>as convenient as local currency.</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #a02226;">Retail FCA Current (FCY)</span><br><span>Manage your foreign currency payroll is <br>as convenient as local currency</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1381,7 +1381,7 @@
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 15px;">
 						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;color: #a02226;font-size: 18px;">Retail FCA Current (FCY)</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;font-size: 18px;">Manage your foreign currency payroll is <br>as convenient as local currency.</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;font-size: 18px;">Manage your foreign currency payroll is <br>as convenient as local currency</h1>
 					</div>
 				</div>
 			</div>
@@ -1650,21 +1650,13 @@
 	<div class="premium_banking_banner banner_bg">
 		<div class="container">
 			<div class="row d-none d-sm-block">
-				<div class="ayapay_tag">
+				<div class="">
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
-						<div style="position: absolute;top: 150px;">
+						<div class="premium_banking_tagline">
 							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;color: #2e2e2e;"><span style="color: #a02226;">Relationship</span><br> Beyond Banking</h1>
 						</div>
 					</div>
 					<div class="col-md-6"></div>
-				</div>
-				<div class="ayapay_tag_mid">
-					<div class="col-md-7 text-left" style="text-align: left;position: relative;">
-						<div style="position: absolute;top: 50px;left: 50px;">
-							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;color: #2e2e2e;"><span style="color: #a02226;">Relationship</span>  Beyond Banking</h1>
-						</div>
-					</div>
-					<div class="col-md-3"></div>
 				</div>
 			</div>
 			<div class="row d-block d-sm-none">
@@ -1730,7 +1722,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="remit_inter_tag_line_div">
-						<h1>AYA International Remittance is <span style="color: #a02226;">secure and a quick way to send and receive money, across the global network.</span></h1>
+						<h1>AYA International Remittance is <span style="color: #a02226;">secure and a quick way to send and receive money, across the global network</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1740,7 +1732,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;">
-						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 20px;padding-right: 20px;">AYA International Remittance is <span style="color: #a02226;">secure and a quick way to send and receive money, across the global network.</span></h1>
+						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 20px;padding-right: 20px;">AYA International Remittance is <span style="color: #a02226;">secure and a quick way to send and receive money, across the global network</span></h1>
 					</div>
 				</div>
 			</div>

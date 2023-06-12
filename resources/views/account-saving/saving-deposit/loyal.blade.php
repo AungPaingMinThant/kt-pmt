@@ -32,15 +32,19 @@
 							<div class="row">
 								<div class="col-md-6" style="margin-bottom: 20px;">
 									<img src="{{ url('/images/acc_saving/aya-loyal-saving/benefit_icon.png') }}" class="img-fluid" style="width: 17%;">
-									<p>Bonus 0.5% per annum is rewarded upon maintaining the minimum balance of MMK 500,000 for three consecutive months</p>
+									<p>Bonus 0.5% per annum is rewarded upon maintaining the minimum balance of MMK 500,000 for three consecutive months.</p>
 								</div>
 								<div class="col-md-6" style="margin-bottom: 20px;">
 									<img src="{{ url('/images/acc_saving/aya-loyal-saving/benefit_icon_2.png') }}" class="img-fluid" style="width: 17%;">
-									<p>Receive interest 6.5% per annum</p>
+									<p>Receive interest 6.5% per annum.</p>
 								</div>
 								<div class="col-md-6" style="margin-bottom: 20px;">
 									<img src="{{ url('/images/acc_saving/aya-loyal-saving/benefit_icon_3.png') }}" class="img-fluid" style="width: 17%;">
-									<p>Receive interest monthly</p>
+									<p>Receive interest monthly.</p>
+								</div>
+								<div class="col-md-6" style="margin-bottom: 20px;">
+									<img src="{{ url('/images/acc_saving/aya-loyal-saving/benefit_icon_3.png') }}" class="img-fluid" style="width: 17%;">
+									<p>Receive bonus every 3 months.</p>
 								</div>
 							</div>
 
@@ -53,7 +57,7 @@
 											<div class="accordion-item">
 												<h2 class="accordion-header" id="headingOne">
 													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-														What is the initial deposit amount to open Loyal Account?  How much inerest rate and bonus?
+														What is the initial deposit amount to open Loyal Account?  How much interest rate and bonus?
 													</button>
 												</h2>
 												<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -70,7 +74,7 @@
 												</h2>
 												<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
 													<div class="accordion-body">
-														<p>Yes, you can withdraw from Loyal Account at nearest branch.</p>
+														<p>Yes, you can withdraw from any deposit account at nearest branch.</p>
 													</div>
 												</div>
 											</div>
