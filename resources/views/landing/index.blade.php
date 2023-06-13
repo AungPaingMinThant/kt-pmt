@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="{{ url('/css/landing.css') }}" />
 
 @section('content')
-<div class="layout-wrapper layout-content-navbar">
+<div class="layout-wrapper layout-content-navbar" id="layout-wrapper">
    	<div class="layout-container">
 		<div class="layout-page">
 			@include('layouts.header', ['page'=>'home'])
@@ -164,12 +164,12 @@
 					<div class="row">
 						<div class="col-md-6"></div>
 						<div class="col-md-6" style="position: relative;">
-							<div class="row CTA_section_1_info d-none d-sm-block">
+							<div class="row CTA_section_1_info d-none d-sm-block" id="CTA_section_1_info">
 								<div class="col-md-12">
 									<p class="CTA_desc mb-0">Match your needs with our comprehensive personal borrowing plan</p>
 									<div class="input-group">
 										<label class="input-group-text" for="inputGroupSelect01">I want to &nbsp;</label>
-										<select class="form-select" name="inputGroupSelect01" id="inputGroupSelect01">
+										<select class="form-select inputGroupSelect01" name="inputGroupSelect01" id="inputGroupSelect01">
 											<option value="">-- Select an option --</option>
 											<option value="0" id="inputGroupSelect01_option_1">get a home loan to fulfil my dream</option>
 											<option value="1" class="inputGroupSelect01_option">apply car loan to own my dream car</option>
@@ -414,38 +414,55 @@
   	dropdown.selectedIndex = -1;
   	dropdown.options[1].selected = true;
 
-	$("#inputGroupSelect01").mouseup(function(e) {
+  	document.getElementById('CTA_section_1_info').addEventListener('click', function(event) {
+		if (event.target.classList.contains('inputGroupSelect01')) {
+			console.log('Click dropdown');
+			var dropdown = document.getElementById('inputGroupSelect01');
+		  	// dropdown.selectedIndex = -1;
+		  	dropdown.options[0].selected = true;
+			event.stopPropagation();
+		}
+	});
+
+  	document.getElementById('layout-wrapper').addEventListener('click', function(event) {
+		if (!event.target.classList.contains('CTA_section_1_info')) {
+			console.log('Click event on container');
+			var dropdown = document.getElementById('inputGroupSelect01');
+		  	dropdown.selectedIndex = -1;
+		  	dropdown.options[1].selected = true;
+
+		  	event.stopPropagation();
+		}
+	});
+
+	$("#inputGroupSelect01").change(function(e) {
 		var dropdown = document.getElementById("inputGroupSelect01");
 		var open = $(this).data("isopen");
 
 		// console.log('First : '+$(this).data("isopen"));
-		// console.log(this.value);
+		console.log(this.value);
 
-		if ($('#inputGroupSelect01 option:selected').val() == 0) {
-			console.log('First Opt');
-		}
+		console.log(open);
 
-		if (open == true) {
-			if (this.value === previousValue) {
-				if (this.value == 0) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
-				}
-				if (this.value == 1) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
-				}
-				if (this.value == 2) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
-				}
-			} else {
-				if ($('#inputGroupSelect01 option:selected').val() == 0) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
-				}
-				if ($('#inputGroupSelect01 option:selected').val() == 1) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
-				}
-				if ($('#inputGroupSelect01 option:selected').val() == 2) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
-				}
+		if (this.value === previousValue) {
+			if (this.value == 0) {
+				window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
+			}
+			if (this.value == 1) {
+				window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
+			}
+			if (this.value == 2) {
+				window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
+			}
+		} else {
+			if ($('#inputGroupSelect01 option:selected').val() == 0) {
+				window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
+			}
+			if ($('#inputGroupSelect01 option:selected').val() == 1) {
+				window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
+			}
+			if ($('#inputGroupSelect01 option:selected').val() == 2) {
+				window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
 			}
 		}
 
@@ -454,15 +471,9 @@
 		$(this).data("isopen", !open);
 	});
 
-	$(".layout-wrapper").click(function(){
-		console.log('layout-wrapper');
-		$("#inputGroupSelect01").data("isopen", !open);
-		console.log($("#inputGroupSelect01").data("isopen"));
-	});
-
 	$("#inputGroupSelect01mobile").mouseup(function() {
 		var open = $(this).data("isopen");
-		if (open) {
+		if (open == true) {
 			if (this.value === previousValue)
 			{
 				if ($('#inputGroupSelect01mobile option:selected').val() == 0) {
