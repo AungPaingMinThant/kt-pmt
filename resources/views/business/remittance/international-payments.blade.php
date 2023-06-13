@@ -15,7 +15,7 @@
 			<div class="space-40"></div>
 			<div class="container section_1" >
 				<div class="row">
-					<div class="col-md-10">
+					<div class="col-md-10 international_payments_tag_div">
 						<h5 class="fw-semibold">AYA Swift Telegraphic Global Transfer</h5>
 						<p>We provide secure, fast and reliable way of international money transfer both inward and outward between two persons or entities through use of AYA’s wide correspondent relationships and the extensive and secured bank-to-bank SWIFT network.</p>
 					</div>
@@ -26,14 +26,14 @@
 						<div class="col-1">
 							<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 						</div>
-						<div class="col-11 mx-sm-n5">
+						<div class="col-11 swift_fact_div mx-sm-n5">
 							<p><span class="fw-semibold">Outward SWIFT Telegraphic Transfer</span><br>Sending money to beneficiaries outside Myanmar from your account with AYA Bank</p>
 						</div>
 						<div class="col-12"></div>
 						<div class="col-1">
 							<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 						</div>
-						<div class="col-11 mx-sm-n5">
+						<div class="col-11 swift_fact_div mx-sm-n5">
 							<p><span class="fw-semibold">Inward SWIFT Telegraphic Transfer</span><br>Receiving funds to your account in Myanmar from senders outside Myanmar</p>
 						</div>
 					</div>
@@ -105,14 +105,14 @@
 									<div class="space-20"></div>
 								</div>
 								<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;border-right: 1px solid #1d1d1f;padding-right: 0px;">
-									<p style="color: #000;font-weight: 400;font-size: 17px;">International Banking Department,<Br>AYA Bank Head office.</p>
+									<p class="head_office_cta">International Banking Department, AYA Bank Head office.</p>
 									<button class="btn visit_us_btn" data-bs-toggle="modal" data-bs-target="#modalCenterInternationalBanking">
 										Head Office
 									</button>
 									<div style="height: 40px;"></div>
 								</div>
 								<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;padding-left: 0px;">
-									<p style="color: #000;font-weight: 400;font-size: 17px;">Alternatively, you may submit the forms<br>at your nearest branches.</p>
+									<p class="near_branch_cta">Alternatively, you may submit the forms at your nearest branches.</p>
 									<a href="#">
 										<button class="btn visit_us_btn">
 											Branches
@@ -122,27 +122,26 @@
 								</div>
 							</div>
 						</div>
-						<div class="container d-block d-sm-none" style="padding: 30px;background-image: url('./images/get_start_bg.jpg');background-size: cover;border-radius: 6px;">
+						<div class="container d-block d-sm-none" style="background-image: url('./images/get_start_bg.jpg');background-size: cover;border-radius: 6px;padding: 0px;">
 							<div class="row">
 								<div class="col-md-12 col-xs-12 text-center">
-									<h3 style="color: #1d1d1f;padding: 0px 60px;">Visit Us</h3>
-									<div class="space-20"></div>
+									<h3 style="color: #1d1d1f;padding: 0px 60px;margin-bottom: 0px;">Visit Us</h3>
 								</div>
 								<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;border-bottom: 1px solid #1d1d1f;padding-bottom: 0px;">
-									<p style="color: #000;font-weight: 400;font-size: 17px;">International Banking Department, AYA Bank Head office.</p>
+									<p style="color: #000;font-weight: 400;font-size: 17px;margin-bottom: 0px;">International Banking Department, AYA Bank Head office.</p>
 									<button class="btn visit_us_btn" data-bs-toggle="modal" data-bs-target="#modalCenterInternationalBanking">
 										Head Office
 									</button>
 									<div style="height: 40px;"></div>
 								</div>
 								<div class="col-md-6 col-xs-12 text-center" style="padding-top: 20px;">
-									<p style="color: #000;font-weight: 400;font-size: 17px;">Alternatively, you may submit the forms at your nearest branches.</p>
+									<p style="color: #000;font-weight: 400;font-size: 17px;margin-bottom: 0px;">Alternatively, you may submit the forms at your nearest branches.</p>
 									<a href="#">
 										<button class="btn visit_us_btn">
 											Branches
 										</button>
 									</a>
-									<div style="height: 40px;"></div>
+									<div class="space-20"></div>
 								</div>
 							</div>
 						</div>

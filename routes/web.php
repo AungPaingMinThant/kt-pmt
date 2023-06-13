@@ -54,7 +54,7 @@ Route::get('/admin/logout','App\Http\Controllers\Admin\AdminController@logout');
 
 Route::get('/share-post', 'App\Http\Controllers\SharePostController@share');
 
-Route::get('/','App\Http\Controllers\HomeController@index');
+Route::any('/','App\Http\Controllers\HomeController@index');
 
 // Digital
 Route::get('/mobile-banking','App\Http\Controllers\Digital\MobileBankingController@mbindex');

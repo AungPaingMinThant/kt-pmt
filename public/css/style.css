@@ -64,6 +64,9 @@
 .f-white {
 	color: #fff !important;
 }
+.f-body-color {
+	color: #2e2e2e !important;
+}
 .black_text_color {
 	color: #000;
 }
@@ -213,6 +216,43 @@
 }
 .b-b-l-radius-10 {
 	border-bottom-left-radius: 10px;
+}
+
+.space-6 {
+    height: 6px;
+}
+.space-20 {
+    height: 20px;
+}  
+.space-29 {
+    height: 29px;
+}
+.space-30 {
+    height: 30px;
+}
+.space-33 {
+    height: 33px;
+}
+.space-40 {
+    height: 40px;
+}
+.space-50 {
+    height: 50px;
+}
+.space-60 {
+    height: 60px;
+}
+.space-80 {
+    height: 80px;
+}
+.space-86 {
+    height: 86px;
+}
+.space-90 {
+    height: 90px;
+}
+.space-100 {
+    height: 100px;
 }
 
 @media (max-width: 1300px) and (min-width: 1000px) {

@@ -39,7 +39,19 @@
 .benefit_icon {
 	width: 30% !important;
 }
-@media (max-width: 1400px) and (min-width: 577px) {
+.head_office_cta {
+	color: #000;
+	font-weight: 400;
+	font-size: 17px;
+	padding: 0px 130px;
+}
+.near_branch_cta {
+	color: #000;
+	font-weight: 400;
+	font-size: 17px;
+	padding: 0px 120px;
+}
+@media (max-width: 1400px) and (min-width: 1000px) {
 	.why_use_AYA_outer > .col-md-4 {
 		width: 31% !important;
 	}
@@ -47,15 +59,33 @@
 		width: 40% !important;
 	}
 }
+@media (max-width: 999px) and (min-width: 577px) {
+	.international_payments_tag_div {
+		width: 100% !important;
+	}
+	.why_use_AYA_outer > .col-md-4 {
+	    width: 47%;
+	}
+	.head_office_cta, .near_branch_cta {
+		padding: 0px 0px;
+	}
+}
 @media only screen and (max-width: 576px){
 	.visit_us_btn {
 		float: none;
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 	.visit_us_col {
 		text-align: center;
 	}
 	.visit_us_div {
 		background-position: 97% center;
+	}
+	.swift_fact_div {
+		width: 87% !important;
+		margin-left: 10px;
+	}
+	.outer_benefit_box:first-child {
+		margin-top: 10px !important;
 	}
 }

@@ -170,7 +170,8 @@
 									<div class="input-group">
 										<label class="input-group-text" for="inputGroupSelect01">I want to &nbsp;</label>
 										<select class="form-select" name="inputGroupSelect01" id="inputGroupSelect01">
-											<option value="0" id="inputGroupSelect01_option_1" selected>get a home loan to fulfil my dream</option>
+											<option value="">-- Select an option --</option>
+											<option value="0" id="inputGroupSelect01_option_1">get a home loan to fulfil my dream</option>
 											<option value="1" class="inputGroupSelect01_option">apply car loan to own my dream car</option>
 											<option value="2" class="inputGroupSelect01_option">plan my child future with education loan</option>
 										</select>
@@ -408,12 +409,21 @@
 	var previousValue;
 	var previousValue2;
 	var previousValue3;
+
+	var dropdown = document.getElementById('inputGroupSelect01');
+  	dropdown.selectedIndex = -1;
+  	dropdown.options[1].selected = true;
+
 	$("#inputGroupSelect01").mouseup(function(e) {
 		var dropdown = document.getElementById("inputGroupSelect01");
 		var open = $(this).data("isopen");
 
-		console.log('First : '+$(this).data("isopen"));
-		console.log(this.value);
+		// console.log('First : '+$(this).data("isopen"));
+		// console.log(this.value);
+
+		if ($('#inputGroupSelect01 option:selected').val() == 0) {
+			console.log('First Opt');
+		}
 
 		if (open == true) {
 			if (this.value === previousValue) {
@@ -427,26 +437,27 @@
 					window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
 				}
 			} else {
-				// if ($('#inputGroupSelect01 option:selected').val() == 0) {
-				// 	window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
-				// }
-				// if ($('#inputGroupSelect01 option:selected').val() == 1) {
-				// 	window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
-				// }
-				// if ($('#inputGroupSelect01 option:selected').val() == 2) {
-				// 	window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
-				// }
+				if ($('#inputGroupSelect01 option:selected').val() == 0) {
+					window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
+				}
+				if ($('#inputGroupSelect01 option:selected').val() == 1) {
+					window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
+				}
+				if ($('#inputGroupSelect01 option:selected').val() == 2) {
+					window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
+				}
 			}
 		}
 
 		previousValue = this.value;
 
-		// $(this).data("isopen", !open);
+		$(this).data("isopen", !open);
 	});
 
 	$(".layout-wrapper").click(function(){
-		// console.log('layout-wrapper ');
-		$("#inputGroupSelect01").data("isopen", undefined);
+		console.log('layout-wrapper');
+		$("#inputGroupSelect01").data("isopen", !open);
+		console.log($("#inputGroupSelect01").data("isopen"));
 	});
 
 	$("#inputGroupSelect01mobile").mouseup(function() {

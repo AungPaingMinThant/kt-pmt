@@ -605,6 +605,38 @@
 		height: 160px;
 	}
 }
+@media (max-width: 999px) and (min-width: 577px) {
+	.import_financing_tagline {
+		width: 80% !important;
+		top: 72%;
+	}
+	.margin_financing_tagline, .trust_receipt_tagline, .post_shipment_financing_tagline, .invoice_financing_tagline {
+		width: 80% !important;
+		top: 77%;
+	}
+	.import_invoice_financing_tagline {
+		width: 90% !important;
+		top: 68%;
+	}
+	.export_financing_tagline {
+		width: 90% !important;
+		top: 73%;
+	}
+	.pre_shipment_financing_tagline {
+		width: 70% !importantrtant;
+		top: 77%;
+	}
+	.benefit_table_icon_td {
+		padding: 0.625rem 0.5rem !important;
+	}
+	.margin_financing_eligibility {
+	    margin-left: 0px;
+	}
+	.other_trade_financing_tagline {
+		width: 80% !important;
+		top: 75%;
+	}
+}
 @media only screen and (max-width: 576px){
 	.bullet_square {
 		width: 100%;

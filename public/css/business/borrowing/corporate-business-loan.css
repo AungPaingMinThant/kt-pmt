@@ -32,7 +32,6 @@
 	z-index: 99;
 }
 #capex_financing, .working_capital_financing, .demand_loan, .project_loan_tender_contract_loan, .franchise_financing, .trade_financing {
-	padding-right: 250px;
 	font-size: 18px;
 	font-weight: 700;
 }
@@ -54,7 +53,7 @@
 	font-weight: 500;
 	font-size: 18px;
 	line-height: 22px;
-	width: 85% !important;
+	width: 60% !important;
 	position: absolute;
 	top: 80%;
 	left: 4%;
@@ -144,6 +143,33 @@
 	}
 	.fee_charge_table {
 	    width: 100% !important;
+	}
+}
+@media (max-width: 999px) and (min-width: 577px) {
+	.capex_financing_tagline {
+		width: 50% !important;
+	    top: 60%;
+	}
+	.benefit_table_icon_td {
+		padding: 0.625rem 0.5rem !important;
+	}
+	.c-b-l-icon {
+		width: 100% !important;
+	}
+	.fee_charge_table {
+	    width: 95% !important;
+	}
+	.working_capital_financing_tagline {
+		top: 73%;
+		width: 90% !important;
+	}
+	.demand_loan_tagline, .project_loan_tagline, .franchise_financing_tagline {
+		width: 90% !important;
+		top: 73%;
+	}
+	.trade_financing_tagline {
+	    width: 90% !important;
+	    top: 62%;
 	}
 }
 @media only screen and (max-width: 576px){

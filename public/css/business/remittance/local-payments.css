@@ -154,6 +154,11 @@
 	    width: 23% !important;
 	}
 }
+@media (max-width: 999px) and (min-width: 577px) {
+	.tab_section_1 {
+	    padding: 0px 10px !important;
+	}
+}
 @media only screen and (max-width: 576px){
 	.tab_section_1 {
 	    padding: 0px 30px !important;

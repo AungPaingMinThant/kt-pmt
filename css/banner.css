@@ -1031,6 +1031,37 @@
 		top: 60px;
 		right: 0;
 	}
+	.bu_remittance_local_banner {
+		background-position: 70% center;
+	}
+	.bu_remittance_local_banner_tagline {
+	    top: 10px;
+	    left: 20px;
+	    right: -30px;
+	}
+	.bu_remittance_inter_banner {
+		background-position: 70% center;
+	}
+	.bu_remittance_inter_banner_tagline {
+	    left: 20px;
+	    right: 0px;
+	}
+	.bu_borrowing_corporate_business_loan_banner {
+		background-position: 80% center;
+	}
+	.bu_borrowing_corporate_business_loan_banner_tagline {
+	    top: 30px;
+	    left: 20px;
+	    right: -90px;
+	}
+	.bu_trade_financing_banner {
+		background-position: 55% center;
+	}
+	.bu_trade_financing_banner_tagline {
+	    top: 120px;
+	    left: 20px;
+	    right: -70px;
+	}
 }
 @media only screen and (max-width: 576px) {
 	.mbanking_banner {
