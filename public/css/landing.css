@@ -368,6 +368,9 @@
 	.xl_slide {
 		display: block;
 	}
+	.desk_slide {
+		display: none;
+	}
 }
 @media (max-width: 1360px) and (min-width: 1251px) {
 	.carousel-caption {
