@@ -23,17 +23,17 @@
             @font-face {
                 font-family: 'Pyidaungsu';
                 font-style: normal;
-                src: url('http://localhost/ayab/public/fonts/Pyidaungsu-1.8_Regular.ttf');
+                src: url('/fonts/Pyidaungsu-1.8_Regular.ttf');
             }
             @font-face {
                 font-family: 'W35Art House';
                 font-style: normal;
-                src: url('http://localhost/ayab/public/fonts/W35Art House.TTF');
+                src: url('/fonts/W35Art House.TTF');
             }
             @font-face {
                 font-family: 'Sora';
                 font-style: normal;
-                src: url('http://localhost/ayab/public/fonts/Sora-Regular.ttf');
+                src: url('/fonts/Sora-Regular.ttf');
             }
             html, body, table{
                 font-family: 'Sora', sans-serif;
