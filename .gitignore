@@ -17,5 +17,4 @@ yarn-error.log
 .git/*
 /.git
 /vendor/*
-.env
 /public/*

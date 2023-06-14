@@ -79,6 +79,17 @@
 	padding-top: 50px;
 	padding-left: 30px;
 }
+.one_health_tagline_desc {
+	font-weight: 400;
+	font-size: 15px;
+}
+.one_health_tag_title {
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 600;
+	margin-bottom: 0px;
+	color: #000;
+}
 .tagline_desc {
 	font-size: 16px;
 }
@@ -620,6 +631,14 @@
 	.bu_car_ear_insurance_banner, .bu_IAR_insurance_banner, .bu_group_life_insurance_banner
 	{
 		height: 310px;
+	}
+	.one_health_tagline_div {
+		padding-top: 20px;
+		padding-left: 10px;
+		padding-right: 0px !important;
+	}
+	.one_health_tagline_desc {
+		font-size: 14px;
 	}
 	.smsalert_banner_tagline {
 	    right: 30px;

@@ -49,19 +49,19 @@
 							<div class="container section_1">
 								<div class="row">
 									<div class="col-md-6">
-										<p style="color: #aa004f;font-weight: 600;margin-bottom: 5px;">Insurable Age</p>
+										<p style="color: #a02226;font-weight: 600;margin-bottom: 5px;">Insurable Age</p>
 										<p>10 Years to 60 Years old</p>
 									</div>
 									<div class="col-md-6">
-										<p style="color: #aa004f;font-weight: 600;margin-bottom: 5px;">Policy Term</p>
+										<p style="color: #a02226;font-weight: 600;margin-bottom: 5px;">Policy Term</p>
 										<p>5 Years, 7 Years and 10 Years</p>
 									</div>
 									<div class="col-md-6">
-										<p style="color: #aa004f;font-weight: 600;margin-bottom: 5px;">Sum Assured</p>
+										<p style="color: #a02226;font-weight: 600;margin-bottom: 5px;">Sum Assured</p>
 										<p>Starting from MMK 1 million</p>
 									</div>
 									<div class="col-md-6">
-										<p style="color: #aa004f;font-weight: 600;margin-bottom: 5px;">Premium Rate</p>
+										<p style="color: #a02226;font-weight: 600;margin-bottom: 5px;">Premium Rate</p>
 										<p>Premium rates are calculate based on insured age, policy terms and sum assured amount.</p>
 									</div>
 								</div>
@@ -106,7 +106,7 @@
 			</div>
 
 			<div class="container faq_section" style="">
-				<div class="row" style="padding: 25px 20px;background-color: #f5f5f7;border-radius: 6px;">
+				<!-- <div class="row" style="padding: 25px 20px;background-color: #f5f5f7;border-radius: 6px;">
 					<div class="col-md-9 col-xs-12 d-none d-sm-block">
 						<p style="font-size: 18px;color: #2e2e2e;font-weight: 600;margin-bottom: 0;">Get in Touch!</p>
 						<p style="color: #2e2e2e;font-weight: 400;font-size: 17px;margin-bottom: 0px;">Making your future secure with us, find your nearest branch to apply in person.</p>
@@ -128,7 +128,7 @@
 					</div>
 				</div>
 
-				<div class="space-40"></div>
+				<div class="space-40"></div> -->
 				
 				<div class="row">
 					<div class="col-md-12 col-xs-12">
