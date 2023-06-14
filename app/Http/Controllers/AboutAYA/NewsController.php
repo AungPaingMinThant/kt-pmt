@@ -13,7 +13,7 @@ class NewsController extends Controller
     public function corporateIndex($value='')
     {
         $categories = Category::where('id',4)->get();
-        $blog_list = Blog::where('blog_category',4)->get();
+        $blog_list = Blog::where('blog_category',4)->paginate(9);
         return view('about-aya.news-room.corporate')->with('blog_list',$blog_list);
     }
 }

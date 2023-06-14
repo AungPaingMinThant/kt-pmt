@@ -14,7 +14,8 @@ class AddColumnToBlogsTable extends Migration
     public function up()
     {
         Schema::table('blogs', function (Blueprint $table) {
-            $table->string('fratured_image')->after('media_type')->nullable();
+            $table->string('featured_image')->after('media_type')->nullable();
+            $table->string('permalink')->after('featured_image')->nullable();
         });
     }
 
@@ -26,7 +27,8 @@ class AddColumnToBlogsTable extends Migration
     public function down()
     {
         Schema::table('blogs', function (Blueprint $table) {
-            $table->dropColumn('fratured_image');
+            $table->dropColumn('featured_image');
+            $table->dropColumn('permalink');
         });
     }
 }

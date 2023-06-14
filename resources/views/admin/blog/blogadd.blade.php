@@ -86,6 +86,10 @@
 												<input class="form-control" type="datetime-local" id="publish_date" name="publish_date" required>
 											</div>
 											<div class="mb-3">
+												<label class="form-label" for="permalink">Blog URL</label>
+												<input class="form-control" type="text" id="permalink" name="permalink" required>
+											</div>
+											<div class="mb-3">
 												<label class="form-label" for="search_keywords">Search Keyword</label>
 												<input class="form-control" type="text" id="search_keywords" name="search_keywords" placeholder="Separate each keyword by comma ( , )" required>
 											</div>
@@ -99,7 +103,6 @@
 						</div>
 					</div>
 				</div>
-				
 			</div>
 		</div>
 	</div>

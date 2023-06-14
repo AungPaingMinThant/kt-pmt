@@ -2,8 +2,8 @@
 <div class="desktop_menu">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-3">
-				<a href="{{url('/')}}" class="navbar-brand" href="#" style="padding: 22px 0px 20px 4px;">
+			<div class="col-md-3" style="display: table-cell;">
+				<a href="{{url('/')}}" class="navbar-brand" href="#" style="padding: 22px 0px 20px 4px;display: table-cell;vertical-align: middle;">
 					<img src="{{ url('/images/logo_wo_tagline_2.png') }}" class="img-fluid" style="width: 70%;margin-top: 40px">
 				</a>
 			</div>
@@ -11,14 +11,6 @@
 				<div class="row">
 					<div class="col-md-12 text-right">
 						<ul class="menu" style="display: flex;list-style: none;float: right;margin-bottom: 1rem;margin-top: 1rem;">
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-									English
-								</a>
-								<ul class="dropdown-menu">
-									<li><a class="dropdown-item" href="#">Myanmar</a></li>
-								</ul>
-							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#">
 									<img src="{{ url('/images/register_icon.png') }}" class="img-fluid">&nbsp;Register
@@ -600,7 +592,7 @@
 															CORPORATE PROFILE
 														</p>
 														<p class="m-b-5">
-															<a href="https://saltnpixel.com/AYABank/AYABank_Profile.html" target="_blank">AYA Bank Profile</a>
+															<a href="{{ url('/about-aya/who-we-are/corporate-profile/ayabank-profile') }}">AYA Bank Profile</a>
 														</p>
 														<p class="m-b-5">
 															<a href="https://saltnpixel.com/AYABank/AYABank_OurCorporateValue.html" target="_blank">Mission, Corporate Values and Brand Value</a>
@@ -623,7 +615,7 @@
 															<a href="" >Message From Chairman</a>
 														</p>
 														<p class="mb-20">
-															<a href="https://saltnpixel.com/AYABank/AYABANK_MeetOurLeaders.html" target="_blank">Meet Our Leaders</a>
+															<a href="{{ url('/about-aya/who-we-are/leadership/meet-our-leaders') }}" >Meet Our Leaders</a>
 														</p>
 														<p class="fw-bold">
 															What We Offer
@@ -643,7 +635,7 @@
 															<a href="">Business  Model</a>
 														</p>
 														<p class="m-b-5">
-															<a href="https://saltnpixel.com/AYABank/AYABank_Stakeholders.html" target="_blank">Stakeholder Management</a>
+															<a href="{{ url('/about-aya/who-we-are/our-strategies/stakeholder-management') }}" >Stakeholder Management</a>
 														</p>
 													</div>
 													<div class="col-md-5">
@@ -708,7 +700,7 @@
 															COMPLIANCE
 														</p>
 														<p class="m-b-5">
-															<a href="https://saltnpixel.com/AYABank/AYABank_Compliance.html" target="_blank">Compliance</a>
+															<a href="{{ url('/about-aya/governance/compliance') }}">Compliance</a>
 														</p>
 														<p class="m-b-5">
 															<a href="https://saltnpixel.com/AYABank/AYABank_AML_CFT.html" target="_blank">Implementations of AML/CFT</a>
@@ -719,7 +711,7 @@
 															RISK MANAGEMENT
 														</p>
 														<p class="mb-30">
-															<a href="https://saltnpixel.com/AYABank/AYABank_RiskManagement_Environment.html" target="_blank">Risk Management</a>
+															<a href="{{ url('/about-aya/governance/risk-management') }}">Risk Management</a>
 														</p>
 														<p class="fw-bold">
 															<a href="https://saltnpixel.com/AYABank/AYABank_CorporatePolicy.html" target="_blank">CORPORATE POLICIES</a>
@@ -1394,7 +1386,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="https://saltnpixel.com/AYABank/AYABank_Profile.html" target="_blank">AYA Bank Profile</a>
+										<a href="{{ url('/about-aya/who-we-are/corporate-profile/ayabank-profile') }}">AYA Bank Profile</a>
 									</p>
 								</li>
 								<li>
@@ -1429,7 +1421,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item mb-20 m-l-20">
-										<a href="https://saltnpixel.com/AYABank/AYABANK_MeetOurLeaders.html" target="_blank">Meet Our Leaders</a>
+										<a href="{{ url('/about-aya/who-we-are/leadership/meet-our-leaders') }}" >Meet Our Leaders</a>
 									</p>
 								</li>
 								<li>
@@ -1459,7 +1451,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item m-l-20 mb-20">
-										<a href="https://saltnpixel.com/AYABank/AYABank_Stakeholders.html" target="_blank">Stakeholder Management</a>
+										<a href="{{ url('/about-aya/who-we-are/our-strategies/stakeholder-management') }}" >Stakeholder Management</a>
 									</p>
 								</li>
 							</ul>
@@ -1539,7 +1531,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="https://saltnpixel.com/AYABank/AYABank_Compliance.html" target="_blank">Compliance</a>
+										<a href="{{ url('/about-aya/governance/compliance') }}">Compliance</a>
 									</p>
 								</li>
 								<li>
@@ -1554,7 +1546,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item mb-20 m-l-20">
-										<a href="https://saltnpixel.com/AYABank/AYABank_RiskManagement_Environment.html" target="_blank">Risk Management</a>
+										<a href="{{ url('/about-aya/governance/risk-management') }}">Risk Management</a>
 									</p>
 								</li>
 								<li>
@@ -1712,12 +1704,12 @@
                 <li style="padding: 10px 0px;">
                     <a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">LOGIN</a>
                 </li>
-                <li style="padding: 10px 0px;">
+                <!-- <li style="padding: 10px 0px;">
                     <a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">ENGLISH</a>
                 </li>
                 <li style="padding: 10px 0px;">
                     <a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">MYANMAR</a>
-                </li>
+                </li> -->
                 <li style="padding: 10px 15px;">
                     <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#searchBox" >
 						<span class="tf-icons bx bx-search"></span>

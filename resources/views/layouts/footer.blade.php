@@ -102,7 +102,7 @@
                 <a class="footer_first_link_a" href="#"><p class="footer_first_link">Get in Touch</p></a>
             </div>
             <div class="col-md-3 col-xs-12" style="padding-bottom: 20px;padding-top: -10px;">
-                <h3 class="footer_like_title">Recommand for you</h3>
+                <h3 class="footer_like_title">Recommend for you</h3>
                 <a class="footer_first_link_a" href="#"><p class="footer_first_link">Personal Banking</p></a>
                 <a class="footer_first_link_a" href="#"><p class="footer_first_link">Royal Banking</p></a>
                 <a class="footer_first_link_a" href="#"><p class="footer_first_link">Loan Management</p></a>

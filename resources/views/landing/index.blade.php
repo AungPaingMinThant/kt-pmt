@@ -198,13 +198,14 @@
 				<div class="container section_1">
 					<div class="row">
 						<div class="col-md-6" style="position: relative;">
-							<div class="row CTA_section_2_info d-none d-sm-block">
+							<div class="row CTA_section_2_info d-none d-sm-block" id="CTA_section_2_info">
 								<div class="col-md-12">
 									<p class="CTA_desc mb-0">Let us guide you what you are looking for your business</p>
 									<div class="input-group">
 										<label class="input-group-text" for="inputGroupSelect02">I want to &nbsp;</label>
-										<select class="form-select" id="inputGroupSelect02">
-											<option value="0" selected>get corporate loan for business expansion</option>
+										<select class="form-select inputGroupSelect02" id="inputGroupSelect02">
+											<option value="">-- Select an option --</option>
+											<option value="0">get corporate loan for business expansion</option>
 											<option value="1">get business loan for project / tender contract</option>
 											<option value="2">start a small business</option>
 											<option value="3">grow towards a modern  agricultural sector</option>
@@ -241,13 +242,14 @@
 					<div class="row">
 						<div class="col-md-6"></div>
 						<div class="col-md-6" style="position: relative;">
-							<div class="row CTA_section_3_info d-none d-sm-block">
+							<div class="row CTA_section_3_info d-none d-sm-block" id="CTA_section_3_info">
 								<div class="row">
 									<p class="CTA_desc mb-0">ATM / Branch / FX Counter Locator</p>
 									<div class="input-group CTA_3_input_group" style="width: 70% !important;">
 										<label class="input-group-text" for="inputGroupSelect03">I want to find &nbsp;</label>
-										<select class="form-select" id="inputGroupSelect03" style="width: 50%">
-											<option value="0" selected>Branch</option>
+										<select class="form-select inputGroupSelect03" id="inputGroupSelect03" style="width: 50%">
+											<option value="">-- Select an option --</option>
+											<option value="0">Branch</option>
 											<option value="1">ATM</option>
 											<option value="2">FX Counter</option>
 										</select>
@@ -414,11 +416,17 @@
   	dropdown.selectedIndex = -1;
   	dropdown.options[1].selected = true;
 
+  	var dropdown2 = document.getElementById('inputGroupSelect02');
+  	dropdown2.selectedIndex = -1;
+  	dropdown2.options[1].selected = true;
+
+  	var dropdown3 = document.getElementById('inputGroupSelect03');
+  	dropdown3.selectedIndex = -1;
+  	dropdown3.options[1].selected = true;
+
   	document.getElementById('CTA_section_1_info').addEventListener('click', function(event) {
 		if (event.target.classList.contains('inputGroupSelect01')) {
-			console.log('Click dropdown');
 			var dropdown = document.getElementById('inputGroupSelect01');
-		  	// dropdown.selectedIndex = -1;
 		  	dropdown.options[0].selected = true;
 			event.stopPropagation();
 		}
@@ -426,7 +434,6 @@
 
   	document.getElementById('layout-wrapper').addEventListener('click', function(event) {
 		if (!event.target.classList.contains('CTA_section_1_info')) {
-			console.log('Click event on container');
 			var dropdown = document.getElementById('inputGroupSelect01');
 		  	dropdown.selectedIndex = -1;
 		  	dropdown.options[1].selected = true;
@@ -438,11 +445,6 @@
 	$("#inputGroupSelect01").change(function(e) {
 		var dropdown = document.getElementById("inputGroupSelect01");
 		var open = $(this).data("isopen");
-
-		// console.log('First : '+$(this).data("isopen"));
-		console.log(this.value);
-
-		console.log(open);
 
 		if (this.value === previousValue) {
 			if (this.value == 0) {
@@ -472,29 +474,28 @@
 	});
 
 	$("#inputGroupSelect01mobile").mouseup(function() {
+		var dropdown = document.getElementById("inputGroupSelect01");
 		var open = $(this).data("isopen");
-		if (open == true) {
-			if (this.value === previousValue)
-			{
-				if ($('#inputGroupSelect01mobile option:selected').val() == 0) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
-				}
-				if ($('#inputGroupSelect01mobile option:selected').val() == 1) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
-				}
-				if ($('#inputGroupSelect01mobile option:selected').val() == 2) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
-				}
-			} else {
-				if ($('#inputGroupSelect01mobile option:selected').val() == 0) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
-				}
-				if ($('#inputGroupSelect01mobile option:selected').val() == 1) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
-				}
-				if ($('#inputGroupSelect01mobile option:selected').val() == 2) {
-					window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
-				}
+
+		if (this.value === previousValue) {
+			if (this.value == 0) {
+				window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
+			}
+			if (this.value == 1) {
+				window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
+			}
+			if (this.value == 2) {
+				window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
+			}
+		} else {
+			if ($('#inputGroupSelect01 option:selected').val() == 0) {
+				window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
+			}
+			if ($('#inputGroupSelect01 option:selected').val() == 1) {
+				window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
+			}
+			if ($('#inputGroupSelect01 option:selected').val() == 2) {
+				window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
 			}
 		}
 
@@ -503,53 +504,71 @@
 		$(this).data("isopen", !open);
 	});
 
+	document.getElementById('CTA_section_2_info').addEventListener('click', function(event) {
+		if (event.target.classList.contains('inputGroupSelect02')) {
+			var dropdown = document.getElementById('inputGroupSelect02');
+		  	dropdown.options[0].selected = true;
+			event.stopPropagation();
+		}
+	});
+
+  	document.getElementById('layout-wrapper').addEventListener('click', function(event) {
+		if (!event.target.classList.contains('CTA_section_2_info')) {
+			var dropdown = document.getElementById('inputGroupSelect02');
+		  	dropdown.selectedIndex = -1;
+		  	dropdown.options[1].selected = true;
+
+		  	event.stopPropagation();
+		}
+	});
+
 	$('#inputGroupSelect02').mouseup(function(){
+		var dropdown = document.getElementById("inputGroupSelect02");
 		var open = $(this).data("isopen");
-		if (open) {
-			if (this.value === previousValue2) {
-				if ($('#inputGroupSelect02 option:selected').val() == 0) {
-					window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#demand_loan';
-				}
-				if ($('#inputGroupSelect02 option:selected').val() == 1) {
-					window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#project_loan_tender_contract_loan';
-				}
-				if ($('#inputGroupSelect02 option:selected').val() == 2) {
-					window.location.href = APP_URL+'/business/borrowing/sme#aya_sme_loan';
-				}
-				if ($('#inputGroupSelect02 option:selected').val() == 3) {
-					window.location.href = APP_URL+'/business/borrowing/sme#agriculture_loan';
-				}
-				if ($('#inputGroupSelect02 option:selected').val() == 4) {
-					window.location.href = APP_URL+'/business/borrowing/hire-purchase#heavy_mahine_hp';
-				}
-				if ($('#inputGroupSelect02 option:selected').val() == 5) {
-					window.location.href = APP_URL+'/business/borrowing/hire-purchase#shop_house';
-				}
-				if ($('#inputGroupSelect02 option:selected').val() == 6) {
-					window.location.href = APP_URL+'/business/borrowing/hire-purchase#auto_loan_corporate';
-				}
-			} else {
-				if ($('#inputGroupSelect02 option:selected').val() == 0) {
-					window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#demand_loan';
-				}
-				if ($('#inputGroupSelect02 option:selected').val() == 1) {
-					window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#project_loan_tender_contract_loan';
-				}
-				if ($('#inputGroupSelect02 option:selected').val() == 2) {
-					window.location.href = APP_URL+'/business/borrowing/sme#aya_sme_loan';
-				}
-				if ($('#inputGroupSelect02 option:selected').val() == 3) {
-					window.location.href = APP_URL+'/business/borrowing/sme#agriculture_loan';
-				}
-				if ($('#inputGroupSelect02 option:selected').val() == 4) {
-					window.location.href = APP_URL+'/business/borrowing/hire-purchase#heavy_mahine_hp';
-				}
-				if ($('#inputGroupSelect02 option:selected').val() == 5) {
-					window.location.href = APP_URL+'/business/borrowing/hire-purchase#shop_house';
-				}
-				if ($('#inputGroupSelect02 option:selected').val() == 6) {
-					window.location.href = APP_URL+'/business/borrowing/hire-purchase#auto_loan_corporate';
-				}
+			
+		if (this.value === previousValue2) {
+			if ($('#inputGroupSelect02 option:selected').val() == 0) {
+				window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#demand_loan';
+			}
+			if ($('#inputGroupSelect02 option:selected').val() == 1) {
+				window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#project_loan_tender_contract_loan';
+			}
+			if ($('#inputGroupSelect02 option:selected').val() == 2) {
+				window.location.href = APP_URL+'/business/borrowing/sme#aya_sme_loan';
+			}
+			if ($('#inputGroupSelect02 option:selected').val() == 3) {
+				window.location.href = APP_URL+'/business/borrowing/sme#agriculture_loan';
+			}
+			if ($('#inputGroupSelect02 option:selected').val() == 4) {
+				window.location.href = APP_URL+'/business/borrowing/hire-purchase#heavy_mahine_hp';
+			}
+			if ($('#inputGroupSelect02 option:selected').val() == 5) {
+				window.location.href = APP_URL+'/business/borrowing/hire-purchase#shop_house';
+			}
+			if ($('#inputGroupSelect02 option:selected').val() == 6) {
+				window.location.href = APP_URL+'/business/borrowing/hire-purchase#auto_loan_corporate';
+			}
+		} else {
+			if ($('#inputGroupSelect02 option:selected').val() == 0) {
+				window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#demand_loan';
+			}
+			if ($('#inputGroupSelect02 option:selected').val() == 1) {
+				window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#project_loan_tender_contract_loan';
+			}
+			if ($('#inputGroupSelect02 option:selected').val() == 2) {
+				window.location.href = APP_URL+'/business/borrowing/sme#aya_sme_loan';
+			}
+			if ($('#inputGroupSelect02 option:selected').val() == 3) {
+				window.location.href = APP_URL+'/business/borrowing/sme#agriculture_loan';
+			}
+			if ($('#inputGroupSelect02 option:selected').val() == 4) {
+				window.location.href = APP_URL+'/business/borrowing/hire-purchase#heavy_mahine_hp';
+			}
+			if ($('#inputGroupSelect02 option:selected').val() == 5) {
+				window.location.href = APP_URL+'/business/borrowing/hire-purchase#shop_house';
+			}
+			if ($('#inputGroupSelect02 option:selected').val() == 6) {
+				window.location.href = APP_URL+'/business/borrowing/hire-purchase#auto_loan_corporate';
 			}
 		}
 
@@ -613,30 +632,48 @@
 		$(this).data("isopen", !open);
 	});
 
+	document.getElementById('CTA_section_3_info').addEventListener('click', function(event) {
+		if (event.target.classList.contains('inputGroupSelect03')) {
+			var dropdown = document.getElementById('inputGroupSelect03');
+		  	dropdown.options[0].selected = true;
+			event.stopPropagation();
+		}
+	});
+
+  	document.getElementById('layout-wrapper').addEventListener('click', function(event) {
+		if (!event.target.classList.contains('CTA_section_3_info')) {
+			var dropdown = document.getElementById('inputGroupSelect03');
+		  	dropdown.selectedIndex = -1;
+		  	dropdown.options[1].selected = true;
+
+		  	event.stopPropagation();
+		}
+	});
+
 	$('#inputGroupSelect03').mouseup(function(){
+		var dropdown = document.getElementById("inputGroupSelect03");
 		var open = $(this).data("isopen");
-		if (open) {
-			if (this.value === previousValue2) {
-				// if ($('#inputGroupSelect03 option:selected').val() == 0) {
-				// 	window.location.href = APP_URL+'/insurance/life/universal';
-				// }
-				if ($('#inputGroupSelect03 option:selected').val() == 1) {
-					window.location.href = APP_URL+'/atm';
-				}
-				// if ($('#inputGroupSelect03 option:selected').val() == 2) {
-				// 	window.location.href = APP_URL+'/insurance/motor';
-				// }
-			} else {
-				// if ($('#inputGroupSelect03 option:selected').val() == 0) {
-				// 	window.location.href = APP_URL+'/insurance/life/universal';
-				// }
-				if ($('#inputGroupSelect03 option:selected').val() == 1) {
-					window.location.href = APP_URL+'/atm';
-				}
-				// if ($('#inputGroupSelect03 option:selected').val() == 2) {
-				// 	window.location.href = APP_URL+'/insurance/motor';
-				// }
+
+		if (this.value === previousValue2) {
+			// if ($('#inputGroupSelect03 option:selected').val() == 0) {
+			// 	window.location.href = APP_URL+'/insurance/life/universal';
+			// }
+			if ($('#inputGroupSelect03 option:selected').val() == 1) {
+				window.location.href = APP_URL+'/atm';
 			}
+			// if ($('#inputGroupSelect03 option:selected').val() == 2) {
+			// 	window.location.href = APP_URL+'/insurance/motor';
+			// }
+		} else {
+			// if ($('#inputGroupSelect03 option:selected').val() == 0) {
+			// 	window.location.href = APP_URL+'/insurance/life/universal';
+			// }
+			if ($('#inputGroupSelect03 option:selected').val() == 1) {
+				window.location.href = APP_URL+'/atm';
+			}
+			// if ($('#inputGroupSelect03 option:selected').val() == 2) {
+			// 	window.location.href = APP_URL+'/insurance/motor';
+			// }
 		}
 
 		previousValue3 = this.value;

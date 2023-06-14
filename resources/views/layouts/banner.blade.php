@@ -3066,7 +3066,7 @@
 @endif
 
 @if($page == 'news')
-	<div>
+	<div class="news_breadcrumb">
 		<div class="container">
 			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ABOUT AYA&nbsp;

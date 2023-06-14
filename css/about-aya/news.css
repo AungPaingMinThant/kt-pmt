@@ -1,0 +1,45 @@
+.nav-align-top .nav-tabs .nav-item:first-child .nav-link {
+	border-top:  none;
+	border-left: none;
+	border-right: none;
+	box-shadow: none;
+}
+.tab_title > span {
+	padding: 20px 0px;
+}
+.nav-align-top .nav-tabs .tab_title.active span {
+	border-bottom: 5px solid #a02226;
+}
+.nav-pills .tab_title.active, .nav-pills .tab_title.active:hover, .nav-pills .tab_title.active:focus {
+	background-color: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    border-bottom: 5px solid #ae002c;
+    border-radius: 0;
+    font-weight: 500;
+}
+.nav .tab_title:hover, .nav .tab_title:focus {
+	color: #000 !important;
+}
+.nav-pills .tab_title {
+	font-weight: 400;
+	font-size: 16px;
+}
+.nav-align-top > .tab-content, .nav-align-right > .tab-content, .nav-align-bottom > .tab-content, .nav-align-left > .tab-content {
+	box-shadow: none !important;
+}
+
+.news_desc {
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+@media (min-width: 768px){
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+}
+@media (max-width: 999px) and (min-width: 577px) {
+}
+@media only screen and (max-width: 576px){
+}

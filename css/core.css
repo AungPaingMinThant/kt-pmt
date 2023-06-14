@@ -638,11 +638,17 @@ progress {
     max-width: 960px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
+  .container-lg, .container-md, .container-sm, .container {
+    max-width: 1060px;
+  }
+}
+@media (min-width: 1300px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
   }
 }
+
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1300px;
@@ -3265,7 +3271,7 @@ textarea.form-control-lg {
 
 .nav-link {
   display: block;
-  padding: 0.5rem 1.25rem;
+  padding: 0.5rem 1rem 0.5rem 1.25rem;
   color: #222222;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }

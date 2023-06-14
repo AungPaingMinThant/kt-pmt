@@ -43,6 +43,7 @@ class BlogController extends Controller
         $media_type = $request->media_type;
         $publish_date = $request->publish_date;
         $status = $request->status;
+        $permalink = str_replace(" ","_",$request->permalink);
         $search_keywords = $request->search_keywords;
 
         $pieces = explode(",", $search_keywords);
@@ -63,6 +64,7 @@ class BlogController extends Controller
         $blog->media_type = $media_type;
         $blog->publish_date = $publish_date;
         $blog->status = $status;
+        $blog->permalink = $permalink;
         $blog->created_by = auth()->user()->id;
         $blog->updated_by = auth()->user()->id;
         $blog->save();
@@ -154,6 +156,7 @@ class BlogController extends Controller
         $featured_image = $request->featured_image;
         $media_type = $request->media_type;
         $publish_date = $request->publish_date;
+        $permalink = $request->permalink;
         $search_keywords = $request->search_keywords;
 
         $pieces = explode(",", $search_keywords);
@@ -179,6 +182,7 @@ class BlogController extends Controller
                         'blog_desc' => $blog_desc,
                         'featured_image' => $featured_img_path,
                         'media_type' => $media_type,
+                        'permalink' => $permalink,
                         'publish_date' => $publish_date,
                         'updated_at' => date('Y-m-d H:i:s'),
                         'updated_by' => auth()->user()->id

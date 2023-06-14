@@ -38,7 +38,11 @@
 	text-decoration: underline !important;
 	cursor: pointer;
 }
-
+@media (max-width: 1300px) and (min-width: 1000px) {
+	.section_1 {
+	    padding: 0px 30px !important;
+	}
+}
 @media only screen and (max-width: 576px){
 	.tab-pane {
 		background-position: -80px -70px;

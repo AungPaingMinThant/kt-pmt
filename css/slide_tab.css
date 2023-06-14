@@ -94,7 +94,7 @@ input[id="radio-3"]:checked ~ .glider {
 }
 @media (max-width: 1200px) and (min-width: 1000px) {
 	.glider, .tab {
-   		width: 270px;
+   		width: 345px;
 	}
 }
 @media (max-width: 700px) {

@@ -5,11 +5,20 @@
 <link rel="stylesheet" href="{{ url('/css/pb_insurance.css') }}">
 <style type="text/css">
 	.tab_data_row > .col-md-4 {
-		width: 30%;
+		width: 32%;
+	}
+	.tab_data_row > .col-md-4:not(:nth-child(3)) {
+		margin-right: 20px;
 	}
 	@media (max-width: 1300px) and (min-width: 1000px) {
 		.tab_data_row > .col-md-4 {
-			width: 48%;
+			width: 49%;
+		}
+		.tab_data_row > .col-md-4:not(:nth-child(odd)) {
+			margin-right: 0px;
+		}
+		.tab_data_row > .col-md-4:not(:nth-child(even)) {
+			margin-right: 20px;
 		}
 	}
 	@media only screen and (max-width: 576px){
@@ -64,7 +73,7 @@
 					<div class="tab-content" style="background-color: transparent;padding: 30px 0px 0px 0px;">
 						<div class="tab-pane fade show active" id="navs-pills-top-coverage" role="tabpanel" style="background: transparent;padding-bottom: 30px;">
 							<div class="container section_1">
-								<div class="row tab_data_row" style="column-gap: 20px;">
+								<div class="row tab_data_row">
 									<div class="col-md-4 benefit_feature_box" style="padding: 20px;margin-bottom: 20px;">
 										<div class="row">
 											<div class="col-md-3">
