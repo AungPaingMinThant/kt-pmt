@@ -8,6 +8,9 @@ $baseDir = dirname($vendorDir);
 return array(
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
+    'App\\Http\\Controllers\\AboutAYA\\GovernanceController' => $baseDir . '/app/Http/Controllers/AboutAYA/GovernanceController.php',
+    'App\\Http\\Controllers\\AboutAYA\\NewsController' => $baseDir . '/app/Http/Controllers/AboutAYA/NewsController.php',
+    'App\\Http\\Controllers\\AboutAYA\\WhoWeAreController' => $baseDir . '/app/Http/Controllers/AboutAYA/WhoWeAreController.php',
     'App\\Http\\Controllers\\AccountSaving\\CallDepositController' => $baseDir . '/app/Http/Controllers/AccountSaving/CallDepositController.php',
     'App\\Http\\Controllers\\AccountSaving\\CurrentDepositController' => $baseDir . '/app/Http/Controllers/AccountSaving/CurrentDepositController.php',
     'App\\Http\\Controllers\\AccountSaving\\FixedDepositController' => $baseDir . '/app/Http/Controllers/AccountSaving/FixedDepositController.php',
@@ -66,6 +69,7 @@ return array(
     'App\\Http\\Middleware\\TrustHosts' => $baseDir . '/app/Http/Middleware/TrustHosts.php',
     'App\\Http\\Middleware\\TrustProxies' => $baseDir . '/app/Http/Middleware/TrustProxies.php',
     'App\\Http\\Middleware\\VerifyCsrfToken' => $baseDir . '/app/Http/Middleware/VerifyCsrfToken.php',
+    'App\\Mail\\Enquiry' => $baseDir . '/app/Mail/Enquiry.php',
     'App\\Models\\Activity' => $baseDir . '/app/Models/Activity.php',
     'App\\Models\\Blog' => $baseDir . '/app/Models/Blog.php',
     'App\\Models\\BlogFile' => $baseDir . '/app/Models/BlogFile.php',
