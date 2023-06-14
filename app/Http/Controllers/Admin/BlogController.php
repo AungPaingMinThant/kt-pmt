@@ -39,6 +39,7 @@ class BlogController extends Controller
         $blog_title = $request->blog_title;
         $blog_category = $request->blog_category;
         $blog_desc = $request->blog_desc;
+        $featured_image = $request->featured_image;
         $media_type = $request->media_type;
         $publish_date = $request->publish_date;
         $status = $request->status;
@@ -46,10 +47,19 @@ class BlogController extends Controller
 
         $pieces = explode(",", $search_keywords);
 
+        if ($request->hasFile('featured_image')) {
+            $imagefile = $request->file('featured_image');
+            $file = $imagefile->getClientOriginalName();
+            $upload_path = public_path() . '/blog_images/';
+            $imagefile->move($upload_path, $file);
+            $featured_img_path = "blog_images/" . $file;
+        }
+
         $blog = new Blog;
         $blog->blog_title = $blog_title;
         $blog->blog_category = $blog_category;
         $blog->blog_desc = $blog_desc;
+        $blog->featured_image = $featured_img_path;
         $blog->media_type = $media_type;
         $blog->publish_date = $publish_date;
         $blog->status = $status;
@@ -141,11 +151,25 @@ class BlogController extends Controller
         $blog_title = $request->blog_title;
         $blog_category = $request->blog_category;
         $blog_desc = $request->blog_desc;
+        $featured_image = $request->featured_image;
         $media_type = $request->media_type;
         $publish_date = $request->publish_date;
         $search_keywords = $request->search_keywords;
 
         $pieces = explode(",", $search_keywords);
+
+        if($request->old_featured_image == '') {
+            if ($request->hasFile('featured_image')) {
+                $imagefile = $request->file('featured_image');
+                $file = $imagefile->getClientOriginalName();
+                $upload_path = public_path() . '/blog_images/';
+                $imagefile->move($upload_path, $file);
+                $featured_img_path = "blog_images/" . $file;
+            }
+            
+        } else {
+            $featured_img_path = $request->old_featured_image;
+        }
 
         $blog = DB::table('blogs')
                     ->where('id', $blog_id)
@@ -153,6 +177,7 @@ class BlogController extends Controller
                         'blog_title' => $blog_title,
                         'blog_category' => $blog_category,
                         'blog_desc' => $blog_desc,
+                        'featured_image' => $featured_img_path,
                         'media_type' => $media_type,
                         'publish_date' => $publish_date,
                         'updated_at' => date('Y-m-d H:i:s'),

@@ -62,6 +62,12 @@
 												<label class="form-label" for="blog_desc">Description</label>
 												<textarea class="form-control" id="blog_desc" name="blog_desc" rows="3" spellcheck="false" >{{ $blog_data->blog_desc }}</textarea>
 											</div>
+											<input type="text" name="old_featured_image" id="old_featured_image" value="{{$blog_data->featured_image}}">
+											<input type="text" name="new_featured_image" id="new_featured_image" value="">
+											<div class="mb-3">
+												<label class="form-label" for="featured_image">Featured Image</label>
+												<input class="form-control" type="file" name="featured_image" id="featured_image" required>
+											</div>
 											<div class="mb-3">
 												<label class="form-label" for="media_type">Media Type</label>
 												<select class="form-select" name="media_type" id="media_type" aria-label="Media Type">
@@ -83,8 +89,8 @@
 												@endphp
 											@endif
 
-											<input type="hidden" name="old_image" id="old_image" value="{{count($blog_files)}}">
-											<input type="hidden" name="new_image" id="new_image" value="">
+											<input type="text" name="old_image" id="old_image" value="{{count($blog_files)}}">
+											<input type="text" name="new_image" id="new_image" value="">
 											<div class="mb-3">
 												<label class="form-label" for="media_image">Media</label>
 												<input class="form-control {{$single_class}}" type="file" name="single_image" id="single_image" >
@@ -150,6 +156,11 @@
 		$("#multiple_image").change(function() {
 			$("#old_image").val('0');
 			$("#new_image").val('uploaded');
+		});
+
+		$("#featured_image").change(function() {
+			$("#old_featured_image").val('');
+			$("#new_featured_image").val('uploaded');
 		});
 
 		$("#submit_btn").click(function() {

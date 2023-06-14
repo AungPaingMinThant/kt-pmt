@@ -25,7 +25,7 @@
 		</li>
 
 		<!-- News Category -->
-		<!-- @if($page == 'Categories')
+		@if($page == 'Categories')
 			<li class="menu-item active">
 		@else
 			<li class="menu-item">
@@ -34,10 +34,10 @@
 				<i class="menu-icon tf-icons bx bx-category"></i>
 				<div>Categories</div>
 			</a>
-		</li> -->
+		</li>
 
 		<!-- Blog -->
-		<!-- @if($page == 'Blog')
+		@if($page == 'Blog')
 			<li class="menu-item active">
 		@else
 			<li class="menu-item">
@@ -46,7 +46,7 @@
 				<i class="menu-icon tf-icons bx bx-list-ul"></i>
 				<div>News Room</div>
 			</a>
-		</li> -->
+		</li>
 
 		<!-- Page -->
 		<!-- @if($page == 'Page')

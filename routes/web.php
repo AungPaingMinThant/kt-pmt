@@ -163,6 +163,7 @@ Route::get('/about-aya/governance/risk-management/risk-management-framework','Ap
 Route::get('/about-aya/governance/risk-management/risk-management-control','App\Http\Controllers\AboutAYA\GovernanceController@riskMgmtControlIndex');
 Route::get('/about-aya/governance/risk-management/managing-risk','App\Http\Controllers\AboutAYA\GovernanceController@managingRiskIndex');
 Route::get('/about-aya/governance/compliance','App\Http\Controllers\AboutAYA\GovernanceController@complianceIndex');
+Route::get('/about-aya/news-room/corporate-news','App\Http\Controllers\AboutAYA\NewsController@corporateIndex');
 
 
 // Enquiry Form

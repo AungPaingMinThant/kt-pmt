@@ -3064,3 +3064,25 @@
 		</div>
 	</div>
 @endif
+
+@if($page == 'news')
+	<div>
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ABOUT AYA&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;NEWS ROOM&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">COROPRATE NEWS</span>
+			</p>
+		</div>
+	</div>
+	<div class="news_banner">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center py-6">
+					<h1 class="fw-bold" style="font-size: 23px;margin-bottom: 0;">Corporate News</h1>
+				</div>
+			</div>
+		</div>
+	</div>	
+@endif

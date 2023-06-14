@@ -404,7 +404,7 @@
 															<a href="{{ url('/business/insurance/domestic-inland-transit') }}">Domestic Inland Transit Insurance</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/business/insurance/industrial-all-risk') }}">Industrial All Risk Insurance (IAR) Insurance</a>
+															<a href="{{ url('/business/insurance/industrial-all-risk') }}">Industrial All Risk Insurance (IAR)</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/business/insurance/car-ear') }}">Contractor’s All Risk & Erection All Risk (CAR & EAR) Insurance</a>
@@ -1247,7 +1247,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5">
-										<a href="{{ url('/business/insurance/industrial-all-risk') }}">Industrial All Risk Insurance (IAR)<br>Insurance</a>
+										<a href="{{ url('/business/insurance/industrial-all-risk') }}">Industrial All Risk Insurance (IAR)</a>
 									</p>
 								</li>
 								<li>

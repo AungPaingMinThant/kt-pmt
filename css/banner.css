@@ -468,6 +468,9 @@
 .compliance_banner {
 	background-image:url('../images/about-aya/risk-management/compliance_KV.webp');
 }
+.news_banner {
+	background-color: #f5f5f7;
+}
 .stakeholder_management_banner_tagline, .aya_bank_profile_banner_tagline, .meet_our_leaders_banner_tagline, .risk_management_banner_tagline,
 .risk_governance_banner_tagline, .risk_mgmt_framework_banner_tagline, .risk_mgmt_ctl_banner_tagline, .managing_risk_banner_tagline,
 .compliance_banner_tagline {

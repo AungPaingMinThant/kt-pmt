@@ -62,6 +62,10 @@
 												<textarea class="form-control" id="blog_desc" name="blog_desc" rows="3" spellcheck="false" ></textarea>
 											</div>
 											<div class="mb-3">
+												<label class="form-label" for="featured_image">Featured Image</label>
+												<input class="form-control" type="file" name="featured_image" id="featured_image" required>
+											</div>
+											<div class="mb-3">
 												<label class="form-label" for="media_type">Media Type</label>
 												<select class="form-select" name="media_type" id="media_type" aria-label="Media Type">
 													<option value="1">Single Image</option>
