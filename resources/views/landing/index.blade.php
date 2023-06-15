@@ -522,7 +522,7 @@
 		}
 	});
 
-	$('#inputGroupSelect02').mouseup(function(){
+	$('#inputGroupSelect02').change(function(e){
 		var dropdown = document.getElementById("inputGroupSelect02");
 		var open = $(this).data("isopen");
 			
@@ -650,7 +650,7 @@
 		}
 	});
 
-	$('#inputGroupSelect03').mouseup(function(){
+	$('#inputGroupSelect03').change(function(){
 		var dropdown = document.getElementById("inputGroupSelect03");
 		var open = $(this).data("isopen");
 

@@ -156,7 +156,7 @@ class BlogController extends Controller
         $featured_image = $request->featured_image;
         $media_type = $request->media_type;
         $publish_date = $request->publish_date;
-        $permalink = $request->permalink;
+        $permalink = str_replace(" ","_",$request->permalink);
         $search_keywords = $request->search_keywords;
 
         $pieces = explode(",", $search_keywords);

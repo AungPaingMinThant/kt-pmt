@@ -169,3 +169,7 @@ Route::get('/about-aya/news-room/corporate-news','App\Http\Controllers\AboutAYA\
 // Enquiry Form
 Route::get('/enquiry','App\Http\Controllers\EnquiryController@index');
 Route::post('/enquiry_form_submit','App\Http\Controllers\EnquiryController@enquirySave');
+
+
+// Sitemap
+Route::get('/dii','App\Http\Controllers\EnquiryController@index');
