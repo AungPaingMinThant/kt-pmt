@@ -39,9 +39,9 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services') }}" style="color: #666;">DIGITAL SERVICES&nbsp;</a>
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services/online-payment-services') }}" style="color: #666;">ONLINE PAYMENT SERVICES</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ONLINE PAYMENT SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">MOBILE BANKING</span>
 			</p>
@@ -74,46 +74,11 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services') }}" style="color: #666;">DIGITAL SERVICES&nbsp;</a>
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services/online-payment-services') }}" style="color: #666;">ONLINE PAYMENT SERVICES</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ONLINE PAYMENT SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">INTERNET BANKING</span>
-			</p>
-		</div>
-	</div>
-@endif
-
-@if($page == 'corporate_internet_banking')
-	<div class="cib_banner banner_bg">
-		<div class="container">
-			<div class="row d-none d-sm-block">
-				<div class="col-md-6 text-right" style="text-align: left;position: relative;">
-					<div class="cib_banner_tagline">
-						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">Your business's financial transactions <span style="color: #a02226;">at your fingertips</span></h1>
-					</div>
-				</div>
-				<div class="col-md-6" style="text-align: right;">
-					<h1></h1>
-				</div>
-			</div>
-			<div class="row d-block d-sm-none">
-				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 45px;left: 20px;right: 55px;">
-						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;">Your business's financial transactions <span style="color: #a02226;">at your fingertips</span></h1>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div style="background-color: #f5f5f7;">
-		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services') }}" style="color: #666;">DIGITAL SERVICES&nbsp;</a>
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services/online-payment-services') }}" style="color: #666;">ONLINE PAYMENT SERVICES</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">CORPORATE INTERNET BANKING</span>
 			</p>
 		</div>
 	</div>
@@ -143,9 +108,9 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services') }}" style="color: #666;">DIGITAL SERVICES&nbsp;</a>
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i><a href="{{ url('/digital-services/card-services') }}" style="color: #666;">&nbsp;CARD SERVICES&nbsp;</a>
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">DEBIT CARD</span>
 			</p>
@@ -179,9 +144,9 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services') }}" style="color: #666;">DIGITAL SERVICES&nbsp;</a>
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i><a href="{{ url('/digital-services/card-services') }}" style="color: #666;">&nbsp;CARD SERVICES&nbsp;</a>
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">CREDIT CARD</span>
 			</p>
@@ -224,10 +189,10 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services') }}" style="color: #666;">DIGITAL SERVICES&nbsp;</a>
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i><a href="{{ url('/digital-services/card-services') }}" style="color: #666;">&nbsp;CARD SERVICES&nbsp;</a>
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services/card-services/merchant-services') }}" style="color: #666;">MERCHANT SERVICES</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;MERCHANT SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">E COMMERCE</span>
 			</p>
@@ -259,10 +224,10 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services') }}" style="color: #666;">DIGITAL SERVICES&nbsp;</a>
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services/guideline') }}" style="color: #666;">GUIDLINES</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services/guideline/digital-secure') }}" style="color: #666;">SECURITY ADVICE FOR DIGITAL SERVICES</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;GUIDLINES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;SECURITY ADVICE FOR DIGITAL SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">SMS ALERT</span>
 			</p>
@@ -297,9 +262,9 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services') }}" style="color: #666;">DIGITAL SERVICES&nbsp;</a>
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i><a href="{{ url('/digital-services/card-services') }}" style="color: #666;">&nbsp;CARD SERVICES&nbsp;</a>
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">PREPAID CARD</span>
 			</p>
@@ -338,9 +303,9 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services') }}" style="color: #666;">DIGITAL SERVICES&nbsp;</a>
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i><a href="{{ url('/digital-services/card-services') }}" style="color: #666;">&nbsp;CARD SERVICES&nbsp;</a>
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">SIMPLE PAY</span>
 			</p>
@@ -351,12 +316,46 @@
 @if($page == 'reset')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<h1 class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services') }}" style="color: #666;">DIGITAL SERVICES&nbsp;</a>
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i><a href="{{ url('/digital-services/card-services') }}" style="color: #666;">&nbsp;CARD SERVICES&nbsp;</a>
+			<h1 class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">RESET PIN</span>
 			</h1>
+		</div>
+	</div>
+@endif
+
+@if($page == 'corporate_internet_banking')
+	<div class="cib_banner banner_bg">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-6 text-right" style="text-align: left;position: relative;">
+					<div class="cib_banner_tagline">
+						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">Your business's financial transactions <span style="color: #a02226;">at your fingertips</span></h1>
+					</div>
+				</div>
+				<div class="col-md-6" style="text-align: right;">
+					<h1></h1>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 45px;left: 20px;right: 55px;">
+						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;">Your business's financial transactions <span style="color: #a02226;">at your fingertips</span></h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #a02226;">CORPORATE INTERNET BANKING</span>
+			</p>
 		</div>
 	</div>
 @endif
@@ -397,9 +396,9 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services') }}" style="color: #666;">DIGITAL SERVICES&nbsp;</a>
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services/guideline') }}" style="color: #666;">GUIDELINES</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;GUIDELINES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">SECURITY ADVICE FOR DIGITAL SERVICES</span>
 			</p>
@@ -445,9 +444,9 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services') }}" style="color: #666;">DIGITAL SERVICES&nbsp;</a>
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services/guideline') }}" style="color: #666;">GUIDELINES</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;GUIDELINES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">FREQUENTLY USED DIGITAL SERVICES IN DAILY LIFE</span>
 			</p>
@@ -482,10 +481,10 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services') }}" style="color: #666;">DIGITAL SERVICES&nbsp;</a>
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i><a href="{{ url('/digital-services/card-services') }}" style="color: #666;">&nbsp;CARD SERVICES&nbsp;</a>
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services/card-services/merchant-services') }}" style="color: #666;">MERCHANT SERVICES</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;MERCHANT SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">POS</span>
 			</p>
@@ -529,9 +528,9 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services') }}" style="color: #666;">DIGITAL SERVICES&nbsp;</a>
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services/wallet-solution') }}" style="color: #666;">WALLET SOLUTION&nbsp;</a>
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;WALLET SOLUTION&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">AYA PAY</span>
 			</p>
@@ -572,8 +571,8 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services') }}" style="color: #666;">DIGITAL SERVICES&nbsp;</a>
+			<p class="bread_crumb_text">HOME&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">ATM</span>
 			</p>
@@ -584,7 +583,7 @@
 @if($page == 'health_insurance')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -641,7 +640,7 @@
 @if($page == 'motor_insurance')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -692,7 +691,7 @@
 @if($page == 'fire_insurance')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -743,7 +742,7 @@
 @if($page == 'pa_insurance')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -794,7 +793,7 @@
 @if($page == 'aya_go_insurance')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;TRAVEL INSURANCE&nbsp;
@@ -846,7 +845,7 @@
 @if($page == 'aya_joy_insurance')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;TRAVEL INSURANCE&nbsp;
@@ -898,7 +897,7 @@
 @if($page == 'life_universal_insurance')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;LIFE INSURANCE&nbsp;
@@ -956,7 +955,7 @@
 @if($page == 'life_short_term_insurance')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;LIFE INSURANCE&nbsp;
@@ -1008,7 +1007,7 @@
 @if($page == 'life_edu_insurance')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;LIFE INSURANCE&nbsp;
@@ -1060,7 +1059,7 @@
 @if($page == 'life_one_health_indi_insurance')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;LIFE INSURANCE&nbsp;
@@ -1133,7 +1132,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -1146,10 +1145,10 @@
 @if($page == 'premium_calldeposit')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services/online-payment-services') }}" style="color: #666;">CALL DEPOSIT</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/call-deposit') }}" style="color: #666;">CALL DEPOSIT</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">PREMIUM CALL DEPOSIT</span>
 			</p>
@@ -1181,10 +1180,10 @@
 @if($page == 'new_business_call')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services/online-payment-services') }}" style="color: #666;">CALL DEPOSIT</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/call-deposit') }}" style="color: #666;">CALL DEPOSIT</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">NEW BUSINESS CALL</span>
 			</p>
@@ -1238,7 +1237,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -1251,7 +1250,7 @@
 @if($page == 'regular_curr_acc')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/current-deposit') }}" style="color: #666;">CURRENT DEPOSIT</a>&nbsp;
@@ -1287,7 +1286,7 @@
 @if($page == 'seafarer')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/current-deposit') }}" style="color: #666;">CURRENT DEPOSIT</a>&nbsp;
@@ -1322,7 +1321,7 @@
 @if($page == 'new_business_curr_acc')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/current-deposit') }}" style="color: #666;">CURRENT DEPOSIT</a>&nbsp;
@@ -1358,7 +1357,7 @@
 @if($page == 'retail_fca_curr_acc')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/current-deposit') }}" style="color: #666;">CURRENT DEPOSIT</a>&nbsp;
@@ -1414,7 +1413,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -1449,7 +1448,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -1462,7 +1461,7 @@
 @if($page == 'aya_regular_saving')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/saving-deposit') }}" style="color: #666;">SAVING DEPOSIT</a>&nbsp;
@@ -1499,7 +1498,7 @@
 @if($page == 'aya_maximizer_saving')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/saving-deposit') }}" style="color: #666;">SAVING DEPOSIT</a>&nbsp;
@@ -1536,7 +1535,7 @@
 @if($page == 'aya_loyal_saving')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/saving-deposit') }}" style="color: #666;">SAVING DEPOSIT</a>&nbsp;
@@ -1574,7 +1573,7 @@
 @if($page == 'ngwe-toe-shwe-o')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/saving-deposit') }}" style="color: #666;">SAVING DEPOSIT</a>&nbsp;
@@ -1612,7 +1611,7 @@
 @if($page == 'aya_su_buu')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/saving-deposit') }}" style="color: #666;">SAVING DEPOSIT</a>&nbsp;
@@ -1672,7 +1671,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PREMIUM BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -1707,7 +1706,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;REMITTANCE AND PAYMENTS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -1742,7 +1741,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;REMITTANCE AND PAYMENTS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -1777,7 +1776,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;REMITTANCE AND PAYMENTS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -1812,7 +1811,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BORROWING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;HIRE PURCHASE&nbsp;
@@ -1848,7 +1847,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BORROWING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;HIRE PURCHASE&nbsp;
@@ -1884,7 +1883,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BORROWING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;HIRE PURCHASE&nbsp;
@@ -1920,7 +1919,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BORROWING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;HIRE PURCHASE&nbsp;
@@ -1956,7 +1955,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BORROWING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;HIRE PURCHASE&nbsp;
@@ -1992,7 +1991,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;OTHER SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -2027,7 +2026,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;OTHER SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -2062,7 +2061,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNT & SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -2097,7 +2096,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNT & SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -2132,7 +2131,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNT & SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -2167,7 +2166,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNT & SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -2202,7 +2201,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;REMITTANCE AND PAYMENTS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -2237,7 +2236,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;REMITTANCE AND PAYMENTS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -2272,7 +2271,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BORROWING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -2306,7 +2305,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BORROWING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -2340,7 +2339,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BORROWING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -2375,7 +2374,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;TRADE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -2410,7 +2409,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;TRADE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -2445,7 +2444,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">CASH MANAGEMENT</span>
@@ -2457,7 +2456,7 @@
 @if($page == 'bu_domestic_marine_cargo_insurance')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -2508,7 +2507,7 @@
 @if($page == 'bu_oversea_marine_cargo_insurance')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -2559,7 +2558,7 @@
 @if($page == 'bu_domestic_inland_transit_insurance')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -2610,7 +2609,7 @@
 @if($page == 'bu_car_ear_insurance')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -2655,7 +2654,7 @@
 @if($page == 'bu_IAR_insurance')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -2700,7 +2699,7 @@
 @if($page == 'bu_group_life_insurance')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -2752,7 +2751,7 @@
 @if($page == 'test')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<h1 class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<h1 class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">TEST</span>
 			</h1>
@@ -2763,7 +2762,7 @@
 @if($page == 'enquiry_form')
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<h1 class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<h1 class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #a02226;">GET IN TOUCH</span>
 			</h1>
@@ -2793,7 +2792,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ABOUT AYA&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;WHO WE ARE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;LEADERSHIP&nbsp;
@@ -2826,7 +2825,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ABOUT AYA&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;WHO WE ARE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CORPORATE PROFILE&nbsp;
@@ -2859,7 +2858,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ABOUT AYA&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;WHO WE ARE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;OUR STRATEGIES&nbsp;
@@ -2892,7 +2891,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ABOUT AYA&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;GOVERNANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -2924,7 +2923,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ABOUT AYA&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;GOVERNANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a class="breadcrumb_text_color" href="{{ url('/about-aya/governance/risk-management') }}">RISK MANAGEMENT</a>&nbsp;
@@ -2957,7 +2956,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ABOUT AYA&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;GOVERNANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a class="breadcrumb_text_color" href="{{ url('/about-aya/governance/risk-management') }}">RISK MANAGEMENT</a>&nbsp;
@@ -2990,7 +2989,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ABOUT AYA&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;GOVERNANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a class="breadcrumb_text_color" href="{{ url('/about-aya/governance/risk-management') }}">RISK MANAGEMENT</a>&nbsp;
@@ -3023,7 +3022,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ABOUT AYA&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;GOVERNANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a class="breadcrumb_text_color" href="{{ url('/about-aya/governance/risk-management') }}">RISK MANAGEMENT</a>&nbsp;
@@ -3056,7 +3055,7 @@
 
 	<div style="background-color: #f5f5f7;">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ABOUT AYA&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;GOVERNANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
@@ -3069,7 +3068,7 @@
 @if($page == 'news')
 	<div class="news_breadcrumb">
 		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ABOUT AYA&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;NEWS ROOM&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;

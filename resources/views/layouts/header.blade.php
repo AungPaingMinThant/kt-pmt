@@ -445,19 +445,19 @@
 												<div class="row">
 													<div class="col-12">
 														<p class="fw-bold">
-															ONLINE PAYMENT SERVICES
+															<a href="{{ url('/digital-services/online-payment-services') }}">ONLINE PAYMENT SERVICES</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/internet-banking') }}">Internet Banking</a>
+															<a href="{{ url('/digital-services/online-payment-services/internet-banking') }}">Internet Banking</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/mobile-banking') }}">Mobile Banking</a>
+															<a href="{{ url('/digital-services/online-payment-services/mobile-banking') }}">Mobile Banking</a>
 														</p>
 														<!-- <p class="m-b-5">
 															<a href="{{ url('/sms-alert') }}">SMS Alert</a>
 														</p> -->
 														<p class="m-b-5">
-															<a href="{{ url('/corporate-internet-banking') }}">Corporate Internet Banking</a>
+															<a href="{{ url('/digital-services/online-payment-services/corporate-internet-banking') }}">Corporate Internet Banking</a>
 														</p>
 													</div>
 												</div>
@@ -469,10 +469,10 @@
 															MERCHANT SERVICES
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/pos') }}">POS</a>
+															<a href="{{ url('/digital-services/card-services/merchant-services/pos') }}">POS</a>
 														</p>
 														<p class="mb-20">
-															<a href="{{ url('/ecommerce') }}">E-commerce</a>
+															<a href="{{ url('/digital-services/card-services/merchant-services/ecommerce') }}">E-commerce</a>
 														</p>
 													</div>
 													<div class="col-md-5">
@@ -480,7 +480,7 @@
 															CREDIT CARD
 														</p>
 														<p class="mb-20">
-															<a href="{{ url('/credit-card') }}">Credit Card</a>
+															<a href="{{ url('/digital-services/card-services/credit-card') }}">Credit Card</a>
 														</p>
 													</div>
 													<div class="col-md-5">
@@ -488,7 +488,7 @@
 															PREPAID CARD
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/prepaid-card') }}">Prepaid Card</a>
+															<a href="{{ url('/digital-services/card-services/prepaid-card') }}">Prepaid Card</a>
 														</p>
 													</div>
 													<div class="col-md-5">
@@ -496,7 +496,7 @@
 															DEBIT CARD
 														</p>
 														<p class="mb-20">
-															<a href="{{ url('/debit-card') }}">Debit Card</a>
+															<a href="{{ url('/digital-services/card-services/debit-card') }}">Debit Card</a>
 														</p>
 													</div>
 													<div class="col-md-5">
@@ -504,7 +504,7 @@
 															CARD PRIVILEGE
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/simple-pay') }}">Simple Pay</a>
+															<a href="{{ url('/digital-services/card-services/simple-pay') }}">Simple Pay</a>
 														</p>
 													</div>
 												</div>
@@ -516,7 +516,7 @@
 															ATM
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/atm') }}">ATM Service and Network</a>
+															<a href="{{ url('/digital-services/atm') }}">ATM Service and Network</a>
 														</p>
 													</div>
 												</div>
@@ -528,7 +528,7 @@
 															WALLET SOLUTION
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/aya-pay') }}">AYA Pay</a>
+															<a href="{{ url('/digital-services/wallet-solution/aya-pay') }}">AYA Pay</a>
 														</p>
 													</div>
 												</div>
@@ -1263,17 +1263,17 @@
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
-										<a href="{{ url('/internet-banking') }}">Internet Banking</a>
+										<a href="{{ url('/digital-services/online-payment-services/internet-banking') }}">Internet Banking</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5">
-										<a href="{{ url('/mobile-banking') }}">Mobile Banking</a>
+										<a href="{{ url('/digital-services/online-payment-services/mobile-banking') }}">Mobile Banking</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item mb-20">
-										<a href="{{ url('/corporate-internet-banking') }}">Corporate Internet Banking</a>
+										<a href="{{ url('/digital-services/online-payment-services/corporate-internet-banking') }}">Corporate Internet Banking</a>
 									</p>
 								</li>
 							</ul>
@@ -1288,12 +1288,12 @@
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/pos') }}">POS</a>
+										<a href="{{ url('/digital-services/card-services/merchant-services/pos') }}">POS</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item mb-20 m-l-20">
-										<a href="{{ url('/ecommerce') }}">E-commerce</a>
+										<a href="{{ url('/digital-services/card-services/merchant-services/ecommerce') }}">E-commerce</a>
 									</p>
 								</li>
 								<li>
@@ -1303,7 +1303,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item mb-20 m-l-20">
-										<a href="{{ url('/debit-card') }}">Debit Card</a>
+										<a href="{{ url('/digital-services/card-services/debit-card') }}">Debit Card</a>
 									</p>
 								</li>
 								<li>
@@ -1313,7 +1313,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item mb-20 m-l-20">
-										<a href="{{ url('/credit-card') }}">Credit Card</a>
+										<a href="{{ url('/digital-services/card-services/credit-card') }}">Credit Card</a>
 									</p>
 								</li>
 								<li>
@@ -1323,7 +1323,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item mb-20 m-l-20">
-										<a href="{{ url('/prepaid-card') }}">Prepaid Card</a>
+										<a href="{{ url('/digital-services/card-services/prepaid-card') }}">Prepaid Card</a>
 									</p>
 								</li>
 								<li>
@@ -1333,7 +1333,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item mb-20 m-l-20">
-										<a href="{{ url('/simple-pay') }}">Simple Pay</a>
+										<a href="{{ url('/digital-services/card-services/simple-pay') }}">Simple Pay</a>
 									</p>
 								</li>
 							</ul>
@@ -1343,7 +1343,7 @@
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item mb-20 mt-2">
-										<a href="{{ url('/atm') }}">ATM Service and Network</a>
+										<a href="{{ url('/digital-services/atm') }}">ATM Service and Network</a>
 									</p>
 								</li>
 							</ul>
@@ -1353,7 +1353,7 @@
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item mb-20 mt-2">
-										<a href="{{ url('/aya-pay') }}">AYA Pay</a>
+										<a href="{{ url('/digital-services/wallet-solution/aya-pay') }}">AYA Pay</a>
 									</p>
 								</li>
 							</ul>

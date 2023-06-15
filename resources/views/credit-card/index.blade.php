@@ -1195,7 +1195,7 @@
 					<div class="row">
 						<div class="col-md-9 col-xs-12 simple_pay_col">
 							<p class="simple_pay_text">Are you also interested in <br><span style="font-weight: 500;color: #a02225;">SimplePay Installment</span> with AYA Credit Cards?</p>
-							<a href="{{ url('/simple-pay') }}">
+							<a href="{{ url('/digital-services/card-services/simple-pay') }}">
 								<button class="btn reset_pin_btn" >
 									More Details
 								</button>
@@ -1209,7 +1209,7 @@
 					<div class="row">
 						<div class="col-md-12 col-xs-12">
 							<p style="font-size: 22px;margin-bottom: 15px;">Are you also interested in <br><span style="font-weight: 500;color: #a02225;">SimplePay Installment</span> with AYA Credit Cards?</p>
-							<a href="{{ url('/simple-pay') }}">
+							<a href="{{ url('/digital-services/card-services/simple-pay') }}">
 								<button class="btn reset_pin_btn" >
 									More Details
 								</button>

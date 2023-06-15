@@ -57,21 +57,29 @@ Route::get('/share-post', 'App\Http\Controllers\SharePostController@share');
 Route::any('/','App\Http\Controllers\HomeController@index');
 
 // Digital
-Route::get('/mobile-banking','App\Http\Controllers\Digital\MobileBankingController@mbindex');
-Route::get('/internet-banking','App\Http\Controllers\Digital\InternetBankingController@index');
-Route::get('/debit-card','App\Http\Controllers\Digital\DebitCardController@index');
-Route::get('/credit-card','App\Http\Controllers\Digital\CreditCardController@index');
-Route::get('/ecommerce','App\Http\Controllers\Digital\EcommerceController@index');
-Route::get('/sms-alert','App\Http\Controllers\Digital\SMSAlertController@index');
-Route::get('/prepaid-card','App\Http\Controllers\Digital\PrepaidCardController@index');
-Route::get('/simple-pay','App\Http\Controllers\Digital\SimplePayController@index');
+Route::get('/digital-services/online-payment-services/mobile-banking','App\Http\Controllers\Digital\MobileBankingController@mbindex');
+Route::get('/digital-services/online-payment-services/internet-banking','App\Http\Controllers\Digital\InternetBankingController@index');
+Route::get('/digital-services/online-payment-services/corporate-internet-banking','App\Http\Controllers\Digital\CorporateInternetBankingController@index');
+
+Route::get('/digital-services/card-services/merchant-services/pos','App\Http\Controllers\Digital\POSController@index');
+Route::get('/digital-services/card-services/merchant-services/ecommerce','App\Http\Controllers\Digital\EcommerceController@index');
+
+Route::get('/digital-services/card-services/prepaid-card','App\Http\Controllers\Digital\PrepaidCardController@index');
+Route::get('/digital-services/card-services/simple-pay','App\Http\Controllers\Digital\SimplePayController@index');
+Route::get('/digital-services/card-services/credit-card','App\Http\Controllers\Digital\CreditCardController@index');
+Route::get('/digital-services/card-services/debit-card','App\Http\Controllers\Digital\DebitCardController@index');
+
+Route::get('/digital-services/atm','App\Http\Controllers\Digital\ATMController@index');
+
+Route::get('/digital-services/wallet-solution/aya-pay','App\Http\Controllers\Digital\AyaPayController@index');
+
+Route::get('/digital-services/guideline/digital-secure/sms-alert','App\Http\Controllers\Digital\SMSAlertController@index');
+
+Route::get('/digital-services/guideline/digital-secure','App\Http\Controllers\Digital\DigitalSecureController@index');
+Route::get('/digital-services/guideline/frequently-used-digital','App\Http\Controllers\Digital\FrequentlyUsedDigitalController@index');
+
 Route::get('/reset-pin','App\Http\Controllers\Digital\ResetPinController@index');
-Route::get('/corporate-internet-banking','App\Http\Controllers\Digital\CorporateInternetBankingController@index');
-Route::get('/digital-secure','App\Http\Controllers\Digital\DigitalSecureController@index');
-Route::get('/frequently-used-digital','App\Http\Controllers\Digital\FrequentlyUsedDigitalController@index');
-Route::get('/pos','App\Http\Controllers\Digital\POSController@index');
-Route::get('/aya-pay','App\Http\Controllers\Digital\AyaPayController@index');
-Route::get('/atm','App\Http\Controllers\Digital\ATMController@index');
+
 
 // Personal
 Route::get('/insurance/health','App\Http\Controllers\Insurance\HealthInsuranceController@index');
@@ -172,4 +180,9 @@ Route::post('/enquiry_form_submit','App\Http\Controllers\EnquiryController@enqui
 
 
 // Sitemap
-Route::get('/dii','App\Http\Controllers\EnquiryController@index');
+Route::get('/digital-services','App\Http\Controllers\SiteMapController@digitalIndex');
+Route::get('/digital-services/online-payment-services','App\Http\Controllers\SiteMapController@digiOnlineIndex');
+Route::get('/digital-services/card-services', 'App\Http\Controllers\SiteMapController@digiCardServicesIndex');
+Route::get('/digital-services/card-services/merchant-services', 'App\Http\Controllers\SiteMapController@digiCardMerchantIndex');
+Route::get('/digital-services/wallet-solution', 'App\Http\Controllers\SiteMapController@digiWalletSolutionIndex');
+Route::get('/digital-services/guideline', 'App\Http\Controllers\SiteMapController@digiGuidelineIndex');
