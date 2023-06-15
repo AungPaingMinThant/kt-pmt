@@ -540,10 +540,10 @@
 															GUIDELINE
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/digital-secure') }}">Security Advices for Digital Services</a>
+															<a href="{{ url('/digital-services/guideline/digital-secure') }}">Security Advices for Digital Services</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/frequently-used-digital') }}">Frequently Used Digital Services</a>
+															<a href="{{ url('/digital-services/guideline/frequently-used-digital') }}">Frequently Used Digital Services</a>
 														</p>
 													</div>
 												</div>
@@ -1363,12 +1363,12 @@
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
-										<a href="{{ url('/digital-secure') }}">Security Advices for Digital Services</a>
+										<a href="{{ url('/digital-services/guideline/digital-secure') }}">Security Advices for Digital Services</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item mb-20">
-										<a href="{{ url('/frequently-used-digital') }}">Frequently Used Digital Services</a>
+										<a href="{{ url('/digital-services/guideline/frequently-used-digital') }}">Frequently Used Digital Services</a>
 									</p>
 								</li>
 							</ul>

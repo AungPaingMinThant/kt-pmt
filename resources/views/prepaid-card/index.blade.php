@@ -1,127 +1,8 @@
 @extends('layouts.frontend-app')
 
 @section('title', 'Prepaid Card – AYA Bank')
-<style type="text/css">
-    .benefit_icon {
-		width: 30% !important;
-	}
-	.outer_benefit_box_row > .col-md-4 {
-	    flex: 0 0 auto;
-	    width: 30.333333% !important;
-	}
-	.outer_benefit_box {
-		padding: 20px !important;
-		border: 1px solid #dedede;
-		border-radius: 10px;
-		margin-bottom: 20px;
-	}
-	.solution_text {
-		color: #000;
-		margin-bottom: 5px;
-	}
-	.how_to_apply_outer_section {
-		background-image: url('./images/prepaid/how_to_apply_bg.jpg');
-		background-size: cover;
-		background-position: center center;
-	}
-	.prepaid_how_to_apply_section {
-		padding: 40px 50px 60px 110px !important;
-	}
-	.fee_charge_inner_div {
-		margin-bottom: 20px;
-	}
-	.fee_title {
-		color: #000;
-		margin-bottom: 0px;
-		font-weight: 500;
-	}
-	.fee_desc {
-		color: #5c5c5c;
-		margin-bottom: 0px;
-	}
-	.fees_charge_div{
-		background-color: #fff;
-		border: 1px solid #cccccc;
-		border-radius: 10px;
-		padding: 40px 30px;
-		margin-left: 0px !important;
-		margin-bottom: 30px;
-	}
-	.statment_enquiry {
-		background-image: url('./images/prepaid/statement_inquiry.png');
-		background-size: cover;
-		background-position: left center;
-		border-radius: 0px 0px 25px 25px;
-	}
-	.card_block_termination {
-		background-image: url('./images/prepaid/card_block_termination.png');
-		background-size: cover;
-		background-position: left center;
-		border-radius: 0px 0px 25px 25px;
-	}
-	.pad_left_mid {
-		padding-left: auto;
-	}
-	@media (max-width: 1300px) and (min-width: 1000px) {
-		.pad_left_mid {
-			padding-left: 40px !important;
-		}
-	}
-	@media (min-width: 768px){
-		.col-md-3 {
-		    width: 23% !important;
-		}
-	}
-	@media (max-width: 999px) and (min-width: 577px) {
-		.statment_enquiry_col {
-			padding-left: 80px !important;
-			padding-right: 40px !important;
-		}
-		.block_termination_col {
-			padding-left: 80px !important;
-		}
-		.benefit_icon {
-		    width: 45% !important;
-		}
-	}
-	@media only screen and (max-width: 576px){
-		.outer_benefit_box_row > .col-md-4 {
-		    flex: 0 0 auto;
-		    width: 100% !important;
-		}
-		.tab-pane {
-			background-position: -80px -70px;
-		}
-		.tab_data_row {
-			/*width: auto;*/
-		}
-		.tab_h2{
-			top: 380px;
-		}
-		.tab_upi_h2{
-			top: 380px;
-			left: 15%;
-		}
-		.outer_benefit_box {
-			margin-bottom: 10px;
-		}
-		.how_to_apply_outer_section {
-			background-image: none;
-			background-color: #f5f5f5;
-		}
-		.prepaid_how_to_apply_section {
-		    padding: 40px 50px 20px 50px !important;
-		}
-		.statment_enquiry {
-			background-position: center;
-			border: 1px solid #4b4c4c;
-		}
-		.card_block_termination {
-			background-position: center;
-			border: 1px solid #a02225;
-		}
-	}
-</style>
+<link rel="stylesheet" href="{{ url('/css/digital/prepaid.css') }}" />
+
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
@@ -320,7 +201,7 @@
 					</div>
 					<div class="row statment_enquiry">
 						<div class="col-md-3"></div>
-						<div class="col-md-9 pad_left_mid statment_enquiry_col">
+						<div class="col-md-9 statment_enquiry_col">
 							<div class="space-30"></div>
 							<p style="font-weight: 700;">Statement Enquiry</p>
 							<p>Visit Nearest branches or Email to <a href="mailto:support.card@ayabank.com">support.card@ayabank.com</a> with cardholder’s name, NRC, and card number.</p>
@@ -335,7 +216,7 @@
 					</div>
 					<div class="row card_block_termination">
 						<div class="col-md-3"></div>
-						<div class="col-md-9 pad_left_mid block_termination_col">
+						<div class="col-md-9 block_termination_col">
 							<div class="space-30"></div>
 							<p style="font-weight: 700;">Blocking and Termination</p>
 							<p>In case your card is missing, call to our Customer Services at <a href="tel:+9512317777">+95 1 2317777</a> or visit nearest visit branches for temporary card block and termination.</p>
@@ -352,7 +233,7 @@
 				<div class="col-12 text-center">
 					<h4 style="font-weight: 500;color: #000;">Forgot your card PIN?</h4>
 					<p>You can reset / change your PIN easily via online.</p>
-					<a target="_blank" href="{{ url('/reset-pin') }}">
+					<a href="{{ url('/digital-services/card-services/reset-pin') }}">
 						<button class="btn" style="background-color: #ae071d;color: #fff;font-weight: 500;padding: 15px 25px;border: #ae071d;margin-bottom: 2rem;">
 							Reset PIN
 						</button>

@@ -254,7 +254,7 @@
 					<div class="row merchant_agent_div">
 						<div class="col-md-6" style="background-color: #f9f9fb;border-radius: 10px;padding-top: 10px;padding-bottom: 10px;margin-bottom: 20px;">
 							<div class="row">
-								<div class="col-4" style="background-image: url('./images/ayapay/merchant.png');background-size: contain;background-position: left center;background-repeat: no-repeat;"></div>
+								<div class="col-4" style="background-image: url('../../images/ayapay/merchant.png');background-size: contain;background-position: left center;background-repeat: no-repeat;"></div>
 								<div class="col-8">
 									<div class="row space-40 d-none d-sm-block"></div>
 									<div class="row space-20 d-block d-sm-none"></div>
@@ -267,7 +267,7 @@
 						</div>
 						<div class="col-md-6" style="background-color: #f9f9fb;border-radius: 10px;padding-top: 10px;padding-bottom: 10px;margin-bottom: 20px;">
 							<div class="row">
-								<div class="col-4" style="background-image: url('./images/ayapay/agent.png');background-size: contain;background-position: left center;background-repeat: no-repeat;"></div>
+								<div class="col-4" style="background-image: url('../../images/ayapay/agent.png');background-size: contain;background-position: left center;background-repeat: no-repeat;"></div>
 								<div class="col-8">
 									<div class="row space-20 d-none d-sm-block"></div>
 									<div class="row space-10 d-block d-sm-none"></div>

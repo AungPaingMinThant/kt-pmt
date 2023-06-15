@@ -78,7 +78,7 @@ Route::get('/digital-services/guideline/digital-secure/sms-alert','App\Http\Cont
 Route::get('/digital-services/guideline/digital-secure','App\Http\Controllers\Digital\DigitalSecureController@index');
 Route::get('/digital-services/guideline/frequently-used-digital','App\Http\Controllers\Digital\FrequentlyUsedDigitalController@index');
 
-Route::get('/reset-pin','App\Http\Controllers\Digital\ResetPinController@index');
+Route::get('/digital-services/card-services/reset-pin','App\Http\Controllers\Digital\ResetPinController@index');
 
 
 // Personal

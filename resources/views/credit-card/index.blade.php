@@ -1,381 +1,9 @@
 @extends('layouts.frontend-app')
 
 @section('title', 'Credit Card – AYA Bank')
-
 <link rel="stylesheet" href="{{ url('/css/swiper-bundle.min.css') }}" />
-<style type="text/css">
-    .nav-align-top .nav-tabs .nav-item:first-child .nav-link {
-    	border-top:  none;
-    	border-left: none;
-    	border-right: none;
-    	box-shadow: none;
-    }
-    .tab_title > span {
-    	padding: 20px 0px;
-    }
-    .nav-align-top .nav-tabs .tab_title.active span {
-    	border-bottom: 5px solid #a02226;
-    }
-    .nav-pills .tab_title.active, .nav-pills .tab_title.active:hover, .nav-pills .tab_title.active:focus {
-    	background-color: transparent !important;
-	    color: #000 !important;
-	    box-shadow: none !important;
-	    border-bottom: 5px solid #ae002c;
-	    border-radius: 0;
-	    font-weight: 500;
-    }
-    .nav .tab_title:hover, .nav .tab_title:focus {
-    	color: #000 !important;
-    }
-    .nav-pills .tab_title {
-    	font-weight: 400;
-    	font-size: 16px;
-    }
-    .benefit_icon {
-		width: 60% !important;
-	}
-	.outer_benefit_box {
-		/*padding: 0px 20px 0px 20px !important;
-		margin-bottom: 20px;*/
-		padding: 20px !important;
-		border: 1px solid #dedede;
-		border-radius: 10px;
-		margin-bottom: 20px;
-		margin-top: 40px;
-	}
-	.solution_text {
-		color: #000;
-		margin-bottom: 5px;
-	}
-	.jbc_credit_tab {
-		background-image: url('./images/credit_card_bg_with_model.jpg');
-		background-size: cover;
-		background-repeat: no-repeat;
-		height: 520px;
-		background-position: center left;
-	}
-	.visa_credit_tab {
-		background-image: url('./images/credit_card_bg_with_model_2.jpg');
-		background-size: cover;
-		background-repeat: no-repeat;
-		height: 520px;
-		background-position: center left;
-	}
-	.secure_credit_tab {
-		background-image: url('./images/credit_card_bg_with_model.jpg');
-		background-size: cover;
-		background-repeat: no-repeat;
-		height: 520px;
-		background-position: center left;
-	}
-	.jcb_credit_tab {
-		background-image: url('./images/jcb_credit_banner_2.jpg');
-		background-size: cover;
-		background-repeat: no-repeat;
-		height: 520px;
-		background-position: center left;
-	}
-	.tab_data_row {
-		margin-right: 0px !important;
-	}
-	.tab_h2 {
-		position: absolute;
-		top: 230px;
-		left: 30%;
-	}
-	.tab_upi_h2 {
-		font-weight: 600;
-		color: #000;
-	}
-	.how_to_apply_icon {
-		width: 80%;
-	}
-	.how_to_apply_outer_section {
-		background-color: #fafafa;
-	}
-	.debit_how_to_apply_section {
-		padding: 40px 50px 60px 50px !important;
-	}
-	.ecommerce_registration_bg {
-		background-image: url('./images/MPU_ecommerce_registration.jpg');
-		background-size: cover;
-	}
-	.ecommerce_registration_container {
-		padding: 40px 0px 40px 100px !important;
-	}
-	.swiper-navBtn{
-		color: #6E93f7;
-		transition: color 0.3s ease;
-	}
-	.swiper-navBtn:hover{
-		color: #4070F4;
-	}
-	.swiper-navBtn::before,
-	.swiper-navBtn::after{
-		font-size: 35px;
-	}
-	.swiper-button-next{
-		right: 0;
-	}
-	.swiper-button-prev{
-		left: 0;
-	}
-	.swiper-pagination-bullet{
-		background-color: #6E93f7;
-		opacity: 1;
-	}
-	.swiper-pagination-bullet-active{
-		background-color: #4070F4;
-	}
-	.card {
-		box-shadow: none !important;
-		padding: 30px 20px 20px 20px !important;
-	    border: 1px solid #dedede !important;
-	    border-radius: 10px !important;
-	}
-	.swiper-navBtn{
-		display: none;
-	}
-	.swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
-		transform: translate(-50%,40%) !important;
-		padding: 5px;
-	}
-	.swiper-pagination-bullet {
-	    width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,13px));
-	    height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,13px));
-	}
-	.swiper-pagination-bullet {
-		background-color: #c3c3c3;
-	}
-	.swiper-pagination-bullet-active {
-		background-color: #982801;
-		border: 2px solid #fff;
-  		outline: 2px solid #982801;
-	}
-	.manage_your_card_icon {
-		width: 30% !important;
-	}
-	.fee_charge_inner_div {
-		margin-bottom: 20px;
-	}
-	.fee_title {
-		color: #000;
-		margin-bottom: 0px;
-		font-weight: 500;
-	}
-	.fee_desc {
-		color: #5c5c5c;
-		margin-bottom: 0px;
-	}
-	.fees_charge_div, .annual_fee_div, .card_feature_div, .how_to_apply_div, .secured_fee_charge_div {
-		background-color: #fff;
-		border: 1px solid #cccccc;
-		border-radius: 10px;
-		padding: 40px 30px;
-		margin-left: 0px !important;
-		margin-bottom: 30px;
-	}
-	.secure_req_application_icon {
-		background-color: #a02226;
-		color: #fff;
-		border-radius: 50%;
-		font-size: 20px;
-	}
-	.credit_tag_line {
-		font-size: 20px;
-		padding: 0px 250px;
-	}
-	.secure_credit_data {
-		padding-left: 100px !important;
-	}
-	.secure_credit_data {
-		padding-right: 150px;
-	}
-	.simple_pay_div {
-		padding: 0px 208px 40px 208px;
-	}
-	.simple_pay_div > .container {
-		padding: 0px 100px 50px 30px;
-		background-image: url('./images/simple_pay_installment.png');
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position: center;
-	}
-	.simple_pay_text {
-		font-size: 22px;
-		margin-bottom: 15px;
-	}
-	.jbc_visa_manage_card > .col-md-6, .secured_manage_card > .col-md-6 {
-		width: 48% !important;
-	}
-	.reset_pin_btn {
-		background-color: #ae071d !important;
-		border: 1px solid #ae071d !important;
-		color: #fff !important;
-		font-weight: 500;
-		padding: 15px 25px !important;
-		margin-bottom: 2rem !important;
-	}
-	.reset_pin_btn:hover {
-		border: 1px solid #ae071d !important;
-		color: #ae071d !important;
-		background-color: #fff !important;
-	}
-	.simple_pay_col {
-		padding-top: 120px;
-	}
-	@media (max-width: 1300px) and (min-width: 1000px) {
-		.jcb_credit_tab{
-			background-position: 80%;
-		}
-		.visa_credit_tab, .secure_credit_tab {
-			background-position: 80% center;
-		}
-		.jbc_visa_manage_card > .col-md-6, .secured_manage_card > .col-md-6 {
-			width: 47% !important;
-		}
-		.simple_pay_div {
-		    padding: 0px 120px 0px 120px;
-		}
-		.simple_pay_text {
-			font-size: 18px;
-		}
-	}
-	@media (max-width: 1400px) and (min-width: 1301px) {
-		.visa_credit_tab, .secure_credit_tab {
-			background-position: 60% center;
-		}
-		.jbc_visa_manage_card > .col-md-6, .secured_manage_card > .col-md-6 {
-			width: 47% !important;
-		}
-	}
-	@media (min-width: 768px){
-		.col-md-3 {
-		    width: 23% !important;
-		}
-		.slide-content{
-			margin: 0 10px;
-		}
-	}
-	@media (max-width: 999px) and (min-width: 577px) {
-		.credit_tag_line {
-		    padding: 0px 40px;
-		}
-		.jcb_credit_tab, .visa_credit_tab {
-			background-position: 75% center;
-		}
-		.secure_credit_tab {
-			background-position: 70% center;
-		}
-		.tab_h2 {
-		    top: 160px;
-		    left: 20px;
-		}
-		.secure_credit_data {
-		    padding-left: 30px !important;
-		    width: 65% !important;
-		}
-		.space-60 {
-		    height: 30px !important;
-		}
-		.check_icon_col {
-			padding: 0px 10px !important;
-		}
-		.secure_credit_fact {
-			padding-right: 70px !important;
-		}
-		.jbc_visa_manage_card > .col-md-6, .secured_manage_card > .col-md-6 {
-		    width: 47% !important;
-		}
-		.manage_card_image_div {
-			width: 46% !important;
-		}
-		.manage_card_fact_div {
-			padding: 0px !important;
-		}
-		.manage_your_card_icon {
-		    width: 45% !important;
-		}
-		.simple_pay_div {
-		    padding: 0px 60px 0px 60px;
-		    margin-bottom: -50px;
-		}
-		.simple_pay_col {
-			padding-top: 0px;
-		}
-		.simple_pay_text {
-		    font-size: 18px;
-		    margin-bottom: 5px;
-		    padding-top: 25%;
-		}
-		.reset_pin_btn {
-		    padding: 10px 20px !important;
-		    margin-bottom: 1rem !important;
-		}
-		.renew_div {
-			margin-bottom: -30px;
-		}
-	}
-	@media only screen and (max-width: 576px){
-		.jbc_visa_manage_card > .col-md-6, .secured_manage_card > .col-md-6 {
-			width: 100% !important;
-		}
-		.jcb_credit_tab{
-			background-position: 85% center;
-		}
-		.visa_credit_tab{
-			background-position: 85% center;
-		}
-		.secure_credit_tab {
-			height: auto;
-		}
-		.secure_credit_data {
-			padding-left: 35px !important;
-		}
-		.secure_credit_data {
-			padding-right: 10px;
-		}
-		.tab_h2{
-			top: 380px;
-		    left: 5px;
-		    padding: 20px;
-		    background-color: #ffffffbf;
-		    margin: 0px 20px 0px 30px;
-		}
-		.tab_upi_h2{
-			top: 380px;
-			left: 15%;
-		}
-		.outer_benefit_box {
-			margin-bottom: 10px;
-		}
-		.how_to_apply_icon {
-			width: 100%;
-		}
-		.debit_how_to_apply_section {
-		    padding: 40px 30px 60px 30px !important;
-		}
-		.ecommerce_registration_bg {
-			background-image: none;
-			background-color: #f3f3f2;
-		}
-		.ecommerce_registration_container {
-			padding: 40px 0px 40px 40px !important;
-		}
-		.credit_tag_line {
-			padding: 0px 0px;
-		}
-		.annual_fee_div {
-			padding: 40px 20px;
-		}
-		.simple_pay_div {
-			padding: 0px;
-		}
-		.simple_pay_div > .container {
-			background-image: none;
-		}
-	}
-</style>
+<link rel="stylesheet" href="{{ url('/css/digital/credit.css') }}" />
+
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
@@ -1064,12 +692,36 @@
 							<div class="row">
 								<h3 style="color: #1d1d1f;font-weight: 600;">Requirements for Application</h3>
 								<div class="col-md-6">
-									<p><i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>&nbsp;NRC Copy</p>
-									<p><i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>&nbsp;Passport Photo</p>
+									<div class="row">
+										<div class="col-1">
+											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+										</div>
+										<div class="col-11 require_applications">
+											<p>&nbsp;NRC Copy</p>
+										</div>
+										<div class="col-1">
+											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+										</div>
+										<div class="col-11 require_applications">
+											<p>&nbsp;Passport Photo</p>
+										</div>
+									</div>
 								</div>
 								<div class="col-md-6">
-									<p><i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>&nbsp;Original Fixed Deposit Certificate (<span style="font-size: 12px;">Can combine up to 2 certificates</span>)</p>
-									<p><i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>&nbsp;One Savings Deposit Account with AYA Internet Banking/Mobile Banking</p>
+									<div class="row">
+										<div class="col-1">
+											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+										</div>
+										<div class="col-11 require_applications">
+											<p>&nbsp;Original Fixed Deposit Certificate (<span style="font-size: 12px;">Can combine up to 2 certificates</span>)</p>
+										</div>
+										<div class="col-1">
+											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+										</div>
+										<div class="col-11 require_applications">
+											<p>&nbsp;One Savings Deposit Account with AYA Internet Banking/Mobile Banking</p>
+										</div>
+									</div>
 								</div>
 								<div class="space-20"></div>
 								<p style="margin-bottom:30px;">AYA Bank will only accept and agree to issue a secured credit card once it has received all necessary documentation and its internal checks have been completed to its satisfaction. AYA Bank reserves the right to reject an application. <span style="color: #a02226;">Terms and Conditions apply.</span></p>
@@ -1179,7 +831,7 @@
 				<div class="col-12 text-center">
 					<h4 style="font-weight: 500;color: #000;">Forgot your card PIN?</h4>
 					<p>You can reset / change your PIN easily via online.</p>
-					<a target="_blank" href="{{ url('/reset-pin') }}">
+					<a href="{{ url('/digital-services/card-services/reset-pin') }}">
 						<button class="btn" style="background-color: #ae071d;color: #fff;font-weight: 500;padding: 15px 30px;border: #ae071d;">
 							Reset PIN
 						</button>

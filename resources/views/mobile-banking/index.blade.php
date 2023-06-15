@@ -1,114 +1,8 @@
 @extends('layouts.frontend-app')
 
 @section('title', 'mBanking – AYA Bank')
-<style type="text/css">
-	.outer_benefit_box {
-		padding: 20px !important;
-		border: 1px solid #dedede;
-		border-radius: 10px;
-		margin-bottom: 20px;
-		margin-top: 40px;
-	}
-	.why_use_AYA_outer > .col-md-6 {
-		width: 48%;
-	}
-	.apply_now_btn {
-		background-color: #ae071d !important;
-		color: #fff !important;
-		padding: 15px 25px !important;
-		border-color: #ae071d !important;
-		margin-bottom: 2rem !important;
-	}
-	.apply_now_btn:hover{
-		background-color: #fff !important;
-		border-color: #ae071d !important;
-		color: #ae071d !important;
-	}
-	.how_to_apply_bg {
-		background-image: url('./images/how_to_apply.jpg');
-		background-size: cover;
-		background-position: center left;
-	}
-	.need_more_support_section_inner {
-		padding: 40px 100px 60px 100px;
-		background-image: url('./images/more_support.png');
-		background-size: cover;
-		border-radius: 6px;
-	}
-	.mbanking_apple {
-		width: 25%;
-		margin-right: 20px;
-	}
-	.mbanking_abdriod {
-		width: 29%;
-		margin-right: 20px;
-	}
-	.mbanking_huawei {
-		width: 29%;
-	}
-	.how_to_apply_mb_section {
-	    padding: 40px 100px 60px 100px !important;
-	}
-	@media (min-width: 1800px) {
-		.how_to_apply_desc {
-			padding-right: 10% !important;
-		}
-	}
-	@media (max-width: 1300px) and (min-width: 1000px) {
-		.why_use_AYA_outer > .col-md-6 {
-			width: 47%;
-		}
-		.how_to_apply_bg {
-			background-position: 30% center;
-		}
-		.need_more_support_section {
-		    padding: 40px 130px !important;
-		}
-		.need_more_support_section_inner {
-			padding: 40px 60px 60px 60px;
-			background-position: 60% center;
-		}
-	}
-	@media (max-width: 999px) and (min-width: 577px) {
-		.why_use_AYA_outer > .col-md-6 {
-		    width: 47%;
-		}
-		.how_to_apply_bg {
-			background-position: 30% center;
-		}
-		.need_more_support_section {
-		    padding: 40px 60px !important;
-		}
-		.need_more_support_section_inner {
-			padding: 40px 60px 60px 60px;
-			background-position: 60% center;
-		}
-		.how_to_apply_desc {
-			width: 65% !important;
-		}
-		.mbanking_apple {
-			width: 30%;
-			margin-right: 20px;
-			margin-bottom: 10px;
-		}
-		.mbanking_abdriod {
-			width: 34%;
-			margin-right: 20px;
-			margin-bottom: 10px;
-		}
-		.mbanking_huawei {
-			width: 34%;
-		}
-		.how_to_apply_mb_section {
-		    padding: 40px 100px 60px 30px !important;
-		}
-	}
-	@media only screen and (max-width: 576px){
-		.why_use_AYA_outer > .col-md-6 {
-			width: 100%;
-		}
-	}
-</style>
+<link rel="stylesheet" href="{{ url('/css/digital/mobile-banking.css') }}" />
+
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
@@ -236,7 +130,7 @@
 								<div class="row secure_transaction_div">
 									<img src="{{ url('/images/secure_transaction.png') }}" class="img-fluid" style="width: 91px;">
 									<p style="font-weight: 600;margin-top: 1rem;">Secure Transactions</p>
-									<p style="color: #4e4e4e;">Keep your transactions secure with additional authentication via “OTP token” or “SMS OTP” and <a href="{{ url('/sms-alert') }}" style="text-decoration: underline;">get notified</a> when money goes in or out of your account.</p>
+									<p style="color: #4e4e4e;">Keep your transactions secure with additional authentication via “OTP token” or “SMS OTP” and <a href="{{ url('/digital-services/guideline/digital-secure/sms-alert') }}" style="text-decoration: underline;">get notified</a> when money goes in or out of your account.</p>
 								</div>
 							</div>
 							<div class="col-md-6 outer_benefit_box why_use_AYA">

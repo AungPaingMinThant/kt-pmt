@@ -1,77 +1,8 @@
 @extends('layouts.frontend-app')
 
 @section('title', 'Simple Pay – AYA Bank')
-<style type="text/css">
-    .benefit_icon_1 {
-		width: 40% !important;
-		margin-bottom: 30px;
-	}
-	.benefit_icon_2 {
-		width: 34% !important;
-		margin-bottom: 30px;
-	}
-	.outer_benefit_box {
-		padding: 20px !important;
-		border: 1px solid #dedede;
-		border-radius: 10px;
-		margin-bottom: 20px;
-		margin-top: 40px;
-	}
-	.solution_text {
-		color: #000;
-		margin-bottom: 5px;
-	}
-	.how_to_apply_outer_section {
-		background-image: url('./images/simplepay/how_to_apply_bg.jpg');
-		background-size: cover;
-		background-position: center center;
-	}
-	.prepaid_how_to_apply_section {
-		padding: 40px 50px 60px 110px !important;
-	}
-	.need_more_support_section {
-	    padding: 40px 208px 0px 208px !important;
-	}
-	.apply_now_btn {
-		background-color: #ae071d !important;
-		color: #fff !important;
-		font-weight: 500;
-		padding: 15px 25px !important;
-		border: 1px solid #ae071d !important;
-		margin-bottom: 2rem;
-	}
-	.apply_now_btn:hover {
-		background-color: #fff !important;
-		color: #ae071d !important;
-	}
-	@media (min-width: 768px){
-		.col-md-6 {
-		    width: 45% !important;
-		}
-	}
-	@media only screen and (max-width: 576px){
-		.col-md-6 {
-		    flex: 0 0 auto;
-		    width: 100% !important;
-		}
-		.outer_benefit_box {
-			margin-bottom: 10px;
-		}
-		.how_to_apply_outer_section {
-			background-image: none;
-			background-color: #f5f5f5;
-		}
-		.prepaid_how_to_apply_section {
-		    padding: 40px 50px 20px 50px !important;
-		}
-		.outer_benefit_box {
-			margin-top: 0px;
-		}
-		.need_more_support_section {
-		    padding: 0px 50px !important;
-		}
-	}
-</style>
+<link rel="stylesheet" href="{{ url('/css/digital/simple-pay.css') }}" />
+
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
@@ -139,7 +70,7 @@
 
 			<div class="space-40"></div>
 			<div class="need_more_support_section">
-				<div class="container d-none d-sm-block" style="padding: 40px 100px 60px 100px;background-image: url('./images/simplepay/contact_center_bg.png');background-size: cover;background-repeat: no-repeat;border-radius: 6px;">
+				<div class="container d-none d-sm-block" style="padding: 40px 100px 60px 100px;background-image: url('../../images/simplepay/contact_center_bg.png');background-size: cover;background-repeat: no-repeat;border-radius: 6px;">
 					<div class="row">
 						<div class="col-md-12 col-xs-12 text-center" style="padding-top: 80px;">
 							<p style="color: #000;font-weight: 500;font-size: 20px;margin-bottom: 25px;">Connect with us for more information?<br>We are ready to assist you.</p>

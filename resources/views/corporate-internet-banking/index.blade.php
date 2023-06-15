@@ -316,7 +316,7 @@
 
 			<div class="space-40"></div>
 			<div class="need_more_support_section">
-				<div class="container d-none d-sm-block" style="padding: 40px 60px 30px 60px;background-image: url('./images/get_start_bg.jpg');background-size: cover;border-radius: 6px;">
+				<div class="container d-none d-sm-block" style="padding: 40px 60px 30px 60px;background-image: url('../../images/get_start_bg.jpg');background-size: cover;border-radius: 6px;">
 					<div class="row">
 						<div class="col-md-12 col-xs-12 text-center">
 							<h3 style="color: #1d1d1f;">Get started Corporate Internet Banking!</h3>
