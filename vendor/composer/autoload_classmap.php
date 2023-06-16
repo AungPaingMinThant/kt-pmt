@@ -59,6 +59,7 @@ return array(
     'App\\Http\\Controllers\\PremiumBankingController' => $baseDir . '/app/Http/Controllers/PremiumBankingController.php',
     'App\\Http\\Controllers\\RemittanceController' => $baseDir . '/app/Http/Controllers/RemittanceController.php',
     'App\\Http\\Controllers\\SharePostController' => $baseDir . '/app/Http/Controllers/SharePostController.php',
+    'App\\Http\\Controllers\\SiteMapController' => $baseDir . '/app/Http/Controllers/SiteMapController.php',
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Middleware\\AuthAdmin' => $baseDir . '/app/Http/Middleware/AuthAdmin.php',
     'App\\Http\\Middleware\\Authenticate' => $baseDir . '/app/Http/Middleware/Authenticate.php',

@@ -17,22 +17,34 @@
 				<div class="row">
 					<div class="col-md-9">
 						<div class="row">
-							@foreach($blog_list as $b_list)
-								<div class="col-md-4 mb-4">
-									<div class="row news_img_div">
-										<img src="{{ url($b_list->featured_image) }}" class="img-fluid">
+							<img src="{{ url($blog->featured_image) }}" class="img-fluid">
+						</div>
+						<div class="space-40"></div>
+						<div class="row">
+							<p class="news_title">{{ $blog->blog_title }}</p>
+						</div>
+						<div class="row">
+							{!! html_entity_decode($blog->blog_desc) !!}
+						</div>
+						<div class="row">
+							@if($blog->media_type == 1)
+								<?php
+									$blogfiles = App\Models\BlogFile::where('blog_id',$blog->id)->first();
+								?>
+								<img src="{{ url($blogfiles->file_path) }}" class="img-fluid">
+							@endif
+							@if($blog->media_type == 2)
+								<?php
+									$blogfiles = App\Models\BlogFile::where('blog_id',$blog->id)->get();
+								?>
+								@foreach($blogfiles as $b_file)
+									<div class="col-md-4">
+										<img src="{{ url($b_file->file_path) }}" class="img-fluid">
 									</div>
-									<div class="news_content_div">
-										<div class="news_title_div">
-											<a href="{{ url('/about-aya/news-room/corporate-news/'.$b_list->permalink) }}">
-												<p class="news_title">{{ $b_list->blog_title }}</p>
-											</a>
-										</div>
-										{!! html_entity_decode($b_list->blog_desc) !!}
-										<span class="news_date mb-0">{{ date('d M Y', strtotime($b_list->publish_date)) }}</span>
-									</div>
-								</div>
-							@endforeach
+								@endforeach
+							@endif
+							@if($blog->media_type == 3)
+							@endif
 						</div>
 					</div>
 					<div class="col-md-3">

@@ -1,24 +1,8 @@
 @extends('layouts.frontend-app')
 
 @section('title', 'Card Services – AYA Bank')
+<link rel="stylesheet" href="{{ url('/css/site-map.css') }}" />
 
-<style type="text/css">
-    .sitemap-banner {
-        background-color: #f5f5f7;
-    }
-    .f-body-color:hover > i {
-        animation: myAnim 1s ease 0s 1 normal forwards;
-    }
-    @keyframes myAnim {
-        0% {
-            transform: translateX(0);
-        }
-
-        100% {
-            transform: translateX(10px);
-        }
-    }
-</style>
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
     <div class="layout-container">

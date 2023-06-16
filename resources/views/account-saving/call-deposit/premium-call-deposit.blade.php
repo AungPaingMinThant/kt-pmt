@@ -56,7 +56,7 @@
 								</div>
 								<div class="space-20"></div>
 								<div class="col-md-12">
-									<a href="{{ url('/account-saving/call-deposit/new-business-call') }}">
+									<a href="{{ url('/personal-banking/account-saving/call-deposit/new-business-call') }}">
 										<div class="row">
 											<div class="col-4">
 												<img src="{{ url('/images/acc_saving/related_new_business_call.png') }}" class="img-fluid">

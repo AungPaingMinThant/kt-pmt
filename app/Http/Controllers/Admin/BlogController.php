@@ -42,6 +42,7 @@ class BlogController extends Controller
         $featured_image = $request->featured_image;
         $media_type = $request->media_type;
         $publish_date = $request->publish_date;
+        $publish_year = date('Y', strtotime($request->publish_date));
         $status = $request->status;
         $permalink = str_replace(" ","_",$request->permalink);
         $search_keywords = $request->search_keywords;
@@ -63,6 +64,7 @@ class BlogController extends Controller
         $blog->featured_image = $featured_img_path;
         $blog->media_type = $media_type;
         $blog->publish_date = $publish_date;
+        $blog->publish_year = $publish_year;
         $blog->status = $status;
         $blog->permalink = $permalink;
         $blog->created_by = auth()->user()->id;
@@ -152,10 +154,11 @@ class BlogController extends Controller
         $blog_id = $request->blog_id;
         $blog_title = $request->blog_title;
         $blog_category = $request->blog_category;
-        $blog_desc = $request->blog_desc;
+        $blog_desc = htmlspecialchars($request->blog_desc);
         $featured_image = $request->featured_image;
         $media_type = $request->media_type;
         $publish_date = $request->publish_date;
+        $publish_year = date('Y', strtotime($request->publish_date));
         $permalink = str_replace(" ","_",$request->permalink);
         $search_keywords = $request->search_keywords;
 
@@ -184,6 +187,7 @@ class BlogController extends Controller
                         'media_type' => $media_type,
                         'permalink' => $permalink,
                         'publish_date' => $publish_date,
+                        'publish_year' => $publish_year,
                         'updated_at' => date('Y-m-d H:i:s'),
                         'updated_by' => auth()->user()->id
                     ]);

@@ -86,7 +86,7 @@
 								</div>
 								<div class="space-20"></div>
 								<div class="col-md-12">
-									<a href="{{ url('/account-saving/saving-deposit/aya-regular-saving') }}">
+									<a href="{{ url('/personal-banking/account-saving/saving-deposit/aya-regular-saving') }}">
 										<div class="row" style="cursor: pointer;">
 											<div class="col-4 ">
 												<img src="{{ url('/images/acc_saving/aya_regular_saving.png') }}" class="img-fluid">
@@ -100,7 +100,7 @@
 								</div>
 								<div class="space-40"></div>
 								<div class="col-md-12">
-									<a href="{{ url('/account-saving/saving-deposit/aya-loyal-saving') }}">
+									<a href="{{ url('/personal-banking/account-saving/saving-deposit/aya-loyal-saving') }}">
 										<div class="row">
 											<div class="col-4">
 												<img src="{{ url('/images/acc_saving/aya_royal_saving.png') }}" class="img-fluid">
@@ -114,7 +114,7 @@
 								</div>
 								<div class="space-40"></div>
 								<div class="col-md-12">
-									<a href="{{ url('/account-saving/saving-deposit/ngwe-toe-mae-shwe-o') }}">
+									<a href="{{ url('/personal-banking/account-saving/saving-deposit/ngwe-toe-mae-shwe-o') }}">
 										<div class="row">
 											<div class="col-4">
 												<img src="{{ url('/images/acc_saving/ngwe_toe_shwe_o.png') }}" class="img-fluid">
@@ -128,7 +128,7 @@
 								</div>
 								<div class="space-40"></div>
 								<div class="col-md-12">
-									<a href="{{ url('/account-saving/saving-deposit/aya-su-buu') }}">
+									<a href="{{ url('/personal-banking/account-saving/saving-deposit/aya-su-buu') }}">
 										<div class="row">
 											<div class="col-4">
 												<img src="{{ url('/images/acc_saving/aya_su_buu.png') }}" class="img-fluid">

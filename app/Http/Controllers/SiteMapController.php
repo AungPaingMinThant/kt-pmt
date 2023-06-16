@@ -36,5 +36,48 @@ class SiteMapController extends Controller
         return view('sitemap.digital.merchant-services');
     }
 
+    public function personalIndex()
+    {
+        return view('sitemap.personal.personal-banking');
+    }
 
+    public function personalACIndex()
+    {
+        return view('sitemap.personal.account-saving');
+    }
+
+    public function personalBorrowIndex()
+    {
+        return view('sitemap.personal.borrowing');
+    }
+
+    public function personalHirePurchaseIndex()
+    {
+        return view('sitemap.personal.hirepurhase');
+    }
+
+    public function personalRemittanceIndex()
+    {
+        return view('sitemap.personal.remittance');
+    }
+
+    public function personalInsIndex()
+    {
+        return view('sitemap.personal.insurance');
+    }
+
+    public function personalLifeInsIndex()
+    {
+        return view('sitemap.personal.life-insurance');
+    }
+
+    public function personalTravelInsIndex()
+    {
+        return view('sitemap.personal.travel-insurance');
+    }
+
+    public function personalOtherIndex()
+    {
+        return view('sitemap.personal.other-services');
+    }
 }

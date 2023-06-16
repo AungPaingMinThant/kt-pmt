@@ -94,8 +94,8 @@
         <div class="row" id="first_footer_height">
             <div class="col-md-3 col-xs-12" style="padding-bottom: 20px;padding-top: -10px;">
                 <h3 class="footer_like_title">Useful Links</h3>
-                <a class="footer_first_link_a" href="{{url('/mobile-banking')}}"><p class="footer_first_link">mbanking</p></a>
-                <a class="footer_first_link_a" href="{{url('/internet-banking')}}"><p class="footer_first_link">iBanking</p></a>
+                <a class="footer_first_link_a" href="{{url('/digital-services/online-payment-services/mobile-banking')}}"><p class="footer_first_link">mbanking</p></a>
+                <a class="footer_first_link_a" href="{{url('/digital-services/online-payment-services/internet-banking')}}"><p class="footer_first_link">iBanking</p></a>
                 <p>&nbsp;</p>
                 <h3 class="footer_like_title">Need Help</h3>
                 <a class="footer_first_link_a" href="#"><p class="footer_first_link">Help & Support</p></a>
@@ -103,8 +103,8 @@
             </div>
             <div class="col-md-3 col-xs-12" style="padding-bottom: 20px;padding-top: -10px;">
                 <h3 class="footer_like_title">Recommend for you</h3>
-                <a class="footer_first_link_a" href="#"><p class="footer_first_link">Personal Banking</p></a>
-                <a class="footer_first_link_a" href="#"><p class="footer_first_link">Royal Banking</p></a>
+                <a class="footer_first_link_a" href="{{url('/personal-banking')}}"><p class="footer_first_link">Personal Banking</p></a>
+                <a class="footer_first_link_a" href="{{url('/premium-banking')}}"><p class="footer_first_link">Royal Banking</p></a>
                 <a class="footer_first_link_a" href="#"><p class="footer_first_link">Loan Management</p></a>
                 <a class="footer_first_link_a" href="#"><p class="footer_first_link">Remittance</p></a>
                 <a class="footer_first_link_a" href="#"><p class="footer_first_link">Insurance</p></a>
@@ -126,7 +126,7 @@
             </div>
             <div class="col-md-3 col-xs-12" style="padding-bottom: 20px;padding-top: -10px;padding-right: 0px;">
                 <h3 class="footer_like_title">Locations</h3>
-                <a class="footer_first_link_a" href="{{ url('/atm') }}"><p class="footer_first_link">ATM</p></a>
+                <a class="footer_first_link_a" href="{{ url('/digital-services/atm') }}"><p class="footer_first_link">ATM</p></a>
                 <a class="footer_first_link_a" href="#"><p class="footer_first_link">Branch</p></a>
                 <a class="footer_first_link_a" href="#"><p class="footer_first_link">FX Counter</p></a>
                 

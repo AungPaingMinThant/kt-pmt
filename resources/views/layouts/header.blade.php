@@ -70,52 +70,52 @@
 												<div class="row">
 													<div class="col">
 														<p class="fw-bold">
-															<a href="{{ url('/account-saving/saving-deposit') }}">SAVING DEPOST</a>
+															<a href="{{ url('/personal-banking/account-saving/saving-deposit') }}">SAVING DEPOST</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/account-saving/saving-deposit/aya-regular-saving') }}">AYA Regular Saving</a>
+															<a href="{{ url('/personal-banking/account-saving/saving-deposit/aya-regular-saving') }}">AYA Regular Saving</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/account-saving/saving-deposit/aya-maximizer-saving') }}">AYA Maximizer Saving</a>
+															<a href="{{ url('/personal-banking/account-saving/saving-deposit/aya-maximizer-saving') }}">AYA Maximizer Saving</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/account-saving/saving-deposit/aya-loyal-saving') }}">AYA Loyal Saving</a>
+															<a href="{{ url('/personal-banking/account-saving/saving-deposit/aya-loyal-saving') }}">AYA Loyal Saving</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/account-saving/saving-deposit/ngwe-toe-mae-shwe-o') }}">Ngwe Toe Mae-Shwe O</a>
+															<a href="{{ url('/personal-banking/account-saving/saving-deposit/ngwe-toe-mae-shwe-o') }}">Ngwe Toe Mae-Shwe O</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/account-saving/saving-deposit/aya-su-buu') }}">AYA Su-Buu</a>
+															<a href="{{ url('/personal-banking/account-saving/saving-deposit/aya-su-buu') }}">AYA Su-Buu</a>
 														</p>
 													</div>
 													<div class="col-md-4">
 														<p class="fw-bold">
-															<a href="{{ url('/account-saving/current-deposit') }}">CURRENT DEPOST</a>
+															<a href="{{ url('/personal-banking/account-saving/current-deposit') }}">CURRENT DEPOST</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/account-saving/current-deposit/regular-current-account') }}">Regular Current Account</a>
+															<a href="{{ url('/personal-banking/account-saving/current-deposit/regular-current-account') }}">Regular Current Account</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/account-saving/current-deposit/new-business-current-account') }}">New Business Current Account</a>
+															<a href="{{ url('/personal-banking/account-saving/current-deposit/new-business-current-account') }}">New Business Current Account</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/account-saving/current-deposit/seafarer-acount') }}">Seafarer Account (FCY)</a>
+															<a href="{{ url('/personal-banking/account-saving/current-deposit/seafarer-acount') }}">Seafarer Account (FCY)</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/account-saving/current-deposit/retail-fca-current') }}">Retail FCA Current (FCY)</a>
+															<a href="{{ url('/personal-banking/account-saving/current-deposit/retail-fca-current') }}">Retail FCA Current (FCY)</a>
 														</p>
 													</div>
 												</div>
 												<div class="row" style="margin-top: -35px;">
 													<div class="col">
 														<p class="fw-bold">
-															<a href="{{ url('/account-saving/call-deposit') }}">CALL DEPOST</a>
+															<a href="{{ url('/personal-banking/account-saving/call-deposit') }}">CALL DEPOST</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/account-saving/call-deposit/premium-call-deposit') }}">Premium Call Deposit</a>
+															<a href="{{ url('/personal-banking/account-saving/call-deposit/premium-call-deposit') }}">Premium Call Deposit</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/account-saving/call-deposit/new-business-call') }}">New Business Call</a>
+															<a href="{{ url('/personal-banking/account-saving/call-deposit/new-business-call') }}">New Business Call</a>
 														</p>
 													</div>
 													<div class="col">
@@ -123,7 +123,7 @@
 															FIXED DEPOST
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/account-saving/fixed-deposit') }}">Fixed Deposit</a>
+															<a href="{{ url('/personal-banking/account-saving/fixed-deposit') }}">Fixed Deposit</a>
 														</p>
 													</div>
 												</div>
@@ -135,19 +135,19 @@
 															ASSETS ACQUISITION / FINANCING
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/borrowing/hire-purchase/auto-loan') }}">Auto Loan</a>
+															<a href="{{ url('/personal-banking/borrowing/hire-purchase/auto-loan') }}">Auto Loan</a>
 														</p>
 														<!-- <p class="m-b-5">
-															<a href="{{ url('/borrowing/hire-purchase/c2c-auto-loan') }}">C2C Auto Loan</a>
+															<a href="{{ url('/personal-banking/borrowing/hire-purchase/c2c-auto-loan') }}">C2C Auto Loan</a>
 														</p> -->
 														<p class="m-b-5">
-															<a href="{{ url('/borrowing/hire-purchase/education-loan') }}">Education Loan</a>
+															<a href="{{ url('/personal-banking/borrowing/hire-purchase/education-loan') }}">Education Loan</a>
 														</p>
 														<!-- <p class="m-b-5">
-															<a href="{{ url('/borrowing/hire-purchase/construction-loan') }}">Home Construction & Renovation (HCR) Loan</a>
+															<a href="{{ url('/personal-banking/borrowing/hire-purchase/construction-loan') }}">Home Construction & Renovation (HCR) Loan</a>
 														</p> -->
 														<p class="m-b-5">
-															<a href="{{ url('/borrowing/hire-purchase/home-loan') }}">Home Loan</a>
+															<a href="{{ url('/personal-banking/borrowing/hire-purchase/home-loan') }}">Home Loan</a>
 														</p>
 													</div>
 												</div>
@@ -159,13 +159,13 @@
 															REMITTANCE AND PAYMENTS
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/remittance/local') }}">Local Remittance</a>
+															<a href="{{ url('/personal-banking/remittance/local') }}">Local Remittance</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/remittance/international') }}">International Remittance</a>
+															<a href="{{ url('/personal-banking/remittance/international') }}">International Remittance</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/remittance/payment') }}">Payments</a>
+															<a href="{{ url('/personal-banking/remittance/payment') }}">Payments</a>
 														</p>
 													</div>
 												</div>
@@ -174,7 +174,7 @@
 												<div class="row">
 													<div class="col-md-5">
 														<p class="m-b-5 fw-bold">
-															<a href="{{ url('/premium-banking') }}">Royal Banking</a>
+															<a href="{{ url('/personal-banking/premium-banking') }}">Royal Banking</a>
 														</p>
 													</div>
 												</div>
@@ -188,42 +188,42 @@
 													</div>
 													<div class="col-md-4">
 														<p class="m-b-5">
-															<a href="{{ url('/insurance/health') }}">Health Insurance</a>
+															<a href="{{ url('/personal-banking/insurance/health') }}">Health Insurance</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/insurance/motor') }}">Motor Insurance</a>
+															<a href="{{ url('/personal-banking/insurance/motor') }}">Motor Insurance</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/insurance/fire') }}">Fire Insurance</a>
+															<a href="{{ url('/personal-banking/insurance/fire') }}">Fire Insurance</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/insurance/personal-accident') }}">Personal Accident Insurance</a>
+															<a href="{{ url('/personal-banking/insurance/personal-accident') }}">Personal Accident Insurance</a>
 														</p>
 													</div>
 													<div class="col-md-5">
 														<p class="m-b-5">
-															<a href="{{ url('/insurance/travel/aya-go') }}">AYA Go Travel Insurance</a>
+															<a href="{{ url('/personal-banking/insurance/travel/aya-go') }}">AYA Go Travel Insurance</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/insurance/travel/aya-joy') }}">AYA Joy Travel Insurance</a>
+															<a href="{{ url('/personal-banking/insurance/travel/aya-joy') }}">AYA Joy Travel Insurance</a>
 														</p>
 													</div>
 													<div class="space-20"></div>
 													<div class="col-md-12">
 														<p class="fw-bold">
-															LIFE
+															<a href="{{ url('/personal-banking/insurance/life') }}">LIFE</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/insurance/life/universal') }}">Universal Life Insurance</a>
+															<a href="{{ url('/personal-banking/insurance/life/universal') }}">Universal Life Insurance</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/insurance/life/education') }}">Education Life Insurance</a>
+															<a href="{{ url('/personal-banking/insurance/life/education') }}">Education Life Insurance</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/insurance/life/one-health-solution-individual-plan') }}">One Health Solution Individual Plan</a>
+															<a href="{{ url('/personal-banking/insurance/life/one-health-solution-individual-plan') }}">One Health Solution Individual Plan</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/insurance/life/short-term') }}">Short Term Endowment Life Insurance</a>
+															<a href="{{ url('/personal-banking/insurance/life/short-term') }}">Short Term Endowment Life Insurance</a>
 														</p>
 													</div>
 												</div>
@@ -232,13 +232,13 @@
 												<div class="row">
 													<div class="col-md-5">
 														<p class="fw-bold">
-															OTHER SERVICES
+															<a href="{{ url('/personal-banking/other-services') }}">OTHER SERVICES</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/other-services/foreign-currency-exchange-service') }}">Foreign Currency Exchange Service</a>
+															<a href="{{ url('/personal-banking/other-services/foreign-currency-exchange-service') }}">Foreign Currency Exchange Service</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/other-services/safe-deposit') }}"> Safe Deposit Locker</a>
+															<a href="{{ url('/personal-banking/other-services/safe-deposit') }}"> Safe Deposit Locker</a>
 														</p>
 													</div>
 												</div>
@@ -381,10 +381,10 @@
 															<a href="{{ url('/business/insurance/group-life') }}">Group Life Insurance</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/insurance/fire') }}">Fire Insurance</a>
+															<a href="{{ url('/personal-banking/insurance/fire') }}">Fire Insurance</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/insurance/motor') }}">Motor Insurance</a>
+															<a href="{{ url('/personal-banking/insurance/motor') }}">Motor Insurance</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/business/insurance/domestic-marine-cargo') }}">Domestic Marine Cargo Insurance</a>
@@ -882,74 +882,74 @@
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-3">
-										<a href="{{ url('/account-saving/saving-deposit') }}">SAVING DEPOST</a>
+										<a href="{{ url('/personal-banking/account-saving/saving-deposit') }}">SAVING DEPOST</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/account-saving/saving-deposit/aya-regular-saving') }}">AYA Regular Saving</a>
+										<a href="{{ url('/personal-banking/account-saving/saving-deposit/aya-regular-saving') }}">AYA Regular Saving</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/account-saving/saving-deposit/aya-maximizer-saving') }}">AYA Maximizer Saving</a>
+										<a href="{{ url('/personal-banking/account-saving/saving-deposit/aya-maximizer-saving') }}">AYA Maximizer Saving</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/account-saving/saving-deposit/aya-loyal-saving') }}">AYA Loyal Saving</a>
+										<a href="{{ url('/personal-banking/account-saving/saving-deposit/aya-loyal-saving') }}">AYA Loyal Saving</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/account-saving/saving-deposit/ngwe-toe-mae-shwe-o') }}">Ngwe Toe Mae-Shwe O</a>
+										<a href="{{ url('/personal-banking/account-saving/saving-deposit/ngwe-toe-mae-shwe-o') }}">Ngwe Toe Mae-Shwe O</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item mb-20 m-l-20">
-										<a href="{{ url('/account-saving/saving-deposit/aya-su-buu') }}">AYA Su-Buu</a>
+										<a href="{{ url('/personal-banking/account-saving/saving-deposit/aya-su-buu') }}">AYA Su-Buu</a>
 									</p>
 								</li>
 
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-3">
-										<a href="{{ url('/account-saving/current-deposit') }}">CURRENT DEPOST</a>
+										<a href="{{ url('/personal-banking/account-saving/current-deposit') }}">CURRENT DEPOST</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/account-saving/current-deposit/regular-current-account') }}">Regular Current Account</a>
+										<a href="{{ url('/personal-banking/account-saving/current-deposit/regular-current-account') }}">Regular Current Account</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/account-saving/current-deposit/new-business-current-account') }}">New Business Current Account</a>
+										<a href="{{ url('/personal-banking/account-saving/current-deposit/new-business-current-account') }}">New Business Current Account</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/account-saving/current-deposit/seafarer-acount') }}">Seafarer Account (FCY)</a>
+										<a href="{{ url('/personal-banking/account-saving/current-deposit/seafarer-acount') }}">Seafarer Account (FCY)</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item mb-20 m-l-20">
-										<a href="{{ url('/account-saving/current-deposit/retail-fca-current') }}">Retail FCA Current (FCY)</a>
+										<a href="{{ url('/personal-banking/account-saving/current-deposit/retail-fca-current') }}">Retail FCA Current (FCY)</a>
 									</p>
 								</li>
 
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-3">
-										<a href="{{ url('/account-saving/call-deposit') }}">CALL DEPOST</a>
+										<a href="{{ url('/personal-banking/account-saving/call-deposit') }}">CALL DEPOST</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/account-saving/call-deposit/premium-call-deposit') }}">Premium Call Deposit</a>
+										<a href="{{ url('/personal-banking/account-saving/call-deposit/premium-call-deposit') }}">Premium Call Deposit</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item mb-20 m-l-20">
-										<a href="{{ url('/account-saving/call-deposit/new-business-call') }}">New Business Call</a>
+										<a href="{{ url('/personal-banking/account-saving/call-deposit/new-business-call') }}">New Business Call</a>
 									</p>
 								</li>
 
@@ -960,7 +960,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item mb-20 m-l-20">
-										<a href="{{ url('/account-saving/fixed-deposit') }}">Fixed Deposit</a>
+										<a href="{{ url('/personal-banking/account-saving/fixed-deposit') }}">Fixed Deposit</a>
 									</p>
 								</li>
 							</ul>
@@ -975,17 +975,17 @@
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/borrowing/hire-purchase/auto-loan') }}">Auto Loan</a>
+										<a href="{{ url('/personal-banking/borrowing/hire-purchase/auto-loan') }}">Auto Loan</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/borrowing/hire-purchase/education-loan') }}">Education Loan</a>
+										<a href="{{ url('/personal-banking/borrowing/hire-purchase/education-loan') }}">Education Loan</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item mb-20 m-l-20">
-										<a href="{{ url('/borrowing/hire-purchase/home-loan') }}">Home Loan</a>
+										<a href="{{ url('/personal-banking/borrowing/hire-purchase/home-loan') }}">Home Loan</a>
 									</p>
 								</li>
 							</ul>
@@ -1000,17 +1000,17 @@
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/remittance/local') }}">Local Remittance</a>
+										<a href="{{ url('/personal-banking/remittance/local') }}">Local Remittance</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/remittance/international') }}">International Remittance</a>
+										<a href="{{ url('/personal-banking/remittance/international') }}">International Remittance</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item mb-20 m-l-20">
-										<a href="{{ url('/remittance/payment') }}">Payments</a>
+										<a href="{{ url('/personal-banking/remittance/payment') }}">Payments</a>
 									</p>
 								</li>
 							</ul>
@@ -1020,7 +1020,7 @@
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item mb-20 mt-3">
-										<a href="{{ url('/premium-banking') }}">Royal Banking</a>
+										<a href="{{ url('/personal-banking/premium-banking') }}">Royal Banking</a>
 									</p>
 								</li>
 							</ul>
@@ -1030,57 +1030,57 @@
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
-										<a href="{{ url('/insurance/health') }}">Health Insurance</a>
+										<a href="{{ url('/personal-banking/insurance/health') }}">Health Insurance</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5">
-										<a href="{{ url('/insurance/motor') }}">Motor Insurance</a>
+										<a href="{{ url('/personal-banking/insurance/motor') }}">Motor Insurance</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5">
-										<a href="{{ url('/insurance/fire') }}">Fire Insurance</a>
+										<a href="{{ url('/personal-banking/insurance/fire') }}">Fire Insurance</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5">
-										<a href="{{ url('/insurance/personal-accident') }}">Personal Accident Insurance</a>
+										<a href="{{ url('/personal-banking/insurance/personal-accident') }}">Personal Accident Insurance</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5">
-										<a href="{{ url('/insurance/travel/aya-go') }}">AYA Go Travel Insurance</a>
+										<a href="{{ url('/personal-banking/insurance/travel/aya-go') }}">AYA Go Travel Insurance</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item mb-20">
-										<a href="{{ url('/insurance/travel/aya-joy') }}">AYA Joy Travel Insurance</a>
+										<a href="{{ url('/personal-banking/insurance/travel/aya-joy') }}">AYA Joy Travel Insurance</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-3">
-										LIFE
+										<a href="{{ url('/personal-banking/insurance/life') }}">LIFE</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/insurance/life/universal') }}">Universal Life Insurance</a>
+										<a href="{{ url('/personal-banking/insurance/life/universal') }}">Universal Life Insurance</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/insurance/life/education') }}">Education Life Insurance</a>
+										<a href="{{ url('/personal-banking/insurance/life/education') }}">Education Life Insurance</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/insurance/life/one-health-solution-individual-plan') }}">One Health Solution Individual Plan</a>
+										<a href="{{ url('/personal-banking/insurance/life/one-health-solution-individual-plan') }}">One Health Solution Individual Plan</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item mb-20 m-l-20">
-										<a href="{{ url('/insurance/life/short-term') }}">Short Term Endowment Life Insurance</a>
+										<a href="{{ url('/personal-banking/insurance/life/short-term') }}">Short Term Endowment Life Insurance</a>
 									</p>
 								</li>
 							</ul>
@@ -1090,12 +1090,12 @@
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
-										<a href="{{ url('/other-services/foreign-currency-exchange-service') }}">Foreign Currency Exchange Service</a>
+										<a href="{{ url('/personal-banking/other-services/foreign-currency-exchange-service') }}">Foreign Currency Exchange Service</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5">
-										<a href="{{ url('/other-services/safe-deposit') }}"> Safe Deposit Locker</a>
+										<a href="{{ url('/personal-banking/other-services/safe-deposit') }}"> Safe Deposit Locker</a>
 									</p>
 								</li>
 							</ul>
@@ -1217,12 +1217,12 @@
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5">
-										<a href="{{ url('/insurance/fire') }}">Fire Insurance</a>
+										<a href="{{ url('/personal-banking/insurance/fire') }}">Fire Insurance</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5">
-										<a href="{{ url('/insurance/motor') }}">Motor Insurance</a>
+										<a href="{{ url('/personal-banking/insurance/motor') }}">Motor Insurance</a>
 									</p>
 								</li>
 								<li>

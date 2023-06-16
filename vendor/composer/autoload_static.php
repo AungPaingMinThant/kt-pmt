@@ -551,6 +551,7 @@ class ComposerStaticInit82f16a42032adc04aaa803c3fa7b6a1e
         'App\\Http\\Controllers\\PremiumBankingController' => __DIR__ . '/../..' . '/app/Http/Controllers/PremiumBankingController.php',
         'App\\Http\\Controllers\\RemittanceController' => __DIR__ . '/../..' . '/app/Http/Controllers/RemittanceController.php',
         'App\\Http\\Controllers\\SharePostController' => __DIR__ . '/../..' . '/app/Http/Controllers/SharePostController.php',
+        'App\\Http\\Controllers\\SiteMapController' => __DIR__ . '/../..' . '/app/Http/Controllers/SiteMapController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\AuthAdmin' => __DIR__ . '/../..' . '/app/Http/Middleware/AuthAdmin.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',

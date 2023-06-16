@@ -82,49 +82,49 @@ Route::get('/digital-services/card-services/reset-pin','App\Http\Controllers\Dig
 
 
 // Personal
-Route::get('/insurance/health','App\Http\Controllers\Insurance\HealthInsuranceController@index');
-Route::get('/insurance/motor','App\Http\Controllers\Insurance\MotorInsuranceController@index');
-Route::get('/insurance/fire','App\Http\Controllers\Insurance\FireInsuranceController@index');
-Route::get('/insurance/personal-accident','App\Http\Controllers\Insurance\PAInsuranceController@index');
-Route::get('/insurance/travel/aya-go','App\Http\Controllers\Insurance\AYAGOInsuranceController@index');
-Route::get('/insurance/travel/aya-joy','App\Http\Controllers\Insurance\AYAJoyInsuranceController@index');
-Route::get('/insurance/life/universal','App\Http\Controllers\Insurance\LifeInsuranceController@universalIndex');
-Route::get('/insurance/life/education','App\Http\Controllers\Insurance\LifeInsuranceController@educationIndex');
-Route::get('/insurance/life/one-health-solution-individual-plan','App\Http\Controllers\Insurance\LifeInsuranceController@oneHealthIndex');
-Route::get('/insurance/life/short-term','App\Http\Controllers\Insurance\LifeInsuranceController@shorttermIndex');
+Route::get('/personal-banking/insurance/health','App\Http\Controllers\Insurance\HealthInsuranceController@index');
+Route::get('/personal-banking/insurance/motor','App\Http\Controllers\Insurance\MotorInsuranceController@index');
+Route::get('/personal-banking/insurance/fire','App\Http\Controllers\Insurance\FireInsuranceController@index');
+Route::get('/personal-banking/insurance/personal-accident','App\Http\Controllers\Insurance\PAInsuranceController@index');
+Route::get('/personal-banking/insurance/travel/aya-go','App\Http\Controllers\Insurance\AYAGOInsuranceController@index');
+Route::get('/personal-banking/insurance/travel/aya-joy','App\Http\Controllers\Insurance\AYAJoyInsuranceController@index');
+Route::get('/personal-banking/insurance/life/universal','App\Http\Controllers\Insurance\LifeInsuranceController@universalIndex');
+Route::get('/personal-banking/insurance/life/education','App\Http\Controllers\Insurance\LifeInsuranceController@educationIndex');
+Route::get('/personal-banking/insurance/life/one-health-solution-individual-plan','App\Http\Controllers\Insurance\LifeInsuranceController@oneHealthIndex');
+Route::get('/personal-banking/insurance/life/short-term','App\Http\Controllers\Insurance\LifeInsuranceController@shorttermIndex');
 
-Route::get('/account-saving/call-deposit','App\Http\Controllers\AccountSaving\CallDepositController@index');
-Route::get('/account-saving/call-deposit/premium-call-deposit','App\Http\Controllers\AccountSaving\CallDepositController@premiumIndex');
-Route::get('/account-saving/call-deposit/new-business-call','App\Http\Controllers\AccountSaving\CallDepositController@newBusinessCallIndex');
+Route::get('/personal-banking/account-saving/call-deposit','App\Http\Controllers\AccountSaving\CallDepositController@index');
+Route::get('/personal-banking/account-saving/call-deposit/premium-call-deposit','App\Http\Controllers\AccountSaving\CallDepositController@premiumIndex');
+Route::get('/personal-banking/account-saving/call-deposit/new-business-call','App\Http\Controllers\AccountSaving\CallDepositController@newBusinessCallIndex');
 
-Route::get('/account-saving/current-deposit','App\Http\Controllers\AccountSaving\CurrentDepositController@index');
-Route::get('/account-saving/current-deposit/regular-current-account','App\Http\Controllers\AccountSaving\CurrentDepositController@RegularIndex');
-Route::get('/account-saving/current-deposit/new-business-current-account','App\Http\Controllers\AccountSaving\CurrentDepositController@newBusinessIndex');
-Route::get('/account-saving/current-deposit/seafarer-acount','App\Http\Controllers\AccountSaving\CurrentDepositController@seafererIndex');
-Route::get('/account-saving/current-deposit/retail-fca-current','App\Http\Controllers\AccountSaving\CurrentDepositController@retailFCAIndex');
+Route::get('/personal-banking/account-saving/current-deposit','App\Http\Controllers\AccountSaving\CurrentDepositController@index');
+Route::get('/personal-banking/account-saving/current-deposit/regular-current-account','App\Http\Controllers\AccountSaving\CurrentDepositController@RegularIndex');
+Route::get('/personal-banking/account-saving/current-deposit/new-business-current-account','App\Http\Controllers\AccountSaving\CurrentDepositController@newBusinessIndex');
+Route::get('/personal-banking/account-saving/current-deposit/seafarer-acount','App\Http\Controllers\AccountSaving\CurrentDepositController@seafererIndex');
+Route::get('/personal-banking/account-saving/current-deposit/retail-fca-current','App\Http\Controllers\AccountSaving\CurrentDepositController@retailFCAIndex');
 
-Route::get('/account-saving/fixed-deposit','App\Http\Controllers\AccountSaving\FixedDepositController@index');
-Route::get('/account-saving/saving-deposit','App\Http\Controllers\AccountSaving\SavingDepositController@index');
-Route::get('/account-saving/saving-deposit/aya-regular-saving','App\Http\Controllers\AccountSaving\SavingDepositController@regularSavingIndex');
-Route::get('/account-saving/saving-deposit/aya-maximizer-saving','App\Http\Controllers\AccountSaving\SavingDepositController@maximizerSavingIndex');
-Route::get('/account-saving/saving-deposit/aya-loyal-saving','App\Http\Controllers\AccountSaving\SavingDepositController@loyalSavingIndex');
-Route::get('/account-saving/saving-deposit/ngwe-toe-mae-shwe-o','App\Http\Controllers\AccountSaving\SavingDepositController@shweOindex');
-Route::get('/account-saving/saving-deposit/aya-su-buu','App\Http\Controllers\AccountSaving\SavingDepositController@suBuuIndex');
+Route::get('/personal-banking/account-saving/fixed-deposit','App\Http\Controllers\AccountSaving\FixedDepositController@index');
+Route::get('/personal-banking/account-saving/saving-deposit','App\Http\Controllers\AccountSaving\SavingDepositController@index');
+Route::get('/personal-banking/account-saving/saving-deposit/aya-regular-saving','App\Http\Controllers\AccountSaving\SavingDepositController@regularSavingIndex');
+Route::get('/personal-banking/account-saving/saving-deposit/aya-maximizer-saving','App\Http\Controllers\AccountSaving\SavingDepositController@maximizerSavingIndex');
+Route::get('/personal-banking/account-saving/saving-deposit/aya-loyal-saving','App\Http\Controllers\AccountSaving\SavingDepositController@loyalSavingIndex');
+Route::get('/personal-banking/account-saving/saving-deposit/ngwe-toe-mae-shwe-o','App\Http\Controllers\AccountSaving\SavingDepositController@shweOindex');
+Route::get('/personal-banking/account-saving/saving-deposit/aya-su-buu','App\Http\Controllers\AccountSaving\SavingDepositController@suBuuIndex');
 
-Route::get('/premium-banking','App\Http\Controllers\PremiumBankingController@index');
+Route::get('/personal-banking/premium-banking','App\Http\Controllers\PremiumBankingController@index');
 
-Route::get('/remittance/local','App\Http\Controllers\RemittanceController@localIndex');
-Route::get('/remittance/international','App\Http\Controllers\RemittanceController@interIndex');
-Route::get('/remittance/payment','App\Http\Controllers\RemittanceController@paymentIndex');
+Route::get('/personal-banking/remittance/local','App\Http\Controllers\RemittanceController@localIndex');
+Route::get('/personal-banking/remittance/international','App\Http\Controllers\RemittanceController@interIndex');
+Route::get('/personal-banking/remittance/payment','App\Http\Controllers\RemittanceController@paymentIndex');
 
-Route::get('/borrowing/hire-purchase/auto-loan','App\Http\Controllers\Borrowing\HirePurchaseController@autoLoanIndex');
-Route::get('/borrowing/hire-purchase/c2c-auto-loan','App\Http\Controllers\Borrowing\HirePurchaseController@C2CAutoLoanIndex');
-Route::get('/borrowing/hire-purchase/education-loan','App\Http\Controllers\Borrowing\HirePurchaseController@educationLoanIndex');
-Route::get('/borrowing/hire-purchase/construction-loan','App\Http\Controllers\Borrowing\HirePurchaseController@constructionLoanIndex');
-Route::get('/borrowing/hire-purchase/home-loan','App\Http\Controllers\Borrowing\HirePurchaseController@homeLoanIndex');
+Route::get('/personal-banking/borrowing/hire-purchase/auto-loan','App\Http\Controllers\Borrowing\HirePurchaseController@autoLoanIndex');
+Route::get('/personal-banking/borrowing/hire-purchase/c2c-auto-loan','App\Http\Controllers\Borrowing\HirePurchaseController@C2CAutoLoanIndex');
+Route::get('/personal-banking/borrowing/hire-purchase/education-loan','App\Http\Controllers\Borrowing\HirePurchaseController@educationLoanIndex');
+Route::get('/personal-banking/borrowing/hire-purchase/construction-loan','App\Http\Controllers\Borrowing\HirePurchaseController@constructionLoanIndex');
+Route::get('/personal-banking/borrowing/hire-purchase/home-loan','App\Http\Controllers\Borrowing\HirePurchaseController@homeLoanIndex');
 
-Route::get('/other-services/foreign-currency-exchange-service','App\Http\Controllers\OtherServicesController@foreignCurrencyIndex');
-Route::get('/other-services/safe-deposit','App\Http\Controllers\OtherServicesController@safeDepositIndex');
+Route::get('/personal-banking/other-services/foreign-currency-exchange-service','App\Http\Controllers\OtherServicesController@foreignCurrencyIndex');
+Route::get('/personal-banking/other-services/safe-deposit','App\Http\Controllers\OtherServicesController@safeDepositIndex');
 
 // Busineess
 Route::get('/business/account-saving/call-deposit','App\Http\Controllers\Business\AccountSaving\CallDepositController@callDepositIndex');
@@ -172,6 +172,7 @@ Route::get('/about-aya/governance/risk-management/risk-management-control','App\
 Route::get('/about-aya/governance/risk-management/managing-risk','App\Http\Controllers\AboutAYA\GovernanceController@managingRiskIndex');
 Route::get('/about-aya/governance/compliance','App\Http\Controllers\AboutAYA\GovernanceController@complianceIndex');
 Route::get('/about-aya/news-room/corporate-news','App\Http\Controllers\AboutAYA\NewsController@corporateIndex');
+Route::get('/about-aya/news-room/corporate-news/{permalink}','App\Http\Controllers\AboutAYA\NewsController@corporateDetailIndex');
 
 
 // Enquiry Form
@@ -186,3 +187,13 @@ Route::get('/digital-services/card-services', 'App\Http\Controllers\SiteMapContr
 Route::get('/digital-services/card-services/merchant-services', 'App\Http\Controllers\SiteMapController@digiCardMerchantIndex');
 Route::get('/digital-services/wallet-solution', 'App\Http\Controllers\SiteMapController@digiWalletSolutionIndex');
 Route::get('/digital-services/guideline', 'App\Http\Controllers\SiteMapController@digiGuidelineIndex');
+
+Route::get('/personal-banking','App\Http\Controllers\SiteMapController@personalIndex');
+Route::get('/personal-banking/account-saving','App\Http\Controllers\SiteMapController@personalACIndex');
+Route::get('/personal-banking/borrowing','App\Http\Controllers\SiteMapController@personalBorrowIndex');
+Route::get('/personal-banking/borrowing/hire-purchase','App\Http\Controllers\SiteMapController@personalHirePurchaseIndex');
+Route::get('/personal-banking/remittance','App\Http\Controllers\SiteMapController@personalRemittanceIndex');
+Route::get('/personal-banking/insurance','App\Http\Controllers\SiteMapController@personalInsIndex');
+Route::get('/personal-banking/insurance/life','App\Http\Controllers\SiteMapController@personalLifeInsIndex');
+Route::get('/personal-banking/insurance/travel','App\Http\Controllers\SiteMapController@personalTravelInsIndex');
+Route::get('/personal-banking/other-services','App\Http\Controllers\SiteMapController@personalOtherIndex');

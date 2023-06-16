@@ -448,23 +448,23 @@
 
 		if (this.value === previousValue) {
 			if (this.value == 0) {
-				window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
+				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/home-loan';
 			}
 			if (this.value == 1) {
-				window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
+				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/auto-loan';
 			}
 			if (this.value == 2) {
-				window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
+				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/education-loan';
 			}
 		} else {
 			if ($('#inputGroupSelect01 option:selected').val() == 0) {
-				window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
+				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/home-loan';
 			}
 			if ($('#inputGroupSelect01 option:selected').val() == 1) {
-				window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
+				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/auto-loan';
 			}
 			if ($('#inputGroupSelect01 option:selected').val() == 2) {
-				window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
+				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/education-loan';
 			}
 		}
 
@@ -479,23 +479,23 @@
 
 		if (this.value === previousValue) {
 			if (this.value == 0) {
-				window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
+				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/home-loan';
 			}
 			if (this.value == 1) {
-				window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
+				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/auto-loan';
 			}
 			if (this.value == 2) {
-				window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
+				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/education-loan';
 			}
 		} else {
 			if ($('#inputGroupSelect01 option:selected').val() == 0) {
-				window.location.href = APP_URL+'/borrowing/hire-purchase/home-loan';
+				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/home-loan';
 			}
 			if ($('#inputGroupSelect01 option:selected').val() == 1) {
-				window.location.href = APP_URL+'/borrowing/hire-purchase/auto-loan';
+				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/auto-loan';
 			}
 			if ($('#inputGroupSelect01 option:selected').val() == 2) {
-				window.location.href = APP_URL+'/borrowing/hire-purchase/education-loan';
+				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/education-loan';
 			}
 		}
 
@@ -659,7 +659,7 @@
 			// 	window.location.href = APP_URL+'/insurance/life/universal';
 			// }
 			if ($('#inputGroupSelect03 option:selected').val() == 1) {
-				window.location.href = APP_URL+'/atm';
+				window.location.href = APP_URL+'/digital-services/atm';
 			}
 			// if ($('#inputGroupSelect03 option:selected').val() == 2) {
 			// 	window.location.href = APP_URL+'/insurance/motor';
@@ -669,7 +669,7 @@
 			// 	window.location.href = APP_URL+'/insurance/life/universal';
 			// }
 			if ($('#inputGroupSelect03 option:selected').val() == 1) {
-				window.location.href = APP_URL+'/atm';
+				window.location.href = APP_URL+'/digital-services/atm';
 			}
 			// if ($('#inputGroupSelect03 option:selected').val() == 2) {
 			// 	window.location.href = APP_URL+'/insurance/motor';
@@ -689,7 +689,7 @@
 				// 	window.location.href = APP_URL+'/insurance/life/universal';
 				// }
 				if ($('#inputGroupSelect03mobile option:selected').val() == 1) {
-					window.location.href = APP_URL+'/atm';
+					window.location.href = APP_URL+'/digital-services/atm';
 				}
 				// if ($('#inputGroupSelect03mobile option:selected').val() == 2) {
 				// 	window.location.href = APP_URL+'/insurance/motor';
@@ -699,7 +699,7 @@
 				// 	window.location.href = APP_URL+'/insurance/life/universal';
 				// }
 				if ($('#inputGroupSelect03mobile option:selected').val() == 1) {
-					window.location.href = APP_URL+'/atm';
+					window.location.href = APP_URL+'/digital-services/atm';
 				}
 				// if ($('#inputGroupSelect03mobile option:selected').val() == 2) {
 				// 	window.location.href = APP_URL+'/insurance/motor';

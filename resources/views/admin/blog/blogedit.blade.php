@@ -60,7 +60,7 @@
 											</div>
 											<div class="mb-3">
 												<label class="form-label" for="blog_desc">Description</label>
-												<textarea class="form-control" id="blog_desc" name="blog_desc" rows="3" spellcheck="false" >{{ $blog_data->blog_desc }}</textarea>
+												<textarea class="form-control" id="blog_desc" name="blog_desc" rows="3" spellcheck="false" >{!! $blog_data->blog_desc !!}</textarea>
 											</div>
 											<input type="hidden" name="old_featured_image" id="old_featured_image" value="{{$blog_data->featured_image}}">
 											<input type="hidden" name="new_featured_image" id="new_featured_image" value="">

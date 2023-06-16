@@ -47,7 +47,7 @@
 								</div>
 								<div class="space-20"></div>
 								<div class="col-md-12">
-									<a href="{{ url('/account-saving/current-deposit/regular-current-account') }}">
+									<a href="{{ url('/personal-banking/account-saving/current-deposit/regular-current-account') }}">
 										<div class="row" style="cursor: pointer;">
 											<div class="col-4 ">
 												<img src="{{ url('/images/acc_saving/regular_current_account.png') }}" class="img-fluid">
@@ -61,7 +61,7 @@
 								</div>
 								<div class="space-40"></div>
 								<div class="col-md-12">
-									<a href="{{ url('/account-saving/current-deposit/new-business-current-account') }}">
+									<a href="{{ url('/personal-banking/account-saving/current-deposit/new-business-current-account') }}">
 										<div class="row" style="cursor: pointer;">
 											<div class="col-4 ">
 												<img src="{{ url('/images/acc_saving/new_business_current_account.png') }}" class="img-fluid">
@@ -75,7 +75,7 @@
 								</div>
 								<div class="space-40"></div>
 								<div class="col-md-12">
-									<a href="{{ url('/account-saving/current-deposit/seafarer-acount') }}">
+									<a href="{{ url('/personal-banking/account-saving/current-deposit/seafarer-acount') }}">
 										<div class="row" style="cursor: pointer;">
 											<div class="col-4 ">
 												<img src="{{ url('/images/acc_saving/seaferer_account.png') }}" class="img-fluid">
