@@ -1,0 +1,95 @@
+.nav-link, h4 {
+	color: #2e2e2e !important;
+}
+.side-nav > .nav-item > .nav-link {
+	padding: 0 1.25rem 1rem 0 !important;
+	font-size: 16px;
+}
+.nav-pills .nav-link.active {
+	color: #2e2e2e !important;		
+}
+.nav-pills .nav-link.active > span {
+	border-bottom: 4px solid #a02226 !important;
+}
+.scroll_content::-webkit-scrollbar{
+    display: none;
+}
+#myScrollspy {
+	position: sticky;
+	top: 20px;
+	z-index: 99;
+}
+.bullet_square {
+	float: right;
+	margin-top: 7px;
+	width: 13%;
+}
+#q_remit_malay_inward, .dbs_remit_singapore, .western_union_inward, .ria_money_transfer_inward {
+	padding-right: 250px;
+	font-size: 18px;
+	font-weight: 600;
+}
+.secure_req_application_icon {
+	float: right;
+	margin-top: -5px;
+}
+.secure_credit_fact {
+	padding-left: 0 !important;
+}
+.q_remit_malay_inward_tagline {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	width: 45% !important;
+	position: absolute;
+	top: 80%;
+	left: 4%;
+}
+.dbs_remit_singapore_tagline {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	position: absolute;
+	top: 80%;
+	left: 4%;
+}
+.western_tagline, .ria_tagline {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	width: 35% !important;
+	position: absolute;
+	top: 80%;
+	left: 4%;
+}
+@media (max-width: 1300px) and (min-width: 1000px) {
+	.q_remit_malay_inward_tagline{
+		width: 60% !important;
+	}
+	.dbs_remit_singapore_tagline {
+		top: 75%;
+	}
+	.western_tagline {
+		width: 45% !important;
+		top: 75%;
+	}
+	.ria_tagline {
+		width: 40% !important;
+		top: 75%;
+	}
+	.bullet_square {
+		width: 20%;
+	}
+}
+@media only screen and (max-width: 576px){
+	.remittance_inter_mobile_title {
+		font-size: calc(1.2625rem + 0.15vw);
+		font-weight: 600 !important;
+	}
+	.bullet_square {
+		width: 50%;
+	}
+	.bullet_square_div {
+		padding-right: 0px !important;
+	}
+}
