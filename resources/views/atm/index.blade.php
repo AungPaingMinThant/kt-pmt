@@ -793,7 +793,7 @@
 							                        <div class="card-content">
 							                        	<div class="row text-center">
 							                        		<p style="margin-bottom: 0px">AYA Account</p>
-							                        		<p class="name" style="font-size: 18px;color: #a02226;">AYA Universal Debit Card</p>
+							                        		<p class="name" style="font-size: 18px;color: #A5000B;">AYA Universal Debit Card</p>
 							                        	</div>
 							                        	<div class="space-20"></div>
 							                            <div class="row">
@@ -830,7 +830,7 @@
 							                        <div class="card-content">
 							                        	<div class="row text-center">
 							                        		<p style="margin-bottom: 0px">AYA Account</p>
-							                        		<p class="name" style="font-size: 18px;color: #a02226;">AYA Credit Card</p>
+							                        		<p class="name" style="font-size: 18px;color: #A5000B;">AYA Credit Card</p>
 							                        	</div>
 							                        	<div class="space-20"></div>
 							                            <div class="row">
@@ -862,7 +862,7 @@
 							                        <div class="card-content">
 							                        	<div class="row text-center">
 							                        		<p style="margin-bottom: 0px">AYA Account</p>
-							                        		<p class="name" style="font-size: 18px;color: #a02226;">AYA Visa Prepaid Card</p>
+							                        		<p class="name" style="font-size: 18px;color: #A5000B;">AYA Visa Prepaid Card</p>
 							                        	</div>
 							                        	<div class="space-10"></div>
 							                            <div class="row">
@@ -879,7 +879,7 @@
 							                            </div>
 							                            <div class="space-10"></div>
 							                            <div class="row text-center">
-							                        		<p class="name" style="font-size: 18px;color: #a02226;">AYA m-banking</p>
+							                        		<p class="name" style="font-size: 18px;color: #A5000B;">AYA m-banking</p>
 							                        	</div>
 							                            <div class="row">
 							                            	<div class="col-md-12">
@@ -890,7 +890,7 @@
 							                            </div>
 							                            <div class="space-10"></div>
 							                            <div class="row text-center">
-							                        		<p class="name" style="font-size: 18px;color: #a02226;">AYA Pay</p>
+							                        		<p class="name" style="font-size: 18px;color: #A5000B;">AYA Pay</p>
 							                        	</div>
 							                        	<div class="space-10"></div>
 							                            <div class="row">
@@ -905,7 +905,7 @@
 							                        <div class="card-content">
 							                        	<div class="row text-center">
 							                        		<p style="margin-bottom: 0px">MPU (Other Bank) Account</p>
-							                        		<p class="name" style="font-size: 18px;color: #a02226;">MPU (Local Other Bank)</p>
+							                        		<p class="name" style="font-size: 18px;color: #A5000B;">MPU (Local Other Bank)</p>
 							                        	</div>
 							                        	<div class="space-20"></div>
 							                            <div class="row">
@@ -932,7 +932,7 @@
 							                        <div class="card-content">
 							                        	<div class="row text-center">
 							                        		<p style="margin-bottom: 0px">International Account</p>
-							                        		<p class="name" style="font-size: 18px;color: #a02226;">International (Off-Us Transaction)</p>
+							                        		<p class="name" style="font-size: 18px;color: #A5000B;">International (Off-Us Transaction)</p>
 							                        	</div>
 							                        	<div class="space-20"></div>
 							                            <div class="row">
@@ -976,7 +976,7 @@
 							                        <div class="card-content">
 							                        	<div class="row text-center">
 							                        		<p style="margin-bottom: 0px">AYA Account</p>
-							                        		<p class="name" style="font-size: 18px;color: #a02226;">AYA Universal Debit Card</p>
+							                        		<p class="name" style="font-size: 18px;color: #A5000B;">AYA Universal Debit Card</p>
 							                        	</div>
 							                        	<div class="space-20"></div>
 							                            <div class="row">
@@ -1018,7 +1018,7 @@
 							                        <div class="card-content">
 							                        	<div class="row text-center">
 							                        		<p style="margin-bottom: 0px">AYA Account</p>
-							                        		<p class="name" style="font-size: 18px;color: #a02226;">AYA Credit Card</p>
+							                        		<p class="name" style="font-size: 18px;color: #A5000B;">AYA Credit Card</p>
 							                        	</div>
 							                        	<div class="space-20"></div>
 							                            <div class="row">
@@ -1050,7 +1050,7 @@
 							                        <div class="card-content">
 							                        	<div class="row text-center">
 							                        		<p style="margin-bottom: 0px">AYA Account</p>
-							                        		<p class="name" style="font-size: 18px;color: #a02226;">AYA Visa Prepaid Card</p>
+							                        		<p class="name" style="font-size: 18px;color: #A5000B;">AYA Visa Prepaid Card</p>
 							                        	</div>
 							                        	<div class="space-10"></div>
 							                            <div class="row">
@@ -1067,7 +1067,7 @@
 							                            </div>
 							                            <div class="space-10"></div>
 							                            <div class="row text-center">
-							                        		<p class="name" style="font-size: 18px;color: #a02226;">AYA m-banking</p>
+							                        		<p class="name" style="font-size: 18px;color: #A5000B;">AYA m-banking</p>
 							                        	</div>
 							                            <div class="row">
 							                            	<div class="col-md-12">
@@ -1078,7 +1078,7 @@
 							                            </div>
 							                            <div class="space-10"></div>
 							                            <div class="row text-center">
-							                        		<p class="name" style="font-size: 18px;color: #a02226;">AYA Pay</p>
+							                        		<p class="name" style="font-size: 18px;color: #A5000B;">AYA Pay</p>
 							                        	</div>
 							                        	<div class="space-10"></div>
 							                            <div class="row">
@@ -1093,7 +1093,7 @@
 							                        <div class="card-content">
 							                        	<div class="row text-center">
 							                        		<p style="margin-bottom: 0px">MPU (Other Bank) Account</p>
-							                        		<p class="name" style="font-size: 18px;color: #a02226;">MPU (Local Other Bank)</p>
+							                        		<p class="name" style="font-size: 18px;color: #A5000B;">MPU (Local Other Bank)</p>
 							                        	</div>
 							                        	<div class="space-20"></div>
 							                            <div class="row">
@@ -1120,7 +1120,7 @@
 							                        <div class="card-content">
 							                        	<div class="row text-center">
 							                        		<p style="margin-bottom: 0px">International Account</p>
-							                        		<p class="name" style="font-size: 18px;color: #a02226;">International (Off-Us Transaction)</p>
+							                        		<p class="name" style="font-size: 18px;color: #A5000B;">International (Off-Us Transaction)</p>
 							                        	</div>
 							                        	<div class="space-20"></div>
 							                            <div class="row">

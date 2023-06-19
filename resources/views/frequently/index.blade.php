@@ -12,7 +12,7 @@
 		padding-bottom: 3px;
 	}
 	.link_active > span, .advice_title_li:hover > span {
-		border-bottom: 4px solid #a02226;
+		border-bottom: 4px solid #A5000B;
 		font-weight: 600;
 	}
 	.frequently_section_1 {
@@ -242,7 +242,7 @@
 						</div>
 						<div class="col-md-8" style="padding-left: 30px;">
 							<section class="advide_desc" id="advice_1_collapsible">
-								<p style="font-weight: 600;color: #a02226;">Updating Particulars in Mobile Banking</p>
+								<p style="font-weight: 600;color: #A5000B;">Updating Particulars in Mobile Banking</p>
 								<p class="frequently_desc">Your registered mobile banking number is widely used to directly transfer the funds through mobile banking apps.</p>
 
 								<p class="frequently_desc">It is very important that your credentials are up to date without fail to ensure you are reachable for any matters related to your account.</p>
@@ -326,7 +326,7 @@
 								</div>
 							</section>
 							<section class="advide_desc" id="advice_2_collapsible" style="display: none;">
-								<p style="font-weight: 600;color: #a02226;">How to make bill payment</p>
+								<p style="font-weight: 600;color: #A5000B;">How to make bill payment</p>
 								<p class="frequently_desc">Being available 24/7, AYA mobile banking is great for those who could not be able to visit the actual facility during its working hours. You can use mobile banking to pay for your bills conveniently and in a straightforward way.</p>
 
 								<p class="frequently_desc">Find out how you can make bill payment using mobile banking. </p>
@@ -476,7 +476,7 @@
 								</div>
 							</section>
 							<section class="advide_desc" id="advice_3_collapsible" style="display: none;">
-								<p style="font-weight: 600;color: #a02226;">How to Top-up Mobile</p>
+								<p style="font-weight: 600;color: #A5000B;">How to Top-up Mobile</p>
 								<p class="frequently_desc">Topping up your mobile phone in mobile banking is just on your fingertips.</p>
 
 								<p class="frequently_desc">You can top up all telecom phone bills operating in Myanmar with deposit account.</p>
@@ -566,7 +566,7 @@
 								</div>
 							</section>
 							<section class="advide_desc" id="advice_4_collapsible" style="display: none;">
-								<p style="font-weight: 600;color: #a02226;">How to Transfer Funds</p>
+								<p style="font-weight: 600;color: #A5000B;">How to Transfer Funds</p>
 								<p class="frequently_desc">The days are gone that we need to line up at the bank every time we’d have to pay for or send money.</p>
 
 								<p class="frequently_desc">You can transfer funds instantly 24/7 to any of AYA Banks accounts or other local banks accounts in Myanmar round the clock through mobile banking.</p>
@@ -658,7 +658,7 @@
 								<p class="frequently_desc" style="font-size: 12px;">Notes: Please note that there is a transaction fees applied for every transaction.</p>
 							</section>
 							<section class="advide_desc" id="advice_5_collapsible" style="display: none;">
-								<p style="font-weight: 600;color: #a02226;">How to check Credit Card Transation Details</p>
+								<p style="font-weight: 600;color: #A5000B;">How to check Credit Card Transation Details</p>
 								<p class="frequently_desc">A record of previous financial transactions is vital for all individuals and business.</p>
 
 								<p class="frequently_desc">It is recommended to track spending on credit card before you can reconcile with a credit card statement.</p>
@@ -705,7 +705,7 @@
 								<div class="space-20"></div>
 							</section>
 							<section class="advide_desc" id="advice_6_collapsible" style="display: none;">
-								<p style="font-weight: 600;color: #a02226;">How to Request Money</p>
+								<p style="font-weight: 600;color: #A5000B;">How to Request Money</p>
 								<p class="frequently_desc">Do you need to request money from others?</p>
 
 								<p class="frequently_desc">We offer the option of generating your own QR code in mobile banking apps and send it over as an image to get someone paid to you.</p>
@@ -761,7 +761,7 @@
 								<div class="space-20"></div>
 							</section>
 							<section class="advide_desc" id="advice_7_collapsible" style="display: none;">
-								<p style="font-weight: 600;color: #a02226;">Simply Pay With QR Code</p>
+								<p style="font-weight: 600;color: #A5000B;">Simply Pay With QR Code</p>
 								<p class="frequently_desc">AYA mobile payment feature can keep you comfort.</p>
 
 								<p class="frequently_desc">At any time anywhere, just scan and pay instantly with QR code to save yourself the hassle of having to exchange currency.</p>
@@ -851,7 +851,7 @@
 								<p style="font-size: 12px;">Notes: You are advised to ensure the correct recipient and amount of transfer before proceeding the transaction.</p>
 							</section>
 							<section class="advide_desc" id="advice_8_collapsible" style="display: none;">
-								<p style="font-weight: 600;color: #a02226;">How to check locations of ATMs and Branches</p>
+								<p style="font-weight: 600;color: #A5000B;">How to check locations of ATMs and Branches</p>
 								<p>For the sake of convenience and better service, we are using centralized online real-time exchange banking system. You can visit any nearest branches to receive banking services.</p>
 
 								<p>Please find out our ATMs and Branches location in mobile application.</p>
@@ -896,7 +896,7 @@
 								<div class="space-20"></div>
 							</section>
 							<section class="advide_desc" id="advice_9_collapsible" style="display: none;">
-								<p style="font-weight: 600;color: #a02226;">How to check eligibilty for Loan application</p>
+								<p style="font-weight: 600;color: #A5000B;">How to check eligibilty for Loan application</p>
 								<p>Are you looking at applying for any loan with AYA Bank?</p>
 
 								<p>In AYA mobile apps, we will take you to explore various requirements you need to fulfill to take Auto loan, home loan and Education loan with us.</p>
@@ -943,7 +943,7 @@
 								<div class="space-20"></div>
 							</section>
 							<section class="advide_desc" id="advice_10_collapsible" style="display: none;">
-								<p style="font-weight: 600;color: #a02226;">Calculation for Deposits' Interest</p>
+								<p style="font-weight: 600;color: #A5000B;">Calculation for Deposits' Interest</p>
 								<p>Are you planning to open saving accounts or a fixed deposit account with us?</p>
 
 								<p>Explore how you can calculate returns on it before saving and investing in a few simple steps.</p>
@@ -988,7 +988,7 @@
 								<div class="space-20"></div>
 							</section>
 							<section class="advide_desc" id="advice_11_collapsible" style="display: none;">
-								<p style="font-weight: 600;color: #a02226;">How to manage payees</p>
+								<p style="font-weight: 600;color: #A5000B;">How to manage payees</p>
 								<p>If you need to transfer to specific payee regularly instead of one-off payment, it is advisable to register in your payee list. It helps you saving the time for your next transfer and protects from making payments by mistake.</p>
 
 								<div class="space-30"></div>
@@ -1074,7 +1074,7 @@
 								<div class="space-20"></div>
 							</section>
 							<section class="advide_desc" id="advice_12_collapsible" style="display: none;">
-								<p style="font-weight: 600;color: #a02226;">Cardless cash withdrawal at ATM</p>
+								<p style="font-weight: 600;color: #A5000B;">Cardless cash withdrawal at ATM</p>
 								<p class="frequently_desc">Withdrawing funds from ATMs become more convenient now. We have upgraded the system of withdrawing cash from ATMs without using the debit or credit cards.</p>
 
 								<p class="frequently_desc">This will save our ATM users from having lost cards, declined transactions due to incorrect PIN and taking cards to ATMs.</p>

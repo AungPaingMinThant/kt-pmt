@@ -39,7 +39,7 @@
 							<div class="row tab_data_row" >
 								<div class="col-md-7"></div>
 								<div class="col-md-5 text-center" style="position: relative;">
-									<h3 class="tab_h3"><span style="color: #1d1d1f;">It is easy, accessible and convenient with </span><span style="color: #a02226"><Br>AYA Universal Debit Card</span></h3>
+									<h3 class="tab_h3"><span style="color: #1d1d1f;">It is easy, accessible and convenient with </span><span style="color: #A5000B"><Br>AYA Universal Debit Card</span></h3>
 								</div>
 							</div>
 						</div>
@@ -47,7 +47,7 @@
 							<div class="row tab_data_row" >
 								<div class="col-md-7"></div>
 								<div class="col-md-5 text-center" style="position: relative;">
-									<h3 class="tab_upi_h3"><span style="color: #1d1d1f;">Buy what you eyed with </span><span style="color: #a02226"><Br>AYA Universal Debit Card</span></h3>
+									<h3 class="tab_upi_h3"><span style="color: #1d1d1f;">Buy what you eyed with </span><span style="color: #A5000B"><Br>AYA Universal Debit Card</span></h3>
 								</div>
 							</div>
 						</div>

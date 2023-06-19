@@ -285,7 +285,7 @@
 				<div class="container d-none d-sm-block need_more_support_section_inner">
 					<div class="row">
 						<div class="col-md-7 col-xs-12 explore_cta_col">
-							<p style="font-weight: 500;font-size: 20px;margin-bottom: 5px;">Explore more on <span style="color: #a02225;">AYA Pay</span></p>
+							<p style="font-weight: 500;font-size: 20px;margin-bottom: 5px;">Explore more on <span style="color: #A5000B;">AYA Pay</span></p>
 							<a href="https://www.ayapay.com/" target="_blank">
 								<button class="btn reset_pin_btn">
 									Visit Website
@@ -303,7 +303,7 @@
 						<div class="col-xs-12 text-center" style="padding-top: 20px;">
 							<img src="{{ url('/images/ayapay/explore_laptop.png') }}" class="img-fluid" style="margin-bottom: 10px">
 
-							<p style="font-weight: 500;font-size: 20px;margin-bottom: 5px;">Explore more on <span style="color: #a02225;">AYA Pay</span></p>
+							<p style="font-weight: 500;font-size: 20px;margin-bottom: 5px;">Explore more on <span style="color: #A5000B;">AYA Pay</span></p>
 							<a href="https://www.ayapay.com/" target="_blank">
 								<button class="btn reset_pin_btn">
 									Visit Website

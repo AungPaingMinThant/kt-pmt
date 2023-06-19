@@ -166,7 +166,7 @@
 
 							<a href="https://ibankapp.ayabank.com" style=""><button class="btn" style="background-color: #ae071d;color: #fff;padding: 15px 25px;border: #ae071d;margin-bottom: 2rem;">Apply Now</button></a>
 
-							<p style="color: #a02225;font-weight: 500;font-size: 25px;margin-bottom: 5px;">Download the APP Now</p>
+							<p style="color: #A5000B;font-weight: 500;font-size: 25px;margin-bottom: 5px;">Download the APP Now</p>
 
 							<p style="color: #666;font-weight: 400;">On your mobile or tablet, download AYA Mobile Bankng here.</p>
 
@@ -184,7 +184,7 @@
 				<div class="container d-none d-sm-block" style="padding: 40px 100px 60px 100px;background-image: url('http://localhost/ayab/public/images/more_support.png');background-size: cover;border-radius: 6px;">
 					<div class="row">
 						<div class="col-md-5 col-xs-12 text-center" style="padding-top: 80px;">
-							<p style="color: #a02225;font-weight: 500;font-size: 20px;margin-bottom: 5px;">Need more support?</p>
+							<p style="color: #A5000B;font-weight: 500;font-size: 20px;margin-bottom: 5px;">Need more support?</p>
 							<p style="font-weight:400;color: #4e4e4e;">Read our <a href="{{ url('/file/mBanking/mBanking version 2.2.5 User Guide (01 28042022) .pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">AYA Mobile banking 2.0 user guide</a></p>
 							<div style="height: 70px;"></div>
 						</div>
@@ -195,7 +195,7 @@
 				<div class="container d-block d-sm-none" style="padding: 40px 50px 60px 50px;background-color: #f5f5f5;border-radius: 10px;margin-bottom: 50px;">
 					<div class="row">
 						<div class="col-xs-12 text-center" style="padding-top: 20px;">
-							<p style="color: #a02225;font-weight: 500;font-size: 20px;margin-bottom: 5px;">Need more support?</p>
+							<p style="color: #A5000B;font-weight: 500;font-size: 20px;margin-bottom: 5px;">Need more support?</p>
 							<p style="font-weight:400;color: #4e4e4e;">Read our <a href="{{ url('/file/mBanking/mBanking version 2.2.5 User Guide (01 28042022) .pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">AYA Mobile banking 2.0 user guide</a></p>
 						</div>
 					</div>

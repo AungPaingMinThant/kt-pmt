@@ -862,7 +862,7 @@
                 <li style="height: 20px;"></li>
                 <li style="padding: 10px 0px;">
                 	@if($page == 'home')
-                		<a href="{{ url('/') }}" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #a02226;">HOME</a>
+                		<a href="{{ url('/') }}" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #A5000B;">HOME</a>
                 	@else
                 		<a href="{{ url('/') }}" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">HOME</a>
                 	@endif
@@ -870,7 +870,7 @@
 
                 <li class="personal-banking-li" style="padding: 10px 0px;position: relative;">
                 	@if($page == 'personal_banking')
-                    	<a class="dropdown-toggle menu_link" style="color: #a02226;padding-right: 140px !important;">
+                    	<a class="dropdown-toggle menu_link" style="color: #A5000B;padding-right: 140px !important;">
                     @else
                     	<a class="dropdown-toggle menu_link" style="color: #222222;padding-right: 140px !important;">
                     @endif

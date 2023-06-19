@@ -16,7 +16,7 @@
 		width: 100%; 
 		text-align: left; 
 		margin: 0; padding: 30px 0 0 0; 
-		color: #a02226;
+		color: #A5000B;
 		/* "transparent" only works here because == rgba(0,0,0,0) */
 		background-image: linear-gradient(to bottom, transparent, #fff);
 	}

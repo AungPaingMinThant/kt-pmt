@@ -12,7 +12,7 @@
     	padding: 20px 0px;
     }
     .nav-align-top .nav-tabs .tab_title.active span {
-    	border-bottom: 5px solid #a02226;
+    	border-bottom: 5px solid #A5000B;
     }
     .nav-pills .tab_title.active, .nav-pills .tab_title.active:hover, .nav-pills .tab_title.active:focus {
     	background-color: transparent !important;
@@ -77,7 +77,7 @@
 		display: table-cell !important;
 	}
 	.secure_req_application_icon {
-		background-color: #a02226;
+		background-color: #A5000B;
 		color: #fff;
 		border-radius: 50%;
 		font-size: 20px;
@@ -308,7 +308,7 @@
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
-												<p>Call us at <a href="tel:+959258889973" style="color: #a02226">+(95) 9 25 888 9973</a>, <a href="tel:+959258889937" style="color: #a02226">+(95) 9 25 888 9937</a> or visit any of our Branches for more details.</p>
+												<p>Call us at <a href="tel:+959258889973" style="color: #A5000B">+(95) 9 25 888 9973</a>, <a href="tel:+959258889937" style="color: #A5000B">+(95) 9 25 888 9937</a> or visit any of our Branches for more details.</p>
 											</div>
 										</div>
 										<div class="row">
@@ -316,7 +316,7 @@
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
-												<p>You may also email us at <a href="mailto:mchsupport.card@ayabank.com" style="color: #a02226">mchsupport.card@ayabank.com</a> and arrange our Relationship Manager to call you.</p>
+												<p>You may also email us at <a href="mailto:mchsupport.card@ayabank.com" style="color: #A5000B">mchsupport.card@ayabank.com</a> and arrange our Relationship Manager to call you.</p>
 											</div>
 										</div>
 										<div class="space-40"></div>

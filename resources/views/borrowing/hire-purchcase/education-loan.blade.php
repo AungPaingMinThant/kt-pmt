@@ -249,7 +249,7 @@
 								
 								<div class="row">
 									<div class="col-md-12">
-										<p class="mb-minus-10">Explore options available to position your child’s education journey with our <a href="{{ url('/file/personal/borrowing/hire_purchase/edu_loan/Partner Institutions.pdf') }}" target="_blank" style="color: #a02226;">partner institutions</a></p>
+										<p class="mb-minus-10">Explore options available to position your child’s education journey with our <a href="{{ url('/file/personal/borrowing/hire_purchase/edu_loan/Partner Institutions.pdf') }}" target="_blank" style="color: #A5000B;">partner institutions</a></p>
 										<div class="slide-container slide-container-partner swiper" style="padding: 40px 0px 40px 0px;">
 								            <div class="slide-content slide-content-partner">
 								                <div class="card-wrapper swiper-wrapper">
@@ -623,7 +623,7 @@
 								
 							<div class="row">
 								<div class="col-md-12">
-									<p class="mb-minus-10">Explore options available to position your child’s education journey with our <a href="{{ url('/file/personal/borrowing/hire_purchase/edu_loan/Partner Institutions.pdf') }}" target="_blank" style="color: #a02226;">partner institutions</a></p>
+									<p class="mb-minus-10">Explore options available to position your child’s education journey with our <a href="{{ url('/file/personal/borrowing/hire_purchase/edu_loan/Partner Institutions.pdf') }}" target="_blank" style="color: #A5000B;">partner institutions</a></p>
 									<div class="slide-container slide-container-partner swiper" style="padding: 40px 0px 40px 0px;">
 							            <div class="slide-content slide-content-partner">
 							                <div class="card-wrapper swiper-wrapper">

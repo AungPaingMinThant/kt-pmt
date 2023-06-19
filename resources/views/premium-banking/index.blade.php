@@ -657,7 +657,7 @@
 							<input type="text" class="form-control" placeholder="you@emailaddress.com" aria-label="Recipient's username" aria-describedby="basic-addon2" style="border-color: #a9a9a9;border-top-left-radius: 2px;border-bottom-left-radius: 2px;height: 50px;">
 							<div class="input-group-append">
 								<a href="{{ url('/file/premium-banking/Royal Banking E-booklet.pdf') }}" target="_blank">
-									<button class="btn btn-outline-secondary" type="button" style="border-top-left-radius: 0;border-bottom-left-radius: 0;border-top-right-radius: 2px;border-bottom-right-radius: 2px;border-color: #a02226;background-color: #a02226;color: #fff;height: 50px;">Submit</button>
+									<button class="btn btn-outline-secondary" type="button" style="border-top-left-radius: 0;border-bottom-left-radius: 0;border-top-right-radius: 2px;border-bottom-right-radius: 2px;border-color: #A5000B;background-color: #A5000B;color: #fff;height: 50px;">Submit</button>
 								</a>
 							</div>
 						</div>

@@ -273,4 +273,7 @@
 	.modal-body {
 		padding-bottom: 40px !important;
 	}
+	.services_overview_section {
+	    padding: 0px 20px !important;
+	}
 }

@@ -65,8 +65,8 @@
 							<li>Follow practice of using strong password, that includes upper- and lower-case letters, numbers, and special characters.</li>
 							<li>Change your password immediately if you suspect it has been revealed.</li>
 							<li>Track your financial accounts by logging into your online banking frequently, review the transactions, payments, withdrawals.</li> 
-							<li>In touh with your bank account - Use <a href="{{ url('/digital-services/guideline/digital-secure/sms-alert') }}" style="color: #a02226;text-decoration: underline;">SMS Alert</a> to keep track of what is happening on your account.</li>
-							<li>If you receive any suspicious communications or observe suspicious transactions or log in, call our Call Center at <a href="tel:012317777" style="color: #a02226;">01-2317777</a> (or) consult with In-charge at nearest branch. 
+							<li>In touh with your bank account - Use <a href="{{ url('/digital-services/guideline/digital-secure/sms-alert') }}" style="color: #A5000B;text-decoration: underline;">SMS Alert</a> to keep track of what is happening on your account.</li>
+							<li>If you receive any suspicious communications or observe suspicious transactions or log in, call our Call Center at <a href="tel:012317777" style="color: #A5000B;">01-2317777</a> (or) consult with In-charge at nearest branch. 
 							</li>
 						</ul>
 					</div>
@@ -110,7 +110,7 @@
 						<img src="{{ url('/images/digital_secure/safety_tip_3.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 					</div>
 					<div class="col-md-8 col-sm-12">
-						<p style="font-weight: 600;color: #a02226;">Beware of phishing scams.</p>
+						<p style="font-weight: 600;color: #A5000B;">Beware of phishing scams.</p>
 						<p>The primary intention of sending those emails / messages is to steal your bank details. Fraudsters will send you messages by posing as AYA bank and ask your OTP / Password / other personal information related to your bank account.</p>
 						<p>Alternatively, they will send you e-mails with a link which will take you to a fake website and ask you to provide your sensitive information like card details or other bank details.</p>
 						<p>If you give these credentials to any one, they will siphon money out of your account. Remember that AYA Bank will never ask for credentials like OTP, PIN, CVV number or other credentials.</p>

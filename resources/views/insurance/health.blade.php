@@ -130,7 +130,7 @@
 									<div class="col-md-4">
 										<div class="row">
 											<div class="col-md-12">
-												<p style="font-size: 20px;color: #a02226;font-weight: 600;">Critical Illness</p>
+												<p style="font-size: 20px;color: #A5000B;font-weight: 600;">Critical Illness</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
@@ -167,7 +167,7 @@
 									<div class="col-md-4">
 										<div class="row">
 											<div class="col-md-12 d-none d-sm-block">
-												<p style="font-size: 20px;color: #a02226;font-weight: 600;">&nbsp;</p>
+												<p style="font-size: 20px;color: #A5000B;font-weight: 600;">&nbsp;</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
@@ -261,7 +261,7 @@
 											}
 										</style>
 										<div class="row">
-											<p style="padding-left: 0px;"><span style="font-weight: 600;">Individual Insurance</span> <span style="color: #a02226;">(Values Shown in Myanmar Currency)</span></p>
+											<p style="padding-left: 0px;"><span style="font-weight: 600;">Individual Insurance</span> <span style="color: #A5000B;">(Values Shown in Myanmar Currency)</span></p>
 											
 											<div class="benefit_table_div">
 												<table class="table table-bordered benefit_table">
@@ -317,7 +317,7 @@
 										</div>
 										<div class="space-60"></div>
 										<div class="row">
-											<p style="padding-left: 0px;"><span style="font-weight: 600;">Collective Insurance</span> <span style="color: #a02226;">(Values Shown in Myanmar Currency)</span></p>
+											<p style="padding-left: 0px;"><span style="font-weight: 600;">Collective Insurance</span> <span style="color: #A5000B;">(Values Shown in Myanmar Currency)</span></p>
 											<div class="benefit_table_div">
 												<table class="benefit_table table table-bordered">
 													<tbody>

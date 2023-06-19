@@ -187,7 +187,7 @@
 								<button class="btn apply_now_btn">Apply Now</button>
 							</a>
 
-							<h3 style="color: #a02225;margin-bottom: 5px;">Download the APP Now</h3>
+							<h3 style="color: #A5000B;margin-bottom: 5px;">Download the APP Now</h3>
 
 							<p style="color: #666;font-weight: 400;">On your mobile or tablet, download AYA Mobile Bankng here.</p>
 
@@ -208,7 +208,7 @@
 				<div class="container d-none d-sm-block need_more_support_section_inner">
 					<div class="row">
 						<div class="col-md-5 col-xs-12 text-center" style="padding-top: 80px;">
-							<p style="color: #a02225;font-weight: 500;font-size: 20px;margin-bottom: 5px;">Need more support?</p>
+							<p style="color: #A5000B;font-weight: 500;font-size: 20px;margin-bottom: 5px;">Need more support?</p>
 							<p style="font-weight:400;color: #4e4e4e;">Read our <a href="{{ url('/file/mBanking/mBanking_User_Guide.pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">AYA Mobile banking 2.0 user guide</a></p>
 							<div style="height: 70px;"></div>
 						</div>
@@ -219,7 +219,7 @@
 				<div class="container d-block d-sm-none" style="padding: 20px 50px 30px 50px;background-color: #f5f5f5;border-radius: 10px;margin-bottom: 50px;">
 					<div class="row">
 						<div class="col-xs-12 text-center" style="padding-top: 20px;">
-							<p style="color: #a02225;font-weight: 500;font-size: 20px;margin-bottom: 5px;">Need more support?</p>
+							<p style="color: #A5000B;font-weight: 500;font-size: 20px;margin-bottom: 5px;">Need more support?</p>
 							<p style="font-weight:400;color: #4e4e4e;">Read our <a href="{{ url('/file/mBanking/mBanking_User_Guide.pdf') }}" target="_blank" style="text-decoration: underline;color: #4e4e4e;">AYA Mobile banking 2.0 user guide</a></p>
 						</div>
 					</div>

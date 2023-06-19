@@ -49,8 +49,8 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 					<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;position: absolute;top: 156px;right: 0;">{{$mobilebanking->headline_1}}</p>
-					<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;color: #a02226;position: absolute;top: 193px;right: 0;">{{$mobilebanking->headline_2}}</p>
-					<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;color: #a02226;position: absolute;top: 230px;right: 0;">{{$mobilebanking->headline_3}}</p>
+					<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;color: #A5000B;position: absolute;top: 193px;right: 0;">{{$mobilebanking->headline_2}}</p>
+					<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;color: #A5000B;position: absolute;top: 230px;right: 0;">{{$mobilebanking->headline_3}}</p>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
 					<p></p>
@@ -60,8 +60,8 @@
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;">
 						<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 28px;">{{$mobilebanking->headline_1}}</p>
-						<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 28px;color: #a02226;">{{$mobilebanking->headline_2}}</p>
-						<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 28px;color: #a02226;">{{$mobilebanking->headline_3}}</p>
+						<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 28px;color: #A5000B;">{{$mobilebanking->headline_2}}</p>
+						<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 28px;color: #A5000B;">{{$mobilebanking->headline_3}}</p>
 					</div>
 					
 				</div>
@@ -113,7 +113,7 @@
 			<i class='bx bxs-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 			<i class='bx bxs-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ONLINE PAYMENT SERVICES&nbsp;
 			<i class='bx bxs-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-			<span style="color: #a02226;">MOBILE BANKING</span>
+			<span style="color: #A5000B;">MOBILE BANKING</span>
 		</p>
 	</div>
 </div>
@@ -124,7 +124,7 @@
 	<div class="container">
 		<div class="row d-none d-sm-block">
 			<div class="col-md-6 text-right" style="text-align: right;position: relative;">
-				<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;position: absolute;top: 156px;right: 0;color: #a02226;">Stay safe and bank</p>
+				<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;position: absolute;top: 156px;right: 0;color: #A5000B;">Stay safe and bank</p>
 				<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;position: absolute;top: 193px;right: 0;">from the comfort of your home</p>
 				<p style="font-size: 30px;font-weight: 400;margin-bottom: 0;line-height: 34px;position: absolute;top: 230px;right: 0;"></p>
 			</div>
@@ -135,7 +135,7 @@
 		<div class="row d-block d-sm-none">
 			<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 				<div style="position: absolute;top: 45px;left: 25px;">
-					<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 28px;color: #a02226;">Stay safe and bank</p>
+					<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 28px;color: #A5000B;">Stay safe and bank</p>
 					<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 28px;">from the comfort</p>
 					<p style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 28px;">of your home</p>
 				</div>
@@ -150,7 +150,7 @@
 			<i class='bx bxs-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 			<i class='bx bxs-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ONLINE PAYMENT SERVICES&nbsp;
 			<i class='bx bxs-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-			<span style="color: #a02226;">INTERNET BANKING</span>
+			<span style="color: #A5000B;">INTERNET BANKING</span>
 		</p>
 	</div>
 </div>

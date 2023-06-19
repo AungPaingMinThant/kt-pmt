@@ -60,7 +60,7 @@
 									Apply Online
 								</button>
 							</a>
-							<p>Alternately, call us at <a href="tel:+95 9 458588953" style="color: #a02226">+95 9 458588953</a>, <a href="tel:+95 9 450215345" style="color: #a02226">+95 9 450215345</a> <br>(Monday to Friday, 9 am to 5 pm). </p>
+							<p>Alternately, call us at <a href="tel:+95 9 458588953" style="color: #A5000B">+95 9 458588953</a>, <a href="tel:+95 9 450215345" style="color: #A5000B">+95 9 450215345</a> <br>(Monday to Friday, 9 am to 5 pm). </p>
 						</div>
 						<div class="col-md-6"></div>
 					</div>

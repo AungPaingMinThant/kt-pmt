@@ -8,7 +8,7 @@
 	padding: 20px 0px;
 }
 .nav-align-top .nav-tabs .tab_title.active span {
-	border-bottom: 5px solid #a02226;
+	border-bottom: 5px solid #A5000B;
 }
 .nav-pills .tab_title.active, .nav-pills .tab_title.active:hover, .nav-pills .tab_title.active:focus {
 	background-color: transparent !important;
@@ -41,7 +41,7 @@
     padding: 0px 100px !important;
 }
 .secure_req_application_icon {
-	background-color: #a02226;
+	background-color: #A5000B;
 	color: #fff;
 	border-radius: 50%;
 	font-size: 20px;

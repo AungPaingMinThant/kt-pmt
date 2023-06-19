@@ -20,7 +20,7 @@
 						<div class="space-20"></div>
 					</div>
 					<div class="col-md-6" style="padding-right: 70px;">
-						<p style="color: #a02226;font-size: 16px;font-weight: 600;">AYA to AYA Accounts</p>
+						<p style="color: #A5000B;font-size: 16px;font-weight: 600;">AYA to AYA Accounts</p>
 						<p>AYA mobile banking can take care of a range of financial needs whenever you wish. Access your account 24/7 and remit within Myanmar swiftly and conveniently.</p>
 						<p>Alternatively, you can visit to <b>nearest branch</b> along with your NRC and beneficiary information.</p>
 						<div class="space-30"></div>
@@ -41,7 +41,7 @@
 						<div class="space-20"></div>
 					</div>
 					<div class="col-md-6" style="padding-right: 70px;">
-						<p style="color: #a02226;font-size: 16px;font-weight: 600;">Interbank Transfer </p>
+						<p style="color: #A5000B;font-size: 16px;font-weight: 600;">Interbank Transfer </p>
 						<p>Interbank Transfer to any bank account can be executed quickly and easily with your AYA Personal Internet Banking/ mobile banking or through our branches.</p>
 					</div>
 				</div>

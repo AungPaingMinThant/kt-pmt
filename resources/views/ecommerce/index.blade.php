@@ -12,7 +12,7 @@
     	padding: 20px 0px;
     }
     .nav-align-top .nav-tabs .tab_title.active span {
-    	border-bottom: 5px solid #a02226;
+    	border-bottom: 5px solid #A5000B;
     }
     .nav-pills .tab_title.active, .nav-pills .tab_title.active:hover, .nav-pills .tab_title.active:focus {
     	background-color: transparent !important;
@@ -80,7 +80,7 @@
 	    padding: 0px 100px !important;
 	}
 	.secure_req_application_icon {
-		background-color: #a02226;
+		background-color: #A5000B;
 		color: #fff;
 		border-radius: 50%;
 		font-size: 20px;
@@ -271,7 +271,7 @@
 								<div class="row tab_data_row" >
 									<div class="col-md-12 benefit_feature_box" style="padding: 20px;">
 										<div class="row">
-											<p style="color: #4e4e4e;margin-top: 20px;">How to Apply: <br>Call us at Merchant Operations: <a href="tel:+959258889973" style="color: #a02226">+95) 9 25 888 9973</a>, <a href="tel:+95925888993" style="color: #a02226">+95) 9 25 888 9937</a> or <Br>Email us at <a href="mailto:mchecommerce@ayabank.com" style="color: #a02226">mchecommerce@ayabank.com</a></p>
+											<p style="color: #4e4e4e;margin-top: 20px;">How to Apply: <br>Call us at Merchant Operations: <a href="tel:+959258889973" style="color: #A5000B">+95) 9 25 888 9973</a>, <a href="tel:+95925888993" style="color: #A5000B">+95) 9 25 888 9937</a> or <Br>Email us at <a href="mailto:mchecommerce@ayabank.com" style="color: #A5000B">mchecommerce@ayabank.com</a></p>
 										</div>
 									</div>
 								</div>

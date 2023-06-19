@@ -49,19 +49,19 @@
 							<div class="container section_1">
 								<div class="row">
 									<div class="col-md-6">
-										<p style="color: #a02226;font-weight: 600;margin-bottom: 5px;">Insurable Age</p>
+										<p style="color: #A5000B;font-weight: 600;margin-bottom: 5px;">Insurable Age</p>
 										<p>30 days to 65 Years old</p>
 									</div>
 									<div class="col-md-6">
-										<p style="color: #a02226;font-weight: 600;margin-bottom: 5px;">Policy Term</p>
+										<p style="color: #A5000B;font-weight: 600;margin-bottom: 5px;">Policy Term</p>
 										<p>Whole life until age 100</p>
 									</div>
 									<div class="col-md-6">
-										<p style="color: #a02226;font-weight: 600;margin-bottom: 5px;">Minimum Annualized Premium</p>
+										<p style="color: #A5000B;font-weight: 600;margin-bottom: 5px;">Minimum Annualized Premium</p>
 										<p>Minimum MMK Four hundred thousand</p>
 									</div>
 									<div class="col-md-6">
-										<p style="color: #a02226;font-weight: 600;margin-bottom: 5px;">Premium Rate</p>
+										<p style="color: #A5000B;font-weight: 600;margin-bottom: 5px;">Premium Rate</p>
 										<p>Premium rates are calculate based on insured age and sum assured amount</p>
 									</div>
 								</div>
@@ -74,7 +74,7 @@
 									<div class="col-md-1"></div>
 									<div class="col-md-10">
 										<div class="row">
-											<p style="font-size: 20px;color: #a02226;font-weight: 600;">Protection Benefit</p>
+											<p style="font-size: 20px;color: #A5000B;font-weight: 600;">Protection Benefit</p>
 										</div>
 										<div class="row">
 											<div class="col-1">
@@ -113,7 +113,7 @@
 									<div class="col-md-1"></div>
 									<div class="col-md-10">
 										<div class="row">
-											<p style="font-size: 20px;color: #a02226;font-weight: 600;">Saving Benefit</p>
+											<p style="font-size: 20px;color: #A5000B;font-weight: 600;">Saving Benefit</p>
 										</div>
 										<div class="row">
 											<div class="col-1">
@@ -145,7 +145,7 @@
 									<div class="col-md-1"></div>
 									<div class="col-md-10">
 										<div class="row">
-											<p style="font-size: 20px;color: #a02226;font-weight: 600;">Flexibility Benefit</p>
+											<p style="font-size: 20px;color: #A5000B;font-weight: 600;">Flexibility Benefit</p>
 										</div>
 										<div class="row">
 											<div class="col-1">

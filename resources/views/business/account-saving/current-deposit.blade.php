@@ -13,7 +13,7 @@
 		color: #2e2e2e !important;		
 	}
 	.nav-pills .nav-link.active > span {
-		border-bottom: 4px solid #a02226 !important;
+		border-bottom: 4px solid #A5000B !important;
 	}
 	.scroll_content::-webkit-scrollbar{
 	    display: none;

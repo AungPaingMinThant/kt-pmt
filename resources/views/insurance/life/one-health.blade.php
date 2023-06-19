@@ -49,19 +49,19 @@
 							<div class="container section_1">
 								<div class="row">
 									<div class="col-md-6">
-										<p style="color: #a02226;font-weight: 600;margin-bottom: 5px;">Insurable Age</p>
+										<p style="color: #A5000B;font-weight: 600;margin-bottom: 5px;">Insurable Age</p>
 										<p>30 days to 60 Years old (Coverage up to 80 years old)</p>
 									</div>
 									<div class="col-md-6">
-										<p style="color: #a02226;font-weight: 600;margin-bottom: 5px;">Policy Term</p>
+										<p style="color: #A5000B;font-weight: 600;margin-bottom: 5px;">Policy Term</p>
 										<p>One Year (Guaranteed Renewal 2 Years)</p>
 									</div>
 									<div class="col-md-6">
-										<p style="color: #a02226;font-weight: 600;margin-bottom: 5px;">Coverage Limits</p>
+										<p style="color: #A5000B;font-weight: 600;margin-bottom: 5px;">Coverage Limits</p>
 										<p>Ranging from MMK 3.75 million to 120 million annually</p>
 									</div>
 									<div class="col-md-6">
-										<p style="color: #a02226;font-weight: 600;margin-bottom: 5px;">Premium Rate</p>
+										<p style="color: #A5000B;font-weight: 600;margin-bottom: 5px;">Premium Rate</p>
 										<p>Premium rates are calculated based on insured age and purchased plan.</p>
 									</div>
 								</div>

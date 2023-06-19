@@ -69,7 +69,7 @@
     left: 1.5%;
     margin-left: -25px;
     background-color: #fff;
-    border: 2px solid #a02226;
+    border: 2px solid #A5000B;
     z-index: 100;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
@@ -79,7 +79,7 @@
 }
 
 .timeline > li > .timeline-badge.active {
-	background-color: #a02226;
+	background-color: #A5000B;
 	color: #fff;
 }
 

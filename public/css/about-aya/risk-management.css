@@ -17,7 +17,7 @@
 	color: #2e2e2e !important;
 }
 .side_active {
-	border-left: 5px solid #a02226;
+	border-left: 5px solid #A5000B;
 	padding: 5px 10px 5px 35px !important;
 }
 .risk_bullet {
@@ -27,7 +27,7 @@
 	list-style: none;
 }
 .risk_bullet:before {
-  	color:#a02226;
+  	color:#A5000B;
   	content:"\25AA";
   	font-size:1.5em;
   	padding-right:.25em;
@@ -115,8 +115,8 @@
 	margin-right: 10px;
 }
 .accordion-close {
-	border: 2px solid #a02226;
-	background-color: #a02226;
+	border: 2px solid #A5000B;
+	background-color: #A5000B;
     color: #fff;
     padding: 5px;
     margin-right: 10px;

@@ -8,7 +8,7 @@
 	}
 	#tnc_data {
 		text-decoration: underline;
-		color: #a02226;
+		color: #A5000B;
 		cursor: pointer;
 	}
 	.submit_btn {
@@ -22,11 +22,11 @@
 		width: 100%;
 	}
 	.invalid-input-group {
-		border-color: #a02226 !important;
+		border-color: #A5000B !important;
     	box-shadow: 0 0 0.25rem 0.05rem rgb(160 34 35 / 10%) !important;
 	}
 	.invalid-input {
-		border-color: #a02226 !important;
+		border-color: #A5000B !important;
 	}
 </style>
 @section('content')

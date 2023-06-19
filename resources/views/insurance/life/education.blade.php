@@ -49,19 +49,19 @@
 							<div class="container section_1">
 								<div class="row">
 									<div class="col-md-6">
-										<p style="color: #a02226;font-weight: 600;margin-bottom: 5px;">Insurable Age</p>
+										<p style="color: #A5000B;font-weight: 600;margin-bottom: 5px;">Insurable Age</p>
 										<p>18 Years to 56 Years old</p>
 									</div>
 									<div class="col-md-6">
-										<p style="color: #a02226;font-weight: 600;margin-bottom: 5px;">Premium Payment Term</p>
+										<p style="color: #A5000B;font-weight: 600;margin-bottom: 5px;">Premium Payment Term</p>
 										<p>5 years, 7 years or 10 years</p>
 									</div>
 									<div class="col-md-6">
-										<p style="color: #a02226;font-weight: 600;margin-bottom: 5px;">Sum Assured</p>
+										<p style="color: #A5000B;font-weight: 600;margin-bottom: 5px;">Sum Assured</p>
 										<p>Starting from MMK 5 million</p>
 									</div>
 									<div class="col-md-6">
-										<p style="color: #a02226;font-weight: 600;margin-bottom: 5px;">Premium Rate</p>
+										<p style="color: #A5000B;font-weight: 600;margin-bottom: 5px;">Premium Rate</p>
 										<p>Premium rates are calculated based on insured age, policy terms and sum assured with option of basic or double benefit</p>
 									</div>
 								</div>

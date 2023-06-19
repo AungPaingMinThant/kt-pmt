@@ -49,10 +49,10 @@
                 color: #222222 !important;
             }
             .menu > .nav-item:hover {
-                color: #a02226 !important;
+                color: #A5000B !important;
             }
             .menu > .nav-item.active > a {
-                color: #a02226 !important;
+                color: #A5000B !important;
             }
             .why_use_AYA{
                 background-color: #fff;
@@ -108,7 +108,7 @@
                 height: 100px;
             }
             .secure_req_application_icon {
-                background-color: #a02226;
+                background-color: #A5000B;
                 color: #fff;
                 border-radius: 50%;
                 font-size: 20px;

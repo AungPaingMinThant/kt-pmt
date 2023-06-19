@@ -12,7 +12,7 @@
     	padding: 20px 0px;
     }
     .nav-align-top .nav-tabs .tab_title.active span {
-    	border-bottom: 5px solid #a02226;
+    	border-bottom: 5px solid #A5000B;
     }
     .nav-pills .tab_title.active, .nav-pills .tab_title.active:hover, .nav-pills .tab_title.active:focus {
     	background-color: transparent !important;

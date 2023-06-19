@@ -55,8 +55,8 @@
     border-radius: 50%;
 }
 .carousel-indicators [data-bs-target].active {
-	boder: 1px solid #a02226 !important;
-	background-color: #a02226 !important;
+	boder: 1px solid #A5000B !important;
+	background-color: #A5000B !important;
 }
 .carousel-caption {
     right: 0;
@@ -115,7 +115,7 @@
 	font-size: 60px;
 	line-height: 50px;
 	font-weight: 500;
-	color: #a02226;
+	color: #A5000B;
 }
 .carousel-caption-desc {
 	color: #000 !important;
@@ -173,14 +173,14 @@
 	margin-bottom: 15px;
 }
 .app_desc {
-	color: #a02225;
+	color: #A5000B;
     font-size: 22px;
     line-height: 28px;
     margin-bottom: 20px;
     padding-right: 130px !important;
 }
 .ayapay_app_desc {
-	color: #a02225;
+	color: #A5000B;
     font-size: 22px;
     line-height: 28px;
     margin-bottom: 20px;
@@ -227,7 +227,7 @@
 	height: 520px;
 }
 .input-group-text {
-	color: #a02225 !important;
+	color: #A5000B !important;
 	font-size: 18px !important;
 	background-color: transparent !important;
     border: none !important;
@@ -260,7 +260,7 @@
 	font-size: 13px;
 }
 .insights_sub_title {
-	color: #a02226;
+	color: #A5000B;
 	font-weight: 900;
 	font-size: 22px;
 }
@@ -306,7 +306,7 @@
     margin-left: 0px !important;
 }
 .view_all_news {
-	background-color: #a02226;
+	background-color: #A5000B;
 	width: 100%;
 	margin-left: 0px !important;
 	padding: 0;
@@ -685,7 +685,7 @@
 	    margin-bottom: 5px;
 	}
 	.app_desc {
-	    color: #a02225;
+	    color: #A5000B;
 	    font-size: 17px;
 	    line-height: 23px;
 	    margin-bottom: 15px;

@@ -140,7 +140,7 @@
 		}
 		.card_block_termination {
 			background-position: center;
-			border: 2px solid #a02225;
+			border: 2px solid #A5000B;
 		}
 		.outer_benefit_box {
 			margin-top: 0px;

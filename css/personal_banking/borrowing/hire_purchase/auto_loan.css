@@ -6,7 +6,7 @@
 	font-size: 16px;
 }
 .nav-item-separate {
-	border-bottom: 4px solid #a02226;
+	border-bottom: 4px solid #A5000B;
 	width: 60% !important;
 	margin-top: 5px;
 	display: none;
@@ -150,7 +150,7 @@
 	padding: 20px 0px;
 }
 .auto_loan_nav .nav-align-top .nav-tabs .tab_title.active span {
-	border-bottom: 5px solid #a02226;
+	border-bottom: 5px solid #A5000B;
 }
 .auto_loan_nav.nav-pills .tab_title {
 	padding: 10px 15px 7px 15px !important;

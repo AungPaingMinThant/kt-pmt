@@ -124,7 +124,7 @@
 									<div class="col-md-6">
 										<div class="row">
 											<div class="col-md-12">
-												<p style="font-size: 20px;color: #a02226;font-weight: 600;">Additional Coverage</p>
+												<p style="font-size: 20px;color: #A5000B;font-weight: 600;">Additional Coverage</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
@@ -166,7 +166,7 @@
 									<div class="col-md-6">
 										<div class="row">
 											<div class="col-md-12">
-												<p style="font-size: 20px;color: #a02226;font-weight: 600;">&nbsp;</p>
+												<p style="font-size: 20px;color: #A5000B;font-weight: 600;">&nbsp;</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>

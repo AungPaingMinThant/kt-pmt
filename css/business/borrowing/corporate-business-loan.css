@@ -9,7 +9,7 @@
 	font-size: 14px !important;
 }
 .nav-item-separate {
-	border-bottom: 4px solid #a02226;
+	border-bottom: 4px solid #A5000B;
 	width: 80%;
 	margin-top: 5px;
 	display: none;
@@ -17,7 +17,7 @@
 .nav-pills .nav-link.active {
 	border-radius: 0;
 	padding-bottom: 0px !important;
-	color: #ae071d !important;
+	color: #A5000B !important;
 }
 
 .nav-pills .nav-link.active .nav-item-separate {

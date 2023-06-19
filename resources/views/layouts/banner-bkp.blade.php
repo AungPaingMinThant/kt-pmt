@@ -7,7 +7,7 @@
 				<div class="mb_tag">
 					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 						<div class="tag_line_div">
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Banking within the <span style="color: #a02226;">palm of your hand</span></h1>
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Banking within the <span style="color: #A5000B;">palm of your hand</span></h1>
 						</div>
 					</div>
 					<div class="col-md-6" style="text-align: right;">
@@ -17,7 +17,7 @@
 				<div class="mb_tag_mid">
 					<div class="col-md-8 text-right" style="text-align: right;position: relative;">
 						<div class="tag_line_div">
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Banking within the <span style="color: #a02226;">palm of your hand</span></h1>
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Banking within the <span style="color: #A5000B;">palm of your hand</span></h1>
 						</div>
 					</div>
 					<div class="col-md-5" style="text-align: right;">
@@ -29,7 +29,7 @@
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;">
 						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;">Banking within the</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;color: #a02226;"><span style="color: #a02226;">palm of your hand</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;color: #A5000B;"><span style="color: #A5000B;">palm of your hand</span></h1>
 					</div>
 					
 				</div>
@@ -43,7 +43,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ONLINE PAYMENT SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">MOBILE BANKING</span>
+				<span style="color: #A5000B;">MOBILE BANKING</span>
 			</p>
 		</div>
 	</div>
@@ -55,7 +55,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 					<div class="tag_line_div">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Banking with AYA is <span style="color: #a02226;">easier</span> than <span style="color: #a02226;">"ABC..."</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Banking with AYA is <span style="color: #A5000B;">easier</span> than <span style="color: #A5000B;">"ABC..."</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -65,7 +65,7 @@
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;">
 						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;">Banking with AYA is</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;"><span style="color: #a02226;">easier</span> than <span style="color: #a02226;">"ABC..."</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;"><span style="color: #A5000B;">easier</span> than <span style="color: #A5000B;">"ABC..."</span></h1>
 					</div>
 				</div>
 			</div>
@@ -78,7 +78,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ONLINE PAYMENT SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">INTERNET BANKING</span>
+				<span style="color: #A5000B;">INTERNET BANKING</span>
 			</p>
 		</div>
 	</div>
@@ -99,7 +99,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;">Nothing can be more simpler than <span style="color: #a02226;">a cashless payment</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;">Nothing can be more simpler than <span style="color: #A5000B;">a cashless payment</span></h1>
 					</div>
 				</div>
 			</div>
@@ -112,7 +112,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">DEBIT CARD</span>
+				<span style="color: #A5000B;">DEBIT CARD</span>
 			</p>
 		</div>
 	</div>
@@ -124,7 +124,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 					<div class="credit_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Define your life style with <span style="color: #a02226;">AYA Credit Cards</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Define your life style with <span style="color: #A5000B;">AYA Credit Cards</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -134,7 +134,7 @@
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;">
 						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;">Define your life style with</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;"><span style="color: #a02226;">AYA Credit Cards</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;"><span style="color: #A5000B;">AYA Credit Cards</span></h1>
 						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;"></h1>
 					</div>
 				</div>
@@ -148,7 +148,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">CREDIT CARD</span>
+				<span style="color: #A5000B;">CREDIT CARD</span>
 			</p>
 		</div>
 	</div>
@@ -161,7 +161,7 @@
 				<div class="ecommerce_banner_tag">
 					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 						<div style="position: absolute;top: 150px;right: 0;">
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Register <span style="color: #a02226;">E-commerce Business</span> with Us</h1>
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Register <span style="color: #A5000B;">E-commerce Business</span> with Us</h1>
 						</div>
 					</div>
 					<div class="col-md-6" style="text-align: right;">
@@ -170,7 +170,7 @@
 				<div class="ecommerce_banner_tag_mid">
 					<div class="col-md-8 text-right" style="text-align: right;position: relative;">
 						<div style="position: absolute;top: 150px;right: 0;">
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Register <span style="color: #a02226;">E-commerce Business</span> with Us</h1>
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Register <span style="color: #A5000B;">E-commerce Business</span> with Us</h1>
 						</div>
 					</div>
 					<div class="col-md-4" style="text-align: right;">
@@ -180,7 +180,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;">Register <span style="color: #a02226;">E-commerce Business</span><br>with Us</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;">Register <span style="color: #A5000B;">E-commerce Business</span><br>with Us</h1>
 					</div>
 				</div>
 			</div>
@@ -194,7 +194,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;MERCHANT SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">E COMMERCE</span>
+				<span style="color: #A5000B;">E COMMERCE</span>
 			</p>
 		</div>
 	</div>
@@ -206,7 +206,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 					<div class="smsalert_banner_tagline">
-						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;"><span style="color: #a02226;">In touch</span> with your bank account and <span style="color: #a02226;">transactions 24/7</span></h1>
+						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;"><span style="color: #A5000B;">In touch</span> with your bank account and <span style="color: #A5000B;">transactions 24/7</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -215,7 +215,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;"><span style="color: #a02226;">Make your priorities</span> with AYA Credit Cards. A Step that changes your <span style="color: #a02226;">lifestyle.</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;"><span style="color: #A5000B;">Make your priorities</span> with AYA Credit Cards. A Step that changes your <span style="color: #A5000B;">lifestyle.</span></h1>
 					</div>
 				</div>
 			</div>
@@ -229,7 +229,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;GUIDLINES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;SECURITY ADVICE FOR DIGITAL SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">SMS ALERT</span>
+				<span style="color: #A5000B;">SMS ALERT</span>
 			</p>
 		</div>
 	</div>
@@ -242,7 +242,7 @@
 				<div>
 					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 						<div class="prepaid_banner_tagline">
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Pick AYA World Travel Card, <span style="color: #a02226;">explore the world and make life more fun!</span></h1>
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Pick AYA World Travel Card, <span style="color: #A5000B;">explore the world and make life more fun!</span></h1>
 						</div>
 					</div>
 					<div class="col-md-6" style="text-align: right;">
@@ -252,8 +252,8 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;">Pick AYA World Travel Card,<br><span style="color: #a02226;">explore the world and make life more fun!</span></h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;color: #a02226;"></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;">Pick AYA World Travel Card,<br><span style="color: #A5000B;">explore the world and make life more fun!</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;color: #A5000B;"></h1>
 					</div>
 				</div>
 			</div>
@@ -266,7 +266,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">PREPAID CARD</span>
+				<span style="color: #A5000B;">PREPAID CARD</span>
 			</p>
 		</div>
 	</div>
@@ -278,7 +278,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 					<div style="position: absolute;top: 156px;right: 75px;">
-						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;"><span style="color: #a02226;">Buy big,</span> pay by bits</h1>
+						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;"><span style="color: #A5000B;">Buy big,</span> pay by bits</h1>
 						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;"></h1>
 						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">
 							
@@ -292,8 +292,8 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;">
-						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;"><span style="color: #a02226;">Buy big, </span>pay by bits</h1>
-						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;color: #a02226;"></h1>
+						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;"><span style="color: #A5000B;">Buy big, </span>pay by bits</h1>
+						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;color: #A5000B;"></h1>
 						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;"></h1>
 					</div>
 				</div>
@@ -307,7 +307,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">SIMPLE PAY</span>
+				<span style="color: #A5000B;">SIMPLE PAY</span>
 			</p>
 		</div>
 	</div>
@@ -320,7 +320,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">RESET PIN</span>
+				<span style="color: #A5000B;">RESET PIN</span>
 			</h1>
 		</div>
 	</div>
@@ -332,7 +332,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-right" style="text-align: left;position: relative;">
 					<div class="cib_banner_tagline">
-						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">Your business's financial transactions <span style="color: #a02226;">at your fingertips</span></h1>
+						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">Your business's financial transactions <span style="color: #A5000B;">at your fingertips</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -342,7 +342,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 20px;right: 55px;">
-						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;">Your business's financial transactions <span style="color: #a02226;">at your fingertips</span></h1>
+						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;">Your business's financial transactions <span style="color: #A5000B;">at your fingertips</span></h1>
 					</div>
 				</div>
 			</div>
@@ -354,7 +354,7 @@
 			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">CORPORATE INTERNET BANKING</span>
+				<span style="color: #A5000B;">CORPORATE INTERNET BANKING</span>
 			</p>
 		</div>
 	</div>
@@ -367,7 +367,7 @@
 				<div class="digital_secure_tag">
 					<div class="col-md-6 text-right" style="text-align: left;position: relative;">
 						<div style="position: absolute;top: 156px;right: 130px;">
-							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">Digital security, <span style="color: #a02226;">our utmost priority</span></h1>
+							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">Digital security, <span style="color: #A5000B;">our utmost priority</span></h1>
 						</div>
 					</div>
 					<div class="col-md-6" style="text-align: right;">
@@ -376,7 +376,7 @@
 				<div class="digital_secure_tag_mid">
 					<div class="col-md-8 text-right" style="text-align: left;position: relative;">
 						<div style="position: absolute;top: 156px;right: 130px;">
-							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">Digital security, <span style="color: #a02226;">our utmost priority</span></h1>
+							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">Digital security, <span style="color: #A5000B;">our utmost priority</span></h1>
 						</div>
 					</div>
 					<div class="col-md-4" style="text-align: right;">
@@ -387,7 +387,7 @@
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;right: 55px;">
 						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;">Digital security,</h1>
-						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;"><span style="color: #a02226;">our utmost priority</span></h1>
+						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;"><span style="color: #A5000B;">our utmost priority</span></h1>
 					</div>
 				</div>
 			</div>
@@ -400,7 +400,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;GUIDELINES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">SECURITY ADVICE FOR DIGITAL SERVICES</span>
+				<span style="color: #A5000B;">SECURITY ADVICE FOR DIGITAL SERVICES</span>
 			</p>
 		</div>
 	</div>
@@ -414,7 +414,7 @@
 					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 						<div style="position: absolute;top: 156px;right: 130px;">
 							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">Frequently Used </h1>
-							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;"><span style="color: #a02226;">Digital Services</span> in Daily life</h1>
+							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;"><span style="color: #A5000B;">Digital Services</span> in Daily life</h1>
 						</div>
 					</div>
 					<div class="col-md-6" style="text-align: right;">
@@ -424,7 +424,7 @@
 					<div class="col-md-7 text-right" style="text-align: right;position: relative;">
 						<div style="position: absolute;top: 156px;right: 130px;">
 							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">Frequently Used </h1>
-							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;"><span style="color: #a02226;">Digital Services</span> in Daily life</h1>
+							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;"><span style="color: #A5000B;">Digital Services</span> in Daily life</h1>
 						</div>
 					</div>
 					<div class="col-md-5" style="text-align: right;">
@@ -434,7 +434,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;right: 55px;">
-						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;">Frequently Used <span style="color: #a02226;">Digital Services</span></h1>
+						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;">Frequently Used <span style="color: #A5000B;">Digital Services</span></h1>
 						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;">in Daily life</h1>
 					</div>
 				</div>
@@ -448,7 +448,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;GUIDELINES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">FREQUENTLY USED DIGITAL SERVICES IN DAILY LIFE</span>
+				<span style="color: #A5000B;">FREQUENTLY USED DIGITAL SERVICES IN DAILY LIFE</span>
 			</p>
 		</div>
 	</div>
@@ -461,7 +461,7 @@
 				<div class="">
 					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 						<div class="pos_tagline">
-							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;"><span style="color: #a02226;">Hassel free</span> transactions for your <span style="color: #a02226;">Business</span></h1>
+							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;"><span style="color: #A5000B;">Hassel free</span> transactions for your <span style="color: #A5000B;">Business</span></h1>
 						</div>
 					</div>
 					<div class="col-md-6" style="text-align: right;">
@@ -471,8 +471,8 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 25px;left: 25px;right: 55px;">
-						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;"><span style="color: #a02226;">Hassel free</span> transactions</h1>
-						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;">for your <span style="color: #a02226;">Business</span></h1>
+						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;"><span style="color: #A5000B;">Hassel free</span> transactions</h1>
+						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;">for your <span style="color: #A5000B;">Business</span></h1>
 					</div>
 				</div>
 			</div>
@@ -486,7 +486,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CARD SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;MERCHANT SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">POS</span>
+				<span style="color: #A5000B;">POS</span>
 			</p>
 		</div>
 	</div>
@@ -500,7 +500,7 @@
 					<div class="col-md-12 text-left" style="position: relative;">
 						<div style="position: absolute;top: 100px;right: 130px;left: 30px;">
 							<h1 class="f-white fw-bold" style="font-family: 'W35Art House'; font-size: 50px;margin-bottom: 0;line-height: 32px;">e u</h1>
-							<!-- <h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;color: #a02226;">Make Your Transactions Easy with AYA Pay</h1> -->
+							<!-- <h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;color: #A5000B;">Make Your Transactions Easy with AYA Pay</h1> -->
 						</div>
 					</div>
 					<div class="col-md-6" style="text-align: right;"></div>
@@ -509,7 +509,7 @@
 					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 						<div style="position: absolute;top: 170px;right: 130px;">
 							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">Make Your Transactions</h1>
-							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;color: #a02226;">Easy with AYA Pay</h1>
+							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;color: #A5000B;">Easy with AYA Pay</h1>
 						</div>
 					</div>
 					<div class="col-md-6" style="text-align: right;"></div>
@@ -519,7 +519,7 @@
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;right: 55px;">
 						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;">Make Your Transactions</h1>
-						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;color: #a02226;">Easy with AYA Pay</h1>
+						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;color: #A5000B;">Easy with AYA Pay</h1>
 					</div>
 				</div>
 			</div>
@@ -532,7 +532,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;WALLET SOLUTION&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">AYA PAY</span>
+				<span style="color: #A5000B;">AYA PAY</span>
 			</p>
 		</div>
 	</div>
@@ -545,7 +545,7 @@
 				<div class="ayapay_tag">
 					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 						<div style="position: absolute;top: 200px;right: 130px;">
-							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;color: #a02226;">Your 24/7 Teller</h1>
+							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;color: #A5000B;">Your 24/7 Teller</h1>
 						</div>
 					</div>
 					<div class="col-md-6" style="text-align: right;"></div>
@@ -553,7 +553,7 @@
 				<div class="ayapay_tag_mid">
 					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 						<div style="position: absolute;top: 200px;right: 130px;">
-							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;color: #a02226;">Your 24/7 Teller</h1>
+							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;color: #A5000B;">Your 24/7 Teller</h1>
 						</div>
 					</div>
 					<div class="col-md-6" style="text-align: right;"></div>
@@ -562,7 +562,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;right: 55px;">
-						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;color: #a02226;">Your 24/7 Teller</h1>
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;color: #A5000B;">Your 24/7 Teller</h1>
 					</div>
 				</div>
 			</div>
@@ -574,7 +574,7 @@
 			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;DIGITAL SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">ATM</span>
+				<span style="color: #A5000B;">ATM</span>
 			</p>
 		</div>
 	</div>
@@ -587,7 +587,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">HEALTH INSURANCE</span>
+				<span style="color: #A5000B;">HEALTH INSURANCE</span>
 			</p>
 		</div>
 	</div>
@@ -600,7 +600,7 @@
 					</div>
 					<div class="col-md-6 tagline_div">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Health<br>Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 20%;margin: 0px 0px 20px 0px;">
 						<h1 class="tagline_desc" style="font-weight: 400;font-size: 15px;">
 							Health is wealth.
 						</h1>
@@ -620,7 +620,7 @@
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
 						<h1 style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Health Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 45%;margin: 0px 0px 20px 0px;">
 						<h1 style="font-size: 15px;font-weight: 400;">
 							Health is wealth.
 						</h1>
@@ -644,7 +644,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">MOTOR INSURANCE</span>
+				<span style="color: #A5000B;">MOTOR INSURANCE</span>
 			</p>
 		</div>
 	</div>
@@ -657,7 +657,7 @@
 					</div>
 					<div class="col-md-6 tagline_div">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Motor<br>Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 20%;margin: 0px 0px 20px 0px;">
 						<h1 style="font-size: 15px;font-weight: 400;">
 							Uncertainties are nature of our life and even the road trips can be stressful for you.
 						</h1>
@@ -674,7 +674,7 @@
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Motor Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 45%;margin: 0px 0px 20px 0px;">
 						<h1 style="font-size: 15px;font-weight: 400;">
 							Uncertainties are nature of our life and even the road trips can be stressful for you.
 						</h1>
@@ -695,7 +695,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">FIRE INSURANCE</span>
+				<span style="color: #A5000B;">FIRE INSURANCE</span>
 			</p>
 		</div>
 	</div>
@@ -708,7 +708,7 @@
 					</div>
 					<div class="col-md-6 tagline_div" >
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Fire<br>Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 20%;margin: 0px 0px 20px 0px;">
 						<h1 style="font-size: 15px;font-weight: 400;">
 							Shield your property and business investments from financial losses arising from damage ranging from fire, explosions, and natural disasters.
 						</h1>
@@ -725,7 +725,7 @@
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Fire Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 45%;margin: 0px 0px 20px 0px;">
 						<h1 style="font-size: 15px;font-weight: 400;">
 							Shield your property and business investments from financial losses arising from damage ranging from fire, explosions, and natural disasters.
 						</h1>
@@ -746,7 +746,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">PERSONAL ACCIDENT INSURANCE</span>
+				<span style="color: #A5000B;">PERSONAL ACCIDENT INSURANCE</span>
 			</p>
 		</div>
 	</div>
@@ -759,7 +759,7 @@
 					</div>
 					<div class="col-md-6 tagline_div">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Personal Accident<br>Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 20%;margin: 0px 0px 20px 0px;">
 						<h1 class="tagline_desc" style="font-weight: 400;font-size: 15px;">
 							Accidents happen when least expected and at times turn into dramatically life changing events. What’s worse is the financial burden that comes with it.
 						</h1>
@@ -776,7 +776,7 @@
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
 						<h1 style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Personal Accident Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 45%;margin: 0px 0px 20px 0px;">
 						<h1 style="font-size: 15px;font-weight: 400;">
 							Accidents happen when least expected and at times turn into dramatically life changing events. What’s worse is the financial burden that comes with it.
 						</h1>
@@ -798,7 +798,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;TRAVEL INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">AYA GO TRAVEL INSURANCE</span>
+				<span style="color: #A5000B;">AYA GO TRAVEL INSURANCE</span>
 			</p>
 		</div>
 	</div>
@@ -811,7 +811,7 @@
 					</div>
 					<div class="col-md-6 tagline_div">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">AYA Go<br>Travel Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 20%;margin: 0px 0px 20px 0px;">
 						<h1 class="tagline_desc" style="font-weight: 400;font-size: 15px;">
 							Are you planning for a business travel or a personal trip around Myanmar?
 						</h1>
@@ -828,7 +828,7 @@
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
 						<h1 style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">AYA Go Travel Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 45%;margin: 0px 0px 20px 0px;">
 						<h1 style="font-size: 15px;font-weight: 400;">
 							Are you planning for a business travel or a personal trip around Myanmar?
 						</h1>
@@ -850,7 +850,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;TRAVEL INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">AYA JOY TRAVEL INSURANCE</span>
+				<span style="color: #A5000B;">AYA JOY TRAVEL INSURANCE</span>
 			</p>
 		</div>
 	</div>
@@ -863,7 +863,7 @@
 					</div>
 					<div class="col-md-6 tagline_div">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">AYA Joy<br>Travel Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 20%;margin: 0px 0px 20px 0px;">
 						<h1 class="tagline_desc" style="font-weight: 400;font-size: 15px;">
 							Planning on a destination trip or quick getaway?
 						</h1>
@@ -880,7 +880,7 @@
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
 						<h1 style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">AYA Joy Travel Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 45%;margin: 0px 0px 20px 0px;">
 						<h1 style="font-size: 15px;font-weight: 400;">
 							Planning on a destination trip or quick getaway?
 						</h1>
@@ -902,7 +902,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;LIFE INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">UNIVERSAL LIFE INSURANCE</span>
+				<span style="color: #A5000B;">UNIVERSAL LIFE INSURANCE</span>
 			</p>
 		</div>
 	</div>
@@ -915,7 +915,7 @@
 					</div>
 					<div class="col-md-6 life_tagline_div">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Universal<br>Life Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 20%;margin: 0px 0px 20px 0px;">
 						<h1 class="tagline_desc" style="font-weight: 400;font-size: 15px;">
 							Have you ever asked yourself – if you are well prepared financially for any emergency in life?
 						</h1>
@@ -935,7 +935,7 @@
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
 						<h1 style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Universal Life Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 45%;margin: 0px 0px 20px 0px;">
 						<h1 style="font-size: 15px;font-weight: 400;">
 							Have you ever asked yourself – if you are well prepared financially for any emergency in life?
 						</h1>
@@ -960,7 +960,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;LIFE INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">SHORT TERM ENDOWMENT LIFE INSURANCE</span>
+				<span style="color: #A5000B;">SHORT TERM ENDOWMENT LIFE INSURANCE</span>
 			</p>
 		</div>
 	</div>
@@ -973,7 +973,7 @@
 					</div>
 					<div class="col-md-6 life_tagline_div">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Short-Term Endowment<br>Life Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 15%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 15%;margin: 0px 0px 20px 0px;">
 						<h1 class="tagline_desc" style="font-weight: 400;font-size: 15px;">
 							It’s always the best idea to increase your financial security. Having a life insurance policy ensures financial stability in case of any uncertainty in the near future.
 						</h1>
@@ -990,7 +990,7 @@
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
 						<h1 style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Short-Term Endowment Life Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 45%;margin: 0px 0px 20px 0px;">
 						<h1 style="font-size: 15px;font-weight: 400;">
 							It’s always the best idea to increase your financial security. Having a life insurance policy ensures financial stability in case of any uncertainty in the near future.
 						</h1>
@@ -1012,7 +1012,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;LIFE INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">EDUCATION LIFE INSURANCE</span>
+				<span style="color: #A5000B;">EDUCATION LIFE INSURANCE</span>
 			</p>
 		</div>
 	</div>
@@ -1025,7 +1025,7 @@
 					</div>
 					<div class="col-md-6 life_tagline_div">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Education<br>Life Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 15%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 15%;margin: 0px 0px 20px 0px;">
 						<h1 class="tagline_desc" style="font-weight: 400;font-size: 15px;">
 							We are creating a community of learners. Our Education Life Insurance is designed to help parents save and ensure that their children could continue their education no matter what the future holds.
 						</h1>
@@ -1042,7 +1042,7 @@
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
 						<h1 style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Education Life Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 45%;margin: 0px 0px 20px 0px;">
 						<h1 style="font-size: 15px;font-weight: 400;">
 							We are creating a community of learners. Our Education Life Insurance is designed to help parents save and ensure that their children could continue their education no matter what the future holds.
 						</h1>
@@ -1064,7 +1064,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;LIFE INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">ONE HEALTH SOLUTION INDIVIDUAL PLAN</span>
+				<span style="color: #A5000B;">ONE HEALTH SOLUTION INDIVIDUAL PLAN</span>
 			</p>
 		</div>
 	</div>
@@ -1077,7 +1077,7 @@
 					</div>
 					<div class="col-md-6 one_health_tagline_div">
 						<h1 class="one_health_tag_title">One Health Solution<br>Individual Plan</h1>
-						<hr style="height: 5px;color: #a02226;width: 15%;margin: 0px 0px 10px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 15%;margin: 0px 0px 10px 0px;">
 						<h1 class="one_health_tagline_desc" style="margin-bottom: 0px;">
 							With the constant escalating costs of healthcare and the ever-rising instances of new diseases in the world, medical insurance becomes a basic need today. The fallout from a medical emergency or unforeseen expense could extend beyond your immediate finances to loss of income.
 						</h1>
@@ -1094,7 +1094,7 @@
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
 						<h1 style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">One Health Solution Individual Plan</h1>
-						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 45%;margin: 0px 0px 20px 0px;">
 						<h1 style="font-size: 15px;font-weight: 400;">
 							With the constant escalating costs of healthcare and the ever-rising instances of new diseases in the world, medical insurance becomes a basic need today. The fallout from a medical emergency or unforeseen expense could extend beyond your immediate finances to loss of income.
 						</h1>
@@ -1114,7 +1114,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-5 text-left" style="text-align: left;position: relative;">
 					<div class="call_deposit_banner_tagline">
-						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">A short-term investment that can facilitate <span style="color: #a02226;">flexible cash management</span></h1>
+						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">A short-term investment that can facilitate <span style="color: #A5000B;">flexible cash management</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1123,7 +1123,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;">
-						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">A short-term investment that can facilitate <span style="color: #a02226;">flexible cash management</span></h1>
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">A short-term investment that can facilitate <span style="color: #A5000B;">flexible cash management</span></h1>
 					</div>
 				</div>
 			</div>
@@ -1136,7 +1136,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">CALL DEPOSIT</span>
+				<span style="color: #A5000B;">CALL DEPOSIT</span>
 			</p>
 		</div>
 	</div>
@@ -1150,7 +1150,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/call-deposit') }}" style="color: #666;">CALL DEPOSIT</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">PREMIUM CALL DEPOSIT</span>
+				<span style="color: #A5000B;">PREMIUM CALL DEPOSIT</span>
 			</p>
 		</div>
 	</div>
@@ -1159,7 +1159,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="premium_calldeposit_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #a02226;">Premium Call Deposit</span><br><span>A simple deposit option to manage funds</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #A5000B;">Premium Call Deposit</span><br><span>A simple deposit option to manage funds</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1168,7 +1168,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 15px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 18px;line-height: 28px;">Premium Call Deposit</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;color: #A5000B;font-size: 18px;line-height: 28px;">Premium Call Deposit</h1>
 						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 18px;line-height: 28px;">A simple deposit option to manage funds</h1>
 					</div>
 				</div>
@@ -1185,7 +1185,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/call-deposit') }}" style="color: #666;">CALL DEPOSIT</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">NEW BUSINESS CALL</span>
+				<span style="color: #A5000B;">NEW BUSINESS CALL</span>
 			</p>
 		</div>
 	</div>
@@ -1194,7 +1194,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-5 text-left" style="text-align: left;position: relative;">
 					<div class="new_business_call_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #a02226;">New Business Call</span><br><span>Convenient way to save and invest your cash</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #A5000B;">New Business Call</span><br><span>Convenient way to save and invest your cash</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1204,7 +1204,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 15px;right: 100px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;color: #a02226;font-size: 18px;">New Business Call</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;color: #A5000B;font-size: 18px;">New Business Call</h1>
 						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;font-size: 18px;">Convenient way to save and invest your cash</h1>
 					</div>
 				</div>
@@ -1219,7 +1219,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="call_deposit_banner_tagline">
-						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;"><span style="color: #a02226;">Make your everyday</span> banking<br><span style="color: #a02226;">easy and access</span> funds anytime</h1>
+						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;"><span style="color: #A5000B;">Make your everyday</span> banking<br><span style="color: #A5000B;">easy and access</span> funds anytime</h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1228,7 +1228,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 110px;">
-						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 28px;"><span style="color: #a02226;">Make your everyday</span> banking<br><span style="color: #a02226;">easy and access</span> funds anytime</h1>
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 28px;"><span style="color: #A5000B;">Make your everyday</span> banking<br><span style="color: #A5000B;">easy and access</span> funds anytime</h1>
 					</div>
 				</div>
 			</div>
@@ -1241,7 +1241,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">CURRENT DEPOSIT</span>
+				<span style="color: #A5000B;">CURRENT DEPOSIT</span>
 			</p>
 		</div>
 	</div>
@@ -1255,7 +1255,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/current-deposit') }}" style="color: #666;">CURRENT DEPOSIT</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">REGUALR CURRENT ACCOUNT</span>
+				<span style="color: #A5000B;">REGUALR CURRENT ACCOUNT</span>
 			</p>
 		</div>
 	</div>
@@ -1264,7 +1264,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-7 text-left" style="text-align: left;position: relative;">
 					<div class="regular_curr_acc_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 26px;line-height: 30px;">Regular Current Account</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;color: #A5000B;font-size: 26px;line-height: 30px;">Regular Current Account</h1>
 						<h1 style="font-weight: 400;margin-bottom: 0;width: 70%;font-size: 26px;line-height: 30px;">Are you looking for an everyday account?</h1>
 					</div>
 				</div>
@@ -1274,7 +1274,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 15px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 18px;line-height: 28px;color: #a02226;">Regular Current Account</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 18px;line-height: 28px;color: #A5000B;">Regular Current Account</h1>
 						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 18px;line-height: 28px;">Are you looking for an everyday account?</h1>
 					</div>
 				</div>
@@ -1291,7 +1291,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/current-deposit') }}" style="color: #666;">CURRENT DEPOSIT</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">SEAFARER ACCOUNT (FCY)</span>
+				<span style="color: #A5000B;">SEAFARER ACCOUNT (FCY)</span>
 			</p>
 		</div>
 	</div>
@@ -1300,7 +1300,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-7 text-left" style="text-align: left;position: relative;">
 					<div class="seafarer_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;"><span style="color: #a02226;font-size: 26px;line-height: 30px;">Seafarer Account (FCY)</span><br><span style="font-size: 26px;line-height: 30px;">Unique banking solution for seafarers <br>to manage payroll and finance</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;"><span style="color: #A5000B;font-size: 26px;line-height: 30px;">Seafarer Account (FCY)</span><br><span style="font-size: 26px;line-height: 30px;">Unique banking solution for seafarers <br>to manage payroll and finance</span></h1>
 					</div>
 				</div>
 				<div class="col-md-5" style="text-align: right;">
@@ -1309,7 +1309,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 15px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;color: #a02226;font-size: 18px;">Seafarer Account (FCY)</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;color: #A5000B;font-size: 18px;">Seafarer Account (FCY)</h1>
 						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 18px;line-height: 28px;">Unique banking solution for seafarers <Br>to manage payroll and finance</h1>
 					</div>
 				</div>
@@ -1326,7 +1326,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/current-deposit') }}" style="color: #666;">CURRENT DEPOSIT</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">NEW BUSINESS CURRENT ACCOUNT</span>
+				<span style="color: #A5000B;">NEW BUSINESS CURRENT ACCOUNT</span>
 			</p>
 		</div>
 	</div>
@@ -1335,7 +1335,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="new_business_curr_acc_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 26px;line-height: 30px;">New Business Current Account</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;color: #A5000B;font-size: 26px;line-height: 30px;">New Business Current Account</h1>
 						<h1 class="new_business_curr_acc_desc" style="font-size: 26px;line-height: 30px;">Make your cash management more accessible</h1>
 					</div>
 				</div>
@@ -1345,7 +1345,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 20px;left: 15px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;color: #a02226;font-size: 18px;">New Business Current Account</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;color: #A5000B;font-size: 18px;">New Business Current Account</h1>
 						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;font-size: 18px;">Make your cash management more accessible</h1>
 					</div>
 				</div>
@@ -1362,7 +1362,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/current-deposit') }}" style="color: #666;">CURRENT DEPOSIT</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">RETAIL FCA CURRENT (FCY)</span>
+				<span style="color: #A5000B;">RETAIL FCA CURRENT (FCY)</span>
 			</p>
 		</div>
 	</div>
@@ -1371,7 +1371,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="retail_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #a02226;">Retail FCA Current (FCY)</span><br><span>Manage your foreign currency payroll is <br>as convenient as local currency</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #A5000B;">Retail FCA Current (FCY)</span><br><span>Manage your foreign currency payroll is <br>as convenient as local currency</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1380,7 +1380,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 15px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;color: #a02226;font-size: 18px;">Retail FCA Current (FCY)</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;color: #A5000B;font-size: 18px;">Retail FCA Current (FCY)</h1>
 						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;font-size: 18px;">Manage your foreign currency payroll is <br>as convenient as local currency</h1>
 					</div>
 				</div>
@@ -1395,7 +1395,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="fixed_deposit_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Maximise savings with<br><span style="color: #a02226;">AYA Fixed Deposits</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Maximise savings with<br><span style="color: #A5000B;">AYA Fixed Deposits</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1404,7 +1404,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 30px;left: 200px;">
-						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Maximise savings with<br><span style="color: #a02226;">AYA Fixed Deposits</span></h1>
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Maximise savings with<br><span style="color: #A5000B;">AYA Fixed Deposits</span></h1>
 					</div>
 				</div>
 			</div>
@@ -1417,7 +1417,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">FIXED DEPOSIT</span>
+				<span style="color: #A5000B;">FIXED DEPOSIT</span>
 			</p>
 		</div>
 	</div>
@@ -1429,7 +1429,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="saving_deposit_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">A safe way to save money and<Br><span style="color: #a02226;">receive the benefits of interest</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">A safe way to save money and<Br><span style="color: #A5000B;">receive the benefits of interest</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1439,7 +1439,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 30px;left: 45px;">
-						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">A safe way to save money and<Br><span style="color: #a02226;">receive the benefits of interest</span></h1>
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">A safe way to save money and<Br><span style="color: #A5000B;">receive the benefits of interest</span></h1>
 					</div>
 				</div>
 			</div>
@@ -1452,7 +1452,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">SAVING DEPOSIT</span>
+				<span style="color: #A5000B;">SAVING DEPOSIT</span>
 			</p>
 		</div>
 	</div>
@@ -1466,7 +1466,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/saving-deposit') }}" style="color: #666;">SAVING DEPOSIT</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">AYA REGULAR SAVING</span>
+				<span style="color: #A5000B;">AYA REGULAR SAVING</span>
 			</p>
 		</div>
 	</div>
@@ -1478,7 +1478,7 @@
 					</div>
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_regular_saving_banner_tagline">
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #a02226;">AYA Regular Saving</span><br>A simple account for standard financial transactions.</h1>
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #A5000B;">AYA Regular Saving</span><br>A simple account for standard financial transactions.</h1>
 						</div>
 					</div>
 				</div>
@@ -1486,7 +1486,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 70px;left: 140px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 18px;line-height: 28px;">AYA Regular Saving</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;color: #A5000B;font-size: 18px;line-height: 28px;">AYA Regular Saving</h1>
 						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 18px;line-height: 28px;">A simple account for standard financial transactions.</h1>
 					</div>
 				</div>
@@ -1503,7 +1503,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/saving-deposit') }}" style="color: #666;">SAVING DEPOSIT</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">AYA MAXIMIZER SAVING</span>
+				<span style="color: #A5000B;">AYA MAXIMIZER SAVING</span>
 			</p>
 		</div>
 	</div>
@@ -1513,7 +1513,7 @@
 				<div class="row">
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_maximizer_saving_banner_tagline">
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #a02226;">AYA Maximizer Saving</span><br>Earn bonus interest rates on your monthly minimum deposits.</h1>
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #A5000B;">AYA Maximizer Saving</span><br>Earn bonus interest rates on your monthly minimum deposits.</h1>
 						</div>
 					</div>
 					<div class="col-md-5">
@@ -1523,7 +1523,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 30px;left: 30px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 18px;line-height: 28px;">AYA Maximizer Saving</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;color: #A5000B;font-size: 18px;line-height: 28px;">AYA Maximizer Saving</h1>
 						<h1 style="font-weight: 400;margin-bottom: 10px;width: 65%;font-size: 18px;line-height: 28px;">Earn bonus interest rates on your monthly minimum deposits.</h1>
 					</div>
 				</div>
@@ -1540,7 +1540,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/saving-deposit') }}" style="color: #666;">SAVING DEPOSIT</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">AYA LOYAL SAVING</span>
+				<span style="color: #A5000B;">AYA LOYAL SAVING</span>
 			</p>
 		</div>
 	</div>
@@ -1550,7 +1550,7 @@
 				<div class="row">
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_loyal_saving_banner_tagline">
-							<h1 style="font-weight: 400;margin-bottom: 10px;font-size: 26px;line-height: 30px;"><span style="color: #a02226;">AYA Loyal Saving</span><br>Reach your goals, grow your savings with <br>competitive interest rate</h1>
+							<h1 style="font-weight: 400;margin-bottom: 10px;font-size: 26px;line-height: 30px;"><span style="color: #A5000B;">AYA Loyal Saving</span><br>Reach your goals, grow your savings with <br>competitive interest rate</h1>
 						</div>
 					</div>
 					<div class="col-md-5">
@@ -1561,7 +1561,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 30px;left: 30px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 18px;line-height: 28px;">AYA Loyal Saving</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;color: #A5000B;font-size: 18px;line-height: 28px;">AYA Loyal Saving</h1>
 						<h1 style="font-weight: 400;margin-bottom: 10px;font-size: 18px;line-height: 28px;">Reach your goals, grow your savings with competitive interest rate</h1>
 					</div>
 				</div>
@@ -1578,7 +1578,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/saving-deposit') }}" style="color: #666;">SAVING DEPOSIT</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">NGWE TOE MAE-SHWE O</span>
+				<span style="color: #A5000B;">NGWE TOE MAE-SHWE O</span>
 			</p>
 		</div>
 	</div>
@@ -1588,7 +1588,7 @@
 				<div class="row">
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_regular_saving_banner_tagline">
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #a02226;">Ngwe Toe Mae-Shwe O</span><br>Send money back to your hometown and earn regular interest</h1>
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #A5000B;">Ngwe Toe Mae-Shwe O</span><br>Send money back to your hometown and earn regular interest</h1>
 						</div>
 					</div>
 					<div class="col-md-5">
@@ -1599,7 +1599,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 30px;left: 30px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 18px;line-height: 28px;">Ngwe Toe Mae-Shwe O</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;color: #A5000B;font-size: 18px;line-height: 28px;">Ngwe Toe Mae-Shwe O</h1>
 						<h1 style="font-weight: 400;margin-bottom: 10px;font-size: 18px;line-height: 28px;">Send money back to your hometown and earn regular interest</h1>
 					</div>
 				</div>
@@ -1616,7 +1616,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNTS AND SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/account-saving/saving-deposit') }}" style="color: #666;">SAVING DEPOSIT</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">AYA SU-BUU</span>
+				<span style="color: #A5000B;">AYA SU-BUU</span>
 			</p>
 		</div>
 	</div>
@@ -1626,7 +1626,7 @@
 				<div class="row">
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_regular_saving_banner_tagline">
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #a02226;">AYA Su-Buu</span><br>Get a head start for future with a well-managed <br>retirement savings scheme</h1>
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #A5000B;">AYA Su-Buu</span><br>Get a head start for future with a well-managed <br>retirement savings scheme</h1>
 						</div>
 					</div>
 					<div class="col-md-5">
@@ -1637,7 +1637,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 10px;left: 30px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;color: #a02226;font-size: 18px;line-height: 28px;">AYA Su-Buu</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;color: #A5000B;font-size: 18px;line-height: 28px;">AYA Su-Buu</h1>
 						<h1 style="font-weight: 400;margin-bottom: 10px;font-size: 18px;line-height: 28px;">Get a head start for future with a well-managed retirement savings scheme</h1>
 					</div>
 				</div>
@@ -1653,7 +1653,7 @@
 				<div class="">
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="premium_banking_tagline">
-							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;color: #2e2e2e;"><span style="color: #a02226;">Relationship</span><br> Beyond Banking</h1>
+							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;color: #2e2e2e;"><span style="color: #A5000B;">Relationship</span><br> Beyond Banking</h1>
 						</div>
 					</div>
 					<div class="col-md-6"></div>
@@ -1662,7 +1662,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 25px;left: 25px;">
-						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;color: #2e2e2e;"><span style="color: #a02226;">Relationship</span>  Beyond Banking</h1>
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 25px;color: #2e2e2e;"><span style="color: #A5000B;">Relationship</span>  Beyond Banking</h1>
 					</div>
 				</div>
 			</div>
@@ -1675,7 +1675,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PREMIUM BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">ROYAL BANKING</span>
+				<span style="color: #A5000B;">ROYAL BANKING</span>
 			</p>
 		</div>
 	</div>
@@ -1687,7 +1687,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="tag_line_div">
-						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 34px;padding-right: 120px;"><span style="color: #a02226;">Send or receive money securely & instantly</span> anywhere in Myanmar at AYA Branches</h1>
+						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 34px;padding-right: 120px;"><span style="color: #A5000B;">Send or receive money securely & instantly</span> anywhere in Myanmar at AYA Branches</h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1697,7 +1697,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;">
-						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;"><span style="color: #a02226;">Send or receive money securely & instantly</span> anywhere in Myanmar at AYA Branches</h1>
+						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;"><span style="color: #A5000B;">Send or receive money securely & instantly</span> anywhere in Myanmar at AYA Branches</h1>
 					</div>
 				</div>
 			</div>
@@ -1710,7 +1710,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;REMITTANCE AND PAYMENTS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">LOCAL REMITTANCE</span>
+				<span style="color: #A5000B;">LOCAL REMITTANCE</span>
 			</p>
 		</div>
 	</div>
@@ -1722,7 +1722,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="remit_inter_tag_line_div">
-						<h1>AYA International Remittance is <span style="color: #a02226;">secure and a quick way to send and receive money, across the global network</span></h1>
+						<h1>AYA International Remittance is <span style="color: #A5000B;">secure and a quick way to send and receive money, across the global network</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1732,7 +1732,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;">
-						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 20px;padding-right: 20px;">AYA International Remittance is <span style="color: #a02226;">secure and a quick way to send and receive money, across the global network</span></h1>
+						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 20px;padding-right: 20px;">AYA International Remittance is <span style="color: #A5000B;">secure and a quick way to send and receive money, across the global network</span></h1>
 					</div>
 				</div>
 			</div>
@@ -1745,7 +1745,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;REMITTANCE AND PAYMENTS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">INTERNATIONAL REMITTANCE</span>
+				<span style="color: #A5000B;">INTERNATIONAL REMITTANCE</span>
 			</p>
 		</div>
 	</div>
@@ -1757,7 +1757,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="tag_line_div">
-						<h1 class="remittance_payment_tag_desc"><span style="color: #a02226;">Easiest way to make your payment</span> is a priority for us.</h1>
+						<h1 class="remittance_payment_tag_desc"><span style="color: #A5000B;">Easiest way to make your payment</span> is a priority for us.</h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1767,7 +1767,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 25px;right: 50px;">
-						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;"><span style="color: #a02226;">Easiest way to make your payment</span> is a priority for us.</h1>
+						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;"><span style="color: #A5000B;">Easiest way to make your payment</span> is a priority for us.</h1>
 					</div>
 				</div>
 			</div>
@@ -1780,7 +1780,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;REMITTANCE AND PAYMENTS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">PAYMENTS</span>
+				<span style="color: #A5000B;">PAYMENTS</span>
 			</p>
 		</div>
 	</div>
@@ -1792,7 +1792,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-4 text-left" style="text-align: left;position: relative;">
 					<div class="autoloan_banner_tagline">
-						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;"><span style="color: #a02226;">Own your dream car </span>with AYA Auto Loan</h1>
+						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;"><span style="color: #A5000B;">Own your dream car </span>with AYA Auto Loan</h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1802,7 +1802,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 30px;left: 25px;">
-						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span style="color: #a02226;">Own your dream car </span><br>with AYA Auto Loan</h1>
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span style="color: #A5000B;">Own your dream car </span><br>with AYA Auto Loan</h1>
 					</div>
 				</div>
 			</div>
@@ -1816,7 +1816,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BORROWING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;HIRE PURCHASE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">AUTO LOAN</span>
+				<span style="color: #A5000B;">AUTO LOAN</span>
 			</p>
 		</div>
 	</div>
@@ -1828,7 +1828,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="c2c_autoloan_banner_tagline">
-						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">Driving a better customer experience, financing for<span style="color: #a02226;"> auto purchases from any private seller</span></h1>
+						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">Driving a better customer experience, financing for<span style="color: #A5000B;"> auto purchases from any private seller</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1838,7 +1838,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 30px;left: 25px;">
-						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Driving a better customer experience, financing for<span style="color: #a02226;"> auto purchases from any private seller</span></h1>
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Driving a better customer experience, financing for<span style="color: #A5000B;"> auto purchases from any private seller</span></h1>
 					</div>
 				</div>
 			</div>
@@ -1852,7 +1852,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BORROWING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;HIRE PURCHASE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">C2C AUTO LOAN</span>
+				<span style="color: #A5000B;">C2C AUTO LOAN</span>
 			</p>
 		</div>
 	</div>
@@ -1864,7 +1864,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-5 text-left" style="text-align: left;position: relative;">
 					<div class="educationloan_banner_tagline">
-						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">Planning for <span style="color: #a02226;">your child's education journey</span> with AYA</h1>
+						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">Planning for <span style="color: #A5000B;">your child's education journey</span> with AYA</h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1874,7 +1874,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 250px;left: 5px;">
-						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;background-color: #ffffff99;padding: 20px;">Planning for<Br><span style="color: #a02226;">your child's education <br>journey</span> with AYA</h1>
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;background-color: #ffffff99;padding: 20px;">Planning for<Br><span style="color: #A5000B;">your child's education <br>journey</span> with AYA</h1>
 					</div>
 				</div>
 			</div>
@@ -1888,7 +1888,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BORROWING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;HIRE PURCHASE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">EDUCATION LOAN</span>
+				<span style="color: #A5000B;">EDUCATION LOAN</span>
 			</p>
 		</div>
 	</div>
@@ -1900,7 +1900,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-5 text-left" style="text-align: left;position: relative;">
 					<div class="constructionloan_banner_tagline">
-						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">Explore a new way to bring <span style="color: #a02226;">your dream world to life</span> with our home construction and renovation financing.</h1>
+						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">Explore a new way to bring <span style="color: #A5000B;">your dream world to life</span> with our home construction and renovation financing.</h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1910,7 +1910,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 260px;left: 50px;right: 50px;background-color: #ffffff8c;padding: 20px;">
-						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Explore a new way to bring <span style="color: #a02226;">your dream world to life</span> with our home construction and renovation financing.</h1>
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Explore a new way to bring <span style="color: #A5000B;">your dream world to life</span> with our home construction and renovation financing.</h1>
 					</div>
 				</div>
 			</div>
@@ -1924,7 +1924,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BORROWING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;HIRE PURCHASE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">HOME CONSTRUCTION AND RENOVATION (HCR) LOAN</span>
+				<span style="color: #A5000B;">HOME CONSTRUCTION AND RENOVATION (HCR) LOAN</span>
 			</p>
 		</div>
 	</div>
@@ -1936,7 +1936,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-5 text-left" style="text-align: left;position: relative;">
 					<div class="homeloan_banner_tagline">
-						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">Ready to step into your <span style="color: #a02226;">dream home with us</span>.</h1>
+						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">Ready to step into your <span style="color: #A5000B;">dream home with us</span>.</h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1946,7 +1946,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 30px;left: 25px;">
-						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Ready to step into your<br><span style="color: #a02226;">dream home with us</span>.</h1>
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Ready to step into your<br><span style="color: #A5000B;">dream home with us</span>.</h1>
 					</div>
 				</div>
 			</div>
@@ -1960,7 +1960,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BORROWING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;HIRE PURCHASE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">HOME LOAN</span>
+				<span style="color: #A5000B;">HOME LOAN</span>
 			</p>
 		</div>
 	</div>
@@ -1972,7 +1972,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="foreign_currency_exchange_banner_tagline">
-						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;"><span style="color: #a02226;">Buy and sell foreign currencies</span> at AYA Currency Exchange</h1>
+						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;"><span style="color: #A5000B;">Buy and sell foreign currencies</span> at AYA Currency Exchange</h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1982,7 +1982,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 30px;left: 25px;">
-						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span style="color: #a02226;">Buy and sell foreign currencies</span><br>at AYA Currency Exchange</h1>
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;"><span style="color: #A5000B;">Buy and sell foreign currencies</span><br>at AYA Currency Exchange</h1>
 					</div>
 				</div>
 			</div>
@@ -1995,7 +1995,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;OTHER SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">FOREIGN CURRENCY EXCHANGE SERVICE</span>
+				<span style="color: #A5000B;">FOREIGN CURRENCY EXCHANGE SERVICE</span>
 			</p>
 		</div>
 	</div>
@@ -2030,7 +2030,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;PERSONAL BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;OTHER SERVICES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">SAFE DEPOSIT LOCKER</span>
+				<span style="color: #A5000B;">SAFE DEPOSIT LOCKER</span>
 			</p>
 		</div>
 	</div>
@@ -2065,7 +2065,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNT & SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">CALL DEPOSIT</span>
+				<span style="color: #A5000B;">CALL DEPOSIT</span>
 			</p>
 		</div>
 	</div>
@@ -2100,7 +2100,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNT & SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">SAVING DEPOSIT</span>
+				<span style="color: #A5000B;">SAVING DEPOSIT</span>
 			</p>
 		</div>
 	</div>
@@ -2135,7 +2135,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNT & SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">CURRENT DEPOSIT</span>
+				<span style="color: #A5000B;">CURRENT DEPOSIT</span>
 			</p>
 		</div>
 	</div>
@@ -2170,7 +2170,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ACCOUNT & SAVINGS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">FIXED DEPOSIT</span>
+				<span style="color: #A5000B;">FIXED DEPOSIT</span>
 			</p>
 		</div>
 	</div>
@@ -2205,7 +2205,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;REMITTANCE AND PAYMENTS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">LOCAL PAYMENTS</span>
+				<span style="color: #A5000B;">LOCAL PAYMENTS</span>
 			</p>
 		</div>
 	</div>
@@ -2240,7 +2240,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;REMITTANCE AND PAYMENTS&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">INTERNATIONAL PAYMENTS</span>
+				<span style="color: #A5000B;">INTERNATIONAL PAYMENTS</span>
 			</p>
 		</div>
 	</div>
@@ -2275,7 +2275,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BORROWING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">CORPORATE BUSINESS LOAN</span>
+				<span style="color: #A5000B;">CORPORATE BUSINESS LOAN</span>
 			</p>
 		</div>
 	</div>
@@ -2309,7 +2309,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BORROWING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">HIRE PURCHASE</span>
+				<span style="color: #A5000B;">HIRE PURCHASE</span>
 			</p>
 		</div>
 	</div>
@@ -2343,7 +2343,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BORROWING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">SME FINANCING SOLUTION</span>
+				<span style="color: #A5000B;">SME FINANCING SOLUTION</span>
 			</p>
 		</div>
 	</div>
@@ -2378,7 +2378,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;TRADE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">TRADE FINANCING</span>
+				<span style="color: #A5000B;">TRADE FINANCING</span>
 			</p>
 		</div>
 	</div>
@@ -2413,7 +2413,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;TRADE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">TRADE SERVICES</span>
+				<span style="color: #A5000B;">TRADE SERVICES</span>
 			</p>
 		</div>
 	</div>
@@ -2447,7 +2447,7 @@
 			<p class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">CASH MANAGEMENT</span>
+				<span style="color: #A5000B;">CASH MANAGEMENT</span>
 			</p>
 		</div>
 	</div>
@@ -2460,7 +2460,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">DOMESTIC MARINE CARGO INSURANCE</span>
+				<span style="color: #A5000B;">DOMESTIC MARINE CARGO INSURANCE</span>
 			</p>
 		</div>
 	</div>
@@ -2473,7 +2473,7 @@
 					</div>
 					<div class="col-md-6 tagline_div">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Domestic Marine Cargo<br>Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 20%;margin: 0px 0px 20px 0px;">
 						<h1 class="bu_domestic_marine_cargo_insurance_tagline">
 							Cargo handling and management either during conveyance or at port poses risks to businesses.
 						</h1>
@@ -2490,7 +2490,7 @@
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Domestic Marine Cargo<br>Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 45%;margin: 0px 0px 20px 0px;">
 						<h1 style="font-size: 15px;font-weight: 400;">
 							Cargo handling and management either during conveyance or at port poses risks to businesses.
 						</h1>
@@ -2511,7 +2511,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">OVERSEA MARINE CARGO INSURANCE</span>
+				<span style="color: #A5000B;">OVERSEA MARINE CARGO INSURANCE</span>
 			</p>
 		</div>
 	</div>
@@ -2524,7 +2524,7 @@
 					</div>
 					<div class="col-md-6 tagline_div" style="padding-right:0">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Oversea Marine Cargo<br>Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 20%;margin: 0px 0px 20px 0px;">
 						<h1 class="bu_oversea_marine_cargo_insurance_tagline">
 							The rough open oceans pose a great threat to the security of marine cargo transportation. The unpredictable seas also carry other dangers and risks like collision, fires, explosions. These risks carry on at port during the discharge and loading of cargo.
 						</h1>
@@ -2541,7 +2541,7 @@
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Oversea Marine Cargo<br>Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 45%;margin: 0px 0px 20px 0px;">
 						<h1 style="font-size: 15px;font-weight: 400;">
 							The rough open oceans pose a great threat to the security of marine cargo transportation. The unpredictable seas also carry other dangers and risks like collision, fires, explosions. These risks carry on at port during the discharge and loading of cargo.
 						</h1>
@@ -2562,7 +2562,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">DOMESTIC INLAND TRANSIT INSURANCE</span>
+				<span style="color: #A5000B;">DOMESTIC INLAND TRANSIT INSURANCE</span>
 			</p>
 		</div>
 	</div>
@@ -2575,7 +2575,7 @@
 					</div>
 					<div class="col-md-6 tagline_div">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Domestic Inland Transit<br>Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 20%;margin: 0px 0px 20px 0px;">
 						<h1 class="bu_domestic_inland_transit_insurance_tagline">
 							Transporting goods on the road exposes you and your business to unforeseen and unexpected financial loss. Derailment, fire, collision, and explosions are some risks that are inherent to inland transit.
 						</h1>
@@ -2592,7 +2592,7 @@
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Domestic Inland Transit<br>Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 45%;margin: 0px 0px 20px 0px;">
 						<h1 style="font-size: 15px;font-weight: 400;">
 							Transporting goods on the road exposes you and your business to unforeseen and unexpected financial loss. Derailment, fire, collision, and explosions are some risks that are inherent to inland transit.
 						</h1>
@@ -2613,7 +2613,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">CONTRACTOR’S ALL RISK & ERECTION ALL RISK (CAR & EAR) INSURANCE</span>
+				<span style="color: #A5000B;">CONTRACTOR’S ALL RISK & ERECTION ALL RISK (CAR & EAR) INSURANCE</span>
 			</p>
 		</div>
 	</div>
@@ -2626,7 +2626,7 @@
 					</div>
 					<div class="col-md-6 tagline_div">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Contractor’s All Risk &<br>Erection All Risk (CAR & EAR) Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 20%;margin: 0px 0px 20px 0px;">
 						<h1 class="bu_car_ear_insurance_tagline">
 							Construction projects inherently carry with them risks. We offer comprehensive package for you to run your business safely and ensure protections of your projects and investments.
 						</h1>
@@ -2640,7 +2640,7 @@
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Contractor’s All Risk &<br>Erection All Risk (CAR & EAR) Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 45%;margin: 0px 0px 20px 0px;">
 						<h1 style="font-size: 15px;font-weight: 400;">
 							Construction projects inherently carry with them risks. We offer comprehensive package for you to run your business safely and ensure protections of your projects and investments.
 						</h1>
@@ -2658,7 +2658,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">INDUSTRIAL ALL RISK INSURANCE (IAR) INSURANCE</span>
+				<span style="color: #A5000B;">INDUSTRIAL ALL RISK INSURANCE (IAR) INSURANCE</span>
 			</p>
 		</div>
 	</div>
@@ -2671,7 +2671,7 @@
 					</div>
 					<div class="col-md-6 tagline_div">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Industrial All Risk Insurance (IAR)</h1>
-						<hr style="height: 5px;color: #a02226;width: 20%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 20%;margin: 0px 0px 20px 0px;">
 						<h1 class="bu_IAR_insurance_tagline">
 							An enhanced solution to the most demanding of needs – the industrial all risk insurance is your go–to product to insure your property and business in one single policy.
 						</h1>
@@ -2685,7 +2685,7 @@
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Industrial All Risk Insurance (IAR)</h1>
-						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 45%;margin: 0px 0px 20px 0px;">
 						<h1 style="font-size: 15px;font-weight: 400;">
 							An enhanced solution to the most demanding of needs – the industrial all risk insurance is your go–to product to insure your property and business in one single policy.
 						</h1>
@@ -2703,7 +2703,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;BUSINESS BANKING&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;INSURANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">GROUP LIFE INSURANCE</span>
+				<span style="color: #A5000B;">GROUP LIFE INSURANCE</span>
 			</p>
 		</div>
 	</div>
@@ -2716,7 +2716,7 @@
 					</div>
 					<div class="col-md-6 tagline_div">
 						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Group Life<br>Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 15%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 15%;margin: 0px 0px 20px 0px;">
 						<h1 class="bu_group_life_insurance_tagline" style="font-weight: 400;font-size: 15px;">
 							Employees are greatest asset to any organization. We provide protection Coverage that your employees truly value.
 						</h1>
@@ -2733,7 +2733,7 @@
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
 						<h1 style="font-size: 20px;font-weight: 600;margin-bottom: 0px;color: #000;">Group Life Insurance</h1>
-						<hr style="height: 5px;color: #a02226;width: 45%;margin: 0px 0px 20px 0px;">
+						<hr style="height: 5px;color: #A5000B;width: 45%;margin: 0px 0px 20px 0px;">
 						<h1 style="font-size: 15px;font-weight: 400;">
 							Employees are greatest asset to any organization. We provide protection Coverage that your employees truly value.
 						</h1>
@@ -2753,7 +2753,7 @@
 		<div class="container">
 			<h1 class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">TEST</span>
+				<span style="color: #A5000B;">TEST</span>
 			</h1>
 		</div>
 	</div>
@@ -2764,7 +2764,7 @@
 		<div class="container">
 			<h1 class="bread_crumb_text">HOME&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">GET IN TOUCH</span>
+				<span style="color: #A5000B;">GET IN TOUCH</span>
 			</h1>
 		</div>
 	</div>
@@ -2797,7 +2797,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;WHO WE ARE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;LEADERSHIP&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">MEET OUR LEADERS</span>
+				<span style="color: #A5000B;">MEET OUR LEADERS</span>
 			</p>
 		</div>
 	</div>
@@ -2830,7 +2830,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;WHO WE ARE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;CORPORATE PROFILE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<a href="{{ url('/about-aya/who-we-are/corporate-profile/ayabank-profile/') }}"><span style="color: #a02226;">AYA BANK PROFILE</span></a>
+				<a href="{{ url('/about-aya/who-we-are/corporate-profile/ayabank-profile/') }}"><span style="color: #A5000B;">AYA BANK PROFILE</span></a>
 			</p>
 		</div>
 	</div>
@@ -2863,7 +2863,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;WHO WE ARE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;OUR STRATEGIES&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<a href="{{ url('/about-aya/who-we-are/corporate-profile/ayabank-profile/') }}"><span style="color: #a02226;">STAKEHOLDER MANAGEMENT</span></a>
+				<a href="{{ url('/about-aya/who-we-are/corporate-profile/ayabank-profile/') }}"><span style="color: #A5000B;">STAKEHOLDER MANAGEMENT</span></a>
 			</p>
 		</div>
 	</div>
@@ -2895,7 +2895,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ABOUT AYA&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;GOVERNANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">RISK MANAGEMENT</span>
+				<span style="color: #A5000B;">RISK MANAGEMENT</span>
 			</p>
 		</div>
 	</div>
@@ -2928,7 +2928,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;GOVERNANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a class="breadcrumb_text_color" href="{{ url('/about-aya/governance/risk-management') }}">RISK MANAGEMENT</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">RISK GOVERNANCE</span>
+				<span style="color: #A5000B;">RISK GOVERNANCE</span>
 			</p>
 		</div>
 	</div>
@@ -2961,7 +2961,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;GOVERNANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a class="breadcrumb_text_color" href="{{ url('/about-aya/governance/risk-management') }}">RISK MANAGEMENT</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">RISK MANAGEMENT FRAMEWORK</span>
+				<span style="color: #A5000B;">RISK MANAGEMENT FRAMEWORK</span>
 			</p>
 		</div>
 	</div>
@@ -2994,7 +2994,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;GOVERNANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a class="breadcrumb_text_color" href="{{ url('/about-aya/governance/risk-management') }}">RISK MANAGEMENT</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">RISK MANAGEMENT CONTROL</span>
+				<span style="color: #A5000B;">RISK MANAGEMENT CONTROL</span>
 			</p>
 		</div>
 	</div>
@@ -3027,7 +3027,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;GOVERNANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a class="breadcrumb_text_color" href="{{ url('/about-aya/governance/risk-management') }}">RISK MANAGEMENT</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">MANAGING RISK</span>
+				<span style="color: #A5000B;">MANAGING RISK</span>
 			</p>
 		</div>
 	</div>
@@ -3059,7 +3059,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ABOUT AYA&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;GOVERNANCE&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">COMPLIANCE</span>
+				<span style="color: #A5000B;">COMPLIANCE</span>
 			</p>
 		</div>
 	</div>
@@ -3072,7 +3072,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ABOUT AYA&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;NEWS ROOM&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #a02226;">COROPRATE NEWS</span>
+				<span style="color: #A5000B;">COROPRATE NEWS</span>
 			</p>
 		</div>
 	</div>
