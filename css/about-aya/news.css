@@ -46,7 +46,10 @@
 }
 .news_img_div {
 	height: 200px !important;
-	overflow: hidden;
+    overflow: hidden;
+    margin: 0 !important;
+    background-size: cover;
+    background-position: center;
 }
 .news_title_div {
 	height: 62px;
