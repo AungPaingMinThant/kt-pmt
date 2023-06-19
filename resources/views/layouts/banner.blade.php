@@ -58,14 +58,11 @@
 						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Banking with AYA is <span style="color: #A5000B;">easier</span> than <span style="color: #A5000B;">"ABC..."</span></h1>
 					</div>
 				</div>
-				<div class="col-md-6" style="text-align: right;">
-				</div>
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 45px;left: 25px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;">Banking with AYA is</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;"><span style="color: #A5000B;">easier</span> than <span style="color: #A5000B;">"ABC..."</span></h1>
+					<div style="position: absolute;top: 45px;left: 20px;right: 120px;">
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;">Banking with AYA is <span style="color: #A5000B;">easier</span> than <span style="color: #A5000B;">"ABC..."</span></h1>
 					</div>
 				</div>
 			</div>
@@ -92,9 +89,6 @@
 					<div class="cib_banner_tagline">
 						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">Your business's financial transactions <span style="color: #A5000B;">at your fingertips</span></h1>
 					</div>
-				</div>
-				<div class="col-md-6" style="text-align: right;">
-					<h1></h1>
 				</div>
 			</div>
 			<div class="row d-block d-sm-none">
