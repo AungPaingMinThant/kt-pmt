@@ -595,7 +595,7 @@
 															<a href="{{ url('/about-aya/who-we-are/corporate-profile/ayabank-profile') }}">AYA Bank Profile</a>
 														</p>
 														<p class="mb-30">
-															<a href="https://saltnpixel.com/AYABank/AYABank_OurCorporateValue.html" target="_blank">Mission, Corporate Values and Brand Value</a>
+															<a href="{{ url('/about-aya/who-we-are/corporate-profile/mission-corporate-value-brand-promise') }}">Mission, Corporate Values and Brand Value</a>
 														</p>
 														<p class="d-none m-b-5">
 															<a href="http://saltnpixel.com/AYABank/AYABank_CorporateGoal.html" target="_blank">Corporate Goals</a>
@@ -629,7 +629,7 @@
 															OUR STRATEGIES
 														</p>
 														<p class="m-b-5">
-															<a href="https://saltnpixel.com/AYABank/AYABank_Corporate_Strategy.html" target="_blank">Corporate Strategy</a>
+															<a href="{{ url('/about-aya/who-we-are/our-strategies/corporate-strategy') }}">Corporate Strategy</a>
 														</p>
 														<p class="m-b-5 d-none">
 															<a href="">Business  Model</a>
@@ -789,7 +789,7 @@
 															NEWSROOM
 														</p>
 														<p class="m-b-5">
-															<a href="">Corporate News</a>
+															<a href="{{ url('/about-aya/news-room/corporate-news/') }}">Corporate News</a>
 														</p>
 														<!-- <p class="m-b-5">
 															<a href="">CSR News</a>
@@ -1394,7 +1394,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20 mb-20">
-										<a href="https://saltnpixel.com/AYABank/AYABank_OurCorporateValue.html" target="_blank">Mission, Corporate Values and <br>Brand Value</a>
+										<a href="{{ url('/about-aya/who-we-are/corporate-profile/mission-corporate-value-brand-promise') }}">Mission, Corporate Values and <br>Brand Value</a>
 									</p>
 								</li>
 								<!-- <li>
@@ -1444,7 +1444,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="https://saltnpixel.com/AYABank/AYABank_Corporate_Strategy.html" target="_blank">Corporate Strategy</a>
+										<a href="{{ url('/about-aya/who-we-are/our-strategies/corporate-strategy') }}">Corporate Strategy</a>
 									</p>
 								</li>
 								<!-- <li>
@@ -1649,7 +1649,7 @@
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
-										<a href="">Corporate News</a>
+										<a href="{{ url('/about-aya/news-room/corporate-news/') }}">Corporate News</a>
 									</p>
 								</li>
 								<!-- <li>
