@@ -283,38 +283,38 @@
 				<div class="row">
 					<div class="col-md-6">
 						<div class="row">
-							<a href="">
-								<img src="{{ url('/images/news_image/MOU-Between-AYA-Bank-and-SMART-Myanmar.webp') }}" class="img-fluid">
+							<a href="{{ url('/about-aya/news-room/corporate-news/'.$first_blog->permalink) }}">
+								<img src="{{ url($first_blog->featured_image) }}" class="img-fluid">
 							</a>
 						</div>
 						<div class="news_content_div">
 							<div class="news_title_div">
 								<a href="">
-									<p class="news_title">AYA Bank Offering Apprenticeship Opportunity</p>
+									<p class="news_title">{{ $first_blog->blog_title }}</p>
 								</a>
 							</div>
 							<p class="news_desc mb-20">AYA Bank organized ‘National Apprenticeship Program’ in partnership with the National Management Acdemy (NMA) to shape the future of students with a wide range of opportunities to learn a specific skill in the financial services industry.</p>
-							<p class="mb-0"><span class="news_category">CORPORATE NEWS</span><span class="news_break">|</span><span class="news_date">16 May 2023</span></p>
+							<p class="mb-0"><span class="news_category">CORPORATE NEWS</span><span class="news_break">|</span><span class="news_date">{{ date('d M Y', strtotime($first_blog->publish_date)) }}</span></p>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="row">
 							<div class="col-md-6">
-								<div class="row news_img_div" style="background-image:  url('./images/news_image/U-Zaw-Zaw-Drives-Social-Responsibility-through-Football-in-Myanmar.webp');"></div>
+								<div class="row news_img_div" style="background-image:  url('{{ url($second_blog->featured_image) }}');"></div>
 								<div class="news_content_div">
-									<a href="">
-										<p class="news_title">U Zaw Zaw Drives Social Responsibility through Football in Myanmar</p>
+									<a href="{{ url('/about-aya/news-room/corporate-news/'.$second_blog->permalink) }}">
+										<p class="news_title">{{ $second_blog->blog_title }}</p>
 									</a>
-									<p class="mb-0"><span class="news_category">CSR NEWS</span><span class="news_break">|</span><span class="news_date">13 March 2023</span></p>
+									<p class="mb-0"><span class="news_category">CORPORATE NEWS</span><span class="news_break">|</span><span class="news_date">{{ date('d M Y', strtotime($second_blog->publish_date)) }}</span></p>
 								</div>
 							</div>
 							<div class="col-md-6">
-								<div class="row news_img_div" style="background-image:  url('./images/news_image/Celebration-of-International-Womens-Day-2023-at-AYA-Bank-Office.webp');"></div>
+								<div class="row news_img_div" style="background-image:  url('{{ url($third_blog->featured_image) }}');"></div>
 								<div class="news_content_div">
-									<a href="">
-										<p class="news_title">Celebration of International Women’s Day 2023 at AYA Bank Office</p>
+									<a href="{{ url('/about-aya/news-room/corporate-news/'.$third_blog->permalink) }}">
+										<p class="news_title">{{ $third_blog->blog_title }}</p>
 									</a>
-									<p class="mb-0"><span class="news_category">CSR NEWS</span><span class="news_break">|</span><span class="news_date">8 March 2023</span></p>
+									<p class="mb-0"><span class="news_category">CORPORATE NEWS</span><span class="news_break">|</span><span class="news_date">{{ date('d M Y', strtotime($third_blog->publish_date)) }}</span></p>
 								</div>
 							</div>
 						</div>
@@ -323,7 +323,7 @@
 						<div class="row view_all_news">
 							<div class="col-md-6 view_all_news_col"></div>
 							<div class="col-md-6 text-center view_all_news_div" style="display: table;height: auto;">
-								<a href="" style="display: table-cell;vertical-align: middle;">
+								<a href="{{ url('/about-aya/news-room/corporate-news/') }}" style="display: table-cell;vertical-align: middle;">
 									<p class="mb-0" style="color: #fff;">View All <i class="menu-icon tf-icons bx bx-chevron-right"></i></p>
 								</a>
 							</div>
