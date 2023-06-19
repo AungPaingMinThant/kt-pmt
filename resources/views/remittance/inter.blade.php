@@ -136,7 +136,7 @@
 								</p>
 								<div class="row" style="position: relative;">
 									<img src="{{ url('/images/remittance/inter/DBS_remit_singpapore.png') }}" class="img-fluid">
-									<p class="dbs_remit_singapore_tagline">DBS to AYA Remit,<br>a convenient way to send money</p>
+									<p class="dbs_remit_singapore_tagline">DBS to AYA Remit,<br>a convenient way to send money.</p>
 								</div>
 								<div class="row">
 									<div class="space-30"></div>
@@ -248,13 +248,13 @@
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>Visit agents to make payments</p>
+									<p>Visit agents to make payments.</p>
 								</div>
 								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>Payout amount (in MMK) is confirmed</p>
+									<p>Payout amount Myanmar Kyat is confirmed.</p>
 								</div>
 
 								<p style="font-weight: 600;">Contact here to send money</p>
@@ -299,7 +299,7 @@
 											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 										</div>
 										<div class="col-md-11 col-10 secure_credit_fact">
-											<p>Zero “0” transfer fee to both sender and receiver</p>
+											<p>Zero “0” transfer fee to both sender and receiver.</p>
 										</div>
 										<div class="col-md-1 col-2" style="padding-top: 5px;">
 											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
