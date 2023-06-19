@@ -160,19 +160,30 @@ Route::get('/test','App\Http\Controllers\HomeController@testIndex');
 // About AYA
 // about-aya/who-we-are-corporate-profile/awards
 Route::get('/about-aya/who-we-are/leadership/meet-our-leaders','App\Http\Controllers\AboutAYA\WhoWeAreController@meetOurLeadersIndex');
+Route::get('/about-aya/who-we-are/leadership/meet-our-leaders/contact-to-board','App\Http\Controllers\AboutAYA\WhoWeAreController@contactBoardIndex');
+
 Route::get('/about-aya/who-we-are/corporate-profile/ayabank-profile','App\Http\Controllers\AboutAYA\WhoWeAreController@profileIndex');
 Route::get('/about-aya/who-we-are/corporate-profile/ayabank-profile/shareholding-information','App\Http\Controllers\AboutAYA\WhoWeAreController@shareHoldingIndex');
 Route::get('/about-aya/who-we-are/corporate-profile/ayabank-profile/business-practices','App\Http\Controllers\AboutAYA\WhoWeAreController@businessPracticeIndex');
+Route::get('/about-aya/who-we-are/corporate-profile/mission-corporate-value-brand-promise','App\Http\Controllers\AboutAYA\WhoWeAreController@missionIndex');
+
 Route::get('/about-aya/who-we-are/our-strategies/stakeholder-management','App\Http\Controllers\AboutAYA\WhoWeAreController@stakeholderIndex');
+Route::get('/about-aya/who-we-are/our-strategies/corporate-strategy','App\Http\Controllers\AboutAYA\WhoWeAreController@corporateStrategyIndex');
 
 Route::get('/about-aya/governance/risk-management','App\Http\Controllers\AboutAYA\GovernanceController@riskManagementIndex');
 Route::get('/about-aya/governance/risk-management/risk-governance','App\Http\Controllers\AboutAYA\GovernanceController@riskGovernanceIndex');
-Route::get('/about-aya/governance/risk-management/risk-management-framework','App\Http\Controllers\AboutAYA\GovernanceController@riskMgmtFrameworkIndex');
-Route::get('/about-aya/governance/risk-management/risk-management-control','App\Http\Controllers\AboutAYA\GovernanceController@riskMgmtControlIndex');
+Route::get('/about-aya/governance/risk-management/risk-management-framework',
+	'App\Http\Controllers\AboutAYA\GovernanceController@riskMgmtFrameworkIndex');
+Route::get('/about-aya/governance/risk-management/risk-management-control',
+	'App\Http\Controllers\AboutAYA\GovernanceController@riskMgmtControlIndex');
 Route::get('/about-aya/governance/risk-management/managing-risk','App\Http\Controllers\AboutAYA\GovernanceController@managingRiskIndex');
+
 Route::get('/about-aya/governance/compliance','App\Http\Controllers\AboutAYA\GovernanceController@complianceIndex');
+
 Route::get('/about-aya/news-room/corporate-news','App\Http\Controllers\AboutAYA\NewsController@corporateIndex');
 Route::get('/about-aya/news-room/corporate-news/{permalink}','App\Http\Controllers\AboutAYA\NewsController@corporateDetailIndex');
+Route::get('/about-aya/news-room/corporate-news/year/{year}','App\Http\Controllers\AboutAYA\NewsController@corporateYearIndex');
+
 
 
 // Enquiry Form
@@ -197,3 +208,10 @@ Route::get('/personal-banking/insurance','App\Http\Controllers\SiteMapController
 Route::get('/personal-banking/insurance/life','App\Http\Controllers\SiteMapController@personalLifeInsIndex');
 Route::get('/personal-banking/insurance/travel','App\Http\Controllers\SiteMapController@personalTravelInsIndex');
 Route::get('/personal-banking/other-services','App\Http\Controllers\SiteMapController@personalOtherIndex');
+
+Route::get('/business-banking','App\Http\Controllers\SiteMapController@businessIndex');
+Route::get('/business-banking/account-saving','App\Http\Controllers\SiteMapController@businessACIndex');
+Route::get('/business-banking/remittance','App\Http\Controllers\SiteMapController@businessRemitIndex');
+Route::get('/business-banking/borrowing','App\Http\Controllers\SiteMapController@businessBorrowingIndex');
+Route::get('/business-banking/trade','App\Http\Controllers\SiteMapController@businessTradeIndex');
+Route::get('/business-banking/insurance','App\Http\Controllers\SiteMapController@businessInsIndex');

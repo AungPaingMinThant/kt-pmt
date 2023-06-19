@@ -63,6 +63,42 @@ p {
 .planA, .planB, .planC, .planD {
 	padding: 0px 30px !important;
 }
+.planA > .row {
+	background-color: #555;
+	padding: 40px 20px;
+	background-image: url('../images/premium-banking/package_bottom_bg.png');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.planB > .row {
+	background-color: #665a34;
+	padding: 40px 20px;
+	background-image: url('../images/premium-banking/package_B_bottom_bg.png');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.planC > .row {
+	background-color: #705400;
+	padding: 40px 20px;
+	background-image: url('../images/premium-banking/package_C_bottom_bg.png');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.planD > .row {
+	background-color: #7f4f08c7;
+	padding: 40px 20px;
+	background-image: url('../images/premium-banking/package_C_bottom_bg.png');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
 .planC-50 {
 	display: none;
 }
@@ -76,19 +112,23 @@ p {
 	background-repeat: no-repeat;
 }
 .planA_last_space {
-	height: 407px;
+	height: 517px;
 }
 .planB_last_space {
-	height: 407px;
+	height: 517px;
 }
 .planC_last_space {
-	height: 120px;
+    height: 155px;
 }
 .planD_last_space {
 	height: 45px;
 }
 .benchmark_fact {
 	margin-left: -60px;
+}
+.intro_desc > p {
+	margin-bottom:5px;
+	color: #cccccc;
 }
 @media (min-width: 1400px){
 	.container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
@@ -108,8 +148,23 @@ p {
 	.health_care_box {
 		top: 10%;
 	}
+	.relation_manage_box {
+		top: 9%;
+	}
+	.plan_section_container {
+		padding: 0 !important;
+	}
+	.planA_last_space {
+	    height: 605px;
+	}
+	.planB_last_space {
+	    height: 566px;
+	}
+	.planC_last_space {
+	    height: 137px;
+	}
 }
-@media (max-width: 1300px) and (min-width: 1271px) {
+@media (max-width: 1300px) and (min-width: 1101px) {
 	.intro_box_bg {
     	background-size: cover;
     }
@@ -161,14 +216,26 @@ p {
     .planA, .planB, .planC {
     	padding: 0px 25px !important;
     }
+    .planA > .row, .planB > .row, .planC > .row, .planD > .row{
+    	padding: 20px 10px;
+    }
     .input_email_box {
     	padding: 0px 50px;
     }
     .planC-50 {
     	display: none;
     }
+    .planA_last_space {
+	    height: 617px;
+	}
+    .planB_last_space {
+	    height: 600px;
+	}
+    .planC_last_space {
+	    height: 170px;
+	}
 }
-@media (max-width: 1270px) and (min-width: 1000px) {
+@media (max-width: 1100px) and (min-width: 1000px) {
 	.intro_title {
     	padding: 25px 100px 0px 100px !important;
     }
@@ -223,6 +290,21 @@ p {
     .planC-50 {
     	display: block;
     }
+    .plan_section_container {
+    	padding: 0 !important;
+    }
+    .planA > .row, .planB > .row, .planC > .row, .planD > .row {
+    	padding: 20px 5px;
+    }
+    .planA_last_space {
+	    height: 633px;
+	}
+    .planB_last_space {
+	    height: 617px;
+	}
+    .planC_last_space {
+	    height: 188px;
+	}
 }
 @media (max-width: 999px) and (min-width: 577px) {
 	.intro_title {
@@ -284,6 +366,9 @@ p {
     .intro_desc {
     	padding: 0px 30px !important;
     }
+    .intro_desc > p {
+		margin-bottom: 20px;
+	}
     .intro_box_bg {
     	background-image: url('../images/premium-banking/intro-bg-mobile.jpg');
     	background-size: cover;
@@ -318,10 +403,13 @@ p {
     	top: 0;
     	left: 0;
     }
-    .planA, .planB {
+    .planA, .planB, .planC, .planD {
     	margin-bottom: 30px;
     }
     .input_email_box {
     	padding: 0px 25px 0px 25px !important;
     }
+    .planA_last_space, .planB_last_space, .planC_last_space, .planD_last_space {
+	    height: 100px;
+	}
 }

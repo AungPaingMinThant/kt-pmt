@@ -1,0 +1,226 @@
+.nav-align-top .nav-tabs .nav-item:first-child .nav-link {
+	border-top:  none;
+	border-left: none;
+	border-right: none;
+	box-shadow: none;
+}
+.tab_title > span {
+	padding: 20px 0px;
+}
+.nav-align-top .nav-tabs .tab_title.active span {
+	border-bottom: 5px solid #a02226;
+}
+.nav-pills .tab_title.active, .nav-pills .tab_title.active:hover, .nav-pills .tab_title.active:focus {
+	background-color: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    border-bottom: 5px solid #ae002c;
+    border-radius: 0;
+    font-weight: 500;
+}
+.nav .tab_title:hover, .nav .tab_title:focus {
+	color: #000 !important;
+}
+.nav-pills .tab_title {
+	font-weight: 400;
+	font-size: 16px;
+}
+.benefit_icon {
+	width: 60% !important;
+}
+.outer_benefit_box {
+	padding: 0px 20px 20px 20px !important;
+	border: 1px solid #dedede;
+	border-radius: 10px;
+}
+.outer_benefit_box:hover{
+	cursor: pointer;
+    -webkit-box-shadow: 10px 8px 10px 6px rgba(0,0,0,0.09);
+    -moz-box-shadow: 10px 8px 10px 6px rgba(0,0,0,0.09);
+    box-shadow: 10px 8px 10px 6px rgba(0,0,0,0.09);
+    border: 1px solid #fff;
+}
+.solution_text {
+	color: #000;
+	margin-bottom: 5px;
+}
+.mpu_jbc_tab {
+	background-image: url('../../images/hand-with-card MPU-JCB.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 520px;
+	background-position: center left;
+}
+.mpu_upi_tab {
+	background-image: url('../../images/hand-with-card MPU-UPI.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 520px;
+	background-position: center left;
+}
+.tab_data_row {
+	width: 100%;
+}
+.tab_h3, .tab_upi_h3 {
+	position: absolute;
+	top: 230px;
+}
+.how_to_apply_icon {
+	width: 80%;
+	float: right;
+}
+.how_to_apply_outer_section {
+	background-image: url('../../images/how_to_apply_bg.jpg');
+	background-size: cover;
+	background-position: bottom center;
+}
+.debit_how_to_apply_section {
+	padding: 40px 50px 60px 50px !important;
+}
+.ecommerce_registration_bg {
+	background-image: url('../../images/MPU_ecommerce_registration.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.ecommerce_registration_container {
+	padding: 40px 0px 40px 100px !important;
+}
+.fee_charge_inner_div {
+	margin-bottom: 20px;
+}
+.fee_title {
+	color: #000;
+	margin-bottom: 0px;
+	font-weight: 500;
+}
+.fee_desc {
+	color: #5c5c5c;
+	margin-bottom: 0px;
+}
+.fees_charge_div, .annual_fee_div, .card_feature_div, .how_to_apply_div, .secured_fee_charge_div {
+	background-color: #fff;
+	border: 1px solid #cccccc;
+	border-radius: 10px;
+	padding: 40px 30px;
+	margin-left: 0px !important;
+	margin-bottom: 30px;
+}
+.reset_pin_btn {
+	background-color: #ae071d !important;
+	border: 1px solid #ae071d !important;
+	color: #fff !important;
+	font-weight: 500;
+	padding: 15px 25px !important;
+	margin-bottom: 2rem !important;
+}
+.reset_pin_btn:hover {
+	border: 1px solid #ae071d !important;
+	color: #ae071d !important;
+	background-color: #fff !important;
+}
+.how_to_apply_title_row {
+	padding-left: 45px;
+}
+.credit_tag_line {
+	font-size: 20px;
+	padding: 0px 270px;
+}
+@media (max-width: 1300px) and (min-width: 1000px) {
+	.how_to_apply_outer_section {
+		background-position: 80% center;
+	}
+	.ecommerce_registration_bg {
+		background-image: url('../../images/MPU_ecommerce_registration_2.jpg');
+		background-position: 25% center;
+	}
+}
+@media (max-width: 1400px) and (min-width: 1301px) {
+	.ecommerce_registration_bg {
+		background-position: 30% center;
+	}
+}
+@media (min-width: 1000px){
+	.col-md-3 {
+	    width: 23% !important;
+	}
+}
+@media (max-width: 999px) and (min-width: 577px) {
+	.outer_benefit_box {
+		width: 31% !important;
+		margin-bottom: 20px;
+	}
+	.how_to_apply_outer_section {
+	    background-position: 80% bottom;
+	}
+	.debit_how_to_apply_section {
+	    padding: 40px 50px 60px 0px !important;
+	}
+	.ecommerce_registration_container {
+	    padding: 40px 0px 40px 0px !important;
+	}
+	.ecom_reg_desc {
+		width: 60% !important;
+	}
+	.ecom_reg_desc_space {
+		width: 40% !important;
+	}
+	.credit_tag_line {
+	    padding: 0px 20px;
+	}
+	.mpu_jbc_tab, .mpu_upi_tab {
+		background-position: 30% center;
+	}
+	.tab_h3, .tab_upi_h3 {
+	    top: 120px;
+	}
+}
+@media only screen and (max-width: 576px){
+	.tab-pane {
+	    background-position: -220px bottom;
+	}
+	.tab_data_row {
+		/*width: auto;*/
+	}
+	.tab_h3{
+		top: 380px;
+	}
+	.tab_upi_h3{
+		top: 380px;
+		left: 15%;
+	}
+	.outer_benefit_box {
+		margin-bottom: 10px;
+	}
+	.how_to_apply_icon {
+		width: 100%;
+	}
+	.how_to_apply_title_row {
+		padding-left: 0px;
+	}
+	.debit_how_to_apply_section {
+	    padding: 40px 30px 60px 30px !important;
+	}
+	.how_to_apply_outer_section {
+		background-image: url('../../images/how_to_apply_mobile_bg.jpg');
+		background-position: left;
+	}
+	.ecommerce_registration_bg {
+		background-image: none;
+		background-color: #f3f3f2;
+	}
+	.ecommerce_registration_container {
+		padding: 40px 0px 40px 40px !important;
+	}
+	.fees_charge_table {
+		zoom: 75%;
+	}
+	.mpu_jbc_tab {
+		background-image: url(./images/MPU_JCB_card_2.jpg);
+	}
+	.mpu_upi_tab {
+/*			background-image: url('../../images/JBC_UPI_card.png');*/
+	}
+	.credit_tag_line {
+		padding: 0px 0px;
+	}
+}

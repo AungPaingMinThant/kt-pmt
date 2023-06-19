@@ -10,7 +10,7 @@
             @include('layouts.header', ['page'=>'personal_banking'])
             <div class="menu-overlay"></div>
             <div>
-                @include('sitemap.sitemap-header', ['header_title'=>'Remittance & Payments'])
+                @include('sitemap.sitemap-header', ['header_title'=>'Remittance & Payments', 'page'=>'personal_banking_remit'])
 
                 <div class="container y-4">
                     <div class="row">

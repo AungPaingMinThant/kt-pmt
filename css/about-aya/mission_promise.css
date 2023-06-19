@@ -1,0 +1,143 @@
+.ethics_box_row {
+	justify-content: space-between !important;
+}
+.ethics_box:nth-child(1) {
+	margin-left: 10px !important;
+}
+.ethics_box:not(:nth-child(6)) {
+	margin-right: 10px !important;
+}
+.ethics_box {
+	background-color: #a02225;
+	padding: 20px !important;
+	width: 15% !important;
+	display: table;
+}
+.ethics_box > div {
+	color: #fff;
+	border: 1px solid #fff;
+	height: auto;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 20px 10px;
+	font-weight: 200 !important;
+}
+.ethics_des_col {
+	padding-left: 0px;
+}
+.sincerity_check {
+	width: 30%;
+}
+.ethics_section {
+	background: linear-gradient(360deg, #f5f5f7 95%, transparent 5%);
+}
+.brand_promise {
+	background-image: url('../../images/about-aya/corporate-profile/mission-promise/our_brand_promise.webp');
+	background-size: contain;
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+.brand_promise_desc {
+	background-color: #a02225;
+	color: #fff;
+	font-size: 16px;
+	padding: 40px 30px 40px 30px !important;
+	font-weight: 300 !important;
+	width: 36% !important;
+}
+.sincerity_check_text {
+	margin-left: -4rem !important;
+}
+.cat_card {
+	margin-bottom: 20px;
+}
+@media (max-width: 1380px) and (min-width: 1301px) {
+	.brand_promise_desc {
+		width: 40% !important;
+	}
+}
+@media (max-width: 1300px) and (min-width: 1201px) {
+	.ethics_box {
+		padding: 15px !important;
+	}
+	.brand_promise_desc {
+		width: 45% !important;
+	}
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+	.ethics_box:nth-child(1), .ethics_box:nth-child(4) {
+		margin-left: 10px !important;
+	}
+	.ethics_box:not(:nth-child(6)), .ethics_box:not(:nth-child(3)) {
+		margin-right: 10px !important;
+	}
+	.ethics_box {
+		width: 31% !important;
+		margin-bottom: 10px;
+	}
+	.ethics_section {
+		background: linear-gradient(360deg, #f5f5f7 97%, transparent 3%);
+	}
+	.sincerity_check_icon_col {
+		width: 13% !important;
+	}
+	.sincerity_check_text_col {
+		width: 87% !important;
+	}
+	.brand_promise {
+	    background-size: cover;
+	    background-position: bottom right;
+	}
+	.brand_promise_desc {
+		width: 43% !important;
+	}
+}
+@media (max-width: 999px) and (min-width: 577px) {
+	.ethics_box:not(:nth-child(6)), .ethics_box:not(:nth-child(3)) {
+		margin-right: 10px !important;
+	}
+	.ethics_box {
+		width: 31% !important;
+		margin-bottom: 10px;
+	}
+	.ethics_box_row {
+		justify-content: center !important;
+	}
+	.ethics_section {
+		background: linear-gradient(360deg, #f5f5f7 97%, transparent 3%);
+	}
+	.ethics_des_col {
+		padding-left: auto;
+	}
+	.sincerity_check_icon_col {
+		width: 13% !important;
+	}
+	.sincerity_check_text_col {
+		width: 87% !important;
+	}
+	.brand_promise {
+	    background-size: cover;
+	    background-position: bottom right;
+	}
+	.brand_promise_desc {
+		width: 55% !important;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.ethics_box_row {
+		column-gap: 0px;
+	}
+	.ethics_box {
+		width: 100% !important;
+		margin-bottom: 10px;
+	}
+	.sincerity_check_icon_col {
+		width: 30% !important;
+	}
+	.sincerity_check_text_col {
+		width: 70% !important;
+	}
+	.brand_promise_desc {
+		width: 100% !important;
+	}
+}

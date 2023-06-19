@@ -10,7 +10,7 @@
 			@include('layouts.header', ['page'=>'about_aya'])
         	<div class="menu-overlay"></div>
 
-			@include('layouts.banner', ['page'=>'news'])
+			@include('layouts.banner', ['page'=>'news','news_year'=>$news_year])
 
 			<div class="space-60"></div>
 			<div class="container">
@@ -18,7 +18,7 @@
 					<div class="col-md-9">
 						<div class="row">
 							@foreach($blog_list as $b_list)
-								<div class="col-md-4 mb-4">
+								<div class="news_blog col-md-4 mb-4">
 									<div class="row news_img_div">
 										<img src="{{ url($b_list->featured_image) }}" class="img-fluid">
 									</div>

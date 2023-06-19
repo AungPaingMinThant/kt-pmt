@@ -80,4 +80,39 @@ class SiteMapController extends Controller
     {
         return view('sitemap.personal.other-services');
     }
+
+    public function businessIndex()
+    {
+        return view('sitemap.business.business-banking');
+    }
+
+    public function businessACIndex()
+    {
+        return view('sitemap.business.account-saving');
+    }
+
+    public function businessRemitIndex()
+    {
+        return view('sitemap.business.remittance');
+    }
+
+    public function businessBorrowingIndex()
+    {
+        return view('sitemap.business.borrowing');
+    }
+    
+    public function businessTradeIndex()
+    {
+        return view('sitemap.business.trade');
+    }
+    
+    public function businessCashIndex()
+    {
+        return view('sitemap.business.cash-management');
+    }
+    
+    public function businessInsIndex()
+    {
+        return view('sitemap.business.insurance');
+    }
 }

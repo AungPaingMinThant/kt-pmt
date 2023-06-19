@@ -2,49 +2,48 @@
      <div class="row">
         <div class="text-center">
             <h1 class="text-uppercase" style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 60px;">{{$header_title}}</h1>
-            @if($header_title == 'Digital Services')
+            @if($page == 'digital_services' || $page == 'personal_banking' || $page == 'business_banking')
                 <p>
                     <a class="f-body-color" href="{{ url('/') }}">Home</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
                     <span class="text-capitalize">{{$header_title}}</span>
                 </p>
             @endif
-            @if($header_title == 'Online Payment Services' || $header_title == 'Card Services' || $header_title == 'Wallet Solution' || $header_title == 'Guideline')
+            @if($page == 'digital_online_payment' || $page == 'digital_card_services' || $page == 'digital_wallet' || $page == 'digital_guide')
                 <p>
                     <a class="f-body-color" href="{{ url('/digital-services') }}">Digital Services</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
                     <span class="text-capitalize">{{$header_title}}</span>
                 </p>
             @endif
-            @if($header_title == 'Merchant Services')
+            @if($page == 'digital_merchant_services')
                 <p>
                     <a class="f-body-color" href="{{ url('/digital-services') }}">Digital Services</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
                     <a class="f-body-color" href="{{ url('/digital-services/card-services') }}">Card Services</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
                     <span class="text-capitalize">{{$header_title}}</span>
                 </p>
             @endif
-            
-            @if($header_title == 'Personal Banking')
-                <p>
-                    <a class="f-body-color" href="{{ url('/') }}">Home</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-                    <span class="text-capitalize">{{$header_title}}</span>
-                </p>
-            @endif
-            @if($header_title == 'Account & Saving' || $header_title == 'Borrowing' || $header_title == 'Remittance & Payments' || $header_title == 'Insurance' || $header_title == 'Other Services')
+            @if($page == 'personal_banking_ac' || $page == 'personal_banking_borrowing' || $page == 'personal_banking_remit' || $page == 'personal_banking_ins' || $page == 'personal_banking_other_services')
                 <p>
                     <a class="f-body-color" href="{{ url('/personal-banking') }}">Personal Banking</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
                     <span class="text-capitalize">{{$header_title}}</span>
                 </p>
             @endif
-            @if($header_title == 'Hire Purchase')
+            @if($page == 'personal_banking_hirepurchase')
                 <p>
                     <a class="f-body-color" href="{{ url('/personal-banking') }}">Personal Banking</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
                     <a class="f-body-color" href="{{ url('/personal-banking/borrowing') }}">Borrowing</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
                     <span class="text-capitalize">{{$header_title}}</span>
                 </p>
             @endif
-            @if($header_title == 'Life Insurance' || $header_title == 'Travel Insurance')
+            @if($page == 'personal_banking_life_ins' || $page == 'personal_banking_travel_ins')
                 <p>
                     <a class="f-body-color" href="{{ url('/personal-banking') }}">Personal Banking</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
                     <a class="f-body-color" href="{{ url('/personal-banking/insurance') }}">Insurance</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+                    <span class="text-capitalize">{{$header_title}}</span>
+                </p>
+            @endif
+            @if($page == 'business_banking_ac' || $page == 'business_banking_remit' || $page == 'business_banking_borrowing' || $page == 'business_banking_trade' || $page == 'business_banking_trade' || $page == 'business_banking_cash' || $page == 'business_banking_ins')
+                <p>
+                    <a class="f-body-color" href="{{ url('/business-banking') }}">Business Banking</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
                     <span class="text-capitalize">{{$header_title}}</span>
                 </p>
             @endif

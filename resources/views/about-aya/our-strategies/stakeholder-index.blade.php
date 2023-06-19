@@ -1,7 +1,7 @@
 @extends('layouts.frontend-app')
 
 @section('title', 'Stakeholder Management – AYA Bank')
-<link rel="stylesheet" href="{{ url('/css/about-aya/ayabank-profile.css') }}">
+<link rel="stylesheet" href="{{ url('/css/about-aya/our-strategies.css') }}">
 
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
@@ -27,7 +27,6 @@
 					<h4 class="fw-bold">Engagement with Stakeholders</h4>
 				</div>
 				<div class="row stakeholder_table_div">
-					<!-- table-responsive text-nowrap sh_table_div -->
 					<div class="table-responsive">
 						<table class="table table-borderless sh_table stake_table">
 							<thead>

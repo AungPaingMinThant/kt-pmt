@@ -7,28 +7,43 @@ use Illuminate\Http\Request;
 
 class WhoWeAreController extends Controller
 {
-    public function meetOurLeadersIndex($value='')
+    public function meetOurLeadersIndex()
     {
         return view('about-aya.meet-our-leaders.index');
     }
 
-    public function profileIndex($value='')
+    public function contactBoardIndex()
+    {
+        return view('about-aya.meet-our-leaders.contact-board-index');
+    }
+
+    public function profileIndex()
     {
         return view('about-aya.corporate-profile.profile-index');
     }
 
-    public function shareHoldingIndex($value='')
+    public function shareHoldingIndex()
     {
         return view('about-aya.corporate-profile.share-holding-information-index');
     }
 
-    public function businessPracticeIndex($value='')
+    public function businessPracticeIndex()
     {
         return view('about-aya.corporate-profile.business-practices-index');
     }
 
-    public function stakeholderIndex($value='')
+    public function stakeholderIndex()
     {
         return view('about-aya.our-strategies.stakeholder-index');
+    }
+
+    public function missionIndex()
+    {
+        return view('about-aya.corporate-profile.mission-index');
+    }
+
+    public function corporateStrategyIndex()
+    {
+        return view('about-aya.our-strategies.corporate-strategy-index');
     }
 }

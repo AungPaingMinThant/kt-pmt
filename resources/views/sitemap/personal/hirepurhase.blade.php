@@ -1,6 +1,6 @@
 @extends('layouts.frontend-app')
 
-@section('title', 'Borrowing – AYA Bank')
+@section('title', 'Hire Purchase – Borrowing – AYA Bank')
 <link rel="stylesheet" href="{{ url('/css/site-map.css') }}" />
 
 @section('content')
@@ -10,7 +10,7 @@
             @include('layouts.header', ['page'=>'personal_banking'])
             <div class="menu-overlay"></div>
             <div>
-                @include('sitemap.sitemap-header', ['header_title'=>'Hire Purchase'])
+                @include('sitemap.sitemap-header', ['header_title'=>'Hire Purchase', 'page'=>'personal_banking_hirepurchase'])
 
                 <div class="container y-4">
                     <div class="row">

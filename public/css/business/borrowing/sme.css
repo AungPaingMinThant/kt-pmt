@@ -447,7 +447,113 @@
 	    left: 65%;
 	}
 }
-@media (max-width: 1270px) and (min-width: 1000px) {
+@media (max-width: 1270px) and (min-width: 1101px) {
+	.working_capital_loan_tagline, .aya_sme_loan_tagline, .jica_sme_two_step_loan_tagline, .agriculture_loan_tagline, .micro_loan_tagline {
+		font-size: 18px;
+	    line-height: 22px;
+	}
+	.working_capital_loan_tagline{
+		width: 90% !important;
+    	top: 75%;
+	}
+	.jica_sme_two_step_loan_tagline {
+	    width: 55% !important;
+	    top: 75%;
+	}
+	.aya_sme_loan_tagline {
+		width: 60% !important;
+		top: 75%;
+	}
+	.agriculture_loan_tagline{
+		width: 80% !important;
+	    top: 75%;
+	}
+	.micro_loan_tagline{
+		width: 80% !important;
+	    top: 75%;
+	}
+	.bullet_square {
+		width: 11%;
+	}
+	.c-b-l-icon {
+		width: 100% !important;
+	}
+	.fee_charge_table {
+	    width: 100% !important;
+	}
+	.need-to-know-point {
+	    margin-left: -3rem;
+	}
+	.should-apply-point {
+	    margin-left: -2rem;
+	}
+	.why_use_AYA_outer > .col-md-4 {
+	    width: 47%;
+	}
+	.benefit_icon {
+    	width: 15% !important;
+    }
+    .info_div {
+	    padding: 20px 20px 0px 20px;
+	}
+	.testimonial_quote {
+	    height: 400px;
+	    background-position: 76% center;
+	    top: 15%;
+	}
+	.success_story_section {
+	    margin-top: -60px !important;
+	}
+	.swiper-wrapper {
+	    height: 210% !important;
+	}
+	.swiper-slide-active {
+	    transform: scale(2.2) !important;
+	    font-size: 6.5px !important;
+	    opacity: 1;
+	}
+	.swiper-slide-active > .card-content > .row > .col-md-6 > .description {
+	    font-size: 6px !important;
+	}
+	.swiper-slide:not(.swiper-slide-active) > .card-content > .row > .col-md-6.photo_div {
+	    width: 65% !important;
+	}
+	.swiper-slide:not(.swiper-slide-active).swiper-slide-next > .card-content {
+	    margin-right: -65% !important;
+	}
+	.swiper-slide:not(.swiper-slide-active).swiper-slide-duplicate-prev > .card-content {
+	    margin-right: -30% !important;
+	}
+	.swiper-button-prev {
+	    left: 4% !important;
+	}
+	.swiper-button-next {
+	    right: 6% !important;
+	}
+	.phz_name_property {
+	    top: 58%;
+	}
+	.uzo_desc {
+	    padding-right: 15px;
+	    padding-left: 5px;
+	    margin-bottom: 5px;
+	}
+	.daw_than_shin_desc {
+	    padding-right: 20px;
+	    padding-left: 5px;
+	    margin-bottom: 5px;
+	}
+	.daw_than_shin_name_property {
+	    position: absolute;
+	    right: 0;
+	    top: 60%;
+	    left: 65%;
+	}
+	.micro_loan_points {
+	    margin-left: -1rem;
+	}
+}
+@media (max-width: 1100px) and (min-width: 1000px) {
 	.working_capital_loan_tagline, .aya_sme_loan_tagline, .jica_sme_two_step_loan_tagline, .agriculture_loan_tagline, .micro_loan_tagline {
 		font-size: 18px;
 	    line-height: 22px;

@@ -141,7 +141,7 @@
 								</div>
 
 								<div class="space-20"></div>
-								<a class="text-decoration-underline theme_text_color" href="{{ url('/file/about-aya/meet-our-leaders/Contact the Board of Directors.docx') }}" target="_blank">Contact to the Board</a>
+								<a class="text-decoration-underline theme_text_color" href="{{ url('/about-aya/who-we-are/leadership/meet-our-leaders/contact-to-board') }}" target="_blank">Contact to the Board</a>
 							</div>
 						</div>
 						<div class="tab-pane executive-management-team fade" id="navs-pills-top-emt" role="tabpanel" style="background: transparent;padding-bottom: 30px;">
@@ -244,7 +244,7 @@
 										<div class="card h-100">
 											<img src="{{ url('/images/about-aya/meet-our-leaders/nay_lin_htut.webp') }}" alt="Daw Lwin Lwin Aung< | Executive Management Team | Chief Financial Officer" class="card-img-top">
 											<div class="card-body">
-												<h5 class="card-title fw-semibold mb-0">Nay Lin Htut</h5>
+												<h5 class="card-title fw-semibold mb-0">U Nay Lin Htut</h5>
 												<p class="mb-4">Chief Credit Officer</p>
 												<a class="view_bio_link theme_text_color" data-bs-toggle="modal" data-bs-target="#nay_lin_htut_bio_modal">View Bio <i class='bx bx-chevron-right' style="font-size: 18px;"></i></a>
 											</div>
@@ -297,7 +297,7 @@
 						<p class="mb-0">Myanmar</p>
 						<p>Executive Chairman</p>
 
-						<p class="mb-10 bio_detail">Daw Khin Saw Oo, a veteran banker of over 40 years of experience in monetary and financial sector, is the Executive Chairman and a member of the Board of Directors of Ayeyarwady Bank (AYA Bank Ltd.). She held the position of Vice-Chairman since she joined the AYA Bank in 2018. She is one of the driving forces of AYA Bank’s move towards a more accountable, responsible, and transparent organization. Her visionary leadership and zealous efforts resulted her in re-designation as the Executive Chairman of AYA Bank in May 2021.</p>
+						<p class="mb-10 bio_detail">Daw Khin Saw Oo, a veteran banker of over 40 years of experience in monetary and financial sector, is the Executive Chairman and a member of the Board of Directors of Ayeyarwady Bank (AYA Bank PCL.). She held the position of Vice-Chairman since she joined the AYA Bank in 2018. She is one of the driving forces of AYA Bank’s move towards a more accountable, responsible, and transparent organization. Her visionary leadership and zealous efforts resulted her in re-designation as the Executive Chairman of AYA Bank in May 2021.</p>
 						<p>She was formerly, the Deputy Governor of the Central Bank of Myanmar and retired in July 2017. She had the professional experience as a Technical Assistant to the Executive Director in the South-East Asia Voting Group Office, International Monetary Fund (IMF). She had the vast exposure to numerous ASEAN and International financial platforms during her Deputy-Governorship at the Central Bank of Myanmar. She has been selected as the Chairperson of the Myanmar Banks Association for two years term starting from May 2021.</p>
 						<p>She holds a master’s degree in International Affairs (Economic Policy Management) from Columbia University of New York, U.S.A. She got her bachelor’s degree of Economics (Mathematical Statistics) and a Diploma in Economic Planning from the Institute of Economics, Yangon.</p>
 					</div>
@@ -321,7 +321,7 @@
 						<p class="mb-0">Myanmar</p>
 						<p>Vice-Chairman<br>(Executive)</p>
 
-						<p class="mb-10 bio_detail">U Than Zaw is a member of the Board of Directors of AYA Bank and presently holds the position of Vice-Chairman. He was appointed as the Managing Director to AYA Bank from 2011 to 2013. During his tenure, he has led the fledging Bank to grow its brand and network in Myanmar. He also heads AYA Sompo Insurance as a Vice-Chairman. U Than Zaw’s vast experience includes eight-year tenure with the Olympics Committee as a Treasurer and another two years as the Chief Executive Officer of the Myanmar Football Federation. He is instrumental in strengthening systems and procedures by taking initiatives. U Than Zaw has been giving the guidance at Board level regards to policies, practices to ensure the bank in full compliance with stipulated laws and regulations.</p>
+						<p class="mb-10 bio_detail">U Than Zaw is a member of the Board of Directors of AYA Bank and presently holds the position of Vice-Chairman. He was appointed as the Managing Director to AYA Bank from 2011 to 2013. During his tenure, he has led the fledging Bank to grow its brand and network in Myanmar. He also heads AYA SOMPO Insurance as a Vice-Chairman. U Than Zaw’s vast experience includes eight-year tenure with the Olympics Committee as a Treasurer and another two years as the Chief Executive Officer of the Myanmar Football Federation. He is instrumental in strengthening systems and procedures by taking initiatives. U Than Zaw has been giving the guidance at Board level regards to policies, practices to ensure the bank in full compliance with stipulated laws and regulations.</p>
 					</div>
 				</div>
 			</div>
@@ -387,7 +387,7 @@
 
 						<h5 class="card-title theme_text_color fw-semibold mb-0">U Myint Zaw</h5>
 						<p class="mb-0">Myanmar</p>
-						<p>Chief Executive Officer<br>(Executive)</p>
+						<p>Chief Executive Officer</p>
 
 						<p class="mb-10 bio_detail">U Myint Zaw is a member of the Board of Directors of AYA Bank. He has been appointed as Managing Director in 2017, re-appointed as Senior Managing Director in 2021 and Chief Executive Officer in 2022 for his growth initiatives, leadership abilities, and managing the strategic direction of the Bank. He graduated with B-Econ (Economics) and received a Master of Public Administration (MPA) as well. He held various senior positions in Advertising and Marketing for well-established and reputable international and local companies in the private sector.</p>
 						<p>His professional background comes from over 25 years of working experience from different industries in Agriculture, Advertising, Commodity Future Market, Beverage and Soft Drink Industry, Telecommunications and Education. Before joining AYA Bank, U Myint Zaw founded Professional Marketers Association (PMA) and developed Ground Solution Company that provided management and consultancy services.</p>
@@ -483,7 +483,7 @@
 						<p>Managing Director (Corporate Business)</p>
 
 						<p class="mb-10 bio_detail">Daw Jasmine Thazin Aung is the Managing Director – Head of Corporate Banking of AYA Bank and Chief Executive Director of Max Global Investment. In her capacity with AYA Bank, she takes charge of Corporate Banking Business and Financial Institutions establishment. She is a member of the Executive Committee of AYA Bank.</p>
-						<p>In addition to her MD – Head of Corporate Banking role, she also co-heads and takes several roles with AYA Financial Group (“AFG”). With AFG, she takes charge of AYA Trust Securities Co., Ltd as the Managing Director for Capital Market Activities including securities brokerage and Corporate Finance Transactions, and she is also the member of the Board of Directors of AYA Sompo Insurance Co., Ltd. From her capacity with Corporate Finance activities, she oversees and monitors diversified investment portfolios that includes existing, on-going, and new business ventures of Chairman’s investment office as well new Mergers and Acquisitions [“M&A”], Joint Ventures with Potential Partners for AYA Financial Group’s entities and/or investment in new ventures.</p>
+						<p>In addition to her MD – Head of Corporate Banking role, she also co-heads and takes several roles with AYA Financial Group (“AFG”). With AFG, she takes charge of AYA Trust Securities Co., Ltd as the Managing Director for Capital Market Activities including securities brokerage and Corporate Finance Transactions, and she is also the member of the Board of Directors of AYA SOMPO Insurance Co., Ltd. From her capacity with Corporate Finance activities, she oversees and monitors diversified investment portfolios that includes existing, on-going, and new business ventures of Chairman’s investment office as well new Mergers and Acquisitions [“M&A”], Joint Ventures with Potential Partners for AYA Financial Group’s entities and/or investment in new ventures.</p>
 						<p>She holds a master’s degree in Business Administration (Corporate Finance) from Nottingham Trent University. Before joining AYA Financial Group and Max Global Investment, she was a PwC Advisory Partner and local Lead Director/Partner for PwC Myanmar. She has over 16 years of professional experiences including 11.5 years with PwC Singapore and PwC Myanmar for audit, financial advisory and consulting and 5 years in the Maritime service industry in Myanmar.</p>
 					</div>
 				</div>

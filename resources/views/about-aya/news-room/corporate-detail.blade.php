@@ -31,17 +31,24 @@
 								<?php
 									$blogfiles = App\Models\BlogFile::where('blog_id',$blog->id)->first();
 								?>
-								<img src="{{ url($blogfiles->file_path) }}" class="img-fluid">
+								<div class="col-md-4">
+									<img src="{{ url($blogfiles->file_path) }}" class="img-fluid">
+								</div>
 							@endif
 							@if($blog->media_type == 2)
 								<?php
 									$blogfiles = App\Models\BlogFile::where('blog_id',$blog->id)->get();
+									$bfile_count = 1;
+									$bfile_count_modal = 1;
 								?>
-								@foreach($blogfiles as $b_file)
-									<div class="col-md-4">
-										<img src="{{ url($b_file->file_path) }}" class="img-fluid">
-									</div>
-								@endforeach
+								<div class="row">
+									@foreach($blogfiles as $b_file)
+										<div class="col-md-4 mb-30" >
+											<img src="{{ url($b_file->file_path) }}" class="img-fluid">
+										</div>
+										@php $bfile_count = $bfile_count + 1; @endphp
+									@endforeach
+								</div>
 							@endif
 							@if($blog->media_type == 3)
 							@endif
@@ -61,12 +68,21 @@
 						<div class="space-30"></div>
 
 						<div class="row pl-1">
-							<h4 class="fw-semibold mt-minus-10 mb-0">Categories</h4>
+							<h4 class="fw-semibold mt-minus-10 mb-0">Related News</h4>
 							<hr class="cat-bottom-hr">
-							@foreach($categories as $cat)
-								<p>
-									<a href="#" class="f-body-color">{{ $cat->category_name }}</a>
-								</p>
+
+							<?php
+								$related = App\Models\Blog::where('id','!=',$blog->id)->orderBy('publish_date', 'desc')->limit(3)->get();
+							?>
+							@foreach($related as $rel)
+								<div class="row">
+									<div class="news_title_div">
+										<a href="{{ url('/about-aya/news-room/corporate-news/'.$rel->permalink) }}">
+											<p class="news_title">{{ $rel->blog_title }}</p>
+										</a>
+									</div>
+									<hr>
+								</div>
 							@endforeach
 						</div>
 					</div>
@@ -79,6 +95,8 @@
 
 <div class="space-60"></div>
 @include('layouts.footer', ['page'=>''])
-
+<script type="text/javascript">
+	
+</script>
 
 @endsection('content')

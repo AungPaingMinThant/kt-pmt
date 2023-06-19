@@ -280,7 +280,7 @@
 			</div>
 
 			<div class="container faq_section">
-				<div class="row" style="padding: 25px 20px;background-color: #f5f5f7;border-radius: 6px;">
+				<!-- <div class="row" style="padding: 25px 20px;background-color: #f5f5f7;border-radius: 6px;">
 					<div class="col-md-9 col-xs-12 d-none d-sm-block">
 						<p style="font-size: 18px;color: #2e2e2e;font-weight: 600;margin-bottom: 0;">Get in Touch!</p>
 						<p style="color: #2e2e2e;font-weight: 400;font-size: 17px;margin-bottom: 0px;">Making your future secure with us, find your nearest branch to apply in person.</p>
@@ -300,7 +300,7 @@
 							<button class="btn read_more_btn">Find Branches</button>
 						</a>
 					</div>
-				</div>
+				</div> -->
 
 				<div class="space-40"></div>
 				

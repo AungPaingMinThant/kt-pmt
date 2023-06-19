@@ -12,7 +12,7 @@
 
 			@include('layouts.banner', ['page'=>'premium_banking'])
 
-			<div class="" style="background-image: url('./images/premium-banking/bg.jpg');background-size: cover;background-repeat: no-repeat;">
+			<div class="" style="background-image: url('../images/premium-banking/bg.jpg');background-size: cover;background-repeat: no-repeat;">
 				<div class="container section_1">
 					<div class="space-60"></div>			
 					<div class="row intro_box_bg">
@@ -20,7 +20,7 @@
 							<p style="">Sail on a journey of excellence with exclusive privileges offered by AYA Royal Banking</p>			
 						</div>
 						<div class="col-md-12 text-center intro_desc">
-							<p style="margin-bottom:5px;color: #cccccc;">Our specialized banking solution delivers you an array of special benefits, personalized and rich banking experiences through premium services. Royal Banking is more than just another account, it provides you a range of exclusive offers and lifestyle benefits.</p>							
+							<p>Our specialized banking solution delivers you an array of special benefits, personalized and rich banking experiences through premium services. Royal Banking is more than just another account, it provides you a range of exclusive offers and lifestyle benefits.</p>							
 						</div>
 					</div>
 
@@ -174,8 +174,8 @@
 				</div>
 			</div>
 
-			<div style="background-color: #272727;background-image: url('./images/premium-banking/plan_section_bottom_bg.png');background-position: center bottom;background-repeat: no-repeat;">
-				<div class="container">
+			<div style="background-color: #272727;background-image: url('../images/premium-banking/plan_section_bottom_bg.png');background-position: center bottom;background-repeat: no-repeat;">
+				<div class="container plan_section_container">
 					<div class="space-60"></div>
 					<div class="row text-center">
 						<p style="font-weight: 700;font-size: 30px;">Become a Royal Member</p>
@@ -183,7 +183,7 @@
 					<div class="space-40"></div>
 					<div class="row">
 						<div class="col-md-3 planA">
-							<div class="row" style="background-color: #555;padding: 40px 20px;background-image: url('./images/premium-banking/package_bottom_bg.png');background-position: center bottom;background-repeat: no-repeat;border-radius: 10px;box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);">
+							<div class="row">
 								<p class="fw-500 mb-0" style="font-size: 16px;">Package A</p>
 								<p class="mb-0 fw-light">300 Million</p>
 								<p class="mb-10">Bearing 8% of Interest Rate</p>
@@ -248,7 +248,7 @@
 							</div>
 						</div>
 						<div class="col-md-3 planB">
-							<div class="row" style="background-color: #665a34;padding: 40px 20px;background-image: url('./images/premium-banking/package_B_bottom_bg.png');background-position: center bottom;background-repeat: no-repeat;border-radius: 10px;box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);">
+							<div class="row">
 								<p class="fw-500 mb-0" style="font-size: 16px;">Package B</p>
 								<p class="mb-0 fw-light">500 Million</p>
 								<p class="mb-10">Bearing 8.25% of Interest Rate</p>
@@ -313,10 +313,10 @@
 							</div>
 						</div>
 						<div class="col-md-3 planC">
-							<div class="row" style="background-color: #705400;padding: 40px 20px;background-image: url('./images/premium-banking/package_C_bottom_bg.png');background-position: center bottom;background-repeat: no-repeat;border-radius: 10px;box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);">
+							<div class="row">
 								<p class="fw-500 mb-0" style="font-size: 16px;">Tier 1</p>
-								<p class="mb-10 fw-light">300 Million (Individual Account) bearing 8% of Interest rate</p>
-								<p class="mb-10 fw-light">500 Million (Joint Account) bearing 8.25% of Interest rate</p>
+								<p class="mb-10 fw-light">300 Million (Individual)<br>Bearing 8% of Interest rate</p>
+								<p class="mb-10 fw-light">500 Million (Joint)<br>Bearing 8.25% of Interest rate</p>
 								<p class="fw-light">Fixed Deposit at least One Year</p>
 								<div class="space-20"></div>
 								<div class="col-2 text-right" style="padding-right: 0;">
@@ -402,7 +402,23 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Insurance Coverage</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
 									<p style="font-size: 11px;margin-bottom: 10px;">Membership at F1 Gym or Dagon Golf City</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Hanthawady VIP Room</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -418,7 +434,7 @@
 							</div>
 						</div>
 						<div class="col-md-3 planD">
-							<div class="row" style="background-color: #7f4f08c7;padding: 40px 20px;background-image: url('./images/premium-banking/package_C_bottom_bg.png');background-position: center bottom;background-repeat: no-repeat;border-radius: 10px;box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);">
+							<div class="row">
 								<p class="fw-500 mb-0" style="font-size: 16px;">Tier 2</p>
 								<p class="mb-10 fw-light">500 Million - 10 Billion </p>
 								<p class="mb-10 fw-light">Minimum of Fixed Deposit 500 Million at least six months</p>
@@ -515,7 +531,23 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Insurance Coverage</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
 									<p style="font-size: 11px;margin-bottom: 10px;">Membership at F1 Gym or Dagon Golf City</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Hanthawady VIP Room</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -611,7 +643,7 @@
 				</div>
 			</div>
 
-			<div style="background-image: url('./images/premium-banking/explore_membership_bg.jpg');background-position: center;background-repeat: no-repeat;">
+			<div style="background-image: url('../images/premium-banking/explore_membership_bg.jpg');background-position: center;background-repeat: no-repeat;">
 				<div class="space-60"></div>
 				<div class="row text-center" style="width: 100%;margin: 0;">
 					<div class="col-md-12">

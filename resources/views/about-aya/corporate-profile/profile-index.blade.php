@@ -37,7 +37,7 @@
 
 				<div class="row">
 					<div class="col">
-						<p>AYA Bank is the country’s one of the largest banks with more than (3.2) million customers and (265) branches. Our large and loyal customer base has been one of the key drivers of our success, allowing us for rapid growth over the years. The Bank focus on deepening relationships with customers, providing best-in-class customer service, and leveraging technology as the enabler to rapidly expand the customer base.</p>
+						<p>AYA Bank is the country’s one of the largest banks with almost (3) million customers and (265) branches. Our large and loyal customer base has been one of the key drivers of our success, allowing us for rapid growth over the years. The Bank focus on deepening relationships with customers, providing best-in-class customer service, and leveraging technology as the enabler to rapidly expand the customer base.</p>
 					</div>
 				</div>
 
@@ -52,6 +52,7 @@
 							<div class="col-md-4 text-center">
 								<img src="{{ url('/images/about-aya/ayabank-profile/native_name.webp') }}" class="img-fluid corporate_information_icon rounded-circle">
 								<p class="mb-0">Native Name</p>
+								<p class="mb-0 fw-semibold">ဧရာဝတီဘဏ်</p>
 								<p class="fw-semibold">AYEYARWADY BANK</p>
 							</div>
 							<div class="col-md-4 text-center">
@@ -61,14 +62,14 @@
 							</div>
 							<div class="col-md-4 text-center">
 								<img src="{{ url('/images/about-aya/ayabank-profile/u_zaw.webp') }}" class="img-fluid corporate_information_icon rounded-circle">
-								<p class="mb-0">Founder/Key Persons</p>
+								<p class="mb-0">Founder/Key Person</p>
 								<p class="fw-semibold">U Zaw Zaw<br>(Founder and Chairman)</p>
 							</div>
 						</div>
 						<div class="row corporate_information_row">
 							<div class="col-md-4 text-center">
 								<img src="{{ url('/images/about-aya/ayabank-profile/daw_khin_saw_oo.webp') }}" class="img-fluid corporate_information_icon rounded-circle">
-								<p class="mb-0">Key Persons</p>
+								<p class="mb-0">Key Person</p>
 								<p class="fw-semibold">Daw Khin Saw Oo<br>(Executive Chairman)</p>
 							</div>
 							<div class="col-md-4 text-center">
@@ -85,7 +86,7 @@
 						<div class="row corporate_information_row">
 							<div class="col-md-4 text-center">
 								<img src="{{ url('/images/about-aya/ayabank-profile/headquarter.webp') }}" class="img-fluid corporate_information_icon rounded-circle">
-								<p class="mb-0">Headquarters</p>
+								<p class="mb-0">Headquarter</p>
 								<p class="fw-semibold">Yangon, Myanmar</p>
 							</div>
 							<div class="col-md-4 text-center">

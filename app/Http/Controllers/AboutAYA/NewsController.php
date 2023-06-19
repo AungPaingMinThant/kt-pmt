@@ -18,7 +18,20 @@ class NewsController extends Controller
 
         return view('about-aya.news-room.corporate')->with('blog_list',$blog_list)
                                                     ->with('yearList',$yearList)
-                                                    ->with('categories',$categories);
+                                                    ->with('categories',$categories)
+                                                    ->with('news_year','');
+    }
+
+    public function corporateYearIndex($year)
+    {
+        $categories = Category::where('id','!=',4)->get();
+        $blog_list = Blog::where('blog_category',4)->where('publish_year',$year)->orderBy('publish_date','desc')->paginate(9);
+        $yearList = Blog::select('publish_year')->where('blog_category',4)->groupBy('publish_year')->orderBy('publish_date','desc')->get();
+
+        return view('about-aya.news-room.corporate')->with('blog_list',$blog_list)
+                                                    ->with('yearList',$yearList)
+                                                    ->with('categories',$categories)
+                                                    ->with('news_year',$year);
     }
 
     public function corporateDetailIndex($permalink)
@@ -29,6 +42,7 @@ class NewsController extends Controller
 
         return view('about-aya.news-room.corporate-detail')->with('blog',$blog)
                                                             ->with('yearList',$yearList)
-                                                            ->with('categories',$categories);
+                                                            ->with('categories',$categories)
+                                                            ->with('news_year','');
     }
 }

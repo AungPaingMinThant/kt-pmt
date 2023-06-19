@@ -97,7 +97,7 @@
 											<div class="card-body">
 												<p class="card-title fw-semibold mb-20">On-Going Monitoring of High-Risk Transactions and Accounts</p>
 												<div class="sidebar-box sidebar-box-3">
-													<p>A orisk-based approach is employed to monitor high-risk transactions or customers, specifically targeting money laundering and terrorist financing activities. By understanding the normal and reasonable account activity of customers, the bank can identify and investigate unusual or suspicious patterns of activity.</p>
+													<p>A risk-based approach is employed to monitor high-risk transactions or customers, specifically targeting money laundering and terrorist financing activities. By understanding the normal and reasonable account activity of customers, the bank can identify and investigate unusual or suspicious patterns of activity.</p>
 													<p class="read-more"><a class="button">&nbsp;</a></p>
 												</div>
 
@@ -129,7 +129,7 @@
 			                        	<div class="swiper_detail_card card h-100">
 											<img src="{{ url('/images/about-aya/risk-management/reporting_suspicious_transaction.webp') }}" alt="Managing Risk" class="card-img-top">
 											<div class="card-body">
-												<p class="card-title fw-semibold mb-20">Reporting of Suspicious Transactions/Record Keeping</p>
+												<p class="card-title fw-semibold mb-20">Record Keeping of Suspicious Transactions</p>
 												<div class="sidebar-box sidebar-box-5">
 													<p>The Bank maintains detailed records of suspicious transactions, along with relevant investigation details and decisions made. These records are retained for the required period, in accordance with the Bank's policy and regulatory requirements.</p>
 													<p class="read-more"><a class="button">&nbsp;</a></p>
@@ -195,6 +195,7 @@
 			                </div>
 			            </div>
 			        </div>
+			        <p style="padding-left: 20px;margin-top: -40px;">By diligently implementing these compliance measures, AYA Bank aims to foster a culture of integrity, maintain the trust of its customers and stakeholders, and operate within the boundaries of applicable laws and regulations.</p>	
 				</div>
 				<div class="col-md-1 col-md-1-sec" style="position: relative;">
 					<div class="swiper-button-next swiper-navBtn" ></div>
