@@ -11,6 +11,7 @@ use App\Models\Blog;
 use App\Models\BlogFile;
 use App\Models\SearchKeyword;
 use DB;
+use URL;
 
 class BlogController extends Controller
 {
@@ -52,7 +53,7 @@ class BlogController extends Controller
         if ($request->hasFile('featured_image')) {
             $imagefile = $request->file('featured_image');
             $file = $imagefile->getClientOriginalName();
-            $upload_path = public_path() . '/blog_images/';
+            $upload_path = URL::to('/') . '/blog_images/';
             $imagefile->move($upload_path, $file);
             $featured_img_path = "blog_images/" . $file;
         }
@@ -83,7 +84,7 @@ class BlogController extends Controller
             if ($request->hasFile('single_image')) {
                 $imagefile = $request->file('single_image');
                 $file = $imagefile->getClientOriginalName();
-                $upload_path = public_path() . '/blog_images/';
+                $upload_path = URL::to('/') . '/blog_images/';
                 $imagefile->move($upload_path, $file);
                 $news_img_path = "blog_images/" . $file;
 
@@ -96,7 +97,7 @@ class BlogController extends Controller
             if ($request->hasFile('multiple_image')) {
                 foreach ($request->file('multiple_image') as $imagefile) {
                     $file = $imagefile->getClientOriginalName();
-                    $upload_path = public_path() . '/blog_images/';
+                    $upload_path = URL::to('/') . '/blog_images/';
                     $imagefile->move($upload_path, $file);
                     $news_img_path = "blog_images/" . $file;
 
@@ -168,7 +169,7 @@ class BlogController extends Controller
             if ($request->hasFile('featured_image')) {
                 $imagefile = $request->file('featured_image');
                 $file = $imagefile->getClientOriginalName();
-                $upload_path = public_path() . '/blog_images/';
+                $upload_path = URL::to('/') . '/blog_images/';
                 $imagefile->move($upload_path, $file);
                 $featured_img_path = "blog_images/" . $file;
             }
@@ -211,7 +212,7 @@ class BlogController extends Controller
 
                     $imagefile = $request->file('single_image');
                     $file = $imagefile->getClientOriginalName();
-                    $upload_path = public_path() . '/blog_images/';
+                    $upload_path = URL::to('/') . '/blog_images/';
                     $imagefile->move($upload_path, $file);
                     $news_img_path = "blog_images/" . $file;
 
@@ -226,7 +227,7 @@ class BlogController extends Controller
 
                     foreach ($request->file('multiple_image') as $imagefile) {
                         $file = $imagefile->getClientOriginalName();
-                        $upload_path = public_path() . '/blog_images/';
+                        $upload_path = URL::to('/') . '/blog_images/';
                         $imagefile->move($upload_path, $file);
                         $news_img_path = "blog_images/" . $file;
 
