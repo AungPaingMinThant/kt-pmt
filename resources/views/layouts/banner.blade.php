@@ -61,7 +61,7 @@
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 45px;left: 20px;right: 120px;">
+					<div style="position: absolute;top: 45px;left: 20px;right: 160px;">
 						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;">Banking with AYA is <span style="color: #A5000B;">easier</span> than <span style="color: #A5000B;">"ABC..."</span></h1>
 					</div>
 				</div>
