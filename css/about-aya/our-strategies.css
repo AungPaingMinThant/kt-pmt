@@ -66,6 +66,7 @@
 }
 .pillar_graphic_outer {
 	padding: 0px 45px !important;
+	margin-bottom: 20px;
 }
 .sale_productivity {
 	background-image: url('../../images/about-aya/corporate-strategy/sale_productivity.webp');	
@@ -382,7 +383,7 @@
 	
 	/* Corporate Strategy */
 	.pillar_graphic_outer {
-	    padding: 0px 70px !important;
+	    padding: 0px 80px !important;
 	    margin-bottom: 20px;
 	}
 	.our_key_enabler_section {
