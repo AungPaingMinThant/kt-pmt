@@ -20,7 +20,7 @@
 				</div>
 				<div class="space-20"></div>
 				<div class="row">
-					<h4 class="fw-bold">Our Corporate Values (ETHICS)</h4>
+					<h4 class="fw-bold">Our Corporate Values</h4>
 					<p>Our shared core values form the foundation of the AYA Bank. These values underpin every aspect of all our business dealings, irrespective of the business or jurisdiction involved.</p>
 				</div>
 				<div class="space-20"></div>
