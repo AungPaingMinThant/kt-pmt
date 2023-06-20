@@ -76,6 +76,9 @@
 	.why_use_AYA {
 		display: table-cell !important;
 	}
+	.pos_fact_margin {
+		margin-left: -30px;
+	}
 	.secure_req_application_icon {
 		background-color: #A5000B;
 		color: #fff;
@@ -120,6 +123,9 @@
 		}
 		.ecommerce_registration_container {
 			padding: 40px 0px 40px 40px !important;
+		}
+		.pos_fact_margin {
+			margin-left: -10px;
 		}
 	}
 </style>
@@ -227,7 +233,7 @@
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
+											<div class="col-md-11 col-10 secure_credit_fact pos_fact_margin">
 												<p>Online services are offered with most debit and credit cards including Myanmar Payment Union (MPU), UPI, JCB, Visa, Mastercard on a real-time basis.</p>
 											</div>
 										</div>
@@ -235,7 +241,7 @@
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
+											<div class="col-md-11 col-10 secure_credit_fact pos_fact_margin">
 												<p>POS Terminal is integrated with AYA Pay Merchant Application.</p>
 											</div>
 										</div>
@@ -255,7 +261,7 @@
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
+											<div class="col-md-11 col-10 secure_credit_fact pos_fact_margin">
 												<p>Free deployment, user training and on-site support.</p>
 											</div>
 										</div>
@@ -263,7 +269,7 @@
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
+											<div class="col-md-11 col-10 secure_credit_fact pos_fact_margin">
 												<p>Payment integration can be made to your existing POS system.</p>
 											</div>
 										</div>
@@ -271,7 +277,7 @@
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
+											<div class="col-md-11 col-10 secure_credit_fact pos_fact_margin">
 												<p>Payment integration can be made to your existing POS system.</p>
 											</div>
 										</div>
@@ -279,15 +285,7 @@
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
-												<p>24/7 hotline support is available for any technical error</p>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-md-1 col-2" style="padding-top: 5px;">
-												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-											</div>
-											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
+											<div class="col-md-11 col-10 secure_credit_fact pos_fact_margin">
 												<p>24/7 hotline support is available for any technical error</p>
 											</div>
 										</div>
@@ -307,7 +305,7 @@
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
+											<div class="col-md-11 col-10 secure_credit_fact pos_fact_margin">
 												<p>Call us at <a href="tel:+959258889973" style="color: #A5000B">+(95) 9 25 888 9973</a>, <a href="tel:+959258889937" style="color: #A5000B">+(95) 9 25 888 9937</a> or visit any of our Branches for more details.</p>
 											</div>
 										</div>
@@ -315,7 +313,7 @@
 											<div class="col-md-1 col-2" style="padding-top: 5px;">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
-											<div class="col-md-11 col-10 secure_credit_fact ml-minus-30">
+											<div class="col-md-11 col-10 secure_credit_fact pos_fact_margin">
 												<p>You may also email us at <a href="mailto:mchsupport.card@ayabank.com" style="color: #A5000B">mchsupport.card@ayabank.com</a> and arrange our Relationship Manager to call you.</p>
 											</div>
 										</div>

@@ -191,7 +191,7 @@
 					</div>
 					<div class="brand_promise">
 						<div class="col-md-4 brand_promise_desc">
-							<p>AYA Bank is the bank of choice for anyone who is looking for fast, reliable, honest banking relation-ships at reasonable cost. AYA Bank offers the full range of retail and commercial banking products and services and is in tune with domestic customs and international standards in its governance and operations.</p>
+							<p>AYA Bank is the bank of choice for anyone who is looking for fast, reliable, honest banking relationships. AYA Bank offers the full range of retail and commercial banking products and services and is in tune with domestic customs and international standards in its governance and operations.</p>
 							<p>For your long-term banking needs, AYA bank is your trusted partner in Myanmar.</p>
 						</div>
 						<div class="col-md-8"></div>

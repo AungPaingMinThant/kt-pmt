@@ -1,3 +1,6 @@
+.desk_slide {
+	width: 110%;
+}
 .xl_slide {
 	display: none;
 }
@@ -172,10 +175,6 @@
     top: 70px;
     left: 20%;
 }
-
-
-
-
 .carousel-caption-desc-2 {
 	color: #000 !important;
 	font-size: 20px;
@@ -422,24 +421,45 @@
 	.news_img_div {
 	    height: 180px;
 	}
+	.carousel-item-2 {
+		background-position: 50% center;
+	}
+	.carousel-item-3 {
+		background-position: 30% center;
+	}
+	.desk_slide {
+		width: 116%;
+	}
 }
 @media (max-width: 1300px) and (min-width: 1271px) {
 	.news_img_div {
 	    height: 170px;
 	}
-}
-@media (max-width: 1270px) and (min-width: 1101px) {
-	.carousel-caption {
-		top: 25%;
+	.desk_slide {
+		width: 123% !important;
 	}
-	.carousel-caption-title {
-		font-size: 50px;
+	.carousel-item-2 {
+		background-position: 50% center;
 	}
-	.carousel-caption-2 {
-		top: 5%;
+	.carousel-item-3 {
+		background-position: 40% center;
 	}
 	.carousel-caption-3 {
-		top: 15% !important;
+		left: 6% !important;
+	}
+}
+@media (max-width: 1270px) and (min-width: 1101px) {
+	.desk_slide {
+		width: 140% !important;
+	}
+	.carousel-item-2 {
+		background-position: 40% center;
+	}
+	.carousel-caption-3 {
+		left: 0 !important;
+	}
+	.carousel-item-3 {
+	    background-position: 30% center;
 	}
 	.app_detail_div, .ayapay_app_detail_div {
 		top: 110px;
@@ -484,18 +504,64 @@
 	}
 }
 @media (max-width: 1100px) and (min-width: 1000px) {
-	.carousel-caption {
-		top: 25%;
+	.desk_slide {
+		width: 160%;
 	}
-	.carousel-caption-title {
-		font-size: 50px;
+	.carousel-item-2 {
+		background-position: 25% center;
+	}
+	.carousel-2-caption-title, .carousel-4-caption-title {
+		font-size: 30px;
+    	line-height: 20px;
 	}
 	.carousel-caption-2 {
-		top: 5%;
+		left: 28% !important;
 	}
 	.carousel-caption-3 {
-		top: 15% !important;
+		left: 12% !important;
 	}
+	.carousel-2-caption-desc {
+	    font-size: 30px;
+	    line-height: 20px;
+	    margin-left: 30px;
+	}
+	.carousel-2-caption-desc-2 {
+	    font-size: 30px;
+	    line-height: 20px;
+	    margin-left: 70px;
+	}
+	.carousel-item-3 {
+	    background-position: 15% center;
+	}
+	.carousel-3-caption-title, .carousel-3-caption-desc {
+	    font-size: 40px;
+	    line-height: 30px;
+	}
+	.carousel-3-caption-desc-2 {
+		font-size: 30px;
+	    line-height: 30px;
+	    font-weight: 500;
+	    margin-left: 60px;
+	    margin-top: 20px;
+	    padding-right: 35%;
+	}
+	.carousel-item-4 {
+		background-position: 60% center;
+	}
+	.carousel-4-caption-desc {
+	    font-size: 30px;
+	    line-height: 30px;
+	    margin-left: 30px;
+	    padding-right: 40%;
+	}
+	.carousel-4-caption-desc-2 {
+	    font-size: 30px;
+	    line-height: 30px;
+	    margin-left: 70px;
+	    margin-top: 10px;
+	    padding-right: 60%;
+	}
+	
 	.app_detail_div, .ayapay_app_detail_div {
 		top: 90px;
 	}
@@ -670,58 +736,109 @@
 }
 @media only screen and (max-width: 576px){
 	.carousel, .carousel-item {
-	    height: auto;
+	    height: 400px;
 	}
-	.carousel-caption {
-	    top: 40px !important;
-	    left: 40% !important;
+	.carousel-item-1-mobile {
+		background-image: url('../images/home/KV_slider_mobile_1.webp');
+		background-size: cover;
+		background-position: 30% center;
 	}
-	.carousel-caption-2 {
-	    top: -5px !important;
-    	left: 25% !important;
-    	text-shadow: 0 0 20px #e7ecec;
+	.carousel-item-2-mobile {
+		background-image: url('../images/home/KV_slider_2_mobile.jpg');
+		background-size: cover;
+		background-position: 50% center;
 	}
-	.carousel-caption-mobile-2 {
-    	top: 30px !important;
-    	left: 11% !important;
+	.carousel-item-3-mobile {
+		background-image: url('../images/home/KV_slider_3_mobile.jpg');
+		background-size: cover;
+		background-position: 50% center;
 	}
-	.carousel-caption-title {
-	    font-size: 40px;
-	    line-height: 20px;
+	.carousel-item-4-mobile {
+		background-image: url('../images/home/KV_slider_mobile2.webp');
+		background-size: cover;
+		background-position: 85% center;
 	}
-	.carousel-caption-title-2 {
-	    font-size: 30px;
-	    line-height: 30px;
-	    margin-bottom: 10px;
+	.carousel-1-caption {
+	    top: 10px !important;
+    	left: 30% !important;
 	}
-	.carousel-caption-desc {
-	    font-size: 16px;
-	    margin-left: 20px;
+	.carousel-2-caption {
+	    top: 10px !important;
+    	left: 10% !important;
+	}
+	.carousel-3-caption, .carousel-4-caption {
+	    top: 10px;
+    	left: 5% !important;
+	}	
+	.carousel-1-caption-title {
+	    font-size: 36px;
+	    line-height: 36px;
+	    margin-bottom: 7px;
+	}
+	.carousel-2-caption-title {
+	    font-size: 26px;
+	    line-height: 26px;
+	    margin-bottom: 7px;
+	}
+	.carousel-3-caption-title {
+		font-size: 26px;
+	    line-height: 26px;
+	    margin-bottom: 7px;
+	}
+	.carousel-4-caption-title {
+	    font-size: 28px;
+	    line-height: 28px;
+	    margin-bottom: 7px;
+	}
+	.mobile-carousel-caption-desc {
+		margin-bottom: 7px;
+	    margin-top: 0 !important;
+	}
+	.carousel-1-caption-desc {
+	    font-size: 22px !important;
+	    line-height: 30px !important;
+	    margin-left: 20px !important;
+	    padding-right: 40%;
+	}
+	.carousel-2-caption-desc {
+	    font-size: 25px !important;
+	    line-height: 25px !important;
+	    margin-left: 20px !important;
+	}
+	.carousel-3-caption-desc {
+		font-size: 25px !important;
+	    line-height: 25px !important;
+	    margin-left: 20px !important;
+	}
+	.carousel-4-caption-desc {
+	    font-size: 21px !important;
+	    line-height: 21px !important;
+	    margin-left: 17px !important;
+	}
+	.carousel-2-caption-desc-2 {
+	    font-size: 25px !important;
+	    line-height: 25px !important;
+	    margin-left: 30px;
 	    margin-bottom: 0;
+	    margin-top: 0;
 	}
-	.carousel-caption-desc-2 {
-	    font-size: 16px;
-	    margin-left: 20px;
+	.carousel-3-caption-desc-2 {
+		font-size: 25px !important;
+	    line-height: 30px !important;
+	    margin-left: 40px;
 	    margin-bottom: 0;
-	    text-shadow: 0 0 20px #e7ecec;
+	    margin-top: 0;
+	    padding-right: 50%;
 	}
-	.carousel-caption-title-3-1 {
-		margin-left: -40px;
-	    margin-top: -75px;
-	    text-shadow: 0 0 20px #e7ecec;
-	    font-size: 30px;
-	    line-height: 30px;
+	.carousel-4-caption-desc-2 {
+	    font-size: 21px !important;
+	    line-height: 21px !important;
+	    margin-left: 40px;
+	    margin-bottom: 0;
+	    margin-top: 0;
+	    padding-right: 50%;
 	}
-	.carousel-caption-title-3-2 {
-		margin-left: 10px;
-	    line-height: 35px;
-	    margin-top: -10px;
-	    font-size: 30px;
-	    line-height: 30px;
-	    color: #000;
-	    text-shadow: 0 0 20px #e7ecec;
-	    margin-bottom: 10px;
-	}
+
 	.mbaning_div {
 		background-image: url('../images/home/mbanking_mobile.webp');
 		height: 220px;

@@ -19,12 +19,12 @@
 						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="3"></li>
 					</ol>
 					<div class="carousel-inner active">
-						<div class="carousel-item carousel-item-1 active">
+						 <div class="carousel-item carousel-item-1 active">
 							<video class="img-fluid xl_slide" autoplay loop muted plays-inline>
 								<source src="{{ url('/images/home/landing_1920_600.webm') }}" type="video/webm" />
 							</video>
-							<video class="img-fluid desk_slide" autoplay loop muted plays-inline>
-								<source src="{{ url('/images/home/desk.mp4') }}" poster="{{ url('/images/home/desk_poster.jpeg') }}" type="video/mp4" />
+							<video class="desk_slide" autoplay loop muted plays-inline>
+								<source src="{{ url('/images/home/desk.webm') }}" poster="{{ url('/images/home/desk_poster.jpeg') }}" type="video/mp4" />
 							</video>
 							<video class="img-fluid tablet_slide" autoplay loop muted>
 								<source src="{{ url('/images/home/landing_slide_1.mp4') }}" poster="{{ url('/images/home/landing_slide_1_poster.jpeg') }}" type="video/mp4" />
@@ -39,7 +39,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="carousel-item carousel-item-2 ">
+						<div class="carousel-item carousel-item-2">
 							<div class="row carousel-caption carousel-caption-2">
 								<div class="col-md-6"></div>
 								<div class="col-md-6">
@@ -81,42 +81,49 @@
             <div class="d-block d-sm-none">
                 <div id="carouselExample-cf-mobile" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel" style="box-shadow: 0px 15px 20px 5px #f4f4f4;">
 					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_mobile_1.webp') }}" alt="Second slide" />
-							<div class="row carousel-caption carousel-caption-mobile-2">
+						<div class="carousel-item carousel-item-1-mobile active">
+							<div class="row carousel-caption carousel-1-caption">
 								<div class="col-md-12">
 									<div class="carousel-left-1">
-										<p class="carousel-caption-title">Creating</p>
-										<p class="carousel-caption-desc">your Financial World in One Bank.</p>
+										<p class="carousel-caption-title carousel-1-caption-title">Creating</p>
+										<p class="carousel-caption-desc mobile-carousel-caption-desc carousel-1-caption-desc">your Financial World in One Bank.</p>
 									</div>
 								</div>
 							</div>
 						</div>
-						<!-- <div class="carousel-item">
-							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_mobile2.webp') }}" alt="Second slide" />
-							<div class="row carousel-caption carousel-caption-2">
+						<div class="carousel-item carousel-item-2-mobile">
+							<div class="row carousel-caption carousel-2-caption">
 								<div class="col-md-12">
 									<div class="carousel-left-1">
-										<p class="carousel-caption-title carousel-caption-title-2">Learning Today,</p>
-										<p class="carousel-caption-desc carousel-caption-desc-2">For Better Bankers Tomorrow.</p>
-										<p class="carousel-caption-desc carousel-caption-desc-2 carousel-caption-desc-2-2">Learn & Grow with AYA.</p>
+										<p class="carousel-caption-title carousel-2-caption-title">Reaching New Heights,</p>
+										<p class="carousel-caption-desc mobile-carousel-caption-desc carousel-2-caption-desc">Serving with Our Hearts!</p>
+										<p class="carousel-caption-desc carousel-2-caption-desc-2">Treasure AYA.</p>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="carousel-item">
-							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_mobile_3.webp') }}" alt="Third slide" />
-							<div class="row carousel-caption">
-								<div class="col-md-6"></div>
-								<div class="col-md-6">
+						<div class="carousel-item carousel-item-3-mobile">
+							<div class="row carousel-caption carousel-3-caption">
+								<div class="col-md-12">
 									<div class="carousel-left-1">
-										<p class="carousel-caption-title carousel-caption-title-3-1">Moving Forward,</p>
-										<p class="carousel-caption-title carousel-caption-title-3-2">Going Digital,</p>
-										<p class="carousel-caption-desc carousel-caption-3-desc" style="width: 50%;margin-left: 50px;">Experience the New AYA on the Go!</p>
+										<p class="carousel-caption-title carousel-3-caption-title">Moving Forward,</p>
+										<p class="carousel-caption-desc mobile-carousel-caption-desc carousel-3-caption-desc">Going Digital,</p>
+										<p class="carousel-caption-desc carousel-3-caption-desc-2">Experience the New AYA on the Go!</p>
 									</div>
 								</div>
 							</div>
-						</div> -->
+						</div>
+						<div class="carousel-item carousel-item-4-mobile">
+							<div class="row carousel-caption carousel-4-caption">
+								<div class="col-md-12">
+									<div class="carousel-left-1">
+										<p class="carousel-caption-title carousel-4-caption-title">Learning Today,</p>
+										<p class="carousel-caption-desc mobile-carousel-caption-desc carousel-4-caption-desc">For Better Bankers Tomorrow.</p>
+										<p class="carousel-caption-desc carousel-4-caption-desc-2">Learn & Grow with AYA.</p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
                     <a class="carousel-control-prev" href="#carouselExample-cf-mobile" role="button" data-bs-slide="prev">
                       	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
