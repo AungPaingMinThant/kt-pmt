@@ -39,7 +39,7 @@
 								</div>
 							</div>
 						</div>
-						<!-- <div class="carousel-item carousel-item-2 ">
+						<div class="carousel-item carousel-item-2 ">
 							<div class="row carousel-caption carousel-caption-2">
 								<div class="col-md-6"></div>
 								<div class="col-md-6">
@@ -50,8 +50,8 @@
 									</div>
 								</div>
 							</div>
-						</div> -->
-						<!-- <div class="carousel-item carousel-item-3">
+						</div>
+						<div class="carousel-item carousel-item-3">
 							<div class="row carousel-caption carousel-caption-3">
 								<div class="col-md-6"></div>
 								<div class="col-md-6">
@@ -62,19 +62,19 @@
 									</div>
 								</div>
 							</div>
-						</div> -->
-						<!-- <div class="carousel-item carousel-item-4 active">
-							<div class="row carousel-caption carousel-caption-2">
+						</div>
+						<div class="carousel-item carousel-item-4">
+							<div class="row carousel-caption carousel-caption-4">
 								<div class="col-md-6">
-									<div class="carousel-right-2">
-										<p class="carousel-caption-title">Learning Today,</p>
-										<p class="carousel-caption-desc-2 mb-0">For Better Bankers Tomorrow.</p>
-										<p class="carousel-caption-desc-2 carousel-caption-desc-2-2">Learn & Grow with AYA.</p>
+									<div class="carousel-right-1">
+										<p class="carousel-4-caption-title">Learning Today,</p>
+										<p class="carousel-caption-desc carousel-4-caption-desc mb-0">For Better Bankers Tomorrow.</p>
+										<p class="carousel-caption-desc carousel-4-caption-desc-2">Learn & Grow with AYA.</p>
 									</div>
 								</div>
 								<div class="col-md-6"></div>
 							</div>
-						</div> -->
+						</div>
 					</div>
                 </div>
             </div>
@@ -92,7 +92,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="carousel-item">
+						<!-- <div class="carousel-item">
 							<img class="d-block w-100" src="{{ url('/images/home/KV_slider_mobile2.webp') }}" alt="Second slide" />
 							<div class="row carousel-caption carousel-caption-2">
 								<div class="col-md-12">
@@ -116,7 +116,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> -->
 					</div>
                     <a class="carousel-control-prev" href="#carouselExample-cf-mobile" role="button" data-bs-slide="prev">
                       	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
