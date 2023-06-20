@@ -278,14 +278,6 @@
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-md-11 col-10 secure_credit_fact pos_fact_margin">
-												<p>Payment integration can be made to your existing POS system.</p>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-md-1 col-2" style="padding-top: 5px;">
-												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-											</div>
-											<div class="col-md-11 col-10 secure_credit_fact pos_fact_margin">
 												<p>24/7 hotline support is available for any technical error</p>
 											</div>
 										</div>
