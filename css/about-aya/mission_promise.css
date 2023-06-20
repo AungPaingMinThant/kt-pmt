@@ -140,4 +140,7 @@
 	.brand_promise_desc {
 		width: 100% !important;
 	}
+	.ethics_box:nth-child(1) {
+	    margin-left: 0px !important;
+	}
 }

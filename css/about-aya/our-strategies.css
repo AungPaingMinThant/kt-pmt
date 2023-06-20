@@ -379,6 +379,61 @@
 		padding: 0px 20px !important;
 	}
 	/* Stake holder Management:end */
+	
+	/* Corporate Strategy */
+	.pillar_graphic_outer {
+	    padding: 0px 70px !important;
+	    margin-bottom: 20px;
+	}
+	.our_key_enabler_section {
+		height: auto;
+	}
+	.key_enablers_icon {
+		left: 30%;
+	}
+	.key_enablers_health_lable {
+		top: 75%;
+    	left: 20%;
+	}
+	.key_enablers_org_lable {
+		top: 75%;
+    	left: 27%;
+	}
+	.key_enablers_finance_lable {
+		top: 75%;
+    	left: 38%;
+	}
+	.strategic_pillars {
+		background: rgb(239,240,241);
+    	background: linear-gradient(0deg, rgba(239,240,241) 0%, rgba(247,248,251,1) 95%, rgba(255,255,255,1) 100%);
+	}
+	.strategic_pillar_col {
+		width: 92% !important;
+	}
+	.pillar_bullet_col {
+		width: 10% !important;
+    	padding-right: 0 !important;
+	}
+	.pillar_bullet_fact_col {
+		width: 90% !important;
+	}
+	.accelerating_digitalization, .strength_credit_infra, .creating_values_innovation {
+		margin-left: 15px !important;
+	}
+	.pillar_bottom_hr {
+		width: 30% !important;
+	}
+	.health_culture_desc_col > .row > p {
+		margin-left: -15px !important;
+		margin-top: 20px;
+	}
+	.organization_row {
+		flex-direction: column-reverse;
+	}
+	.organization_desc_col > .row > p {
+		margin-top: 20px;
+	}
+	/* Corporate Strategy:end */
 }
 @media only screen and (max-width: 360px) {
 	/* Stakeholder Management */

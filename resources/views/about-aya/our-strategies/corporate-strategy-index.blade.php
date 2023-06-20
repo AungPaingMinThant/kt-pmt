@@ -15,7 +15,7 @@
 			<div class="container">
 				<div class="space-40"></div>
 				<div class="row">
-					<p>As Myanmar's second largest bank, AYA Bank benefits from a substantial client base and a diverse economy brimming with development opportunities. Our ambition is to utilize our industry know-how and cutting-edge digital competencies to fuel AYA Bank's sustainable growth, all while fostering a steady economic climate that underpins our long-term expansion objectives.</p>
+					<p>As Myanmar's one of the largest banks, AYA Bank benefits from a substantial client base and a diverse economy brimming with development opportunities. Our ambition is to utilize our industry know-how and cutting-edge digital competencies to fuel AYA Bank's sustainable growth, all while fostering a steady economic climate that underpins our long-term expansion objectives.</p>
 					<p>Embracing our recently revamped three-year strategy, we're dedicated to positioning AYA Bank as Myanmar's most reliable and trusted financial institution, with a strong customer-first approach. Our objective is to offer tailor-made solutions that address both individual needs and corporate demands. We recognize that a consistent, clear strategic approach is the key to achieving continued growth and delivering long-term value to our stakeholders.</p>
 					<p>To effectively implement our strategies, we emphasize having robust enablers as the underlying cornerstone of our banking operations. Ensuring that the Bank's operations align with our inherent values and principles, and are sustainable, is of utmost importance.</p>
 

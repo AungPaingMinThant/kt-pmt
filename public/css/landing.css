@@ -15,15 +15,106 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+.carousel-left-1 {
+	width: 200%;
+}
+.carousel-left-1 p.carousel-caption-title, .carousel-left-1 p.carousel-2-caption-title, .carousel-left-1 p.carousel-3-caption-title {
+	animation: 2s carousel-left-1 1.5s forwards;
+	transform:translateX(100%);
+}
+.carousel-left-1 p.carousel-caption-desc {
+	animation: 2s carousel-left-1 2s forwards;
+	transform:translateX(100%);
+}
+.carousel-left-1 p.carousel-2-caption-desc-2 {
+	animation: 2s carousel-left-1 2.5s forwards;
+	transform:translateX(100%);
+}
+@keyframes carousel-left-1 {
+	to {
+		transform:translateX(0);
+	}
+}
+.carousel-right-2 {
+	width: 200%;
+}
+.carousel-right-2 p.carousel-caption-title {
+	animation: 2s carousel-right-2 1s forwards;
+	transform:translateX(-100%);
+}
+.carousel-right-2 p.carousel-caption-desc-2 {
+	animation: 2s carousel-right-2 1.5s forwards;
+	transform:translateX(-100%);
+}
+@keyframes carousel-right-2 {
+	to {
+		transform:translateX(0);
+	}
+}
+.carousel-caption-title {
+	font-size: 60px;
+	line-height: 50px;
+	font-weight: 500;
+	color: #A5000B;
+}
+.carousel-caption-desc {
+	color: #000 !important;
+	font-size: 20px;
+	margin-left: 100px;
+}
+
 .carousel-item-1 {
 	background-image: url('../images/home/desk.mp4');
 }
+
 .carousel-item-2 {
 	background-image: url('../images/home/KV_slider_2.webp');
+}
+.carousel-caption-2, .carousel-caption-3 {
+    right: 0;
+    bottom: 1.25rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    text-align: left !important;
+    top: 100px !important;
+    left: 15% !important;
+}
+.carousel-2-caption-title, .carousel-3-caption-title {
+	font-size: 40px;
+	line-height: 30px;
+	font-weight: 500;
+	color: #A5000B;
+}
+.carousel-2-caption-desc, .carousel-3-caption-desc {
+	font-size: 40px;
+	line-height: 30px;
+	font-weight: 500;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.carousel-2-caption-desc-2 {
+	font-size: 40px;
+	line-height: 30px;
+	font-weight: 500;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+ .carousel-3-caption-desc-2 {
+	font-size: 30px;
+	line-height: 20px;
+	font-weight: 500;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+
+.carousel-item-3 {
+	background-image: url('../images/home/KV_slider_3.webp');
 	background-position: 73% center;
 }
-.carousel-item-3 {
-	background-image: url('../images/home/KV_slider3.webp');
+
+
+.carousel-item-4 {
+	background-image: url('../images/home/KV_slider_3.webp');
 }
 .carousel-indicators {
 	left: 50px !important;
@@ -67,61 +158,10 @@
     top: 70px;
     left: 20%;
 }
-.carousel-caption-2 {
-    right: 0;
-    bottom: 1.25rem;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-    text-align: left !important;
-    top: 50px;
-    left: 7% !important;
-}
 
-.carousel-left-1 {
-	width: 200%;
-}
-.carousel-left-1 p.carousel-caption-title {
-	animation: 2s carousel-left-1 1.5s forwards;
-	transform:translateX(100%);
-}
-.carousel-left-1 p.carousel-caption-desc {
-	animation: 2s carousel-left-1 2s forwards;
-	transform:translateX(100%);
-}
-@keyframes carousel-left-1 {
-	to {
-		transform:translateX(0);
-	}
-}
 
-.carousel-right-2 {
-	width: 200%;
-}
-.carousel-right-2 p.carousel-caption-title {
-	animation: 2s carousel-right-2 1s forwards;
-	transform:translateX(-100%);
-}
-.carousel-right-2 p.carousel-caption-desc-2 {
-	animation: 2s carousel-right-2 1.5s forwards;
-	transform:translateX(-100%);
-}
-@keyframes carousel-right-2 {
-	to {
-		transform:translateX(0);
-	}
-}
 
-.carousel-caption-title {
-	font-size: 60px;
-	line-height: 50px;
-	font-weight: 500;
-	color: #A5000B;
-}
-.carousel-caption-desc {
-	color: #000 !important;
-	font-size: 20px;
-	margin-left: 100px;
-}
+
 .carousel-caption-desc-2 {
 	color: #000 !important;
 	font-size: 20px;
@@ -131,12 +171,7 @@
 .carousel-caption-desc-2-2 {
 	margin-left: 50px;
 }
-.carousel-caption-desc-3 {
-	font-size: 50px;
-	line-height: 40px;
-	font-weight: 500;
-	margin-left: 50px;
-}
+
 .mbaning_div {
 	background-image: url('../images/home/mbanking.png');
 	background-size: contain;
@@ -500,10 +535,10 @@
 	}
 }
 @media (max-width: 999px) and (min-width: 577px) {
-	.carousel-item-3 {
+	.carousel-item-4 {
 		background-image: url('../images/home/KV_slider_tablet_3.jpg');
 	}
-	.carousel-item-2 {
+	.carousel-item-3 {
 		background-image: url('../images/home/KV_slider_tablet_2.jpg');
 	}
 	.carousel-caption-title {
