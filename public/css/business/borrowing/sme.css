@@ -167,8 +167,16 @@
 .micro_loan_return_points {
 	margin-left: -3rem;	
 }
+.micro_bullet_square_div, .micro_bullet_fact_div {
+	display: table;
+}
 .micro_bullet_square {
-	width: 10%;
+	width: 13%;
+	display: table-cell;
+	margin-top: 2px;
+}
+.micro_loan_return_points {
+	margin-top: -5px;
 }
 .return_collectral_table {
 	width: 80%;

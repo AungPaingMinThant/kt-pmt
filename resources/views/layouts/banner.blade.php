@@ -1366,7 +1366,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 					<div class="retail_banner_tagline">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #A5000B;">Retail FCA Current (FCY)</span><br><span>Manage your foreign currency payroll is <br>as convenient as local currency</span></h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #A5000B;">Retail FCA Current (FCY)</span><br><span>Manage your foreign currency payroll <br>as convenient as local currency</span></h1>
 					</div>
 				</div>
 				<div class="col-md-6" style="text-align: right;">
@@ -1376,7 +1376,7 @@
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 45px;left: 15px;">
 						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;color: #A5000B;font-size: 18px;">Retail FCA Current (FCY)</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;font-size: 18px;">Manage your foreign currency payroll is <br>as convenient as local currency</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;font-size: 18px;">Manage your foreign currency payroll <br>as convenient as local currency</h1>
 					</div>
 				</div>
 			</div>
@@ -1668,9 +1668,9 @@
 		<div class="container">
 			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking') }}" style="color: #666;">PERSONAL BANKING</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/premium-banking') }}" style="color: #666;">PREMIUM BANKING</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #A5000B;">ROYAL BANKING</span>
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/royal-banking') }}" style="color: #A5000B;">ROYAL BANKING</a>&nbsp;
+				<!-- <i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #A5000B;">ROYAL BANKING</span> -->
 			</p>
 		</div>
 	</div>

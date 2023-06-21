@@ -93,7 +93,7 @@
 												</h2>
 												<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
 													<div class="accordion-body">
-														<p>Please visit to nearest AYA Bank branches for account opening.</p>
+														<p>You must go to the nearest branch and apply in person.</p>
 													</div>
 												</div>
 											</div>

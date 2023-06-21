@@ -111,7 +111,7 @@ Route::get('/personal-banking/account-saving/saving-deposit/aya-loyal-saving','A
 Route::get('/personal-banking/account-saving/saving-deposit/ngwe-toe-mae-shwe-o','App\Http\Controllers\AccountSaving\SavingDepositController@shweOindex');
 Route::get('/personal-banking/account-saving/saving-deposit/aya-su-buu','App\Http\Controllers\AccountSaving\SavingDepositController@suBuuIndex');
 
-Route::get('/personal-banking/premium-banking','App\Http\Controllers\PremiumBankingController@index');
+Route::get('/personal-banking/royal-banking','App\Http\Controllers\PremiumBankingController@index');
 
 Route::get('/personal-banking/remittance/local','App\Http\Controllers\RemittanceController@localIndex');
 Route::get('/personal-banking/remittance/international','App\Http\Controllers\RemittanceController@interIndex');

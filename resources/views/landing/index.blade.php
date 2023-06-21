@@ -17,9 +17,10 @@
 						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="1"></li>
 						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="2"></li>
 						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="3"></li>
+						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="4"></li>
 					</ol>
 					<div class="carousel-inner active">
-						 <div class="carousel-item carousel-item-1 active">
+						<div class="carousel-item carousel-item-1 active">
 							<video class="img-fluid xl_slide" autoplay loop muted plays-inline>
 								<source src="{{ url('/images/home/landing_1920_600.webm') }}" type="video/webm" />
 							</video>
@@ -65,11 +66,23 @@
 						</div>
 						<div class="carousel-item carousel-item-4">
 							<div class="row carousel-caption carousel-caption-4">
+								<div class="col-md-6"></div>
+								<div class="col-md-6">
+									<div class="carousel-left-1">
+										<p class="carousel-4-caption-title">Act Responsible,</p>
+										<p class="carousel-caption-desc carousel-4-caption-desc mb-0">Think Sustainable to Make</p>
+										<p class="carousel-caption-desc carousel-4-caption-desc-2">our Future Stronger.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item carousel-item-5">
+							<div class="row carousel-caption carousel-caption-4">
 								<div class="col-md-6">
 									<div class="carousel-right-1">
-										<p class="carousel-4-caption-title">Learning Today,</p>
-										<p class="carousel-caption-desc carousel-4-caption-desc mb-0">For Better Bankers Tomorrow.</p>
-										<p class="carousel-caption-desc carousel-4-caption-desc-2">Learn & Grow with AYA.</p>
+										<p class="carousel-5-caption-title">Learning Today,</p>
+										<p class="carousel-caption-desc carousel-5-caption-desc mb-0">For Better Bankers Tomorrow.</p>
+										<p class="carousel-caption-desc carousel-5-caption-desc-2">Learn & Grow with AYA.</p>
 									</div>
 								</div>
 								<div class="col-md-6"></div>
@@ -101,7 +114,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> 
 						<div class="carousel-item carousel-item-3-mobile">
 							<div class="row carousel-caption carousel-3-caption">
 								<div class="col-md-12">
@@ -117,9 +130,20 @@
 							<div class="row carousel-caption carousel-4-caption">
 								<div class="col-md-12">
 									<div class="carousel-left-1">
-										<p class="carousel-caption-title carousel-4-caption-title">Learning Today,</p>
-										<p class="carousel-caption-desc mobile-carousel-caption-desc carousel-4-caption-desc">For Better Bankers Tomorrow.</p>
-										<p class="carousel-caption-desc carousel-4-caption-desc-2">Learn & Grow with AYA.</p>
+										<p class="carousel-caption-title carousel-4-caption-title">Act Responsible,</p>
+										<p class="carousel-caption-desc mobile-carousel-caption-desc carousel-4-caption-desc">Think Sustainable to Make</p>
+										<p class="carousel-caption-desc carousel-4-caption-desc-2">our Future Stronger.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item carousel-item-5-mobile">
+							<div class="row carousel-caption carousel-5-caption">
+								<div class="col-md-12">
+									<div class="carousel-left-1">
+										<p class="carousel-caption-title carousel-5-caption-title">Learning Today,</p>
+										<p class="carousel-caption-desc mobile-carousel-caption-desc carousel-5-caption-desc">For Better Bankers Tomorrow.</p>
+										<p class="carousel-caption-desc carousel-5-caption-desc-2">Learn & Grow with AYA.</p>
 									</div>
 								</div>
 							</div>
@@ -190,10 +214,10 @@
 									<div class="input-group">
 										<label class="input-group-text" for="inputGroupSelect01">I want to &nbsp;</label>
 										<select class="form-select inputGroupSelect01" name="inputGroupSelect01" id="inputGroupSelect01">
-											<option value="">-- Select an option --</option>
-											<option value="0" id="inputGroupSelect01_option_1">get a home loan to fulfil my dream</option>
-											<option value="1" class="inputGroupSelect01_option">apply car loan to own my dream car</option>
-											<option value="2" class="inputGroupSelect01_option">plan my child future with education loan</option>
+											<option value="0">get a home loan to fulfil my dream</option>
+											<option value="1">get a home loan to fulfil my dream</option>
+											<option value="2">apply car loan to own my dream car</option>
+											<option value="3">plan my child future with education loan</option>
 										</select>
 									</div>
 								</div>
@@ -203,9 +227,9 @@
 									<p class="CTA_desc mb-10">Match your needs with our comprehensive personal borrowing plan</p>
 									<label class="theme_text_color" for="inputGroupSelect01mobile" style="font-size: 16px;margin-bottom: 5px;">I want to &nbsp;</label>
 									<select class="form-select" name="inputGroupSelect01mobile" id="inputGroupSelect01mobile">
-										<option value="0" id="inputGroupSelect01_option_1" selected>get a home loan to fulfil my dream</option>
-										<option value="1" class="inputGroupSelect01_option">apply car loan to own my dream car</option>
-										<option value="2" class="inputGroupSelect01_option">plan my child future with education loan</option>
+										<option value="1" id="inputGroupSelect01_option_1" selected>get a home loan to fulfil my dream</option>
+										<option value="2" class="inputGroupSelect01_option">apply car loan to own my dream car</option>
+										<option value="3" class="inputGroupSelect01_option">plan my child future with education loan</option>
 									</select>
 								</div>
 							</div>
@@ -432,9 +456,9 @@
 	var previousValue2;
 	var previousValue3;
 
-	var dropdown = document.getElementById('inputGroupSelect01');
-  	dropdown.selectedIndex = -1;
-  	dropdown.options[1].selected = true;
+	// var dropdown = document.getElementById('inputGroupSelect01');
+  	// dropdown.selectedIndex = -1;
+  	// dropdown.options[1].selected = true;
 
   	var dropdown2 = document.getElementById('inputGroupSelect02');
   	dropdown2.selectedIndex = -1;
@@ -444,21 +468,16 @@
   	dropdown3.selectedIndex = -1;
   	dropdown3.options[1].selected = true;
 
-  	document.getElementById('CTA_section_1_info').addEventListener('click', function(event) {
+	document.getElementById('CTA_section_1_info').addEventListener('click', function(event) {
 		if (event.target.classList.contains('inputGroupSelect01')) {
-			var dropdown = document.getElementById('inputGroupSelect01');
-		  	dropdown.options[0].selected = true;
-			event.stopPropagation();
+			$('select[id=inputGroupSelect01] > option:first-child').text('-- Select an option --');
 		}
 	});
 
   	document.getElementById('layout-wrapper').addEventListener('click', function(event) {
-		if (!event.target.classList.contains('CTA_section_1_info')) {
-			var dropdown = document.getElementById('inputGroupSelect01');
-		  	dropdown.selectedIndex = -1;
-		  	dropdown.options[1].selected = true;
-
-		  	event.stopPropagation();
+  		console.log(event.target.classList);
+		if (!event.target.classList.contains('CTA_section_1_info') && !event.target.classList.contains('inputGroupSelect01') && !event.target.classList.contains('input-group')) {
+			$('select[id=inputGroupSelect01] > option:first-child').text('get a home loan to fulfil my dream');
 		}
 	});
 
@@ -467,23 +486,23 @@
 		var open = $(this).data("isopen");
 
 		if (this.value === previousValue) {
-			if (this.value == 0) {
+			if (this.value == 1) {
 				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/home-loan';
 			}
-			if (this.value == 1) {
+			if (this.value == 2) {
 				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/auto-loan';
 			}
-			if (this.value == 2) {
+			if (this.value == 3) {
 				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/education-loan';
 			}
 		} else {
-			if ($('#inputGroupSelect01 option:selected').val() == 0) {
+			if ($('#inputGroupSelect01 option:selected').val() == 1) {
 				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/home-loan';
 			}
-			if ($('#inputGroupSelect01 option:selected').val() == 1) {
+			if ($('#inputGroupSelect01 option:selected').val() == 2) {
 				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/auto-loan';
 			}
-			if ($('#inputGroupSelect01 option:selected').val() == 2) {
+			if ($('#inputGroupSelect01 option:selected').val() == 3) {
 				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/education-loan';
 			}
 		}
@@ -491,6 +510,7 @@
 		previousValue = this.value;
 
 		$(this).data("isopen", !open);
+		event.stopPropagation();
 	});
 
 	$("#inputGroupSelect01mobile").mouseup(function() {
@@ -498,23 +518,23 @@
 		var open = $(this).data("isopen");
 
 		if (this.value === previousValue) {
-			if (this.value == 0) {
+			if (this.value == 1) {
 				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/home-loan';
 			}
-			if (this.value == 1) {
+			if (this.value == 2) {
 				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/auto-loan';
 			}
-			if (this.value == 2) {
+			if (this.value == 3) {
 				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/education-loan';
 			}
 		} else {
-			if ($('#inputGroupSelect01 option:selected').val() == 0) {
+			if ($('#inputGroupSelect01 option:selected').val() == 1) {
 				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/home-loan';
 			}
-			if ($('#inputGroupSelect01 option:selected').val() == 1) {
+			if ($('#inputGroupSelect01 option:selected').val() == 2) {
 				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/auto-loan';
 			}
-			if ($('#inputGroupSelect01 option:selected').val() == 2) {
+			if ($('#inputGroupSelect01 option:selected').val() == 3) {
 				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/education-loan';
 			}
 		}
@@ -526,17 +546,17 @@
 
 	document.getElementById('CTA_section_2_info').addEventListener('click', function(event) {
 		if (event.target.classList.contains('inputGroupSelect02')) {
-			var dropdown = document.getElementById('inputGroupSelect02');
-		  	dropdown.options[0].selected = true;
+			var dropdown2 = document.getElementById('inputGroupSelect02');
+		  	dropdown2.options[0].selected = true;
 			event.stopPropagation();
 		}
 	});
 
   	document.getElementById('layout-wrapper').addEventListener('click', function(event) {
 		if (!event.target.classList.contains('CTA_section_2_info')) {
-			var dropdown = document.getElementById('inputGroupSelect02');
-		  	dropdown.selectedIndex = -1;
-		  	dropdown.options[1].selected = true;
+			var dropdown2 = document.getElementById('inputGroupSelect02');
+		  	dropdown2.selectedIndex = -1;
+		  	dropdown2.options[1].selected = true;
 
 		  	event.stopPropagation();
 		}

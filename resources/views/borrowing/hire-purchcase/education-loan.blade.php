@@ -414,7 +414,7 @@
 								<div class="">
 									<div class="col-md-12" style="background-color: #f2f2f2;padding: 20px 20px 20px 30px;border-radius: 5px;">
 										<p style="font-weight: 600;font-size: 16px;">Find more about AYA Education Loan at</p>
-										<a href="{{ url('/file/personal/borrowing/hire_purchase/edu_loan/Education Loan English.pdf') }}" target="_blank">
+										<a href="{{ url('/file/personal/borrowing/hire_purchase/edu_loan/Education_Loan_English.pdf') }}" target="_blank">
 											<button class="btn FAQ_button">FAQ</button>
 										</a>
 									</div>
@@ -794,7 +794,7 @@
 						<div class="">
 							<div class="col-md-12 text-center" style="background-color: #f2f2f2;padding: 20px 20px 20px 30px;border-radius: 5px;">
 								<p style="font-weight: 600;font-size: 16px;">Find more about AYA Education Loan at</p>
-								<a href="{{ url('/file/personal/borrowing/hire_purchase/edu_loan/Education Loan English.pdf') }}" target="_blank">
+								<a href="{{ url('/file/personal/borrowing/hire_purchase/edu_loan/Education_Loan_English.pdf') }}" target="_blank">
 									<button class="btn FAQ_button">FAQ</button>
 								</a>
 							</div>

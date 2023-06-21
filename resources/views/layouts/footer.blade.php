@@ -104,7 +104,7 @@
             <div class="col-md-3 col-xs-12" style="padding-bottom: 20px;padding-top: -10px;">
                 <h3 class="footer_like_title">Recommend for you</h3>
                 <a class="footer_first_link_a" href="{{url('/personal-banking')}}"><p class="footer_first_link">Personal Banking</p></a>
-                <a class="footer_first_link_a" href="{{url('/premium-banking')}}"><p class="footer_first_link">Royal Banking</p></a>
+                <a class="footer_first_link_a" href="{{url('/personal-banking/royal-banking')}}"><p class="footer_first_link">Royal Banking</p></a>
                 <a class="footer_first_link_a" href="#"><p class="footer_first_link">Loan Management</p></a>
                 <a class="footer_first_link_a" href="#"><p class="footer_first_link">Remittance</p></a>
                 <a class="footer_first_link_a" href="#"><p class="footer_first_link">Insurance</p></a>

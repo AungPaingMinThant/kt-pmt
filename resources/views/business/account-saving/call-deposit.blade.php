@@ -1,110 +1,8 @@
 @extends('layouts.frontend-app')
 
 @section('title', 'Call Deposit – AYA Bank')
-<style type="text/css">
-	.nav-link, h4 {
-		color: #2e2e2e !important;
-	}
-	.side_nav > li > .nav-link {
-		padding: 0 1.25rem 1rem 0 !important;
-		font-size: 16px;
-	}
-	.nav-pills .nav-link.active {
-		color: #2e2e2e !important;		
-	}
-	.nav-pills .nav-link.active > span {
-		border-bottom: 4px solid #A5000B !important;
-	}
-	.scroll_content::-webkit-scrollbar{
-	    display: none;
-	}
-	#myScrollspy {
-		position: sticky;
-		top: 20px;
-		z-index: 99;
-	}
-	.bullet_square {
-		float: right;
-		margin-top: 7px;
-		width: 13%;
-	}
-	#premium_account, .business_account, .new_business_call {
-		padding-right: 250px;
-		font-size: 18px;
-		font-weight: 600;
-	}
-	.secure_req_application_icon {
-		float: right;
-    	margin-top: -5px;
-	}
-	.secure_credit_fact {
-		padding-left: 0 !important;
-	}
-	.call_deposit_premium_banking_tagline {
-		font-weight: 500;
-		font-size: 20px;
-		line-height: 24px;
-		width: 45% !important;
-		position: absolute;
-		top: 85%;
-		left: 4%;
-	}
-	.business_account_tagline {
-		font-weight: 500;
-		font-size: 20px;
-		line-height: 24px;
-		position: absolute;
-		top: 85%;
-		left: 4%;
-	}
-	.new_business_call_tagline {
-		font-weight: 500;
-		font-size: 20px;
-		line-height: 24px;
-		width: 35% !important;
-		position: absolute;
-		top: 80%;
-		left: 4%;
-	}
-	@media (max-width: 1300px) and (min-width: 1000px) {
-		.call_deposit_premium_banking_tagline{
-			width: 60% !important;
-		}
-		.new_business_call_tagline {
-			width: 45% !important;
-			top: 75%;
-		}
-		.bullet_square {
-			width: 20%;
-		}
-	}
-	@media (max-width: 999px) and (min-width: 577px) {
-		.call_deposit_premium_banking_tagline {
-			width: 80% !important;
-			top: 85% !important;
-		}
-		.bullet_square_div {
-			padding: 0 !important;
-		}
-		.business_account_tagline {
-			width: 90% !important;
-			top: 70%;
-		}
-		.new_business_call_tagline {
-			width: 70% !important;
-			top: 85%;
-		}
-	}
-	@media only screen and (max-width: 576px){
-		.calldeposit__mobile_title {
-			font-size: calc(1.2625rem + 0.15vw);
-			font-weight: 600 !important;
-		}
-		.bullet_square {
-			width: 100%;
-		}
-	}
-</style>
+<link rel="stylesheet" href="{{ url('/css/business/acc-sav.css') }}" />
+
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
@@ -170,15 +68,15 @@
 									<p class="fw-semibold" style="font-size: 17px;">The Benefits</p>
 
 									<div class="col-md-4 text-center">
-										<img src="{{ url('/images/business/account-saving/call-deposit/Gain_interest_short_term_deposit.png') }}" class="img-fluid w-50">
+										<img src="{{ url('/images/business/account-saving/call-deposit/Gain_interest_short_term_deposit.png') }}" class="img-fluid call_premium_icon">
 										<p>Gain interest for short-term deposit</p>
 									</div>
 									<div class="col-md-4 text-center">
-										<img src="{{ url('/images/business/account-saving/call-deposit/Able_to_remit_and_pay_transactions_easily.png') }}" class="img-fluid w-50">
+										<img src="{{ url('/images/business/account-saving/call-deposit/Able_to_remit_and_pay_transactions_easily.png') }}" class="img-fluid call_premium_icon">
 										<p>Able to make payments easily.</p>
 									</div>
 									<div class="col-md-4 text-center">
-										<img src="{{ url('/images/business/account-saving/call-deposit/Receive_or_pay_bills.png') }}" class="img-fluid w-50">
+										<img src="{{ url('/images/business/account-saving/call-deposit/Receive_or_pay_bills.png') }}" class="img-fluid call_premium_icon">
 										<p>Receive or pay bills through our Cash Management solutions</p>
 									</div>
 								</div>
@@ -212,11 +110,11 @@
 									<p class="fw-semibold" style="font-size: 17px;">The Benefits</p>
 
 									<div class="col-md-5 text-center">
-										<img src="{{ url('/images/business/account-saving/call-deposit/business_account_expert_support.png') }}" class="img-fluid" style="width: 43.5% !important;">
+										<img src="{{ url('/images/business/account-saving/call-deposit/business_account_expert_support.png') }}" class="img-fluid call_business_benefit_icon_1">
 										<p>Enjoy expert support from your dedicated relationship manager</p>
 									</div>
 									<div class="col-md-7 text-center">
-										<img src="{{ url('/images/business/account-saving/call-deposit/Access_financial_support.png') }}" class="img-fluid w-30">
+										<img src="{{ url('/images/business/account-saving/call-deposit/Access_financial_support.png') }}" class="img-fluid call_business_benefit_icon_2">
 										<p>Access financial support including business loans, overdrafts and invoice financing</p>
 									</div>
 								</div>
@@ -250,15 +148,15 @@
 									<p class="fw-semibold" style="font-size: 17px;">The Benefits</p>
 
 									<div class="col-md-4 text-center">
-										<img src="{{ url('/images/business/account-saving/call-deposit/Opening_a_new_business_call_deposit_account.png') }}" class="img-fluid w-50">
+										<img src="{{ url('/images/business/account-saving/call-deposit/Opening_a_new_business_call_deposit_account.png') }}" class="img-fluid call_new_business_icon">
 										<p>Transfer to and from Other Bank's special accounts through CBM Net.</p>
 									</div>
 									<div class="col-md-4 text-center">
-										<img src="{{ url('/images/business/account-saving/call-deposit/Unlimited_cash_withdrawal.png') }}" class="img-fluid w-50">
+										<img src="{{ url('/images/business/account-saving/call-deposit/Unlimited_cash_withdrawal.png') }}" class="img-fluid call_new_business_icon">
 										<p>Unlimited cash withdrawal up to the deposited amount</p>
 									</div>
 									<div class="col-md-4 text-center">
-										<img src="{{ url('/images/business/account-saving/call-deposit/Receive_account_statement_digitally.png') }}" class="img-fluid w-50">
+										<img src="{{ url('/images/business/account-saving/call-deposit/Receive_account_statement_digitally.png') }}" class="img-fluid call_new_business_icon">
 										<p>Receive account statement digitally or at the branches</p>
 									</div>
 								</div>

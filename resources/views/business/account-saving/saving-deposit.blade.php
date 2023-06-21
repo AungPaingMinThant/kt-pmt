@@ -1,102 +1,8 @@
 @extends('layouts.frontend-app')
 
 @section('title', 'Saving Deposit – AYA Bank')
-<style type="text/css">
-	.nav-link, h4 {
-		color: #2e2e2e !important;
-	}
-	.side_nav > li > .nav-link {
-		padding: 0 1.25rem 1rem 0 !important;
-		font-size: 16px;
-	}
-	.nav-pills .nav-link.active {
-		color: #2e2e2e !important;		
-	}
-	.nav-pills .nav-link.active > span {
-		border-bottom: 4px solid #A5000B !important;
-	}
-	.scroll_content::-webkit-scrollbar{
-	    display: none;
-	}
-	#myScrollspy {
-		position: sticky;
-		top: 20px;
-		z-index: 99;
-	}
-	.bullet_square {
-		float: right;
-		margin-top: 7px;
-		width: 13%;
-	}
-	#aya-regular-saving, .aya-su-buu {
-		padding-right: 250px;
-		font-size: 18px;
-		font-weight: 600;
-	}
-	.aya-regular-saving-tagline {
-		font-weight: 500;
-		font-size: 19px;
-		line-height: 24px;
-		width: 45% !important;
-		position: absolute;
-		top: 75%;
-		left: 4%;
-	}
-	.aya-su-buu_tagline {
-		font-weight: 500;
-		font-size: 20px;
-		line-height: 24px;
-		position: absolute;
-		top: 78%;
-		left: 4%;
-	}
-	.new_business_call_tagline {
-		font-weight: 500;
-		font-size: 20px;
-		line-height: 24px;
-		width: 35% !important;
-		position: absolute;
-		top: 80%;
-		left: 4%;
-	}
-	@media (max-width: 1300px) and (min-width: 1000px) {
-		.aya-regular-saving-tagline{
-			width: 60% !important;
-		}
-		.new_business_call_tagline {
-			width: 45% !important;
-			top: 75%;
-		}
-		.bullet_square {
-			width: 20%;
-		}
-	}
-	@media (max-width: 999px) and (min-width: 577px) {
-		.aya-regular-saving-tagline {
-		    width: 80% !important;
-		    top: 70% !important;
-		    text-shadow: 0 0 10px white !important;
-		}
-		.aya-su-buu_tagline {
-			top: 70% !important;
-		}
-		.bullet_square_div {
-			padding: 0 !important;
-		}
-	}
-	@media only screen and (max-width: 576px){
-		.calldeposit__mobile_title {
-			font-size: calc(1.2625rem + 0.15vw);
-			font-weight: 600 !important;
-		}
-		.bullet_square {
-			width: 30%;
-		}
-		.bullet_square_div {
-			padding-left: 0 !important;
-		}
-	}
-</style>
+<link rel="stylesheet" href="{{ url('/css/business/acc-sav.css') }}" />
+
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
@@ -156,7 +62,7 @@
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Receive interest on 6.25% per annum and frequency on monthly basis.</p>
+										<p>Receive interest on 6% per annum and frequency on monthly basis.</p>
 									</div>
 
 									<div class="space-40"></div>
@@ -164,15 +70,15 @@
 									<p class="fw-semibold" style="font-size: 17px;">The Benefits</p>
 
 									<div class="col-md-4 text-center">
-										<img src="{{ url('/images/business/account-saving/saving-deposit/manage_account_via_corporate_internet_banking.png') }}" class="img-fluid w-50">
+										<img src="{{ url('/images/business/account-saving/saving-deposit/manage_account_via_corporate_internet_banking.png') }}" class="img-fluid saving_deposit_aya_reg_sav_icon">
 										<p>Mange account via corporate internet banking</p>
 									</div>
 									<div class="col-md-4 text-center">
-										<img src="{{ url('/images/business/account-saving/saving-deposit/Receive_account_statement_digitally.png') }}" class="img-fluid w-50">
+										<img src="{{ url('/images/business/account-saving/saving-deposit/Receive_account_statement_digitally.png') }}" class="img-fluid saving_deposit_aya_reg_sav_icon">
 										<p>Receive account statement digitally or at the branches</p>
 									</div>
 									<div class="col-md-4 text-center">
-										<img src="{{ url('/images/business/account-saving/saving-deposit/Receive_or_pay_bills.png') }}" class="img-fluid w-50">
+										<img src="{{ url('/images/business/account-saving/saving-deposit/Receive_or_pay_bills.png') }}" class="img-fluid saving_deposit_aya_reg_sav_icon">
 										<p>Receive or pay bills through our Cash Management solutions.</p>
 									</div>
 								</div>
@@ -206,20 +112,20 @@
 									<p class="fw-semibold" style="font-size: 17px;">The Benefits</p>
 
 									<div class="col-md-6 text-center">
-										<img src="{{ url('/images/business/account-saving/saving-deposit/Gradual_savings_to_build_sum.png') }}" class="img-fluid w-30">
+										<img src="{{ url('/images/business/account-saving/saving-deposit/Gradual_savings_to_build_sum.png') }}" class="img-fluid saving_deposit_aya_su_buu_icon">
 										<p class="px-1">Gradual savings and takes some years to build the sum; Do not need to save all at once</p>
 									</div>
 									<div class="col-md-6 text-center">
-										<img src="{{ url('/images/business/account-saving/saving-deposit/Unlimited_cash_withdrawal.png') }}" class="img-fluid w-30">
+										<img src="{{ url('/images/business/account-saving/saving-deposit/Unlimited_cash_withdrawal.png') }}" class="img-fluid saving_deposit_aya_su_buu_icon">
 										<p>Withdrawal funds at designated branch</p>
 									</div>
 									<div class="space-20"></div>
 									<div class="col-md-6 text-center">
-										<img src="{{ url('/images/business/account-saving/saving-deposit/helps_individual_meet_financial_needs_during_retirement_period.png') }}" class="img-fluid w-30">
+										<img src="{{ url('/images/business/account-saving/saving-deposit/helps_individual_meet_financial_needs_during_retirement_period.png') }}" class="img-fluid saving_deposit_aya_su_buu_icon">
 										<p>Helps an individual to meet their financial needs during their retirement period</p>
 									</div>
 									<div class="col-md-6 text-center">
-										<img src="{{ url('/images/business/account-saving/saving-deposit/View_monthly_savings_increment_via_mobile_banking.png') }}" class="img-fluid w-30">
+										<img src="{{ url('/images/business/account-saving/saving-deposit/View_monthly_savings_increment_via_mobile_banking.png') }}" class="img-fluid saving_deposit_aya_su_buu_icon">
 										<p>View monthly savings and increment via personal mobile banking by the employee</p>
 									</div>
 								</div>
@@ -235,12 +141,12 @@
 								AYA Regular Saving
 							</p>
 							<div class="row" style="position: relative;">
-								<img src="{{ url('/images/business/account-saving/saving-deposit/aya-regular-saving.png') }}" class="img-fluid">
-								<p style="font-weight: 500;font-size: 16px;line-height: 22px;position: absolute;top: 65%;left: 4%;width: 90%;">An easy-access <Br>deposit account</p>
+								<img src="{{ url('/images/business/account-saving/saving-deposit/aya-regular-saving_mobile.png') }}" class="img-fluid">
+								<p class="aya-regular-saving-tagline">Earn interest on excess funds with automate sweeping service</p>
 							</div>
 							<div class="row">
 								<div class="space-30"></div>
-								<p>A business Savings account with features designed to add convenience and flexibility to your business.</p>
+								<p>A business savings account with features designed to add convenience and flexibility to your business.</p>
 								<p>It will help nurture growth for major purchase or business expansion.</p>
 								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
@@ -281,11 +187,11 @@
 
 							<div class="space-40"></div>
 							<p class="calldeposit__mobile_title">
-								AYA SU-Buu
+								AYA Su-Buu
 							</p>
 							<div class="row" style="position: relative;">
 								<img src="{{ url('/images/business/account-saving/saving-deposit/aya-su-buu-mobile.png') }}" class="img-fluid">
-								<p style="font-weight: 500;font-size: 16px;line-height: 18px;position: absolute;top: 70%;left: 4%;width: 92%;">Exclusive account for your employees’ retirement-oriented scheme</p>
+								<p class="aya-su-buu_tagline">Exclusive account for your employees’ retirement-oriented scheme</p>
 							</div>
 							<div class="row">
 								<div class="space-30"></div>
@@ -294,7 +200,7 @@
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>Receive Interest on 6.25% per annum and frequency on monthly basis</p>
+									<p>Receive interest on 6% per annum and frequency on monthly basis.</p>
 								</div>
 								<div class="col-1 bullet_square_div">
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">

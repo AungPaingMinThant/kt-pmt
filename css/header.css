@@ -214,7 +214,7 @@
 	}
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
 	.desktop_menu {
         display: none !important;
     }

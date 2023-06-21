@@ -337,6 +337,9 @@
 								<div class="space-40" id="micro_loan"></div>
 								<!-- Micro Loan Css -->
 								<style type="text/css">
+									.mm_font {
+										font-family: 'Pyidaungsu';
+									}
 									.accordion-body .apply-tab .nav-tabs .tab_title.active span {
 										border-bottom: 5px solid #A5000B;
 									}
@@ -378,10 +381,11 @@
 								</p>
 								<div class="row" style="position: relative;">
 									<img src="{{ url('/images/business/borrowing/sme/micro_loan.png') }}" class="img-fluid">
+									<!-- <p class="micro_loan_tagline">Financing your agribusiness through our flexible loan for seasonal agricultural operations</p> -->
 								</div>
 								<div class="row">
 									<div class="space-30"></div>
-									<p>Need funds for regular operations, capital investments, or business expansion? AYA Bank will help you finance your ambitions and create your own opportunities. We provide Microloans with minimal collateral requirements or without collateral for the uninterrupted operation and expansion of small enterprises with growth potential.</p>
+									<p class="mm_font">အသေးစားလုပ်ငန်း ပုံမှန်လည်ပတ်စေခြင်း၊ လက်ရှိဆောင်ရွက်နေသော လုပ်ငန်းများသည် လုပ်ငန်းအတွင်း လိုအပ်သည့် ရင်းနှီးမြှုပ်နှံခြင်း၊ တိုးချဲ့မှုပြုလုပ်လိုသော လုပ်ငန်းများအတွက် အထောက်အပံ့ဖြစ်စေရန် ရည်ရွယ်၍ ဧရာဝတီဘဏ်အနေဖြင့် ငွေရေးကြေးရေး လိုအပ်ချက်ရှိပြီး အလားအလာရှိသော လုပ်ငန်းငယ်များကို ပံ့ပိုးပေးနိုင်ရန် အာမခံတန်ဖိုး အနည်းငယ်မျှဖြင့် (သို့မဟုတ်) အာမခံမပါရှိပဲ ချေးငွေတစ်ရပ် ထုတ်ချေးပေးနိုင်ရန် ရည်ရွယ်ပါသည်။</p>
 									
 									<div class="space-20"></div>
 
@@ -402,21 +406,21 @@
 												<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
 													<div class="accordion-body">
 														<div class="col-md-12">
-															<p class="fw-semibold" style="font-size: 18px;">Who can apply?</p>
-															<p>Small enterprises that can apply for AYA Micro Loan services:</p>
+															<p class="fw-semibold" style="font-size: 18px;">AYA Micro Loan လျှောက်ထားနိုင်သူများ</p>
+															<p class="mm_font">AYA Micro Loan ဝန်ဆောင်မှုကို လျှောက်ထားနိုင်သည့် အသေးစားစီးပွားရေး လုပ်ငန်းများသည်</p>
 														</div>
 														<div class="row">
 															<div class="col-1">
 																<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 															</div>
 															<div class="col-11">
-																<p class="micro_loan_points mt-minus-5 ">A Valid Business License and an operational business of (1) year.</p>
+																<p class="micro_loan_points mt-minus-5 mm_font">လုပ်ငန်းလိုင်စင်နှင့်လုပ်ငန်းသက်တမ်းအနည်းဆုံး (၁) နှစ်ရှိရမည်။</p>
 															</div>
 															<div class="col-1">
 																<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 															</div>
 															<div class="col-11">
-																<p class="micro_loan_points mt-minus-5 ">Must comply with other terms and conditions apply by AYA Bank.</p>
+																<p class="micro_loan_points mt-minus-5 mm_font">AYA ဘဏ်မှချမှတ်ထားသော အခြားစံနှုန်းများနှင့်ကိုက်ညီရမည်။</p>
 															</div>
 														</div>
 													</div>
@@ -439,13 +443,13 @@
 														<div class="apply-tab nav-align-top mb-4">
 															<ul class="nav nav-pills " role="tablist">
 																<li class="nav-item apply-with-collectral-tab">
-																	<button type="button" class="tab_title apply-tab-link active  fw-semibold" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-top-apply-with-collectral" aria-controls="navs-pills-top-apply-with-collectral" aria-selected="true" >
-																		If applying <br>with collateral
+																	<button type="button" class="tab_title apply-tab-link active mm_font fw-semibold" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-top-apply-with-collectral" aria-controls="navs-pills-top-apply-with-collectral" aria-selected="true" >
+																		အာမခံ အပေါင်ပစ္စည်းဖြင့် <br>လျှောက်ထားပါက
 																	</button>
 																</li>
 																<li class="nav-item">
-																	<button type="button" class="tab_title apply-tab-link apply-tab-link  fw-semibold" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-top-apply-with-CGI" aria-controls="navs-pills-top-apply-with-CGI" aria-selected="false" >
-																		If applying through CGI (Credit Guarantee Insurance)<br>without collateral
+																	<button type="button" class="tab_title apply-tab-link apply-tab-link mm_font fw-semibold" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-top-apply-with-CGI" aria-controls="navs-pills-top-apply-with-CGI" aria-selected="false" >
+																		အာမခံ အပေါင်ပစ္စည်းမဲ့ CGI (ချေးငွေ အာမခံ) စနစ်ဖြင့် <br>လျှောက်ထားပါက 
 																	</button>
 																</li>
 															</ul>
@@ -455,25 +459,20 @@
 																		<table class="table table-bordered fee_charge_table">
 																			<tbody style="box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%);font-weight: 500;background-color: transparent;">
 																				<tr style="background-color: #fff;border-top: none;">
-																					<td style="border-left: none;padding: 20px;width: 30%;">Loan Amount</td>
-																					<td style="border-right: none;">Up to MMK 30,000,000</td>
+																					<td style="border-left: none;padding: 20px;">လျှောက်ထားနိုင်သော ချေးငွေပမာဏ</td>
+																					<td style="border-right: none;">အများဆုံး သိန်း (၃၀၀)</td>
 																				</tr>
 																				<tr style="background-color: #fff;border-top: none;">
-																					<td style="border-left: none;padding: 20px;">Collateral</td>
-																					<td style="border-right: none;">Apartment, business/shop title-owned, Vehicle with your ownership title</td>
+																					<td style="border-left: none;padding: 20px;">အာမခံ အပေါင်ပစ္စည်း အမျိုးအစား</td>
+																					<td style="border-right: none;">တိုက်ခန်း၊ အမည်ပေါက်ဆိုင်ခန်း၊<br>အမည်ပေါက် Private မော်တော်ကား၊</td>
 																				</tr>
 																				<tr>
-																					<td style="border-left: none;padding: 20px;">Loan Tenor</td>
-																					<td style="border-right: none;">Up to (2) years</td>
+																					<td style="border-left: none;padding: 20px;">ချေးငွေသက်တမ်း</td>
+																					<td style="border-right: none;">(၁) နှစ်အထိ</td>
 																				</tr>
 																				<tr style="background-color: #fff;border-bottom: none;">
-																					<td style="border-width: 1px;border-bottom: none;border-left: none;padding: 20px;">Interest</td>
-																					<td class="last" style="border-width: 1px;border-right: none;border-bottom: none;">
-																						<p class="mb-10">For loan term (1) year : 9.5% per year</p>
-																						<p><span style="color: transparent;user-select: none;">For loan term (1) year : </span>0.79% per month</p>
-																						<p class="mb-10">For loan term (2) years : 8.5% per year</p>
-																						<p><span style="color: transparent;user-select: none;">For loan term (2) years : </span>0.70% per month</p>
-																					</td>
+																					<td style="border-width: 1px;border-bottom: none;border-left: none;padding: 20px;">အတိုးနှုန်း</td>
+																					<td class="last" style="border-width: 1px;border-right: none;border-bottom: none;">တစ်နှစ်လျှင် (၉.၅%)<br>တစ်လလျှင် (၀.၇၉%)</td>
 																				</tr>
 																			</tbody>
 																		</table>
@@ -484,28 +483,20 @@
 																		<table class="table table-bordered fee_charge_table">
 																			<tbody style="box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%);font-weight: 500;background-color: transparent;">
 																				<tr style="background-color: #fff;border-top: none;">
-																					<td style="border-left: none;padding: 20px;width: 35%;">Loan Amount</td>
-																					<td style="border-right: none;">Up to MMK 10,000,000</td>
+																					<td style="border-left: none;padding: 20px;">လျှောက်ထားနိုင်သော ချေးငွေပမာဏ</td>
+																					<td style="border-right: none;">အများဆုံး သိန်း (၁၀၀)</td>
 																				</tr>
 																				<tr style="background-color: #fff;border-top: none;">
-																					<td style="border-left: none;padding: 20px;">Loan Tenor</td>
-																					<td style="border-right: none;">Up to (2) years</td>
+																					<td style="border-left: none;padding: 20px;">ချေးငွေသက်တမ်း</td>
+																					<td style="border-right: none;">(၁) နှစ်အထိ</td>
 																				</tr>
 																				<tr>
-																					<td style="border-left: none;padding: 20px;">Interest</td>
-																					<td style="border-right: none;width: 70%;">
-																						<p class="mb-10">For loan term (1) year : 10.5% per year</p>
-																						<p><span style="color: transparent;user-select: none;">For loan term (1) year : </span>0.87% per month</p>
-																						<p class="mb-10">For loan term (2) years : 9.0% per year</p>
-																						<p><span style="color: transparent;user-select: none;">For loan term (2) years : </span>0.75% per month</p>
-																					</td>
+																					<td style="border-left: none;padding: 20px;">အတိုးနှုန်း</td>
+																					<td style="border-right: none;">တစ်နှစ်လျှင် (၁၀.၅%)<br>တစ်လလျှင် (၀.၈၇%)</td>
 																				</tr>
 																				<tr style="background-color: #fff;border-bottom: none;">
-																					<td style="border-width: 1px;border-bottom: none;border-left: none;padding: 20px;">Myanma Insurance (CGI) premium</td>
-																					<td class="last" style="border-width: 1px;border-right: none;border-bottom: none;">
-																						<p class="mb-10">First year : 3% of the approved loan amount</p>
-																						<p>Second year : 2.5% of the remaining loan amount</p>
-																					</td>
+																					<td style="border-width: 1px;border-bottom: none;border-left: none;padding: 20px;">မြန်မာ့အာမခံ (CGI) ပရီမီယံကြေး</td>
+																					<td class="last" style="border-width: 1px;border-right: none;border-bottom: none;">ခွင့်ပြုချေးငွေ ပမာဏ၏ (၃%)</td>
 																				</tr>
 																			</tbody>
 																		</table>
@@ -514,23 +505,23 @@
 															</div>
 														</div>
 
-														<p class=" fw-semibold" style="font-size: 17px;">Repayment Terms</p>
+														<p class="mm_font fw-semibold" style="font-size: 17px;">ပြန်လည်ပေးဆပ်ပုံ</p>
 
 														<div class="row">
-															<div class="col-1 micro_bullet_square_div">
+															<div class="col-1">
 																<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid micro_bullet_square">
 															</div>
-															<div class="col-11 micro_bullet_fact_div">
-																<p class=" micro_loan_return_points">Interest will be collected using the Upfront Method.</p>
+															<div class="col-11">
+																<p class="mm_font micro_loan_return_points mt-minus-10">ချေးငွေအတိုးအား အတိုးကြိုကောက်ခံခြင်းစနစ် (Upfront Method) ဖြင့် ဘဏ်မှ ကောက်ခံမည်ဖြစ်သည်။</p>
 															</div>
-															<div class="col-1 micro_bullet_square">
+															<div class="col-1">
 																<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid micro_bullet_square">
 															</div>
-															<div class="col-11 micro_bullet_fact_div">
-																<p class=" micro_loan_return_points">At the time of loan approval, the annual interest rate is deducted in advance from the loan amount, leaving the remainder available for use.</p>
+															<div class="col-11">
+																<p class="mm_font micro_loan_return_points mt-minus-10">ချေးငွေရရှိချိန်တွင် ကျသင့်သော တစ်နှစ်စာ အတိုးငွေအား ခွင့်ပြုချေးငွေပမာဏထဲမှ ကြိုတင်ကောက်ခံထားရှိပြီး ကျန်ချေးငွေ ပမာဏအား ထုတ်ယူသုံးစွဲနိုင်မည်ဖြစ်သည်။</p>
 															</div>
 															<div class="col-12">
-																<p>*** The principal loan amount must be repaid to the bank every month.</p>
+																<p class="mm_font">*** ချေးငွေအရင်းအား ဘဏ်သို့လစဉ် ပြန်လည်ပေးဆပ်ရမည်ဖြစ်သည်။</p>
 															</div>
 														</div>
 
@@ -539,53 +530,53 @@
 														<div class="return-tab nav-align-top mb-4">
 															<ul class="nav nav-pills " role="tablist">
 																<li class="nav-item return-collectral-tab">
-																	<button type="button" class="tab_title nav-link return-tab active  fw-semibold" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-return-collectral" aria-controls="navs-pills-return-collectral" aria-selected="true" >
-																		Applying loan <br>with collateral
+																	<button type="button" class="tab_title nav-link return-tab active mm_font fw-semibold" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-return-collectral" aria-controls="navs-pills-return-collectral" aria-selected="true" >
+																		အာမခံအပေါင် ပစ္စည်းပေးအပ်ပြီး <br>ချေးငွေလျှောက်ထားခြင်းအတွက်
 																	</button>
 																</li>
 																<li class="nav-item">
-																	<button type="button" class="tab_title nav-link return-tab  fw-semibold" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-return-CGI" aria-controls="navs-pills-return-CGI" aria-selected="false" >
-																		Applying loan through CGI <br>(without collateral)
+																	<button type="button" class="tab_title nav-link return-tab mm_font fw-semibold" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-return-CGI" aria-controls="navs-pills-return-CGI" aria-selected="false" >
+																		အာမခံအပေါင်ပစ္စည်းမဲ့ CGI (ချေးငွေ အာမခံ) စနစ်ဖြင့် <br>ချေးငွေလျှောက်ထားခြင်းအတွက်
 																	</button>
 																</li>
 															</ul>
 															<div class="tab-content" style="background-color: transparent;padding: 30px 0px 0px 0px;box-shadow: none;">
 																<div class="tab-pane fade show active" id="navs-pills-return-collectral" role="tabpanel" style="padding-bottom: 20px;">
 																	<div>
-																		<table class="table table-bordered return_collectral_table ">
+																		<table class="table table-bordered return_collectral_table mm_font">
 																			<tbody style="box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%);font-weight: 500;background-color: transparent;">
 																				<tr style="background-color: #fff;border-top: none;">
-																					<td class="w-30" style="border-left: none;padding: 20px;">Approved loan amount (example)</td>
+																					<td class="w-30" style="border-left: none;padding: 20px;">ခွင့်ပြု ချေးငွေပမာဏ (ဥပမာ)</td>
 																					<td>5,000,000</td>
 																					<td>10,000,000</td>
 																					<td style="border-right: none;">30,000,000</td>
 																				</tr>
 																				<tr style="background-color: #fff;border-top: none;">
-																					<td style="border-left: none;padding: 20px;">Interest per annum</td>
+																					<td style="border-left: none;padding: 20px;">(၁) နှစ်လျှင် အတိုးနှုန်း</td>
 																					<td>9.5%</td>
 																					<td>9.5%</td>
 																					<td style="border-right: none;">9.5%</td>
 																				</tr>
 																				<tr>
-																					<td style="border-left: none;padding: 20px;">Total (1) year interest</td>
+																					<td style="border-left: none;padding: 20px;">စုစုပေါင်း (၁)နှစ်စာ အတိုး</td>
 																					<td>475,000</td>
 																					<td>950,000</td>
 																					<td style="border-right: none;">2,850,000</td>
 																				</tr>
 																				<tr>
-																					<td style="border-left: none;padding: 20px;">Loan amount (after interest)</td>
+																					<td style="border-left: none;padding: 20px;">ချေးငွေ ထုတ်ယူသုံးစွဲနိုင်မည့်ပမာဏ (အတိုးကောက်ခံပြီး)</td>
 																					<td>4,525,000</td>
 																					<td>9,050,000</td>
 																					<td style="border-right: none;">27,150,000</td>
 																				</tr>
 																				<tr>
-																					<td style="border-left: none;padding: 20px;"> Monthly principal amount to be repaid</td>
+																					<td style="border-left: none;padding: 20px;">လစဉ် ပြန်လည်ပေးဆပ်ရမည့် အရင်းငွေပမာဏ</td>
 																					<td>416,666</td>
 																					<td>833,333</td>
 																					<td style="border-right: none;">2,500,000</td>
 																				</tr>
 																				<tr style="background-color: #fff;border-bottom: none;">
-																					<td style="border-width: 1px;border-bottom: none;border-left: none;padding: 20px;">Daily principal amount</td>
+																					<td style="border-width: 1px;border-bottom: none;border-left: none;padding: 20px;">(၁) ရက်စာ ကျသင့်မည့် အရင်းငွေပမာဏ</td>
 																					<td>13,698</td>
 																					<td>27,397</td>
 																					<td class="last" style="border-width: 1px;border-right: none;border-bottom: none;">82,191</td>
@@ -599,37 +590,37 @@
 																		<table class="table table-bordered return_collectral_table">
 																			<tbody style="box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%);font-weight: 500;background-color: transparent;">
 																				<tr style="background-color: #fff;border-top: none;">
-																					<td class="w-30" style="border-left: none;padding: 20px;">Approved loan amount (example)</td>
+																					<td class="w-30" style="border-left: none;padding: 20px;">ခွင့်ပြု ချေးငွေပမာဏ (ဥပမာ)</td>
 																					<td>5,000,000</td>
 																					<td style="border-right: none;">10,000,000</td>
 																				</tr>
 																				<tr style="background-color: #fff;border-top: none;">
-																					<td style="border-left: none;padding: 20px;">Interest per annum</td>
+																					<td style="border-left: none;padding: 20px;">(၁) နှစ်လျှင် အတိုးနှုန်း</td>
 																					<td>10.5%</td>
 																					<td style="border-right: none;">10.5%</td>
 																				</tr>
 																				<tr>
-																					<td style="border-left: none;padding: 20px;">Total (1) year interest</td>
+																					<td style="border-left: none;padding: 20px;">စုစုပေါင်း (၁)နှစ်စာ အတိုး</td>
 																					<td>525,000</td>
 																					<td style="border-right: none;">1,050,000</td>
 																				</tr>
 																				<tr>
-																					<td style="border-left: none;padding: 20px;">Loan amount (after interest)</td>
+																					<td style="border-left: none;padding: 20px;">ချေးငွေ ထုတ်ယူသုံးစွဲနိုင်မည့်ပမာဏ (အတိုးကောက်ခံပြီး)</td>
 																					<td>4,475,000</td>
 																					<td style="border-right: none;">8,950,000</td>
 																				</tr>
 																				<tr>
-																					<td style="border-left: none;padding: 20px;">Monthly principal amount to be repaid</td>
+																					<td style="border-left: none;padding: 20px;">လစဉ် ပြန်လည်ပေးဆပ်ရမည့် အရင်းငွေပမာဏ</td>
 																					<td>416,666</td>
 																					<td style="border-right: none;">833,333</td>
 																				</tr>
 																				<tr>
-																					<td style="border-left: none;padding: 20px;">Daily principal amount</td>
+																					<td style="border-left: none;padding: 20px;">(၁) ရက်စာ ကျသင့်မည့် အရင်းငွေပမာဏ</td>
 																					<td>13,698</td>
 																					<td style="border-right: none;">27,397</td>
 																				</tr>
 																				<tr style="background-color: #fff;border-bottom: none;">
-																					<td style="border-width: 1px;border-bottom: none;border-left: none;padding: 20px;">Premium to be paid to Myanma Insurance (3%)</td>
+																					<td style="border-width: 1px;border-bottom: none;border-left: none;padding: 20px;">မြန်မာ့အာမခံသို့ ပေးဆောင်ရသော ပရီမီယံကြေး (၃%)</td>
 																					<td>150,000</td>
 																					<td class="last" style="border-width: 1px;border-right: none;border-bottom: none;">300,000</td>
 																				</tr>
@@ -657,32 +648,32 @@
 												<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
 													<div class="accordion-body">
 														<div class="row">
-															<p class="fw-semibold" style="font-size: 18px;">Business related documents</p>
+															<p class="fw-semibold" style="font-size: 18px;">လုပ်ငန်းနှင့် သက်ဆိုင်သော စာရွက်စာတမ်းများ</p>
 														</div>
 														<div class="row">
 															<div class="col-1">
 																<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 															</div>
 															<div class="col-11">
-																<p class="micro_loan_points mt-minus-5">Business license and permit</p>
+																<p class="micro_loan_points mt-minus-5">လုပ်ငန်းလိုင်စင် နှင့် ခွင့်ပြုမိန့်</p>
 															</div>
 															<div class="col-1">
 																<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 															</div>
 															<div class="col-11">
-																<p class="micro_loan_points mt-minus-5">Investment plan for business</p>
+																<p class="micro_loan_points mt-minus-5">လုပ်ငန်းအတွက် ရင်းနှီးမြှုပ်နှံမှုအစီအစဉ်ဇယား</p>
 															</div>
 															<div class="col-1">
 																<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 															</div>
 															<div class="col-11">
-																<p class="micro_loan_points mt-minus-5">Trade Receipts/Ledger and Records (Previous 3 months)</p>
+																<p class="micro_loan_points mt-minus-5">ကုန်ရောင်းဝယ်ပြေစာများ/Ledger နှင့် မှတ်တမ်း (နောက်ဆုံး ၃လစာ)</p>
 															</div>
 															<div class="col-1">
 																<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 															</div>
 															<div class="col-11">
-																<p class="micro_loan_points mt-minus-5">Business photos (front, back, left, right and interior)</p>
+																<p class="micro_loan_points mt-minus-5">လုပ်ငန်း ဓါတ်ပုံများ (ရှေ့၊ နောက်၊ ဝဲ၊ ယာ နှင့် အတွင်းပိုင်း)</p>
 															</div>
 															<div class="col-1">
 																<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
@@ -694,40 +685,40 @@
 																<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 															</div>
 															<div class="col-11">
-																<p class="micro_loan_points mt-minus-5">SME Certificate (if approved)</p>
+																<p class="micro_loan_points mt-minus-5">SME ထောက်ခံစာ (ချေးငွေခွင့်ပြုချက်ရရှိပါက)</p>
 															</div>
 														</div>
 
 														<div class="space-20"></div>
 														
 														<div class="row">
-															<p style="font-size: 18px;"><span class="fw-semibold">Documents related to loan applicants</span> (at least 2 applicants)</p>
+															<p style="font-size: 18px;"><span class="fw-semibold">ချေးငွေလျှောက်ထားသူတို့နှင့် သက်ဆိုင်သော စာရွက်စာတမ်းများ</span> (အနည်းဆုံး ၂ ဦး လျှောက်ထားရန်)</p>
 														</div>														
 														<div class="row">
 															<div class="col-1">
 																<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 															</div>
 															<div class="col-11">
-																<p class="micro_loan_points mt-minus-5">National Identity Card (copy) and Household Registration (copy)</p>
+																<p class="micro_loan_points mt-minus-5">နိုင်ငံသားစိစစ်ရေးကတ်ပြား (မိတ္တူ) နှင့် အိမ်ထောင်စုလူဦးရေစာရင်း (မိတ္တူ)</p>
 															</div>
 															<div class="col-1">
 																<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 															</div>
 															<div class="col-11">
-																<p class="micro_loan_points mt-minus-5">(2) license size photos</p>
+																<p class="micro_loan_points mt-minus-5">လိုင်စင်ဓာတ်ပုံအရွယ် ဓာတ်ပုံ (၂)ပုံ</p>
 															</div>
 															<div class="col-1">
 																<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 															</div>
 															<div class="col-11">
-																<p class="micro_loan_points mt-minus-5">Proof of Residence (Municipal Tax or Land Tax or Meter Bill)</p>
+																<p class="micro_loan_points mt-minus-5">နေထိုင်သည့် နေရာ အထောက်အထား (စည်ပင်ခွန် (သို့) မြေခွန် (သို့) မီတာခွန်)</p>
 															</div>
 														</div>
 														
 														<div class="space-20"></div>
 
 														<div class="row">
-															<p class="fw-semibold" style="font-size: 18px;">Documents related to insurance</p>
+															<p class="fw-semibold" style="font-size: 18px;">အာမခံနှင့်သက်ဆိုင်သော စာရွက်စာတမ်းများ</p>
 														</div>
 														<div class="row">
 															<div class="col-1">
@@ -736,29 +727,29 @@
 															<div class="col-11">
 																<div class="row">
 																	<div class="col-4">
-																		<p class="micro_loan_points mt-minus-5">If it is an apartment</p>
+																		<p class="micro_loan_points mt-minus-5">တိုက်ခန်းဖြစ်ပါက</p>
 																	</div>
 																	<div class="col-8">
-																		<p class="micro_loan_points mt-minus-5">- Related agreements</p>
-																		<p class="micro_loan_points mt-minus-5">- Copy of BCC; A copy of the contract signed by the landlord and contractor</p>
+																		<p class="micro_loan_points mt-minus-5">- ဆက်စပ်အရောင်းအဝယ်စာချုပ်များ</p>
+																		<p class="micro_loan_points mt-minus-5">- BCC မိတ္တူ၊ မြေရှင်နှင့် ကန်ထရိုက်ချုပ်ဆိုထားသော စာချုပ်မိတ္တူ</p>
 																	</div>
 																</div>
 
 																<div class="row">
 																	<div class="col-4">
-																		<p class="micro_loan_points mt-minus-5">If it is a title-owned shop</p>
+																		<p class="micro_loan_points mt-minus-5">အမည်ပေါက်ဆိုင်ခန်းဖြစ်ပါက</p>
 																	</div>
 																	<div class="col-8">
-																		<p class="micro_loan_points mt-minus-5">- A copy of the Title-deed</p>
+																		<p class="micro_loan_points mt-minus-5">- အမည်ပေါက် ပိုင်ဆိုင်မှုစာအုပ်</p>
 																	</div>
 																</div>
 
 																<div class="row">
 																	<div class="col-4">
-																		<p class="micro_loan_points mt-minus-5">If it is a registered vehicle</p>
+																		<p class="micro_loan_points mt-minus-5">အမည်ပေါက်မော်တော်ယာဉ်ဖြစ်ပါက</p>
 																	</div>
 																	<div class="col-8">
-																		<p class="micro_loan_points mt-minus-5">- Car ownership book</p>
+																		<p class="micro_loan_points mt-minus-5">- အမည်ပေါက် ပိုင်ဆိုင်မှုစာအုပ်</p>
 																	</div>
 																</div>
 															</div>
@@ -766,7 +757,7 @@
 														
 														<div class="space-20"></div>
 														<div class="row">
-															<p>Additional documents may be required depending on the purpose of the loan application and the type of business.</p>
+															<p>ချေးငွေလျှောက်ထားသောရည်ရွယ်ချက်နှင့် လုပ်ငန်းအမျိုးအစားပေါ်မူတည်ပြီး  အခြားစာရွက်စာတမ်းများ ထပ်မံလိုအပ်နိုင်ပါသည်။</p>
 														</div>
 													</div>
 												</div>
@@ -785,7 +776,7 @@
 												</h2>
 												<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
 													<div class="accordion-body">
-														<p class="mb-0">Check at the nearest AYA Bank branches whether you meet the loan criteria. You can find out at once and apply with the necessary documents</p>
+														<p class="mb-0">နီးစပ်ရာ ဧရာဝတီဘဏ် ဘဏ်ခွဲများ တွင် ချေးငွေ စံသတ်မှတ်ချက်နှင့် ကိုက်ညီမှု ရှိ၊ မရှိ တစ်ခါတည်း သိရှိနိုင်ပြီး လိုအပ်သော စာရွက်စာတမ်းများဖြင့် လျှောက်ထားနိုင်ပါသည်။</p>
 														<img src="{{ url('/images/business/borrowing/sme/Customer-Journey.jpg') }}" class="img-fluid text-center">
 													</div>
 												</div>
@@ -804,8 +795,8 @@
 												</h2>
 												<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
 													<div class="accordion-body">
-														<p>No service charges by the Bank to apply AYA Micro Loan.</p>
-														<p>However, if you apply with collateral, collateral valuation fees, lawyer fees and service fees related to government offices shall be borne by the applicant(s).</p>
+														<p> AYA Micro Loan လျှောက်ထားရာတွင် ဘဏ်သို့ ချေးငွေဝန်ဆောင်ခ (Service Charges) (လုံးဝ) ပေးစရာ မလိုပါ။</p>
+														<p>သို့သော် ဘဏ်သို့ အာမခံတင်ပြလျှောက်ထားပါက အာမခံအား ရာဖြတ်ခြင်း၊ အာမခံနှင့်ပတ်သက်၍ ရှေ့နေ စစ်ဆေးခြင်းများအတွက် ရာဖြတ်ခ၊ ရှေ့နေဆောင်ရွက်ခနှင့် အခြား အစိုးရရုံးဆိုင်ရာ ဆောင်ရွက်ခများအား ချေးငွေ လျှောက်ထားသူများမှ ပေးရမည်ဖြစ်သည်။</p>
 													</div>
 												</div>
 											</div>

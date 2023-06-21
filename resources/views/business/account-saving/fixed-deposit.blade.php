@@ -1,24 +1,8 @@
 @extends('layouts.frontend-app')
 
 @section('title', 'Fixed Deposit – AYA Bank')
-<style type="text/css">
-	h4 {
-		color: #2e2e2e !important;
-	}
-	.fixed_deposit_desc {
-		margin-left: -30px;
-	}
-	@media (max-width: 999px) and (min-width: 577px) {
-		.fixed_deposit_tag_div {
-			width: 100% !important;
-		}
-	}
-	@media only screen and (max-width: 576px) {
-		.fixed_deposit_desc {
-			margin-left: 0px;
-		}	
-	}
-</style>
+<link rel="stylesheet" href="{{ url('/css/business/acc-sav.css') }}" />
+
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">

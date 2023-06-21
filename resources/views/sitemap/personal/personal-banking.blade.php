@@ -27,7 +27,7 @@
                         </div>
                         <div class="col-md-4 px-3">
                             <p>
-                                <a class="f-body-color" href="{{ url('/personal-banking/premium-banking') }}">ROYAL BANKING <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                <a class="f-body-color" href="{{ url('/personal-banking/royal-banking') }}">ROYAL BANKING <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
                             <p>
                                 <a class="f-body-color" href="{{ url('/personal-banking/insurance') }}">INSURANCE <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>

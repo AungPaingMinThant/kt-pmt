@@ -132,7 +132,7 @@
 												<div class="row">
 													<div class="col-md-5">
 														<p class="fw-bold">
-															ASSETS ACQUISITION / FINANCING
+															HIRE PURCHASE (PERSONAL)
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/personal-banking/borrowing/hire-purchase/auto-loan') }}">Auto Loan</a>
@@ -174,7 +174,7 @@
 												<div class="row">
 													<div class="col-md-5">
 														<p class="m-b-5 fw-bold">
-															<a href="{{ url('/personal-banking/premium-banking') }}">Royal Banking</a>
+															<a href="{{ url('/personal-banking/royal-banking') }}">Royal Banking</a>
 														</p>
 													</div>
 												</div>
@@ -183,7 +183,7 @@
 												<div class="row">
 													<div class="col-md-12">
 														<p class="fw-bold">
-															INSURANCE
+															GENERAL INSURANCE
 														</p>
 													</div>
 													<div class="col-md-4">
@@ -211,7 +211,7 @@
 													<div class="space-20"></div>
 													<div class="col-md-12">
 														<p class="fw-bold">
-															<a href="{{ url('/personal-banking/insurance/life') }}">LIFE</a>
+															<a href="{{ url('/personal-banking/insurance/life') }}">LIFE INSURANCE</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/personal-banking/insurance/life/universal') }}">Universal Life Insurance</a>
@@ -970,7 +970,7 @@
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-3">
-										ASSETS ACQUISITION / FINANCING
+										HIRE PURCHASE (PERSONAL)
 									</p>
 								</li>
 								<li>
@@ -1020,13 +1020,13 @@
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item mb-20 mt-3">
-										<a href="{{ url('/personal-banking/premium-banking') }}">Royal Banking</a>
+										<a href="{{ url('/personal-banking/royal-banking') }}">Royal Banking</a>
 									</p>
 								</li>
 							</ul>
 						</div>
 						<div class="row menu-link personal-menu-ins-link">
-							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">INSURANCE</a>
+							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GENERAL INSURANCE</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
@@ -1060,7 +1060,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-3">
-										<a href="{{ url('/personal-banking/insurance/life') }}">LIFE</a>
+										<a href="{{ url('/personal-banking/insurance/life') }}">LIFE INSURANCE</a>
 									</p>
 								</li>
 								<li>

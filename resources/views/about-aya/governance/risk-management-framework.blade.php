@@ -24,7 +24,7 @@
 						<div class="space-20"></div>
 						<div class="row text-center">
 							<p class="fw-semibold" style="font-size: 18px;">AYA Risk Management Framework</p>
-							<img src="{{ url('/images/about-aya/risk-management/risk_mgmt_framework_chart.webp') }}" class="img-fluid">
+							<img src="{{ url('/images/about-aya/risk-management/risk_mgmt_framework_chart.png') }}" class="img-fluid">
 						</div>
 
 						<div class="space-30"></div>
