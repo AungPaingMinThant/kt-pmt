@@ -1,3 +1,6 @@
+.desktop_logo_div {
+	display: table-cell;
+}
 .desktop_logo {
 	width: 70%;
 	margin-top: 40px
@@ -206,10 +209,6 @@
 	}
 }
 @media (max-width: 1300px) and (min-width: 769px) {
-	.desktop_logo {
-		width: 100%;
-		margin-top: 27px
-	}
 	.mobile_logo {
     	width: 30% !important;
     	margin-left: 10px;
@@ -219,6 +218,21 @@
 	}
 	.personal-acc-sav-menu > .row > .col {
 		max-width: 30% !important;
+	}
+}
+@media (max-width: 1179px) and (min-width: 769px) {
+	.desktop_logo_div {
+		padding-right: 0 !important;
+	}
+	.desktop_logo {
+		width: 100%;
+		margin-top: 27px
+	}
+	.personal-dropdown-content {
+		top: 21% !important;
+	}
+	.personal-acc-sav-menu > .row > .col {
+	    max-width: 100% !important;
 	}
 }
 @media screen and (max-width: 768px) {

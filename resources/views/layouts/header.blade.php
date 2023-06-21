@@ -2,7 +2,7 @@
 <div class="desktop_menu">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-3" style="display: table-cell;">
+			<div class="col-md-3 desktop_logo_div">
 				<a href="{{url('/')}}" class="navbar-brand" href="#" style="padding: 22px 0px 20px 4px;display: table-cell;vertical-align: middle;">
 					<img src="{{ url('/images/logo_wo_tagline_2.png') }}" class="img-fluid desktop_logo" style="">
 				</a>
@@ -68,7 +68,7 @@
 											<p class="menu_label">PERSONAL BANKING</p>
 											<div class="personal-menu-links personal-acc-sav-menu">
 												<div class="row">
-													<div class="col">
+													<div class="col-md-8">
 														<p class="fw-bold">
 															<a href="{{ url('/personal-banking/account-saving/saving-deposit') }}">SAVING DEPOST</a>
 														</p>
