@@ -248,7 +248,7 @@
 									<div class="input-group">
 										<label class="input-group-text" for="inputGroupSelect02">I want to &nbsp;</label>
 										<select class="form-select inputGroupSelect02" id="inputGroupSelect02">
-											<option value="">-- Select an option --</option>
+											<option value="">get corporate loan for business expansion</option>
 											<option value="0">get corporate loan for business expansion</option>
 											<option value="1">get business loan for project / tender contract</option>
 											<option value="2">start a small business</option>
@@ -292,7 +292,7 @@
 									<div class="input-group CTA_3_input_group" style="width: 70% !important;">
 										<label class="input-group-text" for="inputGroupSelect03">I want to find &nbsp;</label>
 										<select class="form-select inputGroupSelect03" id="inputGroupSelect03" style="width: 50%">
-											<option value="">-- Select an option --</option>
+											<option value="">Branch</option>
 											<option value="0">Branch</option>
 											<option value="1">ATM</option>
 											<option value="2">FX Counter</option>
@@ -460,13 +460,13 @@
   	// dropdown.selectedIndex = -1;
   	// dropdown.options[1].selected = true;
 
-  	var dropdown2 = document.getElementById('inputGroupSelect02');
-  	dropdown2.selectedIndex = -1;
-  	dropdown2.options[1].selected = true;
+  	// var dropdown2 = document.getElementById('inputGroupSelect02');
+  	// dropdown2.selectedIndex = -1;
+  	// dropdown2.options[1].selected = true;
 
-  	var dropdown3 = document.getElementById('inputGroupSelect03');
-  	dropdown3.selectedIndex = -1;
-  	dropdown3.options[1].selected = true;
+  	// var dropdown3 = document.getElementById('inputGroupSelect03');
+  	// dropdown3.selectedIndex = -1;
+  	// dropdown3.options[1].selected = true;
 
 	document.getElementById('CTA_section_1_info').addEventListener('click', function(event) {
 		if (event.target.classList.contains('inputGroupSelect01')) {
@@ -546,19 +546,14 @@
 
 	document.getElementById('CTA_section_2_info').addEventListener('click', function(event) {
 		if (event.target.classList.contains('inputGroupSelect02')) {
-			var dropdown2 = document.getElementById('inputGroupSelect02');
-		  	dropdown2.options[0].selected = true;
-			event.stopPropagation();
+			$('select[id=inputGroupSelect02] > option:first-child').text('-- Select an option --');
 		}
 	});
 
   	document.getElementById('layout-wrapper').addEventListener('click', function(event) {
-		if (!event.target.classList.contains('CTA_section_2_info')) {
-			var dropdown2 = document.getElementById('inputGroupSelect02');
-		  	dropdown2.selectedIndex = -1;
-		  	dropdown2.options[1].selected = true;
-
-		  	event.stopPropagation();
+  		console.log(event.target.classList);
+		if (!event.target.classList.contains('CTA_section_2_info') && !event.target.classList.contains('inputGroupSelect02') && !event.target.classList.contains('input-group')) {
+			$('select[id=inputGroupSelect02] > option:first-child').text('get corporate loan for business expansion');
 		}
 	});
 
@@ -674,19 +669,14 @@
 
 	document.getElementById('CTA_section_3_info').addEventListener('click', function(event) {
 		if (event.target.classList.contains('inputGroupSelect03')) {
-			var dropdown = document.getElementById('inputGroupSelect03');
-		  	dropdown.options[0].selected = true;
-			event.stopPropagation();
+			$('select[id=inputGroupSelect03] > option:first-child').text('-- Select an option --');
 		}
 	});
 
   	document.getElementById('layout-wrapper').addEventListener('click', function(event) {
-		if (!event.target.classList.contains('CTA_section_3_info')) {
-			var dropdown = document.getElementById('inputGroupSelect03');
-		  	dropdown.selectedIndex = -1;
-		  	dropdown.options[1].selected = true;
-
-		  	event.stopPropagation();
+  		console.log(event.target.classList);
+		if (!event.target.classList.contains('CTA_section_3_info') && !event.target.classList.contains('inputGroupSelect03') && !event.target.classList.contains('input-group')) {
+			$('select[id=inputGroupSelect03] > option:first-child').text('get corporate loan for business expansion');
 		}
 	});
 
