@@ -208,18 +208,6 @@
 		max-width: 30% !important;
 	}
 }
-@media (max-width: 1300px) and (min-width: 769px) {
-	.mobile_logo {
-    	width: 30% !important;
-    	margin-left: 10px;
-    }
-    .personal-dropdown-content {
-	    background-position: 95% center;
-	}
-	.personal-acc-sav-menu > .row > .col {
-		max-width: 30% !important;
-	}
-}
 @media (max-width: 1179px) and (min-width: 769px) {
 	.desktop_logo_div {
 		padding-right: 0 !important;
@@ -231,9 +219,26 @@
 	.personal-dropdown-content {
 		top: 21% !important;
 	}
-	.personal-acc-sav-menu > .row > .col {
-	    max-width: 100% !important;
+	.personal-acc-sav-menu > .row > .col, .personal-acc-sav-menu > .row > .col-md-4 {
+		width: 50% !important;
+    	max-width: 50% !important;
 	}
+	.right-menu-div > div > .row {
+	    padding-top: 70px;
+	    padding-left: 20px;
+	}
+}
+@media (max-width: 1300px) and (min-width: 769px) {
+	.mobile_logo {
+    	width: 30% !important;
+    	margin-left: 10px;
+    }
+    /*.personal-dropdown-content {
+	    background-position: 95% center;
+	}
+	.personal-acc-sav-menu > .row > .col {
+		max-width: 30% !important;
+	}*/
 }
 @media screen and (max-width: 768px) {
 	.desktop_menu {

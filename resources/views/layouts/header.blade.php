@@ -68,7 +68,7 @@
 											<p class="menu_label">PERSONAL BANKING</p>
 											<div class="personal-menu-links personal-acc-sav-menu">
 												<div class="row">
-													<div class="col-md-8">
+													<div class="col">
 														<p class="fw-bold">
 															<a href="{{ url('/personal-banking/account-saving/saving-deposit') }}">SAVING DEPOST</a>
 														</p>
