@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="col-md-3" style="display: table-cell;">
 				<a href="{{url('/')}}" class="navbar-brand" href="#" style="padding: 22px 0px 20px 4px;display: table-cell;vertical-align: middle;">
-					<img src="{{ url('/images/logo_wo_tagline_2.png') }}" class="img-fluid" style="width: 70%;margin-top: 40px">
+					<img src="{{ url('/images/logo_wo_tagline_2.png') }}" class="img-fluid desktop_logo" style="">
 				</a>
 			</div>
 			<div class="col-md-9 text-right">

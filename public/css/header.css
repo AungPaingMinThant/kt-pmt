@@ -1,3 +1,7 @@
+.desktop_logo {
+	width: 70%;
+	margin-top: 40px
+}
 .mobile_menu {
     display: none;
 }
@@ -201,7 +205,11 @@
 		max-width: 30% !important;
 	}
 }
-@media (max-width: 1300px) and (min-width: 577px) {
+@media (max-width: 1300px) and (min-width: 769px) {
+	.desktop_logo {
+		width: 100%;
+		margin-top: 27px
+	}
 	.mobile_logo {
     	width: 30% !important;
     	margin-left: 10px;
@@ -213,7 +221,6 @@
 		max-width: 30% !important;
 	}
 }
-
 @media screen and (max-width: 768px) {
 	.desktop_menu {
         display: none !important;

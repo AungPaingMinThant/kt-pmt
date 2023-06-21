@@ -676,7 +676,7 @@
   	document.getElementById('layout-wrapper').addEventListener('click', function(event) {
   		console.log(event.target.classList);
 		if (!event.target.classList.contains('CTA_section_3_info') && !event.target.classList.contains('inputGroupSelect03') && !event.target.classList.contains('input-group')) {
-			$('select[id=inputGroupSelect03] > option:first-child').text('get corporate loan for business expansion');
+			$('select[id=inputGroupSelect03] > option:first-child').text('Branch');
 		}
 	});
 
