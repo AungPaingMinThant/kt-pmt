@@ -183,7 +183,7 @@
 												<div class="row">
 													<div class="col-md-12">
 														<p class="fw-bold">
-															GENERAL INSURANCE
+															<a href="{{ url('/personal-banking/insurance') }}">GENERAL INSURANCE</a>
 														</p>
 													</div>
 													<div class="col-md-4">

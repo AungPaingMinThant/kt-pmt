@@ -9,10 +9,10 @@
     	border-radius: 5px;
 	}
 	.income_document_div {
-	    background-image: url(../../images/borrowing/hire_purchase/auto_loan/income_document_bg_3.png);
+	    background-image: url('../../../images/borrowing/hire_purchase/auto_loan/income_document_bg_3.png');
 	}
 	.salaried_staff_div {
-		background-image: url(../../images/borrowing/hire_purchase/auto_loan/income_document_bg_2.png);
+		background-image: url('../../../images/borrowing/hire_purchase/auto_loan/income_document_bg_2.png');
 	}
 	.sme_business_owner {
 		padding: 60px 180px 70px 50px;
@@ -33,10 +33,10 @@
 			padding: 50px 60px 70px 55px;
 		}
 		.salaried_staff_div {
-			background-image: url(../../images/borrowing/hire_purchase/auto_loan/income_document_bg_4.png);
+			background-image: url('../../../images/borrowing/hire_purchase/auto_loan/income_document_bg_4.png');
 		}
 		.income_document_div {
-		    background-image: url(../../images/borrowing/hire_purchase/auto_loan/income_document_bg_4.png);
+		    background-image: url('../../../images/borrowing/hire_purchase/auto_loan/income_document_bg_4.png');
 		}
 	}
 </style>
