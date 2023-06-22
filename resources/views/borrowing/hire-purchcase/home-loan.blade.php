@@ -177,7 +177,7 @@
 										<div class="row">
 											<div class="col-md-8 loan_eligibility_check_inner">
 												<p style="font-size: 20px;font-weight: 500;">Check your loan eligibility now!</p>
-												<p>To know your estimated loan eligibility amount, calculate at AYA Auto Loan Calculator</p>
+												<p>To know your estimated loan eligibility amount, calculate at AYA Home Loan Calculator</p>
 												<a href="https://homecalc.ayabank.com/" target="_blank">
 													<button class="btn apply_now_btn">
 														Calculate
@@ -616,7 +616,7 @@
 									<div class="row">
 										<div class="col-md-8 loan_eligibility_check_inner">
 											<p style="font-size: 20px;font-weight: 500;">Check your loan eligibility now!</p>
-											<p>To know your estimated loan eligibility amount, calculate at AYA Auto Loan Calculator</p>
+											<p>To know your estimated loan eligibility amount, calculate at AYA Home Loan Calculator</p>
 											<a href="https://autocalc.ayabank.com" target="_blank">
 												<button class="btn apply_now_btn">
 													Calculate
