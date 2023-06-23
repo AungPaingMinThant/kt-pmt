@@ -62,7 +62,7 @@
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Receive interest on 6% per annum and frequency on monthly basis.</p>
+										<p>Receive interest on 6.25% per annum and frequency on monthly basis.</p>
 									</div>
 
 									<div class="space-40"></div>
@@ -164,7 +164,7 @@
 									<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 								</div>
 								<div class="col-11">
-									<p>Receive interest on 6% per annum and frequency on monthly basis.</p>
+									<p>Receive interest on 6.25% per annum and frequency on monthly basis.</p>
 								</div>
 
 								<div class="space-40"></div>

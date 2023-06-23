@@ -1473,7 +1473,7 @@
 					</div>
 					<div class="col-md-6 text-left" style="text-align: left;position: relative;">
 						<div class="aya_regular_saving_banner_tagline">
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #A5000B;">AYA Regular Saving</span><br>A simple account for standard financial transactions.</h1>
+							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;"><span style="color: #A5000B;">AYA Regular Saving</span><br>A simple account for standard financial transactions</h1>
 						</div>
 					</div>
 				</div>
@@ -1482,7 +1482,7 @@
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 70px;left: 140px;">
 						<h1 style="font-weight: 400;margin-bottom: 0;color: #A5000B;font-size: 18px;line-height: 28px;">AYA Regular Saving</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 18px;line-height: 28px;">A simple account for standard financial transactions.</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 18px;line-height: 28px;">A simple account for standard financial transactions</h1>
 					</div>
 				</div>
 			</div>
@@ -3171,6 +3171,37 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #A5000B;">CORPORATE STRATEGY</span></a>
 			</p>
+		</div>
+	</div>
+@endif
+
+@if($page == 'corporate_governance')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;ABOUT AYA&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;GOVERNANCE&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #A5000B;">CORPORATE GOVERNANCE</span></a>
+			</p>
+		</div>
+	</div>
+	<div class="corporate_governance_banner banner_bg">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div class="corporate_governance_banner_tagline">
+						<h1 style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">Corporate Governance</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 90px;left: 20px;right: 40px;">
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Corporate Governance</h1>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 @endif

@@ -189,8 +189,8 @@
 						<div class="col-md-8 CTA_detail_col_2">
 							<p class="f-white" style="font-size: 20px;">Shareholding Information</p>
 							<p class="f-white mb-30">AYA Bank is organized independently as a stand-alone business and has been operating with its own culture, management structure, business structure and legal structure.It is incorporated with shares, owned by following shareholders:</p>
-							<a href="{{ url('/about-aya/who-we-are/corporate-profile/ayabank-profile/shareholding-information') }}" class="f-white shareholding_link">
-								<p class="f_white">Find out more&nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i></p>
+							<a href="{{ url('/about-aya/who-we-are/corporate-profile/ayabank-profile/shareholding-information') }}" class="f-white shareholding_link" style="color: #fff !important;">
+								<p class="f_white">Find out more&nbsp;<i class='bx bx-chevron-right f_white' style="font-size: 18px;line-height: 18px;"></i></p>
 							</a>
 						</div>
 					</div>

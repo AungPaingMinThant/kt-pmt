@@ -1,0 +1,164 @@
+.governance_bg_grey, .board_committees_who_are_on {
+	background-color: #f9f9fb;
+}
+.governance_bg_white {
+	background-color: #fff;
+}
+.governance_title_div {
+	padding: 30px 0px;
+	border-radius: 10px;
+	margin-top: -40px !important;
+	background-color: #fff;
+	box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%);
+	cursor: pointer !important;
+}
+.governance_title {
+	margin-bottom: 0px !important;
+}
+.bottom_hr {
+	border-bottom: 5px solid #a02226;
+	width: 150px !important;
+	margin-top: 5px;
+}
+.pdf_button {
+	padding: 10px 50px !important;
+	margin-right: 20px;
+}
+.roles_res_bod_list > li > p {
+	padding-left: 10px;
+}
+.committees_icon_col {
+	display: flex;
+	align-items: end;
+	justify-content: flex-start;
+}
+.committees_icon {
+	width: 15%;
+}
+.committees_icon_label {
+	font-size: 18px;
+	padding-left: 10px;
+}
+.committee_table_div {
+	border-radius: 10px;
+	box-shadow: 0 0 30px 10px rgb(0 0 0 / 9%) !important;
+	padding: 0 !important;
+}
+.committee_table {
+	border-radius: 10px;
+	background-color: #9f2226;
+	box-shadow: 0 0 30px 10px rgb(0 0 0 / 9%) !important;
+	margin-bottom: 0px !important;
+	zoom: 75%;
+}
+.committees_table_icon {
+	width: 40%;
+}
+.committees_member_table_icon {
+	width: 32%;
+}
+.committee_table > tbody > tr > td:not(:first-child) {
+	text-align: center;
+}
+.committee_table > tbody > tr > td, .committee_table > thead > tr > td {
+	padding: 1.5rem 1rem 1.5rem 1rem !important;
+	border-right-width: 2px !important;
+	border-color: #f9f9fb;
+}
+.table-header-label {
+	font-size: 12px;
+	width: 20px;
+}
+.table-borderless > :not(caption) > * > * {
+    
+}
+.committee_table > tbody > tr > td {
+	border-bottom-width: 2px !important;
+}
+.committee_meeting_table_div {
+	border-radius: 10px 10px 3px 3px;
+	box-shadow: 0 0 30px 10px rgb(0 0 0 / 9%) !important;
+	padding: 0 !important;
+}
+.committee_meeting_table {
+	border-radius: 10px 10px 3px 3px;
+	background-color: #9f2226;
+	box-shadow: 0 0 30px 10px rgb(0 0 0 / 9%) !important;
+	margin-bottom: 0px !important;
+}
+.committee_meeting_attendance_table_div {
+	border-radius: 10px 10px 3px 3px;
+	box-shadow: 0 0 30px 10px rgb(0 0 0 / 9%) !important;
+	padding: 0 !important;
+}
+.committee_meeting_attendance_table {
+	border-radius: 10px 10px 3px 3px;
+	background-color: #9f2226;
+	box-shadow: 0 0 30px 10px rgb(0 0 0 / 9%) !important;
+	margin-bottom: 0px !important;
+}
+.committee_meeting_attendance_table > tbody > tr > td:not(:first-child) {
+	text-align: center;
+}
+.role_committee_title {
+	font-size: 15px;
+}
+.role_committee_title_col {
+	margin-left: -40px;
+}
+.role_committee_mobile_title {
+	display: none;
+}
+@media (max-width: 999px) and (min-width: 577px) {
+	.governance_title_div > .col-md-3 {
+		width: 50% !important;
+	}
+	#governance_framework_title {
+		margin-bottom: 20px !important;
+	}
+	.u_zaw_col, .leadership_quote_col {
+		width: 100% !important;
+	}
+	.committees_icon_col {
+		width: 50% !important;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.u_zaw_col {
+		text-align: center;
+	}
+	.governance_title_div {
+    	padding: 30px 0px 15px 0px;
+    }
+    .governance_title {
+    	margin-bottom: 20px !important;
+    }
+    .committees_icon {
+    	width: 10%;
+    }
+    .committees_icon_col {
+    	margin-bottom: 20px;
+    }
+    .committees_icon_label {
+ 	   font-size: 16px;
+ 	}
+ 	.committee_meeting_table {
+ 		zoom: 80%;
+ 	}
+ 	.committee_meeting_attendance_table {
+	    zoom: 55%;
+	}
+	.role_committee_title_col {
+	    margin-left: 0px; 
+	}
+	.role_committee_mobile_title {
+		display: contents;
+		font-size: 18px;
+	}
+	.role_committee_title {
+		display: none;
+	}
+	.governance-framework-pdf-img {
+		margin-left: -80px;
+	}
+}

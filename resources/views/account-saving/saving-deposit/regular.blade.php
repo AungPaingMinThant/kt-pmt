@@ -31,15 +31,15 @@
 							<div class="row">
 								<div class="col-md-6" style="margin-bottom: 20px;">
 									<img src="{{ url('/images/acc_saving/aya-regular-saving/benefit_icon.png') }}" class="img-fluid" style="width: 17%;">
-									<p>Start saving with initial deposit MMK 1,000</p>
+									<p>Start saving with initial deposit MMK 1,000.</p>
 								</div>
 								<div class="col-md-6" style="margin-bottom: 20px;">
 									<img src="{{ url('/images/acc_saving/aya-regular-saving/benefit_icon_2.png') }}" class="img-fluid" style="width: 17%;">
-									<p>Receive interest 6.25% per annum</p>
+									<p>Receive interest 6.25% per annum.</p>
 								</div>
 								<div class="col-md-6" style="margin-bottom: 20px;">
 									<img src="{{ url('/images/acc_saving/aya-regular-saving/benefit_icon_3.png') }}" class="img-fluid" style="width: 17%;">
-									<p>Receive interest monthly</p>
+									<p>Receive interest monthly.</p>
 								</div>
 							</div>
 
@@ -64,12 +64,12 @@
 											<div class="accordion-item">
 												<h2 class="accordion-header" id="headingTwo">
 													<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-														What is the process if I have finsihed my saving book?
+														What is the process of saving passbook renewal?
 													</button>
 												</h2>
 												<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
 													<div class="accordion-body">
-														<p>Account owner needs to visit nearest AYA branch with his / her orginal NRC and finished book.</p>
+														<p>Account owner needs to visit nearest AYA branch with his / her original NRC and finished saving passbook.</p>
 													</div>
 												</div>
 											</div>
@@ -129,7 +129,7 @@
 												</h2>
 												<div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
 													<div class="accordion-body">
-														<p>You can check your account balance by using AYA i-Banking/m-Banking service (or) check at an ATM with ATM Card (or) check at nearest branch with NRC Card and saving book.</p>
+														<p>You can check your account balance by using AYA i-Banking/m-Banking service (or) check at an ATM with ATM Card (or) check at nearest branch with NRC and saving passbook.</p>
 													</div>
 												</div>
 											</div>
@@ -141,7 +141,7 @@
 												</h2>
 												<div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
 													<div class="accordion-body">
-														<p>Account owner needs to visit nearest branch with NRC Card and saving book and request Bank Certificate (Balance Confirmation). Service charges will be MMK 10,000 per request.</p>
+														<p>Account owner needs to visit nearest branch with NRC and saving passbook to request Bank Certificate (Balance Confirmation). Service charges will be MMK 10,000 per request.</p>
 													</div>
 												</div>
 											</div>

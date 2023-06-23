@@ -180,11 +180,13 @@ Route::get('/about-aya/governance/risk-management/managing-risk','App\Http\Contr
 
 Route::get('/about-aya/governance/compliance','App\Http\Controllers\AboutAYA\GovernanceController@complianceIndex');
 
+Route::get('/about-aya/governance/corporate-governance','App\Http\Controllers\AboutAYA\GovernanceController@corporateGovernanceIndex');
+
 Route::get('/about-aya/news-room/corporate-news','App\Http\Controllers\AboutAYA\NewsController@corporateIndex');
 Route::get('/about-aya/news-room/corporate-news/{permalink}','App\Http\Controllers\AboutAYA\NewsController@corporateDetailIndex');
 Route::get('/about-aya/news-room/corporate-news/year/{year}','App\Http\Controllers\AboutAYA\NewsController@corporateYearIndex');
 
-Route::get('/about-aya/governance/corporate-governance','App\Http\Controllers\AboutAYA\NewsController@corporateYearIndex');
+
 
 
 
