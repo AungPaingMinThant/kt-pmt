@@ -168,8 +168,10 @@
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
 }
-.auto_loan_nav > .nav-item {
+.auto_loan_nav.nav-pills .tab_title:not(.active) {
 	background: #cccccc2e !important;
+	border: 2px solid #c9c9c9;
+	border-bottom: none;
 	border-radius: 0 !important;
     border-top-right-radius: 5px !important;
     border-top-left-radius: 5px !important;

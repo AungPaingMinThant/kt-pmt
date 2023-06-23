@@ -43,6 +43,33 @@
 		    background-image: url('../../../images/borrowing/hire_purchase/auto_loan/income_document_bg_4.png');
 		}
 	}
+	@media only screen and (max-width: 576px) {
+		.income_document_div {
+		    height: 230px;
+		    background-image: linear-gradient(225deg, transparent 40px, rgb(255 255 255) 40px) !important;
+		    padding: 10px;
+		    position: relative;
+		    filter: drop-shadow(0px 0px 10px #0000001a);
+		    padding: 20px 40px 0px 20px;
+		    margin-top: 30px;
+		    margin-bottom: 30px;
+		}
+		.self_employ {
+		    height: 260px;
+		    background-image: linear-gradient(225deg, transparent 40px, rgb(255 255 255) 40px) !important;
+		    padding: 10px;
+		    position: relative;
+		    filter: drop-shadow(0px 0px 10px #0000001a);
+		    padding: 20px 40px 0px 20px;
+		    margin-top: 30px;
+		    margin-bottom: 30px;
+		}
+		.self_employ_title {
+			padding-left: 15px !important;
+			margin-top: 20px;
+			margin-bottom: -30px;
+		}
+	}
 </style>
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
