@@ -15,7 +15,11 @@
 		background-image: url('../../../images/borrowing/hire_purchase/auto_loan/income_document_bg_2.png');
 	}
 	.sme_business_owner {
-		padding: 60px 180px 70px 50px;
+		padding: 60px 140px 70px 70px;
+		height: 388px;
+	}
+	.business_owner {
+		height: 388px;
 	}
 	.business_owner {
 		padding: 70px 170px 70px 50px;
