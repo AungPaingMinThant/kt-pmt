@@ -3,7 +3,7 @@
 @section('title', 'Local Payments – AYA Bank')
 <link rel="stylesheet" href="{{ url('/css/business/remittance/local-payments.css') }}" />
 <style type="text/css">
-	.tab_title_li {
+	/*.tab_title_li {
 		width: 18% !important;
 	}
 	@media (max-width: 1270px) and (min-width: 1000px) {
@@ -20,7 +20,7 @@
 		.tab_title_li {
 		    width: auto !important;
 		}
-	}	
+	}	*/
 </style>
 
 @section('content')

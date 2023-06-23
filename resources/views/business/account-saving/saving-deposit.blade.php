@@ -44,7 +44,7 @@
 								</div>
 								<div class="row">
 									<div class="space-30"></div>
-									<p>A business savings account with features designed to add convenience and flexibility to your business.</p>
+									<p class="mb-0">A business savings account with features designed to add convenience and flexibility to your business.</p>
 									<p>It will help nurture growth for major purchase or business expansion.</p>
 									<div class="col-1 bullet_square_div">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
