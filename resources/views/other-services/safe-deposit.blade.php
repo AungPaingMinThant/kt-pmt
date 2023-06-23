@@ -208,7 +208,7 @@
 								<div class="row tab_data_row" style="color: #4e4e4e;">
 									<div class="col-md-2"></div>
 									<div class="col-md-8 text-center benefit_feature_box p-lg-3">
-										<div class="row why_use_AYA simple_login_div">
+										<div class="row">
 											<p>Lockers can be hired by individuals, limited companies, associations and trusts.</p>
 											<p><span class="theme_text_color fw-semibold">MMK 200,000</span> for key deposit</p>
 										</div>
@@ -264,7 +264,7 @@
 									<!-- <div class="col-md-1"></div> -->
 									<div class="col-md-12 benefit_feature_box p-lg-3">
 										<p>Our branches to secure your valuables:</p>
-										<table class="table table-bordered-less benefit_table b-b-l-radius-10 b-b-r-radius-10" style="background-color: #f2f2f2;box-shadow: 0 0 15px 15px #f4f4f4 !important">
+										<table class="table table-bordered-less benefit_table b-b-l-radius-10 b-b-r-radius-10" style="background-color: #fff;box-shadow: 0 0 15px 15px #f4f4f4 !important">
 											<tbody>
 												<tr class="theme_table_head fw-semibold">
 													<td class="b-b-none py-md-4 b-t-l-radius-10 b-b-l-radius-10 w-5">No.</td>
