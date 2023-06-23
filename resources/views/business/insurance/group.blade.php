@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="{{ url('/css/pb_insurance.css') }}">
 <style type="text/css">
 	.glider, .tab {
-		width: 550px;
+		width: 370px;
 	}
 	@media (max-width: 1400px) and (min-width: 1301px) {
 		.glider, .tab {
