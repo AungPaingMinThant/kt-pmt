@@ -137,7 +137,7 @@
 						</div>
 						<div class="col-md-4 d-none d-sm-block">
 							<nav id="myScrollspy">
-								<ul class="nav nav-pills flex-column">
+								<ul class="nav nav-pills flex-column side_bar">
 									<li class="nav-item">
 										<a class="nav-link active" id="heavy_mahine_hp_link" href="#heavy_mahine_hp">
 											<span class="pr-5">Heavy Machinery HP</span>

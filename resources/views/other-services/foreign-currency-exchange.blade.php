@@ -32,7 +32,7 @@
 					</div>
 					<div class="col-md-9">
 						<div class="benefit_table_div">
-							<table class="text-center table table-bordered-less benefit_table b-b-l-radius-10 b-b-r-radius-10" style="background-color: #f2f2f2;box-shadow: 0 0 15px 15px #f4f4f4 !important">
+							<table class="text-center table table-bordered-less benefit_table b-b-l-radius-10 b-b-r-radius-10" style="background-color: #fff;box-shadow: 0 0 15px 15px #f4f4f4 !important">
 								<tbody class="text-uppercase">
 									<tr class="theme_table_head text-center fw-semibold">
 										<td class="b-b-none py-md-4 b-t-l-radius-10 b-b-l-radius-10">Code</td>
@@ -69,8 +69,7 @@
 					<div class="col-md-12 mt-20">
 						<p class="disclaimer_title">Disclaimers</p>
 						<p style="color: #777777;font-size: 12px;">
-							Exchange rates fluctuate at times. Rates on this website are for information purposes only and are subject to change without notice. Always confirm actual currency rates with the Bank before making transactions!<br>
-							The rates in this table are intended for indicative purposes only. AYA Bank shall not be responsible for any loss or damage arising directly or indirectly from the use of or reliance on the information provided here in.<br>
+							Exchange rates fluctuate at times. Rates on this website are for information purposes only and are subject to change without notice. Always confirm actual currency rates with the Bank before making transactions! The rates in this table are intended for indicative purposes only. AYA Bank shall not be responsible for any loss or damage arising directly or indirectly from the use of or reliance on the information provided here in.<br>
 							[Note: Above rates will be updated every day and more currency can be added]
 						</p>
 					</div>

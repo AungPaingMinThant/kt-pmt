@@ -59,7 +59,7 @@
 												<a href="#">INSURANCE</a>
 											</div>
 											<div class="row menu-link personal-menu-other-link">
-												<a class="other-menu" href="#">OTHER SERVIES</a>
+												<a class="other-menu" href="#">OTHER SERVICES</a>
 											</div>
 
 											<div class="space-60"></div>
@@ -1086,7 +1086,7 @@
 							</ul>
 						</div>
 						<div class="row menu-link personal-menu-other-link">
-							<a class="other-menu nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">OTHER SERVIES</a>
+							<a class="other-menu nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">OTHER SERVICES</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
