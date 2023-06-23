@@ -166,7 +166,7 @@
 											<p>One of the low-cost payment methods for non-urgent payments.</p>
 										</div>
 									</div>
-									<div class="space-20"></div>
+									<!-- <div class="space-20"></div>
 									<div class="row create_payment_order_div p-sm-4 ">
 										<div class="col-md-6 create_payment_order_col">
 											<p class="my-md-0 fw-semibold" style="font-size: 16px;">Create a Payment Order</p>
@@ -179,7 +179,7 @@
 												</button>
 											</a>
 										</div>
-									</div>
+									</div> -->
 									<div class="space-60"></div>
 								</div>
 							</div>

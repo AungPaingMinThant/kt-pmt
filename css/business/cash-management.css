@@ -157,6 +157,9 @@
 	width: 60%;
 	margin-top: 20px;
 }
+.benefit_table_text_td > p {
+	margin-left: -50px;
+}
 @media (max-width: 1400px) and (min-width: 1271px) {
 	.payroll_service_tagline{
 		width: 60% !important;
@@ -262,11 +265,14 @@
 		top: 65%;
 	}
 	.c-b-l-icon {
-		width: 100% !important;
+		width: 80% !important;
 		float: center !important;
 	}
 	.c-b-l-div {
 		text-align: center;
+	}
+	.benefit_table_text_td > p {
+		margin-left: -30px;
 	}
 	.fee_charge_table {
 		width: 100% !important;

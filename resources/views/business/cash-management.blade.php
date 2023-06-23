@@ -134,7 +134,7 @@
 											<td class="benefit_table_icon_td">
 												<img src="{{ url('/images/business/cash-management/cost-effectiveness.png') }}" class="img-fluid c-b-l-icon">
 											</td>
-											<td>
+											<td class="benefit_table_text_td">
 												<p class="fw-semibold mb-10">Cost Effectiveness</p>
 												<p class="mb-0" style="color: #4e4e4e;">Minimize costs by streamlining customized payment process in one fingertip from your place or anywhere in the world at any time.</p>
 											</td>
@@ -143,7 +143,7 @@
 											<td class="benefit_table_icon_td">
 												<img src="{{ url('/images/business/cash-management/convenience.png') }}" class="img-fluid c-b-l-icon">
 											</td>
-											<td>
+											<td class="benefit_table_text_td">
 												<p class="fw-semibold mb-10">Convenience</p>
 												<p class="mb-0" style="color: #4e4e4e;">Numerous branches-networked across Myanmar and 24/7 electronically available in terms of rescheduling a cycle for payroll payments, reducing cash handling workloads and simple user interface.</p>
 											</td>
@@ -152,7 +152,7 @@
 											<td class="benefit_table_icon_td">
 												<img src="{{ url('/images/business/cash-management/security.png') }}" class="img-fluid c-b-l-icon">
 											</td>
-											<td>
+											<td class="benefit_table_text_td">
 												<p class="fw-semibold mb-10">Security</p>
 												<p class="mb-0" style="color: #4e4e4e;">Highly protected banking channels, high data confidentiality and advanced maintenance system throughout the process.</p>
 											</td>
@@ -161,7 +161,7 @@
 											<td class="benefit_table_icon_td">
 												<img src="{{ url('/images/business/cash-management/customized-splendid-reporting.png') }}" class="img-fluid c-b-l-icon">
 											</td>
-											<td>
+											<td class="benefit_table_text_td">
 												<p class="fw-semibold mb-10">Customized and Splendid Reporting</p>
 												<p class="mb-0" style="color: #4e4e4e;">Real-time “Management Information System Reports” ensuring detailed and accuracy for each transaction for your reconciliation requirements.</p>
 											</td>
@@ -208,7 +208,7 @@
 											<td class="benefit_table_icon_td">
 												<img src="{{ url('/images/business/cash-management/enhance-the-timeliness-accuracy.png') }}" class="img-fluid c-b-l-icon">
 											</td>
-											<td>
+											<td class="benefit_table_text_td">
 												<p class="mb-0" style="color: #4e4e4e;">Enhance the timeliness and accuracy of collection information and process</p>
 											</td>
 										</tr>
@@ -216,7 +216,7 @@
 											<td class="benefit_table_icon_td">
 												<img src="{{ url('/images/business/cash-management/smoothen-your-collection-cycles.png') }}" class="img-fluid c-b-l-icon">
 											</td>
-											<td>
+											<td class="benefit_table_text_td">
 												<p class="mb-0" style="color: #4e4e4e;">Smoothen your collection cycles</p>
 											</td>
 										</tr>
@@ -224,7 +224,7 @@
 											<td class="benefit_table_icon_td">
 												<img src="{{ url('/images/business/cash-management/reduce-administrative-costs-minimize-cash.png') }}" class="img-fluid c-b-l-icon">
 											</td>
-											<td>
+											<td class="benefit_table_text_td">
 												<p class="mb-0" style="color: #4e4e4e;">Reduce administrative costs and minimize cash handling risks. </p>
 											</td>
 										</tr>
@@ -232,7 +232,7 @@
 											<td class="benefit_table_icon_td">
 												<img src="{{ url('/images/business/cash-management/multi-channel-reporting.png') }}" class="img-fluid c-b-l-icon">
 											</td>
-											<td>
+											<td class="benefit_table_text_td">
 												<p class="mb-0" style="color: #4e4e4e;">Multi-channel reporting as per your requirements. </p>
 											</td>
 										</tr>
@@ -293,7 +293,7 @@
 											<td class="benefit_table_icon_td">
 												<img src="{{ url('/images/business/cash-management/minimize-operating-costs.png') }}" class="img-fluid c-b-l-icon">
 											</td>
-											<td>
+											<td class="benefit_table_text_td">
 												<p class="mb-0" style="color: #4e4e4e;">Minimize operating costs by streamlining payment processes</p>
 											</td>
 										</tr>
@@ -301,7 +301,7 @@
 											<td class="benefit_table_icon_td">
 												<img src="{{ url('/images/business/cash-management/smoothen-your-collection-cycles.png') }}" class="img-fluid c-b-l-icon">
 											</td>
-											<td>
+											<td class="benefit_table_text_td">
 												<p class="mb-0" style="color: #4e4e4e;">Able to credit beneficiaries’ accounts at specified date</p>
 											</td>
 										</tr>
@@ -309,7 +309,7 @@
 											<td class="benefit_table_icon_td">
 												<img src="{{ url('/images/business/cash-management/highly-protected-system.png') }}" class="img-fluid c-b-l-icon">
 											</td>
-											<td>
+											<td class="benefit_table_text_td">
 												<p class="mb-0" style="color: #4e4e4e;">Highly protected system and accounts details information</p>
 											</td>
 										</tr>
@@ -317,7 +317,7 @@
 											<td class="benefit_table_icon_td">
 												<img src="{{ url('/images/business/cash-management/able-to-customize-structure.png') }}" class="img-fluid c-b-l-icon">
 											</td>
-											<td>
+											<td class="benefit_table_text_td">
 												<p class="mb-0" style="color: #4e4e4e;">Able to customize and structure corporate’s organization chart into an effective and efficient authorization matrix</p>
 											</td>
 										</tr>
@@ -355,7 +355,7 @@
 											<td class="benefit_table_icon_td">
 												<img src="{{ url('/images/business/cash-management/sweeping-funds-into-corporate-central-account.png') }}" class="img-fluid c-b-l-icon">
 											</td>
-											<td>
+											<td class="benefit_table_text_td">
 												<p class="mb-0" style="color: #4e4e4e;">Sweeping funds into corporate’s central account</p>
 											</td>
 										</tr>
@@ -363,7 +363,7 @@
 											<td class="benefit_table_icon_td">
 												<img src="{{ url('/images/business/cash-management/sweeping-funds-into-any-interest-bearing-account.png') }}" class="img-fluid c-b-l-icon">
 											</td>
-											<td>
+											<td class="benefit_table_text_td">
 												<p class="mb-0" style="color: #4e4e4e;">Sweeping funds into any interest-bearing account or any account in the interest of loan purpose (e.g., overdraft loan)</p>
 											</td>
 										</tr>
@@ -371,7 +371,7 @@
 											<td class="benefit_table_icon_td">
 												<img src="{{ url('/images/business/cash-management/reliable-auditable-reporting-system.png') }}" class="img-fluid c-b-l-icon">
 											</td>
-											<td>
+											<td class="benefit_table_text_td">
 												<p class="mb-0" style="color: #4e4e4e;">Reliable and auditable reporting system for the corporate’s monitoring and reconciliation procedures</p>
 											</td>
 										</tr>
@@ -379,7 +379,7 @@
 											<td class="benefit_table_icon_td">
 												<img src="{{ url('/images/business/cash-management/able-to-make-payments-for-payroll.png') }}" class="img-fluid c-b-l-icon">
 											</td>
-											<td>
+											<td class="benefit_table_text_td">
 												<p class="mb-0" style="color: #4e4e4e;">Able to make payments for payroll or suppliers’ payments or other expenses</p>
 											</td>
 										</tr>
