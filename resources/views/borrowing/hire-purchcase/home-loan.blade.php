@@ -476,13 +476,13 @@
 													</tr>
 													<tr class="invert-bg-white b-t-r-radius-10" style="box-shadow: 0 0 17px 0px rgb(149 149 149 / 15%), 0 0px 20px 10px rgb(149 149 149 / 15%);">
 														<td class="px-md-4 border-1 fw-semibold py-md-3 px-md-3 b-t-none">Room/Land Price</td>
-														<td class="text-center border-1 py-md-3 px-md-3">Condo/Apartment: 200 Lakhs and above<br>Landed Property: 500 Lakhs and above</td>
-														<td class="text-center border-1 py-md-3 px-md-3 b-r-none b-t-r-radius-10">Condo/Apartment: 200 Lakhs and above<br>Landed Property: 500 Lakhs and above</td>
+														<td class="border-1 py-md-3 px-md-3">Condo/Apartment: 200 Lakhs and above<br>Landed Property: 500 Lakhs and above</td>
+														<td class="border-1 py-md-3 px-md-3 b-r-none b-t-r-radius-10">Condo/Apartment: 200 Lakhs and above<br>Landed Property: 500 Lakhs and above</td>
 													</tr>
 													<tr style="background-color: #fff;">
 														<td class="border-1 fw-semibold" style="box-shadow: -12px 13px 17px 0px rgb(149 149 149 / 15%);text-align: left;">Type of Land</td>
 														<td class="border-1 py-md-4">
-															<ul class="mb-0">
+															<ul class="mb-0" style="padding: 0px;margin-left: 10px;">
 																<li>Grant/Leasehold Land</li>
 																<li>Freehold Land</li>
 																<li>YCDC Land</li>
@@ -490,7 +490,7 @@
 															</ul>															
 														</td>
 														<td class="border-1 b-b-none b-r-none" style="box-shadow: 12px 13px 17px 0px rgb(149 149 149 / 15%);">
-															<ul class="mb-0">
+															<ul class="mb-0" style="padding: 0px;margin-left: 10px;">
 																<li>Grant/Leasehold Land</li>
 																<li>Freehold Land</li>
 																<li>YCDC Land</li>
@@ -500,13 +500,13 @@
 													</tr>
 													<tr style="background-color: #fff;">
 														<td class="border-1 fw-semibold" style="padding-top: 20px;padding-bottom: 20px;box-shadow: -12px 13px 17px 0px rgb(149 149 149 / 15%);text-align: left;">Construction Completion</td>
-														<td class="text-center border-1">Minimum 75%</td>
-														<td class="text-center border-1 b-b-none b-r-none" style="box-shadow: 12px 13px 17px 0px rgb(149 149 149 / 15%);">100%</td>
+														<td class="border-1 px-md-3">Minimum 75%</td>
+														<td class="border-1 px-md-3 b-b-none b-r-none" style="box-shadow: 12px 13px 17px 0px rgb(149 149 149 / 15%);">100%</td>
 													</tr>
 													<tr class="b-t-none b-b-none invert-bg-white b-b-r-radius-10" style="box-shadow: -12px 13px 17px 0px rgb(149 149 149 / 15%), 12px 13px 17px 0px rgb(149 149 149 / 15%);">
-														<td class="border-1 b-b-none fw-semibold" style="padding-top: 20px;padding-bottom: 20px;text-align: left;">Max Loan Tenor</td>
-														<td class="text-center border-1 b-b-none">Maximum 25years</td>
-														<td class="text-center b-b-none b-r-none border-1 b-b-r-radius-10">Maximum 25years</td>
+														<td class="border-1 px-md-3 b-b-none fw-semibold" style="padding-top: 20px;padding-bottom: 20px;text-align: left;">Max Loan Tenor</td>
+														<td class="border-1 px-md-3 b-b-none">Maximum 25years</td>
+														<td class="b-b-none b-r-none border-1 b-b-r-radius-10">Maximum 25years</td>
 													</tr>
 												</tbody>
 											</table>

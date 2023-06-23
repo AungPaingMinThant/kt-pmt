@@ -1953,7 +1953,7 @@
 			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking') }}" style="color: #666;">PERSONAL BANKING</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/borrowing') }}" style="color: #666;">BORROWING</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/business-banking/borrowing/hire-purchase') }}" style="color: #666;">HIRE PURCHASE</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/borrowing/hire-purchase') }}" style="color: #666;">HIRE PURCHASE</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #A5000B;">HOME LOAN</span>
 			</p>
