@@ -19,9 +19,8 @@
 						<div class="row">
 							@foreach($blog_list as $b_list)
 								<div class="news_blog col-md-4 mb-4">
-									<div class="row news_img_div" style="background-image: url('{{ url($b_list->featured_image) }}')">
-										<!-- <img src="{{ url($b_list->featured_image) }}" class="img-fluid"> -->
-									</div>
+									<!-- <div class="row news_img_div" style="background-image: url('{{ url($b_list->featured_image) }}')">
+									</div> -->
 									<div class="news_content_div">
 										<div class="news_title_div">
 											<a href="{{ url('/about-aya/news-room/corporate-news/'.$b_list->permalink) }}" class="news_title_link">
