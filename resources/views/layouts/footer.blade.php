@@ -14,7 +14,7 @@
         font-weight: 200 !important;
         line-height: 25px;
     }
-    .footer_first_link_a:hover{
+    .footer_first_link_a:hover, .footer_first_link_p:hover, .footer_first_link:hover{
         color: #fff !important;
         text-decoration: none !important;
     }

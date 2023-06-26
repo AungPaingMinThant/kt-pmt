@@ -146,7 +146,7 @@
 							<div class="row">
 								<p class="enabler_title">Health and Culture</p>
 								<p>AYA Bank acknowledges that organizational health and culture impact our employees’ performance, the Bank's productivity, and our strategic objectives. </p>
-								<p>We've established a distinctive culture that transcends internal aspirations and is governed by our bank’s <a href="{{ url('/about-aya/who-we-are/corporate-profile/mission-corporate-value-brand-promise') }}" class="fw-semibold theme_text_color text-decoration-underline">core values</a> and <a href="{{ url('/about-aya/who-we-are/corporate-profile/mission-corporate-value-brand-promise') }}" class="fw-semibold theme_text_color text-decoration-underline">brand promise</a>. </p>
+								<p>We've established a distinctive culture that transcends internal aspirations and is governed by our bank’s <a href="{{ url('/about-aya/who-we-are/corporate-profile/mission-corporate-value-brand-promise') }}" class="f-body-color text-decoration-underline">core values</a> and <a href="{{ url('/about-aya/who-we-are/corporate-profile/mission-corporate-value-brand-promise') }}" class="f-body-color text-decoration-underline">brand promise</a>. </p>
 								<p>We build purpose-driven, performance-focused, and principles-led organizations, promoting employees’ health and safety through workplace health programs, policies, compensation benefits, and rewards.</p>
 							</div>
 						</div>
