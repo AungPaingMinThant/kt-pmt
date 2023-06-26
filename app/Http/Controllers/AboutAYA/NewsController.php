@@ -73,7 +73,10 @@ class NewsController extends Controller
             $temp_file = tempnam(sys_get_temp_dir(), $report_file);
             copy(URL::to('/').'/report_files/annual_general_meeting_notice/'.$report_file, $temp_file);
         }
-        
+        if ($subscribe_flag == 5) {
+            $temp_file = tempnam(sys_get_temp_dir(), $report_file);
+            copy(URL::to('/').'/file/royal_banking/'.$report_file, $temp_file);
+        }
 
         return Response::download($temp_file, $report_file);
     }
