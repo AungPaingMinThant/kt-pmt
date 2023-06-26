@@ -27,7 +27,7 @@
 	transform:translateX(100%);
 }
 .carousel-left-1 p.carousel-caption-desc, .carousel-left-1 p.carousel-3-caption-desc, .carousel-left-1 p.carousel-3-caption-desc-2,
-.carousel-left-1 p.carousel-2-caption-desc {
+.carousel-left-1 p.carousel-2-caption-desc, .carousel-left-1 p.carousel-4-caption-desc, .carousel-left-1 p.carousel-4-caption-desc-2 {
 	animation: 2s carousel-left-1 2s forwards;
 	transform:translateX(100%);
 }
@@ -118,7 +118,7 @@
 	margin-left: 50px !important;
 	margin-top: 20px;
 }
-.carousel-3-caption-desc {
+.carousel-3-caption-desc, .carousel-4-caption-desc, .carousel-5-caption-desc {
 	color: #000;
 	font-size: 35px !important;
 	line-height: 25px;
@@ -126,21 +126,15 @@
 	margin-left: 50px !important;
 	margin-top: 20px;
 }
-.carousel-4-caption-desc {
-	font-size: 40px !important;
-	line-height: 30px;
-	font-weight: 500;
-	margin-left: 50px !important;
-	margin-top: 20px;
-}
 .carousel-5-caption-desc {
-	font-size: 35px;
+	color: #000;
+	font-size: 35px !important;
 	line-height: 25px;
 	font-weight: 500;
 	margin-left: 50px;
 	margin-top: 20px;
 }
-.carousel-2-caption-desc-2, .carousel-3-caption-desc-2 {
+.carousel-2-caption-desc-2, .carousel-3-caption-desc-2, .carousel-4-caption-desc-2 {
 	color: #000;
 	font-size: 25px !important;
 	line-height: 20px;
@@ -148,15 +142,9 @@
 	margin-left: 100px;
 	margin-top: 20px;
 }
-.carousel-4-caption-desc-2 {
-	font-size: 40px;
-	line-height: 30px;
-	font-weight: 500;
-	margin-left: 100px;
-	margin-top: 20px;
-}
 .carousel-5-caption-desc-2 {
-	font-size: 30px;
+	color: #000;
+	font-size: 25px !important;
 	line-height: 20px;
 	font-weight: 500;
 	margin-left: 100px;

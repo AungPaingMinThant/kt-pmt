@@ -70,8 +70,8 @@
 								<div class="col-md-6">
 									<div class="carousel-left-1">
 										<p class="carousel-4-caption-title">Act Responsible,</p>
-										<p class="carousel-caption-desc carousel-4-caption-desc mb-0">Think Sustainable to Make</p>
-										<p class="carousel-caption-desc carousel-4-caption-desc-2">our Future Stronger.</p>
+										<p class="carousel-4-caption-desc mb-0">Think Sustainable to Make</p>
+										<p class="carousel-4-caption-desc-2">our Future Stronger.</p>
 									</div>
 								</div>
 							</div>
@@ -81,8 +81,8 @@
 								<div class="col-md-6">
 									<div class="carousel-right-1">
 										<p class="carousel-5-caption-title">Learning Today,</p>
-										<p class="carousel-caption-desc carousel-5-caption-desc mb-0">For Better Bankers Tomorrow.</p>
-										<p class="carousel-caption-desc carousel-5-caption-desc-2">Learn & Grow with AYA.</p>
+										<p class="carousel-5-caption-desc mb-0">For Better Bankers Tomorrow.</p>
+										<p class="carousel-5-caption-desc-2">Learn & Grow with AYA.</p>
 									</div>
 								</div>
 								<div class="col-md-6"></div>
