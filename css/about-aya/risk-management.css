@@ -16,6 +16,9 @@
 .risk_sidebar_link > a {
 	color: #2e2e2e !important;
 }
+.risk_sidebar_link > a:hover {
+	text-decoration: none !important;
+}
 .side_active {
 	border-left: 5px solid #A5000B;
 	padding: 5px 10px 5px 35px !important;

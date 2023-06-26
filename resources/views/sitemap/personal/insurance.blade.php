@@ -16,16 +16,31 @@
                     <div class="row">
                         <div class="col-md-6 px-3">
                             <h5>
-                                <a class="f-body-color" href="{{url('/personal-banking/insurance/life')}}">Life Insurance<i class="menu-icon tf-icoAYA Go Travel Insurancens bx bx-right-arrow-alt"></i></a>
+                                <a class="f-body-color" href="{{url('/personal-banking/insurance/life')}}">General Insurance<i class="menu-icon tf-icoAYA Go Travel Insurancens bx bx-right-arrow-alt"></i></a>
                             </h5>
+                            <p>
+                                <a class="f-body-color" href="{{ url('/personal-banking/insurance/health') }}"> Health Insurance <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                            </p>
+                            <p>
+                                <a class="f-body-color" href="{{ url('/personal-banking/insurance/motor') }}">Motor Insurance <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                            </p>
+                            <p>
+                                <a class="f-body-color" href="{{ url('/personal-banking/insurance/fire') }}">Fire Insurance <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                            </p>
+                            <p>
+                                <a class="f-body-color" href="{{ url('/personal-banking/insurance/personal-accident') }}">Personal Accident Insurance <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                            </p>
+                            <p>
+                                <a class="f-body-color" href="{{ url('/personal-banking/insurance/travel/aya-go') }}"> AYA Go Travel Insurance <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                            </p>
+                            <p>
+                                <a class="f-body-color" href="{{ url('/personal-banking/insurance/travel/aya-joy') }}">AYA Joy Travel Insurance <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                            </p>
                         </div>
                         <div class="col-md-6 px-3">
-                            <h5>
-                                <a class="f-body-color" href="{{url('/personal-banking/insurance/travel')}}">Travel Insurance<i class="menu-icon tf-icoAYA Go Travel Insurancens bx bx-right-arrow-alt"></i></a>
+                           <h5>
+                                <a class="f-body-color" href="{{url('/personal-banking/insurance/life')}}">Life Insurance<i class="menu-icon tf-icoAYA Go Travel Insurancens bx bx-right-arrow-alt"></i></a>
                             </h5>
-                        </div>
-                        <div class="space-40"></div>
-                        <div class="col-md-12 px-3">
                             <p>
                                 <a class="f-body-color" href="{{ url('/personal-banking/insurance/health') }}"> Health Insurance <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
@@ -39,6 +54,7 @@
                                 <a class="f-body-color" href="{{ url('/personal-banking/insurance/personal-accident') }}">Personal Accident Insurance <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
                         </div>
+                        <div class="space-40"></div>
                     </div>
                 </div>
             </div>

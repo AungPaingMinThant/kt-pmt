@@ -203,8 +203,13 @@
 												Brand New or Pre-Owned Car
 											</button>
 										</li>
+										<li class="nav-item">
+											<button type="button" class="tab_title nav-link" role="tab" style="padding: 10px 220px 7px 220px !important;" >
+												&nbsp;
+											</button>
+										</li>
 									</ul>
-									<div class="tab-content" style="background-color: transparent;padding: 30px 0px 0px 0px;box-shadow: none;border-top: 1px solid #cccccc2e;border-radius: 0;">
+									<div class="tab-content" style="background-color: transparent;padding: 30px 0px 0px 0px;box-shadow: none;border-radius: 0;">
 										<div class="tab-pane fade show active" id="navs-pills-top-brand-new-car" role="tabpanel" style="padding-bottom: 20px;">
 											<div>
 												<p style="margin-bottom: 30px;width: 93%;">Feel free to make an initial enquiry at any AYA branches via phone or in person. Then, visit nearest AYA branch to receive <b>“In-principle Loan Approval”</b> which contains the eligible HP loan amount.</p>
@@ -320,7 +325,9 @@
 										</div>
 
 										<div class="col-12" style="padding-left: 30px;">
-											<p>Find Available Car Brands <a href="{{ url('/images/borrowing/hire_purchase/auto_loan/Available-Brands.jpg') }}" target="_blank">Here</a> !</p>
+											<p>Find Available Car Brands <span id="avail_car">Here</span> !</p>
+
+											<img src="{{ url('/images/borrowing/hire_purchase/auto_loan/Available-Brands.jpg') }}" id="car_brand" class="img-fluid" style="display: none;">
 										</div>
 
 										<div class="space-20"></div>
@@ -684,6 +691,10 @@
 @include('layouts.footer')
 <script src="{{ url('/js/swiper-bundle.min.js') }}"></script>
 <script type="text/javascript">
+	$("#avail_car").click(function() {
+		$("#car_brand").toggle(500);
+	});
+
 	$(".nav-link").click(function() {
 		$(".nav-link").addClass('active');
 		$(".nav-link").not(this).removeClass('active');

@@ -18,9 +18,13 @@
                             <p>
                                 <a class="f-body-color" href="{{ url('/business/borrowing/corporate-business-loan') }}"> Corporate Business Loan <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
+                        </div>
+                        <div class="col-md-4 px-3">
                             <p>
                                 <a class="f-body-color" href="{{ url('/business/borrowing/hire-purchase') }}"> Hire Purchase <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
+                        </div>
+                        <div class="col-md-4 px-3">
                             <p>
                                 <a class="f-body-color" href="{{ url('/business/borrowing/sme') }}"> SME <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>

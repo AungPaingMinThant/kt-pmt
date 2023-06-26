@@ -1,3 +1,9 @@
+.nav-link:hover {
+	text-decoration: none !important;
+}
+.header-menu > li > a:hover {
+	text-decoration: none !important;
+}
 .desktop_logo_div {
 	display: table-cell;
 }
@@ -118,6 +124,7 @@
 .menu-link > a {
 	padding: 0;
 	padding-bottom: 15px;
+	color: #fff !important;
 }
 .menu-link > a:not(.other-menu) {
 	font-size: 13px;
@@ -133,6 +140,9 @@
 .menu-active > a {
 	color: #000 !important;
 	font-weight: 700;
+}
+.menu-link > a:hover {
+	text-decoration: none !important;
 }
 .menu-hover-active > a {
 	color: #000 !important;
@@ -173,6 +183,7 @@
 }
 .right-menu-div > div > .row > div > p > a:hover {
 	color: #A5000B !important;
+	text-decoration: none !important;
 }
 .personal-acc-sav-menu > .row > .col, .business-acc-sav-menu > .row > .col {
 	max-width: 25% !important;

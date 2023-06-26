@@ -74,11 +74,11 @@
 					<div class="row">
 						<div class="col-md-12 col-xs-12 text-center" style="padding-top: 80px;">
 							<p style="color: #000;font-weight: 500;font-size: 20px;margin-bottom: 25px;">Connect with us for more information?<br>We are ready to assist you.</p>
-							<a target="_blank" href="https://saltnpixel.com/AYABank/AYABANK_Contact_Us_Hotline.html">
+							<!-- <a target="_blank" href="https://saltnpixel.com/AYABank/AYABANK_Contact_Us_Hotline.html">
 								<button class="btn apply_now_btn" >
 									Contact Center
 								</button>
-							</a>
+							</a> -->
 						</div>
 					</div>
 				</div>
@@ -87,11 +87,11 @@
 					<div class="row" style="padding: 0px">
 						<div class="col-xs-12 " style="padding: 0px;">
 							<p style="color: #000;font-weight: 500;font-size: 20px;margin-bottom: 25px;">Connect with us for more information?<br>We are ready to assist you.</p>
-							<a target="_blank" href="https://saltnpixel.com/AYABank/AYABANK_Contact_Us_Hotline.html">
+							<!-- <a target="_blank" href="https://saltnpixel.com/AYABank/AYABANK_Contact_Us_Hotline.html">
 								<button class="btn" style="background-color: #ae071d;color: #fff;font-weight: 500;padding: 15px 25px;border: #ae071d;">
 									Contact Center
 								</button>
-							</a>
+							</a> -->
 						</div>
 					</div>
 				</div>

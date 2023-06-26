@@ -21,6 +21,8 @@
                             <p>
                                 <a class="f-body-color" href="{{ url('/personal-banking/account-saving/current-deposit') }}">Current Deposit <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
+                        </div>
+                        <div class="col-md-4 px-3">
                             <p>
                                 <a class="f-body-color" href="{{ url('/personal-banking/account-saving/call-deposit') }}">Call Deposit <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>

@@ -18,13 +18,16 @@
                             <p>
                                 <a class="f-body-color" href="{{ url('/digital-services/online-payment-services/internet-banking') }}"> Internet Banking<i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
+                        </div>
+                        <div class="col-md-4 px-3">
                             <p>
                                 <a class="f-body-color" href="{{ url('/digital-services/online-payment-services/mobile-banking') }}"> Mobile Banking<i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
+                        </div>
+                        <div class="col-md-4 px-3">
                             <p>
                                 <a class="f-body-color" href="{{ url('/digital-services/online-payment-services/corporate-internet-banking') }}">Corporate Internet Banking <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
-                            
                         </div>
                         <div class="col-md-4 px-3">
                             

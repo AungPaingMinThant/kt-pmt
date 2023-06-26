@@ -159,6 +159,7 @@ Route::get('/test','App\Http\Controllers\HomeController@testIndex');
 
 // About AYA
 // about-aya/who-we-are-corporate-profile/awards
+Route::get('/about-aya/message-from-chairman','App\Http\Controllers\AboutAYA\WhoWeAreController@msgChairmanIndex');
 Route::get('/about-aya/who-we-are/leadership/meet-our-leaders','App\Http\Controllers\AboutAYA\WhoWeAreController@meetOurLeadersIndex');
 Route::get('/about-aya/who-we-are/leadership/meet-our-leaders/contact-to-board','App\Http\Controllers\AboutAYA\WhoWeAreController@contactBoardIndex');
 
@@ -179,13 +180,15 @@ Route::get('/about-aya/governance/risk-management/risk-management-control',
 Route::get('/about-aya/governance/risk-management/managing-risk','App\Http\Controllers\AboutAYA\GovernanceController@managingRiskIndex');
 
 Route::get('/about-aya/governance/compliance','App\Http\Controllers\AboutAYA\GovernanceController@complianceIndex');
+Route::get('/about-aya/governance/compliance/aml-cft','App\Http\Controllers\AboutAYA\GovernanceController@AMLCFTIndex');
 
 Route::get('/about-aya/governance/corporate-governance','App\Http\Controllers\AboutAYA\GovernanceController@corporateGovernanceIndex');
 
 Route::get('/about-aya/news-room/corporate-news','App\Http\Controllers\AboutAYA\NewsController@corporateIndex');
 Route::get('/about-aya/news-room/corporate-news/{permalink}','App\Http\Controllers\AboutAYA\NewsController@corporateDetailIndex');
 Route::get('/about-aya/news-room/corporate-news/year/{year}','App\Http\Controllers\AboutAYA\NewsController@corporateYearIndex');
-
+Route::get('/about-aya/news-room/reports','App\Http\Controllers\AboutAYA\NewsController@reportIndex');
+Route::post('/report_download','App\Http\Controllers\AboutAYA\NewsController@reportDownload');
 
 
 
@@ -200,6 +203,7 @@ Route::get('/digital-services','App\Http\Controllers\SiteMapController@digitalIn
 Route::get('/digital-services/online-payment-services','App\Http\Controllers\SiteMapController@digiOnlineIndex');
 Route::get('/digital-services/card-services', 'App\Http\Controllers\SiteMapController@digiCardServicesIndex');
 Route::get('/digital-services/card-services/merchant-services', 'App\Http\Controllers\SiteMapController@digiCardMerchantIndex');
+Route::get('/digital-services/card-services/card-privilege', 'App\Http\Controllers\SiteMapController@digiCardPrivilegeIndex');
 Route::get('/digital-services/wallet-solution', 'App\Http\Controllers\SiteMapController@digiWalletSolutionIndex');
 Route::get('/digital-services/guideline', 'App\Http\Controllers\SiteMapController@digiGuidelineIndex');
 
@@ -219,3 +223,12 @@ Route::get('/business-banking/remittance','App\Http\Controllers\SiteMapControlle
 Route::get('/business-banking/borrowing','App\Http\Controllers\SiteMapController@businessBorrowingIndex');
 Route::get('/business-banking/trade','App\Http\Controllers\SiteMapController@businessTradeIndex');
 Route::get('/business-banking/insurance','App\Http\Controllers\SiteMapController@businessInsIndex');
+
+Route::get('/about-aya','App\Http\Controllers\SiteMapController@aboutAYAIndex');
+Route::get('/about-aya/who-we-are','App\Http\Controllers\SiteMapController@whoWeAreIndex');
+Route::get('/about-aya/who-we-are/corporate-profile','App\Http\Controllers\SiteMapController@corporateProfileIndex');
+Route::get('/about-aya/who-we-are/leadership','App\Http\Controllers\SiteMapController@leadershipIndex');
+Route::get('/about-aya/who-we-are/our-strategies','App\Http\Controllers\SiteMapController@ourStrategiesIndex');
+
+Route::get('/about-aya/governance','App\Http\Controllers\SiteMapController@governanceIndex');
+Route::get('/about-aya/news-room','App\Http\Controllers\SiteMapController@newsroomIndex');

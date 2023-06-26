@@ -267,9 +267,10 @@
 			</div>
 			<div class="modal-body">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-4">
 						<img src="{{ url('/images/about-aya/meet-our-leaders/u_zaw_zaw_popup.webp') }}" class="img-fluid popup_image">
-
+					</div>
+					<div class="col-md-8">
 						<h5 class="card-title theme_text_color fw-semibold mb-0">U Zaw Zaw</h5>
 						<p class="mb-0">Myanmar</p>
 						<p>Founder and Chairman ( Non-Executive )</p>
@@ -290,9 +291,10 @@
 			</div>
 			<div class="modal-body">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-4">
 						<img src="{{ url('/images/about-aya/meet-our-leaders/daw_khin_saw_oo_popup.webp') }}" class="img-fluid popup_image">
-
+					</div>
+					<div class="col-md-8">
 						<h5 class="card-title theme_text_color fw-semibold mb-0">Daw Khin Saw Oo</h5>
 						<p class="mb-0">Myanmar</p>
 						<p>Executive Chairman</p>
@@ -314,9 +316,10 @@
 			</div>
 			<div class="modal-body">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-4">
 						<img src="{{ url('/images/about-aya/meet-our-leaders/u_than_zaw_popup.webp') }}" class="img-fluid popup_image">
-
+					</div>
+					<div class="col-md-8">
 						<h5 class="card-title theme_text_color fw-semibold mb-0">U Than Zaw</h5>
 						<p class="mb-0">Myanmar</p>
 						<p>Vice-Chairman<br>(Executive)</p>
@@ -336,9 +339,10 @@
 			</div>
 			<div class="modal-body">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-4">
 						<img src="{{ url('/images/about-aya/meet-our-leaders/daw_htay_htay_khaing_popup.webp') }}" class="img-fluid popup_image">
-
+					</div>
+					<div class="col-md-8">
 						<h5 class="card-title theme_text_color fw-semibold mb-0">Daw Htay Htay Khaing</h5>
 						<p class="mb-0">Myanmar</p>
 						<p>Vice-Chairman<br>(Non-Executive)</p>
@@ -359,9 +363,10 @@
 			</div>
 			<div class="modal-body">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-4">
 						<img src="{{ url('/images/about-aya/meet-our-leaders/daw_khin_ma_ma_popup.webp') }}" class="img-fluid popup_image">
-
+					</div>
+					<div class="col-md-8">
 						<h5 class="card-title theme_text_color fw-semibold mb-0">Daw Khin Ma Ma</h5>
 						<p class="mb-0">Myanmar</p>
 						<p>Vice-Chairman<br>(Executive)</p>
@@ -382,9 +387,10 @@
 			</div>
 			<div class="modal-body">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-4">
 						<img src="{{ url('/images/about-aya/meet-our-leaders/u_myint_zaw_popup.webp') }}" class="img-fluid popup_image">
-
+					</div>
+					<div class="col-md-8">
 						<h5 class="card-title theme_text_color fw-semibold mb-0">U Myint Zaw</h5>
 						<p class="mb-0">Myanmar</p>
 						<p>Chief Executive Officer</p>
@@ -406,9 +412,10 @@
 			</div>
 			<div class="modal-body">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-4">
 						<img src="{{ url('/images/about-aya/meet-our-leaders/dr_aung_tun_thet_popup.webp') }}" class="img-fluid popup_image">
-
+					</div>
+					<div class="col-md-8">
 						<h5 class="card-title theme_text_color fw-semibold mb-0">Professor Dr. Aung Tun Thet</h5>
 						<p class="mb-0">Myanmar</p>
 						<p>Independent Non-Executive Director</p>
@@ -429,9 +436,10 @@
 			</div>
 			<div class="modal-body">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-4">
 						<img src="{{ url('/images/about-aya/meet-our-leaders/u_min_sein_popup.webp') }}" class="img-fluid popup_image">
-
+					</div>
+					<div class="col-md-8">
 						<h5 class="card-title theme_text_color fw-semibold mb-0">U Min Sein</h5>
 						<p class="mb-0">Myanmar</p>
 						<p>Independent Non-Executive Director</p>
@@ -452,9 +460,10 @@
 			</div>
 			<div class="modal-body">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-4">
 						<img src="{{ url('/images/about-aya/meet-our-leaders/u_tun_lin_oo_popup.webp') }}" class="img-fluid popup_image">
-
+					</div>
+					<div class="col-md-8">
 						<h5 class="card-title theme_text_color fw-semibold mb-0">U Tun Lin Oo</h5>
 						<p class="mb-0">Myanmar</p>
 						<p>Independent Non-Executive Director</p>
@@ -475,9 +484,10 @@
 			</div>
 			<div class="modal-body">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-4">
 						<img src="{{ url('/images/about-aya/meet-our-leaders/daw_thazin_aung_popup.webp') }}" class="img-fluid popup_image">
-
+					</div>
+					<div class="col-md-8">
 						<h5 class="card-title theme_text_color fw-semibold mb-0">Daw Jasmine Thazin Aung</h5>
 						<p class="mb-0">Myanmar</p>
 						<p>Managing Director (Corporate Business)</p>
@@ -499,9 +509,10 @@
 			</div>
 			<div class="modal-body">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-4">
 						<img src="{{ url('/images/about-aya/meet-our-leaders/u_nyein_chan_soe_win_popup.webp') }}" class="img-fluid u_nyein_chan_soe_win_popup_image popup_image">
-
+					</div>
+					<div class="col-md-8">
 						<h5 class="card-title theme_text_color fw-semibold mb-0">U Nyein Chan Soe Win</h5>
 						<p class="mb-0">Myanmar</p>
 						<p>Managing Director (Digital Banking)</p>
@@ -523,9 +534,10 @@
 			</div>
 			<div class="modal-body">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-4">
 						<img src="{{ url('/images/about-aya/meet-our-leaders/u_ko_ko_oo_popup.webp') }}" class="img-fluid u_ko_ko_oo_popup_image popup_image">
-
+					</div>
+					<div class="col-md-8">
 						<h5 class="card-title theme_text_color fw-semibold mb-0">U Ko Ko Oo</h5>
 						<p class="mb-0">Myanmar</p>
 						<p>Managing Director (Governance, Risk Management and Compliance)</p>
@@ -546,9 +558,10 @@
 			</div>
 			<div class="modal-body">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-4">
 						<img src="{{ url('/images/about-aya/meet-our-leaders/u_min_wint_oo_popup.webp') }}" class="img-fluid u_min_wint_oo_popup_image popup_image">
-
+					</div>
+					<div class="col-md-8">
 						<h5 class="card-title theme_text_color fw-semibold mb-0">U Minn Wint Oo</h5>
 						<p class="mb-0">Myanmar</p>
 						<p>Managing Director (Banking Operations and Retail Banking)</p>
@@ -570,9 +583,10 @@
 			</div>
 			<div class="modal-body">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-4">
 						<img src="{{ url('/images/about-aya/meet-our-leaders/daw_lwin_lwin_aung_popup.webp') }}" class="img-fluid daw_lwin_lwin_aung_popup_image popup_image">
-
+					</div>
+					<div class="col-md-8">
 						<h5 class="card-title theme_text_color fw-semibold mb-0">Daw Lwin Lwin Aung</h5>
 						<p class="mb-0">Myanmar</p>
 						<p>Chief Financial Officer</p>
@@ -594,9 +608,10 @@
 			</div>
 			<div class="modal-body">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-4">
 						<img src="{{ url('/images/about-aya/meet-our-leaders/nay_lin_htut_popup.webp') }}" class="img-fluid nay_lin_htut_popup_image popup_image">
-
+					</div>
+					<div class="col-md-8">
 						<h5 class="card-title theme_text_color fw-semibold mb-0">U Nay Lin Htut</h5>
 						<p class="mb-0">Myanmar</p>
 						<p>Chief Credit Officer</p>

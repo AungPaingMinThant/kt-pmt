@@ -260,26 +260,26 @@
 								</div>
 								<div class="space-20"></div>
 								<div class="col-md-6" style="margin-bottom: 30px;">
-									<a href="{{ url('/personal-banking/account-saving/call-deposit/premium-call-deposit') }}">
+									<a class="acc_saving_link" href="{{ url('/personal-banking/account-saving/call-deposit/premium-call-deposit') }}">
 										<div class="row" style="cursor: pointer;">
 											<div class="col-4 ">
 												<img src="{{ url('/images/acc_saving/related_premium_call_deposit.png') }}" class="img-fluid">
 											</div>
 											<div class="col-8 ">
-												<p style="margin-bottom: 0px;font-weight: 600;color: #2e2e2e;">Premium Call Deposit</p>
+												<p class="link_title">Premium Call Deposit</p>
 												<p style="color: #2e2e2e;">A Simple deposit option to manage funds</p>
 											</div>
 										</div>
 									</a>
 								</div>
 								<div class="col-md-6">
-									<a href="{{ url('/personal-banking/account-saving/call-deposit/new-business-call') }}">
+									<a class="acc_saving_link" href="{{ url('/personal-banking/account-saving/call-deposit/new-business-call') }}">
 										<div class="row">
 											<div class="col-4">
 												<img src="{{ url('/images/acc_saving/related_new_business_call.png') }}" class="img-fluid">
 											</div>
 											<div class="col-8">
-												<p style="margin-bottom: 0px;font-weight: 600;color: #2e2e2e;">New Business Call</p>
+												<p class="link_title">New Business Call</p>
 												<p style="color: #2e2e2e;">Convenient way to save and invest your cash</p>
 											</div>
 										</div>

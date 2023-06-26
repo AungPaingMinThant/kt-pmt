@@ -55,6 +55,9 @@
 	color: #666 !important;
 	margin: 25px 0 !important;
 }
+.bread_crumb_text > a:hover {
+	text-decoration: none !important;
+}
 .tag_line_div {
 	position: absolute;
 	top: 156px;
@@ -111,22 +114,22 @@
 	background-image:url('../images/insurance/PA/KV_bg.png');
 }
 .aya_go_ins_banner {
-	background-image:url('../../images/insurance/aya-go/KV_bg.png');
+	background-image:url('../images/insurance/aya-go/KV_bg.png');
 }
 .aya_joy_ins_banner {
-	background-image:url('../../images/insurance/aya-joy/KV_bg.png');	
+	background-image:url('../images/insurance/aya-joy/KV_bg.png');	
 }
 .life_universal_ins_banner {
-	background-image:url('../../images/insurance/life/KV_bg.png');
+	background-image:url('../images/insurance/life/KV_bg.png');
 }
 .life_short_term_ins_banner {
-	background-image:url('../../images/insurance/life/KV_bg.png');
+	background-image:url('../images/insurance/life/KV_bg.png');
 }
 .life_edu_ins_banner {
-	background-image:url('../../images/insurance/life/KV_bg.png');
+	background-image:url('../images/insurance/life/KV_bg.png');
 }
 .life_one_health_indi_ins_banner {
-	background-image:url('../../images/insurance/life/KV_bg.png');
+	background-image:url('../images/insurance/life/KV_bg.png');
 }
 .call_deposit_banner_tagline, .premium_calldeposit_banner_tagline,
 .regular_curr_acc_banner_tagline, .new_business_curr_acc_banner_tagline, .saving_deposit_banner_tagline {
@@ -485,7 +488,7 @@
 	background-image:url('../images/about-aya/risk-management/compliance_KV.webp');
 }
 .news_banner {
-	background-color: #f5f5f7;
+	background-color: #d4d4d4;
 }
 .news_breadcrumb {
 	box-shadow: inset 0 7px 25px -7px rgb(184 184 184 / 25%);
@@ -499,10 +502,20 @@
 .corporate_governance_banner {
 	background-image:url('../images/about-aya/corporate-governance/KV.webp');
 }
+.aml_cft_banner {
+	background-image:url('../images/about-aya/aml-cft/KV.webp');
+}
+.msg_chairman_banner {
+	background-image:url('../images/about-aya/chairman-message/KV.webp');
+}
+.report_banner {
+	background-image:url('../images/about-aya/report/KV.webp');	
+}
 
 .stakeholder_management_banner_tagline, .aya_bank_profile_banner_tagline, .meet_our_leaders_banner_tagline, .risk_management_banner_tagline,
 .risk_governance_banner_tagline, .risk_mgmt_framework_banner_tagline, .risk_mgmt_ctl_banner_tagline, .managing_risk_banner_tagline,
-.compliance_banner_tagline, .mission_promise_banner_tagline, .corporate_strategy_banner_tagline, .corporate_governance_banner_tagline {
+.compliance_banner_tagline, .mission_promise_banner_tagline, .corporate_strategy_banner_tagline, .corporate_governance_banner_tagline,
+.aml_cft_banner_tagline, .msg_chairman_banner_tagline, .report_banner_tagline {
 	position: absolute;
     top: 140px;
     left: 20px;
@@ -602,12 +615,13 @@
 	}
 	.meet_our_leaders_banner, .aya_bank_profile_banner, .stakeholder_management_banner, .risk_management_banner,
 	.risk_governance_banner, .risk_mgmt_framework_banner, .risk_mgmt_ctl_banner, .managing_risk_banner, .compliance_banner.,
-	.mission_promise_banner, .corporate_strategy_banner, .corporate_governance_banner {
+	.mission_promise_banner, .corporate_strategy_banner, .corporate_governance_banner, .aml_cft_banner, .msg_chairman_banner, .report_banner {
 		background-position: 40% center;
 	}
 	.meet_our_leaders_banner_tagline, .aya_bank_profile_banner_tagline, .stakeholder_management_banner_tagline,
 	.risk_management_banner_tagline, .risk_governance_banner_tagline, .risk_mgmt_framework_banner_tagline, .risk_mgmt_ctl_banner_tagline,
-	.managing_risk_banner_tagline, .compliance_banner_tagline, .corporate_strategy_banner_tagline, .corporate_governance_banner_tagline {
+	.managing_risk_banner_tagline, .compliance_banner_tagline, .corporate_strategy_banner_tagline, .corporate_governance_banner_tagline,
+	.aml_cft_banner_tagline, .msg_chairman_banner_tagline, .report_banner_tagline {
 	    position: absolute;
 	    top: 120px;
 	    left: 60px;
@@ -938,7 +952,7 @@
 	}
 	.meet_our_leaders_banner, .aya_bank_profile_banner, .stakeholder_management_banner, .risk_management_banner,
 	.risk_governance_banner, .risk_mgmt_framework_banner, .risk_mgmt_ctl_banner, .managing_risk_banner, .compliance_banner,
-	.mission_promise_banner, .corporate_strategy_banner, .corporate_governance_banner {
+	.mission_promise_banner, .corporate_strategy_banner, .corporate_governance_banner, .aml_cft_banner, .msg_chairman_banner, .report_banner {
 		background-position: 40% center;
 	}
 	.meet_our_leaders_banner_tagline, .aya_bank_profile_banner_tagline,
@@ -949,7 +963,7 @@
 	}
 	.stakeholder_management_banner_tagline, .risk_management_banner_tagline, .risk_governance_banner_tagline, .risk_mgmt_framework_banner_tagline.
 	.risk_mgmt_ctl_banner_tagline, .managing_risk_banner_tagline, .compliance_banner_tagline, .corporate_strategy_banner_tagline,
-	.corporate_governance_banner_tagline {
+	.corporate_governance_banner_tagline, .aml_cft_banner_tagline, .msg_chairman_banner_tagline, .report_banner_tagline {
 		top: 160px;
 	    right: 35%;
 	    left: 100px;
@@ -1262,7 +1276,7 @@
 	}
 	.meet_our_leaders_banner, .aya_bank_profile_banner, .stakeholder_management_banner, .risk_management_banner,
 	.risk_governance_banner, .risk_mgmt_framework_banner, .risk_mgmt_ctl_banner, .managing_risk_banner, .compliance_banner,
-	.mission_promise_banner, .corporate_strategy_banner, .corporate_governance_banner {
+	.mission_promise_banner, .corporate_strategy_banner, .corporate_governance_banner, .aml_cft_banner, .msg_chairman_banner, .report_banner {
 		background-position: 40% center;
 	}
 	.meet_our_leaders_banner_tagline, .aya_bank_profile_banner_tagline,
@@ -1273,7 +1287,7 @@
 	}
 	.stakeholder_management_banner_tagline, .risk_management_banner_tagline, .risk_governance_banner_tagline, .risk_mgmt_framework_banner_tagline.
 	.risk_mgmt_ctl_banner_tagline, .managing_risk_banner_tagline, .compliance_banner_tagline, .corporate_strategy_banner_tagline,
-	.corporate_governance_banner_tagline {
+	.corporate_governance_banner_tagline, .aml_cft_banner_tagline, .msg_chairman_banner_tagline, .report_banner_tagline {
 		top: 160px;
 	    right: 35%;
 	    left: 100px;
@@ -1313,12 +1327,13 @@
 @media (max-width: 999px) and (min-width: 577px) {
 	.meet_our_leaders_banner, .aya_bank_profile_banner, .stakeholder_management_banner, .risk_management_banner,
 	.risk_governance_banner, .risk_mgmt_framework_banner, .risk_mgmt_ctl_banner, .managing_risk_banner, .compliance_banner,
-	.mission_promise_banner, .corporate_strategy_banner, .corporate_governance_banner {
+	.mission_promise_banner, .corporate_strategy_banner, .corporate_governance_banner, .aml_cft_banner, .msg_chairman_banner, .report_banner {
 		background-position: 60% center;
 	}
 	.meet_our_leaders_banner_tagline, .aya_bank_profile_banner_tagline, .stakeholder_management_banner_tagline,
 	.risk_management_banner_tagline, .risk_governance_banner_tagline, .risk_mgmt_framework_banner_tagline, .risk_mgmt_ctl_banner_tagline,
-	.managing_risk_banner_tagline, .compliance_banner_tagline, .corporate_strategy_banner_tagline, .corporate_governance_banner_tagline {
+	.managing_risk_banner_tagline, .compliance_banner_tagline, .corporate_strategy_banner_tagline, .corporate_governance_banner_tagline,
+	.aml_cft_banner_tagline, .msg_chairman_banner_tagline, .report_banner_tagline {
 	    right: 80px;
 	}
 	.mission_promise_banner_tagline {
@@ -1714,5 +1729,17 @@
 	.corporate_governance_banner {
 		background-image:url('../images/about-aya/corporate-governance/mobile_KV.webp');
 		background-position: 100% center;
+	}
+	.aml_cft_banner {
+		background-image:url('../images/about-aya/am-cft/mobile_KV.webp');
+		background-position: 100% center;
+	}
+	.msg_chairman_banner {
+		background-image:url('../images/about-aya/chairman-message/mobile_KV.webp');
+		background-position: 50% center;
+	}
+	.report_banner {
+		background-image:url('../images/about-aya/report/mobile_KV.webp');
+		background-position: 50% center;	
 	}
 }

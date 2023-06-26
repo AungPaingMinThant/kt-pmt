@@ -18,6 +18,8 @@
                             <p>
                                 <a class="f-body-color" href="{{ url('/personal-banking/other-services/foreign-currency-exchange-service') }}"> Foreign Currency Exchange Services<i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
+                        </div>
+                        <div class="col-md-4 px-3">
                             <p>
                                 <a class="f-body-color" href="{{ url('/personal-banking/other-services/safe-deposit') }}"> Safe Deposit Locker <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>

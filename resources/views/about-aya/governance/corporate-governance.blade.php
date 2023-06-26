@@ -19,16 +19,16 @@
 							<p class="governance_title theme_text_color fw-500" id="governance_framework_title">Governance Framework</p>
 						</div>
 						<div class="col-md-3 text-center">
-							<p class="governance_title fw-500" id="board_committees_title">Board Committees</p>
+							<p class="governance_title board_committees_title fw-500" id="board-committees">Board Committees</p>
 						</div>
 						<div class="col-md-3 text-center">
-							<p class="governance_title fw-500" id="role_committee_title">Role of Committees</p>
+							<p class="governance_title role_committee_title fw-500" id="role-of-committees">Role of Committees</p>
 						</div>
 						<div class="col-md-3 text-center">
 							<p class="governance_title fw-500" id="code_ethical_conduct_title">Code of Ethical Conduct</p>
 						</div>
 					</div>
-					<div class="col-md-12 space-80"></div>
+					<div class="col-md-12 space-80" id="leadership"></div>
 					<div class="row governance_framework_leadership">
 						<div class="col-md-12">
 							<h4 class="fw-bold">Leadership</h4>
@@ -50,7 +50,7 @@
 						<div class="space-40"></div>
 					</div>
 
-					<div class="row d-none board_committees_bod">
+					<div class="row d-none board_committees_bod" id="board-committees">
 						<div class="col-md-12">
 							<h4 class="fw-bold">Board Directors</h4>
 							<hr class="bottom_hr">
@@ -248,7 +248,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="container governance_framework">
+			<div class="container governance_framework" id="governance-framework">
 				<div class="space-60"></div>
 				<div class="row">
 					<div class="col-md-6">
@@ -279,7 +279,7 @@
 				</div>
 				<div class="space-40"></div>
 			</div>
-			<div class="d-none board_committees_who_are_on">
+			<div class="d-none board_committees_who_are_on" id="who-are-on-the-committees">
 				<div class="container">
 					<div class="space-60"></div>
 					<div class="row">
@@ -354,7 +354,7 @@
 										<td></td>
 										<td></td>
 										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
-										<td></td>
+										<td><img src="{{ url('/images/about-aya/corporate-governance/chairperson-icon.webp') }}" class="img-fluid committees_table_icon"></td>
 										<td></td>
 										<td></td>
 										<td></td>
@@ -420,44 +420,12 @@
 										<td></td>
 										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
 										<td><img src="{{ url('/images/about-aya/corporate-governance/chairperson-icon.webp') }}" class="img-fluid committees_table_icon"></td>
-										<td><img src="{{ url('/images/about-aya/corporate-governance/chairperson-icon.webp') }}" class="img-fluid committees_table_icon"></td>
-										<td><img src="{{ url('/images/about-aya/corporate-governance/chairperson-icon.webp') }}" class="img-fluid committees_table_icon"></td>
 										<td></td>
 										<td><img src="{{ url('/images/about-aya/corporate-governance/chairperson-icon.webp') }}" class="img-fluid committees_table_icon"></td>
+										<td></td>
+										<td><img src="{{ url('/images/about-aya/corporate-governance/chairperson-icon.webp') }}" class="img-fluid committees_table_icon"></td>
 										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
 										<td><img src="{{ url('/images/about-aya/corporate-governance/chairperson-icon.webp') }}" class="img-fluid committees_table_icon"></td>
-									</tr>
-									<tr>
-										<td class="py-4" style="font-size: 15px;width: 30% !important;">Daw Jasmine Thazin Aung</td>
-										<td></td>
-										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
-										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
-										<td></td>
-										<td><img src="{{ url('/images/about-aya/corporate-governance/co-chairperson-icon.webp') }}" class="img-fluid committees_table_icon"></td>
-										<td><img src="{{ url('/images/about-aya/corporate-governance/co-chairperson-icon.webp') }}" class="img-fluid committees_table_icon"></td>
-										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
-										<td></td>
-										<td></td>
-									</tr>
-									<tr>
-										<td class="py-4" style="font-size: 15px;">U Nyein Chan Soe Win</td>
-										<td></td>
-										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td><img src="{{ url('/images/about-aya/corporate-governance/co-chairperson-icon.webp') }}" class="img-fluid committees_table_icon"></td>
-										<td></td>
-										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
-										<td></td>
-										<td></td>
 									</tr>
 									<tr>
 										<td class="py-4" style="font-size: 15px;">Prof Dr Aung Tun Thet</td>
@@ -508,6 +476,38 @@
 										<td></td>
 									</tr>
 									<tr>
+										<td class="py-4" style="font-size: 15px;width: 30% !important;">Daw Jasmine Thazin Aung</td>
+										<td></td>
+										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
+										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
+										<td></td>
+										<td><img src="{{ url('/images/about-aya/corporate-governance/co-chairperson-icon.webp') }}" class="img-fluid committees_table_icon"></td>
+										<td><img src="{{ url('/images/about-aya/corporate-governance/co-chairperson-icon.webp') }}" class="img-fluid committees_table_icon"></td>
+										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr>
+										<td class="py-4" style="font-size: 15px;">U Nyein Chan Soe Win</td>
+										<td></td>
+										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td><img src="{{ url('/images/about-aya/corporate-governance/co-chairperson-icon.webp') }}" class="img-fluid committees_table_icon"></td>
+										<td></td>
+										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr>
 										<td class="py-4" style="font-size: 15px;">U Ko Ko Oo</td>
 										<td></td>
 										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
@@ -533,7 +533,7 @@
 										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
 										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
 										<td></td>
-										<td></td>
+										<td><img src="{{ url('/images/about-aya/corporate-governance/co-chairperson-icon.webp') }}" class="img-fluid committees_table_icon"></td>
 										<td></td>
 										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
 										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
@@ -580,7 +580,7 @@
 				</div>
 			</div>
 			<div class="d-none container board_committees">
-				<div class="space-60"></div>
+				<div class="space-60" id="committee-meeting-attendance"></div>
 				<div class="row">
 					<div class="col-md-12">
 						<h4 class="fw-bold">Committees Meeting & Attendance</h4>
@@ -841,7 +841,27 @@
 <div class="space-60"></div>
 @include('layouts.footer', ['page'=>''])
 <script type="text/javascript">
-	$("#board_committees_title").click(function() {
+	var cur_url = window.location.href;
+	var parts = cur_url.split('#');
+	var last_part = parts.at(-1);
+
+	if (last_part == 'leadership') {
+		$(".board_committees_bod").addClass('d-none');
+		$(".board_committees").addClass('d-none');
+		$(".board_committees_who_are_on").addClass('d-none');
+		$(".role_committee").addClass('d-none');
+		$(".code_ethical_conduct").addClass('d-none');
+
+		$(".governance_framework_leadership").removeClass('d-none');
+		$(".governance_framework").removeClass('d-none');
+
+		$(".governance_title").removeClass('theme_text_color');
+		$("#governance_framework_title").addClass('theme_text_color');
+
+		$(".governance_section").addClass('governance_bg_grey');
+		$(".governance_section").removeClass('governance_bg_white');
+	}
+	if (last_part == 'board-committees' || last_part == 'who-are-on-the-committees' || last_part == 'committee-meeting-attendance') {
 		$(".governance_framework_leadership").addClass('d-none');
 		$(".governance_framework").addClass('d-none');
 		$(".role_committee").addClass('d-none');
@@ -851,7 +871,40 @@
 		$(".board_committees_who_are_on").removeClass('d-none');
 
 		$(".governance_title").removeClass('theme_text_color');
-		$("#board_committees_title").addClass('theme_text_color');
+		$(".board_committees_title").addClass('theme_text_color');
+
+		$(".governance_section").addClass('governance_bg_grey');
+		$(".governance_section").removeClass('governance_bg_white');
+  	}
+
+  	if (last_part == 'role-of-committees') {
+  		$(".governance_framework_leadership").addClass('d-none');
+		$(".governance_framework").addClass('d-none');
+		$(".board_committees_bod").addClass('d-none');
+		$(".board_committees").addClass('d-none');
+		$(".board_committees_who_are_on").addClass('d-none');
+		$(".code_ethical_conduct").addClass('d-none');
+
+		$(".role_committee").removeClass('d-none');
+
+		$(".governance_title").removeClass('theme_text_color');
+		$(".role_committee_title").addClass('theme_text_color');
+
+		$(".governance_section").removeClass('governance_bg_grey');
+		$(".governance_section").addClass('governance_bg_white');
+  	}
+
+	$(".board_committees_title").click(function() {
+		$(".governance_framework_leadership").addClass('d-none');
+		$(".governance_framework").addClass('d-none');
+		$(".role_committee").addClass('d-none');
+
+		$(".board_committees_bod").removeClass('d-none');
+		$(".board_committees").removeClass('d-none');
+		$(".board_committees_who_are_on").removeClass('d-none');
+
+		$(".governance_title").removeClass('theme_text_color');
+		$(".board_committees_title").addClass('theme_text_color');
 
 		$(".governance_section").addClass('governance_bg_grey');
 		$(".governance_section").removeClass('governance_bg_white');
@@ -874,7 +927,7 @@
 		$(".governance_section").removeClass('governance_bg_white');
 	});
 
-	$("#role_committee_title").click(function() {
+	$(".role_committee_title").click(function() {
 		$(".governance_framework_leadership").addClass('d-none');
 		$(".governance_framework").addClass('d-none');
 		$(".board_committees_bod").addClass('d-none');
@@ -885,7 +938,7 @@
 		$(".role_committee").removeClass('d-none');
 
 		$(".governance_title").removeClass('theme_text_color');
-		$("#role_committee_title").addClass('theme_text_color');
+		$(".role_committee_title").addClass('theme_text_color');
 
 		$(".governance_section").removeClass('governance_bg_grey');
 		$(".governance_section").addClass('governance_bg_white');

@@ -18,9 +18,13 @@
                             <p>
                                 <a class="f-body-color" href="{{ url('/personal-banking/borrowing/hire-purchase/auto-loan') }}">Auto Loan <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
+                        </div>
+                        <div class="col-md-4 px-3">
                             <p>
                                 <a class="f-body-color" href="{{ url('/personal-banking/borrowing/hire-purchase/education-loan') }}">Education Loan <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
+                        </div>
+                        <div class="col-md-4 px-3">
                             <p>
                                 <a class="f-body-color" href="{{ url('/personal-banking/borrowing/hire-purchase/home-loan') }}"> Home Loan <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>

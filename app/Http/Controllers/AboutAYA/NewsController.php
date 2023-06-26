@@ -3,10 +3,13 @@
 namespace App\Http\Controllers\AboutAYA;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Response;
 use Illuminate\Http\Request;
 use App\Models\Category;
 use App\Models\Blog;
 use App\Models\BlogFile;
+use App\Models\SubscribeUser;
+use URL;
 
 class NewsController extends Controller
 {
@@ -44,5 +47,34 @@ class NewsController extends Controller
                                                             ->with('yearList',$yearList)
                                                             ->with('categories',$categories)
                                                             ->with('news_year','');
+    }
+
+    public function reportIndex()
+    {
+        return view('about-aya.news-room.report');
+    }
+
+    public function reportDownload(Request $request)
+    {
+        $report_down_email = $request->report_down_email;
+        $report_file = $request->report_file;
+        $subscribe_flag = $request->subscribe_flag;
+
+        $subscribe = new SubscribeUser;
+        $subscribe->email = $report_down_email;
+        $subscribe->subscribe_flag = $subscribe_flag;
+        $subscribe->save();
+
+        if ($subscribe_flag == 1) {
+            $temp_file = tempnam(sys_get_temp_dir(), $report_file);
+            copy(URL::to('/').'/report_files/annual_report/'.$report_file, $temp_file);
+        }
+        if ($subscribe_flag == 2) {
+            $temp_file = tempnam(sys_get_temp_dir(), $report_file);
+            copy(URL::to('/').'/report_files/annual_general_meeting_notice/'.$report_file, $temp_file);
+        }
+        
+
+        return Response::download($temp_file, $report_file);
     }
 }

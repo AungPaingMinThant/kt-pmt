@@ -1,6 +1,7 @@
 @extends('layouts.frontend-app')
 
 @section('title', 'Retail FCA Current (FCY) – AYA Bank')
+<link rel="stylesheet" href="{{ url('/css/personal_banking/borrowing/hire_purchase/auto_loan.css') }}" />
 <style type="text/css">
 	h4 {
 		color: #2e2e2e !important;
@@ -47,13 +48,13 @@
 								</div>
 								<div class="space-20"></div>
 								<div class="col-md-12">
-									<a href="{{ url('/personal-banking/account-saving/current-deposit/regular-current-account') }}">
+									<a class="acc_saving_link" href="{{ url('/personal-banking/account-saving/current-deposit/regular-current-account') }}">
 										<div class="row" style="cursor: pointer;">
 											<div class="col-4 ">
 												<img src="{{ url('/images/acc_saving/regular_current_account.png') }}" class="img-fluid">
 											</div>
 											<div class="col-8 ">
-												<p style="margin-bottom: 0px;font-weight: 600;color: #2e2e2e;">Regular Current Account</p>
+												<p class="link_title">Regular Current Account</p>
 												<p style="color: #2e2e2e;">Are you looking for an everyday account?</p>
 											</div>
 										</div>
@@ -61,13 +62,13 @@
 								</div>
 								<div class="space-40"></div>
 								<div class="col-md-12">
-									<a href="{{ url('/personal-banking/account-saving/current-deposit/new-business-current-account') }}">
+									<a class="acc_saving_link" href="{{ url('/personal-banking/account-saving/current-deposit/new-business-current-account') }}">
 										<div class="row" style="cursor: pointer;">
 											<div class="col-4 ">
 												<img src="{{ url('/images/acc_saving/new_business_current_account.png') }}" class="img-fluid">
 											</div>
 											<div class="col-8 ">
-												<p style="margin-bottom: 0px;font-weight: 600;color: #2e2e2e;">New Business Current Account</p>
+												<p class="link_title">New Business Current Account</p>
 												<p style="color: #2e2e2e;">Make your cash management more accessible</p>
 											</div>
 										</div>
@@ -75,13 +76,13 @@
 								</div>
 								<div class="space-40"></div>
 								<div class="col-md-12">
-									<a href="{{ url('/personal-banking/account-saving/current-deposit/seafarer-acount') }}">
+									<a class="acc_saving_link" href="{{ url('/personal-banking/account-saving/current-deposit/seafarer-acount') }}">
 										<div class="row" style="cursor: pointer;">
 											<div class="col-4 ">
 												<img src="{{ url('/images/acc_saving/seaferer_account.png') }}" class="img-fluid">
 											</div>
 											<div class="col-8 ">
-												<p style="margin-bottom: 0px;font-weight: 600;color: #2e2e2e;">Seafarer Account (FCY)</p>
+												<p class="link_title">Seafarer Account (FCY)</p>
 												<p style="color: #2e2e2e;margin-bottom: 0;">Unique banking solution for seafarers to manage payroll and finance</p>
 											</div>
 										</div>

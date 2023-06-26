@@ -254,7 +254,7 @@
 			<div class="container faq_section" style="">
 				<div class="space-20"></div>
 				<div class="row">
-					<div class="col-md-12 text-center">
+					<div class="col-md-12">
 						<h3 style="color: #343434;font-weight: 600;">FAQs</h3>
 					</div>
 				</div>

@@ -19,11 +19,14 @@
 
 			<div class="space-20"></div>
 
-			<div class="d-none d-sm-block">
+			<!-- <div class="d-none d-sm-block">
 				<img src="{{ url('/images/atm/location_holder.jpg') }}" class="img-fluid">
 			</div>
 			<div class="d-block d-sm-none">
 				<img src="{{ url('/images/atm/location_holder_mobile.jpg') }}" class="img-fluid">
+			</div> -->
+			<div class="" style="width: 100%;padding: 0 !important;">
+				<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1TGQGlYgz_Y9HdOAuF7esdoZWtnSC9LI&ehbc=2E312F" style="height: 500px;padding: 0 !important;width: 100%;"></iframe>
 			</div>
 
 			<div class="space-60"></div>
@@ -96,7 +99,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/insert_card.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/insert_card.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 1</p>
 									                        		<p class="step_point_title mb-1">Insert ATM Card</p>
 																	<p class="step_desc">Insert your ATM Card in the designated card slot at ATM.</p>
@@ -108,7 +111,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/select_language.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/select_language.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 2</p>
 									                        		<p class="step_point_title mb-1">Select Language</p>
 																	<p class="step_desc">Select your language from the language options appearing on the display screen.</p>
@@ -119,7 +122,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/enter_pin.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/enter_pin.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 3</p>
 									                        		<p class="step_point_title mb-1">Enter 6-Digit ATM Pin</p>
 																	<p class="step_desc">Use the keypad to enter your 6-digit ATM Pin Number.</p>
@@ -131,7 +134,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/select_transaction.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/select_transaction.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 4</p>
 									                        		<p class="step_point_title mb-1">Select the type of Transaction.</p>
 																	<p class="step_desc">You will see different types of transaction options and you will have to select the withdrawal option.</p>
@@ -142,7 +145,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/enter_amount.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/enter_amount.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 5</p>
 									                        		<p class="step_point_title mb-1">Enter amount to withdraw.</p>
 																	<p class="step_desc mb-1">Enter your withdrawal amount and press <b>“Enter”</b>.</p>
@@ -154,7 +157,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/print_receipt.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/print_receipt.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 6</p>
 									                        		<p class="step_point_title mb-1">Choose to get the printed receipt, if needed</p>
 																	<p class="step_desc">You will get an option if you want a printed receipt of the transaction</p>
@@ -165,7 +168,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/collect_cash.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/collect_cash.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 7</p>
 									                        		<p class="step_point_title mb-1">Collect the Cash</p>
 																	<p class="step_desc">Collect the cash from the lower slot of the machine.</p>
@@ -177,7 +180,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/select_transaction.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/select_transaction.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 8</p>
 									                        		<p class="step_point_title mb-1">Another Transaction</p>
 																	<p class="step_desc">If you want to undertake another transaction, then select that option.</p>
@@ -227,7 +230,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/insert_card.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/insert_card.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 1</p>
 									                        		<p class="step_point_title mb-1">Insert ATM Card</p>
 																	<p class="step_desc">Insert your ATM Card in the designated card slot at ATM. </p>
@@ -239,7 +242,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/select_language.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/select_language.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 2</p>
 									                        		<p class="step_point_title mb-1">Select Language</p>
 																	<p class="step_desc">Select your language from the language options appearing on the display screen.</p>
@@ -250,7 +253,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/enter_pin.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/enter_pin.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 3</p>
 									                        		<p class="step_point_title mb-1">Enter 6-Digit ATM Pin</p>
 																	<p class="step_desc">Use the keypad to enter your 6-digit ATM Pin Number.</p>
@@ -262,7 +265,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/select_transaction.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/select_transaction.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 4</p>
 									                        		<p class="step_point_title mb-1">Select the type of Transaction.</p>
 																	<p class="step_desc">You will see different types of transaction options and you will have to select the withdrawal option.</p>
@@ -273,7 +276,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/enter_amount.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/enter_amount.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 5</p>
 									                        		<p class="step_point_title mb-1">Enter amount to withdraw.</p>
 																	<p class="step_desc">Select the amount of cash you wish to withdraw. </p>
@@ -286,7 +289,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/print_receipt.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/print_receipt.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 6</p>
 									                        		<p class="step_point_title mb-1">Choose to get the printed receipt, if needed</p>
 																	<p class="step_desc">You will get an option if you want a printed receipt of the transaction.</p>
@@ -297,7 +300,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/collect_cash.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/collect_cash.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 7</p>
 									                        		<p class="step_point_title mb-1">Collect the Cash</p>
 																	<p class="step_desc">Collect the cash from the lower slot of the machine.</p>
@@ -309,7 +312,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/select_transaction.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/select_transaction.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 8</p>
 									                        		<p class="step_point_title mb-1">Another Transaction</p>
 																	<p class="step_desc">If you want to undertake another transaction, then select that option.</p>
@@ -358,7 +361,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/request_code.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/request_code.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 1</p>
 									                        		<p class="step_point_title mb-1">Get the Cash code from mobile banking.</p>
 																	<p class="step_desc">Log in to your mobile banking and go to ATM withdrawal from the service menu.</p>
@@ -372,7 +375,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/select_transaction.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/select_transaction.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 2</p>
 									                        		<p class="step_point_title mb-1">Access ATM and choose “Cardless withdrawal”.</p>
 									                        	</div>
@@ -382,7 +385,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/select_language.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/select_language.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 3</p>
 									                        		<p class="step_point_title mb-1">Select Language</p>
 																	<p class="step_desc">Select your language from the language options appearing on the display screen.</p>
@@ -393,7 +396,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/enter_amount.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/enter_amount.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 4</p>
 									                        		<p class="step_point_title mb-1">Enter your phone number.</p>
 																	<p class="step_desc">Use the keypad to enter your registered mobile number while you applied for AYA m-Banking.</p>
@@ -404,7 +407,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/enter_pin.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/enter_pin.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 5</p>
 									                        		<p class="step_point_title mb-1">Enter Cash Code (6 Digits)</p>
 																	<p class="step_desc">Enter Cash code of 6-digits that you have received in your mobile.</p>
@@ -415,7 +418,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/enter_pin.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/enter_pin.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 6</p>
 									                        		<p class="step_point_title mb-1">Enter the cash amount correctly.</p>
 																	<p class="step_desc">The amount must be which you have selected in step:2.</p>
@@ -426,7 +429,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/print_receipt.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/print_receipt.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 7</p>
 									                        		<p class="step_point_title mb-1">Choose to get the printed receipt, if needed</p>
 																	<p class="step_desc">You will get an option if you want a printed receipt of the transaction.</p>
@@ -437,7 +440,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/collect_cash.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/collect_cash.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 8</p>
 									                        		<p class="step_point_title mb-1">Collect the Cash</p>
 																	<p class="step_desc">Collect the cash from the lower slot of the machine.</p>
@@ -449,7 +452,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/select_transaction.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/select_transaction.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 9</p>
 									                        		<p class="step_point_title mb-1">Another Transaction</p>
 																	<p class="step_desc">If you want to undertake another transaction, then select that option.</p>
@@ -498,7 +501,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/insert_card.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/insert_card.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 1</p>
 									                        		<p class="step_point_title mb-1">Insert ATM Card</p>
 																	<p class="step_desc mb-0">Insert your ATM Card in the designated card slot at ATM.</p>
@@ -510,7 +513,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/select_language.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/select_language.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 2</p>
 									                        		<p class="step_point_title mb-1">Select Language</p>
 																	<p class="step_desc">Select your language from the language options appearing on the display screen.</p>
@@ -521,7 +524,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/enter_pin.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/enter_pin.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 3</p>
 																	<p class="step_desc">Select the PIN change button and enter PIN.</p>
 									                        	</div>
@@ -531,7 +534,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/enter_pin.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/enter_pin.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 4</p>
 									                        		<p class="step_point_title mb-1">Re-enter PIN</p>
 																	<p class="step_desc mb-0">Re-enter your new PIN.</p>
@@ -581,7 +584,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/insert_card.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/insert_card.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 1</p>
 									                        		<p class="step_point_title mb-1">Insert ATM Card</p>
 																	<p class="step_desc">Insert your ATM Card in the designated card slot at ATM.</p>
@@ -593,7 +596,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/select_language.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/select_language.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 2</p>
 									                        		<p class="step_point_title mb-1">Select Language</p>
 																	<p class="step_desc">Select your language from the language options appearing on the display screen.</p>
@@ -604,7 +607,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/enter_pin.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/enter_pin.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 3</p>
 									                        		<p class="step_point_title mb-1">Enter 6-Digit ATM Pin</p>
 																	<p class="step_desc">Use the keypad to enter your 6-digit ATM Pin Number.</p>
@@ -616,7 +619,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/select_transaction.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/select_transaction.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 4</p>
 									                        		<p class="step_point_title mb-1">Select the type of Transaction</p>
 																	<p class="step_desc">You will see different types of transaction options and you must select Balance Enquiry</p>
@@ -628,7 +631,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/print_receipt.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/print_receipt.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 5</p>
 									                        		<p class="step_point_title mb-1">Choose to get the printed receipt, if needed</p>
 																	<p class="step_desc">You will get an option if you want a printed receipt of the transaction.</p>
@@ -677,7 +680,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/insert_card.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/insert_card.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 1</p>
 									                        		<p class="step_point_title mb-1">Insert ATM Card</p>
 																	<p class="step_desc">Insert your ATM Card in the designated card slot at ATM.</p>
@@ -689,7 +692,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/select_language.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/select_language.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 2</p>
 									                        		<p class="step_point_title mb-1">Select Language</p>
 																	<p class="step_desc">Select your language from the language options appearing on the display screen.</p>
@@ -700,7 +703,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/enter_pin.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/enter_pin.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 3</p>
 									                        		<p class="step_point_title mb-1">Enter 6-Digit ATM Pin</p>
 																	<p class="step_desc">Use the keypad to enter your 6-digit ATM Pin Number.</p>
@@ -712,7 +715,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/select_transaction.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/select_transaction.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 4</p>
 									                        		<p class="step_point_title mb-1">Select the type of Transaction.</p>
 																	<p class="step_desc">You will see different types of transaction options and you must select Funds Transfer.</p>
@@ -723,7 +726,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/select_account_default.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/select_account_default.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 5</p>
 									                        		<p class="step_point_title mb-1">Select the source account and choose the default.</p>
 									                        	</div>
@@ -733,7 +736,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/collect_cash.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/collect_cash.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 6</p>
 									                        		<p class="step_point_title mb-1">Complete information</p>
 																	<p class="step_desc">Enter the beneficiary account number that you wish to transfer.</p>
@@ -745,7 +748,7 @@
 									                    <div class="card swiper-slide">
 									                        <div class="card-content">
 									                        	<div class="row">
-									                        		<img src="{{ url('../images/atm/enter_amount.png') }}" class="img-fluid w-30 mb-10">
+									                        		<img src="{{ url('/images/atm/enter_amount.png') }}" class="img-fluid w-30 mb-10">
 									                        		<p class="theme_text_color fw-semibold mb-1">STEP - 7</p>
 									                        		<p class="step_point_title mb-1">Enter the amount of Funds.</p>
 																	<p class="step_desc">Enter the amount of funds you wish to transfer. Transaction is completed.</p>

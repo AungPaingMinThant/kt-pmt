@@ -2,7 +2,7 @@
      <div class="row">
         <div class="text-center">
             <h1 class="text-uppercase" style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 60px;">{{$header_title}}</h1>
-            @if($page == 'digital_services' || $page == 'personal_banking' || $page == 'business_banking')
+            @if($page == 'digital_services' || $page == 'personal_banking' || $page == 'business_banking' || $page == 'about_aya')
                 <p>
                     <a class="f-body-color" href="{{ url('/') }}">Home</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
                     <span class="text-capitalize">{{$header_title}}</span>
@@ -44,6 +44,19 @@
             @if($page == 'business_banking_ac' || $page == 'business_banking_remit' || $page == 'business_banking_borrowing' || $page == 'business_banking_trade' || $page == 'business_banking_trade' || $page == 'business_banking_cash' || $page == 'business_banking_ins')
                 <p>
                     <a class="f-body-color" href="{{ url('/business-banking') }}">Business Banking</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+                    <span class="text-capitalize">{{$header_title}}</span>
+                </p>
+            @endif
+            @if($page == 'who_we_are' || $page == 'news_room')
+                <p>
+                    <a class="f-body-color" href="{{ url('/about-aya') }}">About AYA</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+                    <span class="text-capitalize">{{$header_title}}</span>
+                </p>
+            @endif
+            @if($page == 'corporate_profile' || $page == 'leadership' || $page == 'our_strategies' || $page == 'governance')
+                <p>
+                    <a class="f-body-color" href="{{ url('/about-aya') }}">About AYA</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+                    <a class="f-body-color" href="{{ url('/about-aya/who-we-are') }}">Who We Are</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
                     <span class="text-capitalize">{{$header_title}}</span>
                 </p>
             @endif

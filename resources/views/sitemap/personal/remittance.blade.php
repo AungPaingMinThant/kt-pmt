@@ -18,9 +18,13 @@
                             <p>
                                 <a class="f-body-color" href="{{ url('/personal-banking/remittance/local') }}">Local Remittance <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
+                        </div>
+                        <div class="col-md-4 px-3">
                             <p>
                                 <a class="f-body-color" href="{{ url('/personal-banking/remittance/international') }}"> International Remittance <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
+                        </div>
+                        <div class="col-md-4 px-3">
                             <p>
                                 <a class="f-body-color" href="{{ url('/personal-banking/remittance/payment') }}">Payments <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>

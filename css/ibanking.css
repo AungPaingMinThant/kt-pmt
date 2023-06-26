@@ -31,11 +31,11 @@
 	opacity: 1 !important;
 }
 .carousel-indicators [data-bs-target].active {
-	color: #a02226;
+	color: #A5000B;
 }
 .carousel_desc_title {
 	font-weight: 400;
-	color: #a02226;
+	color: #A5000B;
 	margin-bottom: 8px;
 	font-size: 20px;
 }

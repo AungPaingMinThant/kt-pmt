@@ -15,7 +15,7 @@
                 <div class="container y-4">
                     <div class="row">
                         <div class="col-md-4 px-3">
-                           <p>
+                            <p>
                                 <a class="f-body-color" href="{{ url('/personal-banking/insurance/travel/aya-go') }}"> AYA Go Travel Insurance <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
                             <p>

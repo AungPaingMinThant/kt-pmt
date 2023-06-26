@@ -36,6 +36,11 @@ class SiteMapController extends Controller
         return view('sitemap.digital.merchant-services');
     }
 
+    public function digiCardPrivilegeIndex()
+    {
+        return view('sitemap.digital.card-privilege');
+    }
+
     public function personalIndex()
     {
         return view('sitemap.personal.personal-banking');
@@ -115,4 +120,45 @@ class SiteMapController extends Controller
     {
         return view('sitemap.business.insurance');
     }
+
+    public function aboutAYAIndex()
+    {
+        return view('sitemap.about-aya.index');
+    }
+
+    public function whoWeAreIndex()
+    {
+        return view('sitemap.about-aya.who-we-are');
+    }
+
+    public function governanceIndex()
+    {
+        return view('sitemap.about-aya.governance');
+    }
+
+    public function newsroomIndex()
+    {
+        return view('sitemap.about-aya.news-room');
+    }
+
+    public function corporateProfileIndex()
+    {
+        return view('sitemap.about-aya.corporate-profile');
+    }
+
+    public function leadershipIndex()
+    {
+        return view('sitemap.about-aya.leadership');
+    }
+
+    public function ourStrategiesIndex()
+    {
+        return view('sitemap.about-aya.our-strategies');
+    }
+
+   
+
+
+
+
 }

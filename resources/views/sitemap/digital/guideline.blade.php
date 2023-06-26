@@ -18,6 +18,8 @@
                             <p>
                                 <a class="f-body-color" href="{{ url('/digital-services/guideline/digital-secure') }}"> Security Advices for Digital Services <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
+                        </div>
+                        <div class="col-md-4 px-3">
                             <p>
                                 <a class="f-body-color" href="{{ url('/digital-services/guideline/frequently-used-digital') }}"> Frequently Used Digital Services<i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>

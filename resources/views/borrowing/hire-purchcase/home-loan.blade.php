@@ -293,8 +293,13 @@
 												Individual Program
 											</button>
 										</li>
+										<li class="nav-item">
+											<button type="button" class="tab_title nav-link" role="tab" style="padding: 10px 270px 7px 270px !important;" >
+												&nbsp;
+											</button>
+										</li>
 									</ul>
-									<div class="tab-content" style="background-color: transparent;padding: 30px 0px 0px 0px;box-shadow: none;border-top: 1px solid #cccccc2e;border-radius: 0;">
+									<div class="tab-content" style="background-color: transparent;padding: 30px 0px 0px 0px;box-shadow: none;border-radius: 0;">
 										<div class="tab-pane fade show active" id="navs-pills-top-dealer-program" role="tabpanel" style="padding-bottom: 20px;">
 											<div>
 												<p style="margin-bottom: 30px;">Choose from wide range of residences from our list of authorized developers to purchase your dream home.</p>

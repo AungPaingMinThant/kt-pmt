@@ -1,8 +1,8 @@
 .popup_image {
 	float: left;
-    width: 30%;
+    width: 100%;
     margin-right: 30px;
-    margin-bottom: 30px;
+/*    margin-bottom: 30px;*/
 }
 .u_nyein_chan_soe_win_popup_image {
 	margin-bottom: 50px;

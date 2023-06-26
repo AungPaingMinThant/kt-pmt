@@ -7,6 +7,11 @@ use Illuminate\Http\Request;
 
 class WhoWeAreController extends Controller
 {
+    public function msgChairmanIndex()
+    {
+        return view('about-aya.message-chairman');
+    }
+
     public function meetOurLeadersIndex()
     {
         return view('about-aya.meet-our-leaders.index');

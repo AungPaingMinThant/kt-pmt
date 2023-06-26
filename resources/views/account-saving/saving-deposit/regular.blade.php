@@ -1,6 +1,7 @@
 @extends('layouts.frontend-app')
 
 @section('title', 'AYA Regular Saving – AYA Bank')
+<link rel="stylesheet" href="{{ url('/css/personal_banking/borrowing/hire_purchase/auto_loan.css') }}" />
 <style type="text/css">
 	h4 {
 		color: #2e2e2e !important;
@@ -157,13 +158,13 @@
 								</div>
 								<div class="space-20"></div>
 								<div class="col-md-12">
-									<a href="{{ url('/personal-banking/account-saving/saving-deposit/aya-maximizer-saving') }}">
+									<a class="acc_saving_link" href="{{ url('/personal-banking/account-saving/saving-deposit/aya-maximizer-saving') }}">
 										<div class="row">
 											<div class="col-4">
 												<img src="{{ url('/images/acc_saving/aya_maximizer_saving.png') }}" class="img-fluid">
 											</div>
 											<div class="col-8">
-												<p style="margin-bottom: 0px;font-weight: 600;color: #2e2e2e;">AYA Maximizer Saving</p>
+												<p class="link_title">AYA Maximizer Saving</p>
 												<p style="color: #2e2e2e;">Earn bonus interest rates on your monthly minimum deposits</p>
 											</div>
 										</div>
@@ -171,13 +172,13 @@
 								</div>
 								<div class="space-40"></div>
 								<div class="col-md-12">
-									<a href="{{ url('/personal-banking/account-saving/saving-deposit/aya-loyal-saving') }}">
+									<a class="acc_saving_link" href="{{ url('/personal-banking/account-saving/saving-deposit/aya-loyal-saving') }}">
 										<div class="row">
 											<div class="col-4">
 												<img src="{{ url('/images/acc_saving/aya_royal_saving.png') }}" class="img-fluid">
 											</div>
 											<div class="col-8">
-												<p style="margin-bottom: 0px;font-weight: 600;color: #2e2e2e;">AYA Loyal Saving</p>
+												<p class="link_title">AYA Loyal Saving</p>
 												<p style="color: #2e2e2e;">Reach your goals, grow your savings with competitive interest rate</p>
 											</div>
 										</div>
@@ -185,13 +186,13 @@
 								</div>
 								<div class="space-40"></div>
 								<div class="col-md-12">
-									<a href="{{ url('/personal-banking/account-saving/saving-deposit/ngwe-toe-mae-shwe-o') }}">
+									<a class="acc_saving_link" href="{{ url('/personal-banking/account-saving/saving-deposit/ngwe-toe-mae-shwe-o') }}">
 										<div class="row">
 											<div class="col-4">
 												<img src="{{ url('/images/acc_saving/ngwe_toe_shwe_o.png') }}" class="img-fluid">
 											</div>
 											<div class="col-8">
-												<p style="margin-bottom: 0px;font-weight: 600;color: #2e2e2e;">Ngwe Toe Mae-Shwe O</p>
+												<p class="link_title">Ngwe Toe Mae-Shwe O</p>
 												<p style="color: #2e2e2e;">Send money back to your hometown and earn regular interest</p>
 											</div>
 										</div>
@@ -199,13 +200,13 @@
 								</div>
 								<div class="space-40"></div>
 								<div class="col-md-12">
-									<a href="{{ url('/personal-banking/account-saving/saving-deposit/aya-su-buu') }}">
+									<a class="acc_saving_link" href="{{ url('/personal-banking/account-saving/saving-deposit/aya-su-buu') }}">
 										<div class="row">
 											<div class="col-4">
 												<img src="{{ url('/images/acc_saving/aya_su_buu.png') }}" class="img-fluid">
 											</div>
 											<div class="col-8">
-												<p style="margin-bottom: 0px;font-weight: 600;color: #2e2e2e;">AYA Su-Buu</p>
+												<p class="link_title">AYA Su-Buu</p>
 												<p style="color: #2e2e2e;">Get a head start for future with a well- managed retirement savings scheme</p>
 											</div>
 										</div>

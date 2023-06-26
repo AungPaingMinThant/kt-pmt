@@ -18,6 +18,8 @@
                             <p>
                                 <a class="f-body-color" href="{{ url('/business/trade/trade-financing') }}">Trade Financing <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
+                        </div>
+                        <div class="col-md-4 px-3">
                             <p>
                                 <a class="f-body-color" href="{{ url('/business/trade/trade-services') }}">Trade Services <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>

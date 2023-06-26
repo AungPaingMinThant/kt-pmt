@@ -85,6 +85,7 @@ return array(
     'App\\Models\\Report' => $baseDir . '/app/Models/Report.php',
     'App\\Models\\ReportFile' => $baseDir . '/app/Models/ReportFile.php',
     'App\\Models\\SearchKeyword' => $baseDir . '/app/Models/SearchKeyword.php',
+    'App\\Models\\SubscribeUser' => $baseDir . '/app/Models/SubscribeUser.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'App\\Providers\\AuthServiceProvider' => $baseDir . '/app/Providers/AuthServiceProvider.php',

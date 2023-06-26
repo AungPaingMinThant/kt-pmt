@@ -608,52 +608,52 @@
 								</div>
 								<div class="space-20"></div>
 								<div class="col-md-6" style="margin-bottom: 40px;">
-									<a href="{{ url('/personal-banking/account-saving/current-deposit/regular-current-account') }}">
+									<a class="acc_saving_link" href="{{ url('/personal-banking/account-saving/current-deposit/regular-current-account') }}">
 										<div class="row" style="cursor: pointer;">
 											<div class="col-4 ">
 												<img src="{{ url('/images/acc_saving/regular_current_account.png') }}" class="img-fluid">
 											</div>
 											<div class="col-8 ">
-												<p style="margin-bottom: 0px;font-weight: 600;color: #2e2e2e;">Regular Current Account</p>
+												<p class="link_title">Regular Current Account</p>
 												<p style="color: #2e2e2e;">Are you looking for an everyday account?</p>
 											</div>
 										</div>
 									</a>
 								</div>
 								<div class="col-md-6" style="margin-bottom: 40px;">
-									<a href="{{ url('/personal-banking/account-saving/current-deposit/new-business-current-account') }}">
+									<a class="acc_saving_link" href="{{ url('/personal-banking/account-saving/current-deposit/new-business-current-account') }}">
 										<div class="row">
 											<div class="col-4">
 												<img src="{{ url('/images/acc_saving/new_business_current_account.png') }}" class="img-fluid">
 											</div>
 											<div class="col-8">
-												<p style="margin-bottom: 0px;font-weight: 600;color: #2e2e2e;">New Business Current Account</p>
+												<p class="link_title">New Business Current Account</p>
 												<p style="color: #2e2e2e;">Make your cash management more accessible</p>
 											</div>
 										</div>
 									</a>
 								</div>
 								<div class="col-md-6">
-									<a href="{{ url('/personal-banking/account-saving/current-deposit/seafarer-acount') }}">
+									<a class="acc_saving_link" href="{{ url('/personal-banking/account-saving/current-deposit/seafarer-acount') }}">
 										<div class="row">
 											<div class="col-4">
 												<img src="{{ url('/images/acc_saving/seaferer_account.png') }}" class="img-fluid">
 											</div>
 											<div class="col-8">
-												<p style="margin-bottom: 0px;font-weight: 600;color: #2e2e2e;">Seafarer Account (FCY)</p>
+												<p class="link_title">Seafarer Account (FCY)</p>
 												<p style="color: #2e2e2e;">Unique banking solution for seafarers to manage payroll and finance</p>
 											</div>
 										</div>
 									</a>
 								</div>
 								<div class="col-md-6">
-									<a href="{{ url('/personal-banking/account-saving/current-deposit/retail-fca-current') }}">
+									<a class="acc_saving_link" href="{{ url('/personal-banking/account-saving/current-deposit/retail-fca-current') }}">
 										<div class="row">
 											<div class="col-4">
 												<img src="{{ url('/images/acc_saving/retail_fca_current.png') }}" class="img-fluid">
 											</div>
 											<div class="col-8">
-												<p style="margin-bottom: 0px;font-weight: 600;color: #2e2e2e;">Retail FCA Current (FCY)</p>
+												<p class="link_title">Retail FCA Current (FCY)</p>
 												<p style="color: #2e2e2e;">Manage your foreign currency payroll is as convenient as local currency</p>
 											</div>
 										</div>

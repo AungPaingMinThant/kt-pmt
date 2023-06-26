@@ -7,16 +7,16 @@
         line-height: 16px;
         margin-bottom: 5px;
     }
-    .footer_first_link_a, .footer_first_link_p {
-        color: #c1c1c1;
+    .footer_first_link_a, .footer_first_link_p, .footer_first_link {
+        color: #c1c1c1 !important;
         text-decoration: none;
-        font-size: 15px;
-        font-weight: 200;
+        font-size: 15px !important;
+        font-weight: 200 !important;
         line-height: 25px;
     }
     .footer_first_link_a:hover{
         color: #fff !important;
-        text-decoration: none;
+        text-decoration: none !important;
     }
     .footer_first_link {
         margin-bottom: 0px;

@@ -15,25 +15,32 @@
                 <div class="container y-4">
                     <div class="row">
                         <div class="col-md-4 px-3">
-                            <h5>
+                            <p>
                                 <a class="f-body-color" href="{{ url('/digital-services/card-services/merchant-services') }}">Merchant Services <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </h5>
-                            <p class="px-3">
+                            </p>
+                            <p>
+                                <a class="f-body-color" href="{{ url('/digital-services/card-services/credit-card') }}">Credit Card <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                            </p>
+                            <!-- <p class="px-3">
                                 <a class="f-body-color" href="{{ url('/digital-services/card-services/prepaid-card') }}">Prepaid Card <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
                             <p class="px-3">
                                 <a class="f-body-color" href="{{ url('/digital-services/card-services/simple-pay') }}">Simple Pay <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
+                            </p> -->
                             
                         </div>
                         <div class="col-md-4 px-3">
                             <p>
-                                <a class="f-body-color" href="{{ url('/digital-services/card-services/credit-card') }}">Credit Card <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                <a class="f-body-color" href="{{ url('/digital-services/card-services/prepaid-card') }}">Prepaid Card <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
                             <p>
                                 <a class="f-body-color" href="{{ url('/digital-services/card-services/debit-card') }}">Debit Card <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
-                           
+                            </p>                           
+                        </div>
+                        <div class="col-md-4 px-3">
+                            <p>
+                                <a class="f-body-color" href="{{ url('/digital-services/card-services/card-privilege') }}">Card Privilege <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                            </p>                           
                         </div>
                     </div>
                 </div>

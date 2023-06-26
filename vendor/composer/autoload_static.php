@@ -577,6 +577,7 @@ class ComposerStaticInit82f16a42032adc04aaa803c3fa7b6a1e
         'App\\Models\\Report' => __DIR__ . '/../..' . '/app/Models/Report.php',
         'App\\Models\\ReportFile' => __DIR__ . '/../..' . '/app/Models/ReportFile.php',
         'App\\Models\\SearchKeyword' => __DIR__ . '/../..' . '/app/Models/SearchKeyword.php',
+        'App\\Models\\SubscribeUser' => __DIR__ . '/../..' . '/app/Models/SubscribeUser.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',

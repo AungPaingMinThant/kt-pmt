@@ -1,0 +1,112 @@
+.bottom_hr {
+	border-bottom: 5px solid #A5000B;
+	width: 150px !important;
+	margin-top: 5px;
+}
+.chairman_image {
+	float: left;
+    width: 30%;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+.exe_chairman_image {
+	float: right;
+    width: 30%;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+/* Report */
+.annual_report_main_col {
+	border-right: 1px solid #f1f1f2 !important;
+}
+.annual_report_main_desc_col {
+	padding: 50px 0px 0px 50px !important;
+}
+.pdf_button {
+	padding: 6px 60px !important;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.report_cover {
+	width: 90%;
+	margin-bottom: 20px;
+}
+.past_annual_report_row > .col-md-4 {
+	width: 32%;
+	padding: 20px 30px;
+	margin-bottom: 20px;
+}
+.past_annual_report_row > .col-md-4:not(:nth-child(3n+3)) {
+	margin-right: 20px;
+}
+.view_online_icon {
+	width: 6%;
+	margin-right: 10px;
+}
+.report_link:hover {
+	text-decoration: none !important;
+}
+.download_report:hover {
+	cursor: pointer;
+	color: #A5000B;
+}
+#report_down_email {
+	width: 40% !important;
+	display: inline !important;
+}
+/* Report:end */
+@media (max-width: 1300px) and (min-width: 1101px) {
+	.pdf_button {
+		padding: 6px 50px !important;
+	}
+}
+@media (max-width: 1100px) and (min-width: 1000px) {
+	.past_annual_report_row > .col-md-4 {
+		width: 31% !important;
+	}
+}
+@media (max-width: 999px) and (min-width: 577px) {
+	.chairman_image {
+	    width: 40%;
+	    margin-right: 30px;
+	    margin-bottom: 10px;
+	}
+	.exe_chairman_image {
+		width: 40%;
+	    margin-left: 30px;
+	    margin-bottom: 10px;
+	}
+	/* Report */
+	.past_annual_report_row > .col-md-4 {
+		width: 47% !important;
+	}
+	#report_down_email {
+		width: 100% !important;
+		margin-bottom: 20px;
+	}
+	.past_annual_report_row > .col-md-4:not(even) {
+		margin-right: 20px;
+	}
+	/* Report:end */
+}
+@media only screen and (max-width: 576px) {
+	.chairman_image {
+	    width: 100%;
+	    margin-right: 50px;
+	    margin-bottom: 20px;
+	}
+	.exe_chairman_image {
+		width: 100%;
+	    margin-left: 50px;
+	    margin-bottom: 20px;
+	}
+	/* Report */
+	.past_annual_report_row > .col-md-4 {
+		width: 100% !important;
+	}
+	#report_down_email {
+		width: 100% !important;
+		margin-bottom: 20px;
+	}
+	/* Report:end */
+}

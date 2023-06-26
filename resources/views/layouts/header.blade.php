@@ -12,12 +12,12 @@
 					<div class="col-md-12 text-right">
 						<ul class="menu" style="display: flex;list-style: none;float: right;margin-bottom: 1rem;margin-top: 1rem;">
 							<li class="nav-item">
-								<a class="nav-link" href="#">
+								<a class="nav-link" href="https://ibankapp.ayabank.com/" target="_blank">
 									<img src="{{ url('/images/register_icon.png') }}" class="img-fluid">&nbsp;Register
 								</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">
+								<a class="nav-link" href="https://www.ayaibanking.com/ibLogin.aspx" target="_blank">
 									<img src="{{ url('/images/login_icon.png') }}" class="img-fluid">&nbsp;Login
 								</a>
 							</li>
@@ -612,7 +612,7 @@
 															LEADERSHIP
 														</p>
 														<p class="m-b-5">
-															<a href="" >Message From Chairman</a>
+															<a href="{{ url('/about-aya/message-from-chairman') }}" >Message From Chairman</a>
 														</p>
 														<p class="mb-20">
 															<a href="{{ url('/about-aya/who-we-are/leadership/meet-our-leaders') }}" >Meet Our Leaders</a>
@@ -673,25 +673,25 @@
 												<div class="row">
 													<div class="col-md-5">
 														<p class="fw-bold">
-															<a href="https://saltnpixel.com/AYABank/AYABank_Corporate_Governance.html" target="_blank">CORPORATE GOVERNANCE</a>
+															<a href="{{ url('/about-aya/governance/corporate-governance') }}">CORPORATE GOVERNANCE</a>
 														</p>
 														<p class="m-b-5">
-															<a href="">Leadership</a>
+															<a href="{{ url('/about-aya/governance/corporate-governance#leadership') }}">Leadership</a>
 														</p>
 														<p class="m-b-5">
-															<a href="">Governance Framework</a>
+															<a href="{{ url('/about-aya/governance/corporate-governance#governance-framework') }}">Governance Framework</a>
 														</p>
 														<p class="m-b-5">
-															<a href="">Board Committees</a>
+															<a href="{{ url('/about-aya/governance/corporate-governance#board-committees') }}">Board Committees</a>
 														</p>
 														<p class="m-b-5">
-															<a href="">Who are on the Committees</a>
+															<a href="{{ url('/about-aya/governance/corporate-governance#who-are-on-the-committees') }}">Who are on the Committees</a>
 														</p>
 														<p class="m-b-5">
-															<a href="">Role of Committees</a>
+															<a href="{{ url('/about-aya/governance/corporate-governance#role-of-committees') }}">Role of Committees</a>
 														</p>
 														<p class="mb-20">
-															<a href="">Committee Meeting & Attendance</a>
+															<a href="{{ url('/about-aya/governance/corporate-governance#committee-meeting-attendance') }}">Committee Meeting & Attendance</a>
 														</p>
 														<!-- <p class="mb-20">
 															<a href="">Code of Ethical Conduct</a>
@@ -725,7 +725,7 @@
 															<a href="{{ url('/about-aya/governance/compliance') }}">Compliance</a>
 														</p>
 														<p class="mb-20">
-															<a href="https://saltnpixel.com/AYABank/AYABank_AML_CFT.html" target="_blank">Implementations of AML/CFT</a>
+															<a href="{{ url('/about-aya/governance/compliance/aml-cft') }}">Implementations of AML/CFT</a>
 														</p>
 
 														<p class="fw-bold">
@@ -801,7 +801,7 @@
 															<a href="">Announcements</a>
 														</p> -->
 														<p class="m-b-5">
-															<a href="https://saltnpixel.com/AYABank/AYABank_Report.html" target="_blank">Reports</a>
+															<a href="{{ url('/about-aya/news-room/reports') }}">Reports</a>
 														</p>
 													</div>
 												</div>
@@ -1419,7 +1419,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="" >Message From Chairman</a>
+										<a href="{{ url('/about-aya/message-from-chairman') }}" >Message From Chairman</a>
 									</p>
 								</li>
 								<li>
@@ -1489,37 +1489,37 @@
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-2">
-										<a href="https://saltnpixel.com/AYABank/AYABank_Corporate_Governance.html" target="_blank">CORPORATE GOVERNANCE</a>
+										<a href="{{ url('/about-aya/governance/corporate-governance') }}" target="_blank">CORPORATE GOVERNANCE</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="">Leadership</a>
+										<a href="{{ url('/about-aya/governance/corporate-governance#leadership') }}">Leadership</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="">Governance Framework</a>
+										<a href="{{ url('/about-aya/governance/corporate-governance#governance-framework') }}">Governance Framework</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="">Board Committees</a>
+										<a href="{{ url('/about-aya/governance/corporate-governance#board-committees') }}">Board Committees</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="">Who are on the Committees</a>
+										<a href="{{ url('/about-aya/governance/corporate-governance#who-are-on-the-committees') }}">Who are on the Committees</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="">Role of Committees</a>
+										<a href="{{ url('/about-aya/governance/corporate-governance#role-of-committees') }}">Role of Committees</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="">Committee Meeting & Attendance</a>
+										<a href="{{ url('/about-aya/governance/corporate-governance#committee-meeting-attendance') }}">Committee Meeting & Attendance</a>
 									</p>
 								</li>
 								<li>
@@ -1539,7 +1539,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item mb-20 m-l-20">
-										<a href="https://saltnpixel.com/AYABank/AYABank_AML_CFT.html" target="_blank">Implementations of AML/CFT</a>
+										<a href="{{ url('/about-aya/governance/compliance/aml-cft') }}">Implementations of AML/CFT</a>
 									</p>
 								</li>
 								<li>
@@ -1669,7 +1669,7 @@
 								</li> -->
 								<li>
 									<p class="dropdown-item mb-20">
-										<a href="https://saltnpixel.com/AYABank/AYABank_Report.html" target="_blank">Reports</a>
+										<a href="{{ url('/about-aya/news-room/reports') }}">Reports</a>
 									</p>
 								</li>
 							</ul>

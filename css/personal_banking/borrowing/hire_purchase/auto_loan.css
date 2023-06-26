@@ -5,6 +5,9 @@
 	padding: 0 1.25rem 1rem 0 !important;
 	font-size: 16px;
 }
+.side-nav > .nav-item > .nav-link:hover {
+	text-decoration: none !important;
+}
 .nav-item-separate {
 	border-bottom: 4px solid #A5000B;
 	width: 60% !important;
@@ -31,6 +34,10 @@
 	color: #2e2e2e !important;
     padding: 0 1.25rem 1rem 0 !important;
     font-size: 16px;
+}
+.side-nav > li > .side-link:hover {
+	color: #A5000B !important;
+	text-decoration: none !important;
 }
 .side-nav > li > a.active .nav-item-separate {
 	display: block;
@@ -148,6 +155,14 @@
 }
 .tab_title > span {
 	padding: 20px 0px;
+}
+.auto_loan_nav .nav-item .tab_title:not(.active) {
+	border-bottom: 2px solid #c9c9c9 !important;
+    width: 70%;
+    border-radius: 0px !important;
+}
+.tab_title:not(.active) < .nav-item {
+	width: 70% !important;
 }
 .auto_loan_nav .nav-align-top .nav-tabs .tab_title.active span {
 	border-bottom: 5px solid #A5000B;
@@ -327,7 +342,24 @@
 .slide-content-mobile > .swiper-slide-next, .slide-content-mobile > .swiper-wrapper > .swiper-slide {
 	width: 100% !important;
 }
-
+.acc_saving_link:hover {
+	text-decoration: none !important;
+}
+.link_title {
+	margin-bottom: 0px;
+	font-weight: 600;
+	color: #2e2e2e;
+}
+.acc_saving_link:hover > .row > .col-8 > .link_title {
+	color: #A5000B !important;
+}
+#avail_car {
+	text-decoration: underline;
+	cursor: pointer;
+}
+#avail_car:hover {
+	color: #a5000B;
+}
 @media (max-width: 1370px) and (min-width: 1281px) {
 	.step_slide_row {
 		width: 114%;
