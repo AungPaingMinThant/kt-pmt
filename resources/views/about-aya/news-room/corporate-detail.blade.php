@@ -17,7 +17,7 @@
 				<div class="row">
 					<div class="col-md-9">
 						<div class="row">
-							<img src="{{ url($blog->featured_image) }}" class="img-fluid">
+							<img src="{{ url('/public/'.$blog->featured_image) }}" class="img-fluid">
 						</div>
 						<div class="space-40"></div>
 						<div class="row">
