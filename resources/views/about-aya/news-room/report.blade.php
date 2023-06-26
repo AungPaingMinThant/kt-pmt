@@ -33,7 +33,7 @@
 
 							<p class="mb-40">Welcome to the world of banking with AYA where our customers are our only priority. We value all our customers and take pride in offering fast and reliable banking services.</p>
 
-							<a href="{{ url('/report_files/annual_report/annual_report_FY_2021_2022.pdf#toolbar=0') }}">
+							<a href="{{ url('/report_files/annual_report/annual_report_FY_2021_2022.pdf#toolbar=0') }}" target="_blank">
 								<button class="btn pdf_button">View Online</button>
 							</a>
 							<!-- annual_report_FY_2021_2022.pdf -->
