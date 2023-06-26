@@ -97,7 +97,7 @@
                 <a class="footer_first_link_a" href="{{url('/about-aya/who-we-are/corporate-profile/ayabank-profile')}}"><p class="footer_first_link">AYA Bank Profile</p></a>
                 <a class="footer_first_link_a" href="{{url('/about-aya/who-we-are/leadership/meet-our-leaders')}}"><p class="footer_first_link">Meet Our Leaders</p></a>
                 <a class="footer_first_link_a" href="{{url('/about-aya/who-we-are/our-strategies/corporate-strategy')}}"><p class="footer_first_link">Corporate Strategy</p></a>
-                <a class="footer_first_link_a" href="#"><p class="footer_first_link">Reports</p></a>
+                <a class="footer_first_link_a" href="{{url('/about-aya/news-room/reports')}}"><p class="footer_first_link">Reports</p></a>
             </div>
             <div class="col-md-3 col-xs-12" style="padding-bottom: 20px;padding-top: -10px;">
                 <h3 class="footer_like_title">Recommend for you</h3>

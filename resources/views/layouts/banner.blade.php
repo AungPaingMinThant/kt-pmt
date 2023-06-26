@@ -3244,14 +3244,14 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div class="msg_chairman_banner_tagline">
-						<h1 style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">Implementation of <span class="theme_text_color">AML/CFT</span></h1>
+						<h1 style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">Message from Chairman</h1>
 					</div>
 				</div>
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 90px;left: 20px;right: 40px;">
-						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Implementation of <span class="theme_text_color">AML/CFT</span></h1>
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Message from Chairman</h1>
 					</div>
 				</div>
 			</div>
