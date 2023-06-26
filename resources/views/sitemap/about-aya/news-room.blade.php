@@ -1,6 +1,6 @@
 @extends('layouts.frontend-app')
 
-@section('title', 'News Room – AYA Bank')
+@section('title', 'NewsRoom – AYA Bank')
 <link rel="stylesheet" href="{{ url('/css/site-map.css') }}" />
 
 @section('content')
@@ -10,7 +10,7 @@
             @include('layouts.header', ['page'=>'about_aya'])
             <div class="menu-overlay"></div>
             <div>
-                @include('sitemap.sitemap-header', ['header_title'=>'News Room', 'page'=>'news_room'])
+                @include('sitemap.sitemap-header', ['header_title'=>'NewsRoom', 'page'=>'news_room'])
 
                 <div class="container y-4">
                     <div class="row">

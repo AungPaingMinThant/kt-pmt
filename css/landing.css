@@ -26,7 +26,8 @@
 	animation: 2s carousel-left-1 1.5s forwards;
 	transform:translateX(100%);
 }
-.carousel-left-1 p.carousel-caption-desc {
+.carousel-left-1 p.carousel-caption-desc, .carousel-left-1 p.carousel-3-caption-desc, .carousel-left-1 p.carousel-3-caption-desc-2,
+.carousel-left-1 p.carousel-2-caption-desc {
 	animation: 2s carousel-left-1 2s forwards;
 	transform:translateX(100%);
 }
@@ -55,12 +56,7 @@
 		transform:translateX(0);
 	}
 }
-/*.carousel-caption-title {
-	font-size: 60px;
-	line-height: 50px;
-	font-weight: 500;
-	color: #A5000B;
-}*/
+
 .carousel-caption-desc {
 	color: #000 !important;
 	font-size: 20px;
@@ -83,7 +79,7 @@
 .carousel-item-5 {
 	background-image: url('../images/home/KV_slider_5.webp');
 }
-.carousel-caption-2, .carousel-caption-3 {
+.carousel-caption, .carousel-caption-2, .carousel-caption-3 {
     right: 0;
     bottom: 1.25rem;
     padding-top: 1.25rem;
@@ -102,12 +98,35 @@
     left: 7% !important;
 }
 .carousel-caption-title, .carousel-2-caption-title, .carousel-3-caption-title, .carousel-4-caption-title, .carousel-5-caption-title {
-	font-size: 40px;
-	line-height: 30px;
+	font-size: 40px !important;
+	line-height: 30px !important;
 	font-weight: 500;
 	color: #A5000B;
 }
-.carousel-2-caption-desc, .carousel-3-caption-desc, .carousel-4-caption-desc {
+.carousel-caption-desc {
+	font-size: 25px !important;
+	line-height: 20px;
+	font-weight: 500;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+.carousel-2-caption-desc {
+	color: #000;
+	font-size: 35px !important;
+	line-height: 25px;
+	font-weight: 500;
+	margin-left: 50px !important;
+	margin-top: 20px;
+}
+.carousel-3-caption-desc {
+	color: #000;
+	font-size: 35px !important;
+	line-height: 25px;
+	font-weight: 500;
+	margin-left: 50px !important;
+	margin-top: 20px;
+}
+.carousel-4-caption-desc {
 	font-size: 40px !important;
 	line-height: 30px;
 	font-weight: 500;
@@ -121,16 +140,17 @@
 	margin-left: 50px;
 	margin-top: 20px;
 }
-.carousel-4-caption-desc-2 {
-	font-size: 40px;
-	line-height: 30px;
+.carousel-2-caption-desc-2, .carousel-3-caption-desc-2 {
+	color: #000;
+	font-size: 25px !important;
+	line-height: 20px;
 	font-weight: 500;
 	margin-left: 100px;
 	margin-top: 20px;
 }
-.carousel-caption-desc {
-	font-size: 25px;
-	line-height: 20px;
+.carousel-4-caption-desc-2 {
+	font-size: 40px;
+	line-height: 30px;
 	font-weight: 500;
 	margin-left: 100px;
 	margin-top: 20px;
@@ -142,20 +162,7 @@
 	margin-left: 100px;
 	margin-top: 20px;
 }
-.carousel-3-caption-desc-2 {
-	font-size: 25px !important;
-	line-height: 20px;
-	font-weight: 500;
-	margin-left: 100px;
-	margin-top: 20px;
-}
-.carousel-2-caption-desc-2 {
-	font-size: 30px;
-	line-height: 20px;
-	font-weight: 500;
-	margin-left: 100px;
-	margin-top: 20px;
-}
+
 .carousel-indicators {
 	left: 50px !important;
 }

@@ -46,20 +46,20 @@
 								<div class="col-md-6">
 									<div class="carousel-left-1">
 										<p class="carousel-2-caption-title">Reaching New Heights,</p>
-										<p class="carousel-caption-desc carousel-2-caption-desc mb-10">Serving with Our Hearts!</p>
-										<p class="carousel-caption-desc carousel-2-caption-desc-2" >Treasure AYA.</p>
+										<p class="carousel-2-caption-desc mb-10">Serving with Our Hearts!</p>
+										<p class="carousel-2-caption-desc-2" >Treasure AYA.</p>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="carousel-item carousel-item-3">
+						<div class="carousel-item carousel-item-3 ">
 							<div class="row carousel-caption carousel-caption-3">
 								<div class="col-md-6"></div>
 								<div class="col-md-6">
 									<div class="carousel-left-1">
 										<p class="carousel-3-caption-title">Moving Forward,</p>
-										<p class="carousel-caption-desc carousel-3-caption-desc mb-10">Going Digital,</p>
-										<p class="carousel-caption-desc carousel-3-caption-desc-2">Experience the New AYA on the Go!</p>
+										<p class="carousel-3-caption-desc mb-10">Going Digital,</p>
+										<p class="carousel-3-caption-desc-2">Experience the New AYA on the Go!</p>
 									</div>
 								</div>
 							</div>
