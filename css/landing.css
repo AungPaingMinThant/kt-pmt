@@ -108,10 +108,10 @@
 	color: #A5000B;
 }
 .carousel-2-caption-desc, .carousel-3-caption-desc, .carousel-4-caption-desc {
-	font-size: 40px;
+	font-size: 40px !important;
 	line-height: 30px;
 	font-weight: 500;
-	margin-left: 50px;
+	margin-left: 50px !important;
 	margin-top: 20px;
 }
 .carousel-5-caption-desc {
@@ -128,7 +128,28 @@
 	margin-left: 100px;
 	margin-top: 20px;
 }
-.carousel-caption-desc, .carousel-2-caption-desc-2, .carousel-3-caption-desc-2, .carousel-5-caption-desc-2 {
+.carousel-caption-desc {
+	font-size: 25px;
+	line-height: 20px;
+	font-weight: 500;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+.carousel-5-caption-desc-2 {
+	font-size: 30px;
+	line-height: 20px;
+	font-weight: 500;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+.carousel-3-caption-desc-2 {
+	font-size: 25px !important;
+	line-height: 20px;
+	font-weight: 500;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+.carousel-2-caption-desc-2 {
 	font-size: 30px;
 	line-height: 20px;
 	font-weight: 500;

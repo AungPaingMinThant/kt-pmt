@@ -48,10 +48,6 @@
 										<p class="carousel-2-caption-title">Reaching New Heights,</p>
 										<p class="carousel-caption-desc carousel-2-caption-desc mb-10">Serving with Our Hearts!</p>
 										<p class="carousel-caption-desc carousel-2-caption-desc-2" >Treasure AYA.</p>
-
-										<!-- <p class="carousel-3-caption-title">Moving Forward,</p>
-										<p class="carousel-caption-desc carousel-3-caption-desc mb-10">Going Digital,</p>
-										<p class="carousel-caption-desc carousel-3-caption-desc-2">Experience the New AYA on the Go!</p> -->
 									</div>
 								</div>
 							</div>
