@@ -332,12 +332,12 @@
 					<div class="col-md-6">
 						<div class="row">
 							<a href="">
-								<img src="{{ url($first_blog->featured_image) }}" class="img-fluid">
+								<img src="{{ url('/public/'.$first_blog->featured_image) }}" class="img-fluid">
 							</a>
 						</div>
 						<div class="news_content_div">
 							<div class="news_title_div">
-								<a href="{{ url('/public/about-aya/news-room/corporate-news/'.$first_blog->permalink) }}">
+								<a href="{{ url('/about-aya/news-room/corporate-news/'.$first_blog->permalink) }}">
 									<p class="news_title">{{ $first_blog->blog_title }}</p>
 								</a>
 							</div>
