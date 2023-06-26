@@ -52,7 +52,7 @@
 
 					<div class="row d-none board_committees_bod" id="board-committees">
 						<div class="col-md-12">
-							<h4 class="fw-bold">Board Directors</h4>
+							<h4 class="fw-bold">Board of Directors</h4>
 							<hr class="bottom_hr">
 							<div class="row space-30"></div>
 							

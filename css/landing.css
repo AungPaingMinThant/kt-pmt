@@ -245,6 +245,12 @@
     margin-bottom: 20px;
     padding-right: 130px !important;
 }
+.app_desc > a, .ayapay_app_desc > a {
+	color: #A5000B !important;
+}
+.app_desc > a:hover, .ayapay_app_desc > a:hover {
+	text-decoration: none !important;
+}
 .ayapay_app_desc {
 	color: #A5000B;
     font-size: 22px;

@@ -168,7 +168,7 @@
 							<div class="col-md-12" style="position: relative;">
 								<div class="row app_detail_div">
 									<p class="app_title">AYA mBaning 2.0 Mobile APP</p>
-									<p class="app_desc">Everyday banking made easy with AYA mBanking</p>
+									<p class="app_desc"><a href="{{ url('/digital-services/online-payment-services/mobile-banking') }}">Everyday banking made easy with AYA mBanking</a></p>
 									<div class="col-md-10 apps_link_div">
 										<a href="http://bit.ly/ayambankingios">
 											<img src="{{ url('/images/apple.png') }}" class="img-fluid mbaning_img_ios" loading="lazy">
@@ -186,7 +186,7 @@
 							<div class="col-md-12" style="position: relative;">
 								<div class="row ayapay_app_detail_div">
 									<p class="app_title">AYA PAY Wallet Mobile APP</p>
-									<p class="ayapay_app_desc">AYA PAY Digital Wallet Built with Love</p>
+									<p class="ayapay_app_desc"><a href="{{ url('/digital-services/wallet-solution/aya-pay') }}">AYA PAY Digital Wallet Built with Love</a></p>
 									<div class="col-md-10 ayapay_app_link_div">
 										<a href="https://apps.apple.com/us/app/aya-pay-wallet/id1485836756">
 											<img src="{{ url('/images/apple.png') }}" class="img-fluid ayapay_img_ios">
@@ -321,7 +321,7 @@
 			<div class="container insights_container">
 				<div class="row text-center">
 					<p class="insights_title">INSIGHTS</p>
-					<p class="insights_sub_title">Keep pace with Aya Bank news and update</p>
+					<p class="insights_sub_title">Keep pace with AYA Bank news and update</p>
 				</div>
 				<div class="space-20"></div>
 				<div class="row">

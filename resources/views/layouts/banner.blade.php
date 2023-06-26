@@ -490,17 +490,16 @@
 @if($page == 'ayapay')
 	<div class="ayapay_banner banner_bg">
 		<div class="container">
-			<div class="row d-none">
+			<div class="row d-none d-sm-block">
 				<div class="ayapay_tag">
 					<div class="col-md-12 text-left" style="position: relative;">
-						<div style="position: absolute;top: 100px;right: 130px;left: 30px;">
-							<h1 class="f-white fw-bold" style="font-family: 'W35Art House'; font-size: 50px;margin-bottom: 0;line-height: 32px;">e u</h1>
-							<!-- <h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;color: #A5000B;">Make Your Transactions Easy with AYA Pay</h1> -->
+						<div style="position: absolute;top: 160px;right: 130px;left: 30px;">
+							<h1 class="f-white" style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;color: #A5000B;">Make Your Transactions<br>Easy with AYA Pay</h1>
 						</div>
 					</div>
 					<div class="col-md-6" style="text-align: right;"></div>
 				</div>
-				<div class="ayapay_tag_mid">
+				<!-- <div class="ayapay_tag_mid">
 					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
 						<div style="position: absolute;top: 170px;right: 130px;">
 							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">Make Your Transactions</h1>
@@ -508,13 +507,12 @@
 						</div>
 					</div>
 					<div class="col-md-6" style="text-align: right;"></div>
-				</div>
+				</div> -->
 			</div>
-			<div class="row d-none">
+			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 45px;left: 25px;right: 55px;">
-						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;">Make Your Transactions</h1>
-						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;color: #A5000B;">Easy with AYA Pay</h1>
+					<div style="position: absolute;top: 190px;left: 150px;right: 30px;">
+						<h1 class="f-white" style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;">Make Your Transactions Easy with AYA Pay</h1>
 					</div>
 				</div>
 			</div>

@@ -423,19 +423,37 @@
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Credit cards</p>
+										<p>Charity & Organization/ Societies</p>
 									</div>
 									<div class="col-1">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Electricity</p>
+										<p>E-Commerce</p>
 									</div>
 									<div class="col-1">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Loans</p>
+										<p>Education</p>
+									</div>
+									<div class="col-1">
+										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
+									</div>
+									<div class="col-11">
+										<p>Shopping & Life Style entertainment</p>
+									</div>
+									<div class="col-1">
+										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
+									</div>
+									<div class="col-11">
+										<p>Grocery Trading & Manufacturing</p>
+									</div>
+									<div class="col-1">
+										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
+									</div>
+									<div class="col-11">
+										<p>Financial Services & Institutions</p>
 									</div>
 									<div class="col-1">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
@@ -447,31 +465,37 @@
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Grocery Stores</p>
+										<p>Retails</p>
 									</div>
 									<div class="col-1">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Communication</p>
+										<p>Telecom & Internet Service</p>
 									</div>
 									<div class="col-1">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>School fees</p>
+										<p>Travel/ Transportation</p>
 									</div>
 									<div class="col-1">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Mobile</p>
+										<p>Utilities</p>
 									</div>
 									<div class="col-1">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Travels</p>
+										<p>Credit Card and Prepaid Card</p>
+									</div>
+									<div class="col-1">
+										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
+									</div>
+									<div class="col-11">
+										<p>Tax and Tariff</p>
 									</div>
 								</div>
 							</section>

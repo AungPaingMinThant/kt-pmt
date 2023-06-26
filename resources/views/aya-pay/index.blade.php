@@ -52,6 +52,13 @@
 									<p style="color: #4e4e4e;">Provides features to make bill payments, cash out, transfer funds, and top up Visa Prepaid Card and mobile</p>
 								</div>
 							</div>
+							<div class="col-md-6 outer_benefit_box why_use_AYA">
+								<div class="row loyalty_div">
+									<img src="{{ url('/images/ayapay/loyalty.png') }}" class="img-fluid" style="width: 91px;">
+									<p style="font-weight: 600;margin-top: 1rem;">Loyalty Program</p>
+									<p style="color: #4e4e4e;">Offer not only promotions but also AYA Points for our AYA Pay users .AYA Points is our all encompassing loyalty program that lets you earn points on certain transactions and redeem those points for exclusive rewards and benefits.</p>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="col-md-5 text-center d-none d-sm-block" style="padding-top: 20px;">
@@ -61,6 +68,7 @@
 								<li data-bs-target="#why_use_AYA_first_section" id="slide_2" data-bs-slide-to="1"></li>
 								<li data-bs-target="#why_use_AYA_first_section" id="slide_3" data-bs-slide-to="2"></li>
 								<li data-bs-target="#why_use_AYA_first_section" id="slide_4" data-bs-slide-to="3"></li>
+								<li data-bs-target="#why_use_AYA_first_section" id="slide_5" data-bs-slide-to="4"></li>
 							</ol>
 							<div class="carousel-inner">
 								<div class="carousel-item active">
@@ -74,6 +82,9 @@
 								</div>
 								<div class="carousel-item">
 									<img src="{{ url('/images/ayapay/ayapay_funtional.png') }}" class="d-block  img-fluid" id="prepaid_card_mockup" alt="Fourth slide" style="width: 75%;">
+								</div>
+								<div class="carousel-item">
+									<img src="{{ url('/images/ayapay/ayapay_reward.png') }}" class="d-block  img-fluid" id="prepaid_card_mockup" alt="Fourth slide" style="width: 75%;">
 								</div>
 							</div>
 							<a class="carousel-control-prev d-none" href="#why_use_AYA_first_section" role="button" data-bs-slide="prev">
@@ -331,6 +342,9 @@
 	});
 	$(".prepaid_card_div").click(function() {
 		$("#slide_4").click();
+	});
+	$(".loyalty_div").click(function() {
+		$("#slide_5").click();
 	});
 
 	$(".timeline-badge-1").click(function() {
