@@ -156,7 +156,10 @@ class SiteMapController extends Controller
         return view('sitemap.about-aya.our-strategies');
     }
 
-   
+    public function underMaintainIndex()
+    {
+        return view('under-maintenance');
+    }
 
 
 

@@ -16,7 +16,7 @@
                     <div class="row">
                         <div class="col-md-6 px-3">
                             <h5>
-                                <a class="f-body-color" href="{{url('/personal-banking/insurance/life')}}">General Insurance<i class="menu-icon tf-icoAYA Go Travel Insurancens bx bx-right-arrow-alt"></i></a>
+                                <a class="f-body-color" href="">General Insurance<i class="menu-icon tf-icoAYA Go Travel Insurancens bx bx-right-arrow-alt"></i></a>
                             </h5>
                             <p>
                                 <a class="f-body-color" href="{{ url('/personal-banking/insurance/health') }}"> Health Insurance <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>

@@ -232,3 +232,5 @@ Route::get('/about-aya/who-we-are/our-strategies','App\Http\Controllers\SiteMapC
 
 Route::get('/about-aya/governance','App\Http\Controllers\SiteMapController@governanceIndex');
 Route::get('/about-aya/news-room','App\Http\Controllers\SiteMapController@newsroomIndex');
+
+Route::get('/under-maintenance','App\Http\Controllers\SiteMapController@underMaintainIndex');
