@@ -227,7 +227,7 @@
 										</div>
 										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">Fund Transfer</p>
-											<p class="fee_desc">Domestic Transaction - 1,000,000 MMK Per day</p>
+											<p class="fee_desc">Domestic Transaction - 5,000,000 MMK Per day</p>
 										</div>
 									</div>
 									<div class="row">
@@ -245,7 +245,7 @@
 									<div class="row">
 										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">International Transaction Fees</p>
-											<p class="fee_desc">Fees 25% ~ 50%(Note * Fees are subject to change without prior notice)</p>
+											<p class="fee_desc">Fees 25% ~ 70%(Note * Fees are subject to change without prior notice)</p>
 										</div>
 										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">Other Fees</p>

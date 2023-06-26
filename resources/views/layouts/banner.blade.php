@@ -117,7 +117,7 @@
 	<div class="debitcard_banner banner_bg">
 		<div class="container">
 			<div class="row d-none d-sm-block">
-				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
+				<div class="col-md-6" style="position: relative;">
 					<div class="debit_banner_tagline">
 						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Nothing can be more simpler than <span class="theme_text_color">a cashless payment</span></h1>
 					</div>

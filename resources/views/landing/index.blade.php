@@ -456,18 +456,6 @@
 	var previousValue2;
 	var previousValue3;
 
-	// var dropdown = document.getElementById('inputGroupSelect01');
-  	// dropdown.selectedIndex = -1;
-  	// dropdown.options[1].selected = true;
-
-  	// var dropdown2 = document.getElementById('inputGroupSelect02');
-  	// dropdown2.selectedIndex = -1;
-  	// dropdown2.options[1].selected = true;
-
-  	// var dropdown3 = document.getElementById('inputGroupSelect03');
-  	// dropdown3.selectedIndex = -1;
-  	// dropdown3.options[1].selected = true;
-
 	document.getElementById('CTA_section_1_info').addEventListener('click', function(event) {
 		if (event.target.classList.contains('inputGroupSelect01')) {
 			$('select[id=inputGroupSelect01] > option:first-child').text('-- Select an option --');

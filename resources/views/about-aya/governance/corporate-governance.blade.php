@@ -274,7 +274,7 @@
 						<hr class="bottom_hr">
 						<div class="row space-30"></div>
 						<img src="{{ url('/images/about-aya/corporate-governance/board-committees-chart.webp') }}" class="img-fluid text-center">
-						<p style="font-size: 15px;">Read more on <a href="" class="theme_text_color">Role of Committees</a></p>
+						<p id="read_more_on_role_com" style="font-size: 15px;">Read more on <a href="{{ url('/about-aya/governance/corporate-governance#role-of-committees') }}" class="theme_text_color">Role of Committees</a></p>
 					</div>
 				</div>
 				<div class="space-40"></div>
@@ -927,6 +927,22 @@
 		$(".governance_section").removeClass('governance_bg_white');
 	});
 
+	$("#read_more_on_role_com").click(function() {
+		$(".governance_framework_leadership").addClass('d-none');
+		$(".governance_framework").addClass('d-none');
+		$(".board_committees_bod").addClass('d-none');
+		$(".board_committees").addClass('d-none');
+		$(".board_committees_who_are_on").addClass('d-none');
+		$(".code_ethical_conduct").addClass('d-none');
+
+		$(".role_committee").removeClass('d-none');
+
+		$(".governance_title").removeClass('theme_text_color');
+		$(".role_committee_title").addClass('theme_text_color');
+
+		$(".governance_section").removeClass('governance_bg_grey');
+		$(".governance_section").addClass('governance_bg_white');
+	});
 	$(".role_committee_title").click(function() {
 		$(".governance_framework_leadership").addClass('d-none');
 		$(".governance_framework").addClass('d-none');

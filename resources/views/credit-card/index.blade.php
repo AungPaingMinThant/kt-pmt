@@ -542,7 +542,7 @@
 									<div class="row">
 										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">International Transaction Fees</p>
-											<p class="fee_desc">Fees 25% ~ 50%</p>
+											<p class="fee_desc">Fees 25% ~ 70%</p>
 											<p class="fee_desc">(Note * Fees are subject to change without prior notice)</p>
 										</div>
 										<div class="col-md-6 fee_charge_inner_div">

@@ -103,11 +103,19 @@
 .role_committee_title {
 	font-size: 15px;
 }
+.role_com_title {
+	font-size: 17px;
+}
 .role_committee_title_col {
 	margin-left: -40px;
 }
 .role_committee_mobile_title {
 	display: none;
+}
+@media (max-width: 1300px) and (min-width: 1201px) {
+	.committee_table {
+		zoom: 70%;
+	}
 }
 @media (max-width: 999px) and (min-width: 577px) {
 	.governance_title_div > .col-md-3 {
