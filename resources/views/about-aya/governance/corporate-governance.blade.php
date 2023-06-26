@@ -31,7 +31,7 @@
 					<div class="col-md-12 space-80" id="leadership"></div>
 					<div class="row governance_framework_leadership">
 						<div class="col-md-12">
-							<h4 class="fw-bold">Leadership</h4>
+							<h4 class="fw-bold">Leadership Commitment</h4>
 							<hr class="bottom_hr">
 						</div>
 						<div class="row space-30"></div>
@@ -209,28 +209,28 @@
 							<h4 class="mb-0">Business Principles</h4>
 							<hr class="bottom_hr">
 							<div class="row space-20"></div>
-							<p class="theme_text_color role_com_title">Preserve Confidentiality</p>
+							<p class="theme_text_color role_commmittee_title">Preserve Confidentiality</p>
 							<p>AYA Bank assure that all aspects of our communication with individuals, stakeholders regarding their business-related data or personal identities will be held in the strictest confidence. Individuals shall protect the confidentiality of bank detail, business plan, conditions, and customer’s data, to any unauthorized individuals.</p>
 							<div class="row space-20"></div>
-							<p class="theme_text_color role_com_title">Anti- Bribery and Corruption</p>
+							<p class="theme_text_color role_commmittee_title">Anti- Bribery and Corruption</p>
 							<p>AYA Bank employees are strictly prohibited on promising, receiving, offering cash or anything of value to any customers, stakeholders, government employees or any individuals for the purpose of improperly influencing decisions or securing benefits for obtaining or retaining business.</p>
 							<div class="row space-20"></div>
-							<p class="theme_text_color role_com_title">Fair Business Dealing</p>
+							<p class="theme_text_color role_commmittee_title">Fair Business Dealing</p>
 							<p>All employees are expected to exercise fair business dealing when conducting all business transaction. Both parties shall work honestly and refrain from any use of deception or unfairness when negotiating the business.</p>
 
 							<div class="row space-30"></div>
 							<h4 class="mb-0">Workplace Principles</h4>
 							<hr class="bottom_hr">
-							<p class="theme_text_color role_com_title">Discrimination and Harassment</p>
+							<p class="theme_text_color role_commmittee_title">Discrimination and Harassment</p>
 							<p>AYA Bank try its best to make employees feel safe and supported in the workplace, which includes while they are engaged in Bank’s business and at events of the Bank, or at other outside activities with a connection to employment or work, whether during or after normal business hours. Any kind of discrimination or harassment including unwanted verbal or physical harassment based on race, ethnicity, religion, sex, gender, identity, age, or disability will not be tolerated. We have a formal complaint system that acknowledges the victim’s rights to anonymity and security from retaliation.</p>
 							<div class="row space-20"></div>
-							<p class="theme_text_color role_com_title">Human rights</p>
+							<p class="theme_text_color role_commmittee_title">Human rights</p>
 							<p>AYA Bank is committed to respecting human rights and demonstrates leadership in responsible workplace practices across our Bank’s Branches and in all regions where we conduct business. We aim to align our Bank’s policies and practices with international standards. Our commitment to fair, ethical, and responsible business practices, as we engage with our employees, clients, vendors, and community, is embodied in our values and Code of Conduct.</p>
 							<div class="row space-20"></div>
-							<p class="theme_text_color role_com_title">Conflict of Interest</p>
+							<p class="theme_text_color role_commmittee_title">Conflict of Interest</p>
 							<p>Any employee of AYA Bank is obliged to disclose any known or potential conflicts of interest as soon as they arise. This practice is in place to prevent a possible conflict from existing between their own personal interests and the interests of the Bank. As all conflicts of interest will be reviewed on a case-by-case basis, a review may result in disciplinary action. Executive Management has full discretion to deem what disciplinary action is both fitting and necessary, including suspension and/or termination of employment.</p>
 							<div class="row space-20"></div>
-							<p class="theme_text_color role_com_title">Use of Bank’s property for private advantage</p>
+							<p class="theme_text_color role_commmittee_title">Use of Bank’s property for private advantage</p>
 							<p>Employees are expected to be ensure that all property maintained by Bank is kept in the best possible working condition and is used appropriately for Bank’s business purpose only. Using of Bank’s property for private advantage includes using of supplies, equipment, vehicles, inventory, AYA Bank’s material, products, ideas, or concepts to an outside firm or individual for private advantage.</p>
 
 							<div class="row space-30"></div>
@@ -251,18 +251,30 @@
 			<div class="container governance_framework" id="governance-framework">
 				<div class="space-60"></div>
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-12">
 						<h4 class="fw-bold">Governance Framework</h4>
 						<hr class="bottom_hr">
 						<div class="row space-30"></div>
-						<p class="mb-0">Good governance is critical and a foundation attribute to the effective business operations of the Bank. It sets the tone as to how the bank operates and connects to both internally and to the market.</p>
+						<!-- <p class="mb-0">Good governance is critical and a foundation attribute to the effective business operations of the Bank. It sets the tone as to how the bank operates and connects to both internally and to the market.</p> -->
+						<p>Good governance is critical and a foundation attribute to the effective business operations of the Bank. It sets the tone as to how the bank operates and connects to both internally and to the market. It’s crucial to comply with statutory and policy obligations in the financial industry, we fully comprehend that the extensive corporate governance framework will ensure delivering our obligations competently. This will also allow us to utilize as a benchmark for discharging our commitments and maintaining our performance. </p>
+						<p>AYA Bank's corporate governance framework is directed by a well-defined structure, effective policies, and efficient procedures that ensure the optimal management and direction of the Bank's business operations. This framework provides assurance to our stakeholders that the Bank operates both effectively and efficiently. Its design not only focuses on enhancing efficiency, but also prioritizes increased transparency and accountability towards our shareholders and various stakeholders. This comprehensive concept extends to encompass all relationships, including those with our stakeholders, suppliers, employees, and customers.</p>
+						<p>The principles of the governance in the framework derived from the Constitution of AYA Bank Public Company Ltd, Myanmar Companies Law, the Directives of Central Bank of Myanmar as well as it is the development over time by the Board of the Directors of the Bank. The purpose is to shape up our efforts to provide a top-notch quality service to our customers. These principles are prescribed as: </p>
+						<ul>
+							<li>Underpin the Bank’s culture, mindset and ethos which ensures the employees’ behavior with integrity and a strong commitment to ethical values. </li>
+							<li>Set the ethical tone for the Bank and the transparency of its conduct. </li>
+							<li>Communication with and protecting the rights and interests of shareholders and all other stakeholders. </li>
+							<li>Oversight of the Bank's performance and the contribution to corporate success from the Board of Directors in the context of the Bank’s strategic goals and objectives.</li>
+							<li>Enhance the effective oversight of risk management, corporate compliance, and the integrated framework of internal controls. </li>
+							<li>Define the priorities and outcomes that we aim to achieve sustainable socio-economic benefits and to determine interventions as necessary to maximize the achievement of it.</li>
+							<li>Guide us in developing the capacity of the leadership team and its employees.</li>
+						</ul>
 						<div class="row space-50"></div>
 						<!-- <button class="btn pdf_button">View Online</button>
 						<button class="btn pdf_button">Download PDF</button> -->
 					</div>
-					<div class="col-md-6">
+					<!-- <div class="col-md-6">
 						<img src="{{ url('/images/about-aya/corporate-governance/governance-framework-pdf.webp') }}" class="img-fluid governance-framework-pdf-img">
-					</div>
+					</div> -->
 				</div>
 				<div class="space-20"></div>
 			</div>
@@ -486,7 +498,7 @@
 										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
 										<td></td>
 										<td><img src="{{ url('/images/about-aya/corporate-governance/co-chairperson-icon.webp') }}" class="img-fluid committees_table_icon"></td>
-										<td><img src="{{ url('/images/about-aya/corporate-governance/co-chairperson-icon.webp') }}" class="img-fluid committees_table_icon"></td>
+										<td></td>
 										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
 										<td></td>
 										<td></td>
@@ -586,9 +598,9 @@
 						<h4 class="fw-bold">Committees Meeting & Attendance</h4>
 						<hr class="bottom_hr">
 						<div class="row space-30"></div>
-						<p class="mb-30">All board members require compulsory attendance at meetings of the Board of Directors if there is no reasonable cause. Board members are required to attend at least 75% of all regularly scheduled meetings. The Secretariate Section under Corporate Affairs Department organizes the management calendar for the year and schedules the meeting of the Board of Directors at least 10 times a year with the interval between two meetings not to exceed two months. During the financial year 2022-2023, the board held 12 regular scheduled meetings and attended by all members of the board.</p>
+						<p class="mb-30">All board members require compulsory attendance at meetings of the Board of Directors if there is no reasonable cause. Board members are required to attend at least 75% of all regularly scheduled meetings. The Secretariate Section under Corporate Affairs Department organizes the management calendar for the year and schedules the meeting of the Board of Directors at least 10 times a year with the interval between two meetings not to exceed two months. During the financial year 2022-2023, the board held 11 regular scheduled meetings and attended by all members of the board.</p>
 
-						<p class="fw-bold">Committee meetings were conducted in budget year 2022-2023 as follows:</p>
+						<p class="fw-bold">Committee meetings were conducted in financial year 2022-2023 as follows:</p>
 						<div class="table-responsive text-nowrap committee_meeting_table_div">
 							<table class="table table-borderless table-striped committee_meeting_table">
 								<thead>
