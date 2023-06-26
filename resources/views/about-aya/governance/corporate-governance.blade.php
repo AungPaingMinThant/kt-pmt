@@ -105,7 +105,7 @@
 							<h4>01 <span class="theme_text_color role_committee_mobile_title">&nbsp;&nbsp;Executive Committee</span></h4>
 						</div>
 						<div class="col-md-11 role_committee_title_col">
-							<p class="theme_text_color role_committee_title">Executive Committee</p>
+							<p class="theme_text_color role_com_title">Executive Committee</p>
 							<p>The Executive Committee is led by an Executive Chairperson of the Bank and serves as steering committee for the rest of the Board. It has the power to facilitate decision-making between board meetings or in urgent and crisis circumstances. The Executive Committee reports to the Board and is responsible for ensuring that the Board’s policies and guidance are implemented in daily operations, and good corporate practices are maintained. In addition to this, the role of the executive committee includes monitoring the ethics policies, human resources, security guidelines, quality management, sound financial management and the Bank’s compliance with regulations.</p>
 						</div>
 						<div class="col-md-12 space-20"></div>
@@ -113,7 +113,7 @@
 							<h4>02 <span class="theme_text_color role_committee_mobile_title">&nbsp;&nbsp;Audit Committee</span></h4>
 						</div>
 						<div class="col-md-11 role_committee_title_col">
-							<p class="theme_text_color role_committee_title">Audit Committee</p>
+							<p class="theme_text_color role_com_title">Audit Committee</p>
 							<p>The Board Audit Committee is chaired by an Independent Non-Executive Director and comprised of members from various areas such as risk and compliance, legal, finance and audit. The Board Audit Committee has been providing continuous advice to the Board with regards to the effectiveness and independence of the Bank’s internal audit function, the overall risk governance framework and internal control system. Audit Committee is responsible to ensure that senior management is taking necessary corrective actions in a timely manner to address control weaknesses, non-compliance with policies, laws and regulations, and other problems identified by auditors and other control functions.</p>
 						</div>
 						<div class="col-md-12 space-20"></div>
@@ -121,7 +121,7 @@
 							<h4>03 <span class="theme_text_color role_committee_mobile_title">&nbsp;&nbsp;Board Risk and Compliance Committee</span></h4>
 						</div>
 						<div class="col-md-11 role_committee_title_col">
-							<p class="theme_text_color role_committee_title">Board Risk and Compliance Committee</p>
+							<p class="theme_text_color role_com_title">Board Risk and Compliance Committee</p>
 							<p>The Board Risk and Compliance Committee (BRCC) is headed by Vice Chairperson of the AYA Bank. BRCC assists the Board to achieve effective corporate governance and oversight responsibilities in relation to risk and compliance management strategy, framework and risk and compliance management function of the Bank. BRCC oversees the policy of risk and compliance, determines Bank’s risk appetite, and risk tolerance, and ensures that risk assessments are performed regularly and monitor the whole risk and compliance process.</p>
 						</div>
 						<div class="col-md-12 space-20"></div>
@@ -129,7 +129,7 @@
 							<h4>04 <span class="theme_text_color role_committee_mobile_title">&nbsp;&nbsp;Nomination and Remuneration Committee</span></h4>
 						</div>
 						<div class="col-md-11 role_committee_title_col">
-							<p class="theme_text_color role_committee_title">Nomination and Remuneration Committee</p>
+							<p class="theme_text_color role_com_title">Nomination and Remuneration Committee</p>
 							<p>The Nomination and Remuneration Committee is chaired by an Independent Non-Executive Director and the main role of the committee is to set succession and compensation policies in the Bank, identify directors and Senior Management in accordance with the criteria laid down and recommend their appointment to the Board. The committee is responsible for the overall oversight of the compensation system for the entire bank. In addition, the committee shall regularly monitor and reviews outcomes to ensure that the bank-wide remuneration system is operating as intended.</p>
 						</div>
 						<div class="col-md-12 space-20"></div>
@@ -137,7 +137,7 @@
 							<h4>05 <span class="theme_text_color role_committee_mobile_title">&nbsp;&nbsp;Human Resources Committee</span></h4>
 						</div>
 						<div class="col-md-11 role_committee_title_col">
-							<p class="theme_text_color role_committee_title">Human Resources Committee</p>
+							<p class="theme_text_color role_com_title">Human Resources Committee</p>
 							<p>The Human Resources committee is chaired by the Vice Chairperson of the Bank and responsible for assisting the Board in fulfilling its oversight responsibilities for human resources related policies and strategies. The committee is responsible for employees’ compensation, benefits, and performance management, and to ensure that the Bank is following government laws, international and local best practices. The committee’s objective is to retain qualified and productive employees, to ensure human resources risks are appropriately identified and mitigated, and to create an attractive environment for existing and prospective employees of AYA Bank.</p>
 						</div>
 						<div class="col-md-12 space-20"></div>
@@ -145,7 +145,7 @@
 							<h4>06 <span class="theme_text_color role_committee_mobile_title">&nbsp;&nbsp;Assets and Liabilities Committee</span></h4>
 						</div>
 						<div class="col-md-11 role_committee_title_col">
-							<p class="theme_text_color role_committee_title">Assets and Liabilities Committee</p>
+							<p class="theme_text_color role_com_title">Assets and Liabilities Committee</p>
 							<p>The Assets and Liabilities Committee (ALCO), chaired by the Executive Chairperson, is responsible for overseeing the management of the bank’s assets and liabilities. ALCO provides an important oversight for effectively evaluating on-and off-balance-sheet risk for the bank. One of the objectives is to ensure adequate liquidity while managing the spread between the interest income and interest expense. Members also consider investments and operational risk.  ALCO members’ responsibilities typically include managing market risk tolerances, establishing appropriate management information systems, and reviewing and approving the bank’s liquidity and funds management policies. This includes developing and maintaining a contingency funding plan, reviewing immediate funding needs and sources, and determining liquidity risk exposures to adverse scenarios with varying probability and severity.</p>
 						</div>
 						<div class="col-md-12 space-20"></div>
@@ -153,7 +153,7 @@
 							<h4>07 <span class="theme_text_color role_committee_mobile_title">&nbsp;&nbsp;Credit Committee</span></h4>
 						</div>
 						<div class="col-md-11 role_committee_title_col">
-							<p class="theme_text_color role_committee_title">Credit Committee</p>
+							<p class="theme_text_color role_com_title">Credit Committee</p>
 							<p>The Credit Committee is chaired by the Chief Executive Officer of the Bank and is the decision-making body for approval of credit facilities in the Bank. The purpose of the committee is to oversee the credit and lending strategies, objectives of the bank, the credit risk management of the Bank, reviewing the credit policies and the quality of and performance of the entire Bank’s credit portfolio, and regular assessment of the quality of risk assets in the Bank.</p>
 						</div>
 						<div class="col-md-12 space-20"></div>
@@ -161,7 +161,7 @@
 							<h4>08 <span class="theme_text_color role_committee_mobile_title">&nbsp;&nbsp;Product and Business Development Committee</span></h4>
 						</div>
 						<div class="col-md-11 role_committee_title_col">
-							<p class="theme_text_color role_committee_title">Product and Business Development Committee</p>
+							<p class="theme_text_color role_com_title">Product and Business Development Committee</p>
 							<p>The Product and Business Development Committee is led by the Chief Executive Officer of the Bank and is comprised of Head of Business Units and Product Development Department. The committee is responsible for overseeing and managing the process and procedures for product design and development in compliance with the Bank’s strategy and regulatory guidelines. That includes reviewing product performance and competitiveness in the current market for its continued relevance and justification.</p>
 						</div>
 						<div class="col-md-12 space-20"></div>
@@ -169,7 +169,7 @@
 							<h4>09 <span class="theme_text_color role_committee_mobile_title">&nbsp;&nbsp;Purchasing Committee</span></h4>
 						</div>
 						<div class="col-md-11 role_committee_title_col">
-							<p class="theme_text_color role_committee_title">Purchasing Committee</p>
+							<p class="theme_text_color role_com_title">Purchasing Committee</p>
 							<p>The Purchasing Committee is managed by the Vice Chairperson of the Bank and is established for independent review and evaluation of purchasing documentation. The committee is obliged to decide the most appropriate supplier or service provider for the Bank and ultimately responsible for the successful outcome of the evaluation process. The committee members must be in no way related to or associated with any of the suppliers being evaluated.</p>
 						</div>
 						<div class="col-md-12 space-20"></div>
@@ -177,7 +177,7 @@
 							<h4>10 <span class="theme_text_color role_committee_mobile_title">&nbsp;&nbsp;IT and Digitalization Steering Committee</span></h4>
 						</div>
 						<div class="col-md-11 role_committee_title_col">
-							<p class="theme_text_color role_committee_title">IT and Digitalization Steering Committee</p>
+							<p class="theme_text_color role_com_title">IT and Digitalization Steering Committee</p>
 							<p>The IT & Digitalization and Steering Committee is led by the Chief Executive Officer of the Bank. The primary objective is to manage IT resources and implement IT Governance to align with the strategic direction of the Board. This includes building, acquiring, and implementing the required infrastructure, applications, and services for the Bank. The secondary objective is to support IT projects as defined by the committee. The committee is responsible for evaluating and assessing the performance and compliance of all the IT related processes, practices, and activities.</p>
 						</div>
 						<div class="col-md-12 space-20"></div>
@@ -185,7 +185,7 @@
 							<h4>11 <span class="theme_text_color role_committee_mobile_title">&nbsp;&nbsp;Corporate Social Responsibility Committee</span></h4>
 						</div>
 						<div class="col-md-11 role_committee_title_col">
-							<p class="theme_text_color role_committee_title">Corporate Social Responsibility Committee</p>
+							<p class="theme_text_color role_com_title">Corporate Social Responsibility Committee</p>
 							<p>The Corporate Social Responsibility Committee is chaired by Independent Non-Executive Director and obliged to define the strategy of the Bank’s corporate social responsibilities to implement effectively and oversee the approach to be in line with the Bank’s CSR pillars. The committee determine from time to time and recommend various aspects of corporate social responsibilities including the Bank’s culture, employment issues, health & safety, human rights, workforce diversity & inclusion, the environment, community & social investment, compliance with ethical trading and business practices and other CSR-related matters.</p>
 						</div>
 						<div class="col-md-12 space-20"></div>
@@ -193,7 +193,7 @@
 							<h4>12 <span class="theme_text_color role_committee_mobile_title">&nbsp;&nbsp;Health and Safety Committee</span></h4>
 						</div>
 						<div class="col-md-11 role_committee_title_col">
-							<p class="theme_text_color role_committee_title">Health and Safety Committee</p>
+							<p class="theme_text_color role_com_title">Health and Safety Committee</p>
 							<p>The health and safety committee (HSC) is managed by the Chief Executive Officer of the Bank. The committee is formed to address concerns related to occupational health and safety issues that affect employees. This includes addressing hazards in the workplace, responding the health issues in pandemic efficiently, implementing new safety and procedures, reviewing safety training requirements. The purpose is to create communication with employees and management personnel to improve safety and reduce hazards. The committee holds meetings quarterly and discuss health and safety issues, develop plans and procedures to resolve the identified issues, recommend corrective actions and evaluate the reports submitted to the committee.</p>
 						</div>
 					</div>
@@ -209,28 +209,28 @@
 							<h4 class="mb-0">Business Principles</h4>
 							<hr class="bottom_hr">
 							<div class="row space-20"></div>
-							<p class="theme_text_color role_committee_title">Preserve Confidentiality</p>
+							<p class="theme_text_color role_com_title">Preserve Confidentiality</p>
 							<p>AYA Bank assure that all aspects of our communication with individuals, stakeholders regarding their business-related data or personal identities will be held in the strictest confidence. Individuals shall protect the confidentiality of bank detail, business plan, conditions, and customer’s data, to any unauthorized individuals.</p>
 							<div class="row space-20"></div>
-							<p class="theme_text_color role_committee_title">Anti- Bribery and Corruption</p>
+							<p class="theme_text_color role_com_title">Anti- Bribery and Corruption</p>
 							<p>AYA Bank employees are strictly prohibited on promising, receiving, offering cash or anything of value to any customers, stakeholders, government employees or any individuals for the purpose of improperly influencing decisions or securing benefits for obtaining or retaining business.</p>
 							<div class="row space-20"></div>
-							<p class="theme_text_color role_committee_title">Fair Business Dealing</p>
+							<p class="theme_text_color role_com_title">Fair Business Dealing</p>
 							<p>All employees are expected to exercise fair business dealing when conducting all business transaction. Both parties shall work honestly and refrain from any use of deception or unfairness when negotiating the business.</p>
 
 							<div class="row space-30"></div>
 							<h4 class="mb-0">Workplace Principles</h4>
 							<hr class="bottom_hr">
-							<p class="theme_text_color role_committee_title">Discrimination and Harassment</p>
+							<p class="theme_text_color role_com_title">Discrimination and Harassment</p>
 							<p>AYA Bank try its best to make employees feel safe and supported in the workplace, which includes while they are engaged in Bank’s business and at events of the Bank, or at other outside activities with a connection to employment or work, whether during or after normal business hours. Any kind of discrimination or harassment including unwanted verbal or physical harassment based on race, ethnicity, religion, sex, gender, identity, age, or disability will not be tolerated. We have a formal complaint system that acknowledges the victim’s rights to anonymity and security from retaliation.</p>
 							<div class="row space-20"></div>
-							<p class="theme_text_color role_committee_title">Human rights</p>
+							<p class="theme_text_color role_com_title">Human rights</p>
 							<p>AYA Bank is committed to respecting human rights and demonstrates leadership in responsible workplace practices across our Bank’s Branches and in all regions where we conduct business. We aim to align our Bank’s policies and practices with international standards. Our commitment to fair, ethical, and responsible business practices, as we engage with our employees, clients, vendors, and community, is embodied in our values and Code of Conduct.</p>
 							<div class="row space-20"></div>
-							<p class="theme_text_color role_committee_title">Conflict of Interest</p>
+							<p class="theme_text_color role_com_title">Conflict of Interest</p>
 							<p>Any employee of AYA Bank is obliged to disclose any known or potential conflicts of interest as soon as they arise. This practice is in place to prevent a possible conflict from existing between their own personal interests and the interests of the Bank. As all conflicts of interest will be reviewed on a case-by-case basis, a review may result in disciplinary action. Executive Management has full discretion to deem what disciplinary action is both fitting and necessary, including suspension and/or termination of employment.</p>
 							<div class="row space-20"></div>
-							<p class="theme_text_color role_committee_title">Use of Bank’s property for private advantage</p>
+							<p class="theme_text_color role_com_title">Use of Bank’s property for private advantage</p>
 							<p>Employees are expected to be ensure that all property maintained by Bank is kept in the best possible working condition and is used appropriately for Bank’s business purpose only. Using of Bank’s property for private advantage includes using of supplies, equipment, vehicles, inventory, AYA Bank’s material, products, ideas, or concepts to an outside firm or individual for private advantage.</p>
 
 							<div class="row space-30"></div>

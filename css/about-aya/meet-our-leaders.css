@@ -42,4 +42,7 @@
 	.glider, .tab {
 	    width: 300px;
 	}
+	.popup_image {
+		margin-bottom: 20px;
+	}
 }
