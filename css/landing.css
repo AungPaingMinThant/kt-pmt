@@ -55,12 +55,12 @@
 		transform:translateX(0);
 	}
 }
-.carousel-caption-title {
+/*.carousel-caption-title {
 	font-size: 60px;
 	line-height: 50px;
 	font-weight: 500;
 	color: #A5000B;
-}
+}*/
 .carousel-caption-desc {
 	color: #000 !important;
 	font-size: 20px;
@@ -101,7 +101,7 @@
     top: 100px !important;
     left: 7% !important;
 }
-.carousel-2-caption-title, .carousel-3-caption-title, .carousel-4-caption-title, .carousel-5-caption-title {
+.carousel-caption-title, .carousel-2-caption-title, .carousel-3-caption-title, .carousel-4-caption-title, .carousel-5-caption-title {
 	font-size: 40px;
 	line-height: 30px;
 	font-weight: 500;
@@ -121,14 +121,14 @@
 	margin-left: 50px;
 	margin-top: 20px;
 }
-.carousel-2-caption-desc-2, .carousel-4-caption-desc-2 {
+.carousel-4-caption-desc-2 {
 	font-size: 40px;
 	line-height: 30px;
 	font-weight: 500;
 	margin-left: 100px;
 	margin-top: 20px;
 }
-.carousel-3-caption-desc-2, .carousel-5-caption-desc-2 {
+.carousel-caption-desc, .carousel-2-caption-desc-2, .carousel-3-caption-desc-2, .carousel-5-caption-desc-2 {
 	font-size: 30px;
 	line-height: 20px;
 	font-weight: 500;

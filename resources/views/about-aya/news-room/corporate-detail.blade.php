@@ -60,7 +60,7 @@
 							<hr class="year-bottom-hr">
 							@foreach($yearList as $y_list)
 								<p>
-									<a href="{{ url('/about-aya/news-room/corporate-news/year/'.$y_list->publish_year) }}" class="f-body-color">{{ $y_list->publish_year }}</a>
+									<a href="{{ url('/about-aya/news-room/corporate-news/year/'.$y_list->publish_year) }}" class="f-body-color year_link">{{ $y_list->publish_year }}</a>
 								</p>
 							@endforeach
 						</div>
@@ -77,8 +77,8 @@
 							@foreach($related as $rel)
 								<div class="row">
 									<div class="news_title_div">
-										<a href="{{ url('/about-aya/news-room/corporate-news/'.$rel->permalink) }}">
-											<p class="news_title">{{ $rel->blog_title }}</p>
+										<a class="news_title_link" href="{{ url('/about-aya/news-room/corporate-news/'.$rel->permalink) }}">
+											<p class="rel_news_title">{{ $rel->blog_title }}</p>
 										</a>
 									</div>
 									<hr>

@@ -153,6 +153,9 @@
 	.CTA_financial_detail_col_2 {
 		padding-right: 7rem !important;
 	}
+	.lead_cap_col_1 {
+		width: 14% !important;
+	}
 }
 @media (max-width: 1279px) and (min-width: 1000px) {
 	.sh_section {
@@ -172,6 +175,24 @@
 	.CTA_financial_detail_col_2 {
 		padding-right: 5rem !important;
 	}
+	.lead_cap_col_1 {
+		width: 10% !important;
+	}
+	.lead_cap_col_2 {
+		width: 90% !important;
+	}
+	.lead_cap_detail_col:nth-child(2) {
+		width: 27%;
+	}
+	.lead_cap_detail_col:nth-child(3) {
+		width: 27%;
+	}
+	.lead_cap_detail_col:nth-child(4) {
+		width: 21%;
+	}
+	.lead_cap_detail_col:nth-child(6) {
+		width: 27%;
+	}
 }
 @media (max-width: 999px) and (min-width: 577px) {
 	.full_service_col_1, .full_service_col_2, .full_service_col_3 {
@@ -188,7 +209,7 @@
 		width: 90% !important;
 	}
 	.lead_cap_col_1 {
-		width: 5 !important;
+		width: 5% !important;
 	}
 	.lead_cap_col_2 {
 		width: 95% !important;

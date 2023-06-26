@@ -54,6 +54,9 @@
 .news_title_div {
 	height: 62px;
 }
+.news_title_link:hover, .year_link:hover {
+	text-decoration: none !important;
+}
 .year-bottom-hr {
 	border-bottom: 4px solid #A5000B;
 	width: 20% !important;

@@ -20,7 +20,7 @@
 						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="4"></li>
 					</ol>
 					<div class="carousel-inner active">
-						<div class="carousel-item carousel-item-1 active">
+						<!-- <div class="carousel-item carousel-item-1 active">
 							<video class="img-fluid xl_slide" autoplay loop muted plays-inline>
 								<source src="{{ url('/images/home/landing_1920_600.webm') }}" type="video/webm" />
 							</video>
@@ -39,7 +39,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> -->
 						<div class="carousel-item carousel-item-2">
 							<div class="row carousel-caption carousel-caption-2">
 								<div class="col-md-6"></div>
@@ -48,6 +48,10 @@
 										<p class="carousel-2-caption-title">Reaching New Heights,</p>
 										<p class="carousel-caption-desc carousel-2-caption-desc mb-10">Serving with Our Hearts!</p>
 										<p class="carousel-caption-desc carousel-2-caption-desc-2" >Treasure AYA.</p>
+
+										<!-- <p class="carousel-3-caption-title">Moving Forward,</p>
+										<p class="carousel-caption-desc carousel-3-caption-desc mb-10">Going Digital,</p>
+										<p class="carousel-caption-desc carousel-3-caption-desc-2">Experience the New AYA on the Go!</p> -->
 									</div>
 								</div>
 							</div>

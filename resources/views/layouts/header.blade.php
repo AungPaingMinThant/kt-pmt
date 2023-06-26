@@ -1702,10 +1702,10 @@
 					</div>
                 </li>
                 <li style="padding: 10px 0px;">
-                    <a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">REGISTER</a>
+                    <a href="https://ibankapp.ayabank.com/" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">REGISTER</a>
                 </li>
                 <li style="padding: 10px 0px;">
-                    <a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">LOGIN</a>
+                    <a href="https://www.ayaibanking.com/ibLogin.aspx" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">LOGIN</a>
                 </li>
                 <!-- <li style="padding: 10px 0px;">
                     <a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">ENGLISH</a>

@@ -24,7 +24,7 @@
 									</div>
 									<div class="news_content_div">
 										<div class="news_title_div">
-											<a href="{{ url('/about-aya/news-room/corporate-news/'.$b_list->permalink) }}">
+											<a href="{{ url('/about-aya/news-room/corporate-news/'.$b_list->permalink) }}" class="news_title_link">
 												<p class="news_title">{{ $b_list->blog_title }}</p>
 											</a>
 										</div>
@@ -41,14 +41,14 @@
 							<hr class="year-bottom-hr">
 							@foreach($yearList as $y_list)
 								<p>
-									<a href="{{ url('/about-aya/news-room/corporate-news/year/'.$y_list->publish_year) }}" class="f-body-color">{{ $y_list->publish_year }}</a>
+									<a href="{{ url('/about-aya/news-room/corporate-news/year/'.$y_list->publish_year) }}" class="f-body-color year_link">{{ $y_list->publish_year }}</a>
 								</p>
 							@endforeach
 						</div>
 
 						<div class="space-30"></div>
 
-						<div class="row pl-1">
+<!-- 						<div class="row pl-1">
 							<h4 class="fw-semibold mt-minus-10 mb-0">Categories</h4>
 							<hr class="cat-bottom-hr">
 							@foreach($categories as $cat)
@@ -56,7 +56,7 @@
 									<a href="#" class="f-body-color">{{ $cat->category_name }}</a>
 								</p>
 							@endforeach
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>

@@ -110,7 +110,7 @@
 					<h4 class="fw-semibold text-center">Leading Capabilities</h4>
 					<div class="space-20"></div>
 
-					<div class="col-md-1 lead_cap_col_1"></div>
+					<div class="col-md-2 lead_cap_col_1"></div>
 					<div class="col-md-10 lead_cap_col_2">
 						<div class="row leading_capabilities_row">
 							<div class="col-md-3 lead_cap_detail_col">
@@ -143,7 +143,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-1 lead_cap_col_3"></div>
+					<!-- <div class="col-md-1 lead_cap_col_3"></div> -->
 				</div>
 
 				<div class="row text-center py-1 update_date_div">
