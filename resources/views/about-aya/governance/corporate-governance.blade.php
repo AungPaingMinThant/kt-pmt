@@ -204,7 +204,7 @@
 							<hr class="bottom_hr">
 							<div class="row space-30"></div>
 
-							<p>AYA Bank regards high ethical standards as non-negotiable. This Code of Ethical Conduct is adopted to give effect to our <a href="{{ url('/about-aya/who-we-are/corporate-profile/mission-corporate-value-brand-promise') }}" class="theme_text_color text-decoration-underline">Core Values</a> and to guide our relationships with all our stakeholders and other relevant role-players as well as to outline our commitments to them. This conduct is required to maintain and enhance the public’s confidence in AYA Bank.</p>
+							<p>AYA Bank regards high ethical standards as non-negotiable. This Code of Ethical Conduct is adopted to give effect to our <a class="f-body-color text-decoration-underline" href="{{ url('/about-aya/who-we-are/corporate-profile/mission-corporate-value-brand-promise') }}" class="theme_text_color text-decoration-underline">Core Values</a> and to guide our relationships with all our stakeholders and other relevant role-players as well as to outline our commitments to them. This conduct is required to maintain and enhance the public’s confidence in AYA Bank.</p>
 							<div class="row space-30"></div>
 							<h4 class="mb-0">Business Principles</h4>
 							<hr class="bottom_hr">
@@ -669,7 +669,7 @@
 								<tbody class="table-border-bottom-0" style="background-color: #fff;">
 									<tr>
 										<td class="b-t-l-radius-10 py-4">Number of meetings held</td>
-										<td>12</td>
+										<td>11</td>
 										<td>20</td>
 										<td>11</td>
 										<td>7</td>
@@ -679,7 +679,7 @@
 									</tr>
 									<tr>
 										<td class="py-4">U Zaw Zaw</td>
-										<td>12</td>
+										<td>11</td>
 										<td></td>
 										<td></td>
 										<td></td>
@@ -689,7 +689,7 @@
 									</tr>
 									<tr>
 										<td class="py-4">Daw Khin Saw Oo</td>
-										<td>12</td>
+										<td>11</td>
 										<td>20</td>
 										<td></td>
 										<td></td>
@@ -699,7 +699,7 @@
 									</tr>
 									<tr>
 										<td class="py-4">U Than Zaw</td>
-										<td>12</td>
+										<td>11</td>
 										<td>20</td>
 										<td>11</td>
 										<td>7</td>
@@ -709,7 +709,7 @@
 									</tr>
 									<tr>
 										<td class="py-4">Daw Htay Htay Khaing</td>
-										<td>12</td>
+										<td>11</td>
 										<td></td>
 										<td></td>
 										<td></td>
@@ -719,7 +719,7 @@
 									</tr>
 									<tr>
 										<td class="py-4">Daw Khin Ma Ma</td>
-										<td>12</td>
+										<td>11</td>
 										<td>20</td>
 										<td></td>
 										<td>7</td>
@@ -729,7 +729,7 @@
 									</tr>
 									<tr>
 										<td class="py-4">U Myint Zaw</td>
-										<td>12</td>
+										<td>11</td>
 										<td>20</td>
 										<td></td>
 										<td>7</td>
@@ -759,7 +759,7 @@
 									</tr>
 									<tr>
 										<td class="py-4">Prof Dr Aung Tun Thet</td>
-										<td>12</td>
+										<td>11</td>
 										<td></td>
 										<td></td>
 										<td></td>
@@ -769,7 +769,7 @@
 									</tr>
 									<tr>
 										<td class="py-4">U Min Sein</td>
-										<td>12</td>
+										<td>11</td>
 										<td></td>
 										<td>7</td>
 										<td>7</td>
@@ -779,7 +779,7 @@
 									</tr>
 									<tr>
 										<td class="py-4">U Tun Lin Oo</td>
-										<td>12</td>
+										<td>11</td>
 										<td></td>
 										<td>10</td>
 										<td></td>
