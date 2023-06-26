@@ -37,7 +37,7 @@
 								<button class="btn pdf_button">View Online</button>
 							</a>
 							<!-- annual_report_FY_2021_2022.pdf -->
-							<button class="btn pdf_button">Download PDF</button>
+							<button class="btn pdf_button" onclick="reportModal('Annual Report FY 2021 – 2022', 'annual_report_FY_2021_2022.pdf','1')" data-bs-toggle="modal" data-bs-target="#report_download_modal">Download PDF</button>
 						</div>
 						<div class="space-40"></div>
 						<div class="col-md-12">
@@ -52,7 +52,7 @@
 							<p class="fw-semibold mb-0">Annual Report</p>
 							<p>FY 2019 – 2020</p>
 							<p class="mb-0">
-								<a class="report_link" href="{{ url('/report_files/annual_report/annual_report_FY_2019_2020.pdf#toolbar=0') }}">
+								<a class="report_link" target="_blank" href="{{ url('/report_files/annual_report/annual_report_FY_2019_2020.pdf#toolbar=0') }}">
 									<img src="{{ url('/images/about-aya/report/view_online.png') }}" class="img-fluid view_online_icon"> View Online
 								</a>
 							</p>
@@ -63,7 +63,7 @@
 							<p class="fw-semibold mb-0">Annual Report</p>
 							<p>FY 2017 – 2018</p>
 							<p class="mb-0">
-								<a class="report_link" href="{{ url('/report_files/annual_report/aannual_report_FY_2017_2018.pdf#toolbar=0') }}">
+								<a class="report_link" target="_blank" href="{{ url('/report_files/annual_report/aannual_report_FY_2017_2018.pdf#toolbar=0') }}">
 									<img src="{{ url('/images/about-aya/report/view_online.png') }}" class="img-fluid view_online_icon"> View Online
 								</a>
 							</p>
@@ -74,7 +74,7 @@
 							<p class="fw-semibold mb-0">Annual Report</p>
 							<p>FY 2016 – 2017</p>
 							<p class="mb-0">
-								<a class="report_link" href="{{ url('/report_files/annual_report/annual_report_FY_2016_2017.pdf#toolbar=0') }}">
+								<a class="report_link" target="_blank" href="{{ url('/report_files/annual_report/annual_report_FY_2016_2017.pdf#toolbar=0') }}">
 									<img src="{{ url('/images/about-aya/report/view_online.png') }}" class="img-fluid view_online_icon"> View Online
 								</a>
 							</p>
@@ -85,7 +85,7 @@
 							<p class="fw-semibold mb-0">Annual Report</p>
 							<p>FY 2015 – 2016</p>
 							<p class="mb-0">
-								<a class="report_link" href="{{ url('/report_files/annual_report/annual_report_FY_2015_2016.pdf#toolbar=0') }}">
+								<a class="report_link" target="_blank" href="{{ url('/report_files/annual_report/annual_report_FY_2015_2016.pdf#toolbar=0') }}">
 									<img src="{{ url('/images/about-aya/report/view_online.png') }}" class="img-fluid view_online_icon"> View Online
 								</a>
 							</p>
@@ -96,7 +96,7 @@
 							<p class="fw-semibold mb-0">Annual Report</p>
 							<p>FY 2014 – 2015</p>
 							<p class="mb-0">
-								<a class="report_link" href="{{ url('/report_files/annual_report/annual_report_FY_2014_2015.pdf#toolbar=0') }}">
+								<a class="report_link" target="_blank" href="{{ url('/report_files/annual_report/annual_report_FY_2014_2015.pdf#toolbar=0') }}">
 									<img src="{{ url('/images/about-aya/report/view_online.png') }}" class="img-fluid view_online_icon"> View Online
 								</a>
 							</p>
@@ -107,7 +107,7 @@
 							<p class="fw-semibold mb-0">Annual Report</p>
 							<p>FY 2013 – 2014</p>
 							<p class="mb-0">
-								<a class="report_link" href="{{ url('/report_files/annual_report/annual_report_FY_2013_2014.pdf#toolbar=0') }}">
+								<a class="report_link" target="_blank" href="{{ url('/report_files/annual_report/annual_report_FY_2013_2014.pdf#toolbar=0') }}">
 									<img src="{{ url('/images/about-aya/report/view_online.png') }}" class="img-fluid view_online_icon"> View Online
 								</a>
 							</p>
@@ -119,7 +119,7 @@
 							<p class="fw-semibold mb-0">IFRS Financial Statement</p>
 							<p>2021 – 2022 Summary</p>
 							<p class="mb-0">
-								<a class="report_link" href="{{ url('/report_files/annual_report/IFRS_Financial_Statement_2021_2022_Summary.pdf#toolbar=0') }}">
+								<a class="report_link" target="_blank" href="{{ url('/report_files/annual_report/IFRS_Financial_Statement_2021_2022_Summary.pdf#toolbar=0') }}">
 									<img src="{{ url('/images/about-aya/report/view_online.png') }}" class="img-fluid view_online_icon"> View Online
 								</a>
 							</p>
@@ -130,7 +130,7 @@
 							<p class="fw-semibold mb-0">IFRS Financial Statement</p>
 							<p>2020 – 2021 Summary</p>
 							<p class="mb-0">
-								<a class="report_link" href="{{ url('/report_files/annual_report/IFRS_Financial_Statement_2021_2022_Summary.pdf#toolbar=0') }}">
+								<a class="report_link" target="_blank" href="{{ url('/report_files/annual_report/IFRS_Financial_Statement_2021_2022_Summary.pdf#toolbar=0') }}">
 									<img src="{{ url('/images/about-aya/report/view_online.png') }}" class="img-fluid view_online_icon"> View Online
 								</a>
 							</p>
@@ -141,7 +141,7 @@
 							<p class="fw-semibold mb-0">IFRS Financial Statement</p>
 							<p>September 30 2020 Summary</p>
 							<p class="mb-0">
-								<a class="report_link" href="{{ url('/report_files/annual_report/IFRS_Financial_Statement_Sept_30_2020_Summary.pdf#toolbar=0') }}">
+								<a class="report_link" target="_blank" href="{{ url('/report_files/annual_report/IFRS_Financial_Statement_Sept_30_2020_Summary.pdf#toolbar=0') }}">
 									<img src="{{ url('/images/about-aya/report/view_online.png') }}" class="img-fluid view_online_icon"> View Online
 								</a>
 							</p>
@@ -152,7 +152,7 @@
 							<p class="fw-semibold mb-0">IFRS Financial Statement</p>
 							<p>September 30 2019 Summary</p>
 							<p class="mb-0">
-								<a class="report_link" href="{{ url('/report_files/annual_report/IFRS_Financial_Statement_2021_2022_Summary.pdf#toolbar=0') }}">
+								<a class="report_link" target="_blank" href="{{ url('/report_files/annual_report/IFRS_Financial_Statement_2021_2022_Summary.pdf#toolbar=0') }}">
 									<img src="{{ url('/images/about-aya/report/view_online.png') }}" class="img-fluid view_online_icon"> View Online
 								</a>
 							</p>
@@ -183,7 +183,7 @@
 							<p class="fw-semibold mb-0">Annual General Meeting - AGM (Myanmar Version)</p>
 							<p>FY 2019 – 2020</p>
 							<p class="mb-0">
-								<a class="report_link" href="{{ url('/report_files/annual_general_meeting_notice/FY2019_2020_AGM_Notice_Myanmar_Version.pdf#toolbar=0') }}">
+								<a class="report_link" target="_blank" href="{{ url('/report_files/annual_general_meeting_notice/FY2019_2020_AGM_Notice_Myanmar_Version.pdf#toolbar=0') }}">
 									<img src="{{ url('/images/about-aya/report/view_online.png') }}" class="img-fluid view_online_icon"> View Online
 								</a>
 							</p>
@@ -194,7 +194,7 @@
 							<p class="fw-semibold mb-0">Annual General Meeting - AGM <Br>(English Version)</p>
 							<p>FY 2019 – 2020</p>
 							<p class="mb-0">
-								<a class="report_link" href="{{ url('/report_files/annual_general_meeting_notice/FY2019_2020_AGM_Notice_English_Version.pdf#toolbar=0') }}">
+								<a class="report_link" target="_blank" href="{{ url('/report_files/annual_general_meeting_notice/FY2019_2020_AGM_Notice_English_Version.pdf#toolbar=0') }}">
 									<img src="{{ url('/images/about-aya/report/view_online.png') }}" class="img-fluid view_online_icon"> View Online
 								</a>
 							</p>
@@ -205,7 +205,7 @@
 							<p class="fw-semibold mb-0">Annual General Meeting - AGM (Myanmar Version)</p>
 							<p>FY 2018 – 2019</p>
 							<p class="mb-0">
-								<a class="report_link" href="{{ url('/report_files/annual_general_meeting_notice/FY2018_2019_AGM_Notice_Myanmar_Version.pdf#toolbar=0') }}">
+								<a class="report_link" target="_blank" href="{{ url('/report_files/annual_general_meeting_notice/FY2018_2019_AGM_Notice_Myanmar_Version.pdf#toolbar=0') }}">
 									<img src="{{ url('/images/about-aya/report/view_online.png') }}" class="img-fluid view_online_icon"> View Online
 								</a>
 							</p>
@@ -216,7 +216,7 @@
 							<p class="fw-semibold mb-0">Annual General Meeting - AGM (English Version)</p>
 							<p>FY 2018 – 2019</p>
 							<p class="mb-0">
-								<a class="report_link" href="{{ url('/report_files/annual_general_meeting_notice/FY2018_2019_AGM_Notice_English_Version.pdf#toolbar=0') }}">
+								<a class="report_link" target="_blank" href="{{ url('/report_files/annual_general_meeting_notice/FY2018_2019_AGM_Notice_English_Version.pdf#toolbar=0') }}">
 									<img src="{{ url('/images/about-aya/report/view_online.png') }}" class="img-fluid view_online_icon"> View Online
 								</a>
 							</p>
@@ -247,7 +247,7 @@
 							<p class="fw-semibold mb-0">Financial Year Annual General Meeting (Myanmar Version)</p>
 							<p>Minutes of 2019 – 2020</p>
 							<p class="mb-0">
-								<a class="report_link" href="{{ url('/report_files/annual_general_meeting_minutes/FY2019_2020_AGM_minutes_Myanmar_Version.pdf#toolbar=0') }}">
+								<a class="report_link" target="_blank" href="{{ url('/report_files/annual_general_meeting_minutes/FY2019_2020_AGM_minutes_Myanmar_Version.pdf#toolbar=0') }}">
 									<img src="{{ url('/images/about-aya/report/view_online.png') }}" class="img-fluid view_online_icon"> View Online
 								</a>
 							</p>
@@ -258,7 +258,7 @@
 							<p class="fw-semibold mb-0">Financial Year Annual General Meeting (English Version)</p>
 							<p>Minutes of 2019 – 2020</p>
 							<p class="mb-0">
-								<a class="report_link" href="{{ url('/report_files/annual_general_meeting_minutes/FY2019_2020_AGM_minutes_English_Version.pdf#toolbar=0') }}">
+								<a class="report_link" target="_blank" href="{{ url('/report_files/annual_general_meeting_minutes/FY2019_2020_AGM_minutes_English_Version.pdf#toolbar=0') }}">
 									<img src="{{ url('/images/about-aya/report/view_online.png') }}" class="img-fluid view_online_icon"> View Online
 								</a>
 							</p>
@@ -269,7 +269,7 @@
 							<p class="fw-semibold mb-0">Financial Year Annual General Meeting (Myanmar Version)</p>
 							<p>Minutes of 2018 – 2019</p>
 							<p class="mb-0">
-								<a class="report_link" href="{{ url('/report_files/annual_general_meeting_minutes/FY2018_2019_AGM_minutes_Myanmar_Version.pdf#toolbar=0') }}">
+								<a class="report_link" target="_blank" href="{{ url('/report_files/annual_general_meeting_minutes/FY2018_2019_AGM_minutes_Myanmar_Version.pdf#toolbar=0') }}">
 									<img src="{{ url('/images/about-aya/report/view_online.png') }}" class="img-fluid view_online_icon"> View Online
 								</a>
 							</p>
@@ -280,7 +280,7 @@
 							<p class="fw-semibold mb-0">Financial Year Annual General Meeting (English Version)</p>
 							<p>Minutes of 2018 – 2019</p>
 							<p class="mb-0">
-								<a class="report_link" href="{{ url('/report_files/annual_general_meeting_minutes/FY2018_2019_AGM_minutes_English_Version.pdf#toolbar=0') }}">
+								<a class="report_link" target="_blank" href="{{ url('/report_files/annual_general_meeting_minutes/FY2018_2019_AGM_minutes_English_Version.pdf#toolbar=0') }}">
 									<img src="{{ url('/images/about-aya/report/view_online.png') }}" class="img-fluid view_online_icon"> View Online
 								</a>
 							</p>
