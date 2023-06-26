@@ -20,7 +20,7 @@
 						<li data-bs-target="#carouselExample-cf" data-bs-slide-to="4"></li>
 					</ol>
 					<div class="carousel-inner active">
-<!-- 						<div class="carousel-item carousel-item-1 active">
+						<div class="carousel-item carousel-item-1 active">
 							<video class="img-fluid xl_slide" autoplay loop muted plays-inline>
 								<source src="{{ url('/images/home/landing_1920_600.webm') }}" type="video/webm" />
 							</video>
@@ -51,8 +51,8 @@
 									</div>
 								</div>
 							</div>
-						</div> -->
-						<div class="carousel-item carousel-item-3 active">
+						</div>
+						<div class="carousel-item carousel-item-3">
 							<div class="row carousel-caption carousel-caption-3">
 								<div class="col-md-6"></div>
 								<div class="col-md-6">
@@ -76,7 +76,7 @@
 								</div>
 							</div>
 						</div>
-						<!-- <div class="carousel-item carousel-item-5">
+						<div class="carousel-item carousel-item-5">
 							<div class="row carousel-caption carousel-caption-4">
 								<div class="col-md-6">
 									<div class="carousel-right-1">
@@ -87,7 +87,7 @@
 								</div>
 								<div class="col-md-6"></div>
 							</div>
-						</div> -->
+						</div>
 					</div>
                 </div>
             </div>
