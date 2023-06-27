@@ -794,15 +794,22 @@
 											<p class="fee_desc">Free</p>
 										</div>
 										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">PIN Reset/ Reissue Fee</p>
-											<p class="fee_desc">1,000 MMK</p>
+											<p class="fee_title">International Transaction Fees</p>
+											<p class="fee_desc mb-0">Fees 25% ~ 70%</p>
+											<p class="fee_desc">(Note * Fees are subject to change without prior notice)</p>
 										</div>
 									</div>
 									<div class="row">
 										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">PIN Reset/ Reissue Fee</p>
+											<p class="fee_desc">1,000 MMK</p>
+										</div>
+										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">POS Transactions Fees</p>
 											<p class="fee_desc">Free</p>
 										</div>
+									</div>
+									<div class="row">
 										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">Online Transaction Fees</p>
 											<p class="fee_desc">Free</p>
