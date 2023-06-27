@@ -7,6 +7,7 @@
 <div class="layout-wrapper layout-content-navbar" id="layout-wrapper">
    	<div class="layout-container">
 		<div class="layout-page">
+			@include('layouts.alert-message')
 			@include('layouts.header', ['page'=>'home'])
         	<div class="menu-overlay"></div>
 
@@ -450,6 +451,28 @@
 @include('layouts.footer', ['page'=>'mobilebanking'])
 
 <script type="text/javascript">
+	$(document).ready(function() {
+		if($(".alert_div").hasClass('d-none') == false) {
+			$(".personal-dropdown-content").addClass('alert-dropdown');
+			$(".business-dropdown-content").addClass('alert-dropdown');
+			$(".digital-dropdown-content").addClass('alert-dropdown');
+			$(".about-aya-dropdown-content").addClass('alert-dropdown');
+		} else {
+			$(".personal-dropdown-content").removeClass('alert-dropdown');
+			$(".business-dropdown-content").removeClass('alert-dropdown');
+			$(".digital-dropdown-content").removeClass('alert-dropdown');
+			$(".about-aya-dropdown-content").removeClass('alert-dropdown');
+		}
+	});
+
+	$(".close_icon").click(function(){
+		$(".alert_div").addClass('d-none');
+		$(".personal-dropdown-content").removeClass('alert-dropdown');
+		$(".business-dropdown-content").removeClass('alert-dropdown');
+		$(".digital-dropdown-content").removeClass('alert-dropdown');
+		$(".about-aya-dropdown-content").removeClass('alert-dropdown');
+	})
+
 	var APP_URL = {!! json_encode(url('/')) !!};
 
 	var previousValue;

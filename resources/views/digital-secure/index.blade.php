@@ -65,7 +65,7 @@
 							<li>Follow practice of using strong password, that includes upper- and lower-case letters, numbers, and special characters.</li>
 							<li>Change your password immediately if you suspect it has been revealed.</li>
 							<li>Track your financial accounts by logging into your online banking frequently, review the transactions, payments, withdrawals.</li> 
-							<li>In touh with your bank account - Use <a href="{{ url('/digital-services/guideline/digital-secure/sms-alert') }}" style="color: #A5000B;text-decoration: underline;">SMS Alert</a> to keep track of what is happening on your account.</li>
+							<li>In touch with your bank account - Use <a href="{{ url('/digital-services/guideline/digital-secure/sms-alert') }}" style="color: #A5000B;text-decoration: underline;">SMS Alert</a> to keep track of what is happening on your account.</li>
 							<li>If you receive any suspicious communications or observe suspicious transactions or log in, call our Call Center at <a href="tel:012317777" style="color: #A5000B;">01-2317777</a> (or) consult with In-charge at nearest branch. 
 							</li>
 						</ul>

@@ -61,7 +61,7 @@
 				<ul class="nav nav-pills " role="tablist" style="justify-content: center;">
 					<li class="nav-item">
 						<button type="button" class="tab_title nav-link active privacy_notice_btn" role="tab" data-bs-toggle="tab" data-bs-target="#navs-pills-top-privacy_notice" aria-controls="navs-pills-top-privacy_notice" aria-selected="true" >
-							Privacy Notice
+							Privacy Policy and Notice
 						</button>
 					</li>
 					<li class="nav-item">
@@ -76,22 +76,22 @@
 							<div class="space-20"></div>
 							<div class="row" >
 								<div class="col-md-12">
-									<p>Please read this privacy notice (“Privacy Notice”) carefully as it describes our collection, use, disclosure, retention, and protection of your personal information. This Privacy Notice applies to any website, application or service which references this Privacy Notice.</p>
+									<p>We appreciate your attention to our privacy policy and notice ("Privacy Policy"). This document outlines our practices related to collecting, utilizing, disclosing, preserving, and safeguarding your personal information. This Privacy Policy is applicable to any website, application, or service that refers to it.</p>
 
-									<p>The purpose of this notice is to explain how we use such technologies and the third parties we work with, and to provide you with clear information about their purpose. It also explains how you can control your online preferences.</p>
+									<p>Our objective through this policy is to clarify how we employ such technologies and our collaborations with third parties. It provides comprehensive information regarding the purpose of these technologies and guides you on how to manage your online preferences.</p>
 
-									<p>New regulations will change the way in which the use of cookies is governed in the future, and we will update this notice once those changes come into effect. We may also revise this notice from time to time. If we make any material changes to the way we use these technologies, we will prominently publish the changes on our website.</p>
+									<p>The regulatory landscape around cookies usage is evolving, and any future changes will be reflected in this policy. We also reserve the right to amend this notice periodically. In the event of substantial alterations in the way we use these technologies, we will conspicuously announce the changes on our website.</p>
 								</div>
 							</div>
 							<div class="space-20"></div>
 							<div class="row">
 								<div class="col-md-7">
-									<p class="fw-semibold" style="font-size: 16px;">How do we collect information?</p>
-									<p>To the extent permissible under applicable law, we collect information about you and any other party whose details you provide to us when you:</p>
+									<p class="fw-semibold" style="font-size: 16px;">Information Collection: How Do We Do It?</p>
+									<p>In compliance with applicable law, we gather information about you and any other party whose details you offer us when you:</p>
 									<ul>
-										<li>register to use our websites, applications, or services (including free trials); this may include your name, address, email address and telephone number. We may also ask you to provide additional information about your business and your preferences;</li>
-										<li>use our applications, which may include the collection of metadata;</li>
-										<li>complete online forms, take part in surveys, download information, enter any competitions, or prize draws.</li>
+										<li>Register for using our websites, applications, or services, including free trials. This could include your name, address, email address, and contact number. We might also request additional details related to your business and preferences. </li>
+										<li>Use our applications, which may involve the accumulation of metadata. </li>
+										<li>Complete online forms, participate in surveys, download information, engage in competitions or prize draws.</li>
 									</ul>
 								</div>
 								<div class="col-md-5 text-center">
@@ -101,16 +101,16 @@
 							<div class="space-20"></div>
 							<div class="row">
 								<div class="col-md-7">
-									<p class="fw-semibold" style="font-size: 16px;">How do we use your information?</p>
-									<p>To the extent permissible under applicable law, we use your information to:</p>
+									<p class="fw-semibold" style="font-size: 16px;">Utilizing Your Information: How Do We Do It?</p>
+									<p>In accordance with applicable law, we use your information to:</p>
 									<ul>
-										<li>provide any information and services that you have requested</li>
-										<li>compare information for accuracy and to verify it with third parties;</li>
-										<li>manage and administer your use of applications, products and services you have asked us to provide;</li>
-										<li>manage our relationship with you (for example, customer services and support activities);</li>
-										<li>comply with any other of our regulatory or legal obligations;</li>
-										<li>deliver targeted advertising, marketing (which may include in-product messaging) or information which may be useful to you, based on your use of our applications and services; and</li>
-										<li>deliver joint content and services with third parties with whom you have a separate relationship (for example, social media providers).</li>
+										<li>Deliver the information and services you have requested.</li>
+										<li>Cross-verify information for accuracy by comparing it with third-party data. </li>
+										<li>Manage and administer your use of applications, products, and services you have sought from us.</li>
+										<li>Maintain our relationship with you, encompassing customer services and support activities. </li>
+										<li>Abide by any other regulatory or legal obligations of ours. </li>
+										<li>Present targeted advertising, marketing (possibly including in-product messaging), or information, which might be beneficial to you, based on your use of our applications and services. </li>
+										<li>Provide joint content and services with third parties with whom you share a separate relationship (e.g., social media providers).</li>
 									</ul>
 								</div>
 								<div class="col-md-5 text-center" style="display: table;">
@@ -120,10 +120,10 @@
 							<div class="space-20"></div>
 							<div class="row">
 								<div class="col-md-7">
-									<p class="fw-semibold" style="font-size: 16px;">Your online privacy</p>
-									<p>AYA Bank PCL is responsible for protecting your personal info as carefully as we protect your money. We promise to treat any personal information about you securely, fairly, and lawfully. We are committed to protecting your privacy.</p>
+									<p class="fw-semibold" style="font-size: 16px;">Preserving Your Online Privacy</p>
+									<p>AYA Bank PCL is dedicated to safeguarding your personal information with the same care as we handle your finances. We assure to manage any personal data about you securely, fairly, and lawfully, committing ourselves to protect your privacy.</p>
 
-									<p>When we ask you to provide personal information online/in the apps, it will only be in response to you actively or using our online products or services. Even if we transfer your information to third parties who work with us to provide our services to you, we will make sure your information is legally protected.</p>
+									<p>We only request your personal information online or through apps in response to your active engagement with our online products or services. Even when your data is transferred to third parties aiding us in offering our services to you, we ensure the legal protection of your information.</p>
 								</div>
 								<div class="col-md-5 text-center">
 									<img src="{{ url('/images/cookie_policy/your_online_privacy.png') }}" class="img-fluid your_online_privacy">
@@ -132,12 +132,12 @@
 							<div class="space-20"></div>
 							<div class="row">
 								<div class="col-md-7">
-									<p class="fw-semibold" style="font-size: 16px;">Who do we share your information with?</p>
-									<p>We share your information, as and when necessary, with:</p>
+									<p class="fw-semibold" style="font-size: 16px;">Sharing Your Information: Who Are Involved?</p>
+									<p>We share your data, when deemed necessary, with:</p>
 									<ul>
-										<li>Our business partners who provide us some of our services</li>
-										<li>Credit Bureau</li>
-										<li>Industry regulators and government departments</li>
+										<li>Business partners aiding in the provision of our services. </li>
+										<li>Credit Bureau. </li>
+										<li>Industry regulators and government departments.</li>
 									</ul>
 								</div>
 								<div class="col-md-5 text-center">
@@ -147,8 +147,8 @@
 							<div class="space-20"></div>
 							<div class="row">
 								<div class="col-md-7">
-									<p class="fw-semibold" style="font-size: 16px;">How long do we keep your information?</p>
-									<p>We don’t keep your info for longer than we need to, which is usually up to ten years after you close all your accounts. Sometimes we need to keep it longer (for example due to an investigation related to legal obligations).</p>
+									<p class="fw-semibold" style="font-size: 16px;">Information Retention: How Long Do We Keep It?</p>
+									<p>We retain your information only as long as needed, typically up to ten years following the closure of all your accounts. On certain occasions, due to legal obligations related to an investigation, we may need to retain it for a longer duration.</p>
 								</div>
 								<div class="col-md-5 text-center">
 									<img src="{{ url('/images/cookie_policy/how_long_do_we_keep.png') }}" class="img-fluid how_long_do_we_keep">
@@ -161,78 +161,74 @@
 							<div class="space-20"></div>
 							<div class="row" >
 								<div class="col-md-12">
-									<p class="fw-semibold" style="font-size: 16px;">What are cookies?</p>
-									<p>A “cookie” is a small text file that’s stored on your computer, smartphone, tablet, or other device when you visit a website or use an application. They contain specific information relating to your use of our web site or app, such as login credentials; your preference settings or tracking identifiers. </p>
-									<p>Some cookies are deleted when you close your browser. These are known as session cookies. Other cookies (such as tracking cookies or authentication cookies) remain on your device until they expire, or you delete them from your browser. These are known as persistent cookies and enable us to remember things about you as a returning visitor.</p>
-									<p>This website uses persistent cookies.</p>
+									<p class="fw-semibold" style="font-size: 16px;">Cookies: What Are They?</p>
+									<p>A "cookie" is a tiny text file saved on your device—computer, smartphone, or tablet—when you visit a website or use an application. These cookies contain specific information related to your use of our website or app, including login credentials, preference settings, or tracking identifiers.</p>
+									<p>Some cookies, known as session cookies, are eliminated when you close your browser. Others, like tracking cookies or authentication cookies, are persistent cookies that stay on your device until they expire or you remove them from your cache. Persistent cookies help us remember you as a returning visitor.</p>
+									<p>This website utilizes persistent cookies.</p>
 								</div>
 								<div class="space-20"></div>
 								<div class="col-md-12">
-									<p class="fw-semibold" style="font-size: 16px;">Why we use cookies?</p>
-									<p>We use cookies on our website to provide you with a great online experience. Our cookies help us to see how our website is used and provide tailored online content to make your visit more personal. By allowing all cookies, we can enhance your experience even further. This means helping you find information more quickly and tailoring content or marketing to your needs. </p>
-									<p>We will not share any personal information gathered through the cookies on this website with third parties.</p>
+									<p class="fw-semibold" style="font-size: 16px;">Rationale and Use of Cookies</p>
+									<p>Our primary objective of using cookies on our website is to deliver an exceptional online experience to you. Cookies allow us to understand the usage pattern of our website and enable us to curate personalized online content, enhancing the relevancy of your visits. If you permit all cookies, we can amplify your experience even further by expediting your information search process and customizing content or marketing to cater to your specific needs. </p>
+									<p>We assure that no personal information acquired through cookies on this website will be shared with third parties.</p>
 								</div>
 								<div class="space-20"></div>
 								<div class="col-md-12">
-									<p class="fw-semibold" style="font-size: 16px;">Why we use cookies?</p>
-									<p>We use cookies on our website to provide you with a great online experience. Our cookies help us to see how our website is used and provide tailored online content to make your visit more personal. By allowing all cookies, we can enhance your experience even further. This means helping you find information more quickly and tailoring content or marketing to your needs. </p>
-									<p>We will not share any personal information gathered through the cookies on this website with third parties.</p>
-								</div>
-								<div class="space-20"></div>
-								<div class="col-md-12">
-									<p class="fw-semibold" style="font-size: 16px;">What are the legal grounds for the use of cookies?</p>
-									<p>Except in the case of strictly necessary and technical cookies that do not require the visitor's informed consent, the publisher will place cookies on the user's computer only with the user's prior informed consent. Users may give their consent either by clicking on 'Accept all cookies' or by adjusting the settings which users freely choose to approve, through the cookie settings panel displayed by the publisher the first time the user accesses the Website.</p>
+									<p class="fw-semibold" style="font-size: 16px;">Legal Basis for Cookie Usage</p>
+									<p>Unless it involves strictly essential and technical cookies that do not necessitate visitor's informed consent, we will only place cookies on the user's device following the user's prior informed approval. Users can express their consent by either clicking on 'Accept all cookies' or by customizing their cookie preferences through the cookie settings panel presented by us upon the user's first access to the website.</p>
 								</div>
 								<div class="space-20" id="cookie-policy-manage"></div>
 								<div class="col-md-12">
-									<p class="fw-semibold" style="font-size: 16px;">How can you manage/disable your cookies?</p>
-									<p>You may be able to configure your browser or our website, application, or service to restrict cookies or block all cookies if you wish, however if you disable cookies, you may find this affects your ability to use certain parts of our website, applications, or services.</p>
+									<p class="fw-semibold" style="font-size: 16px;">Managing or Disabling Cookies: How Can You Do It?</p>
+									<p>If you prefer, you can modify your browser or our website, application, or service settings to limit cookies or entirely block them. However, please note that disabling cookies might impact your ability to use certain sections of our website, applications, or services.</p>
+
+									<div class="space-20"></div>
 
 									<p class="fw-semibold">Microsoft Internet Explorer</p>
 									<ul style="list-style: number;">
-										<li>Select the Tools menu > Internet Options</li>
-										<li>Click on the Privacy tab.</li>
-										<li>Click on Advanced within the Settings section and select the appropriate setting.</li>
+										<li>Access the Tools menu > Internet Options.</li>
+										<li>Navigate to the Privacy tab.</li>
+										<li>Click on Advanced within the Settings section and choose the relevant setting.</li>
 									</ul>
 
 									<div class="space-20"></div>
 
 									<p class="fw-semibold">Google Chrome</p>
 									<ul style="list-style: number;">
-										<li>Select Settings > Advanced.</li>
-										<li>Under Privacy and Security > Content settings</li>
-										<li>Click Cookies and select the relevant options.</li>
+										<li>Access Settings > Advanced.</li>
+										<li>Navigate to Privacy and Security > Content settings.</li>
+										<li>Click Cookies and choose the pertinent options.</li>
 									</ul>
 
 									<div class="space-20"></div>
 
 									<p class="fw-semibold">Safari</p>
 									<ul style="list-style: number;">
-										<li>Select Preferences > Privacy</li>
-										<li>Click on Remove all Website Data</li>
+										<li>Access Preferences > Privacy.</li>
+										<li>Click on Remove all Website Data.</li>
 									</ul>
 
 									<div class="space-20"></div>
 
 									<p class="fw-semibold">Mozilla Firefox</p>
 									<ul style="list-style: number;">
-										<li>Choose the Tools menu > Options</li>
-										<li>Click on the Privacy icon</li>
-										<li>Select the Cookie menu and select the relevant options.</li>
+										<li>Access the Tools menu > Options.</li>
+										<li>Navigate to the Privacy icon.</li>
+										<li>Access the Cookie menu and select the appropriate options.</li>
 									</ul>
 
 									<div class="space-20"></div>
 
 									<p class="fw-semibold">Opera 6.0 and further</p>
 									<ul style="list-style: number;">
-										<li>Choose Files menu > Preferences.</li>
-										<li>Select Privacy</li>
+										<li>Access the Files menu > Preferences.</li>
+										<li>Select Privacy.</li>
 									</ul>
 								</div>
 								<div class="space-20"></div>
 								<div class="col-md-12">
-									<p class="fw-semibold" style="font-size: 16px;">Update to the Cookies Policy and contact details</p>
-									<p>This Cookies Policy may change depending on the cookies used. If new types of cookies are included whose use requires informed consent, the publisher will inform the visitor and record their due consent.</p>
+									<p class="fw-semibold" style="font-size: 16px;">Updates to the Cookies Policy and Contact Details</p>
+									<p>This Cookies Policy is subject to modifications based on the types of cookies employed. Should we introduce new categories of cookies that mandate informed consent, we will notify the visitor and record their consequent consent.</p>
 								</div>
 							</div>
 						</div>

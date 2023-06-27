@@ -1301,9 +1301,9 @@
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 45px;left: 15px;">
+					<div style="position: absolute;top: 240px;left: 15px;background: #fffc;padding: 10px;right: 15px;">
 						<h1 style="font-weight: 400;margin-bottom: 0;line-height: 24px;color: #A5000B;font-size: 18px;">Seafarer Account (FCY)</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 18px;line-height: 28px;">Unique banking solution for seafarers <Br>to manage payroll and finance</h1>
+						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 18px;line-height: 28px;">Unique banking solution for seafarers to manage payroll and finance</h1>
 					</div>
 				</div>
 			</div>
@@ -2769,14 +2769,14 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div class="meet_our_leaders_banner_tagline">
-						<h1 style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">Meet <span class="theme_text_color">Our Leaders</span></h1>
+						<h1 class="f-white" style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">Meet Our Leaders</h1>
 					</div>
 				</div>
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 30px;left: 20px;right: 40px;">
-						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Meet <span class="theme_text_color">Our Leaders</span></h1>
+						<h1 class="f-white" style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Meet Our Leaders</h1>
 					</div>
 				</div>
 			</div>

@@ -166,7 +166,7 @@
 								</div>
 								<div class="col-md-4 cat_card">
 									<div class="card h-100">
-										<img src="{{ url('/images/about-aya/corporate-profile/mission-promise/life_at_aya_thumb.webp') }}" alt="Social Sustainability, the best way to create our Future!" class="card-img-top">
+										<img src="{{ url('/images/about-aya/corporate-profile/mission-promise/life_at_aya_thumb.jpg') }}" alt="Social Sustainability, the best way to create our Future!" class="card-img-top">
 										<div class="card-body">
 											<h5 class="card-title mb-10">Life at AYA</h5>
 											<!-- <a href="" class="view_bio_link theme_text_color">Learn More <i class='bx bx-chevron-right' style="font-size: 18px;"></i></a> -->

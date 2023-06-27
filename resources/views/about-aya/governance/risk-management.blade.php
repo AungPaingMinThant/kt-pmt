@@ -84,7 +84,7 @@
 			                    <div class="card swiper-slide risk_card_swiper_slide slide_4">
 			                        <div class="card-content">
 			                        	<div class="swiper_detail_card card h-100">
-											<img src="{{ url('/images/about-aya/risk-management/managing_risk.webp') }}" alt="Managing Risk" class="card-img-top">
+											<img src="{{ url('/images/about-aya/risk-management/managing_risk_mobile_KV.webp') }}" alt="Managing Risk" class="card-img-top">
 											<div class="card-body">
 												<p class="card-title fw-semibold mb-20">Managing Risk</p>
 												<p class="card_detail_info">The Credit Department within the Risk Management Unit is responsible for the comprehensive management of credit risk. This department drafts and administers credit policies, the internal rating system, credit authority guidelines, credit application guidelines, manages nonperforming loans (NPLs) and other aspects of credit portfolio management.</p>

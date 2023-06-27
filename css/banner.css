@@ -512,13 +512,19 @@
 	background-image:url('../images/about-aya/report/KV.webp');	
 }
 
-.stakeholder_management_banner_tagline, .aya_bank_profile_banner_tagline, .meet_our_leaders_banner_tagline, .risk_management_banner_tagline,
+.stakeholder_management_banner_tagline, .aya_bank_profile_banner_tagline, .risk_management_banner_tagline,
 .risk_governance_banner_tagline, .risk_mgmt_framework_banner_tagline, .risk_mgmt_ctl_banner_tagline, .managing_risk_banner_tagline,
 .compliance_banner_tagline, .mission_promise_banner_tagline, .corporate_strategy_banner_tagline, .corporate_governance_banner_tagline,
 .aml_cft_banner_tagline, .msg_chairman_banner_tagline, .report_banner_tagline {
 	position: absolute;
     top: 140px;
     left: 20px;
+    right: 70%;
+}
+.meet_our_leaders_banner_tagline {
+	position: absolute;
+    top: 210px;
+    left: 0px;
     right: 70%;
 }
 .smsalert_banner_tagline {
@@ -1538,7 +1544,7 @@
 	}
 	.seafarer_banner {
 		background-image:url('../images/acc_saving/seafarer/mobile_KV.jpg');
-		background-position: 60% center;
+		background-position: 90% center;
 	}
 	.new_business_curr_acc_banner {
 		background-image:url('../images/acc_saving/new_business_curr_acc/mobile_KV.png');

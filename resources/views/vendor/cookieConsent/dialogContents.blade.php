@@ -37,7 +37,7 @@
                         Please click "Accept all cookies" to continue to enjoy our website with all cookies or click "Manage Cookies Settings" to manage your cookie preferences.
                     </p>
                     <p class="cookie-consent__message mb-0">
-                        By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. If you would like to know more take a look at our <a class="text-decoration-underline" href="{{ url('/privacy-notice-cookie-policy') }}" target="_blank">Privacy Notice and Cookies </a>
+                        By clicking “Accept all cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. If you would like to know more take a look at our <a class="text-decoration-underline" href="{{ url('/privacy-notice-cookie-policy') }}" target="_blank">Privacy Notice and Cookies Policy</a>
                     </p>
                 </div>
                 <div class="col-md-6 cookie-action-col">
