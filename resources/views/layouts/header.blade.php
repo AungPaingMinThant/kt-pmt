@@ -1029,6 +1029,11 @@
 							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">INSURANCE</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
+									<p class="dropdown-item fw-bold m-b-5 mt-3">
+										GENERAL INSURANCE
+									</p>
+								</li>
+								<li>
 									<p class="dropdown-item m-b-5 mt-2">
 										<a href="{{ url('/personal-banking/insurance/health') }}">Health Insurance</a>
 									</p>
@@ -1060,7 +1065,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-3">
-										<a href="{{ url('/personal-banking/insurance/life') }}">LIFE INSURANCE</a>
+										LIFE INSURANCE
 									</p>
 								</li>
 								<li>
