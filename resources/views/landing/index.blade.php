@@ -551,10 +551,10 @@
 		$(".digital-dropdown-content").removeClass('alert-1281-1400-dropdown');
 		$(".about-aya-dropdown-content").removeClass('alert-1281-1400-dropdown');
 
-		$(".personal-dropdown-content").addClass('alert-1601-dropdown');
-		$(".business-dropdown-content").addClass('alert-1601-dropdown');
-		$(".digital-dropdown-content").addClass('alert-1601-dropdown');
-		$(".about-aya-dropdown-content").addClass('alert-1601-dropdown');
+		$(".personal-dropdown-content").removeClass('alert-1601-dropdown');
+		$(".business-dropdown-content").removeClass('alert-1601-dropdown');
+		$(".digital-dropdown-content").removeClass('alert-1601-dropdown');
+		$(".about-aya-dropdown-content").removeClass('alert-1601-dropdown');
 	})
 
 	var APP_URL = {!! json_encode(url('/')) !!};
