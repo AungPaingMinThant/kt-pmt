@@ -28,8 +28,12 @@
 .side-nav.nav-pills .nav-link.active .nav-item-separate {
 	display: block;
 }
-.side-link {
+.side-link
+ {
 	display: block;
+}
+.side-link:hover {
+	text-decoration: none !important;
 }
 .side-nav.nav-pills > li > .side-link.active {
     border-radius: 0;
