@@ -37,7 +37,7 @@
 
 				<div class="row">
 					<div class="col">
-						<p>AYA Bank is the country’s one of the largest banks with almost (3) million customers and (265) branches. Our large and loyal customer base has been one of the key drivers of our success, allowing us for rapid growth over the years. The Bank focus on deepening relationships with customers, providing best-in-class customer service, and leveraging technology as the enabler to rapidly expand the customer base.</p>
+						<p>AYA Bank is the country’s one of the largest banks with almost (3) million customers and (262) branches. Our large and loyal customer base has been one of the key drivers of our success, allowing us for rapid growth over the years. The Bank focus on deepening relationships with customers, providing best-in-class customer service, and leveraging technology as the enabler to rapidly expand the customer base.</p>
 					</div>
 				</div>
 
@@ -126,7 +126,7 @@
 								<p class="leading_capabilities_text_style">Paid Up Capital *</p>
 							</div>
 							<div class="col-md-3 lead_cap_detail_col">
-								<h4 class="fw-semibold mb-0 theme_text_color leading_capabilities_value_style"><span>265</span>&nbsp;</h4>
+								<h4 class="fw-semibold mb-0 theme_text_color leading_capabilities_value_style"><span>262</span>&nbsp;</h4>
 								<p class="leading_capabilities_text_style">Branches *</p>
 							</div>
 							<div class="col-md-3 lead_cap_detail_col">
