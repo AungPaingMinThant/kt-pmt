@@ -452,16 +452,63 @@
 
 <script type="text/javascript">
 	$(document).ready(function() {
+		var sc_width = $(window).width();
 		if($(".alert_div").hasClass('d-none') == false) {
-			$(".personal-dropdown-content").addClass('alert-dropdown');
-			$(".business-dropdown-content").addClass('alert-dropdown');
-			$(".digital-dropdown-content").addClass('alert-dropdown');
-			$(".about-aya-dropdown-content").addClass('alert-dropdown');
+			if (sc_width >= '769' && sc_width <= '1179') {
+				$(".personal-dropdown-content").addClass('alert-769-1179-dropdown');
+				$(".business-dropdown-content").addClass('alert-769-1179-dropdown');
+				$(".digital-dropdown-content").addClass('alert-769-1179-dropdown');
+				$(".about-aya-dropdown-content").addClass('alert-769-1179-dropdown');
+			}
+			if (sc_width >= '1180' && sc_width <= '1200') {
+				$(".personal-dropdown-content").addClass('alert-1180-1200-dropdown');
+				$(".business-dropdown-content").addClass('alert-1180-1200-dropdown');
+				$(".digital-dropdown-content").addClass('alert-1180-1200-dropdown');
+				$(".about-aya-dropdown-content").addClass('alert-1180-1200-dropdown');
+			}
+			if (sc_width >= '1201' && sc_width <= '1280') {
+				$(".personal-dropdown-content").addClass('alert-1201-1280-dropdown');
+				$(".business-dropdown-content").addClass('alert-1201-1280-dropdown');
+				$(".digital-dropdown-content").addClass('alert-1201-1280-dropdown');
+				$(".about-aya-dropdown-content").addClass('alert-1201-1280-dropdown');
+			}
+			if (sc_width >= '1281' && sc_width <= '1400') {
+				$(".personal-dropdown-content").addClass('alert-1281-1400-dropdown');
+				$(".business-dropdown-content").addClass('alert-1281-1400-dropdown');
+				$(".digital-dropdown-content").addClass('alert-1281-1400-dropdown');
+				$(".about-aya-dropdown-content").addClass('alert-1281-1400-dropdown');
+			}
+			if (sc_width >= '1401') {
+				$(".personal-dropdown-content").addClass('alert-dropdown');
+				$(".business-dropdown-content").addClass('alert-dropdown');
+				$(".digital-dropdown-content").addClass('alert-dropdown');
+				$(".about-aya-dropdown-content").addClass('alert-dropdown');
+			}
 		} else {
 			$(".personal-dropdown-content").removeClass('alert-dropdown');
 			$(".business-dropdown-content").removeClass('alert-dropdown');
 			$(".digital-dropdown-content").removeClass('alert-dropdown');
 			$(".about-aya-dropdown-content").removeClass('alert-dropdown');
+
+			$(".personal-dropdown-content").removeClass('alert-769-1179-dropdown');
+			$(".business-dropdown-content").removeClass('alert-769-1179-dropdown');
+			$(".digital-dropdown-content").removeClass('alert-769-1179-dropdown');
+			$(".about-aya-dropdown-content").removeClass('alert-769-1179-dropdown');
+
+			$(".personal-dropdown-content").removeClass('alert-1180-1200-dropdown');
+			$(".business-dropdown-content").removeClass('alert-1180-1200-dropdown');
+			$(".digital-dropdown-content").removeClass('alert-1180-1200-dropdown');
+			$(".about-aya-dropdown-content").removeClass('alert-1180-1200-dropdown');
+
+			$(".personal-dropdown-content").removeClass('alert-1201-1280-dropdown');
+			$(".business-dropdown-content").removeClass('alert-1201-1280-dropdown');
+			$(".digital-dropdown-content").removeClass('alert-1201-1280-dropdown');
+			$(".about-aya-dropdown-content").removeClass('alert-1201-1280-dropdown');
+
+			$(".personal-dropdown-content").removeClass('alert-1281-1400-dropdown');
+			$(".business-dropdown-content").removeClass('alert-1281-1400-dropdown');
+			$(".digital-dropdown-content").removeClass('alert-1281-1400-dropdown');
+			$(".about-aya-dropdown-content").removeClass('alert-1281-1400-dropdown');
 		}
 	});
 
@@ -471,6 +518,26 @@
 		$(".business-dropdown-content").removeClass('alert-dropdown');
 		$(".digital-dropdown-content").removeClass('alert-dropdown');
 		$(".about-aya-dropdown-content").removeClass('alert-dropdown');
+
+		$(".personal-dropdown-content").removeClass('alert-769-1179-dropdown');
+		$(".business-dropdown-content").removeClass('alert-769-1179-dropdown');
+		$(".digital-dropdown-content").removeClass('alert-769-1179-dropdown');
+		$(".about-aya-dropdown-content").removeClass('alert-769-1179-dropdown');
+
+		$(".personal-dropdown-content").removeClass('alert-1180-1200-dropdown');
+		$(".business-dropdown-content").removeClass('alert-1180-1200-dropdown');
+		$(".digital-dropdown-content").removeClass('alert-1180-1200-dropdown');
+		$(".about-aya-dropdown-content").removeClass('alert-1180-1200-dropdown');
+
+		$(".personal-dropdown-content").removeClass('alert-1201-1280-dropdown');
+		$(".business-dropdown-content").removeClass('alert-1201-1280-dropdown');
+		$(".digital-dropdown-content").removeClass('alert-1201-1280-dropdown');
+		$(".about-aya-dropdown-content").removeClass('alert-1201-1280-dropdown');
+
+		$(".personal-dropdown-content").removeClass('alert-1281-1400-dropdown');
+		$(".business-dropdown-content").removeClass('alert-1281-1400-dropdown');
+		$(".digital-dropdown-content").removeClass('alert-1281-1400-dropdown');
+		$(".about-aya-dropdown-content").removeClass('alert-1281-1400-dropdown');
 	})
 
 	var APP_URL = {!! json_encode(url('/')) !!};
