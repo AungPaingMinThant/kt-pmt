@@ -4042,6 +4042,8 @@ return array(
     'SebastianBergmann\\Type\\UnknownType' => $vendorDir . '/sebastian/type/src/type/UnknownType.php',
     'SebastianBergmann\\Type\\VoidType' => $vendorDir . '/sebastian/type/src/type/VoidType.php',
     'SebastianBergmann\\Version' => $vendorDir . '/sebastian/version/src/Version.php',
+    'Spatie\\CookieConsent\\CookieConsentMiddleware' => $vendorDir . '/spatie/laravel-cookie-consent/src/CookieConsentMiddleware.php',
+    'Spatie\\CookieConsent\\CookieConsentServiceProvider' => $vendorDir . '/spatie/laravel-cookie-consent/src/CookieConsentServiceProvider.php',
     'Stringable' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
     'Symfony\\Component\\Console\\Application' => $vendorDir . '/symfony/console/Application.php',
     'Symfony\\Component\\Console\\Attribute\\AsCommand' => $vendorDir . '/symfony/console/Attribute/AsCommand.php',

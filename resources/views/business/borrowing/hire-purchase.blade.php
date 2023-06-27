@@ -358,8 +358,8 @@
 								<div class="">
 									<div class="col-md-12 c-b-l-div" style="background-color: #f2f2f2;padding: 20px 20px 20px 30px;border-radius: 5px;">
 										<p style="font-weight: 600;font-size: 16px;">Contact our team for more information</p>
-										<a href="https://saltnpixel.com/AYABank/AYABANK_Contact_Us_Hotline.html" target="_blank">
-											<button class="btn contact_us_btn">Contact Us</button>
+										<a>
+											<button class="btn contact_us_btn" disabled>Contact Us</button>
 										</a>
 									</div>
 								</div>

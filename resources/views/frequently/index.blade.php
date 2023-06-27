@@ -447,7 +447,7 @@
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">
 									</div>
 									<div class="col-11">
-										<p>Grocery Trading & Manufacturing</p>
+										<p>Trading & Manufacturing</p>
 									</div>
 									<div class="col-1">
 										<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid bullet_square">

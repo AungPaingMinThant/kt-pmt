@@ -595,7 +595,7 @@
 															<a href="{{ url('/about-aya/who-we-are/corporate-profile/ayabank-profile') }}">AYA Bank Profile</a>
 														</p>
 														<p class="mb-30">
-															<a href="{{ url('/about-aya/who-we-are/corporate-profile/mission-corporate-value-brand-promise') }}">Mission, Corporate Values and Brand Value</a>
+															<a href="{{ url('/about-aya/who-we-are/corporate-profile/mission-corporate-value-brand-promise') }}">Mission, Corporate Values and Brand Promise</a>
 														</p>
 														<p class="d-none m-b-5">
 															<a href="http://saltnpixel.com/AYABank/AYABank_CorporateGoal.html" target="_blank">Corporate Goals</a>
@@ -1394,7 +1394,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20 mb-20">
-										<a href="{{ url('/about-aya/who-we-are/corporate-profile/mission-corporate-value-brand-promise') }}">Mission, Corporate Values and <br>Brand Value</a>
+										<a href="{{ url('/about-aya/who-we-are/corporate-profile/mission-corporate-value-brand-promise') }}">Mission, Corporate Values and <br>Brand Promise</a>
 									</p>
 								</li>
 								<!-- <li>

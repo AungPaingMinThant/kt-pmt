@@ -9,6 +9,15 @@
 
     	<title>@yield('title')</title>
 
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-228606560-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-228606560-1');
+        </script>
+
         <link rel="stylesheet" href="{{ url('/fonts/boxicons.css') }}" />
         <link rel="stylesheet" href="{{ url('/css/style.css') }}" />
         <link rel="stylesheet" href="{{ url('/css/core.css') }}" />
@@ -120,6 +129,7 @@
     </head>
     <body>
     	@yield('content')
+        <!-- @include('cookieConsent::index') -->
 
     	<script src="{{ url('/js/jquery.js') }}"></script>
         <script src="{{ url('/js/popper.js') }}"></script>

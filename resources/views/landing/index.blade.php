@@ -104,7 +104,7 @@
 								</div>
 							</div>
 						</div>
-						<!-- <div class="carousel-item carousel-item-2-mobile">
+						<div class="carousel-item carousel-item-2-mobile">
 							<div class="row carousel-caption carousel-2-caption">
 								<div class="col-md-12">
 									<div class="carousel-left-1">
@@ -147,7 +147,7 @@
 									</div>
 								</div>
 							</div>
-						</div> -->
+						</div> 
 					</div>
                     <a class="carousel-control-prev" href="#carouselExample-cf-mobile" role="button" data-bs-slide="prev">
                       	<span class="carousel-control-prev-icon" aria-hidden="true"></span>

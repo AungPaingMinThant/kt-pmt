@@ -195,7 +195,7 @@
 			                </div>
 			            </div>
 			        </div>
-			        <p style="padding-left: 20px;margin-top: -40px;">By diligently implementing these compliance measures, AYA Bank aims to foster a culture of integrity, maintain the trust of its customers and stakeholders, and operate within the boundaries of applicable laws and regulations.</p>	
+			        <p class="d-none d-sm-block" style="padding-left: 20px;margin-top: -40px;">By diligently implementing these compliance measures, AYA Bank aims to foster a culture of integrity, maintain the trust of its customers and stakeholders, and operate within the boundaries of applicable laws and regulations.</p>	
 				</div>
 				<div class="col-md-1 col-md-1-sec" style="position: relative;">
 					<div class="swiper-button-next swiper-navBtn" ></div>
@@ -205,6 +205,7 @@
 					<div class="swiper-button-next swiper-navBtn"></div>
 				</div>
 			</div>
+			<p class="d-block d-sm-none" style="padding-left: 20px;margin-top: 100px;margin-bottom: 0;">By diligently implementing these compliance measures, AYA Bank aims to foster a culture of integrity, maintain the trust of its customers and stakeholders, and operate within the boundaries of applicable laws and regulations.</p>	
 		</div>
 	</div>
 </div>

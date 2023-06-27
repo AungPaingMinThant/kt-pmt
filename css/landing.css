@@ -796,7 +796,7 @@
     	left: 10% !important;
 	}
 	.carousel-3-caption, .carousel-4-caption, .carousel-5-caption {
-	    top: 10px;
+	    top: 10px !important;
     	left: 5% !important;
 	}	
 	.carousel-1-caption-title {
@@ -805,23 +805,23 @@
 	    margin-bottom: 7px;
 	}
 	.carousel-2-caption-title {
-	    font-size: 26px;
-	    line-height: 26px;
+	    font-size: 26px !important;
+	    line-height: 26px !important;
 	    margin-bottom: 7px;
 	}
 	.carousel-3-caption-title {
-		font-size: 26px;
-	    line-height: 26px;
+		font-size: 26px !important;
+	    line-height: 26px !important;
 	    margin-bottom: 7px;
 	}
 	.carousel-4-caption-title {
-		font-size: 26px;
-	    line-height: 26px;
+		font-size: 26px !important;
+	    line-height: 26px !important;
 	    margin-bottom: 7px;
 	}
 	.carousel-5-caption-title {
-	    font-size: 28px;
-	    line-height: 28px;
+	    font-size: 26px !important;
+	    line-height: 26px !important;
 	    margin-bottom: 7px;
 	}
 	.mobile-carousel-caption-desc {

@@ -161,6 +161,10 @@ class SiteMapController extends Controller
         return view('under-maintenance');
     }
 
+    public function cookiePolicyIndex()
+    {
+        return view('cookie.index');
+    }
 
 
 

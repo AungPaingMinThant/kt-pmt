@@ -25,7 +25,7 @@
 							<img src="{{ url('/images/about-aya/corporate-governance/u-zaw.webp') }}" class="img-fluid chairman_image" alt="U Zaw Zaw | Founder Chairman | AYA Bank">
 							
 							<p class="fw-semibold mt-10">Dear Valued Clients, Shareholders, and Esteemed Partners,</p>
-							<p>As Founder and Chairman of AYA Bank PCL, I warmly welcome you to our website and thank you for your interest in our bank.</p>
+							<!-- <p>As Founder and Chairman of AYA Bank PCL, I warmly welcome you to our website and thank you for your interest in our bank.</p> -->
 							<p>We are living in an era of profound and rapid change, where the financial sector is evolving at an unprecedented pace. Faced with this dynamic environment, our journey since inception has been one of perpetual transformation, aligned with our commitment to serving you with exceptional financial products and services.</p>
 							<p>At AYA Bank, we understand that our growth is intrinsically linked with the progress of our customers and the broader community we serve. We are steadfast in our goal to elevate Myanmar's banking sector to international standards and provide our customers with world-class banking solutions, all while nurturing a culture of transparency, trust, and innovation.</p>
 							<p>We have made significant strides in integrating digital technologies into our services, fostering an ecosystem where technology and human ingenuity converge. Our continued investments in digital banking serve to provide you with an enhanced, seamless banking experience, always at your fingertips.</p>

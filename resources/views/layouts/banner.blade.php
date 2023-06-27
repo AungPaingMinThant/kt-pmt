@@ -3298,3 +3298,15 @@
 		</div>
 	</div>
 @endif
+
+@if($page == 'cookie_policy')
+	<div class="news_banner">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center py-6">
+					<h1 class="fw-bold" style="font-size: 23px;margin-bottom: 0;">Privacy Notice and Cookies Policy</h1>
+				</div>
+			</div>
+		</div>
+	</div>	
+@endif

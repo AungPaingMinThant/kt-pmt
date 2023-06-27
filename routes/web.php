@@ -234,3 +234,4 @@ Route::get('/about-aya/governance','App\Http\Controllers\SiteMapController@gover
 Route::get('/about-aya/news-room','App\Http\Controllers\SiteMapController@newsroomIndex');
 
 Route::get('/under-maintenance','App\Http\Controllers\SiteMapController@underMaintainIndex');
+Route::get('/privacy-notice-cookie-policy','App\Http\Controllers\SiteMapController@cookiePolicyIndex');
