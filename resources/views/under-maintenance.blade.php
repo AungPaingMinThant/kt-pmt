@@ -12,7 +12,7 @@
 			</div>
 			<Br>
 			<video class="img-fluid" width="600" autoplay loop muted plays-inline>
-				<source src="{{ url('/images/animation with bg.mp4') }}" type="video/mp4"  />
+				<source src="{{ url('/images/under_maintenance.mp4') }}" type="video/mp4"  />
 			</video>
           	<!-- <img src="{{ url('/images/under_maintenance.png') }}" class="img-fluid" width="600" /> -->
           	<h3 class="fw-semibold">Coming Back Soon</h3>
