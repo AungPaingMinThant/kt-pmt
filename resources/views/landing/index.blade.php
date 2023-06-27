@@ -290,7 +290,8 @@
 							<div class="row CTA_section_3_info d-none d-sm-block" id="CTA_section_3_info">
 								<div class="row">
 									<p class="CTA_desc mb-0">ATM / Branch / FX Counter Locator</p>
-									<div class="input-group CTA_3_input_group" style="width: 70% !important;">
+									<label class="input-group-text px-3" for="inputGroupSelect03">I want to find &nbsp; <a href="{{ url('/digital-services/atm') }}" style="color: #A5000B !important;">ATM</a></label></p>
+									<!-- <div class="input-group CTA_3_input_group" style="width: 70% !important;">
 										<label class="input-group-text" for="inputGroupSelect03">I want to find &nbsp;</label>
 										<select class="form-select inputGroupSelect03" id="inputGroupSelect03" style="width: 50%">
 											<option value="">Branch</option>
@@ -298,7 +299,7 @@
 											<option value="1">ATM</option>
 											<option value="2">FX Counter</option>
 										</select>
-									</div>
+									</div> -->
 								</div>
 							</div>
 							<div class="row CTA_section_3_info d-block d-sm-none">
