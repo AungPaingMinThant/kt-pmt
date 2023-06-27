@@ -29,7 +29,7 @@
 </style>
 
 <div class="js-cookie-consent cookie-consent cookie-consent-div" style="position: relative;">
-    <div style="background-color: #fff;padding: 50px 0px !important;position: fixed;bottom: 0;width: 100%;box-shadow: 0px -5px 20px 5px rgb(110 109 109 / 20%);">
+    <div style="background-color: #fff;padding: 50px 0px !important;position: fixed;bottom: 0;width: 100%;box-shadow: 0px -5px 20px 5px rgb(110 109 109 / 20%);z-index: 999;">
         <div class="container">
             <div class="row" style="width: 100%;">
                 <div class="col-md-6">
