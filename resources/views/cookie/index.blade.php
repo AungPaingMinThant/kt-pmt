@@ -32,6 +32,10 @@
     .how_do_we_collect {
     	width: 50% !important;
     }
+    .who_do_we_share_information {
+    	width: 40% !important;
+    	margin-bottom: 30px;
+    }
     .how_do_we_use, .your_online_privacy, .how_long_do_we_keep {
     	width: 60%;
     }
@@ -137,7 +141,7 @@
 									</ul>
 								</div>
 								<div class="col-md-5 text-center">
-									<!-- <img src="{{ url('/images/cookie_policy/how_long_do_we_keep.png') }}" class="img-fluid how_long_do_we_keep"> -->
+									<img src="{{ url('/images/cookie_policy/who_do_we_share_information.png') }}" class="img-fluid who_do_we_share_information">
 								</div>
 							</div>
 							<div class="space-20"></div>
