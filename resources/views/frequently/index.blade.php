@@ -1342,15 +1342,27 @@
 											<div class="col-12">
 												<p style="color: #4e4e4e;">
 													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-													Credit cards
+													Charity & Organization/ Societies
 												</p>
 												<p style="color: #4e4e4e;">
 													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-													Electricity
+													E-Commerce
 												</p>
 												<p style="color: #4e4e4e;">
 													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-													Loans
+													Education
+												</p>
+												<p style="color: #4e4e4e;">
+													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+													Shopping & Life Style entertainment
+												</p>
+												<p style="color: #4e4e4e;">
+													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+													Trading & Manufacturing
+												</p>
+												<p style="color: #4e4e4e;">
+													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+													Financial Services & Institutions
 												</p>
 												<p style="color: #4e4e4e;">
 													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
@@ -1358,23 +1370,27 @@
 												</p>
 												<p style="color: #4e4e4e;">
 													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-													Grocery Stores
+													Retails
 												</p>
 												<p style="color: #4e4e4e;">
 													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-													Communication
+													Telecom & Internet Service
 												</p>
 												<p style="color: #4e4e4e;">
 													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-													School fees
+													Travel/ Transportation
 												</p>
 												<p style="color: #4e4e4e;">
 													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-													Mobile
+													Utilities
 												</p>
 												<p style="color: #4e4e4e;">
 													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-													Travels
+													Credit Card and Prepaid Card
+												</p>
+												<p style="color: #4e4e4e;">
+													<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+													Tax and Tariff
 												</p>
 											</div>
 										</div>
