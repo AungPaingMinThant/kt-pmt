@@ -837,10 +837,11 @@
 			<div class="reset_div d-none">
 				<div class="col-12 text-center">
 					<h4 style="font-weight: 500;color: #000;">Forgot your card PIN?</h4>
-					<p>You can reset / change your PIN easily via online.</p>
-					<a href="{{ url('/digital-services/card-services/reset-pin') }}">
+					<p>You can reset / change your PIN at nearest branch.</p>
+					<!--{{ url('/digital-services/card-services/reset-pin') }}-->
+					<a href="">
 						<button class="btn" style="background-color: #ae071d;color: #fff;font-weight: 500;padding: 15px 30px;border: #ae071d;">
-							Reset PIN
+							Find Branch
 						</button>
 					</a>
 				</div>

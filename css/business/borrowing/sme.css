@@ -61,7 +61,7 @@
 	width: 8%;
 }
 .fee_charge_table {
-	width: 70% !important;
+	width: 100% !important;
 }
 #working_capital_loan_over_draft, .jica_sme_two_step_loan, .aya_sme_loan, .agriculture_loan, .micro_loan {
 	padding-right: 250px;
@@ -594,6 +594,9 @@
 		width: 80% !important;
 	    top: 75%;
 	}
+	.micro_loan_points {
+    	margin-left: -1rem;	
+    }
 	.bullet_square {
 		width: 11%;
 	}
@@ -665,6 +668,11 @@
 	    top: 60%;
 	    left: 65%;
 	}
+}
+@media (max-width: 999px) and (min-width: 577px) {
+    .micro_loan_points {
+    	margin-left: -1rem;	
+    }
 }
 @media only screen and (max-width: 576px){
 	.why_use_AYA_outer {

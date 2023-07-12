@@ -18,6 +18,9 @@
                             <p>
                                 <a class="f-body-color" href="{{ url('/about-aya/governance/corporate-governance') }}">Corporate Governance <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
+                            <p>
+                                <a class="f-body-color" href="{{ url('/about-aya/governance/corporate-policies') }}">Corporate Policies <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                            </p>
                         </div>
                         <div class="col-md-4 px-3">
                             <p>

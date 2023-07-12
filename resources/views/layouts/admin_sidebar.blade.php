@@ -25,16 +25,18 @@
 		</li>
 
 		<!-- News Category -->
-		@if($page == 'Categories')
-			<li class="menu-item active">
-		@else
-			<li class="menu-item">
-		@endif
-			<a href="{{ url('/admin/categories') }}" class="menu-link">
-				<i class="menu-icon tf-icons bx bx-category"></i>
-				<div>Categories</div>
-			</a>
-		</li>
+		@if(auth()->user()->name != 'AYA Bank Admin')
+    		@if($page == 'Categories')
+    			<li class="menu-item active">
+    		@else
+    			<li class="menu-item">
+    		@endif
+    			<a href="{{ url('/admin/categories') }}" class="menu-link">
+    				<i class="menu-icon tf-icons bx bx-category"></i>
+    				<div>Categories</div>
+    			</a>
+    		</li>
+    	@endif
 
 		<!-- Blog -->
 		@if($page == 'Blog')

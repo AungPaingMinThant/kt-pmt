@@ -63,7 +63,7 @@
 							<p class="fw-semibold mb-0">Annual Report</p>
 							<p>FY 2017 – 2018</p>
 							<p class="mb-0">
-								<a class="report_link" target="_blank" href="{{ url('/report_files/annual_report/aannual_report_FY_2017_2018.pdf#toolbar=0') }}">
+								<a class="report_link" target="_blank" href="{{ url('/report_files/annual_report/annual_report_FY_2017_2018.pdf#toolbar=0') }}">
 									<img src="{{ url('/images/about-aya/report/view_online.png') }}" class="img-fluid view_online_icon"> View Online
 								</a>
 							</p>

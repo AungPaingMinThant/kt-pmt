@@ -22,7 +22,6 @@
         <link rel="stylesheet" href="{{ url('/css/style.css') }}" />
         <link rel="stylesheet" href="{{ url('/css/core.css') }}" />
 
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -54,6 +53,14 @@
             h1 {
                 font-family: 'Sora', sans-serif;
             }
+            .prevent-select {
+                -webkit-user-select: none; /* Safari */
+                -ms-user-select: none; /* IE 10 and IE 11 */
+                user-select: none; /* Standard syntax */
+            }
+            img {
+                pointer-events: none;
+            }
             .menu > .nav-item {            
                 text-transform: uppercase !important;
                 color: #222222 !important;
@@ -83,6 +90,9 @@
             }
             .space-6 {
                 height: 6px;
+            }
+            .space-10 {
+                height: 10px;
             }
             .space-20 {
                 height: 20px;
@@ -127,7 +137,7 @@
 
         <script src="{{ url('/js/helpers.js') }}"></script>
     </head>
-    <body>
+    <body class="prevent-select">
     	@yield('content')
         <!-- @include('cookieConsent::index') -->
 

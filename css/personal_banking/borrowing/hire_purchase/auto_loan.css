@@ -336,7 +336,7 @@
 }
 .slide-content-mobile > .swiper-wrapper > .swiper-slide-active {
 	width: 100% !important;
-	background-color: #f2f2f2;
+	/*background-color: #f2f2f2;*/
 	z-index: 99;
 }
 .slide-content-mobile > .swiper-slide-next, .slide-content-mobile > .swiper-wrapper > .swiper-slide {

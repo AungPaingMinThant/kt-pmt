@@ -73,7 +73,7 @@
 												<select class="form-select" name="media_type" id="media_type" aria-label="Media Type">
 													<option value="1" {{ $blog_data->media_type == '1' ? 'selected':'' }}>Single Image</option>
 													<option value="2" {{ $blog_data->media_type == '2' ? 'selected':'' }}>Muliple Image (Gallery)</option>
-													<option value="3" {{ $blog_data->media_type == '3' ? 'selected':'' }}>Carousel</option>
+													<option value="4" {{ $blog_data->media_type == '4' ? 'selected':'' }}>File</option>
 												</select>
 											</div>
 
@@ -81,20 +81,36 @@
 												@php
 													$single_class = '';
 													$multiple_class = 'd-none';
+													$file_class = 'd-none';
+													$file_label_class = 'd-none';
+													$media_label_class = '';
+												@endphp
+											@elseif($blog_data->media_type == 4)
+												@php
+													$single_class = 'd-none';
+													$multiple_class = 'd-none';
+													$file_class = '';
+													$file_label_class = '';
+													$media_label_class = 'd-none';
 												@endphp
 											@else
 												@php
 													$single_class = 'd-none';
 													$multiple_class = '';
+													$file_class = 'd-none';
+													$file_label_class = 'd-none';
+													$media_label_class = '';
 												@endphp
 											@endif
 
 											<input type="hidden" name="old_image" id="old_image" value="{{count($blog_files)}}">
 											<input type="hidden" name="new_image" id="new_image" value="">
 											<div class="mb-3">
-												<label class="form-label" for="media_image">Media</label>
+												<label class="form-label {{$media_label_class}}" for="media_image" id="media_label">Media</label>
+												<label class="form-label {{$file_label_class}}" for="file_link" id="file_label">File</label>
 												<input class="form-control {{$single_class}}" type="file" name="single_image" id="single_image" >
 												<input class="form-control {{$multiple_class}}" type="file" name="multiple_image[]" id="multiple_image" multiple="">
+												<input class="form-control {{$file_class}}" type="file" name="file_link" id="file_link">
 											</div>
 											<div class="mb-3">
 												<label class="form-label" for="publish_date">Publish Date</label>
@@ -139,16 +155,37 @@
 			if($("#media_type").val() == '1') {
 				$("#single_image").removeClass('d-none');
 				$("#multiple_image").addClass('d-none');
+				$("#file_link").addClass('d-none');
 				if($("#old_image").val() == '0' && $("#new_image").val() == '') {
 					$("#multiple_image").removeAttr('required');
 					$("#single_image").prop('required',true);
+					$("#file_link").removeAttr('required');
 				}
+				$("#media_label").removeClass('d-none');
+				$("#file_label").addClass('d-none');
 			} else {
-				$("#multiple_image").removeClass('d-none');
-				$("#single_image").addClass('d-none');
-				if($("#old_image").val() == '0' && $("#new_image").val() == '') {
-					$("#single_image").removeAttr('required');
-					$("#multiple_image").prop('required',true);
+				if($("#media_type").val() == '4') {
+					$("#file_link").removeClass('d-none');
+					$("#single_image").addClass('d-none');
+					$("#multiple_image").addClass('d-none');
+					if($("#old_image").val() == '0' && $("#new_image").val() == '') {
+						$("#single_image").removeAttr('required');
+						$("#multiple_image").removeAttr('required');
+						$("#file_link").prop('required',true);
+					}
+					$("#media_label").addClass('d-none');
+					$("#file_label").removeClass('d-none');
+				} else {
+					$("#multiple_image").removeClass('d-none');
+					$("#single_image").addClass('d-none');
+					$("#file_link").addClass('d-none');
+					if($("#old_image").val() == '0' && $("#new_image").val() == '') {
+						$("#single_image").removeAttr('required');
+						$("#multiple_image").prop('required',true);
+						$("#file_link").removeAttr('required');
+					}
+					$("#media_label").removeClass('d-none');
+					$("#file_label").addClass('d-none');
 				}
 			}
 		});
@@ -158,6 +195,10 @@
 			$("#new_image").val('uploaded');
 		});
 		$("#multiple_image").change(function() {
+			$("#old_image").val('0');
+			$("#new_image").val('uploaded');
+		});
+		$("#file_link").change(function() {
 			$("#old_image").val('0');
 			$("#new_image").val('uploaded');
 		});
@@ -172,9 +213,17 @@
 				if($("#media_type").val() == '1') {
 					$("#single_image").prop('required',true);
 					$("#multiple_image").removeAttr('required');
+					$("#file_link").removeAttr('required');
 				} else {
-					$("#multiple_image").prop('required',true);
-					$("#single_image").removeAttr('required');
+					if ($("#media_type").val() == '4') {
+						$("#file_link").prop('required',true);
+						$("#single_image").removeAttr('required');
+						$("#multiple_image").removeAttr('required');
+					} else {
+						$("#multiple_image").prop('required',true);
+						$("#single_image").removeAttr('required');
+						$("#file_link").removeAttr('required');
+					}
 				}
 			} else {
 				$("#blog_form").submit();

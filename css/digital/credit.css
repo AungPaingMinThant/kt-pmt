@@ -237,6 +237,9 @@
 	.check_icon_col {
 		padding-right: 0px !important;
 	}
+	.credit_tag_line {
+    	padding: 0px 230px;
+    }
 }
 @media (max-width: 1400px) and (min-width: 1301px) {
 	.visa_credit_tab, .secure_credit_tab {

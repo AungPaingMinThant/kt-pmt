@@ -322,19 +322,19 @@
 							<h3 style="color: #1d1d1f;">Get started Corporate Internet Banking!</h3>
 							<div class="space-20"></div>
 						</div>
-						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;border-right: 1px solid #1d1d1f;padding-right: 0px;">
+						<div class="d-none col-md-6 col-xs-12 text-center" style="padding-top: 10px;border-right: 1px solid #1d1d1f;padding-right: 0px;">
 							<p style="color: #000;font-weight: 400;font-size: 17px;">Not yet a Corporate Internet Banking user?</p>
 							<a href="#" target="_blank">
 								<button class="btn btn-sm get_start_btn">VISIT US TO FIND OUT MORE</button>
 							</a>
 							<div style="height: 40px;"></div>
 						</div>
-						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;padding-left: 0px;">
+						<div class="col-xs-12 text-center" style="padding-top: 10px;padding-left: 0px;">
 							<p style="color: #000;font-weight: 400;font-size: 17px;">Already a Corporate Internet Banking user?</p>
 							<a href="https://corporate.ayaibanking.com/customer/portal" target="_blank">
 								<button class="btn btn-sm get_start_btn">LOGIN</button>
 							</a>
-							<div style="height: 40px;"></div>
+							<!--<div style="height: 40px;"></div>-->
 						</div>
 						<div class="col-md-12 col-xs-12 text-center">
 							<div class="space-60"></div>
@@ -342,20 +342,20 @@
 						</div>
 					</div>
 				</div>
-				<div class="container d-block d-sm-none" style="padding: 30px;background-image: url('./images/get_start_bg.jpg');background-size: cover;border-radius: 6px;">
+				<div class="container d-block d-sm-none" style="padding: 30px;background-image: url('/images/get_start_bg.jpg');background-size: cover;border-radius: 6px;">
 					<div class="row">
 						<div class="col-md-12 col-xs-12 text-center">
 							<h2 style="font-weight: 800;color: #000;">Get started Corporate Internet Banking!</h2>
 							<div class="space-20"></div>
 						</div>
-						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 10px;border-bottom: 1px solid #1d1d1f;padding-bottom: 0px;">
+						<div class="d-none col-md-6 col-xs-12 text-center" style="padding-top: 10px;border-bottom: 1px solid #1d1d1f;padding-bottom: 0px;">
 							<p style="color: #000;font-weight: 400;font-size: 17px;">Not yet a Corporate Internet Banking user?</p>
 							<a href="#" target="_blank">
 								<button class="btn btn-sm get_start_btn">VISIT US TO FIND OUT MORE</button>
 							</a>
 							<div style="height: 40px;"></div>
 						</div>
-						<div class="col-md-6 col-xs-12 text-center" style="padding-top: 20px;">
+						<div class=" col-xs-12 text-center" style="padding-top: 20px;">
 							<p style="color: #000;font-weight: 400;font-size: 17px;">Already a Corporate Internet Banking user?</p>
 							<a href="https://corporate.ayaibanking.com/customer/portal" target="_blank">
 								<button class="btn btn-sm get_start_btn">LOGIN</button>

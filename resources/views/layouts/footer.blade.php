@@ -14,7 +14,7 @@
         font-weight: 200 !important;
         line-height: 25px;
     }
-    .footer_first_link_a:hover, .footer_first_link_p:hover, .footer_first_link:hover{
+    .footer_first_link_a:hover, .footer_first_link:hover{
         color: #fff !important;
         text-decoration: none !important;
     }
@@ -78,14 +78,8 @@
         .desktop_post_footer {
             display: none;
         }
-        /*#go_to_top {
-            width: 19%;
-        }*/
     }
 </style>
-<!-- <img src="{{url('/images/go_to_top.png')}}"  data-src="{{url('/images/go_to_top.png')}}" data-hover="{{url('/images/go_to_top_hover.png')}}" id="go_to_top" title="Go to top" onclick="topFunction()"> -->
-
-<!-- <box-icon name='chevron-down'></box-icon> -->
 <i class="tf-icons bx bx-chevron-up" id="go_to_top" title="Go to top" onclick="topFunction()"></i>
 
 <div id="index_footer" style="background-color: #484848;padding: 33px 0px 0px 0px;">
@@ -105,6 +99,7 @@
                 <a class="footer_first_link_a" href="{{url('/digital-services/online-payment-services/internet-banking')}}"><p class="footer_first_link">Internet Banking</p></a>
                 <a class="footer_first_link_a" href="{{url('/digital-services/online-payment-services/corporate-internet-banking')}}"><p class="footer_first_link">Corporate Internet Banking</p></a>
                 <a class="footer_first_link_a" href="{{url('/personal-banking/royal-banking')}}"><p class="footer_first_link">Royal Banking</p></a>
+                <a class="footer_first_link_a" href="{{url('/personal-banking/other-services/foreign-currency-exchange-service#foreign_currency_exchange_rate')}}"><p class="footer_first_link">Currency Exchange Rate</p></a> 
                 <p>&nbsp;</p>
                 <!-- <h3 class="footer_like_title">Need Help</h3>
                 <a class="footer_first_link_a" href="#"><p class="footer_first_link">Help & Support</p></a>
@@ -139,13 +134,13 @@
                 <!-- Terms & Condition&nbsp;&nbsp;|&nbsp;&nbsp;Privacy Policy</p> -->
             <!-- </div> -->
             <div class="col-6 d-none d-sm-block" style="padding-top: 4px">
-                <a href="https://www.facebook.com/ayabank/" target="_blank" class="social_icon">
+                <a href="https://www.facebook.com/ayabank/" target="_blank" class="social_icon" aria-label="Facebook">
                     <span class="tf-icons bx bxl-facebook"></span>
                 </a>
-                <a href="https://twitter.com/aya_bank" target="_blank" class="social_icon">
+                <a href="https://twitter.com/aya_bank" target="_blank" class="social_icon" aria-label="Twitter">
                     <span class="tf-icons bx bxl-twitter"></span>
                 </a>
-                <a href="https://www.linkedin.com/company/ayabank/" target="_blank" class="social_icon">
+                <a href="https://www.linkedin.com/company/ayabank/" target="_blank" class="social_icon" aria-label="LinkedIn">
                     <span class="tf-icons bx bxl-linkedin"></span>
                 </a>
             </div>
@@ -158,13 +153,13 @@
                 <p class="footer_first_link_p" style="font-size: 12px;">Terms & Condition&nbsp;&nbsp;|&nbsp;&nbsp;Privacy Policy</p>
             </div> -->
             <div class="col-12 text-center">
-                <a href="https://www.facebook.com/ayabank/" class="social_icon" target="_blank">
+                <a href="https://www.facebook.com/ayabank/" class="social_icon" target="_blank" aria-label="Facebook">
                     <span class="tf-icons bx bxl-facebook"></span>
                 </a>
-                <a href="https://twitter.com/aya_bank" class="social_icon" target="_blank">
+                <a href="https://twitter.com/aya_bank" class="social_icon" target="_blank" aria-label="Twitter">
                     <span class="tf-icons bx bxl-twitter"></span>
                 </a>
-                <a href="https://www.linkedin.com/company/ayabank/" class="social_icon" target="_blank">
+                <a href="https://www.linkedin.com/company/ayabank/" class="social_icon" target="_blank" aria-label="LinkedIn">
                     <span class="tf-icons bx bxl-linkedin"></span>
                 </a>
             </div>
@@ -178,6 +173,18 @@
 
 <script src="{{ url('/js/jquery.js') }}"></script>
 <script type="text/javascript">
+    function init() {
+      var imgDefer = document.querySelectorAll('div[data-src]');
+      var style = "background-image: url({url})";
+      for (var i = 0; i < imgDefer.length; i++) {
+    
+        imgDefer[i].setAttribute('style', style.replace("{url}", imgDefer[i].getAttribute('data-src')));
+    
+      }
+    }
+    
+    window.onload = init;
+
     $('[data-toggle="slide-collapse"]').on('click', function() {
         $navMenuCont = $($(this).data('target'));
         $navMenuCont.animate({
@@ -197,6 +204,11 @@
         $(".landing_carousel").css('z-index','2');
     });
     
+    $(".dropdown-menu > li").click(function(event) {
+        $(".navbar-toggle").trigger("click");
+        $(".menu-overlay").fadeOut(500);
+        $(".landing_carousel").css('z-index','2');
+    });
 
     mybutton = document.getElementById("go_to_top");
 
@@ -224,19 +236,19 @@
 
     $(".personal-banking-li").mouseenter(function(e) {
         $(".menu-link").removeClass('menu-hover-active');
-        $(".personal-menu-ac-sav-link").addClass('menu-active');
+        // $(".personal-menu-ac-sav-link").addClass('menu-active');
     });
     $(".business-banking-li").mouseenter(function(e) {
         $(".menu-link").removeClass('menu-hover-active');
-        $(".business-menu-ac-sav-link").addClass('menu-active');
+        // $(".business-menu-ac-sav-link").addClass('menu-active');
     });
     $(".digital-services-li").mouseenter(function(e) {
         $(".menu-link").removeClass('menu-hover-active');
-        $(".digital-menu-online-pay-services-link").addClass('menu-active');
+        // $(".digital-menu-online-pay-services-link").addClass('menu-active');
     });
     $(".about-aya-li").mouseenter(function(e) {
         $(".menu-link").removeClass('menu-hover-active');
-        $(".about-aya-menu-who-we-are-link").addClass('menu-active');
+        // $(".about-aya-menu-who-we-are-link").addClass('menu-active');
     });
 
     $(".menu-link").mouseenter(function(e) {
@@ -415,16 +427,16 @@
         $(".about-aya-network-menu").removeClass('d-none');
     });
 
-    $(".personal-banking-li > a").click(function(){
+    $(".personal-banking-li > span").click(function(){
         $(".personal-dropdown-content").slideToggle();
     });
-    $(".business-banking-li > a").click(function(){
+    $(".business-banking-li > span").click(function(){
         $(".business-dropdown-content").slideToggle();
     });
-    $(".digital-services-li > a").click(function(){
+    $(".digital-services-li > span").click(function(){
         $(".digital-dropdown-content").slideToggle();
     });
-    $(".about-aya-li > a").click(function(){
+    $(".about-aya-li > span").click(function(){
         $(".about-aya-dropdown-content").slideToggle();
     });
 </script>

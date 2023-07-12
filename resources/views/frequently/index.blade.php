@@ -2,192 +2,8 @@
 
 @section('title', 'Frequently Used Digital Services In Daily Life – AYA Bank')
 <link rel="stylesheet" href="{{ url('/css/timeline.css') }}">
-<style type="text/css">
-	.advice_title_li {
-		list-style: none;
-		margin-bottom: 20px;
-		cursor: pointer;
-	}
-	.advice_title_li > span{
-		padding-bottom: 3px;
-	}
-	.link_active > span, .advice_title_li:hover > span {
-		border-bottom: 4px solid #A5000B;
-		font-weight: 600;
-	}
-	.frequently_section_1 {
-	    padding: 0px 100px !important;
-	}
-	.col-1 {
-		width: 6% !important;
-	}
-	.col-11 {
-		padding-left: 0px !important;
-	}
-	.timeline:before {
-		margin-left: -9px;
-	}
-	.step_1_timeline:before, .step_5_timeline:before, .step_10_timeline:before {
-		height: 120px;
-	}
-	.step_2_timeline:before, .step_4_timeline:before {
-		height: 470px;
-	}
-	.step_3_timeline:before {
-		height: 370px;
-	}
-	.step_6_timeline:before {
-		height: 180px;
-	}
-	.step_7_timeline:before {
-		height: 440px;
-	}
-	.step_8_timeline:before {
-		height: 120px;
-	}
-	.step_9_timeline:before {
-		height: 150px;
-	}
-	.step_11_timeline:before {
-		height: 420px;
-	}
-	.step_12_timeline:before {
-		height: 490px;
-	}
-	.frequently_desc {
-		font-size: 13px !important;
-	}
-	.bullet_square {
-		float: right;
-		margin-top: 5px;
-		width: 40%;
-	}
-	@media (max-width: 1400px) and (min-width: 1301px) {
-		.step_1_timeline:before, .step_5_timeline:before {
-		    height: 150px;
-		}
-		.step_2_timeline:before, .step_4_timeline:before {
-		    height: 490px;
-		}
-		.step_3_timeline:before {
-		    height: 410px;
-		}
-		.step_6_timeline:before {
-		    height: 200px;
-		}
-		.step_7_timeline:before {
-		    height: 475px;
-		}
-		.step_8_timeline:before {
-		    height: 125px;
-		}
-		.step_10_timeline:before {
-		    height: 130px;
-		}
-		.step_11_timeline:before {
-		    height: 460px;
-		}
-		.step_12_timeline:before {
-		    height: 520px;
-		}
-	}
-	@media (max-width: 1300px) and (min-width: 1271px) {
-		.timeline:before {
-			margin-left: -11px;
-		}
-		.bullet_square {
-			width: 100%;
-		}
-		.step_1_timeline::before {
-		  	height: 160px;
-		}
-		.step_2_timeline::before {
-		  	height: 500px;
-		}
-		.step_3_timeline::before {
-		  	height: 410px;
-		}
-		.step_4_timeline::before {
-			height: 480px;
-		}
-		.step_5_timeline::before {
-			height: 140px;
-		}
-		.step_6_timeline:before {
-			height: 200px;
-		}
-		.step_7_timeline:before {
-			height: 480px;
-		}
-		.step_8_timeline::before {
-			height: 130px;
-		}
-		.step_9_timeline::before {
-			height: 140px;
-		}
-		.step_10_timeline::before {
-			height: 120px;
-		}
-		.step_11_timeline::before {
-			height: 460px;
-		}
-		.step_12_timeline::before {
-			height: 520px;
-		}
-	}
-	@media (max-width: 1270px) and (min-width: 1000px) {
-		.timeline:before {
-			margin-left: -11px;
-		}
-		.bullet_square {
-			width: 100%;
-		}
-		.step_1_timeline::before {
-		  	height: 160px;
-		}
-		.step_2_timeline::before {
-		  	height: 520px;
-		}
-		.step_3_timeline::before {
-		  	height: 460px;
-		}
-		.step_4_timeline::before {
-			height: 530px;
-		}
-		.step_5_timeline::before {
-			height: 140px;
-		}
-		.step_6_timeline:before {
-			height: 200px;
-		}
-		.step_7_timeline:before {
-			height: 520px;
-		}
-		.step_8_timeline::before {
-			height: 130px;
-		}
-		.step_9_timeline::before {
-			height: 170px;
-		}
-		.step_10_timeline::before {
-			height: 120px;
-		}
-		.step_11_timeline::before {
-			height: 500px;
-		}
-		.step_12_timeline::before {
-			height: 550px;
-		}
-	}
-	@media only screen and (max-width: 576px){
-		.frequently_section_1 {
-		    padding: 0px 20px !important;
-		}
-		.col-11 {
-			padding-left: 15px !important;
-		}
-	}
-</style>
+<link rel="stylesheet" href="{{ url('/css/f_u_d_s.css') }}">
+
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
@@ -238,6 +54,12 @@
 							</li>
 							<li class="advice_title_li advice_12">
 								<span>12. Cardless cash withdrawal at ATM</span>
+							</li>
+							<li class="advice_title_li advice_13">
+								<span>13. Personal Financial Management (PFM)</span>
+							</li>
+							<li class="advice_title_li advice_14">
+								<span>14. Scan QR AYA Pay Merchant</span>
 							</li>
 						</div>
 						<div class="col-md-8" style="padding-left: 30px;">
@@ -1198,6 +1020,169 @@
 
 								<p style="font-size: 12px;">Notes: You can create another cash code if the current cash code is expired.</p>
 							</section>
+							<section class="advide_desc" id="advice_13_collapsible" style="display: none;">
+								<p style="font-weight: 600;color: #A5000B;">Personal Financial Management (PFM)</p>
+
+								<div class="space-30"></div>
+								<div class="row">
+									<div class="col-md-5 text-right">
+										<img src="{{ url('/images/frequently/steps/step_13/PFM_1.webp') }}" class="img-fluid step_13 step_13_1" style="margin-bottom: 20px;">
+										<img src="{{ url('/images/frequently/steps/step_13/PFM_2.webp') }}" class="img-fluid step_13 d-none step_13_2" style="margin-bottom: 20px;">
+										<img src="{{ url('/images/frequently/steps/step_13/PFM_3.webp') }}" class="img-fluid step_13 d-none step_13_3" style="margin-bottom: 20px;">
+										<img src="{{ url('/images/frequently/steps/step_13/PFM_4.webp') }}" class="img-fluid step_13 d-none step_13_4" style="margin-bottom: 20px;">
+										<img src="{{ url('/images/frequently/steps/step_13/PFM_4A.webp') }}" class="img-fluid step_13 d-none step_13_4A" style="margin-bottom: 20px;">
+										<img src="{{ url('/images/frequently/steps/step_13/PFM_5.webp') }}" class="img-fluid step_13 d-none step_13_5" style="margin-bottom: 20px;">
+										<img src="{{ url('/images/frequently/steps/step_13/PFM_6.webp') }}" class="img-fluid step_13 d-none step_13_6" style="margin-bottom: 20px;">
+									</div>
+									<div class="col-md-7" style="padding-left: 30px;">
+										<p class="timeline-title" style="margin-left: -15px;margin-bottom: 0;font-weight: 500;">Click on the steps to view screens</p>
+										<ul class="timeline step_13_timeline">
+											<li class="timeline-inverted">
+												<div class="timeline-badge step_13_timeline-badge-1 active">1</div>
+												<div class="timeline-panel">
+													<div class="timeline-heading">
+														<p class="timeline-title">Login to AYA Bank m-Banking with your user ID and Pin</p>
+													</div>
+												</div>
+											</li>
+											<li class="timeline-inverted">
+												<div class="timeline-badge step_13_timeline-badge-2">2</div>
+												<div class="timeline-panel">
+													<div class="timeline-heading">
+														<p class="timeline-title">Choose Personal Financial Management in the Hamburger menu</p>
+													</div>
+												</div>
+											</li>
+											<li class="timeline-inverted">
+												<div class="timeline-badge step_13_timeline-badge-3">3</div>
+												<div class="timeline-panel">
+													<div class="timeline-heading">
+														<p class="timeline-title">View detail to see loan information</p>
+													</div>
+												</div>
+											</li>
+											<li class="timeline-inverted">
+												<div class="timeline-badge step_13_timeline-badge-4">4</div>
+												<div class="timeline-panel">
+													<div class="timeline-heading">
+														<p class="timeline-title">Click on Missed Payment to see previously missed payment histories</p>
+													</div>
+												</div>
+											</li>
+											<li class="timeline-inverted">
+												<div class="timeline-badge step_13_timeline-badge-4A">4A</div>
+												<div class="timeline-panel">
+													<div class="timeline-heading">
+														<p class="timeline-title">&nbsp;</p>
+													</div>
+												</div>
+											</li>
+											<li class="timeline-inverted">
+												<div class="timeline-badge step_13_timeline-badge-5">5</div>
+												<div class="timeline-panel">
+													<div class="timeline-heading">
+														<p class="timeline-title">Click on Pay Now to repay the loan</p>
+													</div>
+												</div>
+											</li>
+											<li class="timeline-inverted">
+												<div class="timeline-badge step_13_timeline-badge-6">6</div>
+												<div class="timeline-panel">
+													<div class="timeline-heading">
+														<p class="timeline-title">Choose Other AYA Account and fill up the information to pay for the loan</p>
+													</div>
+												</div>
+											</li>
+									    </ul>
+									</div>
+								</div>
+							</section>
+							<section class="advide_desc" id="advice_14_collapsible" style="display: none;">
+								<p style="font-weight: 600;color: #A5000B;">Scan QR AYA Pay Merchant</p>
+
+								<div class="space-30"></div>
+								<div class="row">
+									<div class="col-md-5 text-right">
+										<img src="{{ url('/images/frequently/steps/step_14/scan_qr_pay_1.webp') }}" class="img-fluid step_14 step_14_1" style="margin-bottom: 20px;">
+										<img src="{{ url('/images/frequently/steps/step_14/scan_qr_pay_2.webp') }}" class="img-fluid step_14 d-none step_14_2" style="margin-bottom: 20px;">
+										<img src="{{ url('/images/frequently/steps/step_14/scan_qr_pay_3.webp') }}" class="img-fluid step_14 d-none step_14_3" style="margin-bottom: 20px;">
+										<img src="{{ url('/images/frequently/steps/step_14/scan_qr_pay_4.webp') }}" class="img-fluid step_14 d-none step_14_4" style="margin-bottom: 20px;">
+										<img src="{{ url('/images/frequently/steps/step_14/scan_qr_pay_5.webp') }}" class="img-fluid step_14 d-none step_14_5" style="margin-bottom: 20px;">
+										<img src="{{ url('/images/frequently/steps/step_14/scan_qr_pay_6.webp') }}" class="img-fluid step_14 d-none step_14_6" style="margin-bottom: 20px;">
+										<img src="{{ url('/images/frequently/steps/step_14/scan_qr_pay_6A.webp') }}" class="img-fluid step_14 d-none step_14_6A" style="margin-bottom: 20px;">
+										<img src="{{ url('/images/frequently/steps/step_14/scan_qr_pay_7.webp') }}" class="img-fluid step_14 d-none step_14_7" style="margin-bottom: 20px;">
+									</div>
+									<div class="col-md-7" style="padding-left: 30px;">
+										<p class="timeline-title" style="margin-left: -15px;margin-bottom: 0;font-weight: 500;">Click on the steps to view screens</p>
+										<ul class="timeline step_14_timeline">
+											<li class="timeline-inverted">
+												<div class="timeline-badge step_14_timeline-badge-1 active">1</div>
+												<div class="timeline-panel">
+													<div class="timeline-heading">
+														<p class="timeline-title">Login to AYA Bank m-Banking with your user ID and Pin</p>
+													</div>
+												</div>
+											</li>
+											<li class="timeline-inverted">
+												<div class="timeline-badge step_14_timeline-badge-2">2</div>
+												<div class="timeline-panel">
+													<div class="timeline-heading">
+														<p class="timeline-title">Choose QR Scan& Pay in the Hamburger menu to pay AYA PAY Merchant</p>
+													</div>
+												</div>
+											</li>
+											<li class="timeline-inverted">
+												<div class="timeline-badge step_14_timeline-badge-3">3</div>
+												<div class="timeline-panel">
+													<div class="timeline-heading">
+														<p class="timeline-title">After scanning merchant QR, merchant information will be shown</p>
+													</div>
+												</div>
+											</li>
+											<li class="timeline-inverted">
+												<div class="timeline-badge step_14_timeline-badge-4">4</div>
+												<div class="timeline-panel">
+													<div class="timeline-heading">
+														<p class="timeline-title">Fill up the rest information</p>
+													</div>
+												</div>
+											</li>
+											<li class="timeline-inverted">
+												<div class="timeline-badge step_14_timeline-badge-5">5</div>
+												<div class="timeline-panel">
+													<div class="timeline-heading">
+														<p class="timeline-title">Recheck Information to confirm the payment</p>
+													</div>
+												</div>
+											</li>
+											<li class="timeline-inverted">
+												<div class="timeline-badge step_14_timeline-badge-6">6</div>
+												<div class="timeline-panel">
+													<div class="timeline-heading">
+														<p class="timeline-title">Verify the transaction with one time OTP code which is sent to your SMS</p>
+													</div>
+												</div>
+											</li>
+											<li class="timeline-inverted">
+												<div class="timeline-badge step_14_timeline-badge-6A">6A</div>
+												<div class="timeline-panel">
+													<div class="timeline-heading">
+														<p class="timeline-title">&nbsp;</p>
+													</div>
+												</div>
+											</li>
+											<li class="timeline-inverted">
+												<div class="timeline-badge step_14_timeline-badge-7">7</div>
+												<div class="timeline-panel">
+													<div class="timeline-heading">
+														<p class="timeline-title">After transaction authentication is done, payment is made successfully</p>
+													</div>
+												</div>
+											</li>
+									    </ul>
+									</div>
+								</div>
+							</section>
 						</div>
 					</div>
 				</div>
@@ -1818,6 +1803,92 @@
 									</div>
 								</div>
 							</div>
+							<div class="card accordion-item">
+								<p class="accordion-header" id="heading13">
+									<button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion13" aria-expanded="false" aria-controls="accordion13">
+										Personal Financial Management (PFM)
+									</button>
+								</p>
+								<div id="accordion13" class="accordion-collapse collapse" aria-labelledby="heading13" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										<div class="space-20"></div>
+										<div class="row">
+											<div class="col-md-12 text-center mb-30">
+												<img src="{{ url('/images/frequently/steps/step_13/PFM_1.webp') }}" class="img-fluid mb20" style="width: 80%;">
+												<p style="padding: 0px 10px;"><b style="color: #c22236;">1.</b> Login to AYA Bank m-Banking with your user ID and Pin</p>
+											</div>
+											<div class="col-md-12 text-center mb-30">
+												<img src="{{ url('/images/frequently/steps/step_13/PFM_2.webp') }}" class="img-fluid mb20" style="width: 80%;">
+												<p style="padding: 0px 10px;"><b style="color: #c22236;">2.</b> Choose Personal Financial Management in the Hamburger menu</p>
+											</div>
+											<div class="col-md-12 text-center mb-30">
+												<img src="{{ url('/images/frequently/steps/step_13/PFM_3.webp') }}" class="img-fluid mb20" style="width: 80%;">
+												<p style="padding: 0px 10px;"><b style="color: #c22236;">3.</b> View detail to see loan information</p>
+											</div>
+											<div class="col-md-12 text-center">
+												<img src="{{ url('/images/frequently/steps/step_13/PFM_4.webp') }}" class="img-fluid mb20" style="width: 80%;">
+											</div>
+											<div class="col-md-12 text-center mb-30">
+												<img src="{{ url('/images/frequently/steps/step_13/PFM_4A.webp') }}" class="img-fluid mb20" style="width: 80%;">
+												<p style="padding: 0px 10px;"><b style="color: #c22236;">4.</b> Click on Missed Payment to see previously missed payment histories</p>
+											</div>
+											<div class="col-md-12 text-center mb-30">
+												<img src="{{ url('/images/frequently/steps/step_13/PFM_5.webp') }}" class="img-fluid mb20" style="width: 80%;">
+												<p style="padding: 0px 10px;"><b style="color: #c22236;">5.</b> Click on Pay Now to repay the loan</p>
+											</div>
+											<div class="col-md-12 text-center">
+												<img src="{{ url('/images/frequently/steps/step_13/PFM_6.webp') }}" class="img-fluid mb20" style="width: 80%;">
+												<p style="padding: 0px 10px;"><b style="color: #c22236;">6.</b> Choose Other AYA Account and fill up the information to pay for the loan</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card accordion-item">
+								<p class="accordion-header" id="heading14">
+									<button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion14" aria-expanded="false" aria-controls="accordion14">
+										Scan QR AYA Pay Merchant
+									</button>
+								</p>
+								<div id="accordion14" class="accordion-collapse collapse" aria-labelledby="heading14" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										<div class="space-20"></div>
+										<div class="row">
+											<div class="col-md-12 text-center mb-30">
+												<img src="{{ url('/images/frequently/steps/step_14/scan_qr_pay_1.webp') }}" class="img-fluid mb20" style="width: 80%;">
+												<p style="padding: 0px 10px;"><b style="color: #c22236;">1.</b> Login to AYA Bank m-Banking with your user ID and Pin</p>
+											</div>
+											<div class="col-md-12 text-center mb-30">
+												<img src="{{ url('/images/frequently/steps/step_14/scan_qr_pay_2.webp') }}" class="img-fluid mb20" style="width: 80%;">
+												<p style="padding: 0px 10px;"><b style="color: #c22236;">2.</b> Choose QR Scan& Pay in the Hamburger menu to pay AYA PAY Merchant</p>
+											</div>
+											<div class="col-md-12 text-center mb-30">
+												<img src="{{ url('/images/frequently/steps/step_14/scan_qr_pay_3.webp') }}" class="img-fluid mb20" style="width: 80%;">
+												<p style="padding: 0px 10px;"><b style="color: #c22236;">3.</b> After scanning merchant QR, merchant information will be shown</p>
+											</div>
+											<div class="col-md-12 text-center mb-30">
+												<img src="{{ url('/images/frequently/steps/step_14/scan_qr_pay_4.webp') }}" class="img-fluid mb20" style="width: 80%;">
+												<p style="padding: 0px 10px;"><b style="color: #c22236;">4.</b> Fill up the rest information</p>
+											</div>
+											<div class="col-md-12 text-center mb-30">
+												<img src="{{ url('/images/frequently/steps/step_14/scan_qr_pay_5.webp') }}" class="img-fluid mb20" style="width: 80%;">
+												<p style="padding: 0px 10px;"><b style="color: #c22236;">5.</b> Recheck Information to confirm the payment</p>
+											</div>
+											<div class="col-md-12 text-center">
+												<img src="{{ url('/images/frequently/steps/step_14/scan_qr_pay_6.webp') }}" class="img-fluid mb20" style="width: 80%;">
+											</div>
+											<div class="col-md-12 text-center mb-30">
+												<img src="{{ url('/images/frequently/steps/step_14/scan_qr_pay_6A.webp') }}" class="img-fluid mb20" style="width: 80%;">
+												<p style="padding: 0px 10px;"><b style="color: #c22236;">6.</b> Verify the transaction with one time OTP code which is sent to your SMS</p>
+											</div>
+											<div class="col-md-12 text-center mb-30">
+												<img src="{{ url('/images/frequently/steps/step_14/scan_qr_pay_7.webp') }}" class="img-fluid mb20" style="width: 80%;">
+												<p style="padding: 0px 10px;"><b style="color: #c22236;">7.</b> After transaction authentication is done, payment is made successfully</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -1912,6 +1983,12 @@
 		$("#advice_13_collapsible").show(500);
 		$(".advice_title_li").removeClass('link_active');
 		$(".advice_13").addClass('link_active');
+	});
+	$(".advice_14").click(function() {
+		$(".advide_desc").hide(500);
+		$("#advice_14_collapsible").show(500);
+		$(".advice_title_li").removeClass('link_active');
+		$(".advice_14").addClass('link_active');
 	});
 </script>
 

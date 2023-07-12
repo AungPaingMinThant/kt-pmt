@@ -1,3 +1,6 @@
+.header-main-menu {
+	cursor: pointer !important;
+}
 .nav-link:hover {
 	text-decoration: none !important;
 }
@@ -8,7 +11,7 @@
 	display: table-cell;
 }
 .desktop_logo {
-	width: 70%;
+	width: 70% !important;
 	margin-top: 20px
 }
 .mobile_menu {
@@ -123,12 +126,13 @@
 	padding: 20px 0px 0px 60px !important;
 	font-weight: 300;
 }
-.menu-link > a {
+.menu-link > span, .royal-banking-mobile {
 	padding: 0;
 	padding-bottom: 15px;
 	color: #fff !important;
+	cursor: pointer !important;
 }
-.menu-link > a:not(.other-menu) {
+.menu-link > span:not(.other-menu), .royal-banking-mobile {
 	font-size: 13px;
 	border-bottom: 1px solid #e7e7e790;
     width: 90%;
@@ -139,14 +143,14 @@
 .menu-link.menu-hover-active {
 	background-color: #f6f6f6 !important;
 }
-.menu-active > a {
+.menu-active > span {
 	color: #000 !important;
 	font-weight: 700;
 }
 .menu-link > a:hover {
 	text-decoration: none !important;
 }
-.menu-hover-active > a {
+.menu-hover-active > span {
 	color: #000 !important;
 	font-weight: 700;
 }
@@ -226,7 +230,7 @@
 		padding-right: 0 !important;
 	}
 	.desktop_logo {
-		width: 100%;
+		width: 100% !important;
 		margin-top: 27px
 	}
 	.personal-dropdown-content {
@@ -312,7 +316,7 @@
 }
 
 .alert-dropdown {
-	top: 36% !important;
+	top: 34% !important;
 }
 .alert-769-1179-dropdown {
 	top: 43% !important;
@@ -324,7 +328,7 @@
 	top: 37% !important;
 }
 .alert-1281-1400-dropdown {
-	top: 43% !important;
+	top: 38% !important;
 }
 .alert-1601-dropdown {
 	top: 27% !important;

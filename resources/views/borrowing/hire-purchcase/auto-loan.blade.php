@@ -644,7 +644,10 @@
 									</div>
 
 									<div class="col-12" style="padding-left: 30px;">
-										<p>Find Available Car Brands <a href="{{ url('/images/borrowing/hire_purchase/auto_loan/Available-Brands.jpg') }}" target="_blank">Here</a> !</p>
+										<!--<p>Find Available Car Brands <a href="{{ url('/images/borrowing/hire_purchase/auto_loan/Available-Brands.jpg') }}" target="_blank">Here</a> !</p>-->
+										<p>Find Available Car Brands <span id="avail_mobile_car">Here</span> !</p>
+
+											<img src="{{ url('/images/borrowing/hire_purchase/auto_loan/Available-Brands.jpg') }}" id="car_mobile_brand" class="img-fluid" style="display: none;">
 									</div>
 
 									<div class="space-20"></div>
@@ -694,6 +697,12 @@
 	$("#avail_car").click(function() {
 		$("#car_brand").toggle(500);
 	});
+	$("#avail_mobile_car").click(function() {
+		$("#car_mobile_brand").toggle(500);
+	});
+	
+	
+
 
 	$(".nav-link").click(function() {
 		$(".nav-link").addClass('active');

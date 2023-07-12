@@ -219,7 +219,7 @@
 
 									<div class="space-20"></div>
 
-									<p class="fw-semibold">Opera 6.0 and further</p>
+									<p class="fw-semibold">Opera 6.0 and beyond</p>
 									<ul style="list-style: number;">
 										<li>Access the Files menu > Preferences.</li>
 										<li>Select Privacy.</li>

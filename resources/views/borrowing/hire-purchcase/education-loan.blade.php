@@ -529,7 +529,7 @@
 									<div class="swiper-button-prev swiper-button-prev-mobile swiper-navBtn swiper-navBtn-mobile"></div>
 								</div>
 								<div class="col-9">
-							      	<div class="slide-container swiper" style="padding-bottom: 40px;padding-bottom: 40px;padding-left: 0px;padding-right: 0px;margin-left: 10px;">
+							      	<div class="edu_mobile_slide_swiper slide-container swiper" style="padding-bottom: 40px;padding-bottom: 40px;padding-left: 0px;padding-right: 0px;margin-left: 10px;">
 							            <div class="slide-content slide-content-mobile">
 							                <div class="card-wrapper swiper-wrapper">
 							                    <div class="card swiper-slide">

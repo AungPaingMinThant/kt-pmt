@@ -322,8 +322,8 @@
 					</div>
 					<div class="space-40"></div>
 
-					<div class="row">
-						<div class="table-responsive text-nowrap committee_table_div">
+					<div class="row"
+						<div class="text-nowrap committee_table_div">
 							<table class="table table-borderless table-striped committee_table">
 								<thead>
 									<tr valign="middle">
@@ -489,7 +489,7 @@
 										<td></td>
 									</tr>
 									<tr>
-										<td class="py-4" style="font-size: 15px;width: 30% !important;">Daw Jasmine Thazin Aung</td>
+										<td class="py-4" style="font-size: 15px;"><p class="mb-0" style="width: 200px !important;">Daw Jasmine Thazin Aung</p></td>
 										<td></td>
 										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
 										<td></td>
@@ -586,9 +586,6 @@
 									</tr>
 								</tbody>
 							</table>
-						</div>
-
-						<div class="space-60"></div>
 					</div>
 				</div>
 			</div>
@@ -878,6 +875,7 @@
 		$(".governance_framework_leadership").addClass('d-none');
 		$(".governance_framework").addClass('d-none');
 		$(".role_committee").addClass('d-none');
+		$(".code_ethical_conduct").addClass('d-none');
 
 		$(".board_committees_bod").removeClass('d-none');
 		$(".board_committees").removeClass('d-none');
@@ -907,10 +905,28 @@
 		$(".governance_section").addClass('governance_bg_white');
   	}
 
+  	if (last_part == 'code-ethical-conduct') {
+		$(".governance_framework_leadership").addClass('d-none');
+		$(".governance_framework").addClass('d-none');
+		$(".board_committees_bod").addClass('d-none');
+		$(".board_committees").addClass('d-none');
+		$(".board_committees_who_are_on").addClass('d-none');
+		$(".role_committee").addClass('d-none');
+
+		$(".code_ethical_conduct").removeClass('d-none');
+
+		$(".governance_title").removeClass('theme_text_color');
+		$("#code_ethical_conduct_title").addClass('theme_text_color');
+
+		$(".governance_section").removeClass('governance_bg_grey');
+		$(".governance_section").addClass('governance_bg_white');
+	};
+
 	$(".board_committees_title").click(function() {
 		$(".governance_framework_leadership").addClass('d-none');
 		$(".governance_framework").addClass('d-none');
 		$(".role_committee").addClass('d-none');
+		$(".code_ethical_conduct").addClass('d-none');
 
 		$(".board_committees_bod").removeClass('d-none');
 		$(".board_committees").removeClass('d-none');

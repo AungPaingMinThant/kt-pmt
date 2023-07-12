@@ -34,6 +34,7 @@
 								</div>
 							@endforeach
 						</div>
+						{{ $blog_list->links() }}
 					</div>
 					<div class="col-md-3">
 						<div class="row pl-1">

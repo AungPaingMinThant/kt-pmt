@@ -3,8 +3,8 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-3 desktop_logo_div">
-				<a href="{{url('/')}}" class="navbar-brand" href="#" style="padding: 22px 0px 20px 4px;display: table-cell;vertical-align: middle;">
-					<img src="{{ url('/images/logo_wo_tagline_2.png') }}" class="img-fluid desktop_logo" style="">
+				<a href="{{url('/')}}" class="navbar-brand" style="padding: 22px 0px 20px 4px;display: table-cell;vertical-align: middle;">
+					<img src="{{ url('/images/logo_wo_tagline_2.webp') }}" class="img-fluid desktop_logo" alt="AYA Bank" width="532px" height="114px">
 				</a>
 			</div>
 			<div class="col-md-9 text-right">
@@ -13,12 +13,12 @@
 						<ul class="menu" style="display: flex;list-style: none;float: right;margin-bottom: 1rem;margin-top: 1rem;">
 							<li class="nav-item">
 								<a class="nav-link" href="https://ibankapp.ayabank.com/" target="_blank">
-									<img src="{{ url('/images/register_icon.png') }}" class="img-fluid">&nbsp;Register
+									<img src="{{ url('/images/register_icon.webp') }}" alt="AYA Bank, IBanking Register" class="img-fluid" width="13px" height="14px">&nbsp;Register
 								</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="https://www.ayaibanking.com/ibLogin.aspx" target="_blank">
-									<img src="{{ url('/images/login_icon.png') }}" class="img-fluid">&nbsp;Login
+									<img src="{{ url('/images/login_icon.webp') }}" alt="AYA Bank, IBanking Login" class="img-fluid" width="13px" height="14px">&nbsp;Login
 								</a>
 							</li>
 						</ul>
@@ -32,34 +32,34 @@
 							@else
 								<li class="nav-item">
 							@endif
-								<a class="nav-link active" aria-current="page" href="{{ url('/') }}">Home</a>
+								<a class="nav-link header-main-menu active" aria-current="page" href="{{ url('/') }}">Home</a>
 							</li>
 							@if($page == 'personal_banking')
 								<li class="nav-item personal-banking-li active">
 							@else
 								<li class="nav-item personal-banking-li">
 							@endif
-								<a class="nav-link" href="#">Personal Banking</a>
+								<span class="nav-link header-main-menu">Personal Banking</span>
 								<div class="personal-dropdown-content">
 									<div class="row" style="width: 100%;">
 										<div class="col-md-4 left-menu-div">
 											<div class="row menu-link personal-menu-ac-sav-link menu-active ">
-												<a href="#">ACCOUNTS AND SAVINGS</a>
+												<span>ACCOUNTS AND SAVINGS</span>
 											</div>
 											<div class="row menu-link personal-menu-borrow-link">
-												<a href="#">BORROWING</a>
+												<span>BORROWING</span>
 											</div>
 											<div class="row menu-link personal-menu-remit-link">
-												<a href="#">REMITTANCE AND PAYMENTS</a>
+												<span>REMITTANCE AND PAYMENTS</span>
 											</div>
 											<div class="row menu-link personal-menu-premium-link">
-												<a href="#">ROYAL BANKING</a>
+												<span>ROYAL BANKING</span>
 											</div>
 											<div class="row menu-link personal-menu-ins-link">
-												<a href="#">INSURANCE</a>
+												<span>INSURANCE</span>
 											</div>
 											<div class="row menu-link personal-menu-other-link">
-												<a class="other-menu" href="#">OTHER SERVICES</a>
+												<span class="other-menu">OTHER SERVICES</span>
 											</div>
 
 											<div class="space-60"></div>
@@ -70,7 +70,7 @@
 												<div class="row">
 													<div class="col">
 														<p class="fw-bold">
-															<a href="{{ url('/personal-banking/account-saving/saving-deposit') }}">SAVING DEPOST</a>
+															<a href="{{ url('/personal-banking/account-saving/saving-deposit') }}">SAVING DEPOSIT</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/personal-banking/account-saving/saving-deposit/aya-regular-saving') }}">AYA Regular Saving</a>
@@ -90,7 +90,7 @@
 													</div>
 													<div class="col-md-4">
 														<p class="fw-bold">
-															<a href="{{ url('/personal-banking/account-saving/current-deposit') }}">CURRENT DEPOST</a>
+															<a href="{{ url('/personal-banking/account-saving/current-deposit') }}">CURRENT DEPOSIT</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/personal-banking/account-saving/current-deposit/regular-current-account') }}">Regular Current Account</a>
@@ -109,7 +109,7 @@
 												<div class="row" style="margin-top: -35px;">
 													<div class="col">
 														<p class="fw-bold">
-															<a href="{{ url('/personal-banking/account-saving/call-deposit') }}">CALL DEPOST</a>
+															<a href="{{ url('/personal-banking/account-saving/call-deposit') }}">CALL DEPOSIT</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/personal-banking/account-saving/call-deposit/premium-call-deposit') }}">Premium Call Deposit</a>
@@ -120,7 +120,7 @@
 													</div>
 													<div class="col">
 														<p class="fw-bold">
-															FIXED DEPOST
+															FIXED DEPOSIT
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/personal-banking/account-saving/fixed-deposit') }}">Fixed Deposit</a>
@@ -252,27 +252,27 @@
 							@else
 								<li class="nav-item business-banking-li">
 							@endif
-								<a class="nav-link" href="#">Business Banking</a>
+								<span class="nav-link header-main-menu">Business Banking</span>
 								<div class="business-dropdown-content">
 									<div class="row" style="width: 100%;">
 										<div class="col-md-4 left-menu-div">
 											<div class="row menu-link business-menu-ac-sav-link menu-active ">
-												<a>ACCOUNTS AND SAVINGS</a>
+												<span>ACCOUNTS AND SAVINGS</span>
 											</div>
 											<div class="row menu-link business-menu-remit-link">
-												<a>REMITTANCE AND PAYMENTS</a>
+												<span>REMITTANCE AND PAYMENTS</span>
 											</div>
 											<div class="row menu-link business-menu-borrow-link">
-												<a>BORROWING</a>
+												<span>BORROWING</span>
 											</div>
 											<div class="row menu-link business-menu-trade-link">
-												<a>TRADE</a>
+												<span>TRADE</span>
 											</div>
 											<div class="row menu-link business-menu-cash-management-link">
-												<a>CASH MANAGEMENT</a>
+												<span>CASH MANAGEMENT</span>
 											</div>
 											<div class="row menu-link business-menu-ins-link">
-												<a class="other-menu">INSURANCE</a>
+												<span class="other-menu">INSURANCE</span>
 											</div>
 
 											<div class="space-60"></div>
@@ -413,27 +413,27 @@
 							@else
 								<li class="nav-item digital-services-li">
 							@endif
-								<a class="nav-link" href="#">Digital Services</a>
+								<span class="nav-link header-main-menu">Digital Services</span>
 								<div class="digital-dropdown-content">
 									<div class="row" style="width: 100%;">
 										<div class="col-md-4 left-menu-div">
 											<div class="row menu-link digital-menu-online-pay-services-link menu-active ">
-												<a>ONLINE PAYMENT SERVICES</a>
+												<span>ONLINE PAYMENT SERVICES</span>
 											</div>
 											<div class="row menu-link digital-menu-card-services-link">
-												<a>CARD SERVICES</a>
+												<span>CARD SERVICES</span>
 											</div>
 											<div class="row menu-link digital-menu-atm-link">
-												<a>ATM</a>
+												<span>ATM</span>
 											</div>
 											<div class="row menu-link digital-menu-wallet-solutions-link">
-												<a>WALLET SOLUTION</a>
+												<span>WALLET SOLUTION</span>
 											</div>
 											<div class="row menu-link digital-menu-guidlines-link">
-												<a class="other-menu">GUIDELINE</a>
+												<span class="other-menu">GUIDELINE</span>
 											</div>
 											<div class="row menu-link ">
-												<a class="other-menu">&nbsp;</a>
+												<span class="other-menu">&nbsp;</span>
 											</div>
 
 											<div class="space-60"></div>
@@ -557,27 +557,27 @@
 							@else
 								<li class="nav-item about-aya-li">
 							@endif
-								<a class="nav-link" href="#">About AYA</a>
+								<span class="nav-link header-main-menu">About AYA</span>
 								<div class="about-aya-dropdown-content">
 									<div class="row" style="width: 100%;">
 										<div class="col-md-4 left-menu-div">
 											<div class="row menu-link about-aya-menu-who-we-are-link menu-active">
-												<a>WHO WE ARE</a>
+												<span>WHO WE ARE</span>
 											</div>
 											<div class="row menu-link about-aya-menu-governance-link">
-												<a>GOVERNANCE</a>
+												<span>GOVERNANCE</span>
 											</div>
 											<div class="row menu-link about-aya-menu-newsroom-link">
-												<a>NEWSROOM</a>
+												<span>NEWSROOM</span>
 											</div>
 											<div class="row menu-link">
-												<a class="other-menu">&nbsp;</a>
+												<span class="other-menu">&nbsp;</span>
 											</div>
 											<div class="row menu-link">
-												<a class="other-menu">&nbsp;</a>
+												<span class="other-menu">&nbsp;</span>
 											</div>
 											<div class="row menu-link">
-												<a class="other-menu">&nbsp;</a>
+												<span class="other-menu">&nbsp;</span>
 											</div>
 
 											<div class="space-60"></div>
@@ -632,19 +632,13 @@
 															<a href="{{ url('/about-aya/who-we-are/our-strategies/corporate-strategy') }}">Corporate Strategy</a>
 														</p>
 														<p class="m-b-5 d-none">
-															<a href="">Business  Model</a>
+															<span>Business Model</span>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/about-aya/who-we-are/our-strategies/stakeholder-management') }}" >Stakeholder Management</a>
 														</p>
 													</div>
 													<div class="col-md-5">
-														<!-- <p class="fw-bold">
-															INVESTOR RELATIONS
-														</p>
-														<p class="m-b-5">
-															<a href="">Investor Relations</a>
-														</p> -->
 													</div>
 												</div>
 											</div>
@@ -655,10 +649,10 @@
 															CAREER
 														</p>
 														<p class="m-b-5">
-															<a href="">Life at AYA</a>
+															<span>Life at AYA</span>
 														</p>
 														<p class="m-b-5">
-															<a href="">AYA Culture</a>
+															<span>AYA Culture</span>
 														</p>
 														<p class="m-b-5">
 															<a href="https://saltnpixel.com/AYABank/AYABank_Employee_Development.html" target="_blank">Employee Development</a>
@@ -690,33 +684,13 @@
 														<p class="m-b-5">
 															<a href="{{ url('/about-aya/governance/corporate-governance#role-of-committees') }}">Role of Committees</a>
 														</p>
-														<p class="mb-20">
+														<p class="m-b-5">
 															<a href="{{ url('/about-aya/governance/corporate-governance#committee-meeting-attendance') }}">Committee Meeting & Attendance</a>
 														</p>
-														<!-- <p class="mb-20">
-															<a href="">Code of Ethical Conduct</a>
-														</p> -->
-													</div>
-													<!-- <div class="col-md-5">
-														<p class="fw-bold">
-															<a href="https://saltnpixel.com/AYABank/AYABank_CorporatePolicy.html" target="_blank">CORPORATE POLICIES</a>
-														</p>
-														<p class="m-b-5">
-															<a href="">People</a>
-														</p>
-														<p class="m-b-5">
-															<a href="">Corporate Affairs</a>
-														</p>
-														<p class="m-b-5">
-															<a href="">Creditors’ Rights</a>
-														</p>
-														<p class="m-b-5">
-															<a href="">Compliance</a>
-														</p>
 														<p class="mb-20">
-															<a href="">Finance</a>
+															<a href="{{ url('/about-aya/governance/corporate-governance#code-ethical-conduct') }}">Code of Ethical Conduct</a>
 														</p>
-													</div> -->
+													</div>
 													<div class="col-md-5">
 														<p class="fw-bold">
 															COMPLIANCE
@@ -744,42 +718,12 @@
 															<a href="https://saltnpixel.com/AYABank/AYABank_Sustainability.html" target="_blank">SUSTAINABILITY</a>
 														</p>
 														<p class="m-b-5">
-															<a href="">Our Commitment</a>
+															<span>Our Commitment</span>
 														</p>
 														<p class="m-b-5">
 															<a href="https://saltnpixel.com/AYABank/AYABank_UNGC_Commitment.html" target="_blank">UNGC Commitment</a>
 														</p>
 													</div>
-													<!-- <div class="col-md-5">
-														<p class="fw-bold">
-															OUR APPROACH
-														</p>
-														<p class="m-b-5">
-															<a href="">Social Sustainability</a>
-														</p>
-														<p class="m-b-5">
-															<a href="">Environment Sustainability</a>
-														</p>
-														<p class="mb-30">
-															<a href="">Economic Sustainability</a>
-														</p>
-													</div> -->
-													<!-- <div class="col-md-5">
-														<p class="fw-bold">
-															AVENUE TO SUSTAIN
-														</p>
-														<p class="mb-30">
-															<a href="">Non-financial performance</a>
-														</p>
-													</div> -->
-													<!-- <div class="col-md-5">
-														<p class="fw-bold">
-															CORPORATE SOCIAL RESPONSIBILITY
-														</p>
-														<p class="m-b-5">
-															<a href="">Corporate Social Responsibility</a>
-														</p>
-													</div> -->
 												</div>
 											</div>
 											<div class="about-aya-menu-links about-aya-newsroom-menu d-none">
@@ -791,15 +735,6 @@
 														<p class="m-b-5">
 															<a href="{{ url('/about-aya/news-room/corporate-news/') }}">Corporate News</a>
 														</p>
-														<!-- <p class="m-b-5">
-															<a href="">CSR News</a>
-														</p>
-														<p class="m-b-5">
-															<a href="">Press Releases</a>
-														</p>
-														<p class="m-b-5">
-															<a href="">Announcements</a>
-														</p> -->
 														<p class="m-b-5">
 															<a href="{{ url('/about-aya/news-room/reports') }}">Reports</a>
 														</p>
@@ -813,16 +748,16 @@
 															NETWORK
 														</p>
 														<p class="m-b-5">
-															<a href="">Correspondent Banks</a>
+															<span>Correspondent Banks</span>
 														</p>
 														<p class="m-b-5">
-															<a href="">Branch Locations</a>
+															<span>Branch Locations</span>
 														</p>
 														<p class="m-b-5">
-															<a href="">FX Locations</a>
+															<span>FX Locations</span>
 														</p>
 														<p class="m-b-5">
-															<a href="">ATM Locations</a>
+															<span>ATM Locations</span>
 														</p>
 													</div>
 												</div>
@@ -831,11 +766,11 @@
 									</div>
 								</div>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#searchBox" >
-									<span class="tf-icons bx bx-search"></span>
-								</a>
-							</li>
+							<!--<li class="nav-item">-->
+							<!--	<a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#searchBox" >-->
+							<!--		<span class="tf-icons bx bx-search"></span>-->
+							<!--	</a>-->
+							<!--</li>-->
 						</ul>
 					</div>
 				</div>
@@ -847,16 +782,16 @@
 <nav class="navbar navbar-default mobile_menu">
     <div class="container-fluid">
         <div class="navbar-header" style="padding: 10px 0px;">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="slide-collapse" data-target="#slide-navbar-collapse" aria-expanded="false" style="margin-right: 30px;background-color: transparent;border: 1px solid #fff;border-radius: 5px;color: #fff;">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="slide-collapse" data-target="#slide-navbar-collapse" aria-expanded="false" aria-label="AYA Bank" style="margin-right: 30px;background-color: transparent;border: 1px solid #fff;border-radius: 5px;color: #fff;">
                 <span class="tf-icons bx bx-menu" style="font-size: 30px;color: #c1c1c1;"></span>
             </button>
-            <a href="{{url('/')}}"><img alt="AYA BANK" src="{{ url('/images/logo_wo_tagline_2.png') }}" class="img-fluid mobile_logo"></a>
+            <a href="{{url('/')}}"><img alt="AYA BANK" src="{{ url('/images/logo_wo_tagline_2.webp') }}" class="img-fluid mobile_logo" width="236px" height="51px"></a>
         </div>
 
         <div class="collapse navbar-collapse" id="slide-navbar-collapse">
             <ul class="nav navbar-nav">
                 <li class="active" style="padding: 20px;">
-                    <a href="{{url('/')}}"><img src="{{url('/images/logo_wo_tagline_2.png')}}" class="img-fluid" style="width: 50%"></a>
+                    <a href="{{url('/')}}"><img src="{{url('/images/logo_wo_tagline_2.webp')}}" alt="AYA BANK" class="img-fluid" style="width: 50%"></a>
                     <button class="elementskit-menu-close elementskit-menu-toggler" id="navbar_close" type="button" style="float: right;border: 1px solid rgba(0,0,0,.5);color: rgba(51,51,51,.5);padding: 5px 10px 5px 10px;border-radius: 5px;">X</button>
                 </li>
                 <li style="height: 20px;"></li>
@@ -870,19 +805,19 @@
 
                 <li class="personal-banking-li" style="padding: 10px 0px;position: relative;">
                 	@if($page == 'personal_banking')
-                    	<a class="dropdown-toggle menu_link" style="color: #A5000B;padding-right: 140px !important;">
+                    	<span class="dropdown-toggle menu_link" style="color: #A5000B;padding-right: 140px !important;">
                     @else
-                    	<a class="dropdown-toggle menu_link" style="color: #222222;padding-right: 140px !important;">
+                    	<span class="dropdown-toggle menu_link" style="color: #222222;padding-right: 140px !important;">
                     @endif
                     	PERSONAL BANKING &nbsp; <i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
-                    </a>
+                    </span>
                     <div class="col-12 personal-dropdown-content left-menu-div" style="display: none;">
 						<div class="row nav-item dropdown menu-link personal-menu-ac-sav-link">
-							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ACCOUNTS AND SAVINGS</a>
+							<span class="nav-link" href="javascript:void(0)" id="PAnavbarDropdown" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ACCOUNTS AND SAVINGS</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-3">
-										<a href="{{ url('/personal-banking/account-saving/saving-deposit') }}">SAVING DEPOST</a>
+										<a href="{{ url('/personal-banking/account-saving/saving-deposit') }}">SAVING DEPOSIT</a>
 									</p>
 								</li>
 								<li>
@@ -913,7 +848,7 @@
 
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-3">
-										<a href="{{ url('/personal-banking/account-saving/current-deposit') }}">CURRENT DEPOST</a>
+										<a href="{{ url('/personal-banking/account-saving/current-deposit') }}">CURRENT DEPOSIT</a>
 									</p>
 								</li>
 								<li>
@@ -939,7 +874,7 @@
 
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-3">
-										<a href="{{ url('/personal-banking/account-saving/call-deposit') }}">CALL DEPOST</a>
+										<a href="{{ url('/personal-banking/account-saving/call-deposit') }}">CALL DEPOSIT</a>
 									</p>
 								</li>
 								<li>
@@ -966,7 +901,7 @@
 							</ul>
 						</div>
 						<div class="row menu-link personal-menu-borrow-link">
-							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BORROWING</a>
+							<span class="nav-link" data-bs-toggle="dropdown"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BORROWING</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-3">
@@ -991,42 +926,30 @@
 							</ul>
 						</div>
 						<div class="row menu-link personal-menu-remit-link">
-							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">REMITTANCE AND PAYMENTS</a>
+							<span class="nav-link" href="javascript:void(0)" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">REMITTANCE AND PAYMENTS</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
-									<p class="dropdown-item fw-bold m-b-5 mt-3">
-										REMITTANCE AND PAYMENTS
-									</p>
-								</li>
-								<li>
-									<p class="dropdown-item m-b-5 m-l-20">
+									<p class="dropdown-item m-b-5 ">
 										<a href="{{ url('/personal-banking/remittance/local') }}">Local Remittance</a>
 									</p>
 								</li>
 								<li>
-									<p class="dropdown-item m-b-5 m-l-20">
+									<p class="dropdown-item m-b-5 ">
 										<a href="{{ url('/personal-banking/remittance/international') }}">International Remittance</a>
 									</p>
 								</li>
 								<li>
-									<p class="dropdown-item mb-20 m-l-20">
+									<p class="dropdown-item mb-20 ">
 										<a href="{{ url('/personal-banking/remittance/payment') }}">Payments</a>
 									</p>
 								</li>
 							</ul>
 						</div>
 						<div class="row menu-link personal-menu-premium-link">
-							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ROYAL BANKING</a>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li>
-									<p class="dropdown-item mb-20 mt-3">
-										<a href="{{ url('/personal-banking/royal-banking') }}">Royal Banking</a>
-									</p>
-								</li>
-							</ul>
+							<a class="nav-link royal-banking-mobile" href="{{ url('/personal-banking/royal-banking') }}" >ROYAL BANKING</a>
 						</div>
 						<div class="row menu-link personal-menu-ins-link">
-							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">INSURANCE</a>
+							<span class="nav-link" href="javascript:void(0)" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">INSURANCE</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-3">
@@ -1034,32 +957,32 @@
 									</p>
 								</li>
 								<li>
-									<p class="dropdown-item m-b-5 mt-2">
+									<p class="dropdown-item m-b-5 m-l-20 mt-2">
 										<a href="{{ url('/personal-banking/insurance/health') }}">Health Insurance</a>
 									</p>
 								</li>
 								<li>
-									<p class="dropdown-item m-b-5">
+									<p class="dropdown-item m-b-5 m-l-20">
 										<a href="{{ url('/personal-banking/insurance/motor') }}">Motor Insurance</a>
 									</p>
 								</li>
 								<li>
-									<p class="dropdown-item m-b-5">
+									<p class="dropdown-item m-b-5 m-l-20">
 										<a href="{{ url('/personal-banking/insurance/fire') }}">Fire Insurance</a>
 									</p>
 								</li>
 								<li>
-									<p class="dropdown-item m-b-5">
+									<p class="dropdown-item m-b-5 m-l-20">
 										<a href="{{ url('/personal-banking/insurance/personal-accident') }}">Personal Accident Insurance</a>
 									</p>
 								</li>
 								<li>
-									<p class="dropdown-item m-b-5">
+									<p class="dropdown-item m-b-5 m-l-20 m-l-20">
 										<a href="{{ url('/personal-banking/insurance/travel/aya-go') }}">AYA Go Travel Insurance</a>
 									</p>
 								</li>
 								<li>
-									<p class="dropdown-item mb-20">
+									<p class="dropdown-item m-l-20 mb-20">
 										<a href="{{ url('/personal-banking/insurance/travel/aya-joy') }}">AYA Joy Travel Insurance</a>
 									</p>
 								</li>
@@ -1091,7 +1014,7 @@
 							</ul>
 						</div>
 						<div class="row menu-link personal-menu-other-link">
-							<a class="other-menu nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">OTHER SERVICES</a>
+							<span class="other-menu nav-link" href="javascript:void(0)" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">OTHER SERVICES</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
@@ -1109,11 +1032,11 @@
                 </li>
                 
                 <li class="business-banking-li" style="padding: 10px 0px;position: relative;">
-                    <a class="dropdown-toggle menu_link" style="color: #222222;padding-right: 140px !important;">BUSINESS BANKING &nbsp; <i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i></a>
+                    <span class="dropdown-toggle menu_link" style="color: #222222;padding-right: 140px !important;">BUSINESS BANKING &nbsp; <i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i></span>
 
                     <div class="col-12 business-dropdown-content left-menu-div" style="display: none;">
 						<div class="row nav-item dropdown menu-link business-menu-ac-sav-link">
-							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ACCOUNTS AND SAVINGS</a>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ACCOUNTS AND SAVINGS</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
@@ -1138,7 +1061,7 @@
 							</ul>
 						</div>
 						<div class="row menu-link business-menu-remit-link">
-							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">REMITTANCE AND PAYMENTS</a>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">REMITTANCE AND PAYMENTS</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
@@ -1153,7 +1076,7 @@
 							</ul>
 						</div>
 						<div class="row menu-link business-menu-borrow-link">
-							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BORROWING</a>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BORROWING</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
@@ -1173,7 +1096,7 @@
 							</ul>
 						</div>
 						<div class="row menu-link business-menu-trade-link">
-							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TRADE</a>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TRADE</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
@@ -1188,7 +1111,7 @@
 							</ul>
 						</div>
 						<div class="row menu-link business-menu-cash-management-link">
-							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CASH MANAGEMENT</a>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CASH MANAGEMENT</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
@@ -1213,7 +1136,7 @@
 							</ul>
 						</div>
 						<div class="row menu-link business-menu-ins-link">
-							<a class="other-menu nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">INSURANCE</a>
+							<span class="other-menu nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">INSURANCE</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
@@ -1260,11 +1183,11 @@
 					</div>
                 </li>
                 <li class="digital-services-li" style="padding: 10px 0px;position: relative;">
-                    <a class="dropdown-toggle menu_link" style="color: #222222;padding-right: 140px !important;">DIGITAL SERVICES &nbsp; <i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i></a>
+                    <span class="dropdown-toggle menu_link" style="color: #222222;padding-right: 140px !important;">DIGITAL SERVICES &nbsp; <i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i></span>
 
                     <div class="col-12 digital-dropdown-content left-menu-div" style="display: none;">
 						<div class="row nav-item dropdown menu-link business-menu-ac-sav-link">
-							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ONLINE PAYMENT SERVICES</a>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ONLINE PAYMENT SERVICES</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
@@ -1284,7 +1207,7 @@
 							</ul>
 						</div>
 						<div class="row menu-link business-menu-remit-link">
-							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CARD SERVICES</a>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CARD SERVICES</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-2">
@@ -1344,7 +1267,7 @@
 							</ul>
 						</div>
 						<div class="row menu-link business-menu-borrow-link">
-							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ATM</a>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ATM</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item mb-20 mt-2">
@@ -1354,7 +1277,7 @@
 							</ul>
 						</div>
 						<div class="row menu-link business-menu-trade-link">
-							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WALLET SOLUTION</a>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WALLET SOLUTION</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item mb-20 mt-2">
@@ -1364,7 +1287,7 @@
 							</ul>
 						</div>
 						<div class="row menu-link business-menu-cash-management-link">
-							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GUIDELINE</a>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GUIDELINE</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
@@ -1381,11 +1304,11 @@
 					</div>
                 </li>
                 <li class="about-aya-li" style="padding: 10px 0px;position: relative;">
-                    <a class="dropdown-toggle menu_link" style="color: #222222;padding-right: 140px !important;">ABOUT AYA &nbsp; <i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i></a>
+                    <span class="dropdown-toggle menu_link" style="color: #222222;padding-right: 140px !important;">ABOUT AYA &nbsp; <i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i></span>
 
                     <div class="col-12 about-aya-dropdown-content left-menu-div" style="display: none;">
 						<div class="row nav-item dropdown menu-link about-aya-menu-who-we-are-link">
-							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WHO WE ARE</a>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WHO WE ARE</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-2">
@@ -1402,21 +1325,6 @@
 										<a href="{{ url('/about-aya/who-we-are/corporate-profile/mission-corporate-value-brand-promise') }}">Mission, Corporate Values and <br>Brand Promise</a>
 									</p>
 								</li>
-								<!-- <li>
-									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="http://saltnpixel.com/AYABank/AYABank_CorporateGoal.html" target="_blank">Corporate Goals</a>
-									</p>
-								</li>
-								<li>
-									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="https://saltnpixel.com/AYABank/AYABank_CorporateMilestone.html" target="_blank">Corporate Milestones</a>
-									</p>
-								</li>
-								<li>
-									<p class="dropdown-item m-l-20 mb-20">
-										<a href="https://saltnpixel.com/AYABank/AYABank_Awards.html" target="_blank">Awards</a>
-									</p>
-								</li> -->
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-2">
 										LEADERSHIP
@@ -1452,11 +1360,6 @@
 										<a href="{{ url('/about-aya/who-we-are/our-strategies/corporate-strategy') }}">Corporate Strategy</a>
 									</p>
 								</li>
-								<!-- <li>
-									<p class="dropdown-item m-b-5 m-l-20 d-none">
-										<a href="">Business Model</a>
-									</p>
-								</li> -->
 								<li>
 									<p class="dropdown-item m-l-20 mb-20">
 										<a href="{{ url('/about-aya/who-we-are/our-strategies/stakeholder-management') }}" >Stakeholder Management</a>
@@ -1465,16 +1368,16 @@
 							</ul>
 						</div>
 						<div class="d-none row menu-link about-aya-menu-career-link">
-							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CAREER</a>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CAREER</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
-										<a href="">Life at AYA</a>
+										<span >Life at AYA</span>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5">
-										<a href="">AYA Culture</a>
+										<span >AYA Culture</span>
 									</p>
 								</li>
 								<li>
@@ -1490,7 +1393,7 @@
 							</ul>
 						</div>
 						<div class="row menu-link about-aya-menu-governance-link">
-							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GOVERNANCE</a>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GOVERNANCE</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-2">
@@ -1529,7 +1432,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item mb-20 m-l-20">
-										<a href="">Code of Ethical Conduct</a>
+										<a href="{{ url('/about-aya/governance/corporate-governance#code-ethical-conduct') }}">Code of Ethical Conduct</a>
 									</p>
 								</li>
 								<li>
@@ -1557,40 +1460,10 @@
 										<a href="{{ url('/about-aya/governance/risk-management') }}">Risk Management</a>
 									</p>
 								</li>
-								<!-- <li>
-									<p class="dropdown-item fw-bold m-b-5">
-										<a href="https://saltnpixel.com/AYABank/AYABank_CorporatePolicy.html" target="_blank">CORPORATE POLICIES</a>
-									</p>
-								</li>
-								<li>
-									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="">People</a>
-									</p>
-								</li>
-								<li>
-									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="">Corporate Affairs</a>
-									</p>
-								</li>
-								<li>
-									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="">Creditors’ Rights</a>
-									</p>
-								</li>
-								<li>
-									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="">Compliance</a>
-									</p>
-								</li>
-								<li>
-									<p class="dropdown-item mb-20 m-l-20">
-										<a href="">Finance</a>
-									</p>
-								</li> -->
 							</ul>
 						</div>
 						<div class="d-none row menu-link about-aya-menu-sustainability-link">
-							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SUSTAINABILITY</a>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SUSTAINABILITY</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-2">
@@ -1599,7 +1472,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="">Our Commitment</a>
+										<span>Our Commitment</span>
 									</p>
 								</li>
 								<li>
@@ -1614,17 +1487,17 @@
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="">Social Sustainability</a>
+										<span>Social Sustainability</span>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="">Environment Sustainability</a>
+										<span>Environment Sustainability</span>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item mb-20 m-l-20">
-										<a href="">Economic Sustainability</a>
+										<span>Economic Sustainability</span>
 									</p>
 								</li>
 								<li>
@@ -1634,7 +1507,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item mb-20 m-l-20">
-										<a href="">Non-financial performance</a>
+										<span>Non-financial performance</span>
 									</p>
 								</li>
 								<li>
@@ -1644,34 +1517,19 @@
 								</li>
 								<li>
 									<p class="dropdown-item mb-20 m-l-20">
-										<a href="">Corporate Social Responsibility</a>
+										<span>Corporate Social Responsibility</span>
 									</p>
 								</li>
 							</ul>
 						</div>
 						<div class="row menu-link about-aya-menu-newsroom-link">
-							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">NEWSROOM</a>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">NEWSROOM</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
 										<a href="{{ url('/about-aya/news-room/corporate-news/') }}">Corporate News</a>
 									</p>
 								</li>
-								<!-- <li>
-									<p class="dropdown-item m-b-5">
-										<a href="">CSR News</a>
-									</p>
-								</li>
-								<li>
-									<p class="dropdown-item m-b-5">
-										<a href="">Press Releases</a>
-									</p>
-								</li>
-								<li>
-									<p class="dropdown-item m-b-5">
-										<a href="">Announcements</a>
-									</p>
-								</li> -->
 								<li>
 									<p class="dropdown-item mb-20">
 										<a href="{{ url('/about-aya/news-room/reports') }}">Reports</a>
@@ -1680,26 +1538,26 @@
 							</ul>
 						</div>
 						<div class="d-none row menu-link about-aya-menu-network-link">
-							<a class="nav-link" href="javascript:void(0)" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">NETWORK</a>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">NETWORK</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
-										<a href="">Correspondent Banks</a>
+										<span>Correspondent Banks</span>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5">
-										<a href="">Branch Locations</a>
+										<span>Branch Locations</span>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5">
-										<a href="">FX Locations</a>
+										<span>FX Locations</span>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item mb-20">
-										<a href="">ATM Locations</a>
+										<span>ATM Locations</span>
 									</p>
 								</li>
 							</ul>
@@ -1707,22 +1565,22 @@
 					</div>
                 </li>
                 <li style="padding: 10px 0px;">
-                    <a href="https://ibankapp.ayabank.com/" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">REGISTER</a>
+                    <span href="https://ibankapp.ayabank.com/" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">REGISTER</span>
                 </li>
                 <li style="padding: 10px 0px;">
-                    <a href="https://www.ayaibanking.com/ibLogin.aspx" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">LOGIN</a>
+                    <span href="https://www.ayaibanking.com/ibLogin.aspx" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">LOGIN</span>
                 </li>
                 <!-- <li style="padding: 10px 0px;">
-                    <a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">ENGLISH</a>
+                    <span class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">ENGLISH</span>
                 </li>
                 <li style="padding: 10px 0px;">
-                    <a href="" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">MYANMAR</a>
+                    <span class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #222222;">MYANMAR</span>
                 </li> -->
-                <li style="padding: 10px 15px;">
-                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#searchBox" >
-						<span class="tf-icons bx bx-search"></span>
-					</a>
-                </li>
+     <!--           <li style="padding: 10px 15px;">-->
+     <!--               <span class="nav-link" data-bs-toggle="modal" data-bs-target="#searchBox" >-->
+					<!--	<span class="tf-icons bx bx-search"></span>-->
+					<!--</span>-->
+     <!--           </li>-->
             </ul>
             
         </div>
@@ -1733,7 +1591,7 @@
     <div class="modal-dialog" id="searchModalDialog" role="document" style="background-color: transparent;top: 39%;">
         <div class="modal-content" style="background-color: transparent;border-color: transparent;box-shadow: none !important;">
             <div class="modal-body" style="padding-right: 0px;">
-                <form role="search" method="get" class="ekit-search-group" action="">
+                <form role="search" method="get" class="ekit-search-group" >
                     <input type="search" id="search_txt" class="ekit_search-field" placeholder="Search..." value="" name="s">
                     <button type="submit" class="ekit_search-button" style="background-color: transparent;border: none;color: #fff;position: absolute;top: 40%;right: 3%;">
                         <i aria-hidden="true" class="icon icon-search11"></i>

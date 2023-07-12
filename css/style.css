@@ -1,10 +1,3 @@
-.accordion-button:not(.collapsed)::after {
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMCAxMGgyNHY0aC0yNHoiLz48L3N2Zz4=) !important;
-    transform: rotate(180deg) !important;
-}
-.accordion-button::after {
-	background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjQgMTBoLTEwdi0xMGgtNHYxMGgtMTB2NGgxMHYxMGg0di0xMGgxMHoiLz48L3N2Zz4=) !important;
-}
 .accordion-button {
 	font-weight: 500 !important;
 	color: #4e4e4e !important;
@@ -293,7 +286,7 @@
 }
 .news_date {
 	font-size: 12px;
-	color: #aaaaaa;
+	/*color: #aaaaaa;*/
 	padding-left: 10px;
 }
 @media (max-width: 1300px) and (min-width: 1000px) {

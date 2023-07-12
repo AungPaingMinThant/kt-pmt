@@ -23,7 +23,7 @@
 					<div class="carousel-inner active">
 						<div class="carousel-item carousel-item-1 active">
 							<video class="img-fluid xl_slide" autoplay loop muted plays-inline>
-								<source src="{{ url('/images/home/landing_1920_600.webm') }}" type="video/webm" />
+								<source src="{{ url('/images/home/landing_1920_600.webm') }}" poster="{{ url('/images/home/landing_1920_600_poster.webp') }}" type="video/webm" />
 							</video>
 							<video class="desk_slide" autoplay loop muted plays-inline>
 								<source src="{{ url('/images/home/desk.webm') }}" poster="{{ url('/images/home/desk_poster.jpeg') }}" type="video/mp4" />
@@ -171,10 +171,10 @@
 									<p class="app_title">AYA mBaning 2.0 Mobile APP</p>
 									<p class="app_desc"><a href="{{ url('/digital-services/online-payment-services/mobile-banking') }}">Everyday banking made easy with AYA mBanking</a></p>
 									<div class="col-md-10 apps_link_div">
-										<a href="http://bit.ly/ayambankingios">
+										<a href="http://bit.ly/ayambankingios" target="_blank">
 											<img src="{{ url('/images/apple.png') }}" class="img-fluid mbaning_img_ios" loading="lazy">
 										</a>
-										<a href="http://bit.ly/ayambankingandriod">
+										<a href="http://bit.ly/ayambankingandriod" target="_blank">
 											<img src="{{ url('/images/google.png') }}" class="img-fluid mbaning_img_andriod" loading="lazy">
 										</a>
 									</div>
@@ -189,10 +189,10 @@
 									<p class="app_title">AYA PAY Wallet Mobile APP</p>
 									<p class="ayapay_app_desc"><a href="{{ url('/digital-services/wallet-solution/aya-pay') }}">AYA PAY Digital Wallet Built with Love</a></p>
 									<div class="col-md-10 ayapay_app_link_div">
-										<a href="https://apps.apple.com/us/app/aya-pay-wallet/id1485836756">
+										<a href="https://apps.apple.com/us/app/aya-pay-wallet/id1485836756" target="_blank">
 											<img src="{{ url('/images/apple.png') }}" class="img-fluid ayapay_img_ios">
 										</a>
-										<a href="https://play.google.com/store/apps/details?id=com.ayaplus.subscriber">
+										<a href="https://play.google.com/store/apps/details?id=com.ayaplus.subscriber" target="_blank">
 											<img src="{{ url('/images/google.png') }}" class="img-fluid ayapay_img_andriod">
 										</a>
 									</div>
@@ -223,12 +223,13 @@
 									</div>
 								</div>
 							</div>
-							<div class="row CTA_section_1_info d-block d-sm-none">
+							<div class="row CTA_section_1_info CTA_section_1_info_mobile d-block d-sm-none" id="CTA_section_1_info_mobile">
 								<div class="col-md-12 text-center">
 									<p class="CTA_desc mb-10">Match your needs with our comprehensive personal borrowing plan</p>
 									<label class="theme_text_color" for="inputGroupSelect01mobile" style="font-size: 16px;margin-bottom: 5px;">I want to &nbsp;</label>
-									<select class="form-select" name="inputGroupSelect01mobile" id="inputGroupSelect01mobile">
-										<option value="1" id="inputGroupSelect01_option_1" selected>get a home loan to fulfil my dream</option>
+									<select class="form-select inputGroupSelect01mobile" name="inputGroupSelect01mobile" id="inputGroupSelect01mobile">
+										<option value="">-- Select an option --</option>
+										<option value="1" id="inputGroupSelect01_option_1">get a home loan to fulfil my dream</option>
 										<option value="2" class="inputGroupSelect01_option">apply car loan to own my dream car</option>
 										<option value="3" class="inputGroupSelect01_option">plan my child future with education loan</option>
 									</select>
@@ -261,18 +262,19 @@
 									</div>
 								</div>
 							</div>
-							<div class="row CTA_section_2_info d-block d-sm-none">
+							<div class="row CTA_section_2_info CTA_section_2_info_mobile d-block d-sm-none" id="CTA_section_2_info_mobile">
 								<div class="col-md-12 text-center">
 									<p class="CTA_desc mb-10">Let us guide you what you are looking for your business</p>
 									<label class="theme_text_color" for="inputGroupSelect02mobile" style="font-size: 16px;margin-bottom: 5px;">I want to &nbsp;</label>
-									<select class="form-select" id="inputGroupSelect02mobile">
-										<option value="0" selected>get corporate loan for business expansion</option>
-										<option value="1">get business loan for project / tender contract</option>
-										<option value="2">start a small business</option>
-										<option value="3">grow towards a modern  agricultural sector</option>
-										<option value="4">get financing for heavy machinery purchases</option>
-										<option value="5">get financing for my shop to take new step</option>
-										<option value="6">get commercial vehicle loan for business needs</option>
+									<select class="form-select inputGroupSelect02mobile" id="inputGroupSelect02mobile">
+										<option value="">-- Select an option --</option>
+										<option value="1">get corporate loan for business expansion</option>
+										<option value="2">get business loan for project / tender contract</option>
+										<option value="3">start a small business</option>
+										<option value="4">grow towards a modern  agricultural sector</option>
+										<option value="5">get financing for heavy machinery purchases</option>
+										<option value="6">get financing for my shop to take new step</option>
+										<option value="7">get commercial vehicle loan for business needs</option>
 									</select>
 								</div>
 							</div>
@@ -290,7 +292,7 @@
 							<div class="row CTA_section_3_info d-none d-sm-block" id="CTA_section_3_info">
 								<div class="row">
 									<p class="CTA_desc mb-0">ATM / Branch / FX Counter Locator</p>
-									<label class="input-group-text px-3" for="inputGroupSelect03">I want to find &nbsp; <a href="{{ url('/digital-services/atm') }}" style="color: #A5000B !important;">ATM</a></label></p>
+									<label class="input-group-text px-3" for="inputGroupSelect03">I want to find &nbsp; <a href="{{ url('/digital-services/atm') }}" style="color: #a67d00 !important;">ATM</a></label></p>
 									<!-- <div class="input-group CTA_3_input_group" style="width: 70% !important;">
 										<label class="input-group-text" for="inputGroupSelect03">I want to find &nbsp;</label>
 										<select class="form-select inputGroupSelect03" id="inputGroupSelect03" style="width: 50%">
@@ -304,13 +306,14 @@
 							</div>
 							<div class="row CTA_section_3_info d-block d-sm-none">
 								<div class="col-md-12 text-center">
-									<p class="CTA_desc mb-10">ATM / Branch / FX Counter Locator</p>
-									<label class="theme_text_color" for="inputGroupSelect03mobile" style="font-size: 16px;margin-bottom: 5px;">I want to find &nbsp;</label>
-									<select class="form-select" id="inputGroupSelect03mobile">
-										<option value="0" selected>Branch</option>
-										<option value="1">ATM</option>
-										<option value="2">FX Counter</option>
-									</select>
+									<p class="CTA_desc mb-0">ATM / Branch / FX Counter Locator</p>
+									<label class="input-group-text" for="inputGroupSelect03" style="padding-left: 5rem !important;">I want to find &nbsp; <a href="{{ url('/digital-services/atm') }}" style="color: #a67d00 !important;">ATM</a></label></p>
+									<!--<label class="theme_text_color" for="inputGroupSelect03mobile" style="font-size: 16px;margin-bottom: 5px;">I want to find &nbsp;</label>-->
+									<!--<select class="form-select" id="inputGroupSelect03mobile">-->
+									<!--	<option value="0" selected>Branch</option>-->
+									<!--	<option value="1">ATM</option>-->
+									<!--	<option value="2">FX Counter</option>-->
+									<!--</select>-->
 								</div>
 							</div>
 						</div>
@@ -329,9 +332,7 @@
 				<div class="row">
 					<div class="col-md-6">
 						<div class="row">
-							<a href="">
-								<img src="{{ url('/public/'.$first_blog->featured_image) }}" class="img-fluid">
-							</a>
+							<img src="{{ url('/public/'.$first_blog->featured_image) }}" class="img-fluid">
 						</div>
 						<div class="news_content_div">
 							<div class="news_title_div">
@@ -346,7 +347,7 @@
 					<div class="col-md-6">
 						<div class="row">
 							<div class="col-md-6">
-								<div class="row news_img_div" style="background-image:  url('{{ url($second_blog->featured_image) }}');"></div>
+								<div class="row news_img_div" style="background-image:  url('{{ url("/public/".$second_blog->featured_image) }}');"></div>
 								<div class="news_content_div">
 									<a href="{{ url('/about-aya/news-room/corporate-news/'.$second_blog->permalink) }}">
 										<p class="news_title">{{ $second_blog->blog_title }}</p>
@@ -355,7 +356,7 @@
 								</div>
 							</div>
 							<div class="col-md-6">
-								<div class="row news_img_div" style="background-image:  url('{{ url($third_blog->featured_image) }}');"></div>
+								<div class="row news_img_div" style="background-image:  url('{{ url("/public/".$third_blog->featured_image) }}');"></div>
 								<div class="news_content_div">
 									<a href="{{ url('/about-aya/news-room/corporate-news/'.$third_blog->permalink) }}">
 										<p class="news_title">{{ $third_blog->blog_title }}</p>
@@ -394,19 +395,19 @@
 							<div class="col-md-7 award_icon_div">
 								<div class="row">
 									<div class="col">
-										<img src="{{ url('/images/home/3-Fastest-Growing-Retail-Bank-2014.png') }}" class="img-fluid" style="width: 70%;">
+										<img src="{{ url('/images/home/fastest_growing_retail_bank_2014.webp') }}" class="img-fluid" style="width: 70%;">
 									</div>
 									<div class="col">
-										<img src="{{ url('/images/home/2-Best-Regional-Banking-Partner-2017.png') }}" class="img-fluid" style="width: 70%;">
+										<img src="{{ url('/images/home/best_regional_banking_partner_2017.webp') }}" class="img-fluid" style="width: 70%;">
 									</div>
 									<div class="col">
-										<img src="{{ url('/images/home/2-un_global_compact.png') }}" class="img-fluid" style="width: 70%;">
+										<img src="{{ url('/images/home/un_global_compact.webp') }}" class="img-fluid" style="width: 70%;">
 									</div>
 									<div class="col">
-										<img src="{{ url('/images/home/2-Banker-of-the-Year-2014.png') }}" class="img-fluid" style="width: 70%;">
+										<img src="{{ url('/images/home/banker_of_the_year_2014.webp') }}" class="img-fluid" style="width: 70%;">
 									</div>
 									<div class="col text-center">
-										<img src="{{ url('/images/home/2-CSR-Award-2017.png') }}" class="img-fluid">
+										<img src="{{ url('/images/home/csr_award_2017.webp') }}" class="img-fluid">
 									</div>
 								</div>
 								<a class="view_more_tab_link" href="https://saltnpixel.com/AYABank/AYABank_Awards.html" target="_blank">
@@ -427,19 +428,19 @@
 
 							<div class="row">
 								<div class="col-12">
-									<img src="{{ url('/images/home/3-Fastest-Growing-Retail-Bank-2014.webp') }}" class="img-fluid" style="width: 20%;">
+									<img src="{{ url('/images/home/fastest_growing_retail_bank_2014.webp') }}" class="img-fluid" style="width: 20%;">
 								</div>
 								<div class="col-12">
-									<img src="{{ url('/images/home/2-Best-Regional-Banking-Partner-2017.webp') }}" class="img-fluid" style="width: 20%;">
+									<img src="{{ url('/images/home/best_regional_banking_partner_2017.webp') }}" class="img-fluid" style="width: 20%;">
 								</div>
 								<div class="col-12">
-									<img src="{{ url('/images/home/2-un_global_compact.webp') }}" class="img-fluid" style="width: 20%;">
+									<img src="{{ url('/images/home/un_global_compact.webp') }}" class="img-fluid" style="width: 20%;">
 								</div>
 								<div class="col-12">
-									<img src="{{ url('/images/home/2-Banker-of-the-Year-2014.webp') }}" class="img-fluid" style="width: 20%;">
+									<img src="{{ url('/images/home/banker_of_the_year_2014.webp') }}" class="img-fluid" style="width: 20%;">
 								</div>
 								<div class="col-12 text-center">
-									<img src="{{ url('/images/home/2-CSR-Award-2017.webp') }}" class="img-fluid">
+									<img src="{{ url('/images/home/csr_award_2017.webp') }}" class="img-fluid">
 								</div>
 							</div>
 						</div>
@@ -570,11 +571,11 @@
 	});
 
   	document.getElementById('layout-wrapper').addEventListener('click', function(event) {
-  		console.log(event.target.classList);
-		if (!event.target.classList.contains('CTA_section_1_info') && !event.target.classList.contains('inputGroupSelect01') && !event.target.classList.contains('input-group')) {
+		if (!event.target.classList.contains('CTA_section_1_info') && !event.target.classList.contains('inputGroupSelect01') && !event.target.classList.contains('input-group') && !event.target.classList.contains('CTA_section_1_info_mobile')) {
 			$('select[id=inputGroupSelect01] > option:first-child').text('get a home loan to fulfil my dream');
 		}
 	});
+	
 
 	$("#inputGroupSelect01").change(function(e) {
 		var dropdown = document.getElementById("inputGroupSelect01");
@@ -608,8 +609,8 @@
 		event.stopPropagation();
 	});
 
-	$("#inputGroupSelect01mobile").mouseup(function() {
-		var dropdown = document.getElementById("inputGroupSelect01");
+	$("#inputGroupSelect01mobile").change(function() {
+		var dropdown = document.getElementById("inputGroupSelect01mobile");
 		var open = $(this).data("isopen");
 
 		if (this.value === previousValue) {
@@ -623,13 +624,13 @@
 				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/education-loan';
 			}
 		} else {
-			if ($('#inputGroupSelect01 option:selected').val() == 1) {
+			if ($('#inputGroupSelect01mobile option:selected').val() == 1) {
 				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/home-loan';
 			}
-			if ($('#inputGroupSelect01 option:selected').val() == 2) {
+			if ($('#inputGroupSelect01mobile option:selected').val() == 2) {
 				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/auto-loan';
 			}
-			if ($('#inputGroupSelect01 option:selected').val() == 3) {
+			if ($('#inputGroupSelect01mobile option:selected').val() == 3) {
 				window.location.href = APP_URL+'/personal-banking/borrowing/hire-purchase/education-loan';
 			}
 		}
@@ -637,6 +638,7 @@
 		previousValue = this.value;
 
 		$(this).data("isopen", !open);
+		event.stopPropagation();
 	});
 
 	document.getElementById('CTA_section_2_info').addEventListener('click', function(event) {
@@ -647,10 +649,11 @@
 
   	document.getElementById('layout-wrapper').addEventListener('click', function(event) {
   		console.log(event.target.classList);
-		if (!event.target.classList.contains('CTA_section_2_info') && !event.target.classList.contains('inputGroupSelect02') && !event.target.classList.contains('input-group')) {
+		if (!event.target.classList.contains('CTA_section_2_info') && !event.target.classList.contains('inputGroupSelect02') && !event.target.classList.contains('input-group') && !event.target.classList.contains('CTA_section_2_info_mobile')) {
 			$('select[id=inputGroupSelect02] > option:first-child').text('get corporate loan for business expansion');
 		}
 	});
+	
 
 	$('#inputGroupSelect02').change(function(e){
 		var dropdown = document.getElementById("inputGroupSelect02");
@@ -707,53 +710,53 @@
 		$(this).data("isopen", !open);
 	});
 
-	$('#inputGroupSelect02mobile').mouseup(function(){
+	$('#inputGroupSelect02mobile').change(function(){
+		var dropdown = document.getElementById("inputGroupSelect02mobile");
 		var open = $(this).data("isopen");
-		if (open) {
-			if (this.value === previousValue2) {
-				if ($('#inputGroupSelect02mobile option:selected').val() == 0) {
-					window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#demand_loan';
-				}
-				if ($('#inputGroupSelect02mobile option:selected').val() == 1) {
-					window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#project_loan_tender_contract_loan';
-				}
-				if ($('#inputGroupSelect02mobile option:selected').val() == 2) {
-					window.location.href = APP_URL+'/business/borrowing/sme#aya_sme_loan';
-				}
-				if ($('#inputGroupSelect02mobile option:selected').val() == 3) {
-					window.location.href = APP_URL+'/business/borrowing/sme#agriculture_loan';
-				}
-				if ($('#inputGroupSelect02mobile option:selected').val() == 4) {
-					window.location.href = APP_URL+'/business/borrowing/hire-purchase#heavy_mahine_hp';
-				}
-				if ($('#inputGroupSelect02mobile option:selected').val() == 5) {
-					window.location.href = APP_URL+'/business/borrowing/hire-purchase#shop_house';
-				}
-				if ($('#inputGroupSelect02mobile option:selected').val() == 6) {
-					window.location.href = APP_URL+'/business/borrowing/hire-purchase#auto_loan_corporate';
-				}
-			} else {
-				if ($('#inputGroupSelect02mobile option:selected').val() == 0) {
-					window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#demand_loan';
-				}
-				if ($('#inputGroupSelect02mobile option:selected').val() == 1) {
-					window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#project_loan_tender_contract_loan';
-				}
-				if ($('#inputGroupSelect02mobile option:selected').val() == 2) {
-					window.location.href = APP_URL+'/business/borrowing/sme#aya_sme_loan';
-				}
-				if ($('#inputGroupSelect02mobile option:selected').val() == 3) {
-					window.location.href = APP_URL+'/business/borrowing/sme#agriculture_loan';
-				}
-				if ($('#inputGroupSelect02mobile option:selected').val() == 4) {
-					window.location.href = APP_URL+'/business/borrowing/hire-purchase#heavy_mahine_hp';
-				}
-				if ($('#inputGroupSelect02mobile option:selected').val() == 5) {
-					window.location.href = APP_URL+'/business/borrowing/hire-purchase#shop_house';
-				}
-				if ($('#inputGroupSelect02mobile option:selected').val() == 6) {
-					window.location.href = APP_URL+'/business/borrowing/hire-purchase#auto_loan_corporate';
-				}
+			
+		if (this.value === previousValue2) {
+			if ($('#inputGroupSelect02mobile option:selected').val() == 0) {
+				window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#demand_loan';
+			}
+			if ($('#inputGroupSelect02mobile option:selected').val() == 1) {
+				window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#project_loan_tender_contract_loan';
+			}
+			if ($('#inputGroupSelect02mobile option:selected').val() == 2) {
+				window.location.href = APP_URL+'/business/borrowing/sme#aya_sme_loan';
+			}
+			if ($('#inputGroupSelect02mobile option:selected').val() == 3) {
+				window.location.href = APP_URL+'/business/borrowing/sme#agriculture_loan';
+			}
+			if ($('#inputGroupSelect02mobile option:selected').val() == 4) {
+				window.location.href = APP_URL+'/business/borrowing/hire-purchase#heavy_mahine_hp';
+			}
+			if ($('#inputGroupSelect02mobile option:selected').val() == 5) {
+				window.location.href = APP_URL+'/business/borrowing/hire-purchase#shop_house';
+			}
+			if ($('#inputGroupSelect02mobile option:selected').val() == 6) {
+				window.location.href = APP_URL+'/business/borrowing/hire-purchase#auto_loan_corporate';
+			}
+		} else {
+			if ($('#inputGroupSelect02mobile option:selected').val() == 0) {
+				window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#demand_loan';
+			}
+			if ($('#inputGroupSelect02mobile option:selected').val() == 1) {
+				window.location.href = APP_URL+'/business/borrowing/corporate-business-loan#project_loan_tender_contract_loan';
+			}
+			if ($('#inputGroupSelect02mobile option:selected').val() == 2) {
+				window.location.href = APP_URL+'/business/borrowing/sme#aya_sme_loan';
+			}
+			if ($('#inputGroupSelect02mobile option:selected').val() == 3) {
+				window.location.href = APP_URL+'/business/borrowing/sme#agriculture_loan';
+			}
+			if ($('#inputGroupSelect02mobile option:selected').val() == 4) {
+				window.location.href = APP_URL+'/business/borrowing/hire-purchase#heavy_mahine_hp';
+			}
+			if ($('#inputGroupSelect02mobile option:selected').val() == 5) {
+				window.location.href = APP_URL+'/business/borrowing/hire-purchase#shop_house';
+			}
+			if ($('#inputGroupSelect02mobile option:selected').val() == 6) {
+				window.location.href = APP_URL+'/business/borrowing/hire-purchase#auto_loan_corporate';
 			}
 		}
 

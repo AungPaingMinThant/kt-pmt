@@ -13,6 +13,30 @@ use App\Http\Controllers\SimplePayController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//Clear route cache:
+Route::get('/route-cache', function() {
+ $exitCode = Artisan::call('route:cache');
+ return 'Routes cache cleared';
+});
+
+//Clear config cache:
+Route::get('/config-cache', function() {
+ $exitCode = Artisan::call('config:cache');
+ return 'Config cache cleared';
+}); 
+
+// Clear application cache:
+Route::get('/clear-cache', function() {
+ $exitCode = Artisan::call('cache:clear');
+ return 'Application cache cleared';
+});
+
+// Clear view cache:
+Route::get('/view-clear', function() {
+ $exitCode = Artisan::call('view:clear');
+ return 'View cache cleared';
+});
+
 
 Route::get('/superl0g1n','App\Http\Controllers\Admin\AdminLoginController@login');
 Route::post('/authlogin','App\Http\Controllers\Admin\AdminLoginController@authLogin');
@@ -54,7 +78,7 @@ Route::get('/admin/logout','App\Http\Controllers\Admin\AdminController@logout');
 
 Route::get('/share-post', 'App\Http\Controllers\SharePostController@share');
 
-Route::any('/','App\Http\Controllers\HomeController@index');
+Route::any('/','App\Http\Controllers\HomeController@indexNew');
 
 // Digital
 Route::get('/digital-services/online-payment-services/mobile-banking','App\Http\Controllers\Digital\MobileBankingController@mbindex');
@@ -151,9 +175,6 @@ Route::get('/business/insurance/car-ear','App\Http\Controllers\Business\Insuranc
 Route::get('/business/insurance/industrial-all-risk','App\Http\Controllers\Business\InsuranceController@IARIndex');
 Route::get('/business/insurance/group-life','App\Http\Controllers\Business\InsuranceController@groupLifeIndex');
 
-
-// contact-us
-
 Route::get('/test','App\Http\Controllers\HomeController@testIndex');
 
 
@@ -184,14 +205,15 @@ Route::get('/about-aya/governance/compliance/aml-cft','App\Http\Controllers\Abou
 
 Route::get('/about-aya/governance/corporate-governance','App\Http\Controllers\AboutAYA\GovernanceController@corporateGovernanceIndex');
 
+Route::get('/about-aya/governance/corporate-policies','App\Http\Controllers\AboutAYA\GovernanceController@corporatePolicyIndex');
+
 Route::get('/about-aya/news-room/corporate-news','App\Http\Controllers\AboutAYA\NewsController@corporateIndex');
 Route::get('/about-aya/news-room/corporate-news/{permalink}','App\Http\Controllers\AboutAYA\NewsController@corporateDetailIndex');
 Route::get('/about-aya/news-room/corporate-news/year/{year}','App\Http\Controllers\AboutAYA\NewsController@corporateYearIndex');
 Route::get('/about-aya/news-room/reports','App\Http\Controllers\AboutAYA\NewsController@reportIndex');
 Route::post('/report_download','App\Http\Controllers\AboutAYA\NewsController@reportDownload');
 
-
-
+Route::get('/about-aya/news-room/corporate-news','App\Http\Controllers\AboutAYA\NewsController@corporateIndex');
 
 // Enquiry Form
 Route::get('/enquiry','App\Http\Controllers\EnquiryController@index');
@@ -235,3 +257,16 @@ Route::get('/about-aya/news-room','App\Http\Controllers\SiteMapController@newsro
 
 Route::get('/under-maintenance','App\Http\Controllers\SiteMapController@underMaintainIndex');
 Route::get('/privacy-notice-cookie-policy','App\Http\Controllers\SiteMapController@cookiePolicyIndex');
+
+// Redirect
+Route::get('/smefinancing ', function () {
+    return redirect('/business/borrowing/sme#micro_loan');
+});
+Route::get('/microloan ', function () {
+    return redirect('/business/borrowing/sme#micro_loan');
+});
+
+Route::any('/home','App\Http\Controllers\HomeController@indexNew');
+
+
+

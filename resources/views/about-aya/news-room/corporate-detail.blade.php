@@ -32,7 +32,7 @@
 									$blogfiles = App\Models\BlogFile::where('blog_id',$blog->id)->first();
 								?>
 								<div class="col-md-4">
-									<img src="{{ url($blogfiles->file_path) }}" class="img-fluid">
+									<img src="{{ url('/public/'.$blogfiles->file_path) }}" class="img-fluid">
 								</div>
 							@endif
 							@if($blog->media_type == 2)
@@ -43,14 +43,20 @@
 								?>
 								<div class="row">
 									@foreach($blogfiles as $b_file)
-										<div class="col-md-4 mb-30" >
-											<img src="{{ url($b_file->file_path) }}" class="img-fluid">
-										</div>
+										<div class="col-md-4 mb-30">
+    										<div style="background-image: url('{{ url($b_file->file_path) }}');height: 200px;background-size: cover;width: 100%;"></div>
+    									</div>
 										@php $bfile_count = $bfile_count + 1; @endphp
 									@endforeach
 								</div>
 							@endif
 							@if($blog->media_type == 3)
+							@endif
+							@if($blog->media_type == 4)
+								<?php
+									$blogfiles = App\Models\BlogFile::where('blog_id',$blog->id)->first();
+								?>
+								<a class="text-decoration-underline" href="{{ url($blogfiles->file_path) }}" target="_blank">Click here to view details</a>
 							@endif
 						</div>
 					</div>
@@ -72,7 +78,7 @@
 							<hr class="cat-bottom-hr">
 
 							<?php
-								$related = App\Models\Blog::where('id','!=',$blog->id)->orderBy('publish_date', 'desc')->limit(3)->get();
+								$related = App\Models\Blog::where('id','!=',$blog->id)->where('status','0')->orderBy('publish_date', 'desc')->limit(3)->get();
 							?>
 							@foreach($related as $rel)
 								<div class="row">

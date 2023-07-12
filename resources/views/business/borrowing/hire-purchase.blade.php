@@ -355,7 +355,7 @@
 								</div>
 
 								<div class="space-40"></div>
-								<div class="">
+								<div class="d-none">
 									<div class="col-md-12 c-b-l-div" style="background-color: #f2f2f2;padding: 20px 20px 20px 30px;border-radius: 5px;">
 										<p style="font-weight: 600;font-size: 16px;">Contact our team for more information</p>
 										<a>

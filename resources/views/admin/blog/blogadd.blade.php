@@ -70,7 +70,7 @@
 												<select class="form-select" name="media_type" id="media_type" aria-label="Media Type">
 													<option value="1">Single Image</option>
 													<option value="2">Muliple Image (Gallery)</option>
-													<option value="3">Carousel</option>
+													<option value="4">File</option>
 												</select>
 											</div>
 											<div class="mb-3" id="single_image_div">
@@ -80,6 +80,10 @@
 											<div class="mb-3 d-none" id="multiple_image_div">
 												<label class="form-label" for="multiple_image">Media</label>
 												<input class="form-control" type="file" name="multiple_image[]" id="multiple_image" multiple="">
+											</div>
+											<div class="mb-3 d-none" id="file_div">
+												<label class="form-label" for="file_link">File</label>
+												<input class="form-control" type="file" name="file_link" id="file_link">
 											</div>
 											<div class="mb-3">
 												<label class="form-label" for="publish_date">Publish Date</label>
@@ -127,12 +131,25 @@
 				$("#single_image_div").removeClass('d-none');
 				$("#multiple_image_div").addClass('d-none');
 				$("#multiple_image").removeAttr('required');
+				$("#file_div").addClass('d-none');
+				$("#file_link").removeAttr('required');
 				$("#single_image").prop('required',true);
 			} else {
-				$("#multiple_image_div").removeClass('d-none');
-				$("#single_image_div").addClass('d-none');
-				$("#single_image").removeAttr('required');
-				$("#multiple_image").prop('required',true);
+				if($("#media_type").val() == '4') {
+					$("#file_div").removeClass('d-none');
+                    $("#file_link").prop('required',true);
+					$("#single_image_div").addClass('d-none');
+					$("#multiple_image_div").addClass('d-none');
+					$("#multiple_image").removeAttr('required');
+					$("#single_image").removeAttr('required');
+				} else {
+					$("#multiple_image_div").removeClass('d-none');
+					$("#single_image_div").addClass('d-none');
+					$("#single_image").removeAttr('required');
+					$("#file_div").addClass('d-none');
+					$("#file_link").removeAttr('required');
+					$("#multiple_image").prop('required',true);
+				}
 			}
 		});
 

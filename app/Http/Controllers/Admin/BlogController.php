@@ -93,17 +93,32 @@ class BlogController extends Controller
                 $new_img->save();
             }
         } else {
-            if ($request->hasFile('multiple_image')) {
-                foreach ($request->file('multiple_image') as $imagefile) {
+            if ($media_type == '4') {
+                if ($request->hasFile('file_link')) {
+                    $imagefile = $request->file('file_link');
                     $file = $imagefile->getClientOriginalName();
-                    $upload_path = public_path() . '/blog_images/';
+                    $upload_path = public_path() . '/blog_images/file/';
                     $imagefile->move($upload_path, $file);
-                    $news_img_path = "blog_images/" . $file;
+                    $news_img_path = "blog_images/file/" . $file;
 
                     $new_img = new BlogFile();
                     $new_img->blog_id = $blog->id;
                     $new_img->file_path = $news_img_path;
                     $new_img->save();
+                }
+            } else {
+                if ($request->hasFile('multiple_image')) {
+                    foreach ($request->file('multiple_image') as $imagefile) {
+                        $file = $imagefile->getClientOriginalName();
+                        $upload_path = public_path() . '/blog_images/';
+                        $imagefile->move($upload_path, $file);
+                        $news_img_path = "blog_images/" . $file;
+
+                        $new_img = new BlogFile();
+                        $new_img->blog_id = $blog->id;
+                        $new_img->file_path = $news_img_path;
+                        $new_img->save();
+                    }
                 }
             }
         }
@@ -221,19 +236,36 @@ class BlogController extends Controller
                     $new_img->save();
                 }
             } else {
-                if ($request->hasFile('multiple_image')) {
-                    DB::table('blog_files')->where('blog_id', $blog_id)->delete();
+                if ($media_type == '4') {
+                    if ($request->hasFile('file_link')) {
+                        DB::table('blog_files')->where('blog_id', $blog_id)->delete();
 
-                    foreach ($request->file('multiple_image') as $imagefile) {
+                        $imagefile = $request->file('file_link');
                         $file = $imagefile->getClientOriginalName();
-                        $upload_path = base_path() . '/blog_images/';
+                        $upload_path = base_path() . '/blog_images/file/';
                         $imagefile->move($upload_path, $file);
-                        $news_img_path = "blog_images/" . $file;
+                        $news_img_path = "blog_images/file/" . $file;
 
                         $new_img = new BlogFile();
                         $new_img->blog_id = $blog_id;
                         $new_img->file_path = $news_img_path;
                         $new_img->save();
+                    }
+                } else {
+                    if ($request->hasFile('multiple_image')) {
+                        DB::table('blog_files')->where('blog_id', $blog_id)->delete();
+
+                        foreach ($request->file('multiple_image') as $imagefile) {
+                            $file = $imagefile->getClientOriginalName();
+                            $upload_path = base_path() . '/blog_images/';
+                            $imagefile->move($upload_path, $file);
+                            $news_img_path = "blog_images/" . $file;
+
+                            $new_img = new BlogFile();
+                            $new_img->blog_id = $blog_id;
+                            $new_img->file_path = $news_img_path;
+                            $new_img->save();
+                        }
                     }
                 }
             }

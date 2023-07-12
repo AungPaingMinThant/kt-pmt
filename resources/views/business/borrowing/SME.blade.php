@@ -551,9 +551,9 @@
 															</ul>
 															<div class="tab-content" style="background-color: transparent;padding: 30px 0px 0px 0px;box-shadow: none;">
 																<div class="tab-pane fade show active" id="navs-pills-return-collectral" role="tabpanel" style="padding-bottom: 20px;">
-																	<div>
+																	<div class="table-responsive text-nowrap" style="box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%) !important;">
 																		<table class="table table-bordered return_collectral_table ">
-																			<tbody style="box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%);font-weight: 500;background-color: transparent;">
+																			<tbody style="font-weight: 500;background-color: transparent;">
 																				<tr style="background-color: #fff;border-top: none;">
 																					<td class="w-30" style="border-left: none;padding: 20px;">Approved loan amount (example)</td>
 																					<td>5,000,000</td>
@@ -595,9 +595,9 @@
 																	</div>
 																</div>
 																<div class="tab-pane brand-new-pre-owned fade" id="navs-pills-return-CGI" role="tabpanel" style="padding-bottom: 20px;">
-																	<div>
+																	<div class="table-responsive text-nowrap" style="box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%) !important;">
 																		<table class="table table-bordered return_collectral_table">
-																			<tbody style="box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%);font-weight: 500;background-color: transparent;">
+																			<tbody style="font-weight: 500;background-color: transparent;">
 																				<tr style="background-color: #fff;border-top: none;">
 																					<td class="w-30" style="border-left: none;padding: 20px;">Approved loan amount (example)</td>
 																					<td>5,000,000</td>
@@ -812,12 +812,18 @@
 										</div>
 									</div>
 								</div>
+								
+								<div class="">
+									<div class="col-md-12 text-left">
+										<p><a href="{{ url('/file/business/borrowing/AYA_Micro_Loan_FAQ.pdf') }}" target="_blank" class="text-decoration-underline">Find out more</a> about our Micro Loan to help you manage your finance.</p>
+									</div>
+								</div>
 
 								<div class="space-40"></div>
 								<div class="">
 									<div class="col-md-12 c-b-l-div" style="background-color: #f2f2f2;padding: 20px 20px 20px 30px;border-radius: 5px;">
 										<p style="font-weight: 600;font-size: 16px;">Find out more about SME Loan at</p>
-										<a href="{{ url('/file/business/borrowing/AYA Micro Loan FAQs.pdf') }}" target="_blank">
+										<a href="{{ url('/file/business/borrowing/AYA_SME_FAQ.pdf') }}" target="_blank">
 											<button class="btn contact_us_btn">FAQ</button>
 										</a>
 									</div>

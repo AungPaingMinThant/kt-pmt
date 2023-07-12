@@ -152,7 +152,7 @@
 															<p class="trust_receipt_tagline">Invest more in working capital to achieve tangible profits</p>
 														</div>
 														<div class="space-30"></div>
-														<p>We provide advances for settlement of bills drawn by the buyer for the goods purchased under letter of credit. A credit trade line is required before utilizing the facility.  Through the trust receipt, importers can release the goods against their undertaking to sell and the proceeds can be used to pay off the loan. <span style="font-size: 13px;">Importers can enjoy the longer tenor which granted by AYA</span></p>
+														<p>We provide advances for settlement of bills drawn by the buyer for the goods purchased under letter of credit. A credit trade line is required before utilizing the facility.  Through the trust receipt, importers can release the goods against their undertaking to sell and the proceeds can be used to pay off the loan. Importers can enjoy the longer tenor which granted by AYA</p>
 														<div class="space-20"></div>
 														<p class="fw-semibold" style="font-size: 17px;">Features and Benefits</p>
 

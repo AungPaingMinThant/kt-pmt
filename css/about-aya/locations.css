@@ -1,0 +1,12 @@
+.glider, .tab {
+	width: 600px !important;
+}
+.tab-content {
+	box-shadow: none !important;
+}
+thead > tr , tbody > tr {
+	border-bottom: 7px solid #fff !important;
+}
+thead > tr > td:not(:last-child), tbody > tr > td:not(:last-child) {
+	border-right: 2px solid #fff !important;
+}

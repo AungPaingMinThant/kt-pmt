@@ -139,6 +139,10 @@
 												<label class="form-check-label" for="inlineLoanCheckbox1">Capex Financing</label>
 											</div>
 											<div class="form-check">
+												<input class="form-check-input sub_prod_check" type="checkbox" name="sub_prod_check[]" id="inlineLoanCheckbox1" value="Working Capital Financing" required />
+												<label class="form-check-label" for="inlineLoanCheckbox1">Working Capital Financing</label>
+											</div>
+											<div class="form-check">
 												<input class="form-check-input sub_prod_check" type="checkbox" name="sub_prod_check[]" id="inlineLoanCheckbox2" value="Demand Loan" required />
 												<label class="form-check-label" for="inlineLoanCheckbox2">Demand Loan</label>
 											</div>
@@ -230,8 +234,9 @@
 						</form>
 
 						@if(session('success'))
-							<div class="alert alert-success" id="success" role="alert" style="margin-top: 20px;">
-								{{ session('success') }}
+							<div class="col-12 alert text-center" id="success" role="alert" style="margin-top: 20px;background-color: #fff;box-shadow: 0 0 10px 10px #f4f4f4;">
+								<img src="{{ url('/images/checked.png') }}" class="img-fluid" style="width: 8%;margin-bottom: 20px;">
+								<p class="f-body-color mb-0">{{ session('success') }}</p>
 							</div>
 						@endif
 					</div>

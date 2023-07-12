@@ -46,4 +46,9 @@ class GovernanceController extends Controller
     {
         return view('about-aya.governance.aml-cft');
     }
+
+    public function corporatePolicyIndex()
+    {
+        return view('about-aya.governance.corporate-policy');
+    }
 }

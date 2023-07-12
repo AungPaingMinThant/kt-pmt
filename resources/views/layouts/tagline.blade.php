@@ -140,7 +140,7 @@
 @if($page == 'foreign_currency_exchange')
 	<div class="row">
 		<div class="col-md-4 tag_line">
-			<p style="font-size: 20px;">Start now by choosing the currency you need to exchange!</p>
+			<p style="font-size: 20px;">Start now choosing the currency you need to exchange!</p>
 		</div>
 		<div class="col-md-8 tag_desc">
 			<p>We provide currency exchange service at competitive rate in accordance with regulations from the Central Bank of Myanmar. We sell foreign currency for your travel, school fees or other international payments.</p>
@@ -206,4 +206,4 @@
 		</div>
 	</div>
 @endif
-<div class="space-40"></div>
+<div class="space-40" id="foreign_currency_exchange_rate"></div>

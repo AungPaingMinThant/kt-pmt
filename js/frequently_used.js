@@ -387,3 +387,97 @@ $(".step_12_timeline-badge-7").click(function() {
 	$(".step_12").addClass('d-none');
 	$(".step_12_7").removeClass('d-none');
 });
+
+// Step13
+$(".step_13_timeline-badge-1").click(function() {
+	$(".timeline-badge").removeClass('active');
+	$(".step_13_timeline-badge-1").addClass('active');
+	$(".step_13").addClass('d-none');
+	$(".step_13_1").removeClass('d-none');
+});
+$(".step_13_timeline-badge-2").click(function() {
+	$(".timeline-badge").removeClass('active');
+	$(".step_13_timeline-badge-2").addClass('active');
+	$(".step_13").addClass('d-none');
+	$(".step_13_2").removeClass('d-none');
+});
+$(".step_13_timeline-badge-3").click(function() {
+	$(".timeline-badge").removeClass('active');
+	$(".step_13_timeline-badge-3").addClass('active');
+	$(".step_13").addClass('d-none');
+	$(".step_13_3").removeClass('d-none');
+});
+$(".step_13_timeline-badge-4").click(function() {
+	$(".timeline-badge").removeClass('active');
+	$(".step_13_timeline-badge-4").addClass('active');
+	$(".step_13").addClass('d-none');
+	$(".step_13_4").removeClass('d-none');
+});
+$(".step_13_timeline-badge-4A").click(function() {
+	$(".timeline-badge").removeClass('active');
+	$(".step_13_timeline-badge-4A").addClass('active');
+	$(".step_13").addClass('d-none');
+	$(".step_13_4A").removeClass('d-none');
+});
+$(".step_13_timeline-badge-5").click(function() {
+	$(".timeline-badge").removeClass('active');
+	$(".step_13_timeline-badge-5").addClass('active');
+	$(".step_13").addClass('d-none');
+	$(".step_13_5").removeClass('d-none');
+});
+$(".step_13_timeline-badge-6").click(function() {
+	$(".timeline-badge").removeClass('active');
+	$(".step_13_timeline-badge-6").addClass('active');
+	$(".step_13").addClass('d-none');
+	$(".step_13_6").removeClass('d-none');
+});
+
+// Step14
+$(".step_14_timeline-badge-1").click(function() {
+	$(".timeline-badge").removeClass('active');
+	$(".step_14_timeline-badge-1").addClass('active');
+	$(".step_14").addClass('d-none');
+	$(".step_14_1").removeClass('d-none');
+});
+$(".step_14_timeline-badge-2").click(function() {
+	$(".timeline-badge").removeClass('active');
+	$(".step_14_timeline-badge-2").addClass('active');
+	$(".step_14").addClass('d-none');
+	$(".step_14_2").removeClass('d-none');
+});
+$(".step_14_timeline-badge-3").click(function() {
+	$(".timeline-badge").removeClass('active');
+	$(".step_14_timeline-badge-3").addClass('active');
+	$(".step_14").addClass('d-none');
+	$(".step_14_3").removeClass('d-none');
+});
+$(".step_14_timeline-badge-4").click(function() {
+	$(".timeline-badge").removeClass('active');
+	$(".step_14_timeline-badge-4").addClass('active');
+	$(".step_14").addClass('d-none');
+	$(".step_14_4").removeClass('d-none');
+});
+$(".step_14_timeline-badge-5").click(function() {
+	$(".timeline-badge").removeClass('active');
+	$(".step_14_timeline-badge-5").addClass('active');
+	$(".step_14").addClass('d-none');
+	$(".step_14_5").removeClass('d-none');
+});
+$(".step_14_timeline-badge-6").click(function() {
+	$(".timeline-badge").removeClass('active');
+	$(".step_14_timeline-badge-6").addClass('active');
+	$(".step_14").addClass('d-none');
+	$(".step_14_6").removeClass('d-none');
+});
+$(".step_14_timeline-badge-6A").click(function() {
+	$(".timeline-badge").removeClass('active');
+	$(".step_14_timeline-badge-6A").addClass('active');
+	$(".step_14").addClass('d-none');
+	$(".step_14_6A").removeClass('d-none');
+});
+$(".step_14_timeline-badge-7").click(function() {
+	$(".timeline-badge").removeClass('active');
+	$(".step_14_timeline-badge-7").addClass('active');
+	$(".step_14").addClass('d-none');
+	$(".step_14_7").removeClass('d-none');
+});

@@ -104,7 +104,7 @@
 					<div class="col-md-2 corp_info_col_3"></div>
 				</div>
 				
-				<div class="space-40"></div>
+				<div class="space-60"></div>
 
 				<div class="row">
 					<h4 class="fw-semibold text-center">Leading Capabilities</h4>
@@ -147,7 +147,7 @@
 				</div>
 
 				<div class="row text-center py-1 update_date_div">
-					<p class="mb-0" style="color: #333333;">* As at February 2023 </p>
+					<p class="mb-0" style="color: #333333;">* As at March 2023 </p>
 				</div>
 			</div>
 
