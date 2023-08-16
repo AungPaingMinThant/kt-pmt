@@ -100,9 +100,7 @@
 								</li>
 							</ul>
 
-
-
-							<a href="{{ url($other_rate->special_purpose) }}" class="theme_text_color text-decoration-underline" target="_blank">Click here to view</a> the amount of daily exchange
+							<p><a href="{{ url($other_rate->special_purpose) }}" class="theme_text_color text-decoration-underline" target="_blank">Click here to view</a> the amount of daily exchange</p>
 						</div>
 					</div>
 					<div class="col-md-12 mt-20">
