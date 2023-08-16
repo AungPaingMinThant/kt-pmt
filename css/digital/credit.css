@@ -189,8 +189,8 @@
 	padding: 0px 208px 40px 208px;
 }
 .simple_pay_div > .container {
-	padding: 0px 100px 50px 30px;
-	background-image: url('../../images/simple_pay_installment.png');
+	padding: 0px 0px 50px 30px;
+	background-image: url('../../images/simple_pay_installment_bg.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -216,7 +216,7 @@
 	background-color: #fff !important;
 }
 .simple_pay_col {
-	padding-top: 120px;
+	padding-top: 170px;
 }
 @media (max-width: 1300px) and (min-width: 1000px) {
 	.jcb_credit_tab{

@@ -47,7 +47,7 @@
                     <span class="text-capitalize">{{$header_title}}</span>
                 </p>
             @endif
-            @if($page == 'who_we_are' || $page == 'news_room')
+            @if($page == 'who_we_are' || $page == 'news_room'  || $page == 'career')
                 <p>
                     <a class="f-body-color" href="{{ url('/about-aya') }}">About AYA</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
                     <span class="text-capitalize">{{$header_title}}</span>
@@ -57,6 +57,19 @@
                 <p>
                     <a class="f-body-color" href="{{ url('/about-aya') }}">About AYA</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
                     <a class="f-body-color" href="{{ url('/about-aya/who-we-are') }}">Who We Are</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+                    <span class="text-capitalize">{{$header_title}}</span>
+                </p>
+            @endif
+            @if($page == 'sustainability')
+                <p>
+                    <a class="f-body-color" href="{{ url('/about-aya') }}">About AYA</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+                    <span class="text-capitalize">{{$header_title}}</span>
+                </p>
+            @endif
+            @if($page == 'our_approach')
+                <p>
+                    <a class="f-body-color" href="{{ url('/about-aya') }}">About AYA</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+                    <a class="f-body-color" href="{{ url('/about-aya/sustainability') }}">Sustainability</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
                     <span class="text-capitalize">{{$header_title}}</span>
                 </p>
             @endif

@@ -21,6 +21,7 @@
 						</div>
 						<div class="space-40"></div>
 						<div class="row">
+							<p>Posted on {{ date('F d, Y',strtotime($blog->publish_date)) }}</p>
 							<p class="news_title">{{ $blog->blog_title }}</p>
 						</div>
 						<div class="row">
@@ -31,7 +32,7 @@
 								<?php
 									$blogfiles = App\Models\BlogFile::where('blog_id',$blog->id)->first();
 								?>
-								<div class="col-md-4">
+								<div class="col-md-12">
 									<img src="{{ url('/public/'.$blogfiles->file_path) }}" class="img-fluid">
 								</div>
 							@endif
@@ -44,7 +45,7 @@
 								<div class="row">
 									@foreach($blogfiles as $b_file)
 										<div class="col-md-4 mb-30">
-    										<div style="background-image: url('{{ url($b_file->file_path) }}');height: 200px;background-size: cover;width: 100%;"></div>
+    										<div style="background-image: url('{{ url("/public/".$b_file->file_path) }}');height: 200px;background-size: cover;width: 100%;"></div>
     									</div>
 										@php $bfile_count = $bfile_count + 1; @endphp
 									@endforeach
@@ -54,9 +55,24 @@
 							@endif
 							@if($blog->media_type == 4)
 								<?php
-									$blogfiles = App\Models\BlogFile::where('blog_id',$blog->id)->first();
+									$blogfiles = App\Models\BlogFile::where('blog_id',$blog->id)->get();
+									$bfile_count = 1;
 								?>
-								<a class="text-decoration-underline" href="{{ url($blogfiles->file_path) }}" target="_blank">Click here to view details</a>
+
+								<div class="row">
+									@foreach($blogfiles as $b_file)
+										<div class="col-md-4 mb-30">
+											@if($b_file->file_img_link != '')
+    											<img src="{{ url('/public/'.$b_file->file_img_link) }}" class="img-fluid">
+    										@else
+    											
+    										@endif
+
+    										<a class="text-decoration-underline" href="{{ url('/public/'.$b_file->file_path) }}" target="_blank">Click here to view details</a>
+    									</div>
+										@php $bfile_count = $bfile_count + 1; @endphp
+									@endforeach
+								</div>
 							@endif
 						</div>
 					</div>
@@ -74,12 +90,13 @@
 						<div class="space-30"></div>
 
 						<div class="row pl-1">
-							<h4 class="fw-semibold mt-minus-10 mb-0">Related News</h4>
-							<hr class="cat-bottom-hr">
-
 							<?php
-								$related = App\Models\Blog::where('id','!=',$blog->id)->where('status','0')->orderBy('publish_date', 'desc')->limit(3)->get();
+								$related = App\Models\Blog::where('id','!=',$blog->id)->where('blog_category',4)->where('status','0')->orderBy('publish_date', 'desc')->limit(3)->get();
 							?>
+							@if(count($related) > 0)
+								<h4 class="fw-semibold mt-minus-10 mb-0">Related News</h4>
+								<hr class="cat-bottom-hr">
+							@endif
 							@foreach($related as $rel)
 								<div class="row">
 									<div class="news_title_div">

@@ -1,0 +1,202 @@
+.job_fair_image {
+	float: right;
+    width: 30%;
+    margin-left: 50px;
+}
+.talent_onboarding_process_img {
+    float: left;
+    width: 30%;
+    margin-right: 50px;
+}
+.px-15 {
+    padding-right: 15rem !important;
+    padding-left: 15rem !important;
+}
+.search_opportunities {
+    color: #fff !important;
+    background-color: #a5000B !important;
+    border: 1px solid #A5000B !important;
+}
+.search_opportunities:hover {
+    color: #a5000B !important;
+    background-color: #fff !important;
+    border: 1px solid #A5000B !important;
+}
+
+/*AYA Culture*/
+.our_value_point_col:not(:last-child) {
+    margin-right: 20px;
+}
+.our_value_point_col:first-child {
+    margin-left: 15px;
+}
+.our_value_point_col {
+    width: 31.7% !important;
+    padding: 0 !important;
+    border: 1px solid rgba(67, 89, 113, 0.12);
+}
+.our_value_point_col:hover {
+    box-shadow: 0 0 50px 20px rgba(67, 89, 113, 0.12);
+    cursor: pointer;
+}
+.our_value_point_col > .card {
+    box-shadow: none !important;
+}
+.our_value_point_img {
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 40% !important;
+}
+.card-h {
+    height: 100% !important;
+}
+.CTA_div {
+    background-image: url('../../images/about-aya/career/aya-culture/BG.webp');
+    background-size: cover;
+    background-position: top;
+    height: auto;
+}
+.CTA_detail_col_1 {
+    background-image: url('../../images/about-aya/career/aya-culture/governance_ethical_practices.webp');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 420px;
+}
+.CTA_detail_col_2 {
+    padding-top: 8rem !important;
+    padding-left: 3rem !important;
+    padding-bottom: 2rem !important;
+}
+.CTA2_detail_col_1 {
+    padding-top: 1rem !important;
+    padding-right: 4rem !important;
+}
+.CTA2_detail_col_2 {
+    background-image: url('../../images/about-aya/career/aya-culture/equal_opportunity_embracing_diversity.webp');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 420px;
+}
+.CTA_detail_2_col_1 {
+    background-image: url('../../images/about-aya/career/aya-culture/bonded_shared_values.webp');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 420px;
+}
+.CTA_bond_detail_col_2 {
+    padding-top: 8rem !important;
+    padding-left: 3rem !important;
+    padding-bottom: 8rem !important;
+}
+.CTA3_detail_col_1 {
+    padding-top: 5rem !important;
+    padding-right: 4rem !important;
+}
+.CTA3_detail_col_2 {
+    background-image: url('../../images/about-aya/career/aya-culture/continual_growth_learning.webp');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 420px;
+}
+.bullet_square {
+    width: 15%;
+    margin-top: 5px;
+}
+.leadership_commitment {
+    margin-left: -40px;
+}
+@media (max-width: 1400px) and (min-width: 1301px) {
+    .our_value_point_col {
+        width: 31.6% !important;
+    }
+    .CTA_bond_detail_col_2 {
+        padding-bottom: 4rem !important;
+    }
+}
+@media (max-width: 1300px) and (min-width: 1201px) {
+    .our_value_point_col {
+        width: 31.5% !important;
+    }
+    .CTA_bond_detail_col_2 {
+        padding-bottom: 4rem !important;
+    }
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+    .our_value_point_col {
+        width: 31.3% !important;
+    }
+    .bullet_square {
+        width: 20%;
+    }
+    .bullet_square_col {
+        padding-right: 0 !important;
+    }
+    .leadership_commitment {
+        margin-left: -20px;
+    }
+    .CTA_bond_detail_col_2 {
+        padding-bottom: 4rem !important;
+    }
+}
+@media (max-width: 999px) and (min-width: 577px) {
+
+}
+@media only screen and (max-width: 576px) {
+    .px-15 {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+    .talent_onboarding_process_img {
+        width: 100%;
+        margin-right: 50px;
+        margin-bottom: 20px;
+    }
+    .job_fair_image {
+        width: 100%;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+    .our_value_point_col {
+        width: 100% !important;
+    }
+    .card-h {
+        height: auto !important;
+    }
+    .our_value_point_col{
+        margin-right: 15px !important;
+        margin-left: 15px !important;
+        margin-bottom: 20px !important;
+    }
+    .CTA_div, .CTA2_div {
+        height: auto;
+    }
+    .CTA_detail_col_2 {
+        padding-top: 1rem !important;
+        padding-left: 1rem !important;
+        padding-bottom: 2rem !important;
+    }
+    .CTA2_detail_col_1 {
+        padding-top: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    .bullet_square {
+        width: 30%;
+    }
+    .bullet_square_col {
+        padding-right: 0 !important;
+    }
+    .leadership_commitment {
+        margin-left: 0px;
+    }
+    .CTA2_div > .container > .row {
+        flex-direction: column-reverse !important;
+    }
+    .CTA3_detail_col_1 {
+        padding-top: 1rem !important;
+        padding-right: 0.5rem !important;
+    }
+}

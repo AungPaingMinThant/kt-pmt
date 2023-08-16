@@ -70,6 +70,13 @@ Route::post('/admin/mbanking/banner/update','App\Http\Controllers\Admin\AdminMBa
 Route::post('/admin/mbanking/tagline/update','App\Http\Controllers\Admin\AdminMBankingController@mbankingTagline');
 Route::post('/admin/mbanking/fact/update','App\Http\Controllers\Admin\AdminMBankingController@mbankingFact');
 
+// Admin About AYA
+Route::get('/admin/pagelist/about-aya','App\Http\Controllers\Admin\PageController@pageAboutAYAList');
+Route::get('/admin/pagelist/about-aya/ayabank-profile','App\Http\Controllers\Admin\PageController@pageAYAbankProfile');
+
+Route::post('/admin/banner/update', 'App\Http\Controllers\Admin\PageController@bannerUpdate');
+Route::post('/admin/ayabank-profile/section1/update', 'App\Http\Controllers\Admin\PageController@ayabankProfileSection1Update');
+
 Route::get('/admin/exchange-rate','App\Http\Controllers\Admin\ExchangeController@index');
 Route::get('/admin/exchange-rate/edit','App\Http\Controllers\Admin\ExchangeController@editExchange');
 Route::post('/admin/exchange/store','App\Http\Controllers\Admin\ExchangeController@updateExchange');
@@ -189,8 +196,18 @@ Route::get('/about-aya/who-we-are/corporate-profile/ayabank-profile/shareholding
 Route::get('/about-aya/who-we-are/corporate-profile/ayabank-profile/business-practices','App\Http\Controllers\AboutAYA\WhoWeAreController@businessPracticeIndex');
 Route::get('/about-aya/who-we-are/corporate-profile/mission-corporate-value-brand-promise','App\Http\Controllers\AboutAYA\WhoWeAreController@missionIndex');
 
+Route::get('/about-aya/who-we-are/corporate-profile/corporate-milestones','App\Http\Controllers\AboutAYA\WhoWeAreController@milestoneIndex');
+
+Route::get('/about-aya/who-we-are/corporate-profile/awards','App\Http\Controllers\AboutAYA\WhoWeAreController@awardIndex');
+
 Route::get('/about-aya/who-we-are/our-strategies/stakeholder-management','App\Http\Controllers\AboutAYA\WhoWeAreController@stakeholderIndex');
 Route::get('/about-aya/who-we-are/our-strategies/corporate-strategy','App\Http\Controllers\AboutAYA\WhoWeAreController@corporateStrategyIndex');
+
+Route::get('/about-aya/who-we-are/corporate-profile/corporate-goals','App\Http\Controllers\AboutAYA\WhoWeAreController@corporatGoalsIndex');
+
+Route::get('/about-aya/who-we-are/why-us','App\Http\Controllers\AboutAYA\WhoWeAreController@whyUsIndex');
+
+Route::get('/about-aya/who-we-are/foreign-direct-investment','App\Http\Controllers\AboutAYA\WhoWeAreController@FDIIndex');
 
 Route::get('/about-aya/governance/risk-management','App\Http\Controllers\AboutAYA\GovernanceController@riskManagementIndex');
 Route::get('/about-aya/governance/risk-management/risk-governance','App\Http\Controllers\AboutAYA\GovernanceController@riskGovernanceIndex');
@@ -210,14 +227,43 @@ Route::get('/about-aya/governance/corporate-policies','App\Http\Controllers\Abou
 Route::get('/about-aya/news-room/corporate-news','App\Http\Controllers\AboutAYA\NewsController@corporateIndex');
 Route::get('/about-aya/news-room/corporate-news/{permalink}','App\Http\Controllers\AboutAYA\NewsController@corporateDetailIndex');
 Route::get('/about-aya/news-room/corporate-news/year/{year}','App\Http\Controllers\AboutAYA\NewsController@corporateYearIndex');
+
+Route::get('/about-aya/news-room/csr-news','App\Http\Controllers\AboutAYA\NewsController@CSRNewsIndex');
+Route::get('/about-aya/news-room/csr-news/{permalink}','App\Http\Controllers\AboutAYA\NewsController@CSRDetailIndex');
+Route::get('/about-aya/news-room/csr-news/year/{year}','App\Http\Controllers\AboutAYA\NewsController@CSRYearIndex');
+
+Route::get('/about-aya/news-room/announcements','App\Http\Controllers\AboutAYA\NewsController@AnnoucementIndex');
+Route::get('/about-aya/news-room/announcements/{permalink}','App\Http\Controllers\AboutAYA\NewsController@AnnoucementDetailIndex');
+Route::get('/about-aya/news-room/announcements/year/{year}','App\Http\Controllers\AboutAYA\NewsController@AnnoucementYearIndex');
+
+Route::get('/about-aya/news-room/press-release','App\Http\Controllers\AboutAYA\NewsController@pressReleaseIndex');
+Route::get('/about-aya/news-room/press-release/{permalink}','App\Http\Controllers\AboutAYA\NewsController@pressReleaseDetailIndex');
+Route::get('/about-aya/news-room/press-release/year/{year}','App\Http\Controllers\AboutAYA\NewsController@pressReleaseYearIndex');
+
 Route::get('/about-aya/news-room/reports','App\Http\Controllers\AboutAYA\NewsController@reportIndex');
 Route::post('/report_download','App\Http\Controllers\AboutAYA\NewsController@reportDownload');
 
-Route::get('/about-aya/news-room/corporate-news','App\Http\Controllers\AboutAYA\NewsController@corporateIndex');
+Route::any('/about-aya/network/branch-locations','App\Http\Controllers\AboutAYA\NetworkController@branchIndex');
+Route::any('/about-aya/network/atm-locations','App\Http\Controllers\AboutAYA\NetworkController@ATMIndex');
+Route::any('/about-aya/network/fx-counter-locations','App\Http\Controllers\AboutAYA\NetworkController@FXIndex');
+
+Route::any('/about-aya/network/correspondent-bank','App\Http\Controllers\AboutAYA\NetworkController@correspondentBankIndex');
+
+Route::get('/about-aya/career/career-opportunities','App\Http\Controllers\AboutAYA\CareerController@careerOpportunitiesIndex');
+
+Route::get('/about-aya/career/aya-culture','App\Http\Controllers\AboutAYA\CareerController@ayaCultureIndex');
+
+Route::get('/about-aya/sustainability/our-commitment','App\Http\Controllers\AboutAYA\SustainabilityController@sustainabilityIndex');
+Route::get('/about-aya/sustainability/our-approach/social-sustainability','App\Http\Controllers\AboutAYA\SustainabilityController@socialSustainabilityIndex');
+Route::get('/about-aya/sustainability/our-approach/environmental-sustainability','App\Http\Controllers\AboutAYA\SustainabilityController@environmentalSustainabilityIndex');
+Route::get('/about-aya/sustainability/our-approach/economic-sustainability','App\Http\Controllers\AboutAYA\SustainabilityController@economicSustainabilityIndex');
+
+Route::get('/about-aya/sustainability/our-commitment/ungc-compliance','App\Http\Controllers\AboutAYA\SustainabilityController@UNGCIndex');
+
 
 // Enquiry Form
 Route::get('/enquiry','App\Http\Controllers\EnquiryController@index');
-Route::post('/enquiry_form_submit','App\Http\Controllers\EnquiryController@enquirySave');
+Route::post('/enquiry_form_submit','App\Http\Controllers\EnquiryController@enquirySave')->name('save_enquiry');
 
 
 // Sitemap
@@ -254,6 +300,14 @@ Route::get('/about-aya/who-we-are/our-strategies','App\Http\Controllers\SiteMapC
 
 Route::get('/about-aya/governance','App\Http\Controllers\SiteMapController@governanceIndex');
 Route::get('/about-aya/news-room','App\Http\Controllers\SiteMapController@newsroomIndex');
+
+Route::get('/about-aya/network','App\Http\Controllers\SiteMapController@networkIndex');
+
+Route::get('/about-aya/career/','App\Http\Controllers\SiteMapController@careerIndex');
+
+Route::get('/about-aya/sustainability','App\Http\Controllers\SiteMapController@sustainabilityIndex');
+
+Route::get('/about-aya/sustainability/our-approach', 'App\Http\Controllers\SiteMapController@ourApproachIndex');
 
 Route::get('/under-maintenance','App\Http\Controllers\SiteMapController@underMaintainIndex');
 Route::get('/privacy-notice-cookie-policy','App\Http\Controllers\SiteMapController@cookiePolicyIndex');

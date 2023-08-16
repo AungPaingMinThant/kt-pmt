@@ -341,7 +341,20 @@
 								</a>
 							</div>
 							<p class="news_desc mb-20">AYA Bank organized ‘National Apprenticeship Program’ in partnership with the National Management Acdemy (NMA) to shape the future of students with a wide range of opportunities to learn a specific skill in the financial services industry.</p>
-							<p class="mb-0"><span class="news_category">CORPORATE NEWS</span><span class="news_break">|</span><span class="news_date">{{ date('d M Y', strtotime($first_blog->publish_date)) }}</span></p>
+							<p class="mb-0">
+							    <span class="news_category">
+							        @if($first_blog->blog_category == '4')
+										CORPORATE NEWS
+									@endif
+									@if($first_blog->blog_category == '6')
+										ANNOUNCEMENTS
+									@endif
+									@if($first_blog->blog_category == '9')
+										CSR NEWS
+									@endif    
+							    </span>
+							    <span class="news_break">|</span><span class="news_date">{{ date('d M Y', strtotime($first_blog->publish_date)) }}</span>
+							    </p>
 						</div>
 					</div>
 					<div class="col-md-6">

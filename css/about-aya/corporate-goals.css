@@ -1,0 +1,184 @@
+.goal_step_number {
+	color: #f1f1f1;
+	font-size: 60px;
+}
+.goal_step_title {
+	font-size: 25px;
+	margin-left: -30px;
+}
+.for_customer_container {
+	background-image: url('../../images/about-aya/corporate-goals/for_customer_bg.webp');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+.for_customer_list {
+	list-style: disc;
+	padding-left: 35px !important;
+	color: #1d1d1f;
+}
+.for_customer_CTA > .col-md-6, .for_staff_CTA > .col-md-6 {
+	background-color: #f9f9fb;
+	width: 48%;
+	padding: 50px 25px 70px 25px;
+}
+.for_community_CTA > .col-md-6, .for_shareholders_CTA > .col-md-6 {
+	background-color: #fff;
+	width: 48%;
+	padding: 50px 25px 70px 25px;
+}
+.for_customer_CTA > .col-md-6:hover, .for_community_CTA > .col-md-6:hover, .for_staff_CTA > .col-md-6:hover,
+.for_shareholders_CTA > .col-md-6:hover {
+	cursor: pointer;  
+    -webkit-box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.09);
+    -moz-box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.09);
+    box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.09);
+}
+.for_customer_CTA > .col-md-6:first-child, .for_community_CTA > .col-md-6:first-child, .for_staff_CTA > .col-md-6:first-child,
+.for_shareholders_CTA > .col-md-6:first-child {
+	margin-right: 40px;
+	margin-left: 10px;
+}
+.for_customer_mission_tagline {
+	margin-top: -70px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    width: 50% !important;
+    margin-left: 20px;
+}
+.for_community_csr_tagline {
+	margin-top: -70px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    width: 70% !important;
+    margin-left: 20px;
+}
+.section_container_bg {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+.for_community_container {
+	background-image: url('../../images/about-aya/corporate-goals/for_community_bg.webp');
+}
+.for_staff_container {
+	background-image: url('../../images/about-aya/corporate-goals/for_staff_bg.webp');
+}
+.for_shareholders_container {
+	background-image: url('../../images/about-aya/corporate-goals/for_shareholder_bg.webp');
+}
+
+.ungc_list {
+	list-style: numeric;
+	padding-left: 15px !important;
+}
+.csr_info_read_more {
+	margin-bottom: 33px;
+}
+.staff_quote {
+	border-left: 4px solid #A5000B;
+	padding: 10px 70px 10px 30px !important;
+	margin-left: 15px;
+}
+@media (max-width: 1380px) and (min-width: 1301px) {
+	.for_customer_CTA > .col-md-6, .for_staff_CTA > .col-md-6,
+	.for_community_CTA > .col-md-6, .for_shareholders_CTA > .col-md-6 {
+	    width: 47%;
+	    padding: 30px 25px 50px 25px;
+	}
+	.csr_info_read_more {
+	    margin-bottom: 1rem;
+	    margin-top: 54px;
+	}
+	.report_info_read_more {
+		margin-top: 33px !important;
+	}
+}
+@media (max-width: 1300px) and (min-width: 1101px) {
+	.for_customer_CTA > .col-md-6, .for_staff_CTA > .col-md-6,
+	.for_community_CTA > .col-md-6, .for_shareholders_CTA > .col-md-6 {
+	    width: 47%;
+	    padding: 30px 25px 50px 25px;
+	}
+	.social_sustainability_info_read_more {
+		margin-top: 38px !important;
+	}
+	.csr_info_read_more {
+		margin-top: 53px !important;
+		margin-bottom: 16px !important;
+	}
+	.emp_development_info_read_more {
+		margin-top: 38px !important;
+	}
+	.governance_framework_info_read_more {
+		margin-top: 20px !important;
+	}
+	.report_info_read_more {
+		margin-top: 0px !important;
+	}
+	.for_customer_mission_tagline {
+		margin-top: -60px;
+		width: 70% !important;
+	}
+	.for_community_csr_tagline {
+		margin-top: -60px;
+	    width: 70% !important;
+	}
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+	.for_customer_CTA > .col-md-6, .for_staff_CTA > .col-md-6,
+	.for_community_CTA > .col-md-6, .for_shareholders_CTA > .col-md-6 {
+	    width: 47%;
+	    padding: 30px 25px 50px 25px;
+	}
+	.social_sustainability_info_read_more {
+		margin-top: 38px !important;
+	}
+	.csr_info_read_more {
+		margin-top: 53px !important;
+		margin-bottom: 16px !important;
+	}
+	.emp_development_info_read_more {
+		margin-top: 59px !important;
+	}
+	.report_info_read_more {
+		margin-top: 32px !important;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.for_customer_CTA > .col-md-6, .for_staff_CTA > .col-md-6, .for_community_CTA > .col-md-6, .for_shareholders_CTA > .col-md-6 {
+		width: 95%;
+		padding: 25px 25px 25px 25px;
+	}
+	.for_customer_CTA > .col-md-6:not(:first-child), .for_staff_CTA > .col-md-6:not(:first-child),
+	.for_community_CTA > .col-md-6:not(:first-child), .for_shareholders_CTA > .col-md-6:not(:first-child) {
+		padding: 25px 25px 50px 25px;
+	}
+	.for_customer_CTA > .col-md-6, .for_community_CTA > .col-md-6, .for_staff_CTA > .col-md-6,
+	.for_shareholders_CTA > .col-md-6 {
+		margin-right: 20px !important;
+		margin-left: 10px !important;
+		margin-bottom: 20px !important;
+	}
+	.for_customer_mission_tagline {
+		margin-top: -60px;
+		width: 70% !important;
+	}
+	.for_community_csr_tagline {
+		margin-top: -60px;
+	    width: 70% !important;
+	}
+	.section_container_bg {
+    	background-size: auto;
+    }
+    .staff_quote {
+    	width: 100%;
+    }
+    .staff_quote {
+    	width: 95% !important;
+    }
+}

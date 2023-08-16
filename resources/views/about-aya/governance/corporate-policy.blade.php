@@ -16,7 +16,7 @@
 			@include('layouts.banner', ['page'=>'corporate_policies'])
 
 			<div class="container risk_container">
-				<div class="space-40"></div>
+				<div class="space-40" id="people_concerns"></div>
 				<div class="col-md-12">
 					<h4 class="fw-bold theme_text_color">People Concerns</h4>
 
@@ -29,7 +29,8 @@
 							</h2>
 							<div id="collapsePeopleConcernsOne" class="accordion-collapse collapse show" aria-labelledby="headingPeopleConcernsOne" data-bs-parent="#accordionPeopleConcernExample">
 								<div class="accordion-body">
-									<p>The Internship Programme at AYA Bank offers current undergraduate and/ or postgraduate students with real work insights and exposures to actual working life and allows our interns to gain foundation to their career choices and the chance to build valuable business networks. In addition, the Bank will have the opportunity to assess potential candidates and further develop their technical competence for possible employment upon intern’s graduation. Through this policy, the Bank commits to provide Interns with a quality experience that involves meaningful activities and the opportunity to learn and gain practical work experience in their chosen field of study and work. This policy is applicable to all Interns for undergraduate internship programme and post-graduate internship programme. More information of the policy can be found <a href="{{ url('/file/about-aya/corporate-policies/Internship-Policy.pdf') }}" target="_blank">here</a></p>
+									<p>The Internship Programme at AYA Bank offers current undergraduate and/ or postgraduate students with real work insights and exposures to actual working life and allows our interns to gain foundation to their career choices and the chance to build valuable business networks. In addition, the Bank will have the opportunity to assess potential candidates and further develop their technical competence for possible employment upon intern’s graduation. Through this policy, the Bank commits to provide Interns with a quality experience that involves meaningful activities and the opportunity to learn and gain practical work experience in their chosen field of study and work. This policy is applicable to all Interns for undergraduate internship programme and post-graduate internship programme.</p>
+									<p>More information of the policy can be found <a href="{{ url('/file/about-aya/corporate-policies/Internship-Policy.pdf') }}" target="_blank">here</a></p>
 								</div>
 							</div>
 							<div class="space-10"></div>
@@ -50,18 +51,7 @@
 											<li><b>Harassment</b><br>Harassment means verbal, written or physical conduct that denigrates or shows hostility or aversion toward an individual because of his or her race, colour, religion, sex, sexual orientation, gender identity or expression, national origin, age, disability, marital status, citizenship, genetic information, or any other characteristic protected by law, or that of his or her relatives, friends, or associates.<br>iii.Harassing conduct includes epithets, slurs, or negative stereotyping; threatening, intimidating or hostile acts; denigrating jokes; and written or graphic material that denigrates or shows hostility or aversion toward an individual or group that is placed on walls or elsewhere on the employer’s premises or circulated in the workplace, on company time or using company equipment by e-mail, phone (including voice messages), text messages, social networking sites or other means.</li>
 										</ul>
 									</p>
-								</div>
-							</div>
-							<div class="space-10"></div>
-						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header b-b-none" id="headingPeopleConcernsThree">
-								<button class="accordion-button corporate-policies-accor-btn collapsed" id="trust_receipt_ac_button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePeopleConcernsThree" aria-expanded="true" aria-controls="collapsePeopleConcernsThree" style="padding: 5px 20px 5px 20px !important;">
-									Reporting of instances
-								</button>
-							</h2>
-							<div id="collapsePeopleConcernsThree" class="accordion-collapse collapse" aria-labelledby="headingPeopleConcernsThree" data-bs-parent="#accordionPeopleConcernExample">
-								<div class="accordion-body">
+									<p class="fw-semibold">Reporting of instances</p>
 									<p>AYA Bank encourages reporting of all perceived incidents of discrimination, harassment, or retaliation, regardless of the offender’s identity or position. Individuals who believe that they have been the victim of such conduct should discuss their concerns with their immediate supervisor, or Whistle Blowing Committee.</p>
 									<p>Reporting Email: <a href="mailto:staffcommittee@ayabank.com">staffcommittee@ayabank.com</a></p>
 									<p>More details can be found in our <a href="{{ url('/file/about-aya/corporate-policies/Non-discrimination-Policy-Procedure.pdf') }}" target="_blank">Non-discrimination Policy & Procedure</a>.</p>
@@ -77,12 +67,13 @@
 							</h2>
 							<div id="collapsePeopleConcernsFour" class="accordion-collapse collapse" aria-labelledby="headingPeopleConcernsFour" data-bs-parent="#accordionPeopleConcernExample">
 								<div class="accordion-body">
-									<p>AYA Bank establishes Recruitment and Selection Policy to be able to recruit competent employee in accordance with the business requirement of AYA Bank; to select and recruit with transparency, unbiased and fair assessments; and to be able to select and recruit the suitable and qualified people at the suitable positions by matching the abilities with business requirements of the bank. This policy summarizes the guidelines to conduct the overall recruitment and selection process. AYA Bank believes that a fair and transparent recruitment process should be followed for all vacancies within the business. A clear recruitment policy also allows for greater internal development as well as the opportunity for new talent to join the business. For more details, please follow the link <a href="{{ url('/file/about-aya/corporate-policies/Recruitment-and-Selection-Policy.pdf') }}" target="_blank">here</a>.</p>
+									<p>AYA Bank establishes Recruitment and Selection Policy to be able to recruit competent employee in accordance with the business requirement of AYA Bank; to select and recruit with transparency, unbiased and fair assessments; and to be able to select and recruit the suitable and qualified people at the suitable positions by matching the abilities with business requirements of the bank. This policy summarizes the guidelines to conduct the overall recruitment and selection process. AYA Bank believes that a fair and transparent recruitment process should be followed for all vacancies within the business. A clear recruitment policy also allows for greater internal development as well as the opportunity for new talent to join the business.</p> 
+									<p>For more details, please follow the link <a href="{{ url('/file/about-aya/corporate-policies/Recruitment-and-Selection-Policy.pdf') }}" target="_blank">here</a>.</p>
 								</div>
 							</div>
 							<div class="space-10"></div>
 						</div>
-						<div class="accordion-item">
+						<!-- <div class="accordion-item">
 							<h2 class="accordion-header b-b-none" id="headingPeopleConcernsFive">
 								<button class="accordion-button corporate-policies-accor-btn collapsed" id="trust_receipt_ac_button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePeopleConcernsFive" aria-expanded="true" aria-controls="collapsePeopleConcernsFive" style="padding: 5px 20px 5px 20px !important;">
 									Survey Development Policy
@@ -90,11 +81,12 @@
 							</h2>
 							<div id="collapsePeopleConcernsFive" class="accordion-collapse collapse" aria-labelledby="headingPeopleConcernsFive" data-bs-parent="#accordionPeopleConcernExample">
 								<div class="accordion-body">
-									<p>As being part of contributing to the community development, AYA Bank creates a systematic process of survey data collection for quality assured academic research papers which have significant impact for the development of higher education sector. AYA Bank classifies survey data collection policies into (4) different phases such as Survey Requisition, Survey Approval, Survey Data Collection and Post-survey Documentation. Detailed guidelines can be found <a href="{{ url('/file/about-aya/corporate-policies/Survey-Deployment-Policy.pdf') }}" target="_blank">here</a>.</p>
+									<p>As being part of contributing to the community development, AYA Bank creates a systematic process of survey data collection for quality assured academic research papers which have significant impact for the development of higher education sector. AYA Bank classifies survey data collection policies into (4) different phases such as Survey Requisition, Survey Approval, Survey Data Collection and Post-survey Documentation.</p> 
+									<p>Detailed guidelines can be found <a href="{{ url('/file/about-aya/corporate-policies/Survey-Deployment-Policy.pdf') }}" target="_blank">here</a>.</p>
 								</div>
 							</div>
 							<div class="space-10"></div>
-						</div>
+						</div> -->
 						<div class="accordion-item">
 							<h2 class="accordion-header b-b-none" id="headingPeopleConcernsSix">
 								<button class="accordion-button corporate-policies-accor-btn collapsed" id="trust_receipt_ac_button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePeopleConcernsSix" aria-expanded="true" aria-controls="collapsePeopleConcernsSix" style="padding: 5px 20px 5px 20px !important;">
@@ -113,7 +105,7 @@
 						</div>
 					</div>
 
-					<div class="space-40"></div>
+					<div class="space-40" id="corporate_affairs"></div>
 					<h4 class="fw-bold theme_text_color">Corporate Affairs</h4>
 					<div class="accordion" id="accordionCorporateAffairExample">
 						<div class="accordion-item">
@@ -124,7 +116,8 @@
 							</h2>
 							<div id="collapseCorporateAffairOne" class="accordion-collapse collapse show" aria-labelledby="headingCorporateAffairOne" data-bs-parent="#accordionCorporateAffairExample">
 								<div class="accordion-body">
-									<p>AYA Bank’s Communication Policy establishes a set of principles and guidelines to ensure that communication across AYA Bank is effective and appropriate and responds to the diverse information needs of all our stakeholders. This policy applies to AYA Bank’s employees with respect to all information (general, confidential, or material) in whatever form or means, regarding the bank that is shared between the bank, employees, and other parties. The objective of the policy is to help preserve and enhance the Bank’s reputation, both internally and externally, and to help ensure that relevant information reaches the targeted audience in the right format and at the right time. More details can be found in our <a href="{{ url('/file/about-aya/corporate-policies/Corporate-Communications-Policy.pdf') }}" target="_blank">Corporate Communication Policy</a>.</p>
+									<p>AYA Bank’s Communication Policy establishes a set of principles and guidelines to ensure that communication across AYA Bank is effective and appropriate and responds to the diverse information needs of all our stakeholders. This policy applies to AYA Bank’s employees with respect to all information (general, confidential, or material) in whatever form or means, regarding the bank that is shared between the bank, employees, and other parties. The objective of the policy is to help preserve and enhance the Bank’s reputation, both internally and externally, and to help ensure that relevant information reaches the targeted audience in the right format and at the right time.</p>
+									<p>More details can be found in our <a href="{{ url('/file/about-aya/corporate-policies/Corporate-Communications-Policy.pdf') }}" target="_blank">Corporate Communication Policy</a>.</p>
 								</div>
 							</div>
 							<div class="space-10"></div>
@@ -138,7 +131,8 @@
 							<div id="collapseCorporateAffairTwo" class="accordion-collapse collapse" aria-labelledby="headingCorporateAffairTwo" data-bs-parent="#accordionCorporateAffairExample">
 								<div class="accordion-body">
 									<p>
-										Corporate Social Responsibility Policy intends to establish a reference framework, from which AYA Bank can develop and strengthen socially responsible behavior in the business environment where it operates. To be a responsible business, the Bank is committed to the mission “Sharing and Contributing to our Community”. We have therefore brought together CSR strategies and practices into one framework policy and applied to our existing operating principles. The objective of the policy is to create and promote behavior that generates value to all interest groups (customers, suppliers, employees, shareholders, business partners, stakeholders, environment, and society) in the context of a socially responsible culture that is reflected in the development of a sustainable business strategy. AYA Bank’s CSR policy represents our commitment to operate in an economically, socially, and environmentally sustainable manner, while reaching out to the integration of social and business goals. For more details, please follow the link <a href="{{ url('/file/about-aya/corporate-policies/Corporate-Social-Responsibility-Policy.pdf') }}" target="_blank">here</a>.
+										Corporate Social Responsibility Policy intends to establish a reference framework, from which AYA Bank can develop and strengthen socially responsible behavior in the business environment where it operates. To be a responsible business, the Bank is committed to the mission “Sharing and Contributing to our Community”. We have therefore brought together CSR strategies and practices into one framework policy and applied to our existing operating principles. The objective of the policy is to create and promote behavior that generates value to all interest groups (customers, suppliers, employees, shareholders, business partners, stakeholders, environment, and society) in the context of a socially responsible culture that is reflected in the development of a sustainable business strategy. AYA Bank’s CSR policy represents our commitment to operate in an economically, socially, and environmentally sustainable manner, while reaching out to the integration of social and business goals.</p> 
+										<p>For more details, please follow the link <a href="{{ url('/file/about-aya/corporate-policies/Corporate-Social-Responsibility-Policy.pdf') }}" target="_blank">here</a>.
 									</p>
 								</div>
 							</div>
@@ -152,7 +146,8 @@
 							</h2>
 							<div id="collapseCorporateAffairThree" class="accordion-collapse collapse" aria-labelledby="headingCorporateAffairThree" data-bs-parent="#accordionCorporateAffairExample">
 								<div class="accordion-body">
-									<p>We strive to be a responsible steward of the environment and acknowledge that we have a responsibility to our customers, employees, investors, and the communities that we serve, to better understand the need that can help environmental protection. We recognize that our bank business activities may impact upon the environment both through local operations and, more broadly, in terms of raw materials usage, energy usage, water discharges and pollution to water and air. The Bank shall ensure ecological balance and protects the environment by adopting environmentally friendly technologies and actively conducted environmental conservation activities. More information of the policy can be found <a href="{{ url('/file/about-aya/corporate-policies/Environmental-Policy.pdf') }}" target="_blank">Here</a>.</p>
+									<p>We strive to be a responsible steward of the environment and acknowledge that we have a responsibility to our customers, employees, investors, and the communities that we serve, to better understand the need that can help environmental protection. We recognize that our bank business activities may impact upon the environment both through local operations and, more broadly, in terms of raw materials usage, energy usage, water discharges and pollution to water and air. The Bank shall ensure ecological balance and protects the environment by adopting environmentally friendly technologies and actively conducted environmental conservation activities.</p> 
+									<p>More information of the policy can be found <a href="{{ url('/file/about-aya/corporate-policies/Environmental-Policy.pdf') }}" target="_blank">Here</a>.</p>
 								</div>
 							</div>
 							<div class="space-10"></div>
@@ -165,7 +160,8 @@
 							</h2>
 							<div id="collapseCorporateAffairFour" class="accordion-collapse collapse" aria-labelledby="headingCorporateAffairFour" data-bs-parent="#accordionCorporateAffairExample">
 								<div class="accordion-body">
-									<p>The rise of social media has changed the world’s perspective on communication and will continue to dominate business communications. AYA Bank, as a leading Bank in Myanmar, is adapting the changes in communication as quickly as possible to remain competitive in the marketplace. We recognize the vital importance of keeping abreast with digital communication and are committed to ensuring that we participate in social media communication in the right way. AYA Bank Senior Management has determined to provide a detailed set of guidelines for employees on using social media which will aid protecting their personal safety, as well as Bank’s business reputation. Detailed guidelines can be found <a href="{{ url('/file/about-aya/corporate-policies/Social-Media-Policy.pdf') }}" target="_blank">here</a></p>
+									<p>The rise of social media has changed the world’s perspective on communication and will continue to dominate business communications. AYA Bank, as a leading Bank in Myanmar, is adapting the changes in communication as quickly as possible to remain competitive in the marketplace. We recognize the vital importance of keeping abreast with digital communication and are committed to ensuring that we participate in social media communication in the right way. AYA Bank Senior Management has determined to provide a detailed set of guidelines for employees on using social media which will aid protecting their personal safety, as well as Bank’s business reputation.</p> 
+									<p>Detailed guidelines can be found <a href="{{ url('/file/about-aya/corporate-policies/Social_Media_Policy.pdf') }}" target="_blank">here</a></p>
 								</div>
 							</div>
 							<div class="space-10"></div>
@@ -186,7 +182,8 @@
 											<li>charitable contributions or volunteering works</li>
 										</ul>
 
-										The initial step of our strategic philanthropy is identifying foundational value – “Sharing and contributing to our community by inclusion, collaboration and transparency”, before we decide “Where (or to whom) do we give?”. More information can be found <a href="{{ url('/file/about-aya/corporate-policies/Donations-Philanthropy.pdf') }}" target="_blank">here</a>.
+										The initial step of our strategic philanthropy is identifying foundational value – “Sharing and contributing to our community by inclusion, collaboration and transparency”, before we decide “Where (or to whom) do we give?”.</p> 
+										<p>More information can be found <a href="{{ url('/file/about-aya/corporate-policies/Donations-Philanthropy.pdf') }}" target="_blank">here</a>.
 									</p>
 								</div>
 							</div>
@@ -210,7 +207,7 @@
 						</div>
 					</div>
 
-					<div class="space-40"></div>
+					<div class="space-40" id="compliance_matters"></div>
 					<h4 class="fw-bold theme_text_color">Compliance Matters</h4>
 					<div class="accordion" id="accordionComplianceMatterExample">
 						<div class="accordion-item">
@@ -221,7 +218,8 @@
 							</h2>
 							<div id="collapseComplianceMattersOne" class="accordion-collapse collapse show" aria-labelledby="headingComplianceMattersOne" data-bs-parent="#accordionComplianceMatterExample">
 								<div class="accordion-body">
-									<p>AYA Bank sets up compliance policy to ensure that the Bank operates with integrity and adhere to applicable laws, regulations, and internal policies. AYA bank’s senior management is responsible for establishing a permanent and effective compliance functions within the bank as part of the bank’s compliance policy. This policy will take the significant role to generate line of defense for managing risks to safeguard customers’ deposits and the Bank’s financial services. Effective compliance and procedures must be followed, and management must take appropriate corrective action when compliance failures are identified. Compliance is to start at the top and should be part of the culture of the Bank. It will be most effective in a corporate culture that emphasizes standards of honesty and integrity and in which the board of directors and senior management lead by example. It concerns everyone within the bank and viewed as an integral part of the Bank’s business activities. The Bank shall hold itself to high standards when carrying on business, and at all times strive to observe the spirit. More information of the policy can be found <a href="{{ url('/file/about-aya/corporate-policies/Compliance-Policy2022.pdf') }}" target="_blank">Corporate Communication Policy</a>.</p>
+									<p>AYA Bank sets up compliance policy to ensure that the Bank operates with integrity and adhere to applicable laws, regulations, and internal policies. AYA bank’s senior management is responsible for establishing a permanent and effective compliance functions within the bank as part of the bank’s compliance policy. This policy will take the significant role to generate line of defense for managing risks to safeguard customers’ deposits and the Bank’s financial services. Effective compliance and procedures must be followed, and management must take appropriate corrective action when compliance failures are identified. Compliance is to start at the top and should be part of the culture of the Bank. It will be most effective in a corporate culture that emphasizes standards of honesty and integrity and in which the board of directors and senior management lead by example. It concerns everyone within the bank and viewed as an integral part of the Bank’s business activities. The Bank shall hold itself to high standards when carrying on business, and at all times strive to observe the spirit.</p> 
+									<p>More information of the policy can be found <a href="{{ url('/file/about-aya/corporate-policies/Compliance_Policy.pdf') }}" target="_blank">here</a>.</p>
 								</div>
 							</div>
 							<div class="space-10"></div>
@@ -235,7 +233,8 @@
 							<div id="collapseComplianceMattersTwo" class="accordion-collapse collapse" aria-labelledby="headingComplianceMattersTwo" data-bs-parent="#accordionComplianceMatterExample">
 								<div class="accordion-body">
 									<p>
-										AYA Bank formalizes its Anti-bribery and Corruption Policy to comply with Myanmar Anti-Corruption Law (2013) and United Nations Convention against Corruption (UNCAC) treaty (2003). It intends to conduct all of its business in an honest and ethical manner. AYA Bank takes a zero-tolerance approach to bribery and corruption and is committed to acting professionally, fairly and with integrity in all its business dealings and relationships. It is the goal of AYA Bank to avoid acts which might reflect adversely upon the integrity and reputation of the bank. The Policy applies to all directors, officers, employees, family members, consultants and contractors of AYA Bank and also extends across all of the Bank’s business dealings. More details can be found in our <a href="{{ url('/file/about-aya/corporate-policies/Anti-bribery-and-Corruption-Policy.pdf') }}" target="_blank">Anti-bribery and Corruption Policy</a>.
+										AYA Bank formalizes its Anti-bribery and Corruption Policy to comply with Myanmar Anti-Corruption Law (2013) and United Nations Convention against Corruption (UNCAC) treaty (2003). It intends to conduct all of its business in an honest and ethical manner. AYA Bank takes a zero-tolerance approach to bribery and corruption and is committed to acting professionally, fairly and with integrity in all its business dealings and relationships. It is the goal of AYA Bank to avoid acts which might reflect adversely upon the integrity and reputation of the bank. The Policy applies to all directors, officers, employees, family members, consultants and contractors of AYA Bank and also extends across all of the Bank’s business dealings.</p> 
+										<p>More details can be found in our <a href="{{ url('/file/about-aya/corporate-policies/Anti-bribery-and-Corruption-Policy.pdf') }}" target="_blank">Anti-bribery and Corruption Policy</a>.
 									</p>
 								</div>
 							</div>
@@ -243,7 +242,7 @@
 						</div>
 					</div>
 
-					<div class="space-40"></div>
+					<div class="space-40" id="creditors_rights"></div>
 					<h4 class="fw-bold theme_text_color">Creditors’ Rights</h4>
 					<div class="accordion" id="accordionCreditorsRightsExample">
 						<div class="accordion-item">
@@ -269,7 +268,7 @@
 						</div>
 					</div>
 
-					<div class="space-40"></div>
+					<div class="space-40" id="finance_dealings"></div>
 					<h4 class="fw-bold theme_text_color">Finance Dealings</h4>
 					<div class="accordion" id="accordionFinanceDealingsExample">
 						<!-- <div class="accordion-item">
@@ -301,7 +300,8 @@
 											<li>Ensure that ethical, efficient and accountable practices are used for sourcing and procuring goods and services.</li>
 										</ul>
 
-										This procedure is applicable to all departments and covers all expenditure for goods and services. More information of the policy can be found <a href="{{ url('/file/about-aya/corporate-policies/PC-Guideline2.8.2021.pdf') }}" target="_blank">here</a>.
+										This procedure is applicable to all departments and covers all expenditure for goods and services.</p> 
+										<p>More information of the policy can be found <a href="{{ url('/file/about-aya/corporate-policies/Purchasing_Committee_Guideline.pdf') }}" target="_blank">here</a>.
 									</p>
 								</div>
 							</div>
@@ -309,8 +309,8 @@
 						</div>
 					</div>
 
-					<div class="space-40"></div>
-					<h4 class="fw-bold theme_text_color">Privacy Policy</h4>
+					<div class="space-40" id="digital_channels"></div>
+					<h4 class="fw-bold theme_text_color">Digital Channels</h4>
 					<div class="accordion" id="accordionCreditorsRightsExample">
 						<div class="accordion-item">
 							<h2 class="accordion-header b-b-none" id="headingCorporateAffairFive">
@@ -320,7 +320,8 @@
 							</h2>
 							<div id="collapseCorporateAffairFive" class="accordion-collapse collapse show" aria-labelledby="headingCorporateAffairFive" data-bs-parent="#accordionCorporateAffairExample">
 								<div class="accordion-body">
-									<p>AYA Bank is devoted to ensuring that customer’s privacy is protected. AYA Bank has a firm policy of protecting the confidentiality and security of information that we collect from our customers. We do not share non‐public personal information with unaffiliated third parties. Information is only shared with customers’ consent, except for the specific purposes, in accordance with all applicable laws. We limit the collection and use of non‐public personal information to the minimum we believe is necessary to deliver superior service to you. The policy statement will give you important information about how we handle customers’ personal information. Detailed guidelines can be found <a href="{{ url('/file/about-aya/corporate-policies/Privacy-Policy.pdf') }}" target="_blank">here</a>.</p>
+									<p>AYA Bank is devoted to ensuring that customer’s privacy is protected. AYA Bank has a firm policy of protecting the confidentiality and security of information that we collect from our customers. We do not share non‐public personal information with unaffiliated third parties. Information is only shared with customers’ consent, except for the specific purposes, in accordance with all applicable laws. We limit the collection and use of non‐public personal information to the minimum we believe is necessary to deliver superior service to you. The policy statement will give you important information about how we handle customers’ personal information.</p> 
+									<p>Detailed guidelines can be found <a href="{{ url('/file/about-aya/corporate-policies/Privacy-Policy.pdf') }}" target="_blank">here</a>.</p>
 								</div>
 							</div>
 							<div class="space-10"></div>

@@ -14,19 +14,34 @@
 
                 <div class="container y-4">
                     <div class="row">
-                        <div class="col-md-4 px-3">
+                        <div class="col-md-3 px-3">
                             <p>
                                 <a class="f-body-color" href="{{ url('/about-aya/who-we-are') }}">WHO WE ARE <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
                         </div>
-                        <div class="col-md-4 px-3">
+                        <div class="col-md-3 px-3">
                             <p>
                                 <a class="f-body-color" href="{{ url('/about-aya/governance') }}">GOVERNANCE <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
                         </div>
-                        <div class="col-md-4 px-3">
+                        <div class="col-md-3 px-3">
                             <p>
                                 <a class="f-body-color" href="{{ url('/about-aya/news-room') }}">NEWSROOM <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                            </p>
+                        </div>
+                        <div class="col-md-3 px-3">
+                            <p>
+                                <a class="f-body-color" href="{{ url('/about-aya/career') }}">CAREER <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                            </p>
+                        </div>
+                        <div class="col-md-3 px-3">
+                            <p>
+                                <a class="f-body-color" href="{{ url('/about-aya/sustainability') }}">SUSTAINABILITY <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                            </p>
+                        </div>
+                        <div class="col-md-3 px-3">
+                            <p>
+                                <a class="f-body-color" href="{{ url('/about-aya/network') }}">NETWORK <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
                         </div>
                     </div>

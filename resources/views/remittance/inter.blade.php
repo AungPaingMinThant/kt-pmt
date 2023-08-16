@@ -187,12 +187,6 @@
 											<div class="col-md-11 col-10 secure_credit_fact">
 												<p>100% cash out at any AYA Branches using the secure transaction code (i.e. 10 digits MTCN).</p>
 											</div>
-											<div class="col-md-1 col-2" style="padding-top: 5px;">
-												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-											</div>
-											<div class="col-md-11 col-10 secure_credit_fact">
-												<p>Cash out and credit to AYA’s Ngwe Toe Mae - Shwe O account to earn higher interest.</p>
-											</div>
 										</div>
 									</div>
 								</div>
@@ -217,11 +211,29 @@
 											<div class="col-md-11 col-10 secure_credit_fact">
 												<p>100% cash out at any AYA Branches using the secure transaction code (PIN).</p>
 											</div>
-											<div class="col-md-1 col-2" style="padding-top: 5px;">
-												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-											</div>
-											<div class="col-md-11 col-10 secure_credit_fact">
-												<p>Cash out and credit to AYA’s Ngwe Toe Mae - Shwe O account to earn higher interest.</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="">
+									<div class="space-60"></div>
+									<h4 class="fw-bold">Explore More</h4>
+									<hr class="bottom_hr">
+									<div class="space-20"></div>
+									<div class="row">
+										<div class="col-md-5">
+											<div class="card">
+												<div style="position: relative;">
+													<img src="{{ url('/images/about-aya/network/correspondent-bank/correspondent-img.webp') }}" alt="Correspondent Bank" class="card-img-top">
+												</div>
+												<div class="card-body">
+													<p class="card-title fw-semibold mb-20" style="font-size: 16px;">Correspondent Bank</p>
+													<p class="card_detail_info mb-30">Our network for global money transfers, easy and secure</p>
+
+													<p class="text-decoration-underline">
+														<a href="{{ url('/about-aya/network/correspondent-bank') }}">Learn more <i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i></a>
+													</p>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -338,12 +350,6 @@
 										<div class="col-md-11 col-10 secure_credit_fact">
 											<p>100% cash out at any AYA Branches using the secure transaction code (i.e. 10 digits MTCN).</p>
 										</div>
-										<div class="col-md-1 col-2" style="padding-top: 5px;">
-											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-										</div>
-										<div class="col-md-11 col-10 secure_credit_fact">
-											<p>Cash out and credit to AYA’s Ngwe Toe Mae - Shwe O account to earn higher interest.</p>
-										</div>
 									</div>
 								</div>
 							</div>
@@ -368,18 +374,14 @@
 										<div class="col-md-11 col-10 secure_credit_fact">
 											<p>100% cash out at any AYA Branches using the secure transaction code (PIN).</p>
 										</div>
-										<div class="col-md-1 col-2" style="padding-top: 5px;">
-											<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-										</div>
-										<div class="col-md-11 col-10 secure_credit_fact">
-											<p>Cash out and credit to AYA’s Ngwe Toe Mae - Shwe O account to earn higher interest.</p>
-										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+
+
 			</div>
 		</div>
 	</div>

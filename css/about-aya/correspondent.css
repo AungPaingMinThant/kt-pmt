@@ -1,0 +1,65 @@
+.bullet_square {
+    width: 10%;
+    margin-top: 5px;
+}
+.correspondent_services {
+    margin-left: -80px;
+}
+.swiftcode_txt {
+    font-size: 16px !important;
+}
+.swiftcode_btn {
+    margin-left: 20px;
+    background-color: #A5000B !important;
+    color: #fff !important;
+    border: 1px solid #A5000B !important;
+}
+.bottom_hr {
+    border-bottom: 5px solid #A5000B;
+    width: 150px !important;
+    margin-top: 5px;
+}
+thead > tr > td:not(:last-child), tbody > tr > td:not(:last-child) {
+    border-right: 2px solid #fff !important;
+}
+thead > tr , tbody > tr {
+    border-bottom: 2px solid #fff !important;
+}
+.correspondent_network_map {
+    width: 90%;
+    margin: 0 auto;
+}
+@media (max-width: 1400px) and (min-width: 1301px) {
+    .correspondent_services {
+        margin-left: -70px;
+    }
+}
+@media (max-width: 1300px) and (min-width: 1101px) {
+    .correspondent_services {
+        margin-left: -60px;
+    }
+}
+@media (max-width: 1100px) and (min-width: 577px) {
+    .correspondent_services {
+        margin-left: -50px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .correspondent_network_table {
+        zoom: 69%;
+    }
+    .correspondent_network_map {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .bullet_square {
+        width: 30%;
+        margin-top: 5px;
+    }
+    .bullet_square_col {
+        padding-right: 0px !important;
+    }
+    .correspondent_services {
+        margin-left: 0px;
+    }
+}

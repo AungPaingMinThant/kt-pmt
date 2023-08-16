@@ -28,7 +28,9 @@
 												<p class="news_title">{{ $b_list->blog_title }}</p>
 											</a>
 										</div>
-										{!! html_entity_decode($b_list->blog_desc) !!}
+										<div class="news_desc_div">
+										    {!! html_entity_decode($b_list->blog_desc) !!}
+										</div>
 										<span class="news_date mb-0">{{ date('d M Y', strtotime($b_list->publish_date)) }}</span>
 									</div>
 								</div>
@@ -49,15 +51,15 @@
 
 						<div class="space-30"></div>
 
-<!-- 						<div class="row pl-1">
+						<div class="row pl-1">
 							<h4 class="fw-semibold mt-minus-10 mb-0">Categories</h4>
 							<hr class="cat-bottom-hr">
 							@foreach($categories as $cat)
 								<p>
-									<a href="#" class="f-body-color">{{ $cat->category_name }}</a>
+									<a href="{{ url('/about-aya/news-room/'.$cat->cat_slug) }}" class="f-body-color">{{ $cat->category_name }}</a>
 								</p>
 							@endforeach
-						</div> -->
+						</div>
 					</div>
 				</div>
 			</div>

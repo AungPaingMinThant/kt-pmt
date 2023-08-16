@@ -296,12 +296,12 @@
 						<div class="accordion-item">
 							<h2 class="accordion-header" id="headingOne">
 								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-									Who can I contact for enquiry and onboarding process?
+									Who can I contact for enquiry and onboarding process&nbsp;<span class="theme_text_color">for business</span>?
 								</button>
 							</h2>
 							<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
 								<div class="accordion-body">
-									<p>Please email us at <a href="mailto:mchecommerce@ayabank.com">mchecommerce@ayabank.com</a> for enquiry.</p>
+									<p>Please email us at <a href="mailto:mchecommerce@ayabank.com">mchecommerce@ayabank.com</a> for&nbsp;<span class="theme_text_color">business</span> enquiry.</p>
 								</div>
 							</div>
 						</div>

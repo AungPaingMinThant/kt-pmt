@@ -120,21 +120,21 @@
 									<p class="fee_title">PIN Reissue Fees</p>
 									<p class="fee_desc">1,000 MMK</p>
 								</div>
-								<div class="col-md-6 fee_charge_inner_div">
+								<!-- <div class="col-md-6 fee_charge_inner_div">
 									<p class="fee_title">POS Transactions Fees</p>
 									<p class="fee_desc">Free</p>
+								</div> -->
+								<div class="col-md-6 fee_charge_inner_div">
+									<p class="fee_title">ATM Withdrawal Fees</p>
+									<p class="fee_desc">Withdrawal Flat Fee: 11,000 MMK + Mark Up + Oversea Bank Charges (Per Transaction)</p>
 								</div>
 							</div>
-							<div class="row">
+							<!-- <div class="row">
 								<div class="col-md-6 fee_charge_inner_div">
 									<p class="fee_title">Online Transaction Fees</p>
 									<p class="fee_desc">Free</p>
 								</div>
-								<div class="col-md-6 fee_charge_inner_div">
-									<p class="fee_title">ATM Withdrawal Fees</p>
-									<p class="fee_desc">Overseas bank charges (per transaction)</p>
-								</div>
-							</div>
+							</div> -->
 							<div class="row">
 								<div class="col-md-6 fee_charge_inner_div">
 									<p class="fee_title">Balance Inquiry</p>
@@ -232,10 +232,10 @@
 			<div class="">
 				<div class="col-12 text-center">
 					<h4 style="font-weight: 500;color: #000;">Forgot your card PIN?</h4>
-					<p>You can reset / change your PIN easily via online.</p>
-					<a href="{{ url('/digital-services/card-services/reset-pin') }}">
+					<p>You can reset / change your PIN at nearest branch.</p>
+					<a href="#">
 						<button class="btn" style="background-color: #ae071d;color: #fff;font-weight: 500;padding: 15px 25px;border: #ae071d;margin-bottom: 2rem;">
-							Reset PIN
+							Find Branch
 						</button>
 					</a>
 				</div>

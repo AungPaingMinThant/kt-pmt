@@ -66,6 +66,15 @@
 							</table>
 						</div>
 					</div>
+					<div class="col-md-12">
+						<div class="row">
+							<div class="space-40"></div>
+							<p class="mb-30"><span class="theme_text_color fw-semibold" style="font-size: 16px;padding-right: 20px;">Worker Remittance Rate : </span>{{ $other_rate->worker_remittance_currency }} = {{ number_format($other_rate->	worker_remittance_MMK) }} MMK</p>
+
+							<p class="theme_text_color fw-semibold" style="font-size: 16px;">Exchange counter rate (special purpose)</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a href="{{ url($other_rate->special_purpose) }}" class="theme_text_color text-decoration-underline" target="_blank">Click Here</a></p>
+						</div>
+					</div>
 					<div class="col-md-12 mt-20">
 						<p class="disclaimer_title">Disclaimers</p>
 						<p style="color: #777777;font-size: 12px;">

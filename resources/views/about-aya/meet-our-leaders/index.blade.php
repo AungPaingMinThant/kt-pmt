@@ -70,21 +70,21 @@
 									</div>
 									<div class="col-md-4 col-lg-4 mb-6">
 										<div class="card h-100">
-											<img src="{{ url('/images/about-aya/meet-our-leaders/u_than_zaw.webp') }}" alt="U Than Zaw | Board of Directors | Vice-Chairman" class="card-img-top">
-											<div class="card-body">
-												<h5 class="card-title fw-semibold mb-0">U Than Zaw</h5>
-												<p class="mb-4">Vice-Chairman</p>
-												<a class="view_bio_link theme_text_color" data-bs-toggle="modal" data-bs-target="#u_than_zaw_bio_modal">View Bio <i class='bx bx-chevron-right' style="font-size: 18px;"></i></a>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4 col-lg-4 mb-6">
-										<div class="card h-100">
 											<img src="{{ url('/images/about-aya/meet-our-leaders/daw_htay_htay_khaing.webp') }}" alt="Daw Htay Htay Khaing | Board of Directors | Vice-Chairman" class="card-img-top">
 											<div class="card-body">
 												<h5 class="card-title fw-semibold mb-0">Daw Htay Htay Khaing</h5>
 												<p class="mb-4">Vice-Chairman</p>
 												<a class="view_bio_link theme_text_color" data-bs-toggle="modal" data-bs-target="#daw_htay_htay_khaing_bio_modal">View Bio <i class='bx bx-chevron-right' style="font-size: 18px;"></i></a>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 col-lg-4 mb-6">
+										<div class="card h-100">
+											<img src="{{ url('/images/about-aya/meet-our-leaders/u_than_zaw.webp') }}" alt="U Than Zaw | Board of Directors | Vice-Chairman" class="card-img-top">
+											<div class="card-body">
+												<h5 class="card-title fw-semibold mb-0">U Than Zaw</h5>
+												<p class="mb-4">Vice-Chairman</p>
+												<a class="view_bio_link theme_text_color" data-bs-toggle="modal" data-bs-target="#u_than_zaw_bio_modal">View Bio <i class='bx bx-chevron-right' style="font-size: 18px;"></i></a>
 											</div>
 										</div>
 									</div>
@@ -192,6 +192,16 @@
 									</div>
 									<div class="col-md-4 col-lg-4 mb-6">
 										<div class="card h-100">
+											<img src="{{ url('/images/about-aya/meet-our-leaders/daw_lwin_lwin_aung.webp') }}" alt="Daw Lwin Lwin Aung | Executive Management Team | Chief Financial Officer" class="card-img-top">
+											<div class="card-body">
+												<h5 class="card-title fw-semibold mb-0">Daw Lwin Lwin Aung</h5>
+												<p class="mb-4">Chief Financial Officer</p>
+												<a class="view_bio_link theme_text_color" data-bs-toggle="modal" data-bs-target="#daw_lwin_lwin_aung_bio_modal">View Bio <i class='bx bx-chevron-right' style="font-size: 18px;"></i></a>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 col-lg-4 mb-6">
+										<div class="card h-100">
 											<img src="{{ url('/images/about-aya/meet-our-leaders/daw_thazin_aung.webp') }}" alt="Daw Jasmine Thazin Aung | Executive Management Team | Managing Director" class="card-img-top">
 											<div class="card-body">
 												<h5 class="card-title fw-semibold mb-0">Daw Jasmine Thazin Aung</h5>
@@ -232,16 +242,6 @@
 									</div>
 									<div class="col-md-4 col-lg-4 mb-6">
 										<div class="card h-100">
-											<img src="{{ url('/images/about-aya/meet-our-leaders/daw_lwin_lwin_aung.webp') }}" alt="Daw Lwin Lwin Aung | Executive Management Team | Chief Financial Officer" class="card-img-top">
-											<div class="card-body">
-												<h5 class="card-title fw-semibold mb-0">Daw Lwin Lwin Aung</h5>
-												<p class="mb-4">Chief Financial Officer</p>
-												<a class="view_bio_link theme_text_color" data-bs-toggle="modal" data-bs-target="#daw_lwin_lwin_aung_bio_modal">View Bio <i class='bx bx-chevron-right' style="font-size: 18px;"></i></a>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4 col-lg-4 mb-6">
-										<div class="card h-100">
 											<img src="{{ url('/images/about-aya/meet-our-leaders/nay_lin_htut.webp') }}" alt="Daw Lwin Lwin Aung< | Executive Management Team | Chief Financial Officer" class="card-img-top">
 											<div class="card-body">
 												<h5 class="card-title fw-semibold mb-0">U Nay Lin Htut</h5>
@@ -276,7 +276,7 @@
 						<p>Founder and Chairman ( Non-Executive )</p>
 
 						<p class="mb-10 bio_detail">U Zaw Zaw is a successful business magnate and Founder and Chairman of AYA Bank. He is graduated from the University of Yangon with a major in Mathematics. With a combination of overseas experiences and personal strength, U Zaw Zaw founded Max Myanmar Company in 1993 and AYA Bank in 2010. His achievements include steering the management and growth of AYA Financial Group and Max Myanmar Group of Companies, major conglomerates in Myanmar. He is an established and well-connected entrepreneur and business leader in Myanmar, with 30 years of management experience.</p>
-						<p>He is currently serving as the President of the Myanmar Football Federation since 2005 and Vice- President of Asian Football Confederation (AFC). He relentlessly provides both funding and effort for the development of soccer in Myanmar. As a firm believer of contributing to the society and helping the needy, he has supported various philanthropic causes through the Ayeyarwady Foundation, including the Yankin Children Hospital, Ayeyarwady Covid-19 Center, and a wide range of corporate social responsibility initiatives nationwide.</p>
+						<p>He is currently serving as the President of the Myanmar Football Federation since 2005 and Senior Vice President of Asean Football Confederation (AFC). He relentlessly provides both funding and effort for the development of soccer in Myanmar. As a firm believer of contributing to the society and helping the needy, he has supported various philanthropic causes through the Ayeyarwady Foundation, including the Yankin Children Hospital, Ayeyarwady Covid-19 Center, and a wide range of corporate social responsibility initiatives nationwide.</p>
 					</div>
 				</div>
 			</div>
@@ -517,9 +517,9 @@
 						<p class="mb-0">Myanmar</p>
 						<p>Managing Director (Digital Banking)</p>
 
-						<p class="mb-10 bio_detail">U Nyein Chan Soe Win is the Managing Director for ‘Digital Payments’ of AYA Bank and is a member of the Bank’s Executive Committee. He is responsible for managing the roadmap and defining the customer experience for Digital channels where he plays a visible role of driving and delivering the Bank’s digital channels. Over the years, he has been the main strategic driver for digital wallet application namely ‘AYA Pay’.</p>
+						<p class="mb-10 bio_detail">U Nyein Chan Soe Win is the Managing Director for ‘Digital Banking’ of AYA Bank and is a member of the Bank’s Executive Committee. He is responsible for managing the roadmap and defining the customer experience for Digital channels where he plays a visible role of driving and delivering the Bank’s digital channels. Over the years, he has been the main strategic driver for digital wallet application namely ‘AYA Pay’.</p>
 						<p>He leads and runs the digital innovation across the bank with an aspiration to propel AYA in becoming a premier digital bank. He has strong leadership, management and business development skills with solid experiences in start-ups, entrepreneurship, payments, FinTech, emerging market, e-commerce and IT service management.</p>
-						<p>U Nyein Chan Soe Win holds a master’s degree from Nanyang Technology University. Prior to joining AYA Bank, he played the role of IT professional in Singapore for one of the world’s <i>leading energy company and advanced his career</i> as a Managing Director of Singapore based regional payment company where he transformed digital payments in Myanmar, remarkably enablement of digital payments, launch of first virtual prepaid card and the launch of first mobile banking with QR payment. He also co-founded the first blockchain Omni Channel Digital Commerce Platform in Myanmar and became CEO and CTO.</p>
+						<p>U Nyein Chan Soe Win holds a master’s degree from Nanyang Technology University. Prior to joining AYA Bank, he played the role of IT professional in Singapore for one of the world’s leading energy company and advanced his career as a Managing Director of Singapore based regional payment company where he transformed digital payments in Myanmar, remarkably enablement of digital payments, launch of first virtual prepaid card and the launch of first mobile banking with QR payment. He also co-founded the first blockchain Omni Channel Digital Commerce Platform in Myanmar and became CEO and CTO.</p>
 					</div>
 				</div>
 			</div>

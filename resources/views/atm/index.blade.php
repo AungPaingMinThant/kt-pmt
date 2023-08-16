@@ -32,8 +32,7 @@
 				<img src="{{ url('/images/atm/location_holder_mobile.jpg') }}" class="img-fluid">
 			</div> -->
 			<div class="" style="width: 100%;padding: 0 !important;">
-				<!-- <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1TGQGlYgz_Y9HdOAuF7esdoZWtnSC9LI&ehbc=2E312F" style="height: 500px;padding: 0 !important;width: 100%;"></iframe> -->
-				<iframe src="http://localhost/superstorefinder_responsive/mega-embed.php" width="100%" height="900px" allow="geolocation" scrolling="yes" frameborder=no></iframe>
+				<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1TGQGlYgz_Y9HdOAuF7esdoZWtnSC9LI&ehbc=2E312F" style="height: 500px;padding: 0 !important;width: 100%;"></iframe>
 			</div>
 
 			<div class="space-60"></div>

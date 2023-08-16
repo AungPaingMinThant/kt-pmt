@@ -79,7 +79,7 @@
 											<img src="{{ url('/images/check_icon.png') }}" class="img-fluid">
 										</div>
 										<div class="col-md-11 col-10 secure_credit_fact">
-											<p>Validity is 4 years.</p>
+											<p>Validity is 5 years.</p>
 										</div>
 									</div>
 									<div class="row">
@@ -241,113 +241,6 @@
 					<div class="row jcb_credit_fees_charge_section">
 						<div class="col-md-12 how_to_apply_desc">
 							<div class="row">
-								<h3 style="color: #1d1d1f;font-weight: 600;">Fees and Charges</h3>
-								<!-- <p style="color: #1d1d1f;font-weight: 600;font-size: 30px;margin-bottom: 0px;"></p> -->
-								<p style="color: #1d1d1f;margin-bottom: 30px;">Enjoy free issuing card fees for both Principal and Supplementary Card holder. <a class="credit_fee_charge" style="color: #1d1d1f;text-decoration: underline;cursor: pointer;">Click here to learn other fees and charges</a><i class="menu-icon tf-icons bx bx-chevron-down credit_fee_charge_chevron"></i></p>
-							</div>
-
-							<div class="row fees_charge_div" style="display: none;">
-								<div class="col-md-12">
-									<div class="row">
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Retail Interest</p>
-											<p class="fee_desc">1.33% per month if full payment is not made by payment due date</p>
-											<p class="fee_desc">(16% Per Annum)</p>
-										</div>
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">IPP Interest</p>
-											<p class="fee_desc">12% Per Annum</p>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Penalty Fee</p>
-											<p class="fee_desc">1% will be charge if full payment is not received by due date</p>
-										</div>
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Late Fee</p>
-											<p class="fee_desc">2% will be charge if minimum payment has not been made by due date</p>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Over Limit Fee</p>
-											<p class="fee_desc">3% will be charge if over limit amount due</p>
-										</div>
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Collection Letter Fee</p>
-											<p class="fee_desc">1,500 MMK (No payment for 90/120/150 days from billing date)</p>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Legal Noice Fee</p>
-											<p class="fee_desc">30,000 MMK (No payment for 180 days and above from billing date)</p>
-										</div>
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Card Lost/Damage/Reissue Fees</p>
-											<p class="fee_desc">10,000 MMK</p>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Card Early Termination / Cancellation Fee</p>
-											<p class="fee_desc">Free</p>
-										</div>
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">PIN Reissue Fee</p>
-											<p class="fee_desc">1,000 MMK</p>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">POS Transactions Fees</p>
-											<p class="fee_desc">Free</p>
-										</div>
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Online Transaction Fees</p>
-											<p class="fee_desc">Free</p>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Cash Withdraw Transactions Fees (Domestic - AYA ATM)</p>
-											<p class="fee_desc">6% of withdrawal amount (Per Transaction)</p>
-											<p class="fee_desc">(Minimum charges for each transaction is MMK 1,000)</p>
-										</div>
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Cash Withdraw Transactions Fees (Domestic - Other Bank ATM)</p>
-											<p class="fee_desc">6% + Other Bank Charges (Per Transaction)</p>
-											<p class="fee_desc">(Minimum charges for each transaction is MMK 1,000)</p>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Cash Withdraw Transactions Fees (International)</p>
-											<p class="fee_desc">6% + Oversea Bank Charges  (Per Transaction)</p>
-											<p class="fee_desc">(Minimum charges for each transaction is MMK 1,000)</p>
-										</div>
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Balance Inquiry</p>
-											<p class="fee_desc">Free</p>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Statement Reprint Fee</p>
-											<p class="fee_desc">Free</p>
-										</div>
-									</div>
-									<div class="row">
-										<div class="ol-md-12">
-											<p style="font-size: 12px;margin-bottom: 0px;">* Note: Cross currency mark-up fees will be applied for foreign transactions</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-12 how_to_apply_desc">
-							<div class="row">
 								<h3 style="color: #1d1d1f;font-weight: 600;">Annual Fees</h3>
 								<p style="color: #1d1d1f;margin-bottom: 30px;"><a class="annual_fee" style="color: #1d1d1f;text-decoration: underline;cursor: pointer;">Check Annual fees here for AYA Credit cards</a><i class="menu-icon tf-icons bx bx-chevron-down annual_fee_chevron"></i></p>
 							</div>
@@ -488,6 +381,209 @@
 								</div>
 							</div>
 						</div>
+
+						<div class="row secured_fees_charge_section d-none">							
+							<div class="col-md-12 how_to_apply_desc">
+								<div class="row">
+									<h3 style="color: #1d1d1f;font-weight: 600;">Fees and Charges</h3>
+									<p style="color: #1d1d1f;margin-bottom: 30px;">Enjoy free issuing card fees for Secured Credit Card holder. <a class="secured_fee_charge" style="color: #1d1d1f;text-decoration: underline;cursor: pointer;">Click here to learn other fees and charges</a><i class="menu-icon tf-icons bx bx-chevron-down secured_fee_charge_chevron"></i></p>
+								</div>
+
+								<div class="row secured_fee_charge_div" style="display: none;">
+									<div class="col-md-12">
+										<div class="row">
+											<div class="col-md-6 fee_charge_inner_div">
+												<p class="fee_title">Retail Interest</p>
+												<p class="fee_desc">10% Per Annum</p>
+											</div>
+											<div class="col-md-6 fee_charge_inner_div">
+												<p class="fee_title">Penalty Fee</p>
+												<p class="fee_desc">1% will be charge if full payment is not received by due date</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-6 fee_charge_inner_div">
+												<p class="fee_title">Late Fee</p>
+												<p class="fee_desc">2% will be charge if minimum payment has not been made by due date</p>
+											</div>
+											<div class="col-md-6 fee_charge_inner_div">
+												<p class="fee_title">Balance Enquiry Fee</p>
+												<p class="fee_desc">Free</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-6 fee_charge_inner_div">
+												<p class="fee_title">PIN Reset/ Reissue Fee</p>
+												<p class="fee_desc">1,000 MMK</p>
+											</div>
+											<div class="col-md-6 fee_charge_inner_div">
+												<p class="fee_title">Card Reissue/ Renew Fees</p>
+												<p class="fee_desc">10,000 MMK</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-6 fee_charge_inner_div">
+												<p class="fee_title">Cash Withdraw Transactions Fees(Domestic - AYA ATM)</p>
+												<p class="fee_desc">6% of withdrawal amount (Per Transaction)</p>
+												<p class="fee_desc">(Minimum charges for each transaction is MMK 1,000)</p>
+											</div>
+											<div class="col-md-6 fee_charge_inner_div">
+												<p class="fee_title">Cash Withdraw Transactions Fees (Domestic - Other Bank ATM)</p>
+												<p class="fee_desc">6% + Other Bank Charges (Per Transaction)</p>
+												<p class="fee_desc">(Minimum charges for each transaction is MMK 1,000)</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-6 fee_charge_inner_div">
+												<p class="fee_title">Cash Withdraw Transactions Fees (International)</p>
+												<p class="fee_desc">6% + Oversea Bank Charges  (Per Transaction)</p>
+												<p class="fee_desc">(Minimum charges for each transaction is MMK 1,000)</p>
+											</div>
+											<div class="col-md-6 fee_charge_inner_div">
+												<p class="fee_title">IPP Interest</p>
+												<p class="fee_desc">12% Per Annum</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-6 fee_charge_inner_div">
+												<p class="fee_title">Card Early Termination / Cancellation Fee</p>
+												<p class="fee_desc">Free</p>
+											</div>
+											<div class="col-md-6 fee_charge_inner_div">
+												<p class="fee_title">International Transaction Fees</p>
+												<p class="fee_desc mb-0">Fees 25% ~ 70%</p>
+												<p class="fee_desc">(Note * Fees are subject to change without prior notice)</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-6 fee_charge_inner_div">
+												<p class="fee_title">PIN Reset/ Reissue Fee</p>
+												<p class="fee_desc">1,000 MMK</p>
+											</div>
+											<div class="col-md-6 fee_charge_inner_div">
+												<p class="fee_title">POS Transactions Fees</p>
+												<p class="fee_desc">Free</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-6 fee_charge_inner_div">
+												<p class="fee_title">Online Transaction Fees</p>
+												<p class="fee_desc">Free</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-12 jcb_visa_how_to_apply how_to_apply_desc">
+							<div class="row">
+								<h3 style="color: #1d1d1f;font-weight: 600;">Fees and Charges</h3>
+								<!-- <p style="color: #1d1d1f;font-weight: 600;font-size: 30px;margin-bottom: 0px;"></p> -->
+								<p style="color: #1d1d1f;margin-bottom: 30px;">Enjoy free issuing card fees for both Principal and Supplementary Card holder. <a class="credit_fee_charge" style="color: #1d1d1f;text-decoration: underline;cursor: pointer;">Click here to learn other fees and charges</a><i class="menu-icon tf-icons bx bx-chevron-down credit_fee_charge_chevron"></i></p>
+							</div>
+
+							<div class="row fees_charge_div" style="display: none;">
+								<div class="col-md-12">
+									<div class="row">
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">Retail Interest</p>
+											<p class="fee_desc">1.33% per month if full payment is not made by payment due date</p>
+											<p class="fee_desc">(16% Per Annum)</p>
+										</div>
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">IPP Interest</p>
+											<p class="fee_desc">12% Per Annum</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">Penalty Fee</p>
+											<p class="fee_desc">1% will be charge if full payment is not received by due date</p>
+										</div>
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">Late Fee</p>
+											<p class="fee_desc">2% will be charge if minimum payment has not been made by due date</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">Over Limit Fee</p>
+											<p class="fee_desc">3% will be charge if over limit amount due</p>
+										</div>
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">Collection Letter Fee</p>
+											<p class="fee_desc">1,500 MMK (No payment for 90/120/150 days from billing date)</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">Legal Noice Fee</p>
+											<p class="fee_desc">30,000 MMK (No payment for 180 days and above from billing date)</p>
+										</div>
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">Card Lost/Damage/Reissue Fees</p>
+											<p class="fee_desc">10,000 MMK</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">Card Early Termination / Cancellation Fee</p>
+											<p class="fee_desc">Free</p>
+										</div>
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">PIN Reissue Fee</p>
+											<p class="fee_desc">1,000 MMK</p>
+										</div>
+									</div>
+									<!-- <div class="row">
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">POS Transactions Fees</p>
+											<p class="fee_desc">Free</p>
+										</div>
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">Online Transaction Fees</p>
+											<p class="fee_desc">Free</p>
+										</div>
+									</div> -->
+									<div class="row">
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">Cash Withdraw Transactions Fees (Domestic - AYA ATM)</p>
+											<p class="fee_desc">6% of withdrawal amount (Per Transaction)</p>
+											<p class="fee_desc">(Minimum charges for each transaction is MMK 1,000)</p>
+										</div>
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">Cash Withdraw Transactions Fees (Domestic - Other Bank ATM)</p>
+											<p class="fee_desc">6% + Other Bank Charges (Per Transaction)</p>
+											<p class="fee_desc">(Minimum charges for each transaction is MMK 1,000)</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">Cash Withdraw Transactions Fees (International)</p>
+											<p class="fee_desc">Withdrawal Flat Fee: 11,000 MMK + Mark Up + Oversea Bank Charges (Per Transaction)</p>
+											<p class="fee_desc">(Minimum charges for each transaction is MMK 1,000)</p>
+										</div>
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">Balance Inquiry</p>
+											<p class="fee_desc">Free</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">Statement Reprint Fee</p>
+											<p class="fee_desc">Free</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="ol-md-12">
+											<p style="font-size: 12px;margin-bottom: 0px;">* Note: Cross currency mark-up fees will be applied for foreign transactions</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
 						<div class="col-md-12 how_to_apply_desc">
 							<div class="row">
 								<h3 style="color: #1d1d1f;font-weight: 600;">Card Features</h3>
@@ -519,32 +615,32 @@
 									<div class="row">
 										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">ATM Withdrawal Limit</p>
-											<p class="fee_desc">Domestic Transaction - 2,000,000 MMK Per day</p>
-											<p class="fee_desc">International Transaction - 500,000 MMK Per day</p>
+											<p class="fee_desc">Domestic Transaction - 2,000,000 MMK per day</p>
+											<p class="fee_desc">International Transaction - Amount equivalent to 2,000,000 (Daily) / 2,000,000 (Weekly) /  8,000,000 (Monthly)</p>
 										</div>
-										<div class="col-md-6 fee_charge_inner_div">
+										<!-- <div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">POS Withdrawal Limit</p>
-											<p class="fee_desc">Domestic Transaction - 2,000,000 MMK Per day</p>
-											<p class="fee_desc">International Transaction - 500,000 MMK Per day</p>
-										</div>
-									</div>
-									<div class="row">
+											<p class="fee_desc">Domestic Transaction - 2,000,000 MMK per day</p>
+											<p class="fee_desc">International Transaction - 500,000 MMK per day</p>
+										</div> -->
 										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">Over Limit</p>
 											<p class="fee_desc">10% of Credit Limit</p>
 										</div>
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Transaction Limit</p>
-											<p class="fee_desc">Domestic Transaction - 500,000 MMK per day</p>
-											<p class="fee_desc">International Transaction - 2,500,000 per month</p>
-										</div>
 									</div>
 									<div class="row">
+										<div class="col-md-6 fee_charge_inner_div">
+											<p class="fee_title">Transaction Limit</p>
+											<p class="fee_desc">Domestic Transaction - 5,000,000 MMK per day</p>
+											<p class="fee_desc">International Transaction - 2,500,000 per month</p>
+										</div>
 										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">International Transaction Fees</p>
 											<p class="fee_desc">Fees 25% ~ 70%</p>
 											<p class="fee_desc">(Note * Fees are subject to change without prior notice)</p>
 										</div>
+									</div>
+									<div class="row">
 										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">Other Fees</p>
 											<p class="fee_desc">Service Charges/ Fees will be inclusive based on the transaction types including refunds and reversal transactions.</p>
@@ -727,7 +823,7 @@
 								<p style="margin-bottom:30px;">AYA Bank will only accept and agree to issue a secured credit card once it has received all necessary documentation and its internal checks have been completed to its satisfaction. AYA Bank reserves the right to reject an application. <span style="color: #A5000B;">Terms and Conditions apply.</span></p>
 							</div>
 						</div>
-						<div class="col-md-12 how_to_apply_desc">
+						<!-- <div class="col-md-12 how_to_apply_desc">
 							<div class="row">
 								<h3 style="color: #1d1d1f;font-weight: 600;">Fees and Charges</h3>
 								<p style="color: #1d1d1f;margin-bottom: 30px;">Enjoy free issuing card fees for Secured Credit Card holder. <a class="secured_fee_charge" style="color: #1d1d1f;text-decoration: underline;cursor: pointer;">Click here to learn other fees and charges</a><i class="menu-icon tf-icons bx bx-chevron-up secured_fee_charge_chevron"></i></p>
@@ -817,7 +913,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
@@ -853,7 +949,7 @@
 			<div class="simple_pay_div">
 				<div class="container d-none d-sm-block">
 					<div class="row">
-						<div class="col-md-9 col-xs-12 simple_pay_col">
+						<div class="col-md-6 col-xs-12 simple_pay_col">
 							<p class="simple_pay_text">Are you also interested in <br><span style="font-weight: 500;color: #A5000B;">SimplePay Installment</span> with AYA Credit Cards?</p>
 							<a href="{{ url('/digital-services/card-services/simple-pay') }}">
 								<button class="btn reset_pin_btn" >
@@ -861,7 +957,9 @@
 								</button>
 							</a>
 						</div>
-						<div class="col-md-3"></div>
+						<div class="col-md-6 text-right">
+							<img src="{{ url('/images/simple_pay_installment_card.png') }}" class="img-fluid simple_pay_installment_card" style="float: right;">
+						</div>
 					</div>
 				</div>
 
@@ -955,7 +1053,7 @@
 							<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
 								<div class="accordion-body">
 									<p>
-										Your Credit Limit is determined based on your monthly income and other factors. Credit term is allowed up to 20 days from the billing cycle. Minimum payment must be 10% of the spent amount.
+										Your Credit Limit is determined based on your monthly income and other factors. Credit term is allowed up to 50 days from the billing cycle. Enjoy up to a maximum of 50 days interest-free repayment period of AYA Credit Card.
 									</p>
 								</div>
 							</div>
@@ -1034,7 +1132,8 @@
 		$(".secure_feature_section").removeClass('d-none');
 		$(".jbc_visa_manage_card").addClass('d-none');
 		$(".secured_manage_card").removeClass('d-none');
-		$(".jcb_credit_fees_charge_section").addClass('d-none');
+		// $(".jcb_credit_fees_charge_section").addClass('d-none');
+		$(".jcb_visa_how_to_apply").addClass('d-none');
 		$(".secured_fees_charge_section").removeClass('d-none');
 		$(".renew_div").addClass('d-none');
 		$(".reset_div").removeClass('d-none');

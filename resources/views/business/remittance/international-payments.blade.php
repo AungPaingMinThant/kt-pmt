@@ -147,37 +147,29 @@
 						</div>
 					</div>
 
-					<!-- <div class="visit_us_div p-sm-4">
+					<div class="">
+						<div class="space-40"></div>
+						<h4 class="fw-bold">Explore More</h4>
+						<hr class="bottom_hr">
+						<div class="space-20"></div>
 						<div class="row">
-							<div class="col-md-12 text-center visit_us_col">
-								<p class="my-md-0 fw-semibold" style="font-size: 16px;">International Banking Department, AYA Bank Head office.</p>
-								<p class="my-md-0">Alternatively, you may submit the forms at your nearest branches.</p>
-							</div>
-							<div class="space-30"></div>
-							<div class="col-md-6 d-none d-sm-block text-right visit_us_col">
-								<button class="btn visit_us_btn" data-bs-toggle="modal" data-bs-target="#modalCenterInternationalBanking" style="float: right;">
-									Head Office
-								</button>
-							</div>
-							<div class="col-md-6 d-none d-sm-block text-left">
-								<a href="#">
-									<button class="btn visit_us_btn">
-										Branches
-									</button>
-								</a>
-							</div>
-							<div class="col-md-12 text-center d-block d-sm-none">
-								<button class="btn visit_us_btn" data-bs-toggle="modal" data-bs-target="#modalCenterInternationalBanking">
-									Head Office
-								</button>
-								<a href="#">
-									<button class="btn visit_us_btn">
-										Branches
-									</button>
-								</a>
+							<div class="col-md-4 mb-20">
+								<div class="card">
+									<div style="position: relative;">
+										<img src="{{ url('/images/about-aya/network/correspondent-bank/correspondent-img.webp') }}" alt="Correspondent Bank" class="card-img-top">
+									</div>
+									<div class="card-body">
+										<p class="card-title fw-semibold mb-20" style="font-size: 16px;">Correspondent Bank</p>
+										<p class="card_detail_info mb-30">Our network for global money transfers, easy and secure</p>
+
+										<p class="text-decoration-underline">
+											<a href="{{ url('/about-aya/network/correspondent-bank') }}">Learn more <i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i></a>
+										</p>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div> -->
+					</div>
 				</div>
 			</div>
 		</div>

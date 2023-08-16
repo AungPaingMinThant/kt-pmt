@@ -368,7 +368,7 @@
 							<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
 								<div class="accordion-body">
 									<p>
-										The funds can be credited into your AYA account within 3 working days from transaction date.
+										The funds can be credited into your AYA account within one working day from transaction date.
 									</p>
 								</div>
 							</div>

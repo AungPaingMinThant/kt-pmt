@@ -564,17 +564,17 @@
 											<div class="row menu-link about-aya-menu-who-we-are-link menu-active">
 												<span>WHO WE ARE</span>
 											</div>
+											<div class="row menu-link about-aya-menu-career-link">
+												<span>CAREER</span>
+											</div>
 											<div class="row menu-link about-aya-menu-governance-link">
 												<span>GOVERNANCE</span>
 											</div>
+											<div class="row menu-link about-aya-menu-sustainability-link">
+												<span>SUSTAINABILITY</span>
+											</div>
 											<div class="row menu-link about-aya-menu-newsroom-link">
 												<span>NEWSROOM</span>
-											</div>
-											<div class="row menu-link">
-												<span class="other-menu">&nbsp;</span>
-											</div>
-											<div class="row menu-link">
-												<span class="other-menu">&nbsp;</span>
 											</div>
 											<div class="row menu-link">
 												<span class="other-menu">&nbsp;</span>
@@ -594,17 +594,17 @@
 														<p class="m-b-5">
 															<a href="{{ url('/about-aya/who-we-are/corporate-profile/ayabank-profile') }}">AYA Bank Profile</a>
 														</p>
-														<p class="mb-30">
+														<p class="m-b-5">
 															<a href="{{ url('/about-aya/who-we-are/corporate-profile/mission-corporate-value-brand-promise') }}">Mission, Corporate Values and Brand Promise</a>
 														</p>
-														<p class="d-none m-b-5">
-															<a href="http://saltnpixel.com/AYABank/AYABank_CorporateGoal.html" target="_blank">Corporate Goals</a>
+														<p class="m-b-5">
+															<a href="{{ url('/about-aya/who-we-are/corporate-profile/corporate-goals') }}" >Corporate Goals</a>
 														</p>
-														<p class="d-none ">
-															<a href="https://saltnpixel.com/AYABank/AYABank_CorporateMilestone.html" target="_blank">Corporate Milestones</a>
+														<p class="m-b-5">
+															<a href="{{ url('/about-aya/who-we-are/corporate-profile/corporate-milestones') }}">Corporate Milestones</a>
 														</p>
-														<p class="d-none mb-20">
-															<a href="https://saltnpixel.com/AYABank/AYABank_Awards.html" target="_blank">Awards</a>
+														<p class="mb-30">
+															<a href="{{ url('/about-aya/who-we-are/corporate-profile/awards') }}">Awards</a>
 														</p>
 													</div>
 													<div class="col-md-5">
@@ -648,7 +648,7 @@
 														<p class="fw-bold">
 															CAREER
 														</p>
-														<p class="m-b-5">
+														<!-- <p class="m-b-5">
 															<span>Life at AYA</span>
 														</p>
 														<p class="m-b-5">
@@ -656,16 +656,16 @@
 														</p>
 														<p class="m-b-5">
 															<a href="https://saltnpixel.com/AYABank/AYABank_Employee_Development.html" target="_blank">Employee Development</a>
-														</p>
+														</p> -->
 														<p class="m-b-5">
-															<a href="https://saltnpixel.com/AYABank/AYABank_Career_Opportunities.html" target="_blank">Career Opportunities</a>
+															<a href="{{url('/about-aya/career/career-opportunities')}}">Career Opportunities</a>
 														</p>
 													</div>
 												</div>
 											</div>
 											<div class="about-aya-menu-links about-aya-governance-menu d-none">
 												<div class="row">
-													<div class="col-md-5">
+													<div class="col-md-4">
 														<p class="fw-bold">
 															<a href="{{ url('/about-aya/governance/corporate-governance') }}">CORPORATE GOVERNANCE</a>
 														</p>
@@ -691,7 +691,7 @@
 															<a href="{{ url('/about-aya/governance/corporate-governance#code-ethical-conduct') }}">Code of Ethical Conduct</a>
 														</p>
 													</div>
-													<div class="col-md-5">
+													<div class="col-md-4">
 														<p class="fw-bold">
 															COMPLIANCE
 														</p>
@@ -709,19 +709,42 @@
 															<a href="{{ url('/about-aya/governance/risk-management') }}">Risk Management</a>
 														</p>
 													</div>
+													<div class="col-md-4">
+														<p class="fw-bold">
+															<a href="{{ url('/about-aya/governance/corporate-policies') }}">CORPORATE POLICIES</a>
+														</p>
+														<p class="m-b-5">
+															<a href="{{ url('/about-aya/governance/corporate-policies#people_concerns') }}">People Conerns</a>
+														</p>
+														<p class="m-b-5">
+															<a href="{{ url('/about-aya/governance/corporate-policies#corporate_affairs') }}">Corporate Affairs</a>
+														</p>
+														<p class="m-b-5">
+															<a href="{{ url('/about-aya/governance/corporate-policies#compliance_matters') }}">Compliance Matters</a>
+														</p>
+														<p class="m-b-5">
+															<a href="{{ url('/about-aya/governance/corporate-policies#creditors_rights') }}">Creditor's Rights</a>
+														</p>
+														<p class="m-b-5">
+															<a href="{{ url('/about-aya/governance/corporate-policies#finance_dealings') }}">Finance Dealings</a>
+														</p>
+														<p class="mb-20">
+															<a href="{{ url('/about-aya/governance/corporate-policies#privacy_policy') }}">Privacy Policy</a>
+														</p>
+													</div>
 												</div>
 											</div>
 											<div class="about-aya-menu-links about-aya-sustainability-menu d-none">
 												<div class="row">
 													<div class="col-md-5">
 														<p class="fw-bold">
-															<a href="https://saltnpixel.com/AYABank/AYABank_Sustainability.html" target="_blank">SUSTAINABILITY</a>
+															<a href="{{ url('/about-aya/sustainability') }}" >SUSTAINABILITY</a>
 														</p>
 														<p class="m-b-5">
-															<span>Our Commitment</span>
+															<a href="{{ url('/about-aya/sustainability/our-commitment') }}" >Our Commitment</a>
 														</p>
 														<p class="m-b-5">
-															<a href="https://saltnpixel.com/AYABank/AYABank_UNGC_Commitment.html" target="_blank">UNGC Commitment</a>
+															<a href="{{ url('/about-aya/sustainability/our-commitment/ungc-compliance') }}" target="_blank">UNGC Commitment</a>
 														</p>
 													</div>
 												</div>
@@ -734,6 +757,15 @@
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/about-aya/news-room/corporate-news/') }}">Corporate News</a>
+														</p>
+														<p class="m-b-5">
+															<a href="{{ url('/about-aya/news-room/press-release/') }}">Press Release</a>
+														</p>
+														<p class="m-b-5">
+															<a href="{{ url('/about-aya/news-room/csr-news/') }}">CSR News</a>
+														</p>
+														<p class="m-b-5">
+															<a href="{{ url('/about-aya/news-room/announcements') }}">Annoucements</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/about-aya/news-room/reports') }}">Reports</a>
@@ -1321,8 +1353,23 @@
 									</p>
 								</li>
 								<li>
-									<p class="dropdown-item m-b-5 m-l-20 mb-20">
+									<p class="dropdown-item m-b-5 m-l-20 m-b-5">
 										<a href="{{ url('/about-aya/who-we-are/corporate-profile/mission-corporate-value-brand-promise') }}">Mission, Corporate Values and <br>Brand Promise</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20 m-b-5">
+										<a href="{{ url('/about-aya/who-we-are/corporate-profile/corporate-goals') }}" >Corporate Goals</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20 m-b-5">
+										<a href="{{ url('/about-aya/who-we-are/corporate-profile/corporate-milestones') }}">Corporate Milestones</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20 mb-20">
+										<a href="{{ url('/about-aya/who-we-are/corporate-profile/awards') }}">Awards</a>
 									</p>
 								</li>
 								<li>
@@ -1367,10 +1414,10 @@
 								</li>
 							</ul>
 						</div>
-						<div class="d-none row menu-link about-aya-menu-career-link">
+						<div class="row menu-link about-aya-menu-career-link">
 							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CAREER</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li>
+								<!-- <li>
 									<p class="dropdown-item m-b-5 mt-2">
 										<span >Life at AYA</span>
 									</p>
@@ -1384,10 +1431,10 @@
 									<p class="dropdown-item m-b-5">
 										<a href="https://saltnpixel.com/AYABank/AYABank_Employee_Development.html" target="_blank">Employee Development</a>
 									</p>
-								</li>
+								</li> -->
 								<li>
 									<p class="dropdown-item mb-20">
-										<a href="https://saltnpixel.com/AYABank/AYABank_Career_Opportunities.html" target="_blank">Career Opportunities</a>
+										<a href="{{ url('/about-aya/career/career-opportunities') }}">Career Opportunities</a>
 									</p>
 								</li>
 							</ul>
@@ -1460,27 +1507,62 @@
 										<a href="{{ url('/about-aya/governance/risk-management') }}">Risk Management</a>
 									</p>
 								</li>
-							</ul>
-						</div>
-						<div class="d-none row menu-link about-aya-menu-sustainability-link">
-							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SUSTAINABILITY</span>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-2">
-										<a href="https://saltnpixel.com/AYABank/AYABank_Sustainability.html" target="_blank">SUSTAINABILITY</a>
+										<a href="{{ url('/about-aya/governance/corporate-policies') }}" target="_blank">CORPORATE POLICIES</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<span>Our Commitment</span>
+										<a href="{{ url('/about-aya/governance/corporate-policies#people_concerns') }}">People Conerns</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/about-aya/governance/corporate-policies#corporate_affairs') }}">Corporate Affairs</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/about-aya/governance/corporate-policies#compliance_matters') }}">Compliance Matters</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/about-aya/governance/corporate-policies#creditors_rights') }}">Creditor's Rights</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20">
+										<a href="{{ url('/about-aya/governance/corporate-policies#finance_dealings') }}">Finance Dealings</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item mb-20 m-l-20">
-										<a href="https://saltnpixel.com/AYABank/AYABank_UNGC_Commitment.html" target="_blank">UNGC Commitment</a>
+										<a href="{{ url('/about-aya/governance/corporate-policies#privacy_policy') }}">Privacy Policy</a>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="row menu-link about-aya-menu-sustainability-link">
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SUSTAINABILITY</span>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<!-- <li>
+									<p class="dropdown-item fw-bold m-b-5 mt-2">
+										<a href="{{ url('/about-aya/sustainability') }}" >SUSTAINABILITY</a>
+									</p>
+								</li> -->
+								<li>
+									<p class="dropdown-item m-b-5 mt-2">
+										<a href="{{ url('/about-aya/sustainability/our-commitment') }}">Our Commitment</a>
 									</p>
 								</li>
 								<li>
+									<p class="dropdown-item mb-20">
+										<a href="{{ url('/about-aya/sustainability/our-commitment/ungc-compliance') }}">UNGC Commitment</a>
+									</p>
+								</li>
+								<!-- <li>
 									<p class="dropdown-item fw-bold m-b-5">
 										OUR APPROACH
 									</p>
@@ -1519,7 +1601,7 @@
 									<p class="dropdown-item mb-20 m-l-20">
 										<span>Corporate Social Responsibility</span>
 									</p>
-								</li>
+								</li> -->
 							</ul>
 						</div>
 						<div class="row menu-link about-aya-menu-newsroom-link">
@@ -1528,6 +1610,21 @@
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
 										<a href="{{ url('/about-aya/news-room/corporate-news/') }}">Corporate News</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 mt-2">
+										<a href="{{ url('/about-aya/news-room/press-release/') }}">Press Release</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 mt-2">
+										<a href="{{ url('/about-aya/news-room/csr-news/') }}">CSR News</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 mt-2">
+										<a href="{{ url('/about-aya/news-room/announcements/') }}">Annoucements</a>
 									</p>
 								</li>
 								<li>

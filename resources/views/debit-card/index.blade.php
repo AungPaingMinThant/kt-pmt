@@ -156,8 +156,8 @@
 											</tr>
 											<tr>
 												<td>Cash Withdraw Transactions Fees<br>(International)</td>
-												<td>Oversea Bank Charges<br>(Per Transaction)</td>
-												<td>Oversea Bank Charges<br>(Per Transaction)</td>
+												<td>Withdrawal Flat Fee<br>11,000 MMK + Mark Up + Oversea Bank Charges<br>(per transaction)</td>
+												<td>Withdrawal Flat Fee<br>11,000 MMK + Mark Up + Oversea Bank Charges<br>(per transaction)</td>
 											</tr>
 											<tr>
 												<td>PIN Reissue Fee</td>
@@ -222,8 +222,8 @@
 									<div class="row">
 										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">ATM Withdrawal Limit</p>
-											<p class="fee_desc">Domestic Transaction - 2,000,000 MMK Per day</p>
-											<p class="fee_desc">International Transaction - Amount Equivalent to 500,000 MMK Per day</p>
+											<p class="fee_desc">Domestic Transaction - 2,000,000 MMK per day</p>
+											<p class="fee_desc">International Transaction - Amount equivalent to 2,000,000 (Daily) / 2,000,000 (Weekly) / 8,000,000 (Monthly)</p>
 										</div>
 										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">Fund Transfer</p>
@@ -231,22 +231,22 @@
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-md-6 fee_charge_inner_div">
+										<!-- <div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">POS Withdrawal Limit</p>
 											<p class="fee_desc">Domestic Transaction - 2,000,000 MMK Per day</p>
 											<p class="fee_desc">International Transaction - Amount Equivalent to 500,000 MMK Per day</p>
-										</div>
+										</div> -->
 										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">Transaction Limit</p>
 											<p class="fee_desc">Domestic Transaction -  5,000,000 MMK per day</p>
 											<p class="fee_desc">International Transaction - 2,500,000 MMK per month</p>
 										</div>
-									</div>
-									<div class="row">
 										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">International Transaction Fees</p>
 											<p class="fee_desc">Fees 25% ~ 70%(Note * Fees are subject to change without prior notice)</p>
 										</div>
+									</div>
+									<div class="row">
 										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">Other Fees</p>
 											<p class="fee_desc">Service Charges/ Fees will be inclusive based on the transaction types including refunds and reversal transactions.</p>

@@ -57,6 +57,14 @@
 .news_title_link:hover, .year_link:hover, .news_title:hover {
 	text-decoration: none !important;
 }
+.news_desc_div {
+    height:58px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
 .year-bottom-hr {
 	border-bottom: 4px solid #A5000B;
 	width: 20% !important;

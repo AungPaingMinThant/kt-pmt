@@ -322,8 +322,8 @@
 					</div>
 					<div class="space-40"></div>
 
-					<div class="row"
-						<div class="text-nowrap committee_table_div">
+					<div class="row">
+						<!-- <div class="text-nowrap committee_table_div"> -->
 							<table class="table table-borderless table-striped committee_table">
 								<thead>
 									<tr valign="middle">
@@ -377,22 +377,6 @@
 										<td></td>
 									</tr>
 									<tr>
-										<td class="py-4" style="font-size: 15px;">U Than Zaw</td>
-										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
-										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
-										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
-										<td><img src="{{ url('/images/about-aya/corporate-governance/chairperson-icon.webp') }}" class="img-fluid committees_table_icon"></td>
-										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
-										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
-										<td><img src="{{ url('/images/about-aya/corporate-governance/advisor-icon.webp') }}" class="img-fluid committees_table_icon"></td>
-										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-									</tr>
-									<tr>
 										<td class="py-4" style="font-size: 15px;">Daw Htay Htay Khaing</td>
 										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
 										<td></td>
@@ -402,6 +386,22 @@
 										<td></td>
 										<td></td>
 										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr>
+										<td class="py-4" style="font-size: 15px;">U Than Zaw</td>
+										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
+										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
+										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
+										<td><img src="{{ url('/images/about-aya/corporate-governance/chairperson-icon.webp') }}" class="img-fluid committees_table_icon"></td>
+										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
+										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
+										<td><img src="{{ url('/images/about-aya/corporate-governance/advisor-icon.webp') }}" class="img-fluid committees_table_icon"></td>
+										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
 										<td></td>
 										<td></td>
 										<td></td>
@@ -489,6 +489,22 @@
 										<td></td>
 									</tr>
 									<tr>
+										<td class="py-4" style="font-size: 15px;">Daw Lwin Lwin Aung</td>
+										<td></td>
+										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td><img src="{{ url('/images/about-aya/corporate-governance/co-chairperson-icon.webp') }}" class="img-fluid committees_table_icon"></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr>
 										<td class="py-4" style="font-size: 15px;"><p class="mb-0" style="width: 200px !important;">Daw Jasmine Thazin Aung</p></td>
 										<td></td>
 										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
@@ -537,7 +553,7 @@
 										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
 									</tr>
 									<tr>
-										<td class="py-4" style="font-size: 15px;">U Min Wint Oo</td>
+										<td class="py-4" style="font-size: 15px;">U Minn Wint Oo</td>
 										<td></td>
 										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
 										<td></td>
@@ -551,22 +567,6 @@
 										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
 										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
 										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
-									</tr>
-									<tr>
-										<td class="py-4" style="font-size: 15px;">Daw Lwin Lwin Aung</td>
-										<td></td>
-										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td><img src="{{ url('/images/about-aya/corporate-governance/co-chairperson-icon.webp') }}" class="img-fluid committees_table_icon"></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td><img src="{{ url('/images/about-aya/corporate-governance/member-icon.webp') }}" class="img-fluid committees_member_table_icon"></td>
-										<td></td>
-										<td></td>
 									</tr>
 									<tr>
 										<td class="py-4" style="font-size: 15px;">U Nay Lin Htut</td>
@@ -708,16 +708,6 @@
 										<td></td>
 									</tr>
 									<tr>
-										<td class="py-4">U Than Zaw</td>
-										<td>11</td>
-										<td>20</td>
-										<td>11</td>
-										<td>7</td>
-										<td>-</td>
-										<td>7</td>
-										<td>11</td>
-									</tr>
-									<tr>
 										<td class="py-4">Daw Htay Htay Khaing</td>
 										<td>11</td>
 										<td></td>
@@ -727,6 +717,16 @@
 										<td></td>
 										<td></td>
 									</tr>
+									<tr>
+										<td class="py-4">U Than Zaw</td>
+										<td>11</td>
+										<td>20</td>
+										<td>11</td>
+										<td>7</td>
+										<td>-</td>
+										<td>7</td>
+										<td>11</td>
+									</tr>									
 									<tr>
 										<td class="py-4">Daw Khin Ma Ma</td>
 										<td>11</td>
@@ -746,26 +746,6 @@
 										<td></td>
 										<td>7</td>
 										<td>11</td>
-									</tr>
-									<tr>
-										<td class="py-4" style="width: 20% !important;">Daw Jasmine Thazin Aung</td>
-										<td></td>
-										<td>20</td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td>7</td>
-										<td>11</td>
-									</tr>
-									<tr>
-										<td class="py-4">U Nyein Chan Soe Win</td>
-										<td></td>
-										<td>20</td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
 									</tr>
 									<tr>
 										<td class="py-4">Prof Dr Aung Tun Thet</td>
@@ -798,6 +778,36 @@
 										<td></td>
 									</tr>
 									<tr>
+										<td class="py-4">Daw Lwin Lwin Aung</td>
+										<td></td>
+										<td>20</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td>7</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td class="py-4" style="width: 20% !important;">Daw Jasmine Thazin Aung</td>
+										<td></td>
+										<td>20</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td>7</td>
+										<td>11</td>
+									</tr>
+									<tr>
+										<td class="py-4">U Nyein Chan Soe Win</td>
+										<td></td>
+										<td>20</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+									<tr>
 										<td class="py-4">U Ko Ko Oo</td>
 										<td></td>
 										<td>20</td>
@@ -808,23 +818,13 @@
 										<td>11</td>
 									</tr>
 									<tr>
-										<td class="py-4">U Min Wint Oo</td>
+										<td class="py-4">U Minn Wint Oo</td>
 										<td></td>
 										<td>20</td>
 										<td></td>
 										<td></td>
 										<td></td>
 										<td></td>
-										<td></td>
-									</tr>
-									<tr>
-										<td class="py-4">Daw Lwin Lwin Aung</td>
-										<td></td>
-										<td>20</td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td>7</td>
 										<td></td>
 									</tr>
 									<tr>

@@ -14,9 +14,24 @@
 
                 <div class="container y-4">
                     <div class="row">
-                        <div class="col-md-4 px-3">
+                        <div class="col-md-3 px-3">
                             <p>
                                 <a class="f-body-color" href="{{ url('/about-aya/who-we-are/corporate-profile/ayabank-profile') }}">AYA Bank Profile <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                            </p>
+                        </div>
+                        <div class="col-md-3 px-3">
+                            <p>
+                                <a class="f-body-color" href="{{ url('/about-aya/who-we-are/corporate-profile/corporate-goals') }}">Corporate Goals <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                            </p>
+                        </div>
+                        <div class="col-md-3 px-3">
+                            <p>
+                                <a class="f-body-color" href="{{ url('/about-aya/who-we-are/corporate-profile/corporate-milestones') }}">Corporate Milestones <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                            </p>
+                        </div>
+                        <div class="col-md-3 px-3">
+                            <p>
+                                <a class="f-body-color" href="{{ url('/about-aya/who-we-are/corporate-profile/awards') }}">Awards <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
                         </div>
                         <div class="col-md-4 px-3">
@@ -24,6 +39,7 @@
                                 <a class="f-body-color" href="{{ url('/about-aya/who-we-are/corporate-profile/mission-corporate-value-brand-promise') }}">Mission, Corporate Values And Brand Value <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
                         </div>
+                        
                     </div>
                 </div>
             </div>

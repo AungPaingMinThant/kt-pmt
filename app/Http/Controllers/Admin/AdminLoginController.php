@@ -70,10 +70,10 @@ class AdminLoginController extends Controller
                                                     ->with('email_username',$email_username);
             }
         } else {
-            $user = User::where('user_name',$email_username)->first();
+            $user = User::where('username',$email_username)->first();
             if (isset($user) && $user->user_type != 2) {
                 if (Auth::attempt([
-                    'user_name' => $email_username,
+                    'username' => $email_username,
                     'password' => $password
                 ], $remember )) {
                     $login_log = new LoginLog();

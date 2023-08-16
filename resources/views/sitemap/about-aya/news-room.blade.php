@@ -14,16 +14,32 @@
 
                 <div class="container y-4">
                     <div class="row">
-                        <div class="col-md-4 px-3">
+                        <div class="col-md-3 px-3">
                             <p>
                                 <a class="f-body-color" href="{{ url('about-aya/news-room/corporate-news') }}">Corporate News <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
                         </div>
-                        <div class="col-md-4 px-3">
+                        <div class="col-md-3 px-3">
+                            <p>
+                                <a class="f-body-color" href="{{ url('/about-aya/news-room/csr-news') }}">CSR News <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                            </p>
+                        </div>
+                        <div class="col-md-3 px-3">
+                            <p>
+                                <a class="f-body-color" href="{{ url('/about-aya/news-room/announcements') }}">Announcements <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                            </p>
+                        </div>
+                        <div class="col-md-3 px-3">
+                            <p>
+                                <a class="f-body-color" href="{{ url('/about-aya/news-room/press-release') }}">Press Release <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                            </p>
+                        </div>
+                        <div class="col-md-3 px-3">
                             <p>
                                 <a class="f-body-color" href="{{ url('/about-aya/news-room/reports') }}">Reports <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
                         </div>
+                        
                     </div>
                 </div>
             </div>

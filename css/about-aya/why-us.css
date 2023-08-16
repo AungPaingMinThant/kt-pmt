@@ -1,0 +1,208 @@
+.digitalize_end_to_end_process_desc {
+	padding-top: 1rem !important;
+	padding-right: 3rem !important;
+}
+.digitalize_end_to_end_process {
+	background-image: url('../../images/about-aya/why-us/Digitalize_End_to_End_Process.webp');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	height: 420px;
+}
+.secure_req_application_icon {
+    background-color: #A5000B;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.digitize_fact {
+	margin-left: -30px;
+}
+.CTA_div {
+	background-image: url('../../images/about-aya/ayabank-profile/BG.webp');
+	background-size: cover;
+	background-position: top;
+	height: 480px;
+}
+.customized_solutions_manage_your_finance {
+	background-image: url('../../images/about-aya/why-us/Customized_solutions_manage_your_finance.webp');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	height: 420px;
+}
+.customized_solutions_manage_your_finance_desc {
+	padding-top: 4rem !important;
+	padding-right: 5rem !important;
+}
+.we_put_people_first {
+	background-image: url('../../images/about-aya/why-us/We_Put_People_First.webp');
+	background-size: contain;
+	background-position: top left;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+.we_put_people_first_desc {
+	padding-top: 4rem;
+}
+.we_put_people_first_desc_row {
+	background-color: #A5000B;
+	padding: 50px !important;
+}
+.we_put_people_first > .row {
+	width: 100%;
+	margin: 0 !important;
+}
+.CTA_detail_col_2 {
+	padding-top: 8rem !important;
+	padding-left: 3rem !important;
+}
+.consumer_banking_improve_lifestyle {
+	background-image: url('../../images/about-aya/why-us/consumer_banking_improve_lifestyle.webp');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	height: 420px;
+}
+.we_put_people_first_fact {
+	list-style: disc;
+	padding-left: 50px !important;
+}
+.we_put_people_first_1020 {
+	display: none;
+}
+
+@media (max-width: 1400px) and (min-width: 1301px) {
+	.we_put_people_first_desc {
+		padding-top: 3rem !important;
+	}
+	.customized_solutions_manage_your_finance_desc {
+		padding-top: 3rem !important;
+	}
+	.digitalize_end_to_end_process_desc {
+    	padding-top: 0rem !important;
+	    padding-right: 3rem !important;
+	}
+}
+@media (max-width: 1300px) and (min-width: 1201px) {
+	.digitalize_end_to_end_process_desc {
+    	padding-top: 0rem !important;
+	    padding-right: 2rem !important;
+	}
+	.we_put_people_first_desc {
+		padding-top: 3rem !important;
+	}
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+	.digitalize_end_to_end_process_desc {
+    	padding-top: 0rem !important;
+	    padding-right: 2rem !important;
+	}
+	.we_put_people_first_desc {
+		padding-top: 3rem !important;
+	}
+	.digitize_fact {
+		margin-left: -10px;
+	}
+	.CTA_detail_col_2 {
+	    padding-top: 6rem !important;
+	    padding-left: 3rem !important;
+	}
+	.customized_solutions_manage_your_finance_desc {
+		padding-top: 2rem !important;
+	}
+	.we_put_people_first_1020 {
+		display: block;
+	}
+	.we_put_people_first {
+		display: none;
+	}
+	.we_put_people_first_img {
+		background-image: url('../../images/about-aya/why-us/We_Put_People_First.webp');
+		background-position: 15% center;
+	}
+	.we_put_people_first_desc_row {
+		padding: 30px 20px 0px 20px !important;
+	}
+}
+@media (max-width: 999px) and (min-width: 577px) {
+	.CTA_div {
+	    height: 440px;
+	}
+	.CTA_div > .container {
+		padding-right: 0.2rem !important;
+		padding-left: 0.2rem !important;
+	}
+	.consumer_banking_improve_lifestyle {
+		height: 360px;
+    	background-position: 100% center;
+	}
+	.CTA_detail_col_2 {
+	    padding-top: 5rem !important;
+	    padding-left: 1.5rem !important;
+	}
+	.CTA_div:last-child {
+		height: 360px;
+	}
+	.digitalize_end_to_end_process_desc {
+		padding-top: 5rem !important;
+	}
+}
+@media (max-width: 576px) and (min-width: 361px) {
+	.CTA_div {
+		height: 850px !important;
+	}
+	.consumer_banking_improve_lifestyle, .digitalize_end_to_end_process {
+		background-size: contain;
+		height: 380px !important;
+	}
+	.digitalize_end_to_end_process_desc {
+	    padding-top: 0rem !important;
+	    padding-left: 1.5rem !important;
+	    padding-bottom: 2rem !important;
+	}
+	.CTA_detail_col_2 {
+	    padding-top: 1rem !important;
+	    padding-left: 1.5rem !important;
+	    padding-bottom: 2rem !important;
+	}
+	.digitize_fact {
+	    margin-left: 0px; 
+	}
+	.customized_solutions_manage_your_finance_desc {
+	    padding-top: 2rem !important;
+	    padding-right: 2rem !important;
+	}
+	.customized_solutions_row {
+		flex-direction: column-reverse;
+	}
+	.we_put_people_first {
+		height: auto;
+	}
+	.we_put_people_first_desc {
+	    padding-top: 0;
+	}
+	.we_put_people_first_desc_row {
+	    background-color: #A5000B;
+	    padding: 20px !important;
+	}
+	.CTA_div:last-child {
+	    height: 670px !important;
+	}
+}
+@media only screen and (max-width: 360px) {
+	.CTA_div {
+		height: 810px !important;
+	}
+	.consumer_banking_improve_lifestyle, .digitalize_end_to_end_process {
+		background-size: 322px;
+		height: 310px !important;
+	}
+	.digitalize_end_to_end_process_desc {
+	    padding-top: 1.5rem !important;
+	    padding-left: 1.5rem !important;
+	}
+	.CTA_div:last-child {
+	    height: 610px !important;
+	}
+}

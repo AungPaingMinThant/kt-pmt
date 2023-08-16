@@ -49,6 +49,117 @@ class NewsController extends Controller
                                                             ->with('news_year','');
     }
 
+    // CSR
+    public function CSRNewsIndex($value='')
+    {
+        $categories = Category::where('id','!=',9)->get();
+        $blog_list = Blog::where('blog_category',9)->orderBy('publish_date','desc')->where('status','0')->paginate(9);
+        $yearList = Blog::select('publish_year')->where('blog_category',9)->where('status','0')->groupBy('publish_year')->orderBy('publish_date','desc')->get();
+
+        return view('about-aya.news-room.csr')->with('blog_list',$blog_list)
+                                                    ->with('yearList',$yearList)
+                                                    ->with('categories',$categories)
+                                                    ->with('news_year','');
+    }
+
+    public function CSRYearIndex($year)
+    {
+        $categories = Category::where('id','!=',9)->get();
+        $blog_list = Blog::where('blog_category',9)->where('publish_year',$year)->where('status','0')->orderBy('publish_date','desc')->paginate(9);
+        $yearList = Blog::select('publish_year')->where('blog_category',9)->where('status','0')->groupBy('publish_year')->orderBy('publish_date','desc')->get();
+
+        return view('about-aya.news-room.csr')->with('blog_list',$blog_list)
+                                                    ->with('yearList',$yearList)
+                                                    ->with('categories',$categories)
+                                                    ->with('news_year',$year);
+    }
+
+    public function CSRDetailIndex($permalink)
+    {
+        $blog = Blog::where('permalink',$permalink)->first();
+        $categories = Category::where('id','!=',9)->get();
+        $yearList = Blog::select('publish_year')->where('blog_category',9)->groupBy('publish_year')->orderBy('publish_date','desc')->get();
+
+        return view('about-aya.news-room.csr-detail')->with('blog',$blog)
+                                                            ->with('yearList',$yearList)
+                                                            ->with('categories',$categories)
+                                                            ->with('news_year','');
+    }
+
+    // Annoucement
+    public function AnnoucementIndex($value='')
+    {
+        $categories = Category::where('id','!=',6)->get();
+        $blog_list = Blog::where('blog_category',6)->orderBy('publish_date','desc')->where('status','0')->paginate(9);
+        $yearList = Blog::select('publish_year')->where('blog_category',6)->where('status','0')->groupBy('publish_year')->orderBy('publish_date','desc')->get();
+
+        return view('about-aya.news-room.annoucement')->with('blog_list',$blog_list)
+                                                    ->with('yearList',$yearList)
+                                                    ->with('categories',$categories)
+                                                    ->with('news_year','');
+    }
+
+    public function AnnoucementDetailIndex($permalink)
+    {
+        $blog = Blog::where('permalink',$permalink)->first();
+        $categories = Category::where('id','!=',6)->get();
+        $yearList = Blog::select('publish_year')->where('blog_category',6)->groupBy('publish_year')->orderBy('publish_date','desc')->get();
+
+        return view('about-aya.news-room.annoucement-detail')->with('blog',$blog)
+                                                            ->with('yearList',$yearList)
+                                                            ->with('categories',$categories)
+                                                            ->with('news_year','');
+    }
+
+    public function AnnoucementYearIndex($year)
+    {
+        $categories = Category::where('id','!=',6)->get();
+        $blog_list = Blog::where('blog_category',6)->where('publish_year',$year)->where('status','0')->orderBy('publish_date','desc')->paginate(9);
+        $yearList = Blog::select('publish_year')->where('blog_category',6)->where('status','0')->groupBy('publish_year')->orderBy('publish_date','desc')->get();
+
+        return view('about-aya.news-room.annoucement')->with('blog_list',$blog_list)
+                                                    ->with('yearList',$yearList)
+                                                    ->with('categories',$categories)
+                                                    ->with('news_year',$year);
+    }
+    
+    // Press Release
+    public function pressReleaseIndex($value='')
+    {
+        $categories = Category::where('id','!=',10)->get();
+        $blog_list = Blog::where('blog_category',10)->orderBy('publish_date','desc')->where('status','0')->paginate(9);
+        $yearList = Blog::select('publish_year')->where('blog_category',10)->where('status','0')->groupBy('publish_year')->orderBy('publish_date','desc')->get();
+
+        return view('about-aya.news-room.press-release')->with('blog_list',$blog_list)
+                                                    ->with('yearList',$yearList)
+                                                    ->with('categories',$categories)
+                                                    ->with('news_year','');
+    }
+
+    public function pressReleaseDetailIndex($permalink)
+    {
+        $blog = Blog::where('permalink',$permalink)->first();
+        $categories = Category::where('id','!=',10)->get();
+        $yearList = Blog::select('publish_year')->where('blog_category',10)->groupBy('publish_year')->orderBy('publish_date','desc')->get();
+
+        return view('about-aya.news-room.press-release-detail')->with('blog',$blog)
+                                                            ->with('yearList',$yearList)
+                                                            ->with('categories',$categories)
+                                                            ->with('news_year','');
+    }
+
+    public function pressReleaseYearIndex($year)
+    {
+        $categories = Category::where('id','!=',10)->get();
+        $blog_list = Blog::where('blog_category',10)->where('publish_year',$year)->where('status','0')->orderBy('publish_date','desc')->paginate(9);
+        $yearList = Blog::select('publish_year')->where('blog_category',10)->where('status','0')->groupBy('publish_year')->orderBy('publish_date','desc')->get();
+
+        return view('about-aya.news-room.press-release')->with('blog_list',$blog_list)
+                                                    ->with('yearList',$yearList)
+                                                    ->with('categories',$categories)
+                                                    ->with('news_year',$year);
+    }
+
     public function reportIndex()
     {
         return view('about-aya.news-room.report');

@@ -330,12 +330,35 @@
 						</div>
 						<div class="news_content_div">
 							<div class="news_title_div">
-								<a href="{{ url('/about-aya/news-room/corporate-news/'.$first_blog->permalink) }}" >
+							    @if($first_blog->blog_category == '4')
+									<a href="{{ url('/about-aya/news-room/corporate-news/'.$first_blog->permalink) }}" >
+								@endif
+								@if($first_blog->blog_category == '6')
+									<a href="{{ url('/about-aya/news-room/announcements/'.$first_blog->permalink) }}" >
+								@endif
+								@if($first_blog->blog_category == '9')
+									<a href="{{ url('/about-aya/news-room/csr-news/'.$first_blog->permalink) }}" >
+								@endif
 									<p class="news_title">{{ $first_blog->blog_title }}</p>
 								</a>
 							</div>
-							<p class="news_desc mb-20">AYA Bank organized ‘National Apprenticeship Program’ in partnership with the National Management Acdemy (NMA) to shape the future of students with a wide range of opportunities to learn a specific skill in the financial services industry.</p>
-							<p class="mb-0"><span class="news_category">CORPORATE NEWS</span><span class="news_break">|</span><span class="news_date">{{ date('d M Y', strtotime($first_blog->publish_date)) }}</span></p>
+							<div class="news_desc mb-20">
+								{!! $first_blog->blog_desc !!}
+							</div>
+							<p class="mb-0">
+							    <span class="news_category">
+							        @if($first_blog->blog_category == '4')
+										CORPORATE NEWS
+									@endif
+									@if($first_blog->blog_category == '6')
+										ANNOUNCEMENTS
+									@endif
+									@if($first_blog->blog_category == '9')
+										CSR NEWS
+									@endif    
+							    </span>
+							    <span class="news_break">|</span><span class="news_date">{{ date('d M Y', strtotime($first_blog->publish_date)) }}</span>
+							</p>
 						</div>
 					</div>
 					<div class="col-md-6">
@@ -343,19 +366,61 @@
 							<div class="col-md-6">
 								<div class="row news_img_div" style="background-image:  url('{{ url("/public/".$second_blog->featured_image) }}');"></div>
 								<div class="news_content_div">
-									<a href="{{ url('/about-aya/news-room/corporate-news/'.$second_blog->permalink) }}">
+								    @if($second_blog->blog_category == '4')
+    									<a href="{{ url('/about-aya/news-room/corporate-news/'.$second_blog->permalink) }}" >
+    								@endif
+    								@if($second_blog->blog_category == '6')
+    									<a href="{{ url('/about-aya/news-room/announcements/'.$second_blog->permalink) }}" >
+    								@endif
+    								@if($second_blog->blog_category == '9')
+    									<a href="{{ url('/about-aya/news-room/csr-news/'.$second_blog->permalink) }}" >
+    								@endif
 										<p class="news_title">{{ $second_blog->blog_title }}</p>
 									</a>
-									<p class="mb-0"><span class="news_category">CORPORATE NEWS</span><span class="news_break">|</span><span class="news_date">{{ date('d M Y', strtotime($second_blog->publish_date)) }}</span></p>
+									<p class="mb-0">
+        							    <span class="news_category">
+        							        @if($second_blog->blog_category == '4')
+        										CORPORATE NEWS
+        									@endif
+        									@if($second_blog->blog_category == '6')
+        										ANNOUNCEMENTS
+        									@endif
+        									@if($second_blog->blog_category == '9')
+        										CSR NEWS
+        									@endif    
+        							    </span>
+        							    <span class="news_break">|</span><span class="news_date">{{ date('d M Y', strtotime($second_blog->publish_date)) }}</span>
+        							</p>
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="row news_img_div" style="background-image:  url('{{ url("/public/".$third_blog->featured_image) }}');"></div>
 								<div class="news_content_div">
-									<a href="{{ url('/about-aya/news-room/corporate-news/'.$third_blog->permalink) }}">
+								    @if($third_blog->blog_category == '4')
+    									<a href="{{ url('/about-aya/news-room/corporate-news/'.$third_blog->permalink) }}">
+    								@endif
+    								@if($third_blog->blog_category == '6')
+    									<a href="{{ url('/about-aya/news-room/announcements/'.$third_blog->permalink) }}" >
+    								@endif
+    								@if($third_blog->blog_category == '9')
+    									<a href="{{ url('/about-aya/news-room/csr-news/'.$third_blog->permalink) }}" >
+    								@endif
 										<p class="news_title">{{ $third_blog->blog_title }}</p>
 									</a>
-									<p class="mb-0"><span class="news_category">CORPORATE NEWS</span><span class="news_break">|</span><span class="news_date">{{ date('d M Y', strtotime($third_blog->publish_date)) }}</span></p>
+									<p class="mb-0">
+        							    <span class="news_category">
+        							        @if($third_blog->blog_category == '4')
+        										CORPORATE NEWS
+        									@endif
+        									@if($third_blog->blog_category == '6')
+        										ANNOUNCEMENTS
+        									@endif
+        									@if($third_blog->blog_category == '9')
+        										CSR NEWS
+        									@endif    
+        							    </span>
+        							    <span class="news_break">|</span><span class="news_date">{{ date('d M Y', strtotime($third_blog->publish_date)) }}</span>
+        							</p>
 								</div>
 							</div>
 						</div>
@@ -448,6 +513,13 @@
 
 <script type="text/javascript">
 	$(document).ready(function() {
+	    // setInterval(function(){
+	    // 	$(".alert_eng").toggle('500');
+	    //     $(".alert_mm").toggle('500');
+	    // }, 60000);
+
+	    // alert('ss');
+
 		var sc_width = $(window).width();
 		if($(".alert_div").hasClass('d-none') == false) {
 			if (sc_width >= '769' && sc_width <= '1179') {

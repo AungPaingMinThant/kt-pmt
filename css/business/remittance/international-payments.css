@@ -51,6 +51,11 @@
 	font-size: 17px;
 	padding: 0px 120px;
 }
+.bottom_hr {
+    border-bottom: 5px solid #A5000B;
+    width: 150px !important;
+    margin-top: 5px;
+}
 @media (max-width: 1400px) and (min-width: 1000px) {
 	.why_use_AYA_outer > .col-md-4 {
 		width: 31% !important;

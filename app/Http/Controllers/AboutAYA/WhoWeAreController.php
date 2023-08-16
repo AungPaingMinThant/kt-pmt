@@ -51,4 +51,29 @@ class WhoWeAreController extends Controller
     {
         return view('about-aya.our-strategies.corporate-strategy-index');
     }
+
+    public function milestoneIndex()
+    {
+        return view('about-aya.corporate-profile.milestone-index');
+    }
+
+    public function corporatGoalsIndex()
+    {
+        return view('about-aya.corporate-goals.index');
+    }
+
+    public function awardIndex()
+    {
+        return view('about-aya.corporate-profile.award-index');
+    }
+
+    public function whyUsIndex()
+    {
+        return view('about-aya.why-us.index');
+    }
+
+    public function FDIIndex()
+    {
+        return view('about-aya.foreign-direct-investment.index');
+    }
 }

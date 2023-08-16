@@ -18,7 +18,9 @@
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'UA-228606560-1');
+            gtag('config', 'UA-228606560-1', {
+                cookie_flags: 'max-age=7200;secure;samesite=none'
+            });
         </script>
 
         <link rel="preload" href="{{ url('/fonts/boxicons.min.css') }}" as="style"  onload="this.onload=null;this.rel='stylesheet'" />

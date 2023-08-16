@@ -15,7 +15,9 @@
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'UA-228606560-1');
+            gtag('config', 'UA-228606560-1', {
+                cookie_flags: 'max-age=7200;secure;samesite=none'
+            });
         </script>
 
         <link rel="stylesheet" href="{{ url('/fonts/boxicons.css') }}" />
@@ -53,11 +55,11 @@
             h1 {
                 font-family: 'Sora', sans-serif;
             }
-            .prevent-select {
-                -webkit-user-select: none; /* Safari */
-                -ms-user-select: none; /* IE 10 and IE 11 */
-                user-select: none; /* Standard syntax */
-            }
+            /*.prevent-select {
+                -webkit-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }*/
             img {
                 pointer-events: none;
             }
@@ -93,7 +95,7 @@
             }
             .space-10 {
                 height: 10px;
-            }
+            } 
             .space-20 {
                 height: 20px;
             }  

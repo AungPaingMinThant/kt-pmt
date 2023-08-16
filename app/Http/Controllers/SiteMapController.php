@@ -166,6 +166,23 @@ class SiteMapController extends Controller
         return view('cookie.index');
     }
 
+    public function networkIndex()
+    {
+        return view('sitemap.about-aya.network');
+    }
+    
+    public function careerIndex()
+    {
+        return view('sitemap.about-aya.career');
+    }
 
+    public function sustainabilityIndex()
+    {
+        return view('sitemap.about-aya.sustainability');
+    }
 
+    public function ourApproachIndex()
+    {
+        return view('sitemap.about-aya.our-approach');
+    }
 }
