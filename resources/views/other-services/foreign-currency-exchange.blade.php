@@ -72,7 +72,37 @@
 							<p class="mb-30"><span class="theme_text_color fw-semibold" style="font-size: 16px;padding-right: 20px;">Worker Remittance Rate : </span>{{ $other_rate->worker_remittance_currency }} = {{ number_format($other_rate->	worker_remittance_MMK) }} MMK</p>
 
 							<p class="theme_text_color fw-semibold" style="font-size: 16px;">Exchange counter rate (special purpose)</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a href="{{ url($other_rate->special_purpose) }}" class="theme_text_color text-decoration-underline" target="_blank">Click Here</a></p>
+							<p>We provide a convenient currency exchange solution for Myanmar citizens intending to travel abroad for education, employment, or medical treatment and require smaller amounts of currency. This service is available at our designated branches' Money Changer Counters.</p>
+							<p class="mb-10">To utilize this service, you'll need to fulfill the following requirements:</p>
+							<ul style="list-style: disc;padding-left: 30px;">
+								<li><p><b>For Employment Purposes:</b> Please ensure you have your Passport of Job (PJ) and Overseas Worker Identification Card (OWIC) as essential documents.</p></li>
+								<li><p><b>For Educational Pursuits:</b> If your intention is to study abroad, have your Passport of Education (PE) ready along with any pertinent documents from your educational institution.</p></li>
+								<li><p><b>For Medical Needs:</b> Individuals seeking medical treatment abroad should provide valid supporting documents that substantiate their requirement for medical attention.</p></li>
+							</ul>
+							<p>Feel free to visit our designated branches to take advantage of this convenient currency exchange service tailored to your specific travel purposes.</p>
+							<p>Designated branches:</p>
+
+							<ul style="list-style: number;padding-left: 30px;">
+								<li>
+									<p>Yangon (26) Kyauktada Branch<br>No. (416), Maharbandoola Road, Kyauktada Township, Yangon.</p>
+								</li>
+								<li>
+									<p>(2)Yangon (8) Parami Branch<br>No. (105-D), Parami Lan Thit Lan, Ward (10), (7) mile, Mayangone Township, Yangon.</p>
+								</li>
+								<li>
+									<p>(3)Yangon (83) Ahlone Branch (River View Point Condominium)<br>Block No. (3/B), Ward (23) (G-1), Corner of Strand Road and Thit Taw Road, River View Point Condomium, Ahlone Township, Yangon.</p>
+								</li>
+								<li>
+									<p>(4)Mandalay (2) 30th Street Branch<Br>No. (2), Room (C/D 1-4), 30th Street (Between 77th Street & 78 Street), ChanAyeTharZan, Mandalay.</p>
+								</li>
+								<li>
+									<p>(5)NayPyiDaw (1) Thiri Yadanar Branch<br>No. (111-112), Thiri Yadanar Shopping Complex, Dekhina Thiri, NayPyiDaw.</p>
+								</li>
+							</ul>
+
+
+
+							<a href="{{ url($other_rate->special_purpose) }}" class="theme_text_color text-decoration-underline" target="_blank">Click here to view</a> the amount of daily exchange
 						</div>
 					</div>
 					<div class="col-md-12 mt-20">
