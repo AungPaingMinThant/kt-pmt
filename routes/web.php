@@ -281,6 +281,7 @@ Route::get('/personal-banking/borrowing','App\Http\Controllers\SiteMapController
 Route::get('/personal-banking/borrowing/hire-purchase','App\Http\Controllers\SiteMapController@personalHirePurchaseIndex');
 Route::get('/personal-banking/remittance','App\Http\Controllers\SiteMapController@personalRemittanceIndex');
 Route::get('/personal-banking/insurance','App\Http\Controllers\SiteMapController@personalInsIndex');
+Route::get('/personal-banking/insurance/general','App\Http\Controllers\SiteMapController@personalGeneralInsIndex');
 Route::get('/personal-banking/insurance/life','App\Http\Controllers\SiteMapController@personalLifeInsIndex');
 Route::get('/personal-banking/insurance/travel','App\Http\Controllers\SiteMapController@personalTravelInsIndex');
 Route::get('/personal-banking/other-services','App\Http\Controllers\SiteMapController@personalOtherIndex');

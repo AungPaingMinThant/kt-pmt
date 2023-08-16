@@ -87,16 +87,16 @@
 									<p>Yangon (26) Kyauktada Branch<br>No. (416), Maharbandoola Road, Kyauktada Township, Yangon.</p>
 								</li>
 								<li>
-									<p>(2)Yangon (8) Parami Branch<br>No. (105-D), Parami Lan Thit Lan, Ward (10), (7) mile, Mayangone Township, Yangon.</p>
+									<p>Yangon (8) Parami Branch<br>No. (105-D), Parami Lan Thit Lan, Ward (10), (7) mile, Mayangone Township, Yangon.</p>
 								</li>
 								<li>
-									<p>(3)Yangon (83) Ahlone Branch (River View Point Condominium)<br>Block No. (3/B), Ward (23) (G-1), Corner of Strand Road and Thit Taw Road, River View Point Condomium, Ahlone Township, Yangon.</p>
+									<p>Yangon (83) Ahlone Branch (River View Point Condominium)<br>Block No. (3/B), Ward (23) (G-1), Corner of Strand Road and Thit Taw Road, River View Point Condomium, Ahlone Township, Yangon.</p>
 								</li>
 								<li>
-									<p>(4)Mandalay (2) 30th Street Branch<Br>No. (2), Room (C/D 1-4), 30th Street (Between 77th Street & 78 Street), ChanAyeTharZan, Mandalay.</p>
+									<p>Mandalay (2) 30th Street Branch<Br>No. (2), Room (C/D 1-4), 30th Street (Between 77th Street & 78 Street), ChanAyeTharZan, Mandalay.</p>
 								</li>
 								<li>
-									<p>(5)NayPyiDaw (1) Thiri Yadanar Branch<br>No. (111-112), Thiri Yadanar Shopping Complex, Dekhina Thiri, NayPyiDaw.</p>
+									<p>NayPyiDaw (1) Thiri Yadanar Branch<br>No. (111-112), Thiri Yadanar Shopping Complex, Dekhina Thiri, NayPyiDaw.</p>
 								</li>
 							</ul>
 

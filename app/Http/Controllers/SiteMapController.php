@@ -76,6 +76,11 @@ class SiteMapController extends Controller
         return view('sitemap.personal.life-insurance');
     }
 
+    public function personalGeneralInsIndex()
+    {
+        return view('sitemap.personal.general-ins');
+    }
+
     public function personalTravelInsIndex()
     {
         return view('sitemap.personal.travel-insurance');
