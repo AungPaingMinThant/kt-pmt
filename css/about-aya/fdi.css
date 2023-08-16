@@ -36,7 +36,7 @@
 	background-color: #A5000B !important;
 	color: #fff !important;
 	float: right;
-	border: 1px solid #A5000B;
+	border: 1px solid #A5000B !important;
 }
 .enquiry_btn:hover {
 	background-color: #fff !important;

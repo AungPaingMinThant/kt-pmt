@@ -37,11 +37,10 @@
 					</a>
 					<a class="fdi_services_link" href="{{ url('/personal-banking/royal-banking') }}">
 						<div class="fdi_services_col col-md-3 text-center">
-							<img src="{{ url('/images/about-aya/who-we-are/foreign-direct-investment/02_royal_banking.webp') }}" class="img-fluid fdi_services_img">
+							<img src="{{ url('/images/about-aya/who-we-are/foreign-direct-investment/02_royal_banking.png') }}" class="img-fluid fdi_services_img">
 							<p class="fdi_services_label">
 								<span class="fw-bold goal_step_number">02</span><span class="fw-semibold goal_step_title">Royal Banking</span>
 							</p>
-							</a>
 						</div>
 					</a>
 					<a class="fdi_services_link" href="{{ url('/business-banking/borrowing') }}">
