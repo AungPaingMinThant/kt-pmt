@@ -25,7 +25,9 @@
                             </p>
                         </div>
                         <div class="col-md-4 px-3">
-                            
+                            <p>
+                                <a class="f-body-color" href="{{ url('/about-aya/career/life-at-aya') }}">Life At AYA <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                            </p>
                         </div>
                         
                     </div>
