@@ -48,7 +48,7 @@
     												@if($b->blog_title == "AYA Bank PCL's Foreign Currency Online Trading")
     											    	<tr>
     													<td>{{ $count }}</td>
-    													<td>{{ $b->blog_title }}</td>
+    													<td>{!! html_entity_decode($b->blog_title) !!}</td>
     													<td>
     														{{$category_name->category_name ?? '-'}}
     													</td>
@@ -61,9 +61,6 @@
     	                              								<span class="tf-icons bx bx-pencil"></span>&nbsp; 		
     	                           								</button>
     	                           							</a>
-                               								<!--<button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#backDropModal_{{$b->id}}">-->
-                                  					<!--			<span class="tf-icons bx bx-trash"></span>&nbsp; 		-->
-                               								<!--</button>-->
                                								<div class="modal fade" id="backDropModal_{{$b->id}}" data-bs-backdrop="static" tabindex="-1">
     															<div class="modal-dialog modal-dialog-centered">
     																<form class="modal-content" action="{{ url('/admin/blog/delete') }}" method="post">
@@ -110,7 +107,7 @@
     												?>
     											   	<tr>
     													<td>{{ $count }}</td>
-    													<td>{{ $b->blog_title }}</td>
+    													<td>{!! html_entity_decode($b->blog_title) !!}</td>
     													<td>
     														{{$category_name->category_name ?? '-'}}
     													</td>

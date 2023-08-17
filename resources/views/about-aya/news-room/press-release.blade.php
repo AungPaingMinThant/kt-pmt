@@ -25,7 +25,7 @@
 									<div class="news_content_div" style="border: 1px solid #f1f1f1;">
 										<div class="news_title_div">
 											<a href="{{ url('/about-aya/news-room/press-release/'.$b_list->permalink) }}" class="news_title_link">
-												<p class="news_title">{{ $b_list->blog_title }}</p>
+												<p class="news_title">{!! html_entity_decode($b_list->blog_title) !!}</p>
 											</a>
 										</div>
 										<div class="news_desc_div">

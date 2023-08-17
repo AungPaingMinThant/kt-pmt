@@ -22,7 +22,7 @@
 						<div class="space-40"></div>
 						<div class="row">
 							<p>Posted on {{ date('F d, Y',strtotime($blog->publish_date)) }}</p>
-							<p class="news_title">{{ $blog->blog_title }}</p>
+							<p class="news_title">{!! html_entity_decode($blog->blog_title) !!}</p>
 						</div>
 						<div class="row">
 							{!! html_entity_decode($blog->blog_desc) !!}

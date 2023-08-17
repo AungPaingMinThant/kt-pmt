@@ -50,7 +50,7 @@
 											<input type="hidden" name="blog_id" value="{{$blog_data->id}}">
 											<div class="mb-3">
 												<label class="form-label" for="blog_title">Title</label>
-												<input type="text" class="form-control" name="blog_title" id="blog_title" value="{{ $blog_data->blog_title }}" placeholder="Blog Title" required />
+												<input type="text" class="form-control" name="blog_title" id="blog_title" value="{!! html_entity_decode($blog_data->blog_title) !!}" placeholder="Blog Title" required />
 											</div>
 											<div class="mb-3">
 												<label class="form-label" for="blog_category">Category</label>
