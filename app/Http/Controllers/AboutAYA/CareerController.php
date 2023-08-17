@@ -16,4 +16,9 @@ class CareerController extends Controller
     {
         return view('about-aya.career.aya-culture');
     }
+
+    public function lifeAtAYAIndex()
+    {
+        return view('about-aya.career.life-at-aya');
+    }
 }

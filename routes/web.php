@@ -253,6 +253,9 @@ Route::get('/about-aya/career/career-opportunities','App\Http\Controllers\AboutA
 
 Route::get('/about-aya/career/aya-culture','App\Http\Controllers\AboutAYA\CareerController@ayaCultureIndex');
 
+
+Route::get('/about-aya/career/life-at-aya','App\Http\Controllers\AboutAYA\CareerController@lifeAtAYAIndex');
+
 Route::get('/about-aya/sustainability/our-commitment','App\Http\Controllers\AboutAYA\SustainabilityController@sustainabilityIndex');
 Route::get('/about-aya/sustainability/our-approach/social-sustainability','App\Http\Controllers\AboutAYA\SustainabilityController@socialSustainabilityIndex');
 Route::get('/about-aya/sustainability/our-approach/environmental-sustainability','App\Http\Controllers\AboutAYA\SustainabilityController@environmentalSustainabilityIndex');

@@ -69,10 +69,10 @@
 					<div class="col-md-12">
 						<div class="row">
 							<div class="space-40"></div>
-							<p class="mb-30"><span class="theme_text_color fw-semibold" style="font-size: 16px;padding-right: 20px;">Worker Remittance Rate : </span>{{ $other_rate->worker_remittance_currency }} = {{ number_format($other_rate->	worker_remittance_MMK) }} MMK</p>
+							<p class="mb-30"><span class="theme_text_color fw-semibold" style="font-size: 16px;padding-right: 20px;">Worker Remittance Rate : </span>1 {{ $other_rate->worker_remittance_currency }} = {{ number_format($other_rate->	worker_remittance_MMK) }} MMK</p>
 
-							<p class="theme_text_color fw-semibold" style="font-size: 16px;">Exchange counter rate (special purpose)</p>
-							<p>We provide a convenient currency exchange solution for Myanmar citizens intending to travel abroad for education, employment, or medical treatment and require smaller amounts of currency. This service is available at our designated branches' Money Changer Counters.</p>
+							<p class="theme_text_color fw-semibold" style="font-size: 16px;">Currency Exchange (Special Purpose)</p>
+							<p>We provide a convenient currency exchange solution for Myanmar citizens intending to travel abroad for education, employment, or medical treatment and require smaller amount of currency. This service is available at our designated branches' Money Changer Counters.</p>
 							<p class="mb-10">To utilize this service, you'll need to fulfill the following requirements:</p>
 							<ul style="list-style: disc;padding-left: 30px;">
 								<li><p><b>For Employment Purposes:</b> Please ensure you have your Passport of Job (PJ) and Overseas Worker Identification Card (OWIC) as essential documents.</p></li>
