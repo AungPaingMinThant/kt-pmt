@@ -3920,7 +3920,7 @@
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 30px;left: 20px;right: 40px;">
+					<div style="position: absolute;top: 30px;left: 20px;right: 130px;">
 						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Driven by passion, enriched by diversity, and fueled by empowerment - our people shine by their unique abilities.</h1>
 					</div>
 				</div>
