@@ -71,9 +71,22 @@
 							<h4 class="fw-semibold theme_text_color">Explore Our Careers</h4>
 							<p class="px-15 mb-20">Discover your opportunity to start your career with AYA Bank across the country. Check out our job portal to learn more of our vacancies and connect:</p>
 
-							<a href="https://aya.mihcm.com/CareerPortal/Careers?q=wW3C1prAWWYtnRDWPvl2HQ%3D%3D&lang=En" target="_blank">
+							<div id='jobnet' style='border:1px solid silver;width:100%;padding-left:1px;padding-right:1px;'>
+							    <object data='https://www.jobnet.com.mm/embed/grIPDy8GxANkyyDDted-iA%3d%3d' frameborder ='0' width='100%' height ='750' scrolling ='yes' seamless='seamless' title='loading'>
+							        <embed data='https://www.jobnet.com.mm/embed/grIPDy8GxANkyyDDted-iA%3d%3d' frameborder ='0' width='100%' height ='750' scrolling ='yes' seamless='seamless' title='loading'></embed>
+							    </object>
+						        <center style='border-top: 1px #ddd solid;margin-top:-2px;'>
+						            <a href='https://www.jobnet.com.mm/' target='_blank'>
+						                <span style='display: table-footer-group;'>
+						                <span style='float: left;padding-right: 5px;font-size: 12px;line-height: 2.3;'>Powered by</span>
+						                <img src='https://www.jobnet.com.mm/img/small-logo.png'/>
+						            </a>
+						        </center>
+   							</div>
+
+							<!-- <a href="https://aya.mihcm.com/CareerPortal/Careers?q=wW3C1prAWWYtnRDWPvl2HQ%3D%3D&lang=En" target="_blank">
 								<button class="btn search_opportunities">Search Your Latest Opportunities</button>
-							</a>
+							</a> -->
 						</div>
 					</div>
 				</div>
