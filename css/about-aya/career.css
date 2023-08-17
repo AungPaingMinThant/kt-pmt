@@ -234,8 +234,16 @@
         padding-top: 0rem !important;
         padding-bottom: 0rem !important;
     }
-    .life-at-aya-desc-col:nth-child(even) {
+    .life-at-aya-section-row:nth-child(odd) {
+        flex-direction: column-reverse;
+    }
+    .life-at-aya-desc-col:nth-child(odd) {
         padding-top: 0rem;
         padding-bottom: 2rem;
     }
+    .life-at-aya-desc-col:nth-child(even) {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    
 }
