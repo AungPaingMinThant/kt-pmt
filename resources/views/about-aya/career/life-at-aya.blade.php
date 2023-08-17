@@ -44,7 +44,7 @@
 
 			<div class="life-at-aya-section">
 				<div class="container">
-					<div class="row py-5 life-at-aya-section-row">
+					<div class="row py-5 life-at-aya-section-row-inverted">
 						<div class="col-md-7">
 							<img src="{{ url('/images/about-aya/career/life-at-aya/health_wellness.webp') }}" alt="Health and Wellness" class="img-fluid life-at-aya-images-invert">
 						</div>
@@ -78,7 +78,7 @@
 
 			<div class="life-at-aya-section">
 				<div class="container">
-					<div class="row py-5 life-at-aya-section-row">
+					<div class="row py-5 life-at-aya-section-row-inverted">
 						<div class="col-md-7">
 							<img src="{{ url('/images/about-aya/career/life-at-aya/family_support_care.webp') }}" alt="Family Support and Care" class="img-fluid life-at-aya-images-invert">
 						</div>
@@ -121,7 +121,7 @@
 			</div>
 			<div class="modal-body">
 				<div class="row">
-					<div class="col-md-12 px-5 modal-desc">
+					<div class="col-md-12 modal-desc">
 						<h5 class="theme_text_color fw-semibold mb-20">Work-life balance</h5>
 
 						<p class="mb-10">For many people, work finishes at the end of the working day. But for some, it exceeds normal scheduled working hours for the day, even weekends, and holidays. We believe in the power of employee’s work-life balance and adopt the workplace practices to minimize work-related stress, excessive workload, and hostile work environment.</p>
@@ -173,14 +173,14 @@
 			</div>
 			<div class="modal-body">
 				<div class="row">
-					<div class="col-md-12 px-5 modal-desc">
+					<div class="col-md-12 modal-desc">
 						<h5 class="theme_text_color fw-semibold mb-20">Health and Wellness</h5>
 
 						<p class="mb-10">Our people professionals take a lead role in steering the health and wellness agenda. We ensure that everyone in the organization from top management to operational staff regards it as a priority and integrate health practices into the Bank’s day-to-day operations. We take a proactive approach and develop programs to promote the physical and mental health of our people as well as to prevent issues from arising.</p>
 
 						<div class="space-20"></div>
-						<div class="table-responsive text-nowrap sh_table_div">
-							<table class="table table-bordered sh_table">
+						<div class="table-responsive text-nowrap">
+							<table class="table table-bordered desktop_table">
 								<thead>
 									<tr>
 										<th style="width: 33.33%;">Healthy Body</th>
@@ -218,6 +218,44 @@
 									</tr>
 								</tbody>
 							</table>
+							<table class="table table-bordered mobile_table">
+								<tbody>
+									<tr valign="top">
+										<td>
+											<p class="td_title">Healthy Body</p>
+											<ul style="list-style: disc;padding-left: 15px;">
+												<li><p>Welfare Support for medical coverage</p></li>
+												<li><p>Life Insurance</p></li>
+												<li><p>Health and safety awareness</p></li>
+												<li><p>Fitness sessions</p></li>
+												<li><p>Arrangements for recreation in workplace</p></li>
+											</ul>
+										</td>
+									</tr>
+									<tr valign="top">
+										<td>
+											<p class="td_title">Healthy Mind</p>
+											<ul style="list-style: disc;padding-left: 15px;">
+												<li><p>‘Employee Voice Channel’ to access people professionals to discuss concerns and issues.</p></li>
+												<li><p>Harness a culture of appreciation and recognition.</p></li>
+												<li><p>Workshops and tools to help support wellness</p></li>
+												<li><p>Practices to bring ‘mindfulness based stress release’ to the workplace</p></li>
+												<li><p>Talent development programs that motivate and engage employees</p></li>
+											</ul>
+										</td>
+									</tr>
+									<tr valign="top">
+										<td>
+											<p class="td_title">Healthy Workplace</p>
+											<ul style="list-style: disc;padding-left: 15px;">
+												<li><p>Drive diversity and inclusion for better employee engagement and relationship</p></li>
+												<li><p>Corporate level networking activities</p></li>
+												<li><p>Firm policies, procedures and guidelines for non-discrimination, anti-harassment, and grievance mechanisms</p></li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table>
 						</div>
 						<div class="space-20"></div>
 						
@@ -237,7 +275,7 @@
 			</div>
 			<div class="modal-body">
 				<div class="row">
-					<div class="col-md-12 px-5 modal-desc">
+					<div class="col-md-12 modal-desc">
 						<h5 class="theme_text_color fw-semibold mb-20">Financial Wellbeing</h5>
 
 						<p class="mb-10">While maintaining priority of products and services which are beneficial and convenient for our customers, AYA Bank remains vigilant and focused on supporting our internal customers, “Our employees”. We use our creativity and take actions to make a positive difference to the world and our employees. As part of our commitment to be a great place to work, we fully understand the different requirements of diverse people and develop various financial benefits to accommodate their needs.</p>
@@ -296,7 +334,7 @@
 			</div>
 			<div class="modal-body">
 				<div class="row">
-					<div class="col-md-12 px-5 modal-desc">
+					<div class="col-md-12 modal-desc">
 						<h5 class="theme_text_color fw-semibold mb-20">Family Support and Care</h5>
 
 						<p class="mb-10">AYA Bank understands that a career is made up of many things – ranging from professional growth to supporting a family. We focus on supporting our people as well as their families, making sure they can be their best both at work and at home.</p>
@@ -355,7 +393,7 @@
 			</div>
 			<div class="modal-body">
 				<div class="row">
-					<div class="col-md-12 px-5 modal-desc">
+					<div class="col-md-12 modal-desc">
 						<h5 class="theme_text_color fw-semibold mb-20">Rewards</h5>
 
 						<p class="mb-30">AYA Bank is committed to turning employees’ dreams into reality. We believe that the elements of <i>“reward and recognizing”</i> for the individual efforts and work accomplishment, and reinforce the desired behaviors displayed by our people is a good culture to be built. And it is yet incredibility impactful to ensure ongoing success of the Bank. We recognize them for their contribution, initiative for the bank and outstanding performance through compliments, gratitude, private notes or emails, awards as well as empower them to pursue their varied interests, in both professional and personal lives. To ensure the success of every AYA personnel, we offer meaningful rewards, and associate recognition programs.</p>
