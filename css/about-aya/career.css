@@ -141,6 +141,9 @@
     padding-right: 3rem !important;
     padding-left: 3rem !important;
 }
+.mobile_table {
+    display: none;
+}
 
 @media (max-width: 1400px) and (min-width: 1301px) {
     .our_value_point_col {

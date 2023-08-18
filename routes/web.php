@@ -250,11 +250,9 @@ Route::any('/about-aya/network/fx-counter-locations','App\Http\Controllers\About
 Route::any('/about-aya/network/correspondent-bank','App\Http\Controllers\AboutAYA\NetworkController@correspondentBankIndex');
 
 Route::get('/about-aya/career/career-opportunities','App\Http\Controllers\AboutAYA\CareerController@careerOpportunitiesIndex');
-
 Route::get('/about-aya/career/aya-culture','App\Http\Controllers\AboutAYA\CareerController@ayaCultureIndex');
-
-
 Route::get('/about-aya/career/life-at-aya','App\Http\Controllers\AboutAYA\CareerController@lifeAtAYAIndex');
+Route::get('/about-aya/career/employee-development','App\Http\Controllers\AboutAYA\CareerController@employeeDevIndex');
 
 Route::get('/about-aya/sustainability/our-commitment','App\Http\Controllers\AboutAYA\SustainabilityController@sustainabilityIndex');
 Route::get('/about-aya/sustainability/our-approach/social-sustainability','App\Http\Controllers\AboutAYA\SustainabilityController@socialSustainabilityIndex');

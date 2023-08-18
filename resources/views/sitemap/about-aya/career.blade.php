@@ -24,12 +24,16 @@
                                 <a class="f-body-color" href="{{ url('/about-aya/career/aya-culture') }}">AYA Culture <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
                         </div>
-                        <div class="col-md-4 px-3">
+                        <div class="col-md-3 px-3">
                             <p>
                                 <a class="f-body-color" href="{{ url('/about-aya/career/life-at-aya') }}">Life At AYA <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
                         </div>
-                        
+                        <div class="col-md-3 px-3">
+                            <p>
+                                <a class="f-body-color" href="{{ url('/about-aya/career/employee-development') }}">Employee Development <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

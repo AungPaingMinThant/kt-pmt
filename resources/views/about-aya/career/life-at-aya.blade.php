@@ -316,7 +316,7 @@
 								<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid life_at_aya_bullet_square">
 							</div>
 							<div class="col-11">
-								<p class="work-life-balance-fact"><b>Provident Fund</b> offers special rate of interest to employee on consumer loans including home loan and auto loan</p>
+								<p class="work-life-balance-fact"><b>Provident Fund</b> for every employee at AYA Bank.</p>
 							</div>
 						</div>
 					</div>

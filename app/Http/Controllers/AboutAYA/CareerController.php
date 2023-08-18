@@ -21,4 +21,9 @@ class CareerController extends Controller
     {
         return view('about-aya.career.life-at-aya');
     }
+
+    public function employeeDevIndex()
+    {
+        return view('about-aya.career.employee-development');
+    }
 }

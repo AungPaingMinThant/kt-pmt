@@ -556,6 +556,9 @@
 .life_at_aya_banner {
 	background-image: url('../images/about-aya/career/life-at-aya/KV.webp');
 }
+.employee_development_banner {
+	background-image: url('../images/about-aya/career/employee-development/KV.webp');
+}
 
 .stakeholder_management_banner_tagline, .aya_bank_profile_banner_tagline, .risk_management_banner_tagline,
 .risk_governance_banner_tagline, .risk_mgmt_framework_banner_tagline, .risk_mgmt_ctl_banner_tagline, .managing_risk_banner_tagline,
@@ -586,7 +589,7 @@
     left: 20px;
     right: 30%;
 }
-.life_at_aya_banner_tagline {
+.life_at_aya_banner_tagline, .employee_development_banner_tagline {
 	position: absolute;
     top: 140px;
     left: 20px;
@@ -695,7 +698,7 @@
 	.mission_promise_banner, .corporate_strategy_banner, .corporate_governance_banner, .aml_cft_banner, .msg_chairman_banner, 
 	.report_banner, .corporate_policies_banner, .branch_locations_banner, .atm_locations_banner, .corporate_milestone_banner, .corporate_goals_banner,
 	.career_opportunities_banner, .sustainability_banner, .ungc_compliance_banner, .aya_culture_banner, .fx_counter_locations_banner,
-	.correspondent_bank_banner, .award_banner, .why_us_banner, .fdi_banner, .life_at_aya_banner {
+	.correspondent_bank_banner, .award_banner, .why_us_banner, .fdi_banner, .life_at_aya_banner, .employee_development_banner {
 		background-position: 40% center;
 	}
 	.meet_our_leaders_banner_tagline, .aya_bank_profile_banner_tagline, .stakeholder_management_banner_tagline,
@@ -705,7 +708,7 @@
 	.branch_locations_banner_tagline, .atm_locations_banner_tagline, .corporate_milestone_banner_tagline, .corporate_goals_banner_tagline,
 	.career_opportunities_banner_tagline, .sustainability_banner_tagline, .ungc_compliance_banner_tagline, .aya_culture_banner_tagline,
 	.fx_counter_locations_banner_tagline, .correspondent_bank_banner_tagline, .award_banner_tagline, .why_us_banner_tagline, .fdi_banner_tagline,
-	.life_at_aya_banner_tagline {
+	.life_at_aya_banner_tagline, .employee_development_banner_tagline {
 	    position: absolute;
 	    top: 120px;
 	    left: 60px;
@@ -1039,7 +1042,7 @@
 	.mission_promise_banner, .corporate_strategy_banner, .corporate_governance_banner, .aml_cft_banner, .msg_chairman_banner, 
 	.report_banner, .corporate_policies_banner, .branch_locations_banner, .atm_locations_banner, .corporate_milestone_banner, .corporate_goals_banner,
 	.career_opportunities_banner, .sustainability_banner, .ungc_compliance_banner, .aya_culture_banner, .fx_counter_locations_banner,
-	.correspondent_bank_banner, .award_banner, .why_us_banner, .fdi_banner, .life_at_aya_banner {
+	.correspondent_bank_banner, .award_banner, .why_us_banner, .fdi_banner, .life_at_aya_banner, .employee_development_banner {
 		background-position: 40% center;
 	}
 	.meet_our_leaders_banner_tagline, .aya_bank_profile_banner_tagline,
@@ -1054,7 +1057,7 @@
 	.corporate_policies_banner_tagline, .branch_locations_banner_tagline, .atm_locations_banner_tagline, .corporate_milestone_banner_tagline, 
 	.corporate_goals_banner_tagline, .career_opportunities_banner_tagline, .sustainability_banner_tagline, .ungc_compliance_banner_tagline, 
 	.aya_culture_banner_tagline, .fx_counter_locations_banner_tagline, .correspondent_bank_banner_tagline, .award_banner_tagline, .why_us_banner_tagline,
-	.fdi_banner, .life_at_aya_banner_tagline {
+	.fdi_banner, .life_at_aya_banner_tagline, .employee_development_banner_tagline {
 		top: 160px;
 	    right: 35%;
 	    left: 100px;
@@ -1370,7 +1373,7 @@
 	.mission_promise_banner, .corporate_strategy_banner, .corporate_governance_banner, .aml_cft_banner, .msg_chairman_banner, 
 	.report_banner, .corporate_policies_banner, .branch_locations_banner, .atm_locations_banner, .corporate_milestone_banner, .corporate_goals_banner,
 	.career_opportunities_banner, .sustainability_banner, .ungc_compliance_banner, .aya_culture_banner, .fx_counter_locations_banner,
-	.correspondent_bank_banner, .award_banner, .why_us_banner, .fdi_banner, .life_at_aya_banner {
+	.correspondent_bank_banner, .award_banner, .why_us_banner, .fdi_banner, .life_at_aya_banner, .employee_development_banner {
 		background-position: 40% center;
 	}
 	.meet_our_leaders_banner_tagline, .aya_bank_profile_banner_tagline,
@@ -1385,7 +1388,7 @@
 	.corporate_policies_banner_tagline, .branch_locations_banner_tagline, .atm_locations_banner_tagline, .corporate_milestone_banner_tagline, 
 	.corporate_goals_banner_tagline, .career_opportunities_banner_tagline, .sustainability_banner_tagline, .ungc_compliance_banner_tagline,
 	.aya_culture_banner_tagline, .fx_counter_locations_banner_tagline, .correspondent_bank_banner_tagline, .award_banner_tagline, .why_us_banner_tagline,
-	.fdi_banner_tagline, .life_at_aya_banner_tagline {
+	.fdi_banner_tagline, .life_at_aya_banner_tagline, .employee_development_banner_tagline {
 		top: 160px;
 	    right: 35%;
 	    left: 100px;
@@ -1428,7 +1431,7 @@
 	.mission_promise_banner, .corporate_strategy_banner, .corporate_governance_banner, .aml_cft_banner, .msg_chairman_banner, 
 	.report_banner, .corporate_policies_banner, .branch_locations_banner, .atm_locations_banner, .corporate_milestone_banner, .corporate_goals_banner,
 	.career_opportunities_banner, .sustainability_banner, .ungc_compliance_banner, .aya_culture_banner, .fx_counter_locations_banner,
-	.correspondent_bank_banner, .award_banner, .why_us_banner, .fdi_banner, .life_at_aya_banner {
+	.correspondent_bank_banner, .award_banner, .why_us_banner, .fdi_banner, .life_at_aya_banner, .employee_development_banner {
 		background-position: 60% center;
 	}
 	.meet_our_leaders_banner_tagline, .aya_bank_profile_banner_tagline, .stakeholder_management_banner_tagline,
@@ -1437,7 +1440,8 @@
 	.aml_cft_banner_tagline, .msg_chairman_banner_tagline, .report_banner_tagline, .corporate_policies_banner_tagline,
 	.branch_locations_banner_tagline, .atm_locations_banner_tagline, .corporate_milestone_banner_tagline, .corporate_goals_banner_tagline, .career_opportunities_banner_tagline,
 	.sustainability_banner_tagline, .ungc_compliance_banner_tagline, .aya_culture_banner_tagline, .fx_counter_locations_banner_tagline,
-	.correspondent_bank_banner_tagline, .award_banner_tagline, .why_us_banner_tagline, .fdi_banner_tagline, .life_at_aya_banner_tagline {
+	.correspondent_bank_banner_tagline, .award_banner_tagline, .why_us_banner_tagline, .fdi_banner_tagline, .life_at_aya_banner_tagline,
+	.employee_development_banner_tagline {
 	    right: 80px;
 	}
 	.mission_promise_banner_tagline {
@@ -1905,5 +1909,9 @@
 	.life_at_aya_banner {
 		background-image:url('../images/about-aya/career/life-at-aya/mobile_KV.webp');
 		background-position: 40% center;
+	}
+	.employee_development_banner {
+		background-image:url('../images/about-aya/career/employee-development/mobile_KV.webp');
+		background-position: 70% center;
 	}
 }
