@@ -292,7 +292,7 @@
 								<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid life_at_aya_bullet_square">
 							</div>
 							<div class="col-11">
-								<p class="work-life-balance-fact"><b>Sharing with Care Program</b> to provide necessities to non-clerical staff during COVID-19 pandemic.</p>
+								<p class="work-life-balance-fact"><b>မေတ္တာဖြင့်မျှဝေခြင်း Sharing with Care Program</b> to provide necessities to non-clerical staff during COVID-19 pandemic.</p>
 							</div>
 						</div>
 						<div class="row">

@@ -145,6 +145,15 @@
     display: none;
 }
 
+/* Employee Development */
+.drop-cap:first-letter {
+    float: left;
+    font-size: 3rem;
+    line-height: 0.65;
+    font-weight: 500;
+    margin: 0.1em 0.1em 0 0;
+}
+
 @media (max-width: 1400px) and (min-width: 1301px) {
     .our_value_point_col {
         width: 31.6% !important;
