@@ -19,7 +19,7 @@
 				</div>
 				<div class="space-20"></div>
 				<div class="row">
-					<img src="{{ url('/images/about-aya/career/career-opportunities/career_opportunities.webp') }}" class="img-fluid">
+					<img src="{{ url('/images/about-aya/career/career-opportunities/career_opportunities_group.webp') }}" class="img-fluid">
 				</div>
 				<div class="space-40"></div>
 				<div class="row">
