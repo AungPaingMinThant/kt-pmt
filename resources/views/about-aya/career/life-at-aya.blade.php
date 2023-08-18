@@ -29,7 +29,7 @@
 				<div class="container">
 					<div class="row py-5 life-at-aya-section-row">
 						<div class="col-md-5 life-at-aya-desc-col">
-							<p class="theme_text_color fw-semibold" style="font-size: 16px;">Work-life balance</p>
+							<p class="theme_text_color fw-semibold" style="font-size: 20px;">Work-life balance</p>
 							<p>For many people, work finishes at the end of the working day. But for some, it exceeds normal scheduled working hours for the day, even weekends, and holidays. We believe in the power of employee’s work-life balance and adopt the workplace practices to minimize work-related stress, excessive workload, and hostile work environment.</p>
 							<p class="mb-0 theme_text_color">
 								<a class="theme_text_color life-at-aya-link" data-bs-toggle="modal" data-bs-target="#work-life-balance-modal">Find out more <i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i></a>
@@ -49,7 +49,7 @@
 							<img src="{{ url('/images/about-aya/career/life-at-aya/health_wellness.webp') }}" alt="Health and Wellness" class="img-fluid life-at-aya-images-invert">
 						</div>
 						<div class="col-md-5 life-at-aya-desc-col">
-							<p class="theme_text_color fw-semibold" style="font-size: 16px;">Health and Wellness</p>
+							<p class="theme_text_color fw-semibold" style="font-size: 20px;">Health and Wellness</p>
 							<p>Our people professionals take a lead role in steering the health and wellness agenda. We ensure that everyone in the organization from top management to operational staff regards it as a priority and integrate health practices into the Bank’s day-to-day operations. We take a proactive approach and develop programs to promote the physical and mental health of our people as well as to prevent issues from arising.</p>
 							<p class="mb-0 theme_text_color">
 								<a class="theme_text_color life-at-aya-link" data-bs-toggle="modal" data-bs-target="#health-wellness-modal">Find out more <i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i></a>
@@ -63,7 +63,7 @@
 				<div class="container">
 					<div class="row py-5 life-at-aya-section-row">
 						<div class="col-md-5 life-at-aya-desc-col">
-							<p class="theme_text_color fw-semibold" style="font-size: 16px;">Financial Wellbeing</p>
+							<p class="theme_text_color fw-semibold" style="font-size: 20px;">Financial Wellbeing</p>
 							<p>While maintaining priority of products and services which are beneficial and convenient for our customers, AYA Bank remains vigilant and focused on supporting our internal customers, “Our employees”. We use our creativity and take actions to make a positive difference to the world and our employees. As part of our commitment to be a great place to work, we fully understand the different requirements of diverse people and develop various financial benefits to accommodate their needs. </p>
 							<p class="mb-0 theme_text_color">
 								<a class="theme_text_color life-at-aya-link" data-bs-toggle="modal" data-bs-target="#financial-wellbeing-modal">Find out more <i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i></a>
@@ -83,7 +83,7 @@
 							<img src="{{ url('/images/about-aya/career/life-at-aya/family_support_care.webp') }}" alt="Family Support and Care" class="img-fluid life-at-aya-images-invert">
 						</div>
 						<div class="col-md-5 life-at-aya-desc-col">
-							<p class="theme_text_color fw-semibold" style="font-size: 16px;">Family Support and Care</p>
+							<p class="theme_text_color fw-semibold" style="font-size: 20px;">Family Support and Care</p>
 							<p>AYA Bank understands that a career is made up of many things – ranging from professional growth to supporting a family. We focus on supporting our people as well as their families, making sure they can be their best both at work and at home.</p>
 							<p class="mb-0 theme_text_color">
 								<a class="theme_text_color life-at-aya-link" data-bs-toggle="modal" data-bs-target="#family-support-care-modal">Find out more <i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i></a>
@@ -97,7 +97,7 @@
 				<div class="container">
 					<div class="row py-5 life-at-aya-section-row">
 						<div class="col-md-5 life-at-aya-desc-col">
-							<p class="theme_text_color fw-semibold" style="font-size: 16px;">Rewards</p>
+							<p class="theme_text_color fw-semibold" style="font-size: 20px;">Rewards</p>
 							<p>AYA Bank is committed to turning employees’ dreams into reality. We believe that the elements of <i>“reward and recognizing”</i> for the individual efforts and work accomplishment, and reinforce the desired behaviors displayed by our people is a good culture to be built. And it is yet incredibility impactful to ensure ongoing success of the Bank.</p>
 							<p class="mb-0 theme_text_color">
 								<a class="theme_text_color life-at-aya-link" data-bs-toggle="modal" data-bs-target="#rewards-modal">Find out more <i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i></a>

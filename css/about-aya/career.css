@@ -153,6 +153,45 @@
     font-weight: 500;
     margin: 0.1em 0.1em 0 0;
 }
+.emp_dev_CTA_detail_col_1 {
+    background-image: url('../../images/about-aya/career/employee-development/Our_Continuous_Learning_Journey.webp');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 420px;
+}
+.emp_dev_CTA2_detail_col_2 {
+    background-image: url('../../images/about-aya/career/employee-development/Mentoring_Workplace.webp');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 420px;
+}
+.emp_dev_CTA2_detail_col_1 {
+    padding-top: 4rem !important;
+    padding-right: 4rem !important;
+}
+.emp_dev_CTA_detail_2_col_1 {
+    background-image: url('../../images/about-aya/career/employee-development/Open_opportunity_for_all.webp');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 420px;
+}
+.emp_dev_CTA4_detail_col_2 {
+    background-image: url('../../images/about-aya/career/employee-development/Performance_Management.webp');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 420px;
+}
+.bottom_hr {
+    border-bottom: 5px solid #A5000B;
+    width: 150px !important;
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+}
 
 @media (max-width: 1400px) and (min-width: 1301px) {
     .our_value_point_col {

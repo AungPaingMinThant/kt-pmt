@@ -36,7 +36,7 @@ class BlogController extends Controller
 
     public function blogStore(Request $request)
     {
-        $blog_title = htmlentities($request->blog_title);;
+        $blog_title = htmlentities($request->blog_title);
         $blog_category = $request->blog_category;
         $blog_desc = $request->blog_desc;
         $featured_image = $request->featured_image;

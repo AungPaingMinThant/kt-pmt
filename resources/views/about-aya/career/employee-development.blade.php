@@ -26,43 +26,91 @@
 			<div class="CTA_div drive_growth_CTA">
 				<div class="container section_1">
 					<div class="row">
-						<div class="col-md-4 CTA_detail_col_1"></div>
+						<div class="col-md-4 emp_dev_CTA_detail_col_1"></div>
 						<div class="col-md-8 CTA_detail_col_2">
-							<p class="f-white" style="font-size: 20px;">A Driver of Growth</p>
-							<p class="f-white">We make financial lives better through our focus on responsible growth. We take the initiatives to provide customers with financial solutions for their personal and business needs, and to support the community. Our primary business strategy is to provide comprehensive banking and related financial solutions through the initiatives of enabling growth and enriching lives.</p>
-							<p class="f-white">Taking the drive to cashless transactions and payments, AYA Bank has transformed 52% of active customers to Digital Banking. The Bank consistently creates significant value to strategic investment partners, driven by digitalization, human resource development, innovative products and services across all customer segments.</p>
+							<p class="f-white fw-semibold" style="font-size: 20px;">Our Continuous Learning Journey</p>
+							<p class="f-white">AYA Bank is committed to be at the forefront of the future of banking, with the ability of nurturing future talents. We help our people improve their competencies, gain new skills, increase the knowledge horizon, and grow them in both personal and professional lives. Continuous learning journeys are being provided to our employees for their capacity development and upgrading for future-proof skillsets.</p>
+							<p class="f-white mb-100">To fuel the culture of learning, we provide employees at all levels with access to the Bank’s online learning portal which is reachable on their fingertips at any time. We organize strategy programs with global management consulting firms to develop new ways of thinking, and learn to lead with purpose.</p>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="space-40"></div>
+			<div class="space-60"></div>
 			<div class="CTA2_div">
 				<div class="container section_1">
 					<div class="row">
-						<div class="col-md-8 CTA2_detail_col_1">
-							<p class="theme_text_color" style="font-size: 20px;">Business Practices</p>
-							<p class="mb-30">AYA Bank aims to have an overall positive impact on financial sector as well as social and environment through responsible practices, align with our Code of Business Conduct, effective governance and risk and compliance framework. We grow as a responsible business at the strategic, portfolio and transactional levels and across all business areas with following key highlights,</p>
-							<a href="{{ url('/about-aya/who-we-are/corporate-profile/ayabank-profile/business-practices') }}">
-								<p class="theme_text_color">Find out more&nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i></p>
-							</a>
+						<div class="col-md-8 emp_dev_CTA2_detail_col_1">
+							<p class="theme_text_color fw-semibold" style="font-size: 20px;">Mentoring @ Workplace</p>
+							<p>We are constantly on the move of encouraging our people learning at every day from workplace and further development to ensure having the skills required for the jobs of today and tomorrow. We create an opened working culture for raising questions, learning from mistakes, developing new skills, and acquiring wisdom. It enables employee to get connected with those who have more experience and who can pass on their hard-earned knowledge and career advice.</p>
+							<p>Furthermore, we use our collective capacity to foster partnership with colleagues for the purposes of learning and growth. By developing our employee at all levels, enabling the Bank to build a strong succession pipeline of future leaders.</p>
 						</div>
-						<div class="col-md-4 CTA2_detail_col_2"></div>
+						<div class="col-md-4 emp_dev_CTA2_detail_col_2"></div>
 					</div>
 				</div>
 			</div>
 
-			<div class="space-40"></div>
+			<div class="space-60"></div>
 			<div class="CTA_div">
 				<div class="container section_1">
 					<div class="row">
-						<div class="col-md-4 CTA_detail_2_col_1"></div>
-						<div class="col-md-8 CTA_detail_col_2">
-							<p class="f-white" style="font-size: 20px;">Shareholding Information</p>
-							<p class="f-white mb-30">AYA Bank is organized independently as a stand-alone business and has been operating with its own culture, management structure, business structure and legal structure.It is incorporated with shares, owned by following shareholders:</p>
-							<a href="{{ url('/about-aya/who-we-are/corporate-profile/ayabank-profile/shareholding-information') }}" class="f-white shareholding_link" style="color: #fff !important;">
-								<p class="f_white">Find out more&nbsp;<i class='bx bx-chevron-right f_white' style="font-size: 18px;line-height: 18px;"></i></p>
-							</a>
+						<div class="col-md-4 emp_dev_CTA_detail_2_col_1"></div>
+						<div class="col-md-8 CTA_bond_detail_col_2">
+							<p class="f-white fw-semibold" style="font-size: 20px;">Open opportunity for all</p>
+							<p class="f-white fw-semibold">Enhance Your Career With Us!</p>
+							<p class="f-white">Whether you are a banking-experienced person or not, an experienced or fresh graduate, we are committed to offer equal employment opportunity and career advancement for all. We recognize the crucial need for innovation and the creation of fresh prospects, both within our organization and the broader society.</p>
+							<p class="f-white">By implementing a 'Policy and Procedure for Non-discrimination', we guarantee employment opportunities free from prejudice, regardless of race, religion, gender, age, or any other legally protected characteristics.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="space-60"></div>
+			<div class="CTA2_div">
+				<div class="container section_1">
+					<div class="row">
+						<div class="col-md-8 emp_dev_CTA2_detail_col_1">
+							<p class="theme_text_color fw-semibold" style="font-size: 20px;">Performance Management</p>
+							<p>With the swift expansion of branches and the new functions assigned, it is more critical to place the right people at the right position in the right time. In that effort, performance management is a key success factor. Our performance management system is an ongoing process to identify talents for their strengths and areas of improvement; to craft their career paths.  Managers try to create positive experiences to motivate employee and drive high performance.</p>
+							<p>By utilizing modern-digital evaluating system (which includes strong Key Performance Indicators (KPIs) with Two-way Feedbacks and communication), we achieve continual development and progress of our people as well as their commitment to AYA Bank.</p>
+						</div>
+						<div class="col-md-4 emp_dev_CTA4_detail_col_2"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="space-60"></div>
+			<div class="CTA_div">
+				<div class="container section_1">
+					<div class="row">
+						<div class="col-md-4 emp_dev_CTA_detail_2_col_1"></div>
+						<div class="col-md-8 CTA_bond_detail_col_2">
+							<p class="f-white fw-semibold" style="font-size: 20px;">Career Development</p>
+							<p class="f-white">As being an employee at AYA Bank, you will find potential prospects to grow across the organization. To ensure the success of everyone in AYA, we offer both lateral and vertical career growth opportunities. A wide range of career support is placed to ensure our employee are continuously developing. The immediate reporting person will be guiding you to set clear career goals with positive feedbacks in achieving them. We also set the culture to take self-responsibility for chasing own career development.</p>
+							<p class="f-white">Our people management team recognizes the skill set of the individual employee, identifies development programs to help you strengthen quality of work and outreach to next level in career journey.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div style="background-color: #f9f9fb;">
+				<div class="space-60"></div>
+				<div class="container section_1">
+					<h4 class="fw-semibold mb-10">Meet Our People Growing With AYA</h4>
+					<hr class="bottom_hr">
+					<p>At AYA Bank, we give everyone opportunity to take ownership of their work – we empower them to be responsible for the successful execution of tasks and projects and write their own story.  Our 6000+ employees are proud to be part of our vibrant, friendly and growing team.</p>
+					<div class="space-20"></div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-6">
+									<img src="{{ url('/images/about-aya/career/employee-development/khine_swe_thaw.webp') }}" class="img-fluid">
+								</div>
+								<div class="col-md-6">
+									<p>Khine Swe Thaw</p>
+									<p></p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
