@@ -261,7 +261,7 @@ Route::get('/about-aya/sustainability/our-approach/economic-sustainability','App
 
 Route::get('/about-aya/sustainability/our-commitment/ungc-compliance','App\Http\Controllers\AboutAYA\SustainabilityController@UNGCIndex');
 
-Route::get('/contact','App\Http\Controllers\ContactController@ndex');
+Route::get('/contact-us','App\Http\Controllers\ContactController@index');
 
 // Enquiry Form
 Route::get('/enquiry','App\Http\Controllers\EnquiryController@index');

@@ -1,0 +1,136 @@
+.contact_tag {
+	font-size: 22px;
+	font-weight: 500;
+	color: #495a63;
+	margin-bottom: 30px;
+}
+.tab {
+    width: 380px !important;
+}
+.glider {
+    width: 380px !important;
+}
+.contact_table_icon_td {
+    width: 15%;
+}
+.contact_icon, .address_icon {
+	width: 60%;
+}
+.bullet_square_col {
+	padding-left: 40px !important;
+}
+.bullet_square {
+    width: 15%;
+    margin-top: 5px;
+}
+.contact_us_fact {
+    margin-left: -40px;
+}
+.branches_address_row {
+	background-image: url('../images/contact/contact_visit_us_BG.webp');
+	background-size: cover;
+	background-position: center right;
+	background-repeat: no-repeat;
+	padding: 30px 360px 0px 60px;
+	border-radius: 10px !important;
+}
+.download_lists_btn {
+    background-color: #ae071d !important;
+    color: #fff !important;
+    font-weight: 500;
+    padding: 15px 25px !important;
+    border: 1px solid #ae071d !important;
+    margin-bottom: 2rem;
+}
+.download_lists_btn:hover {
+    background-color: #fff !important;
+    color: #ae071d !important;
+}
+.other_contact_fdi_detail {
+	padding-top: 5rem !important;
+	padding-left: 2rem !important;
+}
+.other_contact_IR_detail {
+	padding-top: 5rem !important;
+	padding-left: 1.5rem !important;
+}
+.IR_ext {
+	padding-left: 40px !important;
+}
+.other_contact_royal_banking_detail {
+	padding-top: 1rem !important;
+	padding-left: 2rem !important;
+}
+.address_pin {
+	vertical-align: middle;
+}
+@media (max-width: 1400px) and (min-width: 1301px) {
+	.tab {
+	    width: 330px !important;
+	}
+	.glider {
+	    width: 330px !important;
+	}
+	.other_contact_royal_banking_detail {
+   		padding-top: 0rem !important;
+	    padding-left: 2rem !important;
+	}
+	.other_contact_IR_detail {
+	    padding-top: 2rem !important;
+	    padding-left: 1.5rem !important;
+	}
+	.branches_address_row {
+	    padding: 30px 280px 0px 60px;
+	}
+}
+@media (max-width: 1100px) and (min-width: 577px) {
+	.tab {
+	    width: 310px !important;
+	}
+	.glider {
+	    width: 310px !important;
+	}
+	.other_contact_IR_detail {
+	    padding-top: 3rem !important;
+	    padding-left: 1.5rem !important;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.tab {
+	    width: 200px !important;
+	}
+	.glider {
+	    width: 200px !important;
+	}
+	.bullet_square_col {
+	    padding: 0px 0px 0px 20px !important;
+	}
+	.bullet_square {
+	    width: 60% !important;
+	}
+	.contact_us_fact {
+	    margin-left: 0px;
+	}
+	.address_pin {
+		vertical-align: top;
+	}
+	.address_icon {
+	    width: 100%;
+	}
+	.branches_address_row {
+		background-position: center;
+		padding: 30px 30px 0px 30px;
+	}
+	.branches_address_row > .col-md-7 {
+		text-align: center !important;
+	}
+	.other_contact_fdi_detail {
+	    padding-top: 2rem !important;
+	}
+	.other_contact_IR_row {
+		flex-direction: column-reverse;
+	}
+	.other_contact_IR_detail {
+	    padding-top: 2rem !important;
+	}
+}
