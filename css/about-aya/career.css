@@ -153,6 +153,9 @@
     font-weight: 500;
     margin: 0.1em 0.1em 0 0;
 }
+.our_continuous_learning_journey_section {
+    height: 480px;
+}
 .emp_dev_CTA_detail_col_1 {
     background-image: url('../../images/about-aya/career/employee-development/Our_Continuous_Learning_Journey.webp');
     background-size: cover;
@@ -185,12 +188,36 @@
     background-repeat: no-repeat;
     height: 420px;
 }
+.emp_dev_CTA_detail_5_col_1 {
+    background-image: url('../../images/about-aya/career/employee-development/Career_Development.webp');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 420px;
+}
 .bottom_hr {
     border-bottom: 5px solid #A5000B;
     width: 150px !important;
     margin-top: 5px;
     margin-left: 0px;
     margin-bottom: 30px;
+}
+.our_people_col {
+    width: 49% !important;
+}
+.our_people_col:first-child {
+    margin-right: 20px;
+}
+.our_people_row {
+    background-color: #fff;
+    padding: 20px;
+}
+.our_people_img_col {
+    display: flex;
+    align-items: center;
+}
+.our_people_view_bio {
+    cursor: pointer;
 }
 
 @media (max-width: 1400px) and (min-width: 1301px) {
@@ -312,5 +339,22 @@
         letter-spacing: 1px;
         font-weight: 600;
         margin-top: 10px;
+    }
+
+    /* Employee Development */
+    .our_continuous_learning_journey_section {
+        height: auto;
+    }
+    .open_opportunity_col, .emp_dev_CTA2_detail_col_1, .our_continuous_learning_journey {
+        padding: 2rem !important;
+    }
+    .our_people_col {
+        width: 100% !important;
+    }
+    .our_people_img_col {
+        margin-bottom: 20px;
+    }
+    .our_people_col {
+        margin-bottom: 20px;
     }
 }
