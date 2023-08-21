@@ -215,6 +215,7 @@
 .our_people_img_col {
     display: flex;
     align-items: center;
+    padding: 0 !important;
 }
 .our_people_view_bio {
     cursor: pointer;
