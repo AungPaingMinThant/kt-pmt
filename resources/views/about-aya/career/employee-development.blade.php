@@ -108,7 +108,7 @@
 								</div>
 								<div class="col-md-9">
 									<p class="mb-0 fw-semibold" style="font-size: 18px;">Khine Swe Thaw</p>
-									<p class="mb-10" style="font-size: 16px;">People Department</p>
+									<p class="mb-10 fw-semibold" style="font-size: 16px;">People Department</p>
 									<p>I have felt highly-valued and have been invested in developing my skills and reach my career goals.</p>
 									<p class="mb-0 fw-500 theme_text_color our_people_view_bio" data-bs-toggle="modal" data-bs-target="#khine_swe_thaw_modal">View Bio&nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i></p>
 								</div>
@@ -121,7 +121,7 @@
 								</div>
 								<div class="col-md-9">
 									<p class="mb-0 fw-semibold" style="font-size: 18px;">Ye Aung</p>
-									<p class="mb-10" style="font-size: 16px;">Corporate Domestic Banking</p>
+									<p class="mb-10 fw-semibold" style="font-size: 16px;">Corporate Domestic Banking</p>
 									<p>I’ve received a huge amount of support and training from the business, and I am really enjoying the new challenge.</p>
 									<p class="mb-0 fw-500 theme_text_color our_people_view_bio" data-bs-toggle="modal" data-bs-target="#ye_aung_modal">View Bio&nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i></p>
 								</div>
