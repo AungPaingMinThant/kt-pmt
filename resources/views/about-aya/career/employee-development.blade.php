@@ -108,7 +108,7 @@
 								</div>
 								<div class="col-md-9">
 									<p class="mb-0 fw-semibold" style="font-size: 18px;">Khine Swe Thaw</p>
-									<p class="mb-10 fw-semibold" style="font-size: 16px;">People Department</p>
+									<p class="mb-10 fw-semibold" style="font-size: 15px;">People Department</p>
 									<p>I have felt highly-valued and have been invested in developing my skills and reach my career goals.</p>
 									<p class="mb-0 fw-500 theme_text_color our_people_view_bio" data-bs-toggle="modal" data-bs-target="#khine_swe_thaw_modal">View Bio&nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i></p>
 								</div>
@@ -121,7 +121,7 @@
 								</div>
 								<div class="col-md-9">
 									<p class="mb-0 fw-semibold" style="font-size: 18px;">Ye Aung</p>
-									<p class="mb-10 fw-semibold" style="font-size: 16px;">Corporate Domestic Banking</p>
+									<p class="mb-10 fw-semibold" style="font-size: 15px;">Corporate Domestic Banking</p>
 									<p>I’ve received a huge amount of support and training from the business, and I am really enjoying the new challenge.</p>
 									<p class="mb-0 fw-500 theme_text_color our_people_view_bio" data-bs-toggle="modal" data-bs-target="#ye_aung_modal">View Bio&nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i></p>
 								</div>
@@ -148,7 +148,7 @@
 					</div>
 					<div class="col-md-9">
 						<h5 class="card-title theme_text_color fw-semibold mb-0">Khine Swe Thaw</h5>
-						<p>People Department</p>
+						<p class="fw-semibold">People Department</p>
 						<p class="mb-10 bio_detail">Khine Swe Thaw started her career at AYA Bank as a Trainer and Learning Program Developer in 2015. Specializing in staff development and performance management, she believes in the Bank’s power of investing to help individuals create a better tomorrow. </p>
 						<p class="py-1">“I have felt highly-valued and have been invested in developing my skills and reach my career goals. I’m so proud to be part of AYA Bank and see the growing business together with enriched operation and support; whilst still keeping the personal touch among teams.”</p>
 						<p>Currently, she is Head of Talent Acquisition, OD, Performance Management and HR Transformation Projects and taking responsibilities relentlessly with her rich background knowledge, experiences in both Human Resource Management and Organizational Development fields.</p>
@@ -172,7 +172,7 @@
 					</div>
 					<div class="col-md-9">
 						<h5 class="card-title theme_text_color fw-semibold mb-0">Ye Aung</h5>
-						<p>Corporate Domestic Banking</p>
+						<p class="fw-semibold">Corporate Domestic Banking</p>
 						<p class="mb-10 bio_detail">Ye Aung embarked on his banking career with an entry-level position in AYA Bank in 2012. Together with his strong devotion to duty, extensive upskilling and AYA Bank’s development programs prepared him for the next step in his career journey.</p>
 						<p class="py-1">“Since becoming part of AYA Bank, I have been promoted to team leader role at the Business Unit Department. I’ve received a huge amount of support and training from the business, and I am really enjoying the new challenge. I continue to learn something new every day as the role and business evolve.”</p>
 						<p>In his current role as Head of Corporate Domestic Banking, he is responsible for managing local corporate businesses that involves commercial growth in terms of the loan book, customer base and income for the Bank’s corporate targets. </p>
