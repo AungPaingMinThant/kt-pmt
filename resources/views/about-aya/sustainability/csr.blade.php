@@ -208,7 +208,7 @@
 										<table class="table table-borderless">
 											<tr>
 												<td class="aspects-icon-td py-2">
-													<img src="{{ url('/images/about-aya/sustainability/corporate-social-responsibility/Emotional_Well_Being.webp') }}" class="img-fluid aspects-icon">
+													<img src="{{ url('/images/about-aya/sustainability/corporate-social-responsibility/csr_digital_ethics_icon.webp') }}" class="img-fluid aspects-icon">
 												</td>
 												<td valign="middle">
 													<p class="aspects-dec">
@@ -218,7 +218,7 @@
 											</tr>
 											<tr>
 												<td class="aspects-icon-td py-2">
-													<img src="{{ url('/images/about-aya/sustainability/corporate-social-responsibility/Physical_Well_Being.webp') }}" class="img-fluid aspects-icon">
+													<img src="{{ url('/images/about-aya/sustainability/corporate-social-responsibility/csr_digital_stewardship_icon.webp') }}" class="img-fluid aspects-icon">
 												</td>
 												<td valign="middle">
 													<p class="aspects-dec">
@@ -228,7 +228,7 @@
 											</tr>
 											<tr>
 												<td class="aspects-icon-td py-2">
-													<img src="{{ url('/images/about-aya/sustainability/corporate-social-responsibility/Workplace_Well_Being.webp') }}" class="img-fluid aspects-icon">
+													<img src="{{ url('/images/about-aya/sustainability/corporate-social-responsibility/csr_digital_transparency_icon.webp') }}" class="img-fluid aspects-icon">
 												</td>
 												<td valign="middle">
 													<p class="aspects-dec">
@@ -238,7 +238,7 @@
 											</tr>
 											<tr>
 												<td class="aspects-icon-td py-2">
-													<img src="{{ url('/images/about-aya/sustainability/corporate-social-responsibility/Social_Well_Being.webp') }}" class="img-fluid aspects-icon">
+													<img src="{{ url('/images/about-aya/sustainability/corporate-social-responsibility/csr_data_empowerment_icon.webp') }}" class="img-fluid aspects-icon">
 												</td>
 												<td valign="middle">
 													<p class="aspects-dec">
