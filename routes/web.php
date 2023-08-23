@@ -258,8 +258,8 @@ Route::get('/about-aya/sustainability/our-commitment','App\Http\Controllers\Abou
 Route::get('/about-aya/sustainability/our-approach/social-sustainability','App\Http\Controllers\AboutAYA\SustainabilityController@socialSustainabilityIndex');
 Route::get('/about-aya/sustainability/our-approach/environmental-sustainability','App\Http\Controllers\AboutAYA\SustainabilityController@environmentalSustainabilityIndex');
 Route::get('/about-aya/sustainability/our-approach/economic-sustainability','App\Http\Controllers\AboutAYA\SustainabilityController@economicSustainabilityIndex');
-
 Route::get('/about-aya/sustainability/our-commitment/ungc-compliance','App\Http\Controllers\AboutAYA\SustainabilityController@UNGCIndex');
+Route::get('/about-aya/sustainability/corporate-social-responsibility','App\Http\Controllers\AboutAYA\SustainabilityController@CSRIndex');
 
 Route::get('/contact-us','App\Http\Controllers\ContactController@index');
 

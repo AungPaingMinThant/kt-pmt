@@ -106,12 +106,6 @@
 .combating_air_pollution_desc {
 	margin-left: -40px;
 }
-/*.drop-cap::first-letter {
-	-webkit-initial-letter: 2;
-	      initial-letter: 2;
-	font-weight: bold;
-	margin-right: .75em;
-}*/
 .drop-cap:first-letter {
 	float: left;
 	font-size: 3rem;
@@ -138,7 +132,6 @@
 }
 .accordion-button.collapsed {
     background-color: #fff !important;
-/*    border-top: 1px solid #acacac;*/
     border-bottom: 1px solid #d2d2d7;
     padding: 20px 50px 20px 0px !important;
 }
@@ -183,7 +176,6 @@
     transform: rotate(180deg) !important;
     transition: transform 0.2s ease-in-out;
 }
-
 .update_date_div {
 	background: rgb(245,245,245);
 	background: radial-gradient(circle, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 100%);

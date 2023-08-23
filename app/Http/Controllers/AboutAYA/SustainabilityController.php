@@ -31,4 +31,9 @@ class SustainabilityController extends Controller
     {
         return view('about-aya.sustainability.ungc-compliance');
     }
+
+    public function CSRIndex()
+    {
+        return view('about-aya.sustainability.csr');
+    }
 }

@@ -648,15 +648,15 @@
 														<p class="fw-bold">
 															CAREER
 														</p>
+														<p class="m-b-5">
+															<a href="{{url('/about-aya/career/life-at-aya')}}">Life At AYA</a>
+														</p>
 														<!-- <p class="m-b-5">
-															<span>Life at AYA</span>
-														</p>
-														<p class="m-b-5">
 															<span>AYA Culture</span>
-														</p>
-														<p class="m-b-5">
-															<a href="https://saltnpixel.com/AYABank/AYABank_Employee_Development.html" target="_blank">Employee Development</a>
 														</p> -->
+														<p class="m-b-5">
+															<a href="{{url('/about-aya/career/employee-development')}}">Employee Development</a>
+														</p>
 														<p class="m-b-5">
 															<a href="{{url('/about-aya/career/career-opportunities')}}">Career Opportunities</a>
 														</p>
@@ -1417,21 +1417,21 @@
 						<div class="row menu-link about-aya-menu-career-link">
 							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CAREER</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<!-- <li>
+								<li>
 									<p class="dropdown-item m-b-5 mt-2">
-										<span >Life at AYA</span>
+										<a href="{{ url('/about-aya/career/life-at-aya') }}">Life at AYA</a>
 									</p>
 								</li>
-								<li>
+								<!-- <li>
 									<p class="dropdown-item m-b-5">
 										<span >AYA Culture</span>
 									</p>
-								</li>
+								</li> -->
 								<li>
 									<p class="dropdown-item m-b-5">
-										<a href="https://saltnpixel.com/AYABank/AYABank_Employee_Development.html" target="_blank">Employee Development</a>
+										<a href="{{ url('/about-aya/career/employee-development') }}">Employee Development</a>
 									</p>
-								</li> -->
+								</li>
 								<li>
 									<p class="dropdown-item mb-20">
 										<a href="{{ url('/about-aya/career/career-opportunities') }}">Career Opportunities</a>

@@ -1,6 +1,6 @@
 @extends('layouts.frontend-app')
 
-@section('title', 'Our Approach – AYA Bank')
+@section('title', 'Sustainability – AYA Bank')
 <link rel="stylesheet" href="{{ url('/css/site-map.css') }}" />
 
 @section('content')
@@ -14,14 +14,19 @@
 
                 <div class="container y-4">
                     <div class="row">
-                        <div class="col-md-4 px-3">
+                        <div class="col-md-3 px-3">
                             <p>
                                 <a class="f-body-color" href="{{ url('/about-aya/sustainability/our-commitment') }}">Our Commitment <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
                         </div>
-                        <div class="col-md-4 px-3">
+                        <div class="col-md-3 px-3">
                             <p>
                                 <a class="f-body-color" href="{{ url('/about-aya/sustainability/our-approach') }}">Our Approach <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                            </p>
+                        </div>
+                        <div class="col-md-3 px-3">
+                            <p>
+                                <a class="f-body-color" href="{{ url('/about-aya/sustainability/corporate-social-responsibility') }}">Corporate Social Responsibility <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
                         </div>
                     </div>

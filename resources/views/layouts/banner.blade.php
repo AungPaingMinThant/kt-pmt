@@ -3747,6 +3747,38 @@
 	</div>
 @endif
 
+@if($page == 'corporate_social_responsibility')
+	<div class="corporate_social_responsibility_banner banner_bg">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div class="corporate_social_responsibility_banner_tagline">
+						<h1 style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">Corporate Social Responsibility</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 30px;left: 20px;right:50%;">
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Corporate Social Responsibility</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/about-aya/') }}" style="color: #666;">ABOUT AYA</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/about-aya/sustainability') }}" style="color: #666;">SUSTAINABILITY</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #A5000B;">CORPORATE SOCIAL RESPONSIBILITY</span>
+			</p>
+		</div>
+	</div>
+@endif
+
 @if($page == 'aya_culture')
 	<div class="aya_culture_banner banner_bg">
 		<div class="container">
