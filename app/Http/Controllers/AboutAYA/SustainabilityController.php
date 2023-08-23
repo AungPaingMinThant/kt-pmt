@@ -4,6 +4,9 @@ namespace App\Http\Controllers\AboutAYA;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Category;
+use App\Models\Blog;
+use App\Models\BlogFile;
 
 class SustainabilityController extends Controller
 {
@@ -34,6 +37,12 @@ class SustainabilityController extends Controller
 
     public function CSRIndex()
     {
-        return view('about-aya.sustainability.csr');
+        $categories = Category::where('id','!=',9)->get();
+        $blog_list = Blog::where('blog_category',9)->orderBy('publish_date','desc')->where('status','0')->paginate(3);
+        $yearList = Blog::select('publish_year')->where('blog_category',9)->where('status','0')->groupBy('publish_year')->orderBy('publish_date','desc')->get();
+        return view('about-aya.sustainability.csr')->with('blog_list',$blog_list)
+                                                    ->with('yearList',$yearList)
+                                                    ->with('categories',$categories)
+                                                    ->with('news_year','');
     }
 }

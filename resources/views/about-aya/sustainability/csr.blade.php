@@ -364,11 +364,46 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="space-30"></div>
+			<div style="background-color: #fafcfc;">
+				<div class="space-30"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-6">
+							<h4 class="fw-bold">Recent Update</h4>
+						</div>
+						<div class="col-6 text-right">
+							<a class="theme_text_color float-end" href="{{ url('/about-aya/news-room/csr-news') }}"><h4 style="font-size: 14px !important;line-height: 34px;">View all&nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i></h4></a>
+						</div>
+					</div>
+					<div class="row">
+						@foreach($blog_list as $b_list)
+							<div class="news_blog col-md-4 mb-4">
+								<div class="row news_img_div" style="background-image: url('{{ url("/public/".$b_list->featured_image) }}')">
+									<!-- <img src="{{ url($b_list->featured_image) }}" class="img-fluid"> -->
+								</div>
+								<div class="news_content_div">
+									<div class="news_title_div">
+										<a href="{{ url('/about-aya/news-room/csr-news/'.$b_list->permalink) }}" class="news_title_link">
+											<p class="news_title">{!! html_entity_decode($b_list->blog_title) !!}</p>
+										</a>
+									</div>
+									<div class="news_desc_div">
+									    {!! html_entity_decode($b_list->blog_desc) !!}
+									</div>
+									<span class="news_date mb-0">{{ date('d M Y', strtotime($b_list->publish_date)) }}</span>
+								</div>
+							</div>
+						@endforeach
+					</div>
+				</div>
+				<div class="space-30"></div>
+			</div>
 		</div>
 	</div>
 </div>
 
-<div class="space-60"></div>
 @include('layouts.footer', ['page'=>''])
 
 
