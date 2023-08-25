@@ -296,7 +296,7 @@
 												<tr valign="middle">
 													<td colspan="2">
 														<p class="fw-semibold mb-10" style="font-size: 18px;">Royal Banking</p>
-														<p>Royal Banking</p>
+														<p>Novotel branch</p>
 													</td>
 												</tr>
 												<tr valign="middle">
