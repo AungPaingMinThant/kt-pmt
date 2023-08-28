@@ -15,13 +15,15 @@
 			@include('layouts.banner', ['page'=>'contact_us'])
 
 			<div style="">
-				<div class="d-none d-sm-block space-60"></div>
+				<div class="space-40"></div>
 
 				<div class="container">
 					<div class="row text-center">
 						<p class="contact_tag">Need an answer? <br>Get in touch with us through available channels</p>
 					</div>
 				</div>
+
+				<div class="d-none d-sm-block space-20"></div>
 				
 				<div class="container-tab">
 					<div class="tabs">
@@ -261,7 +263,8 @@
 													</td>
 													<td>
 														<p class="mb-10 fw-semibold">Call us</p>
-														<p class="mb-0"><a href="tel:+951252796">(95)-1-252796-252730 </a><span class="IR_ext">Ext : 228</span></p>
+														<p class="mb-0 d-none d-sm-block"><a href="tel:+951252796">(95)-1-252796-252730 </a><span class="IR_ext">Ext : 228</span></p>
+														<p class="mb-0 d-block d-sm-none"><a href="tel:+951252796">(95)-1-252796-252730 </a><br>Ext : 228</p>
 													</td>
 												</tr>
 												<tr valign="middle">
