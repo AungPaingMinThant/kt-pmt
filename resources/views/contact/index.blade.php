@@ -89,7 +89,7 @@
 										</table>
 									</div>
 
-									<p>AYA Bank hotline channel is the best way for our customers for enquiries, suggestions, feedbacks and requests. Our call center agents handle inbound (customer service and tech support) and outbound (marketing, surveys, and sales) calls. Customer interactions are handled over the phone and provides practical information and solution on products and services, card loss, mobile banking, bill payment, such as:</p>
+									<p>AYA Bank 24-hours hotline channel is the best way for our customers for enquiries, suggestions, feedbacks and requests. Our call center agents handle inbound (customer service and tech support) and outbound (marketing, surveys, and sales) calls. Customer interactions are handled over the phone and provides practical information and solution on products and services, card loss, mobile banking, bill payment, such as:</p>
 								</div>
 								<div class="row">
 									<div class="col-1 bullet_square_col">
@@ -170,7 +170,7 @@
 						<div class="tab-pane set-text-alert fade" id="navs-pills-top-visit_us" role="tabpanel" style="background: transparent;">
 							<div class="container section_1">
 								<div class="row">
-									<p class="mb-30">You can explore contact details for our main offices and branches where we operate by list below.</p>
+									<p class="mb-30">You can explore contact details for our main offices and branches where we operate.</p>
 									<p class="mb-30" style="color: #495a63;">Visit us in person to our head offices in Yangon and Naypyitaw.</p>
 									<div class="col-md-6 mb-30">
 										<table>
