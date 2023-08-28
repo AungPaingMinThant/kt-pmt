@@ -262,6 +262,7 @@ Route::get('/about-aya/sustainability/our-commitment/ungc-compliance','App\Http\
 Route::get('/about-aya/sustainability/corporate-social-responsibility','App\Http\Controllers\AboutAYA\SustainabilityController@CSRIndex');
 
 Route::get('/contact-us','App\Http\Controllers\ContactController@index');
+Route::get('/grievance-handling','App\Http\Controllers\GrievanceHandlingController@index');
 
 // Enquiry Form
 Route::get('/enquiry','App\Http\Controllers\EnquiryController@index');
