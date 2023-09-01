@@ -3089,7 +3089,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/about-aya/') }}" style="color: #666;">ABOUT AYA</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/about-aya/news-room') }}" style="color: #666;">NEWSROOM</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #A5000B;"><a class="theme_text_color" href="{{ url('/about-aya/news-room/corporate-news') }}">COROPRATE NEWS</a></span>
+				<span style="color: #A5000B;"><a class="theme_text_color" href="{{ url('/about-aya/news-room/corporate-news') }}">COROPORATE NEWS</a></span>
 			</p>
 		</div>
 	</div>

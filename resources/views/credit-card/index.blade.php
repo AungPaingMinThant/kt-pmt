@@ -451,7 +451,7 @@
 											</div>
 											<div class="col-md-6 fee_charge_inner_div">
 												<p class="fee_title">International Transaction Fees</p>
-												<p class="fee_desc mb-0">Fees 25% ~ 70%</p>
+												<p class="fee_desc mb-0">Fees 25% ~ 80%</p>
 												<p class="fee_desc">(Note * Fees are subject to change without prior notice)</p>
 											</div>
 										</div>
@@ -636,7 +636,7 @@
 										</div>
 										<div class="col-md-6 fee_charge_inner_div">
 											<p class="fee_title">International Transaction Fees</p>
-											<p class="fee_desc">Fees 25% ~ 70%</p>
+											<p class="fee_desc">Fees 25% ~ 80%</p>
 											<p class="fee_desc">(Note * Fees are subject to change without prior notice)</p>
 										</div>
 									</div>
@@ -823,97 +823,6 @@
 								<p style="margin-bottom:30px;">AYA Bank will only accept and agree to issue a secured credit card once it has received all necessary documentation and its internal checks have been completed to its satisfaction. AYA Bank reserves the right to reject an application. <span style="color: #A5000B;">Terms and Conditions apply.</span></p>
 							</div>
 						</div>
-						<!-- <div class="col-md-12 how_to_apply_desc">
-							<div class="row">
-								<h3 style="color: #1d1d1f;font-weight: 600;">Fees and Charges</h3>
-								<p style="color: #1d1d1f;margin-bottom: 30px;">Enjoy free issuing card fees for Secured Credit Card holder. <a class="secured_fee_charge" style="color: #1d1d1f;text-decoration: underline;cursor: pointer;">Click here to learn other fees and charges</a><i class="menu-icon tf-icons bx bx-chevron-up secured_fee_charge_chevron"></i></p>
-							</div>
-
-							<div class="row secured_fee_charge_div">
-								<div class="col-md-12">
-									<div class="row">
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Retail Interest</p>
-											<p class="fee_desc">10% Per Annum</p>
-										</div>
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Penalty Fee</p>
-											<p class="fee_desc">1% will be charge if full payment is not received by due date</p>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Late Fee</p>
-											<p class="fee_desc">2% will be charge if minimum payment has not been made by due date</p>
-										</div>
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Balance Enquiry Fee</p>
-											<p class="fee_desc">Free</p>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">PIN Reset/ Reissue Fee</p>
-											<p class="fee_desc">1,000 MMK</p>
-										</div>
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Card Reissue/ Renew Fees</p>
-											<p class="fee_desc">10,000 MMK</p>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Cash Withdraw Transactions Fees(Domestic - AYA ATM)</p>
-											<p class="fee_desc">6% of withdrawal amount (Per Transaction)</p>
-											<p class="fee_desc">(Minimum charges for each transaction is MMK 1,000)</p>
-										</div>
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Cash Withdraw Transactions Fees (Domestic - Other Bank ATM)</p>
-											<p class="fee_desc">6% + Other Bank Charges (Per Transaction)</p>
-											<p class="fee_desc">(Minimum charges for each transaction is MMK 1,000)</p>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Cash Withdraw Transactions Fees (International)</p>
-											<p class="fee_desc">6% + Oversea Bank Charges  (Per Transaction)</p>
-											<p class="fee_desc">(Minimum charges for each transaction is MMK 1,000)</p>
-										</div>
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">IPP Interest</p>
-											<p class="fee_desc">12% Per Annum</p>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Card Early Termination / Cancellation Fee</p>
-											<p class="fee_desc">Free</p>
-										</div>
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">International Transaction Fees</p>
-											<p class="fee_desc mb-0">Fees 25% ~ 70%</p>
-											<p class="fee_desc">(Note * Fees are subject to change without prior notice)</p>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">PIN Reset/ Reissue Fee</p>
-											<p class="fee_desc">1,000 MMK</p>
-										</div>
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">POS Transactions Fees</p>
-											<p class="fee_desc">Free</p>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-6 fee_charge_inner_div">
-											<p class="fee_title">Online Transaction Fees</p>
-											<p class="fee_desc">Free</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div> -->
 					</div>
 				</div>
 			</div>
