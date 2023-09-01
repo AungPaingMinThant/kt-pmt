@@ -744,7 +744,25 @@
 															<a href="{{ url('/about-aya/sustainability/our-commitment') }}" >Our Commitment</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/about-aya/sustainability/our-commitment/ungc-compliance') }}" target="_blank">UNGC Commitment</a>
+															<a href="{{ url('/about-aya/sustainability/our-approach/social-sustainability') }}" >Social Sustainability</a>
+														</p>
+														<p class="m-b-5">
+															<a href="{{ url('/about-aya/sustainability/our-approach/environmental-sustainability') }}" >Environmental Sustainability</a>
+														</p>
+														<p class="mb-30">
+															<a href="{{ url('/about-aya/sustainability/our-approach/economic-sustainability') }}" >Economic Sustainability</a>
+														</p>
+														<p class="m-b-5">
+															<a href="{{ url('/about-aya/sustainability/our-commitment/ungc-compliance') }}">UNGC Commitment</a>
+														</p>
+													</div>
+
+													<div class="col-md-5">
+														<p class="fw-bold">
+															<a>CORPORATE SOCIAL RESPONSIBILITY</a>
+														</p>
+														<p class="m-b-5">
+															<a href="{{ url('/about-aya/sustainability/corporate-social-responsibility') }}" >Corporate Social Responsibility</a>
 														</p>
 													</div>
 												</div>
@@ -1547,49 +1565,29 @@
 						<div class="row menu-link about-aya-menu-sustainability-link">
 							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SUSTAINABILITY</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<!-- <li>
-									<p class="dropdown-item fw-bold m-b-5 mt-2">
-										<a href="{{ url('/about-aya/sustainability') }}" >SUSTAINABILITY</a>
-									</p>
-								</li> -->
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
 										<a href="{{ url('/about-aya/sustainability/our-commitment') }}">Our Commitment</a>
 									</p>
 								</li>
 								<li>
-									<p class="dropdown-item mb-20">
+									<p class="dropdown-item m-b-5 mt-2">
+										<a href="{{ url('/about-aya/sustainability/our-approach/social-sustainability') }}">Social Sustainability</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 mt-2">
+										<a href="{{ url('/sustainability/our-approach/environmental-sustainability') }}">Environmental Sustainability</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-20 mt-2">
+										<a href="{{ url('/about-aya/sustainability/our-approach/economic-sustainability') }}">Economic Sustainability</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item mb-30">
 										<a href="{{ url('/about-aya/sustainability/our-commitment/ungc-compliance') }}">UNGC Commitment</a>
-									</p>
-								</li>
-								<!-- <li>
-									<p class="dropdown-item fw-bold m-b-5">
-										OUR APPROACH
-									</p>
-								</li>
-								<li>
-									<p class="dropdown-item m-b-5 m-l-20">
-										<span>Social Sustainability</span>
-									</p>
-								</li>
-								<li>
-									<p class="dropdown-item m-b-5 m-l-20">
-										<span>Environment Sustainability</span>
-									</p>
-								</li>
-								<li>
-									<p class="dropdown-item mb-20 m-l-20">
-										<span>Economic Sustainability</span>
-									</p>
-								</li>
-								<li>
-									<p class="dropdown-item fw-bold m-b-5">
-										AVENUE TO SUSTAIN
-									</p>
-								</li>
-								<li>
-									<p class="dropdown-item mb-20 m-l-20">
-										<span>Non-financial performance</span>
 									</p>
 								</li>
 								<li>
@@ -1599,9 +1597,9 @@
 								</li>
 								<li>
 									<p class="dropdown-item mb-20 m-l-20">
-										<span>Corporate Social Responsibility</span>
+										<a href="{{ url('/about-aya/sustainability/corporate-social-responsibility') }}">Corporate Social Responsibility</a>
 									</p>
-								</li> -->
+								</li>
 							</ul>
 						</div>
 						<div class="row menu-link about-aya-menu-newsroom-link">

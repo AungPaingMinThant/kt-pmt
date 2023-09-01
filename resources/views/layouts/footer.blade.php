@@ -92,6 +92,11 @@
                 <a class="footer_first_link_a" href="{{url('/about-aya/who-we-are/leadership/meet-our-leaders')}}"><p class="footer_first_link">Meet Our Leaders</p></a>
                 <a class="footer_first_link_a" href="{{url('/about-aya/who-we-are/our-strategies/corporate-strategy')}}"><p class="footer_first_link">Corporate Strategy</p></a>
                 <a class="footer_first_link_a" href="{{url('/about-aya/news-room/reports')}}"><p class="footer_first_link">Reports</p></a>
+
+                <div class="space-30"></div>
+                <h3 class="footer_like_title">Help & Support</h3>
+                <a class="footer_first_link_a" href="{{url('/contact-us')}}"><p class="footer_first_link">Contact Us</p></a>
+                <a class="footer_first_link_a" href="{{url('/grievance-handling')}}"><p class="footer_first_link">Grievance Handling</p></a>
             </div>
             <div class="col-md-3 col-xs-12" style="padding-bottom: 20px;padding-top: -10px;">
                 <h3 class="footer_like_title">Recommend for you</h3>
