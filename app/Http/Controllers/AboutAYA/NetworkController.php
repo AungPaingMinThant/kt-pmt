@@ -43,7 +43,7 @@ class NetworkController extends Controller
                                                         ->with('total_branch',$total_branch)
                                                         ->with('pagi_page',$request['page']);
     }
-
+    
     public function FXIndex(Request $request)
     {
         $show_ent = $request->show_entries;
@@ -61,9 +61,62 @@ class NetworkController extends Controller
                                                         ->with('total_branch',$total_branch)
                                                         ->with('pagi_page',$request['page']);
     }
-
+    
     public function correspondentBankIndex()
     {
         return view('about-aya.network.correspondent-index');
     }
+
+    public function locationSearch(Request $request)
+    {
+        $search_value = $request->search_value;
+        $show_ent = $request->show_entries;
+
+        $branch_list = DB::table('stores')
+                                ->where('cat_id','2')
+                                ->where(function($query) use ($search_value) {
+                                    $query->where('name','like','%'.$search_value.'%')
+                                          ->orWhere('list_address','like','%'.$search_value.'%');
+                                })
+                                ->get();
+
+        $show_ent = 0;
+
+        $total_branch = DB::table('stores')->where('cat_id','2')->get();
+        
+        $arr['data']['message'] = 'Thank you so much for your feedback.';
+
+        $arr['data']['branch_list'] = $branch_list;
+        $arr['data']['show_ent'] = $show_ent;
+        $arr['data']['search_value'] = $search_value;
+
+        return $arr;
+    }
+
+    public function branchlocationSearch(Request $request)
+    {
+        $search_value = $request->search_value;
+        $show_ent = $request->show_entries;
+
+        $branch_list = DB::table('stores')
+                                ->where('cat_id','1')
+                                ->where(function($query) use ($search_value) {
+                                    $query->where('name','like','%'.$search_value.'%')
+                                          ->orWhere('list_address','like','%'.$search_value.'%');
+                                })
+                                ->get();
+
+        $show_ent = 0;
+
+        $total_branch = DB::table('stores')->where('cat_id','1')->get();
+        
+        $arr['data']['message'] = 'Thank you so much for your feedback.';
+
+        $arr['data']['branch_list'] = $branch_list;
+        $arr['data']['show_ent'] = $show_ent;
+        $arr['data']['search_value'] = $search_value;
+
+        return $arr;
+    }
+
 }

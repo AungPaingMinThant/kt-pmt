@@ -247,6 +247,9 @@ Route::any('/about-aya/network/branch-locations','App\Http\Controllers\AboutAYA\
 Route::any('/about-aya/network/atm-locations','App\Http\Controllers\AboutAYA\NetworkController@ATMIndex');
 Route::any('/about-aya/network/fx-counter-locations','App\Http\Controllers\AboutAYA\NetworkController@FXIndex');
 
+Route::post('/about-aya/network/atm-locations-search-value','App\Http\Controllers\AboutAYA\NetworkController@locationSearch');
+Route::post('/about-aya/network/branch-locations-search-value','App\Http\Controllers\AboutAYA\NetworkController@branchlocationSearch');
+
 Route::any('/about-aya/network/correspondent-bank','App\Http\Controllers\AboutAYA\NetworkController@correspondentBankIndex');
 
 Route::get('/about-aya/career/career-opportunities','App\Http\Controllers\AboutAYA\CareerController@careerOpportunitiesIndex');

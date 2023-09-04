@@ -576,8 +576,8 @@
 											<div class="row menu-link about-aya-menu-newsroom-link">
 												<span>NEWSROOM</span>
 											</div>
-											<div class="row menu-link">
-												<span class="other-menu">&nbsp;</span>
+											<div class="row menu-link about-aya-menu-network-link">
+												<span class="other-menu">NETWORK</span>
 											</div>
 
 											<div class="space-60"></div>
@@ -791,23 +791,23 @@
 													</div>
 												</div>
 											</div>
-											<div class="about-aya-menu-links about-aya-network-menu d-none">
+											<div class="about-aya-menu-links about-aya-network-menu">
 												<div class="row">
 													<div class="col-md-5">
 														<p class="fw-bold">
 															NETWORK
 														</p>
-														<p class="m-b-5">
+														<!-- <p class="m-b-5">
 															<span>Correspondent Banks</span>
+														</p> -->
+														<p class="m-b-5">
+															<a href="{{ url('/about-aya/network/branch-locations') }}">Branch Locations</a>
 														</p>
 														<p class="m-b-5">
-															<span>Branch Locations</span>
+															<a href="{{ url('/about-aya/network/fx-counter-locations') }}">FX Counter Locations</a>
 														</p>
 														<p class="m-b-5">
-															<span>FX Locations</span>
-														</p>
-														<p class="m-b-5">
-															<span>ATM Locations</span>
+															<a href="{{ url('/about-aya/network/atm-locations') }}">ATM Locations</a>
 														</p>
 													</div>
 												</div>
@@ -1632,27 +1632,27 @@
 								</li>
 							</ul>
 						</div>
-						<div class="d-none row menu-link about-aya-menu-network-link">
+						<div class="row menu-link about-aya-menu-network-link">
 							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">NETWORK</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li>
+								<!-- <li>
 									<p class="dropdown-item m-b-5 mt-2">
 										<span>Correspondent Banks</span>
 									</p>
-								</li>
+								</li> -->
 								<li>
-									<p class="dropdown-item m-b-5">
-										<span>Branch Locations</span>
+									<p class="dropdown-item m-b-5 mt-2">
+										<a href="{{ url('/about-aya/network/branch-locations') }}">Branch Locations</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5">
-										<span>FX Locations</span>
+										<a href="{{ url('/about-aya/network/fx-counter-locations') }}">FX Counter Locations</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item mb-20">
-										<span>ATM Locations</span>
+										<a href="{{ url('/about-aya/network/atm-locations') }}">ATM Locations</a>
 									</p>
 								</li>
 							</ul>

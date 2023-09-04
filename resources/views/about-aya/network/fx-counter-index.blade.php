@@ -2,9 +2,11 @@
 
 @section('title', 'FX Counter Locations – AYA Bank')
 <link rel="stylesheet" href="{{ url('/css/slide_tab.css') }}" />
+<link rel="stylesheet" href="{{ url('/css/loader.css') }}" />
 <link rel="stylesheet" href="{{ url('/css/about-aya/locations.css') }}" />
 
 @section('content')
+<meta name="csrf-token" content="{{ csrf_token() }}">
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
 		<div class="layout-page">
@@ -54,7 +56,7 @@
 						<div class="tab-pane list_view fade show active" id="navs-pills-top-list" role="tabpanel" style="background: transparent;padding-bottom: 30px;">
 							<div class="container section_1">
 								<div class="row tab_data_row">
-									<div class="table-responsive text-nowrap">
+									<div class="col-md-6">
 										<div class="input-group list_row_group">
 											<form action="{{ url('/about-aya/network/atm-locations') }}" method="POST" enctype="multipart/form-data" id="enquiry_form" style="width: 100%;display: contents;">
 												{{ csrf_field() }}
@@ -69,19 +71,31 @@
 													<option value="300" {{ $show_ent == '300' ? 'selected':'' }}>300</option>
 													<option value="400" {{ $show_ent == '400' ? 'selected':'' }}>400</option>
 													<option value="500" {{ $show_ent == '500' ? 'selected':'' }}>500</option>
+													<option value="0" {{ $show_ent == '0' ? 'selected':'' }} disabled>All</option>
 												</select>
 												<label class="input-group-text show_entries" for="show_entries">entries</label>
 											</form>
 										</div>
-										<table class="table table-borderless">
+									</div>
+									<div class="col-md-6">
+										<div class="input-group">
+											<label class="input-group-text show_entries" for="show_entries">Near By</label>
+											<div class="input-group input-group-merge location_search_div">
+						                        <span class="input-group-text" id="basic-addon-search31"><i class="bx bx-search"></i></span>
+						                        <input type="text" class="form-control" name="search_value" id="search_value" placeholder="Search..." aria-label="Search..." aria-describedby="basic-addon-search31" />
+						                    </div>
+										</div>
+									</div>
+									<div class="table-responsive text-nowrap location_table_html">
+										<table class="table table-borderless location_table org_table">
 											<thead>
 												<tr valign="middle">
-													<td class="py-3" style="font-size: 12px;width: 0%;background-color: #f8fa4f;">No</td>
-													<td class="py-3 f-white" style="font-size: 12px;width: 4%;background-color: #fbb831;">Region</td>
-													<td class="py-3 f-white" style="font-size: 12px;width: 4%;background-color: #fb7e1c;">City</td>
-													<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #f04223;">Branch / Location</td>
-													<td class="py-3 f-white" style="font-size: 12px;width: 16%;background-color: #bc1e6a;">Address</td>
-													<td class="py-3 f-white" style="font-size: 12px;width: 8%;background-color: #217e8e;">Business Hours</td>
+													<td class="py-3" style="font-size: 12px;width: 1%;background-color: #f8fa4f;text-align: center;">No</td>
+													<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #fbb831;">Region</td>
+													<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #fb7e1c;">City</td>
+													<td class="py-3 f-white" style="font-size: 12px;width: 14%;background-color: #f04223;">Branch / Location</td>
+													<td class="py-3 f-white" style="font-size: 12px;width: 25%;background-color: #bc1e6a;">Address</td>
+													<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #217e8e;">Business Hours</td>
 												</tr>
 											</thead>
 											<tbody class="table-border-bottom-0" style="background-color: #f5f5f5;">
@@ -92,10 +106,12 @@
 													} else {
 														$bl_count = ($p_page * $show_ent) + 1;
 													}
+													$first_bl_count = $bl_count;
+													$last_bl_count;
 												?>
 												@foreach($branch_list as $bl)
 													<tr valign="top">
-														<td style="font-size: 12px;">{{ $bl_count }}</td>
+														<td style="font-size: 12px;text-align: center;">{{ $bl_count }}</td>
 														<td style="font-size: 12px;">{{ $bl->region }}</td>
 														<td style="font-size: 12px;">{{ $bl->township }}</td>
 														<td style="font-size: 12px;">{{ $bl->name }}</td>
@@ -104,15 +120,21 @@
 													</tr>
 													@php
 														$bl_count = $bl_count + 1;
+														$last_bl_count = $bl_count - 1;
 													@endphp
 												@endforeach
 											</tbody>
 										</table>
+										<div class="d-none location_loader">
+											<div class="loader_upper"></div>
+											<div class="lds-dual-ring"></div>
+											<div class="loader_lower"></div>
+										</div>
 									</div>
 									<div class="col-md-12">
 										<div class="row">
-											<div class="col-md-4">
-												<p>Showing 1 to {{ $show_ent }} of {{ count($total_branch) }} entries</p>
+											<div class="col-md-4 entries_count_col">
+												<p>Showing <span class="first_bl_count">{{$first_bl_count}}</span> to <span class="last_bl_count">{{ $last_bl_count }}</span> of <span class="total_branch">{{ count($total_branch) }}</span> entries</p>
 											</div>
 											<div class="col-md-8">
 												{{ $branch_list->appends(request()->input())->links(); }}
@@ -144,6 +166,65 @@
 	$("#radio-2").click(function(){
 		$("#emt_tab").click();
 	});
+
+	var _changeInterval = null;
+
+	$("#search_value").keyup(function() {
+	    $(".location_table").addClass('d-none');
+	    $(".location_loader").removeClass('d-none');
+	    _changeInterval = setInterval(function() {
+	        locationSearch();
+	    }, 5000);
+
+	});
+
+	function locationSearch() {
+		var search_value = $("#search_value").val();
+		var show_entries = $("#show_entries").val();
+		var location_table_html;
+
+		$.ajax({
+            type:'POST',
+            url:"{{ url('/about-aya/network/branch-locations-search-value')}}",
+            headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+            data:{search_value:search_value,show_entries:show_entries},
+            success:function(data){
+                location_table_html = '<table class="table table-borderless location_table">'+
+											'<thead>'+
+												'<tr valign="middle">'+
+													'<td class="py-3" style="font-size: 12px;width: 1%;background-color: #f8fa4f;text-align: center;">No</td>'+
+													'<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #fbb831;">Region</td>'+
+													'<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #fb7e1c;">City</td>'+
+													'<td class="py-3 f-white" style="font-size: 12px;width: 14%;background-color: #f04223;">Branch / Location</td>'+
+													'<td class="py-3 f-white" style="font-size: 12px;width: 25%;background-color: #bc1e6a;">Address</td>'+
+													'<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #217e8e;">Business Hours</td>'+
+												'</tr>'+
+											'</thead>'+
+											'<tbody class="table-border-bottom-0" style="background-color: #f5f5f5;">';
+												for (var blist = 0; blist < data['data']['branch_list'].length; blist++) {
+													location_table_html += 	'<tr valign="top">'+
+																				'<td style="font-size: 12px;text-align: center;">'+ (blist + 1) +'</td>'+
+																				'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['region']+'</td>'+
+																				'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['township']+'</td>'+
+																				'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['name']+'</td>'+
+																				'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['list_address']+'</td>'+
+																				'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['openinghour']+'</td>'+
+																			'</tr>';
+												}
+													
+												
+											location_table_html +='</tbody>'+
+										'</table>';
+
+				$(".location_table_html").html(location_table_html);
+				$("#show_entries").val('0');
+				$(".pagination").addClass('d-none');
+				$(".first_bl_count").text('1');
+				$(".last_bl_count").text(data['data']['branch_list'].length);
+				$(".total_branch").text(data['data']['branch_list'].length);
+            }
+        });
+	}
 </script>
 
 @endsection('content')
