@@ -210,7 +210,7 @@
 																				'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['name']+'</td>'+
 																				'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['list_address']+'</td>'+
 																				'<td style="font-size: 12px;">'+ data['data']['branch_list'][blist]['telephone'].replace(",", ", ")+'</td>'+
-																				'<td style="font-size: 12px;">'+ data['data']['branch_list'][blist]['fax'].replace(",", ", ")+'</td>'+
+																				'<td style="font-size: 12px;">'+ data['data']['branch_list'][blist]['fax']+'</td>'+
 																			'</tr>';
 												}
 													
