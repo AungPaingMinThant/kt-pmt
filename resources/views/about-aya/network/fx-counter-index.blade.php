@@ -174,6 +174,7 @@
 	    $(".location_loader").removeClass('d-none');
 	    _changeInterval = setInterval(function() {
 	        locationSearch();
+	        clearInterval(_changeInterval);
 	    }, 5000);
 
 	});
@@ -182,7 +183,7 @@
 		var search_value = $("#search_value").val();
 		var show_entries = $("#show_entries").val();
 		var location_table_html;
-
+		clearInterval(_changeInterval);
 		$.ajax({
             type:'POST',
             url:"{{ url('/about-aya/network/branch-locations-search-value')}}",
