@@ -34,6 +34,9 @@
 #button-addon2{
 	border: 1px solid #d9dee3;
 }
+#search_value:focus-within {
+/*	border-right: 1px solid #d9dee3 !important;*/
+}
 @media (max-width: 1400px) and (min-width: 1301px) {
    	.location_search_div {
 	    width: 83% !important;

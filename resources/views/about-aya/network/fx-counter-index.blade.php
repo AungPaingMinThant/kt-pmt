@@ -177,7 +177,7 @@
 	    $(".location_loader").removeClass('d-none');
 		$.ajax({
             type:'POST',
-            url:"{{ url('/about-aya/network/branch-locations-search-value')}}",
+            url:"{{ url('/about-aya/network/fx-locations-search-value')}}",
             headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
             data:{search_value:search_value,show_entries:show_entries},
             success:function(data){

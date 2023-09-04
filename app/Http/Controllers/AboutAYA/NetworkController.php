@@ -119,4 +119,30 @@ class NetworkController extends Controller
         return $arr;
     }
 
+    public function FXSearch(Request $request)
+    {
+        $search_value = $request->search_value;
+        $show_ent = $request->show_entries;
+
+        $branch_list = DB::table('stores')
+                                ->where('cat_id','3')
+                                ->where(function($query) use ($search_value) {
+                                    $query->where('name','like','%'.$search_value.'%')
+                                          ->orWhere('list_address','like','%'.$search_value.'%');
+                                })
+                                ->get();
+
+        $show_ent = 0;
+
+        $total_branch = DB::table('stores')->where('cat_id','3')->get();
+        
+        $arr['data']['message'] = 'Thank you so much for your feedback.';
+
+        $arr['data']['branch_list'] = $branch_list;
+        $arr['data']['show_ent'] = $show_ent;
+        $arr['data']['search_value'] = $search_value;
+
+        return $arr;
+    }
+
 }

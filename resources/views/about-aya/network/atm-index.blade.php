@@ -92,7 +92,7 @@
 													<td class="py-3" style="font-size: 12px;width: 1%;background-color: #f8fa4f;">No</td>
 													<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #fbb831;">Region</td>
 													<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #fb7e1c;">Township</td>
-													<td class="py-3 f-white" style="font-size: 12px;width: 14%;background-color: #f04223;">Location Names</td>
+													<td class="py-3 f-white" style="font-size: 12px;width: 14%;background-color: #f04223;">Location / Branch</td>
 													<td class="py-3 f-white" style="font-size: 12px;width: 25%;background-color: #bc1e6a;">Address</td>
 												</tr>
 											</thead>
@@ -187,7 +187,7 @@
 													'<td class="py-3" style="font-size: 12px;width: 1%;background-color: #f8fa4f;">No</td>'+
 													'<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #fbb831;">Region</td>'+
 													'<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #fb7e1c;">Township</td>'+
-													'<td class="py-3 f-white" style="font-size: 12px;width: 14%;background-color: #f04223;">Location Names</td>'+
+													'<td class="py-3 f-white" style="font-size: 12px;width: 14%;background-color: #f04223;">Location / Branch</td>'+
 													'<td class="py-3 f-white" style="font-size: 12px;width: 25%;background-color: #bc1e6a;">Address</td>'+
 												'</tr>'+
 											'</thead>'+
