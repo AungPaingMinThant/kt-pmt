@@ -58,7 +58,7 @@
 								<div class="row tab_data_row">
 									<div class="col-md-6">
 										<div class="input-group list_row_group">
-											<form action="{{ url('/about-aya/network/atm-locations') }}" method="POST" enctype="multipart/form-data" id="enquiry_form" style="width: 100%;display: contents;">
+											<form action="{{ url('/about-aya/network/fx-counter-locations') }}" method="POST" enctype="multipart/form-data" id="enquiry_form" style="width: 100%;display: contents;">
 												{{ csrf_field() }}
 												<label class="input-group-text show_entries" for="show_entries">Show</label>
 												<select class="form-select" id="show_entries" name="show_entries" onchange="this.form.submit();">
