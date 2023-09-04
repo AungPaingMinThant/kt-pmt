@@ -77,11 +77,12 @@
 									</div>
 									<div class="col-md-6">
 										<div class="input-group">
-											<!-- <label class="input-group-text show_entries" for="show_entries">Near By</label>
+											<label class="input-group-text show_entries" for="show_entries">Near By</label>
 											<div class="input-group input-group-merge location_search_div">
 						                        <span class="input-group-text" id="basic-addon-search31"><i class="bx bx-search"></i></span>
-						                        <input type="text" class="form-control" name="search_value" id="search_value" placeholder="Search..." aria-label="Search..." aria-describedby="basic-addon-search31" />
-						                    </div> -->
+						                        <input type="text" class="form-control" name="search_value" id="search_value" placeholder="Search..." aria-label="Search..." aria-describedby="button-addon2" />
+						                        <button class="btn btn-outline-primary" type="button" id="button-addon2">Locate</button>
+						                    </div>
 										</div>
 									</div>
 									<div class="table-responsive text-nowrap location_table_html">										
@@ -168,24 +169,14 @@
 	$("#radio-2").click(function(){
 		$("#emt_tab").click();
 	});
-
-	var _changeInterval = null;
-
-	$("#search_value").keyup(function() {
-	    $(".location_table").addClass('d-none');
-	    $(".location_loader").removeClass('d-none');
-	    _changeInterval = setInterval(function() {
-	        locationSearch();
-	        clearInterval(_changeInterval);
-	    }, 5000);
-
-	});
-
-	function locationSearch() {
+	
+	$("#button-addon2").click(function(){
 		var search_value = $("#search_value").val();
 		var show_entries = $("#show_entries").val();
 		var location_table_html;
-		clearInterval(_changeInterval);
+
+    	$(".location_table").addClass('d-none');
+	    $(".location_loader").removeClass('d-none');
 
 		$.ajax({
             type:'POST',
@@ -228,7 +219,7 @@
 				$(".total_branch").text(data['data']['branch_list'].length);
             }
         });
-	}
+	});
 </script>
 
 @endsection('content')

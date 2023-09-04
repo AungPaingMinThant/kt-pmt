@@ -31,6 +31,9 @@
 .location_search_div {
 	width: 86% !important;
 }
+#button-addon2{
+	border: 1px solid #d9dee3;
+}
 @media (max-width: 1400px) and (min-width: 1301px) {
    	.location_search_div {
 	    width: 83% !important;
