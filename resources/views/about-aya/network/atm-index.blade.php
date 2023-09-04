@@ -77,11 +77,11 @@
 									</div>
 									<div class="col-md-6">
 										<div class="input-group">
-											<label class="input-group-text show_entries" for="show_entries">Near By</label>
+											<!-- <label class="input-group-text show_entries" for="show_entries">Near By</label>
 											<div class="input-group input-group-merge location_search_div">
 						                        <span class="input-group-text" id="basic-addon-search31"><i class="bx bx-search"></i></span>
 						                        <input type="text" class="form-control" name="search_value" id="search_value" placeholder="Search..." aria-label="Search..." aria-describedby="basic-addon-search31" />
-						                    </div>
+						                    </div> -->
 										</div>
 									</div>
 									<div class="table-responsive text-nowrap location_table_html">										
