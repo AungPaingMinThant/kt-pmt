@@ -12,27 +12,51 @@
             <div>
                 @include('sitemap.sitemap-header', ['header_title'=>'Network', 'page'=>'who_we_are'])
 
-                <div class="container y-4">
+                <div class="container">
                     <div class="row">
-                        <div class="col-md-3 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/about-aya/network/branch-locations') }}">Branch Locations <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/about-aya/network/branch-locations/mobile_KV.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Branch Locations</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/about-aya/network/branch-locations') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-3 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/about-aya/network/atm-locations') }}">ATM Locations <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/about-aya/network/atm-locations/mobile_KV.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">ATM Locations</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/about-aya/network/atm-locations') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-3 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/about-aya/network/fx-counter-locations') }}">FX Counter Locations <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/about-aya/network/fx-locations/mobile_KV.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">FX Counter Locations</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/about-aya/network/fx-counter-locations') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-3 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/about-aya/network/correspondent-bank') }}">Correspondent Bank <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/about-aya/network/correspondent-bank/mobile_KV.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Correspondent Bank</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/about-aya/network/correspondent-bank') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

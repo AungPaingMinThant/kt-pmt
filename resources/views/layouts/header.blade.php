@@ -729,7 +729,7 @@
 															<a href="{{ url('/about-aya/governance/corporate-policies#finance_dealings') }}">Finance Dealings</a>
 														</p>
 														<p class="mb-20">
-															<a href="{{ url('/about-aya/governance/corporate-policies#privacy_policy') }}">Privacy Policy</a>
+															<a href="{{ url('/about-aya/governance/corporate-policies#privacy_policy') }}">Digital Channels</a>
 														</p>
 													</div>
 												</div>
@@ -1557,7 +1557,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item mb-20 m-l-20">
-										<a href="{{ url('/about-aya/governance/corporate-policies#privacy_policy') }}">Privacy Policy</a>
+										<a href="{{ url('/about-aya/governance/corporate-policies#privacy_policy') }}">Digital Channels</a>
 									</p>
 								</li>
 							</ul>

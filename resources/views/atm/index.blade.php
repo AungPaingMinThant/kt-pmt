@@ -23,7 +23,7 @@
 				@include('layouts.tagline', ['page'=>'atm'])
 			</div>
 
-			<div class="space-20"></div>
+			<!-- <div class="space-20"></div> -->
 
 			<!-- <div class="d-none d-sm-block">
 				<img src="{{ url('/images/atm/location_holder.jpg') }}" class="img-fluid">
@@ -31,11 +31,11 @@
 			<div class="d-block d-sm-none">
 				<img src="{{ url('/images/atm/location_holder_mobile.jpg') }}" class="img-fluid">
 			</div> -->
-			<div class="" style="width: 100%;padding: 0 !important;">
+		<!-- 	<div class="" style="width: 100%;padding: 0 !important;">
 				<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1TGQGlYgz_Y9HdOAuF7esdoZWtnSC9LI&ehbc=2E312F" style="height: 500px;padding: 0 !important;width: 100%;"></iframe>
-			</div>
+			</div> -->
 
-			<div class="space-60"></div>
+			<div class="space-40"></div>
 			<div class="container section_1">
 				<div class="row">
 					<div class="col-md-12">

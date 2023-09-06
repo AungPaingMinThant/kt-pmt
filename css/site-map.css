@@ -4,6 +4,13 @@
 .f-body-color:hover > i {
     animation: myAnim 1s ease 0s 1 normal forwards;
 }
+.sitemap_card {
+    border-radius: 5px !important;
+}
+.card-img-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
 @keyframes myAnim {
     0% {
         transform: translateX(0);
