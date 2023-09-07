@@ -14,25 +14,49 @@
 
                 <div class="container y-4">
                     <div class="row">
-                        <div class="col-md-3 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/about-aya/career/career-opportunities') }}">Career Opportunities <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/about-aya/career/career-opportunities/mobile_KV.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Career Opportunities</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/about-aya/career/career-opportunities') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-3 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/about-aya/career/aya-culture') }}">AYA Culture <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/about-aya/career/aya-culture/mobile_KV.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">AYA Culture</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/about-aya/career/aya-culture') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-3 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/about-aya/career/life-at-aya') }}">Life At AYA <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/about-aya/career/life-at-aya/mobile_KV.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Life At AYA</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/about-aya/career/life-at-aya') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-3 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/about-aya/career/employee-development') }}">Employee Development <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/about-aya/career/employee-development/mobile_KV.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Employee Development</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/about-aya/career/employee-development') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

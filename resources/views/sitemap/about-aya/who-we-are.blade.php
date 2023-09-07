@@ -14,36 +14,66 @@
 
                 <div class="container y-4">
                     <div class="row">
-                        <div class="col-md-3 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/about-aya/who-we-are/corporate-profile') }}">Corporate Profile <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/about-aya/corporate-profile/corporate-milestones/mobile_KV.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Corporate Profile</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/about-aya/who-we-are/corporate-profile') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                             <!-- <p>
                                 <a class="f-body-color" href="{{ url('/about-aya/who-we-are/corporate-profile/ayabank-profile') }}">AYA Bank Profile <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p> -->
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/about-aya/career/aya-culture/mobile_KV.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Leadership</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/about-aya/who-we-are/leadership') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                     </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-3 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/about-aya/who-we-are/leadership') }}">Leadership <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
                            <!--  <p>
                                 <a class="f-body-color" href="{{ url('/about-aya/who-we-are/corporate-profile/mission-corporate-value-brand-promise') }}">Mission, Corporate Values And Brand Value <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p> -->
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/about-aya/corporate-strategy/mobile_KV.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Our Strategies</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/about-aya/who-we-are/our-strategies') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-3 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/about-aya/who-we-are/our-strategies') }}">Our Strategies <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/about-aya/why-us/mobile_KV.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Why Us</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/about-aya/who-we-are/why-us') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-3 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/about-aya/who-we-are/why-us') }}">Why Us <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
-                        </div>
-                        <div class="col-md-3 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/about-aya/who-we-are/foreign-direct-investment') }}">Foreign Direct Investment <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/about-aya/who-we-are/foreign-direct-investment/mobile_KV.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Foreign Direct Investment</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/about-aya/who-we-are/foreign-direct-investment') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
