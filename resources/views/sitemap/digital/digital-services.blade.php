@@ -14,22 +14,60 @@
 
                 <div class="container y-4">
                     <div class="row">
-                        <div class="col-md-4 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/digital-services/online-payment-services') }}">ONLINE PAYMENT SERVICES <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
-                            <p>
-                                <a class="f-body-color" href="{{ url('/digital-services/card-services') }}">CARD SERVICES <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
-                            <p>
-                                <a class="f-body-color" href="{{ url('/digital-services/atm') }}">ATM <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
-                            <p>
-                                <a class="f-body-color" href="{{ url('/digital-services/wallet-solution') }}">WALLET SOLUTION <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
-                            <p>
-                                <a class="f-body-color" href="{{ url('/digital-services/guideline') }}">GUIDELINE <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>                            
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">ONLINE PAYMENT SERVICES</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/digital-services/online-payment-services') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">CARD SERVICES</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/digital-services/card-services') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/atm/mobile_KV.jpg') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">ATM</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/digital-services/atm') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">WALLET SOLUTION</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/digital-services/wallet-solution') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">GUIDELINE</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/digital-services/guideline') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

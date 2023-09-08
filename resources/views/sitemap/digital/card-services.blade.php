@@ -14,34 +14,68 @@
 
                 <div class="container y-4">
                     <div class="row">
-                        <div class="col-md-4 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/digital-services/card-services/merchant-services') }}">Merchant Services <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
-                            <p>
-                                <a class="f-body-color" href="{{ url('/digital-services/card-services/credit-card') }}">Credit Card <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Merchant Services</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/digital-services/card-services/merchant-services') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Credit Card</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/digital-services/card-services/credit-card') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                             <!-- <p class="px-3">
                                 <a class="f-body-color" href="{{ url('/digital-services/card-services/prepaid-card') }}">Prepaid Card <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p>
                             <p class="px-3">
                                 <a class="f-body-color" href="{{ url('/digital-services/card-services/simple-pay') }}">Simple Pay <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                             </p> -->
-                            
-                        </div>
-                        <div class="col-md-4 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/digital-services/card-services/prepaid-card') }}">Prepaid Card <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
-                            <p>
-                                <a class="f-body-color" href="{{ url('/digital-services/card-services/debit-card') }}">Debit Card <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>                           
-                        </div>
-                        <div class="col-md-4 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/digital-services/card-services/card-privilege') }}">Card Privilege <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>                           
-                        </div>
+                            <div class="col-md-4 px-3 mb-40">
+                                <div class="card h-100 sitemap_card">
+                                    <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Prepaid Card</h5>
+                                        <p class="card-text">
+                                            <a class="theme_text_color" href="{{ url('/digital-services/card-services/prepaid-card') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 px-3 mb-40">
+                                <div class="card h-100 sitemap_card">
+                                    <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Debit Card</h5>
+                                        <p class="card-text">
+                                            <a class="theme_text_color" href="{{ url('/digital-services/card-services/prepaid-card') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>                         
+                            <div class="col-md-4 px-3 mb-40">
+                                <div class="card h-100 sitemap_card">
+                                    <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card Privilege</h5>
+                                        <p class="card-text">
+                                            <a class="theme_text_color" href="{{ url('/digital-services/card-services/prepaid-card') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>     
                     </div>
                 </div>
             </div>

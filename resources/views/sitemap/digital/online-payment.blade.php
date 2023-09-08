@@ -14,20 +14,38 @@
 
                 <div class="container y-4">
                     <div class="row">
-                        <div class="col-md-4 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/digital-services/online-payment-services/internet-banking') }}"> Internet Banking<i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Internet Banking</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/digital-services/online-payment-services/internet-banking') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-4 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/digital-services/online-payment-services/mobile-banking') }}"> Mobile Banking<i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Mobile Banking</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/digital-services/online-payment-services/mobile-banking') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-4 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/digital-services/online-payment-services/corporate-internet-banking') }}">Corporate Internet Banking <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Corporate Internet Banking</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/digital-services/online-payment-services/corporate-internet-banking') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-4 px-3">
                             
