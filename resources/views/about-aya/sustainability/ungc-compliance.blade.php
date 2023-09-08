@@ -315,8 +315,9 @@
 				</div>
 
 				<div class="space-40"></div>
-				<div class="row text-center py-1 update_date_div">
-					<p class="mb-0" style="color: #333333;">Last Updated – June 2023</p>
+				<div class="row text-center py-1 ">
+					<!-- update_date_div -->
+					<p class="mb-0" style="color: #333333;font-size: 12px;font-style: italic;">Last Updated – June 2023</p>
 				</div>
 			</div>
 		</div>
