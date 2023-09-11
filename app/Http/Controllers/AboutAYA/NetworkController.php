@@ -13,12 +13,12 @@ class NetworkController extends Controller
         $show_ent = $request->show_entries;
         if($show_ent == '') {
             $show_ent = 20;
-            $branch_list = DB::table('stores')->where('cat_id','1')->paginate(20);
+            $branch_list = DB::table('stores')->where('cat_id','1')->orderBy('region','desc')->orderBy('township','desc')->paginate(20);
         } else {
             if ($show_ent == '0') {
-                $branch_list = DB::table('stores')->where('cat_id','1')->get();
+                $branch_list = DB::table('stores')->where('cat_id','1')->orderBy('region','desc')->orderBy('township','desc')->get();
             } else {
-                $branch_list = DB::table('stores')->where('cat_id','1')->paginate($show_ent);
+                $branch_list = DB::table('stores')->where('cat_id','1')->orderBy('region','desc')->orderBy('township','desc')->paginate($show_ent);
             }
         }
 
@@ -35,12 +35,12 @@ class NetworkController extends Controller
         $show_ent = $request->show_entries;
         if($show_ent == '') {
             $show_ent = 20;
-            $branch_list = DB::table('stores')->where('cat_id','2')->paginate(20);
+            $branch_list = DB::table('stores')->where('cat_id','2')->orderBy('region','desc')->orderBy('township','desc')->paginate(20);
         } else {
             if ($show_ent == '0') {
-                $branch_list = DB::table('stores')->where('cat_id','2')->get();
+                $branch_list = DB::table('stores')->where('cat_id','2')->orderBy('region','desc')->orderBy('township','desc')->get();
             } else {
-                $branch_list = DB::table('stores')->where('cat_id','2')->paginate($show_ent);
+                $branch_list = DB::table('stores')->where('cat_id','2')->orderBy('region','desc')->orderBy('township','desc')->paginate($show_ent);
             }
         }
 
@@ -57,12 +57,12 @@ class NetworkController extends Controller
         $show_ent = $request->show_entries;
         if($show_ent == '') {
             $show_ent = 20;
-            $branch_list = DB::table('stores')->where('cat_id','3')->paginate(20);
+            $branch_list = DB::table('stores')->where('cat_id','3')->orderBy('region','desc')->orderBy('township','desc')->paginate(20);
         } else {
             if ($show_ent == '0') {
-                $branch_list = DB::table('stores')->where('cat_id','3')->get();
+                $branch_list = DB::table('stores')->where('cat_id','3')->orderBy('region','desc')->orderBy('township','desc')->get();
             } else {
-                $branch_list = DB::table('stores')->where('cat_id','3')->paginate($show_ent);
+                $branch_list = DB::table('stores')->where('cat_id','3')->orderBy('region','desc')->orderBy('township','desc')->paginate($show_ent);
             }
         }
 
@@ -90,6 +90,7 @@ class NetworkController extends Controller
                                     $query->where('name','like','%'.$search_value.'%')
                                           ->orWhere('list_address','like','%'.$search_value.'%');
                                 })
+                                ->orderBy('region','desc')->orderBy('township','desc')
                                 ->get();
 
         $show_ent = 0;
@@ -116,6 +117,7 @@ class NetworkController extends Controller
                                     $query->where('name','like','%'.$search_value.'%')
                                           ->orWhere('list_address','like','%'.$search_value.'%');
                                 })
+                                ->orderBy('region','desc')->orderBy('township','desc')
                                 ->get();
 
         $show_ent = 0;
@@ -142,6 +144,7 @@ class NetworkController extends Controller
                                     $query->where('name','like','%'.$search_value.'%')
                                           ->orWhere('list_address','like','%'.$search_value.'%');
                                 })
+                                ->orderBy('region','desc')->orderBy('township','desc')
                                 ->get();
 
         $show_ent = 0;

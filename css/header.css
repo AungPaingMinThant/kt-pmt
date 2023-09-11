@@ -47,7 +47,7 @@
 }
 .personal-dropdown-content {
 	display: none;
-	position: absolute;
+	position: fixed;
 	background-color: #f6f6f6;
 	width: 100%;
 	left: 0;
@@ -212,7 +212,7 @@
 .dropdown-menu > li > p {
 	font-size: 13px !important;
 }
-@media (min-width: 1800px) {
+@media (min-width: 1700px) {
 	.personal-dropdown-content, .business-dropdown-content, .digital-dropdown-content, .about-aya-dropdown-content {
 		top: 14% !important;
 	}
