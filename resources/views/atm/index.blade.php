@@ -1209,6 +1209,18 @@
 							</ul>
 						</div>
 					</div>
+
+					<div class="space-20"></div>
+					<div class="row" style="background-color: #f2f2f2;padding: 20px 20px 20px 30px;border-radius: 5px;margin-left: 15px;margin-right: 15px;">
+						<div class="col-md-6 atm_cta_col">
+							<p style="font-weight: 600;font-size: 16px;display: table-cell;vertical-align: middle;">You can find ATM locations at</p>
+						</div>
+						<div class="col-md-6 text-right atm_cta_col">
+							<a href="{{ url('/about-aya/network/atm-locations') }}">
+								<button class="btn FAQ_button">ATM Locations</button>
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

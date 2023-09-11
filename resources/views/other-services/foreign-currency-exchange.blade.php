@@ -2,6 +2,24 @@
 
 @section('title', 'Foreign Currency Exchage – AYA Bank')
 <style type="text/css">
+	.fx_cta_col {
+		display: table;
+	}
+	.FAQ_button {
+	    background-color: #ae071d !important;
+	    color: #fff !important;
+	    font-weight: 500;
+	    padding: 15px 35px !important;
+	    border: 1px solid #ae071d !important;
+	    display: table-cell;
+	    vertical-align: middle;
+	    float: right;
+	}
+	.FAQ_button:hover {
+		background-color: #fff !important;
+	    color: #ae071d !important;
+	    border: 1px solid #ae071d !important;
+	}
     @media only screen and (max-width: 576px){
 	    .benefit_table {
 	    	zoom: 65%;
@@ -9,6 +27,13 @@
 	    .fx_other_services {
 	    	display: none !important;
 	    }
+	    .fx_cta_col {
+			text-align: center;
+		}
+		.FAQ_button {
+		    float: none;
+		    margin-top: 20px;
+		}
 	}
 </style>
 @section('content')
@@ -103,6 +128,22 @@
 							<p><a href="{{ url($other_rate->special_purpose) }}" class="theme_text_color text-decoration-underline" target="_blank">Click here to view</a> the amount of daily exchange</p>
 						</div>
 					</div>
+
+					<div class="space-20"></div>
+					<div class="col-md-12" style="background-color: #f2f2f2;padding: 20px 20px 20px 30px;border-radius: 5px;margin-left: 15px;margin-right: 15px;">
+						<div class="row">
+							<div class="col-md-6 fx_cta_col">
+								<p style="font-weight: 600;font-size: 16px;display: table-cell;vertical-align: middle;">You can find FX Counter Locations at</p>
+							</div>
+							<div class="col-md-6 text-right fx_cta_col">
+								<a href="{{ url('/about-aya/network/fx-counter-locations') }}">
+									<button class="btn FAQ_button">FX Counter Locations</button>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="space-20"></div>
+
 					<div class="col-md-12 mt-20">
 						<p class="disclaimer_title">Disclaimers</p>
 						<p style="color: #777777;font-size: 12px;">
@@ -111,39 +152,6 @@
 						</p>
 					</div>
 				</div>
-				<!-- <div class="space-20"></div>
-				<div class="row fx_other_services">
-					<div class="col-md-1">
-						<img src="{{ url('/images/other-services/foreign-currency-exchange/account_transfer_between_aya_foreign_currency_account.png') }}" class="img-fluid">
-					</div>
-					<div class="col-md-11 pt-10">
-						<p class="theme_text_color mb-0" style="font-size: 18px;">Account Transfer between AYA Foreign Currency Accounts (FCA)</p>
-						<p>Our FCA customers can move money between each other which minimize foreign exchange risk while maximizing payment efficiency in foreign currency.</p>
-					</div>
-					<div class="space-30"></div>
-					<div class="col-md-1">
-						<img src="{{ url('/images/other-services/foreign-currency-exchange/account_transfer_between_aya_fca_other_bank_fca.png') }}" class="img-fluid">
-					</div>
-					<div class="col-md-11 pt-10">
-						<p class="theme_text_color mb-0" style="font-size: 18px;">Account Transfer between AYA FCA and other banks’ FCA</p>
-						<p>Our FCA customers can do money transfers through chosen bank or receive from other banks for foreign currencies.</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="d-block d-sm-none">
-						<div class="col-12">
-							<img src="{{ url('/images/other-services/foreign-currency-exchange/account_transfer_between_aya_foreign_currency_account.png') }}" class="img-fluid w-20 mb-20">
-							<p class="theme_text_color mb-0" style="font-size: 18px;">Account Transfer between AYA Foreign Currency Accounts (FCA)</p>
-							<p>Our FCA customers can move money between each other which minimize foreign exchange risk while maximizing payment efficiency in foreign currency.</p>
-						</div>
-						<div class="space-30"></div>
-						<div class="col-12">
-							<img src="{{ url('/images/other-services/foreign-currency-exchange/account_transfer_between_aya_fca_other_bank_fca.png') }}" class="img-fluid w-20 mb-20">
-							<p class="theme_text_color mb-0" style="font-size: 18px;">Account Transfer between AYA FCA and other banks’ FCA</p>
-							<p>Our FCA customers can do money transfers through chosen bank or receive from other banks for foreign currencies.</p>
-						</div>
-					</div>
-				</div> -->
 
 				<div class="space-40"></div>
 				<div class="row">

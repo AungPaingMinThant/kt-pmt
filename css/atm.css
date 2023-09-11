@@ -212,6 +212,24 @@
 .services_overview_section {
     padding: 0px 100px;
 }
+.atm_cta_col {
+	display: table;
+}
+.FAQ_button {
+    background-color: #ae071d !important;
+    color: #fff !important;
+    font-weight: 500;
+    padding: 15px 35px !important;
+    border: 1px solid #ae071d !important;
+    display: table-cell;
+    vertical-align: middle;
+    float: right;
+}
+.FAQ_button:hover {
+	background-color: #fff !important;
+    color: #ae071d !important;
+    border: 1px solid #ae071d !important;
+}
 @media (max-width: 1300px) and (min-width: 1000px) {
 	.why_use_AYA_outer > .col-md-6 {
 		width: 47%;
@@ -275,5 +293,12 @@
 	}
 	.services_overview_section {
 	    padding: 0px 20px !important;
+	}
+	.atm_cta_col {
+		text-align: center;
+	}
+	.FAQ_button {
+	    float: none;
+	    margin-top: 20px;
 	}
 }
