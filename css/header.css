@@ -46,11 +46,11 @@
   opacity: 1;
 }
 .personal-banking-li {
-	position: relative;
+/*	position: relative;*/
 }
 .personal-dropdown-content {
 	display: none;
-	position: fixed;
+	position: absolute;
 	background-color: #f6f6f6;
 	width: 100%;
 	left: 0;
