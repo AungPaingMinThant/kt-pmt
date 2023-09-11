@@ -45,6 +45,9 @@
   color: #fff;
   opacity: 1;
 }
+.personal-banking-li {
+	position: relative;
+}
 .personal-dropdown-content {
 	display: none;
 	position: fixed;
@@ -214,7 +217,7 @@
 }
 @media (min-width: 1700px) {
 	.personal-dropdown-content, .business-dropdown-content, .digital-dropdown-content, .about-aya-dropdown-content {
-		top: 14% !important;
+		top: 18% !important;
 	}
 }
 @media (max-width: 1400px) and (min-width: 1301px) {
@@ -315,7 +318,7 @@
 	}
 }
 
-/*.alert-dropdown {
+.alert-dropdown {
 	top: 34% !important;
 }
 .alert-769-1179-dropdown {
@@ -331,5 +334,5 @@
 	top: 38% !important;
 }
 .alert-1601-dropdown {
-	top: 27% !important;
-}*/
+	top: 33% !important;
+}
