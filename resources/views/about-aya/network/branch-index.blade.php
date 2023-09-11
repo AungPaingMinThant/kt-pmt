@@ -140,7 +140,9 @@
 												<p>Showing <span class="first_bl_count">{{$first_bl_count}}</span> to <span class="last_bl_count">{{ $last_bl_count }}</span> of <span class="total_branch">{{ count($total_branch) }}</span> entries</p>
 											</div>
 											<div class="col-md-8">
-												{{ $branch_list->onEachSide(3)->appends(request()->input())->links(); }}
+												@if($show_ent != '0')
+													{{ $branch_list->onEachSide(3)->appends(request()->input())->links(); }}
+												@endif
 											</div>
 										</div>
 									</div>
@@ -169,6 +171,13 @@
 	$("#radio-2").click(function(){
 		$("#emt_tab").click();
 	});
+
+	document.addEventListener('keypress', (event)=>{
+		let keyCode = event.keyCode ? event.keyCode : event.which;
+		if(keyCode === 13) {
+			$("#button-addon2").click();
+		}
+   	});
 	
 	$("#button-addon2").click(function(){
 		var search_value = $("#search_value").val();

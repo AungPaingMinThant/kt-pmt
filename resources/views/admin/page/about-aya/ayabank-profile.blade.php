@@ -381,6 +381,7 @@
 								<div class="space-20"></div>
 								
 								<label for="image_break" class="col-md-2 col-form-label">Image</label>
+								<small class="theme_text_color">Image Size & format ( 1100 * 370 - webp )</small>
 								<input class="form-control" type="file" name="image_break" id="image_break" />
 								<input type="hidden" name="image_break_old" id="image_break_old" value="{{$page_data->image_break}}">
 
@@ -449,5 +450,11 @@
 	</div>
 
 	@include('layouts.admin-footer', ['page'=>''])
+
+	<script type="text/javascript">
+		$("#image_break").change(function() {
+			$("#image_break_old").val('');
+		});
+	</script>
 </body>
 </html>

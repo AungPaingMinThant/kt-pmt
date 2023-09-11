@@ -68,8 +68,8 @@
 					<div class="col-md-12">
 						<div class="mb-3 row">
 							<h4 for="desktop_banner_image" class="mb-0">Banner Section Update</h4>
-							<small class="theme_text_color">Desktop Banner Image ( 1920 * 500 )</small>
-							<small class="theme_text_color">Mobile Banner Image ( 767 * 500 )</small>
+							<small class="theme_text_color">Desktop Banner Image Size & Format ( 1920 * 500 - webp )</small>
+							<small class="theme_text_color">Mobile Banner Image Size & Format ( 767 * 500 - webp )</small>
 							<br><br>
 							<div class="col-md-12" style="margin-bottom: 10px;">
 								<label for="desktop_banner_image" class="col-md-2 col-form-label">Banner Image</label>

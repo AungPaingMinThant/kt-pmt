@@ -71,9 +71,13 @@
 													<option value="300" {{ $show_ent == '300' ? 'selected':'' }}>300</option>
 													<option value="400" {{ $show_ent == '400' ? 'selected':'' }}>400</option>
 													<option value="500" {{ $show_ent == '500' ? 'selected':'' }}>500</option>
-													<option value="0" {{ $show_ent == '0' ? 'selected':'' }} disabled>All</option>
+													<option value="0" {{ $show_ent == '0' ? 'selected':'' }}>All</option>
+												</select>
+												<select class="form-select d-none search_show_entries" id="search_show_entries" disabled>
+													<option selected disabled>All</option>
 												</select>
 												<label class="input-group-text show_entries" for="show_entries">entries</label>
+												<input type="hidden" name="search_loc" id="search_loc">
 											</form>
 										</div>
 									</div>
@@ -138,7 +142,9 @@
 												<p>Showing <span class="first_bl_count">{{$first_bl_count}}</span> to <span class="last_bl_count">{{ $last_bl_count }}</span> of <span class="total_branch">{{ count($total_branch) }}</span> entries</p>
 											</div>
 											<div class="col-md-8">
-												{{ $branch_list->appends(request()->input())->links(); }}
+												@if($show_ent != '0')
+													{{ $branch_list->appends(request()->input())->links(); }}
+												@endif
 											</div>
 										</div>
 									</div>
@@ -167,10 +173,18 @@
 	$("#radio-2").click(function(){
 		$("#emt_tab").click();
 	});
+
+	document.addEventListener('keypress', (event)=>{
+		let keyCode = event.keyCode ? event.keyCode : event.which;
+		if(keyCode === 13) {
+			$("#button-addon2").click();
+		}
+   	});
 	
 	$("#button-addon2").click(function(){
 		var search_value = $("#search_value").val();
 		var show_entries = $("#show_entries").val();
+		$("#search_loc").val(search_loc);
 		var location_table_html;
 
     	$(".location_table").addClass('d-none');
@@ -209,7 +223,8 @@
 										'</table>';
 
 				$(".location_table_html").html(location_table_html);
-				$("#show_entries").val('0');
+				$("#show_entries").addClass('d-none');
+				$(".search_show_entries").removeClass('d-none');
 				$(".pagination").addClass('d-none');
 				$(".first_bl_count").text('1');
 				$(".last_bl_count").text(data['data']['branch_list'].length);

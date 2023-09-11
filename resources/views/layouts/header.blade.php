@@ -791,7 +791,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="about-aya-menu-links about-aya-network-menu">
+											<div class="about-aya-menu-links about-aya-network-menu d-none">
 												<div class="row">
 													<div class="col-md-5">
 														<p class="fw-bold">

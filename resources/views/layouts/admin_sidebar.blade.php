@@ -51,7 +51,7 @@
 		</li>
 
 		<!-- Page -->
-		<!-- @if($page == 'Page')
+		@if($page == 'Page')
 			<li class="menu-item active">
 		@else
 			<li class="menu-item">
@@ -60,7 +60,7 @@
 				<i class="menu-icon tf-icons bx bx-list-ul"></i>
 				<div>Page</div>
 			</a>
-		</li> -->
+		</li>
 
 		<!-- Report -->
 		<!-- @if($page == 'Report')

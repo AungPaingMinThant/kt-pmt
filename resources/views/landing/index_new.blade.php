@@ -366,17 +366,19 @@
 							<div class="col-md-6">
 								<div class="row news_img_div" style="background-image:  url('{{ url("/public/".$second_blog->featured_image) }}');"></div>
 								<div class="news_content_div">
-								    @if($second_blog->blog_category == '4')
-    									<a href="{{ url('/about-aya/news-room/corporate-news/'.$second_blog->permalink) }}" >
-    								@endif
-    								@if($second_blog->blog_category == '6')
-    									<a href="{{ url('/about-aya/news-room/announcements/'.$second_blog->permalink) }}" >
-    								@endif
-    								@if($second_blog->blog_category == '9')
-    									<a href="{{ url('/about-aya/news-room/csr-news/'.$second_blog->permalink) }}" >
-    								@endif
-										<p class="news_title">{{ $second_blog->blog_title }}</p>
-									</a>
+									<div class="news_title_div">
+									    @if($second_blog->blog_category == '4')
+	    									<a href="{{ url('/about-aya/news-room/corporate-news/'.$second_blog->permalink) }}" >
+	    								@endif
+	    								@if($second_blog->blog_category == '6')
+	    									<a href="{{ url('/about-aya/news-room/announcements/'.$second_blog->permalink) }}" >
+	    								@endif
+	    								@if($second_blog->blog_category == '9')
+	    									<a href="{{ url('/about-aya/news-room/csr-news/'.$second_blog->permalink) }}" >
+	    								@endif
+											<p class="news_title">{{ $second_blog->blog_title }}</p>
+										</a>
+									</div>
 									<p class="mb-0">
         							    <span class="news_category">
         							        @if($second_blog->blog_category == '4')
@@ -396,17 +398,19 @@
 							<div class="col-md-6">
 								<div class="row news_img_div" style="background-image:  url('{{ url("/public/".$third_blog->featured_image) }}');"></div>
 								<div class="news_content_div">
-								    @if($third_blog->blog_category == '4')
-    									<a href="{{ url('/about-aya/news-room/corporate-news/'.$third_blog->permalink) }}">
-    								@endif
-    								@if($third_blog->blog_category == '6')
-    									<a href="{{ url('/about-aya/news-room/announcements/'.$third_blog->permalink) }}" >
-    								@endif
-    								@if($third_blog->blog_category == '9')
-    									<a href="{{ url('/about-aya/news-room/csr-news/'.$third_blog->permalink) }}" >
-    								@endif
-										<p class="news_title">{{ $third_blog->blog_title }}</p>
-									</a>
+									<div class="news_title_div">
+									    @if($third_blog->blog_category == '4')
+	    									<a href="{{ url('/about-aya/news-room/corporate-news/'.$third_blog->permalink) }}">
+	    								@endif
+	    								@if($third_blog->blog_category == '6')
+	    									<a href="{{ url('/about-aya/news-room/announcements/'.$third_blog->permalink) }}" >
+	    								@endif
+	    								@if($third_blog->blog_category == '9')
+	    									<a href="{{ url('/about-aya/news-room/csr-news/'.$third_blog->permalink) }}" >
+	    								@endif
+											<p class="news_title">{{ $third_blog->blog_title }}</p>
+										</a>
+									</div>
 									<p class="mb-0">
         							    <span class="news_category">
         							        @if($third_blog->blog_category == '4')

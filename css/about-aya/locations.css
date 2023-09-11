@@ -10,10 +10,14 @@
 .show_entries {
 	border: none !important;
 }
-#show_entries {
+#show_entries, #search_show_entries {
 	max-width: 15% !important;
 	text-align: center !important;
 	padding-left: 0 !important;
+}
+#search_show_entries:disabled {
+    /* color: #A5000B; */
+    background-color: #ffffff !important;
 }
 .input-group:focus-within {
 	box-shadow: none !important;

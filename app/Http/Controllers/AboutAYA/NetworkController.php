@@ -15,7 +15,11 @@ class NetworkController extends Controller
             $show_ent = 20;
             $branch_list = DB::table('stores')->where('cat_id','1')->paginate(20);
         } else {
-            $branch_list = DB::table('stores')->where('cat_id','1')->paginate($show_ent);
+            if ($show_ent == '0') {
+                $branch_list = DB::table('stores')->where('cat_id','1')->get();
+            } else {
+                $branch_list = DB::table('stores')->where('cat_id','1')->paginate($show_ent);
+            }
         }
 
         $total_branch = DB::table('stores')->where('cat_id','1')->get();
@@ -33,7 +37,11 @@ class NetworkController extends Controller
             $show_ent = 20;
             $branch_list = DB::table('stores')->where('cat_id','2')->paginate(20);
         } else {
-            $branch_list = DB::table('stores')->where('cat_id','2')->paginate($show_ent);
+            if ($show_ent == '0') {
+                $branch_list = DB::table('stores')->where('cat_id','2')->get();
+            } else {
+                $branch_list = DB::table('stores')->where('cat_id','2')->paginate($show_ent);
+            }
         }
 
         $total_branch = DB::table('stores')->where('cat_id','2')->get();
@@ -51,7 +59,11 @@ class NetworkController extends Controller
             $show_ent = 20;
             $branch_list = DB::table('stores')->where('cat_id','3')->paginate(20);
         } else {
-            $branch_list = DB::table('stores')->where('cat_id','3')->paginate($show_ent);
+            if ($show_ent == '0') {
+                $branch_list = DB::table('stores')->where('cat_id','3')->get();
+            } else {
+                $branch_list = DB::table('stores')->where('cat_id','3')->paginate($show_ent);
+            }
         }
 
         $total_branch = DB::table('stores')->where('cat_id','3')->get();
