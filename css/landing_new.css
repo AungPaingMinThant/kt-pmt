@@ -451,7 +451,7 @@
     left: 25% !important;
     width: 490px !important;
 }
-@media (min-width: 1921px) {
+@media (min-width: 1920px) {
 	.carousel-item-1 {
 		background-image: url('../images/new_home/desk_poster.webp');
 		background-size: cover;
