@@ -14,10 +14,16 @@
 
                 <div class="container y-4">
                     <div class="row">
-                        <div class="col-md-4 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/personal-banking/borrowing/hire-purchase') }}">Hire Purchase <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/acc_saving/current_deposit/mobile_KV_2.jpg') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Hire Purchase</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/personal-banking/borrowing/hire-purchase') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -14,15 +14,27 @@
 
                 <div class="container y-4">
                     <div class="row">
-                        <div class="col-md-3 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/personal-banking/insurance/general') }}"> General Insurance <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">General Insurance</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/personal-banking/insurance/general') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-3 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/personal-banking/insurance/life') }}"> Life Insurance <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Life Insurance</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/personal-banking/insurance/life') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                         <div class="space-40"></div>
                     </div>
