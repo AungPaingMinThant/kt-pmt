@@ -69,7 +69,10 @@
 													<option value="200" {{ $show_ent == '200' ? 'selected':'' }}>200</option>
 													<option value="250" {{ $show_ent == '250' ? 'selected':'' }}>250</option>
 													<option value="300" {{ $show_ent == '300' ? 'selected':'' }}>300</option>
-													<option value="0" {{ $show_ent == '0' ? 'selected':'' }} disabled>All</option>
+													<option value="0" {{ $show_ent == '0' ? 'selected':'' }}>All</option>
+												</select>
+												<select class="form-select d-none search_show_entries" id="search_show_entries" disabled>
+													<option selected disabled>All</option>
 												</select>
 												<label class="input-group-text show_entries" for="show_entries">entries</label>
 											</form>
@@ -217,7 +220,8 @@
 				
 				$(".location_table_html").append(location_table_html);
 				$(".location_loader").addClass('d-none');
-				$("#show_entries").val('0');
+				$("#show_entries").addClass('d-none');
+				$(".search_show_entries").removeClass('d-none');
 				$(".pagination").addClass('d-none');
 				$(".first_bl_count").text('1');
 				$(".last_bl_count").text(data['data']['branch_list'].length);
