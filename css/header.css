@@ -217,7 +217,7 @@
 }
 @media (min-width: 1700px) {
 	.personal-dropdown-content, .business-dropdown-content, .digital-dropdown-content, .about-aya-dropdown-content {
-		top: 18% !important;
+		top: 14% !important;
 	}
 }
 @media (max-width: 1400px) and (min-width: 1301px) {
@@ -334,5 +334,5 @@
 	top: 38% !important;
 }
 .alert-1601-dropdown {
-	top: 33% !important;
+	top: 27% !important;
 }
