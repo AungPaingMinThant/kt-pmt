@@ -462,7 +462,7 @@
 		display: none !important;
 	}
 	.desk_slide {
-		display: none !important;
+	    width: 123%;
 	}
 	.tablet_slide {
 		display: none !important;
@@ -479,7 +479,7 @@
 		display: block;
 	}
 	.desk_slide {
-/*		display: none;*/
+	    width: 155%;
 	}
 }
 @media (max-width: 1400px) and (min-width: 1301px) {
