@@ -14,20 +14,38 @@
 
                 <div class="container y-4">
                     <div class="row">
-                        <div class="col-md-4 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/personal-banking/borrowing/hire-purchase/auto-loan') }}">Auto Loan <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('images/borrowing/hire_purchase/auto_loan/mobile_KV.jpg') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Auto Loan</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/personal-banking/borrowing/hire-purchase/auto-loan') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-4 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/personal-banking/borrowing/hire-purchase/education-loan') }}">Education Loan <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('images/borrowing/hire_purchase/education_loan/mobile_KV.jpg') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Education Loan</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/personal-banking/borrowing/hire-purchase/education-loan') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-4 px-3">
-                            <p>
-                                <a class="f-body-color" href="{{ url('/personal-banking/borrowing/hire-purchase/home-loan') }}"> Home Loan <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/borrowing/hire_purchase/home_loan/mobile_KV.jpg') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Home Loan</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/personal-banking/borrowing/hire-purchase/home-loan') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
