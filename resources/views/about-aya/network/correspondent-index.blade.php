@@ -54,10 +54,10 @@
 						<table class="table table-borderless correspondent_network_table">
 							<thead>
 								<tr valign="middle">
-									<td class="py-3" style="font-size: 12px;width: 4%;background-color: #f8fa4f;"></td>
-									<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #fbb831;">CORRESPONDENT BANK</td>
-									<td class="py-3 f-white" style="font-size: 12px;width: 4%;background-color: #fb7e1c;">LOCATION</td>
-									<td class="py-3 f-white" style="font-size: 12px;width: 4%;background-color: #f04223;">SWIFT CODE</td>
+									<td class="py-3 f-white" style="font-size: 12px;width: 4%;background-color: #696969;"><b>CURRENCY</td>
+									<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #09b400;"><b>CORRESPONDENT BANK</td>
+									<td class="py-3 f-white" style="font-size: 12px;width: 4%;background-color: #035fb5;"><b>LOCATION</td>
+									<td class="py-3 f-white" style="font-size: 12px;width: 4%;background-color: #4a629d;"><b>SWIFT CODE</td>
 								</tr>
 							</thead>
 							<tbody class="table-border-bottom-0" style="background-color: #f5f5f5;">
