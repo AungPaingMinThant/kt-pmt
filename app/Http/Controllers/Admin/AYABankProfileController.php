@@ -52,6 +52,6 @@ class AYABankProfileController extends Controller
         $CIS_desc_MM_1 = $request->CIS_desc_MM_1;
         $CIS_img_1 = $request->CIS_img_1;
 
-        
+        // CIS_img_old_
     }
 }
