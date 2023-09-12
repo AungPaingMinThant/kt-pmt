@@ -159,7 +159,7 @@
 									<div class="card h-100">
 										<img src="{{ url('/images/about-aya/corporate-profile/mission-promise/aya_culture_thumb.webp') }}" alt="Social Sustainability, the best way to create our Future!" class="card-img-top">
 										<div class="card-body">
-											<h5 class="card-title mb-10">AYA Culture</h5>
+											<h5 class="card-title mb-10"><a href="{{ url ('about-aya/career/aya-culture')}}">AYA Culture</a></h5>
 											<!-- <a href="" class="view_bio_link theme_text_color">Learn More <i class='bx bx-chevron-right' style="font-size: 18px;"></i></a> -->
 										</div>
 									</div>
@@ -168,7 +168,7 @@
 									<div class="card h-100">
 										<img src="{{ url('/images/about-aya/corporate-profile/mission-promise/life_at_aya_thumb.jpg') }}" alt="Social Sustainability, the best way to create our Future!" class="card-img-top">
 										<div class="card-body">
-											<h5 class="card-title mb-10">Life at AYA</h5>
+											<h5 class="card-title mb-10"><a href="{{ url ('about-aya/career/life-at-aya')}}">Life at AYA</a></h5>
 											<!-- <a href="" class="view_bio_link theme_text_color">Learn More <i class='bx bx-chevron-right' style="font-size: 18px;"></i></a> -->
 										</div>
 									</div>
