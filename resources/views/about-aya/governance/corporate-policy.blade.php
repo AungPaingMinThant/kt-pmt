@@ -103,7 +103,72 @@
 							</div>
 							<div class="space-10"></div>
 						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header b-b-none" id="headingPeopleConcernsTwo">
+								<button class="accordion-button corporate-policies-accor-btn collapsed" id="trust_receipt_ac_button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePeopleConcernsTwo" aria-expanded="true" aria-controls="collapsePeopleConcernsTwo" style="padding: 5px 20px 5px 20px !important;">
+									Talent Acquisition Process
+								</button>
+							</h2>
+							<div id="collapsePeopleConcernsTwo" class="accordion-collapse collapse" aria-labelledby="headingPeopleConcernsTwo" data-bs-parent="#accordionPeopleConcernExample">
+								<div class="accordion-body">
+									<p>
+										With a strategic intent, AYA Bank establishes ‘Talent Acquisition Process’ to be able to
+										<ul style="list-style: lower-roman;">
+											<li>Recruit competent talent in accordance with the business requirement of AYA Bank.</li>
+											<li>Acquire and onboard transparently with fair and unbiased assessments.</li>
+											<li>Select and recruit the suitable and qualified talents at the suitable positions with competencies required to operate the bank.</li>
+										</ul>
+									</p>
+									
+									<p>This process analyzes the Bank’s long-term talent needs in the context of business goals and encompasses step by step activities of Identification of Talent Requirement, Talent Sourcing, Preliminary Screening, Talent Assessments & Personal Interview(s), Talent Selection, Offer Issuing & Negotiation, Pre-Onboarding Activities and Onboarding.</p>
+									<p>More details can be found in our <a href="{{ url('/file/about-aya/corporate-policies/Talent-Acquisition-Process.pdf') }}" target="_blank">Talent Acquisition Process</a>.</p>
+								</div>
+							</div>
+							<div class="space-10"></div>
+						</div>
+
+						<div class="accordion-item">
+							<h2 class="accordion-header b-b-none" id="headingPeopleConcernsTwo">
+								<button class="accordion-button corporate-policies-accor-btn collapsed" id="trust_receipt_ac_button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePeopleConcernsTwo" aria-expanded="true" aria-controls="collapsePeopleConcernsTwo" style="padding: 5px 20px 5px 20px !important;">
+									Employee-Handbook
+								</button>
+							</h2>
+							<div id="collapsePeopleConcernsTwo" class="accordion-collapse collapse" aria-labelledby="headingPeopleConcernsTwo" data-bs-parent="#accordionPeopleConcernExample">
+								<div class="accordion-body">
+									<p>
+										This handbook is for the information and use of all employees of the AYA Bank PCL. It contains 
+										<ul style="list-style-type:disc;">
+											<li>‘Workplace Commitment’ of the Bank related to non-discrimination declaration, open door statement, whistleblowing policy, membership in political associations and participation in unlawful activities/ assemblies; </li>
+											<li>‘Policies’ related to all employees which covers from probation & recommendation, dress code, attendance, leave, provident fund, allowances and benefits, pay day, transfer, promotion, resignation to termination & dismissal;</li>
+											<li>‘Employee Code of Conduct’ that all employees have to carry out duties and responsibilities in compliance with the policy and procedures of the Bank;</li>
+											<li>‘Disciplinary Measures’ for those who commits a breach of any of the regulation, directions, orders, instructions or requirements of the Bank</li>
+											<li>‘Corporate Employee Health and Safety Policy’ for safety practices and preventive measures in place to keep our workplace as healthy and safe environment.</li>
+										</ul>
+									</p>
+									<p>More details can be found in our <a href="{{ url('/file/about-aya/corporate-policies/Employee-Handbook.pdf') }}" target="_blank">Employee Handbook</a>.</p>
+								</div>
+							</div>
+							<div class="space-10"></div>
+						</div>
+
+						<div class="accordion-item">
+							<h2 class="accordion-header b-b-none" id="headingPeopleConcernsTwo">
+								<button class="accordion-button corporate-policies-accor-btn collapsed" id="trust_receipt_ac_button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePeopleConcernsTwo" aria-expanded="true" aria-controls="collapsePeopleConcernsTwo" style="padding: 5px 20px 5px 20px !important;">
+									Workplace Lactation Policy
+								</button>
+							</h2>
+							<div id="collapsePeopleConcernsTwo" class="accordion-collapse collapse" aria-labelledby="headingPeopleConcernsTwo" data-bs-parent="#accordionPeopleConcernExample">
+								<div class="accordion-body">
+									<p>
+										The purpose of AYA Bank Lactation Support Program is to support the working mothers at their start of the journey working as a mother and encourage the breastfeeding activity which is the best for the early development of a child. AYA Bank developed this lactation program under the closed guidance of UNICEF Myanmar. This program encourages our working mothers to be able to have a comfortable working environment while they could keep the breastfeeding activity for their children.
+									</p>
+									<p>More details can be found in our <a href="{{ url('/file/about-aya/corporate-policies/Workplace Lactation Policy.pdf') }}" target="_blank">Workplace Lactation Policy</a>.</p>
+								</div>
+							</div>
+							<div class="space-10"></div>
+						</div>
 					</div>
+					
 
 					<div class="space-40" id="corporate_affairs"></div>
 					<h4 class="fw-bold theme_text_color">Corporate Affairs</h4>

@@ -348,13 +348,13 @@
 							<p class="mb-0">
 							    <span class="news_category">
 							        @if($first_blog->blog_category == '4')
-										CORPORATE NEWS
+									<a href="">CORPORATE NEWS</a>
 									@endif
 									@if($first_blog->blog_category == '6')
-										ANNOUNCEMENTS
+									<a href="">ANNOUNCEMENTS</a>
 									@endif
 									@if($first_blog->blog_category == '9')
-										CSR NEWS
+									<a href="">CSR NEWS</a>
 									@endif    
 							    </span>
 							    <span class="news_break">|</span><span class="news_date">{{ date('d M Y', strtotime($first_blog->publish_date)) }}</span>
@@ -382,13 +382,13 @@
 									<p class="mb-0">
         							    <span class="news_category">
         							        @if($second_blog->blog_category == '4')
-        										CORPORATE NEWS
+        										<a href="">CORPORATE NEWS</a>
         									@endif
         									@if($second_blog->blog_category == '6')
-        										ANNOUNCEMENTS
+												<a href="">ANNOUNCEMENTS<a>
         									@endif
         									@if($second_blog->blog_category == '9')
-        										CSR NEWS
+											<a href="">CSR NEWS</a>
         									@endif    
         							    </span>
         							    <span class="news_break">|</span><span class="news_date">{{ date('d M Y', strtotime($second_blog->publish_date)) }}</span>
@@ -414,13 +414,13 @@
 									<p class="mb-0">
         							    <span class="news_category">
         							        @if($third_blog->blog_category == '4')
-        										CORPORATE NEWS
+											<a href="">CORPORATE NEWS</a>
         									@endif
         									@if($third_blog->blog_category == '6')
-        										ANNOUNCEMENTS
+											<a href="">ANNOUNCEMENTS</a>
         									@endif
         									@if($third_blog->blog_category == '9')
-        										CSR NEWS
+											<a href="">CSR NEWS</a>
         									@endif    
         							    </span>
         							    <span class="news_break">|</span><span class="news_date">{{ date('d M Y', strtotime($third_blog->publish_date)) }}</span>
@@ -433,7 +433,7 @@
 						<div class="row view_all_news">
 							<div class="col-md-6 view_all_news_col"></div>
 							<div class="col-md-6 text-center view_all_news_div" style="display: table;height: auto;">
-								<a href="{{ url('/about-aya/news-room/corporate-news/') }}" style="display: table-cell;vertical-align: middle;">
+								<a href="{{ url('/about-aya/news-room/') }}" style="display: table-cell;vertical-align: middle;">
 									<p class="mb-0" style="color: #fff;">View All <i class="menu-icon tf-icons bx bx-chevron-right"></i></p>
 								</a>
 							</div>
@@ -451,9 +451,9 @@
 							<div class="col-md-5 accolades_text_div">
 								<p class="mb-0">Discover about our achievements</p>
 								<p style="font-size: 30px;font-weight: 800">Awards and Accolades</p>
-								<!-- <a class="view_more_desk_link" href="https://saltnpixel.com/AYABank/AYABank_Awards.html" target="_blank">
+								<a class="view_more_desk_link" href="about-aya/who-we-are/corporate-profile/awards" target="_blank">
 									<p class="mb-0 theme_text_color fw-bold">Discover More <i class="tf-icons bx bx-chevron-right"></i></p>
-								</a> -->
+								</a>
 							</div>
 							<div class="col-md-7 award_icon_div">
 								<div class="row">
@@ -473,9 +473,9 @@
 										<img src="{{ url('/images/home/csr_award_2017.webp') }}" alt="AYA Bank, Award, CSR" width="80px" height="151px" class="img-fluid" loading="lazy">
 									</div>
 								</div>
-								<a class="d-none view_more_tab_link" href="https://saltnpixel.com/AYABank/AYABank_Awards.html" target="_blank">
+								{{-- <a class="view_more_tab_link" href="/about-aya/who-we-are/corporate-profile/awards" target="_blank">
 									<p class="mb-0 theme_text_color fw-bold">Discover More <i class="tf-icons bx bx-chevron-right"></i></p>
-								</a>
+								</a> --}}
 							</div>
 						</div>
 					</div>
@@ -484,9 +484,9 @@
 						<div class="col-md-12 text-center">
 							<p class="mb-0">Discover about our achievements</p>
 							<p style="font-size: 28px;font-weight: 800">Awards and Accolades</p>
-							{{-- <a href="https://saltnpixel.com/AYABank/AYABank_Awards.html" target="_blank">
+							<a href="/about-aya/who-we-are/corporate-profile/awards" target="_blank">
 								<p class="mb-20 theme_text_color fw-bold">Discover More <i class="tf-icons bx bx-chevron-right"></i></p>
-							</a> --}}
+							</a>
 
 
 							<div class="row">
