@@ -70,6 +70,7 @@
     width: 150px !important;
     margin-top: 5px;
 }
+
 @media (max-width: 1300px) and (min-width: 1000px) {
 	.q_remit_malay_inward_tagline{
 		width: 60% !important;

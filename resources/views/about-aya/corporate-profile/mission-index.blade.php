@@ -150,7 +150,7 @@
 									<div class="card h-100">
 										<img src="{{ url('/images/about-aya/corporate-profile/mission-promise/social_sustainability_thumb.webp') }}" alt="Social Sustainability, the best way to create our Future!" class="card-img-top">
 										<div class="card-body">
-											<h5 class="card-title mb-10">Social Sustainability, the best way to create our Future!</h5>
+											<h5 class="card-title mb-10"><a href="{{ url ('about-aya/sustainability/our-approach/social-sustainability')}}">Social Sustainability, the best way to create our Future!</a></h5>
 											<!-- <a href="" class="view_bio_link theme_text_color">Learn More <i class='bx bx-chevron-right' style="font-size: 18px;"></i></a> -->
 										</div>
 									</div>

@@ -94,7 +94,7 @@
 							<p class="theme_text_color cursor-pointer social_sustainability_info_hide d-none">Show Less&nbsp;<i class='bx bx-chevron-up' style="font-size: 18px;line-height: 18px;"></i>&nbsp;</p>
 
 							<img src="{{ url('/images/about-aya/corporate-goals/social_sustainability.webp') }}" class="img-fluid">
-							<a href="#" style="text-decoration: none !important;">
+							<a href="{{ url('about-aya/sustainability/our-approach/social-sustainability') }}" style="text-decoration: none !important;">
 								<p class="for_customer_mission_tagline">Social Sustainability</p>
 							</a>
 						</div>
@@ -126,7 +126,7 @@
 								<p class="theme_text_color cursor-pointer ungc_info_hide d-none">Show Less&nbsp;<i class='bx bx-chevron-up' style="font-size: 18px;line-height: 18px;"></i>&nbsp;</p>
 
 								<img src="{{ url('/images/about-aya/corporate-goals/UNGC_commitment.webp') }}" class="img-fluid">
-								<a href="#" style="text-decoration: none !important;">
+								<a href="{{ url('about-aya/sustainability/our-commitment/ungc-compliance') }}" style="text-decoration: none !important;">
 									<p class="for_customer_mission_tagline">UNGC Commitment</p>
 								</a>
 							</div>
@@ -142,7 +142,7 @@
 							<p class="theme_text_color cursor-pointer csr_info_hide d-none">Show Less&nbsp;<i class='bx bx-chevron-up' style="font-size: 18px;line-height: 18px;"></i>&nbsp;</p>
 
 							<img src="{{ url('/images/about-aya/corporate-goals/social_sustainability.webp') }}" class="img-fluid">
-							<a href="#" style="text-decoration: none !important;">
+							<a href="{{ url('about-aya/sustainability/corporate-social-responsibility') }}" style="text-decoration: none !important;">
 								<p class="for_community_csr_tagline">Corporate Social Responsibility</p>
 							</a>
 						</div>
@@ -174,8 +174,8 @@
 								<p class="theme_text_color cursor-pointer people_info_hide d-none">Show Less&nbsp;<i class='bx bx-chevron-up' style="font-size: 18px;line-height: 18px;"></i>&nbsp;</p>
 
 								<img src="{{ url('/images/about-aya/corporate-goals/people.webp') }}" class="img-fluid">
-								<a href="" style="text-decoration: none !important;">
-									<p class="for_customer_mission_tagline">People</p>
+								<a href="{{ url('about-aya/career/aya-culture') }}" style="text-decoration: none !important;">
+									<p class="for_customer_mission_tagline">AYA Culture</p>
 								</a>
 							</div>
 						</div>
@@ -190,7 +190,7 @@
 							<p class="theme_text_color cursor-pointer emp_development_info_hide d-none">Show Less&nbsp;<i class='bx bx-chevron-up' style="font-size: 18px;line-height: 18px;"></i>&nbsp;</p>
 
 							<img src="{{ url('/images/about-aya/corporate-goals/social_sustainability.webp') }}" class="img-fluid">
-							<a href="#" style="text-decoration: none !important;">
+							<a href="{{ url('about-aya/career/employee-development') }}" style="text-decoration: none !important;">
 								<p class="for_customer_mission_tagline">Employee Development</p>
 							</a>
 						</div>

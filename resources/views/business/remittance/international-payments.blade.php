@@ -21,7 +21,13 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="space-20"></div>
+					<div class="space-10"></div>
+					<div class="col-12">
+						<p class="swiftcode_txt">
+							AYA BANK SWIFT CODE	&nbsp;&nbsp;&nbsp;: 
+							<b class="text" style="color: brown; border:none; font-weight:bold; background-color:white; padding-left:1rem;">AYABMMMY</b>
+						</p>
+					</div>
 					<div class="row">
 						<div class="col-1">
 							<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>

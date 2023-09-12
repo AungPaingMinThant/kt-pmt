@@ -208,6 +208,30 @@ image {
 }
 
 
+/* .swiftcode_txt {
+	font-size: 50px !important;
+}
+
+.btn {
+	display: inline-block;
+    font-weight: 400;
+    line-height: 1.53;
+    color: #484848;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: #fff;
+    border: 1px solid #484848;
+    padding: 0.4375rem 1.25rem;
+    font-size: 0.9375rem;
+    border-radius: 0.375rem;
+    transition: all 0.2s ease-in-out;
+} */
+
+
 @media (max-width: 1400px) and (min-width: 1301px) {
 	.carousel-indicators{
 		left: 85% !important;

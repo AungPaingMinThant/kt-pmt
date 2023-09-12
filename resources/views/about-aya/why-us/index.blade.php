@@ -79,7 +79,7 @@
 					<div class="row">
 						<div class="col-md-4 consumer_banking_improve_lifestyle"></div>
 						<div class="col-md-8 CTA_detail_col_2">
-							<p class="f-white fw-semibold" style="font-size: 18px;">I. Consumer Banking to Improve Lifestyle </p>
+							<p class="f-white fw-semibold" style="font-size: 18px;">Consumer Banking to Improve Lifestyle </p>
 							<p class="f-white">AYA Bank offers borrowing power to the local community by indulging in the various money lending activities. Families and individuals enjoy our consumer loans with affordable interest rates, and a range of choices from authorized dealers and partner institutions.</p>
 							<p class="f-white">
 								With AYA consumer banking solutions, you can improve your life style in many ways to,
@@ -100,7 +100,7 @@
 				<div class="container section_1">
 					<div class="row customized_solutions_row">
 						<div class="col-md-8 customized_solutions_manage_your_finance_desc">
-							<p class="theme_text_color fw-semibold" style="font-size: 18px;">II. Customized solutions to manage your finance</p>
+							<p class="theme_text_color fw-semibold" style="font-size: 18px;"> Customized solutions to manage your finance</p>
 							<p class="mb-30">Where are you in your financial journey? Your finances may be complex, or your requirements may be specific. To address your unique personal and business objectives, AYA Bank offers a full range of banking products, innovative financing options and exclusive benefits.  We work to understand your assets, needs and goals, then provide the right level of support to help you move forward. We have customized products and services where you can</p>
 							<p>
 								<ul style="list-style: disc;">
@@ -121,7 +121,7 @@
 					<div class="col-md-4"></div>
 					<div class="col-md-8 we_put_people_first_desc">
 						<div class="row we_put_people_first_desc_row">
-							<p class="f-white fw-semibold" style="font-size: 18px;">III. We Put People First</p>
+							<p class="f-white fw-semibold" style="font-size: 18px;">We Put People First</p>
 							<p class="f-white">As well as unlocking values in banking, we incorporate people first approach in our strategic direction.</p>
 							<p class="f-white mb-0">
 								<ul class="f-white we_put_people_first_fact">
