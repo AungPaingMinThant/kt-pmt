@@ -104,12 +104,12 @@
 							<div class="space-10"></div>
 						</div>
 						<div class="accordion-item">
-							<h2 class="accordion-header b-b-none" id="headingPeopleConcernsTwo">
-								<button class="accordion-button corporate-policies-accor-btn collapsed" id="trust_receipt_ac_button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePeopleConcernsTwo" aria-expanded="true" aria-controls="collapsePeopleConcernsTwo" style="padding: 5px 20px 5px 20px !important;">
+							<h2 class="accordion-header b-b-none" id="headingPeopleConcernsFive">
+								<button class="accordion-button corporate-policies-accor-btn collapsed" id="trust_receipt_ac_button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePeopleConcernsFive" aria-expanded="true" aria-controls="collapsePeopleConcernsFive" style="padding: 5px 20px 5px 20px !important;">
 									Talent Acquisition Process
 								</button>
 							</h2>
-							<div id="collapsePeopleConcernsTwo" class="accordion-collapse collapse" aria-labelledby="headingPeopleConcernsTwo" data-bs-parent="#accordionPeopleConcernExample">
+							<div id="collapsePeopleConcernsFive" class="accordion-collapse collapse" aria-labelledby="headingPeopleConcernsFive" data-bs-parent="#accordionPeopleConcernExample">
 								<div class="accordion-body">
 									<p>
 										With a strategic intent, AYA Bank establishes ‘Talent Acquisition Process’ to be able to
@@ -128,12 +128,12 @@
 						</div>
 
 						<div class="accordion-item">
-							<h2 class="accordion-header b-b-none" id="headingPeopleConcernsTwo">
-								<button class="accordion-button corporate-policies-accor-btn collapsed" id="trust_receipt_ac_button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePeopleConcernsTwo" aria-expanded="true" aria-controls="collapsePeopleConcernsTwo" style="padding: 5px 20px 5px 20px !important;">
+							<h2 class="accordion-header b-b-none" id="headingPeopleConcernsSeven">
+								<button class="accordion-button corporate-policies-accor-btn collapsed" id="trust_receipt_ac_button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePeopleConcernsSeven" aria-expanded="true" aria-controls="collapsePeopleConcernsSeven" style="padding: 5px 20px 5px 20px !important;">
 									Employee-Handbook
 								</button>
 							</h2>
-							<div id="collapsePeopleConcernsTwo" class="accordion-collapse collapse" aria-labelledby="headingPeopleConcernsTwo" data-bs-parent="#accordionPeopleConcernExample">
+							<div id="collapsePeopleConcernsSeven" class="accordion-collapse collapse" aria-labelledby="headingPeopleConcernsSeven" data-bs-parent="#accordionPeopleConcernExample">
 								<div class="accordion-body">
 									<p>
 										This handbook is for the information and use of all employees of the AYA Bank PCL. It contains 
@@ -152,12 +152,12 @@
 						</div>
 
 						<div class="accordion-item">
-							<h2 class="accordion-header b-b-none" id="headingPeopleConcernsTwo">
-								<button class="accordion-button corporate-policies-accor-btn collapsed" id="trust_receipt_ac_button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePeopleConcernsTwo" aria-expanded="true" aria-controls="collapsePeopleConcernsTwo" style="padding: 5px 20px 5px 20px !important;">
+							<h2 class="accordion-header b-b-none" id="headingPeopleConcernsEight">
+								<button class="accordion-button corporate-policies-accor-btn collapsed" id="trust_receipt_ac_button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePeopleConcernsEight" aria-expanded="true" aria-controls="collapsePeopleConcernsEight" style="padding: 5px 20px 5px 20px !important;">
 									Workplace Lactation Policy
 								</button>
 							</h2>
-							<div id="collapsePeopleConcernsTwo" class="accordion-collapse collapse" aria-labelledby="headingPeopleConcernsTwo" data-bs-parent="#accordionPeopleConcernExample">
+							<div id="collapsePeopleConcernsEight" class="accordion-collapse collapse" aria-labelledby="headingPeopleConcernsEight" data-bs-parent="#accordionPeopleConcernExample">
 								<div class="accordion-body">
 									<p>
 										The purpose of AYA Bank Lactation Support Program is to support the working mothers at their start of the journey working as a mother and encourage the breastfeeding activity which is the best for the early development of a child. AYA Bank developed this lactation program under the closed guidance of UNICEF Myanmar. This program encourages our working mothers to be able to have a comfortable working environment while they could keep the breastfeeding activity for their children.

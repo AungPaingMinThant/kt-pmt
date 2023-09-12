@@ -348,13 +348,13 @@
 							<p class="mb-0">
 							    <span class="news_category">
 							        @if($first_blog->blog_category == '4')
-									<a href="">CORPORATE NEWS</a>
+									<a href="about-aya/news-room/corporate-news">CORPORATE NEWS</a>
 									@endif
 									@if($first_blog->blog_category == '6')
-									<a href="">ANNOUNCEMENTS</a>
+									<a href="about-aya/news-room/announcements">ANNOUNCEMENTS</a>
 									@endif
 									@if($first_blog->blog_category == '9')
-									<a href="">CSR NEWS</a>
+									<a href="about-aya/news-room/csr-news">CSR NEWS</a>
 									@endif    
 							    </span>
 							    <span class="news_break">|</span><span class="news_date">{{ date('d M Y', strtotime($first_blog->publish_date)) }}</span>
@@ -382,7 +382,7 @@
 									<p class="mb-0">
         							    <span class="news_category">
         							        @if($second_blog->blog_category == '4')
-        										<a href="">CORPORATE NEWS</a>
+        										<a href="about-aya/news-room/corporate-news">CORPORATE NEWS</a>
         									@endif
         									@if($second_blog->blog_category == '6')
 												<a href="">ANNOUNCEMENTS<a>
@@ -414,13 +414,13 @@
 									<p class="mb-0">
         							    <span class="news_category">
         							        @if($third_blog->blog_category == '4')
-											<a href="">CORPORATE NEWS</a>
+											<a href="about-aya/news-room/corporate-news">CORPORATE NEWS</a>
         									@endif
         									@if($third_blog->blog_category == '6')
-											<a href="">ANNOUNCEMENTS</a>
+											<a href="about-aya/news-room/announcements/">ANNOUNCEMENTS</a>
         									@endif
         									@if($third_blog->blog_category == '9')
-											<a href="">CSR NEWS</a>
+											<a href="about-aya/news-room/csr-news">CSR NEWS</a>
         									@endif    
         							    </span>
         							    <span class="news_break">|</span><span class="news_date">{{ date('d M Y', strtotime($third_blog->publish_date)) }}</span>
