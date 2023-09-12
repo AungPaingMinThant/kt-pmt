@@ -16,7 +16,7 @@
                     <div class="row">
                             <div class="col-md-4 px-3 mb-40">
                                 <div class="card h-100 sitemap_card">
-                                    <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                    <img class="card-img-top" src="{{ url('/images/business/insurance/group-life/group.png') }}" alt="Card image cap" />
                                     <div class="card-body">
                                         <h5 class="card-title">Group Life Insurance</h5>
                                         <p class="card-text">
@@ -27,7 +27,7 @@
                             </div>
                             <div class="col-md-4 px-3 mb-40">
                                 <div class="card h-100 sitemap_card">
-                                    <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                    <img class="card-img-top" src="{{ url('/images/insurance/fire/family.png') }}" alt="Card image cap" />
                                     <div class="card-body">
                                         <h5 class="card-title">Fire Insurance</h5>
                                         <p class="card-text">
@@ -38,7 +38,7 @@
                             </div>
                             <div class="col-md-4 px-3 mb-40">
                                 <div class="card h-100 sitemap_card">
-                                    <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                    <img class="card-img-top" src="{{ url('/images/insurance/motor/family.png') }}" alt="Card image cap" />
                                     <div class="card-body">
                                         <h5 class="card-title">Motor Insurance</h5>
                                         <p class="card-text">
@@ -60,7 +60,7 @@
                             </div> --}}
                             <div class="col-md-4 px-3 mb-40">
                                 <div class="card h-100 sitemap_card">
-                                    <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                    <img class="card-img-top" src="{{ url('/images/business/insurance/domestic-marine-cargo/dosmetic.png') }}" alt="Card image cap" />
                                     <div class="card-body">
                                         <h5 class="card-title">Domestice Marine Cargo Insurance</h5>
                                         <p class="card-text">
@@ -71,7 +71,7 @@
                             </div>
                             <div class="col-md-4 px-3 mb-40">
                                 <div class="card h-100 sitemap_card">
-                                    <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                    <img class="card-img-top" src="{{ url('/images/business/insurance/oversea-marine-cargo/oversea.png') }}" alt="Card image cap" />
                                     <div class="card-body">
                                         <h5 class="card-title">Oversea Marine Cargo Insurance</h5>
                                         <p class="card-text">
@@ -82,7 +82,7 @@
                             </div>
                             <div class="col-md-4 px-3 mb-40">
                                 <div class="card h-100 sitemap_card">
-                                    <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                    <img class="card-img-top" src="{{ url('/images/business/insurance/domestic-inland-transit/inland.png') }}" alt="Card image cap" />
                                     <div class="card-body">
                                         <h5 class="card-title">Domestic Inland Transit Insurance</h5>
                                         <p class="card-text">
@@ -93,7 +93,7 @@
                             </div>
                             <div class="col-md-4 px-3 mb-40">
                                 <div class="card h-100 sitemap_card">
-                                    <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                    <img class="card-img-top" src="{{ url('/images/business/insurance/IAR/IAR.png') }}" alt="Card image cap" />
                                     <div class="card-body">
                                         <h5 class="card-title">Industrial All Risk Insurance (IAR)</h5>
                                         <p class="card-text">
@@ -104,7 +104,7 @@
                             </div>
                             <div class="col-md-4 px-3 mb-40">
                                 <div class="card h-100 sitemap_card">
-                                    <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                    <img class="card-img-top" src="{{ url('/images/business/insurance/car-ear/CAR_EAR.png') }}" alt="Card image cap" />
                                     <div class="card-body">
                                         <h5 class="card-title">Contractot's All Risk & Erection All Risk</h5>
                                         <p class="card-text">
