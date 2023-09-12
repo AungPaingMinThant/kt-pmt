@@ -75,7 +75,8 @@ Route::get('/admin/pagelist/about-aya','App\Http\Controllers\Admin\PageControlle
 Route::get('/admin/pagelist/about-aya/ayabank-profile','App\Http\Controllers\Admin\PageController@pageAYAbankProfile');
 
 Route::post('/admin/banner/update', 'App\Http\Controllers\Admin\PageController@bannerUpdate');
-Route::post('/admin/ayabank-profile/section1/update', 'App\Http\Controllers\Admin\PageController@ayabankProfileSection1Update');
+Route::post('/admin/ayabank-profile/section1/update', 'App\Http\Controllers\Admin\AYABankProfileController@ayabankProfileSection1Update');
+Route::post('admin/ayabank-profile/corporate-info/update', 'App\Http\Controllers\Admin\AYABankProfileController@ayabankProfileCorporateInfoUpdate');
 
 Route::get('/admin/exchange-rate','App\Http\Controllers\Admin\ExchangeController@index');
 Route::get('/admin/exchange-rate/edit','App\Http\Controllers\Admin\ExchangeController@editExchange');
@@ -113,12 +114,12 @@ Route::get('/digital-services/card-services/reset-pin','App\Http\Controllers\Dig
 
 
 // Personal
-Route::get('/personal-banking/insurance/health','App\Http\Controllers\Insurance\HealthInsuranceController@index');
-Route::get('/personal-banking/insurance/motor','App\Http\Controllers\Insurance\MotorInsuranceController@index');
-Route::get('/personal-banking/insurance/fire','App\Http\Controllers\Insurance\FireInsuranceController@index');
-Route::get('/personal-banking/insurance/personal-accident','App\Http\Controllers\Insurance\PAInsuranceController@index');
-Route::get('/personal-banking/insurance/travel/aya-go','App\Http\Controllers\Insurance\AYAGOInsuranceController@index');
-Route::get('/personal-banking/insurance/travel/aya-joy','App\Http\Controllers\Insurance\AYAJoyInsuranceController@index');
+Route::get('/personal-banking/insurance/general/health','App\Http\Controllers\Insurance\HealthInsuranceController@index');
+Route::get('/personal-banking/insurance/general/motor','App\Http\Controllers\Insurance\MotorInsuranceController@index');
+Route::get('/personal-banking/insurance/general/fire','App\Http\Controllers\Insurance\FireInsuranceController@index');
+Route::get('/personal-banking/insurance/general/personal-accident','App\Http\Controllers\Insurance\PAInsuranceController@index');
+Route::get('/personal-banking/insurance/general/travel/aya-go','App\Http\Controllers\Insurance\AYAGOInsuranceController@index');
+Route::get('/personal-banking/insurance/general/travel/aya-joy','App\Http\Controllers\Insurance\AYAJoyInsuranceController@index');
 Route::get('/personal-banking/insurance/life/universal','App\Http\Controllers\Insurance\LifeInsuranceController@universalIndex');
 Route::get('/personal-banking/insurance/life/education','App\Http\Controllers\Insurance\LifeInsuranceController@educationIndex');
 Route::get('/personal-banking/insurance/life/one-health-solution-individual-plan','App\Http\Controllers\Insurance\LifeInsuranceController@oneHealthIndex');
@@ -181,6 +182,9 @@ Route::get('/business/insurance/domestic-inland-transit','App\Http\Controllers\B
 Route::get('/business/insurance/car-ear','App\Http\Controllers\Business\InsuranceController@CAREARIndex');
 Route::get('/business/insurance/industrial-all-risk','App\Http\Controllers\Business\InsuranceController@IARIndex');
 Route::get('/business/insurance/group-life','App\Http\Controllers\Business\InsuranceController@groupLifeIndex');
+
+Route::get('/business/insurance/motor','App\Http\Controllers\Business\InsuranceController@motorIndex');
+Route::get('/business/insurance/fire','App\Http\Controllers\Business\InsuranceController@fireIndex');
 
 Route::get('/test','App\Http\Controllers\HomeController@testIndex');
 

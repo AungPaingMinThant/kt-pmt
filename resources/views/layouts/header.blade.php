@@ -381,10 +381,10 @@
 															<a href="{{ url('/business/insurance/group-life') }}">Group Life Insurance</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/personal-banking/insurance/fire') }}">Fire Insurance</a>
+															<a href="{{ url('/business/insurance/fire') }}">Fire Insurance</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/personal-banking/insurance/motor') }}">Motor Insurance</a>
+															<a href="{{ url('/business/insurance/motor') }}">Motor Insurance</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/business/insurance/domestic-marine-cargo') }}">Domestic Marine Cargo Insurance</a>
@@ -1195,12 +1195,12 @@
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5">
-										<a href="{{ url('/personal-banking/insurance/fire') }}">Fire Insurance</a>
+										<a href="{{ url('/business/insurance/fire') }}">Fire Insurance</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5">
-										<a href="{{ url('/personal-banking/insurance/motor') }}">Motor Insurance</a>
+										<a href="{{ url('/business/insurance/motor') }}">Motor Insurance</a>
 									</p>
 								</li>
 								<li>

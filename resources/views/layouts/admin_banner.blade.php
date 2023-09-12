@@ -3,7 +3,7 @@
 @endphp
 @if($page == 'aya_bank_profile')
 	@php
-		$banner = App\Models\AyabankProfilePageConfigure::first();
+		$banner = App\Models\AboutAYA\AyabankProfilePageConfigure::first();
 	@endphp
 @endif
 <link rel="stylesheet" href="{{ url('/css/banner.css') }}" />
@@ -17,7 +17,7 @@
 
 @if($page == 'aya_bank_profile')
 	@php
-		$banner = App\Models\AyabankProfilePageConfigure::first();
+		$banner = App\Models\AboutAYA\AyabankProfilePageConfigure::first();
 	@endphp
 	<div class="aya_bank_profile_banner banner_bg" style="background-image:url('../../../{{$banner->banner}}')">
 		<div class="container" style="position: relative;">

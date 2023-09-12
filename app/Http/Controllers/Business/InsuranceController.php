@@ -36,4 +36,14 @@ class InsuranceController extends Controller
     {
         return view('business.insurance.group');
     }
+
+    public function fireIndex()
+    {
+        return view('business.insurance.fire');
+    }
+
+    public function motorIndex()
+    {
+        return view('business.insurance.motor');
+    }
 }

@@ -55,6 +55,9 @@
         img {
             pointer-events: none;
         }
+        label {
+        	text-transform: none !important;
+        }
         .menu > .nav-item {            
             text-transform: uppercase !important;
             color: #222222 !important;
@@ -136,7 +139,8 @@
 </head>
 <body>
 	@php
-		$page_data = App\Models\AyabankProfilePageConfigure::first();
+		$page_data = App\Models\AboutAYA\AyabankProfilePageConfigure::first();
+		$corporate_info_data = App\Models\AboutAYA\AyabankProfilePageCorproateInfo::get();
 	@endphp
 
 	<div class="layout-wrapper layout-content-navbar">
@@ -200,60 +204,17 @@
 						<button class="btn banner_edit_btn" data-bs-toggle="modal" data-bs-target="#corporate_information_modal">Edit Corporate Information Section</button>
 					</div>
 					<div class="row">
-						<h4 class="fw-semibold text-center">Corporate Information</h4>
+						<h4 class="fw-semibold text-center">{!! $page_data->corporate_info_title !!}</h4>
 						<div class="col-md-2 corp_info_col_1"></div>
 						<div class="col-md-8 corp_info_col_2">
 							<div class="row corporate_information_row">
-								<div class="col-md-4 text-center">
-									<img src="{{ url('/images/about-aya/ayabank-profile/native_name.webp') }}" class="img-fluid corporate_information_icon rounded-circle">
-									<p class="mb-0">Native Name</p>
-									<p class="mb-0 fw-semibold">ဧရာဝတီဘဏ်</p>
-									<p class="fw-semibold">AYEYARWADY BANK</p>
-								</div>
-								<div class="col-md-4 text-center">
-									<img src="{{ url('/images/about-aya/ayabank-profile/founded.webp') }}" class="img-fluid corporate_information_icon rounded-circle">
-									<p class="mb-0">Founded In</p>
-									<p class="fw-semibold">2010</p>
-								</div>
-								<div class="col-md-4 text-center">
-									<img src="{{ url('/images/about-aya/ayabank-profile/u_zaw.webp') }}" class="img-fluid corporate_information_icon rounded-circle">
-									<p class="mb-0">Founder/Key Person</p>
-									<p class="fw-semibold">U Zaw Zaw<br>(Founder and Chairman)</p>
-								</div>
-							</div>
-							<div class="row corporate_information_row">
-								<div class="col-md-4 text-center">
-									<img src="{{ url('/images/about-aya/ayabank-profile/daw_khin_saw_oo.webp') }}" class="img-fluid corporate_information_icon rounded-circle">
-									<p class="mb-0">Key Person</p>
-									<p class="fw-semibold">Daw Khin Saw Oo<br>(Executive Chairman)</p>
-								</div>
-								<div class="col-md-4 text-center">
-									<img src="{{ url('/images/about-aya/ayabank-profile/type.webp') }}" class="img-fluid corporate_information_icon rounded-circle">
-									<p class="mb-0">Type</p>
-									<p class="fw-semibold">Public</p>
-								</div>
-								<div class="col-md-4 text-center">
-									<img src="{{ url('/images/about-aya/ayabank-profile/product.webp') }}" class="img-fluid corporate_information_icon rounded-circle">
-									<p class="mb-0">Product</p>
-									<p class="fw-semibold">Financial Services</p>
-								</div>
-							</div>
-							<div class="row corporate_information_row">
-								<div class="col-md-4 text-center">
-									<img src="{{ url('/images/about-aya/ayabank-profile/headquarter.webp') }}" class="img-fluid corporate_information_icon rounded-circle">
-									<p class="mb-0">Headquarter</p>
-									<p class="fw-semibold">Yangon, Myanmar</p>
-								</div>
-								<div class="col-md-4 text-center">
-									<img src="{{ url('/images/about-aya/ayabank-profile/slogan.webp') }}" class="img-fluid corporate_information_icon rounded-circle">
-									<p class="mb-0">Motto</p>
-									<p class="fw-semibold">Your Trusted Partner</p>
-								</div>
-								<div class="col-md-4 text-center">
-									<img src="{{ url('/images/about-aya/ayabank-profile/website.webp') }}" class="img-fluid corporate_information_icon rounded-circle">
-									<p class="mb-0">Website</p>
-									<p class="fw-semibold">ayabank.com</p>
-								</div>
+								@foreach($corporate_info_data as $corporate_info)
+									<div class="col-md-4 text-center mb-20">
+										<img src="{{ url($corporate_info->CIS_img) }}" class="img-fluid corporate_information_icon rounded-circle">
+										<p class="mb-0">{!! $corporate_info->CIS_title !!}</p>
+										<p class="mb-0 fw-semibold">{!! $corporate_info->CIS_desc !!}</p>
+									</div>
+								@endforeach
 							</div>
 						</div>
 						<div class="col-md-2 corp_info_col_3"></div>
@@ -261,6 +222,9 @@
 					
 					<div class="space-60"></div>
 
+					<div class="" style="position: relative;">
+						<button class="btn banner_edit_btn" data-bs-toggle="modal" data-bs-target="#leading_capabilities_modal">Edit Leading Capabilities Section</button>
+					</div>
 					<div class="row">
 						<h4 class="fw-semibold text-center">Leading Capabilities</h4>
 						<div class="space-20"></div>
@@ -298,7 +262,6 @@
 								</div>
 							</div>
 						</div>
-						<!-- <div class="col-md-1 lead_cap_col_3"></div> -->
 					</div>
 
 					<div class="row text-center py-1 update_date_div">
@@ -411,6 +374,7 @@
 				<div class="modal-body" style="padding: 0px 40px;">
 					{{ csrf_field() }}
 					<div class="row" style="margin-bottom: 20px;">
+						<input type="hidden" name="corporate_info_count" id="corporate_info_count" value="{{count($corporate_info_data)}}">
 						<div class="col-md-12">
 							<div class="mb-3 row">
 								<h4>Section Update</h4>
@@ -419,39 +383,36 @@
 									<input type="text" class="form-control" id="corporate_info_title" name="corporate_info_title" value="{{$page_data->corporate_info_title}}">
 								</div>
 									
+								<div class="space-20"></div>
+								
+								@php $CIS_count = 1; @endphp
+								@foreach($corporate_info_data as $corporate_info)
+									<div class="col-md-12">
+										Corporate Info {{$CIS_count}}
+									</div>
+									<div class="col-md-4">
+										<label for="CIS_title_{{$CIS_count}}" class="col-form-label">ENG Title</label>
+										<input type="text" class="form-control" id="CIS_title_{{$CIS_count}}" value="{{$corporate_info->CIS_title}}">
+
+										<label for="CIS_title_MM_{{$CIS_count}}" class="col-form-label">MM Title</label>
+										<input type="text" class="form-control" id="CIS_title_MM_{{$CIS_count}}" value="{{$corporate_info->CIS_title}}">
+									</div>
+									<div class="col-md-4">
+										<label for="CIS_desc_{{$CIS_count}}" class="col-form-label">ENG Desc</label>
+										<input type="text" class="form-control" id="CIS_desc_{{$CIS_count}}" value="{{$corporate_info->CIS_desc}}">
+
+										<label for="CIS_desc_MM_{{$CIS_count}}" class="col-form-label">MM Desc</label>
+										<input type="text" class="form-control" id="CIS_desc_MM_{{$CIS_count}}" value="{{$corporate_info->CIS_desc}}">
+									</div>
+									<div class="col-md-4">
+										<label for="CIS_img_{{$CIS_count}}" class="col-form-label">Icon</label>
+										<input class="form-control" type="file" name="CIS_img_{{$CIS_count}}" id="CIS_img_{{$CIS_count}}" onchange="CInfoImgChange('{{$CIS_count}}')" />
+										<input class="form-control d-none" type="text" name="CIS_img_old_{{$CIS_count}}" id="CIS_img_old_{{$CIS_count}}" value="{{ $corporate_info->CIS_img }}" />
+									</div>
 									<div class="space-20"></div>
-								
-								<div class="col-md-4">
-									<label for="CIS_title_1" class="col-form-label">ENG Title</label>
-									<input type="text" class="form-control" id="CIS_title_1">
-
-									<label for="CIS_title_MM_1" class="col-form-label">MM Title</label>
-									<input type="text" class="form-control" id="CIS_title_MM_1">
-								</div>
-								<div class="col-md-4">
-									<label for="CIS_desc_1" class="col-form-label">ENG Desc</label>
-									<input type="text" class="form-control" id="CIS_desc_1">
-
-									<label for="CIS_desc_MM_1" class="col-form-label">MM Desc</label>
-									<input type="text" class="form-control" id="CIS_desc_MM_1">
-								</div>
-								<div class="col-md-4">
-									<label for="CIS_img_1" class="col-form-label">Img</label>
-									<input class="form-control" type="file" name="CIS_img_1" id="CIS_img_1" />
-								</div>
-
-								<div class="space-20"></div>
-								
-								<label for="image_break" class="col-md-2 col-form-label">Image</label>
-								
-								<input type="hidden" name="image_break_old" id="image_break_old" value="{{$page_data->image_break}}">
-
-								<div class="space-20"></div>
-
-								<div class="col-md-12" style="margin-bottom: 10px;">
-									<label for="second_text" class="col-form-label">Section Information 2</label>
-									<textarea class="form-control" id="second_text" name="second_text" rows="3" spellcheck="false" >{{$page_data->second_text}}</textarea>
-								</div>
+									<hr>
+									@php $CIS_count = $CIS_count + 1; @endphp
+								@endforeach
 							</div>
 						</div>
 					</div>
@@ -469,6 +430,10 @@
 		$("#image_break").change(function() {
 			$("#image_break_old").val('');
 		});
+
+		function CInfoImgChange(CInfoCount) {
+			$("#CIS_img_old_" + CInfoCount).val("");
+		}
 	</script>
 </body>
 </html>

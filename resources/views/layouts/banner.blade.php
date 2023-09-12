@@ -579,6 +579,7 @@
 			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking') }}" style="color: #666;">PERSONAL BANKING</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/insurance') }}" style="color: #666;">INSURANCE</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/insurance/general') }}" style="color: #666;text-transform: uppercase;">General Insurance</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #A5000B;">HEALTH INSURANCE</span>
 			</p>
@@ -636,6 +637,7 @@
 			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking') }}" style="color: #666;">PERSONAL BANKING</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/insurance') }}" style="color: #666;">INSURANCE</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/insurance/general') }}" style="color: #666;text-transform: uppercase;">General Insurance</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #A5000B;">MOTOR INSURANCE</span>
 			</p>
@@ -687,6 +689,7 @@
 			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking') }}" style="color: #666;">PERSONAL BANKING</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/insurance') }}" style="color: #666;">INSURANCE</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/insurance/general') }}" style="color: #666;text-transform: uppercase;">General Insurance</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #A5000B;">FIRE INSURANCE</span>
 			</p>
@@ -738,6 +741,7 @@
 			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking') }}" style="color: #666;">PERSONAL BANKING</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/insurance') }}" style="color: #666;">INSURANCE</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/insurance/general') }}" style="color: #666;text-transform: uppercase;">General Insurance</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #A5000B;">PERSONAL ACCIDENT INSURANCE</span>
 			</p>
@@ -789,6 +793,7 @@
 			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking') }}" style="color: #666;">PERSONAL BANKING</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/insurance') }}" style="color: #666;">INSURANCE</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/insurance/general') }}" style="color: #666;text-transform: uppercase;">General Insurance</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/insurance/travel') }}" style="color: #666;">TRAVEL INSURANCE</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #A5000B;">AYA GO TRAVEL INSURANCE</span>
@@ -841,6 +846,7 @@
 			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking') }}" style="color: #666;">PERSONAL BANKING</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/insurance') }}" style="color: #666;">INSURANCE</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/insurance/general') }}" style="color: #666;text-transform: uppercase;">General Insurance</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/insurance/travel') }}" style="color: #666;">TRAVEL INSURANCE</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #A5000B;">AYA JOY TRAVEL INSURANCE</span>
@@ -2732,6 +2738,108 @@
 						</h1>
 						<h1 style="font-size: 15px;font-weight: 400;">
 							Group Life Insurance provides life and total permanent disability coverage for employees of your organization.
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
+
+@if($page == 'bu_motor_insurance')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/business-banking') }}" style="color: #666;">BUSINESS BANKING</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/business-banking/insurance') }}" style="color: #666;">INSURANCE</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #A5000B;">MOTOR INSURANCE</span>
+			</p>
+		</div>
+	</div>
+	<div class="motor_ins_banner ins_banner_bg">
+		<div class="container">
+			<div class="d-none d-sm-block">
+				<div class="row">
+					<div class="col-md-6 family_img_div">
+						<img src="{{ url('/images/insurance/motor/family.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-6 tagline_div">
+						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Motor<br>Insurance</h1>
+						<hr style="height: 5px;color: #A5000B;width: 20%;margin: 0px 0px 20px 0px;">
+						<h1 style="font-size: 15px;font-weight: 400;">
+							Uncertainties are nature of our life and even the road trips can be stressful for you.
+						</h1>
+						<h1 style="font-size: 15px;font-weight: 400;">
+							Protect yourself and those that matter to you from losses resulting from unforeseen accidents. A motor insurance with a full range of protection features that keep up with your needs is all you need.
+						</h1>
+					</div>
+				</div>
+			</div>
+			<div class="d-block d-sm-none">
+				<div class="row">
+					<div class="col-md-6" style="padding-top: 20px;">
+						<img src="{{ url('/images/insurance/motor/family.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
+						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Motor Insurance</h1>
+						<hr style="height: 5px;color: #A5000B;width: 45%;margin: 0px 0px 20px 0px;">
+						<h1 style="font-size: 15px;font-weight: 400;">
+							Uncertainties are nature of our life and even the road trips can be stressful for you.
+						</h1>
+						<h1 style="font-size: 15px;font-weight: 400;">
+							Protect yourself and those that matter to you from losses resulting from unforeseen accidents. A motor insurance with a full range of protection features that keep up with your needs is all you need.
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
+
+@if($page == 'bu_fire_insurance')
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/business-banking') }}" style="color: #666;">BUSINESS BANKING</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/business-banking/insurance') }}" style="color: #666;">INSURANCE</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #A5000B;">FIRE INSURANCE</span>
+			</p>
+		</div>
+	</div>
+	<div class="fire_ins_banner ins_banner_bg">
+		<div class="container">
+			<div class="d-none d-sm-block">
+				<div class="row">
+					<div class="col-md-6 family_img_div">
+						<img src="{{ url('/images/insurance/fire/family.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-6 tagline_div" >
+						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Fire<br>Insurance</h1>
+						<hr style="height: 5px;color: #A5000B;width: 20%;margin: 0px 0px 20px 0px;">
+						<h1 style="font-size: 15px;font-weight: 400;">
+							Shield your property and business investments from financial losses arising from damage ranging from fire, explosions, and natural disasters.
+						</h1>
+						<h1 style="font-size: 15px;font-weight: 400;">
+							With Fire Insurance, you and your assets are well covered for whatever it is come. 
+						</h1>
+					</div>
+				</div>
+			</div>
+			<div class="d-block d-sm-none">
+				<div class="row">
+					<div class="col-md-6" style="padding-top: 20px;">
+						<img src="{{ url('/images/insurance/fire/family.png') }}" class="img-fluid">
+					</div>
+					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
+						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Fire Insurance</h1>
+						<hr style="height: 5px;color: #A5000B;width: 45%;margin: 0px 0px 20px 0px;">
+						<h1 style="font-size: 15px;font-weight: 400;">
+							Shield your property and business investments from financial losses arising from damage ranging from fire, explosions, and natural disasters.
+						</h1>
+						<h1 style="font-size: 15px;font-weight: 400;">
+							With Fire Insurance, you and your assets are well covered for whatever it is come. 
 						</h1>
 					</div>
 				</div>
