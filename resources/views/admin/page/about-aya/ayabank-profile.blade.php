@@ -415,21 +415,35 @@
 							<div class="mb-3 row">
 								<h4>Section Update</h4>
 								<div class="col-md-12" style="margin-bottom: 10px;">
-									<label for="corporate_info_title" class="col-form-label">Title</label>
-									<textarea class="form-control" id="corporate_info_title" name="corporate_info_title" rows="3" spellcheck="false" >{{$page_data->corporate_info_title}}</textarea>
+									<label for="corporate_info_title" class="col-form-label">Section Title</label>
+									<input type="text" class="form-control" id="corporate_info_title" name="corporate_info_title" value="{{$page_data->corporate_info_title}}">
+								</div>
 									
 									<div class="space-20"></div>
-									
-									<label for="first_3_col_text" class="col-form-label">MM Title</label>
-									<input type="text" class="form-control">
+								
+								<div class="col-md-4">
+									<label for="CIS_title_1" class="col-form-label">ENG Title</label>
+									<input type="text" class="form-control" id="CIS_title_1">
 
+									<label for="CIS_title_MM_1" class="col-form-label">MM Title</label>
+									<input type="text" class="form-control" id="CIS_title_MM_1">
+								</div>
+								<div class="col-md-4">
+									<label for="CIS_desc_1" class="col-form-label">ENG Desc</label>
+									<input type="text" class="form-control" id="CIS_desc_1">
 
+									<label for="CIS_desc_MM_1" class="col-form-label">MM Desc</label>
+									<input type="text" class="form-control" id="CIS_desc_MM_1">
+								</div>
+								<div class="col-md-4">
+									<label for="CIS_img_1" class="col-form-label">Img</label>
+									<input class="form-control" type="file" name="CIS_img_1" id="CIS_img_1" />
 								</div>
 
 								<div class="space-20"></div>
 								
 								<label for="image_break" class="col-md-2 col-form-label">Image</label>
-								<input class="form-control" type="file" name="image_break" id="image_break" />
+								
 								<input type="hidden" name="image_break_old" id="image_break_old" value="{{$page_data->image_break}}">
 
 								<div class="space-20"></div>
