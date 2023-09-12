@@ -794,7 +794,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking') }}" style="color: #666;">PERSONAL BANKING</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/insurance') }}" style="color: #666;">INSURANCE</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/insurance/general') }}" style="color: #666;text-transform: uppercase;">General Insurance</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/insurance/travel') }}" style="color: #666;">TRAVEL INSURANCE</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/insurance/general/travel') }}" style="color: #666;">TRAVEL INSURANCE</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #A5000B;">AYA GO TRAVEL INSURANCE</span>
 			</p>
@@ -847,7 +847,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking') }}" style="color: #666;">PERSONAL BANKING</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/insurance') }}" style="color: #666;">INSURANCE</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/insurance/general') }}" style="color: #666;text-transform: uppercase;">General Insurance</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/insurance/travel') }}" style="color: #666;">TRAVEL INSURANCE</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/insurance/general/travel') }}" style="color: #666;">TRAVEL INSURANCE</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<span style="color: #A5000B;">AYA JOY TRAVEL INSURANCE</span>
 			</p>

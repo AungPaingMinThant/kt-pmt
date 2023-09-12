@@ -34,10 +34,18 @@
                     <span class="text-capitalize">{{$header_title}}</span>
                 </p>
             @endif
-            @if($page == 'personal_banking_life_ins' || $page == 'personal_banking_travel_ins')
+            @if($page == 'personal_banking_life_ins')
                 <p>
                     <a class="f-body-color" href="{{ url('/personal-banking') }}">Personal Banking</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
                     <a class="f-body-color" href="{{ url('/personal-banking/insurance') }}">Insurance</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+                    <span class="text-capitalize">{{$header_title}}</span>
+                </p>
+            @endif
+            @if($page == 'personal_banking_travel_ins')
+                <p>
+                    <a class="f-body-color" href="{{ url('/personal-banking') }}">Personal Banking</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+                    <a class="f-body-color" href="{{ url('/personal-banking/insurance') }}">Insurance</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+                    <a class="f-body-color" href="{{ url('/personal-banking/insurance/general') }}">General Insurance</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
                     <span class="text-capitalize">{{$header_title}}</span>
                 </p>
             @endif
