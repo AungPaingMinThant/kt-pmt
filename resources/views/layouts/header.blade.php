@@ -183,29 +183,29 @@
 												<div class="row">
 													<div class="col-md-12">
 														<p class="fw-bold">
-															<a href="{{ url('/personal-banking/insurance') }}">GENERAL INSURANCE</a>
+															<a href="{{ url('/personal-banking/insurance/general') }}">GENERAL INSURANCE</a>
 														</p>
 													</div>
 													<div class="col-md-4">
 														<p class="m-b-5">
-															<a href="{{ url('/personal-banking/insurance/health') }}">Health Insurance</a>
+															<a href="{{ url('/personal-banking/insurance/general/health') }}">Health Insurance</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/personal-banking/insurance/motor') }}">Motor Insurance</a>
+															<a href="{{ url('/personal-banking/insurance/general/motor') }}">Motor Insurance</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/personal-banking/insurance/fire') }}">Fire Insurance</a>
+															<a href="{{ url('/personal-banking/insurance/general/fire') }}">Fire Insurance</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/personal-banking/insurance/personal-accident') }}">Personal Accident Insurance</a>
+															<a href="{{ url('/personal-banking/insurance/general/personal-accident') }}">Personal Accident Insurance</a>
 														</p>
 													</div>
 													<div class="col-md-5">
 														<p class="m-b-5">
-															<a href="{{ url('/personal-banking/insurance/travel/aya-go') }}">AYA Go Travel Insurance</a>
+															<a href="{{ url('/personal-banking/insurance/general/travel/aya-go') }}">AYA Go Travel Insurance</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/personal-banking/insurance/travel/aya-joy') }}">AYA Joy Travel Insurance</a>
+															<a href="{{ url('/personal-banking/insurance/general/travel/aya-joy') }}">AYA Joy Travel Insurance</a>
 														</p>
 													</div>
 													<div class="space-20"></div>
@@ -1003,42 +1003,42 @@
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-3">
-										GENERAL INSURANCE
+										<a href="{{ url('/personal-banking/insurance/general') }}">GENERAL INSURANCE</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20 mt-2">
-										<a href="{{ url('/personal-banking/insurance/health') }}">Health Insurance</a>
+										<a href="{{ url('/personal-banking/insurance/general/health') }}">Health Insurance</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/personal-banking/insurance/motor') }}">Motor Insurance</a>
+										<a href="{{ url('/personal-banking/insurance/general/motor') }}">Motor Insurance</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/personal-banking/insurance/fire') }}">Fire Insurance</a>
+										<a href="{{ url('/personal-banking/insurance/general/fire') }}">Fire Insurance</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/personal-banking/insurance/personal-accident') }}">Personal Accident Insurance</a>
+										<a href="{{ url('/personal-banking/insurance/general/personal-accident') }}">Personal Accident Insurance</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20 m-l-20">
-										<a href="{{ url('/personal-banking/insurance/travel/aya-go') }}">AYA Go Travel Insurance</a>
+										<a href="{{ url('/personal-banking/insurance/general/travel/aya-go') }}">AYA Go Travel Insurance</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-l-20 mb-20">
-										<a href="{{ url('/personal-banking/insurance/travel/aya-joy') }}">AYA Joy Travel Insurance</a>
+										<a href="{{ url('/personal-banking/insurance/general/travel/aya-joy') }}">AYA Joy Travel Insurance</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-3">
-										LIFE INSURANCE
+										<a href="{{ url('/personal-banking/insurance/life') }}">LIFE INSURANCE</a>
 									</p>
 								</li>
 								<li>
