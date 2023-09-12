@@ -31,7 +31,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title">Fire Insurance</h5>
                                         <p class="card-text">
-                                            <a class="theme_text_color" href="{{ url('/personal-banking/insurance/fire') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                            <a class="theme_text_color" href="{{ url('/business/insurance/fire') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                                         </p>
                                     </div>
                                 </div>
@@ -42,22 +42,22 @@
                                     <div class="card-body">
                                         <h5 class="card-title">Motor Insurance</h5>
                                         <p class="card-text">
-                                            <a class="theme_text_color" href="{{ url('/personal-banking/insurance/motor') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                            <a class="theme_text_color" href="{{ url('/business/insurance/motor') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 px-3 mb-40">
+                            {{-- <div class="col-md-4 px-3 mb-40">
                                 <div class="card h-100 sitemap_card">
                                     <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
                                     <div class="card-body">
                                         <h5 class="card-title">Motor Insurance</h5>
                                         <p class="card-text">
-                                            <a class="theme_text_color" href="{{ url('/personal-banking/insurance/motor') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                            <a class="theme_text_color" href="{{ url('/business/insurance/motor') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                                         </p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
                             <div class="col-md-4 px-3 mb-40">
                                 <div class="card h-100 sitemap_card">
                                     <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />

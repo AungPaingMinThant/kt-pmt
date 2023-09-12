@@ -211,6 +211,12 @@
 											<div class="col-md-11 col-10 secure_credit_fact">
 												<p>100% cash out at any AYA Branches using the secure transaction code (PIN).</p>
 											</div>
+											<div class="col-12" style="margin-top: 20px;">
+												<p class="swiftcode_txt">
+													AYA BANK SWIFT CODE	&nbsp;&nbsp;&nbsp;: 
+													<b class="text" style="color: brown; border:none; font-weight:bold; background-color:white; padding-left:1rem;">AYABMMMY</b>
+												</p>
+											</div>
 										</div>
 									</div>
 								</div>

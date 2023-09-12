@@ -284,7 +284,7 @@
 								<img src="{{ url('/images/bullet_square.jpg') }}" class="img-fluid life_at_aya_bullet_square">
 							</div>
 							<div class="col-11">
-								<p class="work-life-balance-fact"><b>Cost of Living Allowance (COLA) program</b> to help our employees cope with unexpected hardships that place undue financial stress on them and their families.</p>
+								<p class="work-life-balance-fact"><b>Cost of Living Support Program</b> to help our employees cope with unexpected hardships that place undue financial stress on them and their families.</p>
 							</div>
 						</div>
 						<div class="row">
