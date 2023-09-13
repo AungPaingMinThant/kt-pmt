@@ -323,6 +323,8 @@ Route::get('/about-aya/sustainability/our-approach', 'App\Http\Controllers\SiteM
 
 Route::get('/under-maintenance','App\Http\Controllers\SiteMapController@underMaintainIndex');
 Route::get('/privacy-notice-cookie-policy','App\Http\Controllers\SiteMapController@cookiePolicyIndex');
+Route::get('/about-aya/governance/compliance','App\Http\Controllers\SiteMapController@complianceIndex');
+
 
 // Redirect
 Route::get('/smefinancing ', function () {
