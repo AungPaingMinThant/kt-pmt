@@ -72,4 +72,5 @@ class EnquiryController extends Controller
 
         return redirect(url()->previous().'#success')->with('success', "Your request was successfully sent! We'll reach you soon!");
     }
+     
 }
