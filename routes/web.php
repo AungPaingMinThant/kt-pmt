@@ -221,7 +221,7 @@ Route::get('/about-aya/governance/risk-management/risk-management-control',
 	'App\Http\Controllers\AboutAYA\GovernanceController@riskMgmtControlIndex');
 Route::get('/about-aya/governance/risk-management/managing-risk','App\Http\Controllers\AboutAYA\GovernanceController@managingRiskIndex');
 
-Route::get('/about-aya/governance/compliance','App\Http\Controllers\AboutAYA\GovernanceController@complianceIndex');
+Route::get('/about-aya/governance/compliance/compliance','App\Http\Controllers\AboutAYA\GovernanceController@complianceIndex');
 Route::get('/about-aya/governance/compliance/aml-cft','App\Http\Controllers\AboutAYA\GovernanceController@AMLCFTIndex');
 
 Route::get('/about-aya/governance/corporate-governance','App\Http\Controllers\AboutAYA\GovernanceController@corporateGovernanceIndex');
@@ -323,6 +323,8 @@ Route::get('/about-aya/sustainability/our-approach', 'App\Http\Controllers\SiteM
 
 Route::get('/under-maintenance','App\Http\Controllers\SiteMapController@underMaintainIndex');
 Route::get('/privacy-notice-cookie-policy','App\Http\Controllers\SiteMapController@cookiePolicyIndex');
+Route::get('/about-aya/governance/compliance','App\Http\Controllers\SiteMapController@complianceIndex');
+
 
 // Redirect
 Route::get('/smefinancing ', function () {

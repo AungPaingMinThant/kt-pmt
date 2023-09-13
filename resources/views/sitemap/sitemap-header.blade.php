@@ -81,6 +81,13 @@
                     <span class="text-capitalize">{{$header_title}}</span>
                 </p>
             @endif
+            @if($page == 'compliance')
+                <p>
+                    <a class="f-body-color" href="{{ url('/about-aya') }}">About AYA</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+                    <a class="f-body-color" href="{{ url('/about-aya/governance') }}">Governance</a> &nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+                    <span class="text-capitalize">{{$header_title}}</span>
+                </p>
+            @endif
         </div>
      </div>
  </div>

@@ -190,4 +190,8 @@ class SiteMapController extends Controller
     {
         return view('sitemap.about-aya.our-approach');
     }
+
+    public function complianceIndex(){
+        return view('sitemap.about-aya.compliance-page');
+    }
 }
