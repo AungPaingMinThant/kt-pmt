@@ -31,7 +31,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Stakeholder Management</h5>
                                     <p class="card-text">
-                                        <a class="theme_text_color" href="{{ url('/about-aya/who-we-are/our-strategies/corporate-strategy') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                        <a class="theme_text_color" href="{{ url('/about-aya/who-we-are/our-strategies/stakeholder-management') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                                     </p>
                                 </div>
                             </div>

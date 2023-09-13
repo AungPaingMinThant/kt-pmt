@@ -16,7 +16,7 @@
                     <div class="row">
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/acc_saving/saving-deposit/mobile_KV.jpg') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/business/account-saving/saving-deposit/mobile_KV.jpg') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">Saving Deposite</h5>
                                     <p class="card-text">
@@ -27,18 +27,18 @@
                         </div>
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/acc_saving/call_deposit/mobile_KV.jpg') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/business/account-saving/call-deposit/mobile_KV.jpg') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">Call Deposite</h5>
                                     <p class="card-text">
-                                        <a class="theme_text_color" href="{{ url('/business/account-saving/saving-deposit') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                        <a class="theme_text_color" href="{{ url('/business/account-saving/call-deposit') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/acc_saving/current_deposit/mobile_KV_2.jpg') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/business/account-saving/current-deposit/mobile_KV.jpg') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">Current Deposit</h5>
                                     <p class="card-text">
@@ -49,7 +49,7 @@
                         </div>
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/acc_saving/fixed-deposit/mobile_KV.jpg') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/business/account-saving/fixed-deposit/mobile_KV.jpg') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">Fixed Deposite</h5>
                                     <p class="card-text">
