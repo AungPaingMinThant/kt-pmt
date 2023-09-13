@@ -10,9 +10,8 @@
             @include('layouts.header', ['page'=>'about-aya'])
             <div class="menu-overlay"></div>
             <div>
-                {{-- @include('sitemap.sitemap-header', ['header_title'=>'Card Services', 'page'=>'digital_card_services']) --}}
-                
-                @include('sitemap.sitemap-header', ['header_title'=>'Compliance', 'page'=>'who_we_are'])
+            
+                @include('sitemap.sitemap-header', ['header_title'=>'Compliance', 'page'=>'compliance'])
 
                 <div class="container y-4">
                     <div class="row">
@@ -22,7 +21,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Compliance</h5>
                                     <p class="card-text">
-                                        <a class="theme_text_color" href="{{ url('/about-aya/governance/compliance') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                        <a class="theme_text_color" href="{{ url('/about-aya/governance/compliance/compliance') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                                     </p>
                                 </div>
                             </div>

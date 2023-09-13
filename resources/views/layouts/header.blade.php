@@ -696,7 +696,7 @@
 															COMPLIANCE
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/about-aya/governance/compliance') }}">Compliance</a>
+															<a href="{{ url('/about-aya/governance/compliance/compliance') }}">Compliance</a>
 														</p>
 														<p class="mb-20">
 															<a href="{{ url('/about-aya/governance/compliance/aml-cft') }}">Implementations of AML/CFT</a>
@@ -1507,7 +1507,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/about-aya/governance/compliance') }}">Compliance</a>
+										<a href="{{ url('/about-aya/governance/compliance/compliance') }}">Compliance</a>
 									</p>
 								</li>
 								<li>
