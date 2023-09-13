@@ -114,9 +114,19 @@
 												@foreach($branch_list as $bl)
 													<tr valign="top">
 														<td style="font-size: 12px;text-align: center;">{{ $bl_count }}</td>
-														<td style="font-size: 12px;">{{ $bl->region }}</td>
-														<td style="font-size: 12px;">{{ $bl->name }}</td>
-														<td style="font-size: 12px;">{{ $bl->list_address }}</td>
+														<td style="font-size: 12px;">
+															{{ $bl->region }}
+														</td>
+														<td style="font-size: 12px;">
+															{{ $bl->name }}
+														</td>
+														<td style="font-size: 12px;">
+															@if($bl->list_address == 'No- (82), U Paing No-(218), Lanmadaw (North) Ward, Daik Inn Kwin (Kha), Zalun Township, Ayeyarwady Division' || $bl->list_address == 'U Paing No- (135), Coner of Kyun Oo Road & Strand Road, (1) Ward, Thabaung Township, Ayeyarwady Division')
+																<a href="https://www.google.com/maps/search/?api=1&query=AYA Bank {{$bl->name}} Branch, {{ $bl->list_address }}" target="_blank" style="text-decoration: underline;">{{ $bl->list_address }}</a>
+															@else
+																{{ $bl->list_address }}
+															@endif
+														</td>
 														<td style="font-size: 12px;">
 															{{ str_replace(",",", ",$bl->telephone) }}
 														</td>
@@ -212,9 +222,20 @@
 													location_table_html += 	'<tr valign="top">'+
 																				'<td style="font-size: 12px;text-align: center;">'+ (blist + 1) +'</td>'+
 																				'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['region']+'</td>'+
-																				'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['name']+'</td>'+
-																				'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['list_address']+'</td>'+
-																				'<td style="font-size: 12px;">'+ data['data']['branch_list'][blist]['telephone'].replace(",", ", ")+'</td>'+
+																				'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['name']+'</td>';
+																				if (data['data']['branch_list'][blist]['list_address'] == 'No- (82), U Paing No-(218), Lanmadaw (North) Ward, Daik Inn Kwin (Kha), Zalun Township, Ayeyarwady Division' || data['data']['branch_list'][blist]['list_address'] == 'No- (22), Du Ti Ya Street, (6) Ward, Pyapon Township, Ayeyarwady Division') {
+																					location_table_html += 	'<td style="font-size: 12px;">'+
+																						'<a href="https://www.google.com/maps/search/?api=1&query=AYA Bank '+data['data']['branch_list'][blist]['name']+' Branch, '+data['data']['branch_list'][blist]['list_address']+'" target="_blank" style="text-decoration: underline;">'+data['data']['branch_list'][blist]['list_address'];
+																					'</td>';
+																				} else {
+																					location_table_html += 	'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['list_address']+'</td>';
+																				}
+
+
+
+
+																				
+													location_table_html +='<td style="font-size: 12px;">'+ data['data']['branch_list'][blist]['telephone'].replace(",", ", ")+'</td>'+
 																				'<td style="font-size: 12px;">'+ data['data']['branch_list'][blist]['fax']+'</td>'+
 																			'</tr>';
 												}
