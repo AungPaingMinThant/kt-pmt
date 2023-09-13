@@ -41,22 +41,11 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Compliance</h5>
                                     <p class="card-text">
-                                        <a class="theme_text_color" href="{{ url('/about-aya/governance/compli') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                        <a class="theme_text_color" href="{{ url('/about-aya/governance/compliance-page') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 px-3 mb-40">
-                            <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/about-aya/aml-cft/mobile_KV.webp') }}" alt="Card image cap" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Implementations of AML/CFT</h5>
-                                    <p class="card-text">
-                                        <a class="theme_text_color" href="{{ url('/about-aya/governance/compliance/aml-cft') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>   
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
                                 <img class="card-img-top" src="{{ url('/images/about-aya/risk-management/mobile_KV.webp') }}" alt="Card image cap" />

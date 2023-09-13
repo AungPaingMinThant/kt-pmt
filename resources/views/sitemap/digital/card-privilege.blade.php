@@ -1,6 +1,6 @@
 @extends('layouts.frontend-app')
 
-@section('title', 'Card Privilege – AYA Bank')
+@section('title', 'Compliance – AYA Bank')
 <link rel="stylesheet" href="{{ url('/css/site-map.css') }}" />
 
 @section('content')
