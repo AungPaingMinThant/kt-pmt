@@ -16,7 +16,7 @@
                     <div class="row">
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/about-aya/sustainability/mobile_KV.webp') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">Our Commitment</h5>
                                     <p class="card-text">
@@ -38,7 +38,7 @@
                         </div>
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/about-aya/sustainability/corporate-social-responsibility/mobile_KV.webp') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">Corporate Social Responsibility</h5>
                                     <p class="card-text">

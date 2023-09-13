@@ -27,7 +27,7 @@
                         </div>
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/KV_credit_mobile.jpg') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">Credit Card</h5>
                                     <p class="card-text">
@@ -44,7 +44,7 @@
                             </p> -->
                             <div class="col-md-4 px-3 mb-40">
                                 <div class="card h-100 sitemap_card">
-                                    <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                    <img class="card-img-top" src="{{ url('/images/prepaid/mobile_KV.jpg') }}" alt="Card image cap" />
                                     <div class="card-body">
                                         <h5 class="card-title">Prepaid Card</h5>
                                         <p class="card-text">
@@ -59,18 +59,18 @@
                                     <div class="card-body">
                                         <h5 class="card-title">Debit Card</h5>
                                         <p class="card-text">
-                                            <a class="theme_text_color" href="{{ url('/digital-services/card-services/prepaid-card') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                            <a class="theme_text_color" href="{{ url('/digital-services/card-services/debit-card') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                                         </p>
                                     </div>
                                 </div>
                             </div>                         
                             <div class="col-md-4 px-3 mb-40">
                                 <div class="card h-100 sitemap_card">
-                                    <img class="card-img-top" src="{{ url('/images/prepaid/mobile_KV.jpg') }}" alt="Card image cap" />
+                                    <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
                                     <div class="card-body">
                                         <h5 class="card-title">Card Privilege</h5>
                                         <p class="card-text">
-                                            <a class="theme_text_color" href="{{ url('/digital-services/card-services/prepaid-card') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                            <a class="theme_text_color" href="{{ url('/digital-services/card-services/card-privilege') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                                         </p>
                                     </div>
                                 </div>
