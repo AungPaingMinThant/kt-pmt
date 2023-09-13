@@ -121,7 +121,7 @@
 									</p>
 									
 									<p>This process analyzes the Bank’s long-term talent needs in the context of business goals and encompasses step by step activities of Identification of Talent Requirement, Talent Sourcing, Preliminary Screening, Talent Assessments & Personal Interview(s), Talent Selection, Offer Issuing & Negotiation, Pre-Onboarding Activities and Onboarding.</p>
-									<p>Please find the policy file <a href="{{ url('/file/about-aya/corporate-policies/Talent-Acquisition-Process.pdf') }}" target="_blank">here</a>.</p>
+									<p>Details of ‘Talent Acquisition Process’ can be found <a href="{{ url('/file/about-aya/corporate-policies/Talent-Acquisition-Process.pdf') }}" target="_blank">here</a>.</p>
 								</div>
 							</div>
 							<div class="space-10"></div>
