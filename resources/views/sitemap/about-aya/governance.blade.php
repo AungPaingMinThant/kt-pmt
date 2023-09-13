@@ -11,7 +11,6 @@
             <div class="menu-overlay"></div>
             <div>
                 @include('sitemap.sitemap-header', ['header_title'=>'Governance', 'page'=>'governance'])
-
                 <div class="container y-4">
                     <div class="row">
                         <div class="col-md-4 px-3 mb-40">
@@ -42,7 +41,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Compliance</h5>
                                     <p class="card-text">
-                                        <a class="theme_text_color" href="{{ url('/about-aya/governance/compliance') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                        <a class="theme_text_color" href="{{ url('/about-aya/governance/compli') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                                     </p>
                                 </div>
                             </div>
