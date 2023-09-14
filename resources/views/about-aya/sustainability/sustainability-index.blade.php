@@ -118,7 +118,7 @@
 								<p class="social_sustainability_CTA_tagline">Our Unwavering Pledge to a Sustainable Future</p>
 							</div>
 							<div class="card-body">
-								<p class="card-title fw-semibold mb-20" style="font-size: 16px;">Social Sustainability</p>
+								<a href="{{ url ('about-aya/sustainability/our-approach/social-sustainability')}}"><p class="card-title fw-semibold mb-20" style="font-size: 16px;">Social Sustainability</p></a>
 								<p class="card_detail_info mb-30">We are dedicated to expressing our commitment towards playing our part in crafting a sustainable future. Social sustainability serves as an indicator of community welfare and expanding opportunities for everyone, now and in the future. This encompasses fostering a workplace that is respectful, collaborative, and inclusive, promoting professional growth and development, and enabling us to attract, retain, and engage employees effectively.</p>
 
 								<p class="text-decoration-underline">
@@ -138,7 +138,7 @@
 							<img src="{{ url('/images/about-aya/sustainability/environmental_sustainability.webp') }}" alt="Environmental Sustainability" class="card-img-top">
 							<p class="environmental_sustainability_CTA_tagline">Save the Environment, Save our Future!</p>
 							<div class="card-body">
-								<p class="card-title fw-semibold mb-20" style="font-size: 16px;">Environmental Sustainability</p>
+								<a href="{{ url ('about-aya/sustainability/our-approach/environmental-sustainability')}}"><p class="card-title fw-semibold mb-20" style="font-size: 16px;">Environmental Sustainability</p></a>
 								<p class="card-title fw-semibold mb-20">
 									Reaffirming our Commitment</a>
 								</p>
@@ -170,7 +170,7 @@
 							<img src="{{ url('/images/about-aya/sustainability/economic_sustainability.webp') }}" alt="Economic Sustainability" class="card-img-top">
 							<p class="economic_sustainability_CTA_tagline">Embracing Economic Sustainability: Responsible, Ethical, and Profitable Business Practices</p>
 							<div class="card-body">
-								<p class="card-title fw-semibold mb-20" style="font-size: 16px;">Economic Sustainability</p>
+								<a href="{{ url ('about-aya/sustainability/our-approach/environmental-sustainability')}}"<p class="card-title fw-semibold mb-20" style="font-size: 16px;">Economic Sustainability</p></a>
 								<p class="card_detail_info mb-30">We firmly believe that the essence of economic sustainability in business involves conducting our operations responsibly, optimizing our bottom line without inflicting harm on the environment and society that surround us. It is our mission to create a business model that is not only profitable for the Bank but also holds itself accountable, adheres to ethical standards, and contributes positively to society and the environment.</p>
 
 								<p class="text-decoration-underline">
