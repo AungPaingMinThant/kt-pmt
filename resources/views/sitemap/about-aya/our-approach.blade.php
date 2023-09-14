@@ -16,7 +16,7 @@
                     <div class="row">
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/about-aya/sustainability/social_sustainability.webp') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">Social Sustainability</h5>
                                     <p class="card-text">
@@ -27,7 +27,7 @@
                         </div>
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/about-aya/sustainability/environmental_sustainability.webp') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">Environmental Sustainability</h5>
                                     <p class="card-text">
@@ -38,7 +38,7 @@
                         </div>
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/about-aya/sustainability/economic_sustainability.webp') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">Economic Sustainability</h5>
                                     <p class="card-text">
