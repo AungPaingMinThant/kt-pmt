@@ -393,7 +393,6 @@
 									<div class="col-md-4">
 										<label for="CIS_title_{{$CIS_count}}" class="col-form-label">ENG Title</label>
 										<input type="text" class="form-control" id="CIS_title_{{$CIS_count}}" value="{{$corporate_info->CIS_title}}">
-
 										<label for="CIS_title_MM_{{$CIS_count}}" class="col-form-label">MM Title</label>
 										<input type="text" class="form-control" id="CIS_title_MM_{{$CIS_count}}" value="{{$corporate_info->CIS_title}}">
 									</div>
