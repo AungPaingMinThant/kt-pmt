@@ -158,6 +158,94 @@
 @include('layouts.footer', ['page'=>''])
 
 <script type="text/javascript">
+    var cur_url = window.location.href;
+    var parts = cur_url.split('#');
+    var last_part = parts.at(-1);
+
+    $("#radio-1").click(function(){
+        $("#bod_tab").click();
+    });
+    $("#radio-2").click(function(){
+        $("#emt_tab").click();
+    });
+
+    var _changeInterval = null;
+
+    document.addEventListener('keypress', (event)=>{
+        let keyCode = event.keyCode ? event.keyCode : event.which;
+        if(keyCode === 13) {
+            $("#button-addon2").click();
+        }
+    });
+
+	$("#button-addon2").click(function(){
+    var search_value = $("#search_value").val();
+    var show_entries = $("#show_entries").val();
+    var location_table_html;
+
+    if (!search_value || search_value.trim() === "") {
+        show_entries = "0"; // Set show_entries to '0' for "All"
+        $("#show_entries").value(show_entries); // Update the select element
+    	}
+        $(".location_table").addClass('d-none');
+        $(".location_loader").removeClass('d-none');
+		
+        $.ajax({
+            type:'POST',
+            url:"{{ url('/about-aya/network/atm-locations-search-value')}}",
+            headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+            data:{search_value:search_value,show_entries:show_entries},
+            success:function(data){
+                location_table_html = '<table class="table table-borderless location_table search_table">'+
+                                            '<thead>'+
+                                                '<tr valign="middle">'+
+                                                    '<td class="py-3" style="font-size: 12px;width: 1%;background-color: #f8fa4f;">No</td>'+
+                                                    '<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #fbb831;">Region</td>'+
+                                                    '<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #fb7e1c;">Township</td>'+
+                                                    '<td class="py-3 f-white" style="font-size: 12px;width: 14%;background-color: #f04223;">Location / Branch</td>'+
+                                                    '<td class="py-3 f-white" style="font-size: 12px;width: 25%;background-color: #bc1e6a;">Address</td>'+
+                                                '</tr>'+
+                                            '</thead>'+
+                                            '<tbody class="table-border-bottom-0" style="background-color: #f5f5f5;">';
+                                                for (var blist = 0; blist < data['data']['branch_list'].length; blist++) {
+                                                    location_table_html +=     '<tr valign="top">'+
+                                                                                '<td style="font-size: 12px;">'+ (blist + 1) +'</td>'+
+                                                                                '<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['region']+'</td>'+
+                                                                                '<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['township']+'</td>'+
+                                                                                '<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['name']+'</td>'+
+                                                                                '<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['list_address']+'</td>'+
+                                                                            '</tr>';
+                                                }
+                                                    
+                                                
+                                            location_table_html +='</tbody>'+
+                                        '</table>';
+
+                $(".location_table_html").append(location_table_html);
+                $(".location_loader").addClass('d-none');
+                $("#show_entries").addClass('d-none');
+                $(".search_show_entries").removeClass('d-none');
+                $(".pagination").addClass('d-none');
+                $(".first_bl_count").text('1');
+                $(".last_bl_count").text(data['data']['branch_list'].length);
+                $(".total_branch").text(data['data']['branch_list'].length);
+
+                stop();
+
+            }
+
+        });
+    });
+
+    function stop() {
+        clearInterval(_changeInterval);
+    }
+	
+
+</script>
+
+
+{{-- <script type="text/javascript">
 	var cur_url = window.location.href;
 	var parts = cur_url.split('#');
 	var last_part = parts.at(-1);
@@ -182,7 +270,6 @@
 		var search_value = $("#search_value").val();
 		var show_entries = $("#show_entries").val();
 		var location_table_html;
-
     	$(".location_table").addClass('d-none');
 	    $(".location_loader").removeClass('d-none');
 
@@ -232,10 +319,11 @@
             }
         });
 	});
-	
+
 	function stop() {
         clearInterval(_changeInterval);
     }
-</script>
+</script> --}}
 
 @endsection('content')
+
