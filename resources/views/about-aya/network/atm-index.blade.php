@@ -187,8 +187,7 @@
         	show_entries = "0"; // Set show_entries to '0' for "All"
         	$("#show_entries").val(show_entries); // Update the select element
     	
-			}
-		
+			}	
         $(".location_table").addClass('d-none');
         $(".location_loader").removeClass('d-none');
 		
