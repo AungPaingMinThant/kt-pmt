@@ -113,9 +113,9 @@
             
             <div class="col-md-3 col-xs-12" style="padding-bottom: 20px;padding-top: -10px;padding-right: 0px;">
                 <h3 class="footer_like_title">Locations</h3>
-                <a class="footer_first_link_a" href="{{ url('/digital-services/atm') }}"><p class="footer_first_link">ATM</p></a>
-                <!-- <a class="footer_first_link_a" href="#"><p class="footer_first_link">Branch</p></a> -->
-                <!-- <a class="footer_first_link_a" href="#"><p class="footer_first_link">FX Counter</p></a> -->
+                <a class="footer_first_link_a" href="{{ url('/about-aya/network/atm-locations') }}"><p class="footer_first_link">ATM</p></a>
+                <a class="footer_first_link_a" href="{{ url('/about-aya/network/branch-locations') }}"><p class="footer_first_link">Branch</p></a>
+                <a class="footer_first_link_a" href="{{ url('/about-aya/network/fx-counter-locations') }}"><p class="footer_first_link">FX Counter</p></a>
             </div>
             <div class="col-md-3 col-xs-12" style="padding-bottom: 20px;padding-top: -10px;">
                 <h3 class="footer_like_title">Head Office</h3>

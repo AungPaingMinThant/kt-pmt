@@ -41,42 +41,6 @@
 										<tbody class="table-border-bottom-0">
 											<tr>
 												<td>1</td>
-												<td>Personal Banking</td>
-												<td></td>
-												<td>
-													<!-- <a href="{{ url('/admin/pagelist/personal-banking') }}">
-														<button type="button" class="btn btn-outline-primary">
-                              								<span class="tf-icons bx bx-right-arrow-alt"></span>&nbsp; 		
-                           								</button>
-                           							</a> -->
-												</td>
-											</tr>
-											<tr>
-												<td>2</td>
-												<td>Business Banking</td>
-												<td></td>
-												<td>
-													<!-- <a href="{{ url('/admin/pagelist/business-banking') }}">
-														<button type="button" class="btn btn-outline-primary">
-                              								<span class="tf-icons bx bx-right-arrow-alt"></span>&nbsp; 		
-                           								</button>
-                           							</a> -->
-												</td>
-											</tr>
-											<tr>
-												<td>3</td>
-												<td>Digital Services</td>
-												<td></td>
-												<td>
-													<!-- <a href="{{ url('/admin/pagelist/digital-services') }}">
-														<button type="button" class="btn btn-outline-primary">
-                              								<span class="tf-icons bx bx-right-arrow-alt"></span>&nbsp; 		
-                           								</button>
-                           							</a> -->
-												</td>
-											</tr>
-											<tr>
-												<td>4</td>
 												<td>About AYA</td>
 												<td></td>
 												<td>

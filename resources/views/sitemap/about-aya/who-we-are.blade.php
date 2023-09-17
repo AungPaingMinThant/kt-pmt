@@ -25,9 +25,6 @@
                                 </div>
                             </div>
                         </div>
-                            <!-- <p>
-                                <a class="f-body-color" href="{{ url('/about-aya/who-we-are/corporate-profile/ayabank-profile') }}">AYA Bank Profile <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p> -->
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
                                 <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
@@ -39,12 +36,9 @@
                                 </div>
                             </div>
                         </div>
-                           <!--  <p>
-                                <a class="f-body-color" href="{{ url('/about-aya/who-we-are/corporate-profile/mission-corporate-value-brand-promise') }}">Mission, Corporate Values And Brand Value <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p> -->
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/sitemap/our-strategies.webp') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">Our Strategies</h5>
                                     <p class="card-text">

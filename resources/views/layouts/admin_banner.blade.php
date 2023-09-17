@@ -18,8 +18,9 @@
 @if($page == 'aya_bank_profile')
 	@php
 		$banner = App\Models\AboutAYA\AyabankProfilePageConfigure::first();
+		$banner_link =  URL::to('/').'/'.$banner->banner;
 	@endphp
-	<div class="aya_bank_profile_banner banner_bg" style="background-image:url('../../../{{$banner->banner}}')">
+	<div class="aya_bank_profile_banner banner_bg" style="background-image:url('{{$banner_link}}')">
 		<div class="container" style="position: relative;">
 			<button class="btn banner_edit_btn" data-bs-toggle="modal" data-bs-target="#banner_modal">Edit Banner Section</button>
 			<div class="row d-none d-sm-block">

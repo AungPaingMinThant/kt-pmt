@@ -72,11 +72,42 @@ Route::post('/admin/mbanking/fact/update','App\Http\Controllers\Admin\AdminMBank
 
 // Admin About AYA
 Route::get('/admin/pagelist/about-aya','App\Http\Controllers\Admin\PageController@pageAboutAYAList');
-Route::get('/admin/pagelist/about-aya/ayabank-profile','App\Http\Controllers\Admin\PageController@pageAYAbankProfile');
+Route::get('/admin/pagelist/about-aya/ayabank-profile','App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@pageAYAbankProfile');
+Route::post('/admin/banner/update', 'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@bannerUpdate');
+Route::post('/admin/ayabank-profile/section1/update', 
+	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@ayabankProfileSection1Update');
+Route::post('admin/ayabank-profile/corporate-info/update', 
+	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@ayabankProfileCorporateInfoUpdate');
+Route::post('/admin/ayabank-profile/leading-info/update', 
+	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@ayabankProfileLeadingInfoUpdate');
+Route::post('/admin/ayabank-profile/driver_growth/update', 
+	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@ayabankProfileCTA1Update');
+Route::post('/admin/ayabank-profile/business_practices/update', 
+	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@ayabankProfileCTA2Update');
+Route::post('/admin/ayabank-profile/shareholding_info/update', 
+	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@ayabankProfileCTA3Update');
 
-Route::post('/admin/banner/update', 'App\Http\Controllers\Admin\PageController@bannerUpdate');
-Route::post('/admin/ayabank-profile/section1/update', 'App\Http\Controllers\Admin\AYABankProfileController@ayabankProfileSection1Update');
-Route::post('admin/ayabank-profile/corporate-info/update', 'App\Http\Controllers\Admin\AYABankProfileController@ayabankProfileCorporateInfoUpdate');
+Route::get('/admin/pagelist/about-aya/ayabank-profile/business_practices',
+	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@pageAYAbankProfileBusinessPractices');
+Route::post('/admin/ayabank-profile/business-practies/section1/update',
+	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@pageAYAbankProfileBusinessPracticesSection1Update');
+Route::post('/admin/ayabank-profile/business-practies/CTA_1/update',
+	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@pageAYAbankProfileBusinessPracticesCTA1Update');
+Route::post('/admin/ayabank-profile/business-practies/CTA_2/update',
+	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@pageAYAbankProfileBusinessPracticesCTA2Update');
+Route::post('/admin/ayabank-profile/business-practies/CTA_3/update',
+	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@pageAYAbankProfileBusinessPracticesCTA3Update');
+Route::post('/admin/ayabank-profile/business-practies/CTA_4/update',
+	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@pageAYAbankProfileBusinessPracticesCTA4Update');
+
+Route::get('/admin/pagelist/about-aya/ayabank-profile/shareholding_info',
+	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@pageAYAbankProfileShareholdingInfo');
+Route::post('/admin/ayabank-profile/shareholding-info/section1/update',
+	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@pageAYAbankProfileShareholdingInfoSection1Update');
+Route::post('/admin/ayabank-profile/shareholding-info/holding_table/update',
+	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@pageAYAbankProfileShareholdingInfoTableUpdate');
+
+
 
 Route::get('/admin/exchange-rate','App\Http\Controllers\Admin\ExchangeController@index');
 Route::get('/admin/exchange-rate/edit','App\Http\Controllers\Admin\ExchangeController@editExchange');

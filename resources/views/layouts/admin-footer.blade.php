@@ -43,4 +43,13 @@
     $("#mobile_banner_image").change(function(){
         $("#mobile_img_old").val('');
     });
+
+    tinymce.init({
+        selector: 'textarea#banner_tagline',
+        height: 600,
+        plugins: 'anchor autolink charmap code emoticons link lists searchreplace table visualblocks wordcount',
+        toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat | code',
+        file_picker_types: 'image',
+        block_unsupported_drop: true
+    });
 </script>

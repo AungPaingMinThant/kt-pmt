@@ -200,59 +200,63 @@
     	$(".location_table").addClass('d-none');
 	    $(".location_loader").removeClass('d-none');
 
-		$.ajax({
-            type:'POST',
-            url:"{{ url('/about-aya/network/branch-locations-search-value')}}",
-            headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
-            data:{search_value:search_value,show_entries:show_entries},
-            success:function(data){
-                location_table_html = '<table class="table table-borderless location_table">'+
-											'<thead>'+
-												'<tr valign="middle">'+
-													'<td class="py-3" style="font-size: 12px;background-color: #f8fa4f;">No</td>'+
-													'<td class="py-3 f-white" style="font-size: 12px;background-color: #fbb831;width: 15% !important;">Region</td>'+
-													'<td class="py-3 f-white" style="font-size: 12px;background-color: #fb7e1c;width: 16% !important;">Branch Name</td>'+
-													'<td class="py-3 f-white" style="font-size: 12px;background-color: #f04223;">Address</td>'+
-													'<td class="py-3 f-white" style="font-size: 12px;background-color: #bc1e6a;width: 17%;">Contact No</td>'+
-													'<td class="py-3 f-white" style="font-size: 12px;background-color: #217e8e;width: 16%;">Fax No</td>'+
-												'</tr>'+
-											'</thead>'+
-											'<tbody class="table-border-bottom-0" style="background-color: #f5f5f5;">';
-												for (var blist = 0; blist < data['data']['branch_list'].length; blist++) {
-													location_table_html += 	'<tr valign="top">'+
-																				'<td style="font-size: 12px;text-align: center;">'+ (blist + 1) +'</td>'+
-																				'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['region']+'</td>'+
-																				'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['name']+'</td>';
-																				if (data['data']['branch_list'][blist]['list_address'] == 'No- (82), U Paing No-(218), Lanmadaw (North) Ward, Daik Inn Kwin (Kha), Zalun Township, Ayeyarwady Division' || data['data']['branch_list'][blist]['list_address'] == 'No- (22), Du Ti Ya Street, (6) Ward, Pyapon Township, Ayeyarwady Division') {
-																					location_table_html += 	'<td style="font-size: 12px;">'+
-																						'<a href="https://www.google.com/maps/search/?api=1&query=AYA Bank '+data['data']['branch_list'][blist]['name']+' Branch, '+data['data']['branch_list'][blist]['list_address']+'" target="_blank" style="text-decoration: underline;">'+data['data']['branch_list'][blist]['list_address'];
-																					'</td>';
-																				} else {
-																					location_table_html += 	'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['list_address']+'</td>';
-																				}
+	    if (search_value == "") {
+	    	location.reload();
+	    } else {
+			$.ajax({
+	            type:'POST',
+	            url:"{{ url('/about-aya/network/branch-locations-search-value')}}",
+	            headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+	            data:{search_value:search_value,show_entries:show_entries},
+	            success:function(data){
+	                location_table_html = '<table class="table table-borderless location_table">'+
+												'<thead>'+
+													'<tr valign="middle">'+
+														'<td class="py-3" style="font-size: 12px;background-color: #f8fa4f;">No</td>'+
+														'<td class="py-3 f-white" style="font-size: 12px;background-color: #fbb831;width: 15% !important;">Region</td>'+
+														'<td class="py-3 f-white" style="font-size: 12px;background-color: #fb7e1c;width: 16% !important;">Branch Name</td>'+
+														'<td class="py-3 f-white" style="font-size: 12px;background-color: #f04223;">Address</td>'+
+														'<td class="py-3 f-white" style="font-size: 12px;background-color: #bc1e6a;width: 17%;">Contact No</td>'+
+														'<td class="py-3 f-white" style="font-size: 12px;background-color: #217e8e;width: 16%;">Fax No</td>'+
+													'</tr>'+
+												'</thead>'+
+												'<tbody class="table-border-bottom-0" style="background-color: #f5f5f5;">';
+													for (var blist = 0; blist < data['data']['branch_list'].length; blist++) {
+														location_table_html += 	'<tr valign="top">'+
+																					'<td style="font-size: 12px;text-align: center;">'+ (blist + 1) +'</td>'+
+																					'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['region']+'</td>'+
+																					'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['name']+'</td>';
+																					if (data['data']['branch_list'][blist]['list_address'] == 'No- (82), U Paing No-(218), Lanmadaw (North) Ward, Daik Inn Kwin (Kha), Zalun Township, Ayeyarwady Division' || data['data']['branch_list'][blist]['list_address'] == 'No- (22), Du Ti Ya Street, (6) Ward, Pyapon Township, Ayeyarwady Division') {
+																						location_table_html += 	'<td style="font-size: 12px;">'+
+																							'<a href="https://www.google.com/maps/search/?api=1&query=AYA Bank '+data['data']['branch_list'][blist]['name']+' Branch, '+data['data']['branch_list'][blist]['list_address']+'" target="_blank" style="text-decoration: underline;">'+data['data']['branch_list'][blist]['list_address'];
+																						'</td>';
+																					} else {
+																						location_table_html += 	'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['list_address']+'</td>';
+																					}
 
 
 
 
-																				
-													location_table_html +='<td style="font-size: 12px;">'+ data['data']['branch_list'][blist]['telephone'].replace(",", ", ")+'</td>'+
-																				'<td style="font-size: 12px;">'+ data['data']['branch_list'][blist]['fax']+'</td>'+
-																			'</tr>';
-												}
+																					
+														location_table_html +='<td style="font-size: 12px;">'+ data['data']['branch_list'][blist]['telephone'].replace(",", ", ")+'</td>'+
+																					'<td style="font-size: 12px;">'+ data['data']['branch_list'][blist]['fax']+'</td>'+
+																				'</tr>';
+													}
+														
 													
-												
-											location_table_html +='</tbody>'+
-										'</table>';
+												location_table_html +='</tbody>'+
+											'</table>';
 
-				$(".location_table_html").html(location_table_html);
-				$("#show_entries").addClass('d-none');
-				$(".search_show_entries").removeClass('d-none');
-				$(".pagination").addClass('d-none');
-				$(".first_bl_count").text('1');
-				$(".last_bl_count").text(data['data']['branch_list'].length);
-				$(".total_branch").text(data['data']['branch_list'].length);
-            }
-        });
+					$(".location_table_html").html(location_table_html);
+					$("#show_entries").addClass('d-none');
+					$(".search_show_entries").removeClass('d-none');
+					$(".pagination").addClass('d-none');
+					$(".first_bl_count").text('1');
+					$(".last_bl_count").text(data['data']['branch_list'].length);
+					$(".total_branch").text(data['data']['branch_list'].length);
+	            }
+	        });
+	    }
 	});
 </script>
 

@@ -46,6 +46,30 @@
                            							</a>
 												</td>
 											</tr>
+											<tr>
+												<td>2</td>
+												<td>AYA Bank Profile > Business Practices</td>
+												<td></td>
+												<td>
+													<a href="{{ url('/admin/pagelist/about-aya/ayabank-profile/business_practices') }}" target="_blank">
+														<button type="button" class="btn btn-outline-primary">
+                              								<span class="tf-icons bx bx-pencil"></span>&nbsp; 		
+                           								</button>
+                           							</a>
+												</td>
+											</tr>
+											<tr>
+												<td>3</td>
+												<td>AYA Bank Profile > Shareholding Information</td>
+												<td></td>
+												<td>
+													<a href="{{ url('/admin/pagelist/about-aya/ayabank-profile/shareholding_info') }}" target="_blank">
+														<button type="button" class="btn btn-outline-primary">
+                              								<span class="tf-icons bx bx-pencil"></span>&nbsp; 		
+                           								</button>
+                           							</a>
+												</td>
+											</tr>
 										</tbody>
 									</table>
 								</div>

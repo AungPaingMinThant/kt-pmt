@@ -451,6 +451,14 @@
     left: 25% !important;
     width: 490px !important;
 }
+#inputGroupSelect03 {
+    position: absolute;
+    left: 70% !important;
+    width: 200px !important;
+}
+.CTA_location_desc {
+	width: 140% !important;
+}
 @media (min-width: 1920px) {
 	.carousel-item-1 {
 		background-image: url('../images/new_home/desk_poster.webp');

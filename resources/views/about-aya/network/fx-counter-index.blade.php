@@ -189,48 +189,53 @@
 
     	$(".location_table").addClass('d-none');
 	    $(".location_loader").removeClass('d-none');
-		$.ajax({
-            type:'POST',
-            url:"{{ url('/about-aya/network/fx-locations-search-value')}}",
-            headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
-            data:{search_value:search_value,show_entries:show_entries},
-            success:function(data){
-                location_table_html = '<table class="table table-borderless location_table">'+
-											'<thead>'+
-												'<tr valign="middle">'+
-													'<td class="py-3" style="font-size: 12px;width: 1%;background-color: #f8fa4f;text-align: center;">No</td>'+
-													'<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #fbb831;">Region</td>'+
-													'<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #fb7e1c;">City</td>'+
-													'<td class="py-3 f-white" style="font-size: 12px;width: 14%;background-color: #f04223;">Branch / Location</td>'+
-													'<td class="py-3 f-white" style="font-size: 12px;width: 25%;background-color: #bc1e6a;">Address</td>'+
-													'<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #217e8e;">Business Hours</td>'+
-												'</tr>'+
-											'</thead>'+
-											'<tbody class="table-border-bottom-0" style="background-color: #f5f5f5;">';
-												for (var blist = 0; blist < data['data']['branch_list'].length; blist++) {
-													location_table_html += 	'<tr valign="top">'+
-																				'<td style="font-size: 12px;text-align: center;">'+ (blist + 1) +'</td>'+
-																				'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['region']+'</td>'+
-																				'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['township']+'</td>'+
-																				'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['name']+'</td>'+
-																				'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['list_address']+'</td>'+
-																				'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['openinghour']+'</td>'+
-																			'</tr>';
-												}
-													
-												
-											location_table_html +='</tbody>'+
-										'</table>';
 
-				$(".location_table_html").html(location_table_html);
-				$("#show_entries").addClass('d-none');
-				$(".search_show_entries").removeClass('d-none');
-				$(".pagination").addClass('d-none');
-				$(".first_bl_count").text('1');
-				$(".last_bl_count").text(data['data']['branch_list'].length);
-				$(".total_branch").text(data['data']['branch_list'].length);
-            }
-        });
+	    if (search_value == "") {
+	    	location.reload();
+	    } else {
+			$.ajax({
+	            type:'POST',
+	            url:"{{ url('/about-aya/network/fx-locations-search-value')}}",
+	            headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+	            data:{search_value:search_value,show_entries:show_entries},
+	            success:function(data){
+	                location_table_html = '<table class="table table-borderless location_table">'+
+												'<thead>'+
+													'<tr valign="middle">'+
+														'<td class="py-3" style="font-size: 12px;width: 1%;background-color: #f8fa4f;text-align: center;">No</td>'+
+														'<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #fbb831;">Region</td>'+
+														'<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #fb7e1c;">City</td>'+
+														'<td class="py-3 f-white" style="font-size: 12px;width: 14%;background-color: #f04223;">Branch / Location</td>'+
+														'<td class="py-3 f-white" style="font-size: 12px;width: 25%;background-color: #bc1e6a;">Address</td>'+
+														'<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #217e8e;">Business Hours</td>'+
+													'</tr>'+
+												'</thead>'+
+												'<tbody class="table-border-bottom-0" style="background-color: #f5f5f5;">';
+													for (var blist = 0; blist < data['data']['branch_list'].length; blist++) {
+														location_table_html += 	'<tr valign="top">'+
+																					'<td style="font-size: 12px;text-align: center;">'+ (blist + 1) +'</td>'+
+																					'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['region']+'</td>'+
+																					'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['township']+'</td>'+
+																					'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['name']+'</td>'+
+																					'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['list_address']+'</td>'+
+																					'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['openinghour']+'</td>'+
+																				'</tr>';
+													}
+														
+													
+												location_table_html +='</tbody>'+
+											'</table>';
+
+					$(".location_table_html").html(location_table_html);
+					$("#show_entries").addClass('d-none');
+					$(".search_show_entries").removeClass('d-none');
+					$(".pagination").addClass('d-none');
+					$(".first_bl_count").text('1');
+					$(".last_bl_count").text(data['data']['branch_list'].length);
+					$(".total_branch").text(data['data']['branch_list'].length);
+	            }
+	        });
+	    }
 	});
 </script>
 

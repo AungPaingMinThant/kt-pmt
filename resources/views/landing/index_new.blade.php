@@ -286,29 +286,31 @@
 						<div class="col-md-6" style="position: relative;">
 							<div class="row CTA_section_3_info d-none d-sm-block" id="CTA_section_3_info">
 								<div class="row">
-									<p class="CTA_desc mb-0">ATM / Branch / FX Counter Locator</p>
-									<label class="input-group-text px-3" for="inputGroupSelect03" style="padding-left: 15px !important;">I want to find &nbsp; <a href="{{ url('/digital-services/atm') }}" style="color: #a67d00 !important;">ATM</a></label>
-									<!-- <div class="input-group CTA_3_input_group" style="width: 70% !important;">
-										<label class="input-group-text" for="inputGroupSelect03">I want to find &nbsp;</label>
-										<select class="form-select inputGroupSelect03" id="inputGroupSelect03" style="width: 50%">
-											<option value="">Branch</option>
-											<option value="0">Branch</option>
-											<option value="1">ATM</option>
-											<option value="2">FX Counter</option>
-										</select>
-									</div> -->
+									<div class="col-md-12">
+										<p class="CTA_desc CTA_location_desc mb-0">ATM / Branch / FX Counter Locator</p>
+										<div class="input-group">
+											<label class="input-group-text" for="inputGroupSelect03">I want to find &nbsp;</label>
+											<select class="form-select inputGroupSelect03" id="inputGroupSelect03">
+												<option value="">Branch</option>
+												<option value="1">Branch</option>
+												<option value="2">ATM</option>
+												<option value="3">FX Counter</option>
+											</select>
+										</div>
+									</div>
 								</div>
 							</div>
-							<div class="row CTA_section_3_info d-block d-sm-none">
+
+							<div class="row CTA_section_3_info CTA_section_3_info_mobile d-block d-sm-none" id="CTA_section_3_info_mobile">
 								<div class="col-md-12 text-center">
-									<p class="CTA_desc mb-0">ATM / Branch / FX Counter Locator</p>
-									<label class="input-group-text" for="inputGroupSelect03" style="padding-left: 5rem !important;">I want to find &nbsp; <a href="{{ url('/digital-services/atm') }}" style="color: #a67d00 !important;">ATM</a></label></p>
-									<!--<label class="theme_text_color" for="inputGroupSelect03mobile" style="font-size: 16px;margin-bottom: 5px;">I want to find &nbsp;</label>-->
-									<!--<select class="form-select" id="inputGroupSelect03mobile">-->
-									<!--	<option value="0" selected>Branch</option>-->
-									<!--	<option value="1">ATM</option>-->
-									<!--	<option value="2">FX Counter</option>-->
-									<!--</select>-->
+									<p class="CTA_desc mb-10">ATM / Branch / FX Counter Locator</p>
+									<label class="theme_text_color" for="inputGroupSelect03mobile" style="font-size: 16px;margin-bottom: 5px;">I want to &nbsp;</label>
+									<select class="form-select inputGroupSelect03mobile" id="inputGroupSelect03mobile">
+										<option value="">-- Select an option --</option>
+										<option value="1">Branch</option>
+										<option value="2">ATM</option>
+										<option value="3">FX Counter</option>
+									</select>
 								</div>
 							</div>
 						</div>
@@ -332,15 +334,19 @@
 							<div class="news_title_div">
 							    @if($first_blog->blog_category == '4')
 									<a href="{{ url('/about-aya/news-room/corporate-news/'.$first_blog->permalink) }}" >
+										<p class="news_title">{!! $first_blog->blog_title !!}</p>
+									</a>
 								@endif
 								@if($first_blog->blog_category == '6')
 									<a href="{{ url('/about-aya/news-room/announcements/'.$first_blog->permalink) }}" >
+										<p class="news_title">{!! $first_blog->blog_title !!}</p>
+									</a>
 								@endif
 								@if($first_blog->blog_category == '9')
 									<a href="{{ url('/about-aya/news-room/csr-news/'.$first_blog->permalink) }}" >
+										<p class="news_title">{!! $first_blog->blog_title !!}</p>
+									</a>
 								@endif
-									<p class="news_title">{{ $first_blog->blog_title }}</p>
-								</a>
 							</div>
 							<div class="news_desc mb-20">
 								{!! $first_blog->blog_desc !!}
@@ -348,14 +354,14 @@
 							<p class="mb-0">
 							    <span class="news_category">
 							        @if($first_blog->blog_category == '4')
-									<a href="about-aya/news-room/corporate-news">CORPORATE NEWS</a>
+										<a href="{{ url('/about-aya/news-room/corporate-news') }}">CORPORATE NEWS</a>
 									@endif
 									@if($first_blog->blog_category == '6')
-									<a href="about-aya/news-room/announcements">ANNOUNCEMENTS</a>
+										<a href="{{ url('/about-aya/news-room/announcements') }}">ANNOUNCEMENTS<a>
 									@endif
 									@if($first_blog->blog_category == '9')
-									<a href="about-aya/news-room/csr-news">CSR NEWS</a>
-									@endif    
+										<a href="{{ url('/about-aya/news-room/csr-news') }}">CSR NEWS</a>
+									@endif   
 							    </span>
 							    <span class="news_break">|</span><span class="news_date">{{ date('d M Y', strtotime($first_blog->publish_date)) }}</span>
 							</p>
@@ -369,26 +375,30 @@
 									<div class="news_title_div">
 									    @if($second_blog->blog_category == '4')
 	    									<a href="{{ url('/about-aya/news-room/corporate-news/'.$second_blog->permalink) }}" >
+	    										<p class="news_title">{!! $second_blog->blog_title !!}</p>
+											</a>
 	    								@endif
 	    								@if($second_blog->blog_category == '6')
 	    									<a href="{{ url('/about-aya/news-room/announcements/'.$second_blog->permalink) }}" >
+	    										<p class="news_title">{!! $second_blog->blog_title !!}</p>
+											</a>
 	    								@endif
 	    								@if($second_blog->blog_category == '9')
 	    									<a href="{{ url('/about-aya/news-room/csr-news/'.$second_blog->permalink) }}" >
+	    										<p class="news_title">{!! $second_blog->blog_title !!}</p>
+											</a>
 	    								@endif
-											<p class="news_title">{{ $second_blog->blog_title }}</p>
-										</a>
 									</div>
 									<p class="mb-0">
         							    <span class="news_category">
         							        @if($second_blog->blog_category == '4')
-        										<a href="about-aya/news-room/corporate-news">CORPORATE NEWS</a>
+        										<a href="{{ url('/about-aya/news-room/corporate-news') }}">CORPORATE NEWS</a>
         									@endif
         									@if($second_blog->blog_category == '6')
-												<a href="">ANNOUNCEMENTS<a>
+												<a href="{{ url('/about-aya/news-room/announcements') }}">ANNOUNCEMENTS<a>
         									@endif
         									@if($second_blog->blog_category == '9')
-											<a href="">CSR NEWS</a>
+												<a href="{{ url('/about-aya/news-room/csr-news') }}">CSR NEWS</a>
         									@endif    
         							    </span>
         							    <span class="news_break">|</span><span class="news_date">{{ date('d M Y', strtotime($second_blog->publish_date)) }}</span>
@@ -408,20 +418,20 @@
 	    								@if($third_blog->blog_category == '9')
 	    									<a href="{{ url('/about-aya/news-room/csr-news/'.$third_blog->permalink) }}" >
 	    								@endif
-											<p class="news_title">{{ $third_blog->blog_title }}</p>
+											<p class="news_title">{!! $third_blog->blog_title !!}</p>
 										</a>
 									</div>
 									<p class="mb-0">
         							    <span class="news_category">
         							        @if($third_blog->blog_category == '4')
-											<a href="about-aya/news-room/corporate-news">CORPORATE NEWS</a>
+        										<a href="about-aya/news-room/corporate-news">CORPORATE NEWS</a>
         									@endif
         									@if($third_blog->blog_category == '6')
-											<a href="about-aya/news-room/announcements/">ANNOUNCEMENTS</a>
+												<a href="about-aya/news-room/announcements">ANNOUNCEMENTS<a>
         									@endif
         									@if($third_blog->blog_category == '9')
-											<a href="about-aya/news-room/csr-news">CSR NEWS</a>
-        									@endif    
+												<a href="about-aya/news-room/csr-news">CSR NEWS</a>
+        									@endif   
         							    </span>
         							    <span class="news_break">|</span><span class="news_date">{{ date('d M Y', strtotime($third_blog->publish_date)) }}</span>
         							</p>
@@ -855,11 +865,23 @@
 
 		if (this.value === previousValue2) {
 			if ($('#inputGroupSelect03 option:selected').val() == 1) {
-				window.location.href = APP_URL+'/digital-services/atm';
+				window.location.href = APP_URL+'/about-aya/network/branch-locations';
+			}
+			if ($('#inputGroupSelect03 option:selected').val() == 2) {
+				window.location.href = APP_URL+'/about-aya/network/atm-locations';
+			}
+			if ($('#inputGroupSelect03 option:selected').val() == 3) {
+				window.location.href = APP_URL+'/about-aya/network/fx-counter-locations';
 			}
 		} else {
 			if ($('#inputGroupSelect03 option:selected').val() == 1) {
-				window.location.href = APP_URL+'/digital-services/atm';
+				window.location.href = APP_URL+'/about-aya/network/branch-locations';
+			}
+			if ($('#inputGroupSelect03 option:selected').val() == 2) {
+				window.location.href = APP_URL+'/about-aya/network/atm-locations';
+			}
+			if ($('#inputGroupSelect03 option:selected').val() == 3) {
+				window.location.href = APP_URL+'/about-aya/network/fx-counter-locations';
 			}
 		}
 
@@ -873,11 +895,23 @@
 		if (open) {
 			if (this.value === previousValue2) {
 				if ($('#inputGroupSelect03mobile option:selected').val() == 1) {
-					window.location.href = APP_URL+'/digital-services/atm';
+					window.location.href = APP_URL+'/about-aya/network/branch-locations';
+				}
+				if ($('#inputGroupSelect03mobile option:selected').val() == 2) {
+					window.location.href = APP_URL+'/about-aya/network/atm-locations';
+				}
+				if ($('#inputGroupSelect03mobile option:selected').val() == 3) {
+					window.location.href = APP_URL+'/about-aya/network/fx-counter-locations';
 				}
 			} else {
 				if ($('#inputGroupSelect03mobile option:selected').val() == 1) {
-					window.location.href = APP_URL+'/digital-services/atm';
+					window.location.href = APP_URL+'/about-aya/network/branch-locations';
+				}
+				if ($('#inputGroupSelect03mobile option:selected').val() == 2) {
+					window.location.href = APP_URL+'/about-aya/network/atm-locations';
+				}
+				if ($('#inputGroupSelect03mobile option:selected').val() == 3) {
+					window.location.href = APP_URL+'/about-aya/network/fx-counter-locations';
 				}
 			}
 		}

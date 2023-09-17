@@ -4,6 +4,10 @@
 <link rel="stylesheet" href="{{ url('/css/about-aya/ayabank-profile.css') }}">
 
 @section('content')
+@php
+	$page_data = App\Models\AboutAYA\AyabankProfileShareholdingInfo::first();
+	$page_data_table = App\Models\AboutAYA\AyabankProfileShareholdingInfoTable::get();
+@endphp
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
 		<div class="layout-page">
@@ -15,10 +19,10 @@
 			<div class="container sh_section">
 				<div class="space-40"></div>
 				<div class="row">
-					<h4 class="fw-semibold">Shareholding Information</h4>
+					<h4 class="fw-semibold">{!! $page_data->page_title !!}</h4>
 				</div>
 				<div class="row">
-					<p>AYA Bank is organized independently as a stand-alone business and has been operating with its own culture, management structure, business structure and legal structure. It is incorporated with shares, owned by following shareholders:</p>
+					{!! $page_data->first_desc !!}
 				</div>
 
 				<div class="space-20"></div>
@@ -34,55 +38,32 @@
 								</tr>
 							</thead>
 							<tbody class="table-border-bottom-0" style="background-color: #fff;padding-right: 70px;">
-								<tr>
-									<td class="sh_first_td b-t-l-radius-10 ">U Zaw Zaw</td>
-									<td class="sh_second_td"><i class='bx bx-check' style="font-size: 25px;"></i></td>
-									<td class="sh_third_td b-t-r-radius-10">74.00 %</td>
-								</tr>
-								<tr>
-									<td class="sh_first_td">Daw Htay Htay Khaing</td>
-									<td class="sh_second_td"><i class='bx bx-check' style="font-size: 25px;"></i></td>
-									<td class="sh_third_td">12.14 %</td>
-								</tr>
-								<tr>
-									<td class="sh_first_td">U Soe Tint</td>
-									<td class="sh_second_td"></td>
-									<td class="sh_third_td">4.50 %</td>
-								</tr>
-								<tr>
-									<td class="sh_first_td">U Ohn Kyaw</td>
-									<td class="sh_second_td"></td>
-									<td class="sh_third_td">4.50 %</td>
-								</tr>
-								<tr>
-									<td class="sh_first_td">Daw San San</td>
-									<td class="sh_second_td"></td>
-									<td class="sh_third_td">2.428 %</td>
-								</tr>
-								<tr>
-									<td class="sh_first_td">U Than Zaw</td>
-									<td class="sh_second_td"><i class='bx bx-check' style="font-size: 25px;"></i></td>
-									<td class="sh_third_td">2.428 %</td>
-								</tr>
-								<tr>
-									<td class="sh_first_td">Daw Khin Saw Oo</td>
-									<td class="sh_second_td"><i class='bx bx-check' style="font-size: 25px;"></i></td>
-									<td class="sh_third_td">0.002%</td>
-								</tr>
-								<tr>
-									<td class="sh_first_td">Daw Khin Ma Ma</td>
-									<td class="sh_second_td"><i class='bx bx-check' style="font-size: 25px;"></i></td>
-									<td class="sh_third_td">0.002%</td>
-								</tr>
-								<tr>
-									<td class="sh_first_td">U Myint Zaw</td>
-									<td class="sh_second_td"><i class='bx bx-check' style="font-size: 25px;"></i></td>
-									<td class="sh_third_td">0.002%</td>
-								</tr>
-								<tr>
-									<td class="sh_first_td py-3" colspan="2" style="border-top: 1px solid #ccc;"><b>Total</b></td>
-									<td class="sh_third_td" style="border-top: 1px solid #ccc;"><b>100 %</b></td>
-								</tr>
+								<tbody class="table-border-bottom-0" style="background-color: #fff;padding-right: 70px;">
+									@php $table_count = 1; @endphp
+									@foreach($page_data_table as $p_table)
+										<tr>
+											@if($table_count == 1)
+												<td class="sh_first_td b-t-l-radius-10 ">{{$p_table->shareholding_name}}</td>
+											@else
+												<td class="sh_first_td">{{$p_table->shareholding_name}}</td>
+											@endif
+											<td class="sh_second_td">
+												@if($p_table->shareholding_board == '0')
+													<i class='bx bx-check' style="font-size: 25px;"></i>
+												@endif
+											</td>
+											@if($table_count == 1)
+												<td class="sh_third_td b-t-r-radius-10">{{$p_table->shareholding_percent}}</td>
+											@else
+												<td class="sh_third_td">{{$p_table->shareholding_percent}}</td>
+											@endif
+										</tr>
+										@php $table_count = $table_count + 1; @endphp
+									@endforeach
+									<tr>
+										<td class="sh_first_td py-3" colspan="2" style="border-top: 1px solid #ccc;"><b>Total</b></td>
+										<td class="sh_third_td" style="border-top: 1px solid #ccc;"><b>100 %</b></td>
+									</tr>
 							</tbody>
 						</table>
 					</div>
