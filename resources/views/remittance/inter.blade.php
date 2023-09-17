@@ -213,8 +213,8 @@
 											</div>
 											<div class="col-12" style="margin-top: 20px;">
 												<p class="swiftcode_txt">
-													AYA BANK SWIFT CODE	&nbsp;&nbsp;&nbsp;: 
-													<b class="text" style="color: brown; border:none; font-weight:bold; background-color:white; padding-left:1rem;">AYABMMMY</b>
+													AYA BANK SWIFT CODE: 
+													&nbsp;&nbsp;<button class="btn swiftcode_btn" style="background-color: #A5000B !important; color:#fff; border: 1px solid #A5000B">AYABMMMY</button>
 												</p>
 											</div>
 										</div>

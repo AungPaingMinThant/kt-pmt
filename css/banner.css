@@ -563,7 +563,7 @@
 	background-image: url('../images/contact/KV.webp');
 }
 .corporate_social_responsibility_banner {
-	background-image: url('../images/about-aya/sustainability/corporate-social-responsibility/KV.webp');
+	background-image: url('../images/about-aya/sustainability/corporate-social-responsibility/');
 }
 .grievance_handling_banner {
 	background-image: url('../images/grievance-handling/KV.webp');
@@ -1941,5 +1941,11 @@
 	.grievance_handling_banner {
 		background-image:url('../images/grievance-handling/mobile_KV.webp');
 		background-position: 90% center;
+	}
+	.social_banner {
+		background-image:url('../images/about-aya/sustainability/social_sustainability.webp');
+	}
+	.environmental_banner {
+		background-image:url('../images/about-aya/sustainability/banner_environment.jpg');
 	}
 }

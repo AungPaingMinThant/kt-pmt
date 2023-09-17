@@ -3755,7 +3755,7 @@
 @endif
 
 @if($page == 'social_sustainability')
-	<div class="news_breadcrumb">
+	<div class="social_banner">
 		<div class="container">
 			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/about-aya/') }}" style="color: #666;">ABOUT AYA</a>&nbsp;
@@ -3778,7 +3778,7 @@
 @endif
 
 @if($page == 'environmental_sustainability')
-	<div class="news_breadcrumb">
+	<div class="environmental_banner">
 		<div class="container">
 			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/about-aya/') }}" style="color: #666;">ABOUT AYA</a>&nbsp;
@@ -3801,7 +3801,7 @@
 @endif
 
 @if($page == 'economic_sustainability')
-	<div class="news_breadcrumb">
+	<div class="economic_banner">
 		<div class="container">
 			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/about-aya/') }}" style="color: #666;">ABOUT AYA</a>&nbsp;
