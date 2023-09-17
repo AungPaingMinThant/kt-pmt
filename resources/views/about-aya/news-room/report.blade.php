@@ -115,6 +115,17 @@
 						</div>
 
 						<div class="col-md-3" style="background-color: #fafafa;">
+							<img src="{{ url('/report_cover/IFRS_FS_2022-2023_Summary.png') }}" class="img-fluid report_cover">
+							<p class="fw-semibold mb-0">IFRS Financial Statement</p>
+							<p>2022 – 2023 Summary</p>
+							<p class="mb-0">
+								<a class="report_link" target="_blank" href="{{ url('/report_files/annual_report/IFRS_Financial_Statement_2022_2023_Summary.pdf#toolbar=0') }}">
+									<img src="{{ url('/images/about-aya/report/view_online.png') }}" class="img-fluid view_online_icon"> View Online
+								</a>
+							</p>
+							<p class="download_report" onclick="reportModal('IFRS Financial Statement 2021 – 2022 Summary', 'IFRS_Financial_Statement_2021_2022_Summary.pdf','1')" data-bs-toggle="modal" data-bs-target="#report_download_modal"><img src="{{ url('/images/about-aya/report/download.png') }}" class="img-fluid view_online_icon"> Download Annual Report</p>
+						</div>
+						<div class="col-md-3" style="background-color: #fafafa;">
 							<img src="{{ url('/report_cover/IFRS_FS_2021_2022_Summary.png') }}" class="img-fluid report_cover">
 							<p class="fw-semibold mb-0">IFRS Financial Statement</p>
 							<p>2021 – 2022 Summary</p>
@@ -125,7 +136,7 @@
 							</p>
 							<p class="download_report" onclick="reportModal('IFRS Financial Statement 2021 – 2022 Summary', 'IFRS_Financial_Statement_2021_2022_Summary.pdf','1')" data-bs-toggle="modal" data-bs-target="#report_download_modal"><img src="{{ url('/images/about-aya/report/download.png') }}" class="img-fluid view_online_icon"> Download Annual Report</p>
 						</div>
-						<div class="col-md-3" style="background-color: #fafafa;">
+						<div class="col-md-3 annual_report_2" style="background-color: #fafafa;display: none;">
 							<img src="{{ url('/report_cover/IFRS_FS_2020-2021_Summary.png') }}" class="img-fluid report_cover">
 							<p class="fw-semibold mb-0">IFRS Financial Statement</p>
 							<p>2020 – 2021 Summary</p>
