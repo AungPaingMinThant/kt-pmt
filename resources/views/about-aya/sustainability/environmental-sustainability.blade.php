@@ -76,7 +76,7 @@
 								</div>
 							</div>
 
-							<div class="row d-none" id="join_us_making_difference">
+							<div class="row" id="join_us_making_difference">
 								<div class="space-40"></div>
 								<p class="join_us_making_difference">
 									Join us in Making a Difference!
@@ -86,7 +86,7 @@
 								<p>Our environmental corporate social responsibility activities aim to mitigate any adverse effects on the environment from our business operations. We adhere to the highest environmental standards in all areas of operation, consistently meeting and surpassing all relevant legislative requirements.</p>
 							</div>
 
-							<div class="row d-none" id="leading_charge_green_financing">
+							<div class="row" id="leading_charge_green_financing">
 								<div class="space-40"></div>
 								<p class="leading_charge_green_financing">
 									Leading the Charge in Green Financing!
@@ -97,7 +97,7 @@
 								</div>
 							</div>
 
-							<div class="row d-none" id="planting_trees_future_generations">
+							<div class="row" id="planting_trees_future_generations">
 								<div class="space-40"></div>
 								<p class="planting_trees_future_generations">
 									Planting Trees for Future Generations!
@@ -108,7 +108,7 @@
 								</div>
 							</div>
 
-							<div class="row d-none" id="combating_air_pollution">
+							<div class="row" id="combating_air_pollution">
 								<div class="space-40"></div>
 								<p class="combating_air_pollution">
 									Combating Air Pollution Actively!
@@ -137,7 +137,7 @@
 								</div>
 							</div>
 
-							<div class="row d-none" id="embrace_digitalization_protect">
+							<div class="row" id="embrace_digitalization_protect">
 								<div class="space-40"></div>
 								<p class="embrace_digitalization_protect">
 									Embrace Digitalization and Protect the Planet!
@@ -148,7 +148,7 @@
 								</div>
 							</div>
 
-							<div class="row d-none" id="recovering_impact_digital_transformation">
+							<div class="row" id="recovering_impact_digital_transformation">
 								<div class="space-40"></div>
 								<p class="recovering_impact_digital_transformation">
 									Recovering the Impact of Digital Transformation!
@@ -190,82 +190,82 @@
 		if (last_part == 'reaffirming_commitment') {
 			$(".nav-link").removeClass('active');
 	  		$("#reaffirming_commitment_link").addClass('active');
-	  		$("#reaffirming_commitment").removeClass('d-none');
-	  		$("#join_us_making_difference").addClass('d-none');
-	  		$("#leading_charge_green_financing").addClass('d-none');
-	  		$("#planting_trees_future_generations").addClass('d-none');
+	  		$("#reaffirming_commitment").removeClass('');
+	  		$("#join_us_making_difference").addClass('');
+	  		$("#leading_charge_green_financing").addClass('');
+	  		$("#planting_trees_future_generations").addClass('');
 	  		$("#combating_air_pollution").addClass('d-none');
-	  		$("#embrace_digitalization_protect").addClass('d-none');
-	  		$("#recovering_impact_digital_transformation").addClass('d-none');
+	  		$("#embrace_digitalization_protect").addClass('');
+	  		$("#recovering_impact_digital_transformation").addClass('');
 	  	}
 
 	  	if (last_part == 'join_us_making_difference') {
 	  		$(".nav-link").removeClass('active');
 	  		$("#join_us_making_difference_link").addClass('active');
-	  		$("#join_us_making_difference").removeClass('d-none');
-	  		$("#reaffirming_commitment").addClass('d-none');
-	  		$("#leading_charge_green_financing").addClass('d-none');
-	  		$("#planting_trees_future_generations").addClass('d-none');
-	  		$("#combating_air_pollution").addClass('d-none');
-	  		$("#embrace_digitalization_protect").addClass('d-none');
-	  		$("#recovering_impact_digital_transformation").addClass('d-none');
+	  		$("#join_us_making_difference").removeClass('');
+	  		$("#reaffirming_commitment").addClass('');
+	  		$("#leading_charge_green_financing").addClass('');
+	  		$("#planting_trees_future_generations").addClass('');
+	  		$("#combating_air_pollution").addClass('');
+	  		$("#embrace_digitalization_protect").addClass('');
+	  		$("#recovering_impact_digital_transformation").addClass('');
 	  	}
 
 	  	if (last_part == 'leading_charge_green_financing') {
 			$(".nav-link").removeClass('active');
 	  		$("#leading_charge_green_financing_link").addClass('active');
-	  		$("#leading_charge_green_financing").removeClass('d-none');
-	  		$("#join_us_making_difference").addClass('d-none');
-	  		$("#reaffirming_commitment").addClass('d-none');
-	  		$("#planting_trees_future_generations").addClass('d-none');
-	  		$("#combating_air_pollution").addClass('d-none');
-	  		$("#embrace_digitalization_protect").addClass('d-none');
-	  		$("#recovering_impact_digital_transformation").addClass('d-none');
+	  		$("#leading_charge_green_financing").removeClass('');
+	  		$("#join_us_making_difference").addClass('');
+	  		$("#reaffirming_commitment").addClass('');
+	  		$("#planting_trees_future_generations").addClass('');
+	  		$("#combating_air_pollution").addClass('');
+	  		$("#embrace_digitalization_protect").addClass('');
+	  		$("#recovering_impact_digital_transformation").addClass('');
 	  	}
 
 	  	if (last_part == 'planting_trees_future_generations') {
 			$(".nav-link").removeClass('active');
 			$("#planting_trees_future_generations_link").addClass('active');
-			$("#planting_trees_future_generations").removeClass('d-none');
-	  		$("#leading_charge_green_financing").addClass('d-none');
-	  		$("#join_us_making_difference").addClass('d-none');
-	  		$("#reaffirming_commitment").addClass('d-none');
-	  		$("#combating_air_pollution").addClass('d-none');
-	  		$("#embrace_digitalization_protect").addClass('d-none');
-	  		$("#recovering_impact_digital_transformation").addClass('d-none');
+			$("#planting_trees_future_generations").removeClass('');
+	  		$("#leading_charge_green_financing").addClass('');
+	  		$("#join_us_making_difference").addClass('');
+	  		$("#reaffirming_commitment").addClass('');
+	  		$("#combating_air_pollution").addClass('');
+	  		$("#embrace_digitalization_protect").addClass('');
+	  		$("#recovering_impact_digital_transformation").addClass('');
 	  	}
 
 	  	if (last_part == '#combating_air_pollution') {
 			$("#combating_air_pollution_link").addClass('active');
-			$("#combating_air_pollution").removeClass('d-none');
-			$("#planting_trees_future_generations").addClass('d-none');
-	  		$("#leading_charge_green_financing").addClass('d-none');
-	  		$("#join_us_making_difference").addClass('d-none');
-	  		$("#reaffirming_commitment").addClass('d-none');
-	  		$("#embrace_digitalization_protect").addClass('d-none');
-	  		$("#recovering_impact_digital_transformation").addClass('d-none');
+			$("#combating_air_pollution").removeClass('');
+			$("#planting_trees_future_generations").addClass('');
+	  		$("#leading_charge_green_financing").addClass('');
+	  		$("#join_us_making_difference").addClass('');
+	  		$("#reaffirming_commitment").addClass('');
+	  		$("#embrace_digitalization_protect").addClass('');
+	  		$("#recovering_impact_digital_transformation").addClass('');
 	  	}
 
 	  	if (last_part == '#embrace_digitalization_protect') {	  		
 			$("#embrace_digitalization_protect_link").addClass('active');
-			$("#embrace_digitalization_protect").removeClass('d-none');
-			$("#combating_air_pollution").addClass('d-none');
-			$("#planting_trees_future_generations").addClass('d-none');
-	  		$("#leading_charge_green_financing").addClass('d-none');
-	  		$("#join_us_making_difference").addClass('d-none');
-	  		$("#reaffirming_commitment").addClass('d-none');
-	  		$("#recovering_impact_digital_transformation").addClass('d-none');
+			$("#embrace_digitalization_protect").removeClass('');
+			$("#combating_air_pollution").addClass('');
+			$("#planting_trees_future_generations").addClass('');
+	  		$("#leading_charge_green_financing").addClass('');
+	  		$("#join_us_making_difference").addClass('');
+	  		$("#reaffirming_commitment").addClass('');
+	  		$("#recovering_impact_digital_transformation").addClass('');
 	  	}
 
 	  	if (last_part == '#recovering_impact_digital_transformation') {	  		
 			$("#recovering_impact_digital_transformation_link").addClass('active');
-			$("#recovering_impact_digital_transformation").removeClass('d-none');
-			$("#embrace_digitalization_protect").addClass('d-none');
-			$("#combating_air_pollution").addClass('d-none');
-			$("#planting_trees_future_generations").addClass('d-none');
-	  		$("#leading_charge_green_financing").addClass('d-none');
-	  		$("#join_us_making_difference").addClass('d-none');
-	  		$("#reaffirming_commitment").addClass('d-none');
+			$("#recovering_impact_digital_transformation").removeClass('');
+			$("#embrace_digitalization_protect").addClass('');
+			$("#combating_air_pollution").addClass('');
+			$("#planting_trees_future_generations").addClass('');
+	  		$("#leading_charge_green_financing").addClass('');
+	  		$("#join_us_making_difference").addClass('');
+	  		$("#reaffirming_commitment").addClass('');
 	  	}
 	}
 
@@ -285,79 +285,79 @@
 		} else {
 			if (nav_link_href == '#reaffirming_commitment') {
 		  		$("#reaffirming_commitment_link").addClass('active');
-		  		$("#reaffirming_commitment").removeClass('d-none');
-		  		$("#join_us_making_difference").addClass('d-none');
-		  		$("#leading_charge_green_financing").addClass('d-none');
-		  		$("#planting_trees_future_generations").addClass('d-none');
-		  		$("#combating_air_pollution").addClass('d-none');
-		  		$("#embrace_digitalization_protect").addClass('d-none');
-		  		$("#recovering_impact_digital_transformation").addClass('d-none');
+		  		$("#reaffirming_commitment").removeClass('');
+		  		$("#join_us_making_difference").addClass('');
+		  		$("#leading_charge_green_financing").addClass('');
+		  		$("#planting_trees_future_generations").addClass('');
+		  		$("#combating_air_pollution").addClass('');
+		  		$("#embrace_digitalization_protect").addClass('');
+		  		$("#recovering_impact_digital_transformation").addClass('');
 		  	}
 
 		  	if (nav_link_href == '#join_us_making_difference') {
 		  		$("#join_us_making_difference_link").addClass('active');
-		  		$("#join_us_making_difference").removeClass('d-none');
-		  		$("#reaffirming_commitment").addClass('d-none');
-		  		$("#leading_charge_green_financing").addClass('d-none');
-		  		$("#planting_trees_future_generations").addClass('d-none');
-		  		$("#combating_air_pollution").addClass('d-none');
-		  		$("#embrace_digitalization_protect").addClass('d-none');
-		  		$("#recovering_impact_digital_transformation").addClass('d-none');
+		  		$("#join_us_making_difference").removeClass('');
+		  		$("#reaffirming_commitment").addClass('');
+		  		$("#leading_charge_green_financing").addClass('');
+		  		$("#planting_trees_future_generations").addClass('');
+		  		$("#combating_air_pollution").addClass('');
+		  		$("#embrace_digitalization_protect").addClass('');
+		  		$("#recovering_impact_digital_transformation").addClass('');
 		  	}
 
 		  	if (nav_link_href == '#leading_charge_green_financing') {
 		  		$("#leading_charge_green_financing_link").addClass('active');
-		  		$("#leading_charge_green_financing").removeClass('d-none');
-		  		$("#join_us_making_difference").addClass('d-none');
-		  		$("#reaffirming_commitment").addClass('d-none');
-		  		$("#planting_trees_future_generations").addClass('d-none');
-		  		$("#combating_air_pollution").addClass('d-none');
-		  		$("#embrace_digitalization_protect").addClass('d-none');
-		  		$("#recovering_impact_digital_transformation").addClass('d-none');
+		  		$("#leading_charge_green_financing").removeClass('');
+		  		$("#join_us_making_difference").addClass('');
+		  		$("#reaffirming_commitment").addClass('');
+		  		$("#planting_trees_future_generations").addClass('');
+		  		$("#combating_air_pollution").addClass('');
+		  		$("#embrace_digitalization_protect").addClass('');
+		  		$("#recovering_impact_digital_transformation").addClass('');
 		  	}
 
 		  	if (nav_link_href == '#planting_trees_future_generations') {
 				$("#planting_trees_future_generations_link").addClass('active');
-				$("#planting_trees_future_generations").removeClass('d-none');
-		  		$("#leading_charge_green_financing").addClass('d-none');
-		  		$("#join_us_making_difference").addClass('d-none');
-		  		$("#reaffirming_commitment").addClass('d-none');
-		  		$("#combating_air_pollution").addClass('d-none');
-		  		$("#embrace_digitalization_protect").addClass('d-none');
-		  		$("#recovering_impact_digital_transformation").addClass('d-none');
+				$("#planting_trees_future_generations").removeClass('');
+		  		$("#leading_charge_green_financing").addClass('');
+		  		$("#join_us_making_difference").addClass('');
+		  		$("#reaffirming_commitment").addClass('');
+		  		$("#combating_air_pollution").addClass('');
+		  		$("#embrace_digitalization_protect").addClass('');
+		  		$("#recovering_impact_digital_transformation").addClass('');
 		  	}
 
 		  	if (nav_link_href == '#combating_air_pollution') {
 				$("#combating_air_pollution_link").addClass('active');
-				$("#combating_air_pollution").removeClass('d-none');
-				$("#planting_trees_future_generations").addClass('d-none');
-		  		$("#leading_charge_green_financing").addClass('d-none');
-		  		$("#join_us_making_difference").addClass('d-none');
-		  		$("#reaffirming_commitment").addClass('d-none');
-		  		$("#embrace_digitalization_protect").addClass('d-none');
-		  		$("#recovering_impact_digital_transformation").addClass('d-none');
+				$("#combating_air_pollution").removeClass('');
+				$("#planting_trees_future_generations").addClass('');
+		  		$("#leading_charge_green_financing").addClass('');
+		  		$("#join_us_making_difference").addClass('');
+		  		$("#reaffirming_commitment").addClass('');
+		  		$("#embrace_digitalization_protect").addClass('');
+		  		$("#recovering_impact_digital_transformation").addClass('');
 		  	}
 
 		  	if (nav_link_href == '#embrace_digitalization_protect') {	  		
 				$("#embrace_digitalization_protect_link").addClass('active');
-				$("#embrace_digitalization_protect").removeClass('d-none');
-				$("#combating_air_pollution").addClass('d-none');
-				$("#planting_trees_future_generations").addClass('d-none');
-		  		$("#leading_charge_green_financing").addClass('d-none');
-		  		$("#join_us_making_difference").addClass('d-none');
-		  		$("#reaffirming_commitment").addClass('d-none');
-		  		$("#recovering_impact_digital_transformation").addClass('d-none');
+				$("#embrace_digitalization_protect").removeClass('');
+				$("#combating_air_pollution").addClass('');
+				$("#planting_trees_future_generations").addClass('');
+		  		$("#leading_charge_green_financing").addClass('');
+		  		$("#join_us_making_difference").addClass('');
+		  		$("#reaffirming_commitment").addClass('');
+		  		$("#recovering_impact_digital_transformation").addClass('');
 		  	}
 		  	
 		  	if (nav_link_href == '#recovering_impact_digital_transformation') {	  		
 				$("#recovering_impact_digital_transformation_link").addClass('active');
-				$("#recovering_impact_digital_transformation").removeClass('d-none');
-				$("#embrace_digitalization_protect").addClass('d-none');
-				$("#combating_air_pollution").addClass('d-none');
-				$("#planting_trees_future_generations").addClass('d-none');
-		  		$("#leading_charge_green_financing").addClass('d-none');
-		  		$("#join_us_making_difference").addClass('d-none');
-		  		$("#reaffirming_commitment").addClass('d-none');
+				$("#recovering_impact_digital_transformation").removeClass('');
+				$("#embrace_digitalization_protect").addClass('');
+				$("#combating_air_pollution").addClass('');
+				$("#planting_trees_future_generations").addClass('');
+		  		$("#leading_charge_green_financing").addClass('');
+		  		$("#join_us_making_difference").addClass('');
+		  		$("#reaffirming_commitment").addClass('');
 		  	}
 		}
 	});
