@@ -120,7 +120,7 @@
 														<td style="font-size: 12px;">{{ $bl->township }}</td>
 														<td style="font-size: 12px;">{{ $bl->name }}</td>
 														<td style="font-size: 12px;">{{ $bl->list_address }}</td>
-														<td valign="middle" style="text-align: center;">
+														<td style="text-align: center;">
 															<a href="https://www.google.com/maps/search/?api=1&query=AYA Bank {{$bl->name}} Branch, {{$bl->list_address}}, {{$bl->latitude}}, {{$bl->longitude}}" target="_blank">
 																<img src="{{ url('/images/about-aya/network/location_icon.webp') }}" class="img-fluid" style="width: 45%;">
 															</a>
