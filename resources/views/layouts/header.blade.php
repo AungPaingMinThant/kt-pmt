@@ -639,6 +639,12 @@
 														</p>
 													</div>
 													<div class="col-md-5">
+														<p class="fw-bold">
+															WHY US
+														</p>
+														<p class="m-b-5">
+															<a href="{{ url('/about-aya/who-we-are/why-us') }}">Why Us</a>
+														</p>
 													</div>
 												</div>
 											</div>
@@ -1428,6 +1434,16 @@
 								<li>
 									<p class="dropdown-item m-l-20 mb-20">
 										<a href="{{ url('/about-aya/who-we-are/our-strategies/stakeholder-management') }}" >Stakeholder Management</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item fw-bold m-b-5 mt-2">
+										WHY US
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20 mb-20">
+										<a href="{{ url('/about-aya/who-we-are/why-us') }}">Why Us</a>
 									</p>
 								</li>
 							</ul>
