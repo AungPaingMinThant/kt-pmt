@@ -1,7 +1,6 @@
 @extends('layouts.frontend-app')
 
 @section('title', 'FX Counter Locations – AYA Bank')
-<link rel="stylesheet" href="{{ url('/css/slide_tab.css') }}" />
 <link rel="stylesheet" href="{{ url('/css/loader.css') }}" />
 <link rel="stylesheet" href="{{ url('/css/about-aya/locations.css') }}" />
 
@@ -21,17 +20,6 @@
 				<div class="container">
 					<h4 class="fw-bold" style="margin-left: 0px;">Explore Our FX Counter Locations!</h4>
 				</div>
-
-				<!-- <div class="container-tab">
-					<div class="tabs">
-						<input type="radio" id="radio-1" name="tabs" checked="">
-						<label class="tab" for="radio-1">Map View</label>
-						<input type="radio" id="radio-2" name="tabs">
-						<label class="tab" for="radio-2">List View</label>
-						<span class="glider"></span>
-					</div>
-				</div>
-				<div class="space-80"></div> -->
 
 				<div class="nav-align-top">
 					<ul class="nav nav-pills " role="tablist" style="justify-content: center;display: none;">
@@ -101,6 +89,9 @@
 													<td class="py-3 f-white" style="font-size: 12px;width: 14%;background-color: #f04223;">Branch / Location</td>
 													<td class="py-3 f-white" style="font-size: 12px;width: 25%;background-color: #bc1e6a;">Address</td>
 													<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #217e8e;">Business Hours</td>
+													<td class="py-3 f-white" style="font-size: 12px;background-color: #077c78;width: 3%;">
+														Map Location
+													</td>
 												</tr>
 											</thead>
 											<tbody class="table-border-bottom-0" style="background-color: #f5f5f5;">
@@ -122,6 +113,11 @@
 														<td style="font-size: 12px;">{{ $bl->name }}</td>
 														<td style="font-size: 12px;">{{ $bl->list_address }}</td>
 														<td style="font-size: 12px;">{{ $bl->openinghour }}</td>
+														<td valign="middle" style="text-align: center;">
+															<a href="https://www.google.com/maps/search/?api=1&query=AYA Bank {{$bl->name}} Branch, {{$bl->list_address}}, {{$bl->latitude}}, {{$bl->longitude}}" target="_blank">
+																<img src="{{ url('/images/about-aya/network/location_icon.webp') }}" class="img-fluid" style="width: 45%;">
+															</a>
+														</td>
 													</tr>
 													@php
 														$bl_count = $bl_count + 1;

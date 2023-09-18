@@ -55,9 +55,9 @@
 							<thead>
 								<tr valign="middle">
 									<td class="py-3 f-white" style="font-size: 12px;width: 4%;background-color: #696969;"><b>CURRENCY</td>
-									<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #09b400;"><b>CORRESPONDENT BANK</td>
-									<td class="py-3 f-white" style="font-size: 12px;width: 4%;background-color: #035fb5;"><b>LOCATION</td>
-									<td class="py-3 f-white" style="font-size: 12px;width: 4%;background-color: #937dbe;"><b>SWIFT CODE</td>
+									<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #3ab54a;"><b>CORRESPONDENT BANK</td>
+									<td class="py-3 f-white" style="font-size: 12px;width: 4%;background-color: #0054a5;"><b>LOCATION</td>
+									<td class="py-3 f-white" style="font-size: 12px;width: 4%;background-color: #937fbc;"><b>SWIFT CODE</td>
 								</tr>
 							</thead>
 							<tbody class="table-border-bottom-0" style="background-color: #f5f5f5;">

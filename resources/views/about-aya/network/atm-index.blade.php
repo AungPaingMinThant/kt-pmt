@@ -95,8 +95,11 @@
 													<td class="py-3" style="font-size: 12px;width: 1%;background-color: #f8fa4f;">No</td>
 													<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #fbb831;">Region</td>
 													<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #fb7e1c;">Township</td>
-													<td class="py-3 f-white" style="font-size: 12px;width: 14%;background-color: #f04223;">Location / Branch</td>
-													<td class="py-3 f-white" style="font-size: 12px;width: 25%;background-color: #bc1e6a;">Address</td>
+													<td class="py-3 f-white" style="font-size: 12px;width: 16%;background-color: #f04223;">Location / Branch</td>
+													<td class="py-3 f-white" style="font-size: 12px;width: 33%;background-color: #bc1e6a;">Address</td>
+													<td class="py-3 f-white" style="font-size: 12px;background-color: #077c78;width: 3%;">
+														Map Location
+													</td>
 												</tr>
 											</thead>
 											<tbody class="table-border-bottom-0" style="background-color: #f5f5f5;">
@@ -117,6 +120,11 @@
 														<td style="font-size: 12px;">{{ $bl->township }}</td>
 														<td style="font-size: 12px;">{{ $bl->name }}</td>
 														<td style="font-size: 12px;">{{ $bl->list_address }}</td>
+														<td valign="middle" style="text-align: center;">
+															<a href="https://www.google.com/maps/search/?api=1&query=AYA Bank {{$bl->name}} Branch, {{$bl->list_address}}, {{$bl->latitude}}, {{$bl->longitude}}" target="_blank">
+																<img src="{{ url('/images/about-aya/network/location_icon.webp') }}" class="img-fluid" style="width: 45%;">
+															</a>
+														</td>
 													</tr>
 													@php
 														$bl_count = $bl_count + 1;

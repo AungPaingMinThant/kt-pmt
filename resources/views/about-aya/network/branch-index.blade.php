@@ -1,7 +1,6 @@
 @extends('layouts.frontend-app')
 
 @section('title', 'Branch Locations – AYA Bank')
-<link rel="stylesheet" href="{{ url('/css/slide_tab.css') }}" />
 <link rel="stylesheet" href="{{ url('/css/loader.css') }}" />
 <link rel="stylesheet" href="{{ url('/css/about-aya/locations.css') }}" />
 
@@ -21,17 +20,6 @@
 				<div class="container">
 					<h4 class="fw-bold" style="margin-left: 0px;">Explore Our Branch Locations!</h4>
 				</div>
-
-				<!-- <div class="container-tab">
-					<div class="tabs">
-						<input type="radio" id="radio-1" name="tabs" checked="">
-						<label class="tab" for="radio-1">Map View</label>
-						<input type="radio" id="radio-2" name="tabs">
-						<label class="tab" for="radio-2">List View</label>
-						<span class="glider"></span>
-					</div>
-				</div>
-				<div class="space-80"></div> -->
 
 				<div class="nav-align-top">
 					<ul class="nav nav-pills " role="tablist" style="justify-content: center;display: none;">
@@ -98,6 +86,9 @@
 													<td class="py-3 f-white" style="font-size: 12px;background-color: #f04223;">Address</td>
 													<td class="py-3 f-white" style="font-size: 12px;background-color: #bc1e6a;width: 17%;">Contact No</td>
 													<td class="py-3 f-white" style="font-size: 12px;background-color: #217e8e;width: 16%;">Fax No</td>
+													<td class="py-3 f-white" style="font-size: 12px;background-color: #077c78;width: 5%;">
+														Map Location
+													</td>
 												</tr>
 											</thead>
 											<tbody class="table-border-bottom-0" style="background-color: #f5f5f5;">
@@ -121,17 +112,18 @@
 															{{ $bl->name }}
 														</td>
 														<td style="font-size: 12px;">
-															@if($bl->list_address == 'No- (82), U Paing No-(218), Lanmadaw (North) Ward, Daik Inn Kwin (Kha), Zalun Township, Ayeyarwady Division' || $bl->list_address == 'U Paing No- (135), Coner of Kyun Oo Road & Strand Road, (1) Ward, Thabaung Township, Ayeyarwady Division')
-																<a href="https://www.google.com/maps/search/?api=1&query=AYA Bank {{$bl->name}} Branch, {{ $bl->list_address }}" target="_blank" style="text-decoration: underline;">{{ $bl->list_address }}</a>
-															@else
-																{{ $bl->list_address }}
-															@endif
+															{{ $bl->list_address }}
 														</td>
 														<td style="font-size: 12px;">
 															{{ str_replace(",",", ",$bl->telephone) }}
 														</td>
 														<td style="font-size: 12px;">
 															{{ str_replace(",",", ",$bl->fax) }}
+														</td>
+														<td valign="middle" style="text-align: center;">
+															<a href="https://www.google.com/maps/search/?api=1&query=AYA Bank {{$bl->name}}, {{$bl->list_address}}, {{$bl->latitude}}, {{$bl->longitude}}" target="_blank">
+																<img src="{{ url('/images/about-aya/network/location_icon.webp') }}" class="img-fluid" style="width: 50%;">
+															</a>
 														</td>
 													</tr>
 													@php
@@ -177,13 +169,6 @@
 	var cur_url = window.location.href;
 	var parts = cur_url.split('#');
 	var last_part = parts.at(-1);
-
-	$("#radio-1").click(function(){
-		$("#bod_tab").click();
-	});
-	$("#radio-2").click(function(){
-		$("#emt_tab").click();
-	});
 
 	document.addEventListener('keypress', (event)=>{
 		let keyCode = event.keyCode ? event.keyCode : event.which;
