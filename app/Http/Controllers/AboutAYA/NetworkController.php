@@ -87,8 +87,8 @@ class NetworkController extends Controller
         $branch_list = DB::table('stores')
                                 ->where('cat_id','2')
                                 ->where(function($query) use ($search_value) {
-                                    $query->where('name','like','%'.$search_value.'%')
-                                          ->orWhere('list_address','like','%'.$search_value.'%');
+                                    $query->where(DB::raw('lower(name)'), 'like','%'.strtolower($search_value).'%')
+                                            ->orWhere(DB::raw('lower(list_address)'), 'like','%'.strtolower($search_value).'%');
                                 })
                                 ->orderBy('region','desc')->orderBy('township','desc')
                                 ->get();
@@ -114,8 +114,8 @@ class NetworkController extends Controller
         $branch_list = DB::table('stores')
                                 ->where('cat_id','1')
                                 ->where(function($query) use ($search_value) {
-                                    $query->where('name','like','%'.$search_value.'%')
-                                          ->orWhere('list_address','like','%'.$search_value.'%');
+                                    $query->where(DB::raw('lower(name)'), 'like','%'.strtolower($search_value).'%')
+                                            ->orWhere(DB::raw('lower(list_address)'), 'like','%'.strtolower($search_value).'%');
                                 })
                                 ->orderBy('region','desc')->orderBy('township','desc')
                                 ->get();
@@ -139,10 +139,10 @@ class NetworkController extends Controller
         $show_ent = $request->show_entries;
 
         $branch_list = DB::table('stores')
-                                ->where('cat_id','3')
+                                ->where('cat_id','3')                                
                                 ->where(function($query) use ($search_value) {
-                                    $query->where('name','like','%'.$search_value.'%')
-                                          ->orWhere('list_address','like','%'.$search_value.'%');
+                                    $query->where(DB::raw('lower(name)'), 'like','%'.strtolower($search_value).'%')
+                                            ->orWhere(DB::raw('lower(list_address)'), 'like','%'.strtolower($search_value).'%');
                                 })
                                 ->orderBy('region','desc')->orderBy('township','desc')
                                 ->get();

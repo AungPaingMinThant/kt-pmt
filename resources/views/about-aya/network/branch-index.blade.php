@@ -185,6 +185,8 @@
     	$(".location_table").addClass('d-none');
 	    $(".location_loader").removeClass('d-none');
 
+	    var APP_URL = {!! json_encode(url('/')) !!};
+
 	    if (search_value == "") {
 	    	location.reload();
 	    } else {
@@ -203,6 +205,9 @@
 														'<td class="py-3 f-white" style="font-size: 12px;background-color: #f04223;">Address</td>'+
 														'<td class="py-3 f-white" style="font-size: 12px;background-color: #bc1e6a;width: 17%;">Contact No</td>'+
 														'<td class="py-3 f-white" style="font-size: 12px;background-color: #217e8e;width: 16%;">Fax No</td>'+
+														'<td class="py-3 f-white" style="font-size: 12px;background-color: #077c78;width: 5%;">'+
+															'Map Location'+
+														'</td>'+
 													'</tr>'+
 												'</thead>'+
 												'<tbody class="table-border-bottom-0" style="background-color: #f5f5f5;">';
@@ -210,21 +215,15 @@
 														location_table_html += 	'<tr valign="top">'+
 																					'<td style="font-size: 12px;text-align: center;">'+ (blist + 1) +'</td>'+
 																					'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['region']+'</td>'+
-																					'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['name']+'</td>';
-																					if (data['data']['branch_list'][blist]['list_address'] == 'No- (82), U Paing No-(218), Lanmadaw (North) Ward, Daik Inn Kwin (Kha), Zalun Township, Ayeyarwady Division' || data['data']['branch_list'][blist]['list_address'] == 'No- (22), Du Ti Ya Street, (6) Ward, Pyapon Township, Ayeyarwady Division') {
-																						location_table_html += 	'<td style="font-size: 12px;">'+
-																							'<a href="https://www.google.com/maps/search/?api=1&query=AYA Bank '+data['data']['branch_list'][blist]['name']+' Branch, '+data['data']['branch_list'][blist]['list_address']+'" target="_blank" style="text-decoration: underline;">'+data['data']['branch_list'][blist]['list_address'];
-																						'</td>';
-																					} else {
-																						location_table_html += 	'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['list_address']+'</td>';
-																					}
-
-
-
-
-																					
-														location_table_html +='<td style="font-size: 12px;">'+ data['data']['branch_list'][blist]['telephone'].replace(",", ", ")+'</td>'+
+																					'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['name']+'</td>'+
+																					'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['list_address']+'</td>'+
+																					'<td style="font-size: 12px;">'+ data['data']['branch_list'][blist]['telephone'].replace(",", ", ")+'</td>'+
 																					'<td style="font-size: 12px;">'+ data['data']['branch_list'][blist]['fax']+'</td>'+
+																					'<td style="text-align: center;">'+
+																						'<a href="https://www.google.com/maps/search/?api=1&query=AYA Bank '+data['data']['branch_list'][blist]['name']+', '+data['data']['branch_list'][blist]['list_address']+', '+data['data']['branch_list'][blist]['latitude']+', '+data['data']['branch_list'][blist]['longitude']+'" target="_blank">'+
+																							'<img src="'+APP_URL+'/images/about-aya/network/location_icon.webp" class="img-fluid" style="width: 50%;">'+
+																						'</a>'+
+																					'</td>'+
 																				'</tr>';
 													}
 														

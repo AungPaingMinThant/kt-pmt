@@ -183,6 +183,8 @@
 		$("#search_loc").val(search_loc);
 		var location_table_html;
 
+		var APP_URL = {!! json_encode(url('/')) !!};
+
     	$(".location_table").addClass('d-none');
 	    $(".location_loader").removeClass('d-none');
 
@@ -204,6 +206,9 @@
 														'<td class="py-3 f-white" style="font-size: 12px;width: 14%;background-color: #f04223;">Branch / Location</td>'+
 														'<td class="py-3 f-white" style="font-size: 12px;width: 25%;background-color: #bc1e6a;">Address</td>'+
 														'<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #217e8e;">Business Hours</td>'+
+														'<td class="py-3 f-white" style="font-size: 12px;background-color: #077c78;width: 3%;">'+
+															'Map Location'+
+														'</td>'+
 													'</tr>'+
 												'</thead>'+
 												'<tbody class="table-border-bottom-0" style="background-color: #f5f5f5;">';
@@ -215,6 +220,11 @@
 																					'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['name']+'</td>'+
 																					'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['list_address']+'</td>'+
 																					'<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['openinghour']+'</td>'+
+																					'<td style="text-align: center;">'+
+																						'<a href="https://www.google.com/maps/search/?api=1&query=AYA Bank '+data['data']['branch_list'][blist]['name']+', '+data['data']['branch_list'][blist]['list_address']+', '+data['data']['branch_list'][blist]['latitude']+', '+data['data']['branch_list'][blist]['longitude']+'" target="_blank">'+
+																							'<img src="'+APP_URL+'/images/about-aya/network/location_icon.webp" class="img-fluid" style="width: 45%;">'+
+																						'</a>'+
+																					'</td>'+
 																				'</tr>';
 													}
 														

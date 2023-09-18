@@ -190,6 +190,7 @@
     	var search_value = $("#search_value").val();
     	var show_entries = $("#show_entries").val();
     	var location_table_html;
+    	var APP_URL = {!! json_encode(url('/')) !!};
 
     	if (!search_value || search_value.trim() === "") {
         	show_entries = "0"; // Set show_entries to '0' for "All"
@@ -215,7 +216,10 @@
 	                                                    '<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #fbb831;">Region</td>'+
 	                                                    '<td class="py-3 f-white" style="font-size: 12px;width: 10%;background-color: #fb7e1c;">Township</td>'+
 	                                                    '<td class="py-3 f-white" style="font-size: 12px;width: 14%;background-color: #f04223;">Location / Branch</td>'+
-	                                                    '<td class="py-3 f-white" style="font-size: 12px;width: 25%;background-color: #bc1e6a;">Address</td>'+
+		                                                '<td class="py-3 f-white" style="font-size: 12px;width: 33%;background-color: #bc1e6a;">Address</td>'+
+														'<td class="py-3 f-white" style="font-size: 12px;background-color: #077c78;width: 3%;">'+
+															'Map Location'+
+														'</td>'+
 	                                                '</tr>'+
 	                                            '</thead>'+
 	                                            '<tbody class="table-border-bottom-0" style="background-color: #f5f5f5;">';
@@ -226,6 +230,11 @@
 	                                                                                '<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['township']+'</td>'+
 	                                                                                '<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['name']+'</td>'+
 	                                                                                '<td style="font-size: 12px;">'+data['data']['branch_list'][blist]['list_address']+'</td>'+
+	                                                                                '<td style="text-align: center;">'+
+																						'<a href="https://www.google.com/maps/search/?api=1&query=AYA Bank '+data['data']['branch_list'][blist]['name']+', '+data['data']['branch_list'][blist]['list_address']+', '+data['data']['branch_list'][blist]['latitude']+', '+data['data']['branch_list'][blist]['longitude']+'" target="_blank">'+
+																							'<img src="'+APP_URL+'/images/about-aya/network/location_icon.webp" class="img-fluid" style="width: 45%;">'+
+																						'</a>'+
+																					'</td>'+
 	                                                                            '</tr>';
 	                                                }
 	                                                    
