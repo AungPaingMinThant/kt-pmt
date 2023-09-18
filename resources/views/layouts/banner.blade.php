@@ -3755,7 +3755,26 @@
 @endif
 
 @if($page == 'social_sustainability')
-	<div class="social_banner">
+	<div class="social_sustainability_banner banner_bg">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div class="sustainability_banner_tagline">
+						<h1 class="f-white" style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">Social Sustainability</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 30px;left: 20px;right: 40px;">
+						<h1 class="f-white" style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Social Sustainability</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #f5f5f7;">
 		<div class="container">
 			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/about-aya/') }}" style="color: #666;">ABOUT AYA</a>&nbsp;
@@ -3766,19 +3785,29 @@
 			</p>
 		</div>
 	</div>
-	<div class="news_banner">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center py-6">
-					<h1 class="fw-bold" style="font-size: 23px;margin-bottom: 0;">Social Sustainability</h1>
-				</div>
-			</div>
-		</div>
-	</div>	
 @endif
 
 @if($page == 'environmental_sustainability')
-	<div class="environmental_banner">
+	<div class="environmental_sustainability_banner banner_bg">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div class="sustainability_banner_tagline">
+						<h1 class="f-white" style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">Environmental Sustainability</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 30px;left: 20px;right: 40px;">
+						<h1 class="f-white" style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Social Sustainability</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #f5f5f7;">
 		<div class="container">
 			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/about-aya/') }}" style="color: #666;">ABOUT AYA</a>&nbsp;
@@ -3789,19 +3818,30 @@
 			</p>
 		</div>
 	</div>
-	<div class="news_banner">
+@endif
+
+
+@if($page == 'economic_sustainability')
+	<div class="economic_sustainability_banner banner_bg">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center py-6">
-					<h1 class="fw-bold" style="font-size: 23px;margin-bottom: 0;">Environmental Sustainability</h1>
+			<div class="row d-none d-sm-block">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div class="sustainability_banner_tagline">
+						<h1 class="f-white" style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">Economic Sustainability</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 30px;left: 20px;right: 40px;">
+						<h1 class="f-white" style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Social Sustainability</h1>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>	
-@endif
+	</div>
 
-@if($page == 'economic_sustainability')
-	<div class="economic_banner">
+	<div style="background-color: #f5f5f7;">
 		<div class="container">
 			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/about-aya/') }}" style="color: #666;">ABOUT AYA</a>&nbsp;
@@ -3812,16 +3852,8 @@
 			</p>
 		</div>
 	</div>
-	<div class="news_banner">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center py-6">
-					<h1 class="fw-bold" style="font-size: 23px;margin-bottom: 0;">Economic Sustainability</h1>
-				</div>
-			</div>
-		</div>
-	</div>	
 @endif
+
 
 @if($page == 'ungc_compliance')
 	<div class="ungc_compliance_banner banner_bg">

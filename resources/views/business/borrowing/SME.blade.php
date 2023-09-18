@@ -157,6 +157,12 @@
 										</a>
 									</li>
 									<li class="">
+										<a class="side-link active" id="demand_loan_link" href="#demand_loan">
+											<span class="pr-5">Demand Loan</span>
+											<hr class="nav-item-separate">
+										</a>
+									</li>
+									<li class="">
 										<a class="side-link" id="jica_sme_two_step_loan_link" href="#jica_sme_two_step_loan">
 											<span class="pr-5">JICA SME Two Step Loan</span>
 											<hr class="nav-item-separate">
@@ -213,6 +219,45 @@
 											<tr>
 												<td style="border-left: none;padding: 20px;">Loan Tenor</td>
 												<td style="border-right: none;">1 Year</td>
+											</tr>
+											<tr style="background-color: #fff;border-bottom: none;">
+												<td style="border-width: 1px;border-bottom: none;border-left: none;padding: 20px;">Interest</td>
+												<td class="last" style="border-width: 1px;border-right: none;border-bottom: none;">10% p.a. to 14.5% p.a. (Service Charges Included)</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+
+								<div class="space-40" id="demand_loan"></div>
+								<p id="demand_loan" style="font-size:18px; font-weight: 700;">
+									Demand Loan
+								</p>
+								<div class="row" style="position: relative;">
+									<img src="{{ url('/images/business/borrowing/sme/working_capital_loan_OD.png') }}">
+									<p class="working_capital_loan_tagline">Enjoy convenience of demanding repayment at any time</p>
+								</div>
+								<div class="row">
+									<div class="space-30"></div>
+									<p>If you are looking forward to boosting your capital investment or business expansion, let us help you grow your business! AYA Bank offers Demand Loan to SMEs and Corporates for fixed asset purchases, capital expenditure purchases and industrial building construction, etc.
+									</p>
+
+									<div class="space-20"></div>
+
+									<p class="fw-semibold" style="font-size: 17px;">SME Financing Solutions</p>
+
+									<table class="table table-bordered fee_charge_table">
+										<tbody style="box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%);font-weight: 500;background-color: transparent;">
+											<tr style="background-color: #fff;border-top: none;">
+												<td style="border-left: none;padding: 20px;">Loan Amount</td>
+												<td style="border-right: none;">Up to MMK 1 Billion</td>
+											</tr>
+											<tr style="background-color: #fff;border-top: none;">
+												<td style="border-left: none;padding: 20px;">Collateral</td>
+												<td style="border-right: none;">Landed Property, Condo</td>
+											</tr>
+											<tr>
+												<td style="border-left: none;padding: 20px;">Loan Tenor</td>
+												<td style="border-right: none;">Up to 3 Years</td>
 											</tr>
 											<tr style="background-color: #fff;border-bottom: none;">
 												<td style="border-width: 1px;border-bottom: none;border-left: none;padding: 20px;">Interest</td>
@@ -858,6 +903,11 @@
 	  		$("#working_capital_loan_over_draft_link").addClass('active');
 	  	}
 
+		  if (nav_link_href == '#demand_loan') {
+	  		$("#demand_loan_link").addClass('active');
+	  	}
+
+
 	  	if (nav_link_href == '#jica_sme_two_step_loan') {
 	  		$("#jica_sme_two_step_loan_link").addClass('active');
 	  	}
@@ -879,6 +929,12 @@
 		$(".side-link").removeClass('active');
   		$("#working_capital_loan_over_draft_link").addClass('active');
   	}
+
+	  if (last_part == 'demand_loan') {
+		$(".side-link").removeClass('active');
+  		$("#demand_loan_link").addClass('active');
+  	}
+	 
 
   	if (last_part == 'jica_sme_two_step_loan') {
   		$(".side-link").removeClass('active');
@@ -908,6 +964,13 @@
 			$(".side-link").removeClass('active');
   			$("#working_capital_loan_over_draft_link").addClass('active');
 		}
+
+		var working_capital_loan_over_draft_section = $("#demand_loan");
+		if (scrollTop > working_capital_loan_over_draft_section.offset().top - 60) {
+			$(".side-link").removeClass('active');
+  			$("#demand_loan_link").addClass('active');
+		}
+		
 
 		var jica_sme_two_step_loan_section = $("#jica_sme_two_step_loan");
 		if (scrollTop > jica_sme_two_step_loan_section.offset().top - 60) {
