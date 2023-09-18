@@ -17,7 +17,6 @@
 				<div class="row">
 					<p>We are dedicated to expressing our commitment towards playing our part in crafting a sustainable future. Social sustainability serves as an indicator of community welfare and expanding opportunities for everyone, now and in the future. This encompasses fostering a workplace that is respectful, collaborative, and inclusive, promoting professional growth and development, and enabling us to attract, retain, and engage employees effectively.</p>
 				</div>
-
 				<div class="row">
 					<div class="col-md-4 d-none d-sm-block">
 						<div class="space-40"></div>
@@ -58,7 +57,7 @@
 								</div>
 							</div>
 
-							<div class="row d-none" id="championing_human_rights">
+							<div class="row" id="championing_human_rights">
 								<div class="space-40"></div>
 								<p class="championing_human_rights">
 									Championing Human Rights - Fundamental for a Prosperous Future!
@@ -87,7 +86,7 @@
 								<p>We urge our staff to interact with the community in a way that respects human rights and recognizes diverse cultures. Our CSR initiatives aim to support communities across various regions of Myanmar with diverse cultural backgrounds. AYA Bank is the first bank to voluntarily undergo a human rights audit and implement recommendations from the ILO (International Labour Organization). The Bank will continue to promote and advocate for human rights norms, upholding fundamental human rights for all our stakeholders.</p>
 							</div>
 
-							<div class="row d-none" id="business_ethics">
+							<div class="row" id="business_ethics">
 								<div class="space-40"></div>
 								<p class="business_ethics">
 									Business Ethics - An Imperative Competence
@@ -122,25 +121,25 @@
 		if (last_part == 'enriching_lives_financial') {
 			$(".nav-link").removeClass('active');
 	  		$("#enriching_lives_financial_link").addClass('active');
-	  		$("#enriching_lives_financial").removeClass('d-none');
-	  		$("#championing_human_rights").addClass('d-none');
-	  		$("#business_ethics").addClass('d-none');
+	  		$("#enriching_lives_financial").removeClass('active');
+	  		$("#championing_human_rights").addClass('active');
+	  		$("#business_ethics").addClass('active');
 	  	}
 
 	  	if (last_part == 'championing_human_rights') {
 	  		$(".nav-link").removeClass('active');
 	  		$("#championing_human_rights_link").addClass('active');
-	  		$("#championing_human_rights").removeClass('d-none');
-	  		$("#enriching_lives_financial").addClass('d-none');
-	  		$("#business_ethics").addClass('d-none');
+	  		$("#championing_human_rights").removeClass('');
+	  		$("#enriching_lives_financial").addClass('');
+	  		$("#business_ethics").addClass('');
 	  	}
 
 	  	if (last_part == 'business_ethics') {
 			$(".nav-link").removeClass('active');
 	  		$("#business_ethics_link").addClass('active');
-	  		$("#business_ethics").removeClass('d-none');
-	  		$("#championing_human_rights").addClass('d-none');
-	  		$("#enriching_lives_financial").addClass('d-none');
+	  		$("#business_ethics").removeClass('');
+	  		$("#championing_human_rights").addClass('');
+	  		$("#enriching_lives_financial").addClass('');
 	  	}
 	}
 
@@ -156,23 +155,23 @@
 		} else {
 			if (nav_link_href == '#enriching_lives_financial') {
 		  		$("#enriching_lives_financial_link").addClass('active');
-		  		$("#enriching_lives_financial").removeClass('d-none');
-		  		$("#championing_human_rights").addClass('d-none');
-		  		$("#business_ethics").addClass('d-none');
+		  		$("#enriching_lives_financial").removeClass('');
+		  		$("#championing_human_rights").addClass('');
+		  		$("#business_ethics").addClass('');
 		  	}
 
 		  	if (nav_link_href == '#championing_human_rights') {
 		  		$("#championing_human_rights_link").addClass('active');
-		  		$("#championing_human_rights").removeClass('d-none');
-		  		$("#enriching_lives_financial").addClass('d-none');
-		  		$("#business_ethics").addClass('d-none');
+		  		$("#championing_human_rights").removeClass('');
+		  		$("#enriching_lives_financial").addClass('');
+		  		$("#business_ethics").addClass('');
 		  	}
 
 		  	if (nav_link_href == '#business_ethics') {
 		  		$("#business_ethics_link").addClass('active');
-		  		$("#business_ethics").removeClass('d-none');
-		  		$("#championing_human_rights").addClass('d-none');
-		  		$("#enriching_lives_financial").addClass('d-none');
+		  		$("#business_ethics").removeClass('');
+		  		$("#championing_human_rights").addClass('');
+		  		$("#enriching_lives_financial").addClass('');
 		  	}
 		}
 	});

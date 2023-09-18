@@ -114,7 +114,7 @@
 					<div class="col-md-4 sustainability_CTA_col">
 						<div class="card h-100">
 							<div style="position: relative;">
-								<img src="{{ url('/images/about-aya/sustainability/social_sustainability.webp') }}" alt="Social Sustainability" class="card-img-top">
+								<img src="{{ url('/images/about-aya/sustainability/green-plant-people-s-hands.webp') }}" style="height: 242px" alt="Social Sustainability" class="card-img-top">
 								<p class="social_sustainability_CTA_tagline">Our Unwavering Pledge to a Sustainable Future</p>
 							</div>
 							<div class="card-body">
@@ -170,7 +170,7 @@
 							<img src="{{ url('/images/about-aya/sustainability/economic_sustainability.webp') }}" alt="Economic Sustainability" class="card-img-top">
 							<p class="economic_sustainability_CTA_tagline">Embracing Economic Sustainability: Responsible, Ethical, and Profitable Business Practices</p>
 							<div class="card-body">
-								<a href="{{ url ('about-aya/sustainability/our-approach/environmental-sustainability')}}"<p class="card-title fw-semibold mb-20" style="font-size: 16px;">Economic Sustainability</p></a>
+								<a href="{{ url ('about-aya/sustainability/our-approach/economic-sustainability')}}"><p class="card-title fw-semibold mb-20" style="font-size: 16px;">Economic Sustainability</p></a>
 								<p class="card_detail_info mb-30">We firmly believe that the essence of economic sustainability in business involves conducting our operations responsibly, optimizing our bottom line without inflicting harm on the environment and society that surround us. It is our mission to create a business model that is not only profitable for the Bank but also holds itself accountable, adheres to ethical standards, and contributes positively to society and the environment.</p>
 
 								<p class="text-decoration-underline">

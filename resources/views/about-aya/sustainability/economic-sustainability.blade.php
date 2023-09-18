@@ -70,7 +70,7 @@
 								</div>
 							</div>
 
-							<div class="row d-none" id="cost_optimization_key_driver_towards_sustainability">
+							<div class="row" id="cost_optimization_key_driver_towards_sustainability">
 								<div class="space-40"></div>
 								<p class="cost_optimization_key_driver_towards_sustainability">
 									Cost Optimization - A Key Driver towards Sustainability
@@ -79,7 +79,7 @@
 								<p>By harmonizing business objectives with budget considerations, we endeavor to create a cost-effective operational environment, continuously seeking ways to cut unnecessary expenditures and enhance operational efficiencies.</p>
 							</div>
 
-							<div class="row d-none" id="empowering_micro_small_medium_enterprises_overcome_economic_challenges">
+							<div class="row" id="empowering_micro_small_medium_enterprises_overcome_economic_challenges">
 								<div class="space-40"></div>
 								<p class="empowering_micro_small_medium_enterprises_overcome_economic_challenges">
 									Empowering Micro, Small, and Medium Enterprises – Overcome Economic Challenges
@@ -90,7 +90,7 @@
 								</div>
 							</div>
 
-							<div class="row d-none" id="focus_retail_banking_tailoring_services_customers_needs">
+							<div class="row" id="focus_retail_banking_tailoring_services_customers_needs">
 								<div class="space-40"></div>
 								<p class="focus_retail_banking_tailoring_services_customers_needs">
 									Focus on Retail Banking - Tailoring Services to Customers' Needs
@@ -129,49 +129,49 @@
 		if (last_part == 'long_term_planning_cornerstone_sustainability') {
 			$(".nav-link").removeClass('active');
 	  		$("#long_term_planning_cornerstone_sustainability_link").addClass('active');
-	  		$("#long_term_planning_cornerstone_sustainability").removeClass('d-none');
-	  		$("#cost_optimization_key_driver_towards_sustainability").addClass('d-none');
-	  		$("#empowering_micro_small_medium_enterprises_overcome_economic_challenges").addClass('d-none');
-	  		$("#focus_retail_banking_tailoring_services_customers_needs").addClass('d-none');
-	  		$("#combating_air_pollution").addClass('d-none');
-	  		$("#embrace_digitalization_protect").addClass('d-none');
-	  		$("#recovering_impact_digital_transformation").addClass('d-none');
+	  		$("#long_term_planning_cornerstone_sustainability").removeClass('');
+	  		$("#cost_optimization_key_driver_towards_sustainability").addClass('');
+	  		$("#empowering_micro_small_medium_enterprises_overcome_economic_challenges").addClass('');
+	  		$("#focus_retail_banking_tailoring_services_customers_needs").addClass('');
+	  		$("#combating_air_pollution").addClass('');
+	  		$("#embrace_digitalization_protect").addClass('');
+	  		$("#recovering_impact_digital_transformation").addClass('');
 	  	}
 
 	  	if (last_part == 'cost_optimization_key_driver_towards_sustainability') {
 	  		$(".nav-link").removeClass('active');
 	  		$("#cost_optimization_key_driver_towards_sustainability_link").addClass('active');
-	  		$("#cost_optimization_key_driver_towards_sustainability").removeClass('d-none');
-	  		$("#long_term_planning_cornerstone_sustainability").addClass('d-none');
-	  		$("#empowering_micro_small_medium_enterprises_overcome_economic_challenges").addClass('d-none');
-	  		$("#focus_retail_banking_tailoring_services_customers_needs").addClass('d-none');
-	  		$("#combating_air_pollution").addClass('d-none');
-	  		$("#embrace_digitalization_protect").addClass('d-none');
-	  		$("#recovering_impact_digital_transformation").addClass('d-none');
+	  		$("#cost_optimization_key_driver_towards_sustainability").removeClass('');
+	  		$("#long_term_planning_cornerstone_sustainability").addClass('');
+	  		$("#empowering_micro_small_medium_enterprises_overcome_economic_challenges").addClass('');
+	  		$("#focus_retail_banking_tailoring_services_customers_needs").addClass('');
+	  		$("#combating_air_pollution").addClass('');
+	  		$("#embrace_digitalization_protect").addClass('');
+	  		$("#recovering_impact_digital_transformation").addClass('');
 	  	}
 
 	  	if (last_part == 'empowering_micro_small_medium_enterprises_overcome_economic_challenges') {
 			$(".nav-link").removeClass('active');
 	  		$("#empowering_micro_small_medium_enterprises_overcome_economic_challenges_link").addClass('active');
-	  		$("#empowering_micro_small_medium_enterprises_overcome_economic_challenges").removeClass('d-none');
-	  		$("#cost_optimization_key_driver_towards_sustainability").addClass('d-none');
-	  		$("#long_term_planning_cornerstone_sustainability").addClass('d-none');
-	  		$("#focus_retail_banking_tailoring_services_customers_needs").addClass('d-none');
-	  		$("#combating_air_pollution").addClass('d-none');
-	  		$("#embrace_digitalization_protect").addClass('d-none');
-	  		$("#recovering_impact_digital_transformation").addClass('d-none');
+	  		$("#empowering_micro_small_medium_enterprises_overcome_economic_challenges").removeClass('');
+	  		$("#cost_optimization_key_driver_towards_sustainability").addClass('');
+	  		$("#long_term_planning_cornerstone_sustainability").addClass('');
+	  		$("#focus_retail_banking_tailoring_services_customers_needs").addClass('');
+	  		$("#combating_air_pollution").addClass('');
+	  		$("#embrace_digitalization_protect").addClass('');
+	  		$("#recovering_impact_digital_transformation").addClass('');
 	  	}
 
 	  	if (last_part == 'focus_retail_banking_tailoring_services_customers_needs') {
 			$(".nav-link").removeClass('active');
 			$("#focus_retail_banking_tailoring_services_customers_needs_link").addClass('active');
-			$("#focus_retail_banking_tailoring_services_customers_needs").removeClass('d-none');
-	  		$("#empowering_micro_small_medium_enterprises_overcome_economic_challenges").addClass('d-none');
-	  		$("#cost_optimization_key_driver_towards_sustainability").addClass('d-none');
-	  		$("#long_term_planning_cornerstone_sustainability").addClass('d-none');
-	  		$("#combating_air_pollution").addClass('d-none');
-	  		$("#embrace_digitalization_protect").addClass('d-none');
-	  		$("#recovering_impact_digital_transformation").addClass('d-none');
+			$("#focus_retail_banking_tailoring_services_customers_needs").removeClass('');
+	  		$("#empowering_micro_small_medium_enterprises_overcome_economic_challenges").addClass('');
+	  		$("#cost_optimization_key_driver_towards_sustainability").addClass('');
+	  		$("#long_term_planning_cornerstone_sustainability").addClass('');
+	  		$("#combating_air_pollution").addClass('');
+	  		$("#embrace_digitalization_protect").addClass('');
+	  		$("#recovering_impact_digital_transformation").addClass('');
 	  	}
 	}
 
@@ -191,46 +191,46 @@
 		} else {
 			if (nav_link_href == '#long_term_planning_cornerstone_sustainability') {
 		  		$("#long_term_planning_cornerstone_sustainability_link").addClass('active');
-		  		$("#long_term_planning_cornerstone_sustainability").removeClass('d-none');
-		  		$("#cost_optimization_key_driver_towards_sustainability").addClass('d-none');
-		  		$("#empowering_micro_small_medium_enterprises_overcome_economic_challenges").addClass('d-none');
-		  		$("#focus_retail_banking_tailoring_services_customers_needs").addClass('d-none');
-		  		$("#combating_air_pollution").addClass('d-none');
-		  		$("#embrace_digitalization_protect").addClass('d-none');
-		  		$("#recovering_impact_digital_transformation").addClass('d-none');
+		  		$("#long_term_planning_cornerstone_sustainability").removeClass('');
+		  		$("#cost_optimization_key_driver_towards_sustainability").addClass('');
+		  		$("#empowering_micro_small_medium_enterprises_overcome_economic_challenges").addClass('');
+		  		$("#focus_retail_banking_tailoring_services_customers_needs").addClass('');
+		  		$("#combating_air_pollution").addClass('');
+		  		$("#embrace_digitalization_protect").addClass('');
+		  		$("#recovering_impact_digital_transformation").addClass('');
 		  	}
 
 		  	if (nav_link_href == '#cost_optimization_key_driver_towards_sustainability') {
 		  		$("#cost_optimization_key_driver_towards_sustainability_link").addClass('active');
-		  		$("#cost_optimization_key_driver_towards_sustainability").removeClass('d-none');
-		  		$("#long_term_planning_cornerstone_sustainability").addClass('d-none');
-		  		$("#empowering_micro_small_medium_enterprises_overcome_economic_challenges").addClass('d-none');
-		  		$("#focus_retail_banking_tailoring_services_customers_needs").addClass('d-none');
-		  		$("#combating_air_pollution").addClass('d-none');
-		  		$("#embrace_digitalization_protect").addClass('d-none');
-		  		$("#recovering_impact_digital_transformation").addClass('d-none');
+		  		$("#cost_optimization_key_driver_towards_sustainability").removeClass('');
+		  		$("#long_term_planning_cornerstone_sustainability").addClass('');
+		  		$("#empowering_micro_small_medium_enterprises_overcome_economic_challenges").addClass('');
+		  		$("#focus_retail_banking_tailoring_services_customers_needs").addClass('');
+		  		$("#combating_air_pollution").addClass('');
+		  		$("#embrace_digitalization_protect").addClass('');
+		  		$("#recovering_impact_digital_transformation").addClass('');
 		  	}
 
 		  	if (nav_link_href == '#empowering_micro_small_medium_enterprises_overcome_economic_challenges') {
 		  		$("#empowering_micro_small_medium_enterprises_overcome_economic_challenges_link").addClass('active');
-		  		$("#empowering_micro_small_medium_enterprises_overcome_economic_challenges").removeClass('d-none');
-		  		$("#cost_optimization_key_driver_towards_sustainability").addClass('d-none');
-		  		$("#long_term_planning_cornerstone_sustainability").addClass('d-none');
-		  		$("#focus_retail_banking_tailoring_services_customers_needs").addClass('d-none');
-		  		$("#combating_air_pollution").addClass('d-none');
-		  		$("#embrace_digitalization_protect").addClass('d-none');
-		  		$("#recovering_impact_digital_transformation").addClass('d-none');
+		  		$("#empowering_micro_small_medium_enterprises_overcome_economic_challenges").removeClass('');
+		  		$("#cost_optimization_key_driver_towards_sustainability").addClass('');
+		  		$("#long_term_planning_cornerstone_sustainability").addClass('');
+		  		$("#focus_retail_banking_tailoring_services_customers_needs").addClass('');
+		  		$("#combating_air_pollution").addClass('');
+		  		$("#embrace_digitalization_protect").addClass('');
+		  		$("#recovering_impact_digital_transformation").addClass('');
 		  	}
 
 		  	if (nav_link_href == '#focus_retail_banking_tailoring_services_customers_needs') {
 				$("#focus_retail_banking_tailoring_services_customers_needs_link").addClass('active');
-				$("#focus_retail_banking_tailoring_services_customers_needs").removeClass('d-none');
-		  		$("#empowering_micro_small_medium_enterprises_overcome_economic_challenges").addClass('d-none');
-		  		$("#cost_optimization_key_driver_towards_sustainability").addClass('d-none');
-		  		$("#long_term_planning_cornerstone_sustainability").addClass('d-none');
-		  		$("#combating_air_pollution").addClass('d-none');
-		  		$("#embrace_digitalization_protect").addClass('d-none');
-		  		$("#recovering_impact_digital_transformation").addClass('d-none');
+				$("#focus_retail_banking_tailoring_services_customers_needs").removeClass('');
+		  		$("#empowering_micro_small_medium_enterprises_overcome_economic_challenges").addClass('');
+		  		$("#cost_optimization_key_driver_towards_sustainability").addClass('');
+		  		$("#long_term_planning_cornerstone_sustainability").addClass('');
+		  		$("#combating_air_pollution").addClass('');
+		  		$("#embrace_digitalization_protect").addClass('');
+		  		$("#recovering_impact_digital_transformation").addClass('');
 		  	}
 		}
 	});
