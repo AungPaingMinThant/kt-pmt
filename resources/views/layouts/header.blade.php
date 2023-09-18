@@ -797,9 +797,9 @@
 														<p class="fw-bold">
 															NETWORK
 														</p>
-														<!-- <p class="m-b-5">
-															<span>Correspondent Banks</span>
-														</p> -->
+														<p class="m-b-5">
+															<a href="{{ url('/about-aya/network/correspondent-bank') }}">Correspondent Banks</a>
+														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/about-aya/network/branch-locations') }}">Branch Locations</a>
 														</p>
@@ -1635,11 +1635,11 @@
 						<div class="row menu-link about-aya-menu-network-link">
 							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">NETWORK</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<!-- <li>
+								<li>
 									<p class="dropdown-item m-b-5 mt-2">
-										<span>Correspondent Banks</span>
+										<a href="{{ url('/about-aya/network/correspondent-bank') }}">Correspondent Banks</a>
 									</p>
-								</li> -->
+								</li>
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
 										<a href="{{ url('/about-aya/network/branch-locations') }}">Branch Locations</a>
