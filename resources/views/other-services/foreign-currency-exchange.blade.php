@@ -94,7 +94,7 @@
 					<div class="col-md-12">
 						<div class="row">
 							<div class="space-40"></div>
-							<p class="mb-30"><span class="theme_text_color fw-semibold" style="font-size: 16px;padding-right: 20px;">Worker Remittance Rate : </span>1 {{ $other_rate->worker_remittance_currency }} = {{ number_format($other_rate->	worker_remittance_MMK) }} MMK</p>
+							<p class="mb-30"><span class="theme_text_color fw-semibold" style="font-size: 16px;padding-right: 20px;">Worker Remittance Rate : </span>1 {{ $other_rate->worker_remittance_currency }} = {{ number_format($other_rate->worker_remittance_MMK) }} MMK</p>
 
 							<p class="theme_text_color fw-semibold" style="font-size: 16px;">Currency Exchange (Special Purpose)</p>
 							<p>We provide a convenient currency exchange solution for Myanmar citizens intending to travel abroad for education, employment, or medical treatment and require small amount of currency. This service is available at our designated branches' Money Changer Counters.</p>
