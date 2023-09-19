@@ -159,6 +159,7 @@
 									<p>While reaping the benefits of digitalization, we maintain a holistic approach towards environmental conservation, always remembering that our electronic advancements should serve, and not hinder, our sustainability commitments. We are thus determined to find innovative ways to reduce the negative impacts of digitalization on the environment, setting an example in the industry for sustainable digital practices.</p>
 									<p>In essence, while digital transformation promises countless opportunities for increased efficiency and reduced resource usage, it is imperative that we remain mindful of the associated environmental implications. We are committed to balancing the scales between digital innovation and environmental stewardship, continually seeking ways to marry the two in our pursuit of sustainable progress.</p>
 								</div>
+								<div class="space-100"></div>
 							</div>
 						</div>
 					</div>
