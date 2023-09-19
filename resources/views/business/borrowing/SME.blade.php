@@ -229,7 +229,7 @@
 								</div>
 
 								<div class="space-40" id="demand_loan"></div>
-								<p id="demand_loan" style="font-size:18px; font-weight: 700;">
+								<p style="font-size:18px; font-weight: 700;">
 									Demand Loan
 								</p>
 								<div class="row" style="position: relative;">
