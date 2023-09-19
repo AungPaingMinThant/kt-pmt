@@ -16,7 +16,7 @@
                     <div class="row">
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/sitemap/digital-internet-banking.jpg') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">ONLINE PAYMENT SERVICES</h5>
                                     <p class="card-text">
@@ -27,7 +27,7 @@
                         </div>
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/sitemap/digital-card-services.jpg') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">CARD SERVICES</h5>
                                     <p class="card-text">
@@ -38,7 +38,7 @@
                         </div>
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/atm/mobile_KV.jpg') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/sitemap/digital-atm.jpg') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">ATM</h5>
                                     <p class="card-text">
@@ -49,7 +49,7 @@
                         </div>
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/sitemap/digital-wallet-solution.jpg') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">WALLET SOLUTION</h5>
                                     <p class="card-text">
@@ -60,7 +60,7 @@
                         </div>
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/sitemap/digital-guideline.jpg') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">GUIDELINE</h5>
                                     <p class="card-text">

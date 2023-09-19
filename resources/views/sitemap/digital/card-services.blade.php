@@ -16,7 +16,7 @@
                     <div class="row">
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/sitemap/digital-merchant-services.jpg') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">Merchant Services</h5>
                                     <p class="card-text">
@@ -36,12 +36,6 @@
                                 </div>
                             </div>
                         </div>
-                            <!-- <p class="px-3">
-                                <a class="f-body-color" href="{{ url('/digital-services/card-services/prepaid-card') }}">Prepaid Card <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p>
-                            <p class="px-3">
-                                <a class="f-body-color" href="{{ url('/digital-services/card-services/simple-pay') }}">Simple Pay <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                            </p> -->
                             <div class="col-md-4 px-3 mb-40">
                                 <div class="card h-100 sitemap_card">
                                     <img class="card-img-top" src="{{ url('/images/prepaid/mobile_KV.jpg') }}" alt="Card image cap" />
@@ -66,7 +60,7 @@
                             </div>                         
                             <div class="col-md-4 px-3 mb-40">
                                 <div class="card h-100 sitemap_card">
-                                    <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                    <img class="card-img-top" src="{{ url('/images/sitemap/digital-card-privilege.jpg') }}" alt="Card image cap" />
                                     <div class="card-body">
                                         <h5 class="card-title">Card Privilege</h5>
                                         <p class="card-text">
