@@ -63,7 +63,7 @@
 .fee_charge_table {
 	width: 100% !important;
 }
-#working_capital_loan_over_draft, .jica_sme_two_step_loan, .aya_sme_loan, .agriculture_loan, .micro_loan {
+#working_capital_loan_over_draft, .jica_sme_two_step_loan, .aya_sme_loan, .agriculture_loan, .micro_loan, .demand_loan {
 	padding-right: 250px;
 	font-size: 18px;
 	font-weight: 700;
@@ -85,7 +85,7 @@
 	left: 4%;
 }
 
-#demand_loan {
+/*#demand_loan {
 	color: #fff;
 	font-weight: 500;
 	font-size: 18px;
@@ -94,7 +94,7 @@
 	position: absolute;
 	top: 80%;
 	left: 4%;
-}
+}*/
 .jica_sme_two_step_loan_tagline {
 	color: #fff;
 	font-weight: 500;
@@ -475,7 +475,7 @@
 	}
 }
 @media (max-width: 1270px) and (min-width: 1101px) {
-	.working_capital_loan_tagline, .demand_loan, .aya_sme_loan_tagline, .jica_sme_two_step_loan_tagline, .agriculture_loan_tagline, .micro_loan_tagline {
+	.working_capital_loan_tagline, .aya_sme_loan_tagline, .jica_sme_two_step_loan_tagline, .agriculture_loan_tagline, .micro_loan_tagline {
 		font-size: 18px;
 	    line-height: 22px;
 	}
@@ -581,7 +581,7 @@
 	}
 }
 @media (max-width: 1100px) and (min-width: 1000px) {
-	.working_capital_loan_tagline, .demand_loan, .aya_sme_loan_tagline, .jica_sme_two_step_loan_tagline, .agriculture_loan_tagline, .micro_loan_tagline {
+	.working_capital_loan_tagline, .aya_sme_loan_tagline, .jica_sme_two_step_loan_tagline, .agriculture_loan_tagline, .micro_loan_tagline {
 		font-size: 18px;
 	    line-height: 22px;
 	}
@@ -706,7 +706,7 @@
 	.bullet_square {
 		width: 100%;
 	}
-	.working_capital_loan_tagline, .demand_loan, .aya_sme_loan_tagline, .jica_sme_two_step_loan_tagline, .agriculture_loan_tagline, .micro_loan_tagline {
+	.working_capital_loan_tagline, .aya_sme_loan_tagline, .jica_sme_two_step_loan_tagline, .agriculture_loan_tagline, .micro_loan_tagline {
 		font-size: 18px;
 	    line-height: 22px;
 	}
