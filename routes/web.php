@@ -107,7 +107,8 @@ Route::post('/admin/ayabank-profile/shareholding-info/section1/update',
 Route::post('/admin/ayabank-profile/shareholding-info/holding_table/update',
 	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@pageAYAbankProfileShareholdingInfoTableUpdate');
 
-
+Route::get('/admin/pagelist/about-aya/corporate-policies',
+	'App\Http\Controllers\Admin\AboutAYA\CorporatePoliciesController@pageCorporatePolicies');
 
 Route::get('/admin/exchange-rate','App\Http\Controllers\Admin\ExchangeController@index');
 Route::get('/admin/exchange-rate/edit','App\Http\Controllers\Admin\ExchangeController@editExchange');

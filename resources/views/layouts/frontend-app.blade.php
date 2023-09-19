@@ -6,6 +6,7 @@
         <link rel="icon" href="{{ url('/images/ayaicon.png') }}" sizes="192x192" />
         <link rel="apple-touch-icon" href="{{ url('/images/ayaicon.png') }}" sizes="180x180" />
         <meta name="msapplication-TileImage" content="{{ url('/images/ayaicon.png') }}" sizes="270x270" />
+        <meta name="description" content="AYA Bank is a leading private sector bank in Myanmar. The Bank was licensed by the Central Bank of Myanmar as a development bank on 2nd July 2010 and relicensed under the Financial Institutions Law 2016 as a full service bank.">
 
     	<title>@yield('title')</title>
 

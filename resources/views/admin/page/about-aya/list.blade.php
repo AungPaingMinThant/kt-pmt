@@ -70,6 +70,18 @@
                            							</a>
 												</td>
 											</tr>
+											<tr>
+												<td>4</td>
+												<td>Corporate Policies</td>
+												<td></td>
+												<td>
+													<a href="{{ url('/admin/pagelist/about-aya/corporate-policies') }}" target="_blank">
+														<button type="button" class="btn btn-outline-primary">
+                              								<span class="tf-icons bx bx-pencil"></span>&nbsp; 		
+                           								</button>
+                           							</a>
+												</td>
+											</tr>
 										</tbody>
 									</table>
 								</div>
