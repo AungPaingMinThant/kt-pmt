@@ -234,6 +234,67 @@
 		  	}
 		}
 	});
+
+	$(window).on('scroll', function() {
+		var scrollTop = $(this).scrollTop();
+
+		var long_term_planning_cornerstone_sustainability_section = $("#long_term_planning_cornerstone_sustainability");
+		if (scrollTop > long_term_planning_cornerstone_sustainability_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#long_term_planning_cornerstone_sustainability_link").addClass('active');
+		}
+
+		var cost_optimization_key_driver_towards_sustainability_section = $("#cost_optimization_key_driver_towards_sustainability");
+		if (scrollTop > cost_optimization_key_driver_towards_sustainability_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#cost_optimization_key_driver_towards_sustainability_link").addClass('active');
+		}
+
+		var empowering_micro_small_medium_enterprises_overcome_economic_challenges_section = $("#empowering_micro_small_medium_enterprises_overcome_economic_challenges");
+		if (scrollTop > empowering_micro_small_medium_enterprises_overcome_economic_challenges_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#empowering_micro_small_medium_enterprises_overcome_economic_challenges_link").addClass('active');
+		}
+
+		var focus_retail_banking_tailoring_services_customers_needs_section = $("#focus_retail_banking_tailoring_services_customers_needs");
+		if (scrollTop > focus_retail_banking_tailoring_services_customers_needs_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#focus_retail_banking_tailoring_services_customers_needs_link").addClass('active');
+		}
+	});
+	// $(".apply-tab-link").click(function() {
+	// 	$(".apply-tab-link").addClass('active');
+	// 	$(".apply-tab-link").not(this).removeClass('active');
+	// });
+	var swiper = new Swiper(".slide-content", {
+		slidesPerView: 3,
+		spaceBetween: 0,
+		loop: true,
+		centeredSlides: 'true',
+		fade: 'true',
+		grabCursor: 'true',
+		pagination: {
+			el: ".swiper-pagination",
+			clickable: true,
+			dynamicBullets: true,
+		},
+		navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		},
+
+		breakpoints:{
+			0: {
+				slidesPerView: 1,
+			},
+			520: {
+				slidesPerView: 2,
+			},
+			950: {
+				slidesPerView: 3,
+			},
+		},
+	});
 </script>
 
 @endsection('content')
