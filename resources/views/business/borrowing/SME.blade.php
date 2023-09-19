@@ -233,7 +233,7 @@
 									Demand Loan
 								</p>
 								<div class="row" style="position: relative;">
-									<img src="{{ url('/images/business/borrowing/sme/working_capital_loan_OD.png') }}">
+									<img src="{{ url('/images/business/borrowing/sme/demand_loan.png') }}">
 									<p class="working_capital_loan_tagline">Enjoy convenience of demanding repayment at any time</p>
 								</div>
 								<div class="row">
