@@ -10,6 +10,7 @@ use App\Models\AboutAYA\AyabankProfilePageLeadingCapabilitiesInfo;
 use App\Models\AboutAYA\AyabankProfileBusinessPractices;
 use App\Models\AboutAYA\AyabankProfileShareholdingInfo;
 use App\Models\AboutAYA\AyabankProfileShareholdingInfoTable;
+// use App\Models\AboutAYA\AyabankProfileMissionCorporate;
 use DB;
 
 class AYABankProfileController extends Controller
@@ -461,5 +462,9 @@ class AYABankProfileController extends Controller
         }
 
         return redirect('admin/pagelist/about-aya/ayabank-profile/shareholding_info');
+    }
+    public function pageAYAbankProfileMissionCorporate(Request $request)
+    {
+        return view ('admin.page.about-aya.profile.mission-corporate-value-brand-promise');
     }
 }
