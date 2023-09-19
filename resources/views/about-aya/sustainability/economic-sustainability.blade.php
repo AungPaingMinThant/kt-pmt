@@ -99,6 +99,7 @@
 									<p>The retail banking sector in Myanmar is evolving rapidly. We are committed to offering an extensive range of retail banking services as a "One-stop-shop retail banking destination" that caters to the public's needs, both in developed and emerging markets. With a robust network of 262 branches nationwide, we ensure on-site customer service for all retail banking requirements.</p>
 									<p>In this digital age, we stay abreast of technological changes and offer our services through online portals and mobile applications, thereby limiting the necessity for customers to visit branches physically and influencing key investment decisions for the Bank.</p>
 								</div>
+								<div class="space-100" style="height: 150px"></div>
 							</div>
 						</div>
 					</div>
@@ -233,6 +234,67 @@
 		  		$("#recovering_impact_digital_transformation").addClass('');
 		  	}
 		}
+	});
+
+	$(window).on('scroll', function() {
+		var scrollTop = $(this).scrollTop();
+
+		var long_term_planning_cornerstone_sustainability_section = $("#long_term_planning_cornerstone_sustainability");
+		if (scrollTop > long_term_planning_cornerstone_sustainability_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#long_term_planning_cornerstone_sustainability_link").addClass('active');
+		}
+
+		var cost_optimization_key_driver_towards_sustainability_section = $("#cost_optimization_key_driver_towards_sustainability");
+		if (scrollTop > cost_optimization_key_driver_towards_sustainability_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#cost_optimization_key_driver_towards_sustainability_link").addClass('active');
+		}
+
+		var empowering_micro_small_medium_enterprises_overcome_economic_challenges_section = $("#empowering_micro_small_medium_enterprises_overcome_economic_challenges");
+		if (scrollTop > empowering_micro_small_medium_enterprises_overcome_economic_challenges_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#empowering_micro_small_medium_enterprises_overcome_economic_challenges_link").addClass('active');
+		}
+
+		var focus_retail_banking_tailoring_services_customers_needs_section = $("#focus_retail_banking_tailoring_services_customers_needs");
+		if (scrollTop > focus_retail_banking_tailoring_services_customers_needs_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#focus_retail_banking_tailoring_services_customers_needs_link").addClass('active');
+		}
+	});
+	// $(".apply-tab-link").click(function() {
+	// 	$(".apply-tab-link").addClass('active');
+	// 	$(".apply-tab-link").not(this).removeClass('active');
+	// });
+	var swiper = new Swiper(".slide-content", {
+		slidesPerView: 3,
+		spaceBetween: 0,
+		loop: true,
+		centeredSlides: 'true',
+		fade: 'true',
+		grabCursor: 'true',
+		pagination: {
+			el: ".swiper-pagination",
+			clickable: true,
+			dynamicBullets: true,
+		},
+		navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		},
+
+		breakpoints:{
+			0: {
+				slidesPerView: 1,
+			},
+			520: {
+				slidesPerView: 2,
+			},
+			950: {
+				slidesPerView: 3,
+			},
+		},
 	});
 </script>
 

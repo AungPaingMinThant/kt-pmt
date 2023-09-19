@@ -92,9 +92,10 @@
 									Business Ethics - An Imperative Competence
 								</p>
 								<div class="row">
-									<p>Ethics form the bedrock of societal functioning. We firmly believe that our business ethics guide our employees' behavior. We have demonstrated our commitment to conducting business in an upright manner. The Bank has implemented an <a href="{{ url ('about-aya/governance/corporate-governance/')}}"><b>ethical code of conduct</b></a> to foster integrity among our key stakeholders, such as employees, investors, and consumers, and continues to cultivate this culture. It's vital that our employees are committed to making ethical decisions.</p>
+									<p>Ethics form the bedrock of societal functioning. We firmly believe that our business ethics guide our employees' behavior. We have demonstrated our commitment to conducting business in an upright manner. The Bank has implemented an <a href="{{ url ('about-aya/governance/corporate-governance#code-ethical-conduct')}}"><b>ethical code of conduct</b></a> to foster integrity among our key stakeholders, such as employees, investors, and consumers, and continues to cultivate this culture. It's vital that our employees are committed to making ethical decisions.</p>
 									<p>By promoting a culture of awareness among employees, their everyday behaviors, attitudes, and policies positively shape the work environment. We aim to create ethical workplaces where "High Integrity and Honesty" are the second-most important for us, next to professionalism.</p>
 								</div>
+								<div class="space-100"></div>
 							</div>
 						</div>
 					</div>
@@ -174,6 +175,103 @@
 		  		$("#enriching_lives_financial").addClass('');
 		  	}
 		}
+	});
+
+	// $(".nav-link").click(function() {
+	// 	$(".nav-link").addClass('active');
+	// 	$(".nav-link").not(this).removeClass('active');
+	// });
+
+	// $(".side-link").click(function(e) {
+	// 	$(".side-link").removeClass('active');
+
+	// 	var nav_link_href = $(this).attr('href');
+
+	// 	if (nav_link_href == '#enriching_lives_financial') {
+	//   		$("#enriching_lives_financial_link").addClass('active');
+	//   	}
+
+	// 	  if (nav_link_href == '#championing_human_rights') {
+	//   		$("#championing_human_rights_link").addClass('active');
+	//   	}
+
+
+	//   	if (nav_link_href == '#business_ethics') {
+	//   		$("#business_ethics_link").addClass('active');
+	//   	}
+	// });
+
+	// if (last_part == 'enriching_lives_financial') {
+	// 	$(".side-link").removeClass('active');
+  	// 	$("#enriching_lives_financial_link").addClass('active');
+  	// }
+
+	//   if (last_part == 'championing_human_rights') {
+	// 	$(".side-link").removeClass('active');
+  	// 	$("#championing_human_rights_link").addClass('active');
+  	// }
+	 
+
+  	// if (last_part == 'business_ethics') {
+  	// 	$(".side-link").removeClass('active');
+  	// 	$("#business_ethics_link").addClass('active');
+  	// }
+
+	$(window).on('scroll', function() {
+		var scrollTop = $(this).scrollTop();
+
+		var enriching_lives_financial_section = $("#enriching_lives_financial");
+		if (scrollTop > enriching_lives_financial_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#enriching_lives_financial_link").addClass('active');
+		}
+
+		var championing_human_rights_section = $("#championing_human_rights");
+		if (scrollTop > championing_human_rights_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#championing_human_rights_link").addClass('active');
+		}
+
+		var business_ethics_section = $("#business_ethics");
+		if (scrollTop > business_ethics_section.offset().top - 60) {
+			$(".nav-link").removeClass('active');
+  			$("#business_ethics_link").addClass('active');
+		}
+	});
+
+	$(".apply-tab-link").click(function() {
+		$(".apply-tab-link").addClass('active');
+		$(".apply-tab-link").not(this).removeClass('active');
+	});
+
+	var swiper = new Swiper(".slide-content", {
+		slidesPerView: 3,
+		spaceBetween: 0,
+		loop: true,
+		centeredSlides: 'true',
+		fade: 'true',
+		grabCursor: 'true',
+		pagination: {
+			el: ".swiper-pagination",
+			clickable: true,
+			dynamicBullets: true,
+		},
+		navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		},
+
+		breakpoints:{
+			0: {
+				slidesPerView: 1,
+			},
+			1000: {
+				slidesPerView: 2,
+			},
+			1500: {
+				slidesPerView: 3,
+			},
+		},
 	});
 </script>
 
