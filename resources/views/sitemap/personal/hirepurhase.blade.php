@@ -16,7 +16,7 @@
                     <div class="row">
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('images/borrowing/hire_purchase/auto_loan/mobile_KV.jpg') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/sitemap/personal-autoloan.png') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">Auto Loan</h5>
                                     <p class="card-text">
@@ -27,7 +27,7 @@
                         </div>
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('images/borrowing/hire_purchase/education_loan/mobile_KV.jpg') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/sitemap/personal-eduloan.png') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">Education Loan</h5>
                                     <p class="card-text">
@@ -38,7 +38,7 @@
                         </div>
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/borrowing/hire_purchase/home_loan/mobile_KV.jpg') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/sitemap/personal-homeloan.png') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">Home Loan</h5>
                                     <p class="card-text">

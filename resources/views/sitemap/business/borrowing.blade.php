@@ -16,7 +16,7 @@
                     <div class="row">
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/business/borrowing/corporate-business-loan/mobile_KV.jpg') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/sitemap/business-corporate-business-loan.png') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">Corporate Business Loan</h5>
                                     <p class="card-text">
@@ -38,7 +38,7 @@
                         </div>
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/business/borrowing/sme/mobile_KV.jpg') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/sitemap/business-sme.png') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">SME</h5>
                                     <p class="card-text">

@@ -16,7 +16,7 @@
                     <div class="row">
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/business/account-saving/saving-deposit/mobile_KV.jpg') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">ACCOUNTS AND SAVINGS</h5>
                                     <p class="card-text">
@@ -27,7 +27,7 @@
                         </div>
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/sitemap/business-remittance.png') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">REMITTANCE AND PAYMENTS</h5>
                                     <p class="card-text">
@@ -38,7 +38,7 @@
                         </div>
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/sitemap/business-corporate-business-loan.png') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">BORROWING</h5>
                                     <p class="card-text">
@@ -49,7 +49,7 @@
                         </div>
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/business/trade/trade-financing/mobile_KV.jpg') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">TRADE</h5>
                                     <p class="card-text">
@@ -60,7 +60,7 @@
                         </div>
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/business/cash-management/mobile_KV.jpg') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/sitemap/business-cash-mgmt.png') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">CASH MANAGEMENT</h5>
                                     <p class="card-text">
@@ -71,7 +71,7 @@
                         </div>
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/sitemap_placeholder.webp') }}" alt="Card image cap" />
+                                <img class="card-img-top" src="{{ url('/images/business/insurance/group-life/group.png') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">INSURANCE</h5>
                                     <p class="card-text">
