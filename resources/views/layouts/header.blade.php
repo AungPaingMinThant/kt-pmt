@@ -640,7 +640,7 @@
 													</div>
 													<div class="col-md-5">
 														<p class="fw-bold">
-															WHY US
+															What We Offer
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/about-aya/who-we-are/why-us') }}">Why Us</a>
