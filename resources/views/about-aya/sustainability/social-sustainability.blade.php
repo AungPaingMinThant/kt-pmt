@@ -95,7 +95,7 @@
 									<p>Ethics form the bedrock of societal functioning. We firmly believe that our business ethics guide our employees' behavior. We have demonstrated our commitment to conducting business in an upright manner. The Bank has implemented an <a href="{{ url ('about-aya/governance/corporate-governance#code-ethical-conduct')}}"><b>ethical code of conduct</b></a> to foster integrity among our key stakeholders, such as employees, investors, and consumers, and continues to cultivate this culture. It's vital that our employees are committed to making ethical decisions.</p>
 									<p>By promoting a culture of awareness among employees, their everyday behaviors, attitudes, and policies positively shape the work environment. We aim to create ethical workplaces where "High Integrity and Honesty" are the second-most important for us, next to professionalism.</p>
 								</div>
-								<div class="space-100"></div>
+								<!-- <div class="space-100"></div> -->
 							</div>
 						</div>
 					</div>
