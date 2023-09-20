@@ -3767,7 +3767,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 30px;left: 20px;right: 40px;">
-						<h1 class="f-white" style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Social Sustainability</h1>
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;background-color: #ffffff99;padding: 20px;">Social Sustainability</h1>
 					</div>
 				</div>
 			</div>
@@ -3800,7 +3800,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 30px;left: 20px;right: 40px;">
-						<h1 class="f-white" style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Social Sustainability</h1>
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;background-color: #ffffff99;padding: 20px;">Environmental Sustainability</h1>
 					</div>
 				</div>
 			</div>
@@ -3834,7 +3834,7 @@
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 30px;left: 20px;right: 40px;">
-						<h1 class="f-white" style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Social Sustainability</h1>
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;background-color: #ffffff99;padding: 20px;">Economic Sustainability</h1>
 					</div>
 				</div>
 			</div>

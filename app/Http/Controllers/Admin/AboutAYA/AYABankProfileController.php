@@ -10,7 +10,7 @@ use App\Models\AboutAYA\AyabankProfilePageLeadingCapabilitiesInfo;
 use App\Models\AboutAYA\AyabankProfileBusinessPractices;
 use App\Models\AboutAYA\AyabankProfileShareholdingInfo;
 use App\Models\AboutAYA\AyabankProfileShareholdingInfoTable;
-// use App\Models\AboutAYA\AyabankProfileMissionCorporate;
+use App\Models\AboutAYA\AyabankProfileMissionCorporate;
 use DB;
 
 class AYABankProfileController extends Controller
@@ -92,7 +92,7 @@ class AYABankProfileController extends Controller
                         'second_text' => $second_text,
                         'updated_by' => auth()->user()->id
                     ]);
-
+                    
         return redirect('admin/pagelist/about-aya/ayabank-profile');
     }
 
@@ -465,6 +465,6 @@ class AYABankProfileController extends Controller
     }
     public function pageAYAbankProfileMissionCorporate(Request $request)
     {
-        return view ('admin.page.about-aya.profile.mission-corporate-value-brand-promise');
+        return view ('admin.page.about-aya.mission-corporate.mission-corporate-value-brand-promise');
     }
 }

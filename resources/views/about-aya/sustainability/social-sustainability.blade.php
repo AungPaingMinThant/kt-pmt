@@ -65,23 +65,23 @@
 								<p>At AYA Bank, we believe that respect for human rights is vital to achieving successful and sustainable social development. We consider it imperative to integrate human rights considerations into all of our operations. AYA Bank adheres to its own Human Rights Policy and Code of Ethical Conduct, inspired by the Universal Declaration of Human Rights and the Ten Principles of the United Nations Global Compact. In line with these robust policies, we commit to upholding human rights in all aspects of our business, with key stakeholders being:</p>
 
 								<div class="space-20"></div>
-								<div style="display: flex; align-items: center; width:500px">
+								<div style="display: flex; align-items: center; width:400px">
 									<img src="{{ url('/images/about-aya/sustainability/social_for_employee.webp') }}" class="img-fluid social_sustainability_icon" width="100" height="100">
-									&nbsp;&nbsp;<p class="mb-10 fw-semibold" style="margin-right: 20px">For Employees</p>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p class="mb-10 fw-semibold" style="margin-right: 20px">For Employees</p>
 								</div>
 								<p>Elements of the human rights policy are included in staff orientation and training sessions, along with workplace ethics and non-discrimination policies. We have established a Standard Operating Procedure (SOP) on how to address human rights violations. A whistle-blowing policy is in place to report any misconduct or malpractice by employees. A dedicated HR committee regularly reviews grievance reports to ensure compliance and take necessary action.</p>
 
 								<div class="space-30"></div>
-								<div style="display: flex; align-items: center; width:500px">
+								<div style="display: flex; align-items: center; width:400px">
 									<img src="{{ url('/images/about-aya/sustainability/social_for_customer.webp') }}" class="img-fluid social_sustainability_icon">
-									&nbsp;&nbsp;<p class="mb-10 fw-semibold" style="margin-right: 20px">For Customers</p>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p class="mb-10 fw-semibold" style="margin-right: 20px">For Customers</p>
 								</div>
 								<p>We give due consideration to our customers' interests and treat them fairly. AYA Bank's external grievance handling procedure allows customers to formally raise grievances related to the Bank's staff or service, thereby identifying, and improving problematic areas to enhance the customer experience in the future. A grievance hotline has been established for human rights grievances, and customers are encouraged to report any suspected violation of human rights through an established channel.</p>
 
 								<div class="space-30"></div>
-								<div style="display: flex; align-items: center; width:500px">
+								<div style="display: flex; align-items: center; width:400px">
 									<img src="{{ url('/images/about-aya/sustainability/social_for_community.webp') }}" class="img-fluid social_sustainability_icon">
-									&nbsp;&nbsp;<p class="mb-10 fw-semibold" style="margin-right: 20px">For Community</p>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p class="mb-10 fw-semibold" style="margin-right: 20px">For Community</p>
 								</div>
 								<p>We urge our staff to interact with the community in a way that respects human rights and recognizes diverse cultures. Our CSR initiatives aim to support communities across various regions of Myanmar with diverse cultural backgrounds. AYA Bank is the first bank to voluntarily undergo a human rights audit and implement recommendations from the ILO (International Labour Organization). The Bank will continue to promote and advocate for human rights norms, upholding fundamental human rights for all our stakeholders.</p>
 							</div>

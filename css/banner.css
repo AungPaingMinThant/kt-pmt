@@ -1912,6 +1912,15 @@
 		background-image:url('../images/about-aya/sustainability/green-plant-people-s-hands.webp');
 		background-position: 70% center;
 	}
+	.economic_sustainability_banner {
+		background-image:url('../images/about-aya/sustainability/economic_sustainability.webp');
+		background-position: 50% center;
+	}
+
+	.environmental_sustainability_banner {
+		background-image:url('../images/about-aya/sustainability/environmental_sustainability.webp');
+		background-position: 40% center;
+	}
 	.ungc_compliance_banner {
 		background-image:url('../images/about-aya/ungc-compliance/mobile_KV.webp');
 		background-position: 70% center;
@@ -1952,6 +1961,7 @@
 		background-image:url('../images/about-aya/sustainability/corporate-social-responsibility/mobile_KV.webp');
 		background-position: 90% center;
 	}
+	
 	.grievance_handling_banner {
 		background-image:url('../images/grievance-handling/mobile_KV.webp');
 		background-position: 90% center;
