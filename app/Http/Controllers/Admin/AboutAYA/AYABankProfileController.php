@@ -463,8 +463,8 @@ class AYABankProfileController extends Controller
 
         return redirect('admin/pagelist/about-aya/ayabank-profile/shareholding_info');
     }
-    public function pageAYAbankProfileMissionCorporate(Request $request)
-    {
-        return view ('admin.page.about-aya.mission-corporate.mission-corporate-value-brand-promise');
-    }
+    // public function pageAYAbankProfileMissionCorporate(Request $request)
+    // {
+    //     return view ('admin.page.about-aya.profile.ayabank-profile.mission-corporate-value-brand-promise');
+    // }
 }
