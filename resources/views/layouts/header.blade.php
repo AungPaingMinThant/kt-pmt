@@ -813,10 +813,10 @@
 															<a href="{{ url('/about-aya/network/branch-locations') }}">Branch Locations</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/about-aya/network/fx-counter-locations') }}">FX Counter Locations</a>
+															<a href="{{ url('/about-aya/network/atm-locations') }}">ATM Locations</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/about-aya/network/atm-locations') }}">ATM Locations</a>
+															<a href="{{ url('/about-aya/network/fx-counter-locations') }}">FX Counter Locations</a>
 														</p>
 													</div>
 												</div>
@@ -1670,13 +1670,13 @@
 									</p>
 								</li>
 								<li>
-									<p class="dropdown-item m-b-5">
-										<a href="{{ url('/about-aya/network/fx-counter-locations') }}">FX Counter Locations</a>
+									<p class="dropdown-item mb-20">
+										<a href="{{ url('/about-aya/network/atm-locations') }}">ATM Locations</a>
 									</p>
 								</li>
 								<li>
-									<p class="dropdown-item mb-20">
-										<a href="{{ url('/about-aya/network/atm-locations') }}">ATM Locations</a>
+									<p class="dropdown-item m-b-5">
+										<a href="{{ url('/about-aya/network/fx-counter-locations') }}">FX Counter Locations</a>
 									</p>
 								</li>
 							</ul>

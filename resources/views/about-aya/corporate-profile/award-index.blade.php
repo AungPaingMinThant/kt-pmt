@@ -334,28 +334,7 @@
 									<div class="col-md-12 space-80"></div>
 								</div>
 							</div>
-							<div class="space-60"></div>
-							<hr>
-							<div class="space-60"></div>
 						</div>
-						{{-- <div class="row 2013" id="2013">
-							<div class="col-md-2">
-								<h3 class="fw-bold">2013</h3>
-							</div>
-							<div class="col-md-10 award_row_box">
-								<div class="row award_box">
-									<div class="col-md-2 award_img_col">
-										<img src="{{ url('/images/about-aya/corporate-profile/award/2013_Best_Private_Bank.webp') }}" class="img-fluid award_img">
-									</div>
-									<div class="col-md-8 award_desc_col">
-										<p class="mb-0 award_desc">
-											<span class="fw-semibold award_title">Best Private Bank, Myanmar</span><br>
-											World Finance Awards
-										</p>
-									</div>
-								</div>
-							</div>
-						</div> --}}
 					</div>
 					<div class="col-md-1 space-col"></div>
 					<div class="col-md-2 year-col">
