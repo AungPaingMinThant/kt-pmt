@@ -11,4 +11,8 @@ class DigitalSecureController extends Controller
     {
         return view('digital-secure.index');
     }
+
+    public function indexMM() {
+        return view('digital-secure.mm-index');
+    }
 }

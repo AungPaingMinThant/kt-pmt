@@ -143,6 +143,8 @@ Route::get('/digital-services/wallet-solution/aya-pay','App\Http\Controllers\Dig
 Route::get('/digital-services/guideline/digital-secure/sms-alert','App\Http\Controllers\Digital\SMSAlertController@index');
 
 Route::get('/digital-services/guideline/digital-secure','App\Http\Controllers\Digital\DigitalSecureController@index');
+Route::get('/digital-services/guideline/digital-secure/mm','App\Http\Controllers\Digital\DigitalSecureController@indexMM');
+
 Route::get('/digital-services/guideline/frequently-used-digital','App\Http\Controllers\Digital\FrequentlyUsedDigitalController@index');
 
 Route::get('/digital-services/card-services/reset-pin','App\Http\Controllers\Digital\ResetPinController@index');

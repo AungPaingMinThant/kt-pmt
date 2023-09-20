@@ -10,7 +10,6 @@ use App\Models\AboutAYA\AyabankProfilePageLeadingCapabilitiesInfo;
 use App\Models\AboutAYA\AyabankProfileBusinessPractices;
 use App\Models\AboutAYA\AyabankProfileShareholdingInfo;
 use App\Models\AboutAYA\AyabankProfileShareholdingInfoTable;
-// use App\Models\AboutAYA\AyabankProfileMissionCorporate;
 use DB;
 
 class AYABankProfileController extends Controller
