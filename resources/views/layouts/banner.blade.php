@@ -401,6 +401,52 @@
 	</div>
 @endif
 
+@if($page == 'digital_secure_mm')
+	<div class="digital_secure_banner banner_bg">
+		<div class="container">
+			<div class="row d-none d-sm-block">
+				<div class="digital_secure_tag">
+					<div class="col-md-6 text-right" style="text-align: left;position: relative;">
+						<div style="position: absolute;top: 156px;right: 130px;">
+							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">ဒစ်ဂျစ်တယ်လုံခြုံရေး <span style="color: #A5000B;">ကျွန်ုပ်တို့၏ ဦးစားပေး</span></h1>
+						</div>
+					</div>
+					<div class="col-md-6" style="text-align: right;">
+					</div>
+				</div>
+				<div class="digital_secure_tag_mid">
+					<div class="col-md-8 text-right" style="text-align: left;position: relative;">
+						<div style="position: absolute;top: 156px;right: 130px;">
+							<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">ဒစ်ဂျစ်တယ်လုံခြုံရေး <span style="color: #A5000B;">ကျွန်ုပ်တို့၏ ဦးစားပေး</span></h1>
+						</div>
+					</div>
+					<div class="col-md-4" style="text-align: right;">
+					</div>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 45px;left: 25px;right: 55px;">
+						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;">ဒစ်ဂျစ်တယ်လုံခြုံရေး </h1>
+						<h1 style="font-size: 20px;font-weight: 400;margin-bottom: 0;line-height: 22px;"><span style="color: #A5000B;">ကျွန်ုပ်တို့၏ ဦးစားပေး</span></h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services') }}" style="color: #666;">DIGITAL SERVICES&nbsp;</a>
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services/guideline') }}" style="color: #666;">GUIDELINES</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<span style="color: #A5000B;">SECURITY ADVICE FOR DIGITAL SERVICES</span>
+			</p>
+		</div>
+	</div>
+@endif
+
 @if($page == 'frequently-used-digital')
 	<div class="frequently_digital_banner banner_bg">
 		<div class="container">

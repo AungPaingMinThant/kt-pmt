@@ -105,6 +105,7 @@
                 <a class="footer_first_link_a" href="{{url('/digital-services/online-payment-services/corporate-internet-banking')}}"><p class="footer_first_link">Corporate Internet Banking</p></a>
                 <a class="footer_first_link_a" href="{{url('/personal-banking/royal-banking')}}"><p class="footer_first_link">Royal Banking</p></a>
                 <a class="footer_first_link_a" href="{{url('/personal-banking/other-services/foreign-currency-exchange-service#foreign_currency_exchange_rate')}}"><p class="footer_first_link">Currency Exchange Rate</p></a> 
+                <a class="footer_first_link_a" href="{{url('/digital-services/guideline/digital-secure/mm')}}"><p class="footer_first_link">Security Advices for Digital Services (Myanmar)</p></a> 
                 <p>&nbsp;</p>
                 <!-- <h3 class="footer_like_title">Need Help</h3>
                 <a class="footer_first_link_a" href="#"><p class="footer_first_link">Help & Support</p></a>

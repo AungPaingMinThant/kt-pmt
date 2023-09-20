@@ -543,6 +543,9 @@
 															<a href="{{ url('/digital-services/guideline/digital-secure') }}">Security Advices for Digital Services</a>
 														</p>
 														<p class="m-b-5">
+															<a href="{{ url('/digital-services/guideline/digital-secure/mm') }}">Security Advices for Digital Services (Myanmar)</a>
+														</p>
+														<p class="m-b-5">
 															<a href="{{ url('/digital-services/guideline/frequently-used-digital') }}">Frequently Used Digital Services</a>
 														</p>
 													</div>
@@ -1348,6 +1351,11 @@
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
 										<a href="{{ url('/digital-services/guideline/digital-secure') }}">Security Advices for Digital Services</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 mt-2">
+										<a href="{{ url('/digital-services/guideline/digital-secure/mm') }}">Security Advices for Digital Services (Myanmar)</a>
 									</p>
 								</li>
 								<li>

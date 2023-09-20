@@ -110,7 +110,8 @@ Route::post('/admin/ayabank-profile/shareholding-info/section1/update',
 Route::post('/admin/ayabank-profile/shareholding-info/holding_table/update',
 	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@pageAYAbankProfileShareholdingInfoTableUpdate');
 
-
+Route::get('/admin/pagelist/about-aya/corporate-policies',
+	'App\Http\Controllers\Admin\AboutAYA\CorporatePoliciesController@pageCorporatePolicies');
 
 Route::get('/admin/exchange-rate','App\Http\Controllers\Admin\ExchangeController@index');
 Route::get('/admin/exchange-rate/edit','App\Http\Controllers\Admin\ExchangeController@editExchange');
@@ -142,6 +143,8 @@ Route::get('/digital-services/wallet-solution/aya-pay','App\Http\Controllers\Dig
 Route::get('/digital-services/guideline/digital-secure/sms-alert','App\Http\Controllers\Digital\SMSAlertController@index');
 
 Route::get('/digital-services/guideline/digital-secure','App\Http\Controllers\Digital\DigitalSecureController@index');
+Route::get('/digital-services/guideline/digital-secure/mm','App\Http\Controllers\Digital\DigitalSecureController@indexMM');
+
 Route::get('/digital-services/guideline/frequently-used-digital','App\Http\Controllers\Digital\FrequentlyUsedDigitalController@index');
 
 Route::get('/digital-services/card-services/reset-pin','App\Http\Controllers\Digital\ResetPinController@index');

@@ -72,10 +72,10 @@
 											</tr>
 											<tr>
 												<td>3</td>
-												<td>Mission, Corporate Values and Brand Promise</td>
+												<td>Corporate Policies</td>
 												<td></td>
 												<td>
-													<a href="{{ url('/admin/pagelist/about-aya/ayabank-profile/mission-corporate-value-promise') }}" target="_blank">
+													<a href="{{ url('/admin/pagelist/about-aya/corporate-policies') }}" target="_blank">
 														<button type="button" class="btn btn-outline-primary">
                               								<span class="tf-icons bx bx-pencil"></span>&nbsp; 		
                            								</button>

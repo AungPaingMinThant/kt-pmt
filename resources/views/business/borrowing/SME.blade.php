@@ -157,7 +157,7 @@
 										</a>
 									</li>
 									<li class="">
-										<a class="side-link active" id="demand_loan_link" href="#demand_loan">
+										<a class="side-link" id="demand_loan_link" href="#demand_loan">
 											<span class="pr-5">Demand Loan</span>
 											<hr class="nav-item-separate">
 										</a>
@@ -229,11 +229,11 @@
 								</div>
 
 								<div class="space-40" id="demand_loan"></div>
-								<p style="font-size:18px; font-weight: 700;">
+								<p class="demand_loan" style="font-size:18px; font-weight: 700;">
 									Demand Loan
 								</p>
 								<div class="row" style="position: relative;">
-									<img src="{{ url('/images/business/borrowing/sme/working_capital_loan_OD.png') }}">
+									<img src="{{ url('/images/business/borrowing/sme/demand_loan.png') }}">
 									<p class="working_capital_loan_tagline">Enjoy convenience of demanding repayment at any time</p>
 								</div>
 								<div class="row">
@@ -249,7 +249,7 @@
 										<tbody style="box-shadow: 0px 0px 50px 20px rgb(149 149 149 / 20%);font-weight: 500;background-color: transparent;">
 											<tr style="background-color: #fff;border-top: none;">
 												<td style="border-left: none;padding: 20px;">Loan Amount</td>
-												<td style="border-right: none;">Up to MMK 1 Billion</td>
+												<td style="border-right: none;">Up to 1 Billion MMK</td>
 											</tr>
 											<tr style="background-color: #fff;border-top: none;">
 												<td style="border-left: none;padding: 20px;">Collateral</td>
@@ -261,7 +261,7 @@
 											</tr>
 											<tr style="background-color: #fff;border-bottom: none;">
 												<td style="border-width: 1px;border-bottom: none;border-left: none;padding: 20px;">Interest</td>
-												<td class="last" style="border-width: 1px;border-right: none;border-bottom: none;">10% p.a. to 14.5% p.a. (Service Charges Included)</td>
+												<td class="last" style="border-width: 1px;border-right: none;border-bottom: none;">10% p.a. to 14.5% p.a.</td>
 											</tr>
 										</tbody>
 									</table>
@@ -903,10 +903,9 @@
 	  		$("#working_capital_loan_over_draft_link").addClass('active');
 	  	}
 
-		  if (nav_link_href == '#demand_loan') {
+		if (nav_link_href == '#demand_loan') {
 	  		$("#demand_loan_link").addClass('active');
 	  	}
-
 
 	  	if (nav_link_href == '#jica_sme_two_step_loan') {
 	  		$("#jica_sme_two_step_loan_link").addClass('active');
@@ -930,11 +929,10 @@
   		$("#working_capital_loan_over_draft_link").addClass('active');
   	}
 
-	  if (last_part == 'demand_loan') {
+	if (last_part == 'demand_loan') {
 		$(".side-link").removeClass('active');
   		$("#demand_loan_link").addClass('active');
   	}
-	 
 
   	if (last_part == 'jica_sme_two_step_loan') {
   		$(".side-link").removeClass('active');
