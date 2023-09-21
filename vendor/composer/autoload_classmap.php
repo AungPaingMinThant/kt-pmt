@@ -19,6 +19,7 @@ return array(
     'App\\Http\\Controllers\\AccountSaving\\FixedDepositController' => $baseDir . '/app/Http/Controllers/AccountSaving/FixedDepositController.php',
     'App\\Http\\Controllers\\AccountSaving\\SavingDepositController' => $baseDir . '/app/Http/Controllers/AccountSaving/SavingDepositController.php',
     'App\\Http\\Controllers\\Admin\\AboutAYA\\AYABankProfileController' => $baseDir . '/app/Http/Controllers/Admin/AboutAYA/AYABankProfileController.php',
+    'App\\Http\\Controllers\\Admin\\AboutAYA\\CorporateMssionBrandValuesController' => $baseDir . '/app/Http/Controllers/Admin/AboutAYA/CorporateMssionBrandValuesController.php',
     'App\\Http\\Controllers\\Admin\\AboutAYA\\CorporatePoliciesController' => $baseDir . '/app/Http/Controllers/Admin/AboutAYA/CorporatePoliciesController.php',
     'App\\Http\\Controllers\\Admin\\AdminController' => $baseDir . '/app/Http/Controllers/Admin/AdminController.php',
     'App\\Http\\Controllers\\Admin\\AdminLoginController' => $baseDir . '/app/Http/Controllers/Admin/AdminLoginController.php',
@@ -85,14 +86,11 @@ return array(
     'App\\Models\\AboutAYA\\AyabankProfilePageLeadingCapabilitiesInfo' => $baseDir . '/app/Models/AboutAYA/AyabankProfilePageLeadingCapabilitiesInfo.php',
     'App\\Models\\AboutAYA\\AyabankProfileShareholdingInfo' => $baseDir . '/app/Models/AboutAYA/AyabankProfileShareholdingInfo.php',
     'App\\Models\\AboutAYA\\AyabankProfileShareholdingInfoTable' => $baseDir . '/app/Models/AboutAYA/AyabankProfileShareholdingInfoTable.php',
-<<<<<<< HEAD
+    'App\\Models\\AboutAYA\\CorporatePolicies' => $baseDir . '/app/Models/AboutAYA/CorporatePolicies.php',
+    'App\\Models\\AboutAYA\\CorporatePoliciesDetail' => $baseDir . '/app/Models/AboutAYA/CorporatePoliciesDetail.php',
     'App\\Models\\AboutAYA\\MissionCopBrandProiseAspectExcellence' => $baseDir . '/app/Models/AboutAYA/MissionCopBrandProiseAspectExcellence.php',
     'App\\Models\\AboutAYA\\MissionCopBrandPromise' => $baseDir . '/app/Models/AboutAYA/MissionCopBrandPromise.php',
     'App\\Models\\AboutAYA\\MissionCopBrandPromiseAspectSincerity' => $baseDir . '/app/Models/AboutAYA/MissionCopBrandPromiseAspectSincerity.php',
-=======
-    'App\\Models\\AboutAYA\\CorporatePolicies' => $baseDir . '/app/Models/AboutAYA/CorporatePolicies.php',
-    'App\\Models\\AboutAYA\\CorporatePoliciesDetail' => $baseDir . '/app/Models/AboutAYA/CorporatePoliciesDetail.php',
->>>>>>> 0a0722c7d10ed5e6faf3d047b69edec7a44c04dd
     'App\\Models\\Activity' => $baseDir . '/app/Models/Activity.php',
     'App\\Models\\Blog' => $baseDir . '/app/Models/Blog.php',
     'App\\Models\\BlogFile' => $baseDir . '/app/Models/BlogFile.php',

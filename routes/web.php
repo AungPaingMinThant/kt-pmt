@@ -155,8 +155,8 @@ Route::get('/personal-banking/insurance/general/health','App\Http\Controllers\In
 Route::get('/personal-banking/insurance/general/motor','App\Http\Controllers\Insurance\MotorInsuranceController@index');
 Route::get('/personal-banking/insurance/general/fire','App\Http\Controllers\Insurance\FireInsuranceController@index');
 Route::get('/personal-banking/insurance/general/personal-accident','App\Http\Controllers\Insurance\PAInsuranceController@index');
-Route::get('/personal-banking/insurance/general/travel/aya-go','App\Http\Controllers\Insurance\AYAGOInsuranceController@index');
-Route::get('/personal-banking/insurance/general/travel/aya-joy','App\Http\Controllers\Insurance\AYAJoyInsuranceController@index');
+Route::get('/personal-banking/insurance/general/aya-go','App\Http\Controllers\Insurance\AYAGOInsuranceController@index');
+Route::get('/personal-banking/insurance/general/aya-joy','App\Http\Controllers\Insurance\AYAJoyInsuranceController@index');
 Route::get('/personal-banking/insurance/life/universal','App\Http\Controllers\Insurance\LifeInsuranceController@universalIndex');
 Route::get('/personal-banking/insurance/life/education','App\Http\Controllers\Insurance\LifeInsuranceController@educationIndex');
 Route::get('/personal-banking/insurance/life/one-health-solution-individual-plan','App\Http\Controllers\Insurance\LifeInsuranceController@oneHealthIndex');
@@ -228,7 +228,7 @@ Route::get('/test','App\Http\Controllers\HomeController@testIndex');
 
 // About AYA
 // about-aya/who-we-are-corporate-profile/awards
-Route::get('/about-aya/message-from-chairman','App\Http\Controllers\AboutAYA\WhoWeAreController@msgChairmanIndex');
+Route::get('/about-aya/who-we-are/leadership/message-from-chairman','App\Http\Controllers\AboutAYA\WhoWeAreController@msgChairmanIndex');
 Route::get('/about-aya/who-we-are/leadership/meet-our-leaders','App\Http\Controllers\AboutAYA\WhoWeAreController@meetOurLeadersIndex');
 Route::get('/about-aya/who-we-are/leadership/meet-our-leaders/contact-to-board','App\Http\Controllers\AboutAYA\WhoWeAreController@contactBoardIndex');
 
@@ -246,7 +246,7 @@ Route::get('/about-aya/who-we-are/our-strategies/corporate-strategy','App\Http\C
 
 Route::get('/about-aya/who-we-are/corporate-profile/corporate-goals','App\Http\Controllers\AboutAYA\WhoWeAreController@corporatGoalsIndex');
 
-Route::get('/about-aya/who-we-are/why-us','App\Http\Controllers\AboutAYA\WhoWeAreController@whyUsIndex');
+Route::get('/about-aya/who-we-are/what-we-offer/why-us','App\Http\Controllers\AboutAYA\WhoWeAreController@whyUsIndex');
 
 Route::get('/about-aya/who-we-are/foreign-direct-investment','App\Http\Controllers\AboutAYA\WhoWeAreController@FDIIndex');
 
@@ -346,6 +346,7 @@ Route::get('/about-aya/who-we-are','App\Http\Controllers\SiteMapController@whoWe
 Route::get('/about-aya/who-we-are/corporate-profile','App\Http\Controllers\SiteMapController@corporateProfileIndex');
 Route::get('/about-aya/who-we-are/leadership','App\Http\Controllers\SiteMapController@leadershipIndex');
 Route::get('/about-aya/who-we-are/our-strategies','App\Http\Controllers\SiteMapController@ourStrategiesIndex');
+Route::get('/about-aya/who-we-are/what-we-offer','App\Http\Controllers\SiteMapController@whatWeOfferIndex');
 
 Route::get('/about-aya/governance','App\Http\Controllers\SiteMapController@governanceIndex');
 Route::get('/about-aya/news-room','App\Http\Controllers\SiteMapController@newsroomIndex');

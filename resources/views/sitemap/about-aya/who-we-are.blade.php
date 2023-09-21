@@ -51,13 +51,24 @@
                             <div class="card h-100 sitemap_card">
                                 <img class="card-img-top" src="{{ url('/images/about-aya/why-us/mobile_KV.webp') }}" alt="Card image cap" />
                                 <div class="card-body">
+                                    <h5 class="card-title">What We Offer</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/about-aya/who-we-are/what-we-offer') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                       <!--  <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/about-aya/why-us/mobile_KV.webp') }}" alt="Card image cap" />
+                                <div class="card-body">
                                     <h5 class="card-title">Why Us</h5>
                                     <p class="card-text">
                                         <a class="theme_text_color" href="{{ url('/about-aya/who-we-are/why-us') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                                     </p>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
                                 <img class="card-img-top" src="{{ url('/images/sitemap/Foreign_Direct_Investment.png') }}" alt="Card image cap" />

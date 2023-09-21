@@ -27,6 +27,17 @@
                         </div>
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/sitemap/press-release.png') }}" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Press Release</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/about-aya/news-room/press-release') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
                                 <img class="card-img-top" src="{{ url('/images/sitemap/csr_new.png') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">CSR News</h5>
@@ -46,18 +57,7 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4 px-3 mb-40">
-                            <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/sitemap/press-release.png') }}" alt="Card image cap" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Press Release</h5>
-                                    <p class="card-text">
-                                        <a class="theme_text_color" href="{{ url('/about-aya/news-room/press-release') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                        </div>                        
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
                                 <img class="card-img-top" src="{{ url('/images/about-aya/report/mobile_KV.webp') }}" alt="Card image cap" />

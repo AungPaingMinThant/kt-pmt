@@ -27,6 +27,17 @@
                         </div>
                         <div class="col-md-4 px-3 mb-40">
                             <div class="card h-100 sitemap_card">
+                                <img class="card-img-top" src="{{ url('/images/about-aya/corporate-profile/mission-promise/KV.webp') }}" height="255" alt="Card image cap"/>
+                                <div class="card-body">
+                                    <h5 class="card-title">Mission, Corporate Values And Brand Value</h5>
+                                    <p class="card-text">
+                                        <a class="theme_text_color" href="{{ url('/about-aya/who-we-are/corporate-profile/mission-corporate-value-brand-promise') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="col-md-4 px-3 mb-40">
+                            <div class="card h-100 sitemap_card">
                                 <img class="card-img-top" src="{{ url('/images/about-aya/corporate-goals/mobile_KV.webp') }}" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">Corporate Goals</h5>
@@ -58,17 +69,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 px-3 mb-40">
-                            <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/about-aya/corporate-profile/mission-promise/KV.webp') }}" height="255" alt="Card image cap"/>
-                                <div class="card-body">
-                                    <h5 class="card-title">Mission, Corporate Values And Brand Value</h5>
-                                    <p class="card-text">
-                                        <a class="theme_text_color" href="{{ url('/about-aya/who-we-are/corporate-profile/mission-corporate-value-brand-promise') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div> 
                     </div>
                 </div>
             </div>
