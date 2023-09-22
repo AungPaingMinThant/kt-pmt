@@ -106,9 +106,9 @@
 		$banner = App\Models\AboutAYA\AyabankProfilePageConfigure::first();
 		$banner_link =  URL::to('/').'/'.$banner->banner;
 	@endphp
-	<div class="mission_promise_banner banner_bg" style="background-image:url('{{$banner_link}}')">
+	<div class="mission_promise_banner banner_bg">
 		<div class="container"  style="position: relative;">
-			<button class="btn banner_edit_btn" data-bs-toggle="modal" data-bs-target="#banner_modal">Edit Banner Section</button>
+			<button class="btn banner_edit_btn" data-bs-toggle="modal" data-bs-target="#corporate_banner_modal">Edit Banner Section</button>
 			<div class="row d-none d-sm-block">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div class="mission_promise_banner_tagline">
@@ -4295,7 +4295,7 @@
 </div>
 
 {{-- Corporate Mission --}}
-<div class="modal fade" id="Corporate_banner_modal" data-bs-backdrop="static" tabindex="-1">
+<div class="modal fade" id="corporate_banner_modal" data-bs-backdrop="static" tabindex="-1">
 	<div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
 		<form class="modal-content" action="{{ url('/admin/banner/corporateUpdate') }}" method="POST" enctype="multipart/form-data">
 			<div class="modal-header">					
