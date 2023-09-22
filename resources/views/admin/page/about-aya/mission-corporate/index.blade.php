@@ -5,7 +5,7 @@
 
 @section('content')
 @php
-		$page_data = App\Models\AboutAYA\AyabankProfilePageConfigure::first();
+		$page_data = App\Models\AboutAYA\MissionCopBrandPromise::first();
 @endphp
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">

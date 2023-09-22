@@ -4,8 +4,9 @@ namespace App\Http\Controllers\Admin\AboutAYA;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\AboutAYA\AyabankProfilePageConfigure;
 use App\Models\AboutAYA\MissionCopBrandPromise;
+use App\Models\AboutAYA\MissionCopBrandPromiseAspectExcellence;
+use App\Models\AboutAYA\MissionCopBrandPromiseAspectSincerity;
 
 class CorporateMissionBrandValuesController extends Controller
 {
@@ -52,6 +53,38 @@ class CorporateMissionBrandValuesController extends Controller
                     ]);
         return redirect('/admin/pagelist/about-aya/mission-corporate');
     }
+
+    public function corporateSection1Update(Request $request) {
+        $page_title_1 = $request->page_title_1;
+        $page_desc_1 = $request->page_desc_1;
+        $page_title_2 = $request->page_title_2;
+        $page_desc_2 = $request->page_desc_2;
+        $aspect_1 = $request->aspect_1;
+        $aspect_2 = $request->aspect_2;
+        $aspect_3 = $request->aspect_3;
+        $aspect_4 = $request->aspect_4;
+        $aspect_5 = $request->aspect_5;
+        $aspect_6 = $request->aspect_6;
+    
+        $banner = DB::table('mission_cop_brand_promises')
+            ->update ([
+                'page_title_1' => $page_title_1,
+                'page_desc_1' => $page_desc_1,
+                'page_title_2' => $page_title_2,
+                'page_desc_2' => $page_desc_2,
+                'aspect_1' => $aspect_1,
+                'aspect_2' => $aspect_2,
+                'aspect_3' => $aspect_3,
+                'aspect_4' => $aspect_4,
+                'aspect_5' => $aspect_5,
+                'aspect_6' => $aspect_6,
+                'updated_by' => auth()->user()->id
+    
+            ]);
+    
+            return redirect ('admin/pagelist/about-aya/mission-corporate');
+    }
+    
     
 
 }
