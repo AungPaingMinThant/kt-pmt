@@ -34,17 +34,6 @@
 			</div>
 		</div>
 	</div>
-
-	<div style="background-color: #f5f5f7;">
-		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/about-aya/') }}" style="color: #666;">ABOUT AYA</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/about-aya/governance') }}" style="color: #666;">GOVERNANCE</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #A5000B;">CORPORATE POLICIES</span>
-			</p>
-		</div>
-	</div>
 @endif
 
 @if($page == 'aya_bank_profile')
@@ -130,88 +119,6 @@
 	</div>
 @endif
 
-
-
-@if($page == 'mobilebanking')
-	<div class="mbanking_banner banner_bg">
-		<div class="container">
-			<div class="row d-none d-sm-block">
-				<div class="mb_tag">
-					<div class="col-md-6 text-right" style="text-align: right;position: relative;">
-						<div class="tag_line_div">
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Banking within the <span style="color: #A5000B;">palm of your hand</span></h1>
-						</div>
-					</div>
-					<div class="col-md-6" style="text-align: right;">
-						<p></p>
-					</div>
-				</div>
-				<div class="mb_tag_mid">
-					<div class="col-md-8 text-right" style="text-align: right;position: relative;">
-						<div class="tag_line_div">
-							<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Banking within the <span style="color: #A5000B;">palm of your hand</span></h1>
-						</div>
-					</div>
-					<div class="col-md-5" style="text-align: right;">
-						<p></p>
-					</div>
-				</div>
-			</div>
-			<div class="row d-block d-sm-none">
-				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 45px;left: 25px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;">Banking within the</h1>
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;color: #A5000B;"><span style="color: #A5000B;">palm of your hand</span></h1>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div style="background-color: #f5f5f7;">
-		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services') }}" style="color: #666;">DIGITAL SERVICES&nbsp;</a>
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services/online-payment-services') }}" style="color: #666;">ONLINE PAYMENT SERVICES</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #A5000B;">MOBILE BANKING</span>
-			</p>
-		</div>
-	</div>
-@endif
-
-@if($page == 'internetbanking')
-	<div class="ibanking_banner banner_bg">
-		<div class="container">
-			<div class="row d-none d-sm-block">
-				<div class="col-md-6 text-right" style="text-align: right;position: relative;">
-					<div class="tag_line_div">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 26px;line-height: 30px;">Banking with AYA is <span style="color: #A5000B;">easier</span> than <span style="color: #A5000B;">"ABC..."</span></h1>
-					</div>
-				</div>
-			</div>
-			<div class="row d-block d-sm-none">
-				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 45px;left: 20px;right: 160px;">
-						<h1 style="font-weight: 400;margin-bottom: 0;font-size: 20px;line-height: 22px;">Banking with AYA is <span style="color: #A5000B;">easier</span> than <span style="color: #A5000B;">"ABC..."</span></h1>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div style="background-color: #f5f5f7;">
-		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services') }}" style="color: #666;">DIGITAL SERVICES&nbsp;</a>
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/digital-services/online-payment-services') }}" style="color: #666;">ONLINE PAYMENT SERVICES</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #A5000B;">INTERNET BANKING</span>
-			</p>
-		</div>
-	</div>
-@endif
 
 
 <!-- Modals -->

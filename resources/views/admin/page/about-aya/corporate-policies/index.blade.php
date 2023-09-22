@@ -395,7 +395,7 @@
 </div>
 
 <div class="space-60"></div>
-@include('layouts.footer', ['page'=>''])
+@include('layouts.admin-footer', ['page'=>''])
 
 <script type="text/javascript">
 	

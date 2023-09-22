@@ -10,13 +10,7 @@
 <script src="{{ url('/js/jquery.js') }}"></script>
 <script src="{!! url('/assets/tinymce/js/tinymce/tinymce.min.js') !!}"></script>
 <script type="text/javascript">
-    tinymce.init({
-        selector: 'textarea#banner_tagline',
-        height: 300,
-        block_unsupported_drop: false
-    });
-
-    tinymce.init({
+   tinymce.init({
         selector: 'textarea#page_title',
         height: 300,
         block_unsupported_drop: false
