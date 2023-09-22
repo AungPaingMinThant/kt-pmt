@@ -129,7 +129,7 @@
 	padding: 20px 0px 0px 60px !important;
 	font-weight: 300;
 }
-.menu-link > span, .royal-banking-mobile {
+.menu-link > span, .menu-link > span > a, .royal-banking-mobile {
 	padding: 0;
 	padding-bottom: 15px;
 	color: #fff !important;
@@ -146,14 +146,14 @@
 .menu-link.menu-hover-active {
 	background-color: #f6f6f6 !important;
 }
-.menu-active > span {
+.menu-active > span, .menu-active > span > a {
 	color: #000 !important;
 	font-weight: 700;
 }
-.menu-link > a:hover {
+.menu-link > a:hover, .menu-link > span > a:hover {
 	text-decoration: none !important;
 }
-.menu-hover-active > span {
+.menu-hover-active > span, .menu-hover-active > span > a {
 	color: #000 !important;
 	font-weight: 700;
 }

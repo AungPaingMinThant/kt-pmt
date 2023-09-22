@@ -14,28 +14,7 @@
 
                 <div class="container y-4">
                     <div class="row">
-                        <div class="col-md-4 px-3 mb-40">
-                            <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/insurance/aya-go/family.png') }}" alt="Card image cap" />
-                                <div class="card-body">
-                                    <h5 class="card-title">AYA Go Travel Insurance</h5>
-                                    <p class="card-text">
-                                        <a class="theme_text_color" href="{{ url('/personal-banking/insurance/general/travel/aya-go') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 px-3 mb-40">
-                            <div class="card h-100 sitemap_card">
-                                <img class="card-img-top" src="{{ url('/images/insurance/aya-joy/family.png') }}" alt="Card image cap" />
-                                <div class="card-body">
-                                    <h5 class="card-title">AYA Joy Travel Insurance</h5>
-                                    <p class="card-text">
-                                        <a class="theme_text_color" href="{{ url('/personal-banking/insurance/general/travel/aya-joy') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>

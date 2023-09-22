@@ -44,22 +44,22 @@
 									<div class="row" style="width: 100%;">
 										<div class="col-md-4 left-menu-div">
 											<div class="row menu-link personal-menu-ac-sav-link menu-active ">
-												<span>ACCOUNTS AND SAVINGS</span>
+												<span><a href="{{ url('/personal-banking/account-saving') }}">ACCOUNTS AND SAVINGS</a></span>
 											</div>
 											<div class="row menu-link personal-menu-borrow-link">
-												<span>BORROWING</span>
+												<span><a href="{{ url('/personal-banking/borrowing') }}">BORROWING</a></span>
 											</div>
 											<div class="row menu-link personal-menu-remit-link">
-												<span>REMITTANCE AND PAYMENTS</span>
+												<span><a href="{{ url('/personal-banking/remittance') }}">REMITTANCE AND PAYMENTS</a></span>
 											</div>
 											<div class="row menu-link personal-menu-premium-link">
-												<span>ROYAL BANKING</span>
+												<span><a href="{{ url('/personal-banking/royal-banking') }}">ROYAL BANKING</a></span>
 											</div>
 											<div class="row menu-link personal-menu-ins-link">
-												<span>INSURANCE</span>
+												<span><a href="{{ url('/personal-banking/insurance') }}">INSURANCE</a></span>
 											</div>
 											<div class="row menu-link personal-menu-other-link">
-												<span class="other-menu">OTHER SERVICES</span>
+												<span class="other-menu"><a href="{{ url('/personal-banking/other-services') }}">OTHER SERVICES</a></span>
 											</div>
 
 											<div class="space-60"></div>
@@ -120,7 +120,7 @@
 													</div>
 													<div class="col">
 														<p class="fw-bold">
-															FIXED DEPOSIT
+															<a href="{{ url('/personal-banking/account-saving/fixed-deposit') }}">FIXED DEPOSIT</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/personal-banking/account-saving/fixed-deposit') }}">Fixed Deposit</a>
@@ -132,20 +132,14 @@
 												<div class="row">
 													<div class="col-md-5">
 														<p class="fw-bold">
-															HIRE PURCHASE (PERSONAL)
+															<a href="{{ url('/personal-banking/borrowing/hire-purchase') }}">HIRE PURCHASE (PERSONAL)</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/personal-banking/borrowing/hire-purchase/auto-loan') }}">Auto Loan</a>
 														</p>
-														<!-- <p class="m-b-5">
-															<a href="{{ url('/personal-banking/borrowing/hire-purchase/c2c-auto-loan') }}">C2C Auto Loan</a>
-														</p> -->
 														<p class="m-b-5">
 															<a href="{{ url('/personal-banking/borrowing/hire-purchase/education-loan') }}">Education Loan</a>
 														</p>
-														<!-- <p class="m-b-5">
-															<a href="{{ url('/personal-banking/borrowing/hire-purchase/construction-loan') }}">Home Construction & Renovation (HCR) Loan</a>
-														</p> -->
 														<p class="m-b-5">
 															<a href="{{ url('/personal-banking/borrowing/hire-purchase/home-loan') }}">Home Loan</a>
 														</p>
@@ -156,7 +150,7 @@
 												<div class="row">
 													<div class="col-md-5">
 														<p class="fw-bold">
-															REMITTANCE AND PAYMENTS
+															<a href="{{ url('/personal-banking/remittance') }}">REMITTANCE AND PAYMENTS</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/personal-banking/remittance/local') }}">Local Remittance</a>
@@ -202,10 +196,10 @@
 													</div>
 													<div class="col-md-5">
 														<p class="m-b-5">
-															<a href="{{ url('/personal-banking/insurance/general/travel/aya-go') }}">AYA Go Travel Insurance</a>
+															<a href="{{ url('/personal-banking/insurance/general/aya-go') }}">AYA Go Travel Insurance</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/personal-banking/insurance/general/travel/aya-joy') }}">AYA Joy Travel Insurance</a>
+															<a href="{{ url('/personal-banking/insurance/general/aya-joy') }}">AYA Joy Travel Insurance</a>
 														</p>
 													</div>
 													<div class="space-20"></div>
@@ -257,22 +251,22 @@
 									<div class="row" style="width: 100%;">
 										<div class="col-md-4 left-menu-div">
 											<div class="row menu-link business-menu-ac-sav-link menu-active ">
-												<span>ACCOUNTS AND SAVINGS</span>
+												<span><a href="{{ url('/business-banking/account-saving') }}">ACCOUNTS AND SAVINGS</a></span>
 											</div>
 											<div class="row menu-link business-menu-remit-link">
-												<span>REMITTANCE AND PAYMENTS</span>
+												<span><a href="{{ url('/business-banking/remittance') }}">REMITTANCE AND PAYMENTS</a></span>
 											</div>
 											<div class="row menu-link business-menu-borrow-link">
-												<span>BORROWING</span>
+												<span><a href="{{ url('/business-banking/borrowing') }}">BORROWING</a></span>
 											</div>
 											<div class="row menu-link business-menu-trade-link">
-												<span>TRADE</span>
+												<span><a href="{{ url('/business-banking/trade') }}">TRADE</a></span>
 											</div>
 											<div class="row menu-link business-menu-cash-management-link">
-												<span>CASH MANAGEMENT</span>
+												<span><a href="{{ url('/business/cash-management') }}">CASH MANAGEMENT</a></span>
 											</div>
 											<div class="row menu-link business-menu-ins-link">
-												<span class="other-menu">INSURANCE</span>
+												<span class="other-menu"><a href="{{ url('/business-banking/insurance') }}">INSURANCE</a></span>
 											</div>
 
 											<div class="space-60"></div>
@@ -283,7 +277,7 @@
 												<div class="row">
 													<div class="col-12">
 														<p class="fw-bold">
-															ACCOUNTS AND SAVINGS
+															<a href="{{ url('/business-banking/account-saving') }}">ACCOUNTS AND SAVINGS</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/business/account-saving/saving-deposit') }}">Saving Deposit</a>
@@ -304,7 +298,7 @@
 												<div class="row">
 													<div class="col-md-5">
 														<p class="fw-bold">
-															REMITTANCE AND PAYMENTS
+															<a href="{{ url('/business-banking/remittance') }}">REMITTANCE AND PAYMENTS</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/business/remittance-payments/local-payments') }}">Local Remittance</a>
@@ -319,7 +313,7 @@
 												<div class="row">
 													<div class="col-md-5">
 														<p class="fw-bold">
-															BORROWING
+															<a href="{{ url('/business-banking/borrowing') }}">BORROWING</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/business/borrowing/corporate-business-loan') }}">Corporate Business Loan</a>
@@ -337,7 +331,7 @@
 												<div class="row">
 													<div class="col-md-5">
 														<p class="fw-bold">
-															TRADE
+															<a href="{{ url('/business-banking/trade') }}">TRADE</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/business/trade/trade-financing') }}">Trade Financing</a>
@@ -373,7 +367,7 @@
 												<div class="row">
 													<div class="col-md-12">
 														<p class="fw-bold">
-															INSURANCE
+															<a href="{{ url('/business-banking/insurance') }}">INSURANCE</a>
 														</p>
 													</div>
 													<div class="col-md-12">
@@ -418,19 +412,19 @@
 									<div class="row" style="width: 100%;">
 										<div class="col-md-4 left-menu-div">
 											<div class="row menu-link digital-menu-online-pay-services-link menu-active ">
-												<span>ONLINE PAYMENT SERVICES</span>
+												<span><a href="{{ url('/digital-services/online-payment-services') }}">ONLINE PAYMENT SERVICES</a></span>
 											</div>
 											<div class="row menu-link digital-menu-card-services-link">
-												<span>CARD SERVICES</span>
+												<span><a href="{{ url('/digital-services/card-services') }}">CARD SERVICES</a></span>
 											</div>
 											<div class="row menu-link digital-menu-atm-link">
-												<span>ATM</span>
+												<span><a href="{{ url('/digital-services/atm') }}">ATM</a></span>
 											</div>
 											<div class="row menu-link digital-menu-wallet-solutions-link">
-												<span>WALLET SOLUTION</span>
+												<span><a href="{{ url('/digital-services/wallet-solution') }}">WALLET SOLUTION</a></span>
 											</div>
 											<div class="row menu-link digital-menu-guidlines-link">
-												<span class="other-menu">GUIDELINE</span>
+												<span class="other-menu"><a href="{{ url('/digital-services/guideline') }}">GUIDELINE</a></span>
 											</div>
 											<div class="row menu-link ">
 												<span class="other-menu">&nbsp;</span>
@@ -453,9 +447,6 @@
 														<p class="m-b-5">
 															<a href="{{ url('/digital-services/online-payment-services/mobile-banking') }}">Mobile Banking</a>
 														</p>
-														<!-- <p class="m-b-5">
-															<a href="{{ url('/sms-alert') }}">SMS Alert</a>
-														</p> -->
 														<p class="m-b-5">
 															<a href="{{ url('/digital-services/online-payment-services/corporate-internet-banking') }}">Corporate Internet Banking</a>
 														</p>
@@ -466,7 +457,7 @@
 												<div class="row">
 													<div class="col-md-5">
 														<p class="fw-bold">
-															MERCHANT SERVICES
+															<a href="{{ url('/digital-services/card-services/merchant-services') }}">MERCHANT SERVICES</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/digital-services/card-services/merchant-services/pos') }}">POS</a>
@@ -477,7 +468,7 @@
 													</div>
 													<div class="col-md-5">
 														<p class="fw-bold">
-															CREDIT CARD
+															<a href="{{ url('/digital-services/card-services/credit-card') }}">CREDIT CARD</a>
 														</p>
 														<p class="mb-20">
 															<a href="{{ url('/digital-services/card-services/credit-card') }}">Credit Card</a>
@@ -485,7 +476,7 @@
 													</div>
 													<div class="col-md-5">
 														<p class="fw-bold">
-															PREPAID CARD
+															<a href="{{ url('/digital-services/card-services/prepaid-card') }}">PREPAID CARD</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/digital-services/card-services/prepaid-card') }}">Prepaid Card</a>
@@ -493,7 +484,7 @@
 													</div>
 													<div class="col-md-5">
 														<p class="fw-bold">
-															DEBIT CARD
+															<a href="{{ url('/digital-services/card-services/debit-card') }}">DEBIT CARD</a>
 														</p>
 														<p class="mb-20">
 															<a href="{{ url('/digital-services/card-services/debit-card') }}">Debit Card</a>
@@ -501,7 +492,7 @@
 													</div>
 													<div class="col-md-5">
 														<p class="fw-bold">
-															CARD PRIVILEGE
+															<a href="{{ url('/digital-services/card-services/card-privilege') }}">CARD PRIVILEGE</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/digital-services/card-services/simple-pay') }}">Simple Pay</a>
@@ -513,7 +504,7 @@
 												<div class="row">
 													<div class="col-12">
 														<p class="fw-bold">
-															ATM
+															<a href="{{ url('/digital-services/atm') }}">ATM</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/digital-services/atm') }}">ATM Service and Network</a>
@@ -525,7 +516,7 @@
 												<div class="row">
 													<div class="col-12">
 														<p class="fw-bold">
-															WALLET SOLUTION
+															<a href="{{ url('/digital-services/wallet-solution') }}">WALLET SOLUTION</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/digital-services/wallet-solution/aya-pay') }}">AYA Pay</a>
@@ -537,13 +528,13 @@
 												<div class="row">
 													<div class="col-12">
 														<p class="fw-bold">
-															GUIDELINE
+															<a href="{{ url('/digital-services/guideline') }}">GUIDELINE</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/digital-services/guideline/digital-secure') }}">Security Advices for Digital Services</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/digital-services/guideline/digital-secure/mm') }}">Security Advices for Digital Services (Myanmar)</a>
+															<a href="{{ url('/digital-services/guideline/digital-secure/mm') }}">Security Advices for Digital Services (Myanmar Version)</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/digital-services/guideline/frequently-used-digital') }}">Frequently Used Digital Services</a>
@@ -565,22 +556,22 @@
 									<div class="row" style="width: 100%;">
 										<div class="col-md-4 left-menu-div">
 											<div class="row menu-link about-aya-menu-who-we-are-link menu-active">
-												<span>WHO WE ARE</span>
+												<span><a href="{{ url('/about-aya/who-we-are') }}">WHO WE ARE</a></span>
 											</div>
 											<div class="row menu-link about-aya-menu-career-link">
-												<span>CAREER</span>
+												<span><a href="{{ url('/about-aya/career') }}">CAREER</a></span>
 											</div>
 											<div class="row menu-link about-aya-menu-governance-link">
-												<span>GOVERNANCE</span>
+												<span><a href="{{ url('/about-aya/governance') }}">GOVERNANCE</a></span>
 											</div>
 											<div class="row menu-link about-aya-menu-sustainability-link">
-												<span>SUSTAINABILITY</span>
+												<span><a href="{{ url('/about-aya/sustainability') }}">SUSTAINABILITY</a></span>
 											</div>
 											<div class="row menu-link about-aya-menu-newsroom-link">
-												<span>NEWSROOM</span>
+												<span><a href="{{ url('/about-aya/news-room') }}">NEWSROOM</a></span>
 											</div>
 											<div class="row menu-link about-aya-menu-network-link">
-												<span class="other-menu">NETWORK</span>
+												<span class="other-menu"><a href="{{ url('/about-aya/network') }}">NETWORK</a></span>
 											</div>
 
 											<div class="space-60"></div>
@@ -592,7 +583,7 @@
 												<div class="row">
 													<div class="col-md-5">
 														<p class="fw-bold">
-															CORPORATE PROFILE
+															<a href="{{ url('/about-aya/who-we-are/corporate-profile') }}">CORPORATE PROFILE</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/about-aya/who-we-are/corporate-profile/ayabank-profile') }}">AYA Bank Profile</a>
@@ -612,24 +603,18 @@
 													</div>
 													<div class="col-md-5">
 														<p class="fw-bold">
-															LEADERSHIP
+															<a href="{{ url('/about-aya/who-we-are/leadership') }}">LEADERSHIP</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/about-aya/message-from-chairman') }}" >Message From Chairman</a>
+															<a href="{{ url('/about-aya/who-we-are/leadership/message-from-chairman') }}" >Message From Chairman</a>
 														</p>
 														<p class="mb-20">
 															<a href="{{ url('/about-aya/who-we-are/leadership/meet-our-leaders') }}" >Meet Our Leaders</a>
 														</p>
-														<p class="fw-bold d-none">
-															What We Offer
-														</p>
-														<p class="mb-30 d-none">
-															<a href="https://saltnpixel.com/AYABank/AYABank_WhyUs.html" target="_blank">Why us</a>
-														</p>
 													</div>
 													<div class="col-md-5">
 														<p class="fw-bold">
-															OUR STRATEGIES
+															<a href="{{ url('/about-aya/who-we-are/our-strategies') }}">OUR STRATEGIES
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/about-aya/who-we-are/our-strategies/corporate-strategy') }}">Corporate Strategy</a>
@@ -643,10 +628,10 @@
 													</div>
 													<div class="col-md-5">
 														<p class="fw-bold">
-															What We Offer
+															<a href="{{ url('/about-aya/who-we-are/what-we-offer') }}">What We Offer</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/about-aya/who-we-are/why-us') }}">Why Us</a>
+															<a href="{{ url('/about-aya/who-we-are/what-we-offer/why-us') }}">Why Us</a>
 														</p>
 													</div>
 												</div>
@@ -655,13 +640,13 @@
 												<div class="row">
 													<div class="col-md-5">
 														<p class="fw-bold">
-															CAREER
+															<a href="{{url('/about-aya/career')}}">CAREER</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{url('/about-aya/career/life-at-aya')}}">Life At AYA</a>
 														</p>
 														<!-- <p class="m-b-5">
-															<span>AYA Culture</span>
+															<a href="{{url('/about-aya/career/life-at-aya')}}">AYA Culture</a>
 														</p> -->
 														<p class="m-b-5">
 															<a href="{{url('/about-aya/career/employee-development')}}">Employee Development</a>
@@ -702,7 +687,7 @@
 													</div>
 													<div class="col-md-4">
 														<p class="fw-bold">
-															COMPLIANCE
+															<a href="{{ url('/about-aya/governance/compliance') }}">COMPLIANCE
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/about-aya/governance/compliance/compliance') }}">Compliance</a>
@@ -712,7 +697,7 @@
 														</p>
 
 														<p class="fw-bold">
-															RISK MANAGEMENT
+															<a href="{{ url('/about-aya/governance/risk-management') }}">RISK MANAGEMENT</a>
 														</p>
 														<p class="mb-30">
 															<a href="{{ url('/about-aya/governance/risk-management') }}">Risk Management</a>
@@ -747,10 +732,18 @@
 												<div class="row">
 													<div class="col-md-5">
 														<p class="fw-bold">
-															<a href="{{ url('/about-aya/sustainability') }}" >SUSTAINABILITY</a>
+															<a href="{{ url('/about-aya/sustainability/our-commitment') }}" >OUR COMMITMENT</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/about-aya/sustainability/our-commitment') }}" >Our Commitment</a>
+														</p>
+														<p class="m-b-5">
+															<a href="{{ url('/about-aya/sustainability/our-commitment/ungc-compliance') }}">UNGC Commitment</a>
+														</p>
+													</div>
+													<div class="col-md-5">
+														<p class="fw-bold">
+															<a href="{{ url('/about-aya/sustainability/our-approach') }}" >OUR APPROACH</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/about-aya/sustainability/our-approach/social-sustainability') }}" >Social Sustainability</a>
@@ -758,17 +751,14 @@
 														<p class="m-b-5">
 															<a href="{{ url('/about-aya/sustainability/our-approach/environmental-sustainability') }}" >Environmental Sustainability</a>
 														</p>
-														<p class="mb-30">
-															<a href="{{ url('/about-aya/sustainability/our-approach/economic-sustainability') }}" >Economic Sustainability</a>
-														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/about-aya/sustainability/our-commitment/ungc-compliance') }}">UNGC Commitment</a>
+															<a href="{{ url('/about-aya/sustainability/our-approach/economic-sustainability') }}" >Economic Sustainability</a>
 														</p>
 													</div>
 
 													<div class="col-md-5">
 														<p class="fw-bold">
-															<a>CORPORATE SOCIAL RESPONSIBILITY</a>
+															<a href="{{ url('/about-aya/sustainability/corporate-social-responsibility') }}" >CORPORATE SOCIAL RESPONSIBILITY</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/about-aya/sustainability/corporate-social-responsibility') }}" >Corporate Social Responsibility</a>
@@ -780,7 +770,7 @@
 												<div class="row">
 													<div class="col-md-5">
 														<p class="fw-bold">
-															NEWSROOM
+															<a href="{{ url('/about-aya/news-room/') }}">NEWSROOM</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/about-aya/news-room/corporate-news/') }}">Corporate News</a>
@@ -804,7 +794,7 @@
 												<div class="row">
 													<div class="col-md-5">
 														<p class="fw-bold">
-															NETWORK
+															<a href="{{ url('/about-aya/network') }}">NETWORK</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/about-aya/network/correspondent-bank') }}">Correspondent Banks</a>
@@ -813,10 +803,10 @@
 															<a href="{{ url('/about-aya/network/branch-locations') }}">Branch Locations</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/about-aya/network/fx-counter-locations') }}">FX Counter Locations</a>
+															<a href="{{ url('/about-aya/network/atm-locations') }}">ATM Locations</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/about-aya/network/atm-locations') }}">ATM Locations</a>
+															<a href="{{ url('/about-aya/network/fx-counter-locations') }}">FX Counter Locations</a>
 														</p>
 													</div>
 												</div>
@@ -1037,12 +1027,12 @@
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20 m-l-20">
-										<a href="{{ url('/personal-banking/insurance/general/travel/aya-go') }}">AYA Go Travel Insurance</a>
+										<a href="{{ url('/personal-banking/insurance/general/aya-go') }}">AYA Go Travel Insurance</a>
 									</p>
 								</li>
 								<li>
 									<p class="dropdown-item m-l-20 mb-20">
-										<a href="{{ url('/personal-banking/insurance/general/travel/aya-joy') }}">AYA Joy Travel Insurance</a>
+										<a href="{{ url('/personal-banking/insurance/general/aya-joy') }}">AYA Joy Travel Insurance</a>
 									</p>
 								</li>
 								<li>
@@ -1355,7 +1345,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
-										<a href="{{ url('/digital-services/guideline/digital-secure/mm') }}">Security Advices for Digital Services (Myanmar)</a>
+										<a href="{{ url('/digital-services/guideline/digital-secure/mm') }}">Security Advices for Digital Services (Myanmar Version)</a>
 									</p>
 								</li>
 								<li>
@@ -1670,13 +1660,13 @@
 									</p>
 								</li>
 								<li>
-									<p class="dropdown-item m-b-5">
-										<a href="{{ url('/about-aya/network/fx-counter-locations') }}">FX Counter Locations</a>
+									<p class="dropdown-item mb-20">
+										<a href="{{ url('/about-aya/network/atm-locations') }}">ATM Locations</a>
 									</p>
 								</li>
 								<li>
-									<p class="dropdown-item mb-20">
-										<a href="{{ url('/about-aya/network/atm-locations') }}">ATM Locations</a>
+									<p class="dropdown-item m-b-5">
+										<a href="{{ url('/about-aya/network/fx-counter-locations') }}">FX Counter Locations</a>
 									</p>
 								</li>
 							</ul>

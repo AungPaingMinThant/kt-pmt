@@ -105,7 +105,7 @@
                 <a class="footer_first_link_a" href="{{url('/digital-services/online-payment-services/corporate-internet-banking')}}"><p class="footer_first_link">Corporate Internet Banking</p></a>
                 <a class="footer_first_link_a" href="{{url('/personal-banking/royal-banking')}}"><p class="footer_first_link">Royal Banking</p></a>
                 <a class="footer_first_link_a" href="{{url('/personal-banking/other-services/foreign-currency-exchange-service#foreign_currency_exchange_rate')}}"><p class="footer_first_link">Currency Exchange Rate</p></a> 
-                <a class="footer_first_link_a" href="{{url('/digital-services/guideline/digital-secure/mm')}}"><p class="footer_first_link">Security Advices for Digital Services (Myanmar)</p></a> 
+                <a class="footer_first_link_a" href="{{url('/digital-services/guideline/digital-secure/mm')}}"><p class="footer_first_link">Security Advices for Digital Services (Myanmar Version)</p></a> 
                 <p>&nbsp;</p>
                 <!-- <h3 class="footer_like_title">Need Help</h3>
                 <a class="footer_first_link_a" href="#"><p class="footer_first_link">Help & Support</p></a>
@@ -114,8 +114,8 @@
             
             <div class="col-md-3 col-xs-12" style="padding-bottom: 20px;padding-top: -10px;padding-right: 0px;">
                 <h3 class="footer_like_title">Locations</h3>
-                <a class="footer_first_link_a" href="{{ url('/about-aya/network/atm-locations') }}"><p class="footer_first_link">ATM</p></a>
                 <a class="footer_first_link_a" href="{{ url('/about-aya/network/branch-locations') }}"><p class="footer_first_link">Branch</p></a>
+                <a class="footer_first_link_a" href="{{ url('/about-aya/network/atm-locations') }}"><p class="footer_first_link">ATM</p></a>
                 <a class="footer_first_link_a" href="{{ url('/about-aya/network/fx-counter-locations') }}"><p class="footer_first_link">FX Counter</p></a>
             </div>
             <div class="col-md-3 col-xs-12" style="padding-bottom: 20px;padding-top: -10px;">

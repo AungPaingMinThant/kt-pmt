@@ -194,4 +194,9 @@ class SiteMapController extends Controller
     public function complianceIndex(){
         return view('sitemap.about-aya.compliance-page');
     }
+
+    public function whatWeOfferIndex()
+    {
+        return view('sitemap.about-aya.what-we-offer');
+    }
 }
