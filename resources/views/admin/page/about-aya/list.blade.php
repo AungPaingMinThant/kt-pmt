@@ -71,7 +71,19 @@
 												</td>
 											</tr>
 											<tr>
-												<td>3</td>
+												<td>4</td>
+												<td>Mission, Corporate Values and Brand Promise</td>
+												<td></td>
+												<td>
+													<a href="{{ url('/admin/pagelist/about-aya/mission-corporate') }}" target="_blank">
+														<button type="button" class="btn btn-outline-primary">
+                              								<span class="tf-icons bx bx-pencil"></span>&nbsp; 		
+                           								</button>
+                           							</a>
+												</td>
+											</tr>
+											<tr>
+												<td>5</td>
 												<td>Corporate Policies</td>
 												<td></td>
 												<td>

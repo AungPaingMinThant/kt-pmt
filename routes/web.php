@@ -86,9 +86,9 @@ Route::post('/admin/ayabank-profile/business_practices/update',
 	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@ayabankProfileCTA2Update');
 Route::post('/admin/ayabank-profile/shareholding_info/update', 
 	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@ayabankProfileCTA3Update');
-
-Route::get('/admin/pagelist/about-aya/ayabank-profile/mission-corporate-value-promise',
-	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@pageAYAbankProfileMissionCorporate');
+// mission corporate
+Route::get('/admin/pagelist/about-aya/mission-corporate','App\Http\Controllers\Admin\AboutAYA\CorporateMissionBrandValuesController@pageCorporateMissionBrandValues');
+Route::post('admin/banner/corporate-update', 'App\Http\Controllers\Admin\AboutAYA\CorporateMissionBrandValuesController@bannerCoporateUpdate');	
 
 Route::get('/admin/pagelist/about-aya/ayabank-profile/business_practices',
 	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@pageAYAbankProfileBusinessPractices');
