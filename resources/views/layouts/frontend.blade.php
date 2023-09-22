@@ -136,6 +136,31 @@
                 border-radius: 50%;
                 font-size: 20px;
             }
+            .tox-statusbar__branding {
+                display: none !important;
+            }
+            .page_edit_icon {
+                font-size: 18px;
+                line-height: 18px;
+                cursor: pointer;
+                border: 1px solid #2e2e2e;
+                padding: 10px;
+                border-radius: 50%;
+                color: #2e2e2e;
+            }
+            .page_edit_icon_red {
+                border: 1px solid #fff;
+                color: #fff;
+            }
+            .page_edit_icon:hover {
+                background-color: #2e2e2e80;
+                color: #fff;
+            }
+            .page_edit_icon_red:hover {
+                border: 1px solid #fff;
+                background-color: #fff;
+                color: #a02226;
+            }
         </style>
 
         <script src="{{ url('/js/helpers.js') }}"></script>

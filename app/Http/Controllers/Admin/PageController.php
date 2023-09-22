@@ -28,6 +28,7 @@ class PageController extends Controller
 
     public function bannerUpdate(Request $request)
     {
+        // echo $page_slug; exit();
         $page_slug = $request->page_slug;
         $desktop_banner_image = $request->desktop_banner_image;
         $mobile_banner_image = $request->mobile_banner_image;
@@ -37,9 +38,9 @@ class PageController extends Controller
             if ($request->hasFile('desktop_banner_image')) {
                 $bannerImageFile = $request->file('desktop_banner_image');
                 $file = $bannerImageFile->getClientOriginalName();
-                $upload_path = base_path() . '/banner_images/about-aya/ayabank-profile/';
+                $upload_path = base_path() . '/banner_images/'.$page_slug;
                 $bannerImageFile->move($upload_path, $file);
-                $banner_desk_img_path = "banner_images/about-aya/ayabank-profile/" . $file;
+                $banner_desk_img_path = "banner_images/". $page_slug . "/" . $file;
             }
             
         } else {
@@ -50,9 +51,9 @@ class PageController extends Controller
             if ($request->hasFile('mobile_banner_image')) {
                 $mobilebannerImageFile = $request->file('mobile_banner_image');
                 $file = $mobilebannerImageFile->getClientOriginalName();
-                $upload_path = base_path() . '/banner_images/about-aya/ayabank-profile/';
+                $upload_path = base_path() . '/banner_images/'.$page_slug;
                 $mobilebannerImageFile->move($upload_path, $file);
-                $banner_mobile_img_path = "banner_images/about-aya/ayabank-profile/" . $file;
+                $banner_mobile_img_path = "banner_images/". $page_slug . "/" . $file;
             }
             
         } else {

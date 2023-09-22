@@ -15,7 +15,7 @@
 </style>
 
 @if($page == 'corporate_policies')
-	<div class="corporate_policies_banner banner_bg">
+	<div class="corporate_policies_banner banner_bg" style="background-image:url('{{$banner_link}}')">
 		<div class="container" style="position: relative;">
 			<button class="btn banner_edit_btn" data-bs-toggle="modal" data-bs-target="#banner_modal">Edit Banner Section</button>
 			<div class="row d-none d-sm-block">
@@ -76,48 +76,6 @@
 
 
 
-
-
-
-
-{{-- PMT --}}
-@if($page == 'mission_promise')
-	@php
-		$banner = App\Models\AboutAYA\AyabankProfilePageConfigure::first();
-		$banner_link =  URL::to('/').'/'.$banner->banner;
-	@endphp
-	<div class="mission_promise_banner banner_bg">
-		<div class="container"  style="position: relative;">
-			<button class="btn banner_edit_btn" data-bs-toggle="modal" data-bs-target="#corporate_banner_modal">Edit Banner Section</button>
-			<div class="row d-none d-sm-block">
-				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div class="mission_promise_banner_tagline">
-						<h1 class="f-white" style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">Mission, Corporate Values and Brand Promise</h1>
-					</div>
-				</div>
-			</div>
-			<div class="row d-block d-sm-none">
-				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 30px;left: 20px;right: 40px;">
-						<h1 class="f-white" style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Mission, Corporate Values and Brand Promise</h1>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div style="background-color: #f5f5f7;">
-		<div class="container">
-			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/about-aya/') }}" style="color: #666;">ABOUT AYA</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/about-aya/who-we-are') }}" style="color: #666;">WHO WE ARE</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/about-aya/who-we-are/corporate-profile') }}" style="color: #666;">CORPORATE PROFILE</a>&nbsp;
-				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #A5000B;">MISSION, CORPORATE VALUES, BRAND PROMISE</span></a>
-			</p>
-		</div>
-	</div>
-@endif
 
 
 

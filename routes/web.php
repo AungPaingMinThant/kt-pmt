@@ -71,9 +71,9 @@ Route::post('/admin/mbanking/tagline/update','App\Http\Controllers\Admin\AdminMB
 Route::post('/admin/mbanking/fact/update','App\Http\Controllers\Admin\AdminMBankingController@mbankingFact');
 
 // Admin About AYA
+Route::post('/admin/banner/update', 'App\Http\Controllers\Admin\PageController@bannerUpdate');
 Route::get('/admin/pagelist/about-aya','App\Http\Controllers\Admin\PageController@pageAboutAYAList');
 Route::get('/admin/pagelist/about-aya/ayabank-profile','App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@pageAYAbankProfile');
-Route::post('/admin/banner/update', 'App\Http\Controllers\Admin\PageController@bannerUpdate');
 Route::post('/admin/ayabank-profile/section1/update', 
 	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@ayabankProfileSection1Update');
 Route::post('admin/ayabank-profile/corporate-info/update', 
@@ -112,6 +112,10 @@ Route::post('/admin/ayabank-profile/shareholding-info/holding_table/update',
 
 Route::get('/admin/pagelist/about-aya/corporate-policies',
 	'App\Http\Controllers\Admin\AboutAYA\CorporatePoliciesController@pageCorporatePolicies');
+Route::get('/admin/corporate-policies/section1/update',
+	'App\Http\Controllers\Admin\AboutAYA\CorporatePoliciesController@pageCPSection1');
+
+
 
 Route::get('/admin/exchange-rate','App\Http\Controllers\Admin\ExchangeController@index');
 Route::get('/admin/exchange-rate/edit','App\Http\Controllers\Admin\ExchangeController@editExchange');

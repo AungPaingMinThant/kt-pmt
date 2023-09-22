@@ -1,9 +1,9 @@
 @extends('layouts.frontend')
 
 @section('title', 'Corporate Policies – AYA Bank')
-<link rel="stylesheet" href="{{ url('/css/about-aya/corporate-policies.css') }}" />
 
 @section('content')
+<link rel="stylesheet" href="{{ url('/css/about-aya/corporate-policies.css') }}" />
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
 		<div class="layout-page">
@@ -14,7 +14,10 @@
 			<div class="container risk_container">
 				<div class="space-40" id="people_concerns"></div>
 				<div class="col-md-12">
-					<h4 class="fw-bold theme_text_color">People Concerns</h4>
+					<h4 class="fw-bold theme_text_color">
+						People Concerns&nbsp;
+							<i class="bx bx-pencil page_edit_icon" data-bs-toggle="modal" data-bs-target="#section_1_modal"></i>
+						</h4>
 
 					<div class="accordion" id="accordionPeopleConcernExample">
 						<div class="accordion-item">
@@ -391,6 +394,50 @@
 				</div>
 			</div>	
 		</div>
+	</div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="section_1_modal" data-bs-backdrop="static" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
+		<form class="modal-content" action="{{ url('/admin/corporate-policies/section1/update') }}" method="POST" enctype="multipart/form-data">
+			<div class="modal-header">					
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body" style="padding: 0px 40px;">
+				{{ csrf_field() }}
+				<div class="row" style="margin-bottom: 20px;">
+					<div class="col-md-12">
+						<div class="mb-3 row">
+							<h4>Section Update</h4>
+							<div class="col-md-12" style="margin-bottom: 10px;">
+								<label for="page_title" class="col-form-label">Policiy Title</label>
+								<input type="text" class="form-control" id="page_title" name="page_title" value="{{$page_data->page_title}}">
+								
+								<div class="space-20"></div>
+							</div>
+
+							<div class="space-20"></div>
+							
+							<label for="image_break" class="col-md-2 col-form-label">Image</label>
+							<small class="theme_text_color">Image Size & format ( 1100 * 370 - webp )</small>
+							<input class="form-control" type="file" name="image_break" id="image_break" />
+							<input type="hidden" name="image_break_old" id="image_break_old" value="{{$page_data->image_break}}">
+
+							<div class="space-20"></div>
+
+							<div class="col-md-12" style="margin-bottom: 10px;">
+								<label for="second_text" class="col-form-label">Section Information 2</label>
+								<textarea class="form-control" id="second_text" name="second_text" rows="3" spellcheck="false" >{{$page_data->second_text}}</textarea>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+				<button type="submit" class="btn btn-primary" style="float: right;">Update</button>
+			</div>
+			<div class="modal-footer"></div>
+		</form>
 	</div>
 </div>
 
