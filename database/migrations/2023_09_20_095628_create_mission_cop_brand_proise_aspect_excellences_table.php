@@ -15,7 +15,9 @@ class CreateMissionCopBrandProiseAspectExcellencesTable extends Migration
     {
         Schema::create('mission_cop_brand_proise_aspect_excellences', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->longText('excellence_desc')->nullable();
+            $table->integer('updated_by');
+            $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });
     }
 
