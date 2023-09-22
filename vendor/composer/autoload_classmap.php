@@ -105,6 +105,7 @@ return array(
     'App\\Models\\MobileBanking' => $baseDir . '/app/Models/MobileBanking.php',
     'App\\Models\\MobileBankingFact' => $baseDir . '/app/Models/MobileBankingFact.php',
     'App\\Models\\OtherExchangeRate' => $baseDir . '/app/Models/OtherExchangeRate.php',
+    'App\\Models\\PageBanner' => $baseDir . '/app/Models/PageBanner.php',
     'App\\Models\\Report' => $baseDir . '/app/Models/Report.php',
     'App\\Models\\ReportFile' => $baseDir . '/app/Models/ReportFile.php',
     'App\\Models\\SearchKeyword' => $baseDir . '/app/Models/SearchKeyword.php',

@@ -4,16 +4,13 @@ namespace App\Http\Controllers\Admin\AboutAYA;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\PageBanner;
 use App\Models\AboutAYA\AyabankProfilePageConfigure;
 use App\Models\AboutAYA\AyabankProfilePageCorproateInfo;
 use App\Models\AboutAYA\AyabankProfilePageLeadingCapabilitiesInfo;
 use App\Models\AboutAYA\AyabankProfileBusinessPractices;
 use App\Models\AboutAYA\AyabankProfileShareholdingInfo;
 use App\Models\AboutAYA\AyabankProfileShareholdingInfoTable;
-<<<<<<< HEAD
-use App\Models\AboutAYA\AyabankProfileMissionCorporate;
-=======
->>>>>>> 0a0722c7d10ed5e6faf3d047b69edec7a44c04dd
 use DB;
 
 class AYABankProfileController extends Controller

@@ -629,6 +629,7 @@ class ComposerStaticInit41caf1c08171e648daeb11fd1655261d
         'App\\Models\\MobileBanking' => __DIR__ . '/../..' . '/app/Models/MobileBanking.php',
         'App\\Models\\MobileBankingFact' => __DIR__ . '/../..' . '/app/Models/MobileBankingFact.php',
         'App\\Models\\OtherExchangeRate' => __DIR__ . '/../..' . '/app/Models/OtherExchangeRate.php',
+        'App\\Models\\PageBanner' => __DIR__ . '/../..' . '/app/Models/PageBanner.php',
         'App\\Models\\Report' => __DIR__ . '/../..' . '/app/Models/Report.php',
         'App\\Models\\ReportFile' => __DIR__ . '/../..' . '/app/Models/ReportFile.php',
         'App\\Models\\SearchKeyword' => __DIR__ . '/../..' . '/app/Models/SearchKeyword.php',

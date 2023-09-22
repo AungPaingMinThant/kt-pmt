@@ -7,7 +7,7 @@
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
 		<div class="layout-page">
-			@include('layouts.nav', ['nav'=>'AYA Bank Profile'])
+			@include('layouts.nav', ['nav'=>'Corporate Policies'])
         	<br>
 			@include('layouts.admin_banner', ['page'=>'corporate_policies'])
 

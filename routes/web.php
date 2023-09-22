@@ -73,7 +73,7 @@ Route::post('/admin/mbanking/fact/update','App\Http\Controllers\Admin\AdminMBank
 // Admin About AYA
 Route::get('/admin/pagelist/about-aya','App\Http\Controllers\Admin\PageController@pageAboutAYAList');
 Route::get('/admin/pagelist/about-aya/ayabank-profile','App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@pageAYAbankProfile');
-Route::post('/admin/banner/update', 'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@bannerUpdate');
+Route::post('/admin/banner/update', 'App\Http\Controllers\Admin\PageController@bannerUpdate');
 Route::post('/admin/ayabank-profile/section1/update', 
 	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@ayabankProfileSection1Update');
 Route::post('admin/ayabank-profile/corporate-info/update', 
