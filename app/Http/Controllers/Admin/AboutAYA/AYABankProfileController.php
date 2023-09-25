@@ -15,6 +15,11 @@ use DB;
 
 class AYABankProfileController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth.admin');
+    }
+
     public function pageAYAbankProfile()
     {
         return view('admin.page.about-aya.profile.ayabank-profile');

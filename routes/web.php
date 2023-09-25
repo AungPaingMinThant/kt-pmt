@@ -112,7 +112,7 @@ Route::post('/admin/ayabank-profile/shareholding-info/holding_table/update',
 
 Route::get('/admin/pagelist/about-aya/corporate-policies',
 	'App\Http\Controllers\Admin\AboutAYA\CorporatePoliciesController@pageCorporatePolicies');
-Route::get('/admin/corporate-policies/section1/update',
+Route::post('/admin/corporate-policies/section1/update',
 	'App\Http\Controllers\Admin\AboutAYA\CorporatePoliciesController@pageCPSection1');
 
 
@@ -120,6 +120,10 @@ Route::get('/admin/corporate-policies/section1/update',
 Route::get('/admin/exchange-rate','App\Http\Controllers\Admin\ExchangeController@index');
 Route::get('/admin/exchange-rate/edit','App\Http\Controllers\Admin\ExchangeController@editExchange');
 Route::post('/admin/exchange/store','App\Http\Controllers\Admin\ExchangeController@updateExchange');
+
+Route::get('/admin/media','App\Http\Controllers\Admin\MediaController@index');
+Route::get('/admin/media/upload','App\Http\Controllers\Admin\MediaController@uploadMedia');
+
 
 Route::get('/admin/logout','App\Http\Controllers\Admin\AdminController@logout');
 

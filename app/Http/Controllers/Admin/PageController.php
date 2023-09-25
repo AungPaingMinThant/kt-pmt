@@ -28,7 +28,6 @@ class PageController extends Controller
 
     public function bannerUpdate(Request $request)
     {
-        // echo $page_slug; exit();
         $page_slug = $request->page_slug;
         $desktop_banner_image = $request->desktop_banner_image;
         $mobile_banner_image = $request->mobile_banner_image;

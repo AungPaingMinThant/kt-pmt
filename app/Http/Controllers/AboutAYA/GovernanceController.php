@@ -4,6 +4,9 @@ namespace App\Http\Controllers\AboutAYA;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\AboutAYA\CorporatePolicies;
+use App\Models\AboutAYA\CorporatePoliciesDetail;
+use DB;
 
 class GovernanceController extends Controller
 {
@@ -49,6 +52,9 @@ class GovernanceController extends Controller
 
     public function corporatePolicyIndex()
     {
-        return view('about-aya.governance.corporate-policy');
+        $corporate_policies = CorporatePolicies::get();
+        $corporate_policies_detail = CorporatePoliciesDetail::get();
+        return view('about-aya.governance.corporate-policy')->with('corporate_policies',$corporate_policies)
+                                                            ->with('corporate_policies_detail',$corporate_policies_detail);
     }
 }
