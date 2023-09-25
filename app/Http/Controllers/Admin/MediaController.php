@@ -18,7 +18,7 @@ class MediaController extends Controller
 
     public function index()
     {        
-        $media_List = Media::get();
+        $media_List = Media::orderBy('id','desc')->get();
         return view('admin.media.list')->with('media_List',$media_List);
     }
 
@@ -41,7 +41,7 @@ class MediaController extends Controller
         if ($request->hasFile('media_file')) {
             $mediaFile = $request->file('media_file');
             $m_File = $mediaFile->getClientOriginalName();
-            $upload_path = '/file/media/' . $media_category_path . '/' . $year .'/'. $month . '/' . $day . '/';
+            $upload_path = base_path() . '/file/media/' . $media_category_path . '/' . $year .'/'. $month . '/' . $day . '/';
             $mediaFile->move($upload_path, $m_File);
             $media_file = '/file/media/' . $media_category_path . '/' . $year .'/'. $month . '/' . $day . '/' . $m_File;
         } else {
