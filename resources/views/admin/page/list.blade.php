@@ -15,7 +15,7 @@
 		@include('layouts.admin_sidebar', ['page'=>'Page'])
 
 		<div class="layout-page">
-			@include('layouts.nav', ['nav'=>'Page'])
+			@include('layouts.nav', ['nav'=>'Page List'])
 
 			<div class="content-wrapper">
 				<div class="container-xxl flex-grow-1 container-p-y">

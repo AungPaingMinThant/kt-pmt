@@ -123,7 +123,9 @@ Route::post('/admin/exchange/store','App\Http\Controllers\Admin\ExchangeControll
 
 Route::get('/admin/media','App\Http\Controllers\Admin\MediaController@index');
 Route::get('/admin/media/upload','App\Http\Controllers\Admin\MediaController@uploadMedia');
-
+Route::post('/admin/media/store','App\Http\Controllers\Admin\MediaController@storeMedia');
+Route::get('/admin/media/edit/{media_id}','App\Http\Controllers\Admin\MediaController@editMedia');
+Route::post('/admin/media/update','App\Http\Controllers\Admin\MediaController@updateMedia');
 
 Route::get('/admin/logout','App\Http\Controllers\Admin\AdminController@logout');
 

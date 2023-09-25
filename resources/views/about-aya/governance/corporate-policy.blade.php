@@ -52,7 +52,7 @@
 										</h2>
 										<div id="collapse{{$co_po_accordion}}{{$co_po_detail_count}}" class="accordion-collapse {{$acc_collapse_body}}" aria-labelledby="heading{{$co_po_accordion}}{{$co_po_detail_count}}" data-bs-parent="#accordion{{$co_po_accordion}}Example">
 											<div class="accordion-body">
-												{!! $co_po_detail->policies_desc !!}
+												{!! htmlspecialchars_decode($co_po_detail->policies_desc) !!}
 											</div>
 										</div>
 										<div class="space-10"></div>

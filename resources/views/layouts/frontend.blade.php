@@ -164,17 +164,10 @@
         </style>
 
         <script src="{{ url('/js/helpers.js') }}"></script>
+        <script src="{!! url('/assets/tinymce/js/tinymce/tinymce.min.js') !!}" referrerpolicy="origin"></script>
     </head>
     <body class="prevent-select">
         @yield('content')
-        <!-- @include('cookieConsent::index') -->
 
-        <script src="{{ url('/js/jquery.js') }}"></script>
-        <script src="{{ url('/js/popper.js') }}"></script>
-        <script src="{{ url('/js/bootstrap.js') }}"></script>
-        <script src="{{ url('/js/util.js') }}"></script>
-        <script src="{{ url('/js/moment.js') }}"></script>
-        <script src="{{ url('/js/menu.js') }}"></script>
-        <script src="{{ url('/js/main.js') }}"></script>
     </body>
 </html>

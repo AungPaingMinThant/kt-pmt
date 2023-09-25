@@ -116,38 +116,6 @@ class BlogController extends Controller
                     } else {
                         $news_file_img_path = '';
                     }
-                    // if ($request->hasFile('file_link_'.$i) && $request->hasFile('file_img_link_'.$i)) {
-                    //     $file_link = $request->file('file_link_'.$i);
-                    //     $link_file = $file_link->getClientOriginalName();
-                    //     $upload_path = public_path() . '/blog_images/file/';
-                    //     $file_link->move($upload_path, $link_file);
-                    //     $news_file_path = "blog_images/file/" . $link_file;
-
-
-                    //     $file_img_link = $request->file('file_img_link_'.$i);
-                    //     $link_img_file = $file_img_link->getClientOriginalName();
-                    //     $upload_path = public_path() . '/blog_images/file/';
-                    //     $file_img_link->move($upload_path, $link_img_file);
-                    //     $news_file_img_path = "blog_images/file/" . $link_img_file;
-
-                    //     $new_img = new BlogFile();
-                    //     $new_img->blog_id = $blog->id;
-                    //     $new_img->file_path = $news_file_path;
-                    //     $new_img->file_img_link = $news_file_img_path;
-                    //     $new_img->save();
-                    // } else {
-                    //     $file_link = $request->file('file_link_'.$i);
-                    //     $link_file = $file_link->getClientOriginalName();
-                    //     $upload_path = public_path() . '/blog_images/file/';
-                    //     $file_link->move($upload_path, $link_file);
-                    //     $news_file_path = "blog_images/file/" . $link_file;
-
-                    //     $new_img = new BlogFile();
-                    //     $new_img->blog_id = $blog->id;
-                    //     $new_img->file_path = $news_file_path;
-                    //     $new_img->file_img_link = '';
-                    //     $new_img->save();
-                    // }
 
                     $new_img = new BlogFile();
                     $new_img->blog_id = $blog->id;

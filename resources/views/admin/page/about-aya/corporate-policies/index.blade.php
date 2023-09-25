@@ -53,7 +53,7 @@
 										</h2>
 										<div id="collapse{{$co_po_accordion}}{{$co_po_detail_count}}" class="accordion-collapse {{$acc_collapse_body}}" aria-labelledby="heading{{$co_po_accordion}}{{$co_po_detail_count}}" data-bs-parent="#accordion{{$co_po_accordion}}Example">
 											<div class="accordion-body">
-												{!! $co_po_detail->policies_desc !!}
+												{!! htmlspecialchars_decode($co_po_detail->policies_desc) !!}
 											</div>
 										</div>
 										<div class="space-10"></div>
@@ -87,7 +87,7 @@
 							<div class="mb-3 row">
 								<h4>Section Update</h4>
 								<div class="col-md-12 {{$co_po_id}}_main_policy_row" style="margin-bottom: 10px;">
-									<label for="co_policies_title" class="col-form-label">Policy Main Title</label>
+									<label class="col-form-label">Policy Main Title</label>
 									<input type="text" class="form-control" id="co_policies_title" name="co_policies_title" value="{{$co_po_modal->co_policies_title}}">
 
 									<input type="hidden" class="form-control" id="co_po_id" name="co_po_id" value="{{$co_po_modal->id}}">
@@ -100,15 +100,15 @@
 									@if($co_po_modal->id == $co_po_detail->policies_id)
 										<div class="row {{$co_po_id}}_policy_detail_row_{{$policy_detail_count}}">
 											<div class="col-md-6" style="margin-bottom: 10px;">
-												<label for="co_po_detail_title_{{$policy_detail_count}}" class="col-form-label">Policy Detail Title {{$policy_detail_count}}</label>
+												<label class="col-form-label">Policy Detail Title {{$policy_detail_count}}</label>
 												<input type="text" class="form-control" name="co_po_detail_title_{{$policy_detail_count}}" value="{{$co_po_detail->policies_title}}">
 												
 												<input type="hidden" class="form-control" name="co_po_detail_id_{{$policy_detail_count}}" value="{{$co_po_detail->id}}">
 												<div class="space-20"></div>
 											</div>
 											<div class="col-md-6" style="margin-bottom: 10px;">
-												<label for="co_po_detail_desc_{{$policy_detail_count}}" class="col-form-label">Policy Detail Desc {{$policy_detail_count}}</label>
-												<textarea class="form-control co_po_detail_desc" name="co_po_detail_desc_{{$policy_detail_count}}" rows="3" spellcheck="false" >{{$co_po_detail->policies_desc}}</textarea>
+												<label class="col-form-label">Policy Detail Desc {{$policy_detail_count}}</label>
+												<textarea class="form-control co_po_detail_desc" name="co_po_detail_desc_{{$policy_detail_count}}" rows="3" spellcheck="false" >{!! htmlspecialchars_decode($co_po_detail->policies_desc) !!}</textarea>
 												<div class="space-20"></div>
 											</div>
 											<hr>
@@ -145,14 +145,14 @@
 
     	var policy_add_html = '<div class="row '+main_policy+'_policy_detail_row_'+policy_detail_count_new+'">'+
 											'<div class="col-md-6" style="margin-bottom: 10px;">'+
-												'<label for="co_po_detail_title_'+policy_detail_count_new+'" class="col-form-label">Policy Detail Title '+policy_detail_count_new+'</label>'+
+												'<label class="col-form-label">Policy Detail Title '+policy_detail_count_new+'</label>'+
 												'<input type="text" class="form-control" name="co_po_detail_title_'+policy_detail_count_new+'" value="">'+
 												
 												'<input type="hidden" class="form-control" name="co_po_detail_id_'+policy_detail_count_new+'" value="0">'+
 												'<div class="space-20"></div>'+
 											'</div>'+
 											'<div class="col-md-6" style="margin-bottom: 10px;">'+
-												'<label for="co_po_detail_desc_'+policy_detail_count_new+'" class="col-form-label">Policy Detail Desc '+policy_detail_count_new+'</label>'+
+												'<label class="col-form-label">Policy Detail Desc '+policy_detail_count_new+'</label>'+
 												'<textarea class="form-control co_po_detail_desc" name="co_po_detail_desc_'+policy_detail_count_new+'" rows="3" spellcheck="false" ></textarea>'+
 												'<div class="space-20"></div>'+
 											'</div>'+
@@ -167,6 +167,7 @@
 		
 		$("#"+main_policy+"_policy_detail_count").val(policy_detail_count_new);
 
+		tinymce.remove();
 		tinymce.init({
 	        selector: 'textarea',
 	        height: 250,
@@ -176,16 +177,6 @@
 	        block_unsupported_drop: true
 	    });
 	}
-
-
-    tinymce.init({
-        selector: 'textarea',
-        height: 250,
-        plugins: 'anchor autolink charmap code emoticons link lists searchreplace table visualblocks wordcount',
-        toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat | code',
-        file_picker_types: 'image',
-        block_unsupported_drop: true
-    });
 </script>
 
 @endsection('content')
