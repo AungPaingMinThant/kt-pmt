@@ -11,6 +11,11 @@ use App\Models\AboutAYA\MissionCopBrandPromiseAspectSincerity;
 use DB;
 class CorporateMissionBrandValuesController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth.admin');
+    }
+
     public function pageCorporateMissionBrandValues() {
         return view ('admin.page.about-aya.mission-corporate.index');
     }

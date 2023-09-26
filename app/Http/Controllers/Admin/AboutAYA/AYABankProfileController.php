@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin\AboutAYA;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\PageBanner;
 use App\Models\AboutAYA\AyabankProfilePageConfigure;
 use App\Models\AboutAYA\AyabankProfilePageCorproateInfo;
 use App\Models\AboutAYA\AyabankProfilePageLeadingCapabilitiesInfo;
@@ -14,6 +15,11 @@ use DB;
 
 class AYABankProfileController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth.admin');
+    }
+
     public function pageAYAbankProfile()
     {
         return view('admin.page.about-aya.profile.ayabank-profile');

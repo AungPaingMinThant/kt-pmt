@@ -38,6 +38,18 @@
     		</li>
     	@endif
 
+    	<!-- Media -->
+		@if($page == 'Media')
+			<li class="menu-item active">
+		@else
+			<li class="menu-item">
+		@endif
+			<a href="{{ url('/admin/media') }}" class="menu-link">
+				<i class="menu-icon tf-icons bx bx-cube-alt"></i>
+				<div>Media</div>
+			</a>
+		</li>
+
 		<!-- Blog -->
 		@if($page == 'Blog')
 			<li class="menu-item active">
@@ -45,7 +57,7 @@
 			<li class="menu-item">
 		@endif
 			<a href="{{ url('/admin/blog') }}" class="menu-link">
-				<i class="menu-icon tf-icons bx bx-list-ul"></i>
+				<i class="menu-icon tf-icons bx bx-news"></i>
 				<div>News Room</div>
 			</a>
 		</li>

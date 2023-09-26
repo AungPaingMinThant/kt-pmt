@@ -136,20 +136,38 @@
                 border-radius: 50%;
                 font-size: 20px;
             }
+            .tox-statusbar__branding {
+                display: none !important;
+            }
+            .page_edit_icon {
+                font-size: 18px;
+                line-height: 18px;
+                cursor: pointer;
+                border: 1px solid #2e2e2e;
+                padding: 10px;
+                border-radius: 50%;
+                color: #2e2e2e;
+            }
+            .page_edit_icon_red {
+                border: 1px solid #fff;
+                color: #fff;
+            }
+            .page_edit_icon:hover {
+                background-color: #2e2e2e80;
+                color: #fff;
+            }
+            .page_edit_icon_red:hover {
+                border: 1px solid #fff;
+                background-color: #fff;
+                color: #a02226;
+            }
         </style>
 
         <script src="{{ url('/js/helpers.js') }}"></script>
+        <script src="{!! url('/assets/tinymce/js/tinymce/tinymce.min.js') !!}" referrerpolicy="origin"></script>
     </head>
     <body class="prevent-select">
         @yield('content')
-        <!-- @include('cookieConsent::index') -->
 
-        <script src="{{ url('/js/jquery.js') }}"></script>
-        <script src="{{ url('/js/popper.js') }}"></script>
-        <script src="{{ url('/js/bootstrap.js') }}"></script>
-        <script src="{{ url('/js/util.js') }}"></script>
-        <script src="{{ url('/js/moment.js') }}"></script>
-        <script src="{{ url('/js/menu.js') }}"></script>
-        <script src="{{ url('/js/main.js') }}"></script>
     </body>
 </html>

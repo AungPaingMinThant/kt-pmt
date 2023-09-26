@@ -1,4 +1,3 @@
-
 <script src="{{ url('/js/jquery.js') }}"></script>
 <script src="{{ url('/js/popper.js') }}"></script>
 <script src="{{ url('/js/bootstrap.js') }}"></script>
@@ -6,16 +5,12 @@
 <script src="{{ url('/js/moment.js') }}"></script>
 <script src="{{ url('/js/menu.js') }}"></script>
 <script src="{{ url('/js/main.js') }}"></script>
-
-<script src="{{ url('/js/jquery.js') }}"></script>
-<script src="{!! url('/assets/tinymce/js/tinymce/tinymce.min.js') !!}"></script>
 <script type="text/javascript">
-    tinymce.init({
-        selector: 'textarea#banner_tagline',
-        height: 300,
-        block_unsupported_drop: false
+    document.addEventListener('focusin', (e) => {
+        if (e.target.closest(".tox-tinymce-aux, .moxman-window, .tam-assetmanager-root") !== null) {
+            e.stopImmediatePropagation();
+        }
     });
-
     tinymce.init({
         selector: 'textarea#page_title',
         height: 300,
@@ -34,8 +29,6 @@
         block_unsupported_drop: false
     });
 
-    
-
     $("#desktop_banner_image").change(function(){
         $("#desktop_img_old").val('');
     });
@@ -45,7 +38,7 @@
     });
 
     tinymce.init({
-        selector: 'textarea#banner_tagline',
+        selector: 'textarea',
         height: 600,
         plugins: 'anchor autolink charmap code emoticons link lists searchreplace table visualblocks wordcount',
         toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat | code',

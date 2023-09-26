@@ -12,7 +12,8 @@ id="layout-navbar">
 		<div class="navbar-nav align-items-center">
 			<div class="nav-item d-flex align-items-center">
 				<h5 class="m-0 me-2 pb-0">
-					<a href="{{ url('/admin/pagelist/about-aya') }}" style="cursor: pointer;"><i class="menu-icon tf-icons bx bx-chevrons-left"></i></a>&nbsp;&nbsp;{{ $nav }}
+					<!-- <a href="{{ url('/admin/pagelist/about-aya') }}" style="cursor: pointer;"><i class="menu-icon tf-icons bx bx-chevrons-left"></i></a>&nbsp;&nbsp; -->
+					{{ $nav }}
 				</h5>
 			</div>
 		</div>

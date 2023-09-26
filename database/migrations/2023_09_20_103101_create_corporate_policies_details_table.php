@@ -18,7 +18,8 @@ class CreateCorporatePoliciesDetailsTable extends Migration
             $table->integer('policies_id');
             $table->longText('policies_title')->nullable();
             $table->longText('policies_desc')->nullable();
-            $table->timestamps();
+            $table->integer('updated_by');
+            $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });
     }
 
