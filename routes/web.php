@@ -87,8 +87,19 @@ Route::post('/admin/ayabank-profile/business_practices/update',
 Route::post('/admin/ayabank-profile/shareholding_info/update', 
 	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@ayabankProfileCTA3Update');
 // mission corporate
-Route::get('/admin/pagelist/about-aya/mission-corporate','App\Http\Controllers\Admin\AboutAYA\CorporateMissionBrandValuesController@pageCorporateMissionBrandValues');
-Route::post('admin/banner/corporate-update', 'App\Http\Controllers\Admin\AboutAYA\CorporateMissionBrandValuesController@bannerCoporateUpdate');	
+Route::get('/admin/pagelist/about-aya/mission-corporate','App\Http\Controllers\Admin\AboutAYA\CorporateMissionBrandValuesController@pageCorporateMissionBrandValues');	
+Route::post('/admin/mission-corporate/ourmission/update','App\Http\Controllers\Admin\AboutAYA\CorporateMissionBrandValuesController@ourmissionUpdate');
+Route::post('/admin/mission-corporate/corporatevalues/update', 'App\Http\Controllers\Admin\AboutAYA\CorporateMissionBrandValuesController@corporatevaluesUpdate');
+Route::post('/admin/mission-corporate/excellance/update', 'App\Http\Controllers\Admin\AboutAYA\CorporateMissionBrandValuesController@excellanceUpdate');
+Route::post('/admin/mission-corporate/team/update', 'App\Http\Controllers\Admin\AboutAYA\CorporateMissionBrandValuesController@teamUpdate');
+Route::post('/admin/mission-corporate/honesty/update', 'App\Http\Controllers\Admin\AboutAYA\CorporateMissionBrandValuesController@honestyUpdate');
+Route::post('/admin/mission-corporate/integrity/update', 'App\Http\Controllers\Admin\AboutAYA\CorporateMissionBrandValuesController@integrityUpdate');
+Route::post('/admin/mission-corporate/care/update', 'App\Http\Controllers\Admin\AboutAYA\CorporateMissionBrandValuesController@careUpdate');
+Route::post('/admin/mission-corporate/sincerity/update', 'App\Http\Controllers\Admin\AboutAYA\CorporateMissionBrandValuesController@sincerityUpdate');
+Route::post('/admin/mission-corporate/mission-corporate-cta/update', 'App\Http\Controllers\Admin\AboutAYA\CorporateMissionBrandValuesController@missioncorporateCTAUpdate');
+Route::post('/admin/mission-corporate/brandpromise/update', 'App\Http\Controllers\Admin\AboutAYA\CorporateMissionBrandValuesController@brandpromiseUpdate');
+
+
 
 Route::get('/admin/pagelist/about-aya/ayabank-profile/business_practices',
 	'App\Http\Controllers\Admin\AboutAYA\AYABankProfileController@pageAYAbankProfileBusinessPractices');
