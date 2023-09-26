@@ -88,13 +88,37 @@
 
 		<!-- Exchange -->
 		@if($page == 'Exchange')
+			<li class="menu-item active open">
+		@else
+			<li class="menu-item open">
+		@endif
+			<a href="#" class="menu-link menu-toggle">
+				<i class="menu-icon tf-icons bx bx-dollar"></i>
+				<div>Currency Exchange</div>
+			</a>
+			<ul class="menu-sub">
+				<li class="menu-item">
+					<a href="{{ url('/admin/exchange-rate') }}" class="menu-link">
+						<div data-i18n="Without menu">Exchange Rate</div>
+					</a>
+				</li>
+				<li class="menu-item">
+					<a href="{{ url('/admin/worker-remittance') }}" class="menu-link">
+						<div data-i18n="Without navbar">Worker Remittance Rate</div>
+					</a>
+				</li>
+			</ul>
+		</li>
+
+		<!-- FAQ -->
+		@if($page == 'FAQ')
 			<li class="menu-item active">
 		@else
 			<li class="menu-item">
 		@endif
-			<a href="{{ url('/admin/exchange-rate') }}" class="menu-link">
-				<i class="menu-icon tf-icons bx bx-dollar"></i>
-				<div>Exchange Rate</div>
+			<a href="{{ url('/admin/pagelist') }}" class="menu-link">
+				<i class="menu-icon tf-icons bx bx-list-ul"></i>
+				<div>Page</div>
 			</a>
 		</li>
 

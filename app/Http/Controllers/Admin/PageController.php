@@ -26,10 +26,15 @@ class PageController extends Controller
         return view('admin.page.about-aya.list');
     }
 
+    public function pagePersoanlBankingList()
+    {
+        return view('admin.page.personal-banking.list');
+    }
+
     public function bannerUpdate(Request $request)
     {
         $page_slug = $request->page_slug;
-        $desktop_banner_image = $request->desktop_banner_image;
+        $tagline_title_image = $request->desktop_banner_image;
         $mobile_banner_image = $request->mobile_banner_image;
         $banner_tagline = $request->banner_tagline;
 
@@ -65,6 +70,45 @@ class PageController extends Controller
                         'desktop_banner' => $banner_desk_img_path,
                         'mobile_banner' => $banner_mobile_img_path,
                         'banner_title' => $banner_tagline,
+                        'updated_by' => auth()->user()->id
+                    ]);
+
+        return redirect()->back();
+    }
+
+    public function taglineUpdate(Request $request)
+    {
+        $tagline_title = $request->tagline_title;
+        $tagline_desc = $request->tagline_desc;
+        $tagline_img = $request->tagline_img;
+        $tagline_img_old = $request->tagline_img_old;
+        $page_slug = $request->page_slug;
+        $year = date('Y');
+        $month = date('m');
+        $day = date('d');
+
+        $media_category_path = 'tagline_img/' . $page_slug;
+
+        if($request->tagline_img_old == '') {
+            if ($request->hasFile('tagline_img')) {
+                $mediaFile = $request->file('tagline_img');
+                $tagline_File = $mediaFile->getClientOriginalName();
+                $upload_path = base_path() . '/file/media/' . $media_category_path . '/' . $year .'/'. $month . '/' . $day . '/';
+                $mediaFile->move($upload_path, $tagline_File);
+                $tagline_img_path = '/file/media/' . $media_category_path . '/' . $year .'/'. $month . '/' . $day . '/' . $tagline_File;
+            } else {
+                $tagline_img_path = '';
+            }      
+        } else {
+            $tagline_img_path = $request->tagline_img_old;
+        }
+
+        $banner = DB::table('taglines')
+                    ->where('page_slug', $page_slug)
+                    ->update([
+                        'tagline_title' => $tagline_title,
+                        'tagline_desc' => $tagline_desc,
+                        'tagline_img' => $tagline_img_path,
                         'updated_by' => auth()->user()->id
                     ]);
 

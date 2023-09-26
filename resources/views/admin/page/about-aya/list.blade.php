@@ -15,7 +15,7 @@
 		@include('layouts.admin_sidebar', ['page'=>'Page'])
 
 		<div class="layout-page">
-			@include('layouts.nav', ['nav'=>'About AYA Pages'])
+			@include('layouts.nav', ['nav'=>'About AYA Pages', 'page'=>'Page'])
 
 			<div class="content-wrapper">
 				<div class="container-xxl flex-grow-1 container-p-y">
@@ -94,6 +94,21 @@
                            							</a>
 												</td>
 											</tr>
+											<tr>
+												<td>6</td>
+												<td>Stakeholder Management</td>
+												<td></td>
+												<td>
+													<a href="{{ url('/admin/pagelist/about-aya/stakeholder-management') }}" target="_blank">
+														<button type="button" class="btn btn-outline-primary">
+                              								<span class="tf-icons bx bx-pencil"></span>&nbsp; 		
+                           								</button>
+                           							</a>
+												</td>
+											</tr>
+
+
+											
 										</tbody>
 									</table>
 								</div>

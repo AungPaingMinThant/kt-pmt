@@ -12,7 +12,12 @@ id="layout-navbar">
 		<div class="navbar-nav align-items-center">
 			<div class="nav-item d-flex align-items-center">
 				<h5 class="m-0 me-2 pb-0">
-					<!-- <a href="{{ url('/admin/pagelist/about-aya') }}" style="cursor: pointer;"><i class="menu-icon tf-icons bx bx-chevrons-left"></i></a>&nbsp;&nbsp; -->
+					@if($page == 'corporate_policies' || $page == 'aya_bank_profile' || $page == 'stakeholder_management')
+						<a href="{{ url('/admin/pagelist/about-aya') }}" style="cursor: pointer;"><i class="menu-icon tf-icons bx bx-chevrons-left"></i></a>&nbsp;&nbsp;
+					@endif
+					@if($page == 'foreign_currency_exchange')
+						<a href="{{ url('/admin/pagelist/personal-banking') }}" style="cursor: pointer;"><i class="menu-icon tf-icons bx bx-chevrons-left"></i></a>&nbsp;&nbsp;
+					@endif
 					{{ $nav }}
 				</h5>
 			</div>

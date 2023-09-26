@@ -16,7 +16,7 @@
 		@include('layouts.admin_sidebar', ['page'=>'Exchange'])
 
 		<div class="layout-page">
-			@include('layouts.nav', ['nav'=>'Exchange Rate List'])
+			@include('layouts.nav', ['nav'=>'Exchange Rate List', 'page'=>'Page'])
 
 			<div class="content-wrapper">
 				<div class="container-xxl flex-grow-1 container-p-y">

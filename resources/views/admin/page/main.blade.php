@@ -15,7 +15,7 @@
 		@include('layouts.admin_sidebar', ['page'=>'Page'])
 
 		<div class="layout-page">
-			@include('layouts.nav', ['nav'=>'Page List'])
+			@include('layouts.nav', ['nav'=>'Page List', 'page'=>'Page'])
 
 			<div class="content-wrapper">
 				<div class="container-xxl flex-grow-1 container-p-y">
@@ -41,6 +41,18 @@
 										<tbody class="table-border-bottom-0">
 											<tr>
 												<td>1</td>
+												<td>Personal Banking</td>
+												<td></td>
+												<td>
+													<a href="{{ url('/admin/pagelist/personal-banking') }}">
+														<button type="button" class="btn btn-outline-primary">
+                              								<span class="tf-icons bx bx-right-arrow-alt"></span>&nbsp; 		
+                           								</button>
+                           							</a>
+												</td>
+											</tr>
+											<tr>
+												<td>2</td>
 												<td>About AYA</td>
 												<td></td>
 												<td>

@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\ExchangeRate;
 use App\Models\ExchangeRateBuySell;
+use App\Models\WorkerRemittance;
 use DB;
 
 class ExchangeController extends Controller
@@ -55,5 +56,35 @@ class ExchangeController extends Controller
         $exchange->save();
 
         return redirect('/admin/exchange-rate')->with('Exchange Rate successfully updated.');
+    }
+
+    public function workerRemittanceIndex()
+    {
+        $worker_remittance = WorkerRemittance::orderBy('id','desc')->get();
+        return view('admin.exchange.worker_remittance_list')->with('worker_remittance', $worker_remittance);
+    }
+
+    public function workerRemittanceEdit()
+    {
+        $worker_remittance = WorkerRemittance::orderBy('id','desc')->first();
+
+        return view('admin.exchange.worker_remittance_edit')->with('worker_remittance',$worker_remittance);
+    }
+
+    public function workerRemittanceUpdate(Request $request)
+    {
+        $USD_rate = $request->USD_rate;
+        $MMK_rate = $request->MMK_rate;
+        $updated_by = auth()->user()->id;
+        $created_by = auth()->user()->id;
+
+        $exchange = new WorkerRemittance();
+        $exchange->USD = $USD_rate;
+        $exchange->MMK = $MMK_rate;
+        $exchange->created_by = $created_by;
+        $exchange->updated_by = $updated_by;
+        $exchange->save();
+
+        return redirect('/admin/worker-remittance')->with('Worker Remittance successfully updated.');
     }
 }

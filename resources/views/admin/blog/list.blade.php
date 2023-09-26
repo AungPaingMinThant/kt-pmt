@@ -12,7 +12,7 @@
 		@include('layouts.admin_sidebar', ['page'=>'Blog'])
 
 		<div class="layout-page">
-			@include('layouts.nav', ['nav'=>'Blog'])
+			@include('layouts.nav', ['nav'=>'Blog', 'page'=>'Page'])
 
 			<div class="content-wrapper">
 				<div class="container-xxl flex-grow-1 container-p-y">

@@ -16,7 +16,7 @@
 			@include('layouts.admin_sidebar', ['page'=>'Media'])
 
 			<div class="layout-page">
-				@include('layouts.nav', ['nav'=>'Add Media'])
+				@include('layouts.nav', ['nav'=>'Add Media', 'page'=>'Page'])
 
 				<div class="content-wrapper">
 					<div class="container-xxl flex-grow-1 container-p-y">
@@ -38,6 +38,7 @@
 												<select class="form-select" name="media_category" id="media_category" aria-label="Blog Category">
 													<option value="">None</option>
 													<option value="Corporate Policies">Coporate Policies</option>
+													<option value="Foreign Currency Exchange">Foreign Currency Exchange</option>
 												</select>
 												<p>&nbsp;</p>
 											</div>

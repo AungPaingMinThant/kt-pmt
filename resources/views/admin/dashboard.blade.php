@@ -8,7 +8,7 @@
 		@include('layouts.admin_sidebar', ['page'=>'Dashboard'])
 
 		<div class="layout-page">
-			@include('layouts.nav', ['nav'=>'Dashboard'])
+			@include('layouts.nav', ['nav'=>'Dashboard','page'=>'Page'])
 		</div>
 	</div>
 </div>
