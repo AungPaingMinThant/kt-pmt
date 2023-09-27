@@ -78,6 +78,41 @@
 
 
 
+{{-- PMT --}}
+@if($page == 'mission_promise')
+	<div class="aya_bank_profile_banner banner_bg" style="background-image:url('{{$banner_link}}')">
+		<div class="container" style="position: relative;">
+			<button class="btn banner_edit_btn" data-bs-toggle="modal" data-bs-target="#banner_modal">Edit Banner Section</button>
+			<div class="row d-none d-sm-block">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div class="aya_bank_profile_banner_tagline">
+						<h1 style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">{!! $banner_data->banner_title !!}</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 30px;left: 20px;right: 40px;">
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">AYA Bank <span class="theme_text_color">Profile</span></h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #f5f5f7;">
+		<div class="container">
+			<p class="bread_crumb_text"><a href="{{ url('/') }}" style="color: #666;">HOME</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/about-aya/') }}" style="color: #666;">ABOUT AYA</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/about-aya/who-we-are') }}" style="color: #666;">WHO WE ARE</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/about-aya/who-we-are/corporate-profile') }}" style="color: #666;">CORPORATE PROFILE</a>&nbsp;
+				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
+				<a href="{{ url('/about-aya/who-we-are/corporate-profile/ayabank-profile/') }}"><span style="color: #A5000B;">AYA BANK PROFILE</span></a>
+			</p>
+		</div>
+	</div>
+@endif
+
 
 <!-- Modals -->
 <div class="modal fade" id="banner_modal" data-bs-backdrop="static" tabindex="-1">

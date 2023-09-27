@@ -280,12 +280,17 @@
 						<p class="theme_text_color fw-bold" style="font-size: 16px;">{!!$page_data->aspect_6_title!!} &nbsp;<i class="bx bx-pencil page_edit_icon" data-bs-toggle="modal" data-bs-target="#sincerity_modal"></i></p>
 						<p>{!!$page_data->aspect_6_desc!!}</p>
 						<div class="row">
+							
+							
 							<div class="col-1 sincerity_check_icon_col text-right">
 								<img src="{{ url('/images/about-aya/corporate-profile/mission-promise/checked.webp') }}" class="img-fluid sincerity_check">
 							</div>
 							<div class="col-11 sincerity_check_text_col">
 								<p class="sincerity_check_text">We are able to attract more clients</p>
 							</div>
+
+
+
 							<div class="col-1 sincerity_check_icon_col text-right">
 								<img src="{{ url('/images/about-aya/corporate-profile/mission-promise/checked.webp') }}" class="img-fluid sincerity_check">
 							</div>
@@ -393,12 +398,12 @@
 								<h4>Section Update</h4>
 								<div class="col-md-12" style="margin-bottom: 10px;">
 									<label for="page_title_1" class="col-form-label">Section Title</label>
-									<input type="text" class="form-control" id="page_desc_1" name="page_title_1" value="{{$page_data->page_title_1}}">
+									<input type="text" class="form-control" id="page_desc_1" name="page_title_1" value="{!!$page_data->page_title_1!!}">
 									
 									<div class="space-20"></div>
 									
 									<label for="page_desc_1" class="col-form-label">Section Information</label>
-									<textarea class="form-control" id="page_desc_1" name="page_desc_1" rows="10" spellcheck="false" >{{$page_data->page_desc_1}}</textarea>
+									<textarea class="form-control" id="page_desc_1" name="page_desc_1" rows="10" spellcheck="false" >{!!$page_data->page_desc_1!!}</textarea>
 								</div>
 							</div>
 						</div>
@@ -430,7 +435,7 @@
 								<div class="space-20"></div>
 								<div class="col-md-12">
 									<label for="page_desc_2" class="col-form-label">Section Information 1</label>
-									<textarea class="form-control" id="page_desc_1" name="page_desc_2" rows="10" spellcheck="false" >{{$page_data->page_desc_2}}</textarea>
+									<textarea class="form-control" id="page_desc_1" name="page_desc_2" rows="10" spellcheck="false" >{!!$page_data->page_desc_2!!}</textarea>
 								</div>
 
 								<div class="space-20"></div>

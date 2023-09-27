@@ -118,10 +118,10 @@ class CorporateMissionBrandValuesController extends Controller
             $id = $request->input('id_' . $i);
             $excellence_description = $request->input('excellence_desc_' . $i);
     
-            $exe = DB::table('mission_cop_brand_proise_aspect_excellences')
+            $banner = DB::table('mission_cop_brand_proise_aspect_excellences')
                 ->where('id', $id)
                 ->update([
-                    'excellence_desc' => $excellence_desc, // Corrected variable name
+                    'excellence_desc' => $excellence_desc,
                     'updated_by' => auth()->user()->id
                 ]);
         }
