@@ -51,11 +51,16 @@ class FAQController extends Controller
                                                 ->with('page_slug',$page_slug);
     }
 
-    public function FAQEdit(Request $request)
+    public function FAQEdit($faq_id)
     {
-        $faq_list = FAQ::where('id', $page_slug)->get();
+        $faq_data = FAQ::where('id', $faq_id)->first();
 
-        return redirect('/admin/faq/list')->with('FAQ successfully created.');
+        return view('admin.faq.edit')->with('faq_data', $faq_data);
+    }
+
+    public function FAQUpdate(Request $request)
+    {
+        // code...
     }
 }
 
