@@ -94,7 +94,11 @@
 								<div class="row">
 									<p>The financial sector plays a pivotal role in combating climate change and fostering sustainable environmental development. We stand ready to facilitate and stimulate green financing in Myanmar. We urge our SMEs and individual customers to embrace opportunities to go green by utilizing and implementing eco-friendly products and services.</p>
 									<p>This initiative is crucial in mitigating social risks, reducing the carbon footprint of industrial operations and projects, and supporting efforts to curb climate change risk and mitigate the effects of adverse climatic events. It also enables customers to comply with environmental laws and regulations.</p>
+<<<<<<< HEAD
+									<p><a href="{{ url('file/environmental-substainability/Green-Financing.pdf') }}" style="text-decoration: underline;" target="_blank">Click here</a>&nbsp;to find more on our green financing efforts which align lending and environmental objectives.
+=======
 									<p><a href="{{ url('file/environmental-substainability/Green-Financing.pdf') }}" target="_blank" style="text-decoration: underline;">Click here</a>&nbsp;to find more on our green financing efforts which align lending and environmental objectives.
+>>>>>>> cbcd99a04e365cd72719d5af361b14a7a3d9da92
 								</div>
 							</div>
 

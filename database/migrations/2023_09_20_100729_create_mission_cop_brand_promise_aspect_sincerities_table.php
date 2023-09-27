@@ -15,6 +15,8 @@ class CreateMissionCopBrandPromiseAspectSinceritiesTable extends Migration
     {
         Schema::create('mission_cop_brand_promise_aspect_sincerities', function (Blueprint $table) {
             $table->id();
+            $table->longText('sincerities_desc')->nullable;
+            $table->integer('updated_by');
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });
     }

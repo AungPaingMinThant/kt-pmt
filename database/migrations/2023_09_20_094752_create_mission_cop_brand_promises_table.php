@@ -23,7 +23,7 @@ class CreateMissionCopBrandPromisesTable extends Migration
             $table->longText('page_desc_2')->nullable();
             $table->longText('aspect_1')->nullable();
             $table->longText('aspect_2')->nullable();
-            $table->longText('aspect-3')->nullable();
+            $table->longText('aspect_3')->nullable();
             $table->longText('aspect_4')->nullable();
             $table->longText('aspect_5')->nullable();
             $table->longText('aspect_6')->nullable();
@@ -37,6 +37,7 @@ class CreateMissionCopBrandPromisesTable extends Migration
             $table->longText('aspect_4_desc')->nullable();
             $table->longText('aspect_5_title')->nullable();
             $table->longText('aspect_5_desc')->nullable();
+            $table->longText('aspect_5_desc_text')->nullable();
             $table->longText('aspect_6_title')->nullable();
             $table->longText('aspect_6_desc')->nullable();
             $table->longText('aspect_cta_1_img')->nullable();
