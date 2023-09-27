@@ -33,7 +33,7 @@
 			@include('layouts.admin_sidebar', ['page'=>'Exchange'])
 
 			<div class="layout-page">
-				@include('layouts.nav', ['nav'=>'Update Exchange Rate'])
+				@include('layouts.nav', ['nav'=>'Update Exchange Rate', 'page'=>'Page'])
 
 				<div class="content-wrapper">
 					<div class="container-xxl flex-grow-1 container-p-y">

@@ -36,8 +36,6 @@ class CorporatePoliciesController extends Controller
             $co_po_detail_title = $request->input('co_po_detail_title_'.$co_po_detail);
             $co_po_detail_desc = htmlentities($request->input('co_po_detail_desc_'.$co_po_detail));
             $co_po_detail_desc = str_replace("../../../", $baseurl , $co_po_detail_desc);
-
-            // echo $co_po_detail_desc.'<Br>';
             
             if($co_po_detail_id != '0') {
                 $banner = DB::table('corporate_policies_details')

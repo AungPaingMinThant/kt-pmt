@@ -14,6 +14,31 @@
 	}
 </style>
 
+@if($page == 'foreign_currency_exchange')
+	<div class="foreign_currency_exchange_banner banner_bg" style="background-image:url('{{$banner_link}}')">
+		<div class="container" style="position: relative;">
+			<button class="btn banner_edit_btn" data-bs-toggle="modal" data-bs-target="#banner_modal">Edit Banner Section</button>
+			<div class="row d-none d-sm-block">
+				<div class="col-md-6 text-left" style="text-align: left;position: relative;">
+					<div class="foreign_currency_exchange_banner_tagline">
+						<h1 style="font-size: 26px;font-weight: 400;margin-bottom: 0;line-height: 32px;">{!! $banner_data->banner_title !!}</h1>
+					</div>
+				</div>
+				<div class="col-md-6" style="text-align: right;">
+					<h1></h1>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 30px;left: 25px;">
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">{!! $banner_data->banner_title !!}</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+@endif
+
 @if($page == 'corporate_policies')
 	<div class="corporate_policies_banner banner_bg" style="background-image:url('{{$banner_link}}')">
 		<div class="container" style="position: relative;">
@@ -21,14 +46,14 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div class="corporate_policies_banner_tagline">
-						<h1 style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">Corporate Policies</h1>
+						<h1 style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">{!! $banner_data->banner_title !!}</h1>
 					</div>
 				</div>
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 30px;left: 20px;right: 40px;">
-						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Corporate Policies</h1>
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">{!! $banner_data->banner_title !!}</h1>
 					</div>
 				</div>
 			</div>
@@ -43,14 +68,14 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div class="aya_bank_profile_banner_tagline">
-						<h1 style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">{!! $banner->banner_title !!}</h1>
+						<h1 style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">{!! $banner_data->banner_title !!}</h1>
 					</div>
 				</div>
 			</div>
 			<div class="row d-block d-sm-none">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div style="position: absolute;top: 30px;left: 20px;right: 40px;">
-						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">AYA Bank <span class="theme_text_color">Profile</span></h1>
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">{!! $banner_data->banner_title !!}</h1>
 					</div>
 				</div>
 			</div>
@@ -66,6 +91,28 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
 				<a href="{{ url('/about-aya/who-we-are/corporate-profile/ayabank-profile/') }}"><span style="color: #A5000B;">AYA BANK PROFILE</span></a>
 			</p>
+		</div>
+	</div>
+@endif
+
+@if($page == 'stakeholder_management')
+	<div class="stakeholder_management_banner banner_bg" style="background-image:url('{{$banner_link}}')">
+		<div class="container" style="position: relative;">
+			<button class="btn banner_edit_btn" data-bs-toggle="modal" data-bs-target="#banner_modal">Edit Banner Section</button>
+			<div class="row d-none d-sm-block">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div class="stakeholder_management_banner_tagline">
+						<h1 style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">{!! $banner_data->banner_title !!}</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row d-block d-sm-none">
+				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+					<div style="position: absolute;top: 30px;left: 20px;right: 40px;">
+						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">{!! $banner_data->banner_title !!}</h1>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 @endif
@@ -147,7 +194,7 @@
 								<label for="section1_fact_title" class=" col-form-label">Banner Tagline</label>
 								<textarea class="form-control" id="banner_tagline" name="banner_tagline" rows="3" spellcheck="false" >{{$banner_data->banner_title}}</textarea>
 
-								<input type="text" name="page_slug" id="page_slug" value="{{ $banner_data->page_slug }}">
+								<input type="hidden" name="page_slug" id="page_slug" value="{{ $banner_data->page_slug }}">
 							</div>
 						</div>
 					</div>

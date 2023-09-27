@@ -16,7 +16,7 @@
 			@include('layouts.admin_sidebar', ['page'=>'Media'])
 
 			<div class="layout-page">
-				@include('layouts.nav', ['nav'=>'Update Media'])
+				@include('layouts.nav', ['nav'=>'Update Media', 'page'=>'Page'])
 
 				<div class="content-wrapper">
 					<div class="container-xxl flex-grow-1 container-p-y">
@@ -39,6 +39,7 @@
 												<select class="form-select" name="media_category" id="media_category" aria-label="Blog Category">
 													<option value="">None</option>
 													<option value="Corporate Policies" {{ $media_data->media_category == 'Corporate Policies' ? 'selected':'' }}>Coporate Policies</option>
+													<option value="Corporate Policies" {{ $media_data->media_category == 'Foreign Currency Exchange' ? 'selected':'' }}>Foreign Currency Exchange</option>
 												</select>
 												<p>&nbsp;</p>
 											</div>

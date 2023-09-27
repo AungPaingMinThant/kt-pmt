@@ -167,7 +167,7 @@
 	<div class="layout-wrapper layout-content-navbar">
 	   	<div class="layout-container">	
 			<div class="layout-page">
-				@include('layouts.nav', ['nav'=>'AYA Bank Profile'])
+				@include('layouts.nav', ['nav'=>'AYA Bank Profile', 'page'=>'aya_bank_profile'])
 	        	<br>
 				@include('layouts.admin_banner', ['page'=>'aya_bank_profile','mobilebanking'=>''])
 

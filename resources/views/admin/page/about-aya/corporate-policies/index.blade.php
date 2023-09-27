@@ -7,7 +7,7 @@
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
 		<div class="layout-page">
-			@include('layouts.nav', ['nav'=>'Corporate Policies'])
+			@include('layouts.nav', ['nav'=>'Corporate Policies', 'page'=>'corporate_policies'])
         	<br>
 			@include('layouts.admin_banner', ['page'=>'corporate_policies'])
 

@@ -1,6 +1,6 @@
 @extends('layouts.frontend-app')
 
-@section('title', 'Foreign Currency Exchage – AYA Bank')
+@section('title', 'Foreign Currency Exchange – AYA Bank')
 <style type="text/css">
 	.fx_cta_col {
 		display: table;
