@@ -29,6 +29,16 @@
         block_unsupported_drop: false
     });
 
+    tinymce.init({
+        selector: 'textarea#faq_question',
+        height: 300
+    });
+
+    tinymce.init({
+        selector: 'textarea#faq_answer',
+        height: 400
+    });
+
     $("#desktop_banner_image").change(function(){
         $("#desktop_img_old").val('');
     });

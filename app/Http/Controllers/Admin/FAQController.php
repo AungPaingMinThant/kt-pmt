@@ -4,6 +4,9 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\FAQ;
+use App\Models\PageListing;
+use DB;
 
 class FAQController extends Controller
 {
@@ -21,4 +24,39 @@ class FAQController extends Controller
     {
         return view('admin.faq.add');
     }
+
+    public function FAQStore(Request $request)
+    {
+        $page_slug = $request->page_slug;
+        $faq_question = $request->faq_question;
+        $faq_answer = $request->faq_answer;
+
+        $faq = new FAQ();
+        $faq->page_slug = $page_slug;
+        $faq->faq_question = htmlentities($faq_question);
+        $faq->faq_answer = htmlentities($faq_answer);
+        $faq->created_by = auth()->user()->is;
+        $faq->updated_by = auth()->user()->is;
+        $faq->faq_delete_flg = '0';
+        $faq->save();
+
+        return redirect('/admin/faq/list')->with('FAQ successfully created.');
+    }
+
+    public function FAQListByPageSlug($page_slug)
+    {
+        $faq_list = FAQ::where('page_slug', $page_slug)->get();
+
+        return view('admin.faq.page-slug-list')->with('faq_list', $faq_list)
+                                                ->with('page_slug',$page_slug);
+    }
+
+    public function FAQEdit(Request $request)
+    {
+        $faq_list = FAQ::where('id', $page_slug)->get();
+
+        return redirect('/admin/faq/list')->with('FAQ successfully created.');
+    }
 }
+
+

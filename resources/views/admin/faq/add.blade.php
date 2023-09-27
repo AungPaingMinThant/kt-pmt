@@ -33,6 +33,15 @@
 												<div class="row">
 													<div class="col-md-12">
 														<div class="mb-3">
+															<label class="form-label" for="page_slug">FAQ Category</label>
+															<select class="form-select" name="page_slug" id="page_slug" aria-label="Blog Category">
+																<option value="">None</option>
+																<option value="foreign_currency_exchange">Foreign Currency Exchange</option>
+															</select>
+														</div>
+													</div>
+													<div class="col-md-12">
+														<div class="mb-3">
 															<label class="form-label">Question</label>
 															<textarea class="form-control" id="faq_question" name="faq_question" rows="3" spellcheck="false" ></textarea>
 														</div>
@@ -62,7 +71,7 @@
 @include('layouts.admin-footer', ['page'=>''])
 
 <script type="text/javascript">
-
+	
 </script>
 
 @endsection('content')
