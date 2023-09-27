@@ -79,7 +79,9 @@ Route::post('/admin/foreign-currency-exchange-service/special/update',
 Route::post('/admin/foreign-currency-exchange-service/disclaimer/update',
 	'App\Http\Controllers\Admin\PersonalBanking\OtherServicesController@pageForeignCurrencyExchangeDisclaimerUpdate');
 
-
+// Admin FAQ
+Route::get('/admin/faq/list', 'App\Http\Controllers\Admin\FAQController@FAQList');
+Route::get('/admin/faq/add', 'App\Http\Controllers\Admin\FAQController@FAQAdd');
 
 // Admin About AYA
 Route::get('/admin/pagelist/about-aya','App\Http\Controllers\Admin\PageController@pageAboutAYAList');

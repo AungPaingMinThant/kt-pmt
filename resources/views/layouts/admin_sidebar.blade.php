@@ -116,9 +116,9 @@
 		@else
 			<li class="menu-item">
 		@endif
-			<a href="{{ url('/admin/pagelist') }}" class="menu-link">
-				<i class="menu-icon tf-icons bx bx-list-ul"></i>
-				<div>Page</div>
+			<a href="{{ url('/admin/faq/list') }}" class="menu-link">
+				<i class="menu-icon tf-icons bx bx-bulb"></i>
+				<div>FAQs</div>
 			</a>
 		</li>
 
