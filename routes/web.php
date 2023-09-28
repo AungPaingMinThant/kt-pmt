@@ -82,6 +82,12 @@ Route::post('/admin/foreign-currency-exchange-service/disclaimer/update',
 // Admin FAQ
 Route::get('/admin/faq/list', 'App\Http\Controllers\Admin\FAQController@FAQList');
 Route::get('/admin/faq/add', 'App\Http\Controllers\Admin\FAQController@FAQAdd');
+Route::post('/admin/faq/store', 'App\Http\Controllers\Admin\FAQController@FAQStore');
+Route::get('/admin/faq/{page_slug}/list', 'App\Http\Controllers\Admin\FAQController@FAQListByPageSlug');
+Route::get('/admin/faq/edit/{faq_id}', 'App\Http\Controllers\Admin\FAQController@FAQEdit');
+Route::post('/admin/faq/update', 'App\Http\Controllers\Admin\FAQController@FAQUpdate');
+Route::get('/admin/faq/{page_slug}/add', 'App\Http\Controllers\Admin\FAQController@FAQAddPageSlug');
+Route::post('/admin/faq/page-slug/store', 'App\Http\Controllers\Admin\FAQController@FAQStorePageSlug');
 
 // Admin About AYA
 Route::get('/admin/pagelist/about-aya','App\Http\Controllers\Admin\PageController@pageAboutAYAList');

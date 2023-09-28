@@ -9,6 +9,7 @@ use App\Models\ExchangeRateBuySell;
 use App\Models\OtherExchangeRate;
 use App\Models\WorkerRemittance;
 use App\Models\PersonalBanking\OtherServices\ForeignCurrencyExchangeService;
+use App\Models\FAQ;
 use DB;
 
 class OtherServicesController extends Controller
@@ -25,12 +26,15 @@ class OtherServicesController extends Controller
 
         $other_rate = OtherExchangeRate::orderBy('id','desc')->first();
         $worker_remittance = WorkerRemittance::orderBy('id','desc')->first();
+
+        $page_data = ForeignCurrencyExchangeService::first();
         
         return view('admin.page.personal-banking.other-services.foreign-currency-exchange-services')
                 ->with('exchange_rate',$exchange_rate)
                 ->with('exchange_rate_buy_sell',$exchange_rate_buy_sell)
                 ->with('other_rate',$other_rate)
-                ->with('worker_remittance',$worker_remittance);
+                ->with('worker_remittance',$worker_remittance)
+                ->with('page_data',$page_data);
     }
 
     public function pageForeignCurrencyExchangeSpecialUpdate(Request $request)

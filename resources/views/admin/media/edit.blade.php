@@ -39,7 +39,7 @@
 												<select class="form-select" name="media_category" id="media_category" aria-label="Blog Category">
 													<option value="">None</option>
 													<option value="Corporate Policies" {{ $media_data->media_category == 'Corporate Policies' ? 'selected':'' }}>Coporate Policies</option>
-													<option value="Corporate Policies" {{ $media_data->media_category == 'Foreign Currency Exchange' ? 'selected':'' }}>Foreign Currency Exchange</option>
+													<option value="Foreign Currency Exchange" {{ $media_data->media_category == 'Foreign Currency Exchange' ? 'selected':'' }}>Foreign Currency Exchange</option>
 												</select>
 												<p>&nbsp;</p>
 											</div>

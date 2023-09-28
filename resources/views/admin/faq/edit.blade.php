@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 
-@section('title', 'Add FAQ – AYA Bank')
+@section('title', 'Edit FAQ – AYA Bank')
 
 @section('content')
 <style type="text/css">
@@ -16,7 +16,7 @@
 		@include('layouts.admin_sidebar', ['page'=>'FAQ'])
 
 		<div class="layout-page">
-			@include('layouts.nav', ['nav'=>'Add FAQ', 'page'=>'FAQ'])
+			@include('layouts.nav', ['nav'=>'Edit FAQ', 'page'=>'FAQ'])
 
 			<div class="content-wrapper">
 				<div class="container-xxl flex-grow-1 container-p-y">
@@ -24,32 +24,25 @@
 						<div class="col-xl">
 							<div class="card mb-4">
 								<div class="card-body">
-									<form class="mb-3" action="{{ url('/admin/faq/store') }}" method="POST" id="blog_form" enctype="multipart/form-data" >
+									<form class="mb-3" action="{{ url('/admin/faq/update') }}" method="POST" id="blog_form" enctype="multipart/form-data" >
 										{{ csrf_field() }}
 										<a href="{{ url('/admin/faq/list') }}" class="mb-3" style="cursor: pointer;"><label class="form-label" style="cursor: pointer;"><i class="menu-icon tf-icons bx bx-chevrons-left"></i> Back to list</label></a>
 										<div class="row">
 											<div class="col-md-12 mb-3">
 												<h4>FAQs</h4>
 												<div class="row">
-													<div class="col-md-12">
-														<div class="mb-3">
-															<label class="form-label" for="page_slug">FAQ Category</label>
-															<select class="form-select" name="page_slug" id="page_slug" aria-label="Blog Category">
-																<option value="">None</option>
-																<option value="foreign_currency_exchange">Foreign Currency Exchange</option>
-															</select>
-														</div>
-													</div>
+													<input type="hidden" name="page_slug" id="page_slug" value="{{$faq_data->page_slug}}">
+													<input type="hidden" name="faq_id" id="faq_id" value="{{$faq_data->id}}">
 													<div class="col-md-12">
 														<div class="mb-3">
 															<label class="form-label">Question</label>
-															<textarea class="form-control" id="faq_question" name="faq_question" rows="3" spellcheck="false" ></textarea>
+															<textarea class="form-control" id="faq_question" name="faq_question" rows="3" spellcheck="false" >{!! $faq_data->faq_question !!}</textarea>
 														</div>
 													</div>
 													<div class="col-md-12">
 														<div class="mb-3">
 															<label class="form-label">Answer</label>
-															<textarea class="form-control" id="faq_answer" name="faq_answer" rows="3" spellcheck="false" ></textarea>
+															<textarea class="form-control" id="faq_answer" name="faq_answer" rows="3" spellcheck="false" >{!! $faq_data->faq_answer !!}</textarea>
 														</div>
 													</div>
 												</div>

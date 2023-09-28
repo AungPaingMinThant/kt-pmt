@@ -24,22 +24,14 @@
 						<div class="col-xl">
 							<div class="card mb-4">
 								<div class="card-body">
-									<form class="mb-3" action="{{ url('/admin/faq/store') }}" method="POST" id="blog_form" enctype="multipart/form-data" >
+									<form class="mb-3" action="{{ url('/admin/faq/page-slug/store') }}" method="POST" id="blog_form" enctype="multipart/form-data" >
 										{{ csrf_field() }}
 										<a href="{{ url('/admin/faq/list') }}" class="mb-3" style="cursor: pointer;"><label class="form-label" style="cursor: pointer;"><i class="menu-icon tf-icons bx bx-chevrons-left"></i> Back to list</label></a>
 										<div class="row">
 											<div class="col-md-12 mb-3">
 												<h4>FAQs</h4>
 												<div class="row">
-													<div class="col-md-12">
-														<div class="mb-3">
-															<label class="form-label" for="page_slug">FAQ Category</label>
-															<select class="form-select" name="page_slug" id="page_slug" aria-label="Blog Category">
-																<option value="">None</option>
-																<option value="foreign_currency_exchange">Foreign Currency Exchange</option>
-															</select>
-														</div>
-													</div>
+													<input type="hidden" name="page_slug" id="page_slug" value="{{$page_slug}}">
 													<div class="col-md-12">
 														<div class="mb-3">
 															<label class="form-label">Question</label>

@@ -41,9 +41,7 @@
 		}
 	}
 </style>
-@php
-	$page_data = App\Models\PersonalBanking\OtherServices\ForeignCurrencyExchangeService::first();
-@endphp
+
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
 		<div class="layout-page">

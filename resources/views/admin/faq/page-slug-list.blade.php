@@ -22,7 +22,7 @@
 					@include('layouts.message')
 					<div class="row">
 						<div class="col-12 text-right">
-							<a href="{{ url('/admin/faq/add') }}">
+							<a href="{{ url('/admin/faq/'.$page_slug.'/add') }}">
 								<button type="button" class="btn  btn-outline-primary flr">Add FAQ</button>
 							</a>
 						</div>
@@ -33,24 +33,32 @@
 										<thead>
 											<tr>
 												<th width="20">No</th>
-												<th>Page Name</th>
-												<th>Update Date</th>
+												<th>FAQ ( Q&A )</th>
 												<th>Actions</th>
 											</tr>
 										</thead>
 										<tbody class="table-border-bottom-0">
-											<tr>
-												<td>1</td>
-												<td>Personal Banking&nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;Other Services&nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;Foreign Currency Exchange Service</td>
-												<td></td>
-												<td>
-													<a href="{{ url('/admin/faq/foreign_currency_exchange/list') }}">
-														<button type="button" class="btn btn-outline-primary">
-                              								<span class="tf-icons bx bx-pencil"></span>&nbsp; 		
-                           								</button>
-                           							</a>
-												</td>
-											</tr>
+											@php $faq_count = 1; @endphp
+											@foreach($faq_list as $faq)
+												<tr valign="top">
+													<td>{{$faq_count}}</td>
+													<td>
+														<span class="fw-semibold">{!! html_entity_decode($faq->faq_question) !!}</span>
+														<div style="padding-left: 20px !important;">
+															{!! html_entity_decode($faq->faq_answer) !!}
+														</div>
+													</td>
+													<td>
+														<a href="{{ url('/admin/faq/edit/'.$faq->id) }}">
+															<button type="button" class="btn btn-outline-primary">
+	                              								<span class="tf-icons bx bx-pencil"></span>&nbsp; 		
+	                           								</button>
+	                           							</a>
+													</td>
+												</tr>
+												@php $faq_count = $faq_count + 1; @endphp
+											@endforeach
+											
 										</tbody>
 									</table>
 								</div>

@@ -4,7 +4,9 @@
 <link rel="stylesheet" href="{{ url('/css/about-aya/ayabank-profile.css') }}">
 
 @section('content')
-
+@php
+		$page_data = App\Models\AboutAYA\AyabankProfileBusinessPractices::first();
+	@endphp
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
 		<div class="layout-page">
