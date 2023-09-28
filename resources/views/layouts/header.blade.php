@@ -614,7 +614,7 @@
 													</div>
 													<div class="col-md-4">
 														<p class="fw-bold">
-															FDI
+															<a href="{{ url('/about-aya/who-we-are/foreign-direct-investment') }}">FDI</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/about-aya/who-we-are/foreign-direct-investment') }}">Foreign Direct Investment</a>
@@ -1454,7 +1454,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-2">
-										FDI
+										<a href="{{ url('/about-aya/who-we-are/foreign-direct-investment') }}">FDI</a>
 									</p>
 								</li>
 								<li>
