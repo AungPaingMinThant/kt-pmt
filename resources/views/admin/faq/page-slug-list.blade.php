@@ -22,7 +22,7 @@
 					@include('layouts.message')
 					<div class="row">
 						<div class="col-12 text-right">
-							<a href="{{ url('/admin/faq/add') }}">
+							<a href="{{ url('/admin/faq/'.$page_slug.'/add') }}">
 								<button type="button" class="btn  btn-outline-primary flr">Add FAQ</button>
 							</a>
 						</div>

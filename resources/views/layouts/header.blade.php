@@ -601,7 +601,7 @@
 															<a href="{{ url('/about-aya/who-we-are/corporate-profile/awards') }}">Awards</a>
 														</p>
 													</div>
-													<div class="col-md-5">
+													<div class="col-md-3">
 														<p class="fw-bold">
 															<a href="{{ url('/about-aya/who-we-are/leadership') }}">LEADERSHIP</a>
 														</p>
@@ -612,7 +612,15 @@
 															<a href="{{ url('/about-aya/who-we-are/leadership/meet-our-leaders') }}" >Meet Our Leaders</a>
 														</p>
 													</div>
-													<div class="col-md-5">
+													<div class="col-md-4">
+														<p class="fw-bold">
+															FDI
+														</p>
+														<p class="m-b-5">
+															<a href="{{ url('/about-aya/who-we-are/foreign-direct-investment') }}">Foreign Direct Investment</a>
+														</p>
+													</div>
+													<div class="col-md-4">
 														<p class="fw-bold">
 															<a href="{{ url('/about-aya/who-we-are/our-strategies') }}">OUR STRATEGIES
 														</p>
@@ -626,7 +634,7 @@
 															<a href="{{ url('/about-aya/who-we-are/our-strategies/stakeholder-management') }}" >Stakeholder Management</a>
 														</p>
 													</div>
-													<div class="col-md-5">
+													<div class="col-md-4">
 														<p class="fw-bold">
 															<a href="{{ url('/about-aya/who-we-are/what-we-offer') }}">What We Offer</a>
 														</p>
@@ -1442,6 +1450,16 @@
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20 mb-20">
 										<a href="{{ url('/about-aya/who-we-are/why-us') }}">Why Us</a>
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item fw-bold m-b-5 mt-2">
+										FDI
+									</p>
+								</li>
+								<li>
+									<p class="dropdown-item m-b-5 m-l-20 mb-20">
+										<a href="{{ url('/about-aya/who-we-are/foreign-direct-investment') }}">Foreign Direct Investment</a>
 									</p>
 								</li>
 							</ul>
