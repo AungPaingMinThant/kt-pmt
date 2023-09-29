@@ -101,44 +101,61 @@ class CorporateMissionBrandValuesController extends Controller
         return redirect('admin/pagelist/about-aya/mission-corporate');
     }
 
-    public function excellenceUpdate(Request $request) {
+    public function excellanceUpdate(Request $request) {
         $aspect_1_title = $request->aspect_1_title;
         $aspect_1_desc = $request->aspect_1_desc;
-        $excellence_count = $request-> excellence_count;
-        $baseurl = URL::to('/') . '/';
         
-    
+        
         $banner = DB::table('mission_cop_brand_promises')
-            ->update([
+            ->update ([
                 'aspect_1_title' => $aspect_1_title,
                 'aspect_1_desc' => $aspect_1_desc,
                 'updated_by' => auth()->user()->id
-        ]);
+    
+            ]);
+    
+            return redirect ('admin/pagelist/about-aya/mission-corporate');
+    }
 
-        for ($excellence_detail = 1; $excellence_detail <= $excellence_count; $excellence_detail++) {
-            $excellence_detail_id = $request->input('excellence_detail_id' . $excellence_detail);
-            $excellence_detail_desc = htmlentities($request->input('excellence_detail_desc' . $excellence_detail_desc));
-            $excellence_detail_desc = str_replace("../../../", $baseurl , $excellence_detail_desc);
-            if($excellence_detail_id !='0') {
-               $banner = DB::table('mission_cop_brand_proise_aspect_excellences')
-               ->where('id', $excellence_detail_id)
-               ->update([
-                   'excellence_desc' => $excellence_detail_excellence_desc,
-                   'updated_by' => auth()->user()->id
-               ]);
-            } else {
-               $mission_promise_aspect_excellences = new MissionPromiseAspectExcellences;
-               $mission_promise_aspect_excellences->excellence_desc= htmlspecialchars_decode($excellence_detail_desc);
-               $mission_promise_aspect_excellences->updated_by = auth()->user()->id;
-               $mission_promise_aspect_excellences->created_by = auth()->user()->id;
-               $mission_promise_aspect_excellences->save();
-            }
 
-       }
+//     public function excellenceUpdate(Request $request) {
+//         $aspect_1_title = $request->aspect_1_title;
+//         $aspect_1_desc = $request->aspect_1_desc;
+//         $excellence_count = $request-> excellence_count;
+//         $baseurl = URL::to('/') . '/';
+        
+    
+//         $banner = DB::table('mission_cop_brand_promises')
+//             ->update([
+//                 'aspect_1_title' => $aspect_1_title,
+//                 'aspect_1_desc' => $aspect_1_desc,
+//                 'updated_by' => auth()->user()->id
+//         ]);
 
-       return redirect('admin/pagelist/about-aya/mission-corporate');
+//         for ($excellence_detail = 1; $excellence_detail <= $excellence_count; $excellence_detail++) {
+//             $excellence_detail_id = $request->input('excellence_detail_id' . $excellence_detail);
+//             $excellence_detail_desc = htmlentities($request->input('excellence_detail_desc' . $excellence_detail_desc));
+//             $excellence_detail_desc = str_replace("../../../", $baseurl , $excellence_detail_desc);
+//             if($excellence_detail_id !='0') {
+//                $banner = DB::table('mission_cop_brand_proise_aspect_excellences')
+//                ->where('id', $excellence_detail_id)
+//                ->update([
+//                    'excellence_desc' => $excellence_detail_excellence_desc,
+//                    'updated_by' => auth()->user()->id
+//                ]);
+//             } else {
+//                $mission_promise_aspect_excellences = new MissionPromiseAspectExcellences;
+//                $mission_promise_aspect_excellences->excellence_desc= htmlspecialchars_decode($excellence_detail_desc);
+//                $mission_promise_aspect_excellences->updated_by = auth()->user()->id;
+//                $mission_promise_aspect_excellences->created_by = auth()->user()->id;
+//                $mission_promise_aspect_excellences->save();
+//             }
 
-   }
+//        }
+
+//        return redirect('admin/pagelist/about-aya/mission-corporate');
+
+//    }
 
     public function teamUpdate(Request $request) {
         $aspect_2_title = $request->aspect_2_title;

@@ -188,7 +188,8 @@
 	    var APP_URL = {!! json_encode(url('/')) !!};
 
 	    if (search_value == "") {
-	    	location.reload();
+	    	// location.reload();
+	    	window.location=window.location;
 	    } else {
 			$.ajax({
 	            type:'POST',
