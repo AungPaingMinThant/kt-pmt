@@ -184,16 +184,16 @@
 					<div class="row">
 						<div class="col-md-3 planA">
 							<div class="row">
-								<p class="fw-500 mb-0" style="font-size: 16px;">Package A</p>
-								<p class="mb-0 fw-light">300 Million</p>
-								<p class="mb-10">Bearing 8% of Interest Rate</p>
-								<p class="fw-light">(Fixed Deposit at least 1 year)</p>
+								<p class="fw-500 mb-0" style="font-size: 16px;">Royal Signature Banking<br>(Tier 1)</p>
+								<p class="mb-0 fw-light">500 Million (Individual Account)</p>
+								<p class="mb-10">Bearing 9.5% of Interest Rate</p>
+								<p class="fw-light">Fixed Deposit at least One Year</p>
 								<div class="space-20"></div>
 								<div class="col-2 text-right" style="padding-right: 0;">
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Deposit Size- minimum 300 Million for individual account, 500 Million for joint account.</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Deposit Size- minimum 500 Million for individual.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -201,7 +201,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Offer Royal MPU Member Card and Visa Platinum Credit Card.</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Offer Royal MPU members card and Visa Platinum Credit card.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -209,7 +209,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Enjoy our Special Discounts at partnership merchants</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Enjoy our special discount at partnership merchants.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -217,7 +217,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Twice a week meeting room services, and unlimited airport lounge service</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Exclusive banking services.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -225,7 +225,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Exclusive banking services</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Twice a week meeting room service.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -233,7 +233,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Airport Pick Up Service (only available at YGN & NPT), semi-monthly</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Airport pick-up service (only available at YGN).</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -241,7 +241,63 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Membership for F1 Gym or Dagon Golf City</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Airport lounge service for domestic air-travel.</p>
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">International airport lounge service.</p>
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Express Lane service for International air-travel.</p>
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Breakfast at Pan Pacific Hotel and Dinner at Novotel Hotel. (1 time each)</p>
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Spa Package worth MMK 500,000. </p>
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Membership at Dagon Golf City or F1 Gym.</p>
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Hanthawaddy Yunlong VIP Room. (Unlimited)</p>
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Insurance (one beneficiary) which worth MMK 500,000 AIA & MMK 500,000 AYA Sompo.</p>
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Offer fuel coupon MMK 1,000,000 at Max energy for each customer.</p>
 								</div>
 
 								<div class="planA_last_space"></div>
@@ -249,16 +305,16 @@
 						</div>
 						<div class="col-md-3 planB">
 							<div class="row">
-								<p class="fw-500 mb-0" style="font-size: 16px;">Package B</p>
-								<p class="mb-0 fw-light">500 Million</p>
-								<p class="mb-10">Bearing 8.25% of Interest Rate</p>
-								<p class="fw-light">(Fixed Deposit at least 1 year)</p>
+								<p class="fw-500 mb-0" style="font-size: 16px;">Royal Signature Banking<br>(Tier 2)</p>
+								<p class="mb-0 fw-light">1.5 Billion MMK (Individual Account)</p>
+								<p class="mb-10">Bearing 9.5% of Interest Rate</p>
+								<p class="fw-light">Fixed Deposit at least One Year</p>
 								<div class="space-20"></div>
 								<div class="col-2 text-right" style="padding-right: 0;">
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Deposit Size- minimum 300 Million for individual account, 500 Million for joint account.</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Deposit Size- minimum 500 Million for individual.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -266,7 +322,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Offer Royal MPU Member Card and Visa Platinum Credit Card.</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Offer Royal MPU members card and Visa Platinum Credit card.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -274,7 +330,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Enjoy our Special Discounts at partnership merchants</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Enjoy our special discount at partnership merchants.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -282,7 +338,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Twice a week meeting room services, and unlimited airport lounge service</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Exclusive banking services.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -290,7 +346,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Exclusive banking services</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Twice a week meeting room service.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -298,7 +354,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Airport Pick Up Service (only available at YGN & NPT), semi-monthly</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Airport pick-up service (only available at YGN). </p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -306,7 +362,63 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Offer Fuel Coupons 1,000,000 MMK at Max Energy in each customer.</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Airport lounge service for domestic air-travel.</p>
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">International airport lounge service.</p>
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Express Lane service for International air-travel.</p>
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Breakfast at Pan Pacific Hotel and Dinner at Novotel Hotel. (1 time each)</p>
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Spa Package worth MMK 500,000.</p>
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Membership at Dagon Golf City or F1 Gym.</p>
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Hanthawaddy Yunlong VIP Room. (Unlimited)</p>
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Offer fuel coupon MMK 1,000,000 at Max energy for each customer.</p>
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Exclusive welcome gift.</p>
 								</div>
 
 								<div class="planB_last_space"></div>
@@ -314,31 +426,23 @@
 						</div>
 						<div class="col-md-3 planC">
 							<div class="row">
-								<p class="fw-500 mb-0" style="font-size: 16px;">Tier 1</p>
-								<p class="mb-10 fw-light">300 Million (Individual)<br>Bearing 8% of Interest rate</p>
-								<p class="mb-10 fw-light">500 Million (Joint)<br>Bearing 8.25% of Interest rate</p>
-								<p class="fw-light">Fixed Deposit at least One Year</p>
+								<p class="fw-500 mb-0" style="font-size: 16px;">Royal Premier Banking<Br>(Tier 1)</p>
+								<p class="mb-10 fw-light">10 Billion- 38 Billion</p>
+								<!-- <p class="mb-10 fw-light">500 Million (Joint)<br>Bearing 8.25% of Interest rate</p> -->
+								<!-- <p class="fw-light">Fixed Deposit at least One Year</p> -->
 								<div class="space-20"></div>
 								<div class="col-2 text-right" style="padding-right: 0;">
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Deposit Size- minimum 300 Million for Individual Account & 500 Million for Joint Account</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Deposit Size- minimum 10 Billion for Individual or Corporate Account.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 								<div class="col-2 text-right" style="padding-right: 0;">
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Offer Royal MPU members card and Visa Platinum Credit card</p>
-									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
-								</div>
-
-								<div class="col-2 text-right" style="padding-right: 0;">
-									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
-								</div>
-								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Enjoy our special discount at partnership merchants</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Offer Royal MPU members card and Visa Platinum Credit card.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -346,7 +450,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Exclusive banking services</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Enjoy our special discount at partnership merchants.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -354,7 +458,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Twice a week meeting room service</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Exclusive banking services.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -362,7 +466,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Airport pick-up service (only available at YGN), twice per month</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Twice a week meeting room service.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -370,7 +474,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Unlimited airport lounge service for domestic air-travel</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Breakfast at Pan Pacific Hotel and Dinner at Novotel Hotel.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -378,7 +482,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Express Lane service for International air-travel (3 times)</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Spa Package worth MMK 1,000,000.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -386,7 +490,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">International airport lounge service (24 times)</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Membership at Dagon Golf City or F1 Gym.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -394,7 +498,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Spa Package one time (500,000 kyats)</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Insurance (one beneficiary) which worth (MMK 1,250,000) AIA & (MMK 1,250,000) AYA Sompo.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -402,7 +506,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Insurance Coverage</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Local staycation 2 Nights 3 Days.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -410,7 +514,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Membership at F1 Gym or Dagon Golf City</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Airport pick-up service (only available at YGN).</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -418,7 +522,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Hanthawady VIP Room</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Airport lounge service for domestic air-travel. </p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -426,7 +530,31 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Offer fuel coupon 1,000,000 Kyats at Max energy for each customer</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Express Lane service & airport lounge service for International air-travel.</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Oversea Spa package worth MMK 1,000,000. </p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Offer fuel coupon MMK 3,000,000 at Max energy for each customer.</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Exclusive welcome gifts.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -435,31 +563,23 @@
 						</div>
 						<div class="col-md-3 planD">
 							<div class="row">
-								<p class="fw-500 mb-0" style="font-size: 16px;">Tier 2</p>
-								<p class="mb-10 fw-light">500 Million - 10 Billion </p>
-								<p class="mb-10 fw-light">Minimum of Fixed Deposit 500 Million at least six months</p>
-								<p class="fw-light">Bearing 9.5% of Interest Rate</p>
+								<p class="fw-500 mb-0" style="font-size: 16px;">Royal Premier Banking<br>(Tier 2)</p>
+								<p class="mb-10 fw-light">45 Billion and above</p>
+								<!-- <p class="mb-10 fw-light">Minimum of Fixed Deposit 500 Million at least six months</p> -->
+								<!-- <p class="fw-light">Bearing 9.5% of Interest Rate</p> -->
 								<div class="space-20"></div>
 								<div class="col-2 text-right" style="padding-right: 0;">
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Deposit Size- minimum 500 Million for individual</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Deposit Size- minimum 45 Billion for individual or corporate account.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 								<div class="col-2 text-right" style="padding-right: 0;">
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Offer Royal MPU members card and Visa Platinum Credit card</p>
-									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
-								</div>
-
-								<div class="col-2 text-right" style="padding-right: 0;">
-									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
-								</div>
-								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Enjoy our special discount at partnership merchants</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Offer Royal MPU members card and Visa Platinum Credit card.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -467,7 +587,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Exclusive banking services</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Enjoy our special discount at partnership merchants.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -475,7 +595,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Twice a week meeting room service</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Exclusive banking services.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -483,7 +603,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Airport pick-up service (only available at YGN), twice per month</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Twice a week meeting room service.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -491,7 +611,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Unlimited airport lounge service for domestic air-travel</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Breakfast at Pan Pacific Hotel and Dinner at Novotel Hotel.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -499,7 +619,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Express lane service for International air-travel (6 times)</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Spa Package worth 1,000,000 MMK.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -507,7 +627,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">International airport lounge service (24 times)</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Membership at Dagon Golf City or F1 Gym.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -515,7 +635,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Breakfast at Pan Pacific Hotel and Dinner at Novotel Hotel. (6 times per annum)</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Insurance (one beneficiary) which worth (MMK 1,250,000 ) AIA & (MMK 1,250,000) AYA Sompo.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -523,7 +643,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Spa Package one time (500,000 kyats)</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Local staycation 2 Nights 3 Days.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -531,7 +651,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Insurance Coverage</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Airport pick-up service (only available at YGN).</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -539,7 +659,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Membership at F1 Gym or Dagon Golf City</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Airport lounge service for domestic air-travel. </p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -547,7 +667,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Hanthawady VIP Room</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Express Lane service & airport lounge service for International air-travel. </p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -555,7 +675,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Medical check-up one time</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Oversea Spa package worth MMK 3,000,000. </p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -563,7 +683,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Local Staycation 2N3D</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Offer fuel coupon MMK 6,000,000 at Max energy for each customer.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
@@ -571,7 +691,7 @@
 									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
-									<p style="font-size: 11px;margin-bottom: 10px;">Offer fuel coupon 1,500,000 Kyats at Max energy for each customer</p>
+									<p style="font-size: 11px;margin-bottom: 10px;">Exclusive welcome gifts.</p>
 									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
