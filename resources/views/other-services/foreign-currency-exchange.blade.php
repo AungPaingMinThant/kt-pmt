@@ -92,40 +92,15 @@
 						</div>
 					</div>
 					<div class="col-md-12">
-						<div class="row">
+						<div class="row special_purpose_row">
 							<div class="space-40"></div>
-							<p class="mb-30"><span class="theme_text_color fw-semibold" style="font-size: 16px;padding-right: 20px;">Worker Remittance Rate : </span>1 {{ $other_rate->worker_remittance_currency }} = {{ number_format($other_rate->worker_remittance_MMK) }} MMK</p>
+							<p class="mb-30"><span class="theme_text_color fw-semibold" style="font-size: 16px;padding-right: 20px;">Worker Remittance Rate : </span>{{ $worker_remittance->USD }} USD = {{ number_format($worker_remittance->MMK) }} MMK</p>
 
-							<p class="theme_text_color fw-semibold" style="font-size: 16px;">Currency Exchange (Special Purpose)</p>
-							<p>We provide a convenient currency exchange solution for Myanmar citizens intending to travel abroad for education, employment, or medical treatment and require small amount of currency. This service is available at our designated branches' Money Changer Counters.</p>
-							<p class="mb-10">To utilize this service, you'll need to fulfill the following requirements:</p>
-							<ul style="list-style: disc;padding-left: 30px;">
-								<li><p><b>For Employment Purposes:</b> Please ensure you have your Passport of Job (PJ) and Overseas Worker Identification Card (OWIC) as essential documents.</p></li>
-								<li><p><b>For Educational Pursuits:</b> If your intention is to study abroad, have your Passport of Education (PE) ready along with any pertinent documents from your educational institution.</p></li>
-								<li><p><b>For Medical Needs:</b> Individuals seeking medical treatment abroad should provide valid supporting documents that substantiate their requirement for medical attention.</p></li>
-							</ul>
-							<p>Feel free to visit our designated branches to take advantage of this convenient currency exchange service tailored to your specific travel purposes.</p>
-							<p>Designated branches:</p>
+							<p class="theme_text_color fw-semibold" style="font-size: 16px;">
+								{{$page_data->section_title}}
+							</p>
 
-							<ul style="list-style: number;padding-left: 30px;">
-								<li>
-									<p>Yangon (26) Kyauktada Branch<br>No. (416), Maharbandoola Road, Kyauktada Township, Yangon.</p>
-								</li>
-								<li>
-									<p>Yangon (8) Parami Branch<br>No. (105-D), Parami Lan Thit Lan, Ward (10), (7) mile, Mayangone Township, Yangon.</p>
-								</li>
-								<li>
-									<p>Yangon (83) Ahlone Branch (River View Point Condominium)<br>Block No. (3/B), Ward (23) (G-1), Corner of Strand Road and Thit Taw Road, River View Point Condomium, Ahlone Township, Yangon.</p>
-								</li>
-								<li>
-									<p>Mandalay (2) 30th Street Branch<Br>No. (2), Room (C/D 1-4), 30th Street (Between 77th Street & 78 Street), ChanAyeTharZan, Mandalay.</p>
-								</li>
-								<li>
-									<p>NayPyiDaw (1) Thiri Yadanar Branch<br>No. (111-112), Thiri Yadanar Shopping Complex, Dekhina Thiri, NayPyiDaw.</p>
-								</li>
-							</ul>
-
-							<p><a href="{{ url($other_rate->special_purpose) }}" class="theme_text_color text-decoration-underline" target="_blank">Click here to view</a> the amount of daily exchange</p>
+							{!! htmlspecialchars_decode($page_data->section_desc) !!}
 						</div>
 					</div>
 
@@ -145,10 +120,11 @@
 					<div class="space-20"></div>
 
 					<div class="col-md-12 mt-20">
-						<p class="disclaimer_title">Disclaimers</p>
-						<p style="color: #777777;font-size: 12px;">
-							Exchange rates fluctuate at times. Rates on this website are for information purposes only and are subject to change without notice. Always confirm actual currency rates with the Bank before making transactions! The rates in this table are intended for indicative purposes only. AYA Bank shall not be responsible for any loss or damage arising directly or indirectly from the use of or reliance on the information provided here in.<br>
-							[Note: Above rates will be updated every day and more currency can be added]
+						<p class="disclaimer_title">
+							{{ $page_data->disclaimer_title }}
+						</p>
+						<p style="color: #777777;font-size: 12px !important;">
+							{!! htmlspecialchars_decode($page_data->disclaimer_desc) !!}
 						</p>
 					</div>
 				</div>
