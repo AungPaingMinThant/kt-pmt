@@ -201,7 +201,7 @@
         $(".location_loader").removeClass('d-none');
 		
 		if (search_value == "") {
-	    	location.reload();
+	    	window.location=window.location;
 	    } else {
 	        $.ajax({
 	            type:'POST',
