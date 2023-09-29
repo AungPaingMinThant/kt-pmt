@@ -77,9 +77,16 @@
 							<p class="theme_text_color fw-bold" style="font-size: 16px;">{!!$page_data->aspect_1_title!!}&nbsp; <i class="bx bx-pencil page_edit_icon" data-bs-toggle="modal" data-bs-target="#excellance_modal"></i></p>
 							<p>{!!$page_data->aspect_1_desc!!}
 								<ul style="margin-left: 16px;padding-left: 0px;color: #4e4e4e;">
-									<li class="mb-20">Delivering excellence is the continued effort AYA Bank makes to improve our services, products, business deals and communications on a daily basis, both peer-to-peer, company-wide and with customers.</li>
-									<li class="mb-20">Delivering excellence is filling in the gaps between what our customers voice their needs and what we offer.</li>
-									<li>Delivering excellence is to be supportive, responsive and above all, reliable in every performance no matter how big or small</li>
+										@php
+											$excellence_count = 1;
+										@endphp
+										@foreach ($excellence_info as $item_exce)
+											<li class="mb-20" id="excellence_point_{{$excellence_count}}" name="excellence_desc_{{$excellence_count}}" rows="4" spellcheck="false">{{ $item_exce->excellence_desc }}</li>
+											@php
+												$excellence_count = $excellence_count + 1;
+											@endphp
+										@endforeach
+									</li>
 								</ul>
 							</p>
 						</div>
@@ -332,28 +339,29 @@
 							<h4>Section Update</h4>
 							<div class="col-md-12" style="margin-bottom: 10px;">
 								<label for="aspect_1_title" class="col-form-label">Section Title</label>
-								<input type="aspect_1_title" class="form-control" id="page_desc_1" name="aspect_1_title" value="{{$page_data->aspect_1_title}}">
+								<input type="aspect_1_title" class="form-control" id="aspect_1_title" name="aspect_1_title" value="{{$page_data->aspect_1_title}}">
 							</div>
 							<div class="space-20"></div>
 							<div class="col-md-12">
 								<label for="aspect_1_desc" class="col-form-label">Section Information 1</label>
-								<textarea class="form-control" id="page_desc_1" name="aspect_1_desc" rows="10" spellcheck="false" >{{$page_data->aspect_1_desc}}</textarea>
+								<textarea class="form-control" id="aspect_1_desc" name="aspect_1_desc" rows="10" spellcheck="false" >{{$page_data->aspect_1_desc}}</textarea>
 							</div>
 
-							<div class="space-20"></div>
+							<div class="space-20" id="excellence_first_point"></div>
 							@php
 								$excellence_count = 1;
 							@endphp
-								<div class="col-md-12">
+							<div class="col-md-12">
 								@foreach ($excellence_info as $item_exce)
-									<textarea class="form-control exce_info" id="page_desc_1" name="excellence_desc" rows="4" spellcheck="false">{{ $item_exce->excellence_desc }}
+									<label class="col-form-label">Point {{$excellence_count}}</label>
+									<textarea class="form-control exce_info" id="excellence_point_{{$excellence_count}}" name="excellence_desc_{{$excellence_count}}" rows="4" spellcheck="false">{{ $item_exce->excellence_desc }}
 									</textarea>
-									<div class="space-20"></div>
+									<div class="space-20" id="excellence_point_space_{{$excellence_count}}"></div>
 									@php
 										$excellence_count = $excellence_count + 1;
 									@endphp
 								@endforeach
-								<br>
+							</div>
 							<input type="hidden" name="excellence_count" id="excellence_count" value="{{$excellence_count - 1}}">
 							<div class="col-md-12" style="margin-bottom: 10px;">
 								<button type="button" class="btn btn-primary" onclick="ExcellenceDetailAdd()">Add More Excellence</button>
@@ -362,9 +370,9 @@
 						</div>
 					</div>
 				</div>
+				<button type="submit" class="btn btn-primary" style="float: right;">Update</button>
+				<br>
 			</div>
-			<br>
-			<button type="submit" class="btn btn-primary" style="float: right;">Update</button>
 		</div>
 		<div class="modal-footer"></div>
 	</form>
@@ -526,23 +534,24 @@
 							</div>
 							<div class="space-20"></div>
 							@php
-								$sincerities_count = 1;
+								$sincerities_count = 1
 							@endphp
 							<div class="col-md-12">
 								@foreach ($sincerities_info as $item_sin)
-                                <textarea class="form-control" id="page_desc_1" name="sincerities_desc" rows="4" spellcheck="false">{{ $item_sin->sincerities_desc }}
-								</textarea>
-								@php
-									$sincerities_count = $sincerities_count + 1;
-								@endphp
+									<label class="col-form-label">Point {{$sincerities_count}}</label>
+									<textarea class="form-control sin_info" id="sincerities_point_{{$sincerities_count}}" name="sincerities_desc_{{$sincerities_count}}" rows="4" spellcheck="false">{{ $item_sin->sincerities_desc }}</textarea>
+									<div class="space-20" id="sincerities_point_space_{{$sincerities_count}}"></div>
+									@php
+										$sincerities_count = $sincerities_count + 1;
+									@endphp
 								@endforeach
-								<br>
-								<input type="hidden" name="sincerities_count" id="sincerities_count" value="{{$sincerities_count - 1}}">
-								<div class="col-md-12">
-									<button type="button" class="btn btn-primary" onclick="SinceritiesDetailAdd()">Add More Sincerities</button>
-								</div>
 							</div>
-                        </div>
+							<input type="hidden" name="sincerities_count" id="sincerities_count" value="{{$sincerities_count - 1}}">
+							<div class="col-md-12" style="margin-bottom: 10px;">
+								<button type="button" class="btn btn-primary" onclick="SinceritiesDetailAdd()">Add More Sincerities</button>
+								<div class="space-20"></div>
+							</div>
+						</div>
                     </div>
                 </div>
                 <br>
@@ -665,48 +674,60 @@
 
 
 <script type="text/javascript">
-	function ExcellenceDetailAdd(main_excellence) {
-		var excellence_count = $("#"+main_excellence+"_excellence_count").val();
+	function ExcellenceDetailAdd() {
+		var excellence_count = $("#excellence_count").val();
 		var excellence_count_new = parseInt(excellence_count) + 1;
-		var excellence_add_html = '<div class="row '+main_excellence+'_excellence_detail_row_'+excellence_count_new+'">'+
-										'<div class="col-md-12">'+
-											'<textarea class="form-control" name="excellence_detail_excellence_desc'+excellence_count_new+'" rows="3" spellcheck="false" ></textarea>'+
-											'<div class="space-20"></div>'+
-										'<div>'+
-									'</div>';
+		var excellence_add_html = '<label class="col-form-label">Point '+excellence_count_new+'</label>'+
+									'<textarea class="form-control exce_info" id="excellence_point_'+excellence_count_new+'" name="excellence_desc_'+excellence_count_new+'" rows="4" spellcheck="false">'+
+									'</textarea>'+
+									'<div class="space-20" id="excellence_point_space_'+excellence_count_new+'"></div>';
 
-			if (excellence_count_new == 1) {
-				$("."+main_excellence+"_main_excellence_row").after(excellence_add_html);
-				} else {
-					$("."+main_excellence+"_excellence_detail_row_"+excellence_count).after(excellence_add_html);
-						}
+		if (excellence_count_new == 1) {
+			$(".excellence_first_point").after(excellence_add_html);
+		} else {
+			$("#excellence_point_space_"+excellence_count).after(excellence_add_html);
+		}
 
-						$("#"+main_excellence+"_excellence_count").val('excellence_count_new')
+		$("#excellence_count").val(excellence_count_new);
 
-
-						}
+		tinymce.init({
+			selector: 'textarea',
+			height: 600,
+			plugins: 'anchor autolink charmap code emoticons link lists searchreplace table visualblocks wordcount',
+			toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat | code',
+			file_picker_types: 'image',
+			block_unsupported_drop: true
+		});
+	}
 		
-	function SinceritiesDetailAdd(main_sincerities) {
-		var sincerities_count = $("#"+main_sincerities+"_sincerities_count").val();
+	function SinceritiesDetailAdd() {
+		var sincerities_count = $("#sincerities_count").val();
 		var sincerities_count_new = parseInt(sincerities_count) + 1;
-		var sincerities_add_html = '<div class="row '+main_sincerities+'_sincerities_detail_row_'+sincerities_detail_count_new+'">'+
-										'<div class="col-md-12">'+
-											'<textarea class="form-control" id="page_desc_1" name="sincerities_detail_sincerities_desc'+sincerities_count_new+'" rows="4" spellcheck="false"></textarea>'
-											'<div class="space_20"></div>'+
-										'<div>'+
-									'</div>';
+
+		var sincerities_add_html =	'<label class="col-form-label">Point '+sincerities_count_new+'</label>'+
+									'<textarea class="form-control sin_info" id="sincerities_point_'+sincerities_count_new+'" name="sincerities_desc_'+sincerities_count_new+'" rows="4" spellcheck="false">'+
+									'</textarea>'+
+									'<div class="space-20" id="sincerities_point_space_'+sincerities_count_new+'"></div>';
+
 			if (sincerities_count_new == 1) {
-				$("."+main_sincerities+"_main_sincerities_row").after(sincerities_add_html);
+				$(".sincerities_first_point").after(sincerities_add_html);
 				} else {
-					$("."+main_sincerities+"_excellence_detail_row_"+sincerities_count).after(sincerities_add_html);
+					$("#sincerities_point_space_"+sincerities_count).after(sincerities_add_html);
 						}
 
-						$("#"+main_sincerities+"_sincerities_count").val('sincerities_count_new')
+						$("#sincerities_count").val(sincerities_count_new);
+
+						tinymce.init({
+							selector: 'textarea',
+							height: 600,
+							plugins: 'anchor autolink charmap code emoticons link lists searchreplace table visualblocks wordcount',
+							toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat | code',
+							file_picker_types: 'image',
+							block_unsupported_drop: true
+						});
 
 
 						}
-
-	
 
 	tinymce.init({
 		selector: 'textarea#page_desc_1',

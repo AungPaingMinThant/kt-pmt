@@ -32,7 +32,7 @@
 	background: linear-gradient(360deg, #f5f5f7 95%, transparent 5%);
 }
 .brand_promise {
-    background-image: url('{{$page_data->brand_img}}');
+    background-image: url('../../images/about-aya/corporate-profile/mission-promise/our_brand_promise.webp');
     background-size: contain;
     background-position: top right;
     background-repeat: no-repeat;
