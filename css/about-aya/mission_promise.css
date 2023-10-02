@@ -28,6 +28,10 @@
 .sincerity_check {
 	width: 30%;
 }
+
+.col-1 {
+	width: 3.3;
+}
 .ethics_section {
 	background: linear-gradient(360deg, #f5f5f7 95%, transparent 5%);
 }
@@ -47,6 +51,11 @@
 	width: 36% !important;
 }
 .sincerity_check_text {
+	margin-left: -4rem !important;
+}
+.sincerity_check_text > p {
+	margin-top: -25px !important;
+	margin-bottom: 20px !important;
 	margin-left: -4rem !important;
 }
 .cat_card {

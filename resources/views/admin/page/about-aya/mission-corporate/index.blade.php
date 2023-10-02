@@ -81,7 +81,7 @@
 											$excellence_count = 1;
 										@endphp
 										@foreach ($excellence_info as $item_exce)
-											<li class="mb-20" id="excellence_point_{{$excellence_count}}" name="excellence_desc_{{$excellence_count}}" rows="4" spellcheck="false">{{ $item_exce->excellence_desc }}</li>
+											<li class="mb-20" id="excellence_point">{!! htmlspecialchars_decode($item_exce->excellence_desc) !!}</li>
 											@php
 												$excellence_count = $excellence_count + 1;
 											@endphp
@@ -126,41 +126,24 @@
 							<p class="theme_text_color fw-bold" style="font-size: 16px;">{!!$page_data->aspect_6_title!!} &nbsp;<i class="bx bx-pencil page_edit_icon" data-bs-toggle="modal" data-bs-target="#sincerity_modal"></i></p>
 							<p>{!!$page_data->aspect_6_desc!!}</p>
 							<div class="row">
-								
-								
-								<div class="col-1 sincerity_check_icon_col text-right">
-									<img src="{{ url('/images/about-aya/corporate-profile/mission-promise/checked.webp') }}" class="img-fluid sincerity_check">
-								</div>
-								<div class="col-11 sincerity_check_text_col">
-									<p class="sincerity_check_text">We are able to attract more clients</p>
-								</div>
-
-
-
-								<div class="col-1 sincerity_check_icon_col text-right">
-									<img src="{{ url('/images/about-aya/corporate-profile/mission-promise/checked.webp') }}" class="img-fluid sincerity_check">
-								</div>
-								<div class="col-11 sincerity_check_text_col">
-									<p class="sincerity_check_text">Our employees trust us more</p>
-								</div>
-								<div class="col-1 sincerity_check_icon_col text-right">
-									<img src="{{ url('/images/about-aya/corporate-profile/mission-promise/checked.webp') }}" class="img-fluid sincerity_check">
-								</div>
-								<div class="col-11 sincerity_check_text_col">
-									<p class="sincerity_check_text">People want to work for us again and continuously</p>
-								</div>
-								<div class="col-1 sincerity_check_icon_col text-right">
-									<img src="{{ url('/images/about-aya/corporate-profile/mission-promise/checked.webp') }}" class="img-fluid sincerity_check">
-								</div>
-								<div class="col-11 sincerity_check_text_col">
-									<p class="sincerity_check_text">We build stronger relationships with your partners and suppliers</p>
-								</div>
-								<div class="col-1 sincerity_check_icon_col text-right">
-									<img src="{{ url('/images/about-aya/corporate-profile/mission-promise/checked.webp') }}" class="img-fluid sincerity_check">
-								</div>
-								<div class="col-11 sincerity_check_text_col">
-									<p class="sincerity_check_text">We are respected by others who know that sincerity is a core value </p>
-								</div>
+								@php
+									$sincerities_count = 1;
+								@endphp
+								@foreach ($sincerities_info as $item_sin)
+									<div class="row">
+										<div class="col-1 sincerity_check_icon_col text-right" style="width: 8%;">
+										<img src="{{ url('/images/about-aya/corporate-profile/mission-promise/checked.webp') }}" class="img-fluid sincerity_check">
+										</div>
+										<div class="col-8 sincerity_check_text_col">
+										<span class="sincerity_check_text" id="sincerities_point">
+											{!! htmlspecialchars_decode($item_sin->sincerities_desc) !!}
+										</span>
+										</div>
+									</div>
+									@php
+									$sincerities_count = $sincerities_count + 1;
+									@endphp
+								@endforeach
 							</div>
 
 							<div class="space-30"><i class="bx bx-pencil page_edit_icon" data-bs-toggle="modal" data-bs-target="#image_modal"></i></div>
@@ -353,8 +336,9 @@
 							@endphp
 							<div class="col-md-12">
 								@foreach ($excellence_info as $item_exce)
+									<input type="hidden" name="exce_id_{{$excellence_count}}" value="{{$item_exce->id}}">
 									<label class="col-form-label">Point {{$excellence_count}}</label>
-									<textarea class="form-control exce_info" id="excellence_point_{{$excellence_count}}" name="excellence_desc_{{$excellence_count}}" rows="4" spellcheck="false">{{ $item_exce->excellence_desc }}
+									<textarea class="form-control exce_info" id="excellence_point_{{$excellence_count}}" name="excellence_desc_{{$excellence_count}}" rows="4" spellcheck="false">{!! htmlspecialchars_decode($item_exce->excellence_desc) !!}
 									</textarea>
 									<div class="space-20" id="excellence_point_space_{{$excellence_count}}"></div>
 									@php
@@ -538,8 +522,10 @@
 							@endphp
 							<div class="col-md-12">
 								@foreach ($sincerities_info as $item_sin)
+									<input type="hidden" name="sin_id_{{$sincerities_count}}" value="{{$item_sin->id}}">
 									<label class="col-form-label">Point {{$sincerities_count}}</label>
-									<textarea class="form-control sin_info" id="sincerities_point_{{$sincerities_count}}" name="sincerities_desc_{{$sincerities_count}}" rows="4" spellcheck="false">{{ $item_sin->sincerities_desc }}</textarea>
+									<textarea class="form-control sin_info" id="sincerities_point_{{$sincerities_count}}" name="sincerities_desc_{{$sincerities_count}}" rows="4" spellcheck="false">{!! htmlspecialchars_decode($item_sin->sincerities_desc) !!}
+									</textarea>
 									<div class="space-20" id="sincerities_point_space_{{$sincerities_count}}"></div>
 									@php
 										$sincerities_count = $sincerities_count + 1;
@@ -677,7 +663,8 @@
 	function ExcellenceDetailAdd() {
 		var excellence_count = $("#excellence_count").val();
 		var excellence_count_new = parseInt(excellence_count) + 1;
-		var excellence_add_html = '<label class="col-form-label">Point '+excellence_count_new+'</label>'+
+		var excellence_add_html = 	'<input type="hidden" name="exce_id_'+excellence_count_new+'" value="0">'+
+									'<label class="col-form-label">Point '+excellence_count_new+'</label>'+
 									'<textarea class="form-control exce_info" id="excellence_point_'+excellence_count_new+'" name="excellence_desc_'+excellence_count_new+'" rows="4" spellcheck="false">'+
 									'</textarea>'+
 									'<div class="space-20" id="excellence_point_space_'+excellence_count_new+'"></div>';
@@ -704,7 +691,8 @@
 		var sincerities_count = $("#sincerities_count").val();
 		var sincerities_count_new = parseInt(sincerities_count) + 1;
 
-		var sincerities_add_html =	'<label class="col-form-label">Point '+sincerities_count_new+'</label>'+
+		var sincerities_add_html =	'<input type="hidden" name="sin_id_'+sincerities_count_new+'" value="0">'+
+									'<label class="col-form-label">Point '+sincerities_count_new+'</label>'+
 									'<textarea class="form-control sin_info" id="sincerities_point_'+sincerities_count_new+'" name="sincerities_desc_'+sincerities_count_new+'" rows="4" spellcheck="false">'+
 									'</textarea>'+
 									'<div class="space-20" id="sincerities_point_space_'+sincerities_count_new+'"></div>';
