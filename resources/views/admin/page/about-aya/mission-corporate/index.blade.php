@@ -224,7 +224,7 @@
 				<div class="row" style="margin-bottom: 20px;">
 					<div class="col-md-12">
 						<div class="mb-3 row">
-							<h4>Section Update</h4>
+							<h4>Our Mission Section Update</h4>
 							<div class="col-md-12" style="margin-bottom: 10px;">
 								<label for="page_title_1" class="col-form-label">Section Title</label>
 								<input type="text" class="form-control" id="page_desc_1" name="page_title_1" value="{!!$page_data->page_title_1!!}">
@@ -256,7 +256,7 @@
 				<div class="row" style="margin-bottom: 20px;">
 					<div class="col-md-12">
 						<div class="mb-3 row">
-							<h4>Section Update</h4>
+							<h4>Our Corporate Values Section Update</h4>
 							<div class="col-md-12" style="margin-bottom: 10px;">
 								<label for="page_title_2" class="col-form-label">Section Title</label>
 								<input type="text" class="form-control" id="page_title_2" name="page_title_2" value="{{$page_data->page_title_2}}">
@@ -319,7 +319,7 @@
 				<div class="row" style="margin-bottom: 20px;">
 					<div class="col-md-12">
 						<div class="mb-3 row">
-							<h4>Section Update</h4>
+							<h4>Excellence Section Update</h4>
 							<div class="col-md-12" style="margin-bottom: 10px;">
 								<label for="aspect_1_title" class="col-form-label">Section Title</label>
 								<input type="aspect_1_title" class="form-control" id="aspect_1_title" name="aspect_1_title" value="{{$page_data->aspect_1_title}}">
@@ -374,7 +374,7 @@
 				<div class="row" style="margin-bottom: 20px;">
 					<div class="col-md-12">
 						<div class="mb-3 row">
-							<h4>Section Update</h4>
+							<h4>Team Section Update</h4>
 							<div class="col-md-12" style="margin-bottom: 10px;">
 								<label for="aspect_2_title" class="col-form-label">Section Title</label>
 								<input type="aspect_2_title" class="form-control" id="page_desc_1" name="aspect_2_title" value="{{$page_data->aspect_2_title}}">
@@ -406,7 +406,7 @@
 				<div class="row" style="margin-bottom: 20px;">
 					<div class="col-md-12">
 						<div class="mb-3 row">
-							<h4>Section Update</h4>
+							<h4>Honestry Section Update</h4>
 							<div class="col-md-12" style="margin-bottom: 10px;">
 								<label for="aspect_3_title" class="col-form-label">Section Title</label>
 								<input type="aspect_3_title" class="form-control" id="page_desc_1" name="aspect_3_title" value="{{$page_data->aspect_3_title}}">
@@ -438,7 +438,7 @@
 				<div class="row" style="margin-bottom: 20px;">
 					<div class="col-md-12">
 						<div class="mb-3 row">
-							<h4>Section Update</h4>
+							<h4>Integrity Section Update</h4>
 							<div class="col-md-12" style="margin-bottom: 10px;">
 								<label for="aspect_4_title" class="col-form-label">Section Title</label>
 								<input type="aspect_4_title" class="form-control" id="page_desc_1" name="aspect_4_title" value="{{$page_data->aspect_4_title}}">
@@ -470,7 +470,7 @@
 				<div class="row" style="margin-bottom: 20px;">
 					<div class="col-md-12">
 						<div class="mb-3 row">
-							<h4>Section Update</h4>
+							<h4>Care Section Update</h4>
 							<div class="col-md-12" style="margin-bottom: 10px;">
 								<label for="aspect_5_title" class="col-form-label">Section Title</label>
 								<input type="aspect_5_title" class="form-control" id="page_desc_1" name="aspect_5_title" value="{{$page_data->aspect_5_title}}">
@@ -506,7 +506,7 @@
 				<div class="row" style="margin-bottom: 20px;">
 					<div class="col-md-12">
 						<div class="mb-3 row">
-							<h4>Section Update</h4>
+							<h4>Sincerity Section Update</h4>
 							<div class="col-md-12" style="margin-bottom: 10px;">
 								<label for="aspect_6_title" class="col-form-label">Section Title</label>
 								<input type="aspect_6_title" class="form-control" id="page_desc_1" name="aspect_6_title" value="{{$page_data->aspect_6_title}}">
@@ -625,7 +625,7 @@
 				<div class="row" style="margin-bottom: 20px;">
 					<div class="col-md-12">
 						<div class="mb-3 row">
-							<h4>Section Update</h4>
+							<h4>Brand Promise Section Update</h4>
 							<div class="col-md-12" style="margin-bottom: 10px;">
 								<label for="brand_title" class="col-form-label">Section Title</label>
 								<input type="brand_title" class="form-control" id="page_desc_1" name="brand_title" value="{{$page_data->brand_title}}">

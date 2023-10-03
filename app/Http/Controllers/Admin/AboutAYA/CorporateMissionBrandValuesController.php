@@ -250,6 +250,7 @@ class CorporateMissionBrandValuesController extends Controller
         $aspect_cta_3_img_old = $request->aspect_cta_3_img_old;
         $aspect_cta_3_title = $request->aspect_cta_3_title;
         $aspect_cta_3_link = $request->aspect_cta_3_link;
+
         
 
         if ($request->aspect_cta_1_img_old == '') {
@@ -258,25 +259,26 @@ class CorporateMissionBrandValuesController extends Controller
                 $file = $imageBreak->getClientOriginalName();
                 $upload_path = base_path() . '/page_images/about-aya/ayabank-profile/mission-corporate/';
                 $imageBreak->move($upload_path, $file);
-                $aspect_cta_1_img = "page_images/about-aya/ayabank-profile/mission-corporate/" . $file;
+                $aspect_cta_1_path = "page_images/about-aya/ayabank-profile/mission-corporate/" . $file;
             } else {
-                $aspect_cta_1_img = '';
+                $aspect_cta_1_path = '';
             }
         } else {
-            $aspect_cta_1_img = $request->aspect_cta_1_img_old;
+            $aspect_cta_1_path = $request->aspect_cta_1_img_old;
         }
+        
         if ($request->aspect_cta_2_img_old == '') {
             if ($request->hasFile('aspect_cta_2_img')) {
                 $imageBreak = $request->file('aspect_cta_2_img');
                 $file = $imageBreak->getClientOriginalName();
                 $upload_path = base_path() . '/page_images/about-aya/ayabank-profile/mission-corporate/';
                 $imageBreak->move($upload_path, $file);
-                $aspect_cta_2_img = "page_images/about-aya/ayabank-profile/mission-corporate/" . $file;
+                $aspect_cta_2_path = "page_images/about-aya/ayabank-profile/mission-corporate/" . $file;
             } else {
-                $aspect_cta_2_img = '';
+                $aspect_cta_2_path = '';
             }
         } else {
-            $aspect_cta_2_img = $request->aspect_cta_2_img_old;
+            $aspect_cta_2_path = $request->aspect_cta_2_img_old;
         }
         if ($request->aspect_cta_3_img_old == '') {
             if ($request->hasFile('aspect_cta_3_img')) {
@@ -284,24 +286,24 @@ class CorporateMissionBrandValuesController extends Controller
                 $file = $imageBreak->getClientOriginalName();
                 $upload_path = base_path() . '/page_images/about-aya/ayabank-profile/mission-corporate/';
                 $imageBreak->move($upload_path, $file);
-                $aspect_cta_3_img = "page_images/about-aya/ayabank-profile/mission-corporate/" . $file;
+                $aspect_cta_3_path = "page_images/about-aya/ayabank-profile/mission-corporate/" . $file;
             } else {
-                $aspect_cta_3_img = '';
+                $aspect_cta_3_path = '';
             }
         } else {
-            $aspect_cta_3_img = $request->aspect_cta_3_img_old;
+            $aspect_cta_3_path = $request->aspect_cta_3_img_old;
         }
 
         $banner = DB::table('mission_cop_brand_promises')
                     ->update([
                         'aspect_cta_1_title' => $aspect_cta_1_title,
-                        'aspect_cta_1_img' => $aspect_cta_1_img,
+                        'aspect_cta_1_img' => $aspect_cta_1_path,
                         'aspect_cta_1_link' => $aspect_cta_1_link,
                         'aspect_cta_2_title' => $aspect_cta_2_title,
-                        'aspect_cta_2_img' => $aspect_cta_2_img,
+                        'aspect_cta_2_img' => $aspect_cta_2_path,
                         'aspect_cta_2_link' => $aspect_cta_2_link,
                         'aspect_cta_3_title' => $aspect_cta_3_title,
-                        'aspect_cta_3_img' => $aspect_cta_3_img,
+                        'aspect_cta_3_img' => $aspect_cta_3_path,
                         'aspect_cta_3_link' => $aspect_cta_3_link,
                         'updated_by' => auth()->user()->id
                     ]);
@@ -328,7 +330,7 @@ class CorporateMissionBrandValuesController extends Controller
                 $brand_img = $request->brand_img_old;
             }
         $banner = DB::table('mission_cop_brand_promises')
-        // ->where('id', $id)
+        ->where('id', $id)
         ->update([
             'brand_title' => $brand_title,
             'brand_desc_1' => $brand_desc_1,

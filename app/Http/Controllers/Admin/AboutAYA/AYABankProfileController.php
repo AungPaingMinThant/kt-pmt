@@ -201,7 +201,7 @@ class AYABankProfileController extends Controller
         } else {
             $cta_section_1_img = $request->cta_section_1_img_old;
         }
-
+        
         $CTA_1 = DB::table('ayabank_profile_page_configures')
                     ->update([
                         'cta_section_1_title' => $cta_section_1_title,
