@@ -39,7 +39,9 @@
 							@else
 								<li class="nav-item personal-banking-li">
 							@endif
-								<span class="nav-link header-main-menu">Personal Banking</span>
+								<span class="nav-link header-main-menu">
+									<a href="{{ url('/personal-banking') }}">Personal Banking</a>
+								</span>
 								<div class="personal-dropdown-content">
 									<div class="row" style="width: 100%;">
 										<div class="col-md-4 left-menu-div">
@@ -246,7 +248,9 @@
 							@else
 								<li class="nav-item business-banking-li">
 							@endif
-								<span class="nav-link header-main-menu">Business Banking</span>
+								<span class="nav-link header-main-menu">
+									<a href="{{ url('/business-banking') }}">Business Banking</a>
+								</span>
 								<div class="business-dropdown-content">
 									<div class="row" style="width: 100%;">
 										<div class="col-md-4 left-menu-div">
@@ -407,7 +411,9 @@
 							@else
 								<li class="nav-item digital-services-li">
 							@endif
-								<span class="nav-link header-main-menu">Digital Services</span>
+								<span class="nav-link header-main-menu">
+									<a href="{{ url('/digital-services') }}">Digital Services</a>
+								</span>
 								<div class="digital-dropdown-content">
 									<div class="row" style="width: 100%;">
 										<div class="col-md-4 left-menu-div">
@@ -551,7 +557,9 @@
 							@else
 								<li class="nav-item about-aya-li">
 							@endif
-								<span class="nav-link header-main-menu">About AYA</span>
+								<span class="nav-link header-main-menu">
+									<a href="{{ url('/about-aya') }}">About AYA</a>
+								</span>
 								<div class="about-aya-dropdown-content">
 									<div class="row" style="width: 100%;">
 										<div class="col-md-4 left-menu-div">

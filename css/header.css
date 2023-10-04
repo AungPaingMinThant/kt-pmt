@@ -1,7 +1,7 @@
 .header-main-menu {
 	cursor: pointer !important;
 }
-.nav-link:hover {
+.nav-link:hover, .header-main-menu > a:hover {
 	text-decoration: none !important;
 }
 .header-menu > li > a:hover {
