@@ -75,8 +75,7 @@ Route::get('/admin/location/add','App\Http\Controller\Admin\LocationController@l
 
 Route::get('/admin/location/branch-location', [LocationController::class, 'locationBranch']);
 // Route::get('/admin/location/branch-location','App\Http\Controller\Admin\LocationController@locationBranch');
-
-
+Route::post('/admin/location/store','App\Http\Controllers\Admin\BlogController@locationStore');
 // Route::get('/admin/location/amt-location','App\Http\Controller\Admin\LocationController@locationBranch');
 // Route::get('/admin/location/fx-location','App\Http\Controller\Admin\LocationController@locationBranch');
 
