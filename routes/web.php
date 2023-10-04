@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SimplePayController;
-
+use App\Http\Controllers\Admin\LocationController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -70,8 +70,16 @@ Route::post('/admin/mbanking/banner/update','App\Http\Controllers\Admin\AdminMBa
 Route::post('/admin/mbanking/tagline/update','App\Http\Controllers\Admin\AdminMBankingController@mbankingTagline');
 Route::post('/admin/mbanking/fact/update','App\Http\Controllers\Admin\AdminMBankingController@mbankingFact');
 
-Route::get('/admin/location/','App\Http\Controller\Admin\LocationController@location');
+Route::get('/admin/location/','App\Http\Controllers\Admin\LocationController@pageLocation');
 Route::get('/admin/location/add','App\Http\Controller\Admin\LocationController@locationAdd');
+
+Route::get('/admin/location/branch-location', [LocationController::class, 'locationBranch']);
+// Route::get('/admin/location/branch-location','App\Http\Controller\Admin\LocationController@locationBranch');
+
+
+// Route::get('/admin/location/amt-location','App\Http\Controller\Admin\LocationController@locationBranch');
+// Route::get('/admin/location/fx-location','App\Http\Controller\Admin\LocationController@locationBranch');
+
 
 
 
