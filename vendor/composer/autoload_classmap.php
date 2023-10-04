@@ -90,6 +90,7 @@ return array(
     'App\\Models\\AboutAYA\\AyabankProfilePageLeadingCapabilitiesInfo' => $baseDir . '/app/Models/AboutAYA/AyabankProfilePageLeadingCapabilitiesInfo.php',
     'App\\Models\\AboutAYA\\AyabankProfileShareholdingInfo' => $baseDir . '/app/Models/AboutAYA/AyabankProfileShareholdingInfo.php',
     'App\\Models\\AboutAYA\\AyabankProfileShareholdingInfoTable' => $baseDir . '/app/Models/AboutAYA/AyabankProfileShareholdingInfoTable.php',
+    'App\\Models\\AboutAYA\\CorporateGoals' => $baseDir . '/app/Models/AboutAYA/CorporateGoals.php',
     'App\\Models\\AboutAYA\\CorporatePolicies' => $baseDir . '/app/Models/AboutAYA/CorporatePolicies.php',
     'App\\Models\\AboutAYA\\CorporatePoliciesDetail' => $baseDir . '/app/Models/AboutAYA/CorporatePoliciesDetail.php',
     'App\\Models\\AboutAYA\\MissionCopBrandProiseAspectExcellence' => $baseDir . '/app/Models/AboutAYA/MissionCopBrandProiseAspectExcellence.php',

@@ -311,6 +311,7 @@ class CorporateMissionBrandValuesController extends Controller
         return redirect('admin/pagelist/about-aya/mission-corporate');
     }
 
+
     public function brandpromiseUpdate(Request $request) {
         $brand_title = $request->brand_title;
         $brand_desc_1 = $request->brand_desc_1;
@@ -325,9 +326,9 @@ class CorporateMissionBrandValuesController extends Controller
                 $file = $imageBreak->getClientOriginalName();
                 $upload_path = base_path() . '/page_images/about-aya/ayabank-profile/mission-corporate/';
                 $imageBreak->move($upload_path, $file);
-                $brand_img = "page_images/about-aya/ayabank-profile/mission-corporate/" . $file;
+                $brand_img_path = "page_images/about-aya/ayabank-profile/mission-corporate/" . $file;
             } else {
-                $brand_img = $request->brand_img_old;
+                $brand_img_path = $request->brand_img_old;
             }
         $banner = DB::table('mission_cop_brand_promises')
         ->where('id', $id)
@@ -335,7 +336,7 @@ class CorporateMissionBrandValuesController extends Controller
             'brand_title' => $brand_title,
             'brand_desc_1' => $brand_desc_1,
             'brand_desc_2' => $brand_desc_2,
-            'brand_img' => $brand_img,
+            'brand_img' => $brand_img_path,
             'updated_by' => auth()->user()->id
         ]);
     

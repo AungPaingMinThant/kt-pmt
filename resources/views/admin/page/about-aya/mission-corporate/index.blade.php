@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 
-@section('title', 'Mission, Corporate Values, Brand Promise – AYA Bank')
+@section('title', 'Mission, Corporate Values and Brand Promise – AYA Bank')
 
 @section('content')
 <link rel="stylesheet" href="{{ url('/css/about-aya/mission_promise.css') }}">

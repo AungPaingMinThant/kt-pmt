@@ -70,6 +70,12 @@ Route::post('/admin/mbanking/banner/update','App\Http\Controllers\Admin\AdminMBa
 Route::post('/admin/mbanking/tagline/update','App\Http\Controllers\Admin\AdminMBankingController@mbankingTagline');
 Route::post('/admin/mbanking/fact/update','App\Http\Controllers\Admin\AdminMBankingController@mbankingFact');
 
+Route::get('/admin/location/','App\Http\Controller\Admin\LocationController@location');
+Route::get('/admin/location/add','App\Http\Controller\Admin\LocationController@locationAdd');
+
+
+
+
 // Admin Personal
 Route::get('/admin/pagelist/personal-banking','App\Http\Controllers\Admin\PageController@pagePersoanlBankingList');
 Route::get('/admin/pagelist/personal-banking/other-services/foreign-currency-exchange-service',
@@ -119,6 +125,8 @@ Route::post('/admin/mission-corporate/sincerity/update', 'App\Http\Controllers\A
 Route::post('/admin/mission-corporate/mission-corporate-cta/update', 'App\Http\Controllers\Admin\AboutAYA\CorporateMissionBrandValuesController@missioncorporateCTAUpdate');
 Route::post('/admin/mission-corporate/brandpromise/update', 'App\Http\Controllers\Admin\AboutAYA\CorporateMissionBrandValuesController@brandpromiseUpdate');
 
+// corporate goal
+Route::get('/admin/pagelist/about-aya/corporate-goals', 'App\Http\Controllers\Admin\AboutAYA\CorporateGoalsController@pageCorporateGoals');
 
 
 Route::get('/admin/pagelist/about-aya/ayabank-profile/business_practices',

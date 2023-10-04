@@ -106,6 +106,18 @@
                            							</a>
 												</td>
 											</tr>
+											<tr>
+												<td>7</td>
+												<td>Corporate Goals</td>
+												<td></td>
+												<td>
+													<a href="{{ url('/admin/pagelist/about-aya/corporate-goals') }}" target="_blank">
+														<button type="button" class="btn btn-outline-primary">
+                              								<span class="tf-icons bx bx-pencil"></span>&nbsp; 		
+                           								</button>
+                           							</a>
+												</td>
+											</tr>
 
 
 											

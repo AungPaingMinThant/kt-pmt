@@ -74,6 +74,18 @@
 			</a>
 		</li>
 
+		<!--Location-->
+		@if($page == 'location')
+			<li class="menu-item active">
+		@else
+			<li class="menu-item">
+		@endif
+			<a href="{{ url('/admin/location') }}" class="menu-link">
+				<i class="menu-icon tf-icons bx bx-location-plus"></i>
+				<div>Location</div>
+			</a>
+		</li>
+
 		<!-- Report -->
 		<!-- @if($page == 'Report')
 			<li class="menu-item active">

@@ -614,6 +614,7 @@ class ComposerStaticInit41caf1c08171e648daeb11fd1655261d
         'App\\Models\\AboutAYA\\AyabankProfilePageLeadingCapabilitiesInfo' => __DIR__ . '/../..' . '/app/Models/AboutAYA/AyabankProfilePageLeadingCapabilitiesInfo.php',
         'App\\Models\\AboutAYA\\AyabankProfileShareholdingInfo' => __DIR__ . '/../..' . '/app/Models/AboutAYA/AyabankProfileShareholdingInfo.php',
         'App\\Models\\AboutAYA\\AyabankProfileShareholdingInfoTable' => __DIR__ . '/../..' . '/app/Models/AboutAYA/AyabankProfileShareholdingInfoTable.php',
+        'App\\Models\\AboutAYA\\CorporateGoals' => __DIR__ . '/../..' . '/app/Models/AboutAYA/CorporateGoals.php',
         'App\\Models\\AboutAYA\\CorporatePolicies' => __DIR__ . '/../..' . '/app/Models/AboutAYA/CorporatePolicies.php',
         'App\\Models\\AboutAYA\\CorporatePoliciesDetail' => __DIR__ . '/../..' . '/app/Models/AboutAYA/CorporatePoliciesDetail.php',
         'App\\Models\\AboutAYA\\MissionCopBrandProiseAspectExcellence' => __DIR__ . '/../..' . '/app/Models/AboutAYA/MissionCopBrandProiseAspectExcellence.php',

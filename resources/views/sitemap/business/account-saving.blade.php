@@ -10,7 +10,7 @@
             @include('layouts.header', ['page'=>'business_banking'])
             <div class="menu-overlay"></div>
             <div>
-                @include('sitemap.sitemap-header', ['header_title'=>'Account & Saving', 'page'=>'business_banking_ac'])
+                @include('sitemap.sitemap-header', ['header_title'=>'Accounts & Savings', 'page'=>'business_banking_ac'])
 
                 <div class="container y-4">
                     <div class="row">
