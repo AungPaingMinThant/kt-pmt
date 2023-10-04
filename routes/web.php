@@ -110,6 +110,7 @@ Route::get('/admin/pagelist/about-aya/mission-corporate','App\Http\Controllers\A
 Route::post('/admin/mission-corporate/ourmission/update','App\Http\Controllers\Admin\AboutAYA\CorporateMissionBrandValuesController@ourmissionUpdate');
 Route::post('/admin/mission-corporate/corporatevalues/update', 'App\Http\Controllers\Admin\AboutAYA\CorporateMissionBrandValuesController@corporatevaluesUpdate');
 Route::post('/admin/mission-corporate/excellance/update', 'App\Http\Controllers\Admin\AboutAYA\CorporateMissionBrandValuesController@excellanceUpdate');
+Route::post('/admin/mission-corporate/excellance/point-update', 'App\Http\Controllers\Admin\AboutAYA\CorporateMissionBrandValuesController@excellancePointUpdate');
 Route::post('/admin/mission-corporate/team/update', 'App\Http\Controllers\Admin\AboutAYA\CorporateMissionBrandValuesController@teamUpdate');
 Route::post('/admin/mission-corporate/honesty/update', 'App\Http\Controllers\Admin\AboutAYA\CorporateMissionBrandValuesController@honestyUpdate');
 Route::post('/admin/mission-corporate/integrity/update', 'App\Http\Controllers\Admin\AboutAYA\CorporateMissionBrandValuesController@integrityUpdate');

@@ -6,9 +6,10 @@ namespace App\Http\Controllers\Admin\AboutAYA;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\AboutAYA\MissionCopBrandPromise;
-use App\Models\AboutAYA\MissionCopBrandPromiseAspectExcellence;
+use App\Models\AboutAYA\MissionCopBrandProiseAspectExcellence;
 use App\Models\AboutAYA\MissionCopBrandPromiseAspectSincerity;
 use DB;
+use URL;
 class CorporateMissionBrandValuesController extends Controller
 {
     public function __construct()
@@ -95,80 +96,54 @@ class CorporateMissionBrandValuesController extends Controller
                 'aspect_4' => $aspect_4,
                 'aspect_5' => $aspect_5,
                 'aspect_6' => $aspect_6,
-                'updated_by' => auth()->user()->id // Enclose 'updated_by' in single quotes
+                'updated_by' => auth()->user()->id 
             ]);
             
         return redirect('admin/pagelist/about-aya/mission-corporate');
     }
-    
-    // public function excellenceUpdate(Request $request) {
-    //     $aspect_1_title = $request->aspect_1_title;
-    //     $aspect_1_desc = $request->aspect_1_desc;
-    //     $excellence_desc = $request->excellence_desc;
-    //     $banner = DB::table('mission_cop_brand_promises')
-    //         ->update([
-    //             'aspect_1_title' => $aspect_1_title,
-    //             'aspect_1_desc' => $aspect_1_desc,
-    //             'updated_by' => auth()->user()->id
-    //         ]);
-    
-    //     for ($i = 1; $i <= $excellence_desc; $i++) {
-    //         $id = $request->input('id_' . $i);
-    //         $excellence_desc = $request->input('excellence_desc_' . $i);
-    
-    //         $banner = DB::table('mission_cop_brand_proise_aspect_excellences')
-    //             ->where('id', $id)
-    //             ->insert([
-    //                 'excellence_desc' => $excellence_desc,
-    //                 'updated_by' => auth()->user()->id
-    //             ]);
-    //     }
-    
-    //     return redirect('admin/pagelist/about-aya/mission-corporate');
-    // }
 
-    public function excellenceUpdate(Request $request) {
+    public function excellanceUpdate(Request $request) {
         $aspect_1_title = $request->aspect_1_title;
         $aspect_1_desc = $request->aspect_1_desc;
         $excellence_count = $request-> excellence_count;
-        $excellence_desc = $request->excellence_desc;
-        $base_url = URL::to('/').'/';
+        $baseurl = URL::to('/') . '/';
+        
         $banner = DB::table('mission_cop_brand_promises')
-            ->update([
+            ->update ([
                 'aspect_1_title' => $aspect_1_title,
                 'aspect_1_desc' => $aspect_1_desc,
                 'updated_by' => auth()->user()->id
+    
             ]);
+            for ($excellence_detail = 1; $excellence_detail <= $excellence_count; $excellence_detail++) {
+                $excellence_detail_id = $request->input('exce_id_' . $excellence_detail);
+                $excellence_detail_desc = htmlentities($request->input('excellence_desc_' . $excellence_detail));
+                $excellence_detail_desc = str_replace("../../../", $baseurl , $excellence_detail_desc);
+                if($excellence_detail_id !='0') {
+                   $banner = DB::table('mission_cop_brand_proise_aspect_excellences')
+                            ->where('id', $excellence_detail_id)
+                            ->update([
+                                'excellence_desc' => $excellence_detail_desc,
+                                'updated_by' => auth()->user()->id
+                            ]);
+                } else {
+                   $mission_promise_aspect_excellences = new MissionCopBrandProiseAspectExcellence;
+                   $mission_promise_aspect_excellences->excellence_desc= htmlspecialchars_decode($excellence_detail_desc);
+                   $mission_promise_aspect_excellences->updated_by = auth()->user()->id;
+                   $mission_promise_aspect_excellences->created_by = auth()->user()->id;
+                   $mission_promise_aspect_excellences->save();
+                }
     
-        for ($excellence_detail = 1; $excellence_detail <= $excellence_count; $excellence_detail++) {
-            $excellence_detail_id = $request->input('excellence_detail_id' . $excellence_detail);
-            $excellence_detail_excellence_desc = htmlentities($request->input('excellence_detail_excellence_desc' . $excellence_detail));
-            $excellence_detail_excellence_desc = str_replace("../../../", $baseurl , $excellence_detail_excellence_desc);
-            if($excellence_detail_id !='0') {
-                $banner = DB::table('mission_cop_brand_proise_aspect_excellences')
-                ->where('id', $excellence_detail_id)
-                ->update([
-                    'excellence_desc' => $excellence_detail_excellence_desc,
-                    'updated_by' => auth()->user()->id
-                ]);
-            } else {
-                $mission_cop_brand_proise_aspect_excellences = new MissionCopBrandProiseAspectExcellences;
-                $mission_cop_brand_proise_aspect_excellences->excellence_desc= htmlspecialchars_decode($excellence_detail_excellence_desc);
-                $mission_cop_brand_proise_aspect_excellences->updated_by = auth()->user()->id;
-                $mission_cop_brand_proise_aspect_excellences->created_by = auth()->user()->id;
-                $mission_cop_brand_proise_aspect_excellences->save();
-
-            }
-            
-        }
+           }
     
-        return redirect('admin/pagelist/about-aya/mission-corporate');
+    
+            return redirect ('admin/pagelist/about-aya/mission-corporate');
     }
 
-    
     public function teamUpdate(Request $request) {
         $aspect_2_title = $request->aspect_2_title;
         $aspect_2_desc = $request->aspect_2_desc;
+        
 
         $banner = DB::table('mission_cop_brand_promises')
             ->update ([
@@ -222,8 +197,9 @@ class CorporateMissionBrandValuesController extends Controller
     public function sincerityUpdate(Request $request) {
         $aspect_6_title = $request->aspect_6_title;
         $aspect_6_desc = $request->aspect_6_desc;
-        $sincerity_count = $request->sincerity_count;
-        
+        $sincerities_count = $request->sincerities_count;
+       
+
         $sincerities_desc = $request->sincerities_desc; // Fix the variable name
         $base_url = URL::to('/').'/';
     
@@ -234,24 +210,25 @@ class CorporateMissionBrandValuesController extends Controller
                 'updated_by' => auth()->user()->id
             ]);
     
-        for ($sincerities_detail = 1; $sincerities_detail <= $sincerity_count; $sincerities_detail++) {
-            $sincerities_detail_id = $request->input('sincerities_detail_id' . $sincerities_detail);
-            $sincerities_detail_sincerities_desc = htmlentities($request->input('sincerities_detail_sincerities_desc' . $sincerities_detail));
-            $sincerities_detail_sincerities_desc = str_replace("../../../", $base_url, $sincerities_detail_sincerities_desc);
+        for ($sincerities_detail = 1; $sincerities_detail <= $sincerities_count; $sincerities_detail++) {
+            $sincerities_detail_id = $request->input('sin_id_' . $sincerities_detail);
+            $sincerities_detail_desc = htmlentities($request->input('sincerities_desc_' . $sincerities_detail));
+            $sincerities_detail_desc = str_replace("../../../", $base_url, $sincerities_detail_desc);
     
             if ($sincerities_detail_id != '0') {
                 $banner = DB::table('mission_cop_brand_promise_aspect_sincerities')
                     ->where('id', $sincerities_detail_id)
                     ->update([
-                        'sincerities_desc' => $sincerities_detail_sincerities_desc,
+                       
+                        'sincerities_desc' => $sincerities_detail_desc,
                         'updated_by' => auth()->user()->id
                     ]);
             } else {
-                $mission_cop_brand_promise_aspect_sincerities = new MissionCopBrandProiseAspectSincerities;
-                $mission_cop_brand_promise_aspect_sincerities->sincerities_desc = htmlspecialchars_decode($sincerities_detail_sincerities_desc);
-                $mission_cop_brand_promise_aspect_sincerities->updated_by = auth()->user()->id;
-                $mission_cop_brand_promise_aspect_sincerities->created_by = auth()->user()->id;
-                $mission_cop_brand_promise_aspect_sincerities->save();
+                $mission_promise_aspect_sincerities = new MissionCopBrandPromiseAspectSincerity;
+                $mission_promise_aspect_sincerities->sincerities_desc = htmlspecialchars_decode($sincerities_detail_desc);
+                $mission_promise_aspect_sincerities->updated_by = auth()->user()->id;
+                $mission_promise_aspect_sincerities->created_by = auth()->user()->id;
+                $mission_promise_aspect_sincerities->save();
             }
         }
     
@@ -274,56 +251,59 @@ class CorporateMissionBrandValuesController extends Controller
         $aspect_cta_3_title = $request->aspect_cta_3_title;
         $aspect_cta_3_link = $request->aspect_cta_3_link;
 
-        if($request->aspect_cta_1_img_old == '') {
+        
+
+        if ($request->aspect_cta_1_img_old == '') {
             if ($request->hasFile('aspect_cta_1_img')) {
                 $imageBreak = $request->file('aspect_cta_1_img');
                 $file = $imageBreak->getClientOriginalName();
-                $upload_path = base_path() . '/banner_images/about-aya/mission-corporate/';
+                $upload_path = base_path() . '/page_images/about-aya/ayabank-profile/mission-corporate/';
                 $imageBreak->move($upload_path, $file);
-                $aspect_cta_1_img = "/banner_images/about-aya/mission-corporate/" . $file;
+                $aspect_cta_1_path = "page_images/about-aya/ayabank-profile/mission-corporate/" . $file;
             } else {
-                $aspect_cta_1_img = '';
+                $aspect_cta_1_path = '';
             }
         } else {
-            $aspect_cta_1_img = $request->aspect_cta_1_img_old;
+            $aspect_cta_1_path = $request->aspect_cta_1_img_old;
         }
-        if($request->aspect_cta_2_img_old == '') {
+        
+        if ($request->aspect_cta_2_img_old == '') {
             if ($request->hasFile('aspect_cta_2_img')) {
                 $imageBreak = $request->file('aspect_cta_2_img');
                 $file = $imageBreak->getClientOriginalName();
-                $upload_path = base_path() . '/banner_images/about-aya/mission-corporate/';
+                $upload_path = base_path() . '/page_images/about-aya/ayabank-profile/mission-corporate/';
                 $imageBreak->move($upload_path, $file);
-                $aspect_cta_2_img = "/banner_images/about-aya/mission-corporate/" . $file;
+                $aspect_cta_2_path = "page_images/about-aya/ayabank-profile/mission-corporate/" . $file;
             } else {
-                $aspect_cta_2_img = '';
+                $aspect_cta_2_path = '';
             }
         } else {
-            $aspect_cta_2_img = $request->aspect_cta_2_img_old;
+            $aspect_cta_2_path = $request->aspect_cta_2_img_old;
         }
-        if($request->aspect_cta_3_img_old == '') {
+        if ($request->aspect_cta_3_img_old == '') {
             if ($request->hasFile('aspect_cta_3_img')) {
                 $imageBreak = $request->file('aspect_cta_3_img');
                 $file = $imageBreak->getClientOriginalName();
-                $upload_path = base_path() . '/banner_images/about-aya/mission-corporate/';
+                $upload_path = base_path() . '/page_images/about-aya/ayabank-profile/mission-corporate/';
                 $imageBreak->move($upload_path, $file);
-                $aspect_cta_3_img = "/banner_images/about-aya/mission-corporate/" . $file;
+                $aspect_cta_3_path = "page_images/about-aya/ayabank-profile/mission-corporate/" . $file;
             } else {
-                $aspect_cta_3_img = '';
+                $aspect_cta_3_path = '';
             }
         } else {
-            $aspect_cta_3_img = $request->aspect_cta_3_img_old;
+            $aspect_cta_3_path = $request->aspect_cta_3_img_old;
         }
 
         $banner = DB::table('mission_cop_brand_promises')
                     ->update([
                         'aspect_cta_1_title' => $aspect_cta_1_title,
-                        'aspect_cta_1_img' => $aspect_cta_1_img,
+                        'aspect_cta_1_img' => $aspect_cta_1_path,
                         'aspect_cta_1_link' => $aspect_cta_1_link,
                         'aspect_cta_2_title' => $aspect_cta_2_title,
-                        'aspect_cta_2_img' => $aspect_cta_2_img,
+                        'aspect_cta_2_img' => $aspect_cta_2_path,
                         'aspect_cta_2_link' => $aspect_cta_2_link,
                         'aspect_cta_3_title' => $aspect_cta_3_title,
-                        'aspect_cta_3_img' => $aspect_cta_3_img,
+                        'aspect_cta_3_img' => $aspect_cta_3_path,
                         'aspect_cta_3_link' => $aspect_cta_3_link,
                         'updated_by' => auth()->user()->id
                     ]);
@@ -336,22 +316,21 @@ class CorporateMissionBrandValuesController extends Controller
         $brand_desc_1 = $request->brand_desc_1;
         $brand_desc_2 = $request->brand_desc_2;
         $brand_img_old = $request->brand_img_old;
+        $brand_img = $request->brand_img;
+        
         
         if($request->brand_img_old == '') {
             if ($request->hasFile('brand_img')) {
                 $imageBreak = $request->file('brand_img');
                 $file = $imageBreak->getClientOriginalName();
-                $upload_path = base_path() . '/banner_images/about-aya/mission-corporate/';
+                $upload_path = base_path() . '/page_images/about-aya/ayabank-profile/mission-corporate/';
                 $imageBreak->move($upload_path, $file);
-                $brand_img = "/banner_images/about-aya/mission-corporate/" . $file;
+                $brand_img = "page_images/about-aya/ayabank-profile/mission-corporate/" . $file;
             } else {
-                $brand_img = '';
+                $brand_img = $request->brand_img_old;
             }
-        } else {
-            $brand_img = $request->brand_img_old;
-        }
         $banner = DB::table('mission_cop_brand_promises')
-        ->where('id', $banner_id)
+        ->where('id', $id)
         ->update([
             'brand_title' => $brand_title,
             'brand_desc_1' => $brand_desc_1,
@@ -364,9 +343,6 @@ class CorporateMissionBrandValuesController extends Controller
 
         return redirect('admin/pagelist/about-aya/mission-corporate');
     
-    }
-
-
-
+    } }
 }
 
