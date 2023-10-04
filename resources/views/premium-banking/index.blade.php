@@ -242,6 +242,7 @@
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
 									<p style="font-size: 11px;margin-bottom: 10px;">Airport lounge service for domestic air-travel.</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
 								<div class="col-2 text-right" style="padding-right: 0;">
@@ -249,6 +250,7 @@
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
 									<p style="font-size: 11px;margin-bottom: 10px;">International airport lounge service.</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
 								<div class="col-2 text-right" style="padding-right: 0;">
@@ -256,6 +258,7 @@
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
 									<p style="font-size: 11px;margin-bottom: 10px;">Express Lane service for International air-travel.</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
 								<div class="col-2 text-right" style="padding-right: 0;">
@@ -263,6 +266,7 @@
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
 									<p style="font-size: 11px;margin-bottom: 10px;">Breakfast at Pan Pacific Hotel and Dinner at Novotel Hotel. (1 time each)</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
 								<div class="col-2 text-right" style="padding-right: 0;">
@@ -270,6 +274,7 @@
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
 									<p style="font-size: 11px;margin-bottom: 10px;">Spa Package worth MMK 500,000. </p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
 								<div class="col-2 text-right" style="padding-right: 0;">
@@ -277,6 +282,7 @@
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
 									<p style="font-size: 11px;margin-bottom: 10px;">Membership at Dagon Golf City or F1 Gym.</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
 								<div class="col-2 text-right" style="padding-right: 0;">
@@ -284,6 +290,7 @@
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
 									<p style="font-size: 11px;margin-bottom: 10px;">Hanthawaddy Yunlong VIP Room. (Unlimited)</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
 								<div class="col-2 text-right" style="padding-right: 0;">
@@ -291,6 +298,7 @@
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
 									<p style="font-size: 11px;margin-bottom: 10px;">Insurance (one beneficiary) which worth MMK 500,000 AIA & MMK 500,000 AYA Sompo.</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
 								<div class="col-2 text-right" style="padding-right: 0;">
@@ -298,6 +306,7 @@
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
 									<p style="font-size: 11px;margin-bottom: 10px;">Offer fuel coupon MMK 1,000,000 at Max energy for each customer.</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
 								<div class="planA_last_space"></div>
@@ -363,6 +372,7 @@
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
 									<p style="font-size: 11px;margin-bottom: 10px;">Airport lounge service for domestic air-travel.</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
 								<div class="col-2 text-right" style="padding-right: 0;">
@@ -370,6 +380,7 @@
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
 									<p style="font-size: 11px;margin-bottom: 10px;">International airport lounge service.</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
 								<div class="col-2 text-right" style="padding-right: 0;">
@@ -377,6 +388,7 @@
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
 									<p style="font-size: 11px;margin-bottom: 10px;">Express Lane service for International air-travel.</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
 								<div class="col-2 text-right" style="padding-right: 0;">
@@ -384,6 +396,7 @@
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
 									<p style="font-size: 11px;margin-bottom: 10px;">Breakfast at Pan Pacific Hotel and Dinner at Novotel Hotel. (1 time each)</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
 								<div class="col-2 text-right" style="padding-right: 0;">
@@ -391,6 +404,7 @@
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
 									<p style="font-size: 11px;margin-bottom: 10px;">Spa Package worth MMK 500,000.</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
 								<div class="col-2 text-right" style="padding-right: 0;">
@@ -398,6 +412,7 @@
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
 									<p style="font-size: 11px;margin-bottom: 10px;">Membership at Dagon Golf City or F1 Gym.</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
 								<div class="col-2 text-right" style="padding-right: 0;">
@@ -405,6 +420,15 @@
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
 									<p style="font-size: 11px;margin-bottom: 10px;">Hanthawaddy Yunlong VIP Room. (Unlimited)</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
+								</div>
+
+								<div class="col-2 text-right" style="padding-right: 0;">
+									<img src="{{ url('/images/premium-banking/bullet.png') }}" class="img-fluid" style="width: 80%">
+								</div>
+								<div class="col-10" style="padding-left: 10px;">
+									<p style="font-size: 11px;margin-bottom: 10px;">Insurance (one beneficiary) which worth MMK 500,000 AIA & MMK 500,000 AYA Sompo.</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
 								<div class="col-2 text-right" style="padding-right: 0;">
@@ -412,6 +436,7 @@
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
 									<p style="font-size: 11px;margin-bottom: 10px;">Offer fuel coupon MMK 1,000,000 at Max energy for each customer.</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
 								<div class="col-2 text-right" style="padding-right: 0;">
@@ -419,6 +444,7 @@
 								</div>
 								<div class="col-10" style="padding-left: 10px;">
 									<p style="font-size: 11px;margin-bottom: 10px;">Exclusive welcome gift.</p>
+									<hr style="color: #ccc;margin: 10px 0;opacity: 0.5;">
 								</div>
 
 								<div class="planB_last_space"></div>

@@ -934,7 +934,7 @@
 							<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
 								<div class="accordion-body">
 									<p>
-										You need to have regular monthly income of One hundred and fifty thousand Kyats to apply for Silver Card,  Five hundred thousandsKyats to apply for Gold Card, and Two million Kyats for Platinum Card.
+										You need to have regular monthly income of Two hundred and fifty thousand Kyats to apply for Silver Card,  Five hundred thousandsKyats to apply for Gold Card, and Two million Kyats for Platinum Card.
 									</p>
 								</div>
 							</div>
