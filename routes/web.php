@@ -74,10 +74,16 @@ Route::get('/admin/location/','App\Http\Controllers\Admin\LocationController@pag
 Route::get('/admin/location/add','App\Http\Controller\Admin\LocationController@locationAdd');
 
 Route::get('/admin/location/branch-location', [LocationController::class, 'locationBranch']);
-// Route::get('/admin/location/branch-location','App\Http\Controller\Admin\LocationController@locationBranch');
-Route::post('/admin/location/store','App\Http\Controllers\Admin\BlogController@locationStore');
-// Route::get('/admin/location/amt-location','App\Http\Controller\Admin\LocationController@locationBranch');
-// Route::get('/admin/location/fx-location','App\Http\Controller\Admin\LocationController@locationBranch');
+Route::get('/admin/location/branchadd', [LocationController::class, 'branchAdd']);
+Route::post('/admin/location/branch-location/delete', [LocationController::class, 'branchDelete']);
+Route::get('/admin/location/branch-location/edit', [LocationController::class, 'branchEdit']);
+Route::post('/admin/location/branch-location/update', [LocationController::class, 'branchUpdate']);
+
+Route::get('/admin/location/atm-location', [LocationController::class, 'locationAtm']);
+Route::get('/admin/location/atmadd', [LocationController::class, 'atmAdd']);
+Route::get('/admin/location/fx-location', [LocationController::class, 'locationFx']);
+Route::get('/admin/location/fxadd', [LocationController::class, 'fxAdd']);
+
 
 
 

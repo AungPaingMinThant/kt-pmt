@@ -72,7 +72,7 @@
                                         <td>FX Counter Locations</td>
                                         <td></td>
                                         <td>
-                                            <a href="{{ url('admin/location/fx-counter-location')}}">
+                                            <a href="{{ url('admin/location/fx-location')}}">
                                                 <button type="button" class="btn btn-outline-primary">
                                                     <span class="tf-icons bx bx-right-arrow-alt"></span>&nbsp;
                                                 </button>

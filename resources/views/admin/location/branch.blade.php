@@ -7,6 +7,7 @@
 	}
 </style>
 @section('content')
+
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
 		@include('layouts.admin_sidebar', ['page'=>'Location'])
@@ -20,7 +21,7 @@
 					<div class="row">
 					    @if(auth()->user()->name != 'AYA Bank Admin')
     						<div class="col-12 text-right">
-    							<a href="{{ url('/admin/location/add') }}">
+    							<a href="{{ url('/admin/location/branchadd') }}">
     								<button type="button" class="btn  btn-outline-primary flr">Add</button>
     							</a>
     						</div>
@@ -40,15 +41,75 @@
 												<th>Action</th>
 											</tr>
 										</thead>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+										<tbody class="table-border-bottom-0">
+											@php $branch_count=1; @endphp
+											@foreach($branch_data as $bh)
+												<tr>
+													<td>{{ $branch_count }}</td>
+													<td>{{ $bh->region }}</td>
+													<td>{{ $bh->name }}</td>
+													<td>{{ $bh->address }}</td>
+													<td>{{ $bh->telephone }}</td>
+													<td>{{ $bh->fax }}</td>
+													<td>
+														<a href="{{ url('/admin/location/branch-location/edit'. $bh->id)}}">
+															<button type="button" class="btn btn-outline-primary">
+																<span class="tf-icons bx bx-pencil"></span>&nbsp;
+															</button>
+															<button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#backDropModal_{{$bh->id}}">
+																<span class="tf-icons bx bx-trash"></span>&nbsp; 		
+															 </button>
+														</a>
+														<div class="modal fade" id="backDropModal_{{$bh->id}}" data-bs-backdrop="static" tabindex="-1">
+															<div class="modal-dialog modal-dialog-centered">
+																<form class="modal-content" action="{{ url('/admin/location/branch-location/delete') }}" method="post">
+																	{{ csrf_field() }}
+																	<div class="modal-header">					
+																		<button
+																		type="button"
+																		class="btn-close"
+																		data-bs-dismiss="modal"
+																		aria-label="Close"
+																		></button>
+																	</div>
+																	<div class="modal-body">
+																		<div class="row">
+																			<h5 class="modal-title" id="backDropModalTitle">Are you sure want to delete this blog?</h5>
+																			<div class="col mb-3">
+																				<input
+																				type="hidden"
+																				name="cat_id"
+																				class="form-control"
+																				value="{{$bh->id}}"
+																				/>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="modal-footer">
+																		<button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">
+																		Close
+																		</button>
+																		<button type="submit" class="btn btn-primary">Delete</button>
+																	</div>
+																</form>
+															</div>
+														</div>
+													</td>
+												</tr>
+											@php
+												$branch_count = $branch_count+1;
+											@endphp
+											@endforeach
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 @endsection('content')
