@@ -38,17 +38,44 @@
     		</li>
     	@endif
 
-    	<!-- Media -->
-		@if($page == 'Media')
-			<li class="menu-item active">
-		@else
-			<li class="menu-item">
+    	
+    	@if(auth()->user()->name != 'AYA Bank Admin')
+    		<!-- Media -->
+			@if($page == 'Media')
+				<li class="menu-item active">
+			@else
+				<li class="menu-item">
+			@endif
+				<a href="{{ url('/admin/media') }}" class="menu-link">
+					<i class="menu-icon tf-icons bx bx-cube-alt"></i>
+					<div>Media</div>
+				</a>
+			</li>
+
+			<!-- Page -->
+			@if($page == 'Page')
+				<li class="menu-item active">
+			@else
+				<li class="menu-item">
+			@endif
+				<a href="{{ url('/admin/pagelist') }}" class="menu-link">
+					<i class="menu-icon tf-icons bx bx-list-ul"></i>
+					<div>Page</div>
+				</a>
+			</li>
+
+			<!--Location-->
+			@if($page == 'Location')
+				<li class="menu-item active">
+			@else
+				<li class="menu-item">
+			@endif
+				<a href="{{ url('/admin/location') }}" class="menu-link">
+					<i class="menu-icon tf-icons bx bx-location-plus"></i>
+					<div>Locations</div>
+				</a>
+			</li>
 		@endif
-			<a href="{{ url('/admin/media') }}" class="menu-link">
-				<i class="menu-icon tf-icons bx bx-cube-alt"></i>
-				<div>Media</div>
-			</a>
-		</li>
 
 		<!-- Blog -->
 		@if($page == 'Blog')
@@ -61,42 +88,6 @@
 				<div>News Room</div>
 			</a>
 		</li>
-
-		<!-- Page -->
-		@if($page == 'Page')
-			<li class="menu-item active">
-		@else
-			<li class="menu-item">
-		@endif
-			<a href="{{ url('/admin/pagelist') }}" class="menu-link">
-				<i class="menu-icon tf-icons bx bx-list-ul"></i>
-				<div>Page</div>
-			</a>
-		</li>
-
-		<!--Location-->
-		@if($page == 'Location')
-			<li class="menu-item active">
-		@else
-			<li class="menu-item">
-		@endif
-			<a href="{{ url('/admin/location') }}" class="menu-link">
-				<i class="menu-icon tf-icons bx bx-location-plus"></i>
-				<div>Locations</div>
-			</a>
-		</li>
-
-		<!-- Report -->
-		<!-- @if($page == 'Report')
-			<li class="menu-item active">
-		@else
-			<li class="menu-item">
-		@endif
-			<a href="{{ url('/admin/report') }}" class="menu-link">
-				<i class="menu-icon tf-icons bx bx-file-blank"></i>
-				<div>Report</div>
-			</a>
-		</li> -->
 
 		<!-- Exchange -->
 		@if($page == 'Exchange')
@@ -122,17 +113,19 @@
 			</ul>
 		</li>
 
-		<!-- FAQ -->
-		@if($page == 'FAQ')
-			<li class="menu-item active">
-		@else
-			<li class="menu-item">
+		@if(auth()->user()->name != 'AYA Bank Admin')
+			<!-- FAQ -->
+			@if($page == 'FAQ')
+				<li class="menu-item active">
+			@else
+				<li class="menu-item">
+			@endif
+				<a href="{{ url('/admin/faq/list') }}" class="menu-link">
+					<i class="menu-icon tf-icons bx bx-bulb"></i>
+					<div>FAQs</div>
+				</a>
+			</li>
 		@endif
-			<a href="{{ url('/admin/faq/list') }}" class="menu-link">
-				<i class="menu-icon tf-icons bx bx-bulb"></i>
-				<div>FAQs</div>
-			</a>
-		</li>
 
 		<!-- Layouts -->
 		<!-- <li class="menu-item">
