@@ -26,7 +26,6 @@ class BlogController extends Controller
         return view('admin.blog.list')->with('categories',$categories)
                                         ->with('blog_list',$blog_list);
     }
-
     public function blogAdd($value='')
     {
         $categories = Category::get();

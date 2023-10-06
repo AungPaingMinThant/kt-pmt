@@ -43,16 +43,16 @@
 										</thead>
 										<tbody class="table-border-bottom-0">
 											@php $branch_count=1; @endphp
-											@foreach($branch_data as $bh)
+											@foreach($branch_list as $bh)
 												<tr>
 													<td>{{ $branch_count }}</td>
 													<td>{{ $bh->region }}</td>
 													<td>{{ $bh->name }}</td>
-													<td>{{ $bh->address }}</td>
+													<td>{{ $bh->list_address }}</td>
 													<td>{{ $bh->telephone }}</td>
 													<td>{{ $bh->fax }}</td>
 													<td>
-														<a href="{{ url('/admin/location/branch-location/edit'. $bh->id)}}">
+														<a href="{{ url('/admin/location/branch-location/edit/'. $bh->id)}}">
 															<button type="button" class="btn btn-outline-primary">
 																<span class="tf-icons bx bx-pencil"></span>&nbsp;
 															</button>
@@ -74,11 +74,11 @@
 																	</div>
 																	<div class="modal-body">
 																		<div class="row">
-																			<h5 class="modal-title" id="backDropModalTitle">Are you sure want to delete this blog?</h5>
+																			<h5 class="modal-title" id="backDropModalTitle">Are you sure want to delete this location?</h5>
 																			<div class="col mb-3">
 																				<input
 																				type="hidden"
-																				name="cat_id"
+																				name="branch_id"
 																				class="form-control"
 																				value="{{$bh->id}}"
 																				/>

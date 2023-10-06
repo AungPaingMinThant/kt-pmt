@@ -7,7 +7,7 @@
     <link rel="apple-touch-icon" href="{{ url('/images/ayaicon.png') }}" sizes="180x180" />
     <meta name="msapplication-TileImage" content="{{ url('/images/ayaicon.png') }}" sizes="270x270" />
 
-	<title>Edit Branch Location – AYA Bank</title>
+	<title>Edit ATM Location – AYA Bank</title>
 
     <link rel="stylesheet" href="{{ url('/fonts/boxicons.css') }}" />
 
@@ -36,7 +36,7 @@
 			@include('layouts.admin_sidebar', ['page'=>'Location'])
 
 			<div class="layout-page">
-				@include('layouts.nav', ['nav'=>'Edit Branch Location', 'page'=>'Location'])
+				@include('layouts.nav', ['nav'=>'Edit ATM Location', 'page'=>'Location'])
 
 				<div class="content-wrapper">
 					<div class="container-xxl flex-grow-1 container-p-y">
@@ -44,31 +44,26 @@
 							<div class="col-xl">
 								<div class="card mb-4">
 									<div class="card-body">
-										<form class="mb-3" action="{{ url('/admin/location/branch-location/update') }}" method="POST" id="branch_form" enctype="multipart/form-data" >
+										<form class="mb-3" action="{{ url('/admin/location/atm-location/update') }}" method="POST" id="fx_form" enctype="multipart/form-data" >
 											{{ csrf_field() }}
-											<a href="{{ url('/admin/location/branch-location') }}" style="cursor: pointer;"><label class="form-label" style="cursor: pointer;"><i class="menu-icon tf-icons bx bx-chevrons-left"></i> Back to list</label></a>
-											<input type="hidden" name="branch_id" value="{{$branch_data->id}}">
+											<a href="{{ url('/admin/location/atm-location') }}" style="cursor: pointer;"><label class="form-label" style="cursor: pointer;"><i class="menu-icon tf-icons bx bx-chevrons-left"></i> Back to list</label></a>
+											<input type="hidden" name="branch_id" value="{{$atm_data->id}}">
                                             <div class="mb-3">
 												<label class="form-label" for="region">Region</label>
-												<input type="text" class="form-control" name="region" id="region" value="{!! $branch_data->region !!}">
+												<input type="text" class="form-control" name="region" id="region" value="{!! $atm_data->region !!}">
 											</div>
                                             <div class="mb-3">
-												<label class="form-label" for="branch_name">Branch Name</label>
-												<input type="text" class="form-control" name="branch_name" id="branch_name" value="{!! $branch_data->name!!}">
+												<label class="form-label" for="township">Township</label>
+												<input type="text" class="form-control" name="township" id="township" value="{!! $atm_data->township!!}">
 											</div>
-                                            <div class="mb-3">
-												<label class="form-label" for="address">Address</label>
-												<input type="text" class="form-control" name="address" id="address" value="{!! $branch_data->list_address!!}">
-											</div>
-                                            <div class="mb-3">
-												<label class="form-label" for="contact">Contact No</label>
-												<input type="text" class="form-control" name="contact" id="contact" value="{!! $branch_data->telephone!!}">
-											</div>
-                                            <div class="mb-3">
-												<label class="form-label" for="fax">Fax No</label>
-												<input type="text" class="form-control" name="fax" id="fax" value="{!! $branch_data->fax!!}">
-											</div>
-			
+											<div class="mb-3">
+												<label class="form-label" for="location">Location/Branch</label>
+												<input type="text" class="form-control" name="location" id="location" value="{!! $atm_data->name!!}">
+											</div>	
+											<div class="mb-3">
+												<label class="form-label" for="location">Address</label>
+												<input type="text" class="form-control" name="address" id="address" value="{!! $atm_data->address!!}">
+											</div>	
 											<button type="submit" class="btn btn-primary" id="submit_btn">Update</button>
 										</form>
 									</div>
@@ -99,9 +94,6 @@
 	        file_picker_types: 'image',
 	        block_unsupported_drop: true
 	    });
-
-		
-
 	</script>
 </body>
 </html>
