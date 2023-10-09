@@ -36,7 +36,7 @@
 												<th>Region</th>
 												<th>Branch Name</th>
 												<th>Address</th>
-												<th style="width: 150px;">Contact No</th>
+												<th>Contact No</th>
                                                 <th>Fax No</th>
 												<th>Action</th>
 											</tr>
@@ -49,8 +49,12 @@
 													<td>{{ $branch->region }}</td>
 													<td>{{ $branch->name }}</td>
 													<td>{{ $branch->list_address }}</td>
-													<td>{{ $branch->telephone }}</td>
-													<td>{{ $branch->fax }}</td>
+													<td>
+														{{ str_replace(",",", ",$branch->telephone) }}
+													</td>
+													<td>
+														{{ str_replace(",",", ",$branch->fax) }}
+													</td>
 													<td>
 														<a href="{{ url('/admin/location/branch-location/edit/'. $branch->id)}}">
 															<button type="button" class="btn btn-outline-primary">
@@ -62,7 +66,7 @@
 														</a>
 														<div class="modal fade" id="backDropModal_{{$branch->id}}" data-bs-backdrop="static" tabindex="-1">
 															<div class="modal-dialog modal-dialog-centered">
-																<form class="modal-content" action="{{ url('/admin/location/branch-location/delete') }}" method="post">
+																<form class="modal-content" action="{{ url('/admin/location/branch-location') }}" method="post">
 																	{{ csrf_field() }}
 																	<div class="modal-header">					
 																		<button type="button"

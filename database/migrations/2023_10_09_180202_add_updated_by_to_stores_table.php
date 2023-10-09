@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddUpdatedByToStores extends Migration
+class AddUpdatedByToStoresTable extends Migration
 {
     /**
      * Run the migrations.
@@ -14,8 +14,9 @@ class AddUpdatedByToStores extends Migration
     public function up()
     {
         Schema::table('stores', function (Blueprint $table) {
-           $table->interger('updated_by');
-           $table->timestamp('updated_at')->useCurrent()->useCurrent()->useCurrentOnUpdate();
+            $table->integer('updated_by');
+            $table->timestamp('updated_at')->useCurrent()->useCurrent()->useCurrentOnUpdate();
+ 
         });
     }
 
@@ -27,7 +28,7 @@ class AddUpdatedByToStores extends Migration
     public function down()
     {
         Schema::table('stores', function (Blueprint $table) {
-            
+            $table->dropColumn('updated_by');
         });
     }
 }
