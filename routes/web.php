@@ -76,13 +76,21 @@ Route::get('/admin/location/add','App\Http\Controller\Admin\LocationController@l
 Route::get('/admin/location/branch-location', [LocationController::class, 'locationBranch']);
 Route::get('/admin/location/branchadd', [LocationController::class, 'branchAdd']);
 Route::post('/admin/location/branch-location/delete', [LocationController::class, 'branchDelete']);
-Route::get('/admin/location/branch-location/edit', [LocationController::class, 'branchEdit']);
+Route::get('/admin/location/branch-location/edit/{branch_id}', [LocationController::class, 'branchEdit']);
 Route::post('/admin/location/branch-location/update', [LocationController::class, 'branchUpdate']);
 
 Route::get('/admin/location/atm-location', [LocationController::class, 'locationAtm']);
 Route::get('/admin/location/atmadd', [LocationController::class, 'atmAdd']);
+Route::post('/admin/location/atm-location/delete', [LocationController::class, 'atmDelete']);
+Route::get('/admin/location/atm-location/edit/{atm_id}', [LocationController::class, 'atmEdit']);
+Route::post('/admin/location/atm-location/update', [LocationController::class, 'atmUpdate']);
+
 Route::get('/admin/location/fx-location', [LocationController::class, 'locationFx']);
 Route::get('/admin/location/fxadd', [LocationController::class, 'fxAdd']);
+Route::post('/admin/location/fax-location/delete', [LocationController::class, 'faxDelete']);
+Route::get('/admin/location/fx-location/edit/{fx_id}', [LocationController::class, 'fxEdit']);
+Route::post('/admin/location/fx-location/update', [LocationController::class, 'faxUpdate']);
+
 
 
 

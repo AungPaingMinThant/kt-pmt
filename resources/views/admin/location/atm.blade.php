@@ -41,14 +41,15 @@
 										</thead>
 										<tbody class="table-border-bottom-0">
 											@php $atm_count=1; @endphp
-											@foreach($atm_data as $atm)
+											@foreach($atm_list as $atm)
 												<tr>
 													<td>{{ $atm_count }}</td>
+													<td>{{ $atm->region }}</td>
 													<td>{{ $atm->township }}</td>
 													<td>{{ $atm->name }}</td>
-													<td>{{ $atm->address }}</td>
+													<td>{{ $atm->list_address }}</td>
 													<td>
-														<a href="{{ url('/admin/location/atm-location/edit'. $atm->id)}}">
+														<a href="{{ url('/admin/location/atm-location/edit/'. $atm->id)}}">
 															<button type="button" class="btn btn-outline-primary">
 																<span class="tf-icons bx bx-pencil"></span>&nbsp;
 															</button>
@@ -70,11 +71,11 @@
 																	</div>
 																	<div class="modal-body">
 																		<div class="row">
-																			<h5 class="modal-title" id="backDropModalTitle">Are you sure want to delete this blog?</h5>
+																			<h5 class="modal-title" id="backDropModalTitle">Are you sure want to delete this ATM Location?</h5>
 																			<div class="col mb-3">
 																				<input
 																				type="hidden"
-																				name="cat_id"
+																				name="atm_id"
 																				class="form-control"
 																				value="{{$atm->id}}"
 																				/>

@@ -36,37 +36,36 @@
 												<th>Region</th>
 												<th>Branch Name</th>
 												<th>Address</th>
-												<th>Contact No</th>
+												<th style="width: 150px;">Contact No</th>
                                                 <th>Fax No</th>
 												<th>Action</th>
 											</tr>
 										</thead>
 										<tbody class="table-border-bottom-0">
 											@php $branch_count=1; @endphp
-											@foreach($branch_data as $bh)
+											@foreach($branch_list as $branch)
 												<tr>
 													<td>{{ $branch_count }}</td>
-													<td>{{ $bh->region }}</td>
-													<td>{{ $bh->name }}</td>
-													<td>{{ $bh->address }}</td>
-													<td>{{ $bh->telephone }}</td>
-													<td>{{ $bh->fax }}</td>
+													<td>{{ $branch->region }}</td>
+													<td>{{ $branch->name }}</td>
+													<td>{{ $branch->list_address }}</td>
+													<td>{{ $branch->telephone }}</td>
+													<td>{{ $branch->fax }}</td>
 													<td>
-														<a href="{{ url('/admin/location/branch-location/edit'. $bh->id)}}">
+														<a href="{{ url('/admin/location/branch-location/edit/'. $branch->id)}}">
 															<button type="button" class="btn btn-outline-primary">
 																<span class="tf-icons bx bx-pencil"></span>&nbsp;
 															</button>
-															<button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#backDropModal_{{$bh->id}}">
+															<button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#backDropModal_{{$branch->id}}">
 																<span class="tf-icons bx bx-trash"></span>&nbsp; 		
 															 </button>
 														</a>
-														<div class="modal fade" id="backDropModal_{{$bh->id}}" data-bs-backdrop="static" tabindex="-1">
+														<div class="modal fade" id="backDropModal_{{$branch->id}}" data-bs-backdrop="static" tabindex="-1">
 															<div class="modal-dialog modal-dialog-centered">
 																<form class="modal-content" action="{{ url('/admin/location/branch-location/delete') }}" method="post">
 																	{{ csrf_field() }}
 																	<div class="modal-header">					
-																		<button
-																		type="button"
+																		<button type="button"
 																		class="btn-close"
 																		data-bs-dismiss="modal"
 																		aria-label="Close"
@@ -74,13 +73,13 @@
 																	</div>
 																	<div class="modal-body">
 																		<div class="row">
-																			<h5 class="modal-title" id="backDropModalTitle">Are you sure want to delete this blog?</h5>
+																			<h5 class="modal-title" id="backDropModalTitle">Are you sure want to delete this location?</h5>
 																			<div class="col mb-3">
 																				<input
 																				type="hidden"
-																				name="cat_id"
+																				name="branch_id"
 																				class="form-control"
-																				value="{{$bh->id}}"
+																				value="{{$branch->id}}"
 																				/>
 																			</div>
 																		</div>

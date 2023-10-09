@@ -42,16 +42,16 @@
 										</thead>
 										<tbody class="table-border-bottom-0">
 											@php $fx_count=1; @endphp
-											@foreach($fx_data as $fx)
+											@foreach($fx_list as $fx)
 												<tr>
 													<td>{{ $fx_count }}</td>
 													<td>{{ $fx->region }}</td>
 													<td>{{ $fx->township }}</td>
 													<td>{{ $fx->name }}</td>
-                                                    <td>{{ $fx->address }}</td>
+                                                    <td>{{ $fx->list_address }}</td>
                                                     <td>{{ $fx->openinghour}}</td>
 													<td>
-														<a href="{{ url('/admin/location/fx-location/edit'. $fx->id)}}">
+														<a href="{{ url('/admin/location/fx-location/edit/'. $fx->id) }}">
 															<button type="button" class="btn btn-outline-primary">
 																<span class="tf-icons bx bx-pencil"></span>&nbsp;
 															</button>
@@ -73,11 +73,11 @@
 																	</div>
 																	<div class="modal-body">
 																		<div class="row">
-																			<h5 class="modal-title" id="backDropModalTitle">Are you sure want to delete this blog?</h5>
+																			<h5 class="modal-title" id="backDropModalTitle">Are you sure want to delete this FX counter location?</h5>
 																			<div class="col mb-3">
 																				<input
 																				type="hidden"
-																				name="cat_id"
+																				name="fx_id"
 																				class="form-control"
 																				value="{{$fx->id}}"
 																				/>
