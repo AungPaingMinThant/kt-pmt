@@ -49,7 +49,7 @@
 													<td>{{ $branch->region }}</td>
 													<td>{{ $branch->name }}</td>
 													<td>{{ $branch->list_address }}</td>
-													<td>{{ $branch->telephone }}</td>
+													<td>z{{ $branch->telephone }}</td>
 													<td>{{ $branch->fax }}</td>
 													<td>
 														<a href="{{ url('/admin/location/branch-location/edit/'. $branch->id)}}">
