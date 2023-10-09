@@ -54,19 +54,19 @@
 											</div>
                                             <div class="mb-3">
 												<label class="form-label" for="branch_name">Branch Name</label>
-												<input type="text" class="form-control" name="branch_name" id="branch_name" value="{!! $branch_data->name!!}">
+												<input type="text" class="form-control" name="branch_name" id="branch_name" value="{!! $branch_data->name !!}">
 											</div>
                                             <div class="mb-3">
 												<label class="form-label" for="address">Address</label>
-												<input type="text" class="form-control" name="address" id="address" value="{!! $branch_data->list_address!!}">
+												<input type="text" class="form-control" name="list_address" id="address" value="{!! $branch_data->list_address !!}">
 											</div>
                                             <div class="mb-3">
 												<label class="form-label" for="contact">Contact No</label>
-												<input type="text" class="form-control" name="contact" id="contact" value="{!! $branch_data->telephone!!}">
+												<input type="text" class="form-control" name="telephone" id="contact" value="{!! $branch_data->telephone !!}">
 											</div>
                                             <div class="mb-3">
 												<label class="form-label" for="fax">Fax No</label>
-												<input type="text" class="form-control" name="fax" id="fax" value="{!! $branch_data->fax!!}">
+												<input type="text" class="form-control" name="fax" id="fax" value="{!! $branch_data->fax !!}">
 											</div>
 			
 											<button type="submit" class="btn btn-primary" id="submit_btn">Update</button>

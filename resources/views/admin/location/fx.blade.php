@@ -48,7 +48,7 @@
 													<td>{{ $fx->region }}</td>
 													<td>{{ $fx->township }}</td>
 													<td>{{ $fx->name }}</td>
-                                                    <td>{{ $fx->address }}</td>
+                                                    <td>{{ $fx->list_address }}</td>
                                                     <td>{{ $fx->openinghour}}</td>
 													<td>
 														<a href="{{ url('/admin/location/fx-location/edit/'. $fx->id) }}">

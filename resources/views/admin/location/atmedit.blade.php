@@ -47,7 +47,7 @@
 										<form class="mb-3" action="{{ url('/admin/location/atm-location/update') }}" method="POST" id="fx_form" enctype="multipart/form-data" >
 											{{ csrf_field() }}
 											<a href="{{ url('/admin/location/atm-location') }}" style="cursor: pointer;"><label class="form-label" style="cursor: pointer;"><i class="menu-icon tf-icons bx bx-chevrons-left"></i> Back to list</label></a>
-											<input type="hidden" name="branch_id" value="{{$atm_data->id}}">
+											<input type="hidden" name="atm_id" value="{{$atm_data->id}}">
                                             <div class="mb-3">
 												<label class="form-label" for="region">Region</label>
 												<input type="text" class="form-control" name="region" id="region" value="{!! $atm_data->region !!}">
@@ -58,11 +58,11 @@
 											</div>
 											<div class="mb-3">
 												<label class="form-label" for="location">Location/Branch</label>
-												<input type="text" class="form-control" name="location" id="location" value="{!! $atm_data->name!!}">
+												<input type="text" class="form-control" name="name" id="location" value="{!! $atm_data->name!!}">
 											</div>	
 											<div class="mb-3">
 												<label class="form-label" for="location">Address</label>
-												<input type="text" class="form-control" name="address" id="address" value="{!! $atm_data->address!!}">
+												<input type="text" class="form-control" name="list_address" id="address" value="{!! $atm_data->list_address!!}">
 											</div>	
 											<button type="submit" class="btn btn-primary" id="submit_btn">Update</button>
 										</form>

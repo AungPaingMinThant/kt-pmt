@@ -54,22 +54,22 @@
 											</div>
                                             <div class="mb-3">
 												<label class="form-label" for="city">City</label>
-												<input type="text" class="form-control" name="city" id="city" value="{!! $fx_data->township!!}">
+												<input type="text" class="form-control" name="township" id="city" value="{!! $fx_data->township !!}">
 											</div>
                                             <div class="mb-3">
 												<label class="form-label" for="branch">Branch / Location</label>
-												<input type="text" class="form-control" name="branch" id="branch" value="{!! $fx_data->name!!}">
+												<input type="text" class="form-control" name="name" id="branch" value="{!! $fx_data->name !!}">
 											</div>
                                             <div class="mb-3">
 												<label class="form-label" for="address">Address</label>
-												<input type="text" class="form-control" name="address" id="address" value="{!! $fx_data->address!!}">
+												<input type="text" class="form-control" name="list_address" id="address" value="{!! $fx_data->address !!}">
 											</div>
                                             <div class="mb-3">
 												<label class="form-label" for="hour">Business Hours</label>
-												<input type="text" class="form-control" name="hour" id="hour" value="{!! $fx_data->openinghour!!}">
+												<input type="text" class="form-control" name="openinghour" id="hour" value="{!! $fx_data->openinghour !!}">
 											</div>
 			
-											<button type="button" class="btn btn-primary" id="submit_btn">Update</button>
+											<button type="submit" class="btn btn-primary" id="submit_btn">Update</button>
 										</form>
 									</div>
 								</div>

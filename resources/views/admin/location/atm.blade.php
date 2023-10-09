@@ -44,9 +44,10 @@
 											@foreach($atm_list as $atm)
 												<tr>
 													<td>{{ $atm_count }}</td>
+													<td>{{ $atm->region }}</td>
 													<td>{{ $atm->township }}</td>
 													<td>{{ $atm->name }}</td>
-													<td>{{ $atm->address }}</td>
+													<td>{{ $atm->list_address }}</td>
 													<td>
 														<a href="{{ url('/admin/location/atm-location/edit/'. $atm->id)}}">
 															<button type="button" class="btn btn-outline-primary">

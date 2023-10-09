@@ -81,13 +81,15 @@ Route::post('/admin/location/branch-location/update', [LocationController::class
 
 Route::get('/admin/location/atm-location', [LocationController::class, 'locationAtm']);
 Route::get('/admin/location/atmadd', [LocationController::class, 'atmAdd']);
+Route::post('/admin/location/atm-location/delete', [LocationController::class, 'atmDelete']);
 Route::get('/admin/location/atm-location/edit/{atm_id}', [LocationController::class, 'atmEdit']);
 Route::post('/admin/location/atm-location/update', [LocationController::class, 'atmUpdate']);
 
 Route::get('/admin/location/fx-location', [LocationController::class, 'locationFx']);
 Route::get('/admin/location/fxadd', [LocationController::class, 'fxAdd']);
+Route::post('/admin/location/fax-location/delete', [LocationController::class, 'faxDelete']);
 Route::get('/admin/location/fx-location/edit/{fx_id}', [LocationController::class, 'fxEdit']);
-Route::post('/admin/location/fx-location/update', [LocationController::class, 'fxUpdate']);
+Route::post('/admin/location/fx-location/update', [LocationController::class, 'faxUpdate']);
 
 
 
