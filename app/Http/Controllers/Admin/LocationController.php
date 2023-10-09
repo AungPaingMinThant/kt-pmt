@@ -27,7 +27,7 @@ class LocationController extends Controller
     }
 
     public function branchAdd ()
-    {
+    {   
         return view ('admin.location.branchadd');
     }
 
