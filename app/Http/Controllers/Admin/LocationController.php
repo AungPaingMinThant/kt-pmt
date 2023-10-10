@@ -97,18 +97,28 @@ class LocationController extends Controller
                 $branch_list = DB::table('stores')->where('cat_id', '1')->get();
                 return redirect('/admin/location/branch-location');
         }
-    
+
     public function branchDelete(Request $request) 
-        {
-            $branch_id = $request->branch_id;
-            DB::table('stores')->where('id', $branch_id)->delete();
-            $delete->user_id = auth()->user()->id;
-            $delete->save();
+    {
+        $branch_id = $request->branch_id;
+        $user_id = auth()->user()->id;
+        DB::table('stores')->where('id', $branch_id)->delete();
+        $branch_list = DB::table('stores')->where('cat_id', '1')->get();
+        return redirect('/admin/location/branch-location');
+    }
 
-            $branch_list = DB::table('stores')->where('cat_id', '1')->get();
-            return redirect('/admin/location/branch-location');
+    
+    // public function branchDelete(Request $request) 
+    //     {
+    //         $branch_id = $request->branch_id;
+    //         DB::table('stores')->where('id', $branch_id)->delete();
+    //         $delete->user_id = auth()->user()->id;
+    //         $delete->save();
 
-        }
+    //         $branch_list = DB::table('stores')->where('cat_id', '1')->get();
+    //         return redirect('/admin/location/branch-location');
+
+    //     }
     
          
 

@@ -92,11 +92,6 @@ Route::get('/admin/location/fx-location/edit/{fx_id}', [LocationController::clas
 Route::post('/admin/location/fx-location/update', [LocationController::class, 'faxUpdate']);
 
 
-
-
-
-
-
 // Admin Personal
 Route::get('/admin/pagelist/personal-banking','App\Http\Controllers\Admin\PageController@pagePersoanlBankingList');
 Route::get('/admin/pagelist/personal-banking/other-services/foreign-currency-exchange-service',
@@ -148,6 +143,7 @@ Route::post('/admin/mission-corporate/brandpromise/update', 'App\Http\Controller
 
 // corporate goal
 Route::get('/admin/pagelist/about-aya/corporate-goals', 'App\Http\Controllers\Admin\AboutAYA\CorporateGoalsController@pageCorporateGoals');
+
 
 
 Route::get('/admin/pagelist/about-aya/ayabank-profile/business_practices',
