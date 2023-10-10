@@ -84,6 +84,16 @@
 	padding: 10px 70px 10px 30px !important;
 	margin-left: 15px;
 }
+
+.page_edit_icon {
+	font-size: 18px;
+    line-height: 18px;
+    cursor: pointer;
+    border: 1px solid #2e2e2e;
+    padding: 10px;
+    border-radius: 50%;
+    color: #2e2e2e;
+}
 @media (max-width: 1380px) and (min-width: 1301px) {
 	.for_customer_CTA > .col-md-6, .for_staff_CTA > .col-md-6,
 	.for_community_CTA > .col-md-6, .for_shareholders_CTA > .col-md-6 {

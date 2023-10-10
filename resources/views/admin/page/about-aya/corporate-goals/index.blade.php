@@ -12,11 +12,12 @@
 			@include('layouts.admin_banner', ['page'=>'corporate_goals', 'mobilebanking'=>''])
 
 
-			{{-- @php
+			@php
 				$page_data = App\Models\AboutAYA\CorporateGoals::first();
-			@endphp --}}
+			@endphp
 			<div class="container">
 				<div class="space-40"></div>
+				<i class="bx bx-pencil page_edit_icon" data-bs-toggle="modal" data-bs-target="#corporate_goals_modal"></i><br><br>
 				<div class="row">
 					<p>AYA Bank, driven by its core values, has set forth four strategic goals that form the foundation of its strategic direction, proven to be successful throughout the years. These goals are aligned with the bank's commitment to delivering exceptional value to its customers:</p>
 				</div>
@@ -258,9 +259,52 @@
 	</div>
 </div>
 
+{{-- Modal --}}
+{{-- Corporate Goals --}}
+<div class="modal fade" id="corporate_goals_modal" data-bs-backdrop="static" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
+		<form class="modal-content" action="{{ url('/admin/mission-corporate/ourmission/update') }}" method="POST" enctype="multipart/form-data">
+			<div class="modal-header">					
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body" style="padding: 0px 40px;">
+				{{ csrf_field() }}
+				<div class="row" style="margin-bottom: 20px;">
+					<div class="col-md-12">
+						<div class="mb-3 row">
+							<h4>Corporate Goals Section Update</h4>
+							<div class="col-md-12" style="margin-bottom: 10px;">
+								<label for="page_title_1" class="col-form-label">Section Desc</label>
+								<input type="text" class="form-control" id="page_desc_1" name="corporate_" value="{!! $page_data->corporate_goal_desc !!}">
+								
+								<div class="space-20"></div>
+								
+								<label for="page_desc_1" class="col-form-label">Section Information</label>
+								<textarea class="form-control" id="page_desc_1" name="page_desc_1" rows="10" spellcheck="false" >{!!$page_data->page_desc_1!!}</textarea>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+				<button type="submit" class="btn btn-primary" style="float: right;">Update</button>
+			</div>
+			<div class="modal-footer"></div>
+		</form>
+	</div>
+</div>
 @include('layouts.footer', ['page'=>''])
 
 <script type="text/javascript">
+
+tinymce.init({
+		selector: 'textarea#page_desc_1',
+	        height: 600,
+	        plugins: 'anchor autolink charmap code emoticons link lists searchreplace table visualblocks wordcount',
+	        toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat | code',
+	        file_picker_types: 'image',
+	        block_unsupported_drop: true
+	});
+
 	$(".mission_info_read_more").click(function() {
 		$(".mission_info").show('toggle');
 		$(".mission_info_hide").removeClass('d-none');
