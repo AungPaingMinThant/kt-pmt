@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\Branch;
+use App\Models\Stores;
 
 use DB;
 
@@ -26,6 +26,36 @@ class LocationController extends Controller
         return view('admin.location.branch')->with('branch_list',$branch_list);
     }
 
+    public function createBranch(Request $request)
+    {
+        $branch_id = $request->branch_id;
+        $region = $request->region;
+        $name = $request->branch_name;
+        $list_address = $request->list_address;
+        $telephone = $request->telephone;
+        $latitude = $request->latitude;
+        $longitude = $request->longitude; // Corrected variable name
+        $fax = $request->fax;
+
+        $branch = DB::table('stores')
+            ->where('id', $branch_id)
+            ->insert([
+                'region' => $region,
+                'name' => $name,
+                'list_address' => $list_address,
+                'telephone' => $telephone,
+                'latitude' => $latitude,
+                'longitude' => $longitude,
+                'fax' => $fax,
+                'created_by' => auth()->user()->id
+            ]);
+
+        $branch_list = DB::table('stores')->where('cat_id', '1')->get();
+        return redirect('/admin/location/branch-location');
+    }
+
+    
+    
     public function branchAdd ()
     {   
         return view ('admin.location.branchadd');
@@ -45,6 +75,7 @@ class LocationController extends Controller
 
     public function atmAdd ()
     {
+
         return view ('admin.location.atmadd');
     }
 
@@ -81,6 +112,8 @@ class LocationController extends Controller
             $name = $request->branch_name;
             $list_address = $request->list_address;
             $telephone = $request->telephone;
+            $latitude = $request->latitude;
+            $longitude = $request->longitude;
             $fax = $request->fax;
             
             // $branch = DB::table('stores')->where('id', $branch_id)->first();
@@ -91,6 +124,8 @@ class LocationController extends Controller
                     'name' => $name,
                     'list_address' => $list_address,
                     'telephone' => $telephone,
+                    'latitude' => $latitude,
+                    'longitude' => $longitude,
                     'fax' => $fax,
                     'updated_by' => auth()->user()->id
                 ]);

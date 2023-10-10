@@ -63,6 +63,14 @@
 												<label class="form-label" for="contact">Contact No</label>
 												<input type="text" class="form-control" name="contact" id="contact">
 											</div>
+											<div class="mb-3">
+												<label class="form-label" for="contact">Latitude</label>
+												<input type="text" class="form-control" name="contact" id="contact">
+											</div>
+											<div class="mb-3">
+												<label class="form-label" for="contact">Longitude</label>
+												<input type="text" class="form-control" name="contact" id="contact">
+											</div>
                                             <div class="mb-3">
 												<label class="form-label" for="fax">Fax No</label>
 												<input type="text" class="form-control" name="fax" id="fax">
@@ -91,95 +99,6 @@
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="{!! url('/assets/tinymce/js/tinymce/tinymce.min.js') !!}"></script>
 	<script>
-		tinymce.init({
-	        selector: 'textarea#blog_desc',
-	        height: 600,
-	        plugins: 'anchor autolink charmap code emoticons link lists searchreplace table visualblocks wordcount',
-	        toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat | code',
-	        file_picker_types: 'image',
-	        block_unsupported_drop: true
-	    });
-
-		$("#media_type").change(function() {
-		    if($("#media_type").val() == '0') {
-		        $("#single_image_div").addClass('d-none');
-				$("#multiple_image_div").addClass('d-none');
-				$("#multiple_image").removeAttr('required');
-				$("#file_div").addClass('d-none');
-				$("#file_link_1").removeAttr('required');
-				$("#single_image").removeAttr('required');
-		    } else {
-    			if($("#media_type").val() == '1') {
-    				$("#single_image_div").removeClass('d-none');
-    				$("#multiple_image_div").addClass('d-none');
-    				$("#multiple_image").removeAttr('required');
-    				$("#file_div").addClass('d-none');
-    				$("#file_link_1").removeAttr('required');
-    				$("#single_image").prop('required',true);
-    			} else {
-    				if($("#media_type").val() == '4') {
-    					$("#file_div").removeClass('d-none');
-                        // $("#file_link_1").prop('required',true);
-                        $("#file_link_1").removeAttr('required');
-    					$("#single_image_div").addClass('d-none');
-    					$("#multiple_image_div").addClass('d-none');
-    					$("#multiple_image").removeAttr('required');
-    					$("#single_image").removeAttr('required');
-    				} else {
-    					$("#multiple_image_div").removeClass('d-none');
-    					$("#single_image_div").addClass('d-none');
-    					$("#single_image").removeAttr('required');
-    					$("#file_div").addClass('d-none');
-    					$("#file_link_1").removeAttr('required');
-    					$("#multiple_image").prop('required',true);
-    				}
-    			}
-		    }
-		});
-
-		$("#file_add_btn").click(function(){
-			var file_count = $("#file_count").val();
-			var new_file_count = parseInt(file_count) + 1;
-			var file_html = '<div class="row file_section" id="file_section_'+new_file_count+'">'+
-								'<div class="col-md-5">'+
-									'<label class="form-label" for="file_link_'+new_file_count+'">File</label>'+
-									'<input class="form-control" type="file" name="file_link_'+new_file_count+'" id="file_link_'+new_file_count+'">'+
-								'</div>'+
-								'<div class="col-md-5">'+
-									'<label class="form-label" for="file_img_link_'+new_file_count+'">File Image</label>'+
-									'<input class="form-control" type="file" name="file_img_link_'+new_file_count+'" id="file_img_link_'+new_file_count+'">'+
-								'</div>'+
-								'<div class="col-md-2"></div>'+
-							'</div>';
-
-			$("#file_section_"+file_count).after(file_html);
-			$("#file_count").val(new_file_count);
-
-			if (new_file_count > 1) {
-				$("#file_remove_btn").removeAttr('disabled');
-			}
-
-			if (new_file_count == 4) {
-				$("#file_add_btn").addClass('d-none');
-			}
-		});
-
-		$("#file_remove_btn").click(function(){
-			var file_count = $("#file_count").val();
-			var new_file_count = parseInt(file_count) - 1;
-
-			if (new_file_count == 1) {
-				$("#file_remove_btn").attr('disabled', 'disabled');
-			}
-
-			if (new_file_count < 4) {
-				$("#file_add_btn").removeClass('d-none');
-			}
-
-			$("#file_section_"+file_count).remove();
-			$("#file_count").val(new_file_count);
-		});
-
 		$("#draft_btn").click(function() {
 			$("#status").val('1');
 			$("#submit_btn").click();
