@@ -66,14 +66,31 @@
 
 			<!--Location-->
 			@if($page == 'Location')
-				<li class="menu-item active">
+				<li class="menu-item active open">
 			@else
 				<li class="menu-item">
 			@endif
-				<a href="{{ url('/admin/location') }}" class="menu-link">
+				<a href="{{ url('/admin/location') }}" class="menu-link menu-toggle">
 					<i class="menu-icon tf-icons bx bx-location-plus"></i>
 					<div>Locations</div>
 				</a>
+				<ul class="menu-sub">
+					<li class="menu-item">
+						<a href="{{ url('/admin/location/branch-location') }}" class="menu-link">
+							<div data-i18n="Without menu">Branch Location</div>
+						</a>
+					</li>
+					<li class="menu-item">
+						<a href="{{ url('/admin/location/atm-location') }}" class="menu-link">
+							<div data-i18n="Without navbar">ATM Location</div>
+						</a>
+					</li>
+					<li class="menu-item">
+						<a href="{{ url('/admin/location/fx-location') }}" class="menu-link">
+							<div data-i18n="Without navbar">FX Counter Location</div>
+						</a>
+					</li>
+				</ul>
 			</li>
 		@endif
 

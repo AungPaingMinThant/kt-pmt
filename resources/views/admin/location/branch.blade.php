@@ -56,17 +56,19 @@
 														{{ str_replace(",",", ",$branch->fax) }}
 													</td>
 													<td>
-														<a href="{{ url('/admin/location/branch-location/edit/'. $branch->id)}}">
+														<a href="{{ url('/admin/location/branch-location/edit/' . $branch->id )}}">
 															<button type="button" class="btn btn-outline-primary">
 																<span class="tf-icons bx bx-pencil"></span>&nbsp;
 															</button>
+														</a>
+													
 															<button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#backDropModal_{{$branch->id}}">
 																<span class="tf-icons bx bx-trash"></span>&nbsp; 		
 															 </button>
-														</a>
+														
 														<div class="modal fade" id="backDropModal_{{$branch->id}}" data-bs-backdrop="static" tabindex="-1">
 															<div class="modal-dialog modal-dialog-centered">
-																<form class="modal-content" action="{{ url('/admin/location/branch-location') }}" method="post">
+																<form class="modal-content" action="{{ url('/admin/location/branch-location/delete') }}" method="post">
 																	{{ csrf_field() }}
 																	<div class="modal-header">					
 																		<button type="button"
@@ -77,7 +79,7 @@
 																	</div>
 																	<div class="modal-body">
 																		<div class="row">
-																			<h5 class="modal-title" id="backDropModalTitle">Are you sure want to delete this location?</h5>
+																			<h5 class="modal-title" id="backDropModalTitle">Are you sure want to delete this branch location?</h5>
 																			<div class="col mb-3">
 																				<input
 																				type="hidden"

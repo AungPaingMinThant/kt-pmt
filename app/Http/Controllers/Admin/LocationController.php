@@ -107,21 +107,6 @@ class LocationController extends Controller
         return redirect('/admin/location/branch-location');
     }
 
-    
-    // public function branchDelete(Request $request) 
-    //     {
-    //         $branch_id = $request->branch_id;
-    //         DB::table('stores')->where('id', $branch_id)->delete();
-    //         $delete->user_id = auth()->user()->id;
-    //         $delete->save();
-
-    //         $branch_list = DB::table('stores')->where('cat_id', '1')->get();
-    //         return redirect('/admin/location/branch-location');
-
-    //     }
-    
-         
-
     public function atmUpdate(Request $request)
         {
             $atm_id = $request->atm_id;
@@ -145,16 +130,13 @@ class LocationController extends Controller
         }
 
     public function atmDelete(Request $request) 
-        {
-            $atm_id = $request->atm_id;
-            DB::table('stores')->where('id', $atm_id)->delete();
-            $delete->user_id = auth()->user()->id;
-            $delete->save();
-
-            $atm_list = DB::table('stores')->where('cat_id', '2')->get();
-            return redirect('/admin/location/atm-location');
-
-        }
+    {
+        $atm_id = $request->atm_id;
+        $user_id = auth()->user()->id;
+        DB::table('stores')->where('id', $atm_id)->delete();
+        $atm_list = DB::table('stores')->where('cat_id', '2')->get();
+        return redirect('/admin/location/atm-location');
+    }
 
     public function faxUpdate(Request $request)
         {
@@ -181,19 +163,16 @@ class LocationController extends Controller
         }
 
     public function faxDelete(Request $request) 
-        {
-            $fx_id = $request->fx_id;
-            DB::table('stores')->where('id', $fx_id)->delete();
-            $delete->user_id = auth()->user()->id;
-            $delete->save();
-
-            $fx_list = DB::table('stores')->where('cat_id', '3')->get();
-            return redirect('/admin/location/fx-location');
-
-        }
-
-
+    {
+        $fx_id = $request->fx_id;
+        $user_id = auth()->user()->id;
+        DB::table('stores')->where('id', $fx_id)->delete();
+        $fx_list = DB::table('stores')->where('cat_id', '3')->get();
+        return redirect('/admin/location/fx-location');
     }
+
+
+}
 
 
 
