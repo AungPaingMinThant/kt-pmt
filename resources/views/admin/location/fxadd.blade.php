@@ -53,19 +53,19 @@
 											</div>
                                             <div class="mb-3">
 												<label class="form-label" for="city">City</label>
-												<input type="text" class="form-control" name="city" id="city">
+												<input type="text" class="form-control" name="township" id="city">
 											</div>
                                             <div class="mb-3">
 												<label class="form-label" for="location">Branch / Location</label>
-												<input type="text" class="form-control" name="location" id="location">
+												<input type="text" class="form-control" name="name" id="location">
 											</div>
                                             <div class="mb-3">
 												<label class="form-label" for="address">Address</label>
-												<input type="text" class="form-control" name="address" id="address">
+												<input type="text" class="form-control" name="list_address" id="address">
 											</div>
                                             <div class="mb-3">
 												<label class="form-label" for="hour">Business Hours</label>
-												<input type="text" class="form-control" name="hour" id="hour">
+												<input type="text" class="form-control" name="openinghour" id="hour">
 											</div>
 											<input type="hidden" name="status" id="status" value="0">
 											<button type="button" class="btn" id="draft_btn">Save as Draft</button>

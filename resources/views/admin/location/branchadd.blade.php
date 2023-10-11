@@ -46,7 +46,7 @@
 									<div class="card-body">
 										<form class="mb-3" action="{{ url('admin/location/branch-location') }}" method="POST" id="blog_form" enctype="multipart/form-data" >
 											{{ csrf_field() }}
-											<a href="{{ url('admin/location/branch-location') }}" style="cursor: pointer;"><label class="form-label" style="cursor: pointer;"><i class="menu-icon tf-icons bx bx-chevrons-left"></i> Back to list</label></a>
+											<a href="{{ url('admin/location/branch-location/') }}" style="cursor: pointer;"><label class="form-label" style="cursor: pointer;"><i class="menu-icon tf-icons bx bx-chevrons-left"></i> Back to list</label></a>
 											<div class="mb-3">
 												<label class="form-label" for="region">Region</label>
 												<input type="text" class="form-control" name="region" id="region">
@@ -57,19 +57,19 @@
 											</div>
                                             <div class="mb-3">
 												<label class="form-label" for="address">Address</label>
-												<input type="text" class="form-control" name="address" id="address">
+												<input type="text" class="form-control" name="list_address" id="address">
 											</div>
                                             <div class="mb-3">
 												<label class="form-label" for="contact">Contact No</label>
-												<input type="text" class="form-control" name="contact" id="contact">
+												<input type="text" class="form-control" name="telephone" id="contact">
 											</div>
 											<div class="mb-3">
 												<label class="form-label" for="contact">Latitude</label>
-												<input type="text" class="form-control" name="contact" id="contact">
+												<input type="text" class="form-control" name="latitude" id="contact">
 											</div>
 											<div class="mb-3">
 												<label class="form-label" for="contact">Longitude</label>
-												<input type="text" class="form-control" name="contact" id="contact">
+												<input type="text" class="form-control" name="longitude" id="contact">
 											</div>
                                             <div class="mb-3">
 												<label class="form-label" for="fax">Fax No</label>

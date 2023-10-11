@@ -60,9 +60,17 @@
 												<label class="form-label" for="address">Address</label>
 												<input type="text" class="form-control" name="list_address" id="address" value="{!! $branch_data->list_address !!}">
 											</div>
-                                            <div class="mb-3">
+											<div class="mb-3">
 												<label class="form-label" for="contact">Contact No</label>
 												<input type="text" class="form-control" name="telephone" id="contact" value="{!! $branch_data->telephone !!}">
+											</div>
+											<div class="mb-3">
+												<label class="form-label" for="contact">Latitude</label>
+												<input type="text" class="form-control" name="latitude" id="contact" value="{!! $branch_data->latitude !!}">
+											</div>
+											<div class="mb-3">
+												<label class="form-label" for="contact">Longitude</label>
+												<input type="text" class="form-control" name="longitude" id="contact" value="{!! $branch_data->longitude !!}">
 											</div>
                                             <div class="mb-3">
 												<label class="form-label" for="fax">Fax No</label>

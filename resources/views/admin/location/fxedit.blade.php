@@ -62,7 +62,7 @@
 											</div>
                                             <div class="mb-3">
 												<label class="form-label" for="address">Address</label>
-												<input type="text" class="form-control" name="list_address" id="address" value="{!! $fx_data->address !!}">
+												<input type="text" class="form-control" name="list_address" id="address" value="{!! $fx_data->list_address !!}">
 											</div>
                                             <div class="mb-3">
 												<label class="form-label" for="hour">Business Hours</label>
