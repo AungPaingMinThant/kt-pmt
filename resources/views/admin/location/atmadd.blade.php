@@ -57,11 +57,11 @@
 											</div>
                                             <div class="mb-3">
 												<label class="form-label" for="location">Location / Branch</label>
-												<input type="text" class="form-control" name="location" id="location">
+												<input type="text" class="form-control" name="name" id="location">
 											</div>
                                             <div class="mb-3">
 												<label class="form-label" for="address">Address</label>
-												<input type="text" class="form-control" name="address" id="address">
+												<input type="text" class="form-control" name="list_address" id="address">
 											</div>
 											<input type="hidden" name="status" id="status" value="0">
 											<button type="button" class="btn" id="draft_btn">Save as Draft</button>

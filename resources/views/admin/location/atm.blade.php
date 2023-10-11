@@ -53,12 +53,10 @@
 															<button type="button" class="btn btn-outline-primary">
 																<span class="tf-icons bx bx-pencil"></span>&nbsp;
 															</button>
+														</a>
 															<button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#backDropModal_{{$atm->id}}">
 																<span class="tf-icons bx bx-trash"></span>&nbsp; 		
 															</button>
-														</a>
-															
-														
 														<div class="modal fade" id="backDropModal_{{$atm->id}}" data-bs-backdrop="static" tabindex="-1">
 															<div class="modal-dialog modal-dialog-centered">
 																<form class="modal-content" action="{{ url('/admin/location/atm-location/delete') }}" method="post">
