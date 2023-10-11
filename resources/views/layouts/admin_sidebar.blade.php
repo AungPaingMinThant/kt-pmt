@@ -68,7 +68,7 @@
 			@if($page == 'Location')
 				<li class="menu-item active open">
 			@else
-				<li class="menu-item">
+				<li class="menu-item open">
 			@endif
 				<a href="{{ url('/admin/location') }}" class="menu-link menu-toggle">
 					<i class="menu-icon tf-icons bx bx-location-plus"></i>
