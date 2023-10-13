@@ -82,11 +82,38 @@
 					<p class="fw-bold" style="font-size: 18px;">Success Story</p>
 				</div>
 			</div>
-
 			<div class="success_story_section">
 				<div class="slide-container swiper">
 		            <div class="slide-content">
 		                <div class="card-wrapper swiper-wrapper">
+		                	<div class="card swiper-slide share_your_credits">
+		                        <div class="card-content">
+		                        	<div class="row">
+		                        		<div class="col-md-6 photo_div" style="padding: 0px;">
+		                        			<img src="{{ url('/images/business/borrowing/sme/juno_floral.jpg') }}" class="img-fluid">
+		                        		</div>
+		                        		<div class="col-md-6 info_div">
+		                        			<p class="juno_desc" style="color: #000;">“With AYA Micro Loan support, the owner of floral service is able to expand her business, dedicated to delighting customers.”</p>
+		                        			<p class="description juno_desc" style="color: #000;">Thanks to AYA Bank’s Micro Loan with low interest rates. We have continued offering our Juno Floral Service with high-quality domestic and international flowers, maintaining our standards.</p>
+		                        			<p class="description phz_name_property"><b>Ma Lay Lay Htoo</b><br>Juno Floral Service</p>
+		                        		</div>
+		                        	</div>
+		                        </div>
+		                    </div>
+		                    <div class="card swiper-slide share_your_credits">
+		                        <div class="card-content">
+		                        	<div class="row">
+		                        		<div class="col-md-6 photo_div" style="padding: 0px;">
+		                        			<img src="{{ url('/images/business/borrowing/sme/moe_fashion.jpg') }}" class="img-fluid">
+		                        		</div>
+		                        		<div class="col-md-6 info_div">
+		                        			<p class="juno_desc" style="color: #000;">“For a dedicated owner of fashion shop, AYA Bank's SME - Micro Loan helped the business thrive, bringing in more satisfied customers than ever!”</p>
+		                        			<p class="description juno_desc" style="color: #000;">With the support of AYA Bank's Micro Loan, I've been able to stock my store with the latest fashion trends. This has not only elevated my business but also expanded the choices available to my customers.</p>
+		                        			<p class="description moe_fashion_name_property"><b>Ma Thu Zar Moe</b><br>Moe Fashion Shop (Owner)</p>
+		                        		</div>
+		                        	</div>
+		                        </div>
+		                    </div>
 		                    <div class="card swiper-slide share_your_credits">
 		                        <div class="card-content">
 		                        	<div class="row">

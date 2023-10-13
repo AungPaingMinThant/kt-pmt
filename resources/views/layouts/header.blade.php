@@ -661,9 +661,9 @@
 														<p class="m-b-5">
 															<a href="{{url('/about-aya/career/life-at-aya')}}">Life At AYA</a>
 														</p>
-														<!-- <p class="m-b-5">
-															<a href="{{url('/about-aya/career/life-at-aya')}}">AYA Culture</a>
-														</p> -->
+														<p class="m-b-5">
+															<a href="{{url('/about-aya/career/aya-culture')}}">AYA Culture</a>
+														</p>
 														<p class="m-b-5">
 															<a href="{{url('/about-aya/career/employee-development')}}">Employee Development</a>
 														</p>
@@ -1480,11 +1480,11 @@
 										<a href="{{ url('/about-aya/career/life-at-aya') }}">Life at AYA</a>
 									</p>
 								</li>
-								<!-- <li>
+								<li>
 									<p class="dropdown-item m-b-5">
-										<span >AYA Culture</span>
+										<a href="{{url('/about-aya/career/aya-culture')}}">AYA Culture</a>
 									</p>
-								</li> -->
+								</li>
 								<li>
 									<p class="dropdown-item m-b-5">
 										<a href="{{ url('/about-aya/career/employee-development') }}">Employee Development</a>

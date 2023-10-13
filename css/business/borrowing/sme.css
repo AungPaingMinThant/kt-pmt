@@ -363,6 +363,16 @@
 	top: 62%;
 	left: 80%;
 }
+.moe_fashion_name_property {
+	position: absolute;
+	right: 0;
+	top: 62%;
+	left: 75%;
+}
+.juno_desc  {
+	padding-right: 27px;
+	padding-left: 5px;
+}
 .phz_desc  {
 	padding-right: 25px;
 	padding-left: 5px;
@@ -425,9 +435,13 @@
 	    top: 60%;
 	    left: 68%;
 	}
-	.phz_desc {
+	.phz_desc, .juno_desc {
 	    padding-right: 30px;
 	    padding-left: 5px;
+	}
+	.moe_fashion_name_property {
+	    top: 60%;
+	    left: 72%;
 	}
 }
 @media (max-width: 1300px) and (min-width: 1271px) {
@@ -464,8 +478,11 @@
 	.info_div {
 		padding: 30px 10px 0px 30px;
 	}
-	.phz_name_property {
+	.phz_name_property, .moe_fashion_name_property {
 		top: 60%;
+	}
+	.moe_fashion_name_property {
+		left: 72%;
 	}
 	.daw_than_shin_name_property {
 		position: absolute;
@@ -557,7 +574,7 @@
 	.swiper-button-next {
 	    right: 6% !important;
 	}
-	.phz_name_property {
+	.phz_name_property, .moe_fashion_name_property {
 	    top: 58%;
 	}
 	.uzo_desc {
@@ -663,6 +680,10 @@
 	.phz_name_property {
 	    top: 58%;
 	}
+	.moe_fashion_name_property {
+	    top: 61%;
+	    left: 71%;
+	}
 	.uzo_desc {
 	    padding-right: 15px;
 	    padding-left: 5px;
@@ -767,14 +788,19 @@
 	.info_div {
 	    padding: 20px 20px 0px 0px;
 	}
-	.phz_desc, .daw_than_shin_desc, .uzo_desc {
+	.phz_desc, .daw_than_shin_desc, .uzo_desc, .juno_desc {
 	    padding-right: 25px;
 	    padding-left: 25px;
 	}
 	.phz_name_property, .uzo_name_property {
 	    position: inherit;
 	    padding-right: 25px;
-	    padding-left: 65%;
+	    padding-left: 64%;
+	}
+	.moe_fashion_name_property {
+	    position: inherit;
+	    padding-right: 25px;
+	    padding-left: 50%;
 	}
 	.daw_than_shin_name_property {
 	    position: inherit;
