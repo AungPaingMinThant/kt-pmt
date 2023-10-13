@@ -145,6 +145,13 @@ Route::post('/admin/mission-corporate/brandpromise/update', 'App\Http\Controller
 
 // corporate goal
 Route::get('/admin/pagelist/about-aya/corporate-goals', 'App\Http\Controllers\Admin\AboutAYA\CorporateGoalsController@pageCorporateGoals');
+Route::post('/admin/corporate-goals/description/update','App\Http\Controllers\Admin\AboutAYA\CorporateGoalsController@descriptionUpdate');
+Route::post('/admin/corporate-goals/customer/update','App\Http\Controllers\Admin\AboutAYA\CorporateGoalsController@customerUpdate');
+Route::post('/admin/corporate-goals/community/update','App\Http\Controllers\Admin\AboutAYA\CorporateGoalsController@communityUpdate');
+Route::post('/admin/corporate-goals/staff/update','App\Http\Controllers\Admin\AboutAYA\CorporateGoalsController@staffUpdate');
+Route::post('/admin/corporate-goals/people/update','App\Http\Controllers\Admin\AboutAYA\CorporateGoalsController@peopleUpdate');
+Route::post('/admin/corporate-goals/stakeholder/update','App\Http\Controllers\Admin\AboutAYA\CorporateGoalsController@stakeholderUpdate');
+
 
 
 
