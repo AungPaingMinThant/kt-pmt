@@ -77,10 +77,8 @@
 					<div class="space-20"></div>
 					<div class="row for_customer_CTA">
 						<div class="col-md-6">
-							<div>
-								<p class="mission_info">
-									{!! $page_data->customer_card_desc_1 !!}
-								</p>
+							<div class="container">
+								<p class="mission_info">{!! $page_data->customer_card_desc_1 !!}</p>
 								{{-- <p class="mission_info" style="display: none;">Central to our operations is our unwavering focus on cultivating a customer-centric culture. It is ingrained in our core values, reflecting our dedication to always putting the customer first. By consistently prioritizing the needs and aspirations of our customers, we aim to foster trust, loyalty, and enduring relationships.</p>
 								<p class="mission_info" style="display: none;">At AYA Bank, our commitment to customer satisfaction goes beyond mere words. We actively strive to exceed expectations, continuously innovating and adapting to the evolving needs of our customers. Through our customer-centric initiatives and unwavering dedication, we aim to create lasting value and make a meaningful difference in the lives of our customers.</p> --}}
 
@@ -94,9 +92,7 @@
 							</div>
 						</div>
 						<div class="col-md-6">
-							<p class="social_sustainability_info">
-								{!! $page_data->customer_card_desc_2 !!}
-							</p>
+							<p class="social_sustainability_info">{!! $page_data->customer_card_desc_2 !!}</p>
 							{{-- <p class="social_sustainability_info" style="display: none;">Recognizing the increasing significance of digital channels in today's interconnected world, we place a strong emphasis on investing in a robust digital experience for our customers. By harnessing the power of technology, we strive to deliver seamless and convenient banking services that cater to the evolving needs and preferences of our digitally savvy customers. Our digital initiatives are designed to enhance accessibility, streamline processes, and provide secure and user-friendly platforms for our customers to manage their finances with ease.</p>
 							<p class="social_sustainability_info" style="display: none;">We are committed to driving financial inclusion across Myanmar, particularly in rural areas, to connect underserved communities to mainstream banking services. We understand that access to financial resources and services is crucial for socioeconomic development and empowerment. By accelerating action on financial inclusion, we aim to bridge the gap between urban and rural areas, ensuring that all individuals have equal opportunities to participate in the formal financial system. Through innovative approaches, inclusive products, and extensive outreach efforts, we strive to empower rural communities and enable them to thrive economically.</p>
 							<p class="social_sustainability_info" style="display: none;">At AYA Bank, our dedication to our customers extends beyond traditional banking services. We are driven by a passion for unlocking potential, creating opportunities, and fostering sustainable growth. Through our expertise, digital advancements, and commitment to financial inclusion, we aim to empower individuals and communities, supporting them in their journey towards financial success and a brighter future.</p> --}}
@@ -124,7 +120,7 @@
 					<div class="space-20"></div>
 					<div class="row for_community_CTA">
 						<div class="col-md-6">
-							<div class="container">
+							<div>
 								<p class="ungc_list_info">{!! $page_data->community_card_desc_1 !!}</p>
 								{{-- <ul class="ungc_list">
 									<li>Demonstrating Our Values: We firmly believe in upholding our values and operating in a transparent and ethical manner. We actively engage with the public, fostering open communication and providing insights into our operations and decision-making processes. <span class="ungc_list_info" style="display: none;">By doing so, we strive to build trust and confidence while ensuring a sustainable future for all stakeholders.</span></li>
