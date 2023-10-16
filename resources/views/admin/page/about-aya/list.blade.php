@@ -118,7 +118,18 @@
                            							</a>
 												</td>
 											</tr>
-
+											<tr>
+												<td>8</td>
+												<td>Awards</td>
+												<td></td>
+												<td>
+													<a href="{{ url('/admin/pagelist/about-aya/awards') }}" target="_blank">
+														<button type="button" class="btn btn-outline-primary">
+                              								<span class="tf-icons bx bx-pencil"></span>&nbsp; 		
+                           								</button>
+                           							</a>
+												</td>
+											</tr>
 
 											
 										</tbody>

@@ -20,7 +20,7 @@
 			<div class="container">
 				<div class="space-40"></div>
 				<div class="row">
-					<h4 class="fw-">
+					<h4 class="fw-bold">
 						{!!$page_data->page_title_1!!}&nbsp;
 						<i class="bx bx-pencil page_edit_icon" data-bs-toggle="modal" data-bs-target="#our_mission_modal"></i>
 					</h4><p>{!!$page_data->page_desc_1!!}</p>
