@@ -445,4 +445,9 @@
     $(".about-aya-li > span").click(function(){
         $(".about-aya-dropdown-content").slideToggle();
     });
+
+    function pageLoad(page_url) {
+        var app_url = $("#app_url").val();
+        location.href = app_url + page_url;
+    }
 </script>
