@@ -78,7 +78,7 @@
 					<div class="row for_customer_CTA">
 						<div class="col-md-6">
 							<div>
-								<p>{!! $page_data->customer_card_desc_1 !!}</p>
+								<p class="mission_info">{!! $page_data->customer_card_desc_1 !!}</p>
 								{{-- <p class="mission_info" style="display: none;">Central to our operations is our unwavering focus on cultivating a customer-centric culture. It is ingrained in our core values, reflecting our dedication to always putting the customer first. By consistently prioritizing the needs and aspirations of our customers, we aim to foster trust, loyalty, and enduring relationships.</p>
 								<p class="mission_info" style="display: none;">At AYA Bank, our commitment to customer satisfaction goes beyond mere words. We actively strive to exceed expectations, continuously innovating and adapting to the evolving needs of our customers. Through our customer-centric initiatives and unwavering dedication, we aim to create lasting value and make a meaningful difference in the lives of our customers.</p> --}}
 
@@ -187,7 +187,7 @@
 							</div>
 						</div>
 						<div class="col-md-6">
-							<p>{!! $page_data->staff_card_desc_2 !!}</p>
+							<p class="emp_development_info">{!! $page_data->staff_card_desc_2 !!}</p>
 							{{-- <p>By implementing robust health and safety policies and procedures, we ensure compliance with government legislation related to health and safety. <span class="emp_development_info" style="display: none;">This commitment enables us to provide a secure and healthy working environment where our employees can thrive and contribute effectively.</span></p>
 							<p class="emp_development_info" style="display: none;">In addition to ensuring a safe workplace, we are dedicated to enhancing the skills and capabilities of our employees. We organize comprehensive learning and development programs that empower our staff to go above and beyond in their roles. These initiatives encompass training sessions, workshops, and other developmental opportunities that enable our employees to acquire new skills, expand their knowledge, and stay abreast of industry trends. By investing in their growth and professional development, we foster a culture of continuous learning and equip our employees with the tools they need to excel in their careers.</p>
 							<p class="emp_development_info" style="display: none;">Recognizing the importance of education, we understand the value of supporting our staff who choose to pursue part-time education programs. To accommodate their educational pursuits, we initiate flexible working hours, allowing them to balance their work responsibilities with their educational commitments. This flexibility enables our employees to further their education, broaden their horizons, and achieve their personal and professional goals.</p>

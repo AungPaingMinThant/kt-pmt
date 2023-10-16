@@ -152,6 +152,8 @@ Route::post('/admin/corporate-goals/staff/update','App\Http\Controllers\Admin\Ab
 Route::post('/admin/corporate-goals/people/update','App\Http\Controllers\Admin\AboutAYA\CorporateGoalsController@peopleUpdate');
 Route::post('/admin/corporate-goals/stakeholder/update','App\Http\Controllers\Admin\AboutAYA\CorporateGoalsController@stakeholderUpdate');
 
+// Awards
+Route::get('/admin/pagelist/about-aya/awards', 'App\Http\Controllers\Admin\AboutAYA\AwardsController@pageAwards');
 
 
 
