@@ -92,13 +92,14 @@ class CorporateGoalsController extends Controller
         $banner = DB::table('corporate_goals')
                     ->update ([
                         'corporate_goal_desc' => $corporate_goal_desc,
+
                         'corporate_goal_img_1' => $corporate_goal_img_1_path,
-                        'corporate_text_1' => $corporate_text_1,
                         'corporate_goal_img_2' => $corporate_goal_img_2_path,
-                        'corporate_text_2' => $corporate_text_2,
                         'corporate_goal_img_3' => $corporate_goal_img_3_path,
-                        'corporate_text_3' => $corporate_text_3,
                         'corporate_goal_img_4' => $corporate_goal_img_4_path,
+                        'corporate_text_1' => $corporate_text_1,
+                        'corporate_text_2' => $corporate_text_2,
+                        'corporate_text_3' => $corporate_text_3,
                         'corporate_text_4' => $corporate_text_4,
                         'updated_by' => auth()->user()->id
 
@@ -367,7 +368,7 @@ class CorporateGoalsController extends Controller
                 ]);
                 
             return redirect('admin/pagelist/about-aya/corporate-goals');
-              
+   
     }
 
 }
