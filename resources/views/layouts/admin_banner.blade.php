@@ -118,13 +118,6 @@
 @endif
 
 
-
-
-
-
-
-
-
 {{-- PMT --}}
 @if($page == 'mission_promise')
 	<div class="aya_bank_profile_banner banner_bg" style="background-image:url('{{$banner_link}}')">
@@ -202,7 +195,7 @@
 		<div class="row d-none d-sm-block">
 			<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 				<div class="aya_bank_profile_banner_tagline">
-					<h1 style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">{!! $banner_data->banner_title !!}</h1>
+					<h1 style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;color:#f5f5f7;">{!! $banner_data->banner_title !!}</h1>
 				</div>
 			</div>
 		</div>
@@ -227,6 +220,8 @@
 	</div>
 </div>
 @endif
+
+
 <!-- Modals -->
 <div class="modal fade" id="banner_modal" data-bs-backdrop="static" tabindex="-1">
 	<div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">

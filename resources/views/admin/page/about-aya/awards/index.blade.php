@@ -1,4 +1,4 @@
-@extends('layouts.frontend-app')
+@extends('layouts.frontend')
 
 @section('title', 'Awards – AYA Bank')
 @section('content')
@@ -9,15 +9,22 @@
             @include('layouts.nav', ['nav'=>'AYA Bank Profile', 'page'=>'awards'])
             <br>
             @include('layouts.admin_banner', ['page'=>'awards', 'mobilebanking'=>''])
+			@php
+            	$page_desc = App\Models\AwardDesc::first();
+				$page_award = App\Models\Award::get();
+				$page_year = App\Models\Year::get();
+         	@endphp
 
 			<div class="container section_1">
 				<div class="space-40"></div>
+				<i class="bx bx-pencil page_edit_icon" data-bs-toggle="modal" data-bs-target="#award_desc_modal"></i><br><br>
 				<div class="row">
 					<div class="full_service_col_1 col-md-12">
-						<p>As a leading private bank in Myanmar, we are proud of our products and services delivered to customers is awarded by well known financial publications and awarding bodies.</p>
+						<p>{!! $page_desc->award_desc !!}</p>
 					</div>
 				</div>
 				<div class="space-30"></div>
+				<i class="bx bx-pencil page_edit_icon" data-bs-toggle="modal" data-bs-target="#award_desc_modal"></i><br><br>
 				<div class="row">
 					<div class="col-md-9 timeline-col">
 						<div class="row 2020" id="2020">
@@ -392,8 +399,34 @@
 	</div>
 </div>
 
+<div class="modal fade" id="award_desc_modal" data-bs-backdrop="static" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
+	   <form class="modal-content" action="{{ url('/admin/pagelist/about-aya/awards-desc/update') }}" method="POST" enctype="multipart/form-data">
+		  <div class="modal-header">             
+			 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		  </div>
+		  <div class="modal-body" style="padding: 0px 40px;">
+			 {{ csrf_field() }}
+			 <div class="row" style="margin-bottom: 20px;">
+				<div class="col-md-12">
+				   <div class="mb-3 row">
+					  <div class="space-20"></div>
+					  <div class="col-md-12">
+						 <label for="customer_desc" class="col-form-label">Section Description</label>
+						 <textarea class="form-control" id="customer_desc" name="customer_desc" rows="10" spellcheck="false" >{!! $page_desc->award_desc !!}</textarea>
+					  </div>
+				   </div>
+				</div>
+			 </div>
+			 <br>
+			 <button type="submit" class="btn btn-primary" style="float: right;">Update</button>
+		  </div>
+		  <div class="modal-footer"></div>
+	   </form>
+	</div>
+ </div>
 <div class="space-60"></div>
-@include('layouts.footer', ['page'=>''])
+@include('layouts.admin-footer', ['page'=>''])
 
 <script type="text/javascript">
 	$(window).on('scroll', function() {

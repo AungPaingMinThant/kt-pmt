@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateAwardDescTable extends Migration
+class CreateAwardDescsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateAwardDescTable extends Migration
      */
     public function up()
     {
-        Schema::create('award_desc', function (Blueprint $table) {
+        Schema::create('award_descs', function (Blueprint $table) {
             $table->id();
             $table->longText('award_desc');        
             $table->integer('updated_by');
@@ -28,6 +28,6 @@ class CreateAwardDescTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('award_desc');
+        Schema::dropIfExists('award_descs');
     }
 }
