@@ -37,11 +37,11 @@ class CorporateGoalsController extends Controller
             if ($request->hasFile('corporate_goal_img_1')) {
                 $imageBreak = $request->file('corporate_goal_img_1');
                 $file = $imageBreak->getClientOriginalName();
-                $upload_path = base_path() . '/page_images/about-aya/ayabank-profile/corporate-goals/';
+                $upload_path = base_path() . '/page_images/about-aya/who-we-are/corporate-profile/corporate-goals/';
                 $imageBreak->move($upload_path, $file);
-                $corporate_goal_img_1_path = "page_images/about-aya/ayabank-profile/corporate-goals/" . $file;
+                $corporate_goal_img_1_path = "page_images/about-aya/who-we-are/corporate-profile/corporate-goals/" . $file;
             } else {
-                $corporate_goal_img_1_path = '';
+                $corporate_goal_img_1_path = $request->corporate_goal_img_1_old;
             }
         } else {
             $corporate_goal_img_1_path = $request->corporate_goal_img_1_old;
@@ -51,11 +51,11 @@ class CorporateGoalsController extends Controller
             if ($request->hasFile('corporate_goal_img_2')) {
                 $imageBreak = $request->file('corporate_goal_img_2');
                 $file = $imageBreak->getClientOriginalName();
-                $upload_path = base_path() . '/page_images/about-aya/ayabank-profile/corporate-goals/';
+                $upload_path = base_path() . '/page_images/about-aya/who-we-are/corporate-profile/corporate-goals/';
                 $imageBreak->move($upload_path, $file);
-                $corporate_goal_img_2_path = "page_images/about-aya/ayabank-profile/corporate-goals/" . $file;
+                $corporate_goal_img_2_path = "page_images/about-aya/who-we-are/corporate-profile/corporate-goals/" . $file;
             } else {
-                $corporate_goal_img_2_path = '';
+                $corporate_goal_img_2_path = $request->corporate_goal_img_2_old;
             }
         } else {
             $corporate_goal_img_2_path = $request->corporate_goal_img_2_old;
@@ -65,11 +65,11 @@ class CorporateGoalsController extends Controller
             if ($request->hasFile('corporate_goal_img_3')) {
                 $imageBreak = $request->file('corporate_goal_img_3');
                 $file = $imageBreak->getClientOriginalName();
-                $upload_path = base_path() . '/page_images/about-aya/ayabank-profile/corporate-goals/';
+                $upload_path = base_path() . '/page_images/about-aya/who-we-are/corporate-profile/corporate-goals/';
                 $imageBreak->move($upload_path, $file);
-                $corporate_goal_img_3_path = "page_images/about-aya/ayabank-profile/corporate-goals/" . $file;
+                $corporate_goal_img_3_path = "page_images/about-aya/who-we-are/corporate-profile/corporate-goals/" . $file;
             } else {
-                $corporate_goal_img_3_path = '';
+                $corporate_goal_img_3_path = $request->corporate_goal_img_3_old;
             }
         } else {
             $corporate_goal_img_3_path = $request->corporate_goal_img_3_old;
@@ -83,22 +83,22 @@ class CorporateGoalsController extends Controller
                 $imageBreak->move($upload_path, $file);
                 $corporate_goal_img_4_path = "page_images/about-aya/ayabank-profile/corporate-goals/" . $file;
             } else {
-                $corporate_goal_img_4_path = '';
+                $corporate_goal_img_4_path = $request->corporate_goal_img_4_old;
             }
         } else {
             $corporate_goal_img_4_path = $request->corporate_goal_img_4_old;
         }
-
+        
         $banner = DB::table('corporate_goals')
                     ->update ([
                         'corporate_goal_desc' => $corporate_goal_desc,
                         'corporate_goal_img_1' => $corporate_goal_img_1_path,
-                        'corporate_text_1' => $corporate_text_1,
                         'corporate_goal_img_2' => $corporate_goal_img_2_path,
-                        'corporate_text_2' => $corporate_text_2,
                         'corporate_goal_img_3' => $corporate_goal_img_3_path,
+                        'corporate_goal_img_4' => $corporate_goal_img_4_path,   
+                        'corporate_text_1' => $corporate_text_1,
+                        'corporate_text_2' => $corporate_text_2,
                         'corporate_text_3' => $corporate_text_3,
-                        'corporate_goal_img_4' => $corporate_goal_img_4_path,
                         'corporate_text_4' => $corporate_text_4,
                         'updated_by' => auth()->user()->id
 
@@ -106,6 +106,7 @@ class CorporateGoalsController extends Controller
         return redirect('admin/pagelist/about-aya/corporate-goals');
 
     }
+
 // Customer
     public function customerUpdate(Request $request)
     {
@@ -122,14 +123,14 @@ class CorporateGoalsController extends Controller
         $customer_card_img_1 = $request->customer_card_img_1;
         $customer_card_img_2_old = $request->customer_card_img_2_old;
         $customer_card_img_2 = $request->customer_card_img_2;
-
+        
         if ($request->customer_card_img_1_old == '') {
             if ($request->hasFile('customer_card_img_1')) {
                 $imageBreak = $request->file('customer_card_img_1');
                 $file = $imageBreak->getClientOriginalName();
-                $upload_path = base_path() . '/page_images/about-aya/ayabank-profile/corporate-goals/';
+                $upload_path = base_path() . '/page_images/about-aya/who-we-are/corporate-profile/corporate-goals/';
                 $imageBreak->move($upload_path, $file);
-                $customer_card_img_1_path = "page_images/about-aya/ayabank-profile/corporate-goals/" . $file;
+                $customer_card_img_1_path = "page_images/about-aya/who-we-are/corporate-profile/corporate-goals/" . $file;
             } else {
                 $customer_card_img_1_path = '';
             }
@@ -141,9 +142,9 @@ class CorporateGoalsController extends Controller
             if ($request->hasFile('customer_card_img_2')) {
                 $imageBreak = $request->file('customer_card_img_2');
                 $file = $imageBreak->getClientOriginalName();
-                $upload_path = base_path() . '/page_images/about-aya/ayabank-profile/corporate-goals/';
+                $upload_path = base_path() . '/page_images/about-aya/who-we-are/corporate-profile/corporate-goals/';
                 $imageBreak->move($upload_path, $file);
-                $customer_card_img_2_path = "page_images/about-aya/ayabank-profile/corporate-goals/" . $file;
+                $customer_card_img_2_path = "page_images/about-aya/who-we-are/corporate-profile/corporate-goals/" . $file;
             } else {
                 $customer_card_img_2_path = '';
             }
@@ -166,7 +167,7 @@ class CorporateGoalsController extends Controller
                         'customer_card_img_2' => $customer_card_img_2_path,
                         'updated_by' => auth()->user()->id
                     ]);
-            
+                    
         return redirect('admin/pagelist/about-aya/corporate-goals');
     }
 
@@ -191,9 +192,9 @@ class CorporateGoalsController extends Controller
             if ($request->hasFile('community_card_img_1')) {
                 $imageBreak = $request->file('community_card_img_1');
                 $file = $imageBreak->getClientOriginalName();
-                $upload_path = base_path() . '/page_images/about-aya/ayabank-profile/corporate-goals/';
+                $upload_path = base_path() . '/page_images/about-aya/who-we-are/corporate-profile/corporate-goals/';
                 $imageBreak->move($upload_path, $file);
-                $community_card_img_1_path = "page_images/about-aya/ayabank-profile/corporate-goals/" . $file;
+                $community_card_img_1_path = "page_images/about-aya/who-we-are/corporate-profile/corporate-goals/" . $file;
             } else {
                 $community_card_img_1_path = '';
             }
@@ -205,9 +206,9 @@ class CorporateGoalsController extends Controller
             if ($request->hasFile('community_card_img_2')) {
                 $imageBreak = $request->file('community_card_img_2');
                 $file = $imageBreak->getClientOriginalName();
-                $upload_path = base_path() . '/page_images/about-aya/ayabank-profile/corporate-goals/';
+                $upload_path = base_path() . '/page_images/about-aya/who-we-are/corporate-profile/corporate-goals/';
                 $imageBreak->move($upload_path, $file);
-                $community_card_img_2_path = "page_images/about-aya/ayabank-profile/corporate-goals/" . $file;
+                $community_card_img_2_path = "page_images/about-aya/who-we-are/corporate-profile/corporate-goals/" . $file;
             } else {
                 $community_card_img_2_path = '';
             }
@@ -253,9 +254,9 @@ class CorporateGoalsController extends Controller
             if ($request->hasFile('staff_card_img_1')) {
                 $imageBreak = $request->file('staff_card_img_1');
                 $file = $imageBreak->getClientOriginalName();
-                $upload_path = base_path() . '/page_images/about-aya/ayabank-profile/corporate-goals/';
+                $upload_path = base_path() . '/page_images/about-aya/who-we-are/corporate-profile/corporate-goals/';
                 $imageBreak->move($upload_path, $file);
-                $staff_card_img_1_path = "page_images/about-aya/ayabank-profile/corporate-goals/" . $file;
+                $staff_card_img_1_path = "page_images/about-aya/who-we-are/corporate-profile/corporate-goals/" . $file;
             } else {
                 $staff_card_img_1_path = '';
             }
@@ -267,9 +268,9 @@ class CorporateGoalsController extends Controller
             if ($request->hasFile('staff_card_img_2')) {
                 $imageBreak = $request->file('staff_card_img_2');
                 $file = $imageBreak->getClientOriginalName();
-                $upload_path = base_path() . '/page_images/about-aya/ayabank-profile/corporate-goals/';
+                $upload_path = base_path() . '/page_images/about-aya/who-we-are/corporate-profile/corporate-goals/';
                 $imageBreak->move($upload_path, $file);
-                $staff_card_img_2_path = "page_images/about-aya/ayabank-profile/corporate-goals/" . $file;
+                $staff_card_img_2_path = "page_images/about-aya/who-we-are/corporate-profile/corporate-goals/" . $file;
             } else {
                 $staff_card_img_2_path = '';
             }
@@ -327,9 +328,9 @@ class CorporateGoalsController extends Controller
             if ($request->hasFile('stakeholder_card_img_1')) {
                 $imageBreak = $request->file('stakeholder_card_img_1');
                 $file = $imageBreak->getClientOriginalName();
-                $upload_path = base_path() . '/page_images/about-aya/ayabank-profile/corporate-goals/';
+                $upload_path = base_path() . '/page_images/about-aya/who-we-are/corporate-profile/corporate-goals/';
                 $imageBreak->move($upload_path, $file);
-                $stakeholder_card_img_1_path = "page_images/about-aya/ayabank-profile/corporate-goals/" . $file;
+                $stakeholder_card_img_1_path = "page_images/about-aya/who-we-are/corporate-profile/corporate-goals/" . $file;
             } else {
                 $stakeholder_card_img_1_path = '';
             }
@@ -341,9 +342,9 @@ class CorporateGoalsController extends Controller
             if ($request->hasFile('stakeholder_card_img_2')) {
                 $imageBreak = $request->file('stakeholder_card_img_2');
                 $file = $imageBreak->getClientOriginalName();
-                $upload_path = base_path() . '/page_images/about-aya/ayabank-profile/corporate-goals/';
+                $upload_path = base_path() . '/page_images/about-aya/who-we-are/corporate-profile/corporate-goals/';
                 $imageBreak->move($upload_path, $file);
-                $stakeholder_card_img_2_path = "page_images/about-aya/ayabank-profile/corporate-goals/" . $file;
+                $stakeholder_card_img_2_path = "page_images/about-aya/who-we-are/corporate-profile/corporate-goals/" . $file;
             } else {
                 $stakeholder_card_img_2_path = '';
             }
@@ -367,7 +368,7 @@ class CorporateGoalsController extends Controller
                 ]);
                 
             return redirect('admin/pagelist/about-aya/corporate-goals');
-              
+   
     }
 
 }

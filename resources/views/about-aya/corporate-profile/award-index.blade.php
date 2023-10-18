@@ -66,7 +66,7 @@
 									<div class="col-md-8 award_desc_col">
 										<p class="mb-0 award_desc">
 											<span class="fw-semibold award_title">Myanmar’s Best Bank for CSR</span><br>
-											Asiamoney Awards 
+											Asiamoney Awards
 										</p>
 									</div>
 								</div>

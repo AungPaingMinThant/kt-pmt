@@ -563,7 +563,7 @@
 							<label for="aspect_cta_1_img" class="col-md-2 col-form-label">Image</label>
 							<small class="theme_text_color">Image Size & format ( 343 * 246 - webp )</small>
 							<input class="form-control" type="file" name="aspect_cta_1_img" id="aspect_cta_1_img" />
-							<input type="hidden" name="aspect_cta_1_img" id="page_desc_1" value="{{$page_data->aspect_cta_1_img}}">
+							<input type="text" name="aspect_cta_1_img_old" id="aspect_cta_1_img_old" value="{{$page_data->aspect_cta_1_img}}">
 
 							<div class="space-20"></div>
 							<label for="aspect_cta_1_title" class="col-form-label">Section Title</label>
@@ -578,7 +578,7 @@
 							<label for="aspect_cta_2_img" class="col-md-2 col-form-label">Image</label>
 							<small class="theme_text_color">Image Size & format ( 343 * 246 - webp )</small>
 							<input class="form-control" type="file" name="aspect_cta_2_img" id="aspect_cta_2_img" />
-							<input type="hidden" name="aspect_cta_2_img" id="page_desc_1" value="{{$page_data->aspect_cta_2_img}}">
+							<input type="hidden" name="aspect_cta_2_img_old" id="aspect_cta_2_img_old" value="{{$page_data->aspect_cta_2_img}}">
 
 							<div class="space-20"></div>
 							<label for="aspect_cta_2_title" class="col-form-label">Section Title</label>
@@ -593,7 +593,7 @@
 							<label for="aspect_cta_3_img" class="col-md-2 col-form-label">Image</label>
 							<small class="theme_text_color">Image Size & format ( 343 * 246 - webp )</small>
 							<input class="form-control" type="file" name="aspect_cta_3_img" id="aspect_cta_3_img" />
-							<input type="hidden" name="aspect_cta_3_img" id="page_desc_1" value="{{$page_data->aspect_cta_3_img}}">
+							<input type="hidden" name="aspect_cta_3_img_old" id="aspect_cta_3_img_old" value="{{$page_data->aspect_cta_3_img}}">
 
 							<div class="space-20"></div>
 							<label for="aspect_cta_3_title" class="col-form-label">Section Title</label>
@@ -642,7 +642,7 @@
 							<label for="aspect_cta_2_img" class="col-md-2 col-form-label">Image</label>
 							<small class="theme_text_color">Image Size & format ( 1100 * 366 - webp )</small>
 							<input class="form-control" type="file" name="brand_img" id="page_desc_1" />
-							<input type="hidden" name="brand_img" id="brand_img" value="{{$page_data->brand_img}}">
+							<input type="hidden" name="brand_img_old" id="brand_img_old" value="{{$page_data->brand_img}}">
 							
 						</div>
 					</div>
