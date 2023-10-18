@@ -249,7 +249,7 @@
 							<label for="corporate_goal_img_1" class="col-md-2 col-form-label">Image</label>
 							<small class="theme_text_color">Image Size & format ( 150 * 150 - webp )</small>
 							<input class="form-control" type="file" name="corporate_goal_img_1" id="corporate_goal_img_1" />
-							<input type="hidden" name="corporate_goal_img_1" id="corporate_goal_img_1" value="{!! $page_data->corporate_goal_img_1 !!}">
+							<input type="hidden" name="corporate_goal_img_1_old" id="corporate_goal_img_1_old" value="{!! $page_data->corporate_goal_img_1 !!}">
 						 </div>
 						 <div class="mb-6 row">
 							<input type="text" class="form-control" id="corporate_text_1" name="corporate_text_1" value="{!! $page_data->corporate_text_1 !!}" style="width: 300px">
@@ -260,7 +260,7 @@
 							<label for="corporate_goal_img_2" class="col-md-2 col-form-label">Image</label>
 							<small class="theme_text_color">Image Size & format ( 150 * 150 - webp )</small>
 							<input class="form-control" type="file" name="corporate_goal_img_2" id="corporate_goal_img_2" />
-							<input type="hidden" name="corporate_goal_img_2" id="corporate_goal_img_2" value="{!! $page_data->corporate_goal_img_2 !!}">
+							<input type="hidden" name="corporate_goal_img_2_old" id="corporate_goal_img_2_old" value="{!! $page_data->corporate_goal_img_2 !!}">
 						 </div>
 						 <div class="space-10"></div>
 						 <div class="mb-6 row">
@@ -272,7 +272,7 @@
 							<label for="corporate_goal_img_3" class="col-md-2 col-form-label">Image</label>
 							<small class="theme_text_color">Image Size & format ( 150 * 150 - webp )</small>
 							<input class="form-control" type="file" name="corporate_goal_img_3" id="corporate_goal_img_3" />
-							<input type="hidden" name="corporate_goal_img_3" id="corporate_goal_img_3" value="{!! $page_data->corporate_goal_img_3 !!}">
+							<input type="hidden" name="corporate_goal_img_3_old" id="corporate_goal_img_3_old" value="{!! $page_data->corporate_goal_img_3 !!}">
 						 </div>
 						 <div class="space-10"></div>
 						 <div class="mb-6 row">
@@ -283,7 +283,7 @@
 							<label for="corporate_goal_img_4" class="col-md-2 col-form-label">Image</label>
 							<small class="theme_text_color">Image Size & format ( 150 * 150 - webp )</small>
 							<input class="form-control" type="file" name="corporate_goal_img_4" id="corporate_goal_img_4" />
-							<input type="hidden" name="corporate_goal_img_4" id="corporate_goal_img_4" value="{!! $page_data->corporate_goal_img_4 !!}">
+							<input type="hidden" name="corporate_goal_img_4_old" id="corporate_goal_img_4_old" value="{!! $page_data->corporate_goal_img_4 !!}">
 						 </div>
 						 <div class="space-10"></div>
 						 <div class="mb-6 row">
@@ -339,7 +339,7 @@
 						<label for="customer_card_img_1" class="col-md-2 col-form-label">Image</label>
 						<small class="theme_text_color">Image Size & format ( 150 * 150 - webp )</small>
 						<input class="form-control" type="file" name="customer_card_img_1" id="customer_card_img_1" />
-						<input type="hidden" name="customer_card_img_1" id="customer_card_img_1" value="{!! $page_data->customer_card_img_1 !!}">
+						<input type="hidden" name="customer_card_img_1_old" id="customer_card_img_1_old" value="{!! $page_data->customer_card_img_1 !!}">
 					 </div>
 					<div class="sapce-20"></div>
 					<div class="mb-3 row">
@@ -360,7 +360,7 @@
 						<label for="customer_card_img_2" class="col-md-2 col-form-label">Image</label>
 						<small class="theme_text_color">Image Size & format ( 150 * 150 - webp )</small>
 						<input class="form-control" type="file" name="customer_card_img_2" id="customer_card_img_2" />
-						<input type="hidden" name="customer_card_img_2" id="customer_card_img_2" value="{!! $page_data->customer_card_img_2 !!}">
+						<input type="hidden" name="customer_card_img_2_old" id="customer_card_img_2_old" value="{!! $page_data->customer_card_img_2 !!}">
 					 </div>
 					<div class="sapce-20"></div>
 					<div class="mb-3 row">
@@ -412,7 +412,7 @@
 							<label for="community_card_img_1" class="col-md-2 col-form-label">Image</label>
 							<small class="theme_text_color">Image Size & format ( 150 * 150 - webp )</small>
 							<input class="form-control" type="file" name="community_card_img_1" id="community_card_img_1" />
-							<input type="hidden" name="community_card_img_1" id="community_card_img_1" value="{!! $page_data->community_card_img_1 !!}">
+							<input type="hidden" name="community_card_img_1_old" id="community_card_img_1_old" value="{!! $page_data->community_card_img_1 !!}">
 					 	</div>
 						<div class="sapce-20"></div>
 						<div class="mb-3 row">
@@ -433,7 +433,7 @@
 							<label for="community_card_img_2" class="col-md-2 col-form-label">Image</label>
 							<small class="theme_text_color">Image Size & format ( 150 * 150 - webp )</small>
 							<input class="form-control" type="file" name="community_card_img_2" id="community_card_img_2" />
-							<input type="hidden" name="community_card_img_2" id="community_card_img_2" value="{!! $page_data->community_card_img_2 !!}">
+							<input type="hidden" name="community_card_img_2_old" id="community_card_img_2_old" value="{!! $page_data->community_card_img_2 !!}">
 					 	</div>
 						<div class="sapce-20"></div>
 						<div class="mb-3 row">
@@ -485,7 +485,7 @@
 							<label for="staff_card_img_1" class="col-md-2 col-form-label">Image</label>
 							<small class="theme_text_color">Image Size & format ( 150 * 150 - webp )</small>
 							<input class="form-control" type="file" name="staff_card_img_1" id="staff_card_img_1" />
-							<input type="hidden" name="staff_card_img_1" id="staff_card_img_1" value="{!! $page_data->staff_card_img_1 !!}">
+							<input type="hidden" name="staff_card_img_1_old" id="staff_card_img_1_old" value="{!! $page_data->staff_card_img_1 !!}">
 					 	</div>
 						<div class="sapce-20"></div>
 						<div class="mb-3 row">
@@ -506,7 +506,7 @@
 							<label for="staff_card_img_2" class="col-md-2 col-form-label">Image</label>
 							<small class="theme_text_color">Image Size & format ( 150 * 150 - webp )</small>
 							<input class="form-control" type="file" name="staff_card_img_2" id="staff_card_img_2" />
-							<input type="hidden" name="staff_card_img_2" id="staff_card_img_2" value="{!! $page_data->staff_card_img_2 !!}">
+							<input type="hidden" name="staff_card_img_2_old" id="staff_card_img_2_old" value="{!! $page_data->staff_card_img_2 !!}">
 					 	</div>
 						<div class="sapce-20"></div>
 						<div class="mb-3 row">
@@ -584,7 +584,7 @@
 							<label for="stakeholder_card_img_1" class="col-md-2 col-form-label">Image</label>
 							<small class="theme_text_color">Image Size & format ( 150 * 150 - webp )</small>
 							<input class="form-control" type="file" name="stakeholder_card_img_1" id="stakeholder_card_img_1" />
-							<input type="hidden" name="stakeholder_card_img_1" id="stakeholder_card_img_1" value="{!! $page_data->stakeholder_card_img_1 !!}">
+							<input type="hidden" name="stakeholder_card_img_1_old" id="stakeholder_card_img_1_old" value="{!! $page_data->stakeholder_card_img_1 !!}">
 					 	</div>
 						<div class="sapce-20"></div>
 						<div class="mb-3 row">
@@ -605,7 +605,7 @@
 							<label for="stakeholder_card_img_2" class="col-md-2 col-form-label">Image</label>
 							<small class="theme_text_color">Image Size & format ( 150 * 150 - webp )</small>
 							<input class="form-control" type="file" name="stakeholder_card_img_2" id="stakeholder_card_img_2" />
-							<input type="hidden" name="staff_card_img_2" id="stakeholder_card_img_2" value="{!! $page_data->stakeholder_card_img_2 !!}">
+							<input type="hidden" name="stakeholder_card_img_2_old" id="stakeholder_card_img_2_old" value="{!! $page_data->stakeholder_card_img_2 !!}">
 					 	</div>
 						<div class="sapce-20"></div>
 						<div class="mb-3 row">
