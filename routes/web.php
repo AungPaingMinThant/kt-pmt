@@ -154,7 +154,7 @@ Route::post('/admin/corporate-goals/stakeholder/update','App\Http\Controllers\Ad
 
 // Awards
 Route::get('/admin/pagelist/about-aya/awards', 'App\Http\Controllers\Admin\AboutAYA\AwardsController@pageAwards');
-
+Route::post('/admin/pagelist/about-aya/awards-desc/update', 'App\Http\Controllers\Admin\AboutAYA\AwardsController@descAwards');
 
 
 Route::get('/admin/pagelist/about-aya/ayabank-profile/business_practices',
