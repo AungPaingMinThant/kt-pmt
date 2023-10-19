@@ -3,6 +3,7 @@
 @section('title', 'Motor Insurance – AYA Bank')
 <link rel="stylesheet" href="{{ url('/css/slide_tab.css') }}" />
 <link rel="stylesheet" href="{{ url('/css/pb_insurance.css') }}">
+<link rel="stylesheet" href="{{ url('/css/about-aya/ayabank-profile.css') }}">
 <style type="text/css">
 	.tab_data_row > .col-md-6 {
 		width: 49%;
@@ -151,31 +152,37 @@
 												<p style="color: #4e4e4e;">Coverage to enjoy premium discount by contributing additional excess charges. </p>
 											</div>
 											<div class="space-10"></div>
-											<div class="col-12">
-												<table class="table table-bordered" style="width:50%; margin-left: 30px; border-radius: 20px;">
-													<thead>
-													<tr>
-														<th style="width: 60px; background-color: #A5000B; color:#ffffff;">Additional Amount</th>
-														<th style="width: 60px; background-color: #A5000B; color:#ffffff;">Premium Discount</th>
-													</tr>
-													</thead>
-													<tbody>
-													<tr>
-														<td style="width: 60px;">MMK 200,000</td>
-														<td style="width: 60px;">MMK 25,000</td>
-													</tr>
-													<tr>
-														<td style="width: 60px;">MMK 300,000</td>
-														<td style="width: 60px;">MMK 35,000</td>
-													</tr>
-													<tr>
-														<td style="width: 60px;">MMK 500,000</td>
-														<td style="width: 60px;">MMK 60,000</td>
-													</tr>
-													</tbody>
-												</table>
+											<div class="row">
+												<div class="table-responsive text-nowrap sh_table_div" style="width: auto;">
+													<table class="table table-borderless sh_table" style="width: 550px;">
+														<thead>
+															<tr valign="middle">
+																<td class="f-white py-3 sh_first_td" width="250">Additional Excess Amount</td>
+																<td class="f-white py-3 sh_first_td" width="250">Premium Discount</td>
+															</tr>
+														</thead>
+														<tbody class="table-border-bottom-0" style="background-color: #fff;padding-right: 70px;">
+														</tbody>
+														<tbody class="table-border-bottom-0" style="background-color: #fff;padding-right: 70px;">
+															<tr>
+																<td class="sh_first_td b-t-l-radius-10 ">MMK 200,000</td>
+																<td class="sh_first_td b-t-r-radius-10 ">MMK 25,000</td>
+																
+															</tr>
+															<tr>
+																<td class="sh_first_td">MMK 300,000</td>
+																<td class="sh_first_td">MMK 35,000</td>
+															</tr>
+															<tr>
+																<td class="sh_first_td">MMK 500,000</td>
+																<td class="sh_first_td">MMK 60,000
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
 											</div>
-											<div class="space-10"></div>
+											<div class="space-20"></div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
@@ -233,33 +240,38 @@
 												</p>
 											</div>
 											<div class="space-10"></div>
-											<div class="col-12">
-												<table class="table table-bordered" style="width:80%; margin-left: 30px; border-radius: 20px;">
-													<thead>
-													<tr>
-														<th style="width: 60px; background-color: #A5000B; color:#ffffff;">Period</th>
-														<th style="width: 60px; background-color: #A5000B; color:#ffffff;">Second Year</th>
-														<th style="width: 60px; background-color: #A5000B; color:#ffffff;">Third Year</th>
-														<th style="width: 60px; background-color: #A5000B; color:#ffffff;">Fourth Year and Above</th>
-													</tr>
-													</thead>
-													<tbody>
-													<tr>
-														<td style="width: 60px;">Private Vehicle</td>
-														<td style="width: 60px;">25%</td>
-														<td style="width: 60px;">30%</td>
-														<td style="width: 60px;">40%</td>
-													</tr>
-													<tr>
-														<td style="width: 60px;">Commercial Vehicle</td>
-														<td style="width: 60px;">15%</td>
-														<td style="width: 60px;">20%</td>
-														<td style="width: 60px;">25%</td>
-													</tr>
-													</tbody>
-												</table>
+											<div class="row">
+												<div class="table-responsive text-nowrap sh_table_div" style="width: auto;">
+													<table class="table table-borderless sh_table" style="width: 750px;">
+														<thead>
+															<tr valign="middle">
+																<td class="f-white py-3 sh_first_td" width="150">Period</td>
+																<td class="f-white py-3 sh_first_td" width="110">Second Year</td>
+																<td class="f-white py-3 sh_first_td" width="110">Third Year</td>
+																<td class="f-white py-3 sh_first_td" width="180">Fourth Year and Above</td>
+															</tr>
+														</thead>
+														<tbody class="table-border-bottom-0" style="background-color: #fff;padding-right: 70px;">
+														</tbody>
+														<tbody class="table-border-bottom-0" style="background-color: #fff;padding-right: 70px;">
+															<tr>
+																<td class="sh_first_td b-t-l-radius-10 ">Private Vehicle</td>
+																<td class="sh_first_td">25%</td>
+																<td class="sh_first_td">30%</td>
+																<td class="sh_first_td b-t-r-radius-10 ">40%</td>
+																
+															</tr>
+															<tr>
+																<td class="sh_first_td">Commercial Vehicle</td>
+																<td class="sh_first_td">15%</td>
+																<td class="sh_first_td">20%</td>
+																<td class="sh_first_td">25%</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
 											</div>
-											<div class="space-10"></div>
+											<div class="space-20"></div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
