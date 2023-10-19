@@ -107,8 +107,8 @@
 		                        			<img src="{{ url('/images/business/borrowing/sme/moe_fashion.jpg') }}" class="img-fluid">
 		                        		</div>
 		                        		<div class="col-md-6 info_div">
-		                        			<p class="juno_desc" style="color: #000;">“For a dedicated owner of fashion shop, AYA Bank's SME - Micro Loan helped the business thrive, bringing in more satisfied customers than ever!”</p>
-		                        			<p class="description juno_desc" style="color: #000;">With the support of AYA Bank's Micro Loan, I've been able to stock my store with the latest fashion trends. This has not only elevated my business but also expanded the choices available to my customers.</p>
+		                        			<p class="juno_desc" style="color: #000;">For a dedicated owner of fashion shop, AYA Bank's SME - Micro Loan helped the business thrive, bringing in more satisfied customers than ever!</p>
+		                        			<p class="description juno_desc" style="color: #000;">“With the support of AYA Bank's Micro Loan, I've been able to stock my store with the latest fashion trends. This has not only elevated my business but also expanded the choices available to my customers.”</p>
 		                        			<p class="description moe_fashion_name_property"><b>Ma Thu Zar Moe</b><br>Moe Fashion Shop (Owner)</p>
 		                        		</div>
 		                        	</div>
@@ -123,7 +123,7 @@
 		                        		<div class="col-md-6 info_div">
 		                        			<p class="phz_desc" style="color: #000;">“How AYA SME loan gave this mobile shop owner a competitive advantage to expand his business”</p>
 		                        			<p class="description phz_desc" style="color: #000;">I've been dreaming about expanding my Snoopy mobile shop business across the nation. With the financial assistance of AYA SME Financing Solutions, I was able to realize my dream and open a total of 9 mobile shops.</p>
-		                        			<p class="description phz_name_property"><b>Phyo Hein Zaw</b><br>Snoopy Mobile</p>
+		                        			<p class="description phz_name_property"><b>Ko Phyo Hein Zaw</b><br>Snoopy Mobile</p>
 		                        		</div>
 		                        	</div>
 		                        </div>
