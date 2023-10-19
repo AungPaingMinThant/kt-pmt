@@ -83,7 +83,7 @@
 	box-shadow: 0 0 30px 10px rgb(0 0 0 / 9%) !important;
 	padding: 0 !important;
 	width: auto;
-	margin-left: 50px;
+	margin-left:40px;
 }
 .sh_table {
 	border-radius: 10px;
@@ -92,6 +92,7 @@
 	margin-bottom: 0px !important;
 	width: auto;
 	
+
 
 }
 .sh_first_td {

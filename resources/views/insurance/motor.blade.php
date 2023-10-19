@@ -242,12 +242,12 @@
 											<div class="space-10"></div>
 											<div class="row">
 												<div class="table-responsive text-nowrap sh_table_div" style="width: auto;">
-													<table class="table table-borderless sh_table" style="width: 900px;">
+													<table class="table table-borderless sh_table" style="width: 750px;">
 														<thead>
 															<tr valign="middle">
-																<td class="f-white py-3 sh_first_td" width="175">Period</td>
-																<td class="f-white py-3 sh_first_td" width="130">Second Year</td>
-																<td class="f-white py-3 sh_first_td" width="130">Third Year</td>
+																<td class="f-white py-3 sh_first_td" width="150">Period</td>
+																<td class="f-white py-3 sh_first_td" width="110">Second Year</td>
+																<td class="f-white py-3 sh_first_td" width="110">Third Year</td>
 																<td class="f-white py-3 sh_first_td" width="180">Fourth Year and Above</td>
 															</tr>
 														</thead>
