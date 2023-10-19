@@ -28,6 +28,4 @@ class AwardsController extends Controller
                     ]);
             return redirect('admin/pagelist/about-aya/awards');
     }
-
-    
 }
