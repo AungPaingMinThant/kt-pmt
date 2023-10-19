@@ -843,7 +843,7 @@
 		</div>
 	</div>
 </div>
-
+<input type="hidden" id="app_url" value="{{ url('/') }}">
 <nav class="navbar navbar-default mobile_menu">
     <div class="container-fluid">
         <div class="navbar-header" style="padding: 10px 0px;">
@@ -874,11 +874,14 @@
                     @else
                     	<span class="dropdown-toggle menu_link" style="color: #222222;padding-right: 140px !important;">
                     @endif
-                    	PERSONAL BANKING &nbsp; <i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+                    	<span onclick="pageLoad('/personal-banking')">PERSONAL BANKING</span> &nbsp; <i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
                     </span>
                     <div class="col-12 personal-dropdown-content left-menu-div" style="display: none;">
 						<div class="row nav-item dropdown menu-link personal-menu-ac-sav-link">
-							<span class="nav-link" href="javascript:void(0)" id="PAnavbarDropdown" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ACCOUNTS AND SAVINGS</span>
+							<span class="nav-link" href="javascript:void(0)" id="PAnavbarDropdown" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<a onclick="pageLoad('/personal-banking/account-saving')">ACCOUNTS AND SAVINGS</a>
+								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+							</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-3">
@@ -966,7 +969,10 @@
 							</ul>
 						</div>
 						<div class="row menu-link personal-menu-borrow-link">
-							<span class="nav-link" data-bs-toggle="dropdown"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BORROWING</span>
+							<span class="nav-link" data-bs-toggle="dropdown"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<a onclick="pageLoad('/personal-banking/borrowing')">BORROWING</a>
+								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+							</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-3">
@@ -991,7 +997,10 @@
 							</ul>
 						</div>
 						<div class="row menu-link personal-menu-remit-link">
-							<span class="nav-link" href="javascript:void(0)" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">REMITTANCE AND PAYMENTS</span>
+							<span class="nav-link" href="javascript:void(0)" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<a onclick="pageLoad('/personal-banking/remittance')">REMITTANCE AND PAYMENTS</a>
+								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+							</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 ">
@@ -1014,7 +1023,10 @@
 							<a class="nav-link royal-banking-mobile" href="{{ url('/personal-banking/royal-banking') }}" >ROYAL BANKING</a>
 						</div>
 						<div class="row menu-link personal-menu-ins-link">
-							<span class="nav-link" href="javascript:void(0)" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">INSURANCE</span>
+							<span class="nav-link" href="javascript:void(0)" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<a onclick="pageLoad('/personal-banking/insurance')">INSURANCE</a>
+								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+							</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-3">
@@ -1079,7 +1091,10 @@
 							</ul>
 						</div>
 						<div class="row menu-link personal-menu-other-link">
-							<span class="other-menu nav-link" href="javascript:void(0)" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">OTHER SERVICES</span>
+							<span class="other-menu nav-link" href="javascript:void(0)" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="width: 90%">
+								<a onclick="pageLoad('/personal-banking/other-services')">OTHER SERVICES</a>
+								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+							</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
@@ -1097,11 +1112,15 @@
                 </li>
                 
                 <li class="business-banking-li" style="padding: 10px 0px;position: relative;">
-                    <span class="dropdown-toggle menu_link" style="color: #222222;padding-right: 140px !important;">BUSINESS BANKING &nbsp; <i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i></span>
+                    <span class="dropdown-toggle menu_link" style="color: #222222;padding-right: 140px !important;">
+                    	<span onclick="pageLoad('/business-banking')">BUSINESS BANKING</span> &nbsp; <i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i></span>
 
                     <div class="col-12 business-dropdown-content left-menu-div" style="display: none;">
 						<div class="row nav-item dropdown menu-link business-menu-ac-sav-link">
-							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ACCOUNTS AND SAVINGS</span>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<a onclick="pageLoad('/business-banking/account-saving')">ACCOUNTS AND SAVINGS</a>
+								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+							</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
@@ -1126,7 +1145,10 @@
 							</ul>
 						</div>
 						<div class="row menu-link business-menu-remit-link">
-							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">REMITTANCE AND PAYMENTS</span>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<a onclick="pageLoad('/business-banking/remittance')">REMITTANCE AND PAYMENTS</a>
+								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+							</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
@@ -1141,7 +1163,10 @@
 							</ul>
 						</div>
 						<div class="row menu-link business-menu-borrow-link">
-							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BORROWING</span>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<a onclick="pageLoad('/business-banking/borrowing')">BORROWING</a>
+								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+							</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
@@ -1161,7 +1186,10 @@
 							</ul>
 						</div>
 						<div class="row menu-link business-menu-trade-link">
-							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TRADE</span>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<a onclick="pageLoad('/business-banking/trade')">TRADE</a>
+								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+							</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
@@ -1176,7 +1204,10 @@
 							</ul>
 						</div>
 						<div class="row menu-link business-menu-cash-management-link">
-							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CASH MANAGEMENT</span>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<a onclick="pageLoad('/business/cash-management')">CASH MANAGEMENT</a>
+								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+							</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
@@ -1201,7 +1232,10 @@
 							</ul>
 						</div>
 						<div class="row menu-link business-menu-ins-link">
-							<span class="other-menu nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">INSURANCE</span>
+							<span class="other-menu nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="width: 90%">
+								<a onclick="pageLoad('/business-banking/insurance')">INSURANCE</a>
+								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+							</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
@@ -1248,11 +1282,15 @@
 					</div>
                 </li>
                 <li class="digital-services-li" style="padding: 10px 0px;position: relative;">
-                    <span class="dropdown-toggle menu_link" style="color: #222222;padding-right: 140px !important;">DIGITAL SERVICES &nbsp; <i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i></span>
+                    <span class="dropdown-toggle menu_link" style="color: #222222;padding-right: 140px !important;">
+                    	<span onclick="pageLoad('/digital-services')">DIGITAL SERVICES</span> &nbsp; <i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i></span>
 
                     <div class="col-12 digital-dropdown-content left-menu-div" style="display: none;">
 						<div class="row nav-item dropdown menu-link business-menu-ac-sav-link">
-							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ONLINE PAYMENT SERVICES</span>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<a onclick="pageLoad('/digital-services/online-payment-services')">ONLINE PAYMENT SERVICES</a>
+								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+							</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
@@ -1272,7 +1310,10 @@
 							</ul>
 						</div>
 						<div class="row menu-link business-menu-remit-link">
-							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CARD SERVICES</span>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<a onclick="pageLoad('/digital-services/card-services')">CARD SERVICES</a>
+								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+							</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-2">
@@ -1332,7 +1373,10 @@
 							</ul>
 						</div>
 						<div class="row menu-link business-menu-borrow-link">
-							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ATM</span>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<a onclick="pageLoad('/digital-services/atm')">ATM</a>
+								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+							</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item mb-20 mt-2">
@@ -1342,7 +1386,10 @@
 							</ul>
 						</div>
 						<div class="row menu-link business-menu-trade-link">
-							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WALLET SOLUTION</span>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<a onclick="pageLoad('/digital-services/wallet-solution')">WALLET SOLUTION</a>
+								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+							</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item mb-20 mt-2">
@@ -1352,7 +1399,10 @@
 							</ul>
 						</div>
 						<div class="row menu-link business-menu-cash-management-link">
-							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GUIDELINE</span>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<a onclick="pageLoad('/digital-services/guideline')">GUIDELINE</a>
+								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+							</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
@@ -1374,11 +1424,15 @@
 					</div>
                 </li>
                 <li class="about-aya-li" style="padding: 10px 0px;position: relative;">
-                    <span class="dropdown-toggle menu_link" style="color: #222222;padding-right: 140px !important;">ABOUT AYA &nbsp; <i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i></span>
+                    <span class="dropdown-toggle menu_link" style="color: #222222;padding-right: 140px !important;">
+                    	<span onclick="pageLoad('/about-aya')">ABOUT AYA</span> &nbsp; <i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i></span>
 
                     <div class="col-12 about-aya-dropdown-content left-menu-div" style="display: none;">
 						<div class="row nav-item dropdown menu-link about-aya-menu-who-we-are-link">
-							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WHO WE ARE</span>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<a onclick="pageLoad('/about-aya/who-we-are')">WHO WE ARE</a>
+								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+							</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-2">
@@ -1473,7 +1527,10 @@
 							</ul>
 						</div>
 						<div class="row menu-link about-aya-menu-career-link">
-							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CAREER</span>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<a onclick="pageLoad('/about-aya/career')">CAREER</a>
+								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+							</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
@@ -1498,7 +1555,10 @@
 							</ul>
 						</div>
 						<div class="row menu-link about-aya-menu-governance-link">
-							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GOVERNANCE</span>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<a onclick="pageLoad('/about-aya/governance')">GOVERNANCE</a>
+								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+							</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-2">
@@ -1603,7 +1663,10 @@
 							</ul>
 						</div>
 						<div class="row menu-link about-aya-menu-sustainability-link">
-							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SUSTAINABILITY</span>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<a onclick="pageLoad('/about-aya/sustainability')">SUSTAINABILITY</a>
+								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+							</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
@@ -1643,7 +1706,10 @@
 							</ul>
 						</div>
 						<div class="row menu-link about-aya-menu-newsroom-link">
-							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">NEWSROOM</span>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<a onclick="pageLoad('/about-aya/news-room')">NEWSROOM</a>
+								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+							</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
@@ -1673,7 +1739,10 @@
 							</ul>
 						</div>
 						<div class="row menu-link about-aya-menu-network-link">
-							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">NETWORK</span>
+							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<a onclick="pageLoad('/about-aya/network')">NETWORK</a>
+								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+							</span>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">

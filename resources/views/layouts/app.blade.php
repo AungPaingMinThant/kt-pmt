@@ -32,6 +32,9 @@
         .form-control, .form-select, input::file-selector-button {
             color: #566a7f !important;
         }
+        .js-cookie-consent {
+            display: none;
+        }
     </style>
 
     <script src="{{ url('/js/helpers.js') }}"></script>
