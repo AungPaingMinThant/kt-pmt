@@ -685,7 +685,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/insurance') }}" style="color: #666;">INSURANCE</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/personal-banking/insurance/general') }}" style="color: #666;text-transform: uppercase;">General Insurance</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #A5000B;">MOTOR INSURANCE</span>
+				<span style="color: #A5000B;">MOTOR VEHICLE INSURANCE</span>
 			</p>
 		</div>
 	</div>
@@ -2797,7 +2797,7 @@
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/business-banking') }}" style="color: #666;">BUSINESS BANKING</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;<a href="{{ url('/business-banking/insurance') }}" style="color: #666;">INSURANCE</a>&nbsp;
 				<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;
-				<span style="color: #A5000B;">MOTOR INSURANCE</span>
+				<span style="color: #A5000B;">MOTOR VEHICLE INSURANCE</span>
 			</p>
 		</div>
 	</div>

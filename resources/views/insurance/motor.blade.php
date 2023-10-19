@@ -3,7 +3,6 @@
 @section('title', 'Motor Insurance – AYA Bank')
 <link rel="stylesheet" href="{{ url('/css/slide_tab.css') }}" />
 <link rel="stylesheet" href="{{ url('/css/pb_insurance.css') }}">
-<link rel="stylesheet" href="{{ url('/css/about-aya/ayabank-profile.css') }}">
 <style type="text/css">
 	.tab_data_row > .col-md-6 {
 		width: 49%;
@@ -153,8 +152,8 @@
 											</div>
 											<div class="space-10"></div>
 											<div class="row">
-												<div class="table-responsive text-nowrap sh_table_div" style="width: auto;">
-													<table class="table table-borderless sh_table" style="width: 550px;">
+												<div class="table-responsive text-nowrap sh_table_div" >
+													<table class="table table-borderless sh_table">
 														<thead>
 															<tr valign="middle">
 																<td class="f-white py-3 sh_first_td" width="250">Additional Excess Amount</td>
@@ -241,8 +240,8 @@
 											</div>
 											<div class="space-10"></div>
 											<div class="row">
-												<div class="table-responsive text-nowrap sh_table_div" style="width: auto;">
-													<table class="table table-borderless sh_table" style="width: 750px;">
+												<div class="table-responsive text-nowrap sh_table_div">
+													<table class="table table-borderless sh_table">
 														<thead>
 															<tr valign="middle">
 																<td class="f-white py-3 sh_first_td" width="150">Period</td>

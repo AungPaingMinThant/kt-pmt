@@ -29,7 +29,7 @@
                             <div class="card h-100 sitemap_card">
                                 <img class="card-img-top" src="{{ url('/images/insurance/motor/family.png') }}" alt="Card image cap" />
                                 <div class="card-body">
-                                    <h5 class="card-title">Motor Insurance</h5>
+                                    <h5 class="card-title">Motor Vehicle Insurance</h5>
                                     <p class="card-text">
                                         <a class="theme_text_color" href="{{ url('/personal-banking/insurance/general/motor') }}">Explore more <i class="menu-icon tf-icons bx bx-right-arrow-alt"></i></a>
                                     </p>
