@@ -1040,7 +1040,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5 m-l-20">
-										<a href="{{ url('/personal-banking/insurance/general/motor') }}">Motor Insurance</a>
+										<a href="{{ url('/personal-banking/insurance/general/motor') }}">Motor Vehicle Insurance</a>
 									</p>
 								</li>
 								<li>
@@ -1249,7 +1249,7 @@
 								</li>
 								<li>
 									<p class="dropdown-item m-b-5">
-										<a href="{{ url('/business/insurance/motor') }}">Motor Insurance</a>
+										<a href="{{ url('/business/insurance/motor') }}">Motor Vehicle Insurance</a>
 									</p>
 								</li>
 								<li>
