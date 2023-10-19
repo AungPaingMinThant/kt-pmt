@@ -202,18 +202,18 @@
     $(".menu-overlay").click(function(event) {
         $(".navbar-toggle").trigger("click");
         $(".menu-overlay").fadeOut(500);
-        $(".landing_carousel").css('z-index','2');
+        $(".landing_carousel").css('z-index','0');
     });
     $("#navbar_close").click(function(event) {
         $(".navbar-toggle").trigger("click");
         $(".menu-overlay").fadeOut(500);
-        $(".landing_carousel").css('z-index','2');
+        $(".landing_carousel").css('z-index','0');
     });
     
     $(".dropdown-menu > li").click(function(event) {
         $(".navbar-toggle").trigger("click");
         $(".menu-overlay").fadeOut(500);
-        $(".landing_carousel").css('z-index','2');
+        $(".landing_carousel").css('z-index','0');
     });
 
     mybutton = document.getElementById("go_to_top");
@@ -449,5 +449,14 @@
     function pageLoad(page_url) {
         var app_url = $("#app_url").val();
         location.href = app_url + page_url;
+    }
+
+    function menuTog(tog_ev) {
+        var url = window.location.href;
+        var app_url = $("#app_url").val() + '/';
+
+        if (url == app_url) {
+            $("."+tog_ev).slideToggle();
+        }
     }
 </script>

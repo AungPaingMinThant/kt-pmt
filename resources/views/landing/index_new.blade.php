@@ -651,11 +651,11 @@
 		}
 	});
 
-  	// document.getElementById('layout-wrapper').addEventListener('click', function(event) {
-	// 	if (!event.target.classList.contains('CTA_section_1_info') && !event.target.classList.contains('inputGroupSelect01') && !event.target.classList.contains('input-group') && !event.target.classList.contains('CTA_section_1_info_mobile') && !event.target.classList.contains('menu-icon')) {
-	// 		$('select[id=inputGroupSelect01] > option:first-child').text('get a home loan to fulfil my dream');
-	// 	}
-	// });
+  	document.getElementById('layout-wrapper').addEventListener('click', function(event) {
+		if (!event.target.classList.contains('CTA_section_1_info') && !event.target.classList.contains('inputGroupSelect01') && !event.target.classList.contains('input-group') && !event.target.classList.contains('CTA_section_1_info_mobile')) {
+			$('select[id=inputGroupSelect01] > option:first-child').text('get a home loan to fulfil my dream');
+		}
+	});
 	
 
 	$("#inputGroupSelect01").change(function(e) {
@@ -729,12 +729,10 @@
 	});
 
   	document.getElementById('layout-wrapper').addEventListener('click', function(event) {
-  		// console.log(event.target.classList);
-		// if (!event.target.classList.contains('CTA_section_2_info') && !event.target.classList.contains('inputGroupSelect02') && !event.target.classList.contains('input-group') && !event.target.classList.contains('CTA_section_2_info_mobile') && !event.target.classList.contains('menu-icon'))
-		// {
-		// 	$('select[id=inputGroupSelect02] > option:first-child').text('get corporate loan for business expansion');
-		// }
-
+  		console.log(event.target.classList);
+		if (!event.target.classList.contains('CTA_section_2_info') && !event.target.classList.contains('inputGroupSelect02') && !event.target.classList.contains('input-group') && !event.target.classList.contains('CTA_section_2_info_mobile')) {
+			$('select[id=inputGroupSelect02] > option:first-child').text('get corporate loan for business expansion');
+		}
 	});
 	
 
@@ -855,10 +853,10 @@
 	});
 
   	document.getElementById('layout-wrapper').addEventListener('click', function(event) {
-  		// console.log(event.target.classList);
-		// if (!event.target.classList.contains('CTA_section_3_info') && !event.target.classList.contains('inputGroupSelect03') && !event.target.classList.contains('input-group') && !event.target.classList.contains('menu-icon')) {
-		// 	$('select[id=inputGroupSelect03] > option:first-child').text('Branch');
-		// }
+  		console.log(event.target.classList);
+		if (!event.target.classList.contains('CTA_section_3_info') && !event.target.classList.contains('inputGroupSelect03') && !event.target.classList.contains('input-group')) {
+			$('select[id=inputGroupSelect03] > option:first-child').text('Branch');
+		}
 	});
 
 	$('#inputGroupSelect03').change(function(){

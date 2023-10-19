@@ -647,7 +647,7 @@
 	</div>
 
 	@include('layouts.admin-footer', ['page'=>''])
-
+	<script src="{!! url('/assets/tinymce/js/tinymce/tinymce.min.js') !!}" referrerpolicy="origin"></script>
 	<script type="text/javascript">
 		$("#image_break").change(function() {
 			$("#image_break_old").val('');
