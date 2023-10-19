@@ -697,13 +697,13 @@
 						<img src="{{ url('/images/insurance/motor/family.png') }}" class="img-fluid">
 					</div>
 					<div class="col-md-6 tagline_div">
-						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Motor<br>Insurance</h1>
+						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Motor Vehicle<br>Insurance</h1>
 						<hr style="height: 5px;color: #A5000B;width: 20%;margin: 0px 0px 20px 0px;">
 						<h1 style="font-size: 15px;font-weight: 400;">
-							Uncertainties are nature of our life and even the road trips can be stressful for you.
+							Motor Vehicle Insurance provides a full range of protection features that keep up with your needs.
 						</h1>
 						<h1 style="font-size: 15px;font-weight: 400;">
-							Protect yourself and those that matter to you from losses resulting from unforeseen accidents. A motor insurance with a full range of protection features that keep up with your needs is all you need.
+							The plan covers not only your car, but anyone who is traveling with you. You can now enjoy your ride knowing you’re fully protected.
 						</h1>
 					</div>
 				</div>
@@ -2809,13 +2809,13 @@
 						<img src="{{ url('/images/insurance/motor/family.png') }}" class="img-fluid">
 					</div>
 					<div class="col-md-6 tagline_div">
-						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Motor<br>Insurance</h1>
+						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Motor Vehicle<br>Insurance</h1>
 						<hr style="height: 5px;color: #A5000B;width: 20%;margin: 0px 0px 20px 0px;">
 						<h1 style="font-size: 15px;font-weight: 400;">
-							Uncertainties are nature of our life and even the road trips can be stressful for you.
+							Motor Vehicle Insurance provides a full range of protection features that keep up with your needs.
 						</h1>
 						<h1 style="font-size: 15px;font-weight: 400;">
-							Protect yourself and those that matter to you from losses resulting from unforeseen accidents. A motor insurance with a full range of protection features that keep up with your needs is all you need.
+							The plan covers not only your car, but anyone who is traveling with you. You can now enjoy your ride knowing you’re fully protected.
 						</h1>
 					</div>
 				</div>

@@ -69,8 +69,8 @@
 												<img src="{{ url('/images/insurance/motor/loss_damage_vehicle.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 											</div>
 											<div class="col-md-10">
-												<p style="font-weight: 600;">Loss/Damage to vehicle</p>
-												<p style="color: #4e4e4e;">Coverage for loss or damage to own vehicle due to accident, fire, and/or lightning (up to the maximum amount of total coverage)</p>
+												<p style="font-weight: 600;">Loss or Damage to vehicle </p>
+												<p style="color: #4e4e4e;">Coverage for loss or damage to own vehicle due to accident, fire, and/or lightning (up to the maximum amount of total coverage) </p>
 											</div>
 										</div>
 									</div>
@@ -81,7 +81,7 @@
 											</div>
 											<div class="col-md-10">
 												<p style="font-weight: 600;">Death and Injury Benefits</p>
-												<p style="color: #4e4e4e;">Coverage for death and disability up to MMK 1 million and payout according to scale of injury prescribed.</p>
+												<p style="color: #4e4e4e;">Coverage for death and disability up to MMK 3 million and payout according to scale of injury prescribed. </p>
 											</div>
 										</div>
 									</div>
@@ -103,7 +103,7 @@
 											</div>
 											<div class="col-md-10">
 												<p style="font-weight: 600;">Liabilities for Third Parties</p>
-												<p style="color: #4e4e4e;">Compensation liability for another person’s death, bodily injury, property loss and damage (up to MMK 50 million maximum coverage amount.</p>
+												<p style="color: #4e4e4e;">Compensation liability for another person’s death, bodily injury, property loss and damage (up to MMK 50 million maximum coverage amount).</p>
 											</div>
 										</div>
 									</div>
@@ -120,14 +120,14 @@
 											</div>
 											<div class="col-11 list_margin">
 												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Strike, Riot, Civil Commotion</p>
-												<p style="color: #4e4e4e;">Coverage for loss or damage due to strike or riot.</p>
+												<p style="color: #4e4e4e;">Coverage for loss or damage due to strike or riot and/or civil commotions</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-11 list_margin">
 												<p style="color: #000;font-weight: 600;margin-bottom: 0;">War Risk</p>
-												<p style="color: #4e4e4e;">Coverage for loss or damage due to events such as war, mutiny, rebellion, revolution, military, or usurped power</p>
+												<p style="color: #4e4e4e;">Coverage for loss or damage due to events such as war, mutiny, rebellion, revolution, military, or usurped power or by any other fighting acts</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
@@ -143,6 +143,33 @@
 												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Theft</p>
 												<p style="color: #4e4e4e;">Coverage for loss or damage to vehicle due to theft</p>
 											</div>
+											
+											<div class="space-10"></div>
+											<div class="col-12">
+												<table class="table table-bordered" style="width:50%; margin-left: 30px; border-radius: 20px;">
+													<thead>
+													<tr>
+														<th style="width: 60px; background-color: #A5000B; color:#ffffff;">Additional Amount</th>
+														<th style="width: 60px; background-color: #A5000B; color:#ffffff;">Premium Discount</th>
+													</tr>
+													</thead>
+													<tbody>
+													<tr>
+														<td style="width: 60px;">MMK 200,000</td>
+														<td style="width: 60px;">MMK 25,000</td>
+													</tr>
+													<tr>
+														<td style="width: 60px;">MMK 300,000</td>
+														<td style="width: 60px;">MMK 35,000</td>
+													</tr>
+													<tr>
+														<td style="width: 60px;">MMK 500,000</td>
+														<td style="width: 60px;">MMK 60,000</td>
+													</tr>
+													</tbody>
+												</table>
+											</div>
+											<div class="space-10"></div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
@@ -150,19 +177,12 @@
 												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Acts of God</p>
 												<p style="color: #4e4e4e;">Coverage for loss or damage due to flood, windstorm, typhoon, hurricane, volcanic eruption, earthquake, landslide, landslip, or subsidence.</p>
 											</div>
-										</div>
-									</div>
-									<div class="space-40"></div>
-									<div class="col-md-12">
-										<div class="row">
-											<div class="col-md-12">
-												<p style="font-size: 20px;font-weight: 600;">Eligibility</p>
-											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-11 list_margin">
-												<p style="color: #4e4e4e;">Any legally registered motor vehicles, or fleets of vehicles, of private or public use.</p>
+												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Betterment</p>
+												<p style="color: #4e4e4e;">Coverage for repairing or replacing the damaged parts of vehicle with better parts</p>
 											</div>
 										</div>
 									</div>
@@ -180,35 +200,66 @@
 											</div>
 											<div class="col-11 list_margin">
 												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Emergency Towing Assistance</p>
-												<p style="color: #4e4e4e;">Emergency towing services following an accident and coverage up to MMK 100,000</p>
-											</div>
-											<div class="col-1">
-												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-											</div>
-											<div class="col-11 list_margin">
-												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Legal Expenses</p>
-												<p style="color: #4e4e4e;">Coverage for legal expenses in the event of motor prosecution up to MMK 200,000</p>
-											</div>
-											<div class="col-1">
-												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
-											</div>
-											<div class="col-11 list_margin">
-												<p style="color: #000;font-weight: 600;margin-bottom: 0;">24-Hour Compensation Claims Services</p>
-												<p style="color: #4e4e4e;">Contact for services from our 24/7 support team in the event of any arising emergency and/or claim.</p>
+												<p style="color: #4e4e4e;">Emergency towing services following an accident and coverage up to MMK 300,000</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-11 list_margin">
 												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Fleet Discount</p>
-												<p style="color: #4e4e4e;">Up to 10% of fleet discount will be offered under the insured’s name.</p>
+												<p style="color: #4e4e4e;">Up to 10% of fleet discount will be offered under the insured’s name.
+												</p>
+											</div>
+											<div class="col-1">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-11 list_margin">
+												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Legal Expenses</p>
+												<p style="color: #4e4e4e;">Coverage for legal expenses in the event of motor prosecution up to MMK 500,000
+												</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
 											</div>
 											<div class="col-11 list_margin">
 												<p style="color: #000;font-weight: 600;margin-bottom: 0;">No Claim Bonus (NCB)</p>
-												<p style="color: #4e4e4e;">No Claim Bonus up to 40% if claims are not being made 3 years and above.</p>
+												<p style="color: #4e4e4e;">No Claim Bonus up to 40% if claims are not being made 3 years and above.
+												</p>
+											</div>
+											<div class="space-10"></div>
+											<div class="col-12">
+												<table class="table table-bordered" style="width:80%; margin-left: 30px; border-radius: 20px;">
+													<thead>
+													<tr>
+														<th style="width: 60px; background-color: #A5000B; color:#ffffff;">Period</th>
+														<th style="width: 60px; background-color: #A5000B; color:#ffffff;">Second Year</th>
+														<th style="width: 60px; background-color: #A5000B; color:#ffffff;">Third Year</th>
+														<th style="width: 60px; background-color: #A5000B; color:#ffffff;">Fourth Year and Above</th>
+													</tr>
+													</thead>
+													<tbody>
+													<tr>
+														<td style="width: 60px;">Private Vehicle</td>
+														<td style="width: 60px;">25%</td>
+														<td style="width: 60px;">30%</td>
+														<td style="width: 60px;">40%</td>
+													</tr>
+													<tr>
+														<td style="width: 60px;">Commercial Vehicle</td>
+														<td style="width: 60px;">15%</td>
+														<td style="width: 60px;">20%</td>
+														<td style="width: 60px;">25%</td>
+													</tr>
+													</tbody>
+												</table>
+											</div>
+											<div class="space-10"></div>
+											<div class="col-1">
+												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+											</div>
+											<div class="col-11 list_margin">
+												<p style="color: #000;font-weight: 600;margin-bottom: 0;">24-Hour Emergency Claim Service</p>
+												<p style="color: #4e4e4e;">Contact for services from our 24/7 support team in the event of any arising emergency and/or claim.  </p>
 											</div>
 										</div>
 									</div>
@@ -222,6 +273,18 @@
 									<div class="col-md-11">
 										<div class="row">
 											<div class="col-md-12">
+												<p style="font-size: 20px;font-weight: 600;">Maximum policy term 1 year (renewable on a yearly basis)</p>
+												<ul>
+													<li>Minimum policy terms up to 3, 6, and 9 months are applicable.</li>
+												</ul>
+											</div>
+											<div class="col-md-12">
+												<p style="font-size: 20px;font-weight: 600;">Sum Insured (Car Value)</p>
+												<ul>
+													<li>Market value of the vehicle</li>
+												</ul>
+											</div>
+											<div class="col-md-12">
 												<p style="font-size: 20px;font-weight: 600;">Premium Rating</p>
 												<p>0.8% to 2% on sum insured (car value)<br>Subject to – </p>
 												<ul>
@@ -230,10 +293,19 @@
 													<li>Engine C.C</li>
 												</ul>
 											</div>
-
+											<div class="space-40"></div>
 											<div class="col-md-12">
-												<p style="font-size: 20px;font-weight: 600;">Policy Term</p>
-												<p>Maximum policy term 1 year (renewable on a yearly basis)<br>Minimum policy term up to 3,6,9 months are applicable. </p>
+												<div class="row">
+													<div class="col-md-12">
+														<p style="font-size: 20px;font-weight: 600;">Eligibility</p>
+													</div>
+													<div class="col-1">
+														<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
+													</div>
+													<div class="col-11 list_margin">
+														<p style="color: #4e4e4e;">Any legally registered motor vehicles, or fleets of vehicles, of private or public use.</p>
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>
