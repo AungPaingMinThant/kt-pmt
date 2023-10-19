@@ -714,7 +714,7 @@
 						<img src="{{ url('/images/insurance/motor/family.png') }}" class="img-fluid">
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
-						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Motor Insurance</h1>
+						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Motor Vehicle Insurance</h1>
 						<hr style="height: 5px;color: #A5000B;width: 45%;margin: 0px 0px 20px 0px;">
 						<h1 style="font-size: 15px;font-weight: 400;">
 							Uncertainties are nature of our life and even the road trips can be stressful for you.
@@ -2826,7 +2826,7 @@
 						<img src="{{ url('/images/insurance/motor/family.png') }}" class="img-fluid">
 					</div>
 					<div class="col-md-5" style="padding-top: 20px;padding-left: 30px;">
-						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Motor Insurance</h1>
+						<h1 style="font-size: 22px;font-weight: 600;margin-bottom: 0px;color: #000;">Motor Vehicle Insurance</h1>
 						<hr style="height: 5px;color: #A5000B;width: 45%;margin: 0px 0px 20px 0px;">
 						<h1 style="font-size: 15px;font-weight: 400;">
 							Uncertainties are nature of our life and even the road trips can be stressful for you.
