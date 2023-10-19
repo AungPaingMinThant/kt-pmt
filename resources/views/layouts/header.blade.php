@@ -187,7 +187,7 @@
 															<a href="{{ url('/personal-banking/insurance/general/health') }}">Health Insurance</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/personal-banking/insurance/general/motor') }}">Motor Insurance</a>
+															<a href="{{ url('/personal-banking/insurance/general/motor') }}">Motor Vehicle Insurance</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/personal-banking/insurance/general/fire') }}">Fire Insurance</a>
@@ -382,7 +382,7 @@
 															<a href="{{ url('/business/insurance/fire') }}">Fire Insurance</a>
 														</p>
 														<p class="m-b-5">
-															<a href="{{ url('/business/insurance/motor') }}">Motor Insurance</a>
+															<a href="{{ url('/business/insurance/motor') }}">Motor Vehicle Insurance</a>
 														</p>
 														<p class="m-b-5">
 															<a href="{{ url('/business/insurance/domestic-marine-cargo') }}">Domestic Marine Cargo Insurance</a>
@@ -880,9 +880,9 @@
 						<div class="row nav-item dropdown menu-link personal-menu-ac-sav-link">
 							<span class="nav-link" href="javascript:void(0)" id="PAnavbarDropdown" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 								<a onclick="pageLoad('/personal-banking/account-saving')">ACCOUNTS AND SAVINGS</a>
-								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+								<i class="menu-icon tf-icons bx bx-chevron-down" onclick="menuTog('pb-account-saving-tog')" style="float: right;"></i>
 							</span>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu pb-account-saving-tog" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-3">
 										<a href="{{ url('/personal-banking/account-saving/saving-deposit') }}">SAVING DEPOSIT</a>
@@ -971,9 +971,9 @@
 						<div class="row menu-link personal-menu-borrow-link">
 							<span class="nav-link" data-bs-toggle="dropdown"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 								<a onclick="pageLoad('/personal-banking/borrowing')">BORROWING</a>
-								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+								<i class="menu-icon tf-icons bx bx-chevron-down" onclick="menuTog('pb-borrowing-tog')" style="float: right;"></i>
 							</span>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu pb-borrowing-tog" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-3">
 										HIRE PURCHASE (PERSONAL)
@@ -999,9 +999,9 @@
 						<div class="row menu-link personal-menu-remit-link">
 							<span class="nav-link" href="javascript:void(0)" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 								<a onclick="pageLoad('/personal-banking/remittance')">REMITTANCE AND PAYMENTS</a>
-								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+								<i class="menu-icon tf-icons bx bx-chevron-down" onclick="menuTog('pb-remittance-tog')" style="float: right;"></i>
 							</span>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu pb-remittance-tog" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 ">
 										<a href="{{ url('/personal-banking/remittance/local') }}">Local Remittance</a>
@@ -1025,9 +1025,9 @@
 						<div class="row menu-link personal-menu-ins-link">
 							<span class="nav-link" href="javascript:void(0)" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 								<a onclick="pageLoad('/personal-banking/insurance')">INSURANCE</a>
-								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+								<i class="menu-icon tf-icons bx bx-chevron-down" onclick="menuTog('pb-insurance-tog')" style="float: right;"></i>
 							</span>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu pb-insurance-tog" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-3">
 										<a href="{{ url('/personal-banking/insurance/general') }}">GENERAL INSURANCE</a>
@@ -1093,9 +1093,9 @@
 						<div class="row menu-link personal-menu-other-link">
 							<span class="other-menu nav-link" href="javascript:void(0)" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="width: 90%">
 								<a onclick="pageLoad('/personal-banking/other-services')">OTHER SERVICES</a>
-								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+								<i class="menu-icon tf-icons bx bx-chevron-down" onclick="menuTog('pb-other-services-tog')" style="float: right;"></i>
 							</span>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu pb-other-services-tog" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
 										<a href="{{ url('/personal-banking/other-services/foreign-currency-exchange-service') }}">Foreign Currency Exchange Service</a>
@@ -1119,9 +1119,9 @@
 						<div class="row nav-item dropdown menu-link business-menu-ac-sav-link">
 							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 								<a onclick="pageLoad('/business-banking/account-saving')">ACCOUNTS AND SAVINGS</a>
-								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+								<i class="menu-icon tf-icons bx bx-chevron-down" onclick="menuTog('bu-account-saving-tog')" style="float: right;"></i>
 							</span>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu bu-account-saving-tog" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
 										<a href="{{ url('/business/account-saving/saving-deposit') }}">Saving Deposit</a>
@@ -1147,9 +1147,9 @@
 						<div class="row menu-link business-menu-remit-link">
 							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 								<a onclick="pageLoad('/business-banking/remittance')">REMITTANCE AND PAYMENTS</a>
-								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+								<i class="menu-icon tf-icons bx bx-chevron-down" onclick="menuTog('bu-remittance-tog')" style="float: right;"></i>
 							</span>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu bu-remittance-tog" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
 										<a href="{{ url('/business/remittance-payments/local-payments') }}">Local Remittance</a>
@@ -1165,9 +1165,9 @@
 						<div class="row menu-link business-menu-borrow-link">
 							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 								<a onclick="pageLoad('/business-banking/borrowing')">BORROWING</a>
-								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+								<i class="menu-icon tf-icons bx bx-chevron-down" onclick="menuTog('bu-borrowing-tog')" style="float: right;"></i>
 							</span>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu bu-borrowing-tog" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
 										<a href="{{ url('/business/borrowing/corporate-business-loan') }}">Corporate Business Loan</a>
@@ -1188,9 +1188,9 @@
 						<div class="row menu-link business-menu-trade-link">
 							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 								<a onclick="pageLoad('/business-banking/trade')">TRADE</a>
-								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+								<i class="menu-icon tf-icons bx bx-chevron-down" onclick="menuTog('bu-trade-tog')" style="float: right;"></i>
 							</span>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu bu-trade-tog" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
 										<a href="{{ url('/business/trade/trade-financing') }}">Trade Financing</a>
@@ -1206,9 +1206,9 @@
 						<div class="row menu-link business-menu-cash-management-link">
 							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 								<a onclick="pageLoad('/business/cash-management')">CASH MANAGEMENT</a>
-								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+								<i class="menu-icon tf-icons bx bx-chevron-down" onclick="menuTog('bu-cash-management-tog')" style="float: right;"></i>
 							</span>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu bu-cash-management-tog" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
 										<a href="{{ url('/business/cash-management#payroll_service') }}">Payroll Service</a>
@@ -1234,9 +1234,9 @@
 						<div class="row menu-link business-menu-ins-link">
 							<span class="other-menu nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="width: 90%">
 								<a onclick="pageLoad('/business-banking/insurance')">INSURANCE</a>
-								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+								<i class="menu-icon tf-icons bx bx-chevron-down" onclick="menuTog('bu-insurance-tog')" style="float: right;"></i>
 							</span>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu bu-insurance-tog" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
 										<a href="{{ url('/business/insurance/group-life') }}">Group Life Insurance</a>
@@ -1289,9 +1289,9 @@
 						<div class="row nav-item dropdown menu-link business-menu-ac-sav-link">
 							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 								<a onclick="pageLoad('/digital-services/online-payment-services')">ONLINE PAYMENT SERVICES</a>
-								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+								<i class="menu-icon tf-icons bx bx-chevron-down" onclick="menuTog('online-payment-services-tog')" style="float: right;"></i>
 							</span>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu online-payment-services-tog" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
 										<a href="{{ url('/digital-services/online-payment-services/internet-banking') }}">Internet Banking</a>
@@ -1312,9 +1312,9 @@
 						<div class="row menu-link business-menu-remit-link">
 							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 								<a onclick="pageLoad('/digital-services/card-services')">CARD SERVICES</a>
-								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+								<i class="menu-icon tf-icons bx bx-chevron-down" onclick="menuTog('card-services-tog')" style="float: right;"></i>
 							</span>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu card-services-tog" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-2">
 										MERCHANT SERVICES
@@ -1375,9 +1375,9 @@
 						<div class="row menu-link business-menu-borrow-link">
 							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 								<a onclick="pageLoad('/digital-services/atm')">ATM</a>
-								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+								<i class="menu-icon tf-icons bx bx-chevron-down" onclick="menuTog('atm-tog')" style="float: right;"></i>
 							</span>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu atm-tog" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item mb-20 mt-2">
 										<a href="{{ url('/digital-services/atm') }}">ATM Service and Network</a>
@@ -1388,9 +1388,9 @@
 						<div class="row menu-link business-menu-trade-link">
 							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 								<a onclick="pageLoad('/digital-services/wallet-solution')">WALLET SOLUTION</a>
-								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+								<i class="menu-icon tf-icons bx bx-chevron-down" onclick="menuTog('wallet-solution-tog')" style="float: right;"></i>
 							</span>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu wallet-solution-tog" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item mb-20 mt-2">
 										<a href="{{ url('/digital-services/wallet-solution/aya-pay') }}">AYA Pay</a>
@@ -1401,9 +1401,9 @@
 						<div class="row menu-link business-menu-cash-management-link">
 							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 								<a onclick="pageLoad('/digital-services/guideline')">GUIDELINE</a>
-								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+								<i class="menu-icon tf-icons bx bx-chevron-down" onclick="menuTog('guideline-tog')" style="float: right;"></i>
 							</span>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu guideline-tog" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
 										<a href="{{ url('/digital-services/guideline/digital-secure') }}">Security Advices for Digital Services</a>
@@ -1431,9 +1431,9 @@
 						<div class="row nav-item dropdown menu-link about-aya-menu-who-we-are-link">
 							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 								<a onclick="pageLoad('/about-aya/who-we-are')">WHO WE ARE</a>
-								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+								<i class="menu-icon tf-icons bx bx-chevron-down" onclick="menuTog('who-we-are-tog')" style="float: right;"></i>
 							</span>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu who-we-are-tog" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-2">
 										CORPORATE PROFILE
@@ -1529,9 +1529,9 @@
 						<div class="row menu-link about-aya-menu-career-link">
 							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 								<a onclick="pageLoad('/about-aya/career')">CAREER</a>
-								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+								<i class="menu-icon tf-icons bx bx-chevron-down" onclick="menuTog('career-tog')" style="float: right;"></i>
 							</span>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu career-tog" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
 										<a href="{{ url('/about-aya/career/life-at-aya') }}">Life at AYA</a>
@@ -1557,9 +1557,9 @@
 						<div class="row menu-link about-aya-menu-governance-link">
 							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 								<a onclick="pageLoad('/about-aya/governance')">GOVERNANCE</a>
-								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+								<i class="menu-icon tf-icons bx bx-chevron-down" onclick="menuTog('governance-tog')" style="float: right;"></i>
 							</span>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu governance-tog" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item fw-bold m-b-5 mt-2">
 										<a href="{{ url('/about-aya/governance/corporate-governance') }}" target="_blank">CORPORATE GOVERNANCE</a>
@@ -1665,9 +1665,9 @@
 						<div class="row menu-link about-aya-menu-sustainability-link">
 							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 								<a onclick="pageLoad('/about-aya/sustainability')">SUSTAINABILITY</a>
-								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+								<i class="menu-icon tf-icons bx bx-chevron-down" onclick="menuTog('sustainability-tog')" style="float: right;"></i>
 							</span>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu sustainability-tog" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
 										<a href="{{ url('/about-aya/sustainability/our-commitment') }}">Our Commitment</a>
@@ -1708,9 +1708,9 @@
 						<div class="row menu-link about-aya-menu-newsroom-link">
 							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 								<a onclick="pageLoad('/about-aya/news-room')">NEWSROOM</a>
-								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+								<i class="menu-icon tf-icons bx bx-chevron-down" onclick="menuTog('news-room-tog')" style="float: right;"></i>
 							</span>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu news-room-tog" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
 										<a href="{{ url('/about-aya/news-room/corporate-news/') }}">Corporate News</a>
@@ -1741,9 +1741,9 @@
 						<div class="row menu-link about-aya-menu-network-link">
 							<span class="nav-link" data-bs-toggle="dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 								<a onclick="pageLoad('/about-aya/network')">NETWORK</a>
-								<i class="menu-icon tf-icons bx bx-chevron-down" style="float: right;"></i>
+								<i class="menu-icon tf-icons bx bx-chevron-down" onclick="menuTog('network-tog')" style="float: right;"></i>
 							</span>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu network-tog" aria-labelledby="navbarDropdown">
 								<li>
 									<p class="dropdown-item m-b-5 mt-2">
 										<a href="{{ url('/about-aya/network/correspondent-bank') }}">Correspondent Banks</a>
