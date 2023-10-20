@@ -81,7 +81,7 @@
 											</div>
 											<div class="col-md-10">
 												<p style="font-weight: 600;">Death and Injury Benefits</p>
-												<p style="color: #4e4e4e;">Coverage for death and disability up to MMK 3 million and payout according to scale of injury prescribed. </p>
+												<p style="color: #4e4e4e;">Coverage for death and disability up to <b>MMK 3 million</b> and payout according to scale of injury prescribed. </p>
 											</div>
 										</div>
 									</div>
@@ -92,7 +92,7 @@
 											</div>
 											<div class="col-md-10">
 												<p style="font-weight: 600;">Windscreen Coverage</p>
-												<p style="color: #4e4e4e;">Coverage for windscreen up to MMK 3 million in case of damage or loss</p>
+												<p style="color: #4e4e4e;">Coverage for windscreen up to <b>MMK 3 million</b> in case of damage or loss</p>
 											</div>
 										</div>
 									</div>
@@ -187,7 +187,7 @@
 											</div>
 											<div class="col-11 list_margin">
 												<p style="color: #000;font-weight: 600;margin-bottom: 0;">Acts of God</p>
-												<p style="color: #4e4e4e;">Coverage for loss or damage due to flood, windstorm, typhoon, hurricane, volcanic eruption, earthquake, landslide, landslip, or subsidence.</p>
+												<p style="color: #4e4e4e;">Coverage for loss or damage due to flood, windstorm, typhoon, hurricane, tempest, volcanic eruption, earthquake, landslide, landslip or subsidence or any other convulsion of nature</p>
 											</div>
 											<div class="col-1">
 												<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
