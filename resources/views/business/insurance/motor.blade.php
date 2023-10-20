@@ -303,7 +303,7 @@
 											</div>
 											<div class="col-md-12">
 												<p style="font-size: 20px;font-weight: 600;">Premium Rating</p>
-												<p>0.8% to 2% on sum insured (car value)<br>Subject to – </p>
+												<p>0.9% to 2.5% on sum insured (Car value), <br>Subject to – </p>
 												<ul>
 													<li>Value of car</li>
 													<li>Use of the car</li>
