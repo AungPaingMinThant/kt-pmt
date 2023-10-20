@@ -290,19 +290,19 @@
 									<div class="col-md-11">
 										<div class="row">
 											<div class="col-md-12">
-												<p style="font-size: 20px;font-weight: 600;">Maximum policy term 1 year (renewable on a yearly basis)</p>
+												<p style="font-size: 18px;font-weight: 600;">Maximum policy term 1 year (renewable on a yearly basis)</p>
 												<ul>
 													<li>Minimum policy terms up to 3, 6, and 9 months are applicable.</li>
 												</ul>
 											</div>
 											<div class="col-md-12">
-												<p style="font-size: 20px;font-weight: 600;">Sum Insured (Car Value)</p>
+												<p style="font-size: 18px;font-weight: 600;">Sum Insured (Car Value)</p>
 												<ul>
 													<li>Market value of the vehicle</li>
 												</ul>
 											</div>
 											<div class="col-md-12">
-												<p style="font-size: 20px;font-weight: 600;">Premium Rating</p>
+												<p style="font-size: 18px;font-weight: 600;">Premium Rating</p>
 												<p>0.9% to 2.5% on sum insured (Car value), 
 													<br>Subject to – </p>
 												<ul>
@@ -315,7 +315,7 @@
 											<div class="col-md-12">
 												<div class="row">
 													<div class="col-md-12">
-														<p style="font-size: 20px;font-weight: 600;">Eligibility</p>
+														<p style="font-size: 18px;font-weight: 600;">Eligibility</p>
 													</div>
 													<div class="col-1">
 														<i class="menu-icon tf-icons bx bx-check secure_req_application_icon"></i>
