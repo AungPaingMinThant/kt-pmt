@@ -103,7 +103,7 @@
 											</div>
 											<div class="col-md-10">
 												<p style="font-weight: 600;">Liabilities for Third Parties</p>
-												<p style="color: #4e4e4e;">Compensation liability for another person’s death, bodily injury, property loss and damage (up to MMK 50 million maximum coverage amount). </p>
+												<p style="color: #4e4e4e;">Compensation liability for another person’s death, bodily injury, property loss and damage (up to <b>MMK 50 million</b> maximum coverage amount). </p>
 											</div>
 										</div>
 									</div>
