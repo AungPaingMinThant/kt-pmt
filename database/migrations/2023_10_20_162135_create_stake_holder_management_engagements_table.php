@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateStakeHolderManagementTable extends Migration
+class CreateStakeHolderManagementEngagementsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,13 @@ class CreateStakeHolderManagementTable extends Migration
      */
     public function up()
     {
-        Schema::create('stake_holder_management', function (Blueprint $table) {
+        Schema::create('stake_holder_management_engagements', function (Blueprint $table) {
             $table->id();
-            $table->text('title');
-            $table->text('stakeholder_chart');
+            $table->text('engage_table_stakeholders');
+            $table->text('engage_table_method_engagement');
+            $table->text('engage_table_involvement');
+            $table->text('engage_table_scope');
+            $table->text('engage_table_party');
             $table->integer('updated_by');
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });
@@ -29,6 +32,6 @@ class CreateStakeHolderManagementTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('stake_holder_management');
+        Schema::dropIfExists('stake_holder_management_engagements');
     }
 }

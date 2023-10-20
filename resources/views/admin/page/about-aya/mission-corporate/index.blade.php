@@ -76,7 +76,7 @@
 						<div class="col-12 ethics_des_col">
 							<p class="theme_text_color fw-bold" style="font-size: 16px;">{!!$page_data->aspect_1_title!!}&nbsp; <i class="bx bx-pencil page_edit_icon" data-bs-toggle="modal" data-bs-target="#excellance_modal"></i></p>
 							<p>{!!$page_data->aspect_1_desc!!}
-								<ul style="margin-left: 16px;padding-left: 0px;color: #4e4e4e;">
+								<!-- <ul style="margin-left: 16px;padding-left: 15px;color: #4e4e4e;">
 										@php
 											$excellence_count = 1;
 										@endphp
@@ -87,7 +87,7 @@
 											@endphp
 										@endforeach
 									</li>
-								</ul>
+								</ul> -->
 							</p>
 						</div>
 
@@ -126,28 +126,25 @@
 							<p class="theme_text_color fw-bold" style="font-size: 16px;">{!!$page_data->aspect_6_title!!} &nbsp;<i class="bx bx-pencil page_edit_icon" data-bs-toggle="modal" data-bs-target="#sincerity_modal"></i></p>
 							<p>{!!$page_data->aspect_6_desc!!}</p>
 							<div class="row">
-								@php
-									$sincerities_count = 1;
-								@endphp
 								@foreach ($sincerities_info as $item_sin)
-									<div class="row">
-										<div class="col-1 sincerity_check_icon_col text-right" style="width: 8%;">
-										<img src="{{ url('/images/about-aya/corporate-profile/mission-promise/checked.webp') }}" class="img-fluid sincerity_check">
+									@if($item_sin->sincerities_desc != '')
+										<div class="row">
+											<div class="col-1 sincerity_check_icon_col text-right" style="width: 8%;">
+												<img src="{{ url('/images/about-aya/corporate-profile/mission-promise/checked.webp') }}" class="img-fluid sincerity_check">
+											</div>
+											<div class="col-8 sincerity_check_text_col">
+												<span class="sincerity_check_text_admin" id="sincerities_point">
+													{!! htmlspecialchars_decode($item_sin->sincerities_desc) !!}
+												</span>
+											</div>
 										</div>
-										<div class="col-8 sincerity_check_text_col">
-										<span class="sincerity_check_text" id="sincerities_point">
-											{!! htmlspecialchars_decode($item_sin->sincerities_desc) !!}
-										</span>
-										</div>
-									</div>
-									@php
-									$sincerities_count = $sincerities_count + 1;
-									@endphp
+									@endif
 								@endforeach
 							</div>
 
-							<div class="space-30"><i class="bx bx-pencil page_edit_icon" data-bs-toggle="modal" data-bs-target="#image_modal"></i></div>
-							<br>
+							<div class="space-30"></div>
+							<i class="bx bx-pencil page_edit_icon" data-bs-toggle="modal" data-bs-target="#image_modal"></i>
+							<div class="space-20"></div>
 							<div class="row">
 								<div class="col-md-4 cat_card">
 									<div class="card h-100">
@@ -156,8 +153,8 @@
 
 										
 										<div class="card-body">
-											<h5 class="card-title mb-10"><a href="{{ url($page_data->aspect_cta_1_link) }}">{!!$page_data->aspect_cta_1_title!!}</a></h5>
-											<!-- <a href="" class="view_bio_link theme_text_color">Learn More <i class='bx bx-chevron-right' style="font-size: 18px;"></i></a> -->
+											<h5 class="card-title mb-10">{!!$page_data->aspect_cta_1_title!!}</h5>
+											<a href="{{ url($page_data->aspect_cta_1_link) }}" class="view_bio_link theme_text_color">Learn More <i class='bx bx-chevron-right' style="font-size: 18px;"></i></a>
 										</div>
 									</div>
 								</div>
@@ -166,8 +163,8 @@
 										@php $section_2_img_link =  URL::to('/').'/'.$page_data->aspect_cta_2_img; @endphp
 										<img src="{{$section_2_img_link}}" alt="Social Sustainability, the best way to create our Future!" class="card-img-top">
 										<div class="card-body">
-											<h5 class="card-title mb-10"><a href="{{url ($page_data->aspect_cta_2_link) }}">{!!$page_data->aspect_cta_2_title!!}</a></h5>
-											<!-- <a href="" class="view_bio_link theme_text_color">Learn More <i class='bx bx-chevron-right' style="font-size: 18px;"></i></a> -->
+											<h5 class="card-title mb-10">{!!$page_data->aspect_cta_2_title!!}</h5>
+											<a href="{{url ($page_data->aspect_cta_2_link) }}" class="view_bio_link theme_text_color">Learn More <i class='bx bx-chevron-right' style="font-size: 18px;"></i></a>
 										</div>
 									</div>
 								</div>
@@ -176,8 +173,8 @@
 										@php $section_3_img_link =  URL::to('/').'/'.$page_data->aspect_cta_3_img; @endphp
 										<img src="{{$section_3_img_link}}" alt="Social Sustainability, the best way to create our Future!" class="card-img-top">
 										<div class="card-body">
-											<h5 class="card-title mb-10"><a href="{{url ($page_data->aspect_cta_3_link) }}">{!!$page_data->aspect_cta_3_title!!}</a></h5>
-											<!-- <a href="" class="view_bio_link theme_text_color">Learn More <i class='bx bx-chevron-right' style="font-size: 18px;"></i></a> -->
+											<h5 class="card-title mb-10">{!!$page_data->aspect_cta_3_title!!}</h5>
+											<a href="{{url ($page_data->aspect_cta_3_link) }}" class="view_bio_link theme_text_color">Learn More <i class='bx bx-chevron-right' style="font-size: 18px;"></i></a>
 										</div>
 									</div>
 								</div>
@@ -188,6 +185,8 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="space-40"></div>
 			
 			<div class="container">
 				<div class="col-12">
@@ -195,7 +194,7 @@
 						<h4 class="fw-bold">{!!$page_data->brand_title!!}&nbsp;<i class="bx bx-pencil page_edit_icon" data-bs-toggle="modal" data-bs-target="#brand_promise_modal"></i></h4>
 						<div class="space-20"></div>
 					</div>
-					<div class="brand_promise">
+					<div class="brand_promise" style="background-image:url('../../../{{$page_data->brand_img}}')">
 						<div class="col-md-4 brand_promise_desc">
 							<p>{!!$page_data->brand_desc_1!!}</p>
 						</div>
@@ -270,32 +269,32 @@
 							<div class="space-20"></div>
 							<div class="col-md-12">
 								<label for="aspect_1" class="col-form-label">Aspect 1</label>
-								<textarea class="form-control" id="page_desc_1" name="aspect_1" rows="10" spellcheck="false" >{{$page_data->aspect_1}}</textarea>
+								<textarea class="form-control aspect_text" id="aspect_1" name="aspect_1" spellcheck="false" >{{$page_data->aspect_1}}</textarea>
 							</div>
 							<div class="space-20"></div>
 							<div class="col-md-12">
 								<label for="aspect_2" class="col-form-label">Aspect 2</label>
-								<textarea class="form-control" id="page_desc_1" name="aspect_2" rows="10" spellcheck="false" >{{$page_data->aspect_2}}</textarea>
+								<textarea class="form-control aspect_text" id="aspect_2" name="aspect_2" rows="10" spellcheck="false" >{{$page_data->aspect_2}}</textarea>
 							</div>
 							<div class="space-20"></div>
 							<div class="col-md-12">
 								<label for="aspect_3" class="col-form-label">Aspect 3</label>
-								<textarea class="form-control" id="page_desc_1" name="aspect_3" rows="10" spellcheck="false" >{{$page_data->aspect_3}}</textarea>
+								<textarea class="form-control aspect_text" id="aspect_3" name="aspect_3" rows="10" spellcheck="false" >{{$page_data->aspect_3}}</textarea>
 							</div>
 							<div class="space-20"></div>
 							<div class="col-md-12">
 								<label for="aspect_4" class="col-form-label">Aspect 4</label>
-								<textarea class="form-control" id="page_desc_1" name="aspect_4" rows="10" spellcheck="false" >{{$page_data->aspect_4}}</textarea>
+								<textarea class="form-control aspect_text" id="aspect_4" name="aspect_4" rows="10" spellcheck="false" >{{$page_data->aspect_4}}</textarea>
 							</div>
 							<div class="space-20"></div>
 							<div class="col-md-12">
 								<label for="aspect_5" class="col-form-label">Aspect 5</label>
-								<textarea class="form-control" id="page_desc_1" name="aspect_5" rows="10" spellcheck="false" >{{$page_data->aspect_5}}</textarea>
+								<textarea class="form-control aspect_text" id="aspect_5" name="aspect_5" rows="10" spellcheck="false" >{{$page_data->aspect_5}}</textarea>
 							</div>
 							<div class="space-20"></div>
 							<div class="col-md-12">
 								<label for="aspect_6" class="col-form-label">Aspect 6</label>
-								<textarea class="form-control" id="page_desc_1" name="aspect_6" rows="10" spellcheck="false" >{{$page_data->aspect_6}}</textarea>
+								<textarea class="form-control aspect_text" id="aspect_6" name="aspect_6" rows="10" spellcheck="false" >{{$page_data->aspect_6}}</textarea>
 							</div>
 						</div>
 					</div>
@@ -314,7 +313,7 @@
 			<div class="modal-header">					
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
-			<div class="modal-body" style="padding: 0px 40px;">
+			<div class="modal-body" style="padding: 0px 40px 40px 40px;">
 				{{ csrf_field() }}
 				<div class="row" style="margin-bottom: 20px;">
 					<div class="col-md-12">
@@ -330,27 +329,7 @@
 								<textarea class="form-control" id="aspect_1_desc" name="aspect_1_desc" rows="10" spellcheck="false" >{{$page_data->aspect_1_desc}}</textarea>
 							</div>
 
-							<div class="space-20" id="excellence_first_point"></div>
-							@php
-								$excellence_count = 1;
-							@endphp
-							<div class="col-md-12">
-								@foreach ($excellence_info as $item_exce)
-									<input type="hidden" name="exce_id_{{$excellence_count}}" value="{{$item_exce->id}}">
-									<label class="col-form-label">Point {{$excellence_count}}</label>
-									<textarea class="form-control exce_info" id="excellence_point_{{$excellence_count}}" name="excellence_desc_{{$excellence_count}}" rows="4" spellcheck="false">{!! htmlspecialchars_decode($item_exce->excellence_desc) !!}
-									</textarea>
-									<div class="space-20" id="excellence_point_space_{{$excellence_count}}"></div>
-									@php
-										$excellence_count = $excellence_count + 1;
-									@endphp
-								@endforeach
-							</div>
-							<input type="hidden" name="excellence_count" id="excellence_count" value="{{$excellence_count - 1}}">
-							<div class="col-md-12" style="margin-bottom: 10px;">
-								<button type="button" class="btn btn-primary" onclick="ExcellenceDetailAdd()">Add More Excellence</button>
-								<div class="space-20"></div>
-							</div>
+							
 						</div>
 					</div>
 				</div>
@@ -480,10 +459,10 @@
 								<label for="aspect_5_desc" class="col-form-label">Section Information 1</label>
 								<textarea class="form-control" id="page_desc_1" name="aspect_5_desc" rows="10" spellcheck="false" >{{$page_data->aspect_5_desc}}</textarea>
 							</div>
-							<div class="col-md-12">
+							<!-- <div class="col-md-12">
 								<label for="aspect_5_desc_text" class="col-form-label">Section Information 2</label>
 								<textarea class="form-control" id="page_desc_1" name="aspect_5_desc_text" rows="10" spellcheck="false" >{{$page_data->aspect_5_desc_text}}</textarea>
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div>
@@ -520,18 +499,21 @@
 							@php
 								$sincerities_count = 1
 							@endphp
-							<div class="col-md-12">
-								@foreach ($sincerities_info as $item_sin)
+							@foreach ($sincerities_info as $item_sin)
+								<div class="col-md-10">								
 									<input type="hidden" name="sin_id_{{$sincerities_count}}" value="{{$item_sin->id}}">
 									<label class="col-form-label">Point {{$sincerities_count}}</label>
 									<textarea class="form-control sin_info" id="sincerities_point_{{$sincerities_count}}" name="sincerities_desc_{{$sincerities_count}}" rows="4" spellcheck="false">{!! htmlspecialchars_decode($item_sin->sincerities_desc) !!}
 									</textarea>
 									<div class="space-20" id="sincerities_point_space_{{$sincerities_count}}"></div>
-									@php
-										$sincerities_count = $sincerities_count + 1;
-									@endphp
-								@endforeach
-							</div>
+									
+								</div>
+								<div class="col-md-2">
+								</div>
+								@php
+									$sincerities_count = $sincerities_count + 1;
+								@endphp
+							@endforeach
 							<input type="hidden" name="sincerities_count" id="sincerities_count" value="{{$sincerities_count - 1}}">
 							<div class="col-md-12" style="margin-bottom: 10px;">
 								<button type="button" class="btn btn-primary" onclick="SinceritiesDetailAdd()">Add More Sincerities</button>
@@ -563,7 +545,7 @@
 							<label for="aspect_cta_1_img" class="col-md-2 col-form-label">Image</label>
 							<small class="theme_text_color">Image Size & format ( 343 * 246 - webp )</small>
 							<input class="form-control" type="file" name="aspect_cta_1_img" id="aspect_cta_1_img" />
-							<input type="text" name="aspect_cta_1_img_old" id="aspect_cta_1_img_old" value="{{$page_data->aspect_cta_1_img}}">
+							<input type="hidden" name="aspect_cta_1_img_old" id="aspect_cta_1_img_old" value="{{$page_data->aspect_cta_1_img}}">
 
 							<div class="space-20"></div>
 							<label for="aspect_cta_1_title" class="col-form-label">Section Title</label>
@@ -633,15 +615,15 @@
 							<div class="space-20"></div>
 							<div class="col-md-12">
 								<label for="brand_desc_1" class="col-form-label">Section Information 1</label>
-								<textarea class="form-control" id="page_desc_1" name="brand_desc_1" rows="10" spellcheck="false" >{{$page_data->brand_desc_1}}</textarea>
+								<textarea class="form-control" id="brand_desc_1" name="brand_desc_1" rows="10" spellcheck="false" >{{$page_data->brand_desc_1}}</textarea>
 							</div>
 							<div class="col-md-12">
 								<label for="brand_desc_2" class="col-form-label">Section Information 2</label>
-								<textarea class="form-control" id="page_desc_1" name="brand_desc_2" rows="10" spellcheck="false" >{{$page_data->brand_desc_2}}</textarea>
+								<textarea class="form-control" id="brand_desc_2" name="brand_desc_2" rows="10" spellcheck="false" >{{$page_data->brand_desc_2}}</textarea>
 							</div>
 							<label for="aspect_cta_2_img" class="col-md-2 col-form-label">Image</label>
 							<small class="theme_text_color">Image Size & format ( 1100 * 366 - webp )</small>
-							<input class="form-control" type="file" name="brand_img" id="page_desc_1" />
+							<input class="form-control" type="file" name="brand_img" id="page_brand_img" />
 							<input type="hidden" name="brand_img_old" id="brand_img_old" value="{{$page_data->brand_img}}">
 							
 						</div>
@@ -697,37 +679,36 @@
 									'</textarea>'+
 									'<div class="space-20" id="sincerities_point_space_'+sincerities_count_new+'"></div>';
 
-			if (sincerities_count_new == 1) {
-				$(".sincerities_first_point").after(sincerities_add_html);
-				} else {
-					$("#sincerities_point_space_"+sincerities_count).after(sincerities_add_html);
-						}
+		if (sincerities_count_new == 1) {
+			$(".sincerities_first_point").after(sincerities_add_html);
+		} else {
+				$("#sincerities_point_space_"+sincerities_count).after(sincerities_add_html);
+		}
 
-						$("#sincerities_count").val(sincerities_count_new);
+		$("#sincerities_count").val(sincerities_count_new);
 
-						tinymce.init({
-							selector: 'textarea',
-							height: 600,
-							plugins: 'anchor autolink charmap code emoticons link lists searchreplace table visualblocks wordcount',
-							toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat | code',
-							file_picker_types: 'image',
-							block_unsupported_drop: true
-						});
+		tinymce.init({
+			selector: 'textarea',
+			height: 600,
+			plugins: 'anchor autolink charmap code emoticons link lists searchreplace table visualblocks wordcount',
+			toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat | code',
+			file_picker_types: 'image',
+			block_unsupported_drop: true
+		});
+	}
 
-
-						}
-
-	tinymce.init({
-		selector: 'textarea#page_desc_1',
-	        height: 600,
-	        plugins: 'anchor autolink charmap code emoticons link lists searchreplace table visualblocks wordcount',
-	        toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat | code',
-	        file_picker_types: 'image',
-	        block_unsupported_drop: true
+	$("#page_brand_img").change(function() {
+		$("#brand_img_old").val('');
 	});
 
-
-	
+	tinymce.init({
+		selector: 'textarea#aspect_1',
+        height: 300,
+        plugins: 'anchor autolink charmap code emoticons link lists searchreplace table visualblocks wordcount',
+        toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat | code',
+        file_picker_types: 'image',
+	    block_unsupported_drop: true
+	});
 
 </script>
 

@@ -81,7 +81,7 @@
 											</div>
 											<div class="col-md-10">
 												<p style="font-weight: 600;">Death and Injury Benefits</p>
-												<p style="color: #4e4e4e;">Coverage for death and disability up to <b>MMK 3 million</b> and payout according to scale of injury prescribed.</p>
+												<p style="color: #4e4e4e;">Coverage for death and disability up to MMK 3 million and payout according to scale of injury prescribed.</p>
 											</div>
 										</div>
 									</div>
@@ -92,7 +92,7 @@
 											</div>
 											<div class="col-md-10">
 												<p style="font-weight: 600;">Windscreen Coverage</p>
-												<p style="color: #4e4e4e;">Coverage for windscreen up to <b>MMK 3 million</b> in case of damage or loss</p>
+												<p style="color: #4e4e4e;">Coverage for windscreen up to MMK 3 million in case of damage or loss</p>
 											</div>
 										</div>
 									</div>
@@ -103,7 +103,7 @@
 											</div>
 											<div class="col-md-10">
 												<p style="font-weight: 600;">Liabilities for Third Parties</p>
-												<p style="color: #4e4e4e;">Compensation liability for another person’s death, bodily injury, property loss and damage (up to <b>MMK 50 million</b> maximum coverage amount). </p>
+												<p style="color: #4e4e4e;">Compensation liability for another person’s death, bodily injury, property loss and damage (up to MMK 50 million maximum coverage amount). </p>
 											</div>
 										</div>
 									</div>

@@ -330,20 +330,22 @@ class CorporateMissionBrandValuesController extends Controller
             } else {
                 $brand_img_path = $request->brand_img_old;
             }
+        } else {
+            $brand_img_path = $request->brand_img_old;
+        }
         $banner = DB::table('mission_cop_brand_promises')
-        ->where('id', $id)
-        ->update([
-            'brand_title' => $brand_title,
-            'brand_desc_1' => $brand_desc_1,
-            'brand_desc_2' => $brand_desc_2,
-            'brand_img' => $brand_img_path,
-            'updated_by' => auth()->user()->id
-        ]);
+                        ->update([
+                            'brand_title' => $brand_title,
+                            'brand_desc_1' => $brand_desc_1,
+                            'brand_desc_2' => $brand_desc_2,
+                            'brand_img' => $brand_img_path,
+                            'updated_by' => auth()->user()->id
+                        ]);
     
     
 
         return redirect('admin/pagelist/about-aya/mission-corporate');
     
-    } }
+    }
 }
 
