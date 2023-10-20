@@ -1,6 +1,6 @@
 @extends('layouts.frontend-app')
 
-@section('title', 'Motor Insurance – AYA Bank')
+@section('title', 'Motor Vehicle Insurance – AYA Bank')
 <link rel="stylesheet" href="{{ url('/css/slide_tab.css') }}" />
 <link rel="stylesheet" href="{{ url('/css/pb_insurance.css') }}">
 <style type="text/css">
@@ -363,7 +363,7 @@
 					<div class="col-md-12 col-xs-12">
 						<p class="disclaimer_title">Disclaimers</p>
 						<p style="color: #777777;font-weight: 400;font-size: 12px;">
-							This Comprehensive Motor Insurance is underwritten by AYA SOMPO Insurance Company Ltd and distributed by AYA Bank PCL. It is not an obligation of, deposit in or guaranteed by AYA Bank. AYA SOMPO Insurance Company Ltd reserves the right of final approval. Full details of the terms, conditions and exclusions of the insurance are provided in the policy wordings and will be sent to you upon acceptance of your application by AYA SOMPO Insurance Company Ltd.
+							This Comprehensive Motor Vehicle Insurance is underwritten by AYA SOMPO Insurance Company Ltd and distributed by AYA Bank PCL. It is not an obligation of, deposit in or guaranteed by AYA Bank. AYA SOMPO Insurance Company Ltd reserves the right of final approval. Full details of the terms, conditions and exclusions of the insurance are provided in the policy wordings and will be sent to you upon acceptance of your application by AYA SOMPO Insurance Company Ltd.
 						<p style="color: #777777;font-weight: 400;font-size: 12px;">
 							This webpage contains only general information and does not have regard to the specific investment objectives, financial situation and the particular needs of any specific person. It is not intended as an offer or recommendation to buy the product. A copy of the product summary can be obtained from AYA Bank branches. The contract of insurance is between the insurer and the insured and not between the Bank and the insured. Bank does not give any warranty, as to the accuracy and completeness of the policies. Bank does not accept any liability or losses attributable to your contract of Insurance. Participation by the Bank’s customers in the insurance products is purely on a voluntary basis and is not linked to availment of any other facility from the bank.
 						</p>
