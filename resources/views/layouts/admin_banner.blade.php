@@ -126,7 +126,7 @@
 			<div class="row d-none d-sm-block">
 				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
 					<div class="aya_bank_profile_banner_tagline">
-						<h1 style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">{!! $banner_data->banner_title !!}</h1>
+						<h1 style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;color:#f5f5f7;">{!! $banner_data->banner_title !!}</h1>
 					</div>
 				</div>
 			</div>

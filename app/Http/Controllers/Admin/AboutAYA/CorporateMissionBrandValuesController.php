@@ -328,10 +328,13 @@ class CorporateMissionBrandValuesController extends Controller
                 $imageBreak->move($upload_path, $file);
                 $brand_img_path = "page_images/about-aya/ayabank-profile/mission-corporate/" . $file;
             } else {
+                $brand_img_path = '';
+            }
+            } else {
                 $brand_img_path = $request->brand_img_old;
             }
         $banner = DB::table('mission_cop_brand_promises')
-        ->where('id', $id)
+       
         ->update([
             'brand_title' => $brand_title,
             'brand_desc_1' => $brand_desc_1,
@@ -340,10 +343,8 @@ class CorporateMissionBrandValuesController extends Controller
             'updated_by' => auth()->user()->id
         ]);
     
-    
-
         return redirect('admin/pagelist/about-aya/mission-corporate');
     
-    } }
-}
+   }
 
+}

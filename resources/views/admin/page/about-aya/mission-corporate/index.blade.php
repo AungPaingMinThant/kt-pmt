@@ -199,7 +199,9 @@
 						<div class="col-md-4 brand_promise_desc">
 							<p>{!!$page_data->brand_desc_1!!}</p>
 						</div>
-						<div class="col-md-8"></div>
+						<div class="col-md-8">
+							
+						</div>
 					</div>
 					<div class="space-20"></div>
 					<div class="row">
