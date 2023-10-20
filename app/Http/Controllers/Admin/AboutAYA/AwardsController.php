@@ -27,5 +27,5 @@ class AwardsController extends Controller
                         'updated_by' => auth()->user()->id
                     ]);
             return redirect('admin/pagelist/about-aya/awards');
-    }
+    } 
 }

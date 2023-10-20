@@ -152,7 +152,7 @@
 											</div>
 											<div class="space-10"></div>
 											<div class="row">
-												<div class="table-responsive text-nowrap sh_table_div" >
+												<div class="table-responsive text-nowrap sh_table_div">
 													<table class="table table-borderless sh_table">
 														<thead>
 															<tr valign="middle">
@@ -240,8 +240,8 @@
 											</div>
 											<div class="space-10"></div>
 											<div class="row">
-												<div class="table-responsive text-nowrap sh_table_div">
-													<table class="table table-borderless sh_table">
+												<div class="table-responsive text-nowrap sh_table_benefit_div">
+													<table class="table table-borderless sh_table_benefit">
 														<thead>
 															<tr valign="middle">
 																<td class="f-white py-3 sh_first_td" width="150">Period</td>

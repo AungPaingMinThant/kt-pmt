@@ -101,14 +101,13 @@
 		box-shadow: none !important;
 	  }
 	  .sh_table_benefit_div {
-		margin-left: 0px;
+		margin-left: 30px;
 		width: auto !important;
 		font-size: 15px;
-		padding: 0 !important;
 		box-shadow: none !important;
 	  }
 	  .sh_table_benefit {
-		margin-left: 40px;
+		margin-left: 0px;
 		width: auto !important;
 		zoom: 70%; 
 		font-size: 15px;
