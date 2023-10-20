@@ -1,6 +1,6 @@
 @extends('layouts.frontend-app')
 
-@section('title', 'Motor Insurance – AYA Bank')
+@section('title', 'Motor Vehicle Insurance – AYA Bank')
 <link rel="stylesheet" href="{{ url('/css/slide_tab.css') }}" />
 <link rel="stylesheet" href="{{ url('/css/pb_insurance.css') }}">
 <style type="text/css">
@@ -69,8 +69,8 @@
 												<img src="{{ url('/images/insurance/motor/loss_damage_vehicle.png') }}" class="img-fluid" style="margin-bottom: 20px;">
 											</div>
 											<div class="col-md-10">
-												<p style="font-weight: 600;">Loss or Damage to vehicle </p>
-												<p style="color: #4e4e4e;">Coverage for loss or damage to own vehicle due to accident, fire, and/or lightning (up to the maximum amount of total coverage) </p>
+												<p style="font-weight: 600;">Loss or Damage to vehicle</p>
+												<p style="color: #4e4e4e;">Coverage for loss or damage to own vehicle due to accident, fire, and/or lightning (up to the maximum amount of total coverage)</p>
 											</div>
 										</div>
 									</div>
@@ -81,7 +81,7 @@
 											</div>
 											<div class="col-md-10">
 												<p style="font-weight: 600;">Death and Injury Benefits</p>
-												<p style="color: #4e4e4e;">Coverage for death and disability up to <b>MMK 3 million</b> and payout according to scale of injury prescribed. </p>
+												<p style="color: #4e4e4e;">Coverage for death and disability up to <b>MMK 3 million</b> and payout according to scale of injury prescribed.</p>
 											</div>
 										</div>
 									</div>
@@ -103,7 +103,7 @@
 											</div>
 											<div class="col-md-10">
 												<p style="font-weight: 600;">Liabilities for Third Parties</p>
-												<p style="color: #4e4e4e;">Compensation liability for another person’s death, bodily injury, property loss and damage (up to MMK 50 million maximum coverage amount).</p>
+												<p style="color: #4e4e4e;">Compensation liability for another person’s death, bodily injury, property loss and damage (up to MMK 50 million maximum coverage amount). </p>
 											</div>
 										</div>
 									</div>
@@ -156,8 +156,8 @@
 													<table class="table table-borderless sh_table">
 														<thead>
 															<tr valign="middle">
-																<td class="f-white py-3 sh_first_td" width="200">Additional Excess Amount</td>
-																<td class="f-white py-3 sh_first_td" width="200">Premium Discount</td>
+																<td class="f-white py-3 sh_first_td" width="250">Additional Excess Amount</td>
+																<td class="f-white py-3 sh_first_td" width="250">Premium Discount</td>
 															</tr>
 														</thead>
 														<tbody class="table-border-bottom-0" style="background-color: #fff;padding-right: 70px;">
@@ -303,14 +303,15 @@
 											</div>
 											<div class="col-md-12">
 												<p style="font-size: 20px;font-weight: 600;">Premium Rating</p>
-												<p>0.8% to 2% on sum insured (car value)<br>Subject to – </p>
+												<p>0.9% to 2.5% on sum insured (Car value), 
+													<br>Subject to – </p>
 												<ul>
-													<li>Value of car</li>
+													<li>Value of the car</li>
 													<li>Use of the car</li>
 													<li>Engine C.C</li>
 												</ul>
 											</div>
-											<div class="space-40"></div>
+											<div class="space-20"></div>
 											<div class="col-md-12">
 												<div class="row">
 													<div class="col-md-12">
@@ -362,7 +363,7 @@
 					<div class="col-md-12 col-xs-12">
 						<p class="disclaimer_title">Disclaimers</p>
 						<p style="color: #777777;font-weight: 400;font-size: 12px;">
-							This Comprehensive Motor Insurance is underwritten by AYA SOMPO Insurance Company Ltd and distributed by AYA Bank PCL. It is not an obligation of, deposit in or guaranteed by AYA Bank. AYA SOMPO Insurance Company Ltd reserves the right of final approval. Full details of the terms, conditions and exclusions of the insurance are provided in the policy wordings and will be sent to you upon acceptance of your application by AYA SOMPO Insurance Company Ltd.
+							This Motor Vehicle Insurance is underwritten by AYA SOMPO Insurance Company Ltd and distributed by AYA Bank PCL. It is not an obligation of, deposit in or guaranteed by AYA Bank. AYA SOMPO Insurance Company Ltd reserves the right of final approval. Full details of the terms, conditions and exclusions of the insurance are provided in the policy wordings and will be sent to you upon acceptance of your application by AYA SOMPO Insurance Company Ltd.
 						<p style="color: #777777;font-weight: 400;font-size: 12px;">
 							This webpage contains only general information and does not have regard to the specific investment objectives, financial situation and the particular needs of any specific person. It is not intended as an offer or recommendation to buy the product. A copy of the product summary can be obtained from AYA Bank branches. The contract of insurance is between the insurer and the insured and not between the Bank and the insured. Bank does not give any warranty, as to the accuracy and completeness of the policies. Bank does not accept any liability or losses attributable to your contract of Insurance. Participation by the Bank’s customers in the insurance products is purely on a voluntary basis and is not linked to availment of any other facility from the bank.
 						</p>
