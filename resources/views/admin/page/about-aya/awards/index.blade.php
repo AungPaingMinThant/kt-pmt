@@ -24,7 +24,7 @@
 					</div>
 				</div>
 				<div class="space-30"></div>
-				<i class="bx bx-pencil page_edit_icon" data-bs-toggle="modal" data-bs-target="#award_desc_modal"></i><br><br>
+				<i class="bx bx-pencil page_edit_icon" data-bs-toggle="modal" data-bs-target="#award_modal"></i><br><br>
 				<div class="row">
 					<div class="col-md-9 timeline-col">
 						<div class="row 2020" id="2020">
@@ -398,7 +398,7 @@
 		</div>
 	</div>
 </div>
-
+{{-- Modal --}}
 <div class="modal fade" id="award_desc_modal" data-bs-backdrop="static" tabindex="-1">
 	<div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
 	   <form class="modal-content" action="{{ url('/admin/pagelist/about-aya/awards-desc/update') }}" method="POST" enctype="multipart/form-data">
@@ -412,8 +412,8 @@
 				   <div class="mb-3 row">
 					  <div class="space-20"></div>
 					  <div class="col-md-12">
-						 <label for="customer_desc" class="col-form-label">Section Description</label>
-						 <textarea class="form-control" id="customer_desc" name="customer_desc" rows="10" spellcheck="false" >{!! $page_desc->award_desc !!}</textarea>
+						 <label for="award_desc" class="col-form-label">Section Description</label>
+						 <textarea class="form-control" id="award_desc" name="award_desc" rows="10" spellcheck="false" >{!! $page_desc->award_desc !!}</textarea>
 					  </div>
 				   </div>
 				</div>
@@ -425,13 +425,57 @@
 	   </form>
 	</div>
  </div>
+ {{-- award --}}
+ <div class="modal fade" id="award_modal" data-bs-backdrop="static" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
+		<form class="modal-content" action="{{ url('/admin/mission-corporate/sincerity/update') }}" method="POST" enctype="multipart/form-data">
+			<div class="modal-header">					
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body" style="padding: 0px 40px;">
+				{{ csrf_field() }}
+				<div class="row" style="margin-bottom: 20px;">
+					<div class="col-md-12">
+						<div class="mb-3 row">
+							<h4>Awards Section</h4>
+							@php
+								$award_count = 1
+							@endphp
+							<div class="col-md-12">
+								@foreach ($sincerities_info as $item_sin)
+									<input type="hidden" name="sin_id_{{$sincerities_count}}" value="{{$item_sin->id}}">
+									<label class="col-form-label">Point {{$sincerities_count}}</label>
+									<textarea class="form-control sin_info" id="sincerities_point_{{$sincerities_count}}" name="sincerities_desc_{{$sincerities_count}}" rows="4" spellcheck="false">{!! htmlspecialchars_decode($item_sin->sincerities_desc) !!}
+									</textarea>
+									<div class="space-20" id="sincerities_point_space_{{$sincerities_count}}"></div>
+									@php
+										$sincerities_count = $sincerities_count + 1;
+									@endphp
+								@endforeach
+							</div>
+							<input type="hidden" name="sincerities_count" id="sincerities_count" value="{{$sincerities_count - 1}}">
+							<div class="col-md-12" style="margin-bottom: 10px;">
+								<button type="button" class="btn btn-primary" onclick="SinceritiesDetailAdd()">Add More Sincerities</button>
+								<div class="space-20"></div>
+							</div>
+						</div>
+                    </div>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary" style="float: right;">Update</button>
+            </div>
+			
+            <div class="modal-footer"></div>
+        </form>
+    </div>
+</div>
 <div class="space-60"></div>
 @include('layouts.admin-footer', ['page'=>''])
 
 <script type="text/javascript">
 	$(window).on('scroll', function() {
 		var scrollTop = $(this).scrollTop();
-
+		
 		var y_2020 = $("#2020");
 		if (scrollTop > y_2020.offset().top - 60) {
 			$(".nav-link").removeClass('active');

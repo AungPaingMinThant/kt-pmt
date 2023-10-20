@@ -15,6 +15,7 @@ class CreateAwardsTable extends Migration
     {
         Schema::create('awards', function (Blueprint $table) {
             $table->id();
+            $table->integer('year_id');
             $table->longText('award_title');
             $table->longText('award_text');
             $table->longText('award_img');
@@ -22,6 +23,7 @@ class CreateAwardsTable extends Migration
             $table->integer('updated_by');
             $table->timestamp('created_at')->useCurrent()->useCurrentOnUpdate();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
+
         });
     }
 
