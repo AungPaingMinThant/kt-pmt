@@ -106,6 +106,18 @@
 			</a>
 		</li>
 
+		<!-- Award -->
+		@if($page == 'Award')
+			<li class="menu-item active">
+		@else
+			<li class="menu-item">
+		@endif
+			<a href="{{ url('/admin/awards') }}" class="menu-link">
+				<i class="menu-icon tf-icons bx bx-award"></i>
+				<div>Awards</div>
+			</a>
+		</li>
+
 		<!-- Exchange -->
 		@if($page == 'Exchange')
 			<li class="menu-item active open">

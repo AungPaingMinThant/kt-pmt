@@ -3336,19 +3336,33 @@
 @endif
 
 @if($page == 'mission_promise')
-	<div class="mission_promise_banner banner_bg">
-		<div class="container">
-			<div class="row d-none d-sm-block">
-				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div class="mission_promise_banner_tagline">
-						<h1 class="f-white" style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">Mission, Corporate Values and Brand Promise</h1>
+	@php
+		$banner_data = App\Models\PageBanner::where('page_slug',$page)->first();
+		$base_url = URL::to('/').'/';
+		$banner_link =  $base_url.$banner_data->desktop_banner;
+		$mobile_banner_link =  $base_url.$banner_data->mobile_banner;
+	@endphp
+	<div class="d-none d-sm-block">
+		<div class="aya_bank_profile_banner banner_bg" style="background-image:url('{{$banner_link}}')">
+			<div class="container">
+				<div class="row d-none d-sm-block">
+					<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+						<div class="aya_bank_profile_banner_tagline">
+							<h1 class="f-white" style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">{!! $banner_data->banner_title !!}</h1>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row d-block d-sm-none">
-				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 30px;left: 20px;right: 40px;">
-						<h1 class="f-white" style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Mission, Corporate Values and Brand Promise</h1>
+		</div>
+	</div>
+	<div class="d-block d-sm-none">
+		<div class="aya_bank_profile_banner banner_bg" style="background-image:url('{{$mobile_banner_link}}')">
+			<div class="container">
+				<div class="row d-block d-sm-none">
+					<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+						<div style="position: absolute;top: 30px;left: 20px;right: 40px;">
+							<h1 class="f-white" style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">{!! $banner_data->banner_title !!}</h1>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -3702,19 +3716,33 @@
 @endif
 
 @if($page == 'corporate_goals')
-	<div class="corporate_goals_banner banner_bg">
-		<div class="container">
-			<div class="row d-none d-sm-block">
-				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div class="corporate_goals_banner_tagline">
-						<h1 style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">Corporate Goals</h1>
+	@php
+		$banner_data = App\Models\PageBanner::where('page_slug',$page)->first();
+		$base_url = URL::to('/').'/';
+		$banner_link =  $base_url.$banner_data->desktop_banner;
+		$mobile_banner_link =  $base_url.$banner_data->mobile_banner;
+	@endphp
+	<div class="d-none d-sm-block">
+		<div class="aya_bank_profile_banner banner_bg" style="background-image:url('{{$banner_link}}')">
+			<div class="container">
+				<div class="row d-none d-sm-block">
+					<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+						<div class="aya_bank_profile_banner_tagline">
+							<h1 style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">{!! $banner_data->banner_title !!}</h1>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row d-block d-sm-none">
-				<div class="col-md-12 text-left" style="text-align: left;position: relative;">
-					<div style="position: absolute;top: 30px;left: 20px;right: 40px;">
-						<h1 style="font-size: 18px;font-weight: 400;margin-bottom: 0;line-height: 20px;">Corporate Goals</h1>
+		</div>
+	</div>
+	<div class="d-block d-sm-none">
+		<div class="aya_bank_profile_banner banner_bg" style="background-image:url('{{$mobile_banner_link}}')">
+			<div class="container">
+				<div class="row d-block d-sm-none">
+					<div class="col-md-12 text-left" style="text-align: left;position: relative;">
+						<div style="position: absolute;top: 30px;left: 20px;right: 40px;">
+							<h1 style="font-size: 23px;font-weight: 400;margin-bottom: 0;line-height: 30px;">{!! $banner_data->banner_title !!}</h1>
+						</div>
 					</div>
 				</div>
 			</div>

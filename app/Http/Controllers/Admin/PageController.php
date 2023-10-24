@@ -46,7 +46,6 @@ class PageController extends Controller
                 $bannerImageFile->move($upload_path, $file);
                 $banner_desk_img_path = "banner_images/". $page_slug . "/" . $file;
             }
-            
         } else {
             $banner_desk_img_path = $request->desktop_img_old;
         }
@@ -59,7 +58,6 @@ class PageController extends Controller
                 $mobilebannerImageFile->move($upload_path, $file);
                 $banner_mobile_img_path = "banner_images/". $page_slug . "/" . $file;
             }
-            
         } else {
             $banner_mobile_img_path = $request->mobile_img_old;
         }

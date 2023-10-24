@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SimplePayController;
 use App\Http\Controllers\Admin\LocationController;
+use App\Http\Controllers\Admin\AboutAYA\AwardsController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -153,8 +154,16 @@ Route::post('/admin/corporate-goals/people/update','App\Http\Controllers\Admin\A
 Route::post('/admin/corporate-goals/stakeholder/update','App\Http\Controllers\Admin\AboutAYA\CorporateGoalsController@stakeholderUpdate');
 
 // Awards
-Route::get('/admin/pagelist/about-aya/awards', 'App\Http\Controllers\Admin\AboutAYA\AwardsController@pageAwards');
-Route::post('/admin/pagelist/about-aya/awards-desc/update', 'App\Http\Controllers\Admin\AboutAYA\AwardsController@descAwards');
+Route::post('/admin/awards/awarddesc', [AwardsController::class, 'awardDesc']);
+Route::post('/admin/awards/descupdate', [AwardsController::class, 'awarddescUpdate']);
+Route::get('/admin/pagelist/about-aya/awards', [AwardsController::class, 'awardPage']);
+Route::get('/admin/awards', [AwardsController::class, 'award']);
+Route::get('/admin/awards/awardadd', [AwardsController::class, 'awardAdd']);
+Route::post('/admin/awards/insert', [AwardsController::class, 'insertAward']);
+Route::post('/admin/awards/delete', [AwardsController::class, 'awardDelete']);
+Route::get('/admin/awards/edit/{award_id}', [AwardsController::class, 'awardEdit']);
+Route::post('/admin/awards/update', [AwardsController::class, 'awardUpdate']);
+
 
 
 

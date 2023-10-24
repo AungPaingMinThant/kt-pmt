@@ -9,7 +9,7 @@
 @section('content')
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
-		@include('layouts.admin_sidebar', ['page'=>'Blog'])
+		@include('layouts.admin_sidebar', ['page'=>'Award'])
 
 		<div class="layout-page">
 			@include('layouts.nav', ['nav'=>'Blog', 'page'=>'Page'])

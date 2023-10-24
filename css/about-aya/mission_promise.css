@@ -25,6 +25,9 @@
 .ethics_des_col {
 	padding-left: 0px;
 }
+.ethics_des_col > ul {
+	padding-left: 15px !important;
+}
 .sincerity_check {
 	width: 30%;
 }
@@ -53,8 +56,13 @@
 .sincerity_check_text {
 	margin-left: -4rem !important;
 }
+.sincerity_check_text_admin > p {
+	margin-top: 0px !important;
+	margin-bottom: 20px !important;
+	margin-left: -4rem !important;
+}
 .sincerity_check_text > p {
-	margin-top: -25px !important;
+/*	margin-top: -25px !important;*/
 	margin-bottom: 20px !important;
 	margin-left: -4rem !important;
 }

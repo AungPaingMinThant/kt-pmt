@@ -1,8 +1,33 @@
 @extends('layouts.frontend')
 
-@section('title', 'Awards – AYA Bank')
+@section('title', 'Corporate Goals – AYA Bank')
+
 @section('content')
+<link rel="stylesheet" href="{{ url('/css/about-aya/corporate-goals.css') }}">
 <link rel="stylesheet" href="{{ url('/css/about-aya/award.css') }}">
+<style type="text/css">
+	.customer_satisfy_fact > ul {
+		padding-left: 15px;
+	}
+	.customer_mission_section > p:not(.cursor-pointer):not(:first-child),
+	.customer_sustainability_section > p:not(.cursor-pointer):not(:first-child),
+	.community_ungc_section > p:not(.cursor-pointer):not(:first-child),
+	.community_ungc_section > ol > li:not(:first-child),
+	.community_csr_section > p:not(.cursor-pointer):not(:first-child),
+	.staff_culture_section > p:not(.cursor-pointer):not(:first-child),
+	.staff_culture_section > ol > li:not(:first-child),
+	.staff_emp_dev_section > p:not(.cursor-pointer):nth-child(n+3),
+	.shareholder_gov_frame_section > p:not(.cursor-pointer):not(:first-child),
+	.shareholder_gov_frame_section > ol > li:not(:first-child),
+	.shareholder_report_section > p:not(.cursor-pointer):not(:first-child)
+	{
+		display: none;
+	}
+
+	
+</style>
+
+
 <div class="layout-wrapper layout-content-navbar">
    	<div class="layout-container">
 		<div class="layout-page">
@@ -24,7 +49,6 @@
 					</div>
 				</div>
 				<div class="space-30"></div>
-				<i class="bx bx-pencil page_edit_icon" data-bs-toggle="modal" data-bs-target="#award_modal"></i><br><br>
 				<div class="row">
 					<div class="col-md-9 timeline-col">
 						<div class="row 2020" id="2020">
@@ -71,7 +95,7 @@
 									<div class="col-md-8 award_desc_col">
 										<p class="mb-0 award_desc">
 											<span class="fw-semibold award_title">Myanmar’s Best Bank for CSR</span><br>
-											Asiamoney Awards 
+											Asiamoney Awards
 										</p>
 									</div>
 								</div>
@@ -398,10 +422,13 @@
 		</div>
 	</div>
 </div>
-{{-- Modal --}}
+
+<div class="space-60"></div>
+
+{{-- Models --}}
 <div class="modal fade" id="award_desc_modal" data-bs-backdrop="static" tabindex="-1">
 	<div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
-	   <form class="modal-content" action="{{ url('/admin/pagelist/about-aya/awards-desc/update') }}" method="POST" enctype="multipart/form-data">
+	   <form class="modal-content" action="{{ url('/admin/awards/update')}}" method="POST" enctype="multipart/form-data">
 		  <div class="modal-header">             
 			 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 		  </div>
@@ -410,10 +437,15 @@
 			 <div class="row" style="margin-bottom: 20px;">
 				<div class="col-md-12">
 				   <div class="mb-3 row">
-					  <div class="space-20"></div>
-					  <div class="col-md-12">
-						 <label for="award_desc" class="col-form-label">Section Description</label>
-						 <textarea class="form-control" id="award_desc" name="award_desc" rows="10" spellcheck="false" >{!! $page_desc->award_desc !!}</textarea>
+					  <h4>Award Section Update</h4>
+					  <div class="col-md-12" style="margin-bottom: 10px;">
+						 <div class="mb-3 row">
+							<label for="corporate_goal_desc" class="col-form-label">Award Description</label>
+							<textarea class="form-control" id="award_desc" name="award_desc" rows="10" spellcheck="false" >{!! $page_desc->award_desc !!}</textarea>
+						 </div>
+						 <div class="space-20"></div>
+ 
+						 <div class="space-20"></div>
 					  </div>
 				   </div>
 				</div>
@@ -424,58 +456,14 @@
 		  <div class="modal-footer"></div>
 	   </form>
 	</div>
- </div>
- {{-- award --}}
- <div class="modal fade" id="award_modal" data-bs-backdrop="static" tabindex="-1">
-	<div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
-		<form class="modal-content" action="{{ url('/admin/mission-corporate/sincerity/update') }}" method="POST" enctype="multipart/form-data">
-			<div class="modal-header">					
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<div class="modal-body" style="padding: 0px 40px;">
-				{{ csrf_field() }}
-				<div class="row" style="margin-bottom: 20px;">
-					<div class="col-md-12">
-						<div class="mb-3 row">
-							<h4>Awards Section</h4>
-							@php
-								$award_count = 1
-							@endphp
-							<div class="col-md-12">
-								@foreach ($sincerities_info as $item_sin)
-									<input type="hidden" name="sin_id_{{$sincerities_count}}" value="{{$item_sin->id}}">
-									<label class="col-form-label">Point {{$sincerities_count}}</label>
-									<textarea class="form-control sin_info" id="sincerities_point_{{$sincerities_count}}" name="sincerities_desc_{{$sincerities_count}}" rows="4" spellcheck="false">{!! htmlspecialchars_decode($item_sin->sincerities_desc) !!}
-									</textarea>
-									<div class="space-20" id="sincerities_point_space_{{$sincerities_count}}"></div>
-									@php
-										$sincerities_count = $sincerities_count + 1;
-									@endphp
-								@endforeach
-							</div>
-							<input type="hidden" name="sincerities_count" id="sincerities_count" value="{{$sincerities_count - 1}}">
-							<div class="col-md-12" style="margin-bottom: 10px;">
-								<button type="button" class="btn btn-primary" onclick="SinceritiesDetailAdd()">Add More Sincerities</button>
-								<div class="space-20"></div>
-							</div>
-						</div>
-                    </div>
-                </div>
-                <br>
-                <button type="submit" class="btn btn-primary" style="float: right;">Update</button>
-            </div>
-			
-            <div class="modal-footer"></div>
-        </form>
-    </div>
 </div>
-<div class="space-60"></div>
+
 @include('layouts.admin-footer', ['page'=>''])
 
 <script type="text/javascript">
 	$(window).on('scroll', function() {
 		var scrollTop = $(this).scrollTop();
-		
+
 		var y_2020 = $("#2020");
 		if (scrollTop > y_2020.offset().top - 60) {
 			$(".nav-link").removeClass('active');
@@ -523,7 +511,19 @@
 			$(".nav-link").removeClass('active');
   			$("#2013_link").addClass('active');
 		}
+		tinymce.init({
+		selector: 'textarea',
+	        height: 600,
+	        plugins: 'anchor autolink charmap code emoticons link lists searchreplace table visualblocks wordcount',
+	        toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat | code',
+	        file_picker_types: 'image',
+	        block_unsupported_drop: true
+	});
 	});
 </script>
 
 @endsection('content')
+
+
+
+
