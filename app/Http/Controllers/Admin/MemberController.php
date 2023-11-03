@@ -5,11 +5,6 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use App\Models\Category;
-use App\Models\Activity;
-use App\Models\Blog;
-use App\Models\BlogFile;
-use App\Models\SearchKeyword;
 use DB;
 
 class MemberController extends Controller

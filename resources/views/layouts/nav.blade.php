@@ -8,21 +8,6 @@ id="layout-navbar">
     </div>
 
     <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
-    	<!-- Search -->
-		<div class="navbar-nav align-items-center">
-			<div class="nav-item d-flex align-items-center">
-				<h5 class="m-0 me-2 pb-0">
-					@if($page == 'corporate_policies' || $page == 'aya_bank_profile' || $page == 'stakeholder_management' || $page == 'mission_promise' || $page == 'corporate_goals' || $page == 'awards')
-						<a href="{{ url('/admin/pagelist/about-aya') }}" style="cursor: pointer;"><i class="menu-icon tf-icons bx bx-chevrons-left"></i></a>&nbsp;&nbsp;
-					@endif
-					@if($page == 'foreign_currency_exchange')
-						<a href="{{ url('/admin/pagelist/personal-banking') }}" style="cursor: pointer;"><i class="menu-icon tf-icons bx bx-chevrons-left"></i></a>&nbsp;&nbsp;
-					@endif
-					{{ $nav }}
-				</h5>
-			</div>
-		</div>
-		<!-- /Search -->
       	<ul class="navbar-nav flex-row align-items-center ms-auto">
             <!-- User -->
             <li class="nav-item navbar-dropdown dropdown-user dropdown">

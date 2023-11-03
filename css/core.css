@@ -372,7 +372,9 @@ button:not(:disabled),
 [type=submit]:not(:disabled) {
   cursor: pointer;
 } */
-
+.btn-outline-primary {
+  margin-left: -15px;
+}
 ::-moz-focus-inner {
   padding: 0;
   border-style: none;

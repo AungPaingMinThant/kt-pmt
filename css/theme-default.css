@@ -204,7 +204,17 @@ button.list-group-item-primary.active {
 .table-primary .btn-icon {
   color: #435971;
 }
-
+.btn-outline-primary_list {
+  color: black;
+  border-color: #23225C;
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(105, 108, 255, 0.4);
+}
+.btn-outline-primary_list:hover {
+  color: #fff;
+  background-color: #23225C;
+  border-color: #23225C;
+  transform: translateY(-1px);
+}
 .btn-primary {
   color: black;
   border-color: #23225C;

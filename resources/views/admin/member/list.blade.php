@@ -50,7 +50,7 @@
 													<td>{{ $member->member_point }}</td>
 													<td>
 														<a href="{{ url('/admin/member/detail'. $member->id)}}">
-															<button type="button" class="btn btn-outline-primary">
+															<button type="button" class="btn btn-outline-primary_list">
 																View Detail
 															</button>
 														</a>

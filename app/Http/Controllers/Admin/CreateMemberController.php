@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Auth; 
-use App\Models\member;
+use App\Models\Member;
 use DB;
 use URL;
 
@@ -32,9 +32,8 @@ class CreateMemberController extends Controller
         $amount = $request->amount;
         $member_point = $request->member_point;
 
-        if ($amount >= 5000) {
-            $member_point += 1;
-        }
+        $pointsToAdd = floor($amount / 5000);
+        $member_point += $pointsToAdd;
         
         $member = new Member;
         $member->employee_id = $employee_id;
@@ -50,6 +49,4 @@ class CreateMemberController extends Controller
         $member_list = DB::table('members')->get(); 
         return redirect('/admin/create')->with('success','Member added successfully.');
     }
-    
-
 }
