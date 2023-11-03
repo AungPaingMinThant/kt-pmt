@@ -33,7 +33,7 @@
                                 </div>
                                     <div class="mb-3">
                                         <a href="{{ url('/admin/blog/add') }}">
-                                            <button type="submit" class="btn  btn-outline-primary d-grid w-30" style="margin-top: -71px;">Check Number</button>
+                                            <button type="submit" class="btn  btn-outline-primary d-grid w-30" style="margin-top: -58px;">Check Number</button>
                                         </a>
                                     </div>
 							</form>

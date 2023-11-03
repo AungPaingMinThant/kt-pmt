@@ -37,7 +37,7 @@
 								</div>
 									<div class="mb-3">
 										<a href="{{ url('/admin/blog/add') }}">
-                                            <button type="submit" class="btn  btn-outline-primary d-grid w-30" style="margin: -71px 0 0 488px;">Export</button>
+                                            <button type="submit" class="btn  btn-outline-primary d-grid w-30" style="margin: -58 0 0 488px;">Export</button>
                                         </a>
 									</div>
 								</div>
@@ -46,49 +46,6 @@
 					</div>
 				</div>
 			</div>
-			{{-- <div class="content-wrapper">
-				<div class="container-xxl flex-grow-1 container-p-y">
-					@include('layouts.message')
-					<div class="row">
-						<div class="col-12 text-right">
-							<a href="{{ url('/admin/faq/add') }}">
-								<button type="button" class="btn  btn-outline-primary flr">Add FAQ</button>
-							</a>
-						</div>
-						<div class="col-12">
-							<div class="card mt-4">
-								<div class="table-responsive text-nowrap">
-									<table class="table">
-										<thead>
-											<tr>
-												<th width="20">No</th>
-												<th>Page Name</th>
-												<th>Update Date</th>
-												<th>Actions</th>
-											</tr>
-										</thead>
-										<tbody class="table-border-bottom-0">
-											<tr>
-												<td>1</td>
-												<td>Personal Banking&nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;Other Services&nbsp;<i class='bx bx-chevron-right' style="font-size: 18px;line-height: 18px;"></i>&nbsp;Foreign Currency Exchange Service</td>
-												<td></td>
-												<td>
-													<a href="{{ url('/admin/faq/foreign_currency_exchange/list') }}">
-														<button type="button" class="btn btn-outline-primary">
-                              								<span class="tf-icons bx bx-pencil"></span>&nbsp; 		
-                           								</button>
-                           							</a>
-												</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			 --}}
 		</div>
 	</div>
 </div>
