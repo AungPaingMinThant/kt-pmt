@@ -54,11 +54,11 @@
 																View Detail
 															</button>
 														</a>
-														{{-- <a href="{{ url(''. $member->id)}}">
-															<button type="button" class="btn btn-outline-primary">
+														<a href="{{ url(''. $member->id)}}">
+															<button type="button" class="btn btn-outline-primary_list">
 																Edit
 															</button>
-														</a> --}}
+														</a>
 														<div class="modal fade" id="backDropModal_{{$member->id}}" data-bs-backdrop="static" tabindex="-1">
 															<div class="modal-dialog modal-dialog-centered">
 																<form class="modal-content" action="{{ url('') }}" method="post">
