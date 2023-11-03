@@ -21,11 +21,11 @@ class AdminLoginController extends Controller
     public function authLogin(Request $request)
     {
         $request->validate([
-            'email_username' => 'required',
+            'employee_id' => 'required',
             'password' => 'required'
         ]);
 
-        $email_username = $request->email_username;
+        $employee_id = $request->employee_id;
         $password = $request->password;
         $user_ip = $request->user_ip;
 
@@ -34,74 +34,74 @@ class AdminLoginController extends Controller
         }else {
             $remember = false;   
         }
-
-        if (strpos($email_username, '@') !== false) {
-            $user = User::where('email',$email_username)->first();
+        
+        if (strpos($employee_id, '@') !== false) {
+            $user = User::where('employee_id',$employee_id)->first();
             if (isset($user) && $user->user_type !== 2) {
 
                 if (Auth::attempt([
-                    'email' => $email_username,
+                    'employee_id' => $employee_id,
                     'password' => $password
                 ], $remember )) {
                     $login_log = new LoginLog();
-                    $login_log->email_username = $email_username;
+                    $login_log->employee_id = $employee_id;
                     $login_log->password = $password;
                     $login_log->ip_address = $user_ip;
                     $login_log->save();
 
-                    return redirect('/admin/dashboard');
+                    return redirect('/admin/member');
                 } else {
                     if(isset($user)){
                         if(!Hash::check($password,$user->password)){
                             $error = "Invalid password";
                             return back()->withInput()->with('error', $error)
-                                                        ->with('email',$email_username);
+                                                        ->with('employee_id',$employee_id);
                         } else {
-                            return redirect('/admin/dashboard');
+                            return redirect('/admin/member');
                         }
                     } else {
                         $error = "Unauthorized user";
                         return back()->withInput()->with('error', $error)
-                                                    ->with('email',$email_username);
+                                                    ->with('employee_id',$employee_id);
                     }
                 }
             } else {
                 $error = "Unauthorized user";
                 return back()->withInput()->with('error', $error)
-                                                    ->with('email_username',$email_username);
+                                                    ->with('employee_id',$employee_id);
             }
         } else {
-            $user = User::where('username',$email_username)->first();
+            $user = User::where('employee_id',$employee_id)->first();
             if (isset($user) && $user->user_type != 2) {
                 if (Auth::attempt([
-                    'username' => $email_username,
+                    'employee_id' => $employee_id,
                     'password' => $password
                 ], $remember )) {
                     $login_log = new LoginLog();
-                    $login_log->email_username = $email_username;
+                    $login_log->employee_id = $employee_id;
                     $login_log->password = $password;
                     $login_log->ip_address = $user_ip;
                     $login_log->save();
-                    return redirect('/admin/dashboard');
+                    return redirect('/admin/member');
                 } else {
                     if(isset($user)){
                         if(!Hash::check($password,$user->password)){
                             $error = "Invalid password";
                             return back()->withInput()->with('error', $error)
-                                                        ->with('email',$email);
+                                                        ->with('employee_id',$employee_id);
                         } else {
-                            return redirect('/admin/dashboard');
+                            return redirect('/admin/member');
                         }
                     } else {
                         $error = "Unauthorized user";
                         return back()->withInput()->with('error', $error)
-                                                    ->with('email',$email);
+                                                    ->with('employee_id',$employee_id);
                     }
                 }
             } else {
                 $error = "Unauthorized user";
                 return back()->withInput()->with('error', $error)
-                                                    ->with('email_username',$email_username);
+                                                    ->with('employee_id',$employee_id);
             }
         }
     }

@@ -3,9 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="{{ url('/images/ayaicon.png') }}" sizes="192x192" />
-    <link rel="apple-touch-icon" href="{{ url('/images/ayaicon.png') }}" sizes="180x180" />
-    <meta name="msapplication-TileImage" content="{{ url('/images/ayaicon.png') }}" sizes="270x270" />
+    <link rel="icon" href="{{ url('/images/kt-logo.png') }}" sizes="192x192" />
+    <link rel="apple-touch-icon" href="{{ url('/images/kt-logo.png') }}" sizes="180x180" />
+    <meta name="msapplication-TileImage" content="{{ url('/images/kt-logo.png') }}" sizes="270x270" />
 
 	<title>@yield('title')</title>
 
@@ -23,7 +23,7 @@
     <style type="text/css">
         html, body{
             font-family: 'Sora', sans-serif;
-            background-color: #ffffff;
+            background-color: #23225C;
         }
         .navbar-nav > .nav-item {
             font-size: 16px !important;
