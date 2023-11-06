@@ -41,43 +41,18 @@ class AddPointController extends Controller
         $member_list = DB::table('members')->where('phone',$phone)->first();
         return view('admin.redeem.redeem')->with('member_list',$member_list);
     }
-    // public function add(Request $request) {
-    //     $member_id = $request->member_id;
-    //     $amount = $request->amount;
-        
-    //     $pointsToAdd = floor($amount / 5000);
     
-       
-    //     $member = DB::table('members')->where('id', $member_id)->first();
-    
-    //     if ($member) {
-           
-    //         $newPoints = $member->points + $pointsToAdd;
-            
-         
-    //         DB::table('members')->where('id', $member_id)->update(['points' => $newPoints]);
-            
-            
-    //         return redirect('/admin/addpoints')->with('success', 'Points added successfully');
-    //     } else {
-          
-    //         return redirect('/admin/addpoints')->with('error', 'Member not found');
-    //     }
-    // }
     public function add(Request $request) {
         $member_id = $request->member_id;
         $member_point = $request->member_point;
         $amount = $request->amount;
 
         $pointsToAdd = floor($amount / 5000);
-        $member_point += $pointsToAdd;
+        
 
 
-        $member_list = DB::table('members')->where('id',$member_id)->get();
+        $member_list = DB::table('members')->where('id',$member_id)->increment('member_point', $pointsToAdd);
         return redirect('/admin/addpoints/')->with('success', 'Points Added successfully');
     } 
    
 }
-
-
-

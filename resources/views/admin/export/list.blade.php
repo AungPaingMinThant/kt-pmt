@@ -27,11 +27,11 @@
 								{{ csrf_field() }}
 								<div class="row mb-3">
 									<div class="col-md-3">
-										<label for="name" class="form-label">From Date</label>
+										<label for="name" class="form-label">Export From Date</label>
 										<input type="date" class="form-control_create" id="name" name="name" placeholder="Select a date">
 									</div>
 									<div class="col-md-3">
-										<label for="phone" class="form-label">To Date</label>
+										<label for="phone" class="form-label">Export To Date</label>
 										<input type="date" class="form-control_create" id="name" name="name" placeholder="Select a date">
 									</div>
 								</div>
