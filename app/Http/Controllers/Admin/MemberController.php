@@ -24,12 +24,29 @@ class MemberController extends Controller
         $member_list = DB::table('members')->get();
         return view ('admin.member')->with('member_list',$member_list);
     }
-    public function detail() {
-        $member_list = DB::table('members')->get();
+    public function detail($member_id) {
+        $member_list = DB::table('members')->where('id',$member_id)->first();
         return view('admin.member.detail')->with('member_list',$member_list);
     }
-    public function edit() {
-        $member_list = DB::table('members')->get();
+    public function edit($member_id) {
+        $member_list = DB::table('members')->where('id',$member_id)->first();
         return view('admin.member.edit')->with('member_list',$member_list);
     } 
+
+    public function update(Request $request)
+    {
+        $member_id = $request->member_id;
+        $name = $request->name;
+        $phone = $request->phone;
+           
+            $member = DB::table ('members')
+                ->where( 'id',$member_id)
+                ->update ([
+                    'name' => $name,
+                    'phone' => $phone,
+                    'updated_by' => auth()->user()->id
+                ]);
+                $member_list = DB::table('members')->where('id',$member_id)->get();
+                return redirect('/admin/member')->with('success', 'Member information updated successfully');
+    }
 }

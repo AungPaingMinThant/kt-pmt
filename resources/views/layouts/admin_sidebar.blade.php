@@ -48,6 +48,18 @@
 			</a>
 		</li>
 
+		<!-- Redeem -->
+		@if($page == 'Redeem')
+			<li class="menu-item active">
+		@else
+			<li class="menu-item">
+		@endif
+			<a href="{{ url('/admin/redeem/') }}" class="menu-link">
+				<i class='menu-icon tf-icons bx bx-minus-circle' ></i>
+				<div>Redeem</div>
+			</a>
+		</li>
+
 		<!-- Export -->
 		@if($page == 'Export')
 			<li class="menu-item active">
@@ -59,6 +71,8 @@
 				<div>Export</div>
 			</a>
 		</li>
+
+
 
 	</ul>
 </aside> 	

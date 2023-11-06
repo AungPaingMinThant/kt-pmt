@@ -7,7 +7,7 @@
     <link rel="apple-touch-icon" href="{{ url('/images/ayaicon.png') }}" sizes="180x180" />
     <meta name="msapplication-TileImage" content="{{ url('/images/ayaicon.png') }}" sizes="270x270" />
 
-	<title>Edit Member List – Khit Thit</title>
+	<title>Add Points – Khit Thit</title>
 
     <link rel="stylesheet" href="{{ url('/fonts/boxicons.css') }}" />
 
@@ -33,43 +33,50 @@
 <body>
 	<div class="layout-wrapper layout-content-navbar">
 	   	<div class="layout-container">
-			@include('layouts.admin_sidebar', ['page'=>'MemberList'])
+			@include('layouts.admin_sidebar', ['page'=>'AddPoint'])
 
 			<div class="layout-page">
-				@include('layouts.nav', ['nav'=>'Edit Member List', 'page'=>'MemberList'])
+				@include('layouts.nav', ['nav'=>'Add Point', 'page'=>'AddPoint'])
 				<div class="content-wrapper" style="background-color:#fff">
 					<div class="container-xxl flex-grow-1 container-p-y">
-						<a href="{{ url('admin/member') }}" style="cursor: pointer;"><label class="form-label" style="cursor: pointer;"><i class="menu-icon tf-icons bx bx-chevrons-left"></i> << Back to list</label></a>
+						<a href="{{ url('admin/addpoints') }}" style="cursor: pointer;"><label class="form-label" style="cursor: pointer;"><i class="menu-icon tf-icons bx bx-chevrons-left"></i> << Back to list</label></a>
 						<br><br>
 						<div class="border border-9">
 							<div class="row">
-								<form id="formAuthentication" class="mb-3" action="{{ url('/admin/member/update/') }}" method="POST">
+								<form id="formAuthentication" class="mb-3" action="{{ url('/admin/addpoints/pointAdd/') }}" method="POST">
 									{{ csrf_field() }}
 									<div class="row mb-3">
-										<input type="hidden" name="member_id" value="{{$member_list->id}}">
-										<div class="col-md-3">
-											<label for="employee_id" class="form-label">Employee ID</label>&nbsp;
-										</div>
 										<div class="col-md-2">
-											<p>{!! $member_list->employee_id !!}</p>
+                                            <label for="employee_id" class="form-label">Employee ID</label>
+                                            <div>{!! $member_list->employee_id !!}</div>
+                                        </div>&nbsp;&nbsp;&nbsp;
+                                        <div class="col-md-2">
+                                            <label for="name" class="form-label">Name</label>
+                                            <div>{!! $member_list->name !!}</div>
+                                        </div>&nbsp;&nbsp;&nbsp;
+                                        <div class="col-md-2">
+                                            <label for="phone" class="form-label">Phone</label>
+                                            <div>{!! $member_list->phone !!}</div>
+                                        </div>&nbsp;&nbsp;&nbsp;
+									</div>
+                                    <div class="row mb-3">
+										<div class="col-md-3">
+											<label for="name" class="form-label">Total Expensed Amount</label>
+											<input type="text" class="form-control_create" id="name" name="name" placeholder="100000.00"/>
 										</div>
 									</div>
-									<div class="row mb-3">
+                                    <div class="row mb-3">
 										<div class="col-md-3">
-											<label for="name" class="form-label">Name</label>
-											<input type="text" class="form-control_create" id="name" name="name" value="{!! $member_list->name !!}"/>
-										</div>&nbsp;&nbsp;&nbsp;
-										<div class="col-md-3">
-											<label for="phone" class="form-label">Phone</label>
-											<input type="text" class="form-control_create" id="phone" name="phone" value="{!! $member_list->phone !!}"/>
+											<label for="name" class="form-label">Point By Expensed Amount</label>
 										</div>
+                                        <div class="col-md-3">
+                                            <p>{!! $member_list->member_point !!}&nbsp;Pts</p>
+                                        </div>
 									</div>
 									<br>
 									<div class="mb-4">
-										<span class="fill" style="margin-left: 20px">Fill in the bank information</span>
-										<div class="space-10"></div>
-										<a href="{{ url('/admin/member/update') }}">
-											<button type="submit" class="btn  btn-outline-primary d-grid w-30" style="margin-left: 20px">Save Change</button>
+										<a href="{{ url('/admin/addpoints/pointAdd/') }}">
+											<button type="submit" class="btn  btn-outline-primary d-grid w-30" style="margin-left: 20px">Add Point</button>
 										</a>
 									</div>
 								</form>

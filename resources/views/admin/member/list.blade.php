@@ -49,12 +49,12 @@
 													<td>{{ $member->created_at }}</td>
 													<td>{{ $member->member_point }}</td>
 													<td>
-														<a href="{{ url('/admin/member/detail'. $member->id)}}">
+														<a href="{{ url('/admin/member/detail/'. $member->id)}}">
 															<button type="button" class="btn btn-outline-primary_list">
 																View Detail
 															</button>
 														</a>
-														<a href="{{ url(''. $member->id)}}">
+														<a href="{{ url('/admin/member/edit/'. $member->id)}}">
 															<button type="button" class="btn btn-outline-primary_list">
 																Edit
 															</button>

@@ -49,8 +49,10 @@ Route::get('/admin/dashboard','App\Http\Controllers\Admin\AdminController@dashbo
 // Member List
 Route::get('/admin/member','App\Http\Controllers\Admin\MemberController@member');
 Route::get('/admin/member/add','App\Http\Controllers\Admin\MemberController@addMember');
-Route::get('/admin/member/detail/{id}','App\Http\Controllers\Admin\MemberController@detail');
-Route::get('/admin/member/edit/{id}', 'App\Http\Controllers\Admin\MemberController@edit');
+Route::get('/admin/member/detail/{member_id}','App\Http\Controllers\Admin\MemberController@detail');
+Route::get('/admin/member/edit/{member_id}', 'App\Http\Controllers\Admin\MemberController@edit');
+Route::post('/admin/member/update/', 'App\Http\Controllers\Admin\MemberController@update');
+
 
 //create member
 Route::get('/admin/create','App\Http\Controllers\Admin\CreateMemberController@index');
@@ -58,6 +60,11 @@ Route::post('/admin/addmember','App\Http\Controllers\Admin\CreateMemberControlle
 
 //add point
 Route::get('/admin/addpoints/','App\Http\Controllers\Admin\AddPointController@addPoint');
+Route::post('/admin/addpoints/point/','App\Http\Controllers\Admin\AddPointController@showInfo');
+Route::post('/admin/addpoints/pointAdd/','App\Http\Controllers\Admin\AddPointController@add');
+Route::get('/admin/redeem/','App\Http\Controllers\Admin\AddPointController@redeem');
+Route::post('/admin/addpoints/redeempoint/','App\Http\Controllers\Admin\AddPointController@redeemInfo');
+
 
 //Export
 Route::get('/admin/export/list', 'App\Http\Controllers\Admin\ExportController@export');

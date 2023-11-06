@@ -8,6 +8,18 @@ id="layout-navbar">
     </div>
 
     <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
+		<!-- Search -->
+		<div class="navbar-nav align-items-center">
+			<div class="nav-item d-flex align-items-center">
+				<h5 class="m-0 me-2 pb-0">
+					@if($page == 'MemberList' || $page == 'CreateMember' || $page == 'AddPoint' || $page == 'Redeem' || $page == 'Export')
+						<a href="{{ url('/admin/pagelist/about-aya') }}" style="cursor: pointer;"><i class="menu-icon tf-icons bx bx-chevrons-left"></i></a>&nbsp;&nbsp;
+					@endif
+					{{ $nav }}
+				</h5>
+			</div>
+		</div>
+		<!-- /Search -->
       	<ul class="navbar-nav flex-row align-items-center ms-auto">
             <!-- User -->
             <li class="nav-item navbar-dropdown dropdown-user dropdown">
