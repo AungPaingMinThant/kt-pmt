@@ -23,25 +23,24 @@
 					<br>
 					<div class="border border-9">
 						<div class="row">
-							<form id="formAuthentication" class="mb-3" action="{{ url('/authlogin') }}" method="POST">
+							<form id="formAuthentication" class="mb-3" action="{{ url('/admin/addpoints/redeempoint/') }}" method="POST">
 								{{ csrf_field() }}
 								<div class="row mb-3">
 									<div class="col-md-3">
-										<label for="name" class="form-label">Phone</label>
-										<input type="text" class="form-control_create" id="name" name="name" placeholder="09 123 456 789"/>
+										<label for="phone" class="form-label">Phone</label>
+										<input type="text" class="form-control_create" id="phone" name="phone" placeholder="09 123 456 789"/>
 									</div>
                                 </div>
-                                    <div class="mb-3">
-                                        <a href="{{ url('/admin/blog/add') }}">
-                                            <button type="submit" class="btn  btn-outline-primary d-grid w-30" style="margin-top: -58px;">Check Number</button>
-                                        </a>
-                                    </div>
+                                <div class="mb-3">
+									<a href="{{ url('/admin/addpoints/redeempoint/') }}">
+										<button type="submit" class="btn  btn-outline-primary d-grid w-30" style="margin-top: -58px;">Check Number</button>
+									</a>
+                                </div>
 							</form>
 						</div>
 					</div>
 				</div>
-			</div>
-        
+			</div>   
 	</div>
 </div>
 

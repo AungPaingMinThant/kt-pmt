@@ -71,7 +71,6 @@ Route::get('/admin/export/list', 'App\Http\Controllers\Admin\ExportController@ex
 
 //logout
 Route::get('/admin/logout','App\Http\Controllers\Admin\AdminController@logout');
-Route::get('/share-post', 'App\Http\Controllers\SharePostController@share');
 Route::any('/','App\Http\Controllers\HomeController@indexNew');
 
 // Redirect

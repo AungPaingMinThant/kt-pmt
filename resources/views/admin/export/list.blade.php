@@ -23,20 +23,20 @@
 					<br>
 					<div class="border border-9">
 						<div class="row">
-							<form id="formAuthentication" class="mb-3" action="{{ url('/authlogin') }}" method="POST">
+							<form id="formAuthentication" class="mb-3" action="{{ url('') }}" method="POST">
 								{{ csrf_field() }}
 								<div class="row mb-3">
 									<div class="col-md-3">
-										<label for="name" class="form-label">Export From Date</label>
-										<input type="date" class="form-control_create" id="name" name="name" placeholder="Select a date">
+										<label for="date" class="form-label">Export From Date</label>
+										<input type="date" class="form-control_create" id="date" name="date" placeholder="Select a date">
 									</div>
 									<div class="col-md-3">
-										<label for="phone" class="form-label">Export To Date</label>
-										<input type="date" class="form-control_create" id="name" name="name" placeholder="Select a date">
+										<label for="date" class="form-label">Export To Date</label>
+										<input type="date" class="form-control_create" id="date" name="date" placeholder="Select a date">
 									</div>
 								</div>
 									<div class="mb-3">
-										<a href="{{ url('/admin/blog/add') }}">
+										<a href="{{ url('') }}">
                                             <button type="submit" class="btn  btn-outline-primary d-grid w-30" style="margin: -58 0 0 488px;">Export</button>
                                         </a>
 									</div>

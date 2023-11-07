@@ -70,7 +70,7 @@
 											<label for="name" class="form-label">Point By Expensed Amount</label>
 										</div>
                                         <div class="col-md-3">
-                                            <p>{!! $member_list->member_point !!}&nbsp;Pts</p>
+                                            <p id="memberPoints">{!! $member_list->member_point !!}&nbsp;Pts</p>
                                         </div>
 									</div>
 									<br>
@@ -98,14 +98,18 @@
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="{!! url('/assets/tinymce/js/tinymce/tinymce.min.js') !!}"></script>
 	<script>
-		tinymce.init({
-	        selector: 'textarea#blog_desc',
-	        height: 600,
-	        plugins: 'anchor autolink charmap code emoticons link lists searchreplace table visualblocks wordcount',
-	        toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat | code',
-	        file_picker_types: 'image',
-	        block_unsupported_drop: true
-	    });
+		// Get references to the input and result elements
+		const amountInput = document.getElementById("amount");
+		const memberPointsDisplay = document.getElementById("memberPoints");
+		// Add an event listener to the input field
+		amountInput.addEventListener("input", function () {
+			// Get the entered amount and calculate member points
+			const amount = parseFloat(amountInput.value) || 0;
+			const pointsToAdd = Math.floor(amount / 5000);
+
+			// Update the member points display
+			memberPointsDisplay.textContent = pointsToAdd;
+		});
 	</script>
 </body>
 </html>

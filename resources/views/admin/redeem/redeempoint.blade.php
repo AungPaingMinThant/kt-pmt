@@ -98,14 +98,7 @@
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="{!! url('/assets/tinymce/js/tinymce/tinymce.min.js') !!}"></script>
 	<script>
-		tinymce.init({
-	        selector: 'textarea#blog_desc',
-	        height: 600,
-	        plugins: 'anchor autolink charmap code emoticons link lists searchreplace table visualblocks wordcount',
-	        toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat | code',
-	        file_picker_types: 'image',
-	        block_unsupported_drop: true
-	    });
+	
 	</script>
 </body>
 </html>

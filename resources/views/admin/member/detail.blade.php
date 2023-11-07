@@ -68,69 +68,60 @@
 									</a>
 								</div>
 							</div>	
-							<br><br><br>
-							<h4>Point History</h4>
+							<br><br><br><br><br><br>
+							<h5>Point History</h5>
 							<div class="col-xl">
-								<div class="card mb-3">
+								<div class="card mb-1">
 									<div class="card-body_detail">
 										<form class="mb-3" action="{{ url('/admin/member/edit/{member_id}') }}" method="POST" id="fx_form" enctype="multipart/form-data" >
 											{{ csrf_field() }}
 											<div class="col-12">
-												<div class="card mt-3">
-													<div class="table-responsive text-nowrap">
-														<table class="table">
-															<thead>
-																<tr>
-																	<th>Date</th>
-																	<th>Point in</th>
-																	<th>Redeem</th>
-																	<th>Member_id</th>
-																</tr>
-															</thead>
-															
-															{{-- <tbody class="table-border-bottom-0">
-																@php $member_count=1; @endphp
-																@foreach($member_list as $member)
-																	<tr>
-																		<td>{{ $member_count }}</td>
-																		<td>{{ $member->name }}</td>
-																		<td>{{ $member->created_at }}</td>
-																		<td>{{ $member->member_point }}</td>
-
-																	</tr>
-																@php
-																	$member_count = $member_count+1;
-																@endphp
-																@endforeach
-															</tbody> --}}
-														</table>
+												<div class="row mb-3">
+													<div class="col-md-1">
+														<label for="employee_id" class="form-label">Date</label>
+														{{-- <div>{!! $member_list->created_at !!}</div> --}}
+													</div>
+													<div class="col-md-1">
+														<label for="name" class="form-label">Point in</label>
+														{{-- <div>{!! $member_list->name !!}</div> --}}
+													</div>
+													<div class="col-md-1">
+														<label for="phone" class="form-label">Redeem</label>
+														{{-- <div>{!! $member_list->phone !!}</div> --}}
+													</div>
+													<div class="col-md-1">
+														<label for="member_point" class="form-label">Member ID</label>
+														{{-- <div>{!! $member_list->employee_id !!}&nbsp;Pts</div> --}}
 													</div>
 												</div>
-											</div>
-											{{-- <div class="row mb-3">
-												<div class="col-md-2">
-													<label for="employee_id" class="form-label">Date</label>
-													<div>{!! $member_list->employee_id !!}</div>
-												</div>&nbsp;&nbsp;&nbsp;
-												<div class="col-md-2">
-													<label for="name" class="form-label">Point in</label>
-													<div>{!! $member_list->name !!}</div>
-												</div>&nbsp;&nbsp;&nbsp;
-												<div class="col-md-2">
-													<label for="phone" class="form-label">Redeem</label>
-													<div>{!! $member_list->phone !!}</div>
-												</div>&nbsp;&nbsp;&nbsp;
-												<div class="col-md-2">
-													<label for="member_point" class="form-label">Member ID</label>
-													<div>{!! $member_list->member_point !!}&nbsp;Pts</div>
+												<div class="">	
+													<div class="row mb-3">
+														<div class="col-md-1">
+															{{-- <label for="employee_id" class="form-label">Date</label> --}}
+															<div>{!! $member_list->created_at !!}</div>
+														</div>
+														<div class="col-md-1">
+															{{-- <label for="name" class="form-label">Point in</label> --}}
+															<div>+{!! $member_list->member_point !!}</div>
+														</div>
+														<div class="col-md-1">
+															{{-- <label for="phone" class="form-label">Redeem</label> --}}
+															<div>-{!! $member_list->member_point !!}</div>
+														</div>
+														<div class="col-md-1">
+															{{-- <label for="member_point" class="form-label">Member ID</label> --}}
+															<div>{!! $member_list->employee_id !!}&nbsp;Pts</div>
+														</div>
+													</div>
 												</div>
-											</div>	 --}}
-										</form>
+											</div>	
+										</form>	
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -146,14 +137,7 @@
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="{!! url('/assets/tinymce/js/tinymce/tinymce.min.js') !!}"></script>
 	<script>
-		tinymce.init({
-	        selector: 'textarea#blog_desc',
-	        height: 600,
-	        plugins: 'anchor autolink charmap code emoticons link lists searchreplace table visualblocks wordcount',
-	        toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat | code',
-	        file_picker_types: 'image',
-	        block_unsupported_drop: true
-	    });
+	
 	</script>
 </body>
 </html>

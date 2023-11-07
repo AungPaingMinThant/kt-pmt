@@ -9029,7 +9029,10 @@ button.list-group-item-gray.active {
 .border-0 {
   border: 0 !important;
 }
-
+.border-9 {
+  border: 1px solid #CB9D4C !important;
+  border-radius: 20px;
+}
 .border-top {
   border-top: 1px solid #d9dee3 !important;
 }
