@@ -110,7 +110,7 @@
 														</div>
 														<div class="col-md-1">
 															{{-- <label for="member_point" class="form-label">Member ID</label> --}}
-															<div>{!! $member_list->employee_id !!}&nbsp;Pts</div>
+															<div>{!! $member_list->employee_id !!}&nbsp;</div>
 														</div>
 													</div>
 												</div>
