@@ -61,7 +61,7 @@ Route::post('/admin/addmember','App\Http\Controllers\Admin\CreateMemberControlle
 //add point
 Route::get('/admin/addpoints/','App\Http\Controllers\Admin\AddPointController@addPoint');
 Route::post('/admin/addpoints/point/','App\Http\Controllers\Admin\AddPointController@showInfo');
-Route::post('/admin/addpoints/pointAdd/','App\Http\Controllers\Admin\AddPointController@add');
+Route::post('/admin/addpoints/pointAdd/','App\Http\Controllers\Admin\AddPointController@pointAdd');
 Route::get('/admin/redeem/','App\Http\Controllers\Admin\AddPointController@redeem');
 Route::post('/admin/addpoints/redeempoint/','App\Http\Controllers\Admin\AddPointController@redeemInfo');
 

@@ -20,7 +20,7 @@ class CreateMemberController extends Controller
     public function index()
     {       
         $member_list = DB::table('members')->get(); 
-        return view('admin.create.list')->with('member_list',$member_list);;
+        return view('admin.create.list')->with('member_list',$member_list);
     }
 
     public function addMember(Request $request)
@@ -34,7 +34,7 @@ class CreateMemberController extends Controller
 
         $pointsToAdd = floor($amount / 5000);
         $member_point += $pointsToAdd;
-        
+
         $member = new Member;
         $member->employee_id = $employee_id;
         $member->name = $name;

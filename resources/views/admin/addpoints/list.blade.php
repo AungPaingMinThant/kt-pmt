@@ -31,10 +31,8 @@
 										<input type="text" class="form-control_create" id="phone" name="phone" placeholder="09 123 456 789"/>
 									</div>
                                 </div>
-                                    <div class="mb-3">
-                                        <a href="{{ url('/admin/addpoints/point/') }}">
-                                            <button type="submit" class="btn  btn-outline-primary d-grid w-30" style="margin-top: -58px;">Check Number</button>
-                                        </a>
+                                    <div class="mb-3">  
+                                    	<button type="submit" class="btn  btn-outline-primary d-grid w-30" style="margin-top: -58px;">Check Number</button>  
                                     </div>
 							</form>
 						</div>

@@ -46,7 +46,7 @@
 												<tr>
 													<td>{{ $member_count }}</td>
 													<td>{{ $member->name }}</td>
-													<td>{{ $member->created_at }}</td>
+													<td>{!! date('M-j-Y', strtotime($member->created_at)) !!}</td>
 													<td>{{ $member->member_point }}</td>
 													<td>
 														<a href="{{ url('/admin/member/detail/'. $member->id)}}">

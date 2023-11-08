@@ -4,9 +4,11 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-
-
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Auth; 
+use App\Models\Point;
 use DB;
+use URL;
 
 class AddPointController extends Controller
 {
@@ -27,44 +29,58 @@ class AddPointController extends Controller
     }
 
     public function showInfo(Request $request) {
-
         $phone = $request->phone;
-        $member_list = DB::table('members')->where('phone',$phone)->first();
-        return view('admin.addpoints.add')->with('member_list',$member_list);
-        // echo $phone;
-        // print_r( $member_list);
-        // exit();
-    } 
+        $member_list = DB::table('members')->where('phone', $phone)->first();
+        if ($member_list) {
+            return view('admin.addpoints.add')->with('member_list', $member_list);
+        } else {
+            $error = "Member not found with the provided phone number.";
+            return redirect('admin/addpoints')->with('error', $error);
+        }
+    }
+    
 
     public function redeemInfo(Request $request) {
         $phone = $request->phone;
-        $member_list = DB::table('members')->where('phone',$phone)->first();
-        return view('admin.redeem.redeempoint')->with('member_list',$member_list);
+        $member_list = DB::table('members')->where('phone', $phone)->first();
+        if ($member_list) {
+            return view('admin.addpoints.add')->with('member_list', $member_list);
+        } else {
+            $error = "Member not found with the provided phone number.";
+            return redirect('admin/addpoints')->with('error', $error);
         // echo $phone;
         // print_r( $member_list);
-        // exit();
-        
+        // exit(); 
+        }
     }
     
-    public function add(Request $request) {
-    // Get the member ID and points to add from the request
-    $member_id = $request->input('member_id');
-    $pointsToAdd = $request->input('member_point'); // Rename the variable for clarity
-    $amount = $request->input('amount'); // You might use this later in your function
+    public function pointAdd (Request $request) {
+        $id = $request->id;
+        $employee_id = $request->employee_id;
+        $point_in = $request->point_in;
+        $amount = $request->amount;
+        $redeem = $request->redeem;
+        
 
-    // Check if the member with the given ID exists
-    $member = DB::table('members')->where('id', $member_id)->first();
+        $pointsToAdd = floor($amount / 5000);
+        $point_in += $pointsToAdd;
+        
+        $point = new Point;
+        $point -> employee_id = $employee_id;
+        $point->point_in = $point_in;
+        $point->amount = $amount;
+        
+        $point->created_by = auth()->user()->id;
+        $point->updated_by = auth()->user()->id;
+        $point->save();
 
-    if (!$member) {
-        // If the member does not exist, redirect with an error message
-        return redirect('/admin/addpoints/')->with('error', 'Member not found');
-    }
-
-    // Update the member's points by incrementing the 'member_point' column
-    DB::table('members')->where('id', $member_id)->increment('member_point', $pointsToAdd);
-
-    // Redirect with a success message after updating the points
-    return redirect('/admin/addpoints/')->with('success', 'Points added successfully');
-}
-
+        $member = DB::table('members')
+        ->where('id', $id)
+        ->first();
+        $member->points += $pointsToAdd;
+        $member->save();
+        
+        $point_list = DB::table('points')->get(); 
+        return redirect('admin/addpoints')->with('success','Points added successfully.');
+    }   
 }

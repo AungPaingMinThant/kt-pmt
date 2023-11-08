@@ -1,41 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="{{ url('/images/ayaicon.png') }}" sizes="192x192" />
-    <link rel="apple-touch-icon" href="{{ url('/images/ayaicon.png') }}" sizes="180x180" />
-    <meta name="msapplication-TileImage" content="{{ url('/images/ayaicon.png') }}" sizes="270x270" />
+@extends('layouts.app')
 
-	<title>Edit Member List – Khit Thit</title>
-
-    <link rel="stylesheet" href="{{ url('/fonts/boxicons.css') }}" />
-
-    <style type="text/css">
-    	.tox-statusbar__branding {
-    		display: none;
-    	}
-    	.file_section {
-    		margin-bottom: 20px;
-    	}
-    </style>
-
-    <link rel="stylesheet" href="{{ url('/css/core.css') }}" />
-    <link rel="stylesheet" href="{{ url('/css/theme-default.css') }}" />
-    <link rel="stylesheet" href="{{ url('/css/design.css') }}" />
-
-    <link rel="stylesheet" href="{{ url('/css/perfect-scrollbar.css') }}" />
-
-    <script src="{{ url('/js/helpers.js') }}"></script>
-
-    <script src="{{ url('/js/config.js') }}"></script>
-</head>
-<body>
+@section('title', 'Member List – Khit Thit')
+<style type="text/css">
+	.flr {
+		float: right;
+	}
+</style>
+@section('content')
 	<div class="layout-wrapper layout-content-navbar">
 	   	<div class="layout-container">
 			@include('layouts.admin_sidebar', ['page'=>'MemberList'])
 
-			<div class="layout-page">
+			<div class="layout-page" style="background-color:#fff">
 				@include('layouts.nav', ['nav'=>'Member Detail', 'page'=>'MemberList'])
 
 				<div class="content-wrapper">
@@ -79,40 +55,40 @@
 												<div class="row mb-3">
 													<div class="col-md-1">
 														<label for="employee_id" class="form-label">Date</label>
-														{{-- <div>{!! $member_list->created_at !!}</div> --}}
+														
 													</div>
 													<div class="col-md-1">
 														<label for="name" class="form-label">Point in</label>
-														{{-- <div>{!! $member_list->name !!}</div> --}}
+													
 													</div>
 													<div class="col-md-1">
 														<label for="phone" class="form-label">Redeem</label>
-														{{-- <div>{!! $member_list->phone !!}</div> --}}
+													
 													</div>
 													<div class="col-md-1">
 														<label for="member_point" class="form-label">Member ID</label>
-														{{-- <div>{!! $member_list->employee_id !!}&nbsp;Pts</div> --}}
+													
 													</div>
 												</div>
-												<div class="">	
-													<div class="row mb-3">
-														<div class="col-md-1">
-															{{-- <label for="employee_id" class="form-label">Date</label> --}}
-															<div>{!! $member_list->created_at !!}</div>
-														</div>
-														<div class="col-md-1">
-															{{-- <label for="name" class="form-label">Point in</label> --}}
-															<div>+{!! $member_list->member_point !!}</div>
-														</div>
-														<div class="col-md-1">
-															{{-- <label for="phone" class="form-label">Redeem</label> --}}
-															<div>-{!! $member_list->member_point !!}</div>
-														</div>
-														<div class="col-md-1">
-															{{-- <label for="member_point" class="form-label">Member ID</label> --}}
-															<div>{!! $member_list->employee_id !!}&nbsp;</div>
-														</div>
+												
+												<div class="row mb-3 border-9">
+													<div class="col-md-1">
+													
+														<div>{!! date('M-j-Y', strtotime($point_list->created_at)) !!}</div>
 													</div>
+													<div class="col-md-1">
+													
+														<div>+{!! $point_list->point_in !!}</div>
+													</div>
+													<div class="col-md-1">
+														
+														<div>-{!! $point_list->redeem !!}</div>
+													</div>
+													<div class="col-md-1">
+														
+														<div>{!! $point_list->employee_id !!}&nbsp;</div>
+													</div>
+												</div>
 												</div>
 											</div>	
 										</form>	
@@ -121,23 +97,8 @@
 							</div>
 						</div>
 					</div>
-					
 				</div>
 			</div>
 		</div>
 	</div>
-
-	<script src="{{ url('/js/jquery.js') }}"></script>
-    <script src="{{ url('/js/popper.js') }}"></script>
-    <script src="{{ url('/js/bootstrap.js') }}"></script>
-    <script src="{{ url('/js/perfect-scrollbar.js') }}"></script>
-    <script src="{{ url('/js/menu.js') }}"></script>
-    <script src="{{ url('/js/main.js') }}"></script>
-
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script src="{!! url('/assets/tinymce/js/tinymce/tinymce.min.js') !!}"></script>
-	<script>
-	
-	</script>
-</body>
-</html>
+@endsection('content')

@@ -32,9 +32,7 @@
 									</div>
                                 </div>
                                 <div class="mb-3">
-									<a href="{{ url('/admin/addpoints/redeempoint/') }}">
-										<button type="submit" class="btn  btn-outline-primary d-grid w-30" style="margin-top: -58px;">Check Number</button>
-									</a>
+									<button type="submit" class="btn  btn-outline-primary d-grid w-30" style="margin-top: -58px;">Check Number</button>
                                 </div>
 							</form>
 						</div>
