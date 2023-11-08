@@ -68,6 +68,7 @@ Route::post('/admin/addpoints/redeempoint/','App\Http\Controllers\Admin\AddPoint
 
 //Export
 Route::get('/admin/export/list', 'App\Http\Controllers\Admin\ExportController@export');
+Route::post('/admin/export', 'App\Http\Controllers\Admin\ExportController@exportData');
 
 //logout
 Route::get('/admin/logout','App\Http\Controllers\Admin\AdminController@logout');

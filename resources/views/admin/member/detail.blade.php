@@ -74,19 +74,19 @@
 												<div class="row mb-3 border-9">
 													<div class="col-md-1">
 													
-														<div>{!! date('M-j-Y', strtotime($point->created_at)) !!}</div>
+														<div>{!! date('M-j-Y', strtotime($point_list->created_at)) !!}</div>
 													</div>
 													<div class="col-md-1">
 												
-														<div>+{!! $point->point_in !!}</div>
+														<div>+{!! $point_list->point_in !!}</div>
 													</div>
 													<div class="col-md-1">
 														
-														<div>-{!! $point->redeem !!}</div>
+														<div>-{!! $point_list->redeem !!}</div>
 													</div>
 													<div class="col-md-1">
 														
-														<div>{!! $point->employee_id !!}&nbsp;</div>
+														<div>{!! $point_list->employee_id !!}&nbsp;</div>
 													</div>
 												</div>
 												</div>
