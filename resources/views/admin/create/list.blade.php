@@ -109,16 +109,16 @@
 				$("#memberPoints").text('0 Pt');
 			}
 		});
-		var lastGeneratedNumber = 1000;
+		// var lastGeneratedNumber = 1000;
 
-		function generateRandomEmployeeID() {
+		// function generateRandomEmployeeID() {
 			
-			lastGeneratedNumber += 1;
-			if (lastGeneratedNumber > 9999) {
-				lastGeneratedNumber = 1001;
-			}
-			return "KT_M_" + lastGeneratedNumber;
-		}
+		// 	lastGeneratedNumber += 1;
+		// 	if (lastGeneratedNumber > 9999) {
+		// 		lastGeneratedNumber = 1001;
+		// 	}
+		// 	return "KT_M_" + lastGeneratedNumber;
+		// }
 		function generateRandomEmployeeID() {
         return "KT_M_" + Math.floor(Math.random() * 9000 + 1001);
         }

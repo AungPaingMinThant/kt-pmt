@@ -36,9 +36,7 @@
 									</div>
 								</div>
 									<div class="mb-3">
-										<a href="{{ url('') }}">
-                                            <button type="submit" class="btn  btn-outline-primary d-grid w-30" style="margin: -58 0 0 488px;">Export</button>
-                                        </a>
+                                        <button type="submit" class="btn  btn-outline-primary d-grid w-30" style="margin: -58 0 0 488px;">Export</button> 
 									</div>
 								</div>
 							</form>

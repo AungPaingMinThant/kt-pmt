@@ -73,14 +73,8 @@ class AddPointController extends Controller
         $point->created_by = auth()->user()->id;
         $point->updated_by = auth()->user()->id;
         $point->save();
-
-        $member = DB::table('members')
-        ->where('id', $id)
-        ->first();
-        $member->points += $pointsToAdd;
-        $member->save();
         
         $point_list = DB::table('points')->get(); 
-        return redirect('admin/addpoints')->with('success','Points added successfully.');
+        return view('admin.member.detail', ['point_list' => $point_list])->with('success', 'Points added successfully.');
     }   
 }

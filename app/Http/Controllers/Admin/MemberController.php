@@ -39,14 +39,14 @@ class MemberController extends Controller
         $name = $request->name;
         $phone = $request->phone;
            
-            $member = DB::table ('members')
-                ->where( 'id',$member_id)
-                ->update ([
-                    'name' => $name,
-                    'phone' => $phone,
-                    'updated_by' => auth()->user()->id
-                ]);
-                $member_list = DB::table('members')->where('id',$member_id)->get();
-                return redirect('/admin/member')->with('success', 'Member information updated successfully');
+        $member = DB::table ('members')
+            ->where( 'id',$member_id)
+            ->update ([
+                'name' => $name,
+                'phone' => $phone,
+                'updated_by' => auth()->user()->id
+            ]);
+            $member_list = DB::table('members')->where('id',$member_id)->get();
+            return redirect('/admin/member')->with('success', 'Member information updated successfully');
     }
 }
