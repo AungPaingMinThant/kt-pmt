@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Add Points - Khit Thit ')
+@section('title', 'Redeem - Khit Thit ')
 <style type="text/css">
 	.flr {
 		float: right;
@@ -23,7 +23,7 @@
 					<br>
 					<div class="border border-9">
 						<div class="row">
-							<form id="formAuthentication" class="mb-3" action="{{ url('/admin/addpoints/redeempoint/') }}" method="POST">
+							<form id="formAuthentication" class="mb-3" action="{{ url('/admin/redeem/redeempoint/') }}" method="POST">
 								{{ csrf_field() }}
 								<div class="row mb-3">
 									<div class="col-md-3">

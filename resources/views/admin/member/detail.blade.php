@@ -43,7 +43,7 @@
 										</button>
 									</a>
 								</div>
-							</div>	
+							</div>
 							<br><br><br><br><br><br>
 							<h5>Point History</h5>
 							<div class="col-xl">
@@ -54,41 +54,34 @@
 											<div class="col-12">
 												<div class="row mb-3">
 													<div class="col-md-1">
-														<label for="employee_id" class="form-label">Date</label>
-														
+														<label for="employee_id" class="form-label">Date</label>		
 													</div>
 													<div class="col-md-1">
 														<label for="name" class="form-label">Point in</label>
-													
 													</div>
 													<div class="col-md-1">
 														<label for="phone" class="form-label">Redeem</label>
-													
 													</div>
 													<div class="col-md-1">
 														<label for="member_point" class="form-label">Member ID</label>
-													
 													</div>
 												</div>
-												
-												<div class="row mb-3 border-9">
-													<div class="col-md-1">
-													
-														<div>{!! date('M-j-Y', strtotime($point_list->created_at)) !!}</div>
+												@foreach($point_list as $point)
+													<div class="row mb-3 border-9">
+														<div class="col-md-1">
+															<div>{!! date('M-j-Y', strtotime($point->created_at)) !!}</div>
+														</div>
+														<div class="col-md-1">
+															<div>+{!! $point->point_in !!}</div>
+														</div>
+														<div class="col-md-1">
+															<div>-{!! $point->redeem !!}</div>
+														</div>
+														<div class="col-md-1">
+															<div>{!! $point->employee_id !!}&nbsp;</div>
+														</div>
 													</div>
-													<div class="col-md-1">
-												
-														<div>+{!! $point_list->point_in !!}</div>
-													</div>
-													<div class="col-md-1">
-														
-														<div>-{!! $point_list->redeem !!}</div>
-													</div>
-													<div class="col-md-1">
-														
-														<div>{!! $point_list->employee_id !!}&nbsp;</div>
-													</div>
-												</div>
+												@endforeach
 												</div>
 											</div>	
 										</form>	

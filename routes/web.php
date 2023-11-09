@@ -63,7 +63,8 @@ Route::get('/admin/addpoints/','App\Http\Controllers\Admin\AddPointController@ad
 Route::post('/admin/addpoints/point/','App\Http\Controllers\Admin\AddPointController@showInfo');
 Route::post('/admin/addpoints/pointAdd/','App\Http\Controllers\Admin\AddPointController@pointAdd');
 Route::get('/admin/redeem/','App\Http\Controllers\Admin\AddPointController@redeem');
-Route::post('/admin/addpoints/redeempoint/','App\Http\Controllers\Admin\AddPointController@redeemInfo');
+Route::post('/admin/redeem/redeempoint/','App\Http\Controllers\Admin\AddPointController@redeemInfo');
+Route::post('/admin/redeem/pointRedeem/','App\Http\Controllers\Admin\AddPointController@pointRedeem');
 
 
 //Export

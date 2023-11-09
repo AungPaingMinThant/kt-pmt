@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="{{ url('/css/perfect-scrollbar.css') }}" />
 
     <script src="{{ url('/js/helpers.js') }}"></script>
-
+	
     <script src="{{ url('/js/config.js') }}"></script>
 </head>
 <body>
@@ -85,16 +85,40 @@
 						<div class="border-8">
 							<div class="row">
 								{{-- <h1>Point add successfully</h1> --}}
-								<div class="dropdown">
+								{{-- <div class="dropdown">
 									<button class="btn btn-secondary dropdown-toggle" type="text" data-bs-toggle="dropdown" aria-expanded="false">
 									  Dropdown button
-									</button>
-									<ul class="dropdown-menu">
-									  <li><a class="dropdown-item" href="#">Action</a></li>
-									  <li><a class="dropdown-item" href="#">Another action</a></li>
-									  <li><a class="dropdown-item" href="#">Something else here</a></li>
-									</ul>
-								  </div>
+									</button> --}}
+									<div class="col-xl">
+										<div class="card-body_detail">
+											<form class="mb-3" action="{{ url('/admin/member/edit/{member_id}') }}" method="POST" id="fx_form" enctype="multipart/form-data" >
+												{{ csrf_field() }}
+												<div class="col-12">
+													<div class="row mb-3">
+														<div class="col-md-2">
+															<label for="employee_id" class="form-label">Date</label>
+															
+														</div>
+														<div class="col-md-2">
+															<label for="name" class="form-label">Point in</label>
+														
+														</div>
+														<div class="col-md-2">
+															<label for="phone" class="form-label">Redeem</label>
+														
+														</div>
+														<div class="col-md-2">
+															<label for="member_point" class="form-label">Member ID</label>
+														
+														</div>
+													</div>
+													
+													</div>
+												</div>	
+											</form>	
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>

@@ -19,10 +19,11 @@
 					
 					<div class="row">
 						<div class="col-12 text-right">
-							{{-- <input type="search" class="form-control rounded" placeholder="Search by name" aria-label="Search" aria-describedby="search-addon" />
-							<input type="search" class="form-control rounded" placeholder="Search by name" aria-label="Search" aria-describedby="search-addon" /> --}}
+							<label class="" for="show_entries">All(22)</label>
+							<input type="search" class="form-control_date rounded" placeholder="mm-dd-yy" aria-label="Search" aria-describedby="search-addon" />&nbsp;&nbsp;
+							<input type="search" class="form-control_name rounded" placeholder="Search by name" aria-label="Search" aria-describedby="search-addon" />
 							<a href="{{ url('/admin/blog/add') }}">
-								<button type="button" class="btn  btn-outline-primary flr">Filter</button>
+								<button type="button" class="btn  btn-outline-primary_filter flr">Filter</button>
 							</a>
 						</div>
     					
@@ -104,6 +105,18 @@
 								</div>
 							</div>
 						</div>
+						{{-- <div class="col-md-12">
+							<div class="row">
+								<div class="col-md-4 entries_count_col">
+									<p>Showing <span class="first_bl_count">{{$first_member_count}}</span> to <span class="last_bl_count">{{ $last_member_count }}</span> of <span class="total_member">{{ count($total_member) }}</span> entries</p>
+								</div>
+								<div class="col-md-8">
+									@if($show_ent != '0')
+										{{ $member_list->onEachSide(3)->appends(request()->input())->links(); }}
+									@endif
+								</div>
+							</div>
+						</div> --}}
 					</div>
 				</div>
 			</div>
