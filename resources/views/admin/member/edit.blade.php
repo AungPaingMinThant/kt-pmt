@@ -44,9 +44,7 @@
 									<div class="mb-4">
 										<span class="fill" style="margin-left: 20px">Fill in the bank information</span>
 										<div class="space-10"></div>
-										<a href="{{ url('/admin/member/update') }}">
 											<button type="submit" class="btn  btn-outline-primary d-grid w-30" style="margin-left: 20px">Save Change</button>
-										</a>
 									</div>
 								</form>
 							</div>

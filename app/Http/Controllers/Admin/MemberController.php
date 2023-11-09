@@ -35,7 +35,7 @@ class MemberController extends Controller
         $member_list = DB::table('members')->where('id',$member_id)->first();
         return view('admin.member.edit')->with('member_list',$member_list);
     } 
-
+    
     public function update(Request $request)
     {
         $member_id = $request->member_id;
