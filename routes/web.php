@@ -1,9 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\SimplePayController;
 use App\Http\Controllers\Admin\AddPointController;
-use App\Http\Controllers\Admin\AboutAYA\AwardsController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -53,7 +51,6 @@ Route::get('/admin/member/detail/{member_id}','App\Http\Controllers\Admin\Member
 Route::get('/admin/member/edit/{member_id}', 'App\Http\Controllers\Admin\MemberController@edit');
 Route::post('/admin/member/update/', 'App\Http\Controllers\Admin\MemberController@update');
 Route::post('/admin/member/filter/', 'App\Http\Controllers\Admin\MemberController@filter');
-
 
 //create member
 Route::get('/admin/create','App\Http\Controllers\Admin\CreateMemberController@index');

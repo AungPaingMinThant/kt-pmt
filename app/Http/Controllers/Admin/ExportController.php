@@ -16,10 +16,10 @@ class ExportController extends Controller
         $this->middleware('auth.admin');
     }
 
-    // public function export()
-    // {
-    //     return view('admin.export.list');
-    // }
+    public function export()
+    {
+        return view('admin.export.list');
+    }
     // public function exportData(Request $request)
     // {
     //     $fromDate = $request->input('from_date');

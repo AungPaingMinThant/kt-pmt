@@ -21,11 +21,14 @@ class MemberController extends Controller
         $member_list = DB::table('members')->get();
         return view('admin.member.list')->with('member_list',$member_list);
     }
+    // public function memberShow(){
+    //     $member_list = DB::table('members')->get();
+    //     $totalMembersCount = count($member_list); // Calculate the total member count
     
-    public function memberShow(){
-        $member_list = DB::table('members')->get();
-        return view ('admin.member')->with('member_list',$member_list);
-    }
+    //     return view('admin.member')->with('member_list', $member_list)->with('totalMembersCount', $totalMembersCount);
+    // }
+    
+    
     public function detail($member_id) {
         $member_list = DB::table('members')->where('id', $member_id)->first();
         $point_list = DB::table('points')->where('employee_id', $member_list->employee_id)->get();

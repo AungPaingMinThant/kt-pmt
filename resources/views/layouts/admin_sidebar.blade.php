@@ -1,7 +1,7 @@
 <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
   	<div class="app-brand demo">
     	<a href="{{ url('/') }}" target="_blank" class="app-brand-link">
-    		<img src="{{ url('/images/kt-text-logo.png') }}" class="img-fluid" style="width: 70%;margin: 0 auto;">
+    		<img src="{{ url('/images/kt-text-logo.png') }}" class="img-fluid" style="width: 63%;margin: 0 auto;">
 		</a>
 
 		<a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
@@ -11,7 +11,7 @@
 
 	<div class="menu-inner-shadow"></div>
 
-	<ul class="menu-inner py-1"  style="background-color: #23225C">
+	<ul class="menu-inner py-1"  style="background-color: #23225C;margin-right: -18px;">
 		<!-- Member List -->
 		@if($page == 'MemberList')
 			<li class="menu-item active">
@@ -59,6 +59,7 @@
 				<div>Redeem</div>
 			</a>
 		</li>
+		
 
 		<!-- Export -->
 		@if($page == 'Export')
@@ -72,8 +73,17 @@
 			</a>
 		</li>
 
-
-
+		{{-- Logout --}}
+		@if($page == 'Logout')
+			<li class="menu-item active">
+		@else
+			<li class="menu-item">
+		@endif
+			<a href="{{ url('/admin/logout') }}" class="menu-link" style="position:fixed;margin-top:500px;">
+				<i class='menu-icon tf-icons bx bx-log-out-circle'></i>
+				<div>Logout</div>
+			</a>
+		</li>
 	</ul>
 </aside> 	
 
