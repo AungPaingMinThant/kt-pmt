@@ -11,8 +11,9 @@
 
 	<div class="menu-inner-shadow"></div>
 
-	<ul class="menu-inner py-1"  style="background-color: #23225C;margin-right: -18px;">
+	<ul class="menu-inner py-1"  style="background-color: #23225C;margin-right: -3px;">
 		<!-- Member List -->
+		<br>
 		@if($page == 'MemberList')
 			<li class="menu-item active">
 		@else
@@ -59,7 +60,7 @@
 				<div>Redeem</div>
 			</a>
 		</li>
-		
+
 
 		<!-- Export -->
 		@if($page == 'Export')

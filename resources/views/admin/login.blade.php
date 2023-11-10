@@ -4,7 +4,7 @@
 
 <link rel="stylesheet" href="{{ url('/css/page-auth.css') }}" />
 @section('content')
-
+<body style="background-color: #23225C">
 <div class="container-xxl">
 	<div class="authentication-wrapper authentication-basic container-p-y">
 		<div class="authentication-inner">
@@ -70,6 +70,7 @@
 		</div>
 	</div>
 </div>
+</body>
 <script type="text/javascript">
 	$.getJSON("https://api.ipify.org?format=json",
         function(data) {

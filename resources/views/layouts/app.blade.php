@@ -22,8 +22,7 @@
 
     <style type="text/css">
         html, body{
-            font-family: 'Sora', sans-serif;
-            background-color: #23225C;
+            background-color: #fff;
         }
         .navbar-nav > .nav-item {
             font-size: 16px !important;

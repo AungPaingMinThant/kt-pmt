@@ -48,7 +48,7 @@
 								{{ csrf_field() }}
 								<div class="row mb-3">
 									<div class="col-md-3">
-										<label for="employee_id" class="form-label">Employee ID</label>
+										<label for="employee_id" class="form-label">Member ID</label>
 									</div>&nbsp;&nbsp;&nbsp;
 									<div class="col-md-2">
 										<input type="text" class="form-control_create" id="employee_id" name="employee_id"  placeholder=""/>
@@ -80,7 +80,6 @@
 									<span class="fill">Fill in the bank information</span>
 									<div class="space-10"></div>
 										<button type="submit" class="btn  btn-outline-primary d-grid w-30">Save Change</button>
-									
 								</div>
 							</form>
 						</div>
@@ -109,19 +108,19 @@
 				$("#memberPoints").text('0 Pt');
 			}
 		});
-		// var lastGeneratedNumber = 1000;
+		var lastGeneratedNumber = 1000;
 
-		// function generateRandomEmployeeID() {
-			
-		// 	lastGeneratedNumber += 1;
-		// 	if (lastGeneratedNumber > 9999) {
-		// 		lastGeneratedNumber = 1001;
-		// 	}
-		// 	return "KT_M_" + lastGeneratedNumber;
-		// }
 		function generateRandomEmployeeID() {
-        return "KT_M_" + Math.floor(Math.random() * 9000 + 1001);
-        }
+			
+			lastGeneratedNumber += 1;
+			if (lastGeneratedNumber > 9999) {
+				lastGeneratedNumber = 1001;
+			}
+			return "KT_M_" + lastGeneratedNumber;
+		}
+		// function generateRandomEmployeeID() {
+        // return "KT_M_" + Math.floor(Math.random() * 9000 + 1001);
+        // }
         $("#employee_id").focus(function(){
             var randomEmployeeID = generateRandomEmployeeID();
             $(this).val(randomEmployeeID);
