@@ -32,6 +32,10 @@
 										<label for="phone" class="form-label">Phone</label>
 										<div>{!! $member_list->phone !!}</div>
 									</div>&nbsp;&nbsp;&nbsp;
+									<div class="col-md-2">
+										<label for="member_point" class="form-label">Total Points</label>
+										<div>{!! $member_list->member_point !!}&nbsp;Pts</div>
+									</div>
 								</div>
 								<form id="formAuthentication" class="mb-3" action="{{ url('/admin/redeem/pointRedeem/') }}" method="POST">
 									{{ csrf_field() }}

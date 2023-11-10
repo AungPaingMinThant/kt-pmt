@@ -16,18 +16,18 @@ class ExportController extends Controller
         $this->middleware('auth.admin');
     }
 
-    public function export()
-    {
-        return view('admin.export.list');
-    }
-    public function exportData(Request $request)
-    {
-        $fromDate = $request->input('from_date');
-        $toDate = $request->input('to_date');
+    // public function export()
+    // {
+    //     return view('admin.export.list');
+    // }
+    // public function exportData(Request $request)
+    // {
+    //     $fromDate = $request->input('from_date');
+    //     $toDate = $request->input('to_date');
       
-        $exportedData = Member::whereBetween('created_at', [$fromDate, $toDate])->get();
-        return Excel::download(new MemberExport($exportedData), 'members.xlsx');
-    }
+    //     $exportedData = Member::whereBetween('created_at', [$fromDate, $toDate])->get();
+    //     return Excel::download(new MemberExport($exportedData), 'members.xlsx');
+    // }
 }
 
 

@@ -20,9 +20,9 @@
 					<div class="row">
 						<div class="col-12 text-right">
 							<label class="" for="show_entries">All(22)</label>
-							<input type="search" class="form-control_date rounded" placeholder="mm-dd-yy" aria-label="Search" aria-describedby="search-addon" />&nbsp;&nbsp;
+							<input type="date" class="form-control_date rounded" placeholder="mm-dd-yy" aria-label="Search" aria-describedby="search-addon" />&nbsp;&nbsp;
 							<input type="search" class="form-control_name rounded" placeholder="Search by name" aria-label="Search" aria-describedby="search-addon" />
-							<a href="{{ url('/admin/blog/add') }}">
+							<a href="{{ url('/admin/member/filter/') }}">
 								<button type="button" class="btn  btn-outline-primary_filter flr">Filter</button>
 							</a>
 						</div>

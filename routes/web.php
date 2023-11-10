@@ -52,6 +52,7 @@ Route::get('/admin/member/add','App\Http\Controllers\Admin\MemberController@addM
 Route::get('/admin/member/detail/{member_id}','App\Http\Controllers\Admin\MemberController@detail');
 Route::get('/admin/member/edit/{member_id}', 'App\Http\Controllers\Admin\MemberController@edit');
 Route::post('/admin/member/update/', 'App\Http\Controllers\Admin\MemberController@update');
+Route::post('/admin/member/filter/', 'App\Http\Controllers\Admin\MemberController@filter');
 
 
 //create member
@@ -76,12 +77,6 @@ Route::get('/admin/logout','App\Http\Controllers\Admin\AdminController@logout');
 Route::any('/','App\Http\Controllers\HomeController@indexNew');
 
 // Redirect
-Route::get('/smefinancing ', function () {
-    return redirect('/business/borrowing/sme#micro_loan');
-});
-Route::get('/microloan ', function () {
-    return redirect('/business/borrowing/sme#micro_loan');
-});
 Route::any('/home','App\Http\Controllers\HomeController@indexNew');
 
 

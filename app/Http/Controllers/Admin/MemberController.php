@@ -52,4 +52,25 @@ class MemberController extends Controller
             $member_list = DB::table('members')->where('id',$member_id)->get();
             return redirect('/admin/member')->with('success', 'Member information updated successfully');
     }
+
+    public function filter(Request $request)
+    {
+        $member = Member::query();
+
+        // Search by date
+        $created_at = $request->input('created_at');
+        if ($created_at) {
+            $query->whereDate('created_at', '=', \Carbon\Carbon::parse($created_at)->format('M-d-y'));
+        }
+
+        // Search by name
+        $name = $request->input('name');
+        if ($name) {
+            $query->where('name', 'like', '%' . $name . '%');
+        }
+       
+        $results = $query->get();
+        return view('admin.member.list', ['results' => $results]);
+    }
+
 }
