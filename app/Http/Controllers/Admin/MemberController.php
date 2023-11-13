@@ -21,13 +21,6 @@ class MemberController extends Controller
         $member_list = DB::table('members')->get();
         return view('admin.member.list')->with('member_list',$member_list);
     }
-    // public function memberShow(){
-    //     $member_list = DB::table('members')->get();
-    //     $totalMembersCount = count($member_list); // Calculate the total member count
-    
-    //     return view('admin.member')->with('member_list', $member_list)->with('totalMembersCount', $totalMembersCount);
-    // }
-    
     
     public function detail($member_id) {
         $member_list = DB::table('members')->where('id', $member_id)->first();
