@@ -122,15 +122,26 @@
 			}
 			return "KT_M_" + lastGeneratedNumber;
 		}
+		function fetchLatestEmployeeID() {
+		
+		$.ajax({
+			url: '/getLatestEmployeeID',
+			method: 'GET',
+			success: function (data) {
+				lastGeneratedNumber = parseInt(data) || 1000;
+				lastGeneratedNumber += 1;
+			},
+			error: function () {
+			
+			}
+		});
+		}
+		fetchLatestEmployeeID();
 		$("#employee_id").text(generateRandomEmployeeID());
         // $("#employee_id").focus(function(){
         //     var randomEmployeeID = generateRandomEmployeeID();
         //     $(this).val(randomEmployeeID);
         // });
-
-		// function generateRandomEmployeeID() {
-        // return "KT_M_" + Math.floor(Math.random() * 9000 + 1001);
-        // }
 	</script>
 </body>
 </html>

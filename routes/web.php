@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\AddPointController;
+use Illuminate\Support\Facades\DB;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -55,6 +56,13 @@ Route::post('/admin/member/filter/', 'App\Http\Controllers\Admin\MemberControlle
 //create member
 Route::get('/admin/create','App\Http\Controllers\Admin\CreateMemberController@index');
 Route::post('/admin/addmember','App\Http\Controllers\Admin\CreateMemberController@addMember');
+
+
+Route::get('/getLatestEmployeeID', function () {
+    $latestEmployeeID = DB::table('members')->max('employee_id');
+    return response()->json($latestEmployeeID);
+});
+
 
 //add point
 Route::get('/admin/addpoints/','App\Http\Controllers\Admin\AddPointController@addPoint');
