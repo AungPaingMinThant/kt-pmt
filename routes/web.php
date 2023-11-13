@@ -58,12 +58,6 @@ Route::get('/admin/create','App\Http\Controllers\Admin\CreateMemberController@in
 Route::post('/admin/addmember','App\Http\Controllers\Admin\CreateMemberController@addMember');
 
 
-Route::get('/getLatestEmployeeID', function () {
-    $latestEmployeeID = DB::table('members')->max('employee_id');
-    return response()->json($latestEmployeeID);
-});
-
-
 //add point
 Route::get('/admin/addpoints/','App\Http\Controllers\Admin\AddPointController@addPoint');
 Route::post('/admin/addpoints/point/','App\Http\Controllers\Admin\AddPointController@showInfo');

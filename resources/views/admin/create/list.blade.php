@@ -49,19 +49,16 @@
 								<div class="row mb-3">
 									<div class="col-md-3">
 										<label for="employee_id" class="form-label">Member ID</label>
-									</div>&nbsp;&nbsp;&nbsp;
-									<!-- Assuming your view is list.blade.php -->
-									{{-- @foreach($member_list as $member) --}}
+									</div>
+
+									{{-- @foreach($member_list as $member){{ isset($employee_id) ? $employee_id : '' }} --}}
 									<div class="col-mb-2">
 										<p class="form-control_member" id="employee_id" name="employee_id"></p>
 									</div>
 									{{-- @endforeach --}}
-
 									<div class="col-mb-2">
 										<p class="form-control_member" id="employee_id" name="employee_id">{{$last_member_id}}</p>
 									</div>
-
-
 								</div>
 								<div class="row mb-3">
 									<div class="col-md-3">
@@ -117,36 +114,23 @@
 				$("#memberPoints").text('0 Pt');
 			}
 		});
-		var lastGeneratedNumber = 1000;
+		// var lastGeneratedNumber = 1000;
 
-		function generateRandomEmployeeID() {
-			
-			lastGeneratedNumber += 1;
-			if (lastGeneratedNumber > 9999) {
-				lastGeneratedNumber = 1001;
-			}
-			return "KT_M_" + lastGeneratedNumber;
-		}
-		function fetchLatestEmployeeID() {
+		// function generateRandomEmployeeID() {
+		// 	lastGeneratedNumber += 1;
+		// 	if (lastGeneratedNumber > 9999) {
+		// 		lastGeneratedNumber = 1001;
+		// 	}
+		// 	return "KT_M_" + lastGeneratedNumber;
+		// }
+
+		// function updateEmployeeIDCount() {
+		// 	var randomEmployeeID = generateRandomEmployeeID();
+		// 	$("#employee_id").text(randomEmployeeID);
+		// }
+		// updateEmployeeIDCount();
 		
-		$.ajax({
-			url: '/getLatestEmployeeID',
-			method: 'GET',
-			success: function (data) {
-				lastGeneratedNumber = parseInt(data) || 1000;
-				lastGeneratedNumber += 1;
-			},
-			error: function () {
-			
-			}
-		});
-		}
-		fetchLatestEmployeeID();
-		$("#employee_id").text(generateRandomEmployeeID());
-        // $("#employee_id").focus(function(){
-        //     var randomEmployeeID = generateRandomEmployeeID();
-        //     $(this).val(randomEmployeeID);
-        // });
+		// $("#employee_id").text(generateRandomEmployeeID());
 	</script>
 </body>
 </html>
