@@ -53,10 +53,8 @@
 
 									{{-- @foreach($member_list as $member){{ isset($employee_id) ? $employee_id : '' }} --}}
 									<div class="col-mb-2">
-										<p class="form-control_member" id="employee_id" name="employee_id">{{ $employee_id }}</p>
+										<p class="form-control_member" id="employee_id" name="employee_id"></p>
 									</div>
-									
-									
 									{{-- @endforeach --}}
 								
 								</div>

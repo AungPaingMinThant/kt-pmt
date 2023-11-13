@@ -36,9 +36,12 @@ class CreateMemberController extends Controller
     
         $pointsToAdd = floor($amount / 5000);
         $member_point += $pointsToAdd;
-    
+
         $latestEmployeeID = Cache::get('last_generated_number', 1000);
         $latestEmployeeID += 1;
+        if ($latestEmployeeID > 9999) {
+            $latestEmployeeID = 1001;
+        }
         Cache::put('last_generated_number', $latestEmployeeID, now()->addDay());
         $employee_id = "KT_M_" . $latestEmployeeID;
     
@@ -53,9 +56,10 @@ class CreateMemberController extends Controller
         $member->updated_by = auth()->user()->id;
         $member->save();
         
-        $member_list = DB::table('members')->get(); 
-        return view('admin.create.list', ['employee_id' => $employee_id])
+        $member_list = DB::table('members')->get();
+        return view('admin.member.list', ['employee_id' => $employee_id, 'member_list' => $member_list])
             ->with('success', 'Member added successfully.');
+        
     }
     
 }
