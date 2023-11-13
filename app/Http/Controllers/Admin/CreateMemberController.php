@@ -28,6 +28,7 @@ class CreateMemberController extends Controller
     public function addMember(Request $request)
     {
         $id = $request->id;
+        $employee_id = $request->employee_id;
         $name = $request->name;
         $phone = $request->phone;
         $amount = $request->amount;
