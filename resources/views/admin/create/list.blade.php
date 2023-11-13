@@ -57,6 +57,11 @@
 									</div>
 									{{-- @endforeach --}}
 
+									<div class="col-mb-2">
+										<p class="form-control_member" id="employee_id" name="employee_id">{{$last_member_id}}</p>
+									</div>
+
+
 								</div>
 								<div class="row mb-3">
 									<div class="col-md-3">
