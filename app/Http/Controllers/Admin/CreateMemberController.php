@@ -58,8 +58,7 @@ class CreateMemberController extends Controller
         
         $member_list = DB::table('members')->get();
         return view('admin.member.list', ['employee_id' => $employee_id, 'member_list' => $member_list])
-            ->with('success', 'Member added successfully.');
-        
+            ->with('success', 'Member added successfully.');  
     }
     
 }
