@@ -50,9 +50,13 @@
 									<div class="col-md-3">
 										<label for="employee_id" class="form-label">Member ID</label>
 									</div>&nbsp;&nbsp;&nbsp;
-									<div class="col-md-2">
-										<input type="text" class="form-control_create" id="employee_id" name="employee_id"  placeholder=""/>
+									<!-- Assuming your view is list.blade.php -->
+									{{-- @foreach($member_list as $member) --}}
+									<div class="col-mb-2">
+										<p class="form-control_member" id="employee_id" name="employee_id"></p>
 									</div>
+									{{-- @endforeach --}}
+
 								</div>
 								<div class="row mb-3">
 									<div class="col-md-3">
@@ -118,13 +122,15 @@
 			}
 			return "KT_M_" + lastGeneratedNumber;
 		}
+		$("#employee_id").text(generateRandomEmployeeID());
+        // $("#employee_id").focus(function(){
+        //     var randomEmployeeID = generateRandomEmployeeID();
+        //     $(this).val(randomEmployeeID);
+        // });
+
 		// function generateRandomEmployeeID() {
         // return "KT_M_" + Math.floor(Math.random() * 9000 + 1001);
         // }
-        $("#employee_id").focus(function(){
-            var randomEmployeeID = generateRandomEmployeeID();
-            $(this).val(randomEmployeeID);
-        });
 	</script>
 </body>
 </html>

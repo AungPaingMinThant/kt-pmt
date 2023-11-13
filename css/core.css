@@ -2256,6 +2256,26 @@ progress {
   border-radius: 1.375rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+.form-control_member {
+  text-align: center;
+  display: block;
+  margin-left: 110px;
+  margin-top: -36px;
+  width: 10%;
+  padding: 0.4375rem 0.875rem;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.53;
+  background-color: #6a4804d1;
+  background-clip: padding-box;
+  border: 1px solid #d9dee3;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 1.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
 .addpoint {
   text-align: center;
     display: block;

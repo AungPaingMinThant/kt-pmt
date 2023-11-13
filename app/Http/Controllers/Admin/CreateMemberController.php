@@ -46,7 +46,12 @@ class CreateMemberController extends Controller
         $member->updated_by = auth()->user()->id;
         $member->save();
         
-        $member_list = DB::table('members')->get(); 
-        return redirect('/admin/create')->with('success','Member added successfully.');
+        $member_list = DB::table('members')->get();
+        return view('admin.create.list', ['employee_id' => $employee_id, 'member_list' => $member_list])
+        ->with('success', 'Member added successfully.');
+    }
+    private function generateRandomEmployeeID()
+    {
+        return 'KT_M_' . uniqid();
     }
 }
