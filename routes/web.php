@@ -55,12 +55,13 @@ Route::post('/admin/member/filter/', 'App\Http\Controllers\Admin\MemberControlle
 
 //create member
 Route::get('/admin/create','App\Http\Controllers\Admin\CreateMemberController@index');
+Route::get('/admin/create/{member_id}', 'App\Http\Controllers\Admin\CreateMemberController@memberCreateIndex');
 Route::post('/admin/addmember','App\Http\Controllers\Admin\CreateMemberController@addMember');
 
 
 //add point
 Route::get('/admin/addpoints/','App\Http\Controllers\Admin\AddPointController@addPoint');
-Route::post('/admin/addpoints/point/','App\Http\Controllers\Admin\AddPointController@showInfo');
+Route::post('/admin/addpoints/check-number/','App\Http\Controllers\Admin\AddPointController@showInfo');
 Route::post('/admin/addpoints/pointAdd/','App\Http\Controllers\Admin\AddPointController@pointAdd');
 Route::get('/admin/redeem/','App\Http\Controllers\Admin\AddPointController@redeem');
 Route::post('/admin/redeem/redeempoint/','App\Http\Controllers\Admin\AddPointController@redeemInfo');
@@ -69,7 +70,7 @@ Route::post('/admin/redeem/pointRedeem/','App\Http\Controllers\Admin\AddPointCon
 
 //Export
 Route::get('/admin/export/list', 'App\Http\Controllers\Admin\ExportController@export');
-Route::post('/admin/export', 'App\Http\Controllers\Admin\ExportController@exportData');
+Route::post('/members/export', 'App\Http\Controllers\Admin\ExportController@exportData');
 
 //logout
 Route::get('/admin/logout','App\Http\Controllers\Admin\AdminController@logout');

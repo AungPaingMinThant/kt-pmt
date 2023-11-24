@@ -1,6 +1,4 @@
-<nav
-class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme"
-id="layout-navbar">
+<nav class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme" id="layout-navbar">
     <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
       	<a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
         	<i class="bx bx-menu bx-sm"></i>
@@ -13,7 +11,7 @@ id="layout-navbar">
 			<div class="nav-item d-flex align-items-center">
 				<h5 class="m-0 me-2 pb-0">
 					@if($page == 'MemberList' || $page == 'CreateMember' || $page == 'AddPoint' || $page == 'Redeem' || $page == 'Export')
-						<a href="{{ url('/admin/pagelist/about-aya') }}" style="cursor: pointer;"><i class="menu-icon tf-icons bx bx-chevrons-left"></i></a>&nbsp;&nbsp;
+						<a href="{{ url('/admin/pagelist/about-aya') }}" style="cursor: pointer;"></a>
 					@endif
 					{{ $nav }}
 				</h5>
@@ -38,6 +36,6 @@ id="layout-navbar">
 				</ul>
 			</li>
             <!--/ User -->
-      </ul>
+      	</ul>
     </div>
-	</nav>
+</nav>

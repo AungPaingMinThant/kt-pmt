@@ -26,62 +26,46 @@ class CreateMemberController extends Controller
         $member_id = MemberID::orderBy('id','desc')->first();
 
         if (isset($member_id)) {
-            $last_member_id = int($member_id->generated_ID) + 1;
+            $last_member_id = $member_id->generated_ID + 1;
+            $last_member_id = str_pad($last_member_id,4,"0",STR_PAD_LEFT);
         } else {
-            $last_member_id = '001';
+            $last_member_id = '0001';
         }
 
-        $member_exist = Member::where('employee_id','KT_M_'.$last_member_id)->first();
+        $member_id_gen = new MemberID;
+        $member_id_gen->generated_ID = $last_member_id;     
+        $member_id_gen->created_by = auth()->user()->id;
+        $member_id_gen->updated_by = auth()->user()->id;
+        $member_id_gen->save();
 
-        if (isset($member_exist)) {
-            return view('admin.create.list')->with('member_list',$member_list)
-                                            ->with('last_member_id', $last_member_id);
-        } else {
-            $member_id_gen = new MemberID;
-            $member_id_gen->generated_ID = $last_member_id;     
-            $member_id_gen->created_by = auth()->user()->id;
-            $member_id_gen->updated_by = auth()->user()->id;
-            $member_id_gen->save();
-
-            return view('admin.create.list')->with('member_list',$member_list)
-                                            ->with('last_member_id', $last_member_id);
-        }
+        return redirect('/admin/create/'.$last_member_id);
 
     }
 
+    public function memberCreateIndex($member_id)
+    {
+        return view('admin.create.list')->with('member_id', $member_id);
+    }
+
+    
     public function addMember(Request $request)
     {
-        $id = $request->id;
-        $employee_id = $request->employee_id;
+        $member_id = 'KT_M_'.$request->member_id;
         $name = $request->name;
         $phone = $request->phone;
         $amount = $request->amount;
         $member_point = $request->member_point;
     
-        $pointsToAdd = floor($amount / 5000);
-        $member_point += $pointsToAdd;
-
-        $latestEmployeeID = Cache::get('last_generated_number', 1000);
-        $latestEmployeeID += 1;
-        if ($latestEmployeeID > 9999) {
-            $latestEmployeeID = 1001;
-        }
-        Cache::put('last_generated_number', $latestEmployeeID, now()->addDay());
-        $employee_id = "KT_M_" . $latestEmployeeID;
-    
         $member = new Member;
-        $member->employee_id = $employee_id;
+        $member->employee_id = $member_id;
         $member->name = $name;
         $member->phone = $phone;
         $member->amount = $amount;
-        $member->member_point = $member_point;
-    
+        $member->member_point = $member_point;    
         $member->created_by = auth()->user()->id;
         $member->updated_by = auth()->user()->id;
         $member->save();
-        
-        $member_list = DB::table('members')->get();
-        return view('admin.member.list', ['employee_id' => $employee_id, 'member_list' => $member_list])
-            ->with('success', 'Member added successfully.');  
-    }   
+
+        return redirect('/admin/member');
+    }
 }

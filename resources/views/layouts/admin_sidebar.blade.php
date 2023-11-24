@@ -11,7 +11,7 @@
 
 	<div class="menu-inner-shadow"></div>
 
-	<ul class="menu-inner py-1"  style="background-color: #23225C;margin-right: -3px;">
+	<ul class="menu-inner py-1"  style="background-color: #23225C;">
 		<!-- Member List -->
 		<br>
 		@if($page == 'MemberList')

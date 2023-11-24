@@ -2,11 +2,25 @@
 
 @section('title', 'Add Points - Khit Thit ')
 <style type="text/css">
-	.flr {
-		float: right;
+	.form-box {
+		border: 2px solid #CB9D4C;
+		border-radius: 10px;
+		padding: 30px 20px;
 	}
-    .table {
-		color: #566a7f !important;
+	.form-input-txt {
+		border: 0.5px solid #CB9D4C !important;
+		border-radius: 50px !important;
+	}
+	.check-number-btn {
+		border-radius: 50px !important;
+		background-color: #fff;
+		border-color: #23225C !important;
+		color: #23225C !important;
+	}
+	.check-number-btn:hover {
+		background-color: #23225C !important;
+		border-color: #23225C !important;
+		color: #fff !important;
 	}
 </style>
 @section('content')
@@ -19,27 +33,25 @@
             <br>
             <div class="content-wrapper" style="background-color:#fff">
 				<div class="container-xxl flex-grow-1 container-p-y">
-				
-					<br>
-					<div class="border border-9">
+					<div class="form-box">
 						<div class="row">
-							<form id="formAuthentication" class="mb-3" action="{{ url('/admin/addpoints/point/') }}" method="POST">
+							<form id="formAuthentication" class="mb-3" action="{{ url('/admin/addpoints/check-number') }}" method="POST">
 								{{ csrf_field() }}
 								<div class="row mb-3">
 									<div class="col-md-3">
 										<label for="phone" class="form-label">Phone</label>
-										<input type="text" class="form-control_create" id="phone" name="phone" placeholder="09 123 456 789"/>
+										<input type="text" class="form-control form-input-txt" id="phone" name="phone" placeholder="09 123 456 789" required />
+									</div>
+									<div class="col-md-3">
+										<label for="phone" class="form-label">&nbsp;</label>
+										<button type="submit" class="btn check-number-btn btn-outline-primary d-grid w-30" >Check Number</button>
 									</div>
                                 </div>
-                                    <div class="mb-3">  
-                                    	<button type="submit" class="btn  btn-outline-primary d-grid w-30" style="margin-top: -58px;">Check Number</button>  
-                                    </div>
 							</form>
 						</div>
 					</div>
 				</div>
 			</div>
-        
 	</div>
 </div>
 

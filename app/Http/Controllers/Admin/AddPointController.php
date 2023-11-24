@@ -32,13 +32,18 @@ class AddPointController extends Controller
     public function showInfo(Request $request) {
         $phone = $request->phone;
         $member_list = DB::table('members')->where('phone', $phone)->first();
+        
         if ($member_list) {
-            return view('admin.addpoints.add')->with('member_list', $member_list);
+            // Assuming $point_list is required for this view
+            $point_list = DB::table('points')->where('employee_id', $member_list->employee_id)->get();
+    
+            return view('admin.addpoints.add')->with('member_list', $member_list)->with('point_list', $point_list);
         } else {
             $error = "Member not found with the provided phone number.";
             return redirect('admin/addpoints')->with('error', $error);
         }
     }
+    
 
     public function viewPointHistory(Request $request) {
         
@@ -90,7 +95,7 @@ class AddPointController extends Controller
         }
         
         $point_list = DB::table('points')->get(); 
-        return redirect('admin/addpoints')->with('success', 'Points added successfully.');
+        return redirect('admin/addpoints')->with('point_added_success', true);
     }   
 
     public function pointRedeem(Request $request) {
@@ -98,14 +103,13 @@ class AddPointController extends Controller
         $employee_id = $request->employee_id;
         $redeem = $request->redeem;
     
-        // Update points table
         $point = new Point;
         $point->employee_id = $employee_id;
         $point->redeem = $redeem;
         $point->created_by = auth()->user()->id;
         $point->updated_by = auth()->user()->id;
         $point->save();
-    
+        
         // Update member table
         $member = Member::where('employee_id', $employee_id)->first();
     

@@ -19,8 +19,13 @@ class MemberController extends Controller
     {
         $totalCount = Member::count();
         $member_list = DB::table('members')->get();
-        return view('admin.member.list')->with('member_list',$member_list);
+    
+        return view('admin.member.list', [
+            'member_list' => $member_list,
+            'totalCount' => $totalCount,
+        ]);
     }
+    
     
     public function detail($member_id) {
         $member_list = DB::table('members')->where('id', $member_id)->first();
@@ -51,22 +56,26 @@ class MemberController extends Controller
 
     public function filter(Request $request)
     {
-        $member = Member::query();
-
+        $query = Member::query();
+    
         // Search by date
         $created_at = $request->input('created_at');
         if ($created_at) {
-            $query->whereDate('created_at', '=', \Carbon\Carbon::parse($created_at)->format('M-d-y'));
+            $query->whereDate('created_at', '=', \Carbon\Carbon::parse($created_at)->format('Y-m-d'));
         }
-
+    
         // Search by name
         $name = $request->input('name');
         if ($name) {
             $query->where('name', 'like', '%' . $name . '%');
         }
-       
-        $results = $query->get();
-        return view('admin.member.list', ['results' => $results]);
-    }
-
+    
+        $member_list = $query->get();
+        $totalCount = Member::count();
+    
+        return view('admin.member.list', [
+            'member_list' => $member_list,
+            'totalCount' => $totalCount,
+        ]);
+    } 
 }
